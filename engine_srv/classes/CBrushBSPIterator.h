@@ -3,5 +3,5 @@
 class CBrushBSPIterator : public ISpatialLeafEnumerator
 {
 public:
-	virtual void EnumerateLeaf() override; // vtable[0]
+	virtual void EnumerateLeaf(intparam_1, intparam_2) override; // vtable[0]
 };

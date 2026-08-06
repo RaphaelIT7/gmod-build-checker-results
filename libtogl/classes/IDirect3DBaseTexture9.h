@@ -6,7 +6,7 @@ public:
 	virtual _ZN21IDirect3DBaseTexture9D1Ev() override; // vtable[0]
 	virtual ~IDirect3DBaseTexture9() override; // vtable[1]
 
-	void GetType(); // size[0]
-	void GetLevelCount(); // size[0]
-	void GetLevelDesc(); // size[0]
+	void GetType(); // size[11]
+	void GetLevelCount(); // size[17]
+	void GetLevelDesc(uintparam_1, _D3DSURFACE_DESC *param_2); // size[138]
 };

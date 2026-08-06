@@ -11,6 +11,6 @@ public:
 	virtual void ObjectCaps() override; // vtable[36]
 	virtual void Think() override; // vtable[48]
 
-	void _GLOBAL__sub_I_m_DataMap(); // size[0]
-	void GetBaseMap(); // size[0]
+	void _GLOBAL__sub_I_m_DataMap(); // size[118]
+	void GetBaseMap(); // size[10]
 };

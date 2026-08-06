@@ -8,5 +8,5 @@ public:
 	virtual ~CNPCEventResponseSystem() override; // vtable[14]
 	virtual void FrameUpdatePreEntityThink() override; // vtable[15]
 
-	void TriggerEvent(); // size[0]
+	void TriggerEvent(char *param_1, boolparam_2, boolparam_3); // size[568]
 };

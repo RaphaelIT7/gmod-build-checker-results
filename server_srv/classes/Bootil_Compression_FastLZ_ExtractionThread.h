@@ -12,8 +12,8 @@ public:
 	virtual void Success(); // vtable[6]
 	virtual void GetProgress(); // vtable[7]
 
-	void Destroy(); // size[0]
-	void GetProgress(); // size[0]
-	void Finished(); // size[0]
-	void Success(); // size[0]
+	void Destroy(); // size[7]
+	void GetProgress(); // size[7]
+	void Finished(); // size[7]
+	void Success(); // size[7]
 };

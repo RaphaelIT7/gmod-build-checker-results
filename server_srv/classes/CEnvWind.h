@@ -12,7 +12,7 @@ public:
 	virtual void Spawn() override; // vtable[23]
 	virtual void Precache() override; // vtable[24]
 
-	void InputSetWindDir(); // size[0]
-	void WindThink(); // size[0]
-	void GetBaseMap(); // size[0]
+	void InputSetWindDir(inputdata_t *param_1); // size[65]
+	void WindThink(); // size[80]
+	void GetBaseMap(); // size[10]
 };

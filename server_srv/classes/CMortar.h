@@ -9,6 +9,6 @@ public:
 	virtual void Spawn() override; // vtable[23]
 	virtual void Precache() override; // vtable[24]
 
-	void MortarExplode(); // size[0]
-	void GetBaseMap(); // size[0]
+	void MortarExplode(); // size[599]
+	void GetBaseMap(); // size[10]
 };

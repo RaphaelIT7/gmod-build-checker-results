@@ -10,8 +10,8 @@ public:
 	virtual void GetDataDescMap() override; // vtable[12]
 	virtual void Spawn() override; // vtable[23]
 
-	void GetBaseMap(); // size[0]
-	CVortigauntEffectDispel(); // size[0]
-	void CreateEffectDispel(); // size[0]
-	void FadeAndDie(); // size[0]
+	void GetBaseMap(); // size[10]
+	CVortigauntEffectDispel(); // size[26]
+	void CreateEffectDispel(Vector *param_1, CBaseEntity *param_2, CBaseEntity *param_3); // size[87]
+	void FadeAndDie(); // size[131]
 };

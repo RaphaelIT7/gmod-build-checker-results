@@ -9,8 +9,8 @@ public:
 	virtual void Spawn() override; // vtable[23]
 	virtual void Precache() override; // vtable[24]
 
-	void _GLOBAL__sub_I_m_DataMap(); // size[0]
-	void Precache(); // size[0]
-	void InputTrigger(); // size[0]
-	void GetBaseMap(); // size[0]
+	void _GLOBAL__sub_I_m_DataMap(); // size[113]
+	void Precache(); // size[67]
+	void InputTrigger(inputdata_t *param_1); // size[122]
+	void GetBaseMap(); // size[10]
 };

@@ -9,10 +9,10 @@ public:
 	virtual void Spawn() override; // vtable[23]
 	virtual void Activate() override; // vtable[34]
 
-	void GetBaseMap(); // size[0]
-	void CalculateFrameDuration(); // size[0]
-	void Link(); // size[0]
-	void SetKeyAngles(); // size[0]
-	void NextKey(); // size[0]
-	void InsertNewKey(); // size[0]
+	void GetBaseMap(); // size[10]
+	void CalculateFrameDuration(); // size[368]
+	void Link(); // size[136]
+	void SetKeyAngles(QAngleparam_1); // size[11]
+	void NextKey(intparam_1); // size[76]
+	void InsertNewKey(Vectorparam_1, QAngleparam_2); // size[402]
 };

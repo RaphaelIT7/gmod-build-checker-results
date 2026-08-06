@@ -11,6 +11,6 @@ public:
 	virtual void Spawn() override; // vtable[23]
 	virtual void ObjectCaps() override; // vtable[36]
 
-	void _GLOBAL__sub_I_GetServerClass(); // size[0]
-	void GetBaseMap(); // size[0]
+	void _GLOBAL__sub_I_GetServerClass(); // size[112]
+	void GetBaseMap(); // size[10]
 };

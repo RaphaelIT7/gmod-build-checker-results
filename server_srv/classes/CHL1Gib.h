@@ -8,9 +8,9 @@ public:
 	virtual void GetDataDescMap() override; // vtable[12]
 	virtual void ObjectCaps() override; // vtable[36]
 
-	void WaitTillLand(); // size[0]
-	void BounceGibTouch(); // size[0]
-	void StickyGibTouch(); // size[0]
-	void Spawn(); // size[0]
-	void GetBaseMap(); // size[0]
+	void WaitTillLand(); // size[199]
+	void BounceGibTouch(CBaseEntity *param_1); // size[720]
+	void StickyGibTouch(CBaseEntity *param_1); // size[140]
+	void Spawn(char *param_1); // size[45]
+	void GetBaseMap(); // size[10]
 };

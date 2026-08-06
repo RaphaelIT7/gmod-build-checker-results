@@ -6,9 +6,9 @@ public:
 	virtual void Finish(); // vtable[0]
 	virtual void GetMoreFiles(); // vtable[1]
 
-	void OnReceiveFileDetails(); // size[0]
-	UserPublishedFiles(); // size[0]
-	void Refresh(); // size[0]
-	void GetCurrentAmount(); // size[0]
-	void OnReceiveFileDetails(); // size[0]
+	void OnReceiveFileDetails(SteamUGCQueryCompleted_t *param_1, boolparam_2); // size[274]
+	UserPublishedFiles(); // size[101]
+	void Refresh(); // size[162]
+	void GetCurrentAmount(); // size[11]
+	void OnReceiveFileDetails(SteamUGCQueryCompleted_t *param_1, boolparam_2); // size[128]
 };

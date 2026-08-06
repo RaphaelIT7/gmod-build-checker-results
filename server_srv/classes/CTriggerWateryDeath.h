@@ -8,11 +8,11 @@ public:
 	virtual void GetDataDescMap() override; // vtable[12]
 	virtual void Spawn() override; // vtable[23]
 	virtual void Precache() override; // vtable[24]
-	virtual void StartTouch() override; // vtable[101]
-	virtual void Touch() override; // vtable[102]
-	virtual void EndTouch() override; // vtable[103]
-	virtual void PassesTriggerFilters() override; // vtable[255]
+	virtual void StartTouch(CBaseEntity *param_1) override; // vtable[101]
+	virtual void Touch(CBaseEntity *param_1) override; // vtable[102]
+	virtual void EndTouch(CBaseEntity *param_1) override; // vtable[103]
+	virtual void PassesTriggerFilters(CBaseEntity *param_1) override; // vtable[255]
 
-	void GetBaseMap(); // size[0]
-	void SpawnLeeches(); // size[0]
+	void GetBaseMap(); // size[10]
+	void SpawnLeeches(CBaseEntity *param_1); // size[113]
 };

@@ -8,6 +8,6 @@ public:
 	virtual ~CTEHL2MPFireBullets() override; // vtable[2]
 	virtual void _ZN19CTEHL2MPFireBulletsD0Ev() override; // vtable[3]
 
-	_GLOBAL__sub_I_CTEHL2MPFireBullets(); // size[0]
-	CTEHL2MPFireBullets(); // size[0]
+	_GLOBAL__sub_I_CTEHL2MPFireBullets(); // size[112]
+	CTEHL2MPFireBullets(char *param_1); // size[25]
 };

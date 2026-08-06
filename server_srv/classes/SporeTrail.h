@@ -9,7 +9,7 @@ public:
 	virtual void YouForgotToImplementOrDeclareServerClass() override; // vtable[11]
 	virtual void GetDataDescMap() override; // vtable[12]
 
-	void GetBaseMap(); // size[0]
-	SporeTrail(); // size[0]
-	void CreateSporeTrail(); // size[0]
+	void GetBaseMap(); // size[10]
+	SporeTrail(); // size[192]
+	void CreateSporeTrail(); // size[77]
 };

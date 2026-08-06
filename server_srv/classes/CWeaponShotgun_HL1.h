@@ -20,10 +20,10 @@ public:
 	virtual void ActivityList() override; // vtable[388]
 	virtual void ActivityListCount() override; // vtable[389]
 	virtual void CapabilitiesGet() override; // vtable[399]
-	virtual void Operator_HandleAnimEvent() override; // vtable[406]
+	virtual void Operator_HandleAnimEvent(animevent_t *param_1, CBaseCombatCharacter *param_2) override; // vtable[406]
 
-	void _GLOBAL__sub_I_GetServerClass(); // size[0]
-	CWeaponShotgun_HL1(); // size[0]
-	void FillClip(); // size[0]
-	void DryFire(); // size[0]
+	void _GLOBAL__sub_I_GetServerClass(); // size[112]
+	CWeaponShotgun_HL1(); // size[96]
+	void FillClip(); // size[75]
+	void DryFire(); // size[99]
 };

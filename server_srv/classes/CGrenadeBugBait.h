@@ -9,9 +9,9 @@ public:
 	virtual void Spawn() override; // vtable[23]
 	virtual void Precache() override; // vtable[24]
 
-	void ThinkBecomeSolid(); // size[0]
-	void GetBaseMap(); // size[0]
-	void ActivateBugbaitTargets(); // size[0]
-	void BugBaitTouch(); // size[0]
-	void SetGracePeriod(); // size[0]
+	void ThinkBecomeSolid(); // size[26]
+	void GetBaseMap(); // size[10]
+	void ActivateBugbaitTargets(CBaseEntity *param_1, Vectorparam_2, boolparam_3); // size[1379]
+	void BugBaitTouch(CBaseEntity *param_1); // size[1146]
+	void SetGracePeriod(floatparam_1); // size[69]
 };

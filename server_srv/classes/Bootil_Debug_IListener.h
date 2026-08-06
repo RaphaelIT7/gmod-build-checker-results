@@ -3,8 +3,8 @@
 class Bootil_Debug_IListener
 {
 public:
-	void Msg(); // size[0]
-	void Warning(); // size[0]
-	void Add(); // size[0]
-	void Remove(); // size[0]
+	void Msg(char *param_1); // size[5]
+	void Warning(char *param_1); // size[5]
+	void Add(IListener *param_1); // size[35]
+	void Remove(IListener *param_1); // size[127]
 };

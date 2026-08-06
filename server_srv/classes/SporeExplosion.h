@@ -10,9 +10,9 @@ public:
 	virtual void GetDataDescMap() override; // vtable[12]
 	virtual void Spawn() override; // vtable[23]
 
-	void InputEnable(); // size[0]
-	void InputDisable(); // size[0]
-	void GetBaseMap(); // size[0]
-	SporeExplosion(); // size[0]
-	void CreateSporeExplosion(); // size[0]
+	void InputEnable(inputdata_t *param_1); // size[167]
+	void InputDisable(inputdata_t *param_1); // size[187]
+	void GetBaseMap(); // size[10]
+	SporeExplosion(); // size[126]
+	void CreateSporeExplosion(); // size[77]
 };

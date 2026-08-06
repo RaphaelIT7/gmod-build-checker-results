@@ -8,6 +8,6 @@ public:
 	virtual void GetDataDescMap() override; // vtable[12]
 	virtual void DrawDebugTextOverlays() override; // vtable[40]
 
-	void GetBaseMap(); // size[0]
-	void IsExclusive(); // size[0]
+	void GetBaseMap(); // size[10]
+	void IsExclusive(); // size[19]
 };

@@ -7,10 +7,10 @@ public:
 	virtual ~CRagdollMagnet() override; // vtable[1]
 	virtual void GetDataDescMap() override; // vtable[12]
 
-	void InputEnable(); // size[0]
-	void InputDisable(); // size[0]
-	void GetBaseMap(); // size[0]
-	void GetForceVector(); // size[0]
-	void DistToPoint(); // size[0]
-	void FindBestMagnet(); // size[0]
+	void InputEnable(inputdata_t *param_1); // size[15]
+	void InputDisable(inputdata_t *param_1); // size[15]
+	void GetBaseMap(); // size[10]
+	void GetForceVector(CBaseEntity *param_1); // size[548]
+	void DistToPoint(Vector *param_1); // size[799]
+	void FindBestMagnet(CBaseEntity *param_1); // size[191]
 };

@@ -9,7 +9,7 @@ public:
 	virtual void YouForgotToImplementOrDeclareServerClass() override; // vtable[11]
 	virtual void GetDataDescMap() override; // vtable[12]
 
-	void _GLOBAL__sub_I_GetServerClass(); // size[0]
-	void GetBaseMap(); // size[0]
-	void CreateAR2Explosion(); // size[0]
+	void _GLOBAL__sub_I_GetServerClass(); // size[42]
+	void GetBaseMap(); // size[10]
+	void CreateAR2Explosion(Vector *param_1); // size[75]
 };

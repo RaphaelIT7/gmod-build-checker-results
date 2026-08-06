@@ -10,10 +10,10 @@ public:
 	virtual void GetDataDescMap() override; // vtable[12]
 	virtual void UpdateTransmitState() override; // vtable[20]
 
-	void _GLOBAL__sub_I_m_DataMap(); // size[0]
-	void InputStopCountdown(); // size[0]
-	void InputEnable(); // size[0]
-	void InputDisable(); // size[0]
-	void InputStartCountdown(); // size[0]
-	void GetBaseMap(); // size[0]
+	void _GLOBAL__sub_I_m_DataMap(); // size[112]
+	void InputStopCountdown(inputdata_t *param_1); // size[99]
+	void InputEnable(inputdata_t *param_1); // size[160]
+	void InputDisable(inputdata_t *param_1); // size[193]
+	void InputStartCountdown(inputdata_t *param_1); // size[222]
+	void GetBaseMap(); // size[10]
 };

@@ -9,6 +9,6 @@ public:
 	virtual ~CTEBaseBeam() override; // vtable[3]
 	virtual void __cxa_pure_virtual() override; // vtable[4]
 
-	_GLOBAL__sub_I_CTEBaseBeam(); // size[0]
-	CTEBaseBeam(); // size[0]
+	_GLOBAL__sub_I_CTEBaseBeam(); // size[112]
+	CTEBaseBeam(char *param_1); // size[29]
 };

@@ -8,8 +8,8 @@ public:
 	virtual void GetDataDescMap() override; // vtable[12]
 	virtual void _ZN10CPointPush8ActivateEv() override; // vtable[34]
 
-	void InputEnable(); // size[0]
-	void InputDisable(); // size[0]
-	void PushThink(); // size[0]
-	void GetBaseMap(); // size[0]
+	void InputEnable(inputdata_t *param_1); // size[66]
+	void InputDisable(inputdata_t *param_1); // size[66]
+	void PushThink(); // size[67]
+	void GetBaseMap(); // size[10]
 };

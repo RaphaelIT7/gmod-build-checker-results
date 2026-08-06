@@ -9,8 +9,8 @@ public:
 	virtual ~CUserMessageManager() override; // vtable[14]
 	virtual void PreClientUpdate() override; // vtable[17]
 
-	void Destroy(); // size[0]
-	void SendMessage(); // size[0]
-	CUserMessageManager(); // size[0]
-	void AddToQueue(); // size[0]
+	void Destroy(QueuedMessage_t *param_1); // size[31]
+	void SendMessage(QueuedMessage_t *param_1); // size[124]
+	CUserMessageManager(); // size[155]
+	void AddToQueue(QueuedMessage_t *param_1); // size[280]
 };

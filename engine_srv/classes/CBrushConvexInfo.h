@@ -3,5 +3,5 @@
 class CBrushConvexInfo : public IConvexInfo
 {
 public:
-	virtual void GetContents(); // vtable[0]
+	virtual void GetContents(intparam_1); // vtable[0]
 };

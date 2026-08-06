@@ -7,8 +7,8 @@ public:
 	virtual ~CTargetChangeGravity() override; // vtable[1]
 	virtual void GetDataDescMap() override; // vtable[12]
 
-	void _GLOBAL__sub_I_m_DataMap(); // size[0]
-	void InputChangeGrav(); // size[0]
-	void InputResetGrav(); // size[0]
-	void GetBaseMap(); // size[0]
+	void _GLOBAL__sub_I_m_DataMap(); // size[113]
+	void InputChangeGrav(inputdata_t *param_1); // size[120]
+	void InputResetGrav(inputdata_t *param_1); // size[90]
+	void GetBaseMap(); // size[10]
 };

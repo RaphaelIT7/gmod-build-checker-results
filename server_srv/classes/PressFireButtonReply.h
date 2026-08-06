@@ -3,6 +3,6 @@
 class PressFireButtonReply : public INextBotReply
 {
 public:
-	virtual void OnSuccess(); // vtable[0]
-	virtual void OnFail(); // vtable[1]
+	virtual void OnSuccess(INextBot *param_1); // vtable[0]
+	virtual void OnFail(INextBot *param_1, FailureReasonparam_2); // vtable[1]
 };

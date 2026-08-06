@@ -14,7 +14,7 @@ public:
 	virtual void GetWalkSpeed() override; // vtable[84]
 	virtual void GetMaxAcceleration() override; // vtable[85]
 	virtual void GetMaxDeceleration() override; // vtable[86]
-	virtual void ShouldCollideWith() override; // vtable[100]
+	virtual void ShouldCollideWith(CBaseEntity *param_1) override; // vtable[100]
 	virtual void IsAllowedToAvoid() override; // vtable[101]
 	virtual void GetGravity() override; // vtable[108]
 	virtual void GetMaxYawRate() override; // vtable[111]

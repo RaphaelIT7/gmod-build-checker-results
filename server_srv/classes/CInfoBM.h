@@ -7,7 +7,7 @@ public:
 	virtual ~CInfoBM() override; // vtable[1]
 	virtual void GetDataDescMap() override; // vtable[12]
 	virtual void Spawn() override; // vtable[23]
-	virtual void KeyValue() override; // vtable[30]
+	virtual void KeyValue(char *param_1, char *param_2) override; // vtable[30]
 
-	void GetBaseMap(); // size[0]
+	void GetBaseMap(); // size[10]
 };

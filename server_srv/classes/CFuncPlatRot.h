@@ -12,7 +12,7 @@ public:
 	virtual void HitTop() override; // vtable[250]
 	virtual void HitBottom() override; // vtable[251]
 
-	void GetBaseMap(); // size[0]
-	void SetupRotation(); // size[0]
-	void RotMove(); // size[0]
+	void GetBaseMap(); // size[10]
+	void SetupRotation(); // size[267]
+	void RotMove(QAngle *param_1, floatparam_2); // size[138]
 };

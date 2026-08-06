@@ -3,6 +3,6 @@
 class CPluginBotManager : public IBotManager
 {
 public:
-	virtual void GetBotController(); // vtable[0]
-	virtual void CreateBot(); // vtable[1]
+	virtual void GetBotController(edict_t *param_1); // vtable[0]
+	virtual void CreateBot(char *param_1); // vtable[1]
 };

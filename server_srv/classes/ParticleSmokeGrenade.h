@@ -10,10 +10,10 @@ public:
 	virtual void GetDataDescMap() override; // vtable[12]
 	virtual void UpdateTransmitState() override; // vtable[20]
 
-	void _GLOBAL__sub_I_GetServerClass(); // size[0]
-	void GetBaseMap(); // size[0]
-	ParticleSmokeGrenade(); // size[0]
-	void FillVolume(); // size[0]
-	void SetFadeTime(); // size[0]
-	void SetRelativeFadeTime(); // size[0]
+	void _GLOBAL__sub_I_GetServerClass(); // size[112]
+	void GetBaseMap(); // size[10]
+	ParticleSmokeGrenade(); // size[99]
+	void FillVolume(); // size[160]
+	void SetFadeTime(floatparam_1, floatparam_2); // size[51]
+	void SetRelativeFadeTime(floatparam_1, floatparam_2); // size[58]
 };

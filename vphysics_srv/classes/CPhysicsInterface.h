@@ -3,20 +3,20 @@
 class CPhysicsInterface : public CTier1AppSystem
 {
 public:
-	virtual void Connect(); // vtable[0]
+	virtual void Connect(_func_void_ptr_char_ptr_int_ptr *param_1); // vtable[0]
 	virtual void Disconnect(); // vtable[1]
-	virtual void QueryInterface(); // vtable[2]
+	virtual void QueryInterface(char *param_1); // vtable[2]
 	virtual void Init(); // vtable[3]
 	virtual void Shutdown(); // vtable[4]
 	virtual void CreateEnvironment(); // vtable[5]
-	virtual void DestroyEnvironment(); // vtable[6]
-	virtual void GetActiveEnvironmentByIndex(); // vtable[7]
+	virtual void DestroyEnvironment(IPhysicsEnvironment *param_1); // vtable[6]
+	virtual void GetActiveEnvironmentByIndex(intparam_1); // vtable[7]
 	virtual void CreateObjectPairHash(); // vtable[8]
-	virtual void DestroyObjectPairHash(); // vtable[9]
-	virtual void FindOrCreateCollisionSet(); // vtable[10]
-	virtual void FindCollisionSet(); // vtable[11]
+	virtual void DestroyObjectPairHash(IPhysicsObjectPairHash *param_1); // vtable[9]
+	virtual void FindOrCreateCollisionSet(uintparam_1, intparam_2); // vtable[10]
+	virtual void FindCollisionSet(uintparam_1); // vtable[11]
 	virtual void DestroyAllCollisionSets(); // vtable[12]
 
-	void FindOrCreateCollisionSet(); // size[0]
-	~CPhysicsInterface(); // size[0]
+	void FindOrCreateCollisionSet(uintparam_1, intparam_2); // size[17]
+	~CPhysicsInterface(); // size[101]
 };

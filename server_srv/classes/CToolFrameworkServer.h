@@ -15,5 +15,5 @@ public:
 	virtual void PreClientUpdate() override; // vtable[17]
 	virtual void PreSetupVisibility(); // vtable[19]
 
-	void PreSetupVisibility(); // size[0]
+	void PreSetupVisibility(); // size[7]
 };

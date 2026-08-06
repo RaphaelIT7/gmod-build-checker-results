@@ -11,8 +11,8 @@ public:
 	virtual void DrawDebugTextOverlays() override; // vtable[40]
 	virtual void GetDelay() override; // vtable[75]
 
-	void _GLOBAL__sub_I_m_DataMap(); // size[0]
-	void InputSetNextPathCorner(); // size[0]
-	void InputInPass(); // size[0]
-	void GetBaseMap(); // size[0]
+	void _GLOBAL__sub_I_m_DataMap(); // size[113]
+	void InputSetNextPathCorner(inputdata_t *param_1); // size[29]
+	void InputInPass(inputdata_t *param_1); // size[46]
+	void GetBaseMap(); // size[10]
 };

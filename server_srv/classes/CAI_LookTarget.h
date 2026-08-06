@@ -8,10 +8,10 @@ public:
 	virtual void GetDataDescMap() override; // vtable[12]
 	virtual void DrawDebugTextOverlays() override; // vtable[40]
 
-	void _GLOBAL__sub_I_m_DataMap(); // size[0]
-	void GetBaseMap(); // size[0]
-	void IsEligible(); // size[0]
-	void Reserve(); // size[0]
-	void GetFirstLookTarget(); // size[0]
-	void GetNextLookTarget(); // size[0]
+	void _GLOBAL__sub_I_m_DataMap(); // size[113]
+	void GetBaseMap(); // size[10]
+	void IsEligible(CBaseEntity *param_1); // size[245]
+	void Reserve(floatparam_1); // size[59]
+	void GetFirstLookTarget(); // size[101]
+	void GetNextLookTarget(CAI_LookTarget *param_1); // size[101]
 };

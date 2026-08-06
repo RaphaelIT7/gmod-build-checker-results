@@ -10,6 +10,6 @@ public:
 	virtual void UpdateTransmitState() override; // vtable[20]
 	virtual void ObjectCaps() override; // vtable[36]
 
-	CGameRulesProxy(); // size[0]
-	void NotifyNetworkStateChanged(); // size[0]
+	CGameRulesProxy(); // size[27]
+	void NotifyNetworkStateChanged(); // size[49]
 };

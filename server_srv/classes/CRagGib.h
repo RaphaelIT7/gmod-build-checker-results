@@ -6,5 +6,5 @@ public:
 	virtual ~CRagGib() override; // vtable[0]
 	virtual ~CRagGib() override; // vtable[1]
 
-	void Spawn(); // size[0]
+	void Spawn(char *param_1, Vector *param_2, Vector *param_3, floatparam_4); // size[59]
 };

@@ -7,10 +7,10 @@ public:
 	virtual ~IVP_U_Active_Terminal_Int() override; // vtable[1]
 	virtual void print(); // vtable[2]
 	virtual void update_int(); // vtable[3]
-	virtual void set_int(); // vtable[4]
+	virtual void set_int(intparam_1, IVP_BOOLparam_2); // vtable[4]
 
-	void update_int(); // size[0]
-	IVP_U_Active_Terminal_Int(); // size[0]
-	~IVP_U_Active_Terminal_Int(); // size[0]
-	~IVP_U_Active_Terminal_Int(); // size[0]
+	void update_int(); // size[31]
+	IVP_U_Active_Terminal_Int(char *param_1, intparam_2); // size[95]
+	~IVP_U_Active_Terminal_Int(); // size[68]
+	~IVP_U_Active_Terminal_Int(); // size[78]
 };

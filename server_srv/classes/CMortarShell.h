@@ -12,11 +12,11 @@ public:
 	virtual void Spawn() override; // vtable[23]
 	virtual void Precache() override; // vtable[24]
 
-	void FadeThink(); // size[0]
-	void GetBaseMap(); // size[0]
-	void FixUpImpactPoint(); // size[0]
-	void Impact(); // size[0]
-	void Create(); // size[0]
-	void Warn(); // size[0]
-	void FlyThink(); // size[0]
+	void FadeThink(); // size[52]
+	void GetBaseMap(); // size[10]
+	void FixUpImpactPoint(Vector *param_1, Vector *param_2, Vector *param_3, Vector *param_4); // size[319]
+	void Impact(); // size[375]
+	void Create(Vector *param_1, Vector *param_2, Vector *param_3, floatparam_4, floatparam_5, string_tparam_6); // size[379]
+	void Warn(); // size[79]
+	void FlyThink(); // size[52]
 };

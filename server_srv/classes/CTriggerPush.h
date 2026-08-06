@@ -9,8 +9,8 @@ public:
 	virtual void Spawn() override; // vtable[23]
 	virtual void Activate() override; // vtable[34]
 	virtual void DrawDebugGeometryOverlays() override; // vtable[39]
-	virtual void Touch() override; // vtable[102]
+	virtual void Touch(CBaseEntity *param_1) override; // vtable[102]
 
-	void InputSetPushDirection(); // size[0]
-	void GetBaseMap(); // size[0]
+	void InputSetPushDirection(inputdata_t *param_1); // size[177]
+	void GetBaseMap(); // size[10]
 };

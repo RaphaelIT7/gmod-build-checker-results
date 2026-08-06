@@ -9,6 +9,6 @@ public:
 	virtual void Spawn() override; // vtable[23]
 	virtual void Precache() override; // vtable[24]
 
-	void SparkThink(); // size[0]
-	void GetBaseMap(); // size[0]
+	void SparkThink(); // size[52]
+	void GetBaseMap(); // size[10]
 };

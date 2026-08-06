@@ -11,8 +11,8 @@ public:
 	virtual void LevelShutdownPostEntity() override; // vtable[8]
 	virtual ~CSoundEmitterSystem() override; // vtable[13]
 	virtual ~CSoundEmitterSystem() override; // vtable[14]
-	virtual void TraceEmitSound(); // vtable[18]
+	virtual void TraceEmitSound(char *param_1); // vtable[18]
 
-	void StartLog(); // size[0]
-	void EmitCloseCaption(); // size[0]
+	void StartLog(); // size[105]
+	void EmitCloseCaption(IRecipientFilter *param_1, intparam_2, boolparam_3, char *param_4, CUtlVector *param_5, floatparam_6, boolparam_7); // size[379]
 };

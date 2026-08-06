@@ -14,7 +14,7 @@ public:
 	virtual void GetLastKnownArea(); // vtable[8]
 	virtual void GetTimeSinceLastKnown(); // vtable[9]
 	virtual void GetTimeSinceBecameKnown(); // vtable[10]
-	virtual void UpdateVisibilityStatus(); // vtable[11]
+	virtual void UpdateVisibilityStatus(boolparam_1); // vtable[11]
 	virtual void IsVisibleInFOVNow(); // vtable[12]
 	virtual void IsVisibleRecently(); // vtable[13]
 	virtual void GetTimeSinceBecameVisible(); // vtable[14]
@@ -22,6 +22,6 @@ public:
 	virtual void GetTimeSinceLastSeen(); // vtable[16]
 	virtual void WasEverVisible(); // vtable[17]
 	virtual void IsObsolete(); // vtable[18]
-	virtual void operator==(); // vtable[19]
-	virtual void Is(); // vtable[20]
+	virtual void operator==(CKnownEntity *param_1); // vtable[19]
+	virtual void Is(CBaseEntity *param_1); // vtable[20]
 };

@@ -8,5 +8,5 @@ public:
 	virtual void Spawn() override; // vtable[23]
 	virtual void Think() override; // vtable[48]
 
-	void _GLOBAL__sub_I_Spawn(); // size[0]
+	void _GLOBAL__sub_I_Spawn(); // size[113]
 };

@@ -7,7 +7,7 @@ public:
 	virtual ~CMovementSpeedMod() override; // vtable[1]
 	virtual void GetDataDescMap() override; // vtable[12]
 
-	void GetBaseMap(); // size[0]
-	void GetDisabledButtonMask(); // size[0]
-	void InputSpeedMod(); // size[0]
+	void GetBaseMap(); // size[10]
+	void GetDisabledButtonMask(); // size[88]
+	void InputSpeedMod(inputdata_t *param_1); // size[444]
 };

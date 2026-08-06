@@ -9,6 +9,6 @@ public:
 	virtual void Cycle(); // vtable[3]
 	virtual void Finished() override; // vtable[4]
 
-	_GLOBAL__sub_I_MountAvailable(); // size[0]
-	MountAvailable(); // size[0]
+	_GLOBAL__sub_I_MountAvailable(); // size[91]
+	MountAvailable(); // size[25]
 };

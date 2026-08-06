@@ -7,8 +7,8 @@ public:
 	virtual void YouForgotToImplementOrDeclareServerClass() override; // vtable[1]
 	virtual ~CTEGaussExplosion() override; // vtable[2]
 	virtual ~CTEGaussExplosion() override; // vtable[3]
-	virtual void Test() override; // vtable[4]
+	virtual void Test(Vector *param_1, QAngle *param_2) override; // vtable[4]
 
-	_GLOBAL__sub_I_CTEGaussExplosion(); // size[0]
-	CTEGaussExplosion(); // size[0]
+	_GLOBAL__sub_I_CTEGaussExplosion(); // size[112]
+	CTEGaussExplosion(char *param_1); // size[25]
 };

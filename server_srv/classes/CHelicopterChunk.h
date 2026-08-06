@@ -8,11 +8,11 @@ public:
 	virtual void GetDataDescMap() override; // vtable[12]
 	virtual void Spawn() override; // vtable[23]
 	virtual void UpdateOnRemove() override; // vtable[108]
-	virtual void VPhysicsCollision() override; // vtable[165]
+	virtual void VPhysicsCollision(intparam_1, gamevcollisionevent_t *param_2) override; // vtable[165]
 
-	void GetBaseMap(); // size[0]
-	void StartFadeout(); // size[0]
-	void FallThink(); // size[0]
-	void CollisionCallback(); // size[0]
-	void CreateHelicopterChunk(); // size[0]
+	void GetBaseMap(); // size[10]
+	void StartFadeout(); // size[59]
+	void FallThink(); // size[409]
+	void CollisionCallback(CHelicopterChunk *param_1); // size[255]
+	void CreateHelicopterChunk(Vector *param_1, QAngle *param_2, Vector *param_3, char *param_4, intparam_5); // size[89]
 };

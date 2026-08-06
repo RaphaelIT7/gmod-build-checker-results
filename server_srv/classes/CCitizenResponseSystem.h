@@ -9,8 +9,8 @@ public:
 	virtual void Spawn() override; // vtable[23]
 	virtual void OnRestore() override; // vtable[45]
 
-	void ResponseThink(); // size[0]
-	void GetBaseMap(); // size[0]
-	void AddResponseTrigger(); // size[0]
-	void InputResponseVitalNPC(); // size[0]
+	void ResponseThink(); // size[459]
+	void GetBaseMap(); // size[10]
+	void AddResponseTrigger(citizenresponses_tparam_1); // size[71]
+	void InputResponseVitalNPC(inputdata_t *param_1); // size[16]
 };

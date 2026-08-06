@@ -5,5 +5,5 @@ class vehicle_gear_t
 public:
 	virtual void GetDataDescMap(); // vtable[0]
 
-	void GetBaseMap(); // size[0]
+	void GetBaseMap(); // size[7]
 };

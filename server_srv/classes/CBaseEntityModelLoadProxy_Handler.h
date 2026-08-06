@@ -3,5 +3,5 @@
 class CBaseEntityModelLoadProxy_Handler : public IModelLoadCallback
 {
 public:
-	virtual void OnModelLoadComplete() override; // vtable[0]
+	virtual void OnModelLoadComplete(model_t *param_1) override; // vtable[0]
 };

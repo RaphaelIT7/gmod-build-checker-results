@@ -9,7 +9,7 @@ public:
 	virtual void Spawn() override; // vtable[23]
 	virtual void CreateVPhysics() override; // vtable[157]
 
-	void _GLOBAL__sub_I_m_DataMap(); // size[0]
-	void TriggerThink(); // size[0]
-	void GetBaseMap(); // size[0]
+	void _GLOBAL__sub_I_m_DataMap(); // size[113]
+	void TriggerThink(); // size[221]
+	void GetBaseMap(); // size[10]
 };

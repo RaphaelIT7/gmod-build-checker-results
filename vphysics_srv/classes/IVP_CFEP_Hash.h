@@ -3,13 +3,13 @@
 class IVP_CFEP_Hash : public IVP_VHash
 {
 public:
-	virtual void compare() override; // vtable[0]
+	virtual void compare(void *param_1, void *param_2) override; // vtable[0]
 	virtual ~IVP_CFEP_Hash(); // vtable[1]
 	virtual ~IVP_CFEP_Hash(); // vtable[2]
 
-	void pair_to_index(); // size[0]
-	void add(); // size[0]
-	void remove(); // size[0]
-	void find(); // size[0]
-	IVP_CFEP_Hash(); // size[0]
+	void pair_to_index(IVP_CFEP_Objectpair *param_1); // size[51]
+	void add(IVP_CFEP_Objectpair *param_1); // size[77]
+	void remove(IVP_CFEP_Objectpair *param_1); // size[74]
+	void find(IVP_CFEP_Objectpair *param_1); // size[74]
+	IVP_CFEP_Hash(intparam_1); // size[33]
 };

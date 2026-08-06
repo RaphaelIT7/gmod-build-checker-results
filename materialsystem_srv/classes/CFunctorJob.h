@@ -8,6 +8,6 @@ public:
 	virtual void Describe() override; // vtable[4]
 	virtual void DoExecute() override; // vtable[6]
 
-	~CFunctorJob(); // size[0]
-	~CFunctorJob(); // size[0]
+	~CFunctorJob(); // size[10]
+	~CFunctorJob(); // size[7]
 };

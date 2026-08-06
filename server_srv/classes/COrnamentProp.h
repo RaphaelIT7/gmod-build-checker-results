@@ -9,11 +9,11 @@ public:
 	virtual void Spawn() override; // vtable[23]
 	virtual void Activate() override; // vtable[34]
 
-	void GetBaseMap(); // size[0]
-	void DetachFromOwner(); // size[0]
-	void InputDetach(); // size[0]
-	void AttachTo(); // size[0]
-	void InputSetAttached(); // size[0]
-	~COrnamentProp(); // size[0]
-	~COrnamentProp(); // size[0]
+	void GetBaseMap(); // size[10]
+	void DetachFromOwner(); // size[81]
+	void InputDetach(inputdata_t *param_1); // size[9]
+	void AttachTo(char *param_1, CBaseEntity *param_2, CBaseEntity *param_3); // size[124]
+	void InputSetAttached(inputdata_t *param_1); // size[78]
+	~COrnamentProp(); // size[13]
+	~COrnamentProp(); // size[13]
 };

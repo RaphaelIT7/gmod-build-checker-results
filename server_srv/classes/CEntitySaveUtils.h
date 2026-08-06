@@ -3,10 +3,10 @@
 class CEntitySaveUtils : public IEntitySaveUtils
 {
 public:
-	virtual void AddLevelTransitionSaveDependency(); // vtable[0]
-	virtual void GetEntityDependencyCount(); // vtable[1]
-	virtual void GetEntityDependencies(); // vtable[2]
+	virtual void AddLevelTransitionSaveDependency(CBaseEntity *param_1, CBaseEntity *param_2); // vtable[0]
+	virtual void GetEntityDependencyCount(CBaseEntity *param_1); // vtable[1]
+	virtual void GetEntityDependencies(CBaseEntity *param_1, intparam_2, CBaseEntity * *param_3); // vtable[2]
 
-	void PreSave(); // size[0]
-	void PostSave(); // size[0]
+	void PreSave(); // size[27]
+	void PostSave(); // size[43]
 };

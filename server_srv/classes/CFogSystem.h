@@ -10,11 +10,11 @@ public:
 	virtual void LevelInitPostEntity() override; // vtable[5]
 	virtual ~CFogSystem() override; // vtable[13]
 	virtual ~CFogSystem() override; // vtable[14]
-	virtual void FireGameEvent(); // vtable[18]
+	virtual void FireGameEvent(IGameEvent *param_1); // vtable[18]
 
-	void InitMasterController(); // size[0]
-	void FireGameEvent(); // size[0]
-	void SetMasterController(); // size[0]
-	~CFogSystem(); // size[0]
-	~CFogSystem(); // size[0]
+	void InitMasterController(); // size[130]
+	void FireGameEvent(IGameEvent *param_1); // size[7]
+	void SetMasterController(CFogController *param_1); // size[43]
+	~CFogSystem(); // size[10]
+	~CFogSystem(); // size[7]
 };

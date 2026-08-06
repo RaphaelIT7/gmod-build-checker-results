@@ -7,6 +7,6 @@ public:
 	virtual ~CGamePlayerZone() override; // vtable[1]
 	virtual void GetDataDescMap() override; // vtable[12]
 
-	void InputCountPlayersInZone(); // size[0]
-	void GetBaseMap(); // size[0]
+	void InputCountPlayersInZone(inputdata_t *param_1); // size[337]
+	void GetBaseMap(); // size[10]
 };

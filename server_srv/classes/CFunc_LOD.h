@@ -9,11 +9,11 @@ public:
 	virtual void YouForgotToImplementOrDeclareServerClass() override; // vtable[11]
 	virtual GetDataDescMap() override; // vtable[12]
 	virtual void Spawn() override; // vtable[23]
-	virtual void KeyValue() override; // vtable[30]
+	virtual void KeyValue(char *param_1, char *param_2) override; // vtable[30]
 	virtual void Activate() override; // vtable[34]
 	virtual CreateVPhysics() override; // vtable[157]
 
-	_GLOBAL__sub_I_GetServerClass(); // size[0]
-	GetBaseMap(); // size[0]
-	CFunc_LOD(); // size[0]
+	_GLOBAL__sub_I_GetServerClass(); // size[112]
+	GetBaseMap(); // size[10]
+	CFunc_LOD(); // size[10]
 };

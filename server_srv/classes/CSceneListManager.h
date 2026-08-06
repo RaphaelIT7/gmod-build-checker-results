@@ -8,10 +8,10 @@ public:
 	virtual void GetDataDescMap() override; // vtable[12]
 	virtual void Activate() override; // vtable[34]
 
-	void GetBaseMap(); // size[0]
-	void RemoveScene(); // size[0]
-	void ShutdownList(); // size[0]
-	void InputShutdown(); // size[0]
-	void SceneStarted(); // size[0]
-	void AddListManager(); // size[0]
+	void GetBaseMap(); // size[1]
+	void RemoveScene(intparam_1); // size[97]
+	void ShutdownList(); // size[103]
+	void InputShutdown(inputdata_t *param_1); // size[9]
+	void SceneStarted(CBaseEntity *param_1); // size[28]
+	void AddListManager(CSceneListManager *param_1); // size[103]
 };

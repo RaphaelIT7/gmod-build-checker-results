@@ -8,8 +8,8 @@ public:
 	virtual void GetDataDescMap() override; // vtable[12]
 	virtual void Spawn() override; // vtable[23]
 
-	void InputEnable(); // size[0]
-	void InputDisable(); // size[0]
-	void InputValue(); // size[0]
-	void GetBaseMap(); // size[0]
+	void InputEnable(inputdata_t *param_1); // size[15]
+	void InputDisable(inputdata_t *param_1); // size[15]
+	void InputValue(inputdata_t *param_1); // size[245]
+	void GetBaseMap(); // size[10]
 };

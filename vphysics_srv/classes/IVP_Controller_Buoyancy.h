@@ -3,21 +3,21 @@
 class IVP_Controller_Buoyancy : public IVP_Controller_Independent
 {
 public:
-	virtual void core_is_going_to_be_deleted_event(); // vtable[0]
+	virtual void core_is_going_to_be_deleted_event(IVP_Core *param_1); // vtable[0]
 	virtual void get_minimum_simulation_frequency(); // vtable[1]
 	virtual void get_associated_controlled_cores(); // vtable[2]
-	virtual void reset_time(); // vtable[3]
-	virtual void do_simulation_controller(); // vtable[4]
+	virtual void reset_time(IVP_Timeparam_1); // vtable[3]
+	virtual void do_simulation_controller(IVP_Event_Sim *param_1, IVP_U_Vector *param_2); // vtable[4]
 	virtual void get_controller_priority(); // vtable[5]
 	virtual void get_controller_name(); // vtable[6]
 	virtual ~IVP_Controller_Buoyancy(); // vtable[7]
 	virtual ~IVP_Controller_Buoyancy(); // vtable[8]
 
-	void _GLOBAL__sub_I_calculate_future_extrapolation(); // size[0]
-	void calculate_future_extrapolation(); // size[0]
-	void use_buoyancy_solver(); // size[0]
-	void apply_dampening(); // size[0]
-	void apply_buoyancy_impulse(); // size[0]
-	void provide_new_input_solution_combination(); // size[0]
-	IVP_Controller_Buoyancy(); // size[0]
+	void _GLOBAL__sub_I_calculate_future_extrapolation(); // size[1]
+	void calculate_future_extrapolation(Last_IO *param_1, IVP_MI_Vector *param_2, IVP_MI_Vector *param_3, doubleparam_4, IVP_Timeparam_5, IVP_MI_Vector *param_6, IVP_MI_Vector *param_7); // size[207]
+	void use_buoyancy_solver(IVP_Buoyancy_Input *param_1, IVP_Template_Buoyancy *param_2, IVP_Buoyancy_Output *param_3, IVP_U_Float_Point *param_4, intparam_5); // size[277]
+	void apply_dampening(IVP_Real_Object *param_1, floatparam_2, doubleparam_3, IVP_U_Float_Point *param_4, IVP_U_Float_Point *param_5, IVP_U_Float_Point *param_6); // size[993]
+	void apply_buoyancy_impulse(IVP_Real_Object *param_1, IVP_Template_Buoyancy *param_2, doubleparam_3, floatparam_4, IVP_U_Float_Point *param_5); // size[341]
+	void provide_new_input_solution_combination(Attacher_Interpolator *param_1, IVP_Template_Buoyancy *param_2, IVP_MI_Vector *param_3, IVP_MI_Vector *param_4, doubleparam_5, IVP_Timeparam_6); // size[507]
+	IVP_Controller_Buoyancy(IVP_Attacher_To_Cores *param_1, IVP_Core *param_2); // size[198]
 };

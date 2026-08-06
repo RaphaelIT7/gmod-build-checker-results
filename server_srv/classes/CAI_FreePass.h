@@ -6,10 +6,10 @@ public:
 	virtual ~CAI_FreePass() override; // vtable[0]
 	virtual ~CAI_FreePass() override; // vtable[1]
 
-	void GetBaseMap(); // size[0]
-	void Reset(); // size[0]
-	void HasPass(); // size[0]
-	void Revoke(); // size[0]
-	void Update(); // size[0]
-	void ShouldAllowFVisible(); // size[0]
+	void GetBaseMap(); // size[7]
+	void Reset(floatparam_1, floatparam_2); // size[290]
+	void HasPass(); // size[23]
+	void Revoke(boolparam_1); // size[148]
+	void Update(); // size[1042]
+	void ShouldAllowFVisible(boolparam_1); // size[8]
 };

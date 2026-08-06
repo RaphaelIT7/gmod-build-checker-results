@@ -8,7 +8,7 @@ public:
 	virtual void GetDataDescMap() override; // vtable[12]
 	virtual void ObjectCaps() override; // vtable[36]
 
-	void GetBaseMap(); // size[0]
-	void FindQualifiedNPC(); // size[0]
-	void InputActivate(); // size[0]
+	void GetBaseMap(); // size[10]
+	void FindQualifiedNPC(CAI_BaseNPC *param_1, CBaseEntity *param_2, CBaseEntity *param_3); // size[316]
+	void InputActivate(inputdata_t *param_1); // size[28]
 };

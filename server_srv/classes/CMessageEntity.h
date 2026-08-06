@@ -11,9 +11,9 @@ public:
 	virtual void Think() override; // vtable[48]
 	virtual void UpdateOnRemove() override; // vtable[108]
 
-	void _GLOBAL__sub_I_m_DataMap(); // size[0]
-	void InputEnable(); // size[0]
-	void InputDisable(); // size[0]
-	void GetBaseMap(); // size[0]
-	void DrawOverlays(); // size[0]
+	void _GLOBAL__sub_I_m_DataMap(); // size[113]
+	void InputEnable(inputdata_t *param_1); // size[15]
+	void InputDisable(inputdata_t *param_1); // size[15]
+	void GetBaseMap(); // size[10]
+	void DrawOverlays(); // size[182]
 };

@@ -11,5 +11,5 @@ public:
 	virtual void Precache() override; // vtable[24]
 	virtual void HasAnyAmmo() override; // vtable[301]
 
-	void _GLOBAL__sub_I_GetServerClass(); // size[0]
+	void _GLOBAL__sub_I_GetServerClass(); // size[112]
 };

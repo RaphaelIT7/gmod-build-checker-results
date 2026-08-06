@@ -8,5 +8,5 @@ public:
 	virtual void GetDataDescMap() override; // vtable[12]
 	virtual void CreateVPhysics() override; // vtable[157]
 
-	void GetBaseMap(); // size[0]
+	void GetBaseMap(); // size[10]
 };

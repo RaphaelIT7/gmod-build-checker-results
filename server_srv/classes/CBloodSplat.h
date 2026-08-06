@@ -7,5 +7,5 @@ public:
 	virtual ~CBloodSplat() override; // vtable[1]
 	virtual void Think() override; // vtable[48]
 
-	void Spawn(); // size[0]
+	void Spawn(CBaseEntity *param_1); // size[169]
 };

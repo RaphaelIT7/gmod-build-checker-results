@@ -8,5 +8,5 @@ public:
 	virtual ~CGameStringPool() override; // vtable[13]
 	virtual ~CGameStringPool() override; // vtable[14]
 
-	void F(); // size[0]
+	void F(char * *param_1, char * *param_2); // size[25]
 };

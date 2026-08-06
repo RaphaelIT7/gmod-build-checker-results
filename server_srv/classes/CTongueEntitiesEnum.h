@@ -3,8 +3,8 @@
 class CTongueEntitiesEnum : public IPartitionEnumerator
 {
 public:
-	virtual void EnumElement() override; // vtable[0]
+	virtual void EnumElement(IHandleEntity *param_1) override; // vtable[0]
 
-	CTongueEntitiesEnum(); // size[0]
-	void AddToList(); // size[0]
+	CTongueEntitiesEnum(CBaseEntity * *param_1, intparam_2); // size[33]
+	void AddToList(CBaseEntity *param_1); // size[37]
 };

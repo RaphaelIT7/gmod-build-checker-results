@@ -12,7 +12,7 @@ public:
 	virtual void Spawn() override; // vtable[23]
 	virtual void Precache() override; // vtable[24]
 
-	void InputStopEffect(); // size[0]
-	void InputStartEffect(); // size[0]
-	void GetBaseMap(); // size[0]
+	void InputStopEffect(inputdata_t *param_1); // size[68]
+	void InputStartEffect(inputdata_t *param_1); // size[35]
+	void GetBaseMap(); // size[10]
 };

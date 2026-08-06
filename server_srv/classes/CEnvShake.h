@@ -11,11 +11,11 @@ public:
 	virtual void OnRestore() override; // vtable[45]
 	virtual void Think() override; // vtable[48]
 
-	void GetBaseMap(); // size[0]
-	void Radius(); // size[0]
-	void ApplyShake(); // size[0]
-	void InputStartShake(); // size[0]
-	void InputStopShake(); // size[0]
-	void InputAmplitude(); // size[0]
-	void InputFrequency(); // size[0]
+	void GetBaseMap(); // size[10]
+	void Radius(boolparam_1); // size[45]
+	void ApplyShake(ShakeCommand_tparam_1); // size[452]
+	void InputStartShake(inputdata_t *param_1); // size[67]
+	void InputStopShake(inputdata_t *param_1); // size[16]
+	void InputAmplitude(inputdata_t *param_1); // size[47]
+	void InputFrequency(inputdata_t *param_1); // size[47]
 };

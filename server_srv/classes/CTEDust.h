@@ -7,7 +7,7 @@ public:
 	virtual void YouForgotToImplementOrDeclareServerClass() override; // vtable[1]
 	virtual ~CTEDust() override; // vtable[2]
 	virtual ~CTEDust() override; // vtable[3]
-	virtual void Test() override; // vtable[4]
+	virtual void Test(Vector *param_1, QAngle *param_2) override; // vtable[4]
 
-	CTEDust(); // size[0]
+	CTEDust(char *param_1); // size[29]
 };

@@ -11,11 +11,11 @@ public:
 	virtual void Destroy(); // vtable[5]
 	virtual void Success(); // vtable[6]
 	virtual void GetProgress(); // vtable[7]
-	virtual void OnProgress(); // vtable[8]
+	virtual void OnProgress(floatparam_1, uintparam_2, uintparam_3); // vtable[8]
 
-	void Destroy(); // size[0]
-	void OnProgress(); // size[0]
-	void Finished(); // size[0]
-	void Success(); // size[0]
-	void GetProgress(); // size[0]
+	void Destroy(); // size[7]
+	void OnProgress(floatparam_1, uintparam_2, uintparam_3); // size[7]
+	void Finished(); // size[7]
+	void Success(); // size[7]
+	void GetProgress(); // size[7]
 };

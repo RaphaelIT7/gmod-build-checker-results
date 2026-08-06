@@ -3,6 +3,6 @@
 class CChoreoStringPool : public IChoreoStringPool
 {
 public:
-	virtual void FindOrAddString(); // vtable[0]
-	virtual void GetString(); // vtable[1]
+	virtual void FindOrAddString(char *param_1); // vtable[0]
+	virtual void GetString(shortparam_1, char *param_2, intparam_3); // vtable[1]
 };

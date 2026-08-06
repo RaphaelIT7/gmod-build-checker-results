@@ -7,8 +7,8 @@ public:
 	virtual ~CAntlionMakerManager() override; // vtable[13]
 	virtual ~CAntlionMakerManager() override; // vtable[14]
 
-	void BroadcastFightGoal(); // size[0]
-	void BroadcastFightGoal(); // size[0]
-	void BroadcastFollowGoal(); // size[0]
-	void GatherMakers(); // size[0]
+	void BroadcastFightGoal(Vector *param_1); // size[144]
+	void BroadcastFightGoal(CBaseEntity *param_1); // size[158]
+	void BroadcastFollowGoal(CBaseEntity *param_1); // size[208]
+	void GatherMakers(); // size[192]
 };

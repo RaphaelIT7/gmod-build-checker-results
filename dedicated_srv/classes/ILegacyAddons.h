@@ -5,5 +5,5 @@ class ILegacyAddons
 public:
 	virtual void __cxa_pure_virtual(); // vtable[1]
 
-	~Information(); // size[0]
+	~Information(); // size[320]
 };

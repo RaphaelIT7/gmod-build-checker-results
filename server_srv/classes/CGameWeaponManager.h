@@ -9,8 +9,8 @@ public:
 	virtual void Spawn() override; // vtable[23]
 	virtual void Think() override; // vtable[48]
 
-	void _GLOBAL__sub_I_m_DataMap(); // size[0]
-	void InputSetMaxPieces(); // size[0]
-	void InputSetAmmoModifier(); // size[0]
-	void GetBaseMap(); // size[0]
+	void _GLOBAL__sub_I_m_DataMap(); // size[113]
+	void InputSetMaxPieces(inputdata_t *param_1); // size[29]
+	void InputSetAmmoModifier(inputdata_t *param_1); // size[33]
+	void GetBaseMap(); // size[10]
 };

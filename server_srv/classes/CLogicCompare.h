@@ -8,10 +8,10 @@ public:
 	virtual void GetDataDescMap() override; // vtable[12]
 	virtual void DrawDebugTextOverlays() override; // vtable[40]
 
-	void InputSetValue(); // size[0]
-	void InputSetCompareValue(); // size[0]
-	void GetBaseMap(); // size[0]
-	void DoCompare(); // size[0]
-	void InputSetValueCompare(); // size[0]
-	void InputCompare(); // size[0]
+	void InputSetValue(inputdata_t *param_1); // size[33]
+	void InputSetCompareValue(inputdata_t *param_1); // size[33]
+	void GetBaseMap(); // size[10]
+	void DoCompare(CBaseEntity *param_1, floatparam_2); // size[112]
+	void InputSetValueCompare(inputdata_t *param_1); // size[56]
+	void InputCompare(inputdata_t *param_1); // size[42]
 };

@@ -3,5 +3,5 @@
 class CServerGameTags : public IServerGameTags
 {
 public:
-	virtual void GetTaggedConVarList(); // vtable[0]
+	virtual void GetTaggedConVarList(KeyValues *param_1); // vtable[0]
 };

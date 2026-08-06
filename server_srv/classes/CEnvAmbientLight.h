@@ -10,8 +10,8 @@ public:
 	virtual void GetDataDescMap() override; // vtable[12]
 	virtual void Spawn() override; // vtable[23]
 
-	void _GLOBAL__sub_I_m_DataMap(); // size[0]
-	void InputSetColor(); // size[0]
-	void GetBaseMap(); // size[0]
-	void SetColor(); // size[0]
+	void _GLOBAL__sub_I_m_DataMap(); // size[112]
+	void InputSetColor(inputdata_t *param_1); // size[456]
+	void GetBaseMap(); // size[10]
+	void SetColor(Vector *param_1); // size[41]
 };

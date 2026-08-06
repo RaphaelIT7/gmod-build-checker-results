@@ -8,5 +8,5 @@ public:
 	virtual void Spawn() override; // vtable[23]
 	virtual void Precache() override; // vtable[24]
 
-	void _GLOBAL__sub_I_Spawn(); // size[0]
+	void _GLOBAL__sub_I_Spawn(); // size[113]
 };

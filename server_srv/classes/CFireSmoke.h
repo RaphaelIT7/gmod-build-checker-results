@@ -11,9 +11,9 @@ public:
 	virtual void Spawn() override; // vtable[23]
 	virtual void Precache() override; // vtable[24]
 
-	void GetBaseMap(); // size[0]
-	CFireSmoke(); // size[0]
-	void EnableSmoke(); // size[0]
-	void EnableGlow(); // size[0]
-	void EnableVisibleFromAbove(); // size[0]
+	void GetBaseMap(); // size[10]
+	CFireSmoke(); // size[82]
+	void EnableSmoke(intparam_1); // size[89]
+	void EnableGlow(intparam_1); // size[89]
+	void EnableVisibleFromAbove(intparam_1); // size[89]
 };

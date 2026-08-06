@@ -10,5 +10,5 @@ public:
 	virtual void Precache() override; // vtable[24]
 	virtual void Think() override; // vtable[48]
 
-	void GetBaseMap(); // size[0]
+	void GetBaseMap(); // size[10]
 };

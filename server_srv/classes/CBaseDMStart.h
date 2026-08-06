@@ -6,7 +6,7 @@ public:
 	virtual ~CBaseDMStart() override; // vtable[0]
 	virtual ~CBaseDMStart() override; // vtable[1]
 	virtual void GetDataDescMap() override; // vtable[12]
-	virtual void IsTriggered() override; // vtable[71]
+	virtual void IsTriggered(CBaseEntity *param_1) override; // vtable[71]
 
-	void GetBaseMap(); // size[0]
+	void GetBaseMap(); // size[10]
 };

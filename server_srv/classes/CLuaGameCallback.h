@@ -4,12 +4,12 @@ class CLuaGameCallback : public ILuaCallback
 {
 public:
 	virtual void CreateLuaObject(); // vtable[0]
-	virtual void DestroyLuaObject(); // vtable[1]
-	virtual void ErrorPrint(); // vtable[2]
-	virtual void Msg(); // vtable[3]
-	virtual void MsgColour(); // vtable[4]
-	virtual void LuaError() override; // vtable[5]
-	virtual void InterfaceCreated() override; // vtable[6]
+	virtual void DestroyLuaObject(ILuaObject *param_1); // vtable[1]
+	virtual void ErrorPrint(char *param_1, boolparam_2); // vtable[2]
+	virtual void Msg(char *param_1, boolparam_2); // vtable[3]
+	virtual void MsgColour(char *param_1, Color *param_2); // vtable[4]
+	virtual void LuaError(CLuaError *param_1) override; // vtable[5]
+	virtual void InterfaceCreated(ILuaInterface *param_1) override; // vtable[6]
 
-	CLuaGameCallback(); // size[0]
+	CLuaGameCallback(); // size[18]
 };

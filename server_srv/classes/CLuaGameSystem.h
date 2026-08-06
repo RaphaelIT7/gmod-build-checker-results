@@ -13,9 +13,9 @@ public:
 	virtual ~CLuaGameSystem() override; // vtable[13]
 	virtual ~CLuaGameSystem() override; // vtable[14]
 	virtual void FrameUpdatePreEntityThink() override; // vtable[15]
-	virtual void FireGameEvent(); // vtable[19]
+	virtual void FireGameEvent(IGameEvent *param_1); // vtable[19]
 
-	void FireGameEvent(); // size[0]
-	~CLuaGameSystem(); // size[0]
-	~CLuaGameSystem(); // size[0]
+	void FireGameEvent(IGameEvent *param_1); // size[10]
+	~CLuaGameSystem(); // size[10]
+	~CLuaGameSystem(); // size[7]
 };

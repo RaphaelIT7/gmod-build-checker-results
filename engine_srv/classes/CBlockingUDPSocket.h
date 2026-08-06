@@ -6,9 +6,9 @@ public:
 	virtual ~CBlockingUDPSocket(); // vtable[0]
 	virtual ~CBlockingUDPSocket(); // vtable[1]
 
-	void CreateSocket(); // size[0]
-	CBlockingUDPSocket(); // size[0]
-	void WaitForMessage(); // size[0]
-	void ReceiveSocketMessage(); // size[0]
-	void SendSocketMessage(); // size[0]
+	void CreateSocket(); // size[139]
+	CBlockingUDPSocket(); // size[32]
+	void WaitForMessage(floatparam_1); // size[177]
+	void ReceiveSocketMessage(sockaddr_in *param_1, uchar *param_2, uintparam_3); // size[169]
+	void SendSocketMessage(sockaddr_in *param_1, uchar *param_2, uintparam_3); // size[65]
 };

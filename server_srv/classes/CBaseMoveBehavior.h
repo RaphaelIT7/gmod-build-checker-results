@@ -10,12 +10,12 @@ public:
 	virtual void Activate() override; // vtable[34]
 	virtual void MoveDone() override; // vtable[47]
 	virtual void IsMoving() override; // vtable[76]
-	virtual void StartMoving(); // vtable[246]
+	virtual void StartMoving(intparam_1); // vtable[246]
 	virtual void StopMoving(); // vtable[247]
 
-	void GetBaseMap(); // size[0]
-	void IsAtSequenceStart(); // size[0]
-	void IsAtSequenceEnd(); // size[0]
-	void CalculateTimeAdvancementForSpeed(); // size[0]
-	void SetObjectPhysicsVelocity(); // size[0]
+	void GetBaseMap(); // size[10]
+	void IsAtSequenceStart(); // size[176]
+	void IsAtSequenceEnd(); // size[138]
+	void CalculateTimeAdvancementForSpeed(floatparam_1, floatparam_2); // size[37]
+	void SetObjectPhysicsVelocity(floatparam_1); // size[1090]
 };

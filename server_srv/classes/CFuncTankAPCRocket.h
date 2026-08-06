@@ -11,9 +11,9 @@ public:
 	virtual void Think() override; // vtable[48]
 	virtual void UpdateOnRemove() override; // vtable[108]
 	virtual void GetShotSpeed() override; // vtable[251]
-	virtual void Fire() override; // vtable[254]
+	virtual void Fire(intparam_1, Vector *param_2, Vector *param_3, CBaseEntity *param_4, boolparam_5) override; // vtable[254]
 
-	void InputDeathVolley(); // size[0]
-	void GetBaseMap(); // size[0]
-	void FireDying(); // size[0]
+	void InputDeathVolley(inputdata_t *param_1); // size[141]
+	void GetBaseMap(); // size[10]
+	void FireDying(Vector *param_1); // size[39]
 };

@@ -8,5 +8,5 @@ public:
 	virtual ~CPrecacheOtherList() override; // vtable[13]
 	virtual ~CPrecacheOtherList() override; // vtable[14]
 
-	void AddOrMarkPrecached(); // size[0]
+	void AddOrMarkPrecached(char *param_1); // size[89]
 };

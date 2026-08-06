@@ -8,12 +8,12 @@ public:
 	virtual void GetDataDescMap() override; // vtable[12]
 	virtual void Spawn() override; // vtable[23]
 	virtual void Precache() override; // vtable[24]
-	virtual void OnTakeDamage() override; // vtable[64]
-	virtual void Event_Killed() override; // vtable[68]
+	virtual void OnTakeDamage(CTakeDamageInfo *param_1) override; // vtable[64]
+	virtual void Event_Killed(CTakeDamageInfo *param_1) override; // vtable[68]
 	virtual void OverridePropdata() override; // vtable[282]
 
-	void GetBaseMap(); // size[0]
-	void ThrowFlamingGib(); // size[0]
-	void CreateCorpse(); // size[0]
-	void AddSmokeTrail(); // size[0]
+	void GetBaseMap(); // size[10]
+	void ThrowFlamingGib(); // size[274]
+	void CreateCorpse(); // size[6]
+	void AddSmokeTrail(Vector *param_1); // size[280]
 };

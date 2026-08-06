@@ -7,9 +7,9 @@ public:
 	virtual void YouForgotToImplementOrDeclareServerClass() override; // vtable[1]
 	virtual ~CTEFizz() override; // vtable[2]
 	virtual ~CTEFizz() override; // vtable[3]
-	virtual void Test() override; // vtable[4]
+	virtual void Test(Vector *param_1, QAngle *param_2) override; // vtable[4]
 	virtual void Precache() override; // vtable[6]
 
-	_GLOBAL__sub_I_CTEFizz(); // size[0]
-	CTEFizz(); // size[0]
+	_GLOBAL__sub_I_CTEFizz(); // size[112]
+	CTEFizz(char *param_1); // size[25]
 };

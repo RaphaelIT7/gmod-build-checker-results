@@ -8,6 +8,6 @@ public:
 	virtual void GetDataDescMap() override; // vtable[12]
 	virtual void Activate() override; // vtable[34]
 
-	void GetBaseMap(); // size[0]
-	void IsValid(); // size[0]
+	void GetBaseMap(); // size[1]
+	void IsValid(); // size[131]
 };

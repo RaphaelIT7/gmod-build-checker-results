@@ -3,13 +3,13 @@
 class CPhysGunControllerPoint : public IMotionEvent
 {
 public:
-	virtual void Simulate() override; // vtable[0]
+	virtual void Simulate(IPhysicsMotionController *param_1, IPhysicsObject *param_2, floatparam_3, Vector *param_4, Vector *param_5) override; // vtable[0]
 
-	CPhysGunControllerPoint(); // size[0]
-	void SetTargetRotation(); // size[0]
-	void ValidatePhysObj(); // size[0]
-	void SetTargetPosition(); // size[0]
-	void AttachEntity(); // size[0]
-	void DetachEntity(); // size[0]
-	~CPhysGunControllerPoint(); // size[0]
+	CPhysGunControllerPoint(); // size[94]
+	void SetTargetRotation(QAngle *param_1); // size[47]
+	void ValidatePhysObj(); // size[42]
+	void SetTargetPosition(Vector *param_1, CBasePlayer *param_2); // size[271]
+	void AttachEntity(CBasePlayer *param_1, CBaseEntity *param_2, IPhysicsObject *param_3, Vector *param_4); // size[695]
+	void DetachEntity(boolparam_1); // size[287]
+	~CPhysGunControllerPoint(); // size[33]
 };

@@ -9,5 +9,5 @@ public:
 	virtual void ObjectCaps() override; // vtable[36]
 	virtual void Think() override; // vtable[48]
 
-	void Spawn(); // size[0]
+	void Spawn(CBasePlayer *param_1); // size[166]
 };

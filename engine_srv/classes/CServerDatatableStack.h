@@ -3,5 +3,5 @@
 class CServerDatatableStack : public CDatatableStack
 {
 public:
-	virtual void RecurseAndCallProxies() override; // vtable[0]
+	virtual void RecurseAndCallProxies(CSendNode *param_1, uchar *param_2) override; // vtable[0]
 };

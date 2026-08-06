@@ -3,5 +3,5 @@
 class IForEachNavArea
 {
 public:
-	void PostIteration(); // size[0]
+	void PostIteration(boolparam_1); // size[5]
 };

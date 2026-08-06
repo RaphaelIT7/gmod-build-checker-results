@@ -3,6 +3,6 @@
 class CNodeFilter : public INodeListFilter
 {
 public:
-	virtual void NodeIsValid(); // vtable[0]
-	virtual void NodeDistanceSqr(); // vtable[1]
+	virtual void NodeIsValid(CAI_Node *param_1); // vtable[0]
+	virtual void NodeDistanceSqr(CAI_Node *param_1); // vtable[1]
 };

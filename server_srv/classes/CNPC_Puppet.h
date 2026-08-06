@@ -11,7 +11,7 @@ public:
 	virtual void Spawn() override; // vtable[23]
 	virtual void Precache() override; // vtable[24]
 
-	void _GLOBAL__sub_I_m_DataMap(); // size[0]
-	void InputSetAnimationTarget(); // size[0]
-	void GetBaseMap(); // size[0]
+	void _GLOBAL__sub_I_m_DataMap(); // size[112]
+	void InputSetAnimationTarget(inputdata_t *param_1); // size[267]
+	void GetBaseMap(); // size[10]
 };

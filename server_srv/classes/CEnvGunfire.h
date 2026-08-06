@@ -10,10 +10,10 @@ public:
 	virtual void Precache() override; // vtable[24]
 	virtual void Activate() override; // vtable[34]
 
-	void InputDisable(); // size[0]
-	void GetBaseMap(); // size[0]
-	void StartShooting(); // size[0]
-	void UpdateTarget(); // size[0]
-	void StopShooting(); // size[0]
-	void ShootThink(); // size[0]
+	void InputDisable(inputdata_t *param_1); // size[65]
+	void GetBaseMap(); // size[10]
+	void StartShooting(); // size[98]
+	void UpdateTarget(); // size[352]
+	void StopShooting(); // size[58]
+	void ShootThink(); // size[129]
 };

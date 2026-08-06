@@ -9,10 +9,10 @@ public:
 	virtual void Spawn() override; // vtable[23]
 	virtual void OnRestore() override; // vtable[45]
 
-	void InputSetLogoLength(); // size[0]
-	void GetBaseMap(); // size[0]
-	void RollOutroCredits(); // size[0]
-	void InputRollOutroCredits(); // size[0]
-	void InputShowLogo(); // size[0]
-	void InputRollCredits(); // size[0]
+	void InputSetLogoLength(inputdata_t *param_1); // size[33]
+	void GetBaseMap(); // size[10]
+	void RollOutroCredits(); // size[39]
+	void InputRollOutroCredits(inputdata_t *param_1); // size[31]
+	void InputShowLogo(inputdata_t *param_1); // size[22]
+	void InputRollCredits(inputdata_t *param_1); // size[19]
 };

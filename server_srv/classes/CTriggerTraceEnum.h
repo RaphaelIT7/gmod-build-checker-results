@@ -3,5 +3,5 @@
 class CTriggerTraceEnum : public IEntityEnumerator
 {
 public:
-	virtual void EnumEntity(); // vtable[0]
+	virtual void EnumEntity(IHandleEntity *param_1); // vtable[0]
 };

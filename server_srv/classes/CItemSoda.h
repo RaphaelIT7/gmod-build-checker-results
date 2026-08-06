@@ -9,7 +9,7 @@ public:
 	virtual void Spawn() override; // vtable[23]
 	virtual void Precache() override; // vtable[24]
 
-	void CanThink(); // size[0]
-	void CanTouch(); // size[0]
-	void GetBaseMap(); // size[0]
+	void CanThink(); // size[73]
+	void CanTouch(CBaseEntity *param_1); // size[183]
+	void GetBaseMap(); // size[10]
 };

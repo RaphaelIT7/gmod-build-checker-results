@@ -6,7 +6,7 @@ public:
 	virtual ~IDirect3DVertexBuffer9() override; // vtable[0]
 	virtual ~IDirect3DVertexBuffer9() override; // vtable[1]
 
-	void Lock(); // size[0]
-	void Unlock(); // size[0]
-	void UnlockActualSize(); // size[0]
+	void Lock(uintparam_1, uintparam_2, void * *param_3, uintparam_4); // size[73]
+	void Unlock(); // size[40]
+	void UnlockActualSize(uintparam_1, void *param_2); // size[18]
 };

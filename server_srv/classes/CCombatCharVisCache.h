@@ -8,7 +8,7 @@ public:
 	virtual ~CCombatCharVisCache() override; // vtable[14]
 	virtual void FrameUpdatePreEntityThink() override; // vtable[15]
 
-	void HasVisibility(); // size[0]
-	void RegisterVisibility(); // size[0]
-	void LookupVisibility(); // size[0]
+	void HasVisibility(intparam_1); // size[114]
+	void RegisterVisibility(intparam_1, boolparam_2, boolparam_3); // size[114]
+	void LookupVisibility(CBaseCombatCharacter *param_1, CBaseCombatCharacter *param_2); // size[330]
 };

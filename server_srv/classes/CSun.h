@@ -11,10 +11,10 @@ public:
 	virtual void UpdateTransmitState() override; // vtable[20]
 	virtual void Activate() override; // vtable[34]
 
-	void _GLOBAL__sub_I_GetServerClass(); // size[0]
-	void InputTurnOn(); // size[0]
-	void InputTurnOff(); // size[0]
-	void InputSetColor(); // size[0]
-	void GetBaseMap(); // size[0]
-	CSun(); // size[0]
+	void _GLOBAL__sub_I_GetServerClass(); // size[112]
+	void InputTurnOn(inputdata_t *param_1); // size[12]
+	void InputTurnOff(inputdata_t *param_1); // size[90]
+	void InputSetColor(inputdata_t *param_1); // size[76]
+	void GetBaseMap(); // size[10]
+	CSun(); // size[28]
 };

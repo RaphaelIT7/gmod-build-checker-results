@@ -6,9 +6,9 @@ public:
 	virtual ~CAI_AssaultGoal() override; // vtable[0]
 	virtual ~CAI_AssaultGoal() override; // vtable[1]
 	virtual void GetDataDescMap() override; // vtable[12]
-	virtual void EnableGoal() override; // vtable[251]
-	virtual void DisableGoal() override; // vtable[252]
+	virtual void EnableGoal(CAI_BaseNPC *param_1) override; // vtable[251]
+	virtual void DisableGoal(CAI_BaseNPC *param_1) override; // vtable[252]
 
-	void InputBeginAssault(); // size[0]
-	void GetBaseMap(); // size[0]
+	void InputBeginAssault(inputdata_t *param_1); // size[262]
+	void GetBaseMap(); // size[10]
 };

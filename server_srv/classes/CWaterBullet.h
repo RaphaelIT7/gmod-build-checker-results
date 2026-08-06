@@ -9,10 +9,10 @@ public:
 	virtual void YouForgotToImplementOrDeclareServerClass() override; // vtable[11]
 	virtual void GetDataDescMap() override; // vtable[12]
 	virtual void Precache() override; // vtable[24]
-	virtual void Touch() override; // vtable[102]
+	virtual void Touch(CBaseEntity *param_1) override; // vtable[102]
 
-	void _GLOBAL__sub_I_m_DataMap(); // size[0]
-	void BulletThink(); // size[0]
-	void GetBaseMap(); // size[0]
-	void Spawn(); // size[0]
+	void _GLOBAL__sub_I_m_DataMap(); // size[112]
+	void BulletThink(); // size[50]
+	void GetBaseMap(); // size[10]
+	void Spawn(Vector *param_1, Vector *param_2); // size[48]
 };

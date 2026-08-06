@@ -9,9 +9,9 @@ public:
 	virtual void Spawn() override; // vtable[23]
 	virtual void Precache() override; // vtable[24]
 
-	void _GLOBAL__sub_I_m_DataMap(); // size[0]
-	void Die(); // size[0]
-	void PaneTouch(); // size[0]
-	void GetBaseMap(); // size[0]
-	void CreateWindowPane(); // size[0]
+	void _GLOBAL__sub_I_m_DataMap(); // size[112]
+	void Die(); // size[69]
+	void PaneTouch(CBaseEntity *param_1); // size[27]
+	void GetBaseMap(); // size[10]
+	void CreateWindowPane(Vector *param_1, QAngle *param_2); // size[140]
 };

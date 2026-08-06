@@ -7,5 +7,5 @@ public:
 	virtual ~IMoveHelper(); // vtable[12]
 	virtual ~IMoveHelper(); // vtable[13]
 
-	void _GLOBAL__sub_I_sm_pSingleton(); // size[0]
+	void _GLOBAL__sub_I_sm_pSingleton(); // size[113]
 };

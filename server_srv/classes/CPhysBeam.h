@@ -9,9 +9,9 @@ public:
 	virtual void _ZN9CPhysBeam40YouForgotToImplementOrDeclareServerClassEv() override; // vtable[11]
 	virtual void ObjectCaps() override; // vtable[36]
 
-	CPhysBeam(); // size[0]
-	void Create(); // size[0]
-	void ComputeEndPos(); // size[0]
-	void ReComputeCollisionBox(); // size[0]
-	void UpdateBeam(); // size[0]
+	CPhysBeam(); // size[28]
+	void Create(CBaseEntity *param_1, Vector *param_2); // size[111]
+	void ComputeEndPos(); // size[115]
+	void ReComputeCollisionBox(); // size[9]
+	void UpdateBeam(CBaseEntity *param_1, Vector *param_2, intparam_3); // size[70]
 };

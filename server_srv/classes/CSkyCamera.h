@@ -9,6 +9,6 @@ public:
 	virtual void Spawn() override; // vtable[23]
 	virtual void Activate() override; // vtable[34]
 
-	void GetBaseMap(); // size[0]
-	CSkyCamera(); // size[0]
+	void GetBaseMap(); // size[10]
+	CSkyCamera(); // size[33]
 };

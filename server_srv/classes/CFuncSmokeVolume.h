@@ -11,8 +11,8 @@ public:
 	virtual void Spawn() override; // vtable[23]
 	virtual void Activate() override; // vtable[34]
 
-	void _GLOBAL__sub_I_m_DataMap(); // size[0]
-	void GetBaseMap(); // size[0]
-	CFuncSmokeVolume(); // size[0]
-	void SetDensity(); // size[0]
+	void _GLOBAL__sub_I_m_DataMap(); // size[112]
+	void GetBaseMap(); // size[10]
+	CFuncSmokeVolume(); // size[9]
+	void SetDensity(floatparam_1); // size[51]
 };

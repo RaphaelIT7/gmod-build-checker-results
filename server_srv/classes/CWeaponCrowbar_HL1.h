@@ -17,10 +17,10 @@ public:
 	virtual void Swing(); // vtable[428]
 	virtual void Hit(); // vtable[429]
 	virtual void ImpactEffect(); // vtable[430]
-	virtual void ChooseIntersectionPointAndActivity(); // vtable[431]
+	virtual void ChooseIntersectionPointAndActivity(CGameTrace *param_1, Vector *param_2, Vector *param_3, CBasePlayer *param_4); // vtable[431]
 
-	void _GLOBAL__sub_I_GetServerClass(); // size[0]
-	void GetBaseMap(); // size[0]
-	CWeaponCrowbar_HL1(); // size[0]
-	void ImpactSound(); // size[0]
+	void _GLOBAL__sub_I_GetServerClass(); // size[112]
+	void GetBaseMap(); // size[10]
+	CWeaponCrowbar_HL1(); // size[122]
+	void ImpactSound(CBaseEntity *param_1); // size[131]
 };

@@ -3,8 +3,8 @@
 class CVehicleChoreoViewParser : public IVPhysicsKeyHandler
 {
 public:
-	virtual void ParseKeyValue(); // vtable[0]
-	virtual void SetDefaults() override; // vtable[1]
+	virtual void ParseKeyValue(void *param_1, char *param_2, char *param_3); // vtable[0]
+	virtual void SetDefaults(void *param_1) override; // vtable[1]
 
-	CVehicleChoreoViewParser(); // size[0]
+	CVehicleChoreoViewParser(); // size[14]
 };

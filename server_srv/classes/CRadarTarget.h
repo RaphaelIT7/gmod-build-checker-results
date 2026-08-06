@@ -9,7 +9,7 @@ public:
 	virtual void Spawn() override; // vtable[23]
 	virtual void ObjectCaps() override; // vtable[36]
 
-	void InputEnable(); // size[0]
-	void InputDisable(); // size[0]
-	void GetBaseMap(); // size[0]
+	void InputEnable(inputdata_t *param_1); // size[15]
+	void InputDisable(inputdata_t *param_1); // size[15]
+	void GetBaseMap(); // size[10]
 };

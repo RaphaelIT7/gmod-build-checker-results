@@ -11,5 +11,5 @@ public:
 	virtual void _ZN22CWeaponCitizenSuitcase12ActivityListEv() override; // vtable[388]
 	virtual void ActivityListCount() override; // vtable[389]
 
-	void GetBaseMap(); // size[0]
+	void GetBaseMap(); // size[10]
 };

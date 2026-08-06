@@ -11,10 +11,10 @@ public:
 	virtual void Spawn() override; // vtable[23]
 	virtual void Precache() override; // vtable[24]
 
-	void _GLOBAL__sub_I_m_DataMap(); // size[0]
-	void InputSetScaleY(); // size[0]
-	void InputSetScaleZ(); // size[0]
-	void InputSetScaleX(); // size[0]
-	void GetBaseMap(); // size[0]
-	CPropScalable(); // size[0]
+	void _GLOBAL__sub_I_m_DataMap(); // size[112]
+	void InputSetScaleY(inputdata_t *param_1); // size[116]
+	void InputSetScaleZ(inputdata_t *param_1); // size[116]
+	void InputSetScaleX(inputdata_t *param_1); // size[116]
+	void GetBaseMap(); // size[10]
+	CPropScalable(); // size[152]
 };

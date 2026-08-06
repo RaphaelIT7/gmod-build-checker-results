@@ -9,5 +9,5 @@ public:
 	virtual void Cycle(); // vtable[3]
 	virtual void Finished() override; // vtable[4]
 
-	void _GLOBAL__sub_I_Start(); // size[0]
+	void _GLOBAL__sub_I_Start(); // size[91]
 };

@@ -13,11 +13,11 @@ public:
 	virtual void Classify() override; // vtable[55]
 	virtual void Detonate() override; // vtable[283]
 
-	void _GLOBAL__sub_I_m_DataMap(); // size[0]
-	void IgniteThink(); // size[0]
-	void RocketTouch(); // size[0]
-	void SeekThink(); // size[0]
-	void GetBaseMap(); // size[0]
-	CRpgRocket(); // size[0]
-	void Create(); // size[0]
+	void _GLOBAL__sub_I_m_DataMap(); // size[113]
+	void IgniteThink(); // size[38]
+	void RocketTouch(CBaseEntity *param_1); // size[214]
+	void SeekThink(); // size[192]
+	void GetBaseMap(); // size[10]
+	CRpgRocket(); // size[50]
+	void Create(Vector *param_1, QAngle *param_2, CBasePlayer *param_3); // size[98]
 };
