@@ -1,0 +1,77 @@
+{
+	"name": "DT_PlayerResource",
+	"props": [
+		{
+			"index": 0,
+			"name": "m_iPing",
+			"offset": 5040,
+			"bits": 0,
+			"type": "DPT_DataTable",
+			"elements": 1,
+			"datatable": "m_iPing"
+		},
+		{
+			"index": 1,
+			"name": "m_iScore",
+			"offset": 5556,
+			"bits": 0,
+			"type": "DPT_DataTable",
+			"elements": 1,
+			"datatable": "m_iScore"
+		},
+		{
+			"index": 2,
+			"name": "m_iDeaths",
+			"offset": 6072,
+			"bits": 0,
+			"type": "DPT_DataTable",
+			"elements": 1,
+			"datatable": "m_iDeaths"
+		},
+		{
+			"index": 3,
+			"name": "m_bConnected",
+			"offset": 6588,
+			"bits": 0,
+			"type": "DPT_DataTable",
+			"elements": 1,
+			"datatable": "m_bConnected"
+		},
+		{
+			"index": 4,
+			"name": "m_iTeam",
+			"offset": 7104,
+			"bits": 0,
+			"type": "DPT_DataTable",
+			"elements": 1,
+			"datatable": "m_iTeam"
+		},
+		{
+			"index": 5,
+			"name": "m_bAlive",
+			"offset": 7620,
+			"bits": 0,
+			"type": "DPT_DataTable",
+			"elements": 1,
+			"datatable": "m_bAlive"
+		},
+		{
+			"index": 6,
+			"name": "m_iHealth",
+			"offset": 8136,
+			"bits": 0,
+			"type": "DPT_DataTable",
+			"elements": 1,
+			"datatable": "m_iHealth"
+		},
+		{
+			"index": 7,
+			"name": "m_iArmor",
+			"offset": 8652,
+			"bits": 0,
+			"type": "DPT_DataTable",
+			"elements": 1,
+			"datatable": "m_iArmor"
+		}
+	]
+}

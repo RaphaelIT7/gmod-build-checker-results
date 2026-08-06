@@ -1,0 +1,13 @@
+{
+	"name": "GameRulesCreation",
+	"id": 15,
+	"entrybits": 0,
+	"maxstrings": 1,
+	"numstrings": 1,
+	"strings": [
+		{
+			"key": "classname",
+			"userdatalength": 11
+		}
+	]
+}

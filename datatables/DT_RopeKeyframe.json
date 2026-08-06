@@ -1,0 +1,189 @@
+{
+	"name": "DT_RopeKeyframe",
+	"props": [
+		{
+			"index": 0,
+			"name": "m_hStartPoint",
+			"offset": 5104,
+			"bits": 23,
+			"type": "DPT_Int",
+			"elements": 1
+		},
+		{
+			"index": 1,
+			"name": "m_hEndPoint",
+			"offset": 5108,
+			"bits": 23,
+			"type": "DPT_Int",
+			"elements": 1
+		},
+		{
+			"index": 2,
+			"name": "m_iStartAttachment",
+			"offset": 5112,
+			"bits": 5,
+			"type": "DPT_Int",
+			"elements": 1
+		},
+		{
+			"index": 3,
+			"name": "m_iEndAttachment",
+			"offset": 5114,
+			"bits": 5,
+			"type": "DPT_Int",
+			"elements": 1
+		},
+		{
+			"index": 4,
+			"name": "m_iStartBone",
+			"offset": 5118,
+			"bits": 5,
+			"type": "DPT_Int",
+			"elements": 1
+		},
+		{
+			"index": 5,
+			"name": "m_iEndBone",
+			"offset": 5116,
+			"bits": 5,
+			"type": "DPT_Int",
+			"elements": 1
+		},
+		{
+			"index": 6,
+			"name": "m_vecStartOffset",
+			"offset": 5120,
+			"bits": 0,
+			"type": "DPT_Vector",
+			"elements": 1
+		},
+		{
+			"index": 7,
+			"name": "m_vecEndOffset",
+			"offset": 5132,
+			"bits": 0,
+			"type": "DPT_Vector",
+			"elements": 1
+		},
+		{
+			"index": 8,
+			"name": "m_clrRender",
+			"offset": 124,
+			"bits": 32,
+			"type": "DPT_Int",
+			"elements": 1
+		},
+		{
+			"index": 9,
+			"name": "m_Slack",
+			"offset": 5052,
+			"bits": 12,
+			"type": "DPT_Int",
+			"elements": 1
+		},
+		{
+			"index": 10,
+			"name": "m_RopeLength",
+			"offset": 5084,
+			"bits": 15,
+			"type": "DPT_Int",
+			"elements": 1
+		},
+		{
+			"index": 11,
+			"name": "m_fLockedPoints",
+			"offset": 5088,
+			"bits": 4,
+			"type": "DPT_Int",
+			"elements": 1
+		},
+		{
+			"index": 12,
+			"name": "m_RopeFlags",
+			"offset": 5044,
+			"bits": 9,
+			"type": "DPT_Int",
+			"elements": 1
+		},
+		{
+			"index": 13,
+			"name": "m_nSegments",
+			"offset": 5064,
+			"bits": 4,
+			"type": "DPT_Int",
+			"elements": 1
+		},
+		{
+			"index": 14,
+			"name": "m_bConstrainBetweenEndpoints",
+			"offset": 5068,
+			"bits": 1,
+			"type": "DPT_Int",
+			"elements": 1
+		},
+		{
+			"index": 15,
+			"name": "m_iRopeMaterialModelIndex",
+			"offset": 5076,
+			"bits": 16,
+			"type": "DPT_Int",
+			"elements": 1
+		},
+		{
+			"index": 16,
+			"name": "m_Subdiv",
+			"offset": 5080,
+			"bits": 4,
+			"type": "DPT_Int",
+			"elements": 1
+		},
+		{
+			"index": 17,
+			"name": "m_TextureScale",
+			"offset": 5060,
+			"bits": 10,
+			"type": "DPT_Float",
+			"elements": 1
+		},
+		{
+			"index": 18,
+			"name": "m_Width",
+			"offset": 5056,
+			"bits": 0,
+			"type": "DPT_Float",
+			"elements": 1
+		},
+		{
+			"index": 19,
+			"name": "m_flScrollSpeed",
+			"offset": 5096,
+			"bits": 0,
+			"type": "DPT_Float",
+			"elements": 1
+		},
+		{
+			"index": 20,
+			"name": "m_vecOrigin",
+			"offset": 808,
+			"bits": 0,
+			"type": "DPT_Vector",
+			"elements": 1
+		},
+		{
+			"index": 21,
+			"name": "moveparent",
+			"offset": 348,
+			"bits": 23,
+			"type": "DPT_Int",
+			"elements": 1
+		},
+		{
+			"index": 22,
+			"name": "m_iParentAttachment",
+			"offset": 345,
+			"bits": 8,
+			"type": "DPT_Int",
+			"elements": 1
+		}
+	]
+}

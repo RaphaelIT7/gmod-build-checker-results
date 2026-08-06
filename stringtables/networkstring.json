@@ -1,0 +1,361 @@
+{
+	"name": "networkstring",
+	"id": 16,
+	"entrybits": 12,
+	"maxstrings": 4096,
+	"numstrings": 88,
+	"strings": [
+		{
+			"key": "x",
+			"userdatalength": 0
+		},
+		{
+			"key": "Undo_Undone",
+			"userdatalength": 0
+		},
+		{
+			"key": "Undo_AddUndo",
+			"userdatalength": 0
+		},
+		{
+			"key": "Undo_FireUndo",
+			"userdatalength": 0
+		},
+		{
+			"key": "properties",
+			"userdatalength": 0
+		},
+		{
+			"key": "drive_base",
+			"userdatalength": 0
+		},
+		{
+			"key": "drive_noclip",
+			"userdatalength": 0
+		},
+		{
+			"key": "editvariable",
+			"userdatalength": 0
+		},
+		{
+			"key": "player_default",
+			"userdatalength": 0
+		},
+		{
+			"key": "PlayerKilledNPC",
+			"userdatalength": 0
+		},
+		{
+			"key": "NPCKilledNPC",
+			"userdatalength": 0
+		},
+		{
+			"key": "PlayerKilled",
+			"userdatalength": 0
+		},
+		{
+			"key": "PlayerKilledSelf",
+			"userdatalength": 0
+		},
+		{
+			"key": "PlayerKilledByPlayer",
+			"userdatalength": 0
+		},
+		{
+			"key": "DeathNoticeEvent",
+			"userdatalength": 0
+		},
+		{
+			"key": "GModSave",
+			"userdatalength": 0
+		},
+		{
+			"key": "player_sandbox",
+			"userdatalength": 0
+		},
+		{
+			"key": "drive_sandbox",
+			"userdatalength": 0
+		},
+		{
+			"key": "ReceiveDupe",
+			"userdatalength": 0
+		},
+		{
+			"key": "ArmDupe",
+			"userdatalength": 0
+		},
+		{
+			"key": "CopiedDupe",
+			"userdatalength": 0
+		},
+		{
+			"key": "worldspawn",
+			"userdatalength": 0
+		},
+		{
+			"key": "player_manager",
+			"userdatalength": 0
+		},
+		{
+			"key": "vgui_screen",
+			"userdatalength": 0
+		},
+		{
+			"key": "weapon_citizensuitcase",
+			"userdatalength": 0
+		},
+		{
+			"key": "weapon_citizenpackage",
+			"userdatalength": 0
+		},
+		{
+			"key": "weapon_alyxgun",
+			"userdatalength": 0
+		},
+		{
+			"key": "item_healthvial",
+			"userdatalength": 0
+		},
+		{
+			"key": "item_healthkit",
+			"userdatalength": 0
+		},
+		{
+			"key": "item_battery",
+			"userdatalength": 0
+		},
+		{
+			"key": "weapon_tripmine",
+			"userdatalength": 0
+		},
+		{
+			"key": "weapon_snark",
+			"userdatalength": 0
+		},
+		{
+			"key": "monster_snark",
+			"userdatalength": 0
+		},
+		{
+			"key": "scene_manager",
+			"userdatalength": 0
+		},
+		{
+			"key": "weapon_crowbar_hl1",
+			"userdatalength": 0
+		},
+		{
+			"key": "weaponbox",
+			"userdatalength": 0
+		},
+		{
+			"key": "ammo_buckshot",
+			"userdatalength": 0
+		},
+		{
+			"key": "ammo_rpgclip",
+			"userdatalength": 0
+		},
+		{
+			"key": "ammo_357",
+			"userdatalength": 0
+		},
+		{
+			"key": "ammo_argrenades",
+			"userdatalength": 0
+		},
+		{
+			"key": "ammo_mp5grenades",
+			"userdatalength": 0
+		},
+		{
+			"key": "ammo_9mmbox",
+			"userdatalength": 0
+		},
+		{
+			"key": "ammo_9mmar",
+			"userdatalength": 0
+		},
+		{
+			"key": "ammo_mp5clip",
+			"userdatalength": 0
+		},
+		{
+			"key": "ammo_9mmclip",
+			"userdatalength": 0
+		},
+		{
+			"key": "ammo_glockclip",
+			"userdatalength": 0
+		},
+		{
+			"key": "ammo_gaussclip",
+			"userdatalength": 0
+		},
+		{
+			"key": "ammo_egonclip",
+			"userdatalength": 0
+		},
+		{
+			"key": "ammo_crossbow",
+			"userdatalength": 0
+		},
+		{
+			"key": "weapon_oldmanharpoon",
+			"userdatalength": 0
+		},
+		{
+			"key": "entityflame",
+			"userdatalength": 0
+		},
+		{
+			"key": "weapon_stunstick",
+			"userdatalength": 0
+		},
+		{
+			"key": "weapon_smg1",
+			"userdatalength": 0
+		},
+		{
+			"key": "grenade_ar2",
+			"userdatalength": 0
+		},
+		{
+			"key": "weapon_slam",
+			"userdatalength": 0
+		},
+		{
+			"key": "npc_tripmine",
+			"userdatalength": 0
+		},
+		{
+			"key": "npc_satchel",
+			"userdatalength": 0
+		},
+		{
+			"key": "weapon_shotgun",
+			"userdatalength": 0
+		},
+		{
+			"key": "weapon_rpg",
+			"userdatalength": 0
+		},
+		{
+			"key": "rpg_missile",
+			"userdatalength": 0
+		},
+		{
+			"key": "weapon_pistol",
+			"userdatalength": 0
+		},
+		{
+			"key": "weapon_physcannon",
+			"userdatalength": 0
+		},
+		{
+			"key": "weapon_frag",
+			"userdatalength": 0
+		},
+		{
+			"key": "npc_grenade_frag",
+			"userdatalength": 0
+		},
+		{
+			"key": "weapon_crowbar",
+			"userdatalength": 0
+		},
+		{
+			"key": "weapon_crossbow",
+			"userdatalength": 0
+		},
+		{
+			"key": "crossbow_bolt",
+			"userdatalength": 0
+		},
+		{
+			"key": "weapon_ar2",
+			"userdatalength": 0
+		},
+		{
+			"key": "prop_combine_ball",
+			"userdatalength": 0
+		},
+		{
+			"key": "env_entity_dissolver",
+			"userdatalength": 0
+		},
+		{
+			"key": "weapon_357",
+			"userdatalength": 0
+		},
+		{
+			"key": "weapon_shotgun_hl1",
+			"userdatalength": 0
+		},
+		{
+			"key": "weapon_satchel",
+			"userdatalength": 0
+		},
+		{
+			"key": "weapon_rpg_hl1",
+			"userdatalength": 0
+		},
+		{
+			"key": "weapon_mp5_hl1",
+			"userdatalength": 0
+		},
+		{
+			"key": "weapon_hornetgun",
+			"userdatalength": 0
+		},
+		{
+			"key": "weapon_handgrenade",
+			"userdatalength": 0
+		},
+		{
+			"key": "weapon_glock_hl1",
+			"userdatalength": 0
+		},
+		{
+			"key": "weapon_gauss",
+			"userdatalength": 0
+		},
+		{
+			"key": "weapon_egon",
+			"userdatalength": 0
+		},
+		{
+			"key": "weapon_crossbow_hl1",
+			"userdatalength": 0
+		},
+		{
+			"key": "weapon_357_hl1",
+			"userdatalength": 0
+		},
+		{
+			"key": "weapon_physgun",
+			"userdatalength": 0
+		},
+		{
+			"key": "weapon_swep",
+			"userdatalength": 0
+		},
+		{
+			"key": "sent_point",
+			"userdatalength": 0
+		},
+		{
+			"key": "env_skypaint",
+			"userdatalength": 0
+		},
+		{
+			"key": "env_fog_controller",
+			"userdatalength": 0
+		},
+		{
+			"key": "env_sun",
+			"userdatalength": 0
+		}
+	]
+}

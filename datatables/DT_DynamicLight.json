@@ -1,0 +1,70 @@
+{
+	"name": "DT_DynamicLight",
+	"props": [
+		{
+			"index": 0,
+			"name": "baseclass",
+			"offset": 0,
+			"bits": 0,
+			"type": "DPT_DataTable",
+			"elements": 1,
+			"datatable": "DT_BaseEntity"
+		},
+		{
+			"index": 1,
+			"name": "m_Flags",
+			"offset": 5041,
+			"bits": 4,
+			"type": "DPT_Int",
+			"elements": 1
+		},
+		{
+			"index": 2,
+			"name": "m_LightStyle",
+			"offset": 5042,
+			"bits": 4,
+			"type": "DPT_Int",
+			"elements": 1
+		},
+		{
+			"index": 3,
+			"name": "m_Radius",
+			"offset": 5044,
+			"bits": 0,
+			"type": "DPT_Float",
+			"elements": 1
+		},
+		{
+			"index": 4,
+			"name": "m_Exponent",
+			"offset": 5048,
+			"bits": 8,
+			"type": "DPT_Int",
+			"elements": 1
+		},
+		{
+			"index": 5,
+			"name": "m_InnerAngle",
+			"offset": 5052,
+			"bits": 8,
+			"type": "DPT_Float",
+			"elements": 1
+		},
+		{
+			"index": 6,
+			"name": "m_OuterAngle",
+			"offset": 5056,
+			"bits": 8,
+			"type": "DPT_Float",
+			"elements": 1
+		},
+		{
+			"index": 7,
+			"name": "m_SpotRadius",
+			"offset": 5060,
+			"bits": 0,
+			"type": "DPT_Float",
+			"elements": 1
+		}
+	]
+}

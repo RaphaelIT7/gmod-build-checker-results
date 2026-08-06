@@ -1,0 +1,857 @@
+{
+	"name": "decalprecache",
+	"id": 4,
+	"entrybits": 9,
+	"maxstrings": 512,
+	"numstrings": 212,
+	"strings": [
+		{
+			"key": "decals/concrete/shot1_subrect",
+			"userdatalength": 1
+		},
+		{
+			"key": "decals/concrete/shot2_subrect",
+			"userdatalength": 1
+		},
+		{
+			"key": "decals/concrete/shot3_subrect",
+			"userdatalength": 1
+		},
+		{
+			"key": "decals/concrete/shot4_subrect",
+			"userdatalength": 1
+		},
+		{
+			"key": "decals/concrete/shot5_subrect",
+			"userdatalength": 1
+		},
+		{
+			"key": "decals/metal/shot1_subrect",
+			"userdatalength": 1
+		},
+		{
+			"key": "decals/metal/shot2_subrect",
+			"userdatalength": 1
+		},
+		{
+			"key": "decals/metal/shot3_subrect",
+			"userdatalength": 1
+		},
+		{
+			"key": "decals/metal/shot4_subrect",
+			"userdatalength": 1
+		},
+		{
+			"key": "decals/metal/shot5_subrect",
+			"userdatalength": 1
+		},
+		{
+			"key": "decals/wood/shot1_subrect",
+			"userdatalength": 1
+		},
+		{
+			"key": "decals/wood/shot2_subrect",
+			"userdatalength": 1
+		},
+		{
+			"key": "decals/wood/shot3_subrect",
+			"userdatalength": 1
+		},
+		{
+			"key": "decals/wood/shot4_subrect",
+			"userdatalength": 1
+		},
+		{
+			"key": "decals/wood/shot5_subrect",
+			"userdatalength": 1
+		},
+		{
+			"key": "decals/glass/shot1_subrect",
+			"userdatalength": 1
+		},
+		{
+			"key": "decals/glass/shot2_subrect",
+			"userdatalength": 1
+		},
+		{
+			"key": "decals/glass/shot3_subrect",
+			"userdatalength": 1
+		},
+		{
+			"key": "decals/glass/shot4_subrect",
+			"userdatalength": 1
+		},
+		{
+			"key": "decals/glass/shot5_subrect",
+			"userdatalength": 1
+		},
+		{
+			"key": "decals/flesh/blood1_subrect",
+			"userdatalength": 1
+		},
+		{
+			"key": "decals/flesh/blood2_subrect",
+			"userdatalength": 1
+		},
+		{
+			"key": "decals/flesh/blood3_subrect",
+			"userdatalength": 1
+		},
+		{
+			"key": "decals/flesh/blood4_subrect",
+			"userdatalength": 1
+		},
+		{
+			"key": "decals/flesh/blood5_subrect",
+			"userdatalength": 1
+		},
+		{
+			"key": "decals/bloodyflesh/blood1_subrect",
+			"userdatalength": 1
+		},
+		{
+			"key": "decals/bloodyflesh/blood2_subrect",
+			"userdatalength": 1
+		},
+		{
+			"key": "decals/bloodyflesh/blood3_subrect",
+			"userdatalength": 1
+		},
+		{
+			"key": "decals/bloodyflesh/blood4_subrect",
+			"userdatalength": 1
+		},
+		{
+			"key": "decals/bloodyflesh/blood5_subrect",
+			"userdatalength": 1
+		},
+		{
+			"key": "decals/alienflesh/shot1_subrect",
+			"userdatalength": 1
+		},
+		{
+			"key": "decals/alienflesh/shot2_subrect",
+			"userdatalength": 1
+		},
+		{
+			"key": "decals/alienflesh/shot3_subrect",
+			"userdatalength": 1
+		},
+		{
+			"key": "decals/alienflesh/shot4_subrect",
+			"userdatalength": 1
+		},
+		{
+			"key": "decals/alienflesh/shot5_subrect",
+			"userdatalength": 1
+		},
+		{
+			"key": "decals/antlion/shot1_subrect",
+			"userdatalength": 1
+		},
+		{
+			"key": "decals/antlion/shot2_subrect",
+			"userdatalength": 1
+		},
+		{
+			"key": "decals/antlion/shot3_subrect",
+			"userdatalength": 1
+		},
+		{
+			"key": "decals/antlion/shot4_subrect",
+			"userdatalength": 1
+		},
+		{
+			"key": "decals/antlion/shot5_subrect",
+			"userdatalength": 1
+		},
+		{
+			"key": "decals/sand/shot1_subrect",
+			"userdatalength": 1
+		},
+		{
+			"key": "decals/sand/shot2_subrect",
+			"userdatalength": 1
+		},
+		{
+			"key": "decals/sand/shot3_subrect",
+			"userdatalength": 1
+		},
+		{
+			"key": "decals/sand/shot4_subrect",
+			"userdatalength": 1
+		},
+		{
+			"key": "decals/scorch1_subrect",
+			"userdatalength": 1
+		},
+		{
+			"key": "decals/scorch2_subrect",
+			"userdatalength": 1
+		},
+		{
+			"key": "decals/blood1_subrect",
+			"userdatalength": 1
+		},
+		{
+			"key": "decals/blood2_subrect",
+			"userdatalength": 1
+		},
+		{
+			"key": "decals/blood3_subrect",
+			"userdatalength": 1
+		},
+		{
+			"key": "decals/blood4_subrect",
+			"userdatalength": 1
+		},
+		{
+			"key": "decals/blood5_subrect",
+			"userdatalength": 1
+		},
+		{
+			"key": "decals/blood6_subrect",
+			"userdatalength": 1
+		},
+		{
+			"key": "decals/yblood1_subrect",
+			"userdatalength": 1
+		},
+		{
+			"key": "decals/yblood2_subrect",
+			"userdatalength": 1
+		},
+		{
+			"key": "decals/yblood3_subrect",
+			"userdatalength": 1
+		},
+		{
+			"key": "decals/yblood4_subrect",
+			"userdatalength": 1
+		},
+		{
+			"key": "decals/yblood5_subrect",
+			"userdatalength": 1
+		},
+		{
+			"key": "decals/yblood6_subrect",
+			"userdatalength": 1
+		},
+		{
+			"key": "decals/break1_subrect",
+			"userdatalength": 1
+		},
+		{
+			"key": "decals/break2_subrect",
+			"userdatalength": 1
+		},
+		{
+			"key": "decals/break3_subrect",
+			"userdatalength": 1
+		},
+		{
+			"key": "decals/bigshot1_subrect",
+			"userdatalength": 1
+		},
+		{
+			"key": "decals/bigshot2_subrect",
+			"userdatalength": 1
+		},
+		{
+			"key": "decals/bigshot3_subrect",
+			"userdatalength": 1
+		},
+		{
+			"key": "decals/bigshot4_subrect",
+			"userdatalength": 1
+		},
+		{
+			"key": "decals/bigshot5_subrect",
+			"userdatalength": 1
+		},
+		{
+			"key": "decals/bproof1_subrect",
+			"userdatalength": 1
+		},
+		{
+			"key": "decals/smscorch1_subrect",
+			"userdatalength": 1
+		},
+		{
+			"key": "decals/smscorch2_subrect",
+			"userdatalength": 1
+		},
+		{
+			"key": "decals/smscorch3_subrect",
+			"userdatalength": 1
+		},
+		{
+			"key": "decals/scorchfade_subrect",
+			"userdatalength": 1
+		},
+		{
+			"key": "decals/beersplash_subrect",
+			"userdatalength": 1
+		},
+		{
+			"key": "decals/manhackcut_subrect",
+			"userdatalength": 1
+		},
+		{
+			"key": "decals/manhackcut2_subrect",
+			"userdatalength": 1
+		},
+		{
+			"key": "decals/manhackcut3_subrect",
+			"userdatalength": 1
+		},
+		{
+			"key": "decals/redglowfade",
+			"userdatalength": 1
+		},
+		{
+			"key": "decals/combineballfade",
+			"userdatalength": 1
+		},
+		{
+			"key": "decals/combineballfade2",
+			"userdatalength": 1
+		},
+		{
+			"key": "decals/combineballfade3",
+			"userdatalength": 1
+		},
+		{
+			"key": "decals/plasmaglowfade",
+			"userdatalength": 1
+		},
+		{
+			"key": "decals/decalsplash",
+			"userdatalength": 1
+		},
+		{
+			"key": "sprites/fire_floor",
+			"userdatalength": 1
+		},
+		{
+			"key": "decals/unburrow_subrect",
+			"userdatalength": 1
+		},
+		{
+			"key": "decals/extinguish1_subrect",
+			"userdatalength": 1
+		},
+		{
+			"key": "decals/extinguish2_subrect",
+			"userdatalength": 1
+		},
+		{
+			"key": "decals/splash1_subrect",
+			"userdatalength": 1
+		},
+		{
+			"key": "decals/rollermine_crater_subrect",
+			"userdatalength": 1
+		},
+		{
+			"key": "decals/decal_birdpoop001_subrect",
+			"userdatalength": 1
+		},
+		{
+			"key": "decals/decal_birdpoop002_subrect",
+			"userdatalength": 1
+		},
+		{
+			"key": "decals/decal_birdpoop003_subrect",
+			"userdatalength": 1
+		},
+		{
+			"key": "decals/decal_birdpoop004_subrect",
+			"userdatalength": 1
+		},
+		{
+			"key": "decals/decal_paintsplatterblue001_subrect",
+			"userdatalength": 1
+		},
+		{
+			"key": "decals/decal_paintsplattergreen001_subrect",
+			"userdatalength": 1
+		},
+		{
+			"key": "decals/decal_paintsplatterpink001_subrect",
+			"userdatalength": 1
+		},
+		{
+			"key": "decals/antlion/antlion_splat",
+			"userdatalength": 1
+		},
+		{
+			"key": "decals/security_camera_detachment",
+			"userdatalength": 1
+		},
+		{
+			"key": "decals/concrete/shot1",
+			"userdatalength": 1
+		},
+		{
+			"key": "decals/concrete/shot2",
+			"userdatalength": 1
+		},
+		{
+			"key": "decals/concrete/shot3",
+			"userdatalength": 1
+		},
+		{
+			"key": "decals/concrete/shot4",
+			"userdatalength": 1
+		},
+		{
+			"key": "decals/concrete/shot5",
+			"userdatalength": 1
+		},
+		{
+			"key": "decals/metal/shot1",
+			"userdatalength": 1
+		},
+		{
+			"key": "decals/metal/shot2",
+			"userdatalength": 1
+		},
+		{
+			"key": "decals/metal/shot3",
+			"userdatalength": 1
+		},
+		{
+			"key": "decals/metal/shot4",
+			"userdatalength": 1
+		},
+		{
+			"key": "decals/metal/shot5",
+			"userdatalength": 1
+		},
+		{
+			"key": "decals/wood/shot1",
+			"userdatalength": 1
+		},
+		{
+			"key": "decals/wood/shot2",
+			"userdatalength": 1
+		},
+		{
+			"key": "decals/wood/shot3",
+			"userdatalength": 1
+		},
+		{
+			"key": "decals/wood/shot4",
+			"userdatalength": 1
+		},
+		{
+			"key": "decals/wood/shot5",
+			"userdatalength": 1
+		},
+		{
+			"key": "decals/glass/shot1",
+			"userdatalength": 1
+		},
+		{
+			"key": "decals/glass/shot2",
+			"userdatalength": 1
+		},
+		{
+			"key": "decals/glass/shot3",
+			"userdatalength": 1
+		},
+		{
+			"key": "decals/glass/shot4",
+			"userdatalength": 1
+		},
+		{
+			"key": "decals/glass/shot5",
+			"userdatalength": 1
+		},
+		{
+			"key": "decals/flesh/blood1",
+			"userdatalength": 1
+		},
+		{
+			"key": "decals/flesh/blood2",
+			"userdatalength": 1
+		},
+		{
+			"key": "decals/flesh/blood3",
+			"userdatalength": 1
+		},
+		{
+			"key": "decals/flesh/blood4",
+			"userdatalength": 1
+		},
+		{
+			"key": "decals/flesh/blood5",
+			"userdatalength": 1
+		},
+		{
+			"key": "decals/bloodyflesh/blood1",
+			"userdatalength": 1
+		},
+		{
+			"key": "decals/bloodyflesh/blood2",
+			"userdatalength": 1
+		},
+		{
+			"key": "decals/bloodyflesh/blood3",
+			"userdatalength": 1
+		},
+		{
+			"key": "decals/bloodyflesh/blood4",
+			"userdatalength": 1
+		},
+		{
+			"key": "decals/bloodyflesh/blood5",
+			"userdatalength": 1
+		},
+		{
+			"key": "decals/alienflesh/shot1",
+			"userdatalength": 1
+		},
+		{
+			"key": "decals/alienflesh/shot2",
+			"userdatalength": 1
+		},
+		{
+			"key": "decals/alienflesh/shot3",
+			"userdatalength": 1
+		},
+		{
+			"key": "decals/alienflesh/shot4",
+			"userdatalength": 1
+		},
+		{
+			"key": "decals/alienflesh/shot5",
+			"userdatalength": 1
+		},
+		{
+			"key": "decals/antlion/shot1",
+			"userdatalength": 1
+		},
+		{
+			"key": "decals/antlion/shot2",
+			"userdatalength": 1
+		},
+		{
+			"key": "decals/antlion/shot3",
+			"userdatalength": 1
+		},
+		{
+			"key": "decals/antlion/shot4",
+			"userdatalength": 1
+		},
+		{
+			"key": "decals/antlion/shot5",
+			"userdatalength": 1
+		},
+		{
+			"key": "decals/scorch1",
+			"userdatalength": 1
+		},
+		{
+			"key": "decals/scorch2",
+			"userdatalength": 1
+		},
+		{
+			"key": "decals/blood1",
+			"userdatalength": 1
+		},
+		{
+			"key": "decals/blood2",
+			"userdatalength": 1
+		},
+		{
+			"key": "decals/blood3",
+			"userdatalength": 1
+		},
+		{
+			"key": "decals/blood4",
+			"userdatalength": 1
+		},
+		{
+			"key": "decals/blood5",
+			"userdatalength": 1
+		},
+		{
+			"key": "decals/blood6",
+			"userdatalength": 1
+		},
+		{
+			"key": "decals/blood7",
+			"userdatalength": 1
+		},
+		{
+			"key": "decals/blood8",
+			"userdatalength": 1
+		},
+		{
+			"key": "decals/yblood1",
+			"userdatalength": 1
+		},
+		{
+			"key": "decals/yblood2",
+			"userdatalength": 1
+		},
+		{
+			"key": "decals/yblood3",
+			"userdatalength": 1
+		},
+		{
+			"key": "decals/yblood4",
+			"userdatalength": 1
+		},
+		{
+			"key": "decals/yblood5",
+			"userdatalength": 1
+		},
+		{
+			"key": "decals/yblood6",
+			"userdatalength": 1
+		},
+		{
+			"key": "decals/break1",
+			"userdatalength": 1
+		},
+		{
+			"key": "decals/break2",
+			"userdatalength": 1
+		},
+		{
+			"key": "decals/break3",
+			"userdatalength": 1
+		},
+		{
+			"key": "decals/bigshot1",
+			"userdatalength": 1
+		},
+		{
+			"key": "decals/bigshot2",
+			"userdatalength": 1
+		},
+		{
+			"key": "decals/bigshot3",
+			"userdatalength": 1
+		},
+		{
+			"key": "decals/bigshot4",
+			"userdatalength": 1
+		},
+		{
+			"key": "decals/bigshot5",
+			"userdatalength": 1
+		},
+		{
+			"key": "decals/bproof1",
+			"userdatalength": 1
+		},
+		{
+			"key": "decals/smscorch1",
+			"userdatalength": 1
+		},
+		{
+			"key": "decals/smscorch2",
+			"userdatalength": 1
+		},
+		{
+			"key": "decals/smscorch3",
+			"userdatalength": 1
+		},
+		{
+			"key": "decals/scorchfade",
+			"userdatalength": 1
+		},
+		{
+			"key": "decals/beersplash",
+			"userdatalength": 1
+		},
+		{
+			"key": "decals/manhackcut",
+			"userdatalength": 1
+		},
+		{
+			"key": "decals/manhackcut2",
+			"userdatalength": 1
+		},
+		{
+			"key": "decals/manhackcut3",
+			"userdatalength": 1
+		},
+		{
+			"key": "decals/unburrow",
+			"userdatalength": 1
+		},
+		{
+			"key": "decals/extinguish1",
+			"userdatalength": 1
+		},
+		{
+			"key": "decals/extinguish2",
+			"userdatalength": 1
+		},
+		{
+			"key": "decals/splash1",
+			"userdatalength": 1
+		},
+		{
+			"key": "decals/splash2",
+			"userdatalength": 1
+		},
+		{
+			"key": "decals/splash3",
+			"userdatalength": 1
+		},
+		{
+			"key": "decals/rollermine_crater",
+			"userdatalength": 1
+		},
+		{
+			"key": "decals/decal_birdpoop001",
+			"userdatalength": 1
+		},
+		{
+			"key": "decals/decal_birdpoop002",
+			"userdatalength": 1
+		},
+		{
+			"key": "decals/decal_birdpoop003",
+			"userdatalength": 1
+		},
+		{
+			"key": "decals/decal_birdpoop004",
+			"userdatalength": 1
+		},
+		{
+			"key": "decals/decal_paintsplatterblue001",
+			"userdatalength": 1
+		},
+		{
+			"key": "decals/decal_paintsplattergreen001",
+			"userdatalength": 1
+		},
+		{
+			"key": "decals/decal_paintsplatterpink001",
+			"userdatalength": 1
+		},
+		{
+			"key": "decals/decal_paintsplatterblue_model",
+			"userdatalength": 1
+		},
+		{
+			"key": "decals/decal_paintsplattergreen_model",
+			"userdatalength": 1
+		},
+		{
+			"key": "decals/decal_paintsplatterpink_model",
+			"userdatalength": 1
+		},
+		{
+			"key": "decals/beersplashmodel",
+			"userdatalength": 1
+		},
+		{
+			"key": "decals/bigshot1model",
+			"userdatalength": 1
+		},
+		{
+			"key": "decals/bigshot2model",
+			"userdatalength": 1
+		},
+		{
+			"key": "decals/bigshot3model",
+			"userdatalength": 1
+		},
+		{
+			"key": "decals/bigshot4model",
+			"userdatalength": 1
+		},
+		{
+			"key": "decals/bigshot5model",
+			"userdatalength": 1
+		},
+		{
+			"key": "decals/bproof1model",
+			"userdatalength": 1
+		},
+		{
+			"key": "decals/break1model",
+			"userdatalength": 1
+		},
+		{
+			"key": "decals/break2model",
+			"userdatalength": 1
+		},
+		{
+			"key": "decals/break3model",
+			"userdatalength": 1
+		},
+		{
+			"key": "decals/extinguish1model",
+			"userdatalength": 1
+		},
+		{
+			"key": "decals/extinguish2model",
+			"userdatalength": 1
+		},
+		{
+			"key": "decals/scorch1model",
+			"userdatalength": 1
+		},
+		{
+			"key": "decals/scorch2model",
+			"userdatalength": 1
+		},
+		{
+			"key": "decals/scorchfademodel",
+			"userdatalength": 1
+		},
+		{
+			"key": "decals/smscorch1model",
+			"userdatalength": 1
+		},
+		{
+			"key": "decals/smscorch2model",
+			"userdatalength": 1
+		},
+		{
+			"key": "decals/smscorch3model",
+			"userdatalength": 1
+		},
+		{
+			"key": "decals/eye",
+			"userdatalength": 1
+		},
+		{
+			"key": "decals/dark",
+			"userdatalength": 1
+		},
+		{
+			"key": "decals/smile",
+			"userdatalength": 1
+		},
+		{
+			"key": "decals/light",
+			"userdatalength": 1
+		},
+		{
+			"key": "decals/cross",
+			"userdatalength": 1
+		},
+		{
+			"key": "decals/nought",
+			"userdatalength": 1
+		},
+		{
+			"key": "decals/noughtsncrosses",
+			"userdatalength": 1
+		},
+		{
+			"key": "decals/decalgraffiti036a",
+			"userdatalength": 1
+		}
+	]
+}

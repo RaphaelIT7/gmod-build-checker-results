@@ -1,0 +1,64 @@
+{
+	"name": "DT_BaseCombatWeapon",
+	"props": [
+		{
+			"index": 0,
+			"name": "baseclass",
+			"offset": 0,
+			"bits": 0,
+			"type": "DPT_DataTable",
+			"elements": 1,
+			"datatable": "DT_BaseAnimating"
+		},
+		{
+			"index": 1,
+			"name": "LocalWeaponData",
+			"offset": 0,
+			"bits": 0,
+			"type": "DPT_DataTable",
+			"elements": 1,
+			"datatable": "DT_LocalWeaponData"
+		},
+		{
+			"index": 2,
+			"name": "LocalActiveWeaponData",
+			"offset": 0,
+			"bits": 0,
+			"type": "DPT_DataTable",
+			"elements": 1,
+			"datatable": "DT_LocalActiveWeaponData"
+		},
+		{
+			"index": 3,
+			"name": "m_iViewModelIndex",
+			"offset": 5524,
+			"bits": 14,
+			"type": "DPT_Int",
+			"elements": 1
+		},
+		{
+			"index": 4,
+			"name": "m_iWorldModelIndex",
+			"offset": 5528,
+			"bits": 14,
+			"type": "DPT_Int",
+			"elements": 1
+		},
+		{
+			"index": 5,
+			"name": "m_iState",
+			"offset": 5560,
+			"bits": 4,
+			"type": "DPT_Int",
+			"elements": 1
+		},
+		{
+			"index": 6,
+			"name": "m_hOwner",
+			"offset": 5488,
+			"bits": 23,
+			"type": "DPT_Int",
+			"elements": 1
+		}
+	]
+}

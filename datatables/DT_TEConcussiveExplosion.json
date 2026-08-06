@@ -1,0 +1,46 @@
+{
+	"name": "DT_TEConcussiveExplosion",
+	"props": [
+		{
+			"index": 0,
+			"name": "baseclass",
+			"offset": 0,
+			"bits": 0,
+			"type": "DPT_DataTable",
+			"elements": 1,
+			"datatable": "DT_TEParticleSystem"
+		},
+		{
+			"index": 1,
+			"name": "m_vecNormal",
+			"offset": 24,
+			"bits": 0,
+			"type": "DPT_Vector",
+			"elements": 1
+		},
+		{
+			"index": 2,
+			"name": "m_flScale",
+			"offset": 36,
+			"bits": 0,
+			"type": "DPT_Float",
+			"elements": 1
+		},
+		{
+			"index": 3,
+			"name": "m_nRadius",
+			"offset": 40,
+			"bits": 32,
+			"type": "DPT_Int",
+			"elements": 1
+		},
+		{
+			"index": 4,
+			"name": "m_nMagnitude",
+			"offset": 44,
+			"bits": 32,
+			"type": "DPT_Int",
+			"elements": 1
+		}
+	]
+}

@@ -1,0 +1,21 @@
+{
+	"name": "DT_DetailController",
+	"props": [
+		{
+			"index": 0,
+			"name": "m_flFadeStartDist",
+			"offset": 5040,
+			"bits": 0,
+			"type": "DPT_Float",
+			"elements": 1
+		},
+		{
+			"index": 1,
+			"name": "m_flFadeEndDist",
+			"offset": 5044,
+			"bits": 0,
+			"type": "DPT_Float",
+			"elements": 1
+		}
+	]
+}

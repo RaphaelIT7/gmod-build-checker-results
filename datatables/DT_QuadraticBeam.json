@@ -1,0 +1,46 @@
+{
+	"name": "DT_QuadraticBeam",
+	"props": [
+		{
+			"index": 0,
+			"name": "baseclass",
+			"offset": 0,
+			"bits": 0,
+			"type": "DPT_DataTable",
+			"elements": 1,
+			"datatable": "DT_BaseEntity"
+		},
+		{
+			"index": 1,
+			"name": "m_targetPosition",
+			"offset": 5040,
+			"bits": 0,
+			"type": "DPT_Vector",
+			"elements": 1
+		},
+		{
+			"index": 2,
+			"name": "m_controlPosition",
+			"offset": 5052,
+			"bits": 0,
+			"type": "DPT_Vector",
+			"elements": 1
+		},
+		{
+			"index": 3,
+			"name": "m_scrollRate",
+			"offset": 5064,
+			"bits": 8,
+			"type": "DPT_Float",
+			"elements": 1
+		},
+		{
+			"index": 4,
+			"name": "m_flWidth",
+			"offset": 5068,
+			"bits": 0,
+			"type": "DPT_Float",
+			"elements": 1
+		}
+	]
+}

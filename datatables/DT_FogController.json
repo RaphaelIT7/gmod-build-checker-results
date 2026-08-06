@@ -1,0 +1,165 @@
+{
+	"name": "DT_FogController",
+	"props": [
+		{
+			"index": 0,
+			"name": "m_fog.enable",
+			"offset": 5116,
+			"bits": 1,
+			"type": "DPT_Int",
+			"elements": 1
+		},
+		{
+			"index": 1,
+			"name": "m_fog.blend",
+			"offset": 5117,
+			"bits": 1,
+			"type": "DPT_Int",
+			"elements": 1
+		},
+		{
+			"index": 2,
+			"name": "m_fog.radial",
+			"offset": 5118,
+			"bits": 1,
+			"type": "DPT_Int",
+			"elements": 1
+		},
+		{
+			"index": 3,
+			"name": "m_fog.dirPrimary",
+			"offset": 5044,
+			"bits": 0,
+			"type": "DPT_Vector",
+			"elements": 1
+		},
+		{
+			"index": 4,
+			"name": "m_fog.colorPrimary",
+			"offset": 5056,
+			"bits": 32,
+			"type": "DPT_Int",
+			"elements": 1
+		},
+		{
+			"index": 5,
+			"name": "m_fog.colorSecondary",
+			"offset": 5060,
+			"bits": 32,
+			"type": "DPT_Int",
+			"elements": 1
+		},
+		{
+			"index": 6,
+			"name": "m_fog.colorPrimaryHDR",
+			"offset": 5064,
+			"bits": 32,
+			"type": "DPT_Int",
+			"elements": 1
+		},
+		{
+			"index": 7,
+			"name": "m_fog.colorSecondaryHDR",
+			"offset": 5068,
+			"bits": 32,
+			"type": "DPT_Int",
+			"elements": 1
+		},
+		{
+			"index": 8,
+			"name": "m_fog.start",
+			"offset": 5080,
+			"bits": 0,
+			"type": "DPT_Float",
+			"elements": 1
+		},
+		{
+			"index": 9,
+			"name": "m_fog.end",
+			"offset": 5084,
+			"bits": 0,
+			"type": "DPT_Float",
+			"elements": 1
+		},
+		{
+			"index": 10,
+			"name": "m_fog.maxdensity",
+			"offset": 5092,
+			"bits": 0,
+			"type": "DPT_Float",
+			"elements": 1
+		},
+		{
+			"index": 11,
+			"name": "m_fog.farz",
+			"offset": 5088,
+			"bits": 0,
+			"type": "DPT_Float",
+			"elements": 1
+		},
+		{
+			"index": 12,
+			"name": "m_fog.colorPrimaryLerpTo",
+			"offset": 5072,
+			"bits": 32,
+			"type": "DPT_Int",
+			"elements": 1
+		},
+		{
+			"index": 13,
+			"name": "m_fog.colorSecondaryLerpTo",
+			"offset": 5076,
+			"bits": 32,
+			"type": "DPT_Int",
+			"elements": 1
+		},
+		{
+			"index": 14,
+			"name": "m_fog.startLerpTo",
+			"offset": 5096,
+			"bits": 0,
+			"type": "DPT_Float",
+			"elements": 1
+		},
+		{
+			"index": 15,
+			"name": "m_fog.endLerpTo",
+			"offset": 5100,
+			"bits": 0,
+			"type": "DPT_Float",
+			"elements": 1
+		},
+		{
+			"index": 16,
+			"name": "m_fog.maxdensityLerpTo",
+			"offset": 5104,
+			"bits": 0,
+			"type": "DPT_Float",
+			"elements": 1
+		},
+		{
+			"index": 17,
+			"name": "m_fog.lerptime",
+			"offset": 5108,
+			"bits": 0,
+			"type": "DPT_Float",
+			"elements": 1
+		},
+		{
+			"index": 18,
+			"name": "m_fog.duration",
+			"offset": 5112,
+			"bits": 0,
+			"type": "DPT_Float",
+			"elements": 1
+		},
+		{
+			"index": 19,
+			"name": "m_fog.HDRColorScale",
+			"offset": 5120,
+			"bits": 0,
+			"type": "DPT_Float",
+			"elements": 1
+		}
+	]
+}

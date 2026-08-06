@@ -1,0 +1,209 @@
+{
+	"name": "DT_BaseAnimating",
+	"props": [
+		{
+			"index": 0,
+			"name": "baseclass",
+			"offset": 0,
+			"bits": 0,
+			"type": "DPT_DataTable",
+			"elements": 1,
+			"datatable": "DT_BaseEntity"
+		},
+		{
+			"index": 1,
+			"name": "m_nForceBone",
+			"offset": 5048,
+			"bits": 8,
+			"type": "DPT_Int",
+			"elements": 1
+		},
+		{
+			"index": 2,
+			"name": "m_vecForce",
+			"offset": 5052,
+			"bits": 0,
+			"type": "DPT_Vector",
+			"elements": 1
+		},
+		{
+			"index": 3,
+			"name": "m_nSkin",
+			"offset": 5064,
+			"bits": 10,
+			"type": "DPT_Int",
+			"elements": 1
+		},
+		{
+			"index": 4,
+			"name": "m_nBody",
+			"offset": 5068,
+			"bits": 32,
+			"type": "DPT_Int",
+			"elements": 1
+		},
+		{
+			"index": 5,
+			"name": "m_nHitboxSet",
+			"offset": 5072,
+			"bits": 2,
+			"type": "DPT_Int",
+			"elements": 1
+		},
+		{
+			"index": 6,
+			"name": "m_flModelScale",
+			"offset": 5076,
+			"bits": 0,
+			"type": "DPT_Float",
+			"elements": 1
+		},
+		{
+			"index": 7,
+			"name": "m_flPoseParameter",
+			"offset": 5128,
+			"bits": 0,
+			"type": "DPT_DataTable",
+			"elements": 1,
+			"datatable": "m_flPoseParameter"
+		},
+		{
+			"index": 8,
+			"name": "m_nSequence",
+			"offset": 5124,
+			"bits": 12,
+			"type": "DPT_Int",
+			"elements": 1
+		},
+		{
+			"index": 9,
+			"name": "m_flPlaybackRate",
+			"offset": 5080,
+			"bits": 8,
+			"type": "DPT_Float",
+			"elements": 1
+		},
+		{
+			"index": 10,
+			"name": "m_flEncodedController",
+			"offset": 5224,
+			"bits": 0,
+			"type": "DPT_DataTable",
+			"elements": 1,
+			"datatable": "m_flEncodedController"
+		},
+		{
+			"index": 11,
+			"name": "m_bClientSideAnimation",
+			"offset": 5240,
+			"bits": 1,
+			"type": "DPT_Int",
+			"elements": 1
+		},
+		{
+			"index": 12,
+			"name": "m_bClientSideFrameReset",
+			"offset": 5241,
+			"bits": 1,
+			"type": "DPT_Int",
+			"elements": 1
+		},
+		{
+			"index": 13,
+			"name": "m_nNewSequenceParity",
+			"offset": 5244,
+			"bits": 3,
+			"type": "DPT_Int",
+			"elements": 1
+		},
+		{
+			"index": 14,
+			"name": "m_nResetEventsParity",
+			"offset": 5248,
+			"bits": 3,
+			"type": "DPT_Int",
+			"elements": 1
+		},
+		{
+			"index": 15,
+			"name": "m_nMuzzleFlashParity",
+			"offset": 5242,
+			"bits": 2,
+			"type": "DPT_Int",
+			"elements": 1
+		},
+		{
+			"index": 16,
+			"name": "m_hLightingOrigin",
+			"offset": 5252,
+			"bits": 23,
+			"type": "DPT_Int",
+			"elements": 1
+		},
+		{
+			"index": 17,
+			"name": "m_hLightingOriginRelative",
+			"offset": 5256,
+			"bits": 23,
+			"type": "DPT_Int",
+			"elements": 1
+		},
+		{
+			"index": 18,
+			"name": "serveranimdata",
+			"offset": 0,
+			"bits": 0,
+			"type": "DPT_DataTable",
+			"elements": 1,
+			"datatable": "DT_ServerAnimationData"
+		},
+		{
+			"index": 19,
+			"name": "m_fadeMinDist",
+			"offset": 5276,
+			"bits": 0,
+			"type": "DPT_Float",
+			"elements": 1
+		},
+		{
+			"index": 20,
+			"name": "m_fadeMaxDist",
+			"offset": 5280,
+			"bits": 0,
+			"type": "DPT_Float",
+			"elements": 1
+		},
+		{
+			"index": 21,
+			"name": "m_flFadeScale",
+			"offset": 5284,
+			"bits": 0,
+			"type": "DPT_Float",
+			"elements": 1
+		},
+		{
+			"index": 22,
+			"name": "m_pBoneManipulator",
+			"offset": 5432,
+			"bits": 23,
+			"type": "DPT_Int",
+			"elements": 1
+		},
+		{
+			"index": 23,
+			"name": "m_pFlexManipulator",
+			"offset": 5436,
+			"bits": 23,
+			"type": "DPT_Int",
+			"elements": 1
+		},
+		{
+			"index": 24,
+			"name": "m_OverrideViewTarget",
+			"offset": 5288,
+			"bits": 0,
+			"type": "DPT_Vector",
+			"elements": 1
+		}
+	]
+}

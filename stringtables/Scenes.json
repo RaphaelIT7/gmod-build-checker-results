@@ -1,0 +1,7145 @@
+{
+	"name": "Scenes",
+	"id": 14,
+	"entrybits": 12,
+	"maxstrings": 4096,
+	"numstrings": 1784,
+	"strings": [
+		{
+			"key": "scenes/Jake/reaction_eli.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/Jake/reaction_alyx.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/Jake/reaction_barney.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/k_lab/kl_response01.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/k_lab/kl_response02.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/k_lab/al_response01.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/k_lab/al_response02.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/k_lab/al_response03.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/k_lab/al_response04.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/k_lab/al_response05.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/k_lab/ba_response01.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/k_lab/ba_response02.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/k_lab/ba_response03.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/k_lab/ba_response04.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/k_lab/ba_response05.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes\\eli_lab\\vort_elab_goaway.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes\\eli_lab\\vort_elab_use01.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes\\eli_lab\\vort_elab_use02.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes\\eli_lab\\vort_elab_use03.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes\\eli_lab\\vort_elab_use04.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes\\eli_lab\\vort_elab_use05.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes\\eli_lab\\vort_elab_use05_bugfix.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/vortigaunt/vort_affirmed.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/vortigaunt/vort_vortigese05.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/vortigaunt/vort_beofservice.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/vortigaunt/vort_vort_chant21.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/vortigaunt/vort_certainly.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/vortigaunt/vort_vort_chant05.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/vortigaunt/vort_forthefm.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/vortigaunt/vort_freeman.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/vortigaunt/vort_vort_mant04.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/vortigaunt/vort_vort_livetoserve.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/vortigaunt/vort_leadus.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/vortigaunt/vort_leadon.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes\\outland_11\\vort_silo_maghonor02.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes\\outland_11\\vort_silo_maghonor03.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/vortigaunt/vort_combat_combined01.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/vortigaunt/vort_combat_combined02.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/vortigaunt/vort_alert_antlions.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/vortigaunt/vort_worry.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/vortigaunt/vort_alert.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/vortigaunt/vort_vortigese03.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/vortigaunt/vort_vortigese09.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/vortigaunt/vort_vortigese04.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/vortigaunt/vort_vortigese07.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/vortigaunt/vort_vortigese08.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/vortigaunt/vort_returntoall.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/vortigaunt/vort_yes.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/vortigaunt/vort_tethercut.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/vortigaunt/vort_passon.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/vortigaunt/returnvoid.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/vortigaunt/vort_prevail.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/vortigaunt/vort_goodfightwithus.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/vortigaunt/vort_killsformidable.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/vortigaunt/vort_goodtogether.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/vortigaunt/vort_excellent.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/vortigaunt/vort_excellentshooting.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/vortigaunt/vort_excellentshot.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/vortigaunt/vort_exceptional.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/outland_02/vort_pre_revive_nag01.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/outland_02/vort_pre_revive_nag02.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/outland_02/vort_pre_revive_nag03.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/outland_02/vort_pre_revive_nag04.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/outland_02/vort_pre_revive_nag05.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/outland_02/vort_turret_weneedhelpcometous.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/outland_02/vort_turret_weareunderattackdefendus.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/outland_02/vort_turret_defendus.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/outland_02/vort_turret_protectalyx.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/outland_02/vort_turret_protectus.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/outland_11/vort_fmadvance.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/outland_11/vort_hastefm.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/outland_11/vort_fmmustmove.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/vortigaunt/allowrecharge.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/vortigaunt/wewillcharge.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/vortigaunt/fmcanuse.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/vortigaunt/here.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/vortigaunt/acceptenergy.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/vortigaunt/holdstill.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/vortigaunt/acceptcharge.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/vortigaunt/weshare.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/vortigaunt/prepare.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/vortigaunt/allwecanspare.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/vortigaunt/allfornow.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/vortigaunt/thatisall.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/vortigaunt/done.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/vortigaunt/keepfmsafe.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/vortigaunt/holdorcantcharge.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/vortigaunt/hold.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/vortigaunt/halt.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/vortigaunt/fmstandstill.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/vortigaunt/ifyoumove.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/vortigaunt/movingtarget.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/vortigaunt/tothevoid.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/vortigaunt/allinoneinall.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/vortigaunt/giveover.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/vortigaunt/weclaimyou.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/vortigaunt/undeserving.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/vortigaunt/satisfaction.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/vortigaunt/regrettable.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/vortigaunt/allowme.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/vortigaunt/livetoserve.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/vortigaunt/forthefm.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/vortigaunt/forfreedom.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/vortigaunt/tethercut.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/vortigaunt/troubleus.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/vortigaunt/dreamed.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/vortigaunt/energyempower.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/vortigaunt/empowerus.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/vortigaunt/surge.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/vortigaunt/yes.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/vortigaunt/passon.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/vortigaunt/nodenexus.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/vortigaunt/returntoall.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/vortigaunt/cautionfm.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/vortigaunt/caution.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/vortigaunt/fmbeware.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/vortigaunt/ware.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/vortigaunt/fmmustbeware.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/vortigaunt/warefm.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/vortigaunt/fminway.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/vortigaunt/standclear.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/vortigaunt/fmmustmove.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/vortigaunt/warningfm.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/vortigaunt/cannotfire.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/vortigaunt/itishonor.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/vortigaunt/wehonored.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/vortigaunt/ourhonor.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/vortigaunt/honorfollow.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/vortigaunt/accompany.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/vortigaunt/gladly.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/vortigaunt/pleasure.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/vortigaunt/wefollowfm.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/vortigaunt/honorours.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/vortigaunt/gloriousend.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/vortigaunt/bodyyours.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/vortigaunt/allwehave.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/vortigaunt/weareyours.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/vortigaunt/dedicate.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/vortigaunt/mutual.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/vortigaunt/leadus.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/vortigaunt/onward.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/vortigaunt/forward.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/vortigaunt/propitious.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/vortigaunt/leadon.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/vortigaunt/fmhonorsus.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/vortigaunt/fmdoesushonor.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/vortigaunt/yesforward.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/vortigaunt/wewillhelp.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/vortigaunt/assent.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/vortigaunt/canconvince.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/vortigaunt/fmknowsbest.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/vortigaunt/willremain.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/vortigaunt/fearfailed.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/vortigaunt/servebetterhere.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/vortigaunt/certainly.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/vortigaunt/herewestay.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/vortigaunt/asyouwish.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/vortigaunt/ourplacehere.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/vortigaunt/affirmed.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/vortigaunt/fmmustfollow.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/vortigaunt/followfm.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/coast/bugbait/vort_extract01.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/coast/bugbait/vort_podsforyou01.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/coast/bugbait/vort_podnag.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/male01/abouttime01.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/female01/abouttime01.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/male01/abouttime02.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/female01/abouttime02.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/male01/ahgordon01.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/female01/ahgordon01.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/male01/ahgordon02.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/female01/ahgordon02.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/male01/docfreeman01.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/female01/docfreeman01.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/male01/docfreeman02.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/female01/docfreeman02.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/male01/freeman.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/female01/freeman.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/male01/hellodrfm01.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/female01/hellodrfm01.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/male01/hellodrfm02.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/female01/hellodrfm02.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/male01/heydoc01.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/female01/heydoc01.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/male01/heydoc02.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/female01/heydoc02.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/male01/hi01.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/female01/hi01.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/male01/hi02.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/female01/hi02.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/male01/doingsomething.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/female01/doingsomething.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/male01/getgoingsoon.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/female01/getgoingsoon.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/male01/waitingsomebody.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/female01/waitingsomebody.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/male01/sorryfm01.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/female01/sorryfm01.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/male01/sorryfm02.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/female01/sorryfm02.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/male01/sorrydoc01.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/female01/sorrydoc01.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/male01/sorrydoc02.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/female01/sorrydoc02.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/male01/sorrydoc04.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/female01/sorrydoc04.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/male01/excuseme01.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/female01/excuseme01.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/male01/excuseme02.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/female01/excuseme02.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/male01/pardonme01.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/female01/pardonme01.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/male01/pardonme02.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/female01/pardonme02.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/male01/sorry01.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/female01/sorry01.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/male01/sorry02.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/female01/sorry02.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/male01/sorry03.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/female01/sorry03.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/male01/outofyourway01.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/female01/outofyourway01.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/male01/outofyourway02.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/female01/outofyourway02.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/male01/whoops01.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/female01/whoops01.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/male01/vquestion01.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/female01/vquestion01.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/male01/vquestion02.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/female01/vquestion02.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/male01/vquestion03.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/female01/vquestion03.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/male01/vquestion04.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/female01/vquestion04.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/male01/vquestion05.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/female01/vquestion05.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/male01/vquestion06.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/female01/vquestion06.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/male01/vquestion07.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/female01/vquestion07.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/male01/vanswer01.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/female01/vanswer01.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/male01/vanswer02.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/female01/vanswer02.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/male01/vanswer03.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/female01/vanswer03.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/male01/vanswer04.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/female01/vanswer04.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/male01/vanswer05.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/female01/vanswer05.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/male01/vanswer06.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/female01/vanswer06.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/male01/vanswer07.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/female01/vanswer07.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/male01/vanswer08.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/female01/vanswer08.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/male01/vanswer09.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/female01/vanswer09.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/male01/vanswer10.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/female01/vanswer10.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/male01/vanswer11.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/female01/vanswer11.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/male01/vanswer12.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/female01/vanswer12.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/male01/vanswer13.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/female01/vanswer13.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/male01/vanswer14.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/female01/vanswer14.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/male01/gordead_ques01.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/female01/gordead_ques01.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/male01/gordead_ques02.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/female01/gordead_ques02.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/male01/gordead_ques03a.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/female01/gordead_ques03a.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/male01/gordead_ques03b.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/female01/gordead_ques03b.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/male01/gordead_ques04.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/female01/gordead_ques04.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/male01/gordead_ques05.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/female01/gordead_ques05.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/male01/gordead_ques06.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/female01/gordead_ques06.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/male01/gordead_ques07.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/female01/gordead_ques07.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/male01/gordead_ques08.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/female01/gordead_ques08.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/male01/gordead_ques09.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/female01/gordead_ques09.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/male01/gordead_ques10.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/female01/gordead_ques10.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/male01/gordead_ques11.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/female01/gordead_ques11.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/male01/gordead_ques12.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/female01/gordead_ques12.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/male01/gordead_ques13.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/female01/gordead_ques13.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/male01/gordead_ques14.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/female01/gordead_ques14.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/male01/gordead_ques15.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/female01/gordead_ques15.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/male01/gordead_ques16.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/female01/gordead_ques16.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/male01/gordead_ques17.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/female01/gordead_ques17.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/male01/gordead_ans01.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/female01/gordead_ans01.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/male01/gordead_ans02.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/female01/gordead_ans02.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/male01/gordead_ans03.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/female01/gordead_ans03.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/male01/gordead_ans04.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/female01/gordead_ans04.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/male01/gordead_ans05.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/female01/gordead_ans05.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/male01/gordead_ans06.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/female01/gordead_ans06.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/male01/gordead_ans07.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/female01/gordead_ans07.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/male01/gordead_ans08.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/female01/gordead_ans08.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/male01/gordead_ans09.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/female01/gordead_ans09.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/male01/gordead_ans10.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/female01/gordead_ans10.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/male01/gordead_ans11.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/female01/gordead_ans11.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/male01/gordead_ans12.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/female01/gordead_ans12.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/male01/gordead_ans13.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/female01/gordead_ans13.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/male01/gordead_ans14.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/female01/gordead_ans14.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/male01/gordead_ans15.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/female01/gordead_ans15.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/male01/gordead_ans16.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/female01/gordead_ans16.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/male01/gordead_ans17.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/female01/gordead_ans17.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/male01/gordead_ans18.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/female01/gordead_ans18.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/male01/gordead_ans19.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/female01/gordead_ans19.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/male01/gordead_ans20.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/female01/gordead_ans20.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/male01/health01.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/female01/health01.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/male01/health02.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/female01/health02.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/male01/health03.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/female01/health03.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/male01/health04.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/female01/health04.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/male01/health05.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/female01/health05.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/male01/ammo01.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/female01/ammo01.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/male01/ammo02.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/female01/ammo02.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/male01/ammo03.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/female01/ammo03.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/male01/ammo04.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/female01/ammo04.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/male01/ammo05.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/female01/ammo05.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/male01/watchout.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/female01/watchout.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/male01/uhoh.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/female01/uhoh.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/male01/lookoutfm01.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/female01/lookoutfm01.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/male01/startle01.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/female01/startle01.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/male01/startle02.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/female01/startle02.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/male01/getdown02.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/female01/getdown02.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/male01/strider_run.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/female01/strider_run.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/male01/gethellout.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/female01/gethellout.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/episode_1/npc/male01/cit_alert_antlions03.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/episode_1/npc/female01/cit_alert_antlions03.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/episode_1/npc/male01/cit_alert_antlions04.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/episode_1/npc/female01/cit_alert_antlions04.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/episode_1/npc/male01/cit_alert_antlions05.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/episode_1/npc/female01/cit_alert_antlions05.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/episode_1/npc/male01/cit_alert_antlions06.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/episode_1/npc/female01/cit_alert_antlions06.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/episode_1/npc/male01/cit_alert_antlions07.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/episode_1/npc/female01/cit_alert_antlions07.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/episode_1/npc/male01/cit_alert_antlions08.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/episode_1/npc/female01/cit_alert_antlions08.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/episode_1/npc/male01/cit_alert_antlions09.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/episode_1/npc/female01/cit_alert_antlions09.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/episode_1/npc/male01/cit_alert_antlions10.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/episode_1/npc/female01/cit_alert_antlions10.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/episode_1/npc/male01/cit_alert_antlions12.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/episode_1/npc/female01/cit_alert_antlions12.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/episode_1/npc/male01/cit_alert_antlions13.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/episode_1/npc/female01/cit_alert_antlions13.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/episode_1/npc/male01/cit_alert_antlions14.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/episode_1/npc/female01/cit_alert_antlions14.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/episode_1/npc/male01/cit_alert_antlions15.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/episode_1/npc/female01/cit_alert_antlions15.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/episode_1/npc/male01/cit_alert_antlions18.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/episode_1/npc/female01/cit_alert_antlions18.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/male01/headsup01.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/female01/headsup01.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/male01/headsup02.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/female01/headsup02.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/male01/incoming02.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/female01/incoming02.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/male01/takecover02.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/female01/takecover02.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/male01/coverwhilereload01.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/female01/coverwhilereload01.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/male01/coverwhilereload02.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/female01/coverwhilereload02.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/male01/gottareload01.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/female01/gottareload01.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/male01/nice.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/female01/nice.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/male01/nice01.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/female01/nice01.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/male01/nice02.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/female01/nice02.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/male01/thislldonicely.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/female01/thislldonicely.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/male01/yeah01.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/female01/yeah01.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/male01/fantastic01.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/female01/fantastic01.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/male01/fantastic02.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/female01/fantastic02.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/male01/finally.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/female01/finally.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/male01/oneforme.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/female01/oneforme.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/male01/evenodds.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/female01/evenodds.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/male01/ow01.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/female01/ow01.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/male01/ow02.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/female01/ow02.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/male01/imhurt01.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/female01/imhurt01.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/male01/imhurt02.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/female01/imhurt02.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/male01/no01.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/female01/no01.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/male01/no02.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/female01/no02.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/male01/myarm01.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/female01/myarm01.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/male01/myarm02.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/female01/myarm02.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/male01/myleg01.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/female01/myleg01.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/male01/myleg02.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/female01/myleg02.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/male01/mygut01.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/female01/mygut01.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/male01/mygut02.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/female01/mygut02.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/male01/hitingut01.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/female01/hitingut01.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/male01/hitingut02.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/female01/hitingut02.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/male01/lookoutfm02.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/female01/lookoutfm02.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/male01/upthere01.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/female01/upthere01.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/male01/upthere02.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/female01/upthere02.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/male01/behindyou01.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/female01/behindyou01.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/male01/behindyou02.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/female01/behindyou02.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/male01/overthere01.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/female01/overthere01.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/male01/overthere02.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/female01/overthere02.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/episode_1/npc/male01/cit_kill01.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/episode_1/npc/female01/cit_kill01.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/episode_1/npc/male01/cit_kill02.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/episode_1/npc/female01/cit_kill02.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/episode_1/npc/male01/cit_kill03.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/episode_1/npc/female01/cit_kill03.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/episode_1/npc/male01/cit_kill04.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/episode_1/npc/female01/cit_kill04.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/episode_1/npc/male01/cit_kill06.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/episode_1/npc/female01/cit_kill06.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/episode_1/npc/male01/cit_kill07.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/episode_1/npc/female01/cit_kill07.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/episode_1/npc/male01/cit_kill08.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/episode_1/npc/female01/cit_kill08.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/episode_1/npc/male01/cit_kill09.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/episode_1/npc/female01/cit_kill09.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/episode_1/npc/male01/cit_kill10.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/episode_1/npc/female01/cit_kill10.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/episode_1/npc/male01/cit_kill11.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/episode_1/npc/female01/cit_kill11.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/episode_1/npc/male01/cit_kill12.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/episode_1/npc/female01/cit_kill12.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/episode_1/npc/male01/cit_kill13.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/episode_1/npc/female01/cit_kill13.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/episode_1/npc/male01/cit_kill14.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/episode_1/npc/female01/cit_kill14.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/episode_1/npc/male01/cit_kill15.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/episode_1/npc/female01/cit_kill15.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/episode_1/npc/male01/cit_kill17.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/episode_1/npc/female01/cit_kill17.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/episode_1/npc/male01/cit_kill18.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/episode_1/npc/female01/cit_kill18.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/episode_1/npc/male01/cit_kill19.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/episode_1/npc/female01/cit_kill19.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/episode_1/npc/male01/cit_kill20.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/episode_1/npc/female01/cit_kill20.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/male01/gotone01.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/female01/gotone01.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/male01/gotone02.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/female01/gotone02.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/male01/likethat.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/female01/likethat.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/male01/onyourside.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/female01/onyourside.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/male01/stopitfm.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/female01/stopitfm.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/male01/watchwhat.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/female01/watchwhat.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/male01/heretohelp01.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/female01/heretohelp01.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/male01/heretohelp02.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/female01/heretohelp02.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/male01/wetrustedyou01.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/female01/wetrustedyou01.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/male01/wetrustedyou02.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/female01/wetrustedyou02.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/male01/notthemanithought01.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/female01/notthemanithought01.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/male01/notthemanithought02.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/female01/notthemanithought02.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/episode_1/npc/male01/cit_buddykilled01.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/episode_1/npc/female01/cit_buddykilled01.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/episode_1/npc/male01/cit_buddykilled02.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/episode_1/npc/female01/cit_buddykilled02.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/episode_1/npc/male01/cit_buddykilled03.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/episode_1/npc/female01/cit_buddykilled03.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/episode_1/npc/male01/cit_buddykilled04.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/episode_1/npc/female01/cit_buddykilled04.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/episode_1/npc/male01/cit_buddykilled05.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/episode_1/npc/female01/cit_buddykilled05.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/episode_1/npc/male01/cit_buddykilled06.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/episode_1/npc/female01/cit_buddykilled06.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/episode_1/npc/male01/cit_buddykilled07.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/episode_1/npc/female01/cit_buddykilled07.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/episode_1/npc/male01/cit_buddykilled08.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/episode_1/npc/female01/cit_buddykilled08.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/episode_1/npc/male01/cit_buddykilled09.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/episode_1/npc/female01/cit_buddykilled09.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/episode_1/npc/male01/cit_buddykilled10.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/episode_1/npc/female01/cit_buddykilled10.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/episode_1/npc/male01/cit_buddykilled11.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/episode_1/npc/female01/cit_buddykilled11.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/episode_1/npc/male01/cit_buddykilled12.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/episode_1/npc/female01/cit_buddykilled12.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/episode_1/npc/male01/cit_buddykilled13.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/episode_1/npc/female01/cit_buddykilled13.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/episode_1/npc/male01/cit_buddykilled14.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/episode_1/npc/female01/cit_buddykilled14.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/episode_1/npc/male01/cit_buddykilled15.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/episode_1/npc/female01/cit_buddykilled15.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/male01/ohno.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/female01/ohno.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/male01/goodgod.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/female01/goodgod.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/male01/combine01.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/female01/combine01.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/male01/combine02.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/female01/combine02.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/male01/headcrabs01.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/female01/headcrabs01.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/male01/headcrabs02.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/female01/headcrabs02.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/male01/zombies01.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/female01/zombies01.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/male01/zombies02.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/female01/zombies02.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/male01/scanners01.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/female01/scanners01.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/male01/scanners02.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/female01/scanners02.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/male01/strider.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/female01/strider.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/male01/itsamanhack01.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/female01/itsamanhack01.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/male01/itsamanhack02.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/female01/itsamanhack02.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/male01/herecomehacks01.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/female01/herecomehacks01.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/male01/herecomehacks02.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/female01/herecomehacks02.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/male01/thehacks01.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/female01/thehacks01.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/male01/thehacks02.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/female01/thehacks02.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/male01/hacks01.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/female01/hacks01.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/male01/hacks02.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/female01/hacks02.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/male01/cps01.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/female01/cps01.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/male01/cps02.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/female01/cps02.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/male01/civilprotection01.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/female01/civilprotection01.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/male01/civilprotection02.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/female01/civilprotection02.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/male01/overhere01.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/female01/overhere01.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/male01/ok01.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/female01/ok01.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/male01/ok02.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/female01/ok02.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/male01/okimready01.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/female01/okimready01.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/male01/okimready02.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/female01/okimready02.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/male01/okimready03.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/female01/okimready03.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/male01/readywhenyouare01.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/female01/readywhenyouare01.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/male01/readywhenyouare02.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/female01/readywhenyouare02.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/male01/squad_affirm01.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/female01/squad_affirm01.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/male01/squad_affirm02.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/female01/squad_affirm02.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/male01/squad_affirm03.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/female01/squad_affirm03.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/male01/squad_affirm04.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/female01/squad_affirm04.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/male01/squad_affirm05.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/female01/squad_affirm05.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/male01/squad_affirm06.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/female01/squad_affirm06.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/male01/squad_affirm07.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/female01/squad_affirm07.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/male01/squad_affirm08.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/female01/squad_affirm08.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/male01/squad_affirm09.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/female01/squad_affirm09.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/male01/letsgo01.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/female01/letsgo01.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/male01/letsgo02.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/female01/letsgo02.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/male01/yougotit02.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/female01/yougotit02.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/male01/squad_away01.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/female01/squad_away01.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/male01/squad_away02.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/female01/squad_away02.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/male01/squad_away03.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/female01/squad_away03.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/male01/squad_approach01.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/female01/squad_approach01.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/male01/squad_approach02.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/female01/squad_approach02.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/male01/squad_approach03.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/female01/squad_approach03.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/male01/squad_approach04.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/female01/squad_approach04.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/male01/illstayhere01.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/female01/illstayhere01.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/male01/holddownspot01.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/female01/holddownspot01.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/male01/holddownspot02.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/female01/holddownspot02.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/male01/imstickinghere01.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/female01/imstickinghere01.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/male01/littlecorner01.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/female01/littlecorner01.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/male01/leadtheway01.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/female01/leadtheway01.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/male01/leadtheway02.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/female01/leadtheway02.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/male01/leadon01.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/female01/leadon01.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/male01/leadon02.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/female01/leadon02.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/male01/squad_follow01.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/female01/squad_follow01.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/male01/squad_follow02.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/female01/squad_follow02.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/male01/squad_follow03.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/female01/squad_follow03.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/male01/squad_follow04.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/female01/squad_follow04.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/male01/squad_reinforce_single01.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/female01/squad_reinforce_single01.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/male01/squad_reinforce_single02.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/female01/squad_reinforce_single02.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/male01/squad_reinforce_single03.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/female01/squad_reinforce_single03.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/male01/squad_reinforce_single04.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/female01/squad_reinforce_single04.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/male01/squad_reinforce_group01.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/female01/squad_reinforce_group01.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/male01/squad_reinforce_group02.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/female01/squad_reinforce_group02.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/male01/squad_reinforce_group03.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/female01/squad_reinforce_group03.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/male01/squad_reinforce_group04.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/female01/squad_reinforce_group04.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/Streetwar/tunnel/male01/d3_c17_07_tenant.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/Streetwar/tunnel/female01/d3_c17_07_tenant.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/episode_1/npc/male01/cit_evac_ok02.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/episode_1/npc/female01/cit_evac_ok02.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/episode_1/npc/male01/cit_lug_allright.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/episode_1/npc/female01/cit_lug_allright.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/episode_1/npc/male01/cit_getaboard03.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/episode_1/npc/female01/cit_getaboard03.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/episode_1/npc/male01/cit_evac_defendus07.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/episode_1/npc/female01/cit_evac_defendus07.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/episode_1/npc/male01/cit_runforit.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/episode_1/npc/female01/cit_runforit.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/trainyard/cit_nerve.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/trainyard/cit_pacing.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/trainyard/cit_water.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/trainyard/lookatplayer_02.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/trainyard/cit_tookcase.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/trainyard/cit_fence_woods.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/trainyard/cit_train_hookup.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/trainyard/cit_train_reloc.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/trainyard/male01/cit_foodline01.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/trainyard/female01/cit_foodline01.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/trainyard/male01/cit_foodline02.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/trainyard/female01/cit_foodline02.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/trainyard/male01/cit_foodline03.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/trainyard/female01/cit_foodline03.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/trainyard/male01/cit_foodline04.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/trainyard/female01/cit_foodline04.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/trainyard/male01/cit_pedestrian01.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/trainyard/female01/cit_pedestrian01.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/trainyard/male01/cit_pedestrian02.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/trainyard/female01/cit_pedestrian02.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/trainyard/male01/cit_pedestrian03.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/trainyard/female01/cit_pedestrian03.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/trainyard/male01/cit_pedestrian04.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/trainyard/female01/cit_pedestrian04.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/trainyard/male01/cit_pedestrian05.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/trainyard/female01/cit_pedestrian05.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/trainyard/male01/cit_bench01.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/trainyard/female01/cit_bench01.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/trainyard/male01/cit_bench02.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/trainyard/female01/cit_bench02.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/trainyard/male01/cit_bench03.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/trainyard/female01/cit_bench03.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/trainyard/male01/cit_bench04.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/trainyard/female01/cit_bench04.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/trainyard/cit_raid_use01.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/trainyard/cit_raid_use02.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/trainyard/male01/cit_hit01.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/trainyard/female01/cit_hit01.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/trainyard/male01/cit_hit02.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/trainyard/female01/cit_hit02.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/trainyard/male01/cit_hit03.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/trainyard/female01/cit_hit03.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/trainyard/male01/cit_hit04.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/trainyard/female01/cit_hit04.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/trainyard/male01/cit_hit05.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/trainyard/female01/cit_hit05.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/trainyard/cit_drunk.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/trainyard/male01/cit_window_use01.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/trainyard/female01/cit_window_use01.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/trainyard/male01/cit_window_use04.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/trainyard/female01/cit_window_use04.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/trainyard/male01/cit_window_use02.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/trainyard/female01/cit_window_use02.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/trainyard/male01/cit_window_use03.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/trainyard/female01/cit_window_use03.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/coast/odessa/leadlaggingbehind01.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/coast/odessa/leadlaggingbehind02.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/coast/odessa/male01/stairman_follow01.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/coast/odessa/female01/stairman_follow01.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/coast/odessa/male01/stairman_follow03.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/coast/odessa/female01/stairman_follow03.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/coast/odessa/male01/nlo_citizen_greet01.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/coast/odessa/female01/nlo_citizen_greet01.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/coast/odessa/male01/nlo_citizen_greet02.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/coast/odessa/female01/nlo_citizen_greet02.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/coast/odessa/male01/nlo_citizen_greet03.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/coast/odessa/female01/nlo_citizen_greet03.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/coast/odessa/male01/nlo_citizen_greet04.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/coast/odessa/female01/nlo_citizen_greet04.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/coast/odessa/male01/nlo_citizen_post01.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/coast/odessa/female01/nlo_citizen_post01.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/coast/odessa/male01/nlo_citizen_post02.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/coast/odessa/female01/nlo_citizen_post02.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/coast/odessa/male01/nlo_citizen_post03.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/coast/odessa/female01/nlo_citizen_post03.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/coast/odessa/male01/nlo_opengate.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/coast/odessa/female01/nlo_opengate.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/coast/odessa/male01/nlo_cubdeath01.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/coast/odessa/female01/nlo_cubdeath01.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/coast/odessa/male01/nlo_cubdeath02.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/coast/odessa/female01/nlo_cubdeath02.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/coast/odessa/male01/nlo_cheer01.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/coast/odessa/female01/nlo_cheer01.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/coast/odessa/male01/nlo_cheer02.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/coast/odessa/female01/nlo_cheer02.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/coast/odessa/male01/nlo_cheer03.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/coast/odessa/female01/nlo_cheer03.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/coast/odessa/male01/nlo_cheer04.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/coast/odessa/female01/nlo_cheer04.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/coast/barn/male01/exit_cliffpath.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/coast/barn/female01/exit_cliffpath.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/coast/barn/male01/exit_comewith.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/coast/barn/female01/exit_comewith.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/coast/barn/male01/exit_watchstep.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/coast/barn/female01/exit_watchstep.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/coast/barn/male01/parkit.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/coast/barn/female01/parkit.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/coast/barn/male01/chatter.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/coast/barn/female01/chatter.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/coast/barn/male01/ditchcar.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/coast/barn/female01/ditchcar.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/coast/barn/male01/getcarinbarn.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/coast/barn/female01/getcarinbarn.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/coast/barn/male01/gettauoff.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/coast/barn/female01/gettauoff.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/canals/d1_canals_01a_room4_citizen_hello.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/eli_lab/airlock_cit01.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/eli_lab/airlock_cit02.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/eli_lab/airlock_cit03.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/episode_1/npc/male01/cit_evac_casualty08.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/episode_1/npc/female01/cit_evac_casualty08.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/episode_1/npc/male01/cit_evac_defendus01.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/episode_1/npc/female01/cit_evac_defendus01.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/episode_1/npc/male01/cit_evac_defendus02.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/episode_1/npc/female01/cit_evac_defendus02.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/episode_1/npc/male01/cit_evac_defendus03.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/episode_1/npc/female01/cit_evac_defendus03.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/episode_1/npc/male01/cit_evac_defendus06.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/episode_1/npc/female01/cit_evac_defendus06.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/episode_1/npc/male01/cit_evac_defendus09.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/episode_1/npc/female01/cit_evac_defendus09.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/episode_1/npc/male01/cit_evac_casualty01.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/episode_1/npc/female01/cit_evac_casualty01.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/episode_1/npc/male01/cit_evac_casualty02.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/episode_1/npc/female01/cit_evac_casualty02.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/episode_1/npc/male01/cit_evac_casualty03.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/episode_1/npc/female01/cit_evac_casualty03.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/episode_1/npc/male01/cit_evac_casualty04.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/episode_1/npc/female01/cit_evac_casualty04.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/episode_1/npc/male01/cit_evac_casualty05.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/episode_1/npc/female01/cit_evac_casualty05.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/episode_1/npc/male01/cit_evac_casualty06.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/episode_1/npc/female01/cit_evac_casualty06.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/episode_1/npc/male01/cit_evac_casualty07.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/episode_1/npc/female01/cit_evac_casualty07.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/episode_1/npc/male01/cit_evac_casualty09.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/episode_1/npc/female01/cit_evac_casualty09.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/episode_1/npc/male01/cit_evac_casualty10.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/episode_1/npc/female01/cit_evac_casualty10.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/episode_1/npc/male01/cit_evac_casualty11.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/episode_1/npc/female01/cit_evac_casualty11.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/episode_1/npc/male01/cit_evac_thanks01.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/episode_1/npc/female01/cit_evac_thanks01.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/episode_1/npc/male01/cit_evac_thanks02.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/episode_1/npc/female01/cit_evac_thanks02.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/episode_1/npc/male01/cit_evac_thanks03.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/episode_1/npc/female01/cit_evac_thanks03.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/episode_1/npc/male01/cit_evac_thanks04.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/episode_1/npc/female01/cit_evac_thanks04.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/episode_1/npc/male01/cit_evac_thanks05.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/episode_1/npc/female01/cit_evac_thanks05.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/episode_1/npc/male01/cit_reachtrain01.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/episode_1/npc/female01/cit_reachtrain01.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/episode_1/npc/male01/cit_reachtrain02.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/episode_1/npc/female01/cit_reachtrain02.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/episode_1/npc/male01/cit_reachtrain03.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/episode_1/npc/female01/cit_reachtrain03.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/episode_1/npc/male01/cit_reachtrain04.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/episode_1/npc/female01/cit_reachtrain04.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/episode_1/npc/male01/cit_reachtrain05.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/episode_1/npc/female01/cit_reachtrain05.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/episode_1/npc/male01/cit_denytrain01.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/episode_1/npc/female01/cit_denytrain01.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/episode_1/npc/male01/cit_denytrain02.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/episode_1/npc/female01/cit_denytrain02.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/episode_1/npc/male01/cit_denytrain03.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/episode_1/npc/female01/cit_denytrain03.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/episode_1/npc/male01/cit_denytrain04.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/episode_1/npc/female01/cit_denytrain04.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/episode_1/npc/male01/cit_denytrain05.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/episode_1/npc/female01/cit_denytrain05.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/episode_1/npc/male01/cit_evac_no02.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/episode_1/npc/female01/cit_evac_no02.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/episode_1/npc/male01/cit_evac_no03.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/episode_1/npc/female01/cit_evac_no03.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/episode_1/npc/male01/cit_evac_no04.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/episode_1/npc/female01/cit_evac_no04.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/episode_1/npc/male01/cit_remarks13.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/episode_1/npc/female01/cit_remarks13.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/episode_1/npc/male01/cit_remarks12.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/episode_1/npc/female01/cit_remarks12.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/episode_1/npc/male01/cit_remarks17.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/episode_1/npc/female01/cit_remarks17.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/episode_1/npc/male01/cit_remarks11.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/episode_1/npc/female01/cit_remarks11.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/episode_1/npc/male01/cit_remarks07.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/episode_1/npc/female01/cit_remarks07.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/episode_1/npc/male01/cit_remarks08.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/episode_1/npc/female01/cit_remarks08.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/episode_1/npc/male01/cit_remarks22.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/episode_1/npc/female01/cit_remarks22.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/episode_1/npc/male01/cit_remarks21.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/episode_1/npc/female01/cit_remarks21.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/episode_1/npc/male01/cit_remarks02.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/episode_1/npc/female01/cit_remarks02.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/episode_1/npc/male01/cit_remarks04.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/episode_1/npc/female01/cit_remarks04.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/episode_1/npc/male01/cit_remarks03.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/episode_1/npc/female01/cit_remarks03.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/episode_1/npc/male01/cit_remarks06.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/episode_1/npc/female01/cit_remarks06.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/episode_1/npc/male01/cit_remarks01.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/episode_1/npc/female01/cit_remarks01.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/episode_1/npc/male01/cit_remarks18.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/episode_1/npc/female01/cit_remarks18.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/episode_1/npc/male01/cit_remarks09.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/episode_1/npc/female01/cit_remarks09.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/episode_1/npc/male01/cit_remarks20.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/episode_1/npc/female01/cit_remarks20.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/episode_1/npc/male01/cit_remarks05.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/episode_1/npc/female01/cit_remarks05.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/episode_1/npc/male01/cit_remarks23.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/episode_1/npc/female01/cit_remarks23.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/episode_1/npc/male01/cit_remarks19.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/episode_1/npc/female01/cit_remarks19.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/ravenholm/monk_rant01.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/ravenholm/monk_rant02.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/ravenholm/monk_rant03.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/ravenholm/monk_rant04.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/ravenholm/monk_rant05.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/ravenholm/monk_rant06.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/ravenholm/monk_rant07.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/ravenholm/monk_rant08.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/ravenholm/monk_rant09.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/ravenholm/monk_rant10.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/ravenholm/monk_rant11.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/ravenholm/monk_rant12.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/ravenholm/monk_rant13.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/ravenholm/monk_rant14.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/ravenholm/monk_rant15.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/ravenholm/monk_rant16.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/ravenholm/monk_rant17.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/ravenholm/monk_rant18.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/ravenholm/monk_rant19.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/ravenholm/monk_rant20.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/ravenholm/monk_rant21.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/ravenholm/monk_rant22.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/ravenholm/madlaugh01.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/ravenholm/madlaugh02.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/ravenholm/madlaugh03.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/ravenholm/madlaugh04.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/ravenholm/monk_mourn01.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/ravenholm/monk_mourn02.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/ravenholm/monk_mourn03.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/ravenholm/monk_mourn04.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/ravenholm/monk_mourn05.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/ravenholm/monk_mourn06.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/ravenholm/monk_mourn07.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/ravenholm/monk_death07.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/ravenholm/monk_helpme01.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/ravenholm/monk_helpme02.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/ravenholm/monk_helpme03.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/ravenholm/monk_helpme04.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/ravenholm/monk_helpme05.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/ravenholm/monk_coverme01.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/ravenholm/monk_coverme02.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/ravenholm/monk_coverme03.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/ravenholm/monk_coverme04.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/ravenholm/monk_coverme05.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/ravenholm/monk_coverme06.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/ravenholm/monk_danger01.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/ravenholm/monk_danger02.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/ravenholm/monk_danger03.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/ravenholm/monk_givehealth01.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/ravenholm/monk_giveammo01.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/ravenholm/engage01.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/ravenholm/engage02.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/ravenholm/engage03.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/ravenholm/engage04.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/ravenholm/engage05.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/ravenholm/engage06.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/ravenholm/engage07.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/ravenholm/engage08.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/ravenholm/engage09.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/ravenholm/monk_pain01.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/ravenholm/monk_pain02.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/ravenholm/monk_pain03.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/ravenholm/monk_pain04.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/ravenholm/monk_pain05.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/ravenholm/monk_pain06.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/ravenholm/monk_pain07.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/ravenholm/monk_pain08.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/ravenholm/monk_pain09.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/ravenholm/monk_pain10.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/ravenholm/monk_pain11.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/ravenholm/monk_blocked01.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/ravenholm/monk_blocked02.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/ravenholm/monk_blocked03.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/ravenholm/monk_kill01.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/ravenholm/monk_kill02.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/ravenholm/monk_kill03.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/ravenholm/monk_kill04.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/ravenholm/monk_kill05.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/ravenholm/monk_kill06.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/ravenholm/monk_kill07.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/ravenholm/monk_kill08.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/ravenholm/monk_kill09.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/ravenholm/monk_kill10.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/ravenholm/monk_kill11.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/ravenholm/monk_quicklybro.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/ravenholm/monk_followme.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/ravenholm/monk_stayclosebro.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/ravenholm/monk_overhere.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/Barney/ba_getaway.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/Barney/ba_damnit.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/Barney/ba_lookout.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/Barney/ba_getdown.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/Barney/ba_getoutofway.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/Barney/ba_duck.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/Barney/ba_run.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/Barney/ba_hereitcomes.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/Barney/ba_pain01.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/Barney/ba_pain02.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/Barney/ba_pain03.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/Barney/ba_pain04.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/Barney/ba_pain05.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/Barney/ba_pain06.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/Barney/ba_pain07.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/Barney/ba_pain08.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/Barney/ba_pain09.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/Barney/ba_pain10.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/Barney/ba_wounded01.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/Barney/ba_wounded02.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/Barney/ba_wounded03.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/Barney/ba_ohshit.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/Barney/ba_no01.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/Barney/ba_no02.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/Barney/ba_thisisbad.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/Barney/ba_gotone.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/Barney/ba_downyougo.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/Barney/ba_losttouch.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/Barney/ba_ohyeah.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/Barney/ba_laugh01.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/Barney/ba_laugh02.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/Barney/ba_laugh03.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/Barney/ba_laugh04.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/Barney/ba_yell.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/Barney/ba_bringiton.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/Barney/ba_goingdown.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/Barney/ba_littlehelphere.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/Barney/ba_covermegord.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/Barney/ba_gordonhelp.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/Barney/ba_openfiregord.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/Barney/ba_soldiers.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/Barney/ba_heretheycome01.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/Barney/ba_heretheycome02.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/Barney/ba_uhohheretheycome.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/Barney/ba_letsdoit.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/Barney/ba_imwithyou.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/Barney/ba_headcrabs.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/Barney/ba_headhumpers.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/Barney/ba_turret.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/Barney/ba_grenade01.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/Barney/ba_grenade02.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/Barney/ba_oldtimes.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/Barney/ba_follow05.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/Barney/ba_follow01.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/Barney/ba_follow03.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/Barney/ba_follow02.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/Barney/ba_hurryup.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/Barney/ba_letsgo.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/streetwar/nexus/ba_roofaccess.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/streetwar/nexus/ba_headforroof.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/streetwar/nexus/ba_totheroof.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/Streetwar/sniper/ba_returnhero.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/Streetwar/sniper/ba_heycomeon.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/Streetwar/sniper/ba_letsgetgoing.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/Streetwar/sniper/ba_overhere.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/Alyx/getback01.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/Alyx/getback02.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/Alyx/gasp02.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/Alyx/gasp03.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/Alyx/hurt04.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/Alyx/hurt05.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/Alyx/hurt06.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/Alyx/hurt08.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/Alyx/uggh01.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/Alyx/lookout01.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/Alyx/lookout03.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/Alyx/ohno_startle01.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/Alyx/ohno_startle02.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/Alyx/ohno_startle03.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/alyx/al_radar_newdetect01.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/alyx/al_radar_newdetect02.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/alyx/al_radar_newdetect03.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/alyx/al_radar_newdetect04.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/alyx/al_radar_newdetect05.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/Alyx/al_vehicle_wink.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/Alyx/al_car_getgoing02.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/Alyx/al_car_getgoing04.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/alyx/al_vehicle_combat_playerout_02.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/alyx/al_vehicle_combat_playerout_03.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/alyx/al_vehicle_combat_playerout_05.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/alyx/al_car_stayincar01.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/alyx/al_car_stayincar02.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/alyx/al_car_stayincar03.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/alyx/al_car_stayincar04.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/alyx/al_car_stayincar05.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/alyx/al_car_stayincar06.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/alyx/al_car_stayincar07.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/alyx/al_vehicle_playerout_06.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/alyx/al_gordon_distance.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/alyx/al_car_startle04.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/alyx/al_car_crash02.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/alyx/al_vehicle_combat_playernotincar_nag01.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/alyx/al_vehicle_combat_playernotincar_nag02.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/alyx/al_vehicle_combat_playernotincar_nag03.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/alyx/al_car_callback02.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/alyx/al_car_callback03.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/episode_2/al_passenger_impact.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/alyx/al_car_crash04.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/alyx/al_car_crash05.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/alyx/al_car_crash06.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/alyx/al_car_crash07.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/alyx/al_car_crazy02.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/alyx/al_car_laughing06.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/alyx/al_car_laughing08.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/alyx/al_car_laughing10.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/alyx/al_car_crazy04.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/alyx/al_car_crazy06.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/alyx/al_car_crazy07.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/alyx/al_car_crazy08.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/alyx/al_car_beenawhile.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/alyx/al_car_beatsonfoot.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/Alyx/al_wound08.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/alyx/al_car_comments03.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/alyx/al_car_rolled01.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/alyx/al_car_rolled02.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/alyx/al_car_rolled03.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/alyx/al_car_rolled04.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/alyx/al_car_rolled05.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/Alyx/al_passenger_upright_01.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/alyx/al_car_rolled06.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/alyx/al_car_rolled07.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/Alyx/al_combat_goodthinking03.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/Alyx/al_combat_grim_04.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/Alyx/al_combat_grim_05.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/Alyx/al_combat_yeah01.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/Alyx/al_combat_nicemove01.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/Alyx/brutal02.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/Alyx/al_laugh03.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/Alyx/al_car_runafter01.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/Alyx/al_car_runafter02.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/Alyx/al_car_runafter03.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/Alyx/al_car_runafter04.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/Alyx/al_car_runafter05.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/Alyx/al_car_catchup01.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/Alyx/al_car_catchup02.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/Alyx/al_car_catchup03.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/Alyx/al_car_catchup04.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/episode_1/al_hack_train05.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/episode_1/al_hack_train01.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/episode_1/al_hack_train02.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/episode_1/al_hack_done01.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/episode_1/al_hack_done02.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/episode_1/al_hack_done03.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/episode_1/al_swamped03.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/episode_1/al_swamped05.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/episode_1/al_swamped06.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/episode_1/al_swamped09.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/episode_1/al_swamped10.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/episode_1/al_swamped12.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/episode_1/al_combat_mob01.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/episode_1/al_combat_mob02.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/episode_1/al_combat_mob03.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/episode_1/al_combat_mob04.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/episode_1/al_combat_mob05.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/episode_1/al_combat_mob06.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/episode_1/al_combat_mob07.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/episode_1/al_combat_mob08.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/episode_1/al_combat_mob09.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/episode_1/al_combat_mob10.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/episode_1/al_combat_mob11.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/episode_1/al_mobbed_thanks.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/episode_1/al_mobbed_thatwasclose.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/episode_1/al_swamped07.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/episode_1/al_combat_thanks.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/episode_1/al_mobbed_thanks01.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/episode_1/al_mobbed_thanks02.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/episode_1/al_mobbed_thatwasclose01.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/episode_1/al_mobbed_thatwasclose02.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/episode_1/al_mobbed_thatwasclose03.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/episode_1/al_seemanyfoe03.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/episode_1/al_seemanyfoe05.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/episode_1/al_seemanyfoe06.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/episode_1/al_seemanyfoe07.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/Alyx/al_see_headcrabair01.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/Alyx/al_see_headcrabair02.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/Alyx/al_see_headcrabair03.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/Alyx/al_darkness_lostplayer01.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/Alyx/al_darkness_lostplayer03.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/Alyx/al_darkness_lostplayerlong02.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/Alyx/al_darkness_lostplayerlong03.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/Alyx/al_darkness_lostplayerlonger02.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/Alyx/al_darkness_lostplayerlonger03.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/Alyx/al_darkness_lostplayer_dist01.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/Alyx/al_darkness_lostplayer_dist02.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/Alyx/al_darkness_lostplayer_dist03.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/Alyx/al_darkness_lostplayer_dist04.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/Alyx/al_darkness_foundplayer01.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/Alyx/al_darkness_foundplayer03.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/Alyx/al_darkness_foundplayer04.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/Alyx/al_darkness_foundplayer_dist01.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/Alyx/al_darkness_foundplayer_dist02.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/Alyx/al_darkness_unknownwound01.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/Alyx/al_darkness_unknownwound02.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/Alyx/al_darkness_unknownwound03.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/Alyx/al_darkness_hearsound01.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/Alyx/al_darkness_hearsound04.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/Alyx/al_darkness_hearsound07.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/Alyx/al_darkness_lostenemy_flashlight02.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/Alyx/al_darkness_lostenemy_flashlight04.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/Alyx/al_light_out01.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/Alyx/al_light_out02.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/Alyx/al_light_out04.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/Alyx/al_light_out05.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/Alyx/al_light_out16.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/Alyx/al_light_out17.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/Alyx/al_darkness_foundenemy_flashlight01.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/Alyx/al_darkness_foundenemy_flashlight02.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/Alyx/al_darkness_foundenemy_flashlight03.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/Alyx/al_darkness_foundzombie_flashlight01.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/Alyx/al_darkness_foundantlion_flashlight01.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/Alyx/al_darkness_foundbarnacle_flashlight01.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/Alyx/al_darkness_foundbarnacle_flashlight02.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/Alyx/al_playerfallledge_03.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/Alyx/al_idle_playerhurt01.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/Alyx/al_idle_playerhurt02.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/Alyx/al_idle_playerhurt03.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/Alyx/al_playerstare01.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/episode_1/c17/al_getbusy.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/episode_1/al_flashlightblind_nospeak.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/episode_2/al_injured_toofar01.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/episode_2/al_injured_toofar02.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/episode_2/al_injured_toofar03.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/episode_2/al_injured_toofar04.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/Alyx/al_groundshakesmall_01.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/Alyx/al_groundshakeLarge_01.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/Alyx/al_StartleReact_01.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/Alyx/al_startcombat01.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/Alyx/al_startcombat02.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/Alyx/al_startcombat03.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/Alyx/al_startcombat04.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/Alyx/al_combat_start01.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/Alyx/al_combat_start02.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/Alyx/al_combat_start03.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/Alyx/al_combat_start04.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/Alyx/al_combat_start05.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/Alyx/al_combat_gradual_quiet_01.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/Alyx/al_combat_gradual_quiet_02.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/Alyx/al_combat_gradual_quiet_03.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/Alyx/al_combat_gradual_quiet_04.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/Alyx/al_combat_gradual_quiet_05.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/Alyx/al_combat_gradual_quiet_06.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/Alyx/al_herewego.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/Alyx/al_pb_herewego.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/Alyx/al_combat_sudden08.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/Alyx/al_thanksforhelp03.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/Alyx/al_combat_yeah02.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/Alyx/al_combat_thanks01.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/Alyx/al_combat_thanks02.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/Alyx/al_combat_thanks03.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/Alyx/al_combat_thanks04.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/Alyx/al_combat_nice.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/Alyx/al_combat_nicepunt01.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/Alyx/al_combat_nicepunt02.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/alyx/al_dark_worriedest05.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/Alyx/al_zombie_liveone01.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/Alyx/al_zombie_liveone02.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/Alyx/al_zombie_itsalive01.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/Alyx/al_combat_goodshooting01.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/Alyx/al_combat_goodshooting02.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/Alyx/al_combat_goodshooting03.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/Alyx/al_combat_goodshot01.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/Alyx/al_combat_goodshot02.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/Alyx/al_combat_goodshot03.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/Alyx/al_combat_goodshot04.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/Alyx/al_player_goodshot01.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/Alyx/al_player_goodshot02.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/Alyx/al_player_goodshot03.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/Alyx/al_player_goodshot04.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/Alyx/al_combat_niceshot01.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/Alyx/al_combat_niceshot02.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/Alyx/al_combat_niceshot03.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/Alyx/al_combat_niceshot04.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/Alyx/al_combat_niceshooting01.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/Alyx/al_combat_niceshooting02.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/episode_1/c17/al_dark_fakegroan.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/episode_1/c17/al_dark_gotcha.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/Alyx/al_darkness_lostenemy_flashlightexpired05.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/Alyx/al_deaf_what.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/Alyx/al_deaf_canthearyou.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/Alyx/al_deaf_canthearanything.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/Alyx/al_deaf_saysomething.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/Alyx/al_deaf_earsringing.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/Alyx/al_zombine_grenadewarn01.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/Alyx/al_zombine_grenadewarn02.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/Alyx/al_zombine_grenadewarn03.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/Alyx/al_laugh07.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/Alyx/al_laugh09.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/episode_1/al_c17_01_antlionsupheretoo.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/Alyx/al_combat_boom01.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/Alyx/al_combat_boom07.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/Alyx/al_positive01.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/Alyx/al_positive02.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/Alyx/al_positive03.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/Alyx/al_pzcrabs_hatethings01.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/Alyx/al_pzombie_ohno.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/Alyx/al_combat_ohsnap.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/Alyx/al_behindyou01.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/Alyx/al_behindyou02.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/Alyx/al_behindyou03.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/Alyx/al_monsterbehindplayer01.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/Alyx/al_monsterbehindplayer02.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/Alyx/al_wound01.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/Alyx/al_wound02.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/Alyx/al_wound03.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/Alyx/al_wound04.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes\\episode_1\\al_playerdeath02.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes\\episode_1\\al_playerfalls03.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/Alyx/al_combat_angry01.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/Alyx/al_combat_angry02.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/Alyx/al_combat_angry03.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/Alyx/al_combat_angry04.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/Alyx/al_combat_angry05.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/episode_1/al_ant_flip.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/episode_1/al_reload01.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/episode_1/al_reload02.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/episode_1/al_reload03.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/episode_1/al_reload04.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/episode_1/al_reload05.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/episode_1/al_reload06.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/episode_1/al_reload07.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/alyx/al_combat_lightem.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/alyx/al_combat_burnem01.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/alyx/al_combat_burnem02.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/alyx/al_combat_zombq01.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/alyx/al_combat_zombq02.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/episode_1/citadel/al_gettocoresoon.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/episode_1/citadel/al_gottogettocore.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/episode_1/citadel/al_citvista_glad.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/alyx/al_player_healthlow02.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/alyx/al_player_healthlow03.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/alyx/al_player_healthlow05.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/alyx/al_affirm01.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/alyx/al_affirm03.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/alyx/al_affirm05.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/alyx/al_playerstare01-vocal.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/alyx/al_playerstare02.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/alyx/al_lead_start05.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/alyx/al_lead_start06.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/alyx/al_lead_start02.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/alyx/al_lead_start03.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/alyx/al_lead_start04.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/alyx/al_follow01.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/alyx/al_follow02.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/alyx/al_follow03.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/alyx/al_follow04.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/alyx/al_follow05.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/alyx/al_follow06.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/alyx/al_nomore.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/alyx/al_use_smile.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/alyx/al_use_smile2.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/alyx/al_use_what.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/episode_1/c17/al_hiding03.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/episode_1/c17/al_evac_ontous02.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/episode_1/c17/al_notellingtime.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/episode_1/c17/al_slugourway.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/episode_1/citadel/al_ifonlybridgepower.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/alyx/al_dark_near01.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/alyx/al_dark_near02.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/alyx/al_dark_stayclose01.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/alyx/al_dark_stayclose03.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/alyx/al_alert_zombies06.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/alyx/al_alert_zombies07.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/episode_1/c17/al_cantwait.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/alyx/al_post_combat02.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/alyx/al_post_combat03.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/alyx/al_post_combat04.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/alyx/al_post_combat05.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/alyx/al_post_combat06.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/alyx/al_plususe_gettowhiteforest.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/alyx/al_plususe_getmovingneedus.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/outland_01/al_rbed_giveupnow.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/outland_01/al_rbed_plususe04.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/outland_01/al_rbed_plususe03.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/outland_01/al_rbed_plususe01.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/outland_10/al_str_carnag02.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/outland_10/al_str_carnag03.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/outland_10/al_silo_dontgiveup.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/outland_10/al_silo_seedad.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/outland_10/al_silo_seemag.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/outland_02/al_junc_notwithoutyou.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/outland_02/al_junc_gettowhiteforest.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/outland_02/al_junc_nexttome.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/alyx/al_combat_sudden01.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/alyx/al_combat_panic02.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/alyx/al_combat_sudden12.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/outland_05/al_hatethesethings.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/outland_05/al_canyon_walkonmyown04.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/outland_05/al_junc_soweak03.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/outland_05/al_continue_nag01.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/outland_05/al_continue_nag02.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/outland_05/al_continue_nag03.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/outland_05/al_continue_nag04.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/outland_05/al_continue_nag05.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/outland_05/al_continue_nag06.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/alyx/al_vehicle_combat_playernotincar_nag04.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/outland_09/al_chop_backinsidenag01.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/outland_09/al_shack_zombies.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/outland_09/al_radar_plususe02.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/outland_09/al_radar_plususe01.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/alyx/al_genericfollow_nag_close_01.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/alyx/al_genericfollow_nag_close_02.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/alyx/al_genericfollow_nag_close_03.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/alyx/al_genericfollow_nag_close_04.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/alyx/al_genericfollow_nag_far_01.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/alyx/al_genericfollow_nag_far_02.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/alyx/al_genericfollow_nag_far_03.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/Alyx/al_combat_grim_niceshot.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/Alyx/al_combat_grim_niceshooting.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/Alyx/al_combat_grim_nice.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/Alyx/al_combat_grim_yeah.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/Alyx/al_combat_grim_greatshot.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/Alyx/al_combat_grim_goodshot.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/alyx/al_ambush_morecoming.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/alyx/al_combat_grim_takemout.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/alyx/ep_01.al_startcombat03.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/Alyx/al_ambush_holdemoff.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/Alyx/al_evac_gothim01.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/outland_10/al_ambush_linesight.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/outland_10/al_ambush_howyoudoing.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/outland_01/al_rbed_zombies02.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/outland_01/al_rbed_zombies03.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/alyx/al_combat_boom06.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/outland_06a/al_radionotpowered_nag.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/outland_06a/al_letsuseradio_nag.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/outland_06a/al_letsfindradio_nag1.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/outland_06a/al_letsfindradio_nag2.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/outland_06a/al_letsfindradio_nag3.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/outland_06a/al_use_findradio1.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/outland_06a/al_use_findradio2.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/outland_06a/al_use_powertotrans1.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/outland_06a/al_use_powertotrans2.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/outland_11/silo_entry_03_nags_01.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/outland_11/silo_entry_03_nags_02.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/outland_11/silo_entry_03_nags_03.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/outland_11/silo_entry_03_nags_04.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/outland_11/silo_entry_03_nags_05.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/outland_08/al_chop_nags01.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/outland_08/al_chop_nags02.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/outland_08/al_chop_nags03.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/outland_08/al_chop_nag_lowhealth.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/outland_08/al_chop_throwmed01.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/outland_08/al_chop_throwmed02.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/outland_08/al_chop_throwmed03.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/outland_08/al_chop_throwmed04.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/outland_08/al_chop_throwmed05.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/outland_08/al_chop_nagdoor01.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/outland_08/al_chop_nagdoor02.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/outland_09/al_nag_getcar_01.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/outland_09/al_nag_getcar_02.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/episode_2/al_vort_exchange_01.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/episode_1/al_cit_elevator_getitmoving01.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/episode_1/al_cit_elevator_getitmoving02.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/episode_1/al_cit_elevator_getitmoving03.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/episode_1/al_cit_elevator_getitmoving04.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/episode_1/al_c17_01_sniper_pinneddown.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/episode_1/al_c17_01_sniper_cantgetthru.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/episode_1/al_c17_01_sniper_heygrabrollermine.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/episode_1/al_c17_01_sniper_bringmerollermine.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/episode_1/al_c17_01_sniper_DontWasteRollermine.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/episode_1/al_c17_01_roller_holdingoff.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/episode_1/al_c17_05_evac_cits01.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/episode_1/al_c17_05_evac_cits02.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/episode_1/al_c17_05_evac_cits03.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/episode_1/c17/al_evac_takestand.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/episode_1/al_c17_05_evac_nextgroup01.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/episode_1/al_c17_05_evac_nextgroup02.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/episode_1/al_c17_05_evac_nextgroup03.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/episode_1/al_c17_05_evac_nextgroup04.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/episode_1/al_c17_05_evac_nextgroup05.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/episode_1/al_c17_05_evac_protect01.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/episode_1/al_c17_05_evac_protect02.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/episode_1/al_c17_05_evac_protect03.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/episode_1/al_c17_05_evac_protect04.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/episode_1/al_c17_05_evac_protect05.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/episode_1/c17/al_garage_hearthink.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/episode_1/c17/al_garage_stragglers.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/episode_1/c17/al_evac_congrat01.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/episode_1/c17/al_evac_congrat02.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/episode_1/c17/al_evac_congrat03.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/episode_1/c17/al_evac_congrat04.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/episode_1/c17/al_evac_congrat05.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/alyx/al_blank.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/episode_1/c17/al_antlions_cutsupply.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/episode_1/c17/al_antlions_keepcontrol.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/episode_1/c17/al_antlions_runoutbullets.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/episode_1/c17/al_antlions_plugthatway.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/episode_1/c17/al_elev_power_nag05.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/episode_1/c17/al_elev_power_nag03.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/episode_1/c17/al_elev_power_nag04.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/episode_1/c17/al_elev_power_nag01.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/episode_1/c17/al_elev_power_nag02.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/episode_1/c17/al_elev_almosthere.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/episode_1/c17/al_elev_anytime_loud.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/episode_1/c17/al_elev_anyminute_loud.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/episode_1/barn_c17_05_defendthecitizens.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/episode_1/barn_c17_05_followfreeman.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/episode_1/barn_c17_05_theseareourpeople.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/episode_1/barn_c17_05_thenextgroupisready.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/episode_1/barn_c17_05_runthisgrouptothetrain.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/episode_1/barn_c17_05_keepthemsafe.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/episode_1/barn_c17_05_protectthecitizens.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/episode_1/barn_c17_05_moveemout.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/episode_1/barn_c17_05_takethesefolkstothetrain.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/episode_1/barn_c17_05_takethemtothetrain.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/episode_1/barn_c17_05_theyregettingaboard.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/episode_1/c17/ba_gordoniknow.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/episode_1/c17/ba_duck.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/episode_1/c17/ba_getdown.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/barney/ba_use_default01.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/episode_1/al_citadel_takegravgunnag_01.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/episode_1/al_citadel_takegravgunnag_02.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/episode_1/al_citadel_LedgeNag1_01.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/episode_1/al_citadel_LedgeNag1_02.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/episode_1/al_citadel_LedgeNag1_03.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/episode_1/al_citadel_InVanNag_01.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/episode_1/al_citadel_InVanNag_02.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/episode_1/al_citadel_InVanNag_03.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/episode_1/al_citadel_PostVanNag1_01.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/episode_1/al_citadel_PostVanNag1_02.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/episode_1/al_citadel_PostVanNag1_03.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/episode_1/al_citadel_01_deadendnag_01.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/episode_1/al_citadel_01_deadendnag_02.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/episode_1/al_citadel_01_deadendnag_03.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/episode_1/al_citadel_01_deadendleave_01.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/episode_1/al_citadel_01_deadendleave_02.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/episode_1/al_citadel_01_deadendleave_03.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/episode_1/al_citadel_takegravgunnagb_01.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/episode_1/al_citadel_takegravgunnagb_02.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/episode_1/al_citadel_stillstalkers01.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/episode_1/al_citadel_stillstalkers02.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/episode_1/al_citadel_stillstalkers03.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/episode_1/al_citadel_BallSocket01.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/episode_1/al_citadel_ElevatorNag01.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/episode_1/al_citadel_ElevatorNag02.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/episode_1/al_citadel_ElevatorNag03.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/episode_1/al_citadel_ExitNag01.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/episode_1/al_citadel_ExitNag02.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/episode_1/al_citadel_ExitNag03.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/episode_1/razortrain_alyx_BringRollermine_Nag01.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/episode_1/citadel/al_grabroll02.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/episode_1/citadel/al_roll_grab01.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/episode_1/citadel/al_roll_bring.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/episode_1/razortrain_alyx_TossRollermine_Nag01.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/episode_1/razortrain_alyx_TossRollermine_Nag02.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/episode_1/al_stalkertrain_trapped_01.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/episode_1/al_stalkertrain_trapped_02.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/episode_1/al_stalkertrain_trapped_03.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/episode_1/al_stalkertrain_trapped_04.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/episode_1/al_c17_00_dark_findpowerboxnag_01.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/episode_1/al_c17_00_dark_findpowerboxnag_02.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/episode_1/al_c17_00_dark_needlight_01.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/episode_1/al_c17 _00_dark_needlight_02.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/episode_1/al_c17_00_dark_needlight_03.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/episode_1/al_c17_01_comeherehelpme_nag_01.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/episode_1/al_c17_01_comeherehelpme_nag_02.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/episode_1/al_c17_01_comeherehelpme_nag_03.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/episode_1/al_c17_01_snipe_nag01.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/episode_1/al_c17_01_snipe_nag02.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/episode_1/al_c17_03_GetInGarrison_nag_01.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/episode_1/al_c17_03_GetInGarrison_nag_02.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/episode_1/al_c17_03_GetInGarrison_nag_03.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/episode_1/al_c17_03_GetInGarrison_nag_04.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/episode_1/al_c17_03_GetInGarrison_nag_05.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/episode_1/al_c17_03_FixElevator_nag_01.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/episode_1/al_c17_03_FixElevator_nag_02.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/episode_1/al_c17_03_FixElevator_nag_03.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/episode_1/al_c17_03_FixElevator_nag_04.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/episode_1/al_c17_03_FixElevator_nag_05.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/episode_1/al_c17_03_GetInElevator_nag_01.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/episode_1/al_c17_03_GetInElevator_nag_02.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/episode_1/al_c17_03_GetInElevator_nag_03.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/episode_1/al_c17_01_letsgonag_01.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/episode_1/al_c17_01_letsgonag_02.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/episode_1/al_c17_01_letsgonag_03.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/episode_1/c17/al_elev_hearsomething.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/episode_1/c17/al_evac_remind01.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/episode_1/c17/al_evac_remind02.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/episode_1/c17/al_evac_remind03.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/episode_1/c17/al_evac_remind04.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/episode_1/ba_c17_02_leavenag_01.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/episode_1/c17/ba_killapc03.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/episode_1/c17/ba_killapc02.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/episode_1/c17/ba_killapc01.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/male01/reb_calmplususe_01.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/male01/reb_calmplususe_02.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/male01/reb_calmplususe_03.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/male01/reb_calmplususe_04.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/outland_12/reb_huntprompt01.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/outland_12/reb_packs01.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/outland_12/reb_packs02.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/outland_12/reb_packs03.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/outland_12/reb_packs04.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/outland_12/reb_huntprompt02.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/outland_12/reb_battle_needyourcar02.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/outland_12/reb_battle_needyourcar03.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/outland_12/reb_battle_needyourcar05.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/outland_12/reb_battle_needyourcar01.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/male01/reb_idles01.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/male01/reb_idles02.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/male01/reb_idles06.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/male01/reb_idles07.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/male01/reb_idles03.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/male01/reb_idles04.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/male01/reb_idles05.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/npc/male01/reb_idles13.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/outland_12/reb_lastwave01.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/outland_12/reb_lastwave02.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/outland_12/reb_lastwave05.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/outland_12/reb_lastwave06.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/outland_12/reb_lastwave07.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/outland_12/reb_lastwave03.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/outland_12/reb_lastwave04.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/outland_12/reb_lastwave08.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/outland_12/reb_lastwave09.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/outland_12/reb_lastwave10.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/outland_12/reb_lastwaveannounced02.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/outland_12/reb_lastwaveannounced03.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/outland_12/reb_lastwaveannounced05.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/outland_12/reb_lastwaveannounced06.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/outland_12/reb_lastwaveannounced07.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/outland_12/reb_lastwaveannounced09.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/outland_12/reb_lastwaveannounced11.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/outland_12/reb_buildingexplo06.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/outland_12/reb_huntprompt05.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/outland_12/reb_healthcall03.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/outland_12/reb_healthcall04.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/outland_12/reb_healthcall01.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/outland_12/reb_healthcall02.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/outland_12/reb_ammocall02.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/outland_09/reb_chop_alyxinside01.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/outland_09/reb_chop_alyxinside02.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/outland_09/reb_chop_alyxinside03.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/outland_08/chopper/reb_chop_chopper_hint01.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/outland_08/chopper/reb_chop_chopper_hint03.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/outland_08/chopper/reb_chop_chopper_hint04.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/outland_08/chopper/reb_chop_chopper_hint05.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/outland_08/chopper/reb_chop_chopper_hint06.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/outland_08/chopper/reb_chop_chopper_hint08.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/outland_08/chopper/reb_chop_chopper_hint09.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/outland_08/chopper/rebc_chop_hit01.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/outland_08/chopper/rebc_chop_hit02.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/outland_08/chopper/rebc_chop_hit03.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/outland_08/chopper/rebc_chop_hit04.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/outland_02/gs_follow_vort_nag01.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/outland_02/gs_follow_vort_nag02.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/outland_02/gs_follow_vort_nag03.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/outland_02/griggs_turretdown01.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/outland_02/griggs_turretdown02.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/outland_02/sheckley_turretdown01.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/outland_02/sheckley_turretdown02.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/outland_02/griggs_thosevortswant.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/outland_02/griggs_incom36.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/outland_02/wavestart_02.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/outland_02/wavestart_03.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/outland_02/wavestart_04.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/outland_02/wavestart_05.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/outland_02/wavestart_06.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/outland_02/wavestart_07.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/outland_02/wavestart_08.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/outland_02/wavestart_09.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/outland_02/wavestart_10.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/outland_02/wavestart_11.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/outland_02/wavestart_12.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/outland_02/griggs_betweenwave_04.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/outland_02/waveend_06.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/outland_02/waveend_03.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/outland_02/waveend_04.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/outland_02/waveend_05.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/outland_02/waveend_07.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/outland_02/sheckley_betweenwave_02.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/outland_02/gs_betweenwave_01.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/outland_02/Sheckley_trainingnags01.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/outland_02/Sheckley_trainingnags02.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/outland_02/Sheckley_trainingnags03.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/outland_02/Sheckley_trainingnags04.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/outland_02/griggs_neverseen.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/outland_02/griggs_watchvorts_01.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/outland_02/griggs_watchvorts_02.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/outland_02/griggs_watchvorts_04.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/outland_02/griggs_watchvorts_03.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/outland_02/sheckley_watchvorts_01.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/outland_02/sheckley_watchvorts_02.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/outland_02/sheckley_watchvorts_03.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/outland_02/sheckley_watchvorts_04.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/outland_02/griggs_fightlion_01.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/outland_02/griggs_fightlion_02.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/outland_02/griggs_fightlion_03.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/outland_02/griggs_gosheckley.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/outland_02/griggs_fightlion_04.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/outland_02/griggs_fightlion_05.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/outland_02/griggs_followme02.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/outland_02/sheckley_fightlion_01.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/outland_02/sheckley_fightlion_02.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/outland_02/sheckley_gogriggs.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/outland_02/sheckley_antlions_01.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/outland_02/sheckley_antlions_02.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/outland_02/sheckley_antlions_03.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/outland_02/sheckley_antlions_04.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/outland_02/sheckley_antlions_05.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/outland_02/griggs_killlion_01.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/outland_02/griggs_killlion_02.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/outland_02/griggs_killlion_03.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/outland_02/griggs_killlion_04.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/outland_02/sheckley_killlion_01.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/outland_02/sheckley_killlion_02.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/outland_02/sheckley_killlion_03.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/outland_02/sheckley_betweenwave_03.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/outland_02/sheckley_yeah_01.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/outland_02/griggs_vortintrouble.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/outland_02/griggs_gohelpvort.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/outland_02/griggs_dochelpvort.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/outland_02/sheckley_vortintrouble.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/outland_02/sheckley_gohelpvort.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/outland_02/sheckley_dochelpvort.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/outland_02/sheckley_vortswantyou.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/outland_02/sheckley_vortscalling.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/outland_02/sheckley_thosevortswant.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/outland_02/griggs_vortscalling.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/outland_02/griggs_vortswantyou.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/outland_02/sheckley_reloading_01.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/outland_02/sheckley_reloading_02.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/outland_02/sheckley_reloading_03.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/outland_02/griggs_reloading_01.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/outland_11/mag_aband_onceagain.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/outland_11/mag_aband_uptoyou.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/outland_11/mag_aband_critical.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/outland_12/cit_strider_kill_01.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/outland_12/cit_strider_kill_02.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/outland_12/cit_strider_kill_03.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/outland_12/cit_strider_kill_04.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/outland_12/cit_strider_kill_05.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/outland_12/cit_strider_kill_06.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/lostcoast/fisherman_shootgull01.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/lostcoast/fisherman_shootgull02.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/lostcoast/fisherman_shootgull03.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/lostcoast/fisherman_shootgull04.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/lostcoast/fisherman_Guide01.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/lostcoast/fisherman_Guide02.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/lostcoast/fisherman_Guide03.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/lostcoast/fisherman_resumetalk01.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/lostcoast/fisherman_resumetalk02.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/lostcoast/fisherman_resumetalk03.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/lostcoast/fisherman_resumetalk04.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/lostcoast/fisherman_resumetalk05.vcd",
+			"userdatalength": 0
+		},
+		{
+			"key": "scenes/lostcoast/fisherman_resumetalk06.vcd",
+			"userdatalength": 0
+		}
+	]
+}

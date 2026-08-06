@@ -1,0 +1,13 @@
+{
+	"name": "Materials",
+	"id": 13,
+	"entrybits": 10,
+	"maxstrings": 1024,
+	"numstrings": 1,
+	"strings": [
+		{
+			"key": "debug/debugempty",
+			"userdatalength": 0
+		}
+	]
+}

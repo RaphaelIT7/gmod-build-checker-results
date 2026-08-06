@@ -1,0 +1,54 @@
+{
+	"name": "DT_CPropJeepEpisodic",
+	"props": [
+		{
+			"index": 0,
+			"name": "baseclass",
+			"offset": 0,
+			"bits": 0,
+			"type": "DPT_DataTable",
+			"elements": 1,
+			"datatable": "DT_PropJeep"
+		},
+		{
+			"index": 1,
+			"name": "m_iNumRadarContacts",
+			"offset": 6484,
+			"bits": 8,
+			"type": "DPT_Int",
+			"elements": 1
+		},
+		{
+			"index": 2,
+			"name": "m_vecRadarContactPos",
+			"offset": 6488,
+			"bits": 0,
+			"type": "DPT_Vector",
+			"elements": 1
+		},
+		{
+			"index": 3,
+			"name": "m_vecRadarContactPos",
+			"offset": 0,
+			"bits": 0,
+			"type": "DPT_Array",
+			"elements": 24
+		},
+		{
+			"index": 4,
+			"name": "m_iRadarContactType",
+			"offset": 6776,
+			"bits": 4,
+			"type": "DPT_Int",
+			"elements": 1
+		},
+		{
+			"index": 5,
+			"name": "m_iRadarContactType",
+			"offset": 0,
+			"bits": 0,
+			"type": "DPT_Array",
+			"elements": 24
+		}
+	]
+}

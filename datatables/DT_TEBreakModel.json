@@ -1,0 +1,102 @@
+{
+	"name": "DT_TEBreakModel",
+	"props": [
+		{
+			"index": 0,
+			"name": "baseclass",
+			"offset": 0,
+			"bits": 0,
+			"type": "DPT_DataTable",
+			"elements": 1,
+			"datatable": "DT_BaseTempEntity"
+		},
+		{
+			"index": 1,
+			"name": "m_vecOrigin",
+			"offset": 12,
+			"bits": 0,
+			"type": "DPT_Vector",
+			"elements": 1
+		},
+		{
+			"index": 2,
+			"name": "m_angRotation[0]",
+			"offset": 48,
+			"bits": 13,
+			"type": "DPT_Float",
+			"elements": 1
+		},
+		{
+			"index": 3,
+			"name": "m_angRotation[1]",
+			"offset": 52,
+			"bits": 13,
+			"type": "DPT_Float",
+			"elements": 1
+		},
+		{
+			"index": 4,
+			"name": "m_angRotation[2]",
+			"offset": 56,
+			"bits": 13,
+			"type": "DPT_Float",
+			"elements": 1
+		},
+		{
+			"index": 5,
+			"name": "m_vecSize",
+			"offset": 24,
+			"bits": 0,
+			"type": "DPT_Vector",
+			"elements": 1
+		},
+		{
+			"index": 6,
+			"name": "m_vecVelocity",
+			"offset": 36,
+			"bits": 0,
+			"type": "DPT_Vector",
+			"elements": 1
+		},
+		{
+			"index": 7,
+			"name": "m_nModelIndex",
+			"offset": 64,
+			"bits": 14,
+			"type": "DPT_Int",
+			"elements": 1
+		},
+		{
+			"index": 8,
+			"name": "m_nRandomization",
+			"offset": 60,
+			"bits": 9,
+			"type": "DPT_Int",
+			"elements": 1
+		},
+		{
+			"index": 9,
+			"name": "m_nCount",
+			"offset": 68,
+			"bits": 8,
+			"type": "DPT_Int",
+			"elements": 1
+		},
+		{
+			"index": 10,
+			"name": "m_fTime",
+			"offset": 72,
+			"bits": 10,
+			"type": "DPT_Float",
+			"elements": 1
+		},
+		{
+			"index": 11,
+			"name": "m_nFlags",
+			"offset": 76,
+			"bits": 8,
+			"type": "DPT_Int",
+			"elements": 1
+		}
+	]
+}

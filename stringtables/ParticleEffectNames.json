@@ -1,0 +1,57 @@
+{
+	"name": "ParticleEffectNames",
+	"id": 10,
+	"entrybits": 12,
+	"maxstrings": 4096,
+	"numstrings": 12,
+	"strings": [
+		{
+			"key": "error",
+			"userdatalength": 0
+		},
+		{
+			"key": "generic_smoke",
+			"userdatalength": 0
+		},
+		{
+			"key": "blood_impact_red_01",
+			"userdatalength": 0
+		},
+		{
+			"key": "blood_impact_green_01",
+			"userdatalength": 0
+		},
+		{
+			"key": "blood_impact_yellow_01",
+			"userdatalength": 0
+		},
+		{
+			"key": "blood_impact_antlion_01",
+			"userdatalength": 0
+		},
+		{
+			"key": "blood_impact_zombie_01",
+			"userdatalength": 0
+		},
+		{
+			"key": "blood_impact_antlion_worker_01",
+			"userdatalength": 0
+		},
+		{
+			"key": "burning_character",
+			"userdatalength": 0
+		},
+		{
+			"key": "slime_splash_01",
+			"userdatalength": 0
+		},
+		{
+			"key": "slime_splash_02",
+			"userdatalength": 0
+		},
+		{
+			"key": "slime_splash_03",
+			"userdatalength": 0
+		}
+	]
+}

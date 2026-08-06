@@ -1,0 +1,86 @@
+{
+	"name": "DT_WeaponPhysCannon",
+	"props": [
+		{
+			"index": 0,
+			"name": "baseclass",
+			"offset": 0,
+			"bits": 0,
+			"type": "DPT_DataTable",
+			"elements": 1,
+			"datatable": "DT_BaseHL2MPCombatWeapon"
+		},
+		{
+			"index": 1,
+			"name": "m_bActive",
+			"offset": 5828,
+			"bits": 1,
+			"type": "DPT_Int",
+			"elements": 1
+		},
+		{
+			"index": 2,
+			"name": "m_hAttachedObject",
+			"offset": 5800,
+			"bits": 23,
+			"type": "DPT_Int",
+			"elements": 1
+		},
+		{
+			"index": 3,
+			"name": "m_attachedPositionObjectSpace",
+			"offset": 5788,
+			"bits": 0,
+			"type": "DPT_Vector",
+			"elements": 1
+		},
+		{
+			"index": 4,
+			"name": "m_attachedAnglesPlayerSpace[0]",
+			"offset": 5776,
+			"bits": 11,
+			"type": "DPT_Float",
+			"elements": 1
+		},
+		{
+			"index": 5,
+			"name": "m_attachedAnglesPlayerSpace[1]",
+			"offset": 5780,
+			"bits": 11,
+			"type": "DPT_Float",
+			"elements": 1
+		},
+		{
+			"index": 6,
+			"name": "m_attachedAnglesPlayerSpace[2]",
+			"offset": 5784,
+			"bits": 11,
+			"type": "DPT_Float",
+			"elements": 1
+		},
+		{
+			"index": 7,
+			"name": "m_EffectState",
+			"offset": 5832,
+			"bits": 4,
+			"type": "DPT_Int",
+			"elements": 1
+		},
+		{
+			"index": 8,
+			"name": "m_bOpen",
+			"offset": 5836,
+			"bits": 1,
+			"type": "DPT_Int",
+			"elements": 1
+		},
+		{
+			"index": 9,
+			"name": "m_bPhyscannonState",
+			"offset": 5837,
+			"bits": 1,
+			"type": "DPT_Int",
+			"elements": 1
+		}
+	]
+}

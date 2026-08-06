@@ -1,0 +1,22 @@
+{
+	"name": "DT_PropJeep",
+	"props": [
+		{
+			"index": 0,
+			"name": "baseclass",
+			"offset": 0,
+			"bits": 0,
+			"type": "DPT_DataTable",
+			"elements": 1,
+			"datatable": "DT_PropVehicleDriveable"
+		},
+		{
+			"index": 1,
+			"name": "m_bHeadlightIsOn",
+			"offset": 6305,
+			"bits": 1,
+			"type": "DPT_Int",
+			"elements": 1
+		}
+	]
+}

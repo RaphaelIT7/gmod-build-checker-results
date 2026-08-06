@@ -1,0 +1,70 @@
+{
+	"name": "DT_AI_BaseNPC",
+	"props": [
+		{
+			"index": 0,
+			"name": "baseclass",
+			"offset": 0,
+			"bits": 0,
+			"type": "DPT_DataTable",
+			"elements": 1,
+			"datatable": "DT_BaseCombatCharacter"
+		},
+		{
+			"index": 1,
+			"name": "m_lifeState",
+			"offset": 260,
+			"bits": 3,
+			"type": "DPT_Int",
+			"elements": 1
+		},
+		{
+			"index": 2,
+			"name": "m_bPerformAvoidance",
+			"offset": 9660,
+			"bits": 1,
+			"type": "DPT_Int",
+			"elements": 1
+		},
+		{
+			"index": 3,
+			"name": "m_bIsMoving",
+			"offset": 9661,
+			"bits": 1,
+			"type": "DPT_Int",
+			"elements": 1
+		},
+		{
+			"index": 4,
+			"name": "m_bFadeCorpse",
+			"offset": 9662,
+			"bits": 1,
+			"type": "DPT_Int",
+			"elements": 1
+		},
+		{
+			"index": 5,
+			"name": "m_iDeathPose",
+			"offset": 8520,
+			"bits": 12,
+			"type": "DPT_Int",
+			"elements": 1
+		},
+		{
+			"index": 6,
+			"name": "m_iDeathFrame",
+			"offset": 8524,
+			"bits": 5,
+			"type": "DPT_Int",
+			"elements": 1
+		},
+		{
+			"index": 7,
+			"name": "m_bImportanRagdoll",
+			"offset": 9663,
+			"bits": 1,
+			"type": "DPT_Int",
+			"elements": 1
+		}
+	]
+}

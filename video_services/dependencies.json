@@ -1,0 +1,8 @@
+[
+    "<EXTERNAL>",
+    "libtier0.so",
+    "libdl.so.2",
+    "libstdc++.so.6",
+    "ld-linux.so.2",
+    "libc.so.6"
+]

@@ -1,0 +1,1557 @@
+{
+	"name": "client_lua_files",
+	"id": 18,
+	"entrybits": 13,
+	"maxstrings": 8192,
+	"numstrings": 387,
+	"strings": [
+		{
+			"key": "paths",
+			"userdatalength": 182
+		},
+		{
+			"key": "lua/includes/init.lua",
+			"userdatalength": 32
+		},
+		{
+			"key": "lua/includes/util.lua",
+			"userdatalength": 32
+		},
+		{
+			"key": "lua/includes/util/color.lua",
+			"userdatalength": 32
+		},
+		{
+			"key": "lua/includes/util/sql.lua",
+			"userdatalength": 32
+		},
+		{
+			"key": "lua/includes/modules/baseclass.lua",
+			"userdatalength": 32
+		},
+		{
+			"key": "lua/includes/modules/concommand.lua",
+			"userdatalength": 32
+		},
+		{
+			"key": "lua/includes/modules/drive.lua",
+			"userdatalength": 32
+		},
+		{
+			"key": "lua/includes/modules/saverestore.lua",
+			"userdatalength": 32
+		},
+		{
+			"key": "lua/includes/modules/gamemode.lua",
+			"userdatalength": 32
+		},
+		{
+			"key": "lua/includes/modules/hook.lua",
+			"userdatalength": 32
+		},
+		{
+			"key": "lua/includes/modules/weapons.lua",
+			"userdatalength": 32
+		},
+		{
+			"key": "lua/includes/modules/properties.lua",
+			"userdatalength": 32
+		},
+		{
+			"key": "lua/includes/modules/scripted_ents.lua",
+			"userdatalength": 32
+		},
+		{
+			"key": "lua/includes/modules/matproxy.lua",
+			"userdatalength": 32
+		},
+		{
+			"key": "lua/includes/modules/player_manager.lua",
+			"userdatalength": 32
+		},
+		{
+			"key": "lua/includes/modules/numpad.lua",
+			"userdatalength": 32
+		},
+		{
+			"key": "lua/includes/modules/widget.lua",
+			"userdatalength": 32
+		},
+		{
+			"key": "lua/includes/modules/menubar.lua",
+			"userdatalength": 32
+		},
+		{
+			"key": "lua/includes/modules/team.lua",
+			"userdatalength": 32
+		},
+		{
+			"key": "lua/includes/modules/undo.lua",
+			"userdatalength": 32
+		},
+		{
+			"key": "lua/includes/modules/utf8.lua",
+			"userdatalength": 32
+		},
+		{
+			"key": "lua/includes/modules/search.lua",
+			"userdatalength": 32
+		},
+		{
+			"key": "lua/includes/modules/usermessage.lua",
+			"userdatalength": 32
+		},
+		{
+			"key": "lua/includes/modules/cleanup.lua",
+			"userdatalength": 32
+		},
+		{
+			"key": "lua/includes/modules/duplicator.lua",
+			"userdatalength": 32
+		},
+		{
+			"key": "lua/includes/modules/constraint.lua",
+			"userdatalength": 32
+		},
+		{
+			"key": "lua/includes/modules/construct.lua",
+			"userdatalength": 32
+		},
+		{
+			"key": "lua/includes/modules/list.lua",
+			"userdatalength": 32
+		},
+		{
+			"key": "lua/includes/modules/cvars.lua",
+			"userdatalength": 32
+		},
+		{
+			"key": "lua/includes/modules/http.lua",
+			"userdatalength": 32
+		},
+		{
+			"key": "lua/includes/modules/draw.lua",
+			"userdatalength": 32
+		},
+		{
+			"key": "lua/includes/modules/markup.lua",
+			"userdatalength": 32
+		},
+		{
+			"key": "lua/includes/modules/effects.lua",
+			"userdatalength": 32
+		},
+		{
+			"key": "lua/includes/modules/killicon.lua",
+			"userdatalength": 32
+		},
+		{
+			"key": "lua/includes/modules/spawnmenu.lua",
+			"userdatalength": 32
+		},
+		{
+			"key": "lua/includes/modules/controlpanel.lua",
+			"userdatalength": 32
+		},
+		{
+			"key": "lua/includes/modules/presets.lua",
+			"userdatalength": 32
+		},
+		{
+			"key": "lua/includes/modules/cookie.lua",
+			"userdatalength": 32
+		},
+		{
+			"key": "lua/includes/modules/notification.lua",
+			"userdatalength": 32
+		},
+		{
+			"key": "lua/includes/modules/halo.lua",
+			"userdatalength": 32
+		},
+		{
+			"key": "lua/includes/gmsave.lua",
+			"userdatalength": 32
+		},
+		{
+			"key": "lua/includes/util/model_database.lua",
+			"userdatalength": 32
+		},
+		{
+			"key": "lua/includes/util/vgui_showlayout.lua",
+			"userdatalength": 32
+		},
+		{
+			"key": "lua/includes/util/javascript_util.lua",
+			"userdatalength": 32
+		},
+		{
+			"key": "lua/includes/util/workshop_files.lua",
+			"userdatalength": 32
+		},
+		{
+			"key": "lua/includes/util/tooltips.lua",
+			"userdatalength": 32
+		},
+		{
+			"key": "lua/includes/util/client.lua",
+			"userdatalength": 32
+		},
+		{
+			"key": "lua/includes/gui/icon_progress.lua",
+			"userdatalength": 32
+		},
+		{
+			"key": "lua/includes/extensions/util/worldpicker.lua",
+			"userdatalength": 32
+		},
+		{
+			"key": "lua/includes/extensions/debug.lua",
+			"userdatalength": 32
+		},
+		{
+			"key": "lua/includes/extensions/entity.lua",
+			"userdatalength": 32
+		},
+		{
+			"key": "lua/includes/extensions/entity_iter.lua",
+			"userdatalength": 32
+		},
+		{
+			"key": "lua/includes/extensions/net.lua",
+			"userdatalength": 32
+		},
+		{
+			"key": "lua/includes/extensions/math.lua",
+			"userdatalength": 32
+		},
+		{
+			"key": "lua/includes/extensions/math/ease.lua",
+			"userdatalength": 32
+		},
+		{
+			"key": "lua/includes/extensions/player.lua",
+			"userdatalength": 32
+		},
+		{
+			"key": "lua/includes/extensions/player_auth.lua",
+			"userdatalength": 32
+		},
+		{
+			"key": "lua/includes/extensions/string.lua",
+			"userdatalength": 32
+		},
+		{
+			"key": "lua/includes/extensions/table.lua",
+			"userdatalength": 32
+		},
+		{
+			"key": "lua/includes/extensions/file.lua",
+			"userdatalength": 32
+		},
+		{
+			"key": "lua/includes/extensions/ents.lua",
+			"userdatalength": 32
+		},
+		{
+			"key": "lua/includes/extensions/util.lua",
+			"userdatalength": 32
+		},
+		{
+			"key": "lua/includes/extensions/angle.lua",
+			"userdatalength": 32
+		},
+		{
+			"key": "lua/includes/extensions/game.lua",
+			"userdatalength": 32
+		},
+		{
+			"key": "lua/includes/extensions/motionsensor.lua",
+			"userdatalength": 32
+		},
+		{
+			"key": "lua/includes/extensions/vector.lua",
+			"userdatalength": 32
+		},
+		{
+			"key": "lua/includes/extensions/client/entity.lua",
+			"userdatalength": 32
+		},
+		{
+			"key": "lua/includes/extensions/client/globals.lua",
+			"userdatalength": 32
+		},
+		{
+			"key": "lua/includes/extensions/client/panel.lua",
+			"userdatalength": 32
+		},
+		{
+			"key": "lua/includes/extensions/client/player.lua",
+			"userdatalength": 32
+		},
+		{
+			"key": "lua/includes/extensions/client/render.lua",
+			"userdatalength": 32
+		},
+		{
+			"key": "lua/includes/extensions/client/panel/animation.lua",
+			"userdatalength": 32
+		},
+		{
+			"key": "lua/includes/extensions/client/panel/dragdrop.lua",
+			"userdatalength": 32
+		},
+		{
+			"key": "lua/includes/extensions/client/panel/scriptedpanels.lua",
+			"userdatalength": 32
+		},
+		{
+			"key": "lua/includes/extensions/client/panel/selections.lua",
+			"userdatalength": 32
+		},
+		{
+			"key": "lua/derma/init.lua",
+			"userdatalength": 32
+		},
+		{
+			"key": "lua/derma/derma.lua",
+			"userdatalength": 32
+		},
+		{
+			"key": "lua/derma/derma_example.lua",
+			"userdatalength": 32
+		},
+		{
+			"key": "lua/derma/derma_menus.lua",
+			"userdatalength": 32
+		},
+		{
+			"key": "lua/derma/derma_animation.lua",
+			"userdatalength": 32
+		},
+		{
+			"key": "lua/derma/derma_utils.lua",
+			"userdatalength": 32
+		},
+		{
+			"key": "lua/derma/derma_gwen.lua",
+			"userdatalength": 32
+		},
+		{
+			"key": "lua/drive/drive_base.lua",
+			"userdatalength": 32
+		},
+		{
+			"key": "lua/drive/drive_noclip.lua",
+			"userdatalength": 32
+		},
+		{
+			"key": "lua/drive/drive_sandbox.lua",
+			"userdatalength": 32
+		},
+		{
+			"key": "lua/entities/sent_ball.lua",
+			"userdatalength": 32
+		},
+		{
+			"key": "lua/entities/widget_arrow.lua",
+			"userdatalength": 32
+		},
+		{
+			"key": "lua/entities/widget_axis.lua",
+			"userdatalength": 32
+		},
+		{
+			"key": "lua/entities/widget_base.lua",
+			"userdatalength": 32
+		},
+		{
+			"key": "lua/entities/widget_bones.lua",
+			"userdatalength": 32
+		},
+		{
+			"key": "lua/entities/widget_disc.lua",
+			"userdatalength": 32
+		},
+		{
+			"key": "lua/includes/extensions/weapon.lua",
+			"userdatalength": 32
+		},
+		{
+			"key": "lua/includes/extensions/coroutine.lua",
+			"userdatalength": 32
+		},
+		{
+			"key": "gamemodes/base/gamemode/player_class/player_default.lua",
+			"userdatalength": 32
+		},
+		{
+			"key": "gamemodes/base/entities/weapons/weapon_base/cl_init.lua",
+			"userdatalength": 32
+		},
+		{
+			"key": "gamemodes/base/entities/weapons/weapon_base/shared.lua",
+			"userdatalength": 32
+		},
+		{
+			"key": "gamemodes/base/entities/weapons/weapon_base/ai_translations.lua",
+			"userdatalength": 32
+		},
+		{
+			"key": "gamemodes/base/entities/weapons/weapon_base/sh_anim.lua",
+			"userdatalength": 32
+		},
+		{
+			"key": "gamemodes/base/entities/entities/base_point.lua",
+			"userdatalength": 32
+		},
+		{
+			"key": "gamemodes/base/entities/entities/base_ai/cl_init.lua",
+			"userdatalength": 32
+		},
+		{
+			"key": "gamemodes/base/entities/entities/base_ai/shared.lua",
+			"userdatalength": 32
+		},
+		{
+			"key": "gamemodes/base/entities/entities/base_anim.lua",
+			"userdatalength": 32
+		},
+		{
+			"key": "gamemodes/base/entities/entities/base_entity/cl_init.lua",
+			"userdatalength": 32
+		},
+		{
+			"key": "gamemodes/base/entities/entities/base_entity/shared.lua",
+			"userdatalength": 32
+		},
+		{
+			"key": "gamemodes/base/entities/entities/prop_effect.lua",
+			"userdatalength": 32
+		},
+		{
+			"key": "gamemodes/base/entities/effects/base.lua",
+			"userdatalength": 32
+		},
+		{
+			"key": "gamemodes/base/entities/effects/dof_node.lua",
+			"userdatalength": 32
+		},
+		{
+			"key": "gamemodes/base/gamemode/cl_init.lua",
+			"userdatalength": 32
+		},
+		{
+			"key": "gamemodes/base/gamemode/shared.lua",
+			"userdatalength": 32
+		},
+		{
+			"key": "gamemodes/base/gamemode/cl_scoreboard.lua",
+			"userdatalength": 32
+		},
+		{
+			"key": "gamemodes/base/gamemode/cl_targetid.lua",
+			"userdatalength": 32
+		},
+		{
+			"key": "gamemodes/base/gamemode/cl_hudpickup.lua",
+			"userdatalength": 32
+		},
+		{
+			"key": "gamemodes/base/gamemode/cl_spawnmenu.lua",
+			"userdatalength": 32
+		},
+		{
+			"key": "gamemodes/base/gamemode/cl_deathnotice.lua",
+			"userdatalength": 32
+		},
+		{
+			"key": "gamemodes/base/gamemode/cl_pickteam.lua",
+			"userdatalength": 32
+		},
+		{
+			"key": "gamemodes/base/gamemode/cl_voice.lua",
+			"userdatalength": 32
+		},
+		{
+			"key": "gamemodes/base/gamemode/gravitygun.lua",
+			"userdatalength": 32
+		},
+		{
+			"key": "gamemodes/base/gamemode/player_shd.lua",
+			"userdatalength": 32
+		},
+		{
+			"key": "gamemodes/base/gamemode/animations.lua",
+			"userdatalength": 32
+		},
+		{
+			"key": "gamemodes/base/gamemode/obj_player_extend.lua",
+			"userdatalength": 32
+		},
+		{
+			"key": "gamemodes/base/gamemode/player_class/taunt_camera.lua",
+			"userdatalength": 32
+		},
+		{
+			"key": "lua/autorun/menubar.lua",
+			"userdatalength": 32
+		},
+		{
+			"key": "lua/autorun/properties/bone_manipulate.lua",
+			"userdatalength": 32
+		},
+		{
+			"key": "lua/autorun/properties/remove.lua",
+			"userdatalength": 32
+		},
+		{
+			"key": "lua/autorun/properties/statue.lua",
+			"userdatalength": 32
+		},
+		{
+			"key": "lua/autorun/properties/keep_upright.lua",
+			"userdatalength": 32
+		},
+		{
+			"key": "lua/autorun/properties/persist.lua",
+			"userdatalength": 32
+		},
+		{
+			"key": "lua/autorun/properties/drive.lua",
+			"userdatalength": 32
+		},
+		{
+			"key": "lua/autorun/properties/ignite.lua",
+			"userdatalength": 32
+		},
+		{
+			"key": "lua/autorun/properties/collisions.lua",
+			"userdatalength": 32
+		},
+		{
+			"key": "lua/autorun/properties/gravity.lua",
+			"userdatalength": 32
+		},
+		{
+			"key": "lua/autorun/properties/npc_scale.lua",
+			"userdatalength": 32
+		},
+		{
+			"key": "lua/autorun/properties/editentity.lua",
+			"userdatalength": 32
+		},
+		{
+			"key": "lua/autorun/properties/kinect_controller.lua",
+			"userdatalength": 32
+		},
+		{
+			"key": "lua/autorun/properties/bodygroups.lua",
+			"userdatalength": 32
+		},
+		{
+			"key": "lua/autorun/properties/skin.lua",
+			"userdatalength": 32
+		},
+		{
+			"key": "lua/autorun/utilities_menu.lua",
+			"userdatalength": 32
+		},
+		{
+			"key": "lua/matproxy/player_color.lua",
+			"userdatalength": 32
+		},
+		{
+			"key": "lua/matproxy/player_weapon_color.lua",
+			"userdatalength": 32
+		},
+		{
+			"key": "lua/matproxy/sky_paint.lua",
+			"userdatalength": 32
+		},
+		{
+			"key": "lua/postprocess/bloom.lua",
+			"userdatalength": 32
+		},
+		{
+			"key": "lua/postprocess/bokeh_dof.lua",
+			"userdatalength": 32
+		},
+		{
+			"key": "lua/postprocess/color_modify.lua",
+			"userdatalength": 32
+		},
+		{
+			"key": "lua/postprocess/dof.lua",
+			"userdatalength": 32
+		},
+		{
+			"key": "lua/postprocess/frame_blend.lua",
+			"userdatalength": 32
+		},
+		{
+			"key": "lua/postprocess/motion_blur.lua",
+			"userdatalength": 32
+		},
+		{
+			"key": "lua/postprocess/overlay.lua",
+			"userdatalength": 32
+		},
+		{
+			"key": "lua/postprocess/sharpen.lua",
+			"userdatalength": 32
+		},
+		{
+			"key": "lua/postprocess/sobel.lua",
+			"userdatalength": 32
+		},
+		{
+			"key": "lua/postprocess/stereoscopy.lua",
+			"userdatalength": 32
+		},
+		{
+			"key": "lua/postprocess/sunbeams.lua",
+			"userdatalength": 32
+		},
+		{
+			"key": "lua/postprocess/super_dof.lua",
+			"userdatalength": 32
+		},
+		{
+			"key": "lua/postprocess/texturize.lua",
+			"userdatalength": 32
+		},
+		{
+			"key": "lua/postprocess/toytown.lua",
+			"userdatalength": 32
+		},
+		{
+			"key": "lua/vgui/dpanpanel.lua",
+			"userdatalength": 32
+		},
+		{
+			"key": "lua/vgui/contextbase.lua",
+			"userdatalength": 32
+		},
+		{
+			"key": "lua/vgui/dadjustablemodelpanel.lua",
+			"userdatalength": 32
+		},
+		{
+			"key": "lua/vgui/dalphabar.lua",
+			"userdatalength": 32
+		},
+		{
+			"key": "lua/vgui/dbinder.lua",
+			"userdatalength": 32
+		},
+		{
+			"key": "lua/vgui/dbubblecontainer.lua",
+			"userdatalength": 32
+		},
+		{
+			"key": "lua/vgui/dbutton.lua",
+			"userdatalength": 32
+		},
+		{
+			"key": "lua/vgui/dcategorycollapse.lua",
+			"userdatalength": 32
+		},
+		{
+			"key": "lua/vgui/dcategorylist.lua",
+			"userdatalength": 32
+		},
+		{
+			"key": "lua/vgui/dcheckbox.lua",
+			"userdatalength": 32
+		},
+		{
+			"key": "lua/vgui/dcolorbutton.lua",
+			"userdatalength": 32
+		},
+		{
+			"key": "lua/vgui/dcolorcombo.lua",
+			"userdatalength": 32
+		},
+		{
+			"key": "lua/vgui/dcolorcube.lua",
+			"userdatalength": 32
+		},
+		{
+			"key": "lua/vgui/dcolormixer.lua",
+			"userdatalength": 32
+		},
+		{
+			"key": "lua/vgui/dcolorpalette.lua",
+			"userdatalength": 32
+		},
+		{
+			"key": "lua/vgui/dcolumnsheet.lua",
+			"userdatalength": 32
+		},
+		{
+			"key": "lua/vgui/dcombobox.lua",
+			"userdatalength": 32
+		},
+		{
+			"key": "lua/vgui/ddragbase.lua",
+			"userdatalength": 32
+		},
+		{
+			"key": "lua/vgui/ddrawer.lua",
+			"userdatalength": 32
+		},
+		{
+			"key": "lua/vgui/dentityproperties.lua",
+			"userdatalength": 32
+		},
+		{
+			"key": "lua/vgui/dexpandbutton.lua",
+			"userdatalength": 32
+		},
+		{
+			"key": "lua/vgui/dfilebrowser.lua",
+			"userdatalength": 32
+		},
+		{
+			"key": "lua/vgui/dform.lua",
+			"userdatalength": 32
+		},
+		{
+			"key": "lua/vgui/dframe.lua",
+			"userdatalength": 32
+		},
+		{
+			"key": "lua/vgui/dgrid.lua",
+			"userdatalength": 32
+		},
+		{
+			"key": "lua/vgui/dhorizontaldivider.lua",
+			"userdatalength": 32
+		},
+		{
+			"key": "lua/vgui/dhorizontalscroller.lua",
+			"userdatalength": 32
+		},
+		{
+			"key": "lua/vgui/dhscrollbar.lua",
+			"userdatalength": 32
+		},
+		{
+			"key": "lua/vgui/dhtml.lua",
+			"userdatalength": 32
+		},
+		{
+			"key": "lua/vgui/dhtmlcontrols.lua",
+			"userdatalength": 32
+		},
+		{
+			"key": "lua/vgui/diconbrowser.lua",
+			"userdatalength": 32
+		},
+		{
+			"key": "lua/vgui/diconlayout.lua",
+			"userdatalength": 32
+		},
+		{
+			"key": "lua/vgui/dimage.lua",
+			"userdatalength": 32
+		},
+		{
+			"key": "lua/vgui/dimagebutton.lua",
+			"userdatalength": 32
+		},
+		{
+			"key": "lua/vgui/dkillicon.lua",
+			"userdatalength": 32
+		},
+		{
+			"key": "lua/vgui/dlabel.lua",
+			"userdatalength": 32
+		},
+		{
+			"key": "lua/vgui/dlabeleditable.lua",
+			"userdatalength": 32
+		},
+		{
+			"key": "lua/vgui/dlabelurl.lua",
+			"userdatalength": 32
+		},
+		{
+			"key": "lua/vgui/dlistbox.lua",
+			"userdatalength": 32
+		},
+		{
+			"key": "lua/vgui/dlistlayout.lua",
+			"userdatalength": 32
+		},
+		{
+			"key": "lua/vgui/dlistview.lua",
+			"userdatalength": 32
+		},
+		{
+			"key": "lua/vgui/dlistview_column.lua",
+			"userdatalength": 32
+		},
+		{
+			"key": "lua/vgui/dlistview_line.lua",
+			"userdatalength": 32
+		},
+		{
+			"key": "lua/vgui/dmenu.lua",
+			"userdatalength": 32
+		},
+		{
+			"key": "lua/vgui/dmenubar.lua",
+			"userdatalength": 32
+		},
+		{
+			"key": "lua/vgui/dmenuoption.lua",
+			"userdatalength": 32
+		},
+		{
+			"key": "lua/vgui/dmenuoptioncvar.lua",
+			"userdatalength": 32
+		},
+		{
+			"key": "lua/vgui/dmodelpanel.lua",
+			"userdatalength": 32
+		},
+		{
+			"key": "lua/vgui/dmodelselect.lua",
+			"userdatalength": 32
+		},
+		{
+			"key": "lua/vgui/dmodelselectmulti.lua",
+			"userdatalength": 32
+		},
+		{
+			"key": "lua/vgui/dnotify.lua",
+			"userdatalength": 32
+		},
+		{
+			"key": "lua/vgui/dnumberscratch.lua",
+			"userdatalength": 32
+		},
+		{
+			"key": "lua/vgui/dnumberwang.lua",
+			"userdatalength": 32
+		},
+		{
+			"key": "lua/vgui/dnumpad.lua",
+			"userdatalength": 32
+		},
+		{
+			"key": "lua/vgui/dnumslider.lua",
+			"userdatalength": 32
+		},
+		{
+			"key": "lua/vgui/dpanel.lua",
+			"userdatalength": 32
+		},
+		{
+			"key": "lua/vgui/dpanellist.lua",
+			"userdatalength": 32
+		},
+		{
+			"key": "lua/vgui/dpaneloverlay.lua",
+			"userdatalength": 32
+		},
+		{
+			"key": "lua/vgui/dpanelselect.lua",
+			"userdatalength": 32
+		},
+		{
+			"key": "lua/vgui/dprogress.lua",
+			"userdatalength": 32
+		},
+		{
+			"key": "lua/vgui/dproperties.lua",
+			"userdatalength": 32
+		},
+		{
+			"key": "lua/vgui/dpropertysheet.lua",
+			"userdatalength": 32
+		},
+		{
+			"key": "lua/vgui/drgbpicker.lua",
+			"userdatalength": 32
+		},
+		{
+			"key": "lua/vgui/dscrollbargrip.lua",
+			"userdatalength": 32
+		},
+		{
+			"key": "lua/vgui/dscrollpanel.lua",
+			"userdatalength": 32
+		},
+		{
+			"key": "lua/vgui/dshape.lua",
+			"userdatalength": 32
+		},
+		{
+			"key": "lua/vgui/dsizetocontents.lua",
+			"userdatalength": 32
+		},
+		{
+			"key": "lua/vgui/dslider.lua",
+			"userdatalength": 32
+		},
+		{
+			"key": "lua/vgui/dsprite.lua",
+			"userdatalength": 32
+		},
+		{
+			"key": "lua/vgui/dtextentry.lua",
+			"userdatalength": 32
+		},
+		{
+			"key": "lua/vgui/dtilelayout.lua",
+			"userdatalength": 32
+		},
+		{
+			"key": "lua/vgui/dtooltip.lua",
+			"userdatalength": 32
+		},
+		{
+			"key": "lua/vgui/dtree.lua",
+			"userdatalength": 32
+		},
+		{
+			"key": "lua/vgui/dtree_node.lua",
+			"userdatalength": 32
+		},
+		{
+			"key": "lua/vgui/dtree_node_button.lua",
+			"userdatalength": 32
+		},
+		{
+			"key": "lua/vgui/dverticaldivider.lua",
+			"userdatalength": 32
+		},
+		{
+			"key": "lua/vgui/dvscrollbar.lua",
+			"userdatalength": 32
+		},
+		{
+			"key": "lua/vgui/fingerposer.lua",
+			"userdatalength": 32
+		},
+		{
+			"key": "lua/vgui/fingervar.lua",
+			"userdatalength": 32
+		},
+		{
+			"key": "lua/vgui/imagecheckbox.lua",
+			"userdatalength": 32
+		},
+		{
+			"key": "lua/vgui/material.lua",
+			"userdatalength": 32
+		},
+		{
+			"key": "lua/vgui/matselect.lua",
+			"userdatalength": 32
+		},
+		{
+			"key": "lua/vgui/prop_boolean.lua",
+			"userdatalength": 32
+		},
+		{
+			"key": "lua/vgui/prop_combo.lua",
+			"userdatalength": 32
+		},
+		{
+			"key": "lua/vgui/prop_entity.lua",
+			"userdatalength": 32
+		},
+		{
+			"key": "lua/vgui/prop_float.lua",
+			"userdatalength": 32
+		},
+		{
+			"key": "lua/vgui/prop_generic.lua",
+			"userdatalength": 32
+		},
+		{
+			"key": "lua/vgui/prop_int.lua",
+			"userdatalength": 32
+		},
+		{
+			"key": "lua/vgui/prop_vectorcolor.lua",
+			"userdatalength": 32
+		},
+		{
+			"key": "lua/vgui/propselect.lua",
+			"userdatalength": 32
+		},
+		{
+			"key": "lua/vgui/slidebar.lua",
+			"userdatalength": 32
+		},
+		{
+			"key": "lua/vgui/spawnicon.lua",
+			"userdatalength": 32
+		},
+		{
+			"key": "lua/vgui/vgui_panellist.lua",
+			"userdatalength": 32
+		},
+		{
+			"key": "lua/skins/default.lua",
+			"userdatalength": 32
+		},
+		{
+			"key": "lua/autorun/base_npcs.lua",
+			"userdatalength": 32
+		},
+		{
+			"key": "lua/autorun/base_vehicles.lua",
+			"userdatalength": 32
+		},
+		{
+			"key": "lua/autorun/developer_functions.lua",
+			"userdatalength": 32
+		},
+		{
+			"key": "lua/autorun/game_hl2.lua",
+			"userdatalength": 32
+		},
+		{
+			"key": "lua/autorun/properties.lua",
+			"userdatalength": 32
+		},
+		{
+			"key": "lua/autorun/client/demo_recording.lua",
+			"userdatalength": 32
+		},
+		{
+			"key": "lua/autorun/client/gm_demo.lua",
+			"userdatalength": 32
+		},
+		{
+			"key": "gamemodes/sandbox/gamemode/cl_hints.lua",
+			"userdatalength": 32
+		},
+		{
+			"key": "gamemodes/sandbox/gamemode/cl_init.lua",
+			"userdatalength": 32
+		},
+		{
+			"key": "gamemodes/sandbox/gamemode/cl_notice.lua",
+			"userdatalength": 32
+		},
+		{
+			"key": "gamemodes/sandbox/gamemode/cl_search_models.lua",
+			"userdatalength": 32
+		},
+		{
+			"key": "gamemodes/sandbox/gamemode/cl_spawnmenu.lua",
+			"userdatalength": 32
+		},
+		{
+			"key": "gamemodes/sandbox/gamemode/cl_worldtips.lua",
+			"userdatalength": 32
+		},
+		{
+			"key": "gamemodes/sandbox/gamemode/spawnmenu/controls/ctrlnumpad.lua",
+			"userdatalength": 32
+		},
+		{
+			"key": "gamemodes/sandbox/gamemode/persistence.lua",
+			"userdatalength": 32
+		},
+		{
+			"key": "gamemodes/sandbox/gamemode/spawnmenu/controls/ctrlcolor.lua",
+			"userdatalength": 32
+		},
+		{
+			"key": "gamemodes/sandbox/gamemode/player_extension.lua",
+			"userdatalength": 32
+		},
+		{
+			"key": "gamemodes/sandbox/gamemode/spawnmenu/controls/ctrllistbox.lua",
+			"userdatalength": 32
+		},
+		{
+			"key": "gamemodes/sandbox/gamemode/save_load.lua",
+			"userdatalength": 32
+		},
+		{
+			"key": "gamemodes/sandbox/gamemode/spawnmenu/contextmenu.lua",
+			"userdatalength": 32
+		},
+		{
+			"key": "gamemodes/sandbox/gamemode/shared.lua",
+			"userdatalength": 32
+		},
+		{
+			"key": "gamemodes/sandbox/gamemode/spawnmenu/creationmenu.lua",
+			"userdatalength": 32
+		},
+		{
+			"key": "gamemodes/sandbox/gamemode/gui/iconeditor.lua",
+			"userdatalength": 32
+		},
+		{
+			"key": "gamemodes/sandbox/gamemode/spawnmenu/spawnmenu.lua",
+			"userdatalength": 32
+		},
+		{
+			"key": "gamemodes/sandbox/gamemode/player_class/player_sandbox.lua",
+			"userdatalength": 32
+		},
+		{
+			"key": "gamemodes/sandbox/gamemode/spawnmenu/toolmenu.lua",
+			"userdatalength": 32
+		},
+		{
+			"key": "gamemodes/sandbox/gamemode/spawnmenu/controls/manifest.lua",
+			"userdatalength": 32
+		},
+		{
+			"key": "gamemodes/sandbox/gamemode/spawnmenu/toolpanel.lua",
+			"userdatalength": 32
+		},
+		{
+			"key": "gamemodes/sandbox/gamemode/spawnmenu/controls/control_presets.lua",
+			"userdatalength": 32
+		},
+		{
+			"key": "gamemodes/sandbox/gamemode/spawnmenu/creationmenu/manifest.lua",
+			"userdatalength": 32
+		},
+		{
+			"key": "gamemodes/sandbox/gamemode/spawnmenu/controls/preset_editor.lua",
+			"userdatalength": 32
+		},
+		{
+			"key": "gamemodes/sandbox/gamemode/spawnmenu/creationmenu/content/content.lua",
+			"userdatalength": 32
+		},
+		{
+			"key": "gamemodes/sandbox/gamemode/spawnmenu/controls/ropematerial.lua",
+			"userdatalength": 32
+		},
+		{
+			"key": "gamemodes/sandbox/gamemode/spawnmenu/controlpanel.lua",
+			"userdatalength": 32
+		},
+		{
+			"key": "gamemodes/sandbox/gamemode/spawnmenu/creationmenu/content/contentcontainer.lua",
+			"userdatalength": 32
+		},
+		{
+			"key": "gamemodes/sandbox/gamemode/spawnmenu/creationmenu/content/contentheader.lua",
+			"userdatalength": 32
+		},
+		{
+			"key": "gamemodes/sandbox/gamemode/spawnmenu/creationmenu/content/contentsearch.lua",
+			"userdatalength": 32
+		},
+		{
+			"key": "gamemodes/sandbox/gamemode/spawnmenu/creationmenu/content/contenticon.lua",
+			"userdatalength": 32
+		},
+		{
+			"key": "gamemodes/sandbox/gamemode/spawnmenu/creationmenu/content/contentsidebar.lua",
+			"userdatalength": 32
+		},
+		{
+			"key": "gamemodes/sandbox/gamemode/spawnmenu/creationmenu/content/contentsidebartoolbox.lua",
+			"userdatalength": 32
+		},
+		{
+			"key": "gamemodes/sandbox/gamemode/spawnmenu/creationmenu/content/postprocessicon.lua",
+			"userdatalength": 32
+		},
+		{
+			"key": "gamemodes/sandbox/gamemode/spawnmenu/creationmenu/content/contenttypes/custom.lua",
+			"userdatalength": 32
+		},
+		{
+			"key": "gamemodes/sandbox/gamemode/spawnmenu/creationmenu/content/contenttypes/addonprops.lua",
+			"userdatalength": 32
+		},
+		{
+			"key": "gamemodes/sandbox/gamemode/spawnmenu/creationmenu/content/contenttypes/entities.lua",
+			"userdatalength": 32
+		},
+		{
+			"key": "gamemodes/sandbox/gamemode/spawnmenu/creationmenu/content/contenttypes/gameprops.lua",
+			"userdatalength": 32
+		},
+		{
+			"key": "gamemodes/sandbox/gamemode/spawnmenu/creationmenu/content/contenttypes/postprocess.lua",
+			"userdatalength": 32
+		},
+		{
+			"key": "gamemodes/sandbox/gamemode/spawnmenu/creationmenu/content/contenttypes/npcs.lua",
+			"userdatalength": 32
+		},
+		{
+			"key": "gamemodes/sandbox/gamemode/spawnmenu/creationmenu/content/contenttypes/weapons.lua",
+			"userdatalength": 32
+		},
+		{
+			"key": "gamemodes/sandbox/gamemode/spawnmenu/creationmenu/content/contenttypes/vehicles.lua",
+			"userdatalength": 32
+		},
+		{
+			"key": "gamemodes/sandbox/gamemode/spawnmenu/creationmenu/content/contenttypes/saves.lua",
+			"userdatalength": 32
+		},
+		{
+			"key": "gamemodes/sandbox/gamemode/spawnmenu/creationmenu/content/contenttypes/dupes.lua",
+			"userdatalength": 32
+		},
+		{
+			"key": "gamemodes/sandbox/entities/weapons/gmod_camera.lua",
+			"userdatalength": 32
+		},
+		{
+			"key": "gamemodes/sandbox/entities/weapons/gmod_tool/cl_init.lua",
+			"userdatalength": 32
+		},
+		{
+			"key": "gamemodes/sandbox/entities/weapons/gmod_tool/shared.lua",
+			"userdatalength": 32
+		},
+		{
+			"key": "gamemodes/sandbox/entities/weapons/gmod_tool/ghostentity.lua",
+			"userdatalength": 32
+		},
+		{
+			"key": "gamemodes/sandbox/entities/weapons/gmod_tool/object.lua",
+			"userdatalength": 32
+		},
+		{
+			"key": "gamemodes/sandbox/entities/weapons/gmod_tool/stool.lua",
+			"userdatalength": 32
+		},
+		{
+			"key": "gamemodes/sandbox/entities/weapons/gmod_tool/cl_viewscreen.lua",
+			"userdatalength": 32
+		},
+		{
+			"key": "gamemodes/sandbox/entities/weapons/gmod_tool/stool_cl.lua",
+			"userdatalength": 32
+		},
+		{
+			"key": "gamemodes/sandbox/entities/weapons/gmod_tool/stools/balloon.lua",
+			"userdatalength": 32
+		},
+		{
+			"key": "gamemodes/sandbox/entities/weapons/gmod_tool/stools/axis.lua",
+			"userdatalength": 32
+		},
+		{
+			"key": "gamemodes/sandbox/entities/weapons/gmod_tool/stools/ballsocket.lua",
+			"userdatalength": 32
+		},
+		{
+			"key": "gamemodes/sandbox/entities/weapons/gmod_tool/stools/camera.lua",
+			"userdatalength": 32
+		},
+		{
+			"key": "gamemodes/sandbox/entities/weapons/gmod_tool/stools/button.lua",
+			"userdatalength": 32
+		},
+		{
+			"key": "gamemodes/sandbox/entities/weapons/gmod_tool/stools/colour.lua",
+			"userdatalength": 32
+		},
+		{
+			"key": "gamemodes/sandbox/entities/weapons/gmod_tool/stools/creator.lua",
+			"userdatalength": 32
+		},
+		{
+			"key": "gamemodes/sandbox/entities/weapons/gmod_tool/stools/faceposer.lua",
+			"userdatalength": 32
+		},
+		{
+			"key": "gamemodes/sandbox/entities/weapons/gmod_tool/stools/finger.lua",
+			"userdatalength": 32
+		},
+		{
+			"key": "gamemodes/sandbox/entities/weapons/gmod_tool/stools/dynamite.lua",
+			"userdatalength": 32
+		},
+		{
+			"key": "gamemodes/sandbox/entities/weapons/gmod_tool/stools/hoverball.lua",
+			"userdatalength": 32
+		},
+		{
+			"key": "gamemodes/sandbox/entities/weapons/gmod_tool/stools/elastic.lua",
+			"userdatalength": 32
+		},
+		{
+			"key": "gamemodes/sandbox/entities/weapons/gmod_tool/stools/hydraulic.lua",
+			"userdatalength": 32
+		},
+		{
+			"key": "gamemodes/sandbox/entities/weapons/gmod_tool/stools/emitter.lua",
+			"userdatalength": 32
+		},
+		{
+			"key": "gamemodes/sandbox/entities/weapons/gmod_tool/stools/inflator.lua",
+			"userdatalength": 32
+		},
+		{
+			"key": "gamemodes/sandbox/entities/weapons/gmod_tool/stools/example.lua",
+			"userdatalength": 32
+		},
+		{
+			"key": "gamemodes/sandbox/entities/weapons/gmod_tool/stools/lamp.lua",
+			"userdatalength": 32
+		},
+		{
+			"key": "gamemodes/sandbox/entities/weapons/gmod_tool/stools/eyeposer.lua",
+			"userdatalength": 32
+		},
+		{
+			"key": "gamemodes/sandbox/entities/weapons/gmod_tool/stools/leafblower.lua",
+			"userdatalength": 32
+		},
+		{
+			"key": "gamemodes/sandbox/entities/weapons/gmod_tool/stools/muscle.lua",
+			"userdatalength": 32
+		},
+		{
+			"key": "gamemodes/sandbox/entities/weapons/gmod_tool/stools/light.lua",
+			"userdatalength": 32
+		},
+		{
+			"key": "gamemodes/sandbox/entities/weapons/gmod_tool/stools/nocollide.lua",
+			"userdatalength": 32
+		},
+		{
+			"key": "gamemodes/sandbox/entities/weapons/gmod_tool/stools/material.lua",
+			"userdatalength": 32
+		},
+		{
+			"key": "gamemodes/sandbox/entities/weapons/gmod_tool/stools/paint.lua",
+			"userdatalength": 32
+		},
+		{
+			"key": "gamemodes/sandbox/entities/weapons/gmod_tool/stools/motor.lua",
+			"userdatalength": 32
+		},
+		{
+			"key": "gamemodes/sandbox/entities/weapons/gmod_tool/stools/physprop.lua",
+			"userdatalength": 32
+		},
+		{
+			"key": "gamemodes/sandbox/entities/weapons/gmod_tool/stools/pulley.lua",
+			"userdatalength": 32
+		},
+		{
+			"key": "gamemodes/sandbox/entities/weapons/gmod_tool/stools/remover.lua",
+			"userdatalength": 32
+		},
+		{
+			"key": "gamemodes/sandbox/entities/weapons/gmod_tool/stools/rope.lua",
+			"userdatalength": 32
+		},
+		{
+			"key": "gamemodes/sandbox/entities/weapons/gmod_tool/stools/slider.lua",
+			"userdatalength": 32
+		},
+		{
+			"key": "gamemodes/sandbox/entities/weapons/gmod_tool/stools/trails.lua",
+			"userdatalength": 32
+		},
+		{
+			"key": "gamemodes/sandbox/entities/weapons/gmod_tool/stools/thruster.lua",
+			"userdatalength": 32
+		},
+		{
+			"key": "gamemodes/sandbox/entities/weapons/gmod_tool/stools/weld.lua",
+			"userdatalength": 32
+		},
+		{
+			"key": "gamemodes/sandbox/entities/weapons/gmod_tool/stools/wheel.lua",
+			"userdatalength": 32
+		},
+		{
+			"key": "gamemodes/sandbox/entities/weapons/gmod_tool/stools/winch.lua",
+			"userdatalength": 32
+		},
+		{
+			"key": "gamemodes/sandbox/entities/weapons/manhack_welder.lua",
+			"userdatalength": 32
+		},
+		{
+			"key": "gamemodes/sandbox/entities/entities/base_gmodentity.lua",
+			"userdatalength": 32
+		},
+		{
+			"key": "gamemodes/sandbox/entities/entities/gmod_balloon.lua",
+			"userdatalength": 32
+		},
+		{
+			"key": "gamemodes/sandbox/entities/entities/gmod_button.lua",
+			"userdatalength": 32
+		},
+		{
+			"key": "gamemodes/sandbox/entities/entities/gmod_cameraprop.lua",
+			"userdatalength": 32
+		},
+		{
+			"key": "gamemodes/sandbox/entities/entities/gmod_dynamite.lua",
+			"userdatalength": 32
+		},
+		{
+			"key": "gamemodes/sandbox/entities/entities/gmod_emitter.lua",
+			"userdatalength": 32
+		},
+		{
+			"key": "gamemodes/sandbox/entities/entities/gmod_hoverball.lua",
+			"userdatalength": 32
+		},
+		{
+			"key": "gamemodes/sandbox/entities/entities/gmod_lamp.lua",
+			"userdatalength": 32
+		},
+		{
+			"key": "gamemodes/sandbox/entities/entities/gmod_light.lua",
+			"userdatalength": 32
+		},
+		{
+			"key": "gamemodes/sandbox/entities/entities/gmod_thruster.lua",
+			"userdatalength": 32
+		},
+		{
+			"key": "gamemodes/sandbox/entities/entities/gmod_wheel.lua",
+			"userdatalength": 32
+		},
+		{
+			"key": "gamemodes/sandbox/entities/entities/gmod_ghost.lua",
+			"userdatalength": 32
+		},
+		{
+			"key": "gamemodes/sandbox/entities/effects/lasertracer.lua",
+			"userdatalength": 32
+		},
+		{
+			"key": "gamemodes/sandbox/entities/effects/balloon_pop.lua",
+			"userdatalength": 32
+		},
+		{
+			"key": "gamemodes/sandbox/entities/effects/entity_remove.lua",
+			"userdatalength": 32
+		},
+		{
+			"key": "gamemodes/sandbox/entities/effects/inflator_magic.lua",
+			"userdatalength": 32
+		},
+		{
+			"key": "gamemodes/sandbox/entities/effects/phys_freeze.lua",
+			"userdatalength": 32
+		},
+		{
+			"key": "gamemodes/sandbox/entities/effects/camera_flash.lua",
+			"userdatalength": 32
+		},
+		{
+			"key": "gamemodes/sandbox/entities/effects/phys_unfreeze.lua",
+			"userdatalength": 32
+		},
+		{
+			"key": "gamemodes/sandbox/entities/effects/propspawn.lua",
+			"userdatalength": 32
+		},
+		{
+			"key": "gamemodes/sandbox/entities/effects/selection_indicator.lua",
+			"userdatalength": 32
+		},
+		{
+			"key": "gamemodes/sandbox/entities/effects/selection_ring.lua",
+			"userdatalength": 32
+		},
+		{
+			"key": "gamemodes/sandbox/entities/effects/wheel_indicator.lua",
+			"userdatalength": 32
+		},
+		{
+			"key": "gamemodes/sandbox/gamemode/editor_player.lua",
+			"userdatalength": 32
+		},
+		{
+			"key": "gamemodes/sandbox/entities/weapons/gmod_tool/stools/duplicator.lua",
+			"userdatalength": 32
+		},
+		{
+			"key": "gamemodes/sandbox/entities/weapons/gmod_tool/stools/duplicator/arming.lua",
+			"userdatalength": 32
+		},
+		{
+			"key": "gamemodes/sandbox/entities/weapons/gmod_tool/stools/duplicator/transport.lua",
+			"userdatalength": 32
+		},
+		{
+			"key": "gamemodes/sandbox/entities/weapons/gmod_tool/stools/duplicator/icon.lua",
+			"userdatalength": 32
+		},
+		{
+			"key": "gamemodes/sandbox/entities/weapons/gmod_tool/stools/editentity.lua",
+			"userdatalength": 32
+		},
+		{
+			"key": "lua/weapons/weapon_fists.lua",
+			"userdatalength": 32
+		},
+		{
+			"key": "lua/weapons/weapon_flechettegun.lua",
+			"userdatalength": 32
+		},
+		{
+			"key": "lua/weapons/weapon_medkit.lua",
+			"userdatalength": 32
+		},
+		{
+			"key": "gamemodes/sandbox/entities/entities/base_edit.lua",
+			"userdatalength": 32
+		},
+		{
+			"key": "gamemodes/base/entities/entities/base_nextbot/shared.lua",
+			"userdatalength": 32
+		},
+		{
+			"key": "gamemodes/sandbox/entities/entities/edit_fog.lua",
+			"userdatalength": 32
+		},
+		{
+			"key": "gamemodes/sandbox/entities/entities/edit_sky.lua",
+			"userdatalength": 32
+		},
+		{
+			"key": "gamemodes/sandbox/entities/entities/edit_sun.lua",
+			"userdatalength": 32
+		},
+		{
+			"key": "gamemodes/base/entities/entities/env_skypaint.lua",
+			"userdatalength": 32
+		},
+		{
+			"key": "gamemodes/sandbox/entities/entities/gmod_anchor.lua",
+			"userdatalength": 32
+		},
+		{
+			"key": "gamemodes/base/entities/entities/gmod_hands.lua",
+			"userdatalength": 32
+		},
+		{
+			"key": "gamemodes/sandbox/entities/entities/nb_example.lua",
+			"userdatalength": 32
+		},
+		{
+			"key": "gamemodes/base/entities/entities/ragdoll_motion.lua",
+			"userdatalength": 32
+		},
+		{
+			"key": "gamemodes/base/entities/effects/tooltracer.lua",
+			"userdatalength": 32
+		}
+	]
+}

@@ -1,0 +1,438 @@
+{
+	"name": "DT_BaseEntity",
+	"props": [
+		{
+			"index": 0,
+			"name": "AnimTimeMustBeFirst",
+			"offset": 0,
+			"bits": 0,
+			"type": "DPT_DataTable",
+			"elements": 1,
+			"datatable": "DT_AnimTimeMustBeFirst"
+		},
+		{
+			"index": 1,
+			"name": "m_flSimulationTime",
+			"offset": 144,
+			"bits": 8,
+			"type": "DPT_Int",
+			"elements": 1
+		},
+		{
+			"index": 2,
+			"name": "m_vecOrigin",
+			"offset": 808,
+			"bits": 0,
+			"type": "DPT_Vector",
+			"elements": 1
+		},
+		{
+			"index": 3,
+			"name": "m_ubInterpolationFrame",
+			"offset": 152,
+			"bits": 2,
+			"type": "DPT_Int",
+			"elements": 1
+		},
+		{
+			"index": 4,
+			"name": "m_nModelIndex",
+			"offset": 122,
+			"bits": 14,
+			"type": "DPT_Int",
+			"elements": 1
+		},
+		{
+			"index": 5,
+			"name": "m_Collision",
+			"offset": 360,
+			"bits": 0,
+			"type": "DPT_DataTable",
+			"elements": 1,
+			"datatable": "DT_CollisionProperty"
+		},
+		{
+			"index": 6,
+			"name": "m_nRenderFX",
+			"offset": 120,
+			"bits": 8,
+			"type": "DPT_Int",
+			"elements": 1
+		},
+		{
+			"index": 7,
+			"name": "m_nRenderMode",
+			"offset": 121,
+			"bits": 8,
+			"type": "DPT_Int",
+			"elements": 1
+		},
+		{
+			"index": 8,
+			"name": "m_fEffects",
+			"offset": 216,
+			"bits": 16,
+			"type": "DPT_Int",
+			"elements": 1
+		},
+		{
+			"index": 9,
+			"name": "m_clrRender",
+			"offset": 124,
+			"bits": 32,
+			"type": "DPT_Int",
+			"elements": 1
+		},
+		{
+			"index": 10,
+			"name": "m_iTeamNum",
+			"offset": 528,
+			"bits": 15,
+			"type": "DPT_Int",
+			"elements": 1
+		},
+		{
+			"index": 11,
+			"name": "m_CollisionGroup",
+			"offset": 508,
+			"bits": 5,
+			"type": "DPT_Int",
+			"elements": 1
+		},
+		{
+			"index": 12,
+			"name": "m_flElasticity",
+			"offset": 652,
+			"bits": 0,
+			"type": "DPT_Float",
+			"elements": 1
+		},
+		{
+			"index": 13,
+			"name": "m_flShadowCastDistance",
+			"offset": 516,
+			"bits": 12,
+			"type": "DPT_Float",
+			"elements": 1
+		},
+		{
+			"index": 14,
+			"name": "m_hOwnerEntity",
+			"offset": 500,
+			"bits": 23,
+			"type": "DPT_Int",
+			"elements": 1
+		},
+		{
+			"index": 15,
+			"name": "m_hEffectEntity",
+			"offset": 504,
+			"bits": 23,
+			"type": "DPT_Int",
+			"elements": 1
+		},
+		{
+			"index": 16,
+			"name": "moveparent",
+			"offset": 348,
+			"bits": 23,
+			"type": "DPT_Int",
+			"elements": 1
+		},
+		{
+			"index": 17,
+			"name": "m_iParentAttachment",
+			"offset": 345,
+			"bits": 8,
+			"type": "DPT_Int",
+			"elements": 1
+		},
+		{
+			"index": 18,
+			"name": "movetype",
+			"offset": 346,
+			"bits": 4,
+			"type": "DPT_Int",
+			"elements": 1
+		},
+		{
+			"index": 19,
+			"name": "movecollide",
+			"offset": 347,
+			"bits": 3,
+			"type": "DPT_Int",
+			"elements": 1
+		},
+		{
+			"index": 20,
+			"name": "m_angRotation",
+			"offset": 820,
+			"bits": 24,
+			"type": "DPT_Vector",
+			"elements": 1
+		},
+		{
+			"index": 21,
+			"name": "m_iTextureFrameIndex",
+			"offset": 696,
+			"bits": 8,
+			"type": "DPT_Int",
+			"elements": 1
+		},
+		{
+			"index": 22,
+			"name": "predictable_id",
+			"offset": 0,
+			"bits": 0,
+			"type": "DPT_DataTable",
+			"elements": 1,
+			"datatable": "DT_PredictableId"
+		},
+		{
+			"index": 23,
+			"name": "m_bSimulatedEveryTick",
+			"offset": 697,
+			"bits": 1,
+			"type": "DPT_Int",
+			"elements": 1
+		},
+		{
+			"index": 24,
+			"name": "m_bAnimatedEveryTick",
+			"offset": 698,
+			"bits": 1,
+			"type": "DPT_Int",
+			"elements": 1
+		},
+		{
+			"index": 25,
+			"name": "m_bAlternateSorting",
+			"offset": 699,
+			"bits": 1,
+			"type": "DPT_Int",
+			"elements": 1
+		},
+		{
+			"index": 26,
+			"name": "m_takedamage",
+			"offset": 261,
+			"bits": 8,
+			"type": "DPT_Int",
+			"elements": 1
+		},
+		{
+			"index": 27,
+			"name": "m_RealClassName",
+			"offset": 1376,
+			"bits": 16,
+			"type": "DPT_Int",
+			"elements": 1
+		},
+		{
+			"index": 28,
+			"name": "m_OverrideMaterial",
+			"offset": 1372,
+			"bits": 16,
+			"type": "DPT_Int",
+			"elements": 1
+		},
+		{
+			"index": 29,
+			"name": "m_OverrideSubMaterials",
+			"offset": 1520,
+			"bits": 16,
+			"type": "DPT_Int",
+			"elements": 1
+		},
+		{
+			"index": 30,
+			"name": "m_OverrideSubMaterials",
+			"offset": 0,
+			"bits": 0,
+			"type": "DPT_Array",
+			"elements": 32
+		},
+		{
+			"index": 31,
+			"name": "m_iHealth",
+			"offset": 256,
+			"bits": 32,
+			"type": "DPT_Int",
+			"elements": 1
+		},
+		{
+			"index": 32,
+			"name": "m_iMaxHealth",
+			"offset": 252,
+			"bits": 32,
+			"type": "DPT_Int",
+			"elements": 1
+		},
+		{
+			"index": 33,
+			"name": "m_spawnflags",
+			"offset": 284,
+			"bits": 32,
+			"type": "DPT_Int",
+			"elements": 1
+		},
+		{
+			"index": 34,
+			"name": "m_iGModFlags",
+			"offset": 4972,
+			"bits": 7,
+			"type": "DPT_Int",
+			"elements": 1
+		},
+		{
+			"index": 35,
+			"name": "m_bOnFire",
+			"offset": 1380,
+			"bits": 1,
+			"type": "DPT_Int",
+			"elements": 1
+		},
+		{
+			"index": 36,
+			"name": "m_CreationTime",
+			"offset": 1384,
+			"bits": 0,
+			"type": "DPT_Float",
+			"elements": 1
+		},
+		{
+			"index": 37,
+			"name": "m_vecVelocity[0]",
+			"offset": 684,
+			"bits": 0,
+			"type": "DPT_Float",
+			"elements": 1
+		},
+		{
+			"index": 38,
+			"name": "m_vecVelocity[1]",
+			"offset": 688,
+			"bits": 0,
+			"type": "DPT_Float",
+			"elements": 1
+		},
+		{
+			"index": 39,
+			"name": "m_vecVelocity[2]",
+			"offset": 692,
+			"bits": 0,
+			"type": "DPT_Float",
+			"elements": 1
+		},
+		{
+			"index": 40,
+			"name": "m_GMOD_DataTable",
+			"offset": 4928,
+			"bits": 0,
+			"type": "DPT_GMODTable",
+			"elements": 1
+		},
+		{
+			"index": 41,
+			"name": "m_GMOD_bool",
+			"offset": 1696,
+			"bits": 0,
+			"type": "DPT_DataTable",
+			"elements": 1,
+			"datatable": "m_GMOD_bool"
+		},
+		{
+			"index": 42,
+			"name": "m_GMOD_float",
+			"offset": 1728,
+			"bits": 0,
+			"type": "DPT_DataTable",
+			"elements": 1,
+			"datatable": "m_GMOD_float"
+		},
+		{
+			"index": 43,
+			"name": "m_GMOD_int",
+			"offset": 1856,
+			"bits": 0,
+			"type": "DPT_DataTable",
+			"elements": 1,
+			"datatable": "m_GMOD_int"
+		},
+		{
+			"index": 44,
+			"name": "m_GMOD_Vector",
+			"offset": 1984,
+			"bits": 0,
+			"type": "DPT_DataTable",
+			"elements": 1,
+			"datatable": "m_GMOD_Vector"
+		},
+		{
+			"index": 45,
+			"name": "m_GMOD_QAngle",
+			"offset": 2368,
+			"bits": 0,
+			"type": "DPT_DataTable",
+			"elements": 1,
+			"datatable": "m_GMOD_QAngle"
+		},
+		{
+			"index": 46,
+			"name": "m_GMOD_EHANDLE",
+			"offset": 2752,
+			"bits": 0,
+			"type": "DPT_DataTable",
+			"elements": 1,
+			"datatable": "m_GMOD_EHANDLE"
+		},
+		{
+			"index": 47,
+			"name": "m_GMOD_String0",
+			"offset": 2880,
+			"bits": 0,
+			"type": "DPT_String",
+			"elements": 1
+		},
+		{
+			"index": 48,
+			"name": "m_GMOD_String1",
+			"offset": 3392,
+			"bits": 0,
+			"type": "DPT_String",
+			"elements": 1
+		},
+		{
+			"index": 49,
+			"name": "m_GMOD_String2",
+			"offset": 3904,
+			"bits": 0,
+			"type": "DPT_String",
+			"elements": 1
+		},
+		{
+			"index": 50,
+			"name": "m_GMOD_String3",
+			"offset": 4416,
+			"bits": 0,
+			"type": "DPT_String",
+			"elements": 1
+		},
+		{
+			"index": 51,
+			"name": "m_iCreationID",
+			"offset": 4932,
+			"bits": 24,
+			"type": "DPT_Int",
+			"elements": 1
+		},
+		{
+			"index": 52,
+			"name": "m_iMapCreatedID",
+			"offset": 4936,
+			"bits": 16,
+			"type": "DPT_Int",
+			"elements": 1
+		}
+	]
+}

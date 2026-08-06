@@ -1,0 +1,70 @@
+{
+	"name": "DT_NPC_Strider",
+	"props": [
+		{
+			"index": 0,
+			"name": "baseclass",
+			"offset": 0,
+			"bits": 0,
+			"type": "DPT_DataTable",
+			"elements": 1,
+			"datatable": "DT_AI_BaseNPC"
+		},
+		{
+			"index": 1,
+			"name": "m_vecHitPos",
+			"offset": 9748,
+			"bits": 0,
+			"type": "DPT_Vector",
+			"elements": 1
+		},
+		{
+			"index": 2,
+			"name": "m_vecIKTarget[0]",
+			"offset": 9760,
+			"bits": 0,
+			"type": "DPT_Vector",
+			"elements": 1
+		},
+		{
+			"index": 3,
+			"name": "m_vecIKTarget[1]",
+			"offset": 9772,
+			"bits": 0,
+			"type": "DPT_Vector",
+			"elements": 1
+		},
+		{
+			"index": 4,
+			"name": "m_vecIKTarget[2]",
+			"offset": 9784,
+			"bits": 0,
+			"type": "DPT_Vector",
+			"elements": 1
+		},
+		{
+			"index": 5,
+			"name": "m_vecIKTarget[3]",
+			"offset": 9796,
+			"bits": 0,
+			"type": "DPT_Vector",
+			"elements": 1
+		},
+		{
+			"index": 6,
+			"name": "m_vecIKTarget[4]",
+			"offset": 9808,
+			"bits": 0,
+			"type": "DPT_Vector",
+			"elements": 1
+		},
+		{
+			"index": 7,
+			"name": "m_vecIKTarget[5]",
+			"offset": 9820,
+			"bits": 0,
+			"type": "DPT_Vector",
+			"elements": 1
+		}
+	]
+}

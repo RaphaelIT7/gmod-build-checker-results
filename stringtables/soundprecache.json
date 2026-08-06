@@ -1,0 +1,21 @@
+{
+	"name": "soundprecache",
+	"id": 3,
+	"entrybits": 14,
+	"maxstrings": 16384,
+	"numstrings": 3,
+	"strings": [
+		{
+			"key": "",
+			"userdatalength": 1
+		},
+		{
+			"key": "common/null.wav",
+			"userdatalength": 1
+		},
+		{
+			"key": "weapons/rpg/rocket1.wav",
+			"userdatalength": 1
+		}
+	]
+}

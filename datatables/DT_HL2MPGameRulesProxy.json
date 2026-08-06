@@ -1,0 +1,23 @@
+{
+	"name": "DT_HL2MPGameRulesProxy",
+	"props": [
+		{
+			"index": 0,
+			"name": "baseclass",
+			"offset": 0,
+			"bits": 0,
+			"type": "DPT_DataTable",
+			"elements": 1,
+			"datatable": "DT_GameRulesProxy"
+		},
+		{
+			"index": 1,
+			"name": "hl2mp_gamerules_data",
+			"offset": 0,
+			"bits": 0,
+			"type": "DPT_DataTable",
+			"elements": 1,
+			"datatable": "DT_HL2MPRules"
+		}
+	]
+}

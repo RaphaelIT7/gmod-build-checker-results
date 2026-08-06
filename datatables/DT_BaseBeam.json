@@ -1,0 +1,125 @@
+{
+	"name": "DT_BaseBeam",
+	"props": [
+		{
+			"index": 0,
+			"name": "m_nModelIndex",
+			"offset": 12,
+			"bits": 14,
+			"type": "DPT_Int",
+			"elements": 1
+		},
+		{
+			"index": 1,
+			"name": "m_nHaloIndex",
+			"offset": 16,
+			"bits": 14,
+			"type": "DPT_Int",
+			"elements": 1
+		},
+		{
+			"index": 2,
+			"name": "m_nStartFrame",
+			"offset": 20,
+			"bits": 8,
+			"type": "DPT_Int",
+			"elements": 1
+		},
+		{
+			"index": 3,
+			"name": "m_nFrameRate",
+			"offset": 24,
+			"bits": 8,
+			"type": "DPT_Int",
+			"elements": 1
+		},
+		{
+			"index": 4,
+			"name": "m_fLife",
+			"offset": 28,
+			"bits": 8,
+			"type": "DPT_Float",
+			"elements": 1
+		},
+		{
+			"index": 5,
+			"name": "m_fWidth",
+			"offset": 32,
+			"bits": 10,
+			"type": "DPT_Float",
+			"elements": 1
+		},
+		{
+			"index": 6,
+			"name": "m_fEndWidth",
+			"offset": 36,
+			"bits": 10,
+			"type": "DPT_Float",
+			"elements": 1
+		},
+		{
+			"index": 7,
+			"name": "m_nFadeLength",
+			"offset": 40,
+			"bits": 8,
+			"type": "DPT_Int",
+			"elements": 1
+		},
+		{
+			"index": 8,
+			"name": "m_fAmplitude",
+			"offset": 44,
+			"bits": 8,
+			"type": "DPT_Float",
+			"elements": 1
+		},
+		{
+			"index": 9,
+			"name": "m_nSpeed",
+			"offset": 64,
+			"bits": 8,
+			"type": "DPT_Int",
+			"elements": 1
+		},
+		{
+			"index": 10,
+			"name": "r",
+			"offset": 48,
+			"bits": 8,
+			"type": "DPT_Int",
+			"elements": 1
+		},
+		{
+			"index": 11,
+			"name": "g",
+			"offset": 52,
+			"bits": 8,
+			"type": "DPT_Int",
+			"elements": 1
+		},
+		{
+			"index": 12,
+			"name": "b",
+			"offset": 56,
+			"bits": 8,
+			"type": "DPT_Int",
+			"elements": 1
+		},
+		{
+			"index": 13,
+			"name": "a",
+			"offset": 60,
+			"bits": 8,
+			"type": "DPT_Int",
+			"elements": 1
+		},
+		{
+			"index": 14,
+			"name": "m_nFlags",
+			"offset": 68,
+			"bits": 20,
+			"type": "DPT_Int",
+			"elements": 1
+		}
+	]
+}

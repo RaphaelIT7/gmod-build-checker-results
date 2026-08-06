@@ -1,0 +1,30 @@
+{
+	"name": "DT_WeaponHgun",
+	"props": [
+		{
+			"index": 0,
+			"name": "baseclass",
+			"offset": 0,
+			"bits": 0,
+			"type": "DPT_DataTable",
+			"elements": 1,
+			"datatable": "DT_BaseHL1MPCombatWeapon"
+		},
+		{
+			"index": 1,
+			"name": "m_flRechargeTime",
+			"offset": 5728,
+			"bits": 0,
+			"type": "DPT_Float",
+			"elements": 1
+		},
+		{
+			"index": 2,
+			"name": "m_iFirePhase",
+			"offset": 5732,
+			"bits": 4,
+			"type": "DPT_Int",
+			"elements": 1
+		}
+	]
+}

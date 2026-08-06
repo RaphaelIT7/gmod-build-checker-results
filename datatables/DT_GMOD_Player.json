@@ -1,0 +1,182 @@
+{
+	"name": "DT_GMOD_Player",
+	"props": [
+		{
+			"index": 0,
+			"name": "baseclass",
+			"offset": 0,
+			"bits": 0,
+			"type": "DPT_DataTable",
+			"elements": 1,
+			"datatable": "DT_HL2MP_Player"
+		},
+		{
+			"index": 1,
+			"name": "m_iGModPlayerFlags",
+			"offset": 11868,
+			"bits": 5,
+			"type": "DPT_Int",
+			"elements": 1
+		},
+		{
+			"index": 2,
+			"name": "m_HoveredWidget",
+			"offset": 11872,
+			"bits": 23,
+			"type": "DPT_Int",
+			"elements": 1
+		},
+		{
+			"index": 3,
+			"name": "m_PressedWidget",
+			"offset": 11876,
+			"bits": 23,
+			"type": "DPT_Int",
+			"elements": 1
+		},
+		{
+			"index": 4,
+			"name": "m_Driving",
+			"offset": 11880,
+			"bits": 23,
+			"type": "DPT_Int",
+			"elements": 1
+		},
+		{
+			"index": 5,
+			"name": "m_DrivingMode",
+			"offset": 11884,
+			"bits": 15,
+			"type": "DPT_Int",
+			"elements": 1
+		},
+		{
+			"index": 6,
+			"name": "m_PlayerClass",
+			"offset": 11892,
+			"bits": 15,
+			"type": "DPT_Int",
+			"elements": 1
+		},
+		{
+			"index": 7,
+			"name": "m_bCanZoom",
+			"offset": 11924,
+			"bits": 1,
+			"type": "DPT_Int",
+			"elements": 1
+		},
+		{
+			"index": 8,
+			"name": "m_bCanWalk",
+			"offset": 11925,
+			"bits": 1,
+			"type": "DPT_Int",
+			"elements": 1
+		},
+		{
+			"index": 9,
+			"name": "m_bIsTyping",
+			"offset": 11926,
+			"bits": 1,
+			"type": "DPT_Int",
+			"elements": 1
+		},
+		{
+			"index": 10,
+			"name": "m_StepSize",
+			"offset": 11928,
+			"bits": 0,
+			"type": "DPT_Float",
+			"elements": 1
+		},
+		{
+			"index": 11,
+			"name": "m_JumpPower",
+			"offset": 11932,
+			"bits": 0,
+			"type": "DPT_Float",
+			"elements": 1
+		},
+		{
+			"index": 12,
+			"name": "m_ViewOffset",
+			"offset": 11936,
+			"bits": 0,
+			"type": "DPT_Vector",
+			"elements": 1
+		},
+		{
+			"index": 13,
+			"name": "m_ViewOffsetDucked",
+			"offset": 11948,
+			"bits": 0,
+			"type": "DPT_Vector",
+			"elements": 1
+		},
+		{
+			"index": 14,
+			"name": "m_fGestureEndTime",
+			"offset": 11960,
+			"bits": 0,
+			"type": "DPT_Float",
+			"elements": 1
+		},
+		{
+			"index": 15,
+			"name": "m_PlayerColor",
+			"offset": 11900,
+			"bits": 0,
+			"type": "DPT_Vector",
+			"elements": 1
+		},
+		{
+			"index": 16,
+			"name": "m_WeaponColor",
+			"offset": 11912,
+			"bits": 0,
+			"type": "DPT_Vector",
+			"elements": 1
+		},
+		{
+			"index": 17,
+			"name": "m_Hands",
+			"offset": 11888,
+			"bits": 23,
+			"type": "DPT_Int",
+			"elements": 1
+		},
+		{
+			"index": 18,
+			"name": "m_nWaterLevel",
+			"offset": 535,
+			"bits": 2,
+			"type": "DPT_Int",
+			"elements": 1
+		},
+		{
+			"index": 19,
+			"name": "m_iMaxArmor",
+			"offset": 11896,
+			"bits": 32,
+			"type": "DPT_Int",
+			"elements": 1
+		},
+		{
+			"index": 20,
+			"name": "m_flGravity",
+			"offset": 644,
+			"bits": 0,
+			"type": "DPT_Float",
+			"elements": 1
+		},
+		{
+			"index": 21,
+			"name": "m_bSprintEnabled",
+			"offset": 11008,
+			"bits": 1,
+			"type": "DPT_Int",
+			"elements": 1
+		}
+	]
+}

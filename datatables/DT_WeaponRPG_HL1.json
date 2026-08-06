@@ -1,0 +1,38 @@
+{
+	"name": "DT_WeaponRPG_HL1",
+	"props": [
+		{
+			"index": 0,
+			"name": "baseclass",
+			"offset": 0,
+			"bits": 0,
+			"type": "DPT_DataTable",
+			"elements": 1,
+			"datatable": "DT_BaseHL1MPCombatWeapon"
+		},
+		{
+			"index": 1,
+			"name": "m_bIntialStateUpdate",
+			"offset": 5726,
+			"bits": 1,
+			"type": "DPT_Int",
+			"elements": 1
+		},
+		{
+			"index": 2,
+			"name": "m_bGuiding",
+			"offset": 5725,
+			"bits": 1,
+			"type": "DPT_Int",
+			"elements": 1
+		},
+		{
+			"index": 3,
+			"name": "m_bLaserDotSuspended",
+			"offset": 5727,
+			"bits": 1,
+			"type": "DPT_Int",
+			"elements": 1
+		}
+	]
+}

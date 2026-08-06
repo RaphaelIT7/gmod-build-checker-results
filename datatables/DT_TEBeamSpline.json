@@ -1,0 +1,29 @@
+{
+	"name": "DT_TEBeamSpline",
+	"props": [
+		{
+			"index": 0,
+			"name": "m_nPoints",
+			"offset": 204,
+			"bits": 5,
+			"type": "DPT_Int",
+			"elements": 1
+		},
+		{
+			"index": 1,
+			"name": "m_vecPoints",
+			"offset": 12,
+			"bits": 0,
+			"type": "DPT_Vector",
+			"elements": 1
+		},
+		{
+			"index": 2,
+			"name": "m_vecPoints",
+			"offset": 0,
+			"bits": 0,
+			"type": "DPT_Array",
+			"elements": 16
+		}
+	]
+}

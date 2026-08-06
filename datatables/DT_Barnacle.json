@@ -1,0 +1,46 @@
+{
+	"name": "DT_Barnacle",
+	"props": [
+		{
+			"index": 0,
+			"name": "baseclass",
+			"offset": 0,
+			"bits": 0,
+			"type": "DPT_DataTable",
+			"elements": 1,
+			"datatable": "DT_AI_BaseNPC"
+		},
+		{
+			"index": 1,
+			"name": "m_flAltitude",
+			"offset": 9716,
+			"bits": 0,
+			"type": "DPT_Float",
+			"elements": 1
+		},
+		{
+			"index": 2,
+			"name": "m_vecRoot",
+			"offset": 9744,
+			"bits": 0,
+			"type": "DPT_Vector",
+			"elements": 1
+		},
+		{
+			"index": 3,
+			"name": "m_vecTip",
+			"offset": 9756,
+			"bits": 0,
+			"type": "DPT_Vector",
+			"elements": 1
+		},
+		{
+			"index": 4,
+			"name": "m_vecTipDrawOffset",
+			"offset": 9768,
+			"bits": 0,
+			"type": "DPT_Vector",
+			"elements": 1
+		}
+	]
+}

@@ -1,0 +1,8 @@
+[
+    "<EXTERNAL>",
+    "libdl.so.2",
+    "librt.so.1",
+    "ld-linux.so.2",
+    "libpthread.so.0",
+    "libc.so.6"
+]

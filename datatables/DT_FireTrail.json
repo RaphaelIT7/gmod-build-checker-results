@@ -1,0 +1,30 @@
+{
+	"name": "DT_FireTrail",
+	"props": [
+		{
+			"index": 0,
+			"name": "baseclass",
+			"offset": 0,
+			"bits": 0,
+			"type": "DPT_DataTable",
+			"elements": 1,
+			"datatable": "DT_BaseParticleEntity"
+		},
+		{
+			"index": 1,
+			"name": "m_nAttachment",
+			"offset": 5040,
+			"bits": 32,
+			"type": "DPT_Int",
+			"elements": 1
+		},
+		{
+			"index": 2,
+			"name": "m_flLifetime",
+			"offset": 5044,
+			"bits": 0,
+			"type": "DPT_Float",
+			"elements": 1
+		}
+	]
+}

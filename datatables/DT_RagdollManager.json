@@ -1,0 +1,13 @@
+{
+	"name": "DT_RagdollManager",
+	"props": [
+		{
+			"index": 0,
+			"name": "m_iCurrentMaxRagdollCount",
+			"offset": 5040,
+			"bits": 6,
+			"type": "DPT_Int",
+			"elements": 1
+		}
+	]
+}

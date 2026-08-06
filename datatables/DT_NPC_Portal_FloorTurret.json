@@ -1,0 +1,38 @@
+{
+	"name": "DT_NPC_Portal_FloorTurret",
+	"props": [
+		{
+			"index": 0,
+			"name": "baseclass",
+			"offset": 0,
+			"bits": 0,
+			"type": "DPT_DataTable",
+			"elements": 1,
+			"datatable": "DT_AI_BaseNPC"
+		},
+		{
+			"index": 1,
+			"name": "m_bOutOfAmmo",
+			"offset": 10036,
+			"bits": 1,
+			"type": "DPT_Int",
+			"elements": 1
+		},
+		{
+			"index": 2,
+			"name": "m_bLaserOn",
+			"offset": 10037,
+			"bits": 1,
+			"type": "DPT_Int",
+			"elements": 1
+		},
+		{
+			"index": 3,
+			"name": "m_sLaserHaloSprite",
+			"offset": 10040,
+			"bits": 16,
+			"type": "DPT_Int",
+			"elements": 1
+		}
+	]
+}

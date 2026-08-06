@@ -1,0 +1,94 @@
+{
+	"name": "DT_FuncSmokeVolume",
+	"props": [
+		{
+			"index": 0,
+			"name": "baseclass",
+			"offset": 0,
+			"bits": 0,
+			"type": "DPT_DataTable",
+			"elements": 1,
+			"datatable": "DT_BaseParticleEntity"
+		},
+		{
+			"index": 1,
+			"name": "m_Color1",
+			"offset": 5040,
+			"bits": 32,
+			"type": "DPT_Int",
+			"elements": 1
+		},
+		{
+			"index": 2,
+			"name": "m_Color2",
+			"offset": 5044,
+			"bits": 32,
+			"type": "DPT_Int",
+			"elements": 1
+		},
+		{
+			"index": 3,
+			"name": "m_MaterialName",
+			"offset": 5048,
+			"bits": 0,
+			"type": "DPT_String",
+			"elements": 1
+		},
+		{
+			"index": 4,
+			"name": "m_ParticleDrawWidth",
+			"offset": 5308,
+			"bits": 0,
+			"type": "DPT_Float",
+			"elements": 1
+		},
+		{
+			"index": 5,
+			"name": "m_ParticleSpacingDistance",
+			"offset": 5312,
+			"bits": 0,
+			"type": "DPT_Float",
+			"elements": 1
+		},
+		{
+			"index": 6,
+			"name": "m_DensityRampSpeed",
+			"offset": 5316,
+			"bits": 0,
+			"type": "DPT_Float",
+			"elements": 1
+		},
+		{
+			"index": 7,
+			"name": "m_RotationSpeed",
+			"offset": 5320,
+			"bits": 0,
+			"type": "DPT_Float",
+			"elements": 1
+		},
+		{
+			"index": 8,
+			"name": "m_MovementSpeed",
+			"offset": 5324,
+			"bits": 0,
+			"type": "DPT_Float",
+			"elements": 1
+		},
+		{
+			"index": 9,
+			"name": "m_Density",
+			"offset": 5328,
+			"bits": 0,
+			"type": "DPT_Float",
+			"elements": 1
+		},
+		{
+			"index": 10,
+			"name": "m_spawnflags",
+			"offset": 284,
+			"bits": 8,
+			"type": "DPT_Int",
+			"elements": 1
+		}
+	]
+}

@@ -1,0 +1,126 @@
+{
+	"name": "DT_EnvProjectedTexture",
+	"props": [
+		{
+			"index": 0,
+			"name": "baseclass",
+			"offset": 0,
+			"bits": 0,
+			"type": "DPT_DataTable",
+			"elements": 1,
+			"datatable": "DT_BaseEntity"
+		},
+		{
+			"index": 1,
+			"name": "m_hTargetEntity",
+			"offset": 5040,
+			"bits": 23,
+			"type": "DPT_Int",
+			"elements": 1
+		},
+		{
+			"index": 2,
+			"name": "m_bState",
+			"offset": 5044,
+			"bits": 1,
+			"type": "DPT_Int",
+			"elements": 1
+		},
+		{
+			"index": 3,
+			"name": "m_flLightFOV",
+			"offset": 5048,
+			"bits": 0,
+			"type": "DPT_Float",
+			"elements": 1
+		},
+		{
+			"index": 4,
+			"name": "m_bEnableShadows",
+			"offset": 5052,
+			"bits": 1,
+			"type": "DPT_Int",
+			"elements": 1
+		},
+		{
+			"index": 5,
+			"name": "m_bLightOnlyTarget",
+			"offset": 5053,
+			"bits": 1,
+			"type": "DPT_Int",
+			"elements": 1
+		},
+		{
+			"index": 6,
+			"name": "m_bLightWorld",
+			"offset": 5054,
+			"bits": 1,
+			"type": "DPT_Int",
+			"elements": 1
+		},
+		{
+			"index": 7,
+			"name": "m_bCameraSpace",
+			"offset": 5055,
+			"bits": 1,
+			"type": "DPT_Int",
+			"elements": 1
+		},
+		{
+			"index": 8,
+			"name": "m_LinearFloatLightColor",
+			"offset": 5056,
+			"bits": 0,
+			"type": "DPT_Vector",
+			"elements": 1
+		},
+		{
+			"index": 9,
+			"name": "m_SpotlightTextureName",
+			"offset": 5068,
+			"bits": 0,
+			"type": "DPT_String",
+			"elements": 1
+		},
+		{
+			"index": 10,
+			"name": "m_nSpotlightTextureFrame",
+			"offset": 5328,
+			"bits": 14,
+			"type": "DPT_Int",
+			"elements": 1
+		},
+		{
+			"index": 11,
+			"name": "m_flNearZ",
+			"offset": 5332,
+			"bits": 16,
+			"type": "DPT_Float",
+			"elements": 1
+		},
+		{
+			"index": 12,
+			"name": "m_flFarZ",
+			"offset": 5336,
+			"bits": 18,
+			"type": "DPT_Float",
+			"elements": 1
+		},
+		{
+			"index": 13,
+			"name": "m_nShadowQuality",
+			"offset": 5340,
+			"bits": 1,
+			"type": "DPT_Int",
+			"elements": 1
+		},
+		{
+			"index": 14,
+			"name": "m_iStyle",
+			"offset": 5344,
+			"bits": 8,
+			"type": "DPT_Int",
+			"elements": 1
+		}
+	]
+}

@@ -1,0 +1,14 @@
+{
+	"name": "DT_EnvWind",
+	"props": [
+		{
+			"index": 0,
+			"name": "m_EnvWindShared",
+			"offset": 5040,
+			"bits": 0,
+			"type": "DPT_DataTable",
+			"elements": 1,
+			"datatable": "DT_EnvWindShared"
+		}
+	]
+}

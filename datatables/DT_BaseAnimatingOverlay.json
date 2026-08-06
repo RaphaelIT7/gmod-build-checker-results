@@ -1,0 +1,23 @@
+{
+	"name": "DT_BaseAnimatingOverlay",
+	"props": [
+		{
+			"index": 0,
+			"name": "baseclass",
+			"offset": 0,
+			"bits": 0,
+			"type": "DPT_DataTable",
+			"elements": 1,
+			"datatable": "DT_BaseAnimating"
+		},
+		{
+			"index": 1,
+			"name": "overlay_vars",
+			"offset": 0,
+			"bits": 0,
+			"type": "DPT_DataTable",
+			"elements": 1,
+			"datatable": "DT_OverlayVars"
+		}
+	]
+}

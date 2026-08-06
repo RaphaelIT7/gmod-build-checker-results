@@ -1,0 +1,14 @@
+{
+	"name": "DT_WeaponAR2",
+	"props": [
+		{
+			"index": 0,
+			"name": "baseclass",
+			"offset": 0,
+			"bits": 0,
+			"type": "DPT_DataTable",
+			"elements": 1,
+			"datatable": "DT_HL2MPMachineGun"
+		}
+	]
+}

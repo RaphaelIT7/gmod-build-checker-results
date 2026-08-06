@@ -1,0 +1,22 @@
+{
+	"name": "DT_EnvParticleScript",
+	"props": [
+		{
+			"index": 0,
+			"name": "baseclass",
+			"offset": 0,
+			"bits": 0,
+			"type": "DPT_DataTable",
+			"elements": 1,
+			"datatable": "DT_BaseAnimating"
+		},
+		{
+			"index": 1,
+			"name": "m_flSequenceScale",
+			"offset": 5488,
+			"bits": 0,
+			"type": "DPT_Float",
+			"elements": 1
+		}
+	]
+}

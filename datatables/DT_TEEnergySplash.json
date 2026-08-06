@@ -1,0 +1,29 @@
+{
+	"name": "DT_TEEnergySplash",
+	"props": [
+		{
+			"index": 0,
+			"name": "m_vecPos",
+			"offset": 12,
+			"bits": 0,
+			"type": "DPT_Vector",
+			"elements": 1
+		},
+		{
+			"index": 1,
+			"name": "m_vecDir",
+			"offset": 24,
+			"bits": 0,
+			"type": "DPT_Vector",
+			"elements": 1
+		},
+		{
+			"index": 2,
+			"name": "m_bExplosive",
+			"offset": 36,
+			"bits": 1,
+			"type": "DPT_Int",
+			"elements": 1
+		}
+	]
+}

@@ -1,0 +1,29 @@
+{
+	"name": "DT_TEPlayerAnimEvent",
+	"props": [
+		{
+			"index": 0,
+			"name": "m_hPlayer",
+			"offset": 12,
+			"bits": 23,
+			"type": "DPT_Int",
+			"elements": 1
+		},
+		{
+			"index": 1,
+			"name": "m_iEvent",
+			"offset": 16,
+			"bits": 6,
+			"type": "DPT_Int",
+			"elements": 1
+		},
+		{
+			"index": 2,
+			"name": "m_nData",
+			"offset": 20,
+			"bits": 32,
+			"type": "DPT_Int",
+			"elements": 1
+		}
+	]
+}

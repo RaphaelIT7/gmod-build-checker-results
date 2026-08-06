@@ -1,0 +1,54 @@
+{
+	"name": "DT_PropCrane",
+	"props": [
+		{
+			"index": 0,
+			"name": "baseclass",
+			"offset": 0,
+			"bits": 0,
+			"type": "DPT_DataTable",
+			"elements": 1,
+			"datatable": "DT_BaseAnimating"
+		},
+		{
+			"index": 1,
+			"name": "m_hPlayer",
+			"offset": 5928,
+			"bits": 23,
+			"type": "DPT_Int",
+			"elements": 1
+		},
+		{
+			"index": 2,
+			"name": "m_bMagnetOn",
+			"offset": 5932,
+			"bits": 1,
+			"type": "DPT_Int",
+			"elements": 1
+		},
+		{
+			"index": 3,
+			"name": "m_bEnterAnimOn",
+			"offset": 5945,
+			"bits": 1,
+			"type": "DPT_Int",
+			"elements": 1
+		},
+		{
+			"index": 4,
+			"name": "m_bExitAnimOn",
+			"offset": 5946,
+			"bits": 1,
+			"type": "DPT_Int",
+			"elements": 1
+		},
+		{
+			"index": 5,
+			"name": "m_vecEyeExitEndpoint",
+			"offset": 5948,
+			"bits": 0,
+			"type": "DPT_Vector",
+			"elements": 1
+		}
+	]
+}

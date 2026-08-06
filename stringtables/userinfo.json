@@ -1,0 +1,449 @@
+{
+	"name": "userinfo",
+	"id": 7,
+	"entrybits": 8,
+	"maxstrings": 256,
+	"numstrings": 110,
+	"strings": [
+		{
+			"key": "0",
+			"userdatalength": 0
+		},
+		{
+			"key": "1",
+			"userdatalength": 0
+		},
+		{
+			"key": "2",
+			"userdatalength": 0
+		},
+		{
+			"key": "3",
+			"userdatalength": 0
+		},
+		{
+			"key": "4",
+			"userdatalength": 0
+		},
+		{
+			"key": "5",
+			"userdatalength": 0
+		},
+		{
+			"key": "6",
+			"userdatalength": 0
+		},
+		{
+			"key": "7",
+			"userdatalength": 0
+		},
+		{
+			"key": "8",
+			"userdatalength": 0
+		},
+		{
+			"key": "9",
+			"userdatalength": 0
+		},
+		{
+			"key": "10",
+			"userdatalength": 0
+		},
+		{
+			"key": "11",
+			"userdatalength": 0
+		},
+		{
+			"key": "12",
+			"userdatalength": 0
+		},
+		{
+			"key": "13",
+			"userdatalength": 0
+		},
+		{
+			"key": "14",
+			"userdatalength": 0
+		},
+		{
+			"key": "15",
+			"userdatalength": 0
+		},
+		{
+			"key": "16",
+			"userdatalength": 0
+		},
+		{
+			"key": "17",
+			"userdatalength": 0
+		},
+		{
+			"key": "18",
+			"userdatalength": 0
+		},
+		{
+			"key": "19",
+			"userdatalength": 0
+		},
+		{
+			"key": "20",
+			"userdatalength": 0
+		},
+		{
+			"key": "21",
+			"userdatalength": 0
+		},
+		{
+			"key": "22",
+			"userdatalength": 0
+		},
+		{
+			"key": "23",
+			"userdatalength": 0
+		},
+		{
+			"key": "24",
+			"userdatalength": 0
+		},
+		{
+			"key": "25",
+			"userdatalength": 0
+		},
+		{
+			"key": "26",
+			"userdatalength": 0
+		},
+		{
+			"key": "27",
+			"userdatalength": 0
+		},
+		{
+			"key": "28",
+			"userdatalength": 0
+		},
+		{
+			"key": "29",
+			"userdatalength": 0
+		},
+		{
+			"key": "30",
+			"userdatalength": 0
+		},
+		{
+			"key": "31",
+			"userdatalength": 0
+		},
+		{
+			"key": "32",
+			"userdatalength": 0
+		},
+		{
+			"key": "33",
+			"userdatalength": 0
+		},
+		{
+			"key": "34",
+			"userdatalength": 0
+		},
+		{
+			"key": "35",
+			"userdatalength": 0
+		},
+		{
+			"key": "36",
+			"userdatalength": 0
+		},
+		{
+			"key": "37",
+			"userdatalength": 0
+		},
+		{
+			"key": "38",
+			"userdatalength": 0
+		},
+		{
+			"key": "39",
+			"userdatalength": 0
+		},
+		{
+			"key": "40",
+			"userdatalength": 0
+		},
+		{
+			"key": "41",
+			"userdatalength": 0
+		},
+		{
+			"key": "42",
+			"userdatalength": 0
+		},
+		{
+			"key": "43",
+			"userdatalength": 0
+		},
+		{
+			"key": "44",
+			"userdatalength": 0
+		},
+		{
+			"key": "45",
+			"userdatalength": 0
+		},
+		{
+			"key": "46",
+			"userdatalength": 0
+		},
+		{
+			"key": "47",
+			"userdatalength": 0
+		},
+		{
+			"key": "48",
+			"userdatalength": 0
+		},
+		{
+			"key": "49",
+			"userdatalength": 0
+		},
+		{
+			"key": "50",
+			"userdatalength": 0
+		},
+		{
+			"key": "51",
+			"userdatalength": 0
+		},
+		{
+			"key": "52",
+			"userdatalength": 0
+		},
+		{
+			"key": "53",
+			"userdatalength": 0
+		},
+		{
+			"key": "54",
+			"userdatalength": 0
+		},
+		{
+			"key": "55",
+			"userdatalength": 0
+		},
+		{
+			"key": "56",
+			"userdatalength": 0
+		},
+		{
+			"key": "57",
+			"userdatalength": 0
+		},
+		{
+			"key": "58",
+			"userdatalength": 0
+		},
+		{
+			"key": "59",
+			"userdatalength": 0
+		},
+		{
+			"key": "60",
+			"userdatalength": 0
+		},
+		{
+			"key": "61",
+			"userdatalength": 0
+		},
+		{
+			"key": "62",
+			"userdatalength": 0
+		},
+		{
+			"key": "63",
+			"userdatalength": 0
+		},
+		{
+			"key": "64",
+			"userdatalength": 0
+		},
+		{
+			"key": "65",
+			"userdatalength": 0
+		},
+		{
+			"key": "66",
+			"userdatalength": 0
+		},
+		{
+			"key": "67",
+			"userdatalength": 0
+		},
+		{
+			"key": "68",
+			"userdatalength": 0
+		},
+		{
+			"key": "69",
+			"userdatalength": 0
+		},
+		{
+			"key": "70",
+			"userdatalength": 0
+		},
+		{
+			"key": "71",
+			"userdatalength": 0
+		},
+		{
+			"key": "72",
+			"userdatalength": 0
+		},
+		{
+			"key": "73",
+			"userdatalength": 0
+		},
+		{
+			"key": "74",
+			"userdatalength": 0
+		},
+		{
+			"key": "75",
+			"userdatalength": 0
+		},
+		{
+			"key": "76",
+			"userdatalength": 0
+		},
+		{
+			"key": "77",
+			"userdatalength": 0
+		},
+		{
+			"key": "78",
+			"userdatalength": 0
+		},
+		{
+			"key": "79",
+			"userdatalength": 0
+		},
+		{
+			"key": "80",
+			"userdatalength": 0
+		},
+		{
+			"key": "81",
+			"userdatalength": 0
+		},
+		{
+			"key": "82",
+			"userdatalength": 0
+		},
+		{
+			"key": "83",
+			"userdatalength": 0
+		},
+		{
+			"key": "84",
+			"userdatalength": 0
+		},
+		{
+			"key": "85",
+			"userdatalength": 0
+		},
+		{
+			"key": "86",
+			"userdatalength": 0
+		},
+		{
+			"key": "87",
+			"userdatalength": 0
+		},
+		{
+			"key": "88",
+			"userdatalength": 0
+		},
+		{
+			"key": "89",
+			"userdatalength": 0
+		},
+		{
+			"key": "90",
+			"userdatalength": 0
+		},
+		{
+			"key": "91",
+			"userdatalength": 0
+		},
+		{
+			"key": "92",
+			"userdatalength": 0
+		},
+		{
+			"key": "93",
+			"userdatalength": 0
+		},
+		{
+			"key": "94",
+			"userdatalength": 0
+		},
+		{
+			"key": "95",
+			"userdatalength": 0
+		},
+		{
+			"key": "96",
+			"userdatalength": 0
+		},
+		{
+			"key": "97",
+			"userdatalength": 0
+		},
+		{
+			"key": "98",
+			"userdatalength": 0
+		},
+		{
+			"key": "99",
+			"userdatalength": 0
+		},
+		{
+			"key": "100",
+			"userdatalength": 0
+		},
+		{
+			"key": "101",
+			"userdatalength": 0
+		},
+		{
+			"key": "102",
+			"userdatalength": 0
+		},
+		{
+			"key": "103",
+			"userdatalength": 0
+		},
+		{
+			"key": "104",
+			"userdatalength": 0
+		},
+		{
+			"key": "105",
+			"userdatalength": 0
+		},
+		{
+			"key": "106",
+			"userdatalength": 0
+		},
+		{
+			"key": "107",
+			"userdatalength": 0
+		},
+		{
+			"key": "108",
+			"userdatalength": 0
+		},
+		{
+			"key": "109",
+			"userdatalength": 0
+		}
+	]
+}

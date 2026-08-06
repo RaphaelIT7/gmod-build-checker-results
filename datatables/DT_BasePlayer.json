@@ -1,0 +1,160 @@
+{
+	"name": "DT_BasePlayer",
+	"props": [
+		{
+			"index": 0,
+			"name": "baseclass",
+			"offset": 0,
+			"bits": 0,
+			"type": "DPT_DataTable",
+			"elements": 1,
+			"datatable": "DT_BaseCombatCharacter"
+		},
+		{
+			"index": 1,
+			"name": "pl",
+			"offset": 8808,
+			"bits": 0,
+			"type": "DPT_DataTable",
+			"elements": 1,
+			"datatable": "DT_PlayerState"
+		},
+		{
+			"index": 2,
+			"name": "m_hVehicle",
+			"offset": 8948,
+			"bits": 23,
+			"type": "DPT_Int",
+			"elements": 1
+		},
+		{
+			"index": 3,
+			"name": "m_hUseEntity",
+			"offset": 8932,
+			"bits": 23,
+			"type": "DPT_Int",
+			"elements": 1
+		},
+		{
+			"index": 4,
+			"name": "m_lifeState",
+			"offset": 260,
+			"bits": 3,
+			"type": "DPT_Int",
+			"elements": 1
+		},
+		{
+			"index": 5,
+			"name": "m_hColorCorrectionCtrl",
+			"offset": 8764,
+			"bits": 23,
+			"type": "DPT_Int",
+			"elements": 1
+		},
+		{
+			"index": 6,
+			"name": "m_flMaxspeed",
+			"offset": 9896,
+			"bits": 12,
+			"type": "DPT_Float",
+			"elements": 1
+		},
+		{
+			"index": 7,
+			"name": "m_fFlags",
+			"offset": 292,
+			"bits": 16,
+			"type": "DPT_Int",
+			"elements": 1
+		},
+		{
+			"index": 8,
+			"name": "m_iObserverMode",
+			"offset": 9008,
+			"bits": 3,
+			"type": "DPT_Int",
+			"elements": 1
+		},
+		{
+			"index": 9,
+			"name": "m_hObserverTarget",
+			"offset": 9036,
+			"bits": 23,
+			"type": "DPT_Int",
+			"elements": 1
+		},
+		{
+			"index": 10,
+			"name": "m_iFOV",
+			"offset": 9012,
+			"bits": 16,
+			"type": "DPT_Float",
+			"elements": 1
+		},
+		{
+			"index": 11,
+			"name": "m_iFOVStart",
+			"offset": 9020,
+			"bits": 16,
+			"type": "DPT_Float",
+			"elements": 1
+		},
+		{
+			"index": 12,
+			"name": "m_flFOVTime",
+			"offset": 9024,
+			"bits": 0,
+			"type": "DPT_VectorXY",
+			"elements": 1
+		},
+		{
+			"index": 13,
+			"name": "m_iDefaultFOV",
+			"offset": 9016,
+			"bits": 16,
+			"type": "DPT_Float",
+			"elements": 1
+		},
+		{
+			"index": 14,
+			"name": "m_hZoomOwner",
+			"offset": 9044,
+			"bits": 23,
+			"type": "DPT_Int",
+			"elements": 1
+		},
+		{
+			"index": 15,
+			"name": "m_hViewModel",
+			"offset": 9540,
+			"bits": 23,
+			"type": "DPT_Int",
+			"elements": 1
+		},
+		{
+			"index": 16,
+			"name": "m_hViewModel",
+			"offset": 0,
+			"bits": 0,
+			"type": "DPT_Array",
+			"elements": 3
+		},
+		{
+			"index": 17,
+			"name": "m_bUseWeaponsInVehicle",
+			"offset": 10017,
+			"bits": 1,
+			"type": "DPT_Int",
+			"elements": 1
+		},
+		{
+			"index": 18,
+			"name": "localdata",
+			"offset": 0,
+			"bits": 0,
+			"type": "DPT_DataTable",
+			"elements": 1,
+			"datatable": "DT_LocalPlayerExclusive"
+		}
+	]
+}

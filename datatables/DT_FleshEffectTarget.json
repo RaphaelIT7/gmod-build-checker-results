@@ -1,0 +1,30 @@
+{
+	"name": "DT_FleshEffectTarget",
+	"props": [
+		{
+			"index": 0,
+			"name": "baseclass",
+			"offset": 0,
+			"bits": 0,
+			"type": "DPT_DataTable",
+			"elements": 1,
+			"datatable": "DT_BaseEntity"
+		},
+		{
+			"index": 1,
+			"name": "m_flRadius",
+			"offset": 5040,
+			"bits": 0,
+			"type": "DPT_Float",
+			"elements": 1
+		},
+		{
+			"index": 2,
+			"name": "m_flScaleTime",
+			"offset": 5044,
+			"bits": 0,
+			"type": "DPT_Float",
+			"elements": 1
+		}
+	]
+}

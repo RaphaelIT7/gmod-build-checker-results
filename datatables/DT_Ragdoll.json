@@ -1,0 +1,550 @@
+{
+	"name": "DT_Ragdoll",
+	"props": [
+		{
+			"index": 0,
+			"name": "baseclass",
+			"offset": 0,
+			"bits": 0,
+			"type": "DPT_DataTable",
+			"elements": 1,
+			"datatable": "DT_BaseAnimating"
+		},
+		{
+			"index": 1,
+			"name": "m_ragPos[ 0 ]",
+			"offset": 6424,
+			"bits": 0,
+			"type": "DPT_Vector",
+			"elements": 1
+		},
+		{
+			"index": 2,
+			"name": "m_ragPos[ 1 ]",
+			"offset": 6436,
+			"bits": 0,
+			"type": "DPT_Vector",
+			"elements": 1
+		},
+		{
+			"index": 3,
+			"name": "m_ragPos[ 2 ]",
+			"offset": 6448,
+			"bits": 0,
+			"type": "DPT_Vector",
+			"elements": 1
+		},
+		{
+			"index": 4,
+			"name": "m_ragPos[ 3 ]",
+			"offset": 6460,
+			"bits": 0,
+			"type": "DPT_Vector",
+			"elements": 1
+		},
+		{
+			"index": 5,
+			"name": "m_ragPos[ 4 ]",
+			"offset": 6472,
+			"bits": 0,
+			"type": "DPT_Vector",
+			"elements": 1
+		},
+		{
+			"index": 6,
+			"name": "m_ragPos[ 5 ]",
+			"offset": 6484,
+			"bits": 0,
+			"type": "DPT_Vector",
+			"elements": 1
+		},
+		{
+			"index": 7,
+			"name": "m_ragPos[ 6 ]",
+			"offset": 6496,
+			"bits": 0,
+			"type": "DPT_Vector",
+			"elements": 1
+		},
+		{
+			"index": 8,
+			"name": "m_ragPos[ 7 ]",
+			"offset": 6508,
+			"bits": 0,
+			"type": "DPT_Vector",
+			"elements": 1
+		},
+		{
+			"index": 9,
+			"name": "m_ragPos[ 8 ]",
+			"offset": 6520,
+			"bits": 0,
+			"type": "DPT_Vector",
+			"elements": 1
+		},
+		{
+			"index": 10,
+			"name": "m_ragPos[ 9 ]",
+			"offset": 6532,
+			"bits": 0,
+			"type": "DPT_Vector",
+			"elements": 1
+		},
+		{
+			"index": 11,
+			"name": "m_ragPos[ 10 ]",
+			"offset": 6544,
+			"bits": 0,
+			"type": "DPT_Vector",
+			"elements": 1
+		},
+		{
+			"index": 12,
+			"name": "m_ragPos[ 11 ]",
+			"offset": 6556,
+			"bits": 0,
+			"type": "DPT_Vector",
+			"elements": 1
+		},
+		{
+			"index": 13,
+			"name": "m_ragPos[ 12 ]",
+			"offset": 6568,
+			"bits": 0,
+			"type": "DPT_Vector",
+			"elements": 1
+		},
+		{
+			"index": 14,
+			"name": "m_ragPos[ 13 ]",
+			"offset": 6580,
+			"bits": 0,
+			"type": "DPT_Vector",
+			"elements": 1
+		},
+		{
+			"index": 15,
+			"name": "m_ragPos[ 14 ]",
+			"offset": 6592,
+			"bits": 0,
+			"type": "DPT_Vector",
+			"elements": 1
+		},
+		{
+			"index": 16,
+			"name": "m_ragPos[ 15 ]",
+			"offset": 6604,
+			"bits": 0,
+			"type": "DPT_Vector",
+			"elements": 1
+		},
+		{
+			"index": 17,
+			"name": "m_ragPos[ 16 ]",
+			"offset": 6616,
+			"bits": 0,
+			"type": "DPT_Vector",
+			"elements": 1
+		},
+		{
+			"index": 18,
+			"name": "m_ragPos[ 17 ]",
+			"offset": 6628,
+			"bits": 0,
+			"type": "DPT_Vector",
+			"elements": 1
+		},
+		{
+			"index": 19,
+			"name": "m_ragPos[ 18 ]",
+			"offset": 6640,
+			"bits": 0,
+			"type": "DPT_Vector",
+			"elements": 1
+		},
+		{
+			"index": 20,
+			"name": "m_ragPos[ 19 ]",
+			"offset": 6652,
+			"bits": 0,
+			"type": "DPT_Vector",
+			"elements": 1
+		},
+		{
+			"index": 21,
+			"name": "m_ragPos[ 20 ]",
+			"offset": 6664,
+			"bits": 0,
+			"type": "DPT_Vector",
+			"elements": 1
+		},
+		{
+			"index": 22,
+			"name": "m_ragPos[ 21 ]",
+			"offset": 6676,
+			"bits": 0,
+			"type": "DPT_Vector",
+			"elements": 1
+		},
+		{
+			"index": 23,
+			"name": "m_ragPos[ 22 ]",
+			"offset": 6688,
+			"bits": 0,
+			"type": "DPT_Vector",
+			"elements": 1
+		},
+		{
+			"index": 24,
+			"name": "m_ragPos[ 23 ]",
+			"offset": 6700,
+			"bits": 0,
+			"type": "DPT_Vector",
+			"elements": 1
+		},
+		{
+			"index": 25,
+			"name": "m_ragPos[ 24 ]",
+			"offset": 6712,
+			"bits": 0,
+			"type": "DPT_Vector",
+			"elements": 1
+		},
+		{
+			"index": 26,
+			"name": "m_ragPos[ 25 ]",
+			"offset": 6724,
+			"bits": 0,
+			"type": "DPT_Vector",
+			"elements": 1
+		},
+		{
+			"index": 27,
+			"name": "m_ragPos[ 26 ]",
+			"offset": 6736,
+			"bits": 0,
+			"type": "DPT_Vector",
+			"elements": 1
+		},
+		{
+			"index": 28,
+			"name": "m_ragPos[ 27 ]",
+			"offset": 6748,
+			"bits": 0,
+			"type": "DPT_Vector",
+			"elements": 1
+		},
+		{
+			"index": 29,
+			"name": "m_ragPos[ 28 ]",
+			"offset": 6760,
+			"bits": 0,
+			"type": "DPT_Vector",
+			"elements": 1
+		},
+		{
+			"index": 30,
+			"name": "m_ragPos[ 29 ]",
+			"offset": 6772,
+			"bits": 0,
+			"type": "DPT_Vector",
+			"elements": 1
+		},
+		{
+			"index": 31,
+			"name": "m_ragPos[ 30 ]",
+			"offset": 6784,
+			"bits": 0,
+			"type": "DPT_Vector",
+			"elements": 1
+		},
+		{
+			"index": 32,
+			"name": "m_ragPos[ 31 ]",
+			"offset": 6796,
+			"bits": 0,
+			"type": "DPT_Vector",
+			"elements": 1
+		},
+		{
+			"index": 33,
+			"name": "m_ragAngles[ 0 ]",
+			"offset": 6808,
+			"bits": 13,
+			"type": "DPT_Vector",
+			"elements": 1
+		},
+		{
+			"index": 34,
+			"name": "m_ragAngles[ 1 ]",
+			"offset": 6820,
+			"bits": 13,
+			"type": "DPT_Vector",
+			"elements": 1
+		},
+		{
+			"index": 35,
+			"name": "m_ragAngles[ 2 ]",
+			"offset": 6832,
+			"bits": 13,
+			"type": "DPT_Vector",
+			"elements": 1
+		},
+		{
+			"index": 36,
+			"name": "m_ragAngles[ 3 ]",
+			"offset": 6844,
+			"bits": 13,
+			"type": "DPT_Vector",
+			"elements": 1
+		},
+		{
+			"index": 37,
+			"name": "m_ragAngles[ 4 ]",
+			"offset": 6856,
+			"bits": 13,
+			"type": "DPT_Vector",
+			"elements": 1
+		},
+		{
+			"index": 38,
+			"name": "m_ragAngles[ 5 ]",
+			"offset": 6868,
+			"bits": 13,
+			"type": "DPT_Vector",
+			"elements": 1
+		},
+		{
+			"index": 39,
+			"name": "m_ragAngles[ 6 ]",
+			"offset": 6880,
+			"bits": 13,
+			"type": "DPT_Vector",
+			"elements": 1
+		},
+		{
+			"index": 40,
+			"name": "m_ragAngles[ 7 ]",
+			"offset": 6892,
+			"bits": 13,
+			"type": "DPT_Vector",
+			"elements": 1
+		},
+		{
+			"index": 41,
+			"name": "m_ragAngles[ 8 ]",
+			"offset": 6904,
+			"bits": 13,
+			"type": "DPT_Vector",
+			"elements": 1
+		},
+		{
+			"index": 42,
+			"name": "m_ragAngles[ 9 ]",
+			"offset": 6916,
+			"bits": 13,
+			"type": "DPT_Vector",
+			"elements": 1
+		},
+		{
+			"index": 43,
+			"name": "m_ragAngles[ 10 ]",
+			"offset": 6928,
+			"bits": 13,
+			"type": "DPT_Vector",
+			"elements": 1
+		},
+		{
+			"index": 44,
+			"name": "m_ragAngles[ 11 ]",
+			"offset": 6940,
+			"bits": 13,
+			"type": "DPT_Vector",
+			"elements": 1
+		},
+		{
+			"index": 45,
+			"name": "m_ragAngles[ 12 ]",
+			"offset": 6952,
+			"bits": 13,
+			"type": "DPT_Vector",
+			"elements": 1
+		},
+		{
+			"index": 46,
+			"name": "m_ragAngles[ 13 ]",
+			"offset": 6964,
+			"bits": 13,
+			"type": "DPT_Vector",
+			"elements": 1
+		},
+		{
+			"index": 47,
+			"name": "m_ragAngles[ 14 ]",
+			"offset": 6976,
+			"bits": 13,
+			"type": "DPT_Vector",
+			"elements": 1
+		},
+		{
+			"index": 48,
+			"name": "m_ragAngles[ 15 ]",
+			"offset": 6988,
+			"bits": 13,
+			"type": "DPT_Vector",
+			"elements": 1
+		},
+		{
+			"index": 49,
+			"name": "m_ragAngles[ 16 ]",
+			"offset": 7000,
+			"bits": 13,
+			"type": "DPT_Vector",
+			"elements": 1
+		},
+		{
+			"index": 50,
+			"name": "m_ragAngles[ 17 ]",
+			"offset": 7012,
+			"bits": 13,
+			"type": "DPT_Vector",
+			"elements": 1
+		},
+		{
+			"index": 51,
+			"name": "m_ragAngles[ 18 ]",
+			"offset": 7024,
+			"bits": 13,
+			"type": "DPT_Vector",
+			"elements": 1
+		},
+		{
+			"index": 52,
+			"name": "m_ragAngles[ 19 ]",
+			"offset": 7036,
+			"bits": 13,
+			"type": "DPT_Vector",
+			"elements": 1
+		},
+		{
+			"index": 53,
+			"name": "m_ragAngles[ 20 ]",
+			"offset": 7048,
+			"bits": 13,
+			"type": "DPT_Vector",
+			"elements": 1
+		},
+		{
+			"index": 54,
+			"name": "m_ragAngles[ 21 ]",
+			"offset": 7060,
+			"bits": 13,
+			"type": "DPT_Vector",
+			"elements": 1
+		},
+		{
+			"index": 55,
+			"name": "m_ragAngles[ 22 ]",
+			"offset": 7072,
+			"bits": 13,
+			"type": "DPT_Vector",
+			"elements": 1
+		},
+		{
+			"index": 56,
+			"name": "m_ragAngles[ 23 ]",
+			"offset": 7084,
+			"bits": 13,
+			"type": "DPT_Vector",
+			"elements": 1
+		},
+		{
+			"index": 57,
+			"name": "m_ragAngles[ 24 ]",
+			"offset": 7096,
+			"bits": 13,
+			"type": "DPT_Vector",
+			"elements": 1
+		},
+		{
+			"index": 58,
+			"name": "m_ragAngles[ 25 ]",
+			"offset": 7108,
+			"bits": 13,
+			"type": "DPT_Vector",
+			"elements": 1
+		},
+		{
+			"index": 59,
+			"name": "m_ragAngles[ 26 ]",
+			"offset": 7120,
+			"bits": 13,
+			"type": "DPT_Vector",
+			"elements": 1
+		},
+		{
+			"index": 60,
+			"name": "m_ragAngles[ 27 ]",
+			"offset": 7132,
+			"bits": 13,
+			"type": "DPT_Vector",
+			"elements": 1
+		},
+		{
+			"index": 61,
+			"name": "m_ragAngles[ 28 ]",
+			"offset": 7144,
+			"bits": 13,
+			"type": "DPT_Vector",
+			"elements": 1
+		},
+		{
+			"index": 62,
+			"name": "m_ragAngles[ 29 ]",
+			"offset": 7156,
+			"bits": 13,
+			"type": "DPT_Vector",
+			"elements": 1
+		},
+		{
+			"index": 63,
+			"name": "m_ragAngles[ 30 ]",
+			"offset": 7168,
+			"bits": 13,
+			"type": "DPT_Vector",
+			"elements": 1
+		},
+		{
+			"index": 64,
+			"name": "m_ragAngles[ 31 ]",
+			"offset": 7180,
+			"bits": 13,
+			"type": "DPT_Vector",
+			"elements": 1
+		},
+		{
+			"index": 65,
+			"name": "m_hUnragdoll",
+			"offset": 7196,
+			"bits": 23,
+			"type": "DPT_Int",
+			"elements": 1
+		},
+		{
+			"index": 66,
+			"name": "m_flBlendWeight",
+			"offset": 7240,
+			"bits": 8,
+			"type": "DPT_Float",
+			"elements": 1
+		},
+		{
+			"index": 67,
+			"name": "m_nOverlaySequence",
+			"offset": 7244,
+			"bits": 11,
+			"type": "DPT_Int",
+			"elements": 1
+		}
+	]
+}

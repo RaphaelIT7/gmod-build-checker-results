@@ -1,0 +1,445 @@
+{
+	"name": "modelprecache",
+	"id": 1,
+	"entrybits": 13,
+	"maxstrings": 8192,
+	"numstrings": 109,
+	"strings": [
+		{
+			"key": "",
+			"userdatalength": 1
+		},
+		{
+			"key": "maps/gm_flatgrass.bsp",
+			"userdatalength": 1
+		},
+		{
+			"key": "models/weapons/c_arms_animations.mdl",
+			"userdatalength": 1
+		},
+		{
+			"key": "models/MaxOfS2D/camera.mdl",
+			"userdatalength": 1
+		},
+		{
+			"key": "models/weapons/c_toolgun.mdl",
+			"userdatalength": 1
+		},
+		{
+			"key": "models/weapons/w_toolgun.mdl",
+			"userdatalength": 1
+		},
+		{
+			"key": "models/weapons/c_arms.mdl",
+			"userdatalength": 1
+		},
+		{
+			"key": "models/weapons/c_smg1.mdl",
+			"userdatalength": 1
+		},
+		{
+			"key": "models/weapons/w_smg1.mdl",
+			"userdatalength": 1
+		},
+		{
+			"key": "models/weapons/c_medkit.mdl",
+			"userdatalength": 1
+		},
+		{
+			"key": "models/weapons/w_medkit.mdl",
+			"userdatalength": 1
+		},
+		{
+			"key": "models/dav0r/camera.mdl",
+			"userdatalength": 1
+		},
+		{
+			"key": "models/maxofs2d/light_tubular.mdl",
+			"userdatalength": 1
+		},
+		{
+			"key": "models/Gibs/wood_gib01e.mdl",
+			"userdatalength": 1
+		},
+		{
+			"key": "models/Gibs/wood_gib01d.mdl",
+			"userdatalength": 1
+		},
+		{
+			"key": "models/Gibs/wood_gib01c.mdl",
+			"userdatalength": 1
+		},
+		{
+			"key": "models/Gibs/wood_gib01b.mdl",
+			"userdatalength": 1
+		},
+		{
+			"key": "models/Gibs/wood_gib01a.mdl",
+			"userdatalength": 1
+		},
+		{
+			"key": "models/Gibs/Glass_shard01.mdl",
+			"userdatalength": 1
+		},
+		{
+			"key": "models/Gibs/Glass_shard02.mdl",
+			"userdatalength": 1
+		},
+		{
+			"key": "models/Gibs/Glass_shard03.mdl",
+			"userdatalength": 1
+		},
+		{
+			"key": "models/Gibs/Glass_shard04.mdl",
+			"userdatalength": 1
+		},
+		{
+			"key": "models/Gibs/Glass_shard05.mdl",
+			"userdatalength": 1
+		},
+		{
+			"key": "models/Gibs/Glass_shard06.mdl",
+			"userdatalength": 1
+		},
+		{
+			"key": "models/props_debris/concrete_chunk08a.mdl",
+			"userdatalength": 1
+		},
+		{
+			"key": "models/props_debris/concrete_chunk09a.mdl",
+			"userdatalength": 1
+		},
+		{
+			"key": "models/props_debris/concrete_chunk03a.mdl",
+			"userdatalength": 1
+		},
+		{
+			"key": "models/props_debris/concrete_chunk07a.mdl",
+			"userdatalength": 1
+		},
+		{
+			"key": "models/props_debris/concrete_chunk02a.mdl",
+			"userdatalength": 1
+		},
+		{
+			"key": "models/Gibs/metal_gib1.mdl",
+			"userdatalength": 1
+		},
+		{
+			"key": "models/Gibs/metal_gib2.mdl",
+			"userdatalength": 1
+		},
+		{
+			"key": "models/Gibs/metal_gib3.mdl",
+			"userdatalength": 1
+		},
+		{
+			"key": "models/Gibs/metal_gib4.mdl",
+			"userdatalength": 1
+		},
+		{
+			"key": "models/Gibs/metal_gib5.mdl",
+			"userdatalength": 1
+		},
+		{
+			"key": "models/computergibs.mdl",
+			"userdatalength": 1
+		},
+		{
+			"key": "models/fleshgibs.mdl",
+			"userdatalength": 1
+		},
+		{
+			"key": "models/ceilinggibs.mdl",
+			"userdatalength": 1
+		},
+		{
+			"key": "models/webgibs.mdl",
+			"userdatalength": 1
+		},
+		{
+			"key": "models/cindergibs.mdl",
+			"userdatalength": 1
+		},
+		{
+			"key": "sprites/zerogxplode.vmt",
+			"userdatalength": 1
+		},
+		{
+			"key": "sprites/steam1.vmt",
+			"userdatalength": 1
+		},
+		{
+			"key": "sprites/bubble.vmt",
+			"userdatalength": 1
+		},
+		{
+			"key": "sprites/laserbeam.vmt",
+			"userdatalength": 1
+		},
+		{
+			"key": "effects/bubble.vmt",
+			"userdatalength": 1
+		},
+		{
+			"key": "models/weapons/w_bullet.mdl",
+			"userdatalength": 1
+		},
+		{
+			"key": "cable/cable.vmt",
+			"userdatalength": 1
+		},
+		{
+			"key": "cable/cable_lit.vmt",
+			"userdatalength": 1
+		},
+		{
+			"key": "cable/chain.vmt",
+			"userdatalength": 1
+		},
+		{
+			"key": "cable/rope.vmt",
+			"userdatalength": 1
+		},
+		{
+			"key": "sprites/blueglow1.vmt",
+			"userdatalength": 1
+		},
+		{
+			"key": "sprites/purpleglow1.vmt",
+			"userdatalength": 1
+		},
+		{
+			"key": "sprites/purplelaser1.vmt",
+			"userdatalength": 1
+		},
+		{
+			"key": "models/error.mdl",
+			"userdatalength": 1
+		},
+		{
+			"key": "models/player.mdl",
+			"userdatalength": 1
+		},
+		{
+			"key": "models/gibs/agibs.mdl",
+			"userdatalength": 1
+		},
+		{
+			"key": "models/gibs/hgibs.mdl",
+			"userdatalength": 1
+		},
+		{
+			"key": "models/weapons/v_hands.mdl",
+			"userdatalength": 1
+		},
+		{
+			"key": "sprites/gunsmoke.vmt",
+			"userdatalength": 1
+		},
+		{
+			"key": "models/weapons/w_suitcase_passenger.mdl",
+			"userdatalength": 1
+		},
+		{
+			"key": "models/weapons/w_package.mdl",
+			"userdatalength": 1
+		},
+		{
+			"key": "models/weapons/c_pistol.mdl",
+			"userdatalength": 1
+		},
+		{
+			"key": "models/weapons/w_alyx_gun.mdl",
+			"userdatalength": 1
+		},
+		{
+			"key": "models/healthvial.mdl",
+			"userdatalength": 1
+		},
+		{
+			"key": "models/items/healthkit.mdl",
+			"userdatalength": 1
+		},
+		{
+			"key": "models/items/battery.mdl",
+			"userdatalength": 1
+		},
+		{
+			"key": "sprites/glow01.vmt",
+			"userdatalength": 1
+		},
+		{
+			"key": "models/weapons/c_stunstick.mdl",
+			"userdatalength": 1
+		},
+		{
+			"key": "models/weapons/w_stunbaton.mdl",
+			"userdatalength": 1
+		},
+		{
+			"key": "sprites/lgtning.vmt",
+			"userdatalength": 1
+		},
+		{
+			"key": "sprites/light_glow02_add.vmt",
+			"userdatalength": 1
+		},
+		{
+			"key": "effects/blueflare1.vmt",
+			"userdatalength": 1
+		},
+		{
+			"key": "sprites/light_glow02_add_noz.vmt",
+			"userdatalength": 1
+		},
+		{
+			"key": "models/Weapons/ar2_grenade.mdl",
+			"userdatalength": 1
+		},
+		{
+			"key": "models/weapons/c_slam.mdl",
+			"userdatalength": 1
+		},
+		{
+			"key": "models/weapons/w_slam.mdl",
+			"userdatalength": 1
+		},
+		{
+			"key": "sprites/redglow1.vmt",
+			"userdatalength": 1
+		},
+		{
+			"key": "models/weapons/c_shotgun.mdl",
+			"userdatalength": 1
+		},
+		{
+			"key": "models/weapons/w_shotgun.mdl",
+			"userdatalength": 1
+		},
+		{
+			"key": "models/weapons/c_rpg.mdl",
+			"userdatalength": 1
+		},
+		{
+			"key": "models/weapons/w_rocket_launcher.mdl",
+			"userdatalength": 1
+		},
+		{
+			"key": "effects/laser1.vmt",
+			"userdatalength": 1
+		},
+		{
+			"key": "effects/laser1_noz.vmt",
+			"userdatalength": 1
+		},
+		{
+			"key": "models/weapons/w_missile.mdl",
+			"userdatalength": 1
+		},
+		{
+			"key": "models/weapons/w_missile_launch.mdl",
+			"userdatalength": 1
+		},
+		{
+			"key": "models/weapons/w_missile_closed.mdl",
+			"userdatalength": 1
+		},
+		{
+			"key": "models/weapons/w_pistol.mdl",
+			"userdatalength": 1
+		},
+		{
+			"key": "sprites/orangelight1_gmod.vmt",
+			"userdatalength": 1
+		},
+		{
+			"key": "sprites/orangelight1_noz.vmt",
+			"userdatalength": 1
+		},
+		{
+			"key": "sprites/lgtning_noz.vmt",
+			"userdatalength": 1
+		},
+		{
+			"key": "models/weapons/c_physcannon.mdl",
+			"userdatalength": 1
+		},
+		{
+			"key": "models/weapons/w_Physics.mdl",
+			"userdatalength": 1
+		},
+		{
+			"key": "models/weapons/c_grenade.mdl",
+			"userdatalength": 1
+		},
+		{
+			"key": "models/weapons/w_grenade.mdl",
+			"userdatalength": 1
+		},
+		{
+			"key": "models/Weapons/w_npcnade.mdl",
+			"userdatalength": 1
+		},
+		{
+			"key": "sprites/bluelaser1.vmt",
+			"userdatalength": 1
+		},
+		{
+			"key": "models/weapons/c_crowbar.mdl",
+			"userdatalength": 1
+		},
+		{
+			"key": "models/weapons/w_crowbar.mdl",
+			"userdatalength": 1
+		},
+		{
+			"key": "models/crossbow_bolt.mdl",
+			"userdatalength": 1
+		},
+		{
+			"key": "sprites/light_glow02_noz.vmt",
+			"userdatalength": 1
+		},
+		{
+			"key": "sprites/blueflare1.vmt",
+			"userdatalength": 1
+		},
+		{
+			"key": "models/weapons/c_crossbow.mdl",
+			"userdatalength": 1
+		},
+		{
+			"key": "models/weapons/w_crossbow.mdl",
+			"userdatalength": 1
+		},
+		{
+			"key": "models/weapons/c_irifle.mdl",
+			"userdatalength": 1
+		},
+		{
+			"key": "models/weapons/w_irifle.mdl",
+			"userdatalength": 1
+		},
+		{
+			"key": "models/weapons/c_357.mdl",
+			"userdatalength": 1
+		},
+		{
+			"key": "models/weapons/w_357.mdl",
+			"userdatalength": 1
+		},
+		{
+			"key": "sprites/hotglow.vmt",
+			"userdatalength": 1
+		},
+		{
+			"key": "sprites/smoke.vmt",
+			"userdatalength": 1
+		},
+		{
+			"key": "models/weapons/c_superphyscannon.mdl",
+			"userdatalength": 1
+		}
+	]
+}

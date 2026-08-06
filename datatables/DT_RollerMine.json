@@ -1,0 +1,46 @@
+{
+	"name": "DT_RollerMine",
+	"props": [
+		{
+			"index": 0,
+			"name": "baseclass",
+			"offset": 0,
+			"bits": 0,
+			"type": "DPT_DataTable",
+			"elements": 1,
+			"datatable": "DT_AI_BaseNPC"
+		},
+		{
+			"index": 1,
+			"name": "m_bIsOpen",
+			"offset": 9848,
+			"bits": 1,
+			"type": "DPT_Int",
+			"elements": 1
+		},
+		{
+			"index": 2,
+			"name": "m_flActiveTime",
+			"offset": 9852,
+			"bits": 0,
+			"type": "DPT_Float",
+			"elements": 1
+		},
+		{
+			"index": 3,
+			"name": "m_bHackedByAlyx",
+			"offset": 9877,
+			"bits": 1,
+			"type": "DPT_Int",
+			"elements": 1
+		},
+		{
+			"index": 4,
+			"name": "m_bPowerDown",
+			"offset": 9886,
+			"bits": 1,
+			"type": "DPT_Int",
+			"elements": 1
+		}
+	]
+}

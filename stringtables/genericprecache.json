@@ -1,0 +1,13 @@
+{
+	"name": "genericprecache",
+	"id": 2,
+	"entrybits": 9,
+	"maxstrings": 512,
+	"numstrings": 1,
+	"strings": [
+		{
+			"key": "",
+			"userdatalength": 1
+		}
+	]
+}

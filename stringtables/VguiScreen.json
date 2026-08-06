@@ -1,0 +1,9 @@
+{
+	"name": "VguiScreen",
+	"id": 12,
+	"entrybits": 8,
+	"maxstrings": 256,
+	"numstrings": 0,
+	"strings": [
+	]
+}

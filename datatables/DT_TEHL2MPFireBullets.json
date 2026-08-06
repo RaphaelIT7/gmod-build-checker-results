@@ -1,0 +1,93 @@
+{
+	"name": "DT_TEHL2MPFireBullets",
+	"props": [
+		{
+			"index": 0,
+			"name": "m_vecOrigin",
+			"offset": 16,
+			"bits": 0,
+			"type": "DPT_Vector",
+			"elements": 1
+		},
+		{
+			"index": 1,
+			"name": "m_vecDir",
+			"offset": 28,
+			"bits": 0,
+			"type": "DPT_Vector",
+			"elements": 1
+		},
+		{
+			"index": 2,
+			"name": "m_iAmmoID",
+			"offset": 40,
+			"bits": 5,
+			"type": "DPT_Int",
+			"elements": 1
+		},
+		{
+			"index": 3,
+			"name": "m_iSeed",
+			"offset": 44,
+			"bits": 8,
+			"type": "DPT_Int",
+			"elements": 1
+		},
+		{
+			"index": 4,
+			"name": "m_iShots",
+			"offset": 48,
+			"bits": 5,
+			"type": "DPT_Int",
+			"elements": 1
+		},
+		{
+			"index": 5,
+			"name": "m_iPlayer",
+			"offset": 12,
+			"bits": 6,
+			"type": "DPT_Int",
+			"elements": 1
+		},
+		{
+			"index": 6,
+			"name": "m_flSpread",
+			"offset": 52,
+			"bits": 10,
+			"type": "DPT_Float",
+			"elements": 1
+		},
+		{
+			"index": 7,
+			"name": "m_bDoImpacts",
+			"offset": 56,
+			"bits": 1,
+			"type": "DPT_Int",
+			"elements": 1
+		},
+		{
+			"index": 8,
+			"name": "m_bDoTracers",
+			"offset": 57,
+			"bits": 1,
+			"type": "DPT_Int",
+			"elements": 1
+		},
+		{
+			"index": 9,
+			"name": "m_TracerType",
+			"offset": 64,
+			"bits": 0,
+			"type": "DPT_String",
+			"elements": 1
+		},
+		{
+			"index": 10,
+			"name": "m_flSpreadY",
+			"offset": 60,
+			"bits": 10,
+			"type": "DPT_Float",
+			"elements": 1
+		}
+	]
+}

@@ -1,0 +1,134 @@
+{
+	"name": "DT_PropVehicleChoreoGeneric",
+	"props": [
+		{
+			"index": 0,
+			"name": "baseclass",
+			"offset": 0,
+			"bits": 0,
+			"type": "DPT_DataTable",
+			"elements": 1,
+			"datatable": "DT_DynamicProp"
+		},
+		{
+			"index": 1,
+			"name": "m_hPlayer",
+			"offset": 5932,
+			"bits": 23,
+			"type": "DPT_Int",
+			"elements": 1
+		},
+		{
+			"index": 2,
+			"name": "m_bEnterAnimOn",
+			"offset": 6445,
+			"bits": 1,
+			"type": "DPT_Int",
+			"elements": 1
+		},
+		{
+			"index": 3,
+			"name": "m_bExitAnimOn",
+			"offset": 6446,
+			"bits": 1,
+			"type": "DPT_Int",
+			"elements": 1
+		},
+		{
+			"index": 4,
+			"name": "m_bForceEyesToAttachment",
+			"offset": 6464,
+			"bits": 1,
+			"type": "DPT_Int",
+			"elements": 1
+		},
+		{
+			"index": 5,
+			"name": "m_vecEyeExitEndpoint",
+			"offset": 6448,
+			"bits": 0,
+			"type": "DPT_Vector",
+			"elements": 1
+		},
+		{
+			"index": 6,
+			"name": "m_vehicleView.bClampEyeAngles",
+			"offset": 5940,
+			"bits": 1,
+			"type": "DPT_Int",
+			"elements": 1
+		},
+		{
+			"index": 7,
+			"name": "m_vehicleView.flPitchCurveZero",
+			"offset": 5944,
+			"bits": 0,
+			"type": "DPT_Float",
+			"elements": 1
+		},
+		{
+			"index": 8,
+			"name": "m_vehicleView.flPitchCurveLinear",
+			"offset": 5948,
+			"bits": 0,
+			"type": "DPT_Float",
+			"elements": 1
+		},
+		{
+			"index": 9,
+			"name": "m_vehicleView.flRollCurveZero",
+			"offset": 5952,
+			"bits": 0,
+			"type": "DPT_Float",
+			"elements": 1
+		},
+		{
+			"index": 10,
+			"name": "m_vehicleView.flRollCurveLinear",
+			"offset": 5956,
+			"bits": 0,
+			"type": "DPT_Float",
+			"elements": 1
+		},
+		{
+			"index": 11,
+			"name": "m_vehicleView.flFOV",
+			"offset": 5960,
+			"bits": 0,
+			"type": "DPT_Float",
+			"elements": 1
+		},
+		{
+			"index": 12,
+			"name": "m_vehicleView.flYawMin",
+			"offset": 5964,
+			"bits": 0,
+			"type": "DPT_Float",
+			"elements": 1
+		},
+		{
+			"index": 13,
+			"name": "m_vehicleView.flYawMax",
+			"offset": 5968,
+			"bits": 0,
+			"type": "DPT_Float",
+			"elements": 1
+		},
+		{
+			"index": 14,
+			"name": "m_vehicleView.flPitchMin",
+			"offset": 5972,
+			"bits": 0,
+			"type": "DPT_Float",
+			"elements": 1
+		},
+		{
+			"index": 15,
+			"name": "m_vehicleView.flPitchMax",
+			"offset": 5976,
+			"bits": 0,
+			"type": "DPT_Float",
+			"elements": 1
+		}
+	]
+}

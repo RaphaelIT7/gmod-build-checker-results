@@ -1,0 +1,22 @@
+{
+	"name": "DT_TEBeamFollow",
+	"props": [
+		{
+			"index": 0,
+			"name": "baseclass",
+			"offset": 0,
+			"bits": 0,
+			"type": "DPT_DataTable",
+			"elements": 1,
+			"datatable": "DT_BaseBeam"
+		},
+		{
+			"index": 1,
+			"name": "m_iEntIndex",
+			"offset": 72,
+			"bits": 24,
+			"type": "DPT_Int",
+			"elements": 1
+		}
+	]
+}

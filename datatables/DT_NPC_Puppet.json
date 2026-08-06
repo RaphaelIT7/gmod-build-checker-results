@@ -1,0 +1,30 @@
+{
+	"name": "DT_NPC_Puppet",
+	"props": [
+		{
+			"index": 0,
+			"name": "baseclass",
+			"offset": 0,
+			"bits": 0,
+			"type": "DPT_DataTable",
+			"elements": 1,
+			"datatable": "DT_AI_BaseNPC"
+		},
+		{
+			"index": 1,
+			"name": "m_hAnimationTarget",
+			"offset": 9676,
+			"bits": 23,
+			"type": "DPT_Int",
+			"elements": 1
+		},
+		{
+			"index": 2,
+			"name": "m_nTargetAttachment",
+			"offset": 9680,
+			"bits": 12,
+			"type": "DPT_Int",
+			"elements": 1
+		}
+	]
+}

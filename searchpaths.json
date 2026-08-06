@@ -1,0 +1,409 @@
+{
+    "searchpaths": [
+        {
+            "isremotepath": "true",
+            "istrustedforpureserver": "false",
+            "path": 3,
+            "pathidname": "null",
+            "pathname": "bin/",
+            "prioritygroup": 156684312,
+            "vpkhack": "false"
+        },
+        {
+            "isremotepath": "true",
+            "istrustedforpureserver": "false",
+            "path": 5,
+            "pathidname": "null",
+            "pathname": "modserver/",
+            "prioritygroup": 156684320,
+            "vpkhack": "false"
+        },
+        {
+            "isremotepath": "true",
+            "istrustedforpureserver": "false",
+            "path": 7,
+            "pathidname": "null",
+            "pathname": "garrysmod/bin/",
+            "prioritygroup": 156684488,
+            "vpkhack": "false"
+        },
+        {
+            "isremotepath": "true",
+            "istrustedforpureserver": "false",
+            "path": 14,
+            "pathidname": "null",
+            "pathname": "garrysmod/",
+            "prioritygroup": 156684480,
+            "vpkhack": "false"
+        },
+        {
+            "isremotepath": "true",
+            "istrustedforpureserver": "false",
+            "path": 30,
+            "pathidname": "null",
+            "pathname": "garrysmod/workshop/lua/",
+            "prioritygroup": 625956928,
+            "vpkhack": "false"
+        },
+        {
+            "isremotepath": "true",
+            "istrustedforpureserver": "false",
+            "path": 32,
+            "pathidname": "null",
+            "pathname": "garrysmod/workshop/gamemodes/",
+            "prioritygroup": 625956928,
+            "vpkhack": "false"
+        },
+        {
+            "isremotepath": "true",
+            "istrustedforpureserver": "false",
+            "path": 33,
+            "pathidname": "null",
+            "pathname": "garrysmod/lua/",
+            "prioritygroup": 625956928,
+            "vpkhack": "false"
+        },
+        {
+            "isremotepath": "true",
+            "istrustedforpureserver": "false",
+            "path": 34,
+            "pathidname": "null",
+            "pathname": "garrysmod/gamemodes/",
+            "prioritygroup": 625956928,
+            "vpkhack": "false"
+        },
+        {
+            "isremotepath": "true",
+            "istrustedforpureserver": "false",
+            "path": 35,
+            "pathidname": "null",
+            "pathname": "garrysmod/workshop/gamemodes/base/entities/",
+            "prioritygroup": 625956928,
+            "vpkhack": "false"
+        },
+        {
+            "isremotepath": "true",
+            "istrustedforpureserver": "false",
+            "path": 36,
+            "pathidname": "null",
+            "pathname": "garrysmod/gamemodes/base/entities/",
+            "prioritygroup": 625956928,
+            "vpkhack": "false"
+        },
+        {
+            "isremotepath": "true",
+            "istrustedforpureserver": "false",
+            "path": 37,
+            "pathidname": "null",
+            "pathname": "garrysmod/workshop/gamemodes/sandbox/entities/",
+            "prioritygroup": 625956928,
+            "vpkhack": "false"
+        },
+        {
+            "isremotepath": "true",
+            "istrustedforpureserver": "false",
+            "path": 38,
+            "pathidname": "null",
+            "pathname": "garrysmod/gamemodes/sandbox/entities/",
+            "prioritygroup": 625956928,
+            "vpkhack": "false"
+        },
+        {
+            "isremotepath": "true",
+            "istrustedforpureserver": "false",
+            "path": 29,
+            "pathidname": "null",
+            "pathname": "maps/gm_flatgrass.bsp",
+            "prioritygroup": 156684496,
+            "vpkhack": "false"
+        },
+        {
+            "isremotepath": "true",
+            "istrustedforpureserver": "false",
+            "path": 27,
+            "pathidname": "null",
+            "pathname": "garrysmod/workshop/gamemodes/sandbox/content/",
+            "prioritygroup": 156684496,
+            "vpkhack": "false"
+        },
+        {
+            "isremotepath": "true",
+            "istrustedforpureserver": "false",
+            "path": 27,
+            "pathidname": "null",
+            "pathname": "garrysmod/workshop/gamemodes/sandbox/content/",
+            "prioritygroup": 156684512,
+            "vpkhack": "false"
+        },
+        {
+            "isremotepath": "true",
+            "istrustedforpureserver": "false",
+            "path": 28,
+            "pathidname": "null",
+            "pathname": "garrysmod/workshop/gamemodes/base/content/",
+            "prioritygroup": 156684496,
+            "vpkhack": "false"
+        },
+        {
+            "isremotepath": "true",
+            "istrustedforpureserver": "false",
+            "path": 28,
+            "pathidname": "null",
+            "pathname": "garrysmod/workshop/gamemodes/base/content/",
+            "prioritygroup": 156684512,
+            "vpkhack": "false"
+        },
+        {
+            "isremotepath": "true",
+            "istrustedforpureserver": "false",
+            "path": 9,
+            "pathidname": "null",
+            "pathname": "garrysmod/workshop/",
+            "prioritygroup": 156684496,
+            "vpkhack": "false"
+        },
+        {
+            "isremotepath": "true",
+            "istrustedforpureserver": "false",
+            "path": 9,
+            "pathidname": "null",
+            "pathname": "garrysmod/workshop/",
+            "prioritygroup": 156684504,
+            "vpkhack": "false"
+        },
+        {
+            "isremotepath": "true",
+            "istrustedforpureserver": "false",
+            "path": 9,
+            "pathidname": "null",
+            "pathname": "garrysmod/workshop/",
+            "prioritygroup": 156684512,
+            "vpkhack": "false"
+        },
+        {
+            "isremotepath": "true",
+            "istrustedforpureserver": "false",
+            "path": 12,
+            "pathidname": "null",
+            "pathname": "MOD",
+            "prioritygroup": 338675056,
+            "vpkhack": "false"
+        },
+        {
+            "isremotepath": "true",
+            "istrustedforpureserver": "false",
+            "path": 1,
+            "pathidname": "null",
+            "pathname": "GAME",
+            "prioritygroup": 156684496,
+            "vpkhack": "false"
+        },
+        {
+            "isremotepath": "true",
+            "istrustedforpureserver": "false",
+            "path": 13,
+            "pathidname": "null",
+            "pathname": "garrysmod",
+            "prioritygroup": 339775128,
+            "vpkhack": "false"
+        },
+        {
+            "isremotepath": "true",
+            "istrustedforpureserver": "false",
+            "path": 14,
+            "pathidname": "null",
+            "pathname": "garrysmod/",
+            "prioritygroup": 338675056,
+            "vpkhack": "false"
+        },
+        {
+            "isremotepath": "true",
+            "istrustedforpureserver": "false",
+            "path": 14,
+            "pathidname": "null",
+            "pathname": "garrysmod/",
+            "prioritygroup": 339775136,
+            "vpkhack": "false"
+        },
+        {
+            "isremotepath": "true",
+            "istrustedforpureserver": "false",
+            "path": 14,
+            "pathidname": "null",
+            "pathname": "garrysmod/",
+            "prioritygroup": 339775144,
+            "vpkhack": "false"
+        },
+        {
+            "isremotepath": "true",
+            "istrustedforpureserver": "false",
+            "path": 14,
+            "pathidname": "null",
+            "pathname": "garrysmod/",
+            "prioritygroup": 156684496,
+            "vpkhack": "false"
+        },
+        {
+            "isremotepath": "true",
+            "istrustedforpureserver": "false",
+            "path": 14,
+            "pathidname": "null",
+            "pathname": "garrysmod/",
+            "prioritygroup": 339775152,
+            "vpkhack": "false"
+        },
+        {
+            "isremotepath": "true",
+            "istrustedforpureserver": "false",
+            "path": 14,
+            "pathidname": "null",
+            "pathname": "garrysmod/",
+            "prioritygroup": 339775128,
+            "vpkhack": "false"
+        },
+        {
+            "isremotepath": "true",
+            "istrustedforpureserver": "false",
+            "path": 23,
+            "pathidname": "null",
+            "pathname": "garrysmod/data/",
+            "prioritygroup": 617073256,
+            "vpkhack": "false"
+        },
+        {
+            "isremotepath": "true",
+            "istrustedforpureserver": "false",
+            "path": 1,
+            "pathidname": "null",
+            "pathname": "GAME",
+            "prioritygroup": 156684496,
+            "vpkhack": "false"
+        },
+        {
+            "isremotepath": "true",
+            "istrustedforpureserver": "false",
+            "path": 1,
+            "pathidname": "null",
+            "pathname": "GAME",
+            "prioritygroup": 156684496,
+            "vpkhack": "false"
+        },
+        {
+            "isremotepath": "true",
+            "istrustedforpureserver": "false",
+            "path": 1,
+            "pathidname": "null",
+            "pathname": "GAME",
+            "prioritygroup": 156684496,
+            "vpkhack": "false"
+        },
+        {
+            "isremotepath": "true",
+            "istrustedforpureserver": "false",
+            "path": 1,
+            "pathidname": "null",
+            "pathname": "GAME",
+            "prioritygroup": 156684496,
+            "vpkhack": "false"
+        },
+        {
+            "isremotepath": "true",
+            "istrustedforpureserver": "false",
+            "path": 18,
+            "pathidname": "null",
+            "pathname": "sourceengine/",
+            "prioritygroup": 156684496,
+            "vpkhack": "false"
+        },
+        {
+            "isremotepath": "true",
+            "istrustedforpureserver": "false",
+            "path": 1,
+            "pathidname": "null",
+            "pathname": "GAME",
+            "prioritygroup": 156684496,
+            "vpkhack": "false"
+        },
+        {
+            "isremotepath": "true",
+            "istrustedforpureserver": "false",
+            "path": 19,
+            "pathidname": "null",
+            "pathname": "platform/",
+            "prioritygroup": 156684496,
+            "vpkhack": "false"
+        },
+        {
+            "isremotepath": "true",
+            "istrustedforpureserver": "false",
+            "path": 1,
+            "pathidname": "null",
+            "pathname": "GAME",
+            "prioritygroup": 156684496,
+            "vpkhack": "false"
+        },
+        {
+            "isremotepath": "true",
+            "istrustedforpureserver": "false",
+            "path": 25,
+            "pathidname": "null",
+            "pathname": "hl2",
+            "prioritygroup": 616680392,
+            "vpkhack": "false"
+        },
+        {
+            "isremotepath": "true",
+            "istrustedforpureserver": "false",
+            "path": 1,
+            "pathidname": "null",
+            "pathname": "GAME",
+            "prioritygroup": 156684496,
+            "vpkhack": "false"
+        },
+        {
+            "isremotepath": "true",
+            "istrustedforpureserver": "false",
+            "path": 26,
+            "pathidname": "null",
+            "pathname": "cstrike",
+            "prioritygroup": 615615392,
+            "vpkhack": "false"
+        },
+        {
+            "isremotepath": "true",
+            "istrustedforpureserver": "false",
+            "path": 20,
+            "pathidname": "null",
+            "pathname": "garrysmod/download/",
+            "prioritygroup": 156684496,
+            "vpkhack": "false"
+        },
+        {
+            "isremotepath": "true",
+            "istrustedforpureserver": "false",
+            "path": 20,
+            "pathidname": "null",
+            "pathname": "garrysmod/download/",
+            "prioritygroup": 340634264,
+            "vpkhack": "false"
+        },
+        {
+            "isremotepath": "true",
+            "istrustedforpureserver": "false",
+            "path": 1,
+            "pathidname": "null",
+            "pathname": "GAME",
+            "prioritygroup": 156684496,
+            "vpkhack": "false"
+        },
+        {
+            "isremotepath": "true",
+            "istrustedforpureserver": "false",
+            "path": 12,
+            "pathidname": "null",
+            "pathname": "MOD",
+            "prioritygroup": 338675056,
+            "vpkhack": "false"
+        }
+    ]
+}

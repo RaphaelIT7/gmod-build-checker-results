@@ -1,0 +1,104 @@
+{
+	"name": "DT_PoseController",
+	"props": [
+		{
+			"index": 0,
+			"name": "baseclass",
+			"offset": 0,
+			"bits": 0,
+			"type": "DPT_DataTable",
+			"elements": 1,
+			"datatable": "DT_BaseEntity"
+		},
+		{
+			"index": 1,
+			"name": "m_hProps",
+			"offset": 5040,
+			"bits": 0,
+			"type": "DPT_DataTable",
+			"elements": 1,
+			"datatable": "m_hProps"
+		},
+		{
+			"index": 2,
+			"name": "m_chPoseIndex",
+			"offset": 5056,
+			"bits": 0,
+			"type": "DPT_DataTable",
+			"elements": 1,
+			"datatable": "m_chPoseIndex"
+		},
+		{
+			"index": 3,
+			"name": "m_bPoseValueParity",
+			"offset": 5061,
+			"bits": 1,
+			"type": "DPT_Int",
+			"elements": 1
+		},
+		{
+			"index": 4,
+			"name": "m_fPoseValue",
+			"offset": 5072,
+			"bits": 11,
+			"type": "DPT_Float",
+			"elements": 1
+		},
+		{
+			"index": 5,
+			"name": "m_fInterpolationTime",
+			"offset": 5076,
+			"bits": 11,
+			"type": "DPT_Float",
+			"elements": 1
+		},
+		{
+			"index": 6,
+			"name": "m_bInterpolationWrap",
+			"offset": 5080,
+			"bits": 1,
+			"type": "DPT_Int",
+			"elements": 1
+		},
+		{
+			"index": 7,
+			"name": "m_fCycleFrequency",
+			"offset": 5084,
+			"bits": 11,
+			"type": "DPT_Float",
+			"elements": 1
+		},
+		{
+			"index": 8,
+			"name": "m_nFModType",
+			"offset": 5088,
+			"bits": 3,
+			"type": "DPT_Int",
+			"elements": 1
+		},
+		{
+			"index": 9,
+			"name": "m_fFModTimeOffset",
+			"offset": 5092,
+			"bits": 11,
+			"type": "DPT_Float",
+			"elements": 1
+		},
+		{
+			"index": 10,
+			"name": "m_fFModRate",
+			"offset": 5096,
+			"bits": 11,
+			"type": "DPT_Float",
+			"elements": 1
+		},
+		{
+			"index": 11,
+			"name": "m_fFModAmplitude",
+			"offset": 5100,
+			"bits": 11,
+			"type": "DPT_Float",
+			"elements": 1
+		}
+	]
+}
