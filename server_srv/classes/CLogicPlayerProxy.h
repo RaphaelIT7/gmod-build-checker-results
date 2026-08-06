@@ -3,16 +3,19 @@
 class CLogicPlayerProxy : public CLogicalEntity
 {
 public:
-	virtual void ~CLogicPlayerProxy() override; // vtable[0]
-	virtual void ~CLogicPlayerProxy() override; // vtable[1]
+	virtual ~CLogicPlayerProxy() override; // vtable[0]
+	virtual ~CLogicPlayerProxy() override; // vtable[1]
+	virtual void GetDataDescMap() override; // vtable[12]
+	virtual void Activate() override; // vtable[34]
+	virtual void PassesDamageFilter() override; // vtable[61]
 
-	void InputSetPlayerHealth();
-	void InputSetFlashlightNormalDrain();
-	void InputLowerWeapon();
-	void InputEnableCappedPhysicsDamage();
-	void InputDisableCappedPhysicsDamage();
-	void InputRequestPlayerHealth();
-	void InputRequestAmmoState();
-	void InputSetFlashlightSlowDrain();
-	void GetBaseMap();
+	void InputSetPlayerHealth(); // size[0]
+	void InputSetFlashlightNormalDrain(); // size[0]
+	void InputLowerWeapon(); // size[0]
+	void InputEnableCappedPhysicsDamage(); // size[0]
+	void InputDisableCappedPhysicsDamage(); // size[0]
+	void InputRequestPlayerHealth(); // size[0]
+	void InputRequestAmmoState(); // size[0]
+	void InputSetFlashlightSlowDrain(); // size[0]
+	void GetBaseMap(); // size[0]
 };

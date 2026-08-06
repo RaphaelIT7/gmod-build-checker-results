@@ -8,6 +8,6 @@ public:
 	virtual void RandomInt(); // vtable[2]
 	virtual void RandomFloatExp() override; // vtable[3]
 
-	void CUniformRandomStream();
-	void GenerateRandomNumber();
+	CUniformRandomStream(); // size[0]
+	void GenerateRandomNumber(); // size[0]
 };

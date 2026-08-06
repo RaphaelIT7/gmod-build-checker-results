@@ -3,36 +3,39 @@
 class CGlobalEntityList : public CBaseEntityList
 {
 public:
-	void CGlobalEntityList();
-	void CleanupDeleteList();
-	void ResetDeleteList();
-	void NumberOfEntities();
-	void NumberOfEdicts();
-	void NextEnt();
-	void IsEntityPtr();
-	void FindEntityByClassname();
-	void FindEntityProcedural();
-	void FindEntityByName();
-	void FindEntityByModel();
-	void FindEntityByTarget();
-	void FindEntityInSphere();
-	void FindEntityByNameNearest();
-	void FindEntityByNameWithin();
-	void FindEntityByClassnameNearest();
-	void FindEntityByClassnameWithin();
-	void FindEntityByClassnameWithin();
-	void FindEntityGeneric();
-	void FindEntityGenericWithin();
-	void FindEntityGenericNearest();
-	void FindEntityClassNearestFacing();
-	void FindEntityNearestFacing();
-	void NotifyCreateEntity();
-	void NotifySpawn();
-	void NotifyRemoveEntity();
-	void RemoveListenerEntity();
-	void Clear();
-	void ReportEntityFlagsChanged();
-	void AddToDeleteList();
-	void AddListenerEntity();
-	void ~CGlobalEntityList();
+	virtual void OnAddEntity() override; // vtable[0]
+	virtual void OnRemoveEntity() override; // vtable[1]
+
+	CGlobalEntityList(); // size[0]
+	void CleanupDeleteList(); // size[0]
+	void ResetDeleteList(); // size[0]
+	void NumberOfEntities(); // size[0]
+	void NumberOfEdicts(); // size[0]
+	void NextEnt(); // size[0]
+	void IsEntityPtr(); // size[0]
+	void FindEntityByClassname(); // size[0]
+	void FindEntityProcedural(); // size[0]
+	void FindEntityByName(); // size[0]
+	void FindEntityByModel(); // size[0]
+	void FindEntityByTarget(); // size[0]
+	void FindEntityInSphere(); // size[0]
+	void FindEntityByNameNearest(); // size[0]
+	void FindEntityByNameWithin(); // size[0]
+	void FindEntityByClassnameNearest(); // size[0]
+	void FindEntityByClassnameWithin(); // size[0]
+	void FindEntityByClassnameWithin(); // size[0]
+	void FindEntityGeneric(); // size[0]
+	void FindEntityGenericWithin(); // size[0]
+	void FindEntityGenericNearest(); // size[0]
+	void FindEntityClassNearestFacing(); // size[0]
+	void FindEntityNearestFacing(); // size[0]
+	void NotifyCreateEntity(); // size[0]
+	void NotifySpawn(); // size[0]
+	void NotifyRemoveEntity(); // size[0]
+	void RemoveListenerEntity(); // size[0]
+	void Clear(); // size[0]
+	void ReportEntityFlagsChanged(); // size[0]
+	void AddToDeleteList(); // size[0]
+	void AddListenerEntity(); // size[0]
+	~CGlobalEntityList(); // size[0]
 };

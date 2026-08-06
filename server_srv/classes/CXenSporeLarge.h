@@ -3,6 +3,7 @@
 class CXenSporeLarge : public CXenSpore
 {
 public:
-	virtual void ~CXenSporeLarge() override; // vtable[0]
-	virtual void ~CXenSporeLarge() override; // vtable[1]
+	virtual ~CXenSporeLarge() override; // vtable[0]
+	virtual ~CXenSporeLarge() override; // vtable[1]
+	virtual void Spawn() override; // vtable[23]
 };

@@ -3,11 +3,12 @@
 class CAntlionMakerManager : public CAutoGameSystem
 {
 public:
-	virtual void ~CAntlionMakerManager() override; // vtable[13]
-	virtual void ~CAntlionMakerManager() override; // vtable[14]
+	virtual void LevelInitPostEntity() override; // vtable[5]
+	virtual ~CAntlionMakerManager() override; // vtable[13]
+	virtual ~CAntlionMakerManager() override; // vtable[14]
 
-	void BroadcastFightGoal();
-	void BroadcastFightGoal();
-	void BroadcastFollowGoal();
-	void GatherMakers();
+	void BroadcastFightGoal(); // size[0]
+	void BroadcastFightGoal(); // size[0]
+	void BroadcastFollowGoal(); // size[0]
+	void GatherMakers(); // size[0]
 };

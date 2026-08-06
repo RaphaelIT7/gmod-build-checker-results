@@ -3,5 +3,7 @@
 class CHL2MPSWeaponInfo : public FileWeaponInfo_t
 {
 public:
-	void CHL2MPSWeaponInfo();
+	virtual void Parse() override; // vtable[0]
+
+	CHL2MPSWeaponInfo(); // size[0]
 };

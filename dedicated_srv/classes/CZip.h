@@ -22,8 +22,8 @@ public:
 	virtual void GetAlignment(); // vtable[16]
 	virtual void SetBigEndian(); // vtable[17]
 	virtual void ActivateByteSwapping() override; // vtable[18]
-	virtual void ~CZip(); // vtable[19]
-	virtual void ~CZip(); // vtable[20]
+	virtual ~CZip(); // vtable[19]
+	virtual ~CZip(); // vtable[20]
 
-	void CZip();
+	CZip(); // size[0]
 };

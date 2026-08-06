@@ -3,25 +3,46 @@
 class CNPC_Ichthyosaur : public CAI_BaseNPC
 {
 public:
-	virtual void ~CNPC_Ichthyosaur() override; // vtable[0]
-	virtual void ~CNPC_Ichthyosaur() override; // vtable[1]
+	virtual ~CNPC_Ichthyosaur() override; // vtable[0]
+	virtual ~CNPC_Ichthyosaur() override; // vtable[1]
+	virtual void GetDataDescMap() override; // vtable[12]
+	virtual void Spawn() override; // vtable[23]
+	virtual void Precache() override; // vtable[24]
+	virtual void Classify() override; // vtable[55]
+	virtual void FVisible() override; // vtable[144]
+	virtual void HandleAnimEvent() override; // vtable[261]
+	virtual void OnTakeDamage_Alive() override; // vtable[338]
+	virtual void PrescheduleThink() override; // vtable[403]
+	virtual void SelectSchedule() override; // vtable[407]
+	virtual void TranslateSchedule() override; // vtable[409]
+	virtual void StartTask() override; // vtable[410]
+	virtual void RunTask() override; // vtable[411]
+	virtual void GetSchedulingErrorName() override; // vtable[432]
+	virtual void LoadedSchedules() override; // vtable[433]
+	virtual void MaxYawSpeed() override; // vtable[529]
+	virtual void OverrideMove() override; // vtable[538]
+	virtual void SquadSlotName() override; // vtable[581]
+	virtual void MeleeAttack1Conditions() override; // vtable[597]
+	virtual void TranslateNavGoal() override; // vtable[613]
+	virtual void GetDefaultNavGoalTolerance() override; // vtable[614]
+	virtual void GetClassScheduleIdSpace() override; // vtable[640]
 
-	void GetBaseMap();
-	void InitCustomSchedules();
-	void LoadSchedules();
-	void CScheduleLoader();
-	void SetPoses();
-	void AddSwimNoise();
-	void SteerArrive();
-	void SteerSeek();
-	void SteerAvoidObstacles();
-	void ClampSteer();
-	void Bite();
-	void Beached();
-	void EnsnareVictim();
-	void ReleaseVictim();
-	void DragVictim();
-	void DoMovement();
-	void GetGroundSpeed();
-	void MoveFlyExecute();
+	void GetBaseMap(); // size[0]
+	void InitCustomSchedules(); // size[0]
+	void LoadSchedules(); // size[0]
+	CScheduleLoader(); // size[0]
+	void SetPoses(); // size[0]
+	void AddSwimNoise(); // size[0]
+	void SteerArrive(); // size[0]
+	void SteerSeek(); // size[0]
+	void SteerAvoidObstacles(); // size[0]
+	void ClampSteer(); // size[0]
+	void Bite(); // size[0]
+	void Beached(); // size[0]
+	void EnsnareVictim(); // size[0]
+	void ReleaseVictim(); // size[0]
+	void DragVictim(); // size[0]
+	void DoMovement(); // size[0]
+	void GetGroundSpeed(); // size[0]
+	void MoveFlyExecute(); // size[0]
 };

@@ -3,8 +3,8 @@
 class CCollisionQuery : public ICollisionQuery
 {
 public:
-	virtual void ~CCollisionQuery(); // vtable[0]
-	virtual void ~CCollisionQuery(); // vtable[1]
+	virtual ~CCollisionQuery(); // vtable[0]
+	virtual ~CCollisionQuery(); // vtable[1]
 	virtual void ConvexCount(); // vtable[2]
 	virtual void TriangleCount(); // vtable[3]
 	virtual void GetGameData(); // vtable[4]
@@ -13,7 +13,7 @@ public:
 	virtual void GetTriangleMaterialIndex(); // vtable[7]
 	virtual void SetTriangleMaterialIndex(); // vtable[8]
 
-	void CCollisionQuery();
-	void Triangle();
-	void CCollisionQuery();
+	CCollisionQuery(); // size[0]
+	void Triangle(); // size[0]
+	CCollisionQuery(); // size[0]
 };

@@ -3,8 +3,8 @@
 class CTacticalMissionManager : public CGameEventListener
 {
 public:
-	virtual void ~CTacticalMissionManager() override; // vtable[0]
-	virtual void ~CTacticalMissionManager() override; // vtable[1]
+	virtual ~CTacticalMissionManager() override; // vtable[0]
+	virtual ~CTacticalMissionManager() override; // vtable[1]
 	virtual void FireGameEvent() override; // vtable[2]
 	virtual void OnServerActivate(); // vtable[3]
 	virtual void OnRoundRestart(); // vtable[4]
@@ -13,5 +13,5 @@ public:
 	virtual void GetMission(); // vtable[7]
 	virtual void ForEachMission(); // vtable[8]
 
-	void CTacticalMissionManager();
+	CTacticalMissionManager(); // size[0]
 };

@@ -3,8 +3,8 @@
 class CBaseServer : public IServer
 {
 public:
-	virtual void ~CBaseServer() override; // vtable[0]
-	virtual void ~CBaseServer() override; // vtable[1]
+	virtual ~CBaseServer() override; // vtable[0]
+	virtual ~CBaseServer() override; // vtable[1]
 	virtual void ProcessConnectionlessPacket() override; // vtable[2]
 	virtual void GetNumClients(); // vtable[3]
 	virtual void GetNumProxies(); // vtable[4]
@@ -70,30 +70,30 @@ public:
 	virtual void ShouldUpdateMasterServer(); // vtable[64]
 	virtual void UpdateMasterServerPlayers(); // vtable[65]
 
-	void GetNextUserID();
-	void RequireValidChallenge();
-	void ValidChallenge();
-	void ValidInfoChallenge();
-	void InactivateClients();
-	void ReconnectClients();
-	void CheckTimeouts();
-	void UpdateUserSettings();
-	void SendPendingServerInfo();
-	void SetMasterServerRulesDirty();
-	void GetFinalTickTime();
-	void GetInstanceBaselineTable();
-	void GetLightStyleTable();
-	void GetUserInfoTable();
-	void GetClassBaseline();
-	void CompressPackedEntity();
-	void UncompressPackedEntity();
-	void CheckMasterServerRequestRestart();
-	void UpdateMasterServerRules();
-	void ForwardPacketsFromMasterServerUpdater();
-	void AddTag();
-	void RemoveTag();
-	void CBaseServer();
-	void RecalculateTags();
-	void UpdateMasterServer();
-	void RunFrame();
+	void GetNextUserID(); // size[0]
+	void RequireValidChallenge(); // size[0]
+	void ValidChallenge(); // size[0]
+	void ValidInfoChallenge(); // size[0]
+	void InactivateClients(); // size[0]
+	void ReconnectClients(); // size[0]
+	void CheckTimeouts(); // size[0]
+	void UpdateUserSettings(); // size[0]
+	void SendPendingServerInfo(); // size[0]
+	void SetMasterServerRulesDirty(); // size[0]
+	void GetFinalTickTime(); // size[0]
+	void GetInstanceBaselineTable(); // size[0]
+	void GetLightStyleTable(); // size[0]
+	void GetUserInfoTable(); // size[0]
+	void GetClassBaseline(); // size[0]
+	void CompressPackedEntity(); // size[0]
+	void UncompressPackedEntity(); // size[0]
+	void CheckMasterServerRequestRestart(); // size[0]
+	void UpdateMasterServerRules(); // size[0]
+	void ForwardPacketsFromMasterServerUpdater(); // size[0]
+	void AddTag(); // size[0]
+	void RemoveTag(); // size[0]
+	CBaseServer(); // size[0]
+	void RecalculateTags(); // size[0]
+	void UpdateMasterServer(); // size[0]
+	void RunFrame(); // size[0]
 };

@@ -3,12 +3,31 @@
 class CWeaponSatchel : public CBaseHL1MPCombatWeapon
 {
 public:
-	virtual void ~CWeaponSatchel() override; // vtable[0]
-	virtual void ~CWeaponSatchel() override; // vtable[1]
+	virtual ~CWeaponSatchel() override; // vtable[0]
+	virtual ~CWeaponSatchel() override; // vtable[1]
+	virtual void GetServerClass() override; // vtable[10]
+	virtual void YouForgotToImplementOrDeclareServerClass() override; // vtable[11]
+	virtual void GetDataDescMap() override; // vtable[12]
+	virtual void Precache() override; // vtable[24]
+	virtual void OnRestore() override; // vtable[45]
+	virtual void Equip() override; // vtable[284]
+	virtual void HasAnyAmmo() override; // vtable[301]
+	virtual void Deploy() override; // vtable[307]
+	virtual void Holster() override; // vtable[308]
+	virtual void ItemPostFrame() override; // vtable[318]
+	virtual void WeaponIdle() override; // vtable[321]
+	virtual void PrimaryAttack() override; // vtable[332]
+	virtual void SecondaryAttack() override; // vtable[333]
+	virtual void CanBePickedUpByNPCs() override; // vtable[359]
+	virtual void GetViewModel() override; // vtable[361]
+	virtual void GetWorldModel() override; // vtable[362]
+	virtual void GetHoldType() override; // vtable[380]
+	virtual void ActivityList() override; // vtable[388]
+	virtual void ActivityListCount() override; // vtable[389]
 
-	void _GLOBAL__sub_I_GetServerClass();
-	void CWeaponSatchel();
-	void ActivateSatchelModel();
-	void ActivateRadioModel();
-	void Throw();
+	void _GLOBAL__sub_I_GetServerClass(); // size[0]
+	CWeaponSatchel(); // size[0]
+	void ActivateSatchelModel(); // size[0]
+	void ActivateRadioModel(); // size[0]
+	void Throw(); // size[0]
 };

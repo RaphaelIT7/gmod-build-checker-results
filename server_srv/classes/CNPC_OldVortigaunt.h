@@ -3,17 +3,41 @@
 class CNPC_OldVortigaunt : public CHL1BaseNPC
 {
 public:
-	virtual void ~CNPC_OldVortigaunt() override; // vtable[0]
-	virtual void ~CNPC_OldVortigaunt() override; // vtable[1]
+	virtual ~CNPC_OldVortigaunt() override; // vtable[0]
+	virtual ~CNPC_OldVortigaunt() override; // vtable[1]
+	virtual void GetDataDescMap() override; // vtable[12]
+	virtual void Spawn() override; // vtable[23]
+	virtual void Precache() override; // vtable[24]
+	virtual void Classify() override; // vtable[55]
+	virtual void TraceAttack() override; // vtable[62]
+	virtual void Event_Killed() override; // vtable[68]
+	virtual void UpdateOnRemove() override; // vtable[108]
+	virtual void HandleAnimEvent() override; // vtable[261]
+	virtual void OnTakeDamage_Alive() override; // vtable[338]
+	virtual void IRelationType() override; // vtable[364]
+	virtual void SelectSchedule() override; // vtable[407]
+	virtual void TranslateSchedule() override; // vtable[409]
+	virtual void StartTask() override; // vtable[410]
+	virtual void GetSchedulingErrorName() override; // vtable[432]
+	virtual void LoadedSchedules() override; // vtable[433]
+	virtual void GetSoundInterests() override; // vtable[467]
+	virtual void DeathSound() override; // vtable[507]
+	virtual void AlertSound() override; // vtable[508]
+	virtual void IdleSound() override; // vtable[509]
+	virtual void PainSound() override; // vtable[510]
+	virtual void MaxYawSpeed() override; // vtable[529]
+	virtual void SquadSlotName() override; // vtable[581]
+	virtual void RangeAttack1Conditions() override; // vtable[595]
+	virtual void GetClassScheduleIdSpace() override; // vtable[640]
 
-	void GetBaseMap();
-	void CallForHelp();
-	void ArmBeam();
-	void BeamGlow();
-	void WackBeam();
-	void ZapBeam();
-	void ClearBeams();
-	void InitCustomSchedules();
-	void LoadSchedules();
-	void CScheduleLoader();
+	void GetBaseMap(); // size[0]
+	void CallForHelp(); // size[0]
+	void ArmBeam(); // size[0]
+	void BeamGlow(); // size[0]
+	void WackBeam(); // size[0]
+	void ZapBeam(); // size[0]
+	void ClearBeams(); // size[0]
+	void InitCustomSchedules(); // size[0]
+	void LoadSchedules(); // size[0]
+	CScheduleLoader(); // size[0]
 };

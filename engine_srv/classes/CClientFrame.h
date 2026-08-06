@@ -3,16 +3,16 @@
 class CClientFrame
 {
 public:
-	virtual void ~CClientFrame(); // vtable[0]
-	virtual void ~CClientFrame(); // vtable[1]
+	virtual ~CClientFrame(); // vtable[0]
+	virtual ~CClientFrame(); // vtable[1]
 	virtual void IsMemPoolAllocated(); // vtable[2]
 
-	void _GLOBAL__sub_I_CClientFrame();
-	void CClientFrame();
-	void CClientFrame();
-	void Init();
-	void SetSnapshot();
-	void Init();
-	void CClientFrame();
-	void CopyFrame();
+	_GLOBAL__sub_I_CClientFrame(); // size[0]
+	CClientFrame(); // size[0]
+	CClientFrame(); // size[0]
+	void Init(); // size[0]
+	void SetSnapshot(); // size[0]
+	void Init(); // size[0]
+	CClientFrame(); // size[0]
+	void CopyFrame(); // size[0]
 };

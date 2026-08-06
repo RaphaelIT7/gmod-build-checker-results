@@ -3,8 +3,8 @@
 class CPhysicsObject : public IPhysicsObject
 {
 public:
-	virtual void ~CPhysicsObject(); // vtable[0]
-	virtual void ~CPhysicsObject(); // vtable[1]
+	virtual ~CPhysicsObject(); // vtable[0]
+	virtual ~CPhysicsObject(); // vtable[1]
 	virtual void IsStatic(); // vtable[2]
 	virtual void IsAsleep(); // vtable[3]
 	virtual void IsTrigger(); // vtable[4]
@@ -88,29 +88,29 @@ public:
 	virtual void OutputDebugInfo(); // vtable[82]
 	virtual void GetBuoyancyRatio(); // vtable[83]
 
-	void InitFromTemplate();
-	void _GLOBAL__sub_I_CPhysicsObject();
-	void GetVelocity();
-	void SetVolume();
-	void EnableCollisions();
-	void BecomeTrigger();
-	void CPhysicsObject();
-	void NotifySleep();
-	void NotifyWake();
-	void GetVPhysicsEnvironment();
-	void GetVPhysicsEnvironment();
-	void IsControlling();
-	void RecomputeDragBases();
-	void Init();
-	void IsControlledByGame();
-	void IsMassCenterAtDefault();
-	void SetVolume();
-	void GetVolume();
-	void ClampVelocity();
-	void RestoreShadowController();
-	void GetSurfaceManager();
-	void GetDragInDirection();
-	void GetAngularDragInDirection();
-	void WriteToTemplate();
-	void InitFromTemplate();
+	void InitFromTemplate(); // size[0]
+	_GLOBAL__sub_I_CPhysicsObject(); // size[0]
+	void GetVelocity(); // size[0]
+	void SetVolume(); // size[0]
+	void EnableCollisions(); // size[0]
+	void BecomeTrigger(); // size[0]
+	CPhysicsObject(); // size[0]
+	void NotifySleep(); // size[0]
+	void NotifyWake(); // size[0]
+	void GetVPhysicsEnvironment(); // size[0]
+	void GetVPhysicsEnvironment(); // size[0]
+	void IsControlling(); // size[0]
+	void RecomputeDragBases(); // size[0]
+	void Init(); // size[0]
+	void IsControlledByGame(); // size[0]
+	void IsMassCenterAtDefault(); // size[0]
+	void SetVolume(); // size[0]
+	void GetVolume(); // size[0]
+	void ClampVelocity(); // size[0]
+	void RestoreShadowController(); // size[0]
+	void GetSurfaceManager(); // size[0]
+	void GetDragInDirection(); // size[0]
+	void GetAngularDragInDirection(); // size[0]
+	void WriteToTemplate(); // size[0]
+	void InitFromTemplate(); // size[0]
 };

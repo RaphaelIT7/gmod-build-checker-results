@@ -3,8 +3,32 @@
 class CGameClient : public CBaseClient, public CClientFrameManager
 {
 public:
-	virtual void ~CGameClient() override; // vtable[0]
-	virtual void ~CGameClient() override; // vtable[1]
+	virtual ~CGameClient() override; // vtable[0]
+	virtual ~CGameClient() override; // vtable[1]
+	virtual void Connect() override; // vtable[11]
+	virtual void Inactivate() override; // vtable[12]
+	virtual void Reconnect() override; // vtable[13]
+	virtual void Disconnect() override; // vtable[14]
+	virtual void SetRate() override; // vtable[15]
+	virtual void SetUpdateRate() override; // vtable[17]
+	virtual void Clear() override; // vtable[19]
+	virtual void ExecuteStringCommand() override; // vtable[22]
+	virtual void SendNetMsg() override; // vtable[23]
+	virtual void IsHearingClient() override; // vtable[30]
+	virtual void IsProximityHearingClient() override; // vtable[31]
+	virtual void ProcessClientInfo() override; // vtable[38]
+	virtual void ProcessCmdKeyValues() override; // vtable[41]
+	virtual void UpdateAcknowledgedFramecount() override; // vtable[43]
+	virtual void ShouldSendMessages() override; // vtable[44]
+	virtual void UpdateUserSettings() override; // vtable[47]
+	virtual void SetSignonState() override; // vtable[48]
+	virtual void WriteGameSounds() override; // vtable[49]
+	virtual void GetDeltaFrame() override; // vtable[50]
+	virtual void SendSnapshot() override; // vtable[51]
+	virtual void SendSignonData() override; // vtable[53]
+	virtual void SpawnPlayer() override; // vtable[54]
+	virtual void ActivatePlayer() override; // vtable[55]
+	virtual void IgnoreTempEntity() override; // vtable[59]
 	virtual void ConnectionClosing(); // vtable[60]
 	virtual void ConnectionCrashed(); // vtable[61]
 	virtual void PacketStart(); // vtable[62]
@@ -21,51 +45,51 @@ public:
 	virtual void ProcessFileMD5Check(); // vtable[73]
 	virtual void ProcessGMod_ClientToServer(); // vtable[74]
 
-	void ProcessGMod_ClientToServer();
-	void ProcessCmdKeyValues();
-	void ProcessRespondCvarValue();
-	void ProcessFileCRCCheck();
-	void ProcessFileMD5Check();
-	void PacketStart();
-	void FileDenied();
-	void IsHearingClient();
-	void FileSent();
-	void PacketEnd();
-	void ConnectionClosing();
-	void FileReceived();
-	void ConnectionCrashed();
-	void ProcessVoiceData();
-	void ProcessVoiceData();
-	void IsProximityHearingClient();
-	void ShouldAcceptFile();
-	void FileRequested();
-	void DownloadCustomizations();
-	void SetupPackInfo();
-	void SetupPrevPackInfo();
-	void CheckConnect();
-	void WriteViewAngleUpdate();
-	void IsEngineClientCommand();
-	void GetSendFrame();
-	void GetPrevPackInfo();
-	void FillSoundsMessage();
-	void WriteGameSounds();
-	void ~CGameClient();
-	void ~CGameClient();
-	void ~CGameClient();
-	void ~CGameClient();
-	void ~CGameClient();
-	void ~CGameClient();
-	void SendSound();
-	void ProcessClientInfo();
-	void ProcessMove();
-	void Connect();
-	void SetRate();
-	void SetUpdateRate();
-	void Inactivate();
-	void Clear();
-	void CGameClient();
-	void Reconnect();
-	void Disconnect();
-	void SendNetMsg();
-	void ExecuteStringCommand();
+	void ProcessGMod_ClientToServer(); // size[0]
+	void ProcessCmdKeyValues(); // size[0]
+	void ProcessRespondCvarValue(); // size[0]
+	void ProcessFileCRCCheck(); // size[0]
+	void ProcessFileMD5Check(); // size[0]
+	void PacketStart(); // size[0]
+	void FileDenied(); // size[0]
+	void IsHearingClient(); // size[0]
+	void FileSent(); // size[0]
+	void PacketEnd(); // size[0]
+	void ConnectionClosing(); // size[0]
+	void FileReceived(); // size[0]
+	void ConnectionCrashed(); // size[0]
+	void ProcessVoiceData(); // size[0]
+	void ProcessVoiceData(); // size[0]
+	void IsProximityHearingClient(); // size[0]
+	void ShouldAcceptFile(); // size[0]
+	void FileRequested(); // size[0]
+	void DownloadCustomizations(); // size[0]
+	void SetupPackInfo(); // size[0]
+	void SetupPrevPackInfo(); // size[0]
+	void CheckConnect(); // size[0]
+	void WriteViewAngleUpdate(); // size[0]
+	void IsEngineClientCommand(); // size[0]
+	void GetSendFrame(); // size[0]
+	void GetPrevPackInfo(); // size[0]
+	void FillSoundsMessage(); // size[0]
+	void WriteGameSounds(); // size[0]
+	~CGameClient(); // size[0]
+	~CGameClient(); // size[0]
+	~CGameClient(); // size[0]
+	~CGameClient(); // size[0]
+	~CGameClient(); // size[0]
+	~CGameClient(); // size[0]
+	void SendSound(); // size[0]
+	void ProcessClientInfo(); // size[0]
+	void ProcessMove(); // size[0]
+	void Connect(); // size[0]
+	void SetRate(); // size[0]
+	void SetUpdateRate(); // size[0]
+	void Inactivate(); // size[0]
+	void Clear(); // size[0]
+	CGameClient(); // size[0]
+	void Reconnect(); // size[0]
+	void Disconnect(); // size[0]
+	void SendNetMsg(); // size[0]
+	void ExecuteStringCommand(); // size[0]
 };

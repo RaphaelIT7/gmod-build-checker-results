@@ -3,6 +3,7 @@
 class CFuncIllusionary : public CBaseEntity
 {
 public:
-	virtual void ~CFuncIllusionary() override; // vtable[0]
-	virtual void ~CFuncIllusionary() override; // vtable[1]
+	virtual ~CFuncIllusionary() override; // vtable[0]
+	virtual ~CFuncIllusionary() override; // vtable[1]
+	virtual void Spawn() override; // vtable[23]
 };

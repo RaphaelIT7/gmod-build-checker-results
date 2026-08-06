@@ -6,14 +6,14 @@ public:
 	virtual void GetNodeForces(); // vtable[0]
 	virtual void ApplyConstraints() override; // vtable[1]
 
-	void _GLOBAL__sub_I_CBaseRopePhysics();
-	void SetNumNodes();
-	void CBaseRopePhysics();
-	void Restart();
-	void ResetSpringLength();
-	void GetSpringLength();
-	void ResetNodeSpringLength();
-	void SetupSimulation();
-	void SetDelegate();
-	void Simulate();
+	_GLOBAL__sub_I_CBaseRopePhysics(); // size[0]
+	void SetNumNodes(); // size[0]
+	CBaseRopePhysics(); // size[0]
+	void Restart(); // size[0]
+	void ResetSpringLength(); // size[0]
+	void GetSpringLength(); // size[0]
+	void ResetNodeSpringLength(); // size[0]
+	void SetupSimulation(); // size[0]
+	void SetDelegate(); // size[0]
+	void Simulate(); // size[0]
 };

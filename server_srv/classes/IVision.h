@@ -3,8 +3,9 @@
 class IVision : public INextBotComponent
 {
 public:
-	virtual void ~IVision() override; // vtable[0]
-	virtual void ~IVision() override; // vtable[1]
+	virtual ~IVision() override; // vtable[0]
+	virtual ~IVision() override; // vtable[1]
+	virtual void Reset() override; // vtable[43]
 	virtual void Update() override; // vtable[44]
 	virtual void ForEachKnownEntity(); // vtable[47]
 	virtual void CollectKnownEntities(); // vtable[48]
@@ -34,6 +35,6 @@ public:
 	virtual void IsLookingAt(); // vtable[72]
 	virtual void IsLookingAt(); // vtable[73]
 
-	void IVision();
-	void UpdateKnownEntities();
+	IVision(); // size[0]
+	void UpdateKnownEntities(); // size[0]
 };

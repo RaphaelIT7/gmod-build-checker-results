@@ -3,9 +3,11 @@
 class MovieExplosion : public CBaseParticleEntity
 {
 public:
-	virtual void ~MovieExplosion() override; // vtable[0]
-	virtual void ~MovieExplosion() override; // vtable[1]
+	virtual ~MovieExplosion() override; // vtable[0]
+	virtual ~MovieExplosion() override; // vtable[1]
+	virtual void GetServerClass() override; // vtable[10]
+	virtual void YouForgotToImplementOrDeclareServerClass() override; // vtable[11]
 
-	void _GLOBAL__sub_I_GetServerClass();
-	void CreateMovieExplosion();
+	void _GLOBAL__sub_I_GetServerClass(); // size[0]
+	void CreateMovieExplosion(); // size[0]
 };

@@ -3,8 +3,8 @@
 class CThreadPool : public CRefCounted1
 {
 public:
-	virtual void ~CThreadPool() override; // vtable[2]
-	virtual void ~CThreadPool() override; // vtable[3]
+	virtual ~CThreadPool() override; // vtable[2]
+	virtual ~CThreadPool() override; // vtable[3]
 	virtual void Start(); // vtable[4]
 	virtual void Stop(); // vtable[5]
 	virtual void GetJobCount(); // vtable[6]
@@ -26,14 +26,14 @@ public:
 	virtual void Distribute(); // vtable[23]
 	virtual void Start() override; // vtable[24]
 
-	void DoExecute();
-	void ~CDummyJob();
-	void ~CDummyJob();
-	void ~CDummyJob();
-	void ~CDummyJob();
-	void WaitForIdle();
-	void InsertJobInQueue();
-	void CThreadPool();
-	void ~CThreadPool();
-	void ~CThreadPool();
+	void DoExecute(); // size[0]
+	~CDummyJob(); // size[0]
+	~CDummyJob(); // size[0]
+	~CDummyJob(); // size[0]
+	~CDummyJob(); // size[0]
+	void WaitForIdle(); // size[0]
+	void InsertJobInQueue(); // size[0]
+	CThreadPool(); // size[0]
+	~CThreadPool(); // size[0]
+	~CThreadPool(); // size[0]
 };

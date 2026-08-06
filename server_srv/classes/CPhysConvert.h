@@ -3,9 +3,10 @@
 class CPhysConvert : public CLogicalEntity
 {
 public:
-	virtual void ~CPhysConvert() override; // vtable[0]
-	virtual void ~CPhysConvert() override; // vtable[1]
+	virtual ~CPhysConvert() override; // vtable[0]
+	virtual ~CPhysConvert() override; // vtable[1]
+	virtual void GetDataDescMap() override; // vtable[12]
 
-	void InputConvertTarget();
-	void GetBaseMap();
+	void InputConvertTarget(); // size[0]
+	void GetBaseMap(); // size[0]
 };

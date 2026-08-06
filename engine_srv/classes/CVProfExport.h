@@ -12,6 +12,6 @@ public:
 	virtual void GetBudgetGroupInfos(); // vtable[6]
 	virtual void GetBudgetGroupTimes(); // vtable[7]
 
-	void CalculateBudgetGroupTimes_Recursive();
-	void ~CVProfExport();
+	void CalculateBudgetGroupTimes_Recursive(); // size[0]
+	~CVProfExport(); // size[0]
 };

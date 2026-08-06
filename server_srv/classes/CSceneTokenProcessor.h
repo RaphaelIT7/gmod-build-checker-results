@@ -8,5 +8,5 @@ public:
 	virtual void TokenAvailable(); // vtable[2]
 	virtual void Error(); // vtable[3]
 
-	void SetBuffer();
+	void SetBuffer(); // size[0]
 };

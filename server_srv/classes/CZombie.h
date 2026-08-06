@@ -3,16 +3,44 @@
 class CZombie : public CAI_BlendingHost
 {
 public:
-	virtual void ~CZombie() override; // vtable[0]
-	virtual void ~CZombie() override; // vtable[1]
+	virtual ~CZombie() override; // vtable[0]
+	virtual ~CZombie() override; // vtable[1]
+	virtual void GetDataDescMap() override; // vtable[12]
+	virtual void Spawn() override; // vtable[23]
+	virtual void Precache() override; // vtable[24]
+	virtual void Ignite() override; // vtable[267]
+	virtual void Extinguish() override; // vtable[271]
+	virtual void NPC_TranslateActivity() override; // vtable[322]
+	virtual void OnTakeDamage_Alive() override; // vtable[338]
+	virtual void GatherConditions() override; // vtable[402]
+	virtual void PrescheduleThink() override; // vtable[403]
+	virtual void SelectSchedule() override; // vtable[407]
+	virtual void SelectFailSchedule() override; // vtable[408]
+	virtual void TranslateSchedule() override; // vtable[409]
+	virtual void StartTask() override; // vtable[410]
+	virtual void RunTask() override; // vtable[411]
+	virtual void GetSchedulingErrorName() override; // vtable[432]
+	virtual void LoadedSchedules() override; // vtable[433]
+	virtual void BuildScheduleTestBits() override; // vtable[434]
+	virtual void OnStateChange() override; // vtable[455]
+	virtual void DeathSound() override; // vtable[507]
 	virtual void AlertSound(); // vtable[508]
 	virtual void IdleSound(); // vtable[509]
 	virtual void PainSound(); // vtable[510]
+	virtual void OnObstructingDoor() override; // vtable[550]
+	virtual void SquadSlotName() override; // vtable[581]
+	virtual void IsHeavyDamage() override; // vtable[633]
+	virtual void GetClassScheduleIdSpace() override; // vtable[640]
+	virtual void IsSquashed() override; // vtable[689]
+	virtual void ShouldBecomeTorso() override; // vtable[691]
+	virtual void SetZombieModel() override; // vtable[693]
+	virtual void CanBecomeLiveTorso() override; // vtable[695]
 	virtual void AttackSound(); // vtable[701]
 	virtual void AttackHitSound(); // vtable[702]
 	virtual void AttackMissSound(); // vtable[703]
 	virtual void FootstepSound(); // vtable[704]
 	virtual void FootscuffSound(); // vtable[705]
+	virtual void MoanSound() override; // vtable[707]
 	virtual void GetMoanSound(); // vtable[708]
 	virtual void GetHeadcrabClassname(); // vtable[709]
 	virtual void GetLegsModel(); // vtable[710]
@@ -22,9 +50,9 @@ public:
 	virtual void GetTorsoClassName(); // vtable[715]
 	virtual void IsHeadless(); // vtable[716]
 
-	void GetBaseMap();
-	void SelectDoorBash();
-	void InitCustomSchedules();
-	void LoadSchedules();
-	void CScheduleLoader();
+	void GetBaseMap(); // size[0]
+	void SelectDoorBash(); // size[0]
+	void InitCustomSchedules(); // size[0]
+	void LoadSchedules(); // size[0]
+	CScheduleLoader(); // size[0]
 };

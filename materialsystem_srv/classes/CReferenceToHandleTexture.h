@@ -46,8 +46,8 @@ public:
 	virtual void CopyMeToFrameBuffer(); // vtable[40]
 	virtual void GetEmbeddedTexture(); // vtable[41]
 	virtual void GetTextureHandle(); // vtable[42]
-	virtual void ~CReferenceToHandleTexture() override; // vtable[43]
-	virtual void ~CReferenceToHandleTexture() override; // vtable[44]
+	virtual ~CReferenceToHandleTexture() override; // vtable[43]
+	virtual ~CReferenceToHandleTexture() override; // vtable[44]
 	virtual void SetRenderTarget(); // vtable[45]
 	virtual void BindVertexTexture(); // vtable[46]
 	virtual void MarkAsPreloaded(); // vtable[47]
@@ -57,7 +57,7 @@ public:
 	virtual void IsTempRenderTarget(); // vtable[51]
 	virtual void ReloadFilesInList() override; // vtable[52]
 
-	void CReferenceToHandleTexture();
-	void SetName();
-	void InitFromHandle();
+	CReferenceToHandleTexture(); // size[0]
+	void SetName(); // size[0]
+	void InitFromHandle(); // size[0]
 };

@@ -3,9 +3,19 @@
 class CBaseHelicopter_HL1 : public CAI_BaseNPC
 {
 public:
-	virtual void ~CBaseHelicopter_HL1() override; // vtable[0]
-	virtual void ~CBaseHelicopter_HL1() override; // vtable[1]
+	virtual ~CBaseHelicopter_HL1() override; // vtable[0]
+	virtual ~CBaseHelicopter_HL1() override; // vtable[1]
+	virtual void GetServerClass() override; // vtable[10]
 	virtual void _ZN19CBaseHelicopter_HL140YouForgotToImplementOrDeclareServerClassEv() override; // vtable[11]
+	virtual void GetDataDescMap() override; // vtable[12]
+	virtual void Spawn() override; // vtable[23]
+	virtual void Precache() override; // vtable[24]
+	virtual void DrawDebugGeometryOverlays() override; // vtable[39]
+	virtual void Classify() override; // vtable[55]
+	virtual void Event_Killed() override; // vtable[68]
+	virtual void BloodColor() override; // vtable[70]
+	virtual void StopLoopingSounds() override; // vtable[109]
+	virtual void OnTakeDamage_Alive() override; // vtable[338]
 	virtual void ChooseEnemy(); // vtable[652]
 	virtual void HelicopterThink(); // vtable[653]
 	virtual void HelicopterPostThink(); // vtable[654]
@@ -31,13 +41,13 @@ public:
 	virtual void AimRocketGun(); // vtable[674]
 	virtual void FireRocket(); // vtable[675]
 
-	void InputActivate();
-	void GetBaseMap();
-	void UpdatePlayerDopplerShift();
-	void TraceAttack();
-	void GibMonster();
-	void ChangePathCorner();
-	void InputChangePathCorner();
-	void CheckEnemy();
-	void CallDyingThink();
+	void InputActivate(); // size[0]
+	void GetBaseMap(); // size[0]
+	void UpdatePlayerDopplerShift(); // size[0]
+	void TraceAttack(); // size[0]
+	void GibMonster(); // size[0]
+	void ChangePathCorner(); // size[0]
+	void InputChangePathCorner(); // size[0]
+	void CheckEnemy(); // size[0]
+	void CallDyingThink(); // size[0]
 };

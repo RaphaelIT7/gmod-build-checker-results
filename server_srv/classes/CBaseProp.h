@@ -3,10 +3,16 @@
 class CBaseProp : public CBaseAnimating
 {
 public:
-	virtual void ~CBaseProp() override; // vtable[0]
-	virtual void ~CBaseProp() override; // vtable[1]
+	virtual ~CBaseProp() override; // vtable[0]
+	virtual ~CBaseProp() override; // vtable[1]
+	virtual void Spawn() override; // vtable[23]
+	virtual void Precache() override; // vtable[24]
+	virtual void KeyValue() override; // vtable[30]
+	virtual void Activate() override; // vtable[34]
+	virtual void DrawDebugGeometryOverlays() override; // vtable[39]
+	virtual void IsAlive() override; // vtable[67]
 	virtual void OverridePropdata(); // vtable[282]
 
-	void CalculateBlockLOS();
-	void ParsePropData();
+	void CalculateBlockLOS(); // size[0]
+	void ParsePropData(); // size[0]
 };

@@ -80,14 +80,14 @@ public:
 	virtual void CommitRenderTargetAndViewport(); // vtable[233]
 	virtual void OnRenderDataUnreferenced(); // vtable[234]
 
-	void BindLocalCubemap();
-	void RecomputeViewState();
-	void Init();
-	void Shutdown();
-	void CompactMemory();
-	void RenderDataSizeUsed();
-	void CurrentMatrixChanged();
-	void RecomputeViewState();
-	void RecomputeViewProjState();
-	void CMatRenderContextBase();
+	void BindLocalCubemap(); // size[0]
+	void RecomputeViewState(); // size[0]
+	void Init(); // size[0]
+	void Shutdown(); // size[0]
+	void CompactMemory(); // size[0]
+	void RenderDataSizeUsed(); // size[0]
+	void CurrentMatrixChanged(); // size[0]
+	void RecomputeViewState(); // size[0]
+	void RecomputeViewProjState(); // size[0]
+	CMatRenderContextBase(); // size[0]
 };

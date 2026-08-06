@@ -7,22 +7,22 @@ public:
 	virtual void event_object_created(); // vtable[1]
 	virtual void event_object_revived(); // vtable[2]
 	virtual void event_object_frozen() override; // vtable[3]
-	virtual void ~IVP_Controller_Phantom(); // vtable[4]
-	virtual void ~IVP_Controller_Phantom(); // vtable[5]
+	virtual ~IVP_Controller_Phantom(); // vtable[4]
+	virtual ~IVP_Controller_Phantom(); // vtable[5]
 
-	void IVP_Controller_Phantom();
-	void add_listener_phantom();
-	void remove_listener_phantom();
-	void add_sleeping_object();
-	void remove_sleeping_object();
-	void wake_all_sleeping_objects();
-	void fire_event_core_entered();
-	void fire_event_core_left();
-	void mindist_entered_volume();
-	void mindist_left_volume();
-	void IVP_Controller_Phantom();
-	void get_intruding_objects();
-	void get_intruding_cores();
-	void get_intruding_mindists();
-	void get_object();
+	IVP_Controller_Phantom(); // size[0]
+	void add_listener_phantom(); // size[0]
+	void remove_listener_phantom(); // size[0]
+	void add_sleeping_object(); // size[0]
+	void remove_sleeping_object(); // size[0]
+	void wake_all_sleeping_objects(); // size[0]
+	void fire_event_core_entered(); // size[0]
+	void fire_event_core_left(); // size[0]
+	void mindist_entered_volume(); // size[0]
+	void mindist_left_volume(); // size[0]
+	IVP_Controller_Phantom(); // size[0]
+	void get_intruding_objects(); // size[0]
+	void get_intruding_cores(); // size[0]
+	void get_intruding_mindists(); // size[0]
+	void get_object(); // size[0]
 };

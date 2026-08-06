@@ -8,5 +8,5 @@ public:
 	virtual void OnEndMapLoading(); // vtable[2]
 	virtual void PurgeAll(); // vtable[3]
 
-	void QueuedLoaderMapCallback();
+	void QueuedLoaderMapCallback(); // size[0]
 };

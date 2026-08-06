@@ -3,13 +3,13 @@
 class IVP_Ball : public IVP_Real_Object
 {
 public:
-	virtual void ~IVP_Ball() override; // vtable[0]
-	virtual void ~IVP_Ball() override; // vtable[1]
+	virtual ~IVP_Ball() override; // vtable[0]
+	virtual ~IVP_Ball() override; // vtable[1]
 
-	void IVP_Ball();
-	void _GLOBAL__sub_I_IVP_Ball();
-	void _GLOBAL__sub_I_IVP_Ball();
-	void IVP_Ball();
-	void get_radius();
-	void set_radius();
+	IVP_Ball(); // size[0]
+	_GLOBAL__sub_I_IVP_Ball(); // size[0]
+	_GLOBAL__sub_I_IVP_Ball(); // size[0]
+	IVP_Ball(); // size[0]
+	void get_radius(); // size[0]
+	void set_radius(); // size[0]
 };

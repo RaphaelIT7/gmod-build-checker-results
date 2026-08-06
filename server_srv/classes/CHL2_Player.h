@@ -3,8 +3,63 @@
 class CHL2_Player : public CBaseMultiplayerPlayer
 {
 public:
-	virtual void ~CHL2_Player() override; // vtable[0]
-	virtual void ~CHL2_Player() override; // vtable[1]
+	virtual ~CHL2_Player() override; // vtable[0]
+	virtual ~CHL2_Player() override; // vtable[1]
+	virtual void GetServerClass() override; // vtable[10]
+	virtual void YouForgotToImplementOrDeclareServerClass() override; // vtable[11]
+	virtual void GetDataDescMap() override; // vtable[12]
+	virtual void TestHitboxes() override; // vtable[15]
+	virtual void Spawn() override; // vtable[23]
+	virtual void Precache() override; // vtable[24]
+	virtual void Activate() override; // vtable[34]
+	virtual void DrawDebugGeometryOverlays() override; // vtable[39]
+	virtual void OnRestore() override; // vtable[45]
+	virtual void Classify() override; // vtable[55]
+	virtual void PassesDamageFilter() override; // vtable[61]
+	virtual void OnTakeDamage() override; // vtable[64]
+	virtual void Event_Killed() override; // vtable[68]
+	virtual void Event_KilledOther() override; // vtable[69]
+	virtual void StopLoopingSounds() override; // vtable[109]
+	virtual void Splash() override; // vtable[151]
+	virtual void GetPhysicsImpactDamageTable() override; // vtable[291]
+	virtual void ShouldShootMissTarget() override; // vtable[296]
+	virtual void HandleInteraction() override; // vtable[298]
+	virtual void EyeDirection2D() override; // vtable[304]
+	virtual void EyeDirection3D() override; // vtable[305]
+	virtual void GiveAmmo() override; // vtable[318]
+	virtual void Weapon_Equip() override; // vtable[327]
+	virtual void Weapon_Switch() override; // vtable[330]
+	virtual void Weapon_CanSwitchTo() override; // vtable[332]
+	virtual void OnTakeDamage_Alive() override; // vtable[338]
+	virtual void NotifyFriendsOfDamage() override; // vtable[343]
+	virtual void CalcWeaponProficiency() override; // vtable[371]
+	virtual void SetupVisibility() override; // vtable[389]
+	virtual void PreThink() override; // vtable[399]
+	virtual void PostThink() override; // vtable[400]
+	virtual void OnDamagedByExplosion() override; // vtable[402]
+	virtual void UpdateClientData() override; // vtable[416]
+	virtual void ExitLadder() override; // vtable[417]
+	virtual void GetLadderSurface() override; // vtable[418]
+	virtual void SetFlashlightEnabled() override; // vtable[419]
+	virtual void FlashlightIsOn() override; // vtable[420]
+	virtual void FlashlightTurnOn() override; // vtable[421]
+	virtual void FlashlightTurnOff() override; // vtable[422]
+	virtual void IsIlluminatedByFlashlight() override; // vtable[423]
+	virtual void CheatImpulseCommands() override; // vtable[433]
+	virtual void ClientCommand() override; // vtable[434]
+	virtual void ItemPostFrame() override; // vtable[465]
+	virtual void SetPlayerUnderwater() override; // vtable[468]
+	virtual void CanBreatheUnderwater() override; // vtable[469]
+	virtual void PlayerUse() override; // vtable[470]
+	virtual void PlayUseDenySound() override; // vtable[471]
+	virtual void PickupObject() override; // vtable[474]
+	virtual void ForceDropOfCarriedPhysObjects() override; // vtable[475]
+	virtual void GetHeldObjectMass() override; // vtable[476]
+	virtual void PlayerRunCommand() override; // vtable[483]
+	virtual void ModifyOrAppendPlayerCriteria() override; // vtable[487]
+	virtual void IsFollowingPhysics() override; // vtable[491]
+	virtual void InitVCollision() override; // vtable[492]
+	virtual void EquipSuit() override; // vtable[499]
 	virtual void _ZN11CHL2_Player10RemoveSuitEv() override; // vtable[500]
 	virtual void SuspendUse(); // vtable[550]
 	virtual void CommanderMode(); // vtable[551]
@@ -28,49 +83,49 @@ public:
 	virtual void NetworkStateChanged_m_fIsWalking(); // vtable[569]
 	virtual void NetworkStateChanged_m_fIsWalking(); // vtable[570]
 
-	void InputDisableFlashlight();
-	void InputEnableFlashlight();
-	void InputIgnoreFallDamage();
-	void InputIgnoreFallDamageWithoutReset();
-	void InputForceDropPhysObjects();
-	void OnSquadMemberKilled();
-	void GetBaseMap();
-	void CHL2_Player();
-	void HandleArmorReduction();
-	void StartAdmireGlovesAnimation();
-	void HandleAdmireGlovesAnimation();
-	void StartWalking();
-	void StopWalking();
-	void CanZoom();
-	void StartZooming();
-	void StopZooming();
-	void CheckSuitZoom();
-	void ToggleZoom();
-	void IsZooming();
-	void GetSquadCommandRepresentative();
-	void GetNumSquadCommandables();
-	void GetNumSquadCommandableMedics();
-	void CommanderExecuteOne();
-	void SuitPower_Initialize();
-	void SuitPower_Drain();
-	void SuitPower_Charge();
-	void SuitPower_IsDeviceActive();
-	void SuitPower_AddDevice();
-	void SuitPower_RemoveDevice();
-	void SuitPower_ShouldRecharge();
-	void SuitPower_Update();
-	void ApplyBattery();
-	void CheckFlashlight();
-	void CombineBallSocketed();
-	void NotifyScriptsOfDeath();
-	void StartWaterDeathSounds();
-	void StopWaterDeathSounds();
-	void GetPlayerProxy();
-	void MissedAR2AltFire();
-	void FirePlayerProxyOutput();
-	void CommanderFindGoal();
-	void CommanderExecute();
-	void CommanderUpdate();
-	void NetworkStateChanged();
-	void NetworkStateChanged();
+	void InputDisableFlashlight(); // size[0]
+	void InputEnableFlashlight(); // size[0]
+	void InputIgnoreFallDamage(); // size[0]
+	void InputIgnoreFallDamageWithoutReset(); // size[0]
+	void InputForceDropPhysObjects(); // size[0]
+	void OnSquadMemberKilled(); // size[0]
+	void GetBaseMap(); // size[0]
+	CHL2_Player(); // size[0]
+	void HandleArmorReduction(); // size[0]
+	void StartAdmireGlovesAnimation(); // size[0]
+	void HandleAdmireGlovesAnimation(); // size[0]
+	void StartWalking(); // size[0]
+	void StopWalking(); // size[0]
+	void CanZoom(); // size[0]
+	void StartZooming(); // size[0]
+	void StopZooming(); // size[0]
+	void CheckSuitZoom(); // size[0]
+	void ToggleZoom(); // size[0]
+	void IsZooming(); // size[0]
+	void GetSquadCommandRepresentative(); // size[0]
+	void GetNumSquadCommandables(); // size[0]
+	void GetNumSquadCommandableMedics(); // size[0]
+	void CommanderExecuteOne(); // size[0]
+	void SuitPower_Initialize(); // size[0]
+	void SuitPower_Drain(); // size[0]
+	void SuitPower_Charge(); // size[0]
+	void SuitPower_IsDeviceActive(); // size[0]
+	void SuitPower_AddDevice(); // size[0]
+	void SuitPower_RemoveDevice(); // size[0]
+	void SuitPower_ShouldRecharge(); // size[0]
+	void SuitPower_Update(); // size[0]
+	void ApplyBattery(); // size[0]
+	void CheckFlashlight(); // size[0]
+	void CombineBallSocketed(); // size[0]
+	void NotifyScriptsOfDeath(); // size[0]
+	void StartWaterDeathSounds(); // size[0]
+	void StopWaterDeathSounds(); // size[0]
+	void GetPlayerProxy(); // size[0]
+	void MissedAR2AltFire(); // size[0]
+	void FirePlayerProxyOutput(); // size[0]
+	void CommanderFindGoal(); // size[0]
+	void CommanderExecute(); // size[0]
+	void CommanderUpdate(); // size[0]
+	void NetworkStateChanged(); // size[0]
+	void NetworkStateChanged(); // size[0]
 };

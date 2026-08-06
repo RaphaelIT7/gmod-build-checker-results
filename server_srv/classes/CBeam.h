@@ -3,42 +3,54 @@
 class CBeam : public CBaseEntity
 {
 public:
-	virtual void ~CBeam() override; // vtable[0]
-	virtual void ~CBeam() override; // vtable[1]
+	virtual ~CBeam() override; // vtable[0]
+	virtual ~CBeam() override; // vtable[1]
+	virtual void GetServerClass() override; // vtable[10]
+	virtual void YouForgotToImplementOrDeclareServerClass() override; // vtable[11]
+	virtual void GetDataDescMap() override; // vtable[12]
+	virtual void ShouldTransmit() override; // vtable[19]
+	virtual void UpdateTransmitState() override; // vtable[20]
+	virtual void SetTransmit() override; // vtable[21]
+	virtual void Spawn() override; // vtable[23]
+	virtual void Precache() override; // vtable[24]
+	virtual void SetModel() override; // vtable[25]
+	virtual void ObjectCaps() override; // vtable[36]
+	virtual void DrawDebugTextOverlays() override; // vtable[40]
+	virtual void WorldSpaceCenter() override; // vtable[152]
 	virtual void GetDecalName(); // vtable[246]
 
-	void InputNoise();
-	void InputWidth();
-	void InputColorBlueValue();
-	void InputColorGreenValue();
-	void InputColorRedValue();
-	void GetBaseMap();
-	void CBeam();
-	void SetType();
-	void SetBeamFlags();
-	void SetBeamFlag();
-	void GetType();
-	void GetBeamFlags();
-	void SetAbsStartPos();
-	void SetAbsEndPos();
-	void GetAbsStartPos();
-	void GetAbsEndPos();
-	void BeamInit();
-	void BeamCreate();
-	void BeamCreatePredictable();
-	void RelinkBeam();
-	void SetStartEntity();
-	void SetEndEntity();
-	void PointsInit();
-	void HoseInit();
-	void PointEntInit();
-	void EntsInit();
-	void LaserInit();
-	void SplineInit();
-	void RandomTargetname();
-	void DoSparks();
-	void BeamDamage();
-	void TurnOn();
-	void TurnOff();
-	void SetBrightness();
+	void InputNoise(); // size[0]
+	void InputWidth(); // size[0]
+	void InputColorBlueValue(); // size[0]
+	void InputColorGreenValue(); // size[0]
+	void InputColorRedValue(); // size[0]
+	void GetBaseMap(); // size[0]
+	CBeam(); // size[0]
+	void SetType(); // size[0]
+	void SetBeamFlags(); // size[0]
+	void SetBeamFlag(); // size[0]
+	void GetType(); // size[0]
+	void GetBeamFlags(); // size[0]
+	void SetAbsStartPos(); // size[0]
+	void SetAbsEndPos(); // size[0]
+	void GetAbsStartPos(); // size[0]
+	void GetAbsEndPos(); // size[0]
+	void BeamInit(); // size[0]
+	void BeamCreate(); // size[0]
+	void BeamCreatePredictable(); // size[0]
+	void RelinkBeam(); // size[0]
+	void SetStartEntity(); // size[0]
+	void SetEndEntity(); // size[0]
+	void PointsInit(); // size[0]
+	void HoseInit(); // size[0]
+	void PointEntInit(); // size[0]
+	void EntsInit(); // size[0]
+	void LaserInit(); // size[0]
+	void SplineInit(); // size[0]
+	void RandomTargetname(); // size[0]
+	void DoSparks(); // size[0]
+	void BeamDamage(); // size[0]
+	void TurnOn(); // size[0]
+	void TurnOff(); // size[0]
+	void SetBrightness(); // size[0]
 };

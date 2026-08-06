@@ -3,40 +3,50 @@
 class CGameServer : public CBaseServer
 {
 public:
-	virtual void ~CGameServer() override; // vtable[0]
-	virtual void ~CGameServer() override; // vtable[1]
+	virtual ~CGameServer() override; // vtable[0]
+	virtual ~CGameServer() override; // vtable[1]
+	virtual void IsPausable() override; // vtable[26]
+	virtual void SetMaxClients() override; // vtable[37]
+	virtual void Init() override; // vtable[40]
+	virtual void Clear() override; // vtable[41]
+	virtual void Shutdown() override; // vtable[42]
+	virtual void RemoveClientFromGame() override; // vtable[44]
+	virtual void SendClientMessages() override; // vtable[45]
+	virtual void CreateNewClient() override; // vtable[52]
+	virtual void FinishCertificateCheck() override; // vtable[53]
+	virtual void UpdateMasterServerPlayers() override; // vtable[65]
 
-	void SetQueryPortFromSteamServer();
-	void SetQueryPortFromSteamServer();
-	void InitMaxClients();
-	void BroadcastSound();
-	void IsInPureServerMode();
-	void GetPureServerWhitelist();
-	void IsHibernating();
-	void SetHibernating();
-	void UpdateHibernationState();
-	void FinishRestore();
-	void CopyTempEntities();
-	void ReloadWhitelist();
-	void SpawnServer();
-	void CopyPureServerWhitelistToStringTable();
-	void CreateEngineStringTables();
-	void CGameServer();
-	void AssignClassIds();
-	void GetModelPrecacheTable();
-	void PrecacheModel();
-	void GetModel();
-	void LookupModelIndex();
-	void GetSoundPrecacheTable();
-	void PrecacheSound();
-	void GetSound();
-	void LookupSoundIndex();
-	void GetGenericPrecacheTable();
-	void PrecacheGeneric();
-	void GetGeneric();
-	void LookupGenericIndex();
-	void GetDecalPrecacheTable();
-	void PrecacheDecal();
-	void LookupDecalIndex();
-	void DumpPrecacheStats();
+	void SetQueryPortFromSteamServer(); // size[0]
+	void SetQueryPortFromSteamServer(); // size[0]
+	void InitMaxClients(); // size[0]
+	void BroadcastSound(); // size[0]
+	void IsInPureServerMode(); // size[0]
+	void GetPureServerWhitelist(); // size[0]
+	void IsHibernating(); // size[0]
+	void SetHibernating(); // size[0]
+	void UpdateHibernationState(); // size[0]
+	void FinishRestore(); // size[0]
+	void CopyTempEntities(); // size[0]
+	void ReloadWhitelist(); // size[0]
+	void SpawnServer(); // size[0]
+	void CopyPureServerWhitelistToStringTable(); // size[0]
+	void CreateEngineStringTables(); // size[0]
+	CGameServer(); // size[0]
+	void AssignClassIds(); // size[0]
+	void GetModelPrecacheTable(); // size[0]
+	void PrecacheModel(); // size[0]
+	void GetModel(); // size[0]
+	void LookupModelIndex(); // size[0]
+	void GetSoundPrecacheTable(); // size[0]
+	void PrecacheSound(); // size[0]
+	void GetSound(); // size[0]
+	void LookupSoundIndex(); // size[0]
+	void GetGenericPrecacheTable(); // size[0]
+	void PrecacheGeneric(); // size[0]
+	void GetGeneric(); // size[0]
+	void LookupGenericIndex(); // size[0]
+	void GetDecalPrecacheTable(); // size[0]
+	void PrecacheDecal(); // size[0]
+	void LookupDecalIndex(); // size[0]
+	void DumpPrecacheStats(); // size[0]
 };

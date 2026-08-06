@@ -3,39 +3,40 @@
 class CFuncInstanceIoProxy : public CBaseEntity
 {
 public:
-	virtual void ~CFuncInstanceIoProxy() override; // vtable[0]
-	virtual void ~CFuncInstanceIoProxy() override; // vtable[1]
+	virtual ~CFuncInstanceIoProxy() override; // vtable[0]
+	virtual ~CFuncInstanceIoProxy() override; // vtable[1]
+	virtual void GetDataDescMap() override; // vtable[12]
 
-	void _GLOBAL__sub_I_m_DataMap();
-	void InputProxyRelay1();
-	void InputProxyRelay2();
-	void InputProxyRelay3();
-	void InputProxyRelay4();
-	void InputProxyRelay5();
-	void InputProxyRelay6();
-	void InputProxyRelay7();
-	void InputProxyRelay8();
-	void InputProxyRelay9();
-	void InputProxyRelay10();
-	void InputProxyRelay11();
-	void InputProxyRelay12();
-	void InputProxyRelay13();
-	void InputProxyRelay14();
-	void InputProxyRelay15();
-	void InputProxyRelay16();
-	void InputProxyRelay17();
-	void InputProxyRelay18();
-	void InputProxyRelay19();
-	void InputProxyRelay20();
-	void InputProxyRelay21();
-	void InputProxyRelay22();
-	void InputProxyRelay23();
-	void InputProxyRelay24();
-	void InputProxyRelay25();
-	void InputProxyRelay26();
-	void InputProxyRelay27();
-	void InputProxyRelay28();
-	void InputProxyRelay29();
-	void InputProxyRelay30();
-	void GetBaseMap();
+	void _GLOBAL__sub_I_m_DataMap(); // size[0]
+	void InputProxyRelay1(); // size[0]
+	void InputProxyRelay2(); // size[0]
+	void InputProxyRelay3(); // size[0]
+	void InputProxyRelay4(); // size[0]
+	void InputProxyRelay5(); // size[0]
+	void InputProxyRelay6(); // size[0]
+	void InputProxyRelay7(); // size[0]
+	void InputProxyRelay8(); // size[0]
+	void InputProxyRelay9(); // size[0]
+	void InputProxyRelay10(); // size[0]
+	void InputProxyRelay11(); // size[0]
+	void InputProxyRelay12(); // size[0]
+	void InputProxyRelay13(); // size[0]
+	void InputProxyRelay14(); // size[0]
+	void InputProxyRelay15(); // size[0]
+	void InputProxyRelay16(); // size[0]
+	void InputProxyRelay17(); // size[0]
+	void InputProxyRelay18(); // size[0]
+	void InputProxyRelay19(); // size[0]
+	void InputProxyRelay20(); // size[0]
+	void InputProxyRelay21(); // size[0]
+	void InputProxyRelay22(); // size[0]
+	void InputProxyRelay23(); // size[0]
+	void InputProxyRelay24(); // size[0]
+	void InputProxyRelay25(); // size[0]
+	void InputProxyRelay26(); // size[0]
+	void InputProxyRelay27(); // size[0]
+	void InputProxyRelay28(); // size[0]
+	void InputProxyRelay29(); // size[0]
+	void InputProxyRelay30(); // size[0]
+	void GetBaseMap(); // size[0]
 };

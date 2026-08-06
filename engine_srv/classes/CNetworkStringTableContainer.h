@@ -3,8 +3,8 @@
 class CNetworkStringTableContainer : public INetworkStringTableContainer
 {
 public:
-	virtual void ~CNetworkStringTableContainer() override; // vtable[0]
-	virtual void ~CNetworkStringTableContainer() override; // vtable[1]
+	virtual ~CNetworkStringTableContainer() override; // vtable[0]
+	virtual ~CNetworkStringTableContainer() override; // vtable[1]
 	virtual void CreateStringTable(); // vtable[2]
 	virtual void RemoveAllTables(); // vtable[3]
 	virtual void FindTable(); // vtable[4]
@@ -13,16 +13,16 @@ public:
 	virtual void CreateStringTableEx(); // vtable[7]
 	virtual void SetAllowClientSideAddString() override; // vtable[8]
 
-	void CNetworkStringTableContainer();
-	void AllowCreation();
-	void Lock();
-	void DirectUpdate();
-	void EnableRollback();
-	void RestoreTick();
-	void TriggerCallbacks();
-	void SetTick();
-	void Dump();
-	void ReadStringTables();
-	void WriteUpdateMessage();
-	void WriteBaselines();
+	CNetworkStringTableContainer(); // size[0]
+	void AllowCreation(); // size[0]
+	void Lock(); // size[0]
+	void DirectUpdate(); // size[0]
+	void EnableRollback(); // size[0]
+	void RestoreTick(); // size[0]
+	void TriggerCallbacks(); // size[0]
+	void SetTick(); // size[0]
+	void Dump(); // size[0]
+	void ReadStringTables(); // size[0]
+	void WriteUpdateMessage(); // size[0]
+	void WriteBaselines(); // size[0]
 };

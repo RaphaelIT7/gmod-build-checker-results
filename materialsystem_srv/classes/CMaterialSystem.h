@@ -3,6 +3,10 @@
 class CMaterialSystem : public CTier2AppSystem, public IShaderUtil
 {
 public:
+	virtual void Connect() override; // vtable[0]
+	virtual void Disconnect() override; // vtable[1]
+	virtual void QueryInterface() override; // vtable[2]
+	virtual void Init() override; // vtable[3]
 	virtual void Shutdown() override; // vtable[4]
 	virtual void Init(); // vtable[5]
 	virtual void SetShaderAPI(); // vtable[6]
@@ -175,76 +179,76 @@ public:
 	virtual void GetCurrentColorCorrection(); // vtable[173]
 	virtual void GMOD_DumpAllMaterials(); // vtable[174]
 
-	void GetThreadMode();
-	void GetConfig();
-	void IsInStubMode();
-	void NoteAnisotropicLevel();
-	void DebugPrintUsedTextures();
-	void ReloadAllMaterials();
-	void ReloadTextures();
-	void ThreadExecuteQueuedContext();
-	void ConvertImageFormat();
-	void GetMemRequired();
-	void ImageFormatInfo();
-	void ReloadMaterials();
-	void ReloadTexture();
-	void InEditorMode();
-	void IsRenderThreadSafe();
-	void DebugPrintUsedMaterials();
-	void DebugPrintUsedMaterialsVerbose();
-	void QueryInterface();
-	void ReleaseStandardTextures();
-	void OnDrawMesh();
-	void OnDrawMesh();
-	void AllocateStandardTextures();
-	void Connect();
-	void ReleaseShaderObjects();
-	void CreateDebugMaterials();
-	void CleanUpDebugMaterials();
-	void DestroyShaderAPI();
-	void CreateShaderAPI();
-	void Disconnect();
-	void Init();
-	void QueryShaderAPI();
-	void InitColorCorrection();
-	void WriteConfigurationInfoToConVars();
-	void GenerateConfigFromConfigKeyValues();
-	void GetShaderAPITextureBindHandle();
-	void RecomputeAllStateSnapshots();
-	void AllocateStandardTextures();
-	void ReleaseStandardTextures();
-	void CreateMatQueueThreadPool();
-	void DestroyMatQueueThreadPool();
-	void Shutdown();
-	void SetShadowDepthBiasFactors();
-	void UsesSRGBCorrectBlending();
-	void ThreadRelease();
-	void ForceSingleThreaded();
-	void ThreadAcquire();
-	void OnRenderingAsyncComplete();
-	void UncacheUnusedMaterials();
-	void RestoreShaderObjects();
-	void ~CMaterialSystem();
-	void CMaterialSystem();
-	void OnThreadEvent();
-	void ScanDirForReplacements();
-	void PreloadReplacements();
-	void ReadConfigFromConVars();
-	void WriteConfigIntoConVars();
-	void GetBoundMorphFormat();
-	void MaxHWMorphBatchCount();
-	void GetCurrentColorCorrection();
-	void OnSetFlexMesh();
-	void OnSetColorMesh();
-	void OnSetPrimitiveType();
-	void SyncMatrices();
-	void SyncMatrix();
-	void OnFlushBufferedPrimitives();
-	void InFlashlightMode();
-	void BindStandardTexture();
-	void BindStandardVertexTexture();
-	void GetLightmapDimensions();
-	void GetStandardTextureDimensions();
-	void GetRenderTargetEx();
-	void DrawClearBufferQuad();
+	void GetThreadMode(); // size[0]
+	void GetConfig(); // size[0]
+	void IsInStubMode(); // size[0]
+	void NoteAnisotropicLevel(); // size[0]
+	void DebugPrintUsedTextures(); // size[0]
+	void ReloadAllMaterials(); // size[0]
+	void ReloadTextures(); // size[0]
+	void ThreadExecuteQueuedContext(); // size[0]
+	void ConvertImageFormat(); // size[0]
+	void GetMemRequired(); // size[0]
+	void ImageFormatInfo(); // size[0]
+	void ReloadMaterials(); // size[0]
+	void ReloadTexture(); // size[0]
+	void InEditorMode(); // size[0]
+	void IsRenderThreadSafe(); // size[0]
+	void DebugPrintUsedMaterials(); // size[0]
+	void DebugPrintUsedMaterialsVerbose(); // size[0]
+	void QueryInterface(); // size[0]
+	void ReleaseStandardTextures(); // size[0]
+	void OnDrawMesh(); // size[0]
+	void OnDrawMesh(); // size[0]
+	void AllocateStandardTextures(); // size[0]
+	void Connect(); // size[0]
+	void ReleaseShaderObjects(); // size[0]
+	void CreateDebugMaterials(); // size[0]
+	void CleanUpDebugMaterials(); // size[0]
+	void DestroyShaderAPI(); // size[0]
+	void CreateShaderAPI(); // size[0]
+	void Disconnect(); // size[0]
+	void Init(); // size[0]
+	void QueryShaderAPI(); // size[0]
+	void InitColorCorrection(); // size[0]
+	void WriteConfigurationInfoToConVars(); // size[0]
+	void GenerateConfigFromConfigKeyValues(); // size[0]
+	void GetShaderAPITextureBindHandle(); // size[0]
+	void RecomputeAllStateSnapshots(); // size[0]
+	void AllocateStandardTextures(); // size[0]
+	void ReleaseStandardTextures(); // size[0]
+	void CreateMatQueueThreadPool(); // size[0]
+	void DestroyMatQueueThreadPool(); // size[0]
+	void Shutdown(); // size[0]
+	void SetShadowDepthBiasFactors(); // size[0]
+	void UsesSRGBCorrectBlending(); // size[0]
+	void ThreadRelease(); // size[0]
+	void ForceSingleThreaded(); // size[0]
+	void ThreadAcquire(); // size[0]
+	void OnRenderingAsyncComplete(); // size[0]
+	void UncacheUnusedMaterials(); // size[0]
+	void RestoreShaderObjects(); // size[0]
+	~CMaterialSystem(); // size[0]
+	CMaterialSystem(); // size[0]
+	void OnThreadEvent(); // size[0]
+	void ScanDirForReplacements(); // size[0]
+	void PreloadReplacements(); // size[0]
+	void ReadConfigFromConVars(); // size[0]
+	void WriteConfigIntoConVars(); // size[0]
+	void GetBoundMorphFormat(); // size[0]
+	void MaxHWMorphBatchCount(); // size[0]
+	void GetCurrentColorCorrection(); // size[0]
+	void OnSetFlexMesh(); // size[0]
+	void OnSetColorMesh(); // size[0]
+	void OnSetPrimitiveType(); // size[0]
+	void SyncMatrices(); // size[0]
+	void SyncMatrix(); // size[0]
+	void OnFlushBufferedPrimitives(); // size[0]
+	void InFlashlightMode(); // size[0]
+	void BindStandardTexture(); // size[0]
+	void BindStandardVertexTexture(); // size[0]
+	void GetLightmapDimensions(); // size[0]
+	void GetStandardTextureDimensions(); // size[0]
+	void GetRenderTargetEx(); // size[0]
+	void DrawClearBufferQuad(); // size[0]
 };

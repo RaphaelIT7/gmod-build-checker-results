@@ -3,9 +3,17 @@
 class CXenTree : public CActAnimating
 {
 public:
-	virtual void ~CXenTree() override; // vtable[0]
-	virtual void ~CXenTree() override; // vtable[1]
+	virtual ~CXenTree() override; // vtable[0]
+	virtual ~CXenTree() override; // vtable[1]
+	virtual void GetDataDescMap() override; // vtable[12]
+	virtual void Spawn() override; // vtable[23]
+	virtual void Precache() override; // vtable[24]
+	virtual void Think() override; // vtable[48]
+	virtual void Classify() override; // vtable[55]
+	virtual void OnTakeDamage() override; // vtable[64]
+	virtual void Touch() override; // vtable[102]
+	virtual void HandleAnimEvent() override; // vtable[261]
 
-	void GetBaseMap();
-	void Attack();
+	void GetBaseMap(); // size[0]
+	void Attack(); // size[0]
 };

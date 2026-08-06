@@ -3,18 +3,55 @@
 class PlayerLocomotion : public ILocomotion
 {
 public:
-	virtual void ~PlayerLocomotion() override; // vtable[0]
-	virtual void ~PlayerLocomotion() override; // vtable[1]
+	virtual ~PlayerLocomotion() override; // vtable[0]
+	virtual ~PlayerLocomotion() override; // vtable[1]
+	virtual void Reset() override; // vtable[43]
+	virtual void Update() override; // vtable[44]
+	virtual void Approach() override; // vtable[47]
+	virtual void DriveTo() override; // vtable[48]
+	virtual void ClimbUpToLedge() override; // vtable[49]
+	virtual void JumpAcrossGap() override; // vtable[50]
+	virtual void Jump() override; // vtable[51]
+	virtual void IsClimbingOrJumping() override; // vtable[52]
+	virtual void IsClimbingUpToLedge() override; // vtable[53]
+	virtual void IsJumpingAcrossGap() override; // vtable[54]
+	virtual void Run() override; // vtable[56]
+	virtual void Walk() override; // vtable[57]
+	virtual void Stop() override; // vtable[58]
+	virtual void IsRunning() override; // vtable[59]
+	virtual void SetDesiredSpeed() override; // vtable[60]
+	virtual void GetDesiredSpeed() override; // vtable[61]
+	virtual void IsOnGround() override; // vtable[64]
+	virtual void GetGround() override; // vtable[65]
+	virtual void GetGroundNormal() override; // vtable[66]
+	virtual void ClimbLadder() override; // vtable[69]
+	virtual void DescendLadder() override; // vtable[70]
+	virtual void IsUsingLadder() override; // vtable[71]
+	virtual void IsAscendingOrDescendingLadder() override; // vtable[72]
+	virtual void IsAbleToAutoCenterOnLadder() override; // vtable[73]
+	virtual void FaceTowards() override; // vtable[74]
+	virtual void SetDesiredLean() override; // vtable[75]
+	virtual void GetDesiredLean() override; // vtable[76]
+	virtual void GetFeet() override; // vtable[79]
+	virtual void GetStepHeight() override; // vtable[80]
+	virtual void GetMaxJumpHeight() override; // vtable[81]
+	virtual void GetDeathDropHeight() override; // vtable[82]
+	virtual void GetRunSpeed() override; // vtable[83]
+	virtual void GetWalkSpeed() override; // vtable[84]
+	virtual void GetMaxAcceleration() override; // vtable[85]
+	virtual void GetMaxDeceleration() override; // vtable[86]
+	virtual void GetVelocity() override; // vtable[87]
+	virtual void AdjustPosture() override; // vtable[102]
 	virtual void SetMinimumSpeedLimit(); // vtable[104]
 	virtual void SetMaximumSpeedLimit(); // vtable[105]
 
-	void ApproachAscendingLadder();
-	void ApproachDescendingLadder();
-	void AscendLadder();
-	void DescendLadder();
-	void DismountLadderTop();
-	void DismountLadderBottom();
-	void TraverseLadder();
-	void IsClimbPossible();
-	void PlayerLocomotion();
+	void ApproachAscendingLadder(); // size[0]
+	void ApproachDescendingLadder(); // size[0]
+	void AscendLadder(); // size[0]
+	void DescendLadder(); // size[0]
+	void DismountLadderTop(); // size[0]
+	void DismountLadderBottom(); // size[0]
+	void TraverseLadder(); // size[0]
+	void IsClimbPossible(); // size[0]
+	PlayerLocomotion(); // size[0]
 };

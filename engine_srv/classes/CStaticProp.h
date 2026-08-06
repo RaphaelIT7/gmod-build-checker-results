@@ -3,8 +3,8 @@
 class CStaticProp : public IClientUnknown, public IClientRenderable, public ICollideable
 {
 public:
-	virtual void ~CStaticProp() override; // vtable[0]
-	virtual void ~CStaticProp() override; // vtable[1]
+	virtual ~CStaticProp() override; // vtable[0]
+	virtual ~CStaticProp() override; // vtable[1]
 	virtual void SetRefEHandle(); // vtable[2]
 	virtual void GetRefEHandle() override; // vtable[3]
 	virtual void GetCollideable(); // vtable[4]
@@ -80,80 +80,80 @@ public:
 	virtual void GetRenderClipPlane(); // vtable[74]
 	virtual void RenderableToWorldTransform(); // vtable[75]
 
-	void WorldSpaceTriggerBounds();
-	void WorldSpaceSurroundingBounds();
-	void GetRenderOrigin();
-	void GetRenderAngles();
-	void GetAttachment();
-	void IsTwoPass();
-	void ShouldDraw();
-	void DoAnimationEvents();
-	void GetModel();
-	void GetFxBlend();
-	void GetColorModulation();
-	void TestCollision();
-	void TestHitboxes();
-	void GetCollisionModelIndex();
-	void GetCollisionModel();
-	void GetCollisionOrigin();
-	void GetCollisionAngles();
-	void GetCollisionScale();
-	void CollisionToWorldTransform();
-	void GetSolid();
-	void GetSolidFlags();
-	void UsesPowerOfTwoFrameBufferTexture();
-	void UsesFullFrameBufferTexture();
-	void RenderHandle();
-	void GetPVSNotifyInterface();
-	void GetRenderBounds();
-	void GetRenderBoundsWorldspace();
-	void ShouldReceiveProjectedTextures();
-	void DrawModel();
-	void OBBMins();
-	void GetAttachment();
-	void SetupBones();
-	void SetupWeights();
-	void IsTransparent();
-	void OBBMaxs();
-	void CStaticProp();
-	void Init();
-	void CleanUpRenderHandle();
-	void PrecacheLighting();
-	void RecomputeStaticLighting();
-	void DisplayStaticPropInfo();
-	void DrawModelSlow();
-	void InsertPropIntoKDTree();
-	void RemovePropFromKDTree();
-	void CreateVPhysics();
-	void ComputeFxBlend();
-	void GetIClientUnknown();
-	void GetIClientUnknown();
-	void OBBMinsPreScaled();
-	void OBBMaxsPreScaled();
-	void GetEntityHandle();
-	void GetCollisionGroup();
-	void ShouldTouchTrigger();
-	void GetRootParentToWorldTransform();
-	void GetBody();
-	void GetSkin();
-	void OnThreadedDrawSetup();
-	void LODTest();
-	void UsesFlexDelayedWeights();
-	void GetShadowCastDistance();
-	void GetShadowCastDirection();
-	void GetShadowHandle();
-	void RecordToolMessage();
-	void GetShadowRenderBounds();
-	void IsShadowDirty();
-	void MarkShadowDirty();
-	void GetShadowParent();
-	void FirstShadowChild();
-	void NextShadowPeer();
-	void ShadowCastType();
-	void CreateModelInstance();
-	void LookupAttachment();
-	void IgnoresZBuffer();
-	void GetRenderClipPlane();
-	void RenderableToWorldTransform();
-	void GetModelInstance();
+	void WorldSpaceTriggerBounds(); // size[0]
+	void WorldSpaceSurroundingBounds(); // size[0]
+	void GetRenderOrigin(); // size[0]
+	void GetRenderAngles(); // size[0]
+	void GetAttachment(); // size[0]
+	void IsTwoPass(); // size[0]
+	void ShouldDraw(); // size[0]
+	void DoAnimationEvents(); // size[0]
+	void GetModel(); // size[0]
+	void GetFxBlend(); // size[0]
+	void GetColorModulation(); // size[0]
+	void TestCollision(); // size[0]
+	void TestHitboxes(); // size[0]
+	void GetCollisionModelIndex(); // size[0]
+	void GetCollisionModel(); // size[0]
+	void GetCollisionOrigin(); // size[0]
+	void GetCollisionAngles(); // size[0]
+	void GetCollisionScale(); // size[0]
+	void CollisionToWorldTransform(); // size[0]
+	void GetSolid(); // size[0]
+	void GetSolidFlags(); // size[0]
+	void UsesPowerOfTwoFrameBufferTexture(); // size[0]
+	void UsesFullFrameBufferTexture(); // size[0]
+	void RenderHandle(); // size[0]
+	void GetPVSNotifyInterface(); // size[0]
+	void GetRenderBounds(); // size[0]
+	void GetRenderBoundsWorldspace(); // size[0]
+	void ShouldReceiveProjectedTextures(); // size[0]
+	void DrawModel(); // size[0]
+	void OBBMins(); // size[0]
+	void GetAttachment(); // size[0]
+	void SetupBones(); // size[0]
+	void SetupWeights(); // size[0]
+	void IsTransparent(); // size[0]
+	void OBBMaxs(); // size[0]
+	CStaticProp(); // size[0]
+	void Init(); // size[0]
+	void CleanUpRenderHandle(); // size[0]
+	void PrecacheLighting(); // size[0]
+	void RecomputeStaticLighting(); // size[0]
+	void DisplayStaticPropInfo(); // size[0]
+	void DrawModelSlow(); // size[0]
+	void InsertPropIntoKDTree(); // size[0]
+	void RemovePropFromKDTree(); // size[0]
+	void CreateVPhysics(); // size[0]
+	void ComputeFxBlend(); // size[0]
+	void GetIClientUnknown(); // size[0]
+	void GetIClientUnknown(); // size[0]
+	void OBBMinsPreScaled(); // size[0]
+	void OBBMaxsPreScaled(); // size[0]
+	void GetEntityHandle(); // size[0]
+	void GetCollisionGroup(); // size[0]
+	void ShouldTouchTrigger(); // size[0]
+	void GetRootParentToWorldTransform(); // size[0]
+	void GetBody(); // size[0]
+	void GetSkin(); // size[0]
+	void OnThreadedDrawSetup(); // size[0]
+	void LODTest(); // size[0]
+	void UsesFlexDelayedWeights(); // size[0]
+	void GetShadowCastDistance(); // size[0]
+	void GetShadowCastDirection(); // size[0]
+	void GetShadowHandle(); // size[0]
+	void RecordToolMessage(); // size[0]
+	void GetShadowRenderBounds(); // size[0]
+	void IsShadowDirty(); // size[0]
+	void MarkShadowDirty(); // size[0]
+	void GetShadowParent(); // size[0]
+	void FirstShadowChild(); // size[0]
+	void NextShadowPeer(); // size[0]
+	void ShadowCastType(); // size[0]
+	void CreateModelInstance(); // size[0]
+	void LookupAttachment(); // size[0]
+	void IgnoresZBuffer(); // size[0]
+	void GetRenderClipPlane(); // size[0]
+	void RenderableToWorldTransform(); // size[0]
+	void GetModelInstance(); // size[0]
 };

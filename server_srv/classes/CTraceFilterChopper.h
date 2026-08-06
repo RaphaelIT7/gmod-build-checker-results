@@ -3,5 +3,7 @@
 class CTraceFilterChopper : public CTraceFilterSimple
 {
 public:
-	void CTraceFilterChopper();
+	virtual void ShouldHitEntity() override; // vtable[0]
+
+	CTraceFilterChopper(); // size[0]
 };

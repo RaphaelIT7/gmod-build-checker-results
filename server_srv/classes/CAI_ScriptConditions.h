@@ -3,34 +3,39 @@
 class CAI_ScriptConditions : public CBaseEntity, public IEntityListener
 {
 public:
-	virtual void ~CAI_ScriptConditions() override; // vtable[0]
-	virtual void ~CAI_ScriptConditions() override; // vtable[1]
+	virtual ~CAI_ScriptConditions() override; // vtable[0]
+	virtual ~CAI_ScriptConditions() override; // vtable[1]
 	virtual void SetRefEHandle() override; // vtable[2]
+	virtual void GetDataDescMap() override; // vtable[12]
+	virtual void Spawn() override; // vtable[23]
+	virtual void Activate() override; // vtable[34]
+	virtual void OnRestore() override; // vtable[45]
+	virtual void UpdateOnRemove() override; // vtable[108]
 	virtual void OnEntitySpawned(); // vtable[246]
 
-	void EvalPlayerBlockingActor();
-	void EvalActorSeeTarget();
-	void EvalActorTargetProximity();
-	void EvalPlayerActorProximity();
-	void EvalPlayerTargetProximity();
-	void GetBaseMap();
-	void EvalPlayerInVehicle();
-	void EvalActorInVehicle();
-	void Disable();
-	void EvalState();
-	void InputDisable();
-	void IsInFOV();
-	void EvalPlayerActorLook();
-	void EvalPlayerTargetLook();
-	void PlayerHasLineOfSight();
-	void EvalPlayerActorLOS();
-	void EvalPlayerTargetLOS();
-	void ActorInPlayersPVS();
-	void EvalActorInPVS();
-	void ActorInList();
-	void EvaluationThink();
-	void AddNewElement();
-	void Enable();
-	void InputEnable();
-	void OnEntitySpawned();
+	void EvalPlayerBlockingActor(); // size[0]
+	void EvalActorSeeTarget(); // size[0]
+	void EvalActorTargetProximity(); // size[0]
+	void EvalPlayerActorProximity(); // size[0]
+	void EvalPlayerTargetProximity(); // size[0]
+	void GetBaseMap(); // size[0]
+	void EvalPlayerInVehicle(); // size[0]
+	void EvalActorInVehicle(); // size[0]
+	void Disable(); // size[0]
+	void EvalState(); // size[0]
+	void InputDisable(); // size[0]
+	void IsInFOV(); // size[0]
+	void EvalPlayerActorLook(); // size[0]
+	void EvalPlayerTargetLook(); // size[0]
+	void PlayerHasLineOfSight(); // size[0]
+	void EvalPlayerActorLOS(); // size[0]
+	void EvalPlayerTargetLOS(); // size[0]
+	void ActorInPlayersPVS(); // size[0]
+	void EvalActorInPVS(); // size[0]
+	void ActorInList(); // size[0]
+	void EvaluationThink(); // size[0]
+	void AddNewElement(); // size[0]
+	void Enable(); // size[0]
+	void InputEnable(); // size[0]
+	void OnEntitySpawned(); // size[0]
 };

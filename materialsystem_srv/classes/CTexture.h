@@ -46,8 +46,8 @@ public:
 	virtual void CopyMeToFrameBuffer(); // vtable[40]
 	virtual void GetEmbeddedTexture(); // vtable[41]
 	virtual void GetTextureHandle(); // vtable[42]
-	virtual void ~CTexture() override; // vtable[43]
-	virtual void ~CTexture() override; // vtable[44]
+	virtual ~CTexture() override; // vtable[43]
+	virtual ~CTexture() override; // vtable[44]
 	virtual void SetRenderTarget(); // vtable[45]
 	virtual void BindVertexTexture(); // vtable[46]
 	virtual void MarkAsPreloaded(); // vtable[47]
@@ -57,49 +57,49 @@ public:
 	virtual void IsTempRenderTarget(); // vtable[51]
 	virtual void ReloadFilesInList() override; // vtable[52]
 
-	void AllocateTextureHandles();
-	void ReleaseTextureHandles();
-	void GetScratchVTFTexture();
-	void FreeOptimalReadBuffer();
-	void GetOptimalReadBuffer();
-	void ApplyRenderTargetSizeMode();
-	void AllocateTextureHandles();
-	void ReleaseTextureHandles();
-	void AllocateShaderAPITextures();
-	void FreeShaderAPITextures();
-	void Init();
-	void ComputeActualFormat();
-	void ComputeActualMipCount();
-	void ComputeActualSize();
-	void Modify();
-	void SetWrapState();
-	void SetFilterState();
-	void GetTextureGroupName();
-	void SetName();
-	void InitFileTexture();
-	void InitProceduralTexture();
-	void InitRenderTarget();
-	void HasBeenAllocated();
-	void LoadLowResTexture();
-	void GenerateShowMipLevelsTextures();
-	void CopyLowResImageToTexture();
-	void SetupDebuggingTextures();
-	void ConvertToActualFormat();
-	void GetFilename();
-	void ReloadFilesInList();
-	void HandleFileLoadFailedTexture();
-	void ComputeMipLevelSubRect();
-	void GetDownloadFaceCount();
-	void FixupTexture();
-	void ReconstructPartialProceduralBits();
-	void ReconstructPartialTexture();
-	void ReconstructProceduralBits();
-	void WriteDataToShaderAPITexture();
-	void IsDepthTextureFormat();
-	void NotifyUnloadedFile();
-	void Shutdown();
-	void CTexture();
-	void LoadTextureBitsFromFile();
-	void ReconstructTexture();
-	void DownloadTexture();
+	void AllocateTextureHandles(); // size[0]
+	void ReleaseTextureHandles(); // size[0]
+	void GetScratchVTFTexture(); // size[0]
+	void FreeOptimalReadBuffer(); // size[0]
+	void GetOptimalReadBuffer(); // size[0]
+	void ApplyRenderTargetSizeMode(); // size[0]
+	void AllocateTextureHandles(); // size[0]
+	void ReleaseTextureHandles(); // size[0]
+	void AllocateShaderAPITextures(); // size[0]
+	void FreeShaderAPITextures(); // size[0]
+	void Init(); // size[0]
+	void ComputeActualFormat(); // size[0]
+	void ComputeActualMipCount(); // size[0]
+	void ComputeActualSize(); // size[0]
+	void Modify(); // size[0]
+	void SetWrapState(); // size[0]
+	void SetFilterState(); // size[0]
+	void GetTextureGroupName(); // size[0]
+	void SetName(); // size[0]
+	void InitFileTexture(); // size[0]
+	void InitProceduralTexture(); // size[0]
+	void InitRenderTarget(); // size[0]
+	void HasBeenAllocated(); // size[0]
+	void LoadLowResTexture(); // size[0]
+	void GenerateShowMipLevelsTextures(); // size[0]
+	void CopyLowResImageToTexture(); // size[0]
+	void SetupDebuggingTextures(); // size[0]
+	void ConvertToActualFormat(); // size[0]
+	void GetFilename(); // size[0]
+	void ReloadFilesInList(); // size[0]
+	void HandleFileLoadFailedTexture(); // size[0]
+	void ComputeMipLevelSubRect(); // size[0]
+	void GetDownloadFaceCount(); // size[0]
+	void FixupTexture(); // size[0]
+	void ReconstructPartialProceduralBits(); // size[0]
+	void ReconstructPartialTexture(); // size[0]
+	void ReconstructProceduralBits(); // size[0]
+	void WriteDataToShaderAPITexture(); // size[0]
+	void IsDepthTextureFormat(); // size[0]
+	void NotifyUnloadedFile(); // size[0]
+	void Shutdown(); // size[0]
+	CTexture(); // size[0]
+	void LoadTextureBitsFromFile(); // size[0]
+	void ReconstructTexture(); // size[0]
+	void DownloadTexture(); // size[0]
 };

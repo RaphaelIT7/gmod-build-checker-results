@@ -3,11 +3,12 @@
 class CLogicAutosave : public CLogicalEntity
 {
 public:
-	virtual void ~CLogicAutosave() override; // vtable[0]
-	virtual void ~CLogicAutosave() override; // vtable[1]
+	virtual ~CLogicAutosave() override; // vtable[0]
+	virtual ~CLogicAutosave() override; // vtable[1]
+	virtual void GetDataDescMap() override; // vtable[12]
 
-	void InputSave();
-	void InputSetMinHitpointsThreshold();
-	void InputSaveDangerous();
-	void GetBaseMap();
+	void InputSave(); // size[0]
+	void InputSetMinHitpointsThreshold(); // size[0]
+	void InputSaveDangerous(); // size[0]
+	void GetBaseMap(); // size[0]
 };

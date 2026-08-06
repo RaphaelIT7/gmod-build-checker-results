@@ -37,26 +37,26 @@ public:
 	virtual void OnAddonDownloadFailed(); // vtable[31]
 	virtual void Load(); // vtable[32]
 
-	void UpdateModPath();
-	void IsOfflineMode();
-	void OnRemoteStoragePublishedFileSubscribed();
-	void GetAddonType();
-	void NormalizePath();
-	void SendUGCListUpdate();
-	void AddUGCFile();
-	void FileSystem();
-	void ~FileSystem();
-	void UnmountPackFile();
-	void UnmountFile();
-	void OnRemoteStoragePublishedFileUnsubscribed();
-	void GetFolder();
-	void CreateEmptyParentFolders();
-	void FindFirst();
-	void FindInAddon();
-	void IsDirectory();
-	void GetFile();
-	void ResolveFile();
-	void GetFileSize();
-	void GetFileEntry();
-	void MountAddon();
+	void UpdateModPath(); // size[0]
+	void IsOfflineMode(); // size[0]
+	void OnRemoteStoragePublishedFileSubscribed(); // size[0]
+	void GetAddonType(); // size[0]
+	void NormalizePath(); // size[0]
+	void SendUGCListUpdate(); // size[0]
+	void AddUGCFile(); // size[0]
+	FileSystem(); // size[0]
+	~FileSystem(); // size[0]
+	void UnmountPackFile(); // size[0]
+	void UnmountFile(); // size[0]
+	void OnRemoteStoragePublishedFileUnsubscribed(); // size[0]
+	void GetFolder(); // size[0]
+	void CreateEmptyParentFolders(); // size[0]
+	void FindFirst(); // size[0]
+	void FindInAddon(); // size[0]
+	void IsDirectory(); // size[0]
+	void GetFile(); // size[0]
+	void ResolveFile(); // size[0]
+	void GetFileSize(); // size[0]
+	void GetFileEntry(); // size[0]
+	void MountAddon(); // size[0]
 };

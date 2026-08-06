@@ -3,6 +3,7 @@
 class CNullEntity : public CBaseEntity
 {
 public:
-	virtual void ~CNullEntity() override; // vtable[0]
-	virtual void ~CNullEntity() override; // vtable[1]
+	virtual ~CNullEntity() override; // vtable[0]
+	virtual ~CNullEntity() override; // vtable[1]
+	virtual void Spawn() override; // vtable[23]
 };

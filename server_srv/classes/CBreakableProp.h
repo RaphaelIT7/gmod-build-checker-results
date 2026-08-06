@@ -3,8 +3,8 @@
 class CBreakableProp : public CBaseProp, public IBreakableWithPropData, public CDefaultPlayerPickupVPhysics
 {
 public:
-	virtual void ~CBreakableProp() override; // vtable[0]
-	virtual void ~CBreakableProp() override; // vtable[1]
+	virtual ~CBreakableProp() override; // vtable[0]
+	virtual ~CBreakableProp() override; // vtable[1]
 	virtual void SetRefEHandle() override; // vtable[2]
 	virtual void GetRefEHandle() override; // vtable[3]
 	virtual void GetCollideable() override; // vtable[4]
@@ -13,7 +13,19 @@ public:
 	virtual void GetModelIndex() override; // vtable[7]
 	virtual void GetModelName() override; // vtable[8]
 	virtual void SetModelIndex() override; // vtable[9]
+	virtual void GetServerClass() override; // vtable[10]
+	virtual void YouForgotToImplementOrDeclareServerClass() override; // vtable[11]
+	virtual void GetDataDescMap() override; // vtable[12]
+	virtual void Spawn() override; // vtable[23]
+	virtual void Precache() override; // vtable[24]
 	virtual void ParseMapData() override; // vtable[29]
+	virtual void GetAutoAimRadius() override; // vtable[58]
+	virtual void OnTakeDamage() override; // vtable[64]
+	virtual void Event_Killed() override; // vtable[68]
+	virtual void HasPhysicsAttacker() override; // vtable[173]
+	virtual void SetPhysicsAttacker() override; // vtable[236]
+	virtual void Ignite() override; // vtable[267]
+	virtual void OverridePropdata() override; // vtable[282]
 	virtual void PlayPuntSound(); // vtable[283]
 	virtual void GetRootPhysicsObjectForBreak(); // vtable[284]
 	virtual void HasPreferredCarryAnglesForPlayer(); // vtable[285]
@@ -54,70 +66,70 @@ public:
 	virtual void OnPhysGunDrop(); // vtable[320]
 	virtual void PhysGunLaunchAngularImpulse(); // vtable[321]
 
-	void HasPreferredCarryAnglesForPlayer();
-	void PreferredCarryAngles();
-	void SetDmgModBullet();
-	void SetDmgModClub();
-	void SetDmgModExplosive();
-	void GetDmgModBullet();
-	void GetDmgModClub();
-	void GetDmgModExplosive();
-	void SetExplosiveRadius();
-	void SetExplosiveDamage();
-	void GetExplosiveRadius();
-	void GetExplosiveDamage();
-	void SetPhysicsDamageTable();
-	void GetPhysicsDamageTable();
-	void SetBreakableModel();
-	void GetBreakableModel();
-	void SetBreakableSkin();
-	void GetBreakableSkin();
-	void SetBreakableCount();
-	void GetBreakableCount();
-	void SetMaxBreakableSize();
-	void GetMaxBreakableSize();
-	void SetBasePropData();
-	void GetBasePropData();
-	void SetInteraction();
-	void HasInteraction();
-	void SetMultiplayerBreakMode();
-	void GetMultiplayerBreakMode();
-	void SetPhysicsMode();
-	void GetPhysicsMode();
-	void SetPropDataBlocksLOS();
-	void SetPropDataIsAIWalkable();
-	void InputEnablePhyscannonPickup();
-	void InputDisablePhyscannonPickup();
-	void OnPhysGunDrop();
-	void PhysGunLaunchAngularImpulse();
-	void BreakablePropTouch();
-	void CheckRemoveRagdolls();
-	void RampToDefaultFadeScale();
-	void AnimateThink();
-	void OnAttemptPhysGunPickup();
-	void CheckRemoveRagdolls();
-	void HandleInteractionStick();
-	void GetBaseMap();
-	void CBreakableProp();
-	void DisableAutoFade();
-	void CopyFadeFrom();
-	void ForceFadeScaleToAlwaysVisible();
-	void CreateFlare();
-	void OnPhysGunPickup();
-	void Break();
-	void InputBreak();
-	void UpdateHealth();
-	void UpdateHealth();
-	void InputAddHealth();
-	void InputRemoveHealth();
-	void InputSetHealth();
-	void BreakThink();
-	void FindEnableMotionFixup();
-	void GetEnableMotionPosition();
-	void ClearEnableMotionPosition();
-	void SetEnableMotionPosition();
-	void StickAtPosition();
-	void HandleFirstCollisionInteractions();
-	void InputEnablePuntSound();
-	void InputDisablePuntSound();
+	void HasPreferredCarryAnglesForPlayer(); // size[0]
+	void PreferredCarryAngles(); // size[0]
+	void SetDmgModBullet(); // size[0]
+	void SetDmgModClub(); // size[0]
+	void SetDmgModExplosive(); // size[0]
+	void GetDmgModBullet(); // size[0]
+	void GetDmgModClub(); // size[0]
+	void GetDmgModExplosive(); // size[0]
+	void SetExplosiveRadius(); // size[0]
+	void SetExplosiveDamage(); // size[0]
+	void GetExplosiveRadius(); // size[0]
+	void GetExplosiveDamage(); // size[0]
+	void SetPhysicsDamageTable(); // size[0]
+	void GetPhysicsDamageTable(); // size[0]
+	void SetBreakableModel(); // size[0]
+	void GetBreakableModel(); // size[0]
+	void SetBreakableSkin(); // size[0]
+	void GetBreakableSkin(); // size[0]
+	void SetBreakableCount(); // size[0]
+	void GetBreakableCount(); // size[0]
+	void SetMaxBreakableSize(); // size[0]
+	void GetMaxBreakableSize(); // size[0]
+	void SetBasePropData(); // size[0]
+	void GetBasePropData(); // size[0]
+	void SetInteraction(); // size[0]
+	void HasInteraction(); // size[0]
+	void SetMultiplayerBreakMode(); // size[0]
+	void GetMultiplayerBreakMode(); // size[0]
+	void SetPhysicsMode(); // size[0]
+	void GetPhysicsMode(); // size[0]
+	void SetPropDataBlocksLOS(); // size[0]
+	void SetPropDataIsAIWalkable(); // size[0]
+	void InputEnablePhyscannonPickup(); // size[0]
+	void InputDisablePhyscannonPickup(); // size[0]
+	void OnPhysGunDrop(); // size[0]
+	void PhysGunLaunchAngularImpulse(); // size[0]
+	void BreakablePropTouch(); // size[0]
+	void CheckRemoveRagdolls(); // size[0]
+	void RampToDefaultFadeScale(); // size[0]
+	void AnimateThink(); // size[0]
+	void OnAttemptPhysGunPickup(); // size[0]
+	void CheckRemoveRagdolls(); // size[0]
+	void HandleInteractionStick(); // size[0]
+	void GetBaseMap(); // size[0]
+	CBreakableProp(); // size[0]
+	void DisableAutoFade(); // size[0]
+	void CopyFadeFrom(); // size[0]
+	void ForceFadeScaleToAlwaysVisible(); // size[0]
+	void CreateFlare(); // size[0]
+	void OnPhysGunPickup(); // size[0]
+	void Break(); // size[0]
+	void InputBreak(); // size[0]
+	void UpdateHealth(); // size[0]
+	void UpdateHealth(); // size[0]
+	void InputAddHealth(); // size[0]
+	void InputRemoveHealth(); // size[0]
+	void InputSetHealth(); // size[0]
+	void BreakThink(); // size[0]
+	void FindEnableMotionFixup(); // size[0]
+	void GetEnableMotionPosition(); // size[0]
+	void ClearEnableMotionPosition(); // size[0]
+	void SetEnableMotionPosition(); // size[0]
+	void StickAtPosition(); // size[0]
+	void HandleFirstCollisionInteractions(); // size[0]
+	void InputEnablePuntSound(); // size[0]
+	void InputDisablePuntSound(); // size[0]
 };

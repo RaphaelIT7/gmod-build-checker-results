@@ -3,44 +3,62 @@
 class CNPC_Barnacle : public CAI_BaseNPC
 {
 public:
-	virtual void ~CNPC_Barnacle() override; // vtable[0]
-	virtual void ~CNPC_Barnacle() override; // vtable[1]
+	virtual ~CNPC_Barnacle() override; // vtable[0]
+	virtual ~CNPC_Barnacle() override; // vtable[1]
+	virtual void GetServerClass() override; // vtable[10]
+	virtual void YouForgotToImplementOrDeclareServerClass() override; // vtable[11]
+	virtual void GetDataDescMap() override; // vtable[12]
+	virtual void ComputeWorldSpaceSurroundingBox() override; // vtable[16]
+	virtual void Spawn() override; // vtable[23]
+	virtual void Precache() override; // vtable[24]
+	virtual void Activate() override; // vtable[34]
+	virtual void Classify() override; // vtable[55]
+	virtual void Event_Killed() override; // vtable[68]
+	virtual void UpdateOnRemove() override; // vtable[108]
+	virtual void HandleAnimEvent() override; // vtable[261]
+	virtual void GetPhysicsImpactDamageTable() override; // vtable[291]
+	virtual void OnTakeDamage_Alive() override; // vtable[338]
+	virtual void GetSchedulingErrorName() override; // vtable[432]
+	virtual void LoadedSchedules() override; // vtable[433]
+	virtual void PlayerHasIlluminatedNPC() override; // vtable[521]
+	virtual void SquadSlotName() override; // vtable[581]
+	virtual void GetClassScheduleIdSpace() override; // vtable[640]
 
-	void InputSetDropTongueSpeed();
-	void GetBaseMap();
-	void SetAltitude();
-	void CanPickup();
-	void WaitForPhysicsObjectToSettle();
-	void PlayLiftingScream();
-	void UpdatePlayerConstraint();
-	void AttachRagdollToTongue();
-	void SprayBlood();
-	void RemoveRagdoll();
-	void LostPrey();
-	void SpitPrey();
-	void WaitForRagdollToSettle();
-	void SwallowPrey();
-	void InputLetGo();
-	void PullEnemyTorwardsMouth();
-	void LiftPlayer();
-	void LiftNPC();
-	void LiftRagdoll();
-	void LiftPhysicsObject();
-	void LiftPrey();
-	void OnTongueTipUpdated();
-	void UpdateTongue();
-	void AttachTongueToTarget();
-	void WaitTillDead();
-	void SpawnDeathGibs();
-	void IsPoisonous();
-	void BitePrey();
-	void TongueTouchEnt();
-	void InitTonguePosition();
-	void DropTongue();
-	void InputDropTongue();
-	void BarnacleThink();
-	void InitCustomSchedules();
-	void LoadSchedules();
-	void CScheduleLoader();
-	void CNPC_Barnacle();
+	void InputSetDropTongueSpeed(); // size[0]
+	void GetBaseMap(); // size[0]
+	void SetAltitude(); // size[0]
+	void CanPickup(); // size[0]
+	void WaitForPhysicsObjectToSettle(); // size[0]
+	void PlayLiftingScream(); // size[0]
+	void UpdatePlayerConstraint(); // size[0]
+	void AttachRagdollToTongue(); // size[0]
+	void SprayBlood(); // size[0]
+	void RemoveRagdoll(); // size[0]
+	void LostPrey(); // size[0]
+	void SpitPrey(); // size[0]
+	void WaitForRagdollToSettle(); // size[0]
+	void SwallowPrey(); // size[0]
+	void InputLetGo(); // size[0]
+	void PullEnemyTorwardsMouth(); // size[0]
+	void LiftPlayer(); // size[0]
+	void LiftNPC(); // size[0]
+	void LiftRagdoll(); // size[0]
+	void LiftPhysicsObject(); // size[0]
+	void LiftPrey(); // size[0]
+	void OnTongueTipUpdated(); // size[0]
+	void UpdateTongue(); // size[0]
+	void AttachTongueToTarget(); // size[0]
+	void WaitTillDead(); // size[0]
+	void SpawnDeathGibs(); // size[0]
+	void IsPoisonous(); // size[0]
+	void BitePrey(); // size[0]
+	void TongueTouchEnt(); // size[0]
+	void InitTonguePosition(); // size[0]
+	void DropTongue(); // size[0]
+	void InputDropTongue(); // size[0]
+	void BarnacleThink(); // size[0]
+	void InitCustomSchedules(); // size[0]
+	void LoadSchedules(); // size[0]
+	CScheduleLoader(); // size[0]
+	CNPC_Barnacle(); // size[0]
 };

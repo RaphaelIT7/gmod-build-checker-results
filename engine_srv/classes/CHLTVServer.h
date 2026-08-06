@@ -3,8 +3,8 @@
 class CHLTVServer : public IGameEventListener2, public CBaseServer, public CClientFrameManager, public IHLTVServer, public IDemoPlayer
 {
 public:
-	virtual void ~CHLTVServer() override; // vtable[0]
-	virtual void ~CHLTVServer() override; // vtable[1]
+	virtual ~CHLTVServer() override; // vtable[0]
+	virtual ~CHLTVServer() override; // vtable[1]
 	virtual void FireGameEvent() override; // vtable[2]
 	virtual void ProcessConnectionlessPacket() override; // vtable[3]
 	virtual void Init() override; // vtable[4]
@@ -58,93 +58,93 @@ public:
 	virtual void ShouldUpdateMasterServer() override; // vtable[52]
 	virtual void CreateNewClient() override; // vtable[53]
 
-	void SetMaxClients();
-	void GetHLTVSlot();
-	void GetOnlineTime();
-	void GetLocalStats();
-	void IsMasterProxy();
-	void IsDemoPlayback();
-	void ShouldUpdateMasterServer();
-	void UserInfoChanged();
-	void SendClientMessages();
-	void GetBaseServer();
-	void GetDirector();
-	void GetDemoFile();
-	void IsPlayingBack();
-	void IsPlaybackPaused();
-	void GetPlaybackTimeScale();
-	void SetPlaybackTimeScale();
-	void GetPlaybackStartTick();
-	void GetPlaybackTick();
-	void GetTotalTicks();
-	void GetChallengeType();
-	void CreateNewClient();
-	void GetRelayAddress();
-	void GetProtocolVersion();
-	void GetName();
-	void GetPassword();
-	void BroadcastEvent();
-	void FreeClientRecvTables();
-	void InitClientRecvTables();
-	void StartDemo();
-	void DispatchToRelay();
-	void StartRelay();
-	void GetRelayStats();
-	void GetGlobalStats();
-	void IsTVRelay();
-	void BroadcastLocalTitle();
-	void BroadcastLocalChat();
-	void BroadcastEventLocal();
-	void InstallStringTables();
-	void RestoreTick();
-	void LinkInstanceBaselines();
-	void EntityPVSCheck();
-	void SignonComplete();
-	void UpdateStats();
-	void SendNetMsg();
-	void FireGameEvent();
-	void GetBuffer();
-	void UpdateTick();
-	void ResyncDemoClock();
-	void ReplyInfo();
-	void GetDeltaFrame();
-	void CHLTVServer();
-	void ~CHLTVServer();
-	void ~CHLTVServer();
-	void ~CHLTVServer();
-	void ~CHLTVServer();
-	void ~CHLTVServer();
-	void ~CHLTVServer();
-	void ~CHLTVServer();
-	void ~CHLTVServer();
-	void StartMaster();
-	void Changelevel();
-	void ConnectRelay();
-	void AddNewFrame();
-	void RunFrame();
-	void FillServerInfo();
-	void Clear();
-	void ProcessConnectionlessPacket();
-	void Init();
-	void GetNetStats();
-	void Shutdown();
-	void ReadCompeleteDemoFile();
-	void StartPlayback();
-	void ConnectClient();
-	void IsHLTV();
-	void IsMultiplayer();
-	void IsPlayingTimeDemo();
-	void IsSkipping();
-	void CanSkipBackwards();
-	void PausePlayback();
-	void SkipToTick();
-	void SetEndTick();
-	void ResumePlayback();
-	void StopPlayback();
-	void InterpolateViewpoint();
-	void ReadPacket();
-	void ResetDemoInterpolation();
-	void ShouldLoopDemos();
-	void OnLastDemoInLoopPlayed();
-	void IsLoading();
+	void SetMaxClients(); // size[0]
+	void GetHLTVSlot(); // size[0]
+	void GetOnlineTime(); // size[0]
+	void GetLocalStats(); // size[0]
+	void IsMasterProxy(); // size[0]
+	void IsDemoPlayback(); // size[0]
+	void ShouldUpdateMasterServer(); // size[0]
+	void UserInfoChanged(); // size[0]
+	void SendClientMessages(); // size[0]
+	void GetBaseServer(); // size[0]
+	void GetDirector(); // size[0]
+	void GetDemoFile(); // size[0]
+	void IsPlayingBack(); // size[0]
+	void IsPlaybackPaused(); // size[0]
+	void GetPlaybackTimeScale(); // size[0]
+	void SetPlaybackTimeScale(); // size[0]
+	void GetPlaybackStartTick(); // size[0]
+	void GetPlaybackTick(); // size[0]
+	void GetTotalTicks(); // size[0]
+	void GetChallengeType(); // size[0]
+	void CreateNewClient(); // size[0]
+	void GetRelayAddress(); // size[0]
+	void GetProtocolVersion(); // size[0]
+	void GetName(); // size[0]
+	void GetPassword(); // size[0]
+	void BroadcastEvent(); // size[0]
+	void FreeClientRecvTables(); // size[0]
+	void InitClientRecvTables(); // size[0]
+	void StartDemo(); // size[0]
+	void DispatchToRelay(); // size[0]
+	void StartRelay(); // size[0]
+	void GetRelayStats(); // size[0]
+	void GetGlobalStats(); // size[0]
+	void IsTVRelay(); // size[0]
+	void BroadcastLocalTitle(); // size[0]
+	void BroadcastLocalChat(); // size[0]
+	void BroadcastEventLocal(); // size[0]
+	void InstallStringTables(); // size[0]
+	void RestoreTick(); // size[0]
+	void LinkInstanceBaselines(); // size[0]
+	void EntityPVSCheck(); // size[0]
+	void SignonComplete(); // size[0]
+	void UpdateStats(); // size[0]
+	void SendNetMsg(); // size[0]
+	void FireGameEvent(); // size[0]
+	void GetBuffer(); // size[0]
+	void UpdateTick(); // size[0]
+	void ResyncDemoClock(); // size[0]
+	void ReplyInfo(); // size[0]
+	void GetDeltaFrame(); // size[0]
+	CHLTVServer(); // size[0]
+	~CHLTVServer(); // size[0]
+	~CHLTVServer(); // size[0]
+	~CHLTVServer(); // size[0]
+	~CHLTVServer(); // size[0]
+	~CHLTVServer(); // size[0]
+	~CHLTVServer(); // size[0]
+	~CHLTVServer(); // size[0]
+	~CHLTVServer(); // size[0]
+	void StartMaster(); // size[0]
+	void Changelevel(); // size[0]
+	void ConnectRelay(); // size[0]
+	void AddNewFrame(); // size[0]
+	void RunFrame(); // size[0]
+	void FillServerInfo(); // size[0]
+	void Clear(); // size[0]
+	void ProcessConnectionlessPacket(); // size[0]
+	void Init(); // size[0]
+	void GetNetStats(); // size[0]
+	void Shutdown(); // size[0]
+	void ReadCompeleteDemoFile(); // size[0]
+	void StartPlayback(); // size[0]
+	void ConnectClient(); // size[0]
+	void IsHLTV(); // size[0]
+	void IsMultiplayer(); // size[0]
+	void IsPlayingTimeDemo(); // size[0]
+	void IsSkipping(); // size[0]
+	void CanSkipBackwards(); // size[0]
+	void PausePlayback(); // size[0]
+	void SkipToTick(); // size[0]
+	void SetEndTick(); // size[0]
+	void ResumePlayback(); // size[0]
+	void StopPlayback(); // size[0]
+	void InterpolateViewpoint(); // size[0]
+	void ReadPacket(); // size[0]
+	void ResetDemoInterpolation(); // size[0]
+	void ShouldLoopDemos(); // size[0]
+	void OnLastDemoInLoopPlayed(); // size[0]
+	void IsLoading(); // size[0]
 };

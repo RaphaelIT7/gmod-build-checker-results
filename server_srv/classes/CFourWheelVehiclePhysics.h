@@ -5,45 +5,45 @@ class CFourWheelVehiclePhysics
 public:
 	virtual void GetDataDescMap(); // vtable[0]
 
-	void GetBaseMap();
-	void CFourWheelVehiclePhysics();
-	void ~CFourWheelVehiclePhysics();
-	void InitializePoseParameters();
-	void CalcWheelData();
-	void ParseVehicleScript();
-	void Spawn();
-	void Initialize();
-	void SetThrottle();
-	void SetMaxThrottle();
-	void SetMaxReverseThrottle();
-	void SetSteering();
-	void SetSteeringDegrees();
-	void SetAction();
-	void TurnOn();
-	void TurnOff();
-	void SetBoost();
-	void UpdateBooster();
-	void SetHasBrakePedal();
-	void Teleport();
-	void DrawDebugGeometryOverlays();
-	void DrawDebugTextOverlays();
-	void PlaceWheelDust();
-	void VPhysicsUpdate();
-	void GetVehicleViewPosition();
-	void ResetControls();
-	void ReleaseHandbrake();
-	void SetHandbrake();
-	void EnableMotion();
-	void DisableMotion();
-	void GetHLSpeed();
-	void GetSteering();
-	void GetSteeringDegrees();
-	void SteeringRest();
-	void SteeringTurn();
-	void SteeringTurnAnalog();
-	void IsBoosting();
-	void UpdateDriverControls();
-	void Think();
-	void SetDisableEngine();
-	void VPhysicsGetObjectList();
+	void GetBaseMap(); // size[0]
+	CFourWheelVehiclePhysics(); // size[0]
+	~CFourWheelVehiclePhysics(); // size[0]
+	void InitializePoseParameters(); // size[0]
+	void CalcWheelData(); // size[0]
+	void ParseVehicleScript(); // size[0]
+	void Spawn(); // size[0]
+	void Initialize(); // size[0]
+	void SetThrottle(); // size[0]
+	void SetMaxThrottle(); // size[0]
+	void SetMaxReverseThrottle(); // size[0]
+	void SetSteering(); // size[0]
+	void SetSteeringDegrees(); // size[0]
+	void SetAction(); // size[0]
+	void TurnOn(); // size[0]
+	void TurnOff(); // size[0]
+	void SetBoost(); // size[0]
+	void UpdateBooster(); // size[0]
+	void SetHasBrakePedal(); // size[0]
+	void Teleport(); // size[0]
+	void DrawDebugGeometryOverlays(); // size[0]
+	void DrawDebugTextOverlays(); // size[0]
+	void PlaceWheelDust(); // size[0]
+	void VPhysicsUpdate(); // size[0]
+	void GetVehicleViewPosition(); // size[0]
+	void ResetControls(); // size[0]
+	void ReleaseHandbrake(); // size[0]
+	void SetHandbrake(); // size[0]
+	void EnableMotion(); // size[0]
+	void DisableMotion(); // size[0]
+	void GetHLSpeed(); // size[0]
+	void GetSteering(); // size[0]
+	void GetSteeringDegrees(); // size[0]
+	void SteeringRest(); // size[0]
+	void SteeringTurn(); // size[0]
+	void SteeringTurnAnalog(); // size[0]
+	void IsBoosting(); // size[0]
+	void UpdateDriverControls(); // size[0]
+	void Think(); // size[0]
+	void SetDisableEngine(); // size[0]
+	void VPhysicsGetObjectList(); // size[0]
 };

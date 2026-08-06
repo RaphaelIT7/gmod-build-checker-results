@@ -15,6 +15,6 @@ public:
 	virtual void UpdateStatus(); // vtable[9]
 	virtual void UpdateHostname(); // vtable[10]
 
-	void PreMinidumpCallbackImpl();
-	void PreMinidumpCallback();
+	void PreMinidumpCallbackImpl(); // size[0]
+	void PreMinidumpCallback(); // size[0]
 };

@@ -3,53 +3,90 @@
 class CNPC_CombineGunship : public CBaseHelicopter
 {
 public:
-	virtual void ~CNPC_CombineGunship() override; // vtable[0]
-	virtual void ~CNPC_CombineGunship() override; // vtable[1]
+	virtual ~CNPC_CombineGunship() override; // vtable[0]
+	virtual ~CNPC_CombineGunship() override; // vtable[1]
+	virtual void GetServerClass() override; // vtable[10]
+	virtual void YouForgotToImplementOrDeclareServerClass() override; // vtable[11]
+	virtual void GetDataDescMap() override; // vtable[12]
+	virtual void Spawn() override; // vtable[23]
+	virtual void Precache() override; // vtable[24]
+	virtual void OnRestore() override; // vtable[45]
+	virtual void Classify() override; // vtable[55]
+	virtual void GetAutoAimRadius() override; // vtable[58]
+	virtual void TraceAttack() override; // vtable[62]
+	virtual void Event_Killed() override; // vtable[68]
+	virtual void BloodColor() override; // vtable[70]
+	virtual void StopLoopingSounds() override; // vtable[109]
+	virtual void MakeTracer() override; // vtable[113]
+	virtual void DoImpactEffect() override; // vtable[116]
+	virtual void FVisible() override; // vtable[144]
+	virtual void PopulatePoseParameters() override; // vtable[262]
+	virtual void OnTakeDamage_Alive() override; // vtable[338]
+	virtual void DoMuzzleFlash() override; // vtable[374]
+	virtual void PrescheduleThink() override; // vtable[403]
+	virtual void GetSchedulingErrorName() override; // vtable[432]
+	virtual void LoadedSchedules() override; // vtable[433]
+	virtual void IsValidEnemy() override; // vtable[475]
+	virtual void GatherEnemyConditions() override; // vtable[478]
+	virtual void SquadSlotName() override; // vtable[581]
+	virtual void GetClassScheduleIdSpace() override; // vtable[640]
+	virtual void ChooseEnemy() override; // vtable[658]
+	virtual void HelicopterPostThink() override; // vtable[659]
+	virtual void Flight() override; // vtable[666]
+	virtual void GetAcceleration() override; // vtable[670]
+	virtual void ApplySidewaysDrag() override; // vtable[671]
+	virtual void ApplyGeneralDrag() override; // vtable[672]
+	virtual void FireGun() override; // vtable[673]
+	virtual void InitializeRotorSound() override; // vtable[675]
+	virtual void UpdateRotorSoundPitch() override; // vtable[676]
+	virtual void DrawRotorWash() override; // vtable[679]
+	virtual void UpdateDesiredPosition() override; // vtable[680]
+	virtual void UpdateFacingDirection() override; // vtable[681]
 
-	void InputSetPenetrationDepth();
-	void InputOmniscientOn();
-	void InputOmniscientOff();
-	void InputBlindfireOn();
-	void InputBlindfireOff();
-	void InputEnableGroundAttack();
-	void InputDisableGroundAttack();
-	void InputSetNormalBBox();
-	void InputSetDockingBBox();
-	void GetBaseMap();
-	void CreateBellyBlastEnergyCore();
-	void Ping();
-	void GroundDistToPosition();
-	void PlayPatrolLoop();
-	void PlayAngryLoop();
-	void GetGroundAttackHitPosition();
-	void StartGroundAttack();
-	void InputDoGroundAttack();
-	void ManageWarningBeam();
-	void DoBellyBlastDamage();
-	void DoGroundAttackExplosion();
-	void StopGroundAttack();
-	void FindNearestGunshipCrash();
-	void CreateSmokeTrail();
-	void UpdateEnemyTarget();
-	void PoseGunTowardTargetDirection();
-	void GetMissileTarget();
-	void FireDamageOutputsUpto();
-	void StartCannonBurst();
-	void StopCannonBurst();
-	void SelfDestruct();
-	void BeginDestruct();
-	void BeginCrash();
-	void InputSelfDestruct();
-	void IsTargettingMissile();
-	void GetEnemyTarget();
-	void MoveHead();
-	void FireCannonRound();
-	void CheckGroundAttack();
-	void DoCombat();
-	void InputBecomeInvulnerable();
-	void InputBecomeVulnerable();
-	void InitCustomSchedules();
-	void LoadSchedules();
-	void CScheduleLoader();
-	void CNPC_CombineGunship();
+	void InputSetPenetrationDepth(); // size[0]
+	void InputOmniscientOn(); // size[0]
+	void InputOmniscientOff(); // size[0]
+	void InputBlindfireOn(); // size[0]
+	void InputBlindfireOff(); // size[0]
+	void InputEnableGroundAttack(); // size[0]
+	void InputDisableGroundAttack(); // size[0]
+	void InputSetNormalBBox(); // size[0]
+	void InputSetDockingBBox(); // size[0]
+	void GetBaseMap(); // size[0]
+	void CreateBellyBlastEnergyCore(); // size[0]
+	void Ping(); // size[0]
+	void GroundDistToPosition(); // size[0]
+	void PlayPatrolLoop(); // size[0]
+	void PlayAngryLoop(); // size[0]
+	void GetGroundAttackHitPosition(); // size[0]
+	void StartGroundAttack(); // size[0]
+	void InputDoGroundAttack(); // size[0]
+	void ManageWarningBeam(); // size[0]
+	void DoBellyBlastDamage(); // size[0]
+	void DoGroundAttackExplosion(); // size[0]
+	void StopGroundAttack(); // size[0]
+	void FindNearestGunshipCrash(); // size[0]
+	void CreateSmokeTrail(); // size[0]
+	void UpdateEnemyTarget(); // size[0]
+	void PoseGunTowardTargetDirection(); // size[0]
+	void GetMissileTarget(); // size[0]
+	void FireDamageOutputsUpto(); // size[0]
+	void StartCannonBurst(); // size[0]
+	void StopCannonBurst(); // size[0]
+	void SelfDestruct(); // size[0]
+	void BeginDestruct(); // size[0]
+	void BeginCrash(); // size[0]
+	void InputSelfDestruct(); // size[0]
+	void IsTargettingMissile(); // size[0]
+	void GetEnemyTarget(); // size[0]
+	void MoveHead(); // size[0]
+	void FireCannonRound(); // size[0]
+	void CheckGroundAttack(); // size[0]
+	void DoCombat(); // size[0]
+	void InputBecomeInvulnerable(); // size[0]
+	void InputBecomeVulnerable(); // size[0]
+	void InitCustomSchedules(); // size[0]
+	void LoadSchedules(); // size[0]
+	CScheduleLoader(); // size[0]
+	CNPC_CombineGunship(); // size[0]
 };

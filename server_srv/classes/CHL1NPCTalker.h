@@ -3,13 +3,40 @@
 class CHL1NPCTalker : public CNPCSimpleTalker
 {
 public:
-	virtual void ~CHL1NPCTalker() override; // vtable[0]
-	virtual void ~CHL1NPCTalker() override; // vtable[1]
+	virtual ~CHL1NPCTalker() override; // vtable[0]
+	virtual ~CHL1NPCTalker() override; // vtable[1]
+	virtual void GetDataDescMap() override; // vtable[12]
+	virtual void Precache() override; // vtable[24]
+	virtual void TraceAttack() override; // vtable[62]
+	virtual void Touch() override; // vtable[102]
+	virtual void HandleInteraction() override; // vtable[298]
+	virtual void CorpseGib() override; // vtable[348]
+	virtual void ShouldGib() override; // vtable[352]
+	virtual void IRelationType() override; // vtable[364]
+	virtual void SelectSchedule() override; // vtable[407]
+	virtual void TranslateSchedule() override; // vtable[409]
+	virtual void StartTask() override; // vtable[410]
+	virtual void RunTask() override; // vtable[411]
+	virtual void ShouldPlayerAvoid() override; // vtable[414]
+	virtual void GetSchedulingErrorName() override; // vtable[432]
+	virtual void LoadedSchedules() override; // vtable[433]
+	virtual void SelectDeadSchedule() override; // vtable[441]
+	virtual void PlayScriptedSentence() override; // vtable[504]
+	virtual void OnObstructingDoor() override; // vtable[550]
+	virtual void SetHeadDirection() override; // vtable[557]
+	virtual void SquadSlotName() override; // vtable[581]
+	virtual void GetClassScheduleIdSpace() override; // vtable[640]
+	virtual void PickLookTarget() override; // vtable[693]
+	virtual void IsValidSpeechTarget() override; // vtable[710]
+	virtual void StartFollowing() override; // vtable[722]
+	virtual void StopFollowing() override; // vtable[723]
+	virtual void FollowerUse() override; // vtable[724]
+	virtual void DeclineFollowing() override; // vtable[728]
 
-	void GetBaseMap();
-	void FIdleSpeak();
-	void IdleHeadTurn();
-	void InitCustomSchedules();
-	void LoadSchedules();
-	void CScheduleLoader();
+	void GetBaseMap(); // size[0]
+	void FIdleSpeak(); // size[0]
+	void IdleHeadTurn(); // size[0]
+	void InitCustomSchedules(); // size[0]
+	void LoadSchedules(); // size[0]
+	CScheduleLoader(); // size[0]
 };

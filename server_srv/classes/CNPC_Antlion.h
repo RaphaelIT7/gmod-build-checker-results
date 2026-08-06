@@ -3,62 +3,213 @@
 class CNPC_Antlion : public CAI_BlendingHost
 {
 public:
-	virtual void ~CNPC_Antlion() override; // vtable[0]
-	virtual void ~CNPC_Antlion() override; // vtable[1]
-	virtual void AlertSound(); // vtable[508]
+	virtual ~CNPC_Antlion() override; // vtable[0]
+	virtual ~CNPC_Antlion() override; // vtable[1]
+	virtual void GetDataDescMap() override; // vtable[12]
+	virtual void Spawn() override; // vtable[23]
+	virtual void Precache() override; // vtable[24]
+	virtual void Activate() override; // vtable[34]
+	virtual void Save() override; // vtable[41]
+	virtual void Restore() override; // vtable[42]
+	virtual void OnRestore() override; // vtable[45]
+	virtual void Classify() override; // vtable[55]
+	virtual void GetAutoAimRadius() override; // vtable[58]
+	virtual void TraceAttack() override; // vtable[62]
+	virtual void Event_Killed() override; // vtable[68]
+	virtual StartTouch() override; // vtable[101]
+	virtual void Touch() override; // vtable[102]
+	virtual void UpdateOnRemove() override; // vtable[108]
+	virtual void StopLoopingSounds() override; // vtable[109]
+	virtual void Teleport() override; // vtable[111]
+	virtual void ModifyOrAppendCriteria() override; // vtable[121]
+	virtual void BodyTarget() override; // vtable[137]
+	virtual void HeadTarget() override; // vtable[138]
+	virtual void CreateVPhysics() override; // vtable[157]
+	virtual void GetIdealAccel() override; // vtable[247]
+	virtual void CanBecomeRagdoll() override; // vtable[255]
+	virtual void HandleAnimEvent() override; // vtable[261]
+	virtual void PopulatePoseParameters() override; // vtable[262]
+	virtual void Ignite() override; // vtable[267]
+	virtual void FInViewCone() override; // vtable[292]
+	virtual void FInViewCone() override; // vtable[293]
+	virtual void HandleInteraction() override; // vtable[298]
+	virtual void NPC_TranslateActivity() override; // vtable[322]
+	virtual void OnTakeDamage_Alive() override; // vtable[338]
+	virtual void OnFriendDamaged() override; // vtable[342]
+	virtual void CorpseGib() override; // vtable[348]
+	virtual void ShouldGib() override; // vtable[352]
+	virtual void BecomeRagdoll() override; // vtable[358]
+	virtual void IRelationType() override; // vtable[364]
+	virtual void OnChangeActiveWeapon() override; // vtable[378]
+	virtual void NPCInit() override; // vtable[388]
+	virtual void CleanupOnDeath() override; // vtable[391]
+	virtual void CreateComponents() override; // vtable[392]
+	virtual void CreateMotor() override; // vtable[395]
+	virtual void CreateNavigator() override; // vtable[397]
+	virtual void GatherConditions() override; // vtable[402]
+	virtual void PrescheduleThink() override; // vtable[403]
+	virtual void OnScheduleChange() override; // vtable[405]
+	virtual void OnStartSchedule() override; // vtable[406]
+	virtual void SelectSchedule() override; // vtable[407]
+	virtual void SelectFailSchedule() override; // vtable[408]
+	virtual void TranslateSchedule() override; // vtable[409]
+	virtual void StartTask() override; // vtable[410]
+	virtual void RunTask() override; // vtable[411]
+	virtual void IsInterruptable() override; // vtable[412]
+	virtual void ShouldPlayerAvoid() override; // vtable[414]
+	virtual void ShouldAlwaysThink() override; // vtable[417]
+	virtual void GetSchedule() override; // vtable[424]
+	virtual void TaskName() override; // vtable[430]
+	virtual void GetSchedulingErrorName() override; // vtable[432]
+	virtual void LoadedSchedules() override; // vtable[433]
+	virtual void BuildScheduleTestBits() override; // vtable[434]
+	virtual void GetNewSchedule() override; // vtable[435]
+	virtual void GetFailSchedule() override; // vtable[436]
+	virtual void CanFlinch() override; // vtable[437]
+	virtual void GetRunningBehavior() override; // vtable[442]
+	virtual void OnBehaviorChangeStatus() override; // vtable[445]
+	virtual void AccessBehaviors() override; // vtable[446]
+	virtual void NumBehaviors() override; // vtable[447]
+	virtual OnStateChange() override; // vtable[455]
+	virtual void QueryHearSound() override; // vtable[461]
+	virtual void QuerySeeEntity() override; // vtable[462]
+	virtual void OnSeeEntity() override; // vtable[465]
+	virtual void GetSoundInterests() override; // vtable[467]
+	virtual void ShouldIgnoreSound() override; // vtable[472]
+	virtual void BestEnemy() override; // vtable[474]
+	virtual void IsValidEnemy() override; // vtable[475]
+	virtual void GatherEnemyConditions() override; // vtable[478]
+	virtual AllowedToIgnite() override; // vtable[483]
+	virtual void CanRunAScriptedNPCInteraction() override; // vtable[500]
+	virtual AlertSound(); // vtable[508]
 	virtual void IdleSound(); // vtable[509]
 	virtual void PainSound(); // vtable[510]
+	virtual void ShouldPlayIdleSound() override; // vtable[516]
+	virtual void IsNavigationUrgent() override; // vtable[523]
+	virtual void GetTimeToNavGoal() override; // vtable[526]
+	virtual void MaxYawSpeed() override; // vtable[529]
+	virtual void IsJumpLegal() override; // vtable[534]
+	virtual void GetMaxJumpSpeed() override; // vtable[536]
+	virtual void OverrideMoveFacing() override; // vtable[539]
+	virtual void IsUnusableNode() override; // vtable[540]
+	virtual void IsCurTaskContinuousMove() override; // vtable[542]
+	virtual void OnMovementFailed() override; // vtable[544]
+	virtual void OnMovementComplete() override; // vtable[545]
+	virtual void OnCalcBaseMove() override; // vtable[548]
+	virtual void OnObstructionPreSteer() override; // vtable[549]
+	virtual void AimGun() override; // vtable[562]
+	virtual void ScheduledMoveToGoalEntity() override; // vtable[569]
+	virtual void ScheduledFollowPath() override; // vtable[570]
+	virtual GetReactionDelay() override; // vtable[574]
+	virtual void SquadSlotName() override; // vtable[581]
+	virtual void IsValidCover() override; // vtable[587]
+	virtual void IsValidShootPosition() override; // vtable[588]
+	virtual void GetMaxTacticalLateralMovement() override; // vtable[592]
+	virtual void OnChangeHintGroup() override; // vtable[593]
+	virtual void RangeAttack1Conditions() override; // vtable[595]
+	virtual void MeleeAttack1Conditions() override; // vtable[597]
+	virtual void MeleeAttack2Conditions() override; // vtable[598]
+	virtual void InnateRange1MinRange() override; // vtable[599]
+	virtual void InnateRange1MaxRange() override; // vtable[600]
+	virtual TranslateNavGoal() override; // vtable[613]
+	virtual void GetDefaultNavGoalTolerance() override; // vtable[614]
+	virtual void FCanCheckAttacks() override; // vtable[615]
+	virtual void FValidateHintType() override; // vtable[617]
+	virtual GetHitgroupDamageMultiplier() override; // vtable[623]
+	virtual void InnateWeaponLOSCondition() override; // vtable[625]
+	virtual void GetFlinchActivity() override; // vtable[626]
+	virtual void IsLightDamage() override; // vtable[632]
+	virtual void IsHeavyDamage() override; // vtable[633]
+	virtual void NotifyDeadFriend() override; // vtable[636]
+	virtual void GetReasonableFacingDist() override; // vtable[639]
+	virtual void GetClassScheduleIdSpace() override; // vtable[640]
+	virtual void IsCrouching() override; // vtable[642]
+	virtual void IsCrouchedActivity() override; // vtable[646]
+	virtual void CreateBehaviors() override; // vtable[652]
+	virtual void ForceSelectedGo() override; // vtable[653]
+	virtual void ForceSelectedGoRandom() override; // vtable[654]
+	virtual void SpeakMapmakerInterruptConcept() override; // vtable[655]
+	virtual void OnChangeRunningBehavior() override; // vtable[656]
+	virtual void ShouldBehaviorSelectSchedule() override; // vtable[657]
+	virtual void BackBridge_GatherConditions() override; // vtable[658]
+	virtual void BackBridge_SelectSchedule() override; // vtable[659]
+	virtual void BackBridge_TranslateSchedule() override; // vtable[660]
+	virtual void BackBridge_NPC_TranslateActivity() override; // vtable[661]
+	virtual void BackBridge_IsValidEnemy() override; // vtable[662]
+	virtual void BackBridge_BestEnemy() override; // vtable[663]
+	virtual void BackBridge_IsValidCover() override; // vtable[664]
+	virtual void BackBridge_IsValidShootPosition() override; // vtable[665]
+	virtual void BackBridge_GetMaxTacticalLateralMovement() override; // vtable[666]
+	virtual void BackBridge_ShouldIgnoreSound() override; // vtable[667]
+	virtual void BackBridge_OnSeeEntity() override; // vtable[668]
+	virtual void BackBridge_OnFriendDamaged() override; // vtable[669]
+	virtual void BackBridge_IsInterruptable() override; // vtable[670]
+	virtual void BackBridge_IsNavigationUrgent() override; // vtable[671]
+	virtual void BackBridge_ShouldPlayerAvoid() override; // vtable[672]
+	virtual void BackBridge_OnTakeDamage_Alive() override; // vtable[673]
+	virtual void BackBridge_GetDefaultNavGoalTolerance() override; // vtable[674]
+	virtual void BackBridge_GetReasonableFacingDist() override; // vtable[675]
+	virtual void BackBridge_CanFlinch() override; // vtable[676]
+	virtual void BackBridge_IsCrouching() override; // vtable[677]
+	virtual void BackBridge_IsCrouchedActivity() override; // vtable[678]
+	virtual void BackBridge_QueryHearSound() override; // vtable[679]
+	virtual void BackBridge_CanRunAScriptedNPCInteraction() override; // vtable[680]
+	virtual void BackBridge_GetFlinchActivity() override; // vtable[681]
+	virtual void BackBridge_OnCalcBaseMove() override; // vtable[682]
+	virtual void BackBridge_ModifyOrAppendCriteria() override; // vtable[683]
+	virtual void BackBridge_Teleport() override; // vtable[684]
+	virtual void BackBridge_HandleAnimEvent() override; // vtable[685]
 	virtual void IsWorker() override; // vtable[686]
 	virtual void GetSpitVector() override; // vtable[687]
 
-	void InputIgnoreBugbait();
-	void InputHearBugbait();
-	void InputEnableJump();
-	void InputDisableJump();
-	void InputUnburrow();
-	void InputBurrow();
-	void InputBurrowAway();
-	void ManageFleeCapabilities();
-	void ZapThink();
-	void InputJumpAtTarget();
-	void BurrowUse();
-	void GetBaseMap();
-	void UpdateHead();
-	void MeleeAttack();
-	void GetGroundPosition();
-	void FindChasePosition();
-	void ManageFleeCapabilities();
-	void GetPathToSoundFleePoint();
-	void SeenEnemyWithinTime();
-	void DelaySquadAttack();
-	void LockJumpNode();
-	void AllowedToBePushed();
-	void OnObstructionPreSteer();
-	void IsFirmlyOnGround();
-	void Alone();
-	void StartJump();
-	void ClearBurrowPoint();
-	void FindBurrow();
-	void SetWings();
-	void Burrow();
-	void Unburrow();
-	void CreateDust();
-	void CheckLanding();
-	void IsAllied();
-	void ShouldResumeFollow();
-	void ShouldAbandonFollow();
-	void SetFightTarget();
-	void InputStopFightToPosition();
-	void SetFollowTarget();
-	void InputFightToPosition();
-	void SetMoveState();
-	void ChooseMoveSchedule();
-	void Flip();
-	void CascadePush();
-	void DoPoisonBurst();
-	void ShouldJump();
-	void InitCustomSchedules();
-	void LoadSchedules();
-	void CScheduleLoader();
-	void CNPC_Antlion();
+	void InputIgnoreBugbait(); // size[0]
+	void InputHearBugbait(); // size[0]
+	void InputEnableJump(); // size[0]
+	void InputDisableJump(); // size[0]
+	void InputUnburrow(); // size[0]
+	void InputBurrow(); // size[0]
+	void InputBurrowAway(); // size[0]
+	void ManageFleeCapabilities(); // size[0]
+	void ZapThink(); // size[0]
+	void InputJumpAtTarget(); // size[0]
+	void BurrowUse(); // size[0]
+	void GetBaseMap(); // size[0]
+	void UpdateHead(); // size[0]
+	void MeleeAttack(); // size[0]
+	void GetGroundPosition(); // size[0]
+	void FindChasePosition(); // size[0]
+	void ManageFleeCapabilities(); // size[0]
+	void GetPathToSoundFleePoint(); // size[0]
+	void SeenEnemyWithinTime(); // size[0]
+	void DelaySquadAttack(); // size[0]
+	void LockJumpNode(); // size[0]
+	void AllowedToBePushed(); // size[0]
+	void OnObstructionPreSteer(); // size[0]
+	void IsFirmlyOnGround(); // size[0]
+	void Alone(); // size[0]
+	void StartJump(); // size[0]
+	void ClearBurrowPoint(); // size[0]
+	void FindBurrow(); // size[0]
+	void SetWings(); // size[0]
+	void Burrow(); // size[0]
+	void Unburrow(); // size[0]
+	void CreateDust(); // size[0]
+	void CheckLanding(); // size[0]
+	void IsAllied(); // size[0]
+	void ShouldResumeFollow(); // size[0]
+	void ShouldAbandonFollow(); // size[0]
+	void SetFightTarget(); // size[0]
+	void InputStopFightToPosition(); // size[0]
+	void SetFollowTarget(); // size[0]
+	void InputFightToPosition(); // size[0]
+	void SetMoveState(); // size[0]
+	void ChooseMoveSchedule(); // size[0]
+	void Flip(); // size[0]
+	void CascadePush(); // size[0]
+	void DoPoisonBurst(); // size[0]
+	void ShouldJump(); // size[0]
+	void InitCustomSchedules(); // size[0]
+	void LoadSchedules(); // size[0]
+	CScheduleLoader(); // size[0]
+	CNPC_Antlion(); // size[0]
 };

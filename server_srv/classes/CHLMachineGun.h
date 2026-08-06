@@ -3,13 +3,22 @@
 class CHLMachineGun : public CBaseHLCombatWeapon
 {
 public:
-	virtual void ~CHLMachineGun() override; // vtable[0]
-	virtual void ~CHLMachineGun() override; // vtable[1]
+	virtual ~CHLMachineGun() override; // vtable[0]
+	virtual ~CHLMachineGun() override; // vtable[1]
+	virtual void GetServerClass() override; // vtable[10]
+	virtual void YouForgotToImplementOrDeclareServerClass() override; // vtable[11]
+	virtual void GetDataDescMap() override; // vtable[12]
+	virtual void FireBullets() override; // vtable[115]
+	virtual void Deploy() override; // vtable[307]
+	virtual void ItemPostFrame() override; // vtable[318]
+	virtual void PrimaryAttack() override; // vtable[332]
+	virtual void GetBulletSpread() override; // vtable[338]
 	virtual void __cxa_pure_virtual() override; // vtable[341]
+	virtual void WeaponRangeAttack1Condition() override; // vtable[401]
 
-	void _GLOBAL__sub_I_GetServerClass();
-	void GetBaseMap();
-	void CHLMachineGun();
-	void DoMachineGunKick();
-	void WeaponSoundRealtime();
+	void _GLOBAL__sub_I_GetServerClass(); // size[0]
+	void GetBaseMap(); // size[0]
+	CHLMachineGun(); // size[0]
+	void DoMachineGunKick(); // size[0]
+	void WeaponSoundRealtime(); // size[0]
 };

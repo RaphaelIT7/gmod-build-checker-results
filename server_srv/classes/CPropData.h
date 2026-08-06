@@ -3,13 +3,15 @@
 class CPropData : public CAutoGameSystem
 {
 public:
-	virtual void ~CPropData() override; // vtable[13]
-	virtual void ~CPropData() override; // vtable[14]
+	virtual void LevelInitPreEntity() override; // vtable[4]
+	virtual void LevelShutdownPostEntity() override; // vtable[8]
+	virtual ~CPropData() override; // vtable[13]
+	virtual ~CPropData() override; // vtable[14]
 
-	void GetRandomChunkModel();
-	void CPropData();
-	void ParsePropFromBase();
-	void ParsePropFromKV();
-	void GetRandomChunkModel();
-	void ParsePropDataFile();
+	void GetRandomChunkModel(); // size[0]
+	CPropData(); // size[0]
+	void ParsePropFromBase(); // size[0]
+	void ParsePropFromKV(); // size[0]
+	void GetRandomChunkModel(); // size[0]
+	void ParsePropDataFile(); // size[0]
 };

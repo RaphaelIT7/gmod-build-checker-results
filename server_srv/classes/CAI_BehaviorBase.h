@@ -3,8 +3,8 @@
 class CAI_BehaviorBase : public CAI_Component
 {
 public:
-	virtual void ~CAI_BehaviorBase() override; // vtable[0]
-	virtual void ~CAI_BehaviorBase() override; // vtable[1]
+	virtual ~CAI_BehaviorBase() override; // vtable[0]
+	virtual ~CAI_BehaviorBase() override; // vtable[1]
 	virtual void __cxa_pure_virtual(); // vtable[5]
 	virtual void KeyValue(); // vtable[6]
 	virtual void CanSelectSchedule(); // vtable[7]
@@ -72,10 +72,10 @@ public:
 	virtual void IsBehaviorSchedule(); // vtable[69]
 	virtual void GetDataDescMap(); // vtable[70]
 
-	void DrawDebugTextOverlays();
-	void GetBaseMap();
-	void IsCurSchedule();
-	void NotifyChangeBehaviorStatus();
-	void SaveBehaviors();
-	void RestoreBehaviors();
+	void DrawDebugTextOverlays(); // size[0]
+	void GetBaseMap(); // size[0]
+	void IsCurSchedule(); // size[0]
+	void NotifyChangeBehaviorStatus(); // size[0]
+	void SaveBehaviors(); // size[0]
+	void RestoreBehaviors(); // size[0]
 };

@@ -3,10 +3,10 @@
 class CThreadAcquire : public CJob
 {
 public:
-	virtual void ~CThreadAcquire() override; // vtable[2]
-	virtual void ~CThreadAcquire() override; // vtable[3]
+	virtual ~CThreadAcquire() override; // vtable[2]
+	virtual ~CThreadAcquire() override; // vtable[3]
 	virtual void DoExecute() override; // vtable[6]
 
-	void ~CThreadAcquire();
-	void ~CThreadAcquire();
+	~CThreadAcquire(); // size[0]
+	~CThreadAcquire(); // size[0]
 };

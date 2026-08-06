@@ -3,13 +3,13 @@
 class CAI_FreePass : public CAI_Component
 {
 public:
-	virtual void ~CAI_FreePass() override; // vtable[0]
-	virtual void ~CAI_FreePass() override; // vtable[1]
+	virtual ~CAI_FreePass() override; // vtable[0]
+	virtual ~CAI_FreePass() override; // vtable[1]
 
-	void GetBaseMap();
-	void Reset();
-	void HasPass();
-	void Revoke();
-	void Update();
-	void ShouldAllowFVisible();
+	void GetBaseMap(); // size[0]
+	void Reset(); // size[0]
+	void HasPass(); // size[0]
+	void Revoke(); // size[0]
+	void Update(); // size[0]
+	void ShouldAllowFVisible(); // size[0]
 };

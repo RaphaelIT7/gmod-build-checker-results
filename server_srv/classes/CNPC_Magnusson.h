@@ -3,8 +3,13 @@
 class CNPC_Magnusson : public CAI_BaseActor
 {
 public:
-	virtual void ~CNPC_Magnusson() override; // vtable[0]
-	virtual void ~CNPC_Magnusson() override; // vtable[1]
+	virtual ~CNPC_Magnusson() override; // vtable[0]
+	virtual ~CNPC_Magnusson() override; // vtable[1]
+	virtual void Spawn() override; // vtable[23]
+	virtual void Precache() override; // vtable[24]
+	virtual void Classify() override; // vtable[55]
+	virtual void HandleAnimEvent() override; // vtable[261]
+	virtual void GetSoundInterests() override; // vtable[467]
 
-	void _GLOBAL__sub_I_Classify();
+	void _GLOBAL__sub_I_Classify(); // size[0]
 };

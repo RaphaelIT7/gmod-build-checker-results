@@ -3,10 +3,14 @@
 class CAI_TestHull : public CAI_BaseNPC
 {
 public:
-	virtual void ~CAI_TestHull() override; // vtable[0]
-	virtual void ~CAI_TestHull() override; // vtable[1]
+	virtual ~CAI_TestHull() override; // vtable[0]
+	virtual ~CAI_TestHull() override; // vtable[1]
+	virtual void Spawn() override; // vtable[23]
+	virtual void Precache() override; // vtable[24]
+	virtual void ObjectCaps() override; // vtable[36]
+	virtual void IsJumpLegal() override; // vtable[534]
 
-	void _GLOBAL__sub_I_pTestHull();
-	void GetTestHull();
-	void ReturnTestHull();
+	void _GLOBAL__sub_I_pTestHull(); // size[0]
+	void GetTestHull(); // size[0]
+	void ReturnTestHull(); // size[0]
 };

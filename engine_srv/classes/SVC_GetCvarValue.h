@@ -3,8 +3,9 @@
 class SVC_GetCvarValue : public CNetMessage
 {
 public:
-	virtual void ~SVC_GetCvarValue() override; // vtable[0]
-	virtual void ~SVC_GetCvarValue() override; // vtable[1]
+	virtual ~SVC_GetCvarValue() override; // vtable[0]
+	virtual ~SVC_GetCvarValue() override; // vtable[1]
+	virtual void Process() override; // vtable[4]
 	virtual void ReadFromBuffer(); // vtable[5]
 	virtual void WriteToBuffer(); // vtable[6]
 	virtual void GetType(); // vtable[8]

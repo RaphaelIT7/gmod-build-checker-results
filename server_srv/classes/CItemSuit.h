@@ -3,6 +3,9 @@
 class CItemSuit : public CItem
 {
 public:
-	virtual void ~CItemSuit() override; // vtable[0]
-	virtual void ~CItemSuit() override; // vtable[1]
+	virtual ~CItemSuit() override; // vtable[0]
+	virtual ~CItemSuit() override; // vtable[1]
+	virtual void Spawn() override; // vtable[23]
+	virtual void Precache() override; // vtable[24]
+	virtual void MyTouch() override; // vtable[284]
 };

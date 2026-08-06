@@ -3,8 +3,8 @@
 class INextBotEventResponder
 {
 public:
-	virtual void ~INextBotEventResponder(); // vtable[0]
-	virtual void ~INextBotEventResponder(); // vtable[1]
+	virtual ~INextBotEventResponder(); // vtable[0]
+	virtual ~INextBotEventResponder(); // vtable[1]
 	virtual void FirstContainedResponder(); // vtable[2]
 	virtual void NextContainedResponder(); // vtable[3]
 	virtual void OnLeaveGround(); // vtable[4]

@@ -3,8 +3,9 @@
 class CLC_FileCRCCheck : public CNetMessage
 {
 public:
-	virtual void ~CLC_FileCRCCheck() override; // vtable[0]
-	virtual void ~CLC_FileCRCCheck() override; // vtable[1]
+	virtual ~CLC_FileCRCCheck() override; // vtable[0]
+	virtual ~CLC_FileCRCCheck() override; // vtable[1]
+	virtual void Process() override; // vtable[4]
 	virtual void ReadFromBuffer(); // vtable[5]
 	virtual void WriteToBuffer(); // vtable[6]
 	virtual void GetType(); // vtable[8]

@@ -3,49 +3,49 @@
 class CFlexAnimationTrack
 {
 public:
-	virtual void ~CFlexAnimationTrack(); // vtable[0]
-	virtual void ~CFlexAnimationTrack(); // vtable[1]
+	virtual ~CFlexAnimationTrack(); // vtable[0]
+	virtual ~CFlexAnimationTrack(); // vtable[1]
 
-	void SetEvent();
-	void Clear();
-	void SetFlexControllerName();
-	void GetFlexControllerName();
-	void GetNumSamples();
-	void GetSample();
-	void IsTrackActive();
-	void SetTrackActive();
-	void SetEdgeInfo();
-	void GetEdgeInfo();
-	void SetEdgeActive();
-	void IsEdgeActive();
-	void GetEdgeCurveType();
-	void GetEdgeZeroValue();
-	void GetDefaultEdgeZeroPos();
-	void GetZeroValue();
-	void GetBoundedSample();
-	void GetFracIntensity();
-	void GetIntensityInternal();
-	void GetSampleIntensity();
-	void GetBalanceIntensity();
-	void GetIntensity();
-	void GetEvent();
-	void GetFlexControllerIndex();
-	void GetRawFlexControllerIndex();
-	void SetFlexControllerIndex();
-	void SetComboType();
-	void IsComboType();
-	void SetServerSide();
-	void IsServerSide();
-	void SetMin();
-	void SetMax();
-	void GetMin();
-	void GetMax();
-	void IsInverted();
-	void SetInverted();
-	void CFlexAnimationTrack();
-	void RemoveSample();
-	void RemoveOutOfRangeSamples();
-	void Resort();
-	void CFlexAnimationTrack();
-	void AddSample();
+	void SetEvent(); // size[0]
+	void Clear(); // size[0]
+	void SetFlexControllerName(); // size[0]
+	void GetFlexControllerName(); // size[0]
+	void GetNumSamples(); // size[0]
+	void GetSample(); // size[0]
+	void IsTrackActive(); // size[0]
+	void SetTrackActive(); // size[0]
+	void SetEdgeInfo(); // size[0]
+	void GetEdgeInfo(); // size[0]
+	void SetEdgeActive(); // size[0]
+	void IsEdgeActive(); // size[0]
+	void GetEdgeCurveType(); // size[0]
+	void GetEdgeZeroValue(); // size[0]
+	void GetDefaultEdgeZeroPos(); // size[0]
+	void GetZeroValue(); // size[0]
+	void GetBoundedSample(); // size[0]
+	void GetFracIntensity(); // size[0]
+	void GetIntensityInternal(); // size[0]
+	void GetSampleIntensity(); // size[0]
+	void GetBalanceIntensity(); // size[0]
+	void GetIntensity(); // size[0]
+	void GetEvent(); // size[0]
+	void GetFlexControllerIndex(); // size[0]
+	void GetRawFlexControllerIndex(); // size[0]
+	void SetFlexControllerIndex(); // size[0]
+	void SetComboType(); // size[0]
+	void IsComboType(); // size[0]
+	void SetServerSide(); // size[0]
+	void IsServerSide(); // size[0]
+	void SetMin(); // size[0]
+	void SetMax(); // size[0]
+	void GetMin(); // size[0]
+	void GetMax(); // size[0]
+	void IsInverted(); // size[0]
+	void SetInverted(); // size[0]
+	CFlexAnimationTrack(); // size[0]
+	void RemoveSample(); // size[0]
+	void RemoveOutOfRangeSamples(); // size[0]
+	void Resort(); // size[0]
+	CFlexAnimationTrack(); // size[0]
+	void AddSample(); // size[0]
 };

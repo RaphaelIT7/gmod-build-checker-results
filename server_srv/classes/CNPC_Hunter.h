@@ -3,79 +3,155 @@
 class CNPC_Hunter : public CAI_BaseActor
 {
 public:
-	virtual void ~CNPC_Hunter() override; // vtable[0]
-	virtual void ~CNPC_Hunter() override; // vtable[1]
+	virtual ~CNPC_Hunter() override; // vtable[0]
+	virtual ~CNPC_Hunter() override; // vtable[1]
+	virtual void GetDataDescMap() override; // vtable[12]
+	virtual void Spawn() override; // vtable[23]
+	virtual void Precache() override; // vtable[24]
+	virtual void Activate() override; // vtable[34]
+	virtual void DrawDebugGeometryOverlays() override; // vtable[39]
+	virtual void DrawDebugTextOverlays() override; // vtable[40]
+	virtual void OnRestore() override; // vtable[45]
+	virtual void Classify() override; // vtable[55]
+	virtual void TraceAttack() override; // vtable[62]
+	virtual void OnTakeDamage() override; // vtable[64]
+	virtual void Event_Killed() override; // vtable[68]
+	virtual void UpdateOnRemove() override; // vtable[108]
+	virtual void StopLoopingSounds() override; // vtable[109]
+	virtual void MakeTracer() override; // vtable[113]
+	virtual void BodyTarget() override; // vtable[137]
+	virtual void FVisible() override; // vtable[144]
+	virtual void GetIdealAccel() override; // vtable[247]
+	virtual void CanBecomeRagdoll() override; // vtable[255]
+	virtual void HandleAnimEvent() override; // vtable[261]
+	virtual void GetPhysicsImpactDamageTable() override; // vtable[291]
+	virtual void HandleInteraction() override; // vtable[298]
+	virtual void NPC_TranslateActivity() override; // vtable[322]
+	virtual void Weapon_ShootPosition() override; // vtable[331]
+	virtual void OnTakeDamage_Alive() override; // vtable[338]
+	virtual void GetDeathActivity() override; // vtable[347]
+	virtual void IRelationType() override; // vtable[364]
+	virtual void IRelationPriority() override; // vtable[365]
+	virtual void AddEntityRelationship() override; // vtable[375]
+	virtual void PostNPCInit() override; // vtable[389]
+	virtual void NPCThink() override; // vtable[400]
+	virtual void GatherConditions() override; // vtable[402]
+	virtual void PrescheduleThink() override; // vtable[403]
+	virtual void SelectSchedule() override; // vtable[407]
+	virtual void TranslateSchedule() override; // vtable[409]
+	virtual void StartTask() override; // vtable[410]
+	virtual void RunTask() override; // vtable[411]
 	virtual void _ZN11CNPC_Hunter8TaskFailEi() override; // vtable[427]
+	virtual void TaskFail() override; // vtable[428]
+	virtual void GetSchedulingErrorName() override; // vtable[432]
+	virtual void LoadedSchedules() override; // vtable[433]
+	virtual void BuildScheduleTestBits() override; // vtable[434]
+	virtual void CheckFlinches() override; // vtable[438]
+	virtual void SelectIdealState() override; // vtable[453]
+	virtual void UpdateEfficiency() override; // vtable[456]
+	virtual void OnChangeActivity() override; // vtable[460]
+	virtual void QueryHearSound() override; // vtable[461]
+	virtual void OnSeeEntity() override; // vtable[465]
+	virtual void GetSoundInterests() override; // vtable[467]
+	virtual void IsValidEnemy() override; // vtable[475]
+	virtual void EnemyDistTolerance() override; // vtable[479]
+	virtual void DeathSound() override; // vtable[507]
+	virtual void AlertSound() override; // vtable[508]
+	virtual void IdleSound() override; // vtable[509]
+	virtual void PainSound() override; // vtable[510]
+	virtual void ShouldPlayIdleSound() override; // vtable[516]
+	virtual void PlayerHasIlluminatedNPC() override; // vtable[521]
+	virtual void MaxYawSpeed() override; // vtable[529]
+	virtual void IsJumpLegal() override; // vtable[534]
+	virtual void GetJumpGravity() override; // vtable[537]
+	virtual void OverrideMoveFacing() override; // vtable[539]
+	virtual void GetNodeViewOffset() override; // vtable[552]
+	virtual void ScheduledMoveToGoalEntity() override; // vtable[569]
+	virtual void UpdateEnemyMemory() override; // vtable[573]
+	virtual void SquadSlotName() override; // vtable[581]
 	virtual void _ZN11CNPC_Hunter8SetSquadEP9CAI_Squad() override; // vtable[582]
+	virtual void TestShootPosition() override; // vtable[589]
+	virtual void OnChangeHintGroup() override; // vtable[593]
+	virtual void RangeAttack1Conditions() override; // vtable[595]
+	virtual void RangeAttack2Conditions() override; // vtable[596]
+	virtual void MeleeAttack1Conditions() override; // vtable[597]
+	virtual void MeleeAttack2Conditions() override; // vtable[598]
+	virtual void WeaponLOSCondition() override; // vtable[609]
+	virtual void IsHeavyDamage() override; // vtable[633]
+	virtual void GetClassScheduleIdSpace() override; // vtable[640]
+	virtual void ShouldProbeCollideAgainstEntity() override; // vtable[651]
+	virtual void CreateBehaviors() override; // vtable[652]
+	virtual void PlayExpressionForState() override; // vtable[705]
+	virtual void SelectRandomExpressionForState() override; // vtable[706]
 
-	void InputEnableUnplantedShooting();
-	void InputDisableUnplantedShooting();
-	void InputDodge();
-	void InputFlankEnemy();
-	void InputDisableShooting();
-	void InputEnableShooting();
-	void InputEnableSquadShootDelay();
-	void InputDisableSquadShootDelay();
-	void IsCorporealEnemy();
-	void InputFollowStrider();
-	void TeslaThink();
-	void SetupGlobalModelData();
-	void BleedThink();
-	void JostleVehicleThink();
-	void InputUseSiegeTargets();
-	void GetBaseMap();
-	void SetupGlobalModelData();
-	void LockBothEyes();
-	void UnlockBothEyes();
-	void UpdateEyes();
-	void KillCurrentSiegeTarget();
-	void GatherIndoorOutdoorConditions();
-	void ShouldCharge();
-	void GatherChargeConditions();
-	void SelectSiegeSchedule();
-	void EnemyIsRightInFrontOfMe();
-	void ChargeLookAhead();
-	void ChargeSteer();
-	void ChargeDamage();
-	void HandleChargeImpact();
-	void Explode();
-	void NumHuntersInMySquad();
-	void CanPlantHere();
-	void MeleeAttack1ConditionsVsEnemyInVehicle();
-	void IsCorporealEnemy();
-	void MeleeAttack();
-	void CanShootThrough();
-	void IsInLargeOutdoorMap();
-	void PhysicsDamageEffect();
-	void ConsiderFlinching();
-	void StartBleeding();
-	void DoMuzzleFlash();
-	void CountRangedAttackers();
-	void DelayRangedAttackers();
-	void SelectCombatSchedule();
-	void GetShootDir();
-	void ClampShootDir();
-	void ShouldSeekTarget();
-	void BeginVolley();
-	void ShootFlechette();
-	void LeftFootHit();
-	void RightFootHit();
-	void BackFootHit();
-	void FootFX();
-	void GetEnemyVehicle();
-	void TaskFindDodgeActivity();
-	void PlayerFlashlightOnMyEyes();
-	void StriderBusterDetached();
-	void SetAim();
-	void RelaxAim();
-	void UpdateAim();
-	void FollowStrider();
-	void FollowStrider();
-	void CollectSiegeTargets();
-	void ManageSiegeTargets();
-	void StriderBusterAttached();
-	void InitCustomSchedules();
-	void LoadSchedules();
-	void CScheduleLoader();
-	void CNPC_Hunter();
+	void InputEnableUnplantedShooting(); // size[0]
+	void InputDisableUnplantedShooting(); // size[0]
+	void InputDodge(); // size[0]
+	void InputFlankEnemy(); // size[0]
+	void InputDisableShooting(); // size[0]
+	void InputEnableShooting(); // size[0]
+	void InputEnableSquadShootDelay(); // size[0]
+	void InputDisableSquadShootDelay(); // size[0]
+	void IsCorporealEnemy(); // size[0]
+	void InputFollowStrider(); // size[0]
+	void TeslaThink(); // size[0]
+	void SetupGlobalModelData(); // size[0]
+	void BleedThink(); // size[0]
+	void JostleVehicleThink(); // size[0]
+	void InputUseSiegeTargets(); // size[0]
+	void GetBaseMap(); // size[0]
+	void SetupGlobalModelData(); // size[0]
+	void LockBothEyes(); // size[0]
+	void UnlockBothEyes(); // size[0]
+	void UpdateEyes(); // size[0]
+	void KillCurrentSiegeTarget(); // size[0]
+	void GatherIndoorOutdoorConditions(); // size[0]
+	void ShouldCharge(); // size[0]
+	void GatherChargeConditions(); // size[0]
+	void SelectSiegeSchedule(); // size[0]
+	void EnemyIsRightInFrontOfMe(); // size[0]
+	void ChargeLookAhead(); // size[0]
+	void ChargeSteer(); // size[0]
+	void ChargeDamage(); // size[0]
+	void HandleChargeImpact(); // size[0]
+	void Explode(); // size[0]
+	void NumHuntersInMySquad(); // size[0]
+	void CanPlantHere(); // size[0]
+	void MeleeAttack1ConditionsVsEnemyInVehicle(); // size[0]
+	void IsCorporealEnemy(); // size[0]
+	void MeleeAttack(); // size[0]
+	void CanShootThrough(); // size[0]
+	void IsInLargeOutdoorMap(); // size[0]
+	void PhysicsDamageEffect(); // size[0]
+	void ConsiderFlinching(); // size[0]
+	void StartBleeding(); // size[0]
+	void DoMuzzleFlash(); // size[0]
+	void CountRangedAttackers(); // size[0]
+	void DelayRangedAttackers(); // size[0]
+	void SelectCombatSchedule(); // size[0]
+	void GetShootDir(); // size[0]
+	void ClampShootDir(); // size[0]
+	void ShouldSeekTarget(); // size[0]
+	void BeginVolley(); // size[0]
+	void ShootFlechette(); // size[0]
+	void LeftFootHit(); // size[0]
+	void RightFootHit(); // size[0]
+	void BackFootHit(); // size[0]
+	void FootFX(); // size[0]
+	void GetEnemyVehicle(); // size[0]
+	void TaskFindDodgeActivity(); // size[0]
+	void PlayerFlashlightOnMyEyes(); // size[0]
+	void StriderBusterDetached(); // size[0]
+	void SetAim(); // size[0]
+	void RelaxAim(); // size[0]
+	void UpdateAim(); // size[0]
+	void FollowStrider(); // size[0]
+	void FollowStrider(); // size[0]
+	void CollectSiegeTargets(); // size[0]
+	void ManageSiegeTargets(); // size[0]
+	void StriderBusterAttached(); // size[0]
+	void InitCustomSchedules(); // size[0]
+	void LoadSchedules(); // size[0]
+	CScheduleLoader(); // size[0]
+	CNPC_Hunter(); // size[0]
 };

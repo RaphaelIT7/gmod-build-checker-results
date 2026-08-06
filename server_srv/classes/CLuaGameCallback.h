@@ -9,6 +9,7 @@ public:
 	virtual void Msg(); // vtable[3]
 	virtual void MsgColour(); // vtable[4]
 	virtual void LuaError() override; // vtable[5]
+	virtual void InterfaceCreated() override; // vtable[6]
 
-	void CLuaGameCallback();
+	CLuaGameCallback(); // size[0]
 };

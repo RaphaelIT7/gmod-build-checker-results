@@ -3,6 +3,9 @@
 class CCrossbowAmmo : public CHL1Item
 {
 public:
-	virtual void ~CCrossbowAmmo() override; // vtable[0]
-	virtual void ~CCrossbowAmmo() override; // vtable[1]
+	virtual ~CCrossbowAmmo() override; // vtable[0]
+	virtual ~CCrossbowAmmo() override; // vtable[1]
+	virtual void Spawn() override; // vtable[23]
+	virtual void Precache() override; // vtable[24]
+	virtual void MyTouch() override; // vtable[284]
 };

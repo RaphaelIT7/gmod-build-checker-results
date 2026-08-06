@@ -3,8 +3,9 @@
 class CThrownGrenade : public CBaseGrenade
 {
 public:
-	virtual void ~CThrownGrenade() override; // vtable[0]
-	virtual void ~CThrownGrenade() override; // vtable[1]
+	virtual ~CThrownGrenade() override; // vtable[0]
+	virtual ~CThrownGrenade() override; // vtable[1]
+	virtual void Spawn() override; // vtable[23]
 
-	void Thrown();
+	void Thrown(); // size[0]
 };

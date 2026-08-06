@@ -3,6 +3,6 @@
 class CEnableMotionFixup : public CBaseEntity
 {
 public:
-	virtual void ~CEnableMotionFixup() override; // vtable[0]
-	virtual void ~CEnableMotionFixup() override; // vtable[1]
+	virtual ~CEnableMotionFixup() override; // vtable[0]
+	virtual ~CEnableMotionFixup() override; // vtable[1]
 };

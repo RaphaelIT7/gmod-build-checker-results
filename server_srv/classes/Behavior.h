@@ -3,8 +3,8 @@
 class Behavior : public INextBotEventResponder, public IContextualQuery
 {
 public:
-	virtual void ~Behavior() override; // vtable[0]
-	virtual void ~Behavior() override; // vtable[1]
+	virtual ~Behavior() override; // vtable[0]
+	virtual ~Behavior() override; // vtable[1]
 	virtual void FirstContainedResponder() override; // vtable[2]
 	virtual void NextContainedResponder() override; // vtable[3]
 	virtual void OnLeaveGround() override; // vtable[4]

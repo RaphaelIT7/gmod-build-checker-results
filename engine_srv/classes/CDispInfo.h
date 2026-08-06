@@ -3,8 +3,8 @@
 class CDispInfo : public IDispInfo, public CDispUtilsHelper
 {
 public:
-	virtual void ~CDispInfo() override; // vtable[0]
-	virtual void ~CDispInfo() override; // vtable[1]
+	virtual ~CDispInfo() override; // vtable[0]
+	virtual ~CDispInfo() override; // vtable[1]
 	virtual void GetIntersectingSurfaces(); // vtable[2]
 	virtual void RenderWireframeInLightmapPage() override; // vtable[3]
 	virtual void GetBoundingBox(); // vtable[4]
@@ -26,39 +26,39 @@ public:
 	virtual void GetCornerNeighbors(); // vtable[20]
 	virtual void GetDispUtilsByIndex(); // vtable[21]
 
-	void _GLOBAL__sub_I_GetIntersectingSurfaces();
-	void UpdateBoundingBox();
-	void TestAddDecalTri();
-	void TestAddDecalTri();
-	void CullDecals();
-	void SpecifyDynamicMesh();
-	void SpecifyWalkableDynamicMesh();
-	void SpecifyBuildableDynamicMesh();
-	void InitializeActiveVerts();
-	void ClearLOD();
-	void Render();
-	void AddSingleDynamicLight();
-	void AddSingleDynamicLightBumped();
-	void AddSingleDynamicAlphaLight();
-	void SetupDecalNodeIntersect_R();
-	void SetupDecalNodeIntersect();
-	void GetFlatVert();
-	void GetPowerInfo();
-	void GetEdgeNeighbor();
-	void GetCornerNeighbors();
-	void GetDispUtilsByIndex();
-	void TesselateDisplacement();
-	void GenerateDecalFragments_R();
-	void GenerateDecalFragments();
-	void ClearDecalFragments();
-	void ClearAllDecalFragments();
-	void ClearShadowDecalFragments();
-	void ClearAllShadowDecalFragments();
-	void AllocateDispDecalFragment();
-	void AllocateShadowDecalFragment();
-	void CopyCoreDispVertData();
-	void CopyCoreDispData();
-	void NumLightMaps();
-	void CDispInfo();
-	void CopyMapDispData();
+	void _GLOBAL__sub_I_GetIntersectingSurfaces(); // size[0]
+	void UpdateBoundingBox(); // size[0]
+	void TestAddDecalTri(); // size[0]
+	void TestAddDecalTri(); // size[0]
+	void CullDecals(); // size[0]
+	void SpecifyDynamicMesh(); // size[0]
+	void SpecifyWalkableDynamicMesh(); // size[0]
+	void SpecifyBuildableDynamicMesh(); // size[0]
+	void InitializeActiveVerts(); // size[0]
+	void ClearLOD(); // size[0]
+	void Render(); // size[0]
+	void AddSingleDynamicLight(); // size[0]
+	void AddSingleDynamicLightBumped(); // size[0]
+	void AddSingleDynamicAlphaLight(); // size[0]
+	void SetupDecalNodeIntersect_R(); // size[0]
+	void SetupDecalNodeIntersect(); // size[0]
+	void GetFlatVert(); // size[0]
+	void GetPowerInfo(); // size[0]
+	void GetEdgeNeighbor(); // size[0]
+	void GetCornerNeighbors(); // size[0]
+	void GetDispUtilsByIndex(); // size[0]
+	void TesselateDisplacement(); // size[0]
+	void GenerateDecalFragments_R(); // size[0]
+	void GenerateDecalFragments(); // size[0]
+	void ClearDecalFragments(); // size[0]
+	void ClearAllDecalFragments(); // size[0]
+	void ClearShadowDecalFragments(); // size[0]
+	void ClearAllShadowDecalFragments(); // size[0]
+	void AllocateDispDecalFragment(); // size[0]
+	void AllocateShadowDecalFragment(); // size[0]
+	void CopyCoreDispVertData(); // size[0]
+	void CopyCoreDispData(); // size[0]
+	void NumLightMaps(); // size[0]
+	CDispInfo(); // size[0]
+	void CopyMapDispData(); // size[0]
 };

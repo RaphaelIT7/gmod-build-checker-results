@@ -3,5 +3,7 @@
 class NextBotTraversableTraceFilter : public CTraceFilterSimple
 {
 public:
-	void NextBotTraversableTraceFilter();
+	virtual void ShouldHitEntity() override; // vtable[0]
+
+	NextBotTraversableTraceFilter(); // size[0]
 };

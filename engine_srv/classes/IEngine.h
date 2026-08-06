@@ -3,7 +3,7 @@
 class IEngine
 {
 public:
-	virtual void ~IEngine(); // vtable[0]
-	virtual void ~IEngine(); // vtable[1]
+	virtual ~IEngine(); // vtable[0]
+	virtual ~IEngine(); // vtable[1]
 	virtual void __cxa_pure_virtual(); // vtable[10]
 };

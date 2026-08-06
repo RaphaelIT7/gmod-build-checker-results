@@ -3,8 +3,9 @@
 class CLuaGlobalLibrary : public CLuaLibrary
 {
 public:
-	virtual void ~CLuaGlobalLibrary() override; // vtable[0]
-	virtual void ~CLuaGlobalLibrary() override; // vtable[1]
+	virtual ~CLuaGlobalLibrary() override; // vtable[0]
+	virtual ~CLuaGlobalLibrary() override; // vtable[1]
+	virtual void InitLibraries() override; // vtable[3]
 
-	void CLuaGlobalLibrary();
+	CLuaGlobalLibrary(); // size[0]
 };

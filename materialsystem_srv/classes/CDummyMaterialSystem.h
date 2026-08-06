@@ -342,200 +342,200 @@ public:
 	virtual void OverrideBlend(); // vtable[336]
 	virtual void OverrideBlendSeparateAlpha(); // vtable[337]
 	virtual void GetFogMaxDensity(); // vtable[338]
-	virtual void ~CDummyMaterialSystem(); // vtable[339]
-	virtual void ~CDummyMaterialSystem(); // vtable[340]
+	virtual ~CDummyMaterialSystem(); // vtable[339]
+	virtual ~CDummyMaterialSystem(); // vtable[340]
 
-	void BindLocalCubemap();
-	void GetLocalCubemap();
-	void SetRenderTarget();
-	void GetRenderTarget();
-	void SetRenderTargetEx();
-	void GetRenderTargetDimensions();
-	void OverrideDepthEnable();
-	void OverrideAlphaWriteEnable();
-	void OverrideColorWriteEnable();
-	void Bind();
-	void BindLightmapPage();
-	void DepthRange();
-	void ClearBuffers();
-	void ClearBuffersObeyStencil();
-	void ClearBuffersObeyStencilEx();
-	void PerformFullScreenStencilOperation();
-	void ReadPixels();
-	void ReadPixelsAndStretch();
-	void SetAmbientLight();
-	void SetLight();
-	void SetLightingOrigin();
-	void SetAmbientLightCube();
-	void CopyRenderTargetToTexture();
-	void SetFrameBufferCopyTexture();
-	void GetFrameBufferCopyTexture();
-	void Flush();
-	void MatrixMode();
-	void PushMatrix();
-	void PopMatrix();
-	void LoadMatrix();
-	void LoadMatrix();
-	void LoadBoneMatrix();
-	void MultMatrix();
-	void MultMatrix();
-	void MultMatrixLocal();
-	void MultMatrixLocal();
-	void LoadIdentity();
-	void Ortho();
-	void PerspectiveX();
-	void PickMatrix();
-	void Rotate();
-	void Translate();
-	void Scale();
-	void Viewport();
-	void GetViewport();
-	void CullMode();
-	void SetHeightClipMode();
-	void GetHeightClipMode();
-	void SetHeightClipZ();
-	void FogMode();
-	void GetFogMode();
-	void FogStart();
-	void FogEnd();
-	void FogMaxDensity();
-	void SetFogZ();
-	void GetFogDistances();
-	void FogColor3f();
-	void FogColor3fv();
-	void FogColor3ub();
-	void FogColor3ubv();
-	void GetFogColor();
-	void SetNumBoneWeights();
-	void DestroyStaticMesh();
-	void SelectionMode();
-	void SelectionBuffer();
-	void ClearSelectionNames();
-	void LoadSelectionName();
-	void PushSelectionName();
-	void PopSelectionName();
-	void ClearColor3ub();
-	void ClearColor4ub();
-	void DrawScreenSpaceQuad();
-	void SyncToken();
-	void ComputePixelWidthOfSphere();
-	void ComputePixelDiameterOfSphere();
-	void CreateOcclusionQueryObject();
-	void DestroyOcclusionQueryObject();
-	void ResetOcclusionQueryObject();
-	void BeginOcclusionQueryDrawing();
-	void EndOcclusionQueryDrawing();
-	void OcclusionQuery_GetNumPixelsRendered();
-	void SetFlashlightMode();
-	void GetFlashlightMode();
-	void SetFlashlightState();
-	void SetFlashlightStateEx();
-	void SetScissorRect();
-	void PushDeformation();
-	void PopDeformation();
-	void GetNumActiveDeformations();
-	void EnableUserClipTransformOverride();
-	void UserClipTransform();
-	void CreateMorph();
-	void DestroyMorph();
-	void BindMorph();
-	void SetToneMappingScaleLinear();
-	void DrawScreenSpaceRectangle();
-	void PushRenderTargetAndViewport();
-	void PushRenderTargetAndViewport();
-	void PushRenderTargetAndViewport();
-	void PushRenderTargetAndViewport();
-	void PopRenderTargetAndViewport();
-	void BindLightmapTexture();
-	void CopyRenderTargetToTextureEx();
-	void CopyTextureToRenderTargetEx();
-	void PerspectiveOffCenterX();
-	void SetFloatRenderingParameter();
-	void SetIntRenderingParameter();
-	void SetVectorRenderingParameter();
-	void GetToneMappingScaleLinear();
-	void GetMaxToRender();
-	void GetMaxIndicesToRender();
-	void SetStencilEnable();
-	void SetStencilFailOperation();
-	void SetStencilZFailOperation();
-	void SetStencilCompareFunction();
-	void SetStencilReferenceValue();
-	void SetStencilTestMask();
-	void SetStencilWriteMask();
-	void ClearStencilBufferRectangle();
-	void EnableColorCorrection();
-	void AddLookup();
-	void RemoveLookup();
-	void LockLookup();
-	void LoadLookup();
-	void UnlockLookup();
-	void SetLookupWeight();
-	void ResetLookupWeights();
-	void SetResetable();
-	void PushCustomClipPlane();
-	void PopCustomClipPlane();
-	void EnableClipping();
-	void ResetToneMappingScale();
-	void TurnOnToneMapping();
-	void DisableAllLocalLights();
-	void CompareMaterialCombos();
-	void BeginPIXEvent();
-	void EndPIXEvent();
-	void SetPIXMarker();
-	void BeginRender();
-	void EndRender();
-	void BeginBatch();
-	void BindBatch();
-	void DrawBatch();
-	void EndBatch();
-	void SetGoalToneMappingScale();
-	void SetShadowDepthBiasFactors();
-	void GetCallQueue();
-	void GetWorldSpaceCameraPosition();
-	void GetWorldSpaceCameraVectors();
-	void CreateStaticVertexBuffer();
-	void CreateStaticIndexBuffer();
-	void DestroyVertexBuffer();
-	void DestroyIndexBuffer();
-	void GetDynamicVertexBuffer();
-	void GetDynamicIndexBuffer();
-	void BindVertexBuffer();
-	void BindIndexBuffer();
-	void Draw();
-	void BeginMorphAccumulation();
-	void EndMorphAccumulation();
-	void AccumulateMorph();
-	void GetMorphAccumulatorTexCoord();
-	void SetFlexWeights();
-	void GetCurrentMaterial();
-	void GetCurrentNumBones();
-	void GetCurrentProxy();
-	void SetFullScreenDepthTextureValidityFlag();
-	void SetNonInteractivePacifierTexture();
-	void SetNonInteractiveTempFullscreenBuffer();
-	void EnableNonInteractiveMode();
-	void RefreshFrontBufferNonInteractive();
-	void LockRenderData();
-	void UnlockRenderData();
-	void IsRenderData();
-	void AddRefRenderData();
-	void ReleaseRenderData();
-	void PrintfVA();
-	void Printf();
-	void Knob();
-	void GMOD_ForceFilterMode();
-	void GMOD_FlushQueue();
-	void OverrideBlend();
-	void OverrideBlendSeparateAlpha();
-	void GetFogMaxDensity();
-	void ~CDummyMaterialSystem();
-	void ~CDummyMaterialSystem();
-	void GetMatrix();
-	void GetMatrix();
-	void GetWindowSize();
-	void CreateStaticMesh();
-	void GetDynamicMesh();
-	void GetDynamicMeshEx();
-	void GetFlexMesh();
+	void BindLocalCubemap(); // size[0]
+	void GetLocalCubemap(); // size[0]
+	void SetRenderTarget(); // size[0]
+	void GetRenderTarget(); // size[0]
+	void SetRenderTargetEx(); // size[0]
+	void GetRenderTargetDimensions(); // size[0]
+	void OverrideDepthEnable(); // size[0]
+	void OverrideAlphaWriteEnable(); // size[0]
+	void OverrideColorWriteEnable(); // size[0]
+	void Bind(); // size[0]
+	void BindLightmapPage(); // size[0]
+	void DepthRange(); // size[0]
+	void ClearBuffers(); // size[0]
+	void ClearBuffersObeyStencil(); // size[0]
+	void ClearBuffersObeyStencilEx(); // size[0]
+	void PerformFullScreenStencilOperation(); // size[0]
+	void ReadPixels(); // size[0]
+	void ReadPixelsAndStretch(); // size[0]
+	void SetAmbientLight(); // size[0]
+	void SetLight(); // size[0]
+	void SetLightingOrigin(); // size[0]
+	void SetAmbientLightCube(); // size[0]
+	void CopyRenderTargetToTexture(); // size[0]
+	void SetFrameBufferCopyTexture(); // size[0]
+	void GetFrameBufferCopyTexture(); // size[0]
+	void Flush(); // size[0]
+	void MatrixMode(); // size[0]
+	void PushMatrix(); // size[0]
+	void PopMatrix(); // size[0]
+	void LoadMatrix(); // size[0]
+	void LoadMatrix(); // size[0]
+	void LoadBoneMatrix(); // size[0]
+	void MultMatrix(); // size[0]
+	void MultMatrix(); // size[0]
+	void MultMatrixLocal(); // size[0]
+	void MultMatrixLocal(); // size[0]
+	void LoadIdentity(); // size[0]
+	void Ortho(); // size[0]
+	void PerspectiveX(); // size[0]
+	void PickMatrix(); // size[0]
+	void Rotate(); // size[0]
+	void Translate(); // size[0]
+	void Scale(); // size[0]
+	void Viewport(); // size[0]
+	void GetViewport(); // size[0]
+	void CullMode(); // size[0]
+	void SetHeightClipMode(); // size[0]
+	void GetHeightClipMode(); // size[0]
+	void SetHeightClipZ(); // size[0]
+	void FogMode(); // size[0]
+	void GetFogMode(); // size[0]
+	void FogStart(); // size[0]
+	void FogEnd(); // size[0]
+	void FogMaxDensity(); // size[0]
+	void SetFogZ(); // size[0]
+	void GetFogDistances(); // size[0]
+	void FogColor3f(); // size[0]
+	void FogColor3fv(); // size[0]
+	void FogColor3ub(); // size[0]
+	void FogColor3ubv(); // size[0]
+	void GetFogColor(); // size[0]
+	void SetNumBoneWeights(); // size[0]
+	void DestroyStaticMesh(); // size[0]
+	void SelectionMode(); // size[0]
+	void SelectionBuffer(); // size[0]
+	void ClearSelectionNames(); // size[0]
+	void LoadSelectionName(); // size[0]
+	void PushSelectionName(); // size[0]
+	void PopSelectionName(); // size[0]
+	void ClearColor3ub(); // size[0]
+	void ClearColor4ub(); // size[0]
+	void DrawScreenSpaceQuad(); // size[0]
+	void SyncToken(); // size[0]
+	void ComputePixelWidthOfSphere(); // size[0]
+	void ComputePixelDiameterOfSphere(); // size[0]
+	void CreateOcclusionQueryObject(); // size[0]
+	void DestroyOcclusionQueryObject(); // size[0]
+	void ResetOcclusionQueryObject(); // size[0]
+	void BeginOcclusionQueryDrawing(); // size[0]
+	void EndOcclusionQueryDrawing(); // size[0]
+	void OcclusionQuery_GetNumPixelsRendered(); // size[0]
+	void SetFlashlightMode(); // size[0]
+	void GetFlashlightMode(); // size[0]
+	void SetFlashlightState(); // size[0]
+	void SetFlashlightStateEx(); // size[0]
+	void SetScissorRect(); // size[0]
+	void PushDeformation(); // size[0]
+	void PopDeformation(); // size[0]
+	void GetNumActiveDeformations(); // size[0]
+	void EnableUserClipTransformOverride(); // size[0]
+	void UserClipTransform(); // size[0]
+	void CreateMorph(); // size[0]
+	void DestroyMorph(); // size[0]
+	void BindMorph(); // size[0]
+	void SetToneMappingScaleLinear(); // size[0]
+	void DrawScreenSpaceRectangle(); // size[0]
+	void PushRenderTargetAndViewport(); // size[0]
+	void PushRenderTargetAndViewport(); // size[0]
+	void PushRenderTargetAndViewport(); // size[0]
+	void PushRenderTargetAndViewport(); // size[0]
+	void PopRenderTargetAndViewport(); // size[0]
+	void BindLightmapTexture(); // size[0]
+	void CopyRenderTargetToTextureEx(); // size[0]
+	void CopyTextureToRenderTargetEx(); // size[0]
+	void PerspectiveOffCenterX(); // size[0]
+	void SetFloatRenderingParameter(); // size[0]
+	void SetIntRenderingParameter(); // size[0]
+	void SetVectorRenderingParameter(); // size[0]
+	void GetToneMappingScaleLinear(); // size[0]
+	void GetMaxToRender(); // size[0]
+	void GetMaxIndicesToRender(); // size[0]
+	void SetStencilEnable(); // size[0]
+	void SetStencilFailOperation(); // size[0]
+	void SetStencilZFailOperation(); // size[0]
+	void SetStencilCompareFunction(); // size[0]
+	void SetStencilReferenceValue(); // size[0]
+	void SetStencilTestMask(); // size[0]
+	void SetStencilWriteMask(); // size[0]
+	void ClearStencilBufferRectangle(); // size[0]
+	void EnableColorCorrection(); // size[0]
+	void AddLookup(); // size[0]
+	void RemoveLookup(); // size[0]
+	void LockLookup(); // size[0]
+	void LoadLookup(); // size[0]
+	void UnlockLookup(); // size[0]
+	void SetLookupWeight(); // size[0]
+	void ResetLookupWeights(); // size[0]
+	void SetResetable(); // size[0]
+	void PushCustomClipPlane(); // size[0]
+	void PopCustomClipPlane(); // size[0]
+	void EnableClipping(); // size[0]
+	void ResetToneMappingScale(); // size[0]
+	void TurnOnToneMapping(); // size[0]
+	void DisableAllLocalLights(); // size[0]
+	void CompareMaterialCombos(); // size[0]
+	void BeginPIXEvent(); // size[0]
+	void EndPIXEvent(); // size[0]
+	void SetPIXMarker(); // size[0]
+	void BeginRender(); // size[0]
+	void EndRender(); // size[0]
+	void BeginBatch(); // size[0]
+	void BindBatch(); // size[0]
+	void DrawBatch(); // size[0]
+	void EndBatch(); // size[0]
+	void SetGoalToneMappingScale(); // size[0]
+	void SetShadowDepthBiasFactors(); // size[0]
+	void GetCallQueue(); // size[0]
+	void GetWorldSpaceCameraPosition(); // size[0]
+	void GetWorldSpaceCameraVectors(); // size[0]
+	void CreateStaticVertexBuffer(); // size[0]
+	void CreateStaticIndexBuffer(); // size[0]
+	void DestroyVertexBuffer(); // size[0]
+	void DestroyIndexBuffer(); // size[0]
+	void GetDynamicVertexBuffer(); // size[0]
+	void GetDynamicIndexBuffer(); // size[0]
+	void BindVertexBuffer(); // size[0]
+	void BindIndexBuffer(); // size[0]
+	void Draw(); // size[0]
+	void BeginMorphAccumulation(); // size[0]
+	void EndMorphAccumulation(); // size[0]
+	void AccumulateMorph(); // size[0]
+	void GetMorphAccumulatorTexCoord(); // size[0]
+	void SetFlexWeights(); // size[0]
+	void GetCurrentMaterial(); // size[0]
+	void GetCurrentNumBones(); // size[0]
+	void GetCurrentProxy(); // size[0]
+	void SetFullScreenDepthTextureValidityFlag(); // size[0]
+	void SetNonInteractivePacifierTexture(); // size[0]
+	void SetNonInteractiveTempFullscreenBuffer(); // size[0]
+	void EnableNonInteractiveMode(); // size[0]
+	void RefreshFrontBufferNonInteractive(); // size[0]
+	void LockRenderData(); // size[0]
+	void UnlockRenderData(); // size[0]
+	void IsRenderData(); // size[0]
+	void AddRefRenderData(); // size[0]
+	void ReleaseRenderData(); // size[0]
+	void PrintfVA(); // size[0]
+	void Printf(); // size[0]
+	void Knob(); // size[0]
+	void GMOD_ForceFilterMode(); // size[0]
+	void GMOD_FlushQueue(); // size[0]
+	void OverrideBlend(); // size[0]
+	void OverrideBlendSeparateAlpha(); // size[0]
+	void GetFogMaxDensity(); // size[0]
+	~CDummyMaterialSystem(); // size[0]
+	~CDummyMaterialSystem(); // size[0]
+	void GetMatrix(); // size[0]
+	void GetMatrix(); // size[0]
+	void GetWindowSize(); // size[0]
+	void CreateStaticMesh(); // size[0]
+	void GetDynamicMesh(); // size[0]
+	void GetDynamicMeshEx(); // size[0]
+	void GetFlexMesh(); // size[0]
 };

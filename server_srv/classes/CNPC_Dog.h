@@ -3,36 +3,60 @@
 class CNPC_Dog : public CAI_BaseActor
 {
 public:
-	virtual void ~CNPC_Dog() override; // vtable[0]
-	virtual void ~CNPC_Dog() override; // vtable[1]
+	virtual ~CNPC_Dog() override; // vtable[0]
+	virtual ~CNPC_Dog() override; // vtable[1]
+	virtual void GetDataDescMap() override; // vtable[12]
+	virtual void Spawn() override; // vtable[23]
+	virtual void Precache() override; // vtable[24]
+	virtual void Classify() override; // vtable[55]
+	virtual void Event_Killed() override; // vtable[68]
+	virtual void UpdateOnRemove() override; // vtable[108]
 	virtual void _ZN8CNPC_Dog14CreateVPhysicsEv() override; // vtable[157]
+	virtual void HandleAnimEvent() override; // vtable[261]
+	virtual void OnTakeDamage_Alive() override; // vtable[338]
+	virtual void IRelationType() override; // vtable[364]
+	virtual void NPCThink() override; // vtable[400]
+	virtual void GatherConditions() override; // vtable[402]
+	virtual void PrescheduleThink() override; // vtable[403]
+	virtual void SelectSchedule() override; // vtable[407]
+	virtual void StartTask() override; // vtable[410]
+	virtual void RunTask() override; // vtable[411]
+	virtual void SetPlayerAvoidState() override; // vtable[415]
+	virtual void GetSchedulingErrorName() override; // vtable[432]
+	virtual void LoadedSchedules() override; // vtable[433]
+	virtual void FacingPosition() override; // vtable[560]
+	virtual void SquadSlotName() override; // vtable[581]
+	virtual void SetTurnActivity() override; // vtable[622]
+	virtual void GetClassScheduleIdSpace() override; // vtable[640]
+	virtual void CreateBehaviors() override; // vtable[652]
+	virtual void GetHeadDebounce() override; // vtable[702]
 
-	void _GLOBAL__sub_I_m_DataMap();
-	void InputSetThrowArcModifier();
-	void InputTurnBoneFollowersOff();
-	void InputTurnBoneFollowersOn();
-	void MantainBoneFollowerCollisionGroups();
-	void InputSetThrowTarget();
-	void GetBaseMap();
-	void MantainBoneFollowerCollisionGroups();
-	void PickupOrCatchObject();
-	void ClearSprites();
-	void ClearBeams();
-	void CleanCatchAndThrow();
-	void InputPlayerPickupObject();
-	void InputStartWaitAndCatch();
-	void InputStopWaitAndCatch();
-	void InputStopCatchThrowBehavior();
-	void ThrowObject();
-	void CreateSprites();
-	void CreateBeams();
-	void PullObject();
-	void CanTargetSeeMe();
-	void SetupThrowTarget();
-	void FindPhysicsObject();
-	void InputSetPickupTarget();
-	void InputStartCatchThrowBehavior();
-	void InitCustomSchedules();
-	void LoadSchedules();
-	void CScheduleLoader();
+	void _GLOBAL__sub_I_m_DataMap(); // size[0]
+	void InputSetThrowArcModifier(); // size[0]
+	void InputTurnBoneFollowersOff(); // size[0]
+	void InputTurnBoneFollowersOn(); // size[0]
+	void MantainBoneFollowerCollisionGroups(); // size[0]
+	void InputSetThrowTarget(); // size[0]
+	void GetBaseMap(); // size[0]
+	void MantainBoneFollowerCollisionGroups(); // size[0]
+	void PickupOrCatchObject(); // size[0]
+	void ClearSprites(); // size[0]
+	void ClearBeams(); // size[0]
+	void CleanCatchAndThrow(); // size[0]
+	void InputPlayerPickupObject(); // size[0]
+	void InputStartWaitAndCatch(); // size[0]
+	void InputStopWaitAndCatch(); // size[0]
+	void InputStopCatchThrowBehavior(); // size[0]
+	void ThrowObject(); // size[0]
+	void CreateSprites(); // size[0]
+	void CreateBeams(); // size[0]
+	void PullObject(); // size[0]
+	void CanTargetSeeMe(); // size[0]
+	void SetupThrowTarget(); // size[0]
+	void FindPhysicsObject(); // size[0]
+	void InputSetPickupTarget(); // size[0]
+	void InputStartCatchThrowBehavior(); // size[0]
+	void InitCustomSchedules(); // size[0]
+	void LoadSchedules(); // size[0]
+	CScheduleLoader(); // size[0]
 };

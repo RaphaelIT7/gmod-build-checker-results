@@ -3,26 +3,46 @@
 class CPropAPC : public CPropVehicleDriveable
 {
 public:
-	virtual void ~CPropAPC() override; // vtable[0]
-	virtual void ~CPropAPC() override; // vtable[1]
-	virtual void ClassifyPassenger(); // vtable[315]
-	virtual void PassengerDamageModifier(); // vtable[316]
+	virtual ~CPropAPC() override; // vtable[0]
+	virtual ~CPropAPC() override; // vtable[1]
+	virtual GetDataDescMap() override; // vtable[12]
+	virtual GetTracerType() override; // vtable[22]
+	virtual void Spawn() override; // vtable[23]
+	virtual void Precache() override; // vtable[24]
+	virtual void Activate() override; // vtable[34]
+	virtual void OnRestore() override; // vtable[45]
+	virtual void Think() override; // vtable[48]
+	virtual ShouldAttractAutoAim() override; // vtable[57]
+	virtual OnTakeDamage() override; // vtable[64]
+	virtual Event_Killed() override; // vtable[68]
+	virtual Use() override; // vtable[100]
+	virtual UpdateOnRemove() override; // vtable[108]
+	virtual GetTracerAttachment() override; // vtable[114]
+	virtual DoImpactEffect() override; // vtable[116]
+	virtual EyePosition() override; // vtable[133]
+	virtual BodyTarget() override; // vtable[137]
+	virtual void IsJeep() override; // vtable[204]
+	virtual CreateServerVehicle() override; // vtable[287]
+	virtual DriveVehicle() override; // vtable[289]
+	virtual ProcessMovement() override; // vtable[295]
+	virtual ClassifyPassenger(); // vtable[315]
+	virtual PassengerDamageModifier(); // vtable[316]
 
-	void InputDestroy();
-	void InputFireMissileAt();
-	void ProcessMovement();
-	void GetBaseMap();
-	void CreateAPCLaserDot();
-	void AddSmokeTrail();
-	void ExplodeAndThrowChunk();
-	void UpdateWaterLevel();
-	void AimSecondaryWeaponAt();
-	void AimPrimaryWeapon();
-	void DoMuzzleFlash();
-	void FireMachineGun();
-	void GetRocketShootPosition();
-	void CreateCorpse();
-	void FireDying();
-	void FireRocket();
-	void MaxAttackRange();
+	InputDestroy(); // size[0]
+	InputFireMissileAt(); // size[0]
+	ProcessMovement(); // size[0]
+	GetBaseMap(); // size[0]
+	CreateAPCLaserDot(); // size[0]
+	AddSmokeTrail(); // size[0]
+	ExplodeAndThrowChunk(); // size[0]
+	UpdateWaterLevel(); // size[0]
+	AimSecondaryWeaponAt(); // size[0]
+	AimPrimaryWeapon(); // size[0]
+	DoMuzzleFlash(); // size[0]
+	FireMachineGun(); // size[0]
+	GetRocketShootPosition(); // size[0]
+	CreateCorpse(); // size[0]
+	void FireDying(); // size[0]
+	FireRocket(); // size[0]
+	MaxAttackRange(); // size[0]
 };

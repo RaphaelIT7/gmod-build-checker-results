@@ -3,9 +3,12 @@
 class CTEDynamicLight : public CBaseTempEntity
 {
 public:
-	virtual void ~CTEDynamicLight() override; // vtable[2]
-	virtual void ~CTEDynamicLight() override; // vtable[3]
+	virtual void GetServerClass() override; // vtable[0]
+	virtual void YouForgotToImplementOrDeclareServerClass() override; // vtable[1]
+	virtual ~CTEDynamicLight() override; // vtable[2]
+	virtual ~CTEDynamicLight() override; // vtable[3]
+	virtual void Test() override; // vtable[4]
 
-	void _GLOBAL__sub_I_CTEDynamicLight();
-	void CTEDynamicLight();
+	_GLOBAL__sub_I_CTEDynamicLight(); // size[0]
+	CTEDynamicLight(); // size[0]
 };

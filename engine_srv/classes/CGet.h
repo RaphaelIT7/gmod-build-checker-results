@@ -36,5 +36,5 @@ public:
 	virtual void BaseDir(); // vtable[30]
 	virtual void FilterText(); // vtable[31]
 
-	void ~CGet();
+	~CGet(); // size[0]
 };

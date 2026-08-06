@@ -3,8 +3,8 @@
 class CPhysicsCollision : public IPhysicsCollision
 {
 public:
-	virtual void ~CPhysicsCollision(); // vtable[0]
-	virtual void ~CPhysicsCollision(); // vtable[1]
+	virtual ~CPhysicsCollision(); // vtable[0]
+	virtual ~CPhysicsCollision(); // vtable[1]
 	virtual void ConvexFromVerts(); // vtable[2]
 	virtual void ConvexFromPlanes(); // vtable[3]
 	virtual void ConvexVolume(); // vtable[4]
@@ -57,24 +57,24 @@ public:
 	virtual void OutputDebugInfo(); // vtable[51]
 	virtual void ReadStat(); // vtable[52]
 
-	void ConvexFromPlanes();
-	void ConvexFromConvexPolyhedron();
-	void RebuildConvexFromPlanes();
-	void ConvexFromVertsFast();
-	void PolysoupCreate();
-	void ConvertConvexToCollideParams();
-	void VCollideLoad();
-	void GetConvexesUsedInCollideable();
-	void ConvertPolysoupToCollide();
-	void CreateDebugMesh();
-	void CollideVolume();
-	void CollideSurfaceArea();
-	void CreateQueryModel();
-	void RebuildConvexFromPlanes();
-	void FastBboxCollide();
-	void IsBBoxCache();
-	void GetBBoxCache();
-	void ConvexFromVertsFast();
-	void AddBBoxCache();
-	void InitBBoxCache();
+	void ConvexFromPlanes(); // size[0]
+	void ConvexFromConvexPolyhedron(); // size[0]
+	void RebuildConvexFromPlanes(); // size[0]
+	void ConvexFromVertsFast(); // size[0]
+	void PolysoupCreate(); // size[0]
+	void ConvertConvexToCollideParams(); // size[0]
+	void VCollideLoad(); // size[0]
+	void GetConvexesUsedInCollideable(); // size[0]
+	void ConvertPolysoupToCollide(); // size[0]
+	void CreateDebugMesh(); // size[0]
+	void CollideVolume(); // size[0]
+	void CollideSurfaceArea(); // size[0]
+	void CreateQueryModel(); // size[0]
+	void RebuildConvexFromPlanes(); // size[0]
+	void FastBboxCollide(); // size[0]
+	void IsBBoxCache(); // size[0]
+	void GetBBoxCache(); // size[0]
+	void ConvexFromVertsFast(); // size[0]
+	void AddBBoxCache(); // size[0]
+	void InitBBoxCache(); // size[0]
 };

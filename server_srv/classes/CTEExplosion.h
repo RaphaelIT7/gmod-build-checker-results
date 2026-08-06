@@ -3,9 +3,12 @@
 class CTEExplosion : public CTEParticleSystem
 {
 public:
-	virtual void ~CTEExplosion() override; // vtable[2]
-	virtual void ~CTEExplosion() override; // vtable[3]
+	virtual void GetServerClass() override; // vtable[0]
+	virtual void YouForgotToImplementOrDeclareServerClass() override; // vtable[1]
+	virtual ~CTEExplosion() override; // vtable[2]
+	virtual ~CTEExplosion() override; // vtable[3]
+	virtual void Test() override; // vtable[4]
 
-	void _GLOBAL__sub_I_CTEExplosion();
-	void CTEExplosion();
+	_GLOBAL__sub_I_CTEExplosion(); // size[0]
+	CTEExplosion(); // size[0]
 };

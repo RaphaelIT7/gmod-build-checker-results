@@ -3,5 +3,7 @@
 class CDedicatedSteamApplication : public CSteamApplication
 {
 public:
-	void CDedicatedSteamApplication();
+	virtual void Create() override; // vtable[0]
+
+	CDedicatedSteamApplication(); // size[0]
 };

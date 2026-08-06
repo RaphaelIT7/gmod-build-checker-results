@@ -3,8 +3,8 @@
 class CNPC_SecurityCamera : public CNPCBaseInteractive, public CDefaultPlayerPickupVPhysics
 {
 public:
-	virtual void ~CNPC_SecurityCamera() override; // vtable[0]
-	virtual void ~CNPC_SecurityCamera() override; // vtable[1]
+	virtual ~CNPC_SecurityCamera() override; // vtable[0]
+	virtual ~CNPC_SecurityCamera() override; // vtable[1]
 	virtual void SetRefEHandle() override; // vtable[2]
 	virtual void GetRefEHandle() override; // vtable[3]
 	virtual void GetCollideable() override; // vtable[4]
@@ -13,6 +13,28 @@ public:
 	virtual void GetModelIndex() override; // vtable[7]
 	virtual void GetModelName() override; // vtable[8]
 	virtual void SetModelIndex() override; // vtable[9]
+	virtual void GetDataDescMap() override; // vtable[12]
+	virtual void Spawn() override; // vtable[23]
+	virtual void Precache() override; // vtable[24]
+	virtual void Activate() override; // vtable[34]
+	virtual void ObjectCaps() override; // vtable[36]
+	virtual void ShouldSavePhysics() override; // vtable[43]
+	virtual void Classify() override; // vtable[55]
+	virtual void OnTakeDamage() override; // vtable[64]
+	virtual void Use() override; // vtable[100]
+	virtual void UpdateOnRemove() override; // vtable[108]
+	virtual void StopLoopingSounds() override; // vtable[109]
+	virtual void NotifySystemEvent() override; // vtable[112]
+	virtual void EyePosition() override; // vtable[133]
+	virtual void GetVelocity() override; // vtable[143]
+	virtual void FVisible() override; // vtable[144]
+	virtual void CreateVPhysics() override; // vtable[157]
+	virtual void BodyAngles() override; // vtable[299]
+	virtual void StartTask() override; // vtable[410]
+	virtual void PlayerPenetratingVPhysics() override; // vtable[416]
+	virtual void CanBeAnEnemyOf() override; // vtable[476]
+	virtual void EyeOffset() override; // vtable[553]
+	virtual TranslateNavGoal() override; // vtable[613]
 	virtual void CanInteractWith() override; // vtable[652]
 	virtual void HasBeenInteractedWith() override; // vtable[653]
 	virtual void NotifyInteraction() override; // vtable[654]
@@ -22,29 +44,29 @@ public:
 	virtual void CreateSounds() override; // vtable[658]
 	virtual void OnAttemptPhysGunPickup() override; // vtable[659]
 
-	void _GLOBAL__sub_I_m_DataMap();
-	void OnAttemptPhysGunPickup();
-	void Retire();
-	void SearchThink();
-	void SetLastSightTime();
-	void Deploy();
-	void GetBaseMap();
-	void CNPC_SecurityCamera();
-	void SetLastSightTime();
-	void UpdateFacing();
-	void ActiveThink();
-	void DeathThink();
-	void PreThink();
-	void Ping();
-	void Enable();
-	void InputEnable();
-	void Disable();
-	void InputDisable();
-	void Toggle();
-	void InputToggle();
-	void RopesOff();
-	void EyeOn();
-	void EyeOff();
-	void InputRagdoll();
-	void RopesOn();
+	void _GLOBAL__sub_I_m_DataMap(); // size[0]
+	void OnAttemptPhysGunPickup(); // size[0]
+	void Retire(); // size[0]
+	void SearchThink(); // size[0]
+	void SetLastSightTime(); // size[0]
+	void Deploy(); // size[0]
+	void GetBaseMap(); // size[0]
+	CNPC_SecurityCamera(); // size[0]
+	void SetLastSightTime(); // size[0]
+	void UpdateFacing(); // size[0]
+	void ActiveThink(); // size[0]
+	void DeathThink(); // size[0]
+	void PreThink(); // size[0]
+	void Ping(); // size[0]
+	void Enable(); // size[0]
+	void InputEnable(); // size[0]
+	void Disable(); // size[0]
+	void InputDisable(); // size[0]
+	void Toggle(); // size[0]
+	void InputToggle(); // size[0]
+	void RopesOff(); // size[0]
+	void EyeOn(); // size[0]
+	void EyeOff(); // size[0]
+	void InputRagdoll(); // size[0]
+	void RopesOn(); // size[0]
 };

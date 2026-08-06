@@ -3,41 +3,45 @@
 class CPathTrack : public CPointEntity
 {
 public:
-	virtual void ~CPathTrack() override; // vtable[0]
-	virtual void ~CPathTrack() override; // vtable[1]
+	virtual ~CPathTrack() override; // vtable[0]
+	virtual ~CPathTrack() override; // vtable[1]
+	virtual void GetDataDescMap() override; // vtable[12]
+	virtual void Spawn() override; // vtable[23]
+	virtual void Activate() override; // vtable[34]
+	virtual void DrawDebugGeometryOverlays() override; // vtable[39]
 
-	void _GLOBAL__sub_I_m_DataMap();
-	void InputPass();
-	void InputTeleport();
-	void InputEnablePath();
-	void InputDisablePath();
-	void GetBaseMap();
-	void CPathTrack();
-	void BeginIteration();
-	void EndIteration();
-	void Visit();
-	void HasBeenVisited();
-	void HasAlternathPath();
-	void EnableAlternatePath();
-	void InputEnableAlternatePath();
-	void DisableAlternatePath();
-	void ToggleAlternatePath();
-	void InputToggleAlternatePath();
-	void InputDisableAlternatePath();
-	void TogglePath();
-	void InputTogglePath();
-	void EnablePath();
-	void DisablePath();
-	void ValidPath();
-	void Project();
-	void GetNext();
-	void GetPrevious();
-	void SetPrevious();
-	void Link();
-	void GetNextInDir();
-	void LookAhead();
-	void Nearest();
-	void GetOrientationType();
-	void GetOrientation();
-	void Instance();
+	void _GLOBAL__sub_I_m_DataMap(); // size[0]
+	void InputPass(); // size[0]
+	void InputTeleport(); // size[0]
+	void InputEnablePath(); // size[0]
+	void InputDisablePath(); // size[0]
+	void GetBaseMap(); // size[0]
+	CPathTrack(); // size[0]
+	void BeginIteration(); // size[0]
+	void EndIteration(); // size[0]
+	void Visit(); // size[0]
+	void HasBeenVisited(); // size[0]
+	void HasAlternathPath(); // size[0]
+	void EnableAlternatePath(); // size[0]
+	void InputEnableAlternatePath(); // size[0]
+	void DisableAlternatePath(); // size[0]
+	void ToggleAlternatePath(); // size[0]
+	void InputToggleAlternatePath(); // size[0]
+	void InputDisableAlternatePath(); // size[0]
+	void TogglePath(); // size[0]
+	void InputTogglePath(); // size[0]
+	void EnablePath(); // size[0]
+	void DisablePath(); // size[0]
+	void ValidPath(); // size[0]
+	void Project(); // size[0]
+	void GetNext(); // size[0]
+	void GetPrevious(); // size[0]
+	void SetPrevious(); // size[0]
+	void Link(); // size[0]
+	void GetNextInDir(); // size[0]
+	void LookAhead(); // size[0]
+	void Nearest(); // size[0]
+	void GetOrientationType(); // size[0]
+	void GetOrientation(); // size[0]
+	void Instance(); // size[0]
 };

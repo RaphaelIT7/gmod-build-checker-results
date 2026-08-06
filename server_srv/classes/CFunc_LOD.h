@@ -3,10 +3,17 @@
 class CFunc_LOD : public CBaseEntity
 {
 public:
-	virtual void ~CFunc_LOD() override; // vtable[0]
-	virtual void ~CFunc_LOD() override; // vtable[1]
+	virtual ~CFunc_LOD() override; // vtable[0]
+	virtual ~CFunc_LOD() override; // vtable[1]
+	virtual GetServerClass() override; // vtable[10]
+	virtual void YouForgotToImplementOrDeclareServerClass() override; // vtable[11]
+	virtual GetDataDescMap() override; // vtable[12]
+	virtual void Spawn() override; // vtable[23]
+	virtual void KeyValue() override; // vtable[30]
+	virtual void Activate() override; // vtable[34]
+	virtual CreateVPhysics() override; // vtable[157]
 
-	void _GLOBAL__sub_I_GetServerClass();
-	void GetBaseMap();
-	void CFunc_LOD();
+	_GLOBAL__sub_I_GetServerClass(); // size[0]
+	GetBaseMap(); // size[0]
+	CFunc_LOD(); // size[0]
 };

@@ -3,8 +3,18 @@
 class CBaseTrigger : public CBaseToggle
 {
 public:
-	virtual void ~CBaseTrigger() override; // vtable[0]
-	virtual void ~CBaseTrigger() override; // vtable[1]
+	virtual ~CBaseTrigger() override; // vtable[0]
+	virtual ~CBaseTrigger() override; // vtable[1]
+	virtual void GetServerClass() override; // vtable[10]
+	virtual void YouForgotToImplementOrDeclareServerClass() override; // vtable[11]
+	virtual void GetDataDescMap() override; // vtable[12]
+	virtual void Spawn() override; // vtable[23]
+	virtual void PostClientActive() override; // vtable[28]
+	virtual void Activate() override; // vtable[34]
+	virtual void DrawDebugTextOverlays() override; // vtable[40]
+	virtual void StartTouch() override; // vtable[101]
+	virtual void EndTouch() override; // vtable[103]
+	virtual void UpdateOnRemove() override; // vtable[108]
 	virtual void InputEnable(); // vtable[247]
 	virtual void InputDisable(); // vtable[248]
 	virtual void InputDisableAndEndTouch(); // vtable[249]
@@ -17,14 +27,14 @@ public:
 	virtual void StartTouchAll(); // vtable[256]
 	virtual void EndTouchAll(); // vtable[257]
 
-	void Disable();
-	void GetBaseMap();
-	void Enable();
-	void TouchTest();
-	void PointIsWithin();
-	void GetTouchedEntityOfType();
-	void IsTouching();
-	void EndTouchOnAllTouchers();
-	void InitTrigger();
-	void CBaseTrigger();
+	void Disable(); // size[0]
+	void GetBaseMap(); // size[0]
+	void Enable(); // size[0]
+	void TouchTest(); // size[0]
+	void PointIsWithin(); // size[0]
+	void GetTouchedEntityOfType(); // size[0]
+	void IsTouching(); // size[0]
+	void EndTouchOnAllTouchers(); // size[0]
+	void InitTrigger(); // size[0]
+	CBaseTrigger(); // size[0]
 };

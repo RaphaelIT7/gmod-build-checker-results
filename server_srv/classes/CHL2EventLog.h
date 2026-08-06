@@ -3,11 +3,12 @@
 class CHL2EventLog : public CEventLog
 {
 public:
-	virtual void ~CHL2EventLog() override; // vtable[0]
-	virtual void ~CHL2EventLog() override; // vtable[1]
+	virtual ~CHL2EventLog() override; // vtable[0]
+	virtual ~CHL2EventLog() override; // vtable[1]
+	virtual void PrintEvent() override; // vtable[5]
 	virtual void Name() override; // vtable[10]
 
-	void Name();
-	void ~CHL2EventLog();
-	void ~CHL2EventLog();
+	void Name(); // size[0]
+	~CHL2EventLog(); // size[0]
+	~CHL2EventLog(); // size[0]
 };

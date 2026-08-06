@@ -3,9 +3,12 @@
 class CTEBubbles : public CBaseTempEntity
 {
 public:
-	virtual void ~CTEBubbles() override; // vtable[2]
-	virtual void ~CTEBubbles() override; // vtable[3]
+	virtual void GetServerClass() override; // vtable[0]
+	virtual void YouForgotToImplementOrDeclareServerClass() override; // vtable[1]
+	virtual ~CTEBubbles() override; // vtable[2]
+	virtual ~CTEBubbles() override; // vtable[3]
+	virtual void Test() override; // vtable[4]
 
-	void _GLOBAL__sub_I_CTEBubbles();
-	void CTEBubbles();
+	_GLOBAL__sub_I_CTEBubbles(); // size[0]
+	CTEBubbles(); // size[0]
 };

@@ -3,6 +3,9 @@
 class CEgonAmmo : public CHL1Item
 {
 public:
-	virtual void ~CEgonAmmo() override; // vtable[0]
-	virtual void ~CEgonAmmo() override; // vtable[1]
+	virtual ~CEgonAmmo() override; // vtable[0]
+	virtual ~CEgonAmmo() override; // vtable[1]
+	virtual void Spawn() override; // vtable[23]
+	virtual void Precache() override; // vtable[24]
+	virtual void MyTouch() override; // vtable[284]
 };

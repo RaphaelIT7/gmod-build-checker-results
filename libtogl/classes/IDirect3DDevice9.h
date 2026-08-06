@@ -3,91 +3,91 @@
 class IDirect3DDevice9 : public IUnknown
 {
 public:
-	virtual void ~IDirect3DDevice9() override; // vtable[0]
-	virtual void ~IDirect3DDevice9() override; // vtable[1]
+	virtual ~IDirect3DDevice9() override; // vtable[0]
+	virtual ~IDirect3DDevice9() override; // vtable[1]
 
-	void CreateTexture();
-	void CreateCubeTexture();
-	void CreateVolumeTexture();
-	void CreateVertexBuffer();
-	void CreateIndexBuffer();
-	void IDirect3DDevice9();
-	void SetViewport();
-	void BeginScene();
-	void EndScene();
-	void PrintObjectStats();
-	void DumpStatsToConsole();
-	void GetTexture();
-	void CreateRenderTarget();
-	void SetRenderTarget();
-	void GetRenderTarget();
-	void CreateOffscreenPlainSurface();
-	void CreateDepthStencilSurface();
-	void SetDepthStencilSurface();
-	void GetDepthStencilSurface();
-	void GetFrontBufferData();
-	void SetPixelShaderNonInline();
-	void SetPixelShaderConstantFNonInline();
-	void SetPixelShaderConstantB();
-	void SetPixelShaderConstantI();
-	void SetVertexShaderNonInline();
-	void SetVertexShaderConstantFNonInline();
-	void SetVertexShaderConstantBNonInline();
-	void SetVertexShaderConstantINonInline();
-	void LinkShaderPair();
-	void QueryShaderPair();
-	void CreateVertexDeclaration();
-	void SetVertexDeclarationNonInline();
-	void SetFVF();
-	void GetFVF();
-	void SetStreamSourceNonInline();
-	void SetIndicesNonInline();
-	void ReleasedVertexDeclaration();
-	void ReleasedTexture();
-	void ReleasedSurface();
-	void ReleasedPixelShader();
-	void ReleasedVertexShader();
-	void ReleasedVertexBuffer();
-	void ReleasedIndexBuffer();
-	void ReleasedQuery();
-	void CreateQuery();
-	void FlushClipPlaneEquation();
-	void InitStates();
-	void FullFlushStates();
-	void DrawPrimitive();
-	void DrawIndexedPrimitiveUP();
-	void ShowCursor();
-	void SetTransform();
-	void SetTextureStageState();
-	void ValidateDevice();
-	void SetMaterial();
-	void LightEnable();
-	void SetScissorRect();
-	void GetDeviceCaps();
-	void TestCooperativeLevel();
-	void SetClipPlane();
-	void EvictManagedResources();
-	void SetLight();
-	void SetGammaRamp();
-	void SaveGLState();
-	void RestoreGLState();
-	void AcquireThreadOwnership();
-	void ReleaseThreadOwnership();
-	void SetMaxUsedVertexShaderConstantsHintNonInline();
-	void SetRenderState();
-	void SetSamplerStateNonInline();
-	void SetSamplerStatesNonInline();
-	void SetTextureNonInline();
-	void CreatePixelShader();
-	void CreateVertexShader();
-	void ResetFBOMap();
-	void UpdateBoundFBO();
-	void Create();
-	void Reset();
-	void StretchRect();
-	void GetRenderTargetData();
-	void DrawIndexedPrimitive();
-	void Clear();
-	void ScrubFBOMap();
-	void Present();
+	void CreateTexture(); // size[0]
+	void CreateCubeTexture(); // size[0]
+	void CreateVolumeTexture(); // size[0]
+	void CreateVertexBuffer(); // size[0]
+	void CreateIndexBuffer(); // size[0]
+	IDirect3DDevice9(); // size[0]
+	void SetViewport(); // size[0]
+	void BeginScene(); // size[0]
+	void EndScene(); // size[0]
+	void PrintObjectStats(); // size[0]
+	void DumpStatsToConsole(); // size[0]
+	void GetTexture(); // size[0]
+	void CreateRenderTarget(); // size[0]
+	void SetRenderTarget(); // size[0]
+	void GetRenderTarget(); // size[0]
+	void CreateOffscreenPlainSurface(); // size[0]
+	void CreateDepthStencilSurface(); // size[0]
+	void SetDepthStencilSurface(); // size[0]
+	void GetDepthStencilSurface(); // size[0]
+	void GetFrontBufferData(); // size[0]
+	void SetPixelShaderNonInline(); // size[0]
+	void SetPixelShaderConstantFNonInline(); // size[0]
+	void SetPixelShaderConstantB(); // size[0]
+	void SetPixelShaderConstantI(); // size[0]
+	void SetVertexShaderNonInline(); // size[0]
+	void SetVertexShaderConstantFNonInline(); // size[0]
+	void SetVertexShaderConstantBNonInline(); // size[0]
+	void SetVertexShaderConstantINonInline(); // size[0]
+	void LinkShaderPair(); // size[0]
+	void QueryShaderPair(); // size[0]
+	void CreateVertexDeclaration(); // size[0]
+	void SetVertexDeclarationNonInline(); // size[0]
+	void SetFVF(); // size[0]
+	void GetFVF(); // size[0]
+	void SetStreamSourceNonInline(); // size[0]
+	void SetIndicesNonInline(); // size[0]
+	void ReleasedVertexDeclaration(); // size[0]
+	void ReleasedTexture(); // size[0]
+	void ReleasedSurface(); // size[0]
+	void ReleasedPixelShader(); // size[0]
+	void ReleasedVertexShader(); // size[0]
+	void ReleasedVertexBuffer(); // size[0]
+	void ReleasedIndexBuffer(); // size[0]
+	void ReleasedQuery(); // size[0]
+	void CreateQuery(); // size[0]
+	void FlushClipPlaneEquation(); // size[0]
+	void InitStates(); // size[0]
+	void FullFlushStates(); // size[0]
+	void DrawPrimitive(); // size[0]
+	void DrawIndexedPrimitiveUP(); // size[0]
+	void ShowCursor(); // size[0]
+	void SetTransform(); // size[0]
+	void SetTextureStageState(); // size[0]
+	void ValidateDevice(); // size[0]
+	void SetMaterial(); // size[0]
+	void LightEnable(); // size[0]
+	void SetScissorRect(); // size[0]
+	void GetDeviceCaps(); // size[0]
+	void TestCooperativeLevel(); // size[0]
+	void SetClipPlane(); // size[0]
+	void EvictManagedResources(); // size[0]
+	void SetLight(); // size[0]
+	void SetGammaRamp(); // size[0]
+	void SaveGLState(); // size[0]
+	void RestoreGLState(); // size[0]
+	void AcquireThreadOwnership(); // size[0]
+	void ReleaseThreadOwnership(); // size[0]
+	void SetMaxUsedVertexShaderConstantsHintNonInline(); // size[0]
+	void SetRenderState(); // size[0]
+	void SetSamplerStateNonInline(); // size[0]
+	void SetSamplerStatesNonInline(); // size[0]
+	void SetTextureNonInline(); // size[0]
+	void CreatePixelShader(); // size[0]
+	void CreateVertexShader(); // size[0]
+	void ResetFBOMap(); // size[0]
+	void UpdateBoundFBO(); // size[0]
+	void Create(); // size[0]
+	void Reset(); // size[0]
+	void StretchRect(); // size[0]
+	void GetRenderTargetData(); // size[0]
+	void DrawIndexedPrimitive(); // size[0]
+	void Clear(); // size[0]
+	void ScrubFBOMap(); // size[0]
+	void Present(); // size[0]
 };

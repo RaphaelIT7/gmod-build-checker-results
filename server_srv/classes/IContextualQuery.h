@@ -3,8 +3,8 @@
 class IContextualQuery
 {
 public:
-	virtual void ~IContextualQuery(); // vtable[0]
-	virtual void ~IContextualQuery(); // vtable[1]
+	virtual ~IContextualQuery(); // vtable[0]
+	virtual ~IContextualQuery(); // vtable[1]
 	virtual void ShouldPickUp(); // vtable[2]
 	virtual void ShouldHurry(); // vtable[3]
 	virtual void ShouldRetreat(); // vtable[4]

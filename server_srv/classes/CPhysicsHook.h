@@ -3,10 +3,19 @@
 class CPhysicsHook : public CBaseGameSystemPerFrame
 {
 public:
-	virtual void ~CPhysicsHook() override; // vtable[13]
-	virtual void ~CPhysicsHook() override; // vtable[14]
+	virtual void Name() override; // vtable[0]
+	virtual void Init() override; // vtable[1]
+	virtual void LevelInitPreEntity() override; // vtable[4]
+	virtual void LevelInitPostEntity() override; // vtable[5]
+	virtual void LevelShutdownPreEntity() override; // vtable[7]
+	virtual void LevelShutdownPostEntity() override; // vtable[8]
+	virtual ~CPhysicsHook() override; // vtable[13]
+	virtual ~CPhysicsHook() override; // vtable[14]
+	virtual void FrameUpdatePostEntityThink() override; // vtable[16]
+	virtual void PreClientUpdate() override; // vtable[17]
+	virtual void IsInCallback() override; // vtable[18]
 	virtual void GetPhysicsPaused(); // vtable[19]
 	virtual void SetPhysicsPaused(); // vtable[20]
 
-	void FindOrAddVehicleScript();
+	void FindOrAddVehicleScript(); // size[0]
 };

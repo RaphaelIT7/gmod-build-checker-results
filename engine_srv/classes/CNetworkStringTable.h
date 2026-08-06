@@ -3,8 +3,8 @@
 class CNetworkStringTable : public INetworkStringTable
 {
 public:
-	virtual void ~CNetworkStringTable() override; // vtable[0]
-	virtual void ~CNetworkStringTable() override; // vtable[1]
+	virtual ~CNetworkStringTable() override; // vtable[0]
+	virtual ~CNetworkStringTable() override; // vtable[1]
 	virtual void GetTableName(); // vtable[2]
 	virtual void GetTableId(); // vtable[3]
 	virtual void GetNumStrings(); // vtable[4]
@@ -21,26 +21,26 @@ public:
 	virtual void Dump(); // vtable[15]
 	virtual void Lock(); // vtable[16]
 
-	void IsUserDataFixedSize();
-	void HasFileNameStrings();
-	void GetUserDataSize();
-	void GetUserDataSizeBits();
-	void GetItem();
-	void GetCallback();
-	void EnableRollback();
-	void SetMirrorTable();
-	void RestoreTick();
-	void UpdateMirrorTable();
-	void GMOD_WriteUpdateSelective();
-	void CopyStringTable();
-	void TriggerCallbacks();
-	void DataChanged();
-	void WriteStringTable();
-	void SetAllowClientSideAddString();
-	void DeleteAllStrings();
-	void ReadStringTable();
-	void CNetworkStringTable();
-	void WriteUpdate();
-	void WriteBaselines();
-	void ParseUpdate();
+	void IsUserDataFixedSize(); // size[0]
+	void HasFileNameStrings(); // size[0]
+	void GetUserDataSize(); // size[0]
+	void GetUserDataSizeBits(); // size[0]
+	void GetItem(); // size[0]
+	void GetCallback(); // size[0]
+	void EnableRollback(); // size[0]
+	void SetMirrorTable(); // size[0]
+	void RestoreTick(); // size[0]
+	void UpdateMirrorTable(); // size[0]
+	void GMOD_WriteUpdateSelective(); // size[0]
+	void CopyStringTable(); // size[0]
+	void TriggerCallbacks(); // size[0]
+	void DataChanged(); // size[0]
+	void WriteStringTable(); // size[0]
+	void SetAllowClientSideAddString(); // size[0]
+	void DeleteAllStrings(); // size[0]
+	void ReadStringTable(); // size[0]
+	CNetworkStringTable(); // size[0]
+	void WriteUpdate(); // size[0]
+	void WriteBaselines(); // size[0]
+	void ParseUpdate(); // size[0]
 };

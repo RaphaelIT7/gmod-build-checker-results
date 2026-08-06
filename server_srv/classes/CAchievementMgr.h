@@ -6,9 +6,13 @@ public:
 	virtual void Name() override; // vtable[0]
 	virtual void Init() override; // vtable[1]
 	virtual void PostInit() override; // vtable[2]
+	virtual void Shutdown() override; // vtable[3]
+	virtual void LevelInitPreEntity() override; // vtable[4]
+	virtual void LevelShutdownPreEntity() override; // vtable[7]
 	virtual void IsPerFrame() override; // vtable[12]
-	virtual void ~CAchievementMgr() override; // vtable[13]
-	virtual void ~CAchievementMgr() override; // vtable[14]
+	virtual ~CAchievementMgr() override; // vtable[13]
+	virtual ~CAchievementMgr() override; // vtable[14]
+	virtual void FrameUpdatePostEntityThink() override; // vtable[16]
 	virtual void InitializeAchievements(); // vtable[19]
 	virtual void Update(); // vtable[20]
 	virtual void OnMapEvent(); // vtable[21]
@@ -25,41 +29,41 @@ public:
 	virtual void RemovePanelFromNotifyAch(); // vtable[32]
 	virtual void FireGameEvent(); // vtable[33]
 
-	void InitializeAchievements();
-	void GetAchievementByIndex();
-	void GetAchievementCount();
-	void Steam_OnAchievmentIconDownloaded();
-	void RemovePanelFromNotifyAch();
-	void OnMapEvent();
-	void GetAchievementByID();
-	void GetAchievementByName();
-	void HasAchieved();
-	void UploadUserData();
-	void LoadGlobalState();
-	void EnsureGlobalStateLoaded();
-	void CheckAchievementsEnabled();
-	void UpdateAchievement();
-	void OnKillEvent();
-	void OnAchievementEvent();
-	void ResetAchievement_Internal();
-	void ResetAchievement();
-	void SaveGlobalState();
-	void SaveGlobalStateIfDirty();
-	void PreRestoreSavedGame();
-	void PostRestoreSavedGame();
-	void FireGameEvent();
-	void ResetAchievements();
-	void PrintAchievementStatus();
-	void UpdateStateFromSteam_Internal();
-	void DownloadUserData();
-	void Steam_OnUserStatsReceived();
-	void CheckMetaAchievements();
-	void Steam_OnUserStatsStored();
-	void CAchievementMgr();
-	void AwardAchievement();
-	void AddPanelToNotifyAch();
-	void SetAchievementThink();
-	void WereCheatsEverOn();
-	void ~CAchievementMgr();
-	void ~CAchievementMgr();
+	void InitializeAchievements(); // size[0]
+	void GetAchievementByIndex(); // size[0]
+	void GetAchievementCount(); // size[0]
+	void Steam_OnAchievmentIconDownloaded(); // size[0]
+	void RemovePanelFromNotifyAch(); // size[0]
+	void OnMapEvent(); // size[0]
+	void GetAchievementByID(); // size[0]
+	void GetAchievementByName(); // size[0]
+	void HasAchieved(); // size[0]
+	void UploadUserData(); // size[0]
+	void LoadGlobalState(); // size[0]
+	void EnsureGlobalStateLoaded(); // size[0]
+	void CheckAchievementsEnabled(); // size[0]
+	void UpdateAchievement(); // size[0]
+	void OnKillEvent(); // size[0]
+	void OnAchievementEvent(); // size[0]
+	void ResetAchievement_Internal(); // size[0]
+	void ResetAchievement(); // size[0]
+	void SaveGlobalState(); // size[0]
+	void SaveGlobalStateIfDirty(); // size[0]
+	void PreRestoreSavedGame(); // size[0]
+	void PostRestoreSavedGame(); // size[0]
+	void FireGameEvent(); // size[0]
+	void ResetAchievements(); // size[0]
+	void PrintAchievementStatus(); // size[0]
+	void UpdateStateFromSteam_Internal(); // size[0]
+	void DownloadUserData(); // size[0]
+	void Steam_OnUserStatsReceived(); // size[0]
+	void CheckMetaAchievements(); // size[0]
+	void Steam_OnUserStatsStored(); // size[0]
+	CAchievementMgr(); // size[0]
+	void AwardAchievement(); // size[0]
+	void AddPanelToNotifyAch(); // size[0]
+	void SetAchievementThink(); // size[0]
+	void WereCheatsEverOn(); // size[0]
+	~CAchievementMgr(); // size[0]
+	~CAchievementMgr(); // size[0]
 };

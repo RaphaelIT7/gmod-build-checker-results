@@ -14,6 +14,8 @@ public:
 	virtual void SetLight(); // vtable[13]
 	virtual void SetAmbientLightCube(); // vtable[14]
 	virtual void CopyRenderTargetToTexture(); // vtable[15]
+	virtual void SetFrameBufferCopyTexture() override; // vtable[16]
+	virtual void GetFrameBufferCopyTexture() override; // vtable[17]
 	virtual void GetViewport(); // vtable[37]
 	virtual void CullMode(); // vtable[38]
 	virtual void FogMode(); // vtable[41]
@@ -155,4 +157,5 @@ public:
 	virtual void BeginFrame(); // vtable[222]
 	virtual void EndFrame(); // vtable[223]
 	virtual void DoStartupShaderPreloading() override; // vtable[228]
+	virtual void InitializeFrom() override; // vtable[230]
 };

@@ -3,40 +3,65 @@
 class CPropJeep : public CPropVehicleDriveable
 {
 public:
-	virtual void ~CPropJeep() override; // vtable[0]
-	virtual void ~CPropJeep() override; // vtable[1]
+	virtual ~CPropJeep() override; // vtable[0]
+	virtual ~CPropJeep() override; // vtable[1]
+	virtual void GetServerClass() override; // vtable[10]
+	virtual void YouForgotToImplementOrDeclareServerClass() override; // vtable[11]
+	virtual void GetDataDescMap() override; // vtable[12]
+	virtual void GetTracerType() override; // vtable[22]
+	virtual void Spawn() override; // vtable[23]
+	virtual void Precache() override; // vtable[24]
+	virtual void Activate() override; // vtable[34]
+	virtual void Think() override; // vtable[48]
+	virtual void TraceAttack() override; // vtable[62]
+	virtual void OnTakeDamage() override; // vtable[64]
+	virtual void Use() override; // vtable[100]
+	virtual void DoImpactEffect() override; // vtable[116]
+	virtual void BodyTarget() override; // vtable[137]
+	virtual void IsVehicle() override; // vtable[203]
+	virtual void IsJeep() override; // vtable[204]
+	virtual void DampenEyePosition() override; // vtable[284]
+	virtual void CreateServerVehicle() override; // vtable[287]
+	virtual void DriveVehicle() override; // vtable[289]
+	virtual void IsVehicleBodyInWater() override; // vtable[291]
+	virtual void SetupMove() override; // vtable[294]
+	virtual void ProcessMovement() override; // vtable[295]
+	virtual void CanExitVehicle() override; // vtable[298]
+	virtual void EnterVehicle() override; // vtable[301]
+	virtual void ExitVehicle() override; // vtable[305]
+	virtual void PassengerShouldReceiveDamage() override; // vtable[307]
 	virtual void AllowBlockedExit(); // vtable[315]
 	virtual void PassengerDamageModifier(); // vtable[316]
 	virtual void HandleWater(); // vtable[317]
 
-	void JeepSeagullThink();
-	void CanExitVehicle();
-	void InputShowHudHint();
-	void InputFinishRemoveTauCannon();
-	void InputStartRemoveTauCannon();
-	void GetBaseMap();
-	void CPropJeep();
-	void AimGunAt();
-	void InitWaterData();
-	void CheckWaterLevel();
-	void CheckWater();
-	void CreateSplash();
-	void CreateRipple();
-	void DrawBeam();
-	void ChargeCannon();
-	void StopChargeSound();
-	void GetCannonAim();
-	void FireCannon();
-	void FireChargedCannon();
-	void ComputePDControllerCoefficients();
-	void DampenForwardMotion();
-	void DampenUpMotion();
-	void CreateDangerSounds();
-	void ProcessMovement();
-	void AddSeagullPoop();
-	void SpawnPerchedSeagull();
-	void SetupMove();
-	void EnterVehicle();
-	void ExitVehicle();
-	void PassengerShouldReceiveDamage();
+	void JeepSeagullThink(); // size[0]
+	void CanExitVehicle(); // size[0]
+	void InputShowHudHint(); // size[0]
+	void InputFinishRemoveTauCannon(); // size[0]
+	void InputStartRemoveTauCannon(); // size[0]
+	void GetBaseMap(); // size[0]
+	CPropJeep(); // size[0]
+	void AimGunAt(); // size[0]
+	void InitWaterData(); // size[0]
+	void CheckWaterLevel(); // size[0]
+	void CheckWater(); // size[0]
+	void CreateSplash(); // size[0]
+	void CreateRipple(); // size[0]
+	void DrawBeam(); // size[0]
+	void ChargeCannon(); // size[0]
+	void StopChargeSound(); // size[0]
+	void GetCannonAim(); // size[0]
+	void FireCannon(); // size[0]
+	void FireChargedCannon(); // size[0]
+	void ComputePDControllerCoefficients(); // size[0]
+	void DampenForwardMotion(); // size[0]
+	void DampenUpMotion(); // size[0]
+	void CreateDangerSounds(); // size[0]
+	void ProcessMovement(); // size[0]
+	void AddSeagullPoop(); // size[0]
+	void SpawnPerchedSeagull(); // size[0]
+	void SetupMove(); // size[0]
+	void EnterVehicle(); // size[0]
+	void ExitVehicle(); // size[0]
+	void PassengerShouldReceiveDamage(); // size[0]
 };

@@ -3,8 +3,8 @@
 class CAI_Motor : public CAI_Component, public CAI_ProxyMovementSink
 {
 public:
-	virtual void ~CAI_Motor() override; // vtable[0]
-	virtual void ~CAI_Motor() override; // vtable[1]
+	virtual ~CAI_Motor() override; // vtable[0]
+	virtual ~CAI_Motor() override; // vtable[1]
 	virtual void SetOuter() override; // vtable[2]
 	virtual void TaskFail() override; // vtable[3]
 	virtual void TaskComplete() override; // vtable[4]
@@ -33,37 +33,37 @@ public:
 	virtual void MoveGroundExecute(); // vtable[27]
 	virtual void MoveFlyExecute(); // vtable[28]
 
-	void _GLOBAL__sub_I_m_DataMap();
-	void GetBaseMap();
-	void CAI_Motor();
-	void Init();
-	void MoveGroundStep();
-	void GetIdealSpeed();
-	void GetIdealAccel();
-	void IdealVelocity();
-	void CalcIntervalMove();
-	void MoveGroundExecuteWalk();
-	void SetIdealYawAndUpdate();
-	void DeltaIdealYaw();
-	void SetIdealYawToTarget();
-	void SetIdealYawToTargetAndUpdate();
-	void MoveNormalExecute();
-	void GetNavigator();
-	void SelectWeightedSequence();
-	void GetSequenceGroundSpeed();
-	void SetSmoothedVelocity();
-	void GetSmoothedVelocity();
-	void StepHeight();
-	void CanStandOn();
-	void CalcIdealYaw();
-	void SetBoneController();
-	void GetSequenceMoveYaw();
-	void SetPlaybackRate();
-	void GetPlaybackRate();
-	void SetPoseParameter();
-	void GetPoseParameter();
-	void HasPoseParameter();
-	void SetPoseParameter();
-	void HasPoseParameter();
-	void SetMoveType();
+	void _GLOBAL__sub_I_m_DataMap(); // size[0]
+	void GetBaseMap(); // size[0]
+	CAI_Motor(); // size[0]
+	void Init(); // size[0]
+	void MoveGroundStep(); // size[0]
+	void GetIdealSpeed(); // size[0]
+	void GetIdealAccel(); // size[0]
+	void IdealVelocity(); // size[0]
+	void CalcIntervalMove(); // size[0]
+	void MoveGroundExecuteWalk(); // size[0]
+	void SetIdealYawAndUpdate(); // size[0]
+	void DeltaIdealYaw(); // size[0]
+	void SetIdealYawToTarget(); // size[0]
+	void SetIdealYawToTargetAndUpdate(); // size[0]
+	void MoveNormalExecute(); // size[0]
+	void GetNavigator(); // size[0]
+	void SelectWeightedSequence(); // size[0]
+	void GetSequenceGroundSpeed(); // size[0]
+	void SetSmoothedVelocity(); // size[0]
+	void GetSmoothedVelocity(); // size[0]
+	void StepHeight(); // size[0]
+	void CanStandOn(); // size[0]
+	void CalcIdealYaw(); // size[0]
+	void SetBoneController(); // size[0]
+	void GetSequenceMoveYaw(); // size[0]
+	void SetPlaybackRate(); // size[0]
+	void GetPlaybackRate(); // size[0]
+	void SetPoseParameter(); // size[0]
+	void GetPoseParameter(); // size[0]
+	void HasPoseParameter(); // size[0]
+	void SetPoseParameter(); // size[0]
+	void HasPoseParameter(); // size[0]
+	void SetMoveType(); // size[0]
 };

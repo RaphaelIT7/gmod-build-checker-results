@@ -257,8 +257,9 @@ public:
 	virtual void OverrideAlphaWriteEnable(); // vtable[251]
 	virtual void OverrideColorWriteEnable(); // vtable[252]
 	virtual void ClearBuffersObeyStencilEx() override; // vtable[253]
-	virtual void ~CShaderAPIEmpty(); // vtable[258]
-	virtual void ~CShaderAPIEmpty(); // vtable[259]
+	virtual void GetFogMaxDensity() override; // vtable[257]
+	virtual ~CShaderAPIEmpty(); // vtable[258]
+	virtual ~CShaderAPIEmpty(); // vtable[259]
 	virtual void IsDebugTextureListFresh(); // vtable[260]
 	virtual void SetDebugTextureRendering(); // vtable[261]
 	virtual void EnableDebugTextureList(); // vtable[262]
@@ -342,104 +343,104 @@ public:
 	virtual void SetHDREnabled(); // vtable[340]
 	virtual void SetTextureFilterMode(); // vtable[341]
 
-	void HasDestAlphaBuffer();
-	void HasStencilBuffer();
-	void MaxViewports();
-	void GetShadowFilterMode();
-	void StencilBufferBits();
-	void GetFrameBufferColorDepth();
-	void HasSetDeviceGammaRamp();
-	void SupportsCompressedTextures();
-	void SupportsCompressedVertices();
-	void SupportsVertexAndPixelShaders();
-	void SupportsPixelShaders_1_4();
-	void SupportsPixelShaders_2_0();
-	void SupportsPixelShaders_2_b();
-	void ActuallySupportsPixelShaders_2_b();
-	void SupportsShaderModel_3_0();
-	void SupportsStaticControlFlow();
-	void SupportsVertexShaders_2_0();
-	void MaximumAnisotropicLevel();
-	void MaxTextureWidth();
-	void MaxTextureHeight();
-	void MaxTextureAspectRatio();
-	void TextureMemorySize();
-	void GetDXSupportLevel();
-	void SupportsOverbright();
-	void SupportsCubeMaps();
-	void SupportsNonPow2Textures();
-	void SupportsMipmappedCubemaps();
-	void GetTextureStageCount();
-	void NumVertexShaderConstants();
-	void NumPixelShaderConstants();
-	void MaxNumLights();
-	void SupportsSpheremapping();
-	void GetMaxDXSupportLevel();
-	void SupportsHardwareLighting();
-	void MaxBlendMatrices();
-	void MaxBlendMatrixIndices();
-	void MaxVertexShaderBlendMatrices();
-	void MaxUserClipPlanes();
-	void SpecifiesFogColorInLinearSpace();
-	void SupportsSRGB();
-	void FakeSRGBWrite();
-	void CanDoSRGBReadFromRTs();
-	void SupportsGLMixedSizeTargets();
-	void GetHWSpecificShaderDLLName();
-	void ReadPixelsFromFrontBuffer();
-	void PreferDynamicTextures();
-	void PreferReducedFillrate();
-	void HasProjectedBumpEnv();
-	void GetSamplerCount();
-	void CShaderAPIEmpty();
-	void NumBooleanVertexShaderConstants();
-	void NumIntegerVertexShaderConstants();
-	void UseSnapshot();
-	void BindLightmap();
-	void BindBumpLightmap();
-	void BindFullbrightLightmap();
-	void BindWhite();
-	void BindBlack();
-	void BindGrey();
-	void BindFlatNormalMap();
-	void BindNormalizationCubeMap();
-	void BindSignedNormalizationCubeMap();
-	void BindFBTexture();
-	void FogMode();
-	void FogColor3f();
-	void FogColor3fv();
-	void FogColor3ub();
-	void FogColor3ubv();
-	void RecordString();
-	void IsDebugTextureListFresh();
-	void SetDebugTextureRendering();
-	void EnableDebugTextureList();
-	void EnableGetAllTextures();
-	void GetDebugTextureList();
-	void GetTextureMemoryUsed();
-	void OverrideStreamOffsetSupport();
-	void GetShaderDLLName();
-	void UseFastClipping();
-	void NeedsAAClamp();
-	void MaxHWMorphBatchCount();
-	void SupportsHDR();
-	void GetHDRType();
-	void GetHardwareHDRType();
-	void NeedsATICentroidHack();
-	void SupportsColorOnSecondStream();
-	void SupportsStaticPlusDynamicLighting();
-	void SupportsStreamOffset();
-	void SupportsNormalMapCompression();
-	void SupportsBorderColor();
-	void SupportsFetch4();
-	void IsAAEnabled();
-	void GetVertexTextureCount();
-	void GetMaxVertexTextureDimension();
-	void MaxTextureDepth();
-	void NeedsShaderSRGBConversion();
-	void UsesSRGBCorrectBlending();
-	void HasFastVertexTextures();
-	void SupportsHDRMode();
-	void GetHDREnabled();
-	void SetHDREnabled();
+	void HasDestAlphaBuffer(); // size[0]
+	void HasStencilBuffer(); // size[0]
+	void MaxViewports(); // size[0]
+	void GetShadowFilterMode(); // size[0]
+	void StencilBufferBits(); // size[0]
+	void GetFrameBufferColorDepth(); // size[0]
+	void HasSetDeviceGammaRamp(); // size[0]
+	void SupportsCompressedTextures(); // size[0]
+	void SupportsCompressedVertices(); // size[0]
+	void SupportsVertexAndPixelShaders(); // size[0]
+	void SupportsPixelShaders_1_4(); // size[0]
+	void SupportsPixelShaders_2_0(); // size[0]
+	void SupportsPixelShaders_2_b(); // size[0]
+	void ActuallySupportsPixelShaders_2_b(); // size[0]
+	void SupportsShaderModel_3_0(); // size[0]
+	void SupportsStaticControlFlow(); // size[0]
+	void SupportsVertexShaders_2_0(); // size[0]
+	void MaximumAnisotropicLevel(); // size[0]
+	void MaxTextureWidth(); // size[0]
+	void MaxTextureHeight(); // size[0]
+	void MaxTextureAspectRatio(); // size[0]
+	void TextureMemorySize(); // size[0]
+	void GetDXSupportLevel(); // size[0]
+	void SupportsOverbright(); // size[0]
+	void SupportsCubeMaps(); // size[0]
+	void SupportsNonPow2Textures(); // size[0]
+	void SupportsMipmappedCubemaps(); // size[0]
+	void GetTextureStageCount(); // size[0]
+	void NumVertexShaderConstants(); // size[0]
+	void NumPixelShaderConstants(); // size[0]
+	void MaxNumLights(); // size[0]
+	void SupportsSpheremapping(); // size[0]
+	void GetMaxDXSupportLevel(); // size[0]
+	void SupportsHardwareLighting(); // size[0]
+	void MaxBlendMatrices(); // size[0]
+	void MaxBlendMatrixIndices(); // size[0]
+	void MaxVertexShaderBlendMatrices(); // size[0]
+	void MaxUserClipPlanes(); // size[0]
+	void SpecifiesFogColorInLinearSpace(); // size[0]
+	void SupportsSRGB(); // size[0]
+	void FakeSRGBWrite(); // size[0]
+	void CanDoSRGBReadFromRTs(); // size[0]
+	void SupportsGLMixedSizeTargets(); // size[0]
+	void GetHWSpecificShaderDLLName(); // size[0]
+	void ReadPixelsFromFrontBuffer(); // size[0]
+	void PreferDynamicTextures(); // size[0]
+	void PreferReducedFillrate(); // size[0]
+	void HasProjectedBumpEnv(); // size[0]
+	void GetSamplerCount(); // size[0]
+	CShaderAPIEmpty(); // size[0]
+	void NumBooleanVertexShaderConstants(); // size[0]
+	void NumIntegerVertexShaderConstants(); // size[0]
+	void UseSnapshot(); // size[0]
+	void BindLightmap(); // size[0]
+	void BindBumpLightmap(); // size[0]
+	void BindFullbrightLightmap(); // size[0]
+	void BindWhite(); // size[0]
+	void BindBlack(); // size[0]
+	void BindGrey(); // size[0]
+	void BindFlatNormalMap(); // size[0]
+	void BindNormalizationCubeMap(); // size[0]
+	void BindSignedNormalizationCubeMap(); // size[0]
+	void BindFBTexture(); // size[0]
+	void FogMode(); // size[0]
+	void FogColor3f(); // size[0]
+	void FogColor3fv(); // size[0]
+	void FogColor3ub(); // size[0]
+	void FogColor3ubv(); // size[0]
+	void RecordString(); // size[0]
+	void IsDebugTextureListFresh(); // size[0]
+	void SetDebugTextureRendering(); // size[0]
+	void EnableDebugTextureList(); // size[0]
+	void EnableGetAllTextures(); // size[0]
+	void GetDebugTextureList(); // size[0]
+	void GetTextureMemoryUsed(); // size[0]
+	void OverrideStreamOffsetSupport(); // size[0]
+	void GetShaderDLLName(); // size[0]
+	void UseFastClipping(); // size[0]
+	void NeedsAAClamp(); // size[0]
+	void MaxHWMorphBatchCount(); // size[0]
+	void SupportsHDR(); // size[0]
+	void GetHDRType(); // size[0]
+	void GetHardwareHDRType(); // size[0]
+	void NeedsATICentroidHack(); // size[0]
+	void SupportsColorOnSecondStream(); // size[0]
+	void SupportsStaticPlusDynamicLighting(); // size[0]
+	void SupportsStreamOffset(); // size[0]
+	void SupportsNormalMapCompression(); // size[0]
+	void SupportsBorderColor(); // size[0]
+	void SupportsFetch4(); // size[0]
+	void IsAAEnabled(); // size[0]
+	void GetVertexTextureCount(); // size[0]
+	void GetMaxVertexTextureDimension(); // size[0]
+	void MaxTextureDepth(); // size[0]
+	void NeedsShaderSRGBConversion(); // size[0]
+	void UsesSRGBCorrectBlending(); // size[0]
+	void HasFastVertexTextures(); // size[0]
+	void SupportsHDRMode(); // size[0]
+	void GetHDREnabled(); // size[0]
+	void SetHDREnabled(); // size[0]
 };

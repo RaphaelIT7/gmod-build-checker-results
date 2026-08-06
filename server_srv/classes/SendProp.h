@@ -3,9 +3,9 @@
 class SendProp
 {
 public:
-	virtual void ~SendProp(); // vtable[0]
-	virtual void ~SendProp(); // vtable[1]
+	virtual ~SendProp(); // vtable[0]
+	virtual ~SendProp(); // vtable[1]
 
-	void SendProp();
-	void GetNumArrayLengthBits();
+	SendProp(); // size[0]
+	void GetNumArrayLengthBits(); // size[0]
 };

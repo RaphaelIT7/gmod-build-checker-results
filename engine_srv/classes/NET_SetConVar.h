@@ -3,13 +3,15 @@
 class NET_SetConVar : public CNetMessage
 {
 public:
-	virtual void ~NET_SetConVar() override; // vtable[0]
-	virtual void ~NET_SetConVar() override; // vtable[1]
+	virtual ~NET_SetConVar() override; // vtable[0]
+	virtual ~NET_SetConVar() override; // vtable[1]
+	virtual void Process() override; // vtable[4]
 	virtual void ReadFromBuffer(); // vtable[5]
 	virtual void WriteToBuffer(); // vtable[6]
 	virtual void GetType(); // vtable[8]
+	virtual void GetGroup() override; // vtable[9]
 	virtual void GetName(); // vtable[10]
 	virtual void ToString() override; // vtable[12]
 
-	void NET_SetConVar();
+	NET_SetConVar(); // size[0]
 };

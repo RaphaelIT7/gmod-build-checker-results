@@ -3,8 +3,8 @@
 class CDummyMesh : public IMesh
 {
 public:
-	virtual void ~CDummyMesh() override; // vtable[0]
-	virtual void ~CDummyMesh() override; // vtable[1]
+	virtual ~CDummyMesh() override; // vtable[0]
+	virtual ~CDummyMesh() override; // vtable[1]
 	virtual void VertexCount(); // vtable[2]
 	virtual void GetVertexFormat(); // vtable[3]
 	virtual void IsDynamic(); // vtable[4]
@@ -42,18 +42,18 @@ public:
 	virtual void IndexFormat(); // vtable[36]
 	virtual void GetMesh(); // vtable[37]
 
-	void Lock();
-	void Unlock();
-	void ModifyBegin();
-	void ModifyEnd();
-	void Spew();
-	void ValidateData();
-	void IsDynamic();
-	void BeginCastBuffer();
-	void EndCastBuffer();
-	void GetRoomRemaining();
-	void IndexCount();
-	void IndexFormat();
-	void ~CDummyMesh();
-	void ~CDummyMesh();
+	void Lock(); // size[0]
+	void Unlock(); // size[0]
+	void ModifyBegin(); // size[0]
+	void ModifyEnd(); // size[0]
+	void Spew(); // size[0]
+	void ValidateData(); // size[0]
+	void IsDynamic(); // size[0]
+	void BeginCastBuffer(); // size[0]
+	void EndCastBuffer(); // size[0]
+	void GetRoomRemaining(); // size[0]
+	void IndexCount(); // size[0]
+	void IndexFormat(); // size[0]
+	~CDummyMesh(); // size[0]
+	~CDummyMesh(); // size[0]
 };

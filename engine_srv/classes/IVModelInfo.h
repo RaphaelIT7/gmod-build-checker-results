@@ -3,8 +3,8 @@
 class IVModelInfo
 {
 public:
-	virtual void ~IVModelInfo(); // vtable[0]
-	virtual void ~IVModelInfo(); // vtable[1]
+	virtual ~IVModelInfo(); // vtable[0]
+	virtual ~IVModelInfo(); // vtable[1]
 	virtual void FindOrLoadModel(); // vtable[40]
 	virtual void InitDynamicModels(); // vtable[41]
 	virtual void ShutdownDynamicModels(); // vtable[42]

@@ -3,8 +3,9 @@
 class CXenTreeTrigger : public CBaseEntity
 {
 public:
-	virtual void ~CXenTreeTrigger() override; // vtable[0]
-	virtual void ~CXenTreeTrigger() override; // vtable[1]
+	virtual ~CXenTreeTrigger() override; // vtable[0]
+	virtual ~CXenTreeTrigger() override; // vtable[1]
+	virtual void Touch() override; // vtable[102]
 
-	void TriggerCreate();
+	void TriggerCreate(); // size[0]
 };

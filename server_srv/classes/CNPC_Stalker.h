@@ -3,21 +3,52 @@
 class CNPC_Stalker : public CAI_BehaviorHost
 {
 public:
-	virtual void ~CNPC_Stalker() override; // vtable[0]
-	virtual void ~CNPC_Stalker() override; // vtable[1]
+	virtual ~CNPC_Stalker() override; // vtable[0]
+	virtual ~CNPC_Stalker() override; // vtable[1]
+	virtual void GetDataDescMap() override; // vtable[12]
+	virtual void Spawn() override; // vtable[23]
+	virtual void Precache() override; // vtable[24]
+	virtual void Classify() override; // vtable[55]
+	virtual void Event_Killed() override; // vtable[68]
+	virtual void UpdateOnRemove() override; // vtable[108]
+	virtual void HandleAnimEvent() override; // vtable[261]
+	virtual void OnTakeDamage_Alive() override; // vtable[338]
+	virtual void PrescheduleThink() override; // vtable[403]
+	virtual void OnScheduleChange() override; // vtable[405]
+	virtual void SelectSchedule() override; // vtable[407]
+	virtual void TranslateSchedule() override; // vtable[409]
+	virtual void StartTask() override; // vtable[410]
+	virtual void RunTask() override; // vtable[411]
+	virtual void GetSchedulingErrorName() override; // vtable[432]
+	virtual void LoadedSchedules() override; // vtable[433]
+	virtual void IsValidEnemy() override; // vtable[475]
+	virtual void DeathSound() override; // vtable[507]
+	virtual void IdleSound() override; // vtable[509]
+	virtual void PainSound() override; // vtable[510]
+	virtual void MaxYawSpeed() override; // vtable[529]
+	virtual void SquadSlotName() override; // vtable[581]
+	virtual void RangeAttack1Conditions() override; // vtable[595]
+	virtual void MeleeAttack1Conditions() override; // vtable[597]
+	virtual void FValidateHintType() override; // vtable[617]
+	virtual void GetHintActivity() override; // vtable[618]
+	virtual void GetHintDelay() override; // vtable[619]
+	virtual void InnateWeaponLOSCondition() override; // vtable[625]
+	virtual void NotifyDeadFriend() override; // vtable[636]
+	virtual void GetClassScheduleIdSpace() override; // vtable[640]
+	virtual void CreateBehaviors() override; // vtable[652]
 
-	void GetBaseMap();
-	void LaserStartPosition();
-	void UpdateAttackBeam();
-	void CalcBeamPosition();
-	void StartAttackBeam();
-	void DoSmokeEffect();
-	void DrawAttackBeam();
-	void KillAttackBeam();
-	void StalkerThink();
-	void AddZigZagToPath();
-	void InitCustomSchedules();
-	void LoadSchedules();
-	void CScheduleLoader();
-	void CNPC_Stalker();
+	void GetBaseMap(); // size[0]
+	void LaserStartPosition(); // size[0]
+	void UpdateAttackBeam(); // size[0]
+	void CalcBeamPosition(); // size[0]
+	void StartAttackBeam(); // size[0]
+	void DoSmokeEffect(); // size[0]
+	void DrawAttackBeam(); // size[0]
+	void KillAttackBeam(); // size[0]
+	void StalkerThink(); // size[0]
+	void AddZigZagToPath(); // size[0]
+	void InitCustomSchedules(); // size[0]
+	void LoadSchedules(); // size[0]
+	CScheduleLoader(); // size[0]
+	CNPC_Stalker(); // size[0]
 };

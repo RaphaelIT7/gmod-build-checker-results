@@ -3,47 +3,81 @@
 class CNPC_CScanner : public CNPC_BaseScanner
 {
 public:
-	virtual void ~CNPC_CScanner() override; // vtable[0]
-	virtual void ~CNPC_CScanner() override; // vtable[1]
+	virtual ~CNPC_CScanner() override; // vtable[0]
+	virtual ~CNPC_CScanner() override; // vtable[1]
+	virtual void GetDataDescMap() override; // vtable[12]
+	virtual void Spawn() override; // vtable[23]
+	virtual void Precache() override; // vtable[24]
+	virtual void Activate() override; // vtable[34]
+	virtual void Event_Killed() override; // vtable[68]
+	virtual void UpdateOnRemove() override; // vtable[108]
+	virtual void HandleAnimEvent() override; // vtable[261]
+	virtual void HandleInteraction() override; // vtable[298]
+	virtual void NPC_TranslateActivity() override; // vtable[322]
+	virtual void OnTakeDamage_Alive() override; // vtable[338]
+	virtual void IRelationType() override; // vtable[364]
+	virtual void NPCThink() override; // vtable[400]
+	virtual void GatherConditions() override; // vtable[402]
+	virtual void PrescheduleThink() override; // vtable[403]
+	virtual void SelectSchedule() override; // vtable[407]
+	virtual void TranslateSchedule() override; // vtable[409]
+	virtual void StartTask() override; // vtable[410]
+	virtual void RunTask() override; // vtable[411]
+	virtual void GetSchedulingErrorName() override; // vtable[432]
+	virtual void LoadedSchedules() override; // vtable[433]
+	virtual void GetSoundInterests() override; // vtable[467]
+	virtual void OverrideMove() override; // vtable[538]
+	virtual void SquadSlotName() override; // vtable[581]
+	virtual void FValidateHintType() override; // vtable[617]
+	virtual void GetClassScheduleIdSpace() override; // vtable[640]
+	virtual void MinGroundDist() override; // vtable[652]
+	virtual void MoveToTarget() override; // vtable[654]
+	virtual void GetHeadTurnRate() override; // vtable[655]
+	virtual void GetScannerSoundPrefix() override; // vtable[660]
+	virtual void GetMaxSpeed() override; // vtable[661]
+	virtual void GetEngineSound() override; // vtable[662]
+	virtual void AdjustScannerVelocity() override; // vtable[664]
+	virtual void GetGoalDistance() override; // vtable[667]
+	virtual void AttackDivebomb() override; // vtable[668]
 	virtual void Gib(); // vtable[669]
 
-	void InputDisableSpotlight();
-	void InputEnableSpotlight();
-	void InputEquipMine();
-	void SpotlightCreate();
-	void GetBaseMap();
-	void RequestInspectSupport();
-	void IsValidInspectTarget();
-	void ClearInspectTarget();
-	void SetInspectTargetToEnt();
-	void InputClearFollowTarget();
-	void SetInspectTargetToHint();
-	void SetInspectTargetToPos();
-	void HaveInspectTarget();
-	void InspectTargetPosition();
-	void DeployMine();
-	void InputDeployMine();
-	void InspectTarget();
-	void InputInspectTargetPhoto();
-	void InputInspectTargetSpotlight();
-	void InputSetFollowTarget();
-	void MovingToInspectTarget();
-	void SpotlightDestroy();
-	void InputShouldInspect();
-	void SpotlightCreate();
-	void SpotlightTargetPos();
-	void SpotlightCurrentPos();
-	void SpotlightUpdate();
-	void AttackPreFlash();
-	void AttackFlash();
-	void BlindFlashTarget();
-	void TakePhoto();
-	void AttackFlashBlind();
-	void MoveToSpotlight();
-	void MoveToPhotograph();
-	void BestInspectTarget();
-	void InitCustomSchedules();
-	void LoadSchedules();
-	void CScheduleLoader();
-	void CNPC_CScanner();
+	void InputDisableSpotlight(); // size[0]
+	void InputEnableSpotlight(); // size[0]
+	void InputEquipMine(); // size[0]
+	void SpotlightCreate(); // size[0]
+	void GetBaseMap(); // size[0]
+	void RequestInspectSupport(); // size[0]
+	void IsValidInspectTarget(); // size[0]
+	void ClearInspectTarget(); // size[0]
+	void SetInspectTargetToEnt(); // size[0]
+	void InputClearFollowTarget(); // size[0]
+	void SetInspectTargetToHint(); // size[0]
+	void SetInspectTargetToPos(); // size[0]
+	void HaveInspectTarget(); // size[0]
+	void InspectTargetPosition(); // size[0]
+	void DeployMine(); // size[0]
+	void InputDeployMine(); // size[0]
+	void InspectTarget(); // size[0]
+	void InputInspectTargetPhoto(); // size[0]
+	void InputInspectTargetSpotlight(); // size[0]
+	void InputSetFollowTarget(); // size[0]
+	void MovingToInspectTarget(); // size[0]
+	void SpotlightDestroy(); // size[0]
+	void InputShouldInspect(); // size[0]
+	void SpotlightCreate(); // size[0]
+	void SpotlightTargetPos(); // size[0]
+	void SpotlightCurrentPos(); // size[0]
+	void SpotlightUpdate(); // size[0]
+	void AttackPreFlash(); // size[0]
+	void AttackFlash(); // size[0]
+	void BlindFlashTarget(); // size[0]
+	void TakePhoto(); // size[0]
+	void AttackFlashBlind(); // size[0]
+	void MoveToSpotlight(); // size[0]
+	void MoveToPhotograph(); // size[0]
+	void BestInspectTarget(); // size[0]
+	void InitCustomSchedules(); // size[0]
+	void LoadSchedules(); // size[0]
+	CScheduleLoader(); // size[0]
+	CNPC_CScanner(); // size[0]
 };

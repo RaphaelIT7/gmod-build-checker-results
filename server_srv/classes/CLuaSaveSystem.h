@@ -12,17 +12,17 @@ public:
 	virtual void LevelShutdownPreClearSteamAPIContext() override; // vtable[6]
 	virtual void LevelShutdownPreEntity() override; // vtable[7]
 	virtual void LevelShutdownPostEntity() override; // vtable[8]
-	virtual void ~CLuaSaveSystem() override; // vtable[13]
-	virtual void ~CLuaSaveSystem() override; // vtable[14]
+	virtual ~CLuaSaveSystem() override; // vtable[13]
+	virtual ~CLuaSaveSystem() override; // vtable[14]
 	virtual void GetBlockName(); // vtable[18]
 	virtual void PreSave(); // vtable[19]
 	virtual void PreRestore(); // vtable[20]
 	virtual void Save(); // vtable[21]
 	virtual void Restore(); // vtable[22]
 
-	void GetBlockName();
-	void PreSave();
-	void PreRestore();
-	void Save();
-	void Restore();
+	void GetBlockName(); // size[0]
+	void PreSave(); // size[0]
+	void PreRestore(); // size[0]
+	void Save(); // size[0]
+	void Restore(); // size[0]
 };

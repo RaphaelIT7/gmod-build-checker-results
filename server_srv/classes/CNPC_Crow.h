@@ -3,18 +3,52 @@
 class CNPC_Crow : public CAI_BaseNPC
 {
 public:
-	virtual void ~CNPC_Crow() override; // vtable[0]
-	virtual void ~CNPC_Crow() override; // vtable[1]
+	virtual ~CNPC_Crow() override; // vtable[0]
+	virtual ~CNPC_Crow() override; // vtable[1]
+	virtual void GetDataDescMap() override; // vtable[12]
+	virtual void Spawn() override; // vtable[23]
+	virtual void Precache() override; // vtable[24]
+	virtual void DrawDebugTextOverlays() override; // vtable[40]
+	virtual void Classify() override; // vtable[55]
+	virtual void TraceAttack() override; // vtable[62]
+	virtual void StopLoopingSounds() override; // vtable[109]
+	virtual void BodyTarget() override; // vtable[137]
+	virtual void BecomeRagdollOnClient() override; // vtable[253]
+	virtual void HandleAnimEvent() override; // vtable[261]
+	virtual void HandleInteraction() override; // vtable[298]
+	virtual void NPC_TranslateActivity() override; // vtable[322]
 	virtual void _ZN9CNPC_Crow18OnTakeDamage_AliveERK15CTakeDamageInfo() override; // vtable[338]
+	virtual void CorpseGib() override; // vtable[348]
+	virtual void SelectSchedule() override; // vtable[407]
+	virtual void StartTask() override; // vtable[410]
+	virtual void RunTask() override; // vtable[411]
+	virtual void GetSchedulingErrorName() override; // vtable[432]
+	virtual void LoadedSchedules() override; // vtable[433]
+	virtual void UpdateEfficiency() override; // vtable[456]
+	virtual void OnChangeActivity() override; // vtable[460]
+	virtual void QueryHearSound() override; // vtable[461]
+	virtual void GetSoundInterests() override; // vtable[467]
+	virtual void GatherEnemyConditions() override; // vtable[478]
+	virtual void StartTargetHandling() override; // vtable[480]
+	virtual void DeathSound() override; // vtable[507]
+	virtual void AlertSound() override; // vtable[508]
+	virtual void IdleSound() override; // vtable[509]
+	virtual void PainSound() override; // vtable[510]
+	virtual void MaxYawSpeed() override; // vtable[529]
+	virtual void OverrideMove() override; // vtable[538]
+	virtual void SquadSlotName() override; // vtable[581]
+	virtual void FValidateHintType() override; // vtable[617]
+	virtual void GetHintActivity() override; // vtable[618]
+	virtual void GetClassScheduleIdSpace() override; // vtable[640]
 
-	void InputFlyAway();
-	void GetBaseMap();
-	void Probe();
-	void MoveCrowFly();
-	void SetFlyingState();
-	void Takeoff();
-	void FlapSound();
-	void InitCustomSchedules();
-	void LoadSchedules();
-	void CScheduleLoader();
+	void InputFlyAway(); // size[0]
+	void GetBaseMap(); // size[0]
+	void Probe(); // size[0]
+	void MoveCrowFly(); // size[0]
+	void SetFlyingState(); // size[0]
+	void Takeoff(); // size[0]
+	void FlapSound(); // size[0]
+	void InitCustomSchedules(); // size[0]
+	void LoadSchedules(); // size[0]
+	CScheduleLoader(); // size[0]
 };

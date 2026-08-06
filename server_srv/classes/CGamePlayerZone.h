@@ -3,9 +3,10 @@
 class CGamePlayerZone : public CRuleBrushEntity
 {
 public:
-	virtual void ~CGamePlayerZone() override; // vtable[0]
-	virtual void ~CGamePlayerZone() override; // vtable[1]
+	virtual ~CGamePlayerZone() override; // vtable[0]
+	virtual ~CGamePlayerZone() override; // vtable[1]
+	virtual void GetDataDescMap() override; // vtable[12]
 
-	void InputCountPlayersInZone();
-	void GetBaseMap();
+	void InputCountPlayersInZone(); // size[0]
+	void GetBaseMap(); // size[0]
 };

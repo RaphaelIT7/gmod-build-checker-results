@@ -3,8 +3,9 @@
 class CBuoyancyAttacher : public IVP_Attacher_To_Cores_Buoyancy
 {
 public:
-	virtual void ~CBuoyancyAttacher() override; // vtable[0]
-	virtual void ~CBuoyancyAttacher() override; // vtable[1]
+	virtual ~CBuoyancyAttacher() override; // vtable[0]
+	virtual ~CBuoyancyAttacher() override; // vtable[1]
+	virtual void get_parameters_per_core() override; // vtable[5]
 
-	void CBuoyancyAttacher();
+	CBuoyancyAttacher(); // size[0]
 };

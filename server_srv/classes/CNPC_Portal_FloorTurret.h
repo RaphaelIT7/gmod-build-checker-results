@@ -3,18 +3,48 @@
 class CNPC_Portal_FloorTurret : public CNPC_FloorTurret
 {
 public:
-	virtual void ~CNPC_Portal_FloorTurret() override; // vtable[0]
-	virtual void ~CNPC_Portal_FloorTurret() override; // vtable[1]
+	virtual ~CNPC_Portal_FloorTurret() override; // vtable[0]
+	virtual ~CNPC_Portal_FloorTurret() override; // vtable[1]
+	virtual void GetServerClass() override; // vtable[10]
+	virtual void YouForgotToImplementOrDeclareServerClass() override; // vtable[11]
+	virtual void GetDataDescMap() override; // vtable[12]
+	virtual void Spawn() override; // vtable[23]
+	virtual void Precache() override; // vtable[24]
+	virtual void Activate() override; // vtable[34]
+	virtual void Classify() override; // vtable[55]
+	virtual void ShouldAttractAutoAim() override; // vtable[57]
+	virtual void GetAutoAimRadius() override; // vtable[58]
+	virtual void GetAutoAimCenter() override; // vtable[59]
+	virtual void OnTakeDamage() override; // vtable[64]
+	virtual void StartTouch() override; // vtable[101]
+	virtual void UpdateOnRemove() override; // vtable[108]
+	virtual void NotifySystemEvent() override; // vtable[112]
+	virtual void GetAttackDamageScale() override; // vtable[147]
+	virtual void GetAttackSpread() override; // vtable[372]
+	virtual void OnPhysGunPickup() override; // vtable[658]
 	virtual void _ZN23CNPC_Portal_FloorTurret6RetireEv() override; // vtable[663]
+	virtual void Deploy() override; // vtable[664]
+	virtual void ActiveThink() override; // vtable[665]
+	virtual void SearchThink() override; // vtable[666]
+	virtual void AutoSearchThink() override; // vtable[667]
+	virtual void TippedThink() override; // vtable[668]
+	virtual void InactiveThink() override; // vtable[669]
+	virtual void SuppressThink() override; // vtable[670]
+	virtual void DisabledThink() override; // vtable[671]
+	virtual void HackFindEnemy() override; // vtable[674]
+	virtual void PreThink() override; // vtable[675]
+	virtual void Shoot() override; // vtable[676]
+	virtual void SetEyeState() override; // vtable[677]
+	virtual void OnSide() override; // vtable[678]
 	virtual void HeldThink(); // vtable[679]
 
-	void OnPhysGunPickup();
-	void GetBaseMap();
-	void CNPC_Portal_FloorTurret();
-	void LaserOff();
-	void LaserOn();
-	void RopesOff();
-	void FireBullet();
-	void InputFireBullet();
-	void RopesOn();
+	void OnPhysGunPickup(); // size[0]
+	void GetBaseMap(); // size[0]
+	CNPC_Portal_FloorTurret(); // size[0]
+	void LaserOff(); // size[0]
+	void LaserOn(); // size[0]
+	void RopesOff(); // size[0]
+	void FireBullet(); // size[0]
+	void InputFireBullet(); // size[0]
+	void RopesOn(); // size[0]
 };

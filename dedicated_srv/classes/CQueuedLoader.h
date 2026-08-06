@@ -3,6 +3,8 @@
 class CQueuedLoader : public CTier2AppSystem
 {
 public:
+	virtual void Init() override; // vtable[3]
+	virtual void Shutdown() override; // vtable[4]
 	virtual void InstallLoader(); // vtable[5]
 	virtual void InstallProgress(); // vtable[6]
 	virtual void BeginMapLoading(); // vtable[7]
@@ -21,26 +23,26 @@ public:
 	virtual void IsDynamic(); // vtable[20]
 	virtual void GetSpewDetail(); // vtable[21]
 	virtual void PurgeAll() override; // vtable[22]
-	virtual void ~CQueuedLoader(); // vtable[23]
-	virtual void ~CQueuedLoader(); // vtable[24]
+	virtual ~CQueuedLoader(); // vtable[23]
+	virtual ~CQueuedLoader(); // vtable[24]
 
-	void Less();
-	void GetFilename();
-	void FindFilename();
-	void Less();
-	void GetLayoutOrderForFilename();
-	void Less();
-	void PurgeQueue();
-	void SpewInfo();
-	void PurgeUnreferencedResources();
-	void BuildResources();
-	void BuildMaterialResources();
-	void GetJobRequests();
-	void CleanQueue();
-	void AddResourceToTable();
-	void ParseResourceList();
-	void CQueuedLoader();
-	void SubmitPendingJobs();
-	void SubmitBatchedJobs();
-	void SubmitBatchedJobsAndWait();
+	void Less(); // size[0]
+	void GetFilename(); // size[0]
+	void FindFilename(); // size[0]
+	void Less(); // size[0]
+	void GetLayoutOrderForFilename(); // size[0]
+	void Less(); // size[0]
+	void PurgeQueue(); // size[0]
+	void SpewInfo(); // size[0]
+	void PurgeUnreferencedResources(); // size[0]
+	void BuildResources(); // size[0]
+	void BuildMaterialResources(); // size[0]
+	void GetJobRequests(); // size[0]
+	void CleanQueue(); // size[0]
+	void AddResourceToTable(); // size[0]
+	void ParseResourceList(); // size[0]
+	CQueuedLoader(); // size[0]
+	void SubmitPendingJobs(); // size[0]
+	void SubmitBatchedJobs(); // size[0]
+	void SubmitBatchedJobsAndWait(); // size[0]
 };

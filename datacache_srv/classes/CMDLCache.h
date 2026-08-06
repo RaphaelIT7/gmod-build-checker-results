@@ -5,9 +5,10 @@ class CMDLCache : public CTier3AppSystem, public IStudioDataCache, public CDefau
 public:
 	virtual void Connect() override; // vtable[0]
 	virtual void Disconnect() override; // vtable[1]
+	virtual void QueryInterface() override; // vtable[2]
+	virtual void Init() override; // vtable[3]
 	virtual void Shutdown() override; // vtable[4]
 	virtual void SetCacheNotify(); // vtable[5]
-	virtual void _ZN9CMDLCache7FindMDLEPKc() override; // vtable[6]
 	virtual void AddRef(); // vtable[7]
 	virtual void Release(); // vtable[8]
 	virtual void GetRef(); // vtable[9]
@@ -52,62 +53,62 @@ public:
 	virtual void HandleCacheNotification(); // vtable[48]
 	virtual void GetItemName(); // vtable[49]
 
-	void GetItemName();
-	void QueryInterface();
-	void BreakFrameLock();
-	void LoadData();
-	void Disconnect();
-	void Init();
-	void Connect();
-	void InitStudioData();
-	void GetActualModelName();
-	void MakeFilename();
-	void DestroyVCollide();
-	void AllocateAnimBlocks();
-	void AllocateAutoplaySequences();
-	void FreeAutoplaySequences();
-	void ConvertFlexData();
-	void BuildHardwareData();
-	void UpdateOrCreate();
-	void ReadFileNative();
-	void BreakFrameLock();
-	void RestoreFrameLock();
-	void GetVTXExtension();
-	void LoadData();
-	void CreateThinVertexes();
-	void AllocData();
-	void CacheData();
-	void UnserializeMDL();
-	void BuildAndCacheVertexData();
-	void CheckData();
-	void CheckDataNoTouch();
-	void FreeData();
-	void UncacheData();
-	void ReadMDLFile();
-	void VerifyHeaders();
-	void ShutdownStudioData();
-	void AllocateVirtualModel();
-	void FreeVirtualModel();
-	void CMDLCache();
-	void Shutdown();
-	void NotifyFileUnloaded();
-	void UnloadHardwareData();
-	void HandleCacheNotification();
-	void ReleaseMaterialSystemObjects();
-	void ClearAsync();
-	void FreeAnimBlocks();
-	void RestoreMaterialSystemObjects();
-	void ProcessPendingAsync();
-	void UnserializeVCollide();
-	void UnserializeAnimBlock();
-	void ProcessPendingAsyncs();
-	void UnserializeAllVirtualModelsAndAnimBlocks();
-	void ProcessDataIntoCache();
-	void ProcessQueuedData();
-	void QueuedLoaderCallback_MDL();
-	void ProcessDynamicLoad();
-	void LoadVertexData();
-	void CacheVertexData();
-	void LoadHardwareData();
-	void ~CMDLCache();
+	void GetItemName(); // size[0]
+	void QueryInterface(); // size[0]
+	void BreakFrameLock(); // size[0]
+	void LoadData(); // size[0]
+	void Disconnect(); // size[0]
+	void Init(); // size[0]
+	void Connect(); // size[0]
+	void InitStudioData(); // size[0]
+	void GetActualModelName(); // size[0]
+	void MakeFilename(); // size[0]
+	void DestroyVCollide(); // size[0]
+	void AllocateAnimBlocks(); // size[0]
+	void AllocateAutoplaySequences(); // size[0]
+	void FreeAutoplaySequences(); // size[0]
+	void ConvertFlexData(); // size[0]
+	void BuildHardwareData(); // size[0]
+	void UpdateOrCreate(); // size[0]
+	void ReadFileNative(); // size[0]
+	void BreakFrameLock(); // size[0]
+	void RestoreFrameLock(); // size[0]
+	void GetVTXExtension(); // size[0]
+	void LoadData(); // size[0]
+	void CreateThinVertexes(); // size[0]
+	void AllocData(); // size[0]
+	void CacheData(); // size[0]
+	void UnserializeMDL(); // size[0]
+	void BuildAndCacheVertexData(); // size[0]
+	void CheckData(); // size[0]
+	void CheckDataNoTouch(); // size[0]
+	void FreeData(); // size[0]
+	void UncacheData(); // size[0]
+	void ReadMDLFile(); // size[0]
+	void VerifyHeaders(); // size[0]
+	void ShutdownStudioData(); // size[0]
+	void AllocateVirtualModel(); // size[0]
+	void FreeVirtualModel(); // size[0]
+	CMDLCache(); // size[0]
+	void Shutdown(); // size[0]
+	void NotifyFileUnloaded(); // size[0]
+	void UnloadHardwareData(); // size[0]
+	void HandleCacheNotification(); // size[0]
+	void ReleaseMaterialSystemObjects(); // size[0]
+	void ClearAsync(); // size[0]
+	void FreeAnimBlocks(); // size[0]
+	void RestoreMaterialSystemObjects(); // size[0]
+	void ProcessPendingAsync(); // size[0]
+	void UnserializeVCollide(); // size[0]
+	void UnserializeAnimBlock(); // size[0]
+	void ProcessPendingAsyncs(); // size[0]
+	void UnserializeAllVirtualModelsAndAnimBlocks(); // size[0]
+	void ProcessDataIntoCache(); // size[0]
+	void ProcessQueuedData(); // size[0]
+	void QueuedLoaderCallback_MDL(); // size[0]
+	void ProcessDynamicLoad(); // size[0]
+	void LoadVertexData(); // size[0]
+	void CacheVertexData(); // size[0]
+	void LoadHardwareData(); // size[0]
+	~CMDLCache(); // size[0]
 };

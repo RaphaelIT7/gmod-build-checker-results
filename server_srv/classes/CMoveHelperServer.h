@@ -15,9 +15,9 @@ public:
 	virtual void PlayerSetAnimation(); // vtable[9]
 	virtual void GetSurfaceProps(); // vtable[10]
 	virtual void IsWorldEntity() override; // vtable[11]
-	virtual void ~CMoveHelperServer() override; // vtable[12]
-	virtual void ~CMoveHelperServer() override; // vtable[13]
+	virtual ~CMoveHelperServer() override; // vtable[12]
+	virtual ~CMoveHelperServer() override; // vtable[13]
 	virtual void SetHost() override; // vtable[14]
 
-	void CMoveHelperServer();
+	CMoveHelperServer(); // size[0]
 };

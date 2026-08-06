@@ -3,8 +3,8 @@
 class CResponseSystem : public IResponseSystem
 {
 public:
-	virtual void ~CResponseSystem() override; // vtable[0]
-	virtual void ~CResponseSystem() override; // vtable[1]
+	virtual ~CResponseSystem() override; // vtable[0]
+	virtual ~CResponseSystem() override; // vtable[1]
 	virtual void FindBestResponse(); // vtable[2]
 	virtual void GetAllResponses(); // vtable[3]
 	virtual void PrecacheResponses() override; // vtable[4]
@@ -12,44 +12,44 @@ public:
 	virtual void Precache(); // vtable[7]
 	virtual void __cxa_pure_virtual(); // vtable[8]
 
-	void GetCurrentScript();
-	void PopScript();
-	void LookForCriteria();
-	void RecursiveLookForCriteria();
-	void DebugPrint();
-	void ResetResponseGroups();
-	void DescribeResponseGroup();
-	void IsRootCommand();
-	void GetCurrentToken();
-	void ResponseWarning();
-	void DumpDictionary();
-	void LookupEnumeration();
-	void ResolveToken();
-	void CompareUsingMatcher();
-	void Compare();
-	void ScoreCriteriaAgainstRuleCriteria();
-	void RecursiveScoreSubcriteriaAgainstRule();
-	void ScoreCriteriaAgainstRule();
-	void SelectWeightedResponseFromResponseGroup();
-	void FindBestMatchingRule();
-	void ParseOneResponse();
-	void PushScript();
-	void ResolveResponse();
-	void GetBestResponse();
-	void CResponseSystem();
-	void Clear();
-	void ParseResponse();
-	void CopyResponsesFrom();
-	void ParseOneCriterion();
-	void ParseCriterion();
-	void CopyCriteriaFrom();
-	void ParseEnumeration();
-	void CopyEnumerationsFrom();
-	void ParseRule();
-	void LoadFromBuffer();
-	void ParseInclude();
-	void LoadRuleSet();
-	void CopyRuleFrom();
-	void ParseToken();
-	void TokenWaiting();
+	void GetCurrentScript(); // size[0]
+	void PopScript(); // size[0]
+	void LookForCriteria(); // size[0]
+	void RecursiveLookForCriteria(); // size[0]
+	void DebugPrint(); // size[0]
+	void ResetResponseGroups(); // size[0]
+	void DescribeResponseGroup(); // size[0]
+	void IsRootCommand(); // size[0]
+	void GetCurrentToken(); // size[0]
+	void ResponseWarning(); // size[0]
+	void DumpDictionary(); // size[0]
+	void LookupEnumeration(); // size[0]
+	void ResolveToken(); // size[0]
+	void CompareUsingMatcher(); // size[0]
+	void Compare(); // size[0]
+	void ScoreCriteriaAgainstRuleCriteria(); // size[0]
+	void RecursiveScoreSubcriteriaAgainstRule(); // size[0]
+	void ScoreCriteriaAgainstRule(); // size[0]
+	void SelectWeightedResponseFromResponseGroup(); // size[0]
+	void FindBestMatchingRule(); // size[0]
+	void ParseOneResponse(); // size[0]
+	void PushScript(); // size[0]
+	void ResolveResponse(); // size[0]
+	void GetBestResponse(); // size[0]
+	CResponseSystem(); // size[0]
+	void Clear(); // size[0]
+	void ParseResponse(); // size[0]
+	void CopyResponsesFrom(); // size[0]
+	void ParseOneCriterion(); // size[0]
+	void ParseCriterion(); // size[0]
+	void CopyCriteriaFrom(); // size[0]
+	void ParseEnumeration(); // size[0]
+	void CopyEnumerationsFrom(); // size[0]
+	void ParseRule(); // size[0]
+	void LoadFromBuffer(); // size[0]
+	void ParseInclude(); // size[0]
+	void LoadRuleSet(); // size[0]
+	void CopyRuleFrom(); // size[0]
+	void ParseToken(); // size[0]
+	void TokenWaiting(); // size[0]
 };

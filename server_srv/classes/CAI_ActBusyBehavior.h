@@ -3,40 +3,65 @@
 class CAI_ActBusyBehavior : public CAI_Behavior
 {
 public:
-	virtual void ~CAI_ActBusyBehavior() override; // vtable[0]
-	virtual void ~CAI_ActBusyBehavior() override; // vtable[1]
+	virtual ~CAI_ActBusyBehavior() override; // vtable[0]
+	virtual ~CAI_ActBusyBehavior() override; // vtable[1]
 	virtual void GetName() override; // vtable[5]
+	virtual void CanSelectSchedule() override; // vtable[7]
+	virtual void EndScheduleSelection() override; // vtable[9]
+	virtual void GatherConditions() override; // vtable[11]
+	virtual void GetClassScheduleIdSpace() override; // vtable[14]
+	virtual void OnScheduleChange() override; // vtable[24]
+	virtual void SelectSchedule() override; // vtable[26]
+	virtual void StartTask() override; // vtable[28]
+	virtual void RunTask() override; // vtable[29]
+	virtual void GetSchedulingErrorName() override; // vtable[33]
+	virtual void BuildScheduleTestBits() override; // vtable[34]
+	virtual void NPC_TranslateActivity() override; // vtable[35]
+	virtual void FValidateHintType() override; // vtable[40]
+	virtual void ShouldIgnoreSound() override; // vtable[46]
+	virtual void OnSeeEntity() override; // vtable[47]
+	virtual void OnFriendDamaged() override; // vtable[48]
+	virtual void IsInterruptable() override; // vtable[49]
+	virtual void OnTakeDamage_Alive() override; // vtable[51]
+	virtual void GetReasonableFacingDist() override; // vtable[52]
+	virtual void ShouldPlayerAvoid() override; // vtable[53]
+	virtual void CanFlinch() override; // vtable[54]
+	virtual void QueryHearSound() override; // vtable[57]
+	virtual void CanRunAScriptedNPCInteraction() override; // vtable[58]
+	virtual void HandleAnimEvent() override; // vtable[63]
+	virtual void OnRestore() override; // vtable[67]
+	virtual void GetDataDescMap() override; // vtable[70]
 	virtual void LoadedSchedules() override; // vtable[71]
 
-	void GetBaseMap();
-	void SetBusySearchRange();
-	void StopBusying();
-	void Disable();
-	void IsStopBusying();
-	void FindActBusyHintNode();
-	void FindCombatActBusyHintNode();
-	void FindCombatActBusyTeleportHintNode();
-	void CheckAndCleanupOnExit();
-	void SelectScheduleForLeaving();
-	void ActBusyNodeStillActive();
-	void ComputeAndSetRenderBounds();
-	void IsActive();
-	void IsCombatActBusy();
-	void IsCurScheduleOverridable();
-	void SelectScheduleWhileBusy();
-	void IsInSafeZone();
-	void CountEnemiesInSafeZone();
-	void HasAnimForActBusy();
-	void SelectScheduleWhileNotBusy();
-	void PlayAnimForActBusy();
-	void NotifyBusyEnding();
-	void PlaySoundForActBusy();
-	void CollectSafeZoneVolumes();
-	void Enable();
-	void ForceActBusy();
-	void ForceActBusyLeave();
-	void InitCustomSchedules();
-	void LoadSchedules();
-	void CScheduleLoader();
-	void CAI_ActBusyBehavior();
+	void GetBaseMap(); // size[0]
+	void SetBusySearchRange(); // size[0]
+	void StopBusying(); // size[0]
+	void Disable(); // size[0]
+	void IsStopBusying(); // size[0]
+	void FindActBusyHintNode(); // size[0]
+	void FindCombatActBusyHintNode(); // size[0]
+	void FindCombatActBusyTeleportHintNode(); // size[0]
+	void CheckAndCleanupOnExit(); // size[0]
+	void SelectScheduleForLeaving(); // size[0]
+	void ActBusyNodeStillActive(); // size[0]
+	void ComputeAndSetRenderBounds(); // size[0]
+	void IsActive(); // size[0]
+	void IsCombatActBusy(); // size[0]
+	void IsCurScheduleOverridable(); // size[0]
+	void SelectScheduleWhileBusy(); // size[0]
+	void IsInSafeZone(); // size[0]
+	void CountEnemiesInSafeZone(); // size[0]
+	void HasAnimForActBusy(); // size[0]
+	void SelectScheduleWhileNotBusy(); // size[0]
+	void PlayAnimForActBusy(); // size[0]
+	void NotifyBusyEnding(); // size[0]
+	void PlaySoundForActBusy(); // size[0]
+	void CollectSafeZoneVolumes(); // size[0]
+	void Enable(); // size[0]
+	void ForceActBusy(); // size[0]
+	void ForceActBusyLeave(); // size[0]
+	void InitCustomSchedules(); // size[0]
+	void LoadSchedules(); // size[0]
+	CScheduleLoader(); // size[0]
+	CAI_ActBusyBehavior(); // size[0]
 };

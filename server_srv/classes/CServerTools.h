@@ -3,8 +3,8 @@
 class CServerTools : public IServerTools
 {
 public:
-	virtual void ~CServerTools() override; // vtable[0]
-	virtual void ~CServerTools() override; // vtable[1]
+	virtual ~CServerTools() override; // vtable[0]
+	virtual ~CServerTools() override; // vtable[1]
 	virtual void GetIServerEntity(); // vtable[2]
 	virtual void SnapPlayerToPosition(); // vtable[3]
 	virtual void GetPlayerPosition(); // vtable[4]
@@ -38,5 +38,5 @@ public:
 	virtual void RadiusDamage(); // vtable[32]
 	virtual void GetTempEntsSystem() override; // vtable[33]
 
-	void _GLOBAL__sub_I_GetIServerEntity();
+	void _GLOBAL__sub_I_GetIServerEntity(); // size[0]
 };

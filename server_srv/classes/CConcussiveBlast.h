@@ -3,8 +3,10 @@
 class CConcussiveBlast : public CBaseEntity
 {
 public:
-	virtual void ~CConcussiveBlast() override; // vtable[0]
-	virtual void ~CConcussiveBlast() override; // vtable[1]
+	virtual ~CConcussiveBlast() override; // vtable[0]
+	virtual ~CConcussiveBlast() override; // vtable[1]
+	virtual void GetDataDescMap() override; // vtable[12]
+	virtual void Precache() override; // vtable[24]
 
-	void GetBaseMap();
+	void GetBaseMap(); // size[0]
 };

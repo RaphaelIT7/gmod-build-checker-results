@@ -3,8 +3,11 @@
 class CTEBloodSprite : public CBaseTempEntity
 {
 public:
-	virtual void ~CTEBloodSprite() override; // vtable[2]
-	virtual void ~CTEBloodSprite() override; // vtable[3]
+	virtual void GetServerClass() override; // vtable[0]
+	virtual void YouForgotToImplementOrDeclareServerClass() override; // vtable[1]
+	virtual ~CTEBloodSprite() override; // vtable[2]
+	virtual ~CTEBloodSprite() override; // vtable[3]
+	virtual void Test() override; // vtable[4]
 
-	void _GLOBAL__sub_I_CTEBloodSprite();
+	_GLOBAL__sub_I_CTEBloodSprite(); // size[0]
 };

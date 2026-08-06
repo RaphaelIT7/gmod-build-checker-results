@@ -3,8 +3,79 @@
 class CNPC_PlayerCompanion : public CAI_PlayerAlly
 {
 public:
-	virtual void ~CNPC_PlayerCompanion() override; // vtable[0]
-	virtual void ~CNPC_PlayerCompanion() override; // vtable[1]
+	virtual ~CNPC_PlayerCompanion() override; // vtable[0]
+	virtual ~CNPC_PlayerCompanion() override; // vtable[1]
+	virtual void GetDataDescMap() override; // vtable[12]
+	virtual void Spawn() override; // vtable[23]
+	virtual void Precache() override; // vtable[24]
+	virtual void Activate() override; // vtable[34]
+	virtual void ObjectCaps() override; // vtable[36]
+	virtual void Restore() override; // vtable[42]
+	virtual void DecalTrace() override; // vtable[78]
+	virtual void Touch() override; // vtable[102]
+	virtual void ModifyOrAppendCriteria() override; // vtable[121]
+	virtual void GetIdealSpeed() override; // vtable[246]
+	virtual void GetIdealAccel() override; // vtable[247]
+	virtual void HandleAnimEvent() override; // vtable[261]
+	virtual void HandleInteraction() override; // vtable[298]
+	virtual void NPC_TranslateActivity() override; // vtable[322]
+	virtual void Weapon_CanUse() override; // vtable[326]
+	virtual void Weapon_Equip() override; // vtable[327]
+	virtual void OnTakeDamage_Alive() override; // vtable[338]
+	virtual void OnFriendDamaged() override; // vtable[342]
+	virtual void OnPlayerKilledOther() override; // vtable[346]
+	virtual void IRelationType() override; // vtable[364]
+	virtual void IsInAVehicle() override; // vtable[366]
+	virtual void GetVehicle() override; // vtable[367]
+	virtual void GetVehicleEntity() override; // vtable[368]
+	virtual void ExitVehicle() override; // vtable[369]
+	virtual void CalcWeaponProficiency() override; // vtable[371]
+	virtual void GatherConditions() override; // vtable[402]
+	virtual void SelectSchedule() override; // vtable[407]
+	virtual void TranslateSchedule() override; // vtable[409]
+	virtual void StartTask() override; // vtable[410]
+	virtual void RunTask() override; // vtable[411]
+	virtual void ShouldAlwaysThink() override; // vtable[417]
+	virtual void GetSchedulingErrorName() override; // vtable[432]
+	virtual void LoadedSchedules() override; // vtable[433]
+	virtual void BuildScheduleTestBits() override; // vtable[434]
+	virtual void IsAllowedToDodge() override; // vtable[440]
+	virtual void UpdateEfficiency() override; // vtable[456]
+	virtual void QueryHearSound() override; // vtable[461]
+	virtual void QuerySeeEntity() override; // vtable[462]
+	virtual void GetSoundInterests() override; // vtable[467]
+	virtual void GetBestSound() override; // vtable[469]
+	virtual void ShouldIgnoreSound() override; // vtable[472]
+	virtual void IsValidEnemy() override; // vtable[475]
+	virtual void CanRunAScriptedNPCInteraction() override; // vtable[500]
+	virtual void GetExpresser() override; // vtable[518]
+	virtual void IsNavigationUrgent() override; // vtable[523]
+	virtual void MovementCost() override; // vtable[527]
+	virtual void OverrideMove() override; // vtable[538]
+	virtual void ValidateNavGoal() override; // vtable[541]
+	virtual void IsValidMoveAwayDest() override; // vtable[543]
+	virtual void OnObstructionPreSteer() override; // vtable[549]
+	virtual void AimGun() override; // vtable[562]
+	virtual void GetAlternateMoveShootTarget() override; // vtable[565]
+	virtual void InputOutsideTransition() override; // vtable[566]
+	virtual void OnUpdateShotRegulator() override; // vtable[579]
+	virtual void SquadSlotName() override; // vtable[581]
+	virtual void IsSilentSquadMember() override; // vtable[583]
+	virtual void FindCoverPos() override; // vtable[584]
+	virtual void FindCoverPosInRadius() override; // vtable[585]
+	virtual void FindCoverPos() override; // vtable[586]
+	virtual void IsCoverPosition() override; // vtable[590]
+	virtual void ShouldLookForBetterWeapon() override; // vtable[606]
+	virtual void FCanCheckAttacks() override; // vtable[615]
+	virtual void FValidateHintType() override; // vtable[617]
+	virtual void GetActualShootPosition() override; // vtable[628]
+	virtual void ShouldMoveAndShoot() override; // vtable[631]
+	virtual void PickupWeapon() override; // vtable[634]
+	virtual void IsValidReasonableFacing() override; // vtable[638]
+	virtual void GetClassScheduleIdSpace() override; // vtable[640]
+	virtual void CreateBehaviors() override; // vtable[652]
+	virtual void OnNewLookTarget() override; // vtable[692]
+	virtual void PickTacticalLookTarget() override; // vtable[695]
 	virtual void SelectModel(); // vtable[722]
 	virtual void DoCustomSpeechAI(); // vtable[723]
 	virtual void PredictPlayerPush(); // vtable[724]
@@ -23,54 +94,54 @@ public:
 	virtual void LocateEnemySound(); // vtable[737]
 	virtual void GetFollowBehavior(); // vtable[738]
 
-	void InputLockReadiness();
-	void InputEnableAlwaysTransition();
-	void InputDisableAlwaysTransition();
-	void InputEnableWeaponPickup();
-	void InputDisableWeaponPickup();
-	void InputGiveWeapon();
-	void OnObstructionPreSteer();
-	void InputCancelEnterVehicle();
-	void GetReadinessLevel();
-	void GetBaseMap();
-	void SelectSchedulePlayerPush();
-	void AllowReadinessValueChange();
-	void SetReadinessValue();
-	void AddReadiness();
-	void SubtractReadiness();
-	void SetReadinessLevel();
-	void InputSetReadinessPanic();
-	void InputSetReadinessStealth();
-	void InputSetReadinessLow();
-	void InputSetReadinessMedium();
-	void InputSetReadinessHigh();
-	void GetReadinessLevel();
-	void SetAimTarget();
-	void StopAiming();
-	void ShouldBeAiming();
-	void TranslateActivityReadiness();
-	void HasAimLOS();
-	void FindNewAimTarget();
-	void IsSafeFromFloorTurret();
-	void CleanupCoverSearch();
-	void FindMortarCoverPos();
-	void IsMortar();
-	void IsSniper();
-	void IsTurret();
-	void IsGunship();
-	void ShouldAlwaysTransition();
-	void LockReadiness();
-	void UnlockReadiness();
-	void ShouldDeferToPassengerBehavior();
-	void CanEnterVehicle();
-	void CanExitVehicle();
-	void InputExitVehicle();
-	void EnterVehicle();
-	void InputEnterVehicle();
-	void InputEnterVehicleImmediately();
-	void PrepareReadinessRemap();
-	void SetupCoverSearch();
-	void InitCustomSchedules();
-	void LoadSchedules();
-	void CScheduleLoader();
+	void InputLockReadiness(); // size[0]
+	void InputEnableAlwaysTransition(); // size[0]
+	void InputDisableAlwaysTransition(); // size[0]
+	void InputEnableWeaponPickup(); // size[0]
+	void InputDisableWeaponPickup(); // size[0]
+	void InputGiveWeapon(); // size[0]
+	void OnObstructionPreSteer(); // size[0]
+	void InputCancelEnterVehicle(); // size[0]
+	void GetReadinessLevel(); // size[0]
+	void GetBaseMap(); // size[0]
+	void SelectSchedulePlayerPush(); // size[0]
+	void AllowReadinessValueChange(); // size[0]
+	void SetReadinessValue(); // size[0]
+	void AddReadiness(); // size[0]
+	void SubtractReadiness(); // size[0]
+	void SetReadinessLevel(); // size[0]
+	void InputSetReadinessPanic(); // size[0]
+	void InputSetReadinessStealth(); // size[0]
+	void InputSetReadinessLow(); // size[0]
+	void InputSetReadinessMedium(); // size[0]
+	void InputSetReadinessHigh(); // size[0]
+	void GetReadinessLevel(); // size[0]
+	void SetAimTarget(); // size[0]
+	void StopAiming(); // size[0]
+	void ShouldBeAiming(); // size[0]
+	void TranslateActivityReadiness(); // size[0]
+	void HasAimLOS(); // size[0]
+	void FindNewAimTarget(); // size[0]
+	void IsSafeFromFloorTurret(); // size[0]
+	void CleanupCoverSearch(); // size[0]
+	void FindMortarCoverPos(); // size[0]
+	void IsMortar(); // size[0]
+	void IsSniper(); // size[0]
+	void IsTurret(); // size[0]
+	void IsGunship(); // size[0]
+	void ShouldAlwaysTransition(); // size[0]
+	void LockReadiness(); // size[0]
+	void UnlockReadiness(); // size[0]
+	void ShouldDeferToPassengerBehavior(); // size[0]
+	void CanEnterVehicle(); // size[0]
+	void CanExitVehicle(); // size[0]
+	void InputExitVehicle(); // size[0]
+	void EnterVehicle(); // size[0]
+	void InputEnterVehicle(); // size[0]
+	void InputEnterVehicleImmediately(); // size[0]
+	void PrepareReadinessRemap(); // size[0]
+	void SetupCoverSearch(); // size[0]
+	void InitCustomSchedules(); // size[0]
+	void LoadSchedules(); // size[0]
+	CScheduleLoader(); // size[0]
 };

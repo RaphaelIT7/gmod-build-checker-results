@@ -3,9 +3,11 @@
 class CPhysTorque : public CPhysForce
 {
 public:
-	virtual void ~CPhysTorque() override; // vtable[0]
-	virtual void ~CPhysTorque() override; // vtable[1]
+	virtual ~CPhysTorque() override; // vtable[0]
+	virtual ~CPhysTorque() override; // vtable[1]
+	virtual void GetDataDescMap() override; // vtable[12]
+	virtual void Spawn() override; // vtable[23]
 	virtual void SetupForces() override; // vtable[246]
 
-	void GetBaseMap();
+	void GetBaseMap(); // size[0]
 };

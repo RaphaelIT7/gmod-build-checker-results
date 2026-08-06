@@ -3,8 +3,8 @@
 class CEngine : public IEngine
 {
 public:
-	virtual void ~CEngine() override; // vtable[0]
-	virtual void ~CEngine() override; // vtable[1]
+	virtual ~CEngine() override; // vtable[0]
+	virtual ~CEngine() override; // vtable[1]
 	virtual void Load(); // vtable[2]
 	virtual void Unload(); // vtable[3]
 	virtual void SetNextState(); // vtable[4]
@@ -15,6 +15,6 @@ public:
 	virtual void GetQuitting(); // vtable[9]
 	virtual void SetQuitting() override; // vtable[10]
 
-	void CEngine();
-	void FilterTime();
+	CEngine(); // size[0]
+	void FilterTime(); // size[0]
 };

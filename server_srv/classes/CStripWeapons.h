@@ -3,11 +3,12 @@
 class CStripWeapons : public CPointEntity
 {
 public:
-	virtual void ~CStripWeapons() override; // vtable[0]
-	virtual void ~CStripWeapons() override; // vtable[1]
+	virtual ~CStripWeapons() override; // vtable[0]
+	virtual ~CStripWeapons() override; // vtable[1]
+	virtual void GetDataDescMap() override; // vtable[12]
 
-	void GetBaseMap();
-	void StripWeapons();
-	void InputStripWeapons();
-	void InputStripWeaponsAndSuit();
+	void GetBaseMap(); // size[0]
+	void StripWeapons(); // size[0]
+	void InputStripWeapons(); // size[0]
+	void InputStripWeaponsAndSuit(); // size[0]
 };

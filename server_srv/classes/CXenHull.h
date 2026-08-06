@@ -3,8 +3,9 @@
 class CXenHull : public CPointEntity
 {
 public:
-	virtual void ~CXenHull() override; // vtable[0]
-	virtual void ~CXenHull() override; // vtable[1]
+	virtual ~CXenHull() override; // vtable[0]
+	virtual ~CXenHull() override; // vtable[1]
+	virtual void Classify() override; // vtable[55]
 
-	void CreateHull();
+	void CreateHull(); // size[0]
 };

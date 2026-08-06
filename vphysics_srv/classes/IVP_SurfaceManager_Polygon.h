@@ -11,11 +11,11 @@ public:
 	virtual void get_all_terminal_ledges(); // vtable[5]
 	virtual void insert_all_ledges_hitting_ray(); // vtable[6]
 	virtual void add_reference_to_ledge() override; // vtable[8]
-	virtual void ~IVP_SurfaceManager_Polygon(); // vtable[9]
-	virtual void ~IVP_SurfaceManager_Polygon(); // vtable[10]
+	virtual ~IVP_SurfaceManager_Polygon(); // vtable[9]
+	virtual ~IVP_SurfaceManager_Polygon(); // vtable[10]
 	virtual void get_type() override; // vtable[11]
 
-	void IVP_SurfaceManager_Polygon();
-	void get_compact_surface();
-	void IVP_SurfaceManager_Polygon();
+	IVP_SurfaceManager_Polygon(); // size[0]
+	void get_compact_surface(); // size[0]
+	IVP_SurfaceManager_Polygon(); // size[0]
 };

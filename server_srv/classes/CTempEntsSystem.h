@@ -3,8 +3,8 @@
 class CTempEntsSystem : public ITempEntsSystem
 {
 public:
-	virtual void ~CTempEntsSystem() override; // vtable[0]
-	virtual void ~CTempEntsSystem() override; // vtable[1]
+	virtual ~CTempEntsSystem() override; // vtable[0]
+	virtual ~CTempEntsSystem() override; // vtable[1]
 	virtual void ArmorRicochet(); // vtable[2]
 	virtual void BeamEntPoint(); // vtable[3]
 	virtual void BeamEnts(); // vtable[4]

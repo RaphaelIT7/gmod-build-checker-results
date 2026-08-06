@@ -3,5 +3,8 @@
 class CSimThinkManager : public IEntityListener
 {
 public:
-	void ~CSimThinkManager();
+	virtual void OnEntityCreated() override; // vtable[0]
+	virtual void OnEntityDeleted() override; // vtable[2]
+
+	~CSimThinkManager(); // size[0]
 };

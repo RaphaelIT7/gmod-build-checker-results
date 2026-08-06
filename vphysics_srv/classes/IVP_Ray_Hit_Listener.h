@@ -5,6 +5,6 @@ class IVP_Ray_Hit_Listener
 public:
 	virtual void __cxa_pure_virtual(); // vtable[0]
 
-	void ~IVP_Ray_Hit_Listener();
-	void ~IVP_Ray_Hit_Listener();
+	~IVP_Ray_Hit_Listener(); // size[0]
+	~IVP_Ray_Hit_Listener(); // size[0]
 };

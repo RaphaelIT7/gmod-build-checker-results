@@ -3,8 +3,11 @@
 class CHL1BaseGrenade : public CBaseGrenade
 {
 public:
-	virtual void ~CHL1BaseGrenade() override; // vtable[0]
-	virtual void ~CHL1BaseGrenade() override; // vtable[1]
+	virtual ~CHL1BaseGrenade() override; // vtable[0]
+	virtual ~CHL1BaseGrenade() override; // vtable[1]
+	virtual void Precache() override; // vtable[24]
+	virtual void PhysicsSolidMaskForEntity() override; // vtable[174]
+	virtual void Explode() override; // vtable[282]
 
-	void _GLOBAL__sub_I_PhysicsSolidMaskForEntity();
+	void _GLOBAL__sub_I_PhysicsSolidMaskForEntity(); // size[0]
 };

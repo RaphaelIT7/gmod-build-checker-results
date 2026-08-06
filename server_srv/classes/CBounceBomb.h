@@ -3,8 +3,8 @@
 class CBounceBomb : public CBaseAnimating, public CDefaultPlayerPickupVPhysics
 {
 public:
-	virtual void ~CBounceBomb() override; // vtable[0]
-	virtual void ~CBounceBomb() override; // vtable[1]
+	virtual ~CBounceBomb() override; // vtable[0]
+	virtual ~CBounceBomb() override; // vtable[1]
 	virtual void SetRefEHandle() override; // vtable[2]
 	virtual void GetRefEHandle() override; // vtable[3]
 	virtual void GetCollideable() override; // vtable[4]
@@ -13,33 +13,43 @@ public:
 	virtual void GetModelIndex() override; // vtable[7]
 	virtual void GetModelName() override; // vtable[8]
 	virtual void SetModelIndex() override; // vtable[9]
+	virtual void GetDataDescMap() override; // vtable[12]
+	virtual void Spawn() override; // vtable[23]
+	virtual void Precache() override; // vtable[24]
+	virtual void DrawDebugTextOverlays() override; // vtable[40]
+	virtual void OnRestore() override; // vtable[45]
+	virtual void OnTakeDamage() override; // vtable[64]
+	virtual void UpdateOnRemove() override; // vtable[108]
+	virtual void CreateVPhysics() override; // vtable[157]
+	virtual void HasPhysicsAttacker() override; // vtable[173]
+	virtual void SetPhysicsAttacker() override; // vtable[236]
 	virtual void OnPhysGunPickup(); // vtable[282]
 	virtual void _ZN11CBounceBomb13OnPhysGunDropEP11CBasePlayer13PhysGunDrop_t(); // vtable[283]
 	virtual void ForcePhysgunOpen(); // vtable[284]
 	virtual void HasPreferredCarryAnglesForPlayer(); // vtable[285]
 	virtual void PreferredCarryAngles(); // vtable[286]
 
-	void CaptiveThink();
-	void BounceThink();
-	void CavernBounceThink();
-	void GetBaseMap();
-	void Flip();
-	void IsValidLocation();
-	void UpdateLight();
-	void ExplodeThink();
-	void ExplodeTouch();
-	void Wake();
-	void IsFriend();
-	void FindNearestNPC();
-	void OpenHooks();
-	void SetMineState();
-	void SearchThink();
-	void OnPhysGunPickup();
-	void InputDisarm();
-	void OnPhysGunDrop();
-	void CloseHooks();
-	void SettleThink();
-	void ForcePhysgunOpen();
-	void HasPreferredCarryAnglesForPlayer();
-	void PreferredCarryAngles();
+	void CaptiveThink(); // size[0]
+	void BounceThink(); // size[0]
+	void CavernBounceThink(); // size[0]
+	void GetBaseMap(); // size[0]
+	void Flip(); // size[0]
+	void IsValidLocation(); // size[0]
+	void UpdateLight(); // size[0]
+	void ExplodeThink(); // size[0]
+	void ExplodeTouch(); // size[0]
+	void Wake(); // size[0]
+	void IsFriend(); // size[0]
+	void FindNearestNPC(); // size[0]
+	void OpenHooks(); // size[0]
+	void SetMineState(); // size[0]
+	void SearchThink(); // size[0]
+	void OnPhysGunPickup(); // size[0]
+	void InputDisarm(); // size[0]
+	void OnPhysGunDrop(); // size[0]
+	void CloseHooks(); // size[0]
+	void SettleThink(); // size[0]
+	void ForcePhysgunOpen(); // size[0]
+	void HasPreferredCarryAnglesForPlayer(); // size[0]
+	void PreferredCarryAngles(); // size[0]
 };

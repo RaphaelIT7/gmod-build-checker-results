@@ -7,11 +7,11 @@ public:
 	virtual void Restore(); // vtable[1]
 	virtual void Rebuild() override; // vtable[2]
 
-	void _GLOBAL__sub_I_CModelSoundsCache();
-	void CModelSoundsCache();
-	void GetSoundName();
-	void PrecacheSoundList();
-	void FindOrAddScriptSound();
-	void BuildAnimationEventSoundList();
-	void CModelSoundsCache();
+	_GLOBAL__sub_I_CModelSoundsCache(); // size[0]
+	CModelSoundsCache(); // size[0]
+	void GetSoundName(); // size[0]
+	void PrecacheSoundList(); // size[0]
+	void FindOrAddScriptSound(); // size[0]
+	void BuildAnimationEventSoundList(); // size[0]
+	CModelSoundsCache(); // size[0]
 };

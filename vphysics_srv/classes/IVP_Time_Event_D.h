@@ -3,8 +3,9 @@
 class IVP_Time_Event_D : public IVP_Time_Event
 {
 public:
-	virtual void ~IVP_Time_Event_D() override; // vtable[0]
-	virtual void ~IVP_Time_Event_D() override; // vtable[1]
+	virtual ~IVP_Time_Event_D() override; // vtable[0]
+	virtual ~IVP_Time_Event_D() override; // vtable[1]
+	virtual simulate_time_event() override; // vtable[2]
 
-	void IVP_Time_Event_D();
+	IVP_Time_Event_D(); // size[0]
 };

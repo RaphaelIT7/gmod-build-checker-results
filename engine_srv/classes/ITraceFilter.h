@@ -3,5 +3,5 @@
 class ITraceFilter
 {
 public:
-	void ShouldHitClientEntities();
+	void ShouldHitClientEntities(); // size[0]
 };

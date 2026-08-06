@@ -7,8 +7,8 @@ public:
 	virtual void event_object_created(); // vtable[1]
 	virtual void event_object_revived(); // vtable[2]
 	virtual void event_object_frozen() override; // vtable[3]
-	virtual void ~CSleepObjects(); // vtable[4]
-	virtual void ~CSleepObjects(); // vtable[5]
+	virtual ~CSleepObjects(); // vtable[4]
+	virtual ~CSleepObjects(); // vtable[5]
 
-	void ProcessActiveObjects();
+	void ProcessActiveObjects(); // size[0]
 };

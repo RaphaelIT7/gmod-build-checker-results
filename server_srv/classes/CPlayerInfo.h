@@ -40,31 +40,31 @@ public:
 	virtual void SetLastUserCommand(); // vtable[34]
 	virtual void GetLastUserCommand(); // vtable[35]
 
-	void GetName();
-	void GetUserID();
-	void ChangeTeam();
-	void GetFragCount();
-	void GetDeathCount();
-	void IsConnected();
-	void GetArmorValue();
-	void IsHLTV();
-	void IsReplay();
-	void IsPlayer();
-	void IsFakeClient();
-	void IsDead();
-	void IsInAVehicle();
-	void IsObserver();
-	void GetPlayerMins();
-	void GetPlayerMaxs();
-	void GetModelName();
-	void GetHealth();
-	void GetMaxHealth();
-	void GetLastUserCommand();
-	void GetAbsOrigin();
-	void GetAbsAngles();
-	void GetWeaponName();
-	void GetTeamIndex();
-	void SetLastUserCommand();
-	void RunPlayerMove();
-	void GetNetworkIDString();
+	void GetName(); // size[0]
+	void GetUserID(); // size[0]
+	void ChangeTeam(); // size[0]
+	void GetFragCount(); // size[0]
+	void GetDeathCount(); // size[0]
+	void IsConnected(); // size[0]
+	void GetArmorValue(); // size[0]
+	void IsHLTV(); // size[0]
+	void IsReplay(); // size[0]
+	void IsPlayer(); // size[0]
+	void IsFakeClient(); // size[0]
+	void IsDead(); // size[0]
+	void IsInAVehicle(); // size[0]
+	void IsObserver(); // size[0]
+	void GetPlayerMins(); // size[0]
+	void GetPlayerMaxs(); // size[0]
+	void GetModelName(); // size[0]
+	void GetHealth(); // size[0]
+	void GetMaxHealth(); // size[0]
+	void GetLastUserCommand(); // size[0]
+	void GetAbsOrigin(); // size[0]
+	void GetAbsAngles(); // size[0]
+	void GetWeaponName(); // size[0]
+	void GetTeamIndex(); // size[0]
+	void SetLastUserCommand(); // size[0]
+	void RunPlayerMove(); // size[0]
+	void GetNetworkIDString(); // size[0]
 };

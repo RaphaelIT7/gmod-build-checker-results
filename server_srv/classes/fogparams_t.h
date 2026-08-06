@@ -6,6 +6,6 @@ public:
 	virtual void NetworkStateChanged(); // vtable[0]
 	virtual void NetworkStateChanged(); // vtable[1]
 
-	void operator!=();
-	void GetBaseMap();
+	void operator!=(); // size[0]
+	void GetBaseMap(); // size[0]
 };

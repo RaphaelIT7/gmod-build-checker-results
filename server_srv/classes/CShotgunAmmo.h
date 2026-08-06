@@ -3,6 +3,9 @@
 class CShotgunAmmo : public CHL1Item
 {
 public:
-	virtual void ~CShotgunAmmo() override; // vtable[0]
-	virtual void ~CShotgunAmmo() override; // vtable[1]
+	virtual ~CShotgunAmmo() override; // vtable[0]
+	virtual ~CShotgunAmmo() override; // vtable[1]
+	virtual void Spawn() override; // vtable[23]
+	virtual void Precache() override; // vtable[24]
+	virtual void MyTouch() override; // vtable[284]
 };

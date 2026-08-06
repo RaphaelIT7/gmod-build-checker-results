@@ -42,12 +42,12 @@ public:
 	virtual void ReloadFilesInList(); // vtable[36]
 	virtual void GMOD_UpdatePostAsync() override; // vtable[37]
 
-	void RestoreTexture();
-	void LoadTexture();
-	void CTextureManager();
-	void AddTextureAlias();
-	void FindTexture();
-	void GMOD_RemoveTexture();
-	void CleanupPossiblyUnreferencedTextures();
-	void ~CTextureManager();
+	void RestoreTexture(); // size[0]
+	void LoadTexture(); // size[0]
+	CTextureManager(); // size[0]
+	void AddTextureAlias(); // size[0]
+	void FindTexture(); // size[0]
+	void GMOD_RemoveTexture(); // size[0]
+	void CleanupPossiblyUnreferencedTextures(); // size[0]
+	~CTextureManager(); // size[0]
 };

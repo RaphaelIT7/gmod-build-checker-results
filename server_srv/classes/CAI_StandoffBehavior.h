@@ -3,28 +3,49 @@
 class CAI_StandoffBehavior : public CAI_MappedActivityBehavior_Temporary
 {
 public:
-	virtual void ~CAI_StandoffBehavior() override; // vtable[0]
-	virtual void ~CAI_StandoffBehavior() override; // vtable[1]
+	virtual ~CAI_StandoffBehavior() override; // vtable[0]
+	virtual ~CAI_StandoffBehavior() override; // vtable[1]
 	virtual void GetName() override; // vtable[5]
+	virtual void CanSelectSchedule() override; // vtable[7]
+	virtual void BeginScheduleSelection() override; // vtable[8]
+	virtual void EndScheduleSelection() override; // vtable[9]
+	virtual void GatherConditions() override; // vtable[11]
+	virtual void OnUpdateShotRegulator() override; // vtable[13]
+	virtual void GetClassScheduleIdSpace() override; // vtable[14]
+	virtual void Spawn() override; // vtable[19]
+	virtual void PrescheduleThink() override; // vtable[23]
+	virtual void SelectSchedule() override; // vtable[26]
+	virtual void StartTask() override; // vtable[28]
+	virtual void TranslateSchedule() override; // vtable[31]
+	virtual void GetSchedulingErrorName() override; // vtable[33]
+	virtual void BuildScheduleTestBits() override; // vtable[34]
+	virtual void NPC_TranslateActivity() override; // vtable[35]
+	virtual void IsValidCover() override; // vtable[43]
+	virtual void IsValidShootPosition() override; // vtable[44]
+	virtual void IsCrouching() override; // vtable[55]
+	virtual void OnRestore() override; // vtable[67]
+	virtual void OnChangeHintGroup() override; // vtable[68]
+	virtual void GetDataDescMap() override; // vtable[70]
+	virtual void UpdateTranslateActivityMap() override; // vtable[71]
 
-	void GetBaseMap();
-	void SetActive();
-	void SetParameters();
-	void OnChangeTacticalConstraints();
-	void PlayerIsLeading();
-	void GetStandoffGoalPosition();
-	void GetPlayerLeader();
-	void GetDirectionOfStandoff();
-	void GetHintType();
-	void SetReuseCurrentCover();
-	void UnlockHintNode();
-	void GetCoverActivity();
-	void InitCustomSchedules();
-	void LoadSchedules();
-	void CScheduleLoader();
-	void CAI_StandoffBehavior();
-	void UpdateBattleLines();
-	void SetStandoffGoalPosition();
-	void ClearStandoffGoalPosition();
-	void IsBehindBattleLines();
+	void GetBaseMap(); // size[0]
+	void SetActive(); // size[0]
+	void SetParameters(); // size[0]
+	void OnChangeTacticalConstraints(); // size[0]
+	void PlayerIsLeading(); // size[0]
+	void GetStandoffGoalPosition(); // size[0]
+	void GetPlayerLeader(); // size[0]
+	void GetDirectionOfStandoff(); // size[0]
+	void GetHintType(); // size[0]
+	void SetReuseCurrentCover(); // size[0]
+	void UnlockHintNode(); // size[0]
+	void GetCoverActivity(); // size[0]
+	void InitCustomSchedules(); // size[0]
+	void LoadSchedules(); // size[0]
+	CScheduleLoader(); // size[0]
+	CAI_StandoffBehavior(); // size[0]
+	void UpdateBattleLines(); // size[0]
+	void SetStandoffGoalPosition(); // size[0]
+	void ClearStandoffGoalPosition(); // size[0]
+	void IsBehindBattleLines(); // size[0]
 };

@@ -3,33 +3,40 @@
 class CEnvHeadcrabCanister : public CBaseAnimating
 {
 public:
-	virtual void ~CEnvHeadcrabCanister() override; // vtable[0]
-	virtual void ~CEnvHeadcrabCanister() override; // vtable[1]
+	virtual ~CEnvHeadcrabCanister() override; // vtable[0]
+	virtual ~CEnvHeadcrabCanister() override; // vtable[1]
+	virtual void GetServerClass() override; // vtable[10]
+	virtual void YouForgotToImplementOrDeclareServerClass() override; // vtable[11]
+	virtual void GetDataDescMap() override; // vtable[12]
+	virtual void SetTransmit() override; // vtable[21]
+	virtual void Spawn() override; // vtable[23]
+	virtual void Precache() override; // vtable[24]
+	virtual void UpdateOnRemove() override; // vtable[108]
 
-	void InputStopSmoke();
-	void HeadcrabCanisterSkyboxOnlyThink();
-	void HeadcrabCanisterSpawnHeadcrabThink();
-	void GetBaseMap();
-	void CEnvHeadcrabCanister();
-	void SetupWorldModel();
-	void HeadcrabCanisterSkyboxThink();
-	void ComputeWorldEntryPoint();
-	void PlaceCanisterInWorld();
-	void TestForCollisionsAgainstWorld();
-	void StartSpawningHeadcrabs();
-	void InputSpawnHeadcrabs();
-	void InputFireCanister();
-	void HeadcrabCanisterSkyboxRestartThink();
-	void CanisterFinishedOpening();
-	void WaitForOpenSequenceThink();
-	void OpenCanister();
-	void InputOpenCanister();
-	void OpenCanister();
-	void SetLanded();
-	void Landed();
-	void Detonate();
-	void TestForCollisionsAgainstEntities();
-	void HeadcrabCanisterWorldThink();
-	void NetworkStateChanged();
-	void NetworkStateChanged();
+	void InputStopSmoke(); // size[0]
+	void HeadcrabCanisterSkyboxOnlyThink(); // size[0]
+	void HeadcrabCanisterSpawnHeadcrabThink(); // size[0]
+	void GetBaseMap(); // size[0]
+	CEnvHeadcrabCanister(); // size[0]
+	void SetupWorldModel(); // size[0]
+	void HeadcrabCanisterSkyboxThink(); // size[0]
+	void ComputeWorldEntryPoint(); // size[0]
+	void PlaceCanisterInWorld(); // size[0]
+	void TestForCollisionsAgainstWorld(); // size[0]
+	void StartSpawningHeadcrabs(); // size[0]
+	void InputSpawnHeadcrabs(); // size[0]
+	void InputFireCanister(); // size[0]
+	void HeadcrabCanisterSkyboxRestartThink(); // size[0]
+	void CanisterFinishedOpening(); // size[0]
+	void WaitForOpenSequenceThink(); // size[0]
+	void OpenCanister(); // size[0]
+	void InputOpenCanister(); // size[0]
+	void OpenCanister(); // size[0]
+	void SetLanded(); // size[0]
+	void Landed(); // size[0]
+	void Detonate(); // size[0]
+	void TestForCollisionsAgainstEntities(); // size[0]
+	void HeadcrabCanisterWorldThink(); // size[0]
+	void NetworkStateChanged(); // size[0]
+	void NetworkStateChanged(); // size[0]
 };

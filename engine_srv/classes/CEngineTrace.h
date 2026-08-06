@@ -17,16 +17,16 @@ public:
 	virtual void GetStatByIndex(); // vtable[12]
 	virtual void GetBrushesInAABB(); // vtable[13]
 	virtual void GetCollidableFromDisplacementsInAABB(); // vtable[14]
-	virtual void GetBrushInfo(); // vtable[15]
+	virtual GetBrushInfo(); // vtable[15]
 	virtual void PointOutsideWorld(); // vtable[16]
 	virtual void GetLeafContainingPoint(); // vtable[17]
 	virtual void __cxa_pure_virtual(); // vtable[22]
 
-	void ClipRayToCustom();
-	void ClipRayToHitboxes();
-	void ClipRayToVPhysics();
-	void ClipRayToBSP();
-	void ClipRayToBBox();
-	void ClipRayToOBB();
-	void ClipTraceToTrace();
+	void ClipRayToCustom(); // size[0]
+	void ClipRayToHitboxes(); // size[0]
+	void ClipRayToVPhysics(); // size[0]
+	void ClipRayToBSP(); // size[0]
+	void ClipRayToBBox(); // size[0]
+	void ClipRayToOBB(); // size[0]
+	void ClipTraceToTrace(); // size[0]
 };

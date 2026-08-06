@@ -10,12 +10,12 @@ public:
 	virtual void do_simulation_controller(); // vtable[4]
 	virtual void get_controller_priority(); // vtable[5]
 	virtual void get_controller_name(); // vtable[6]
-	virtual void ~IVP_Constraint_Solver_Car(); // vtable[7]
-	virtual void ~IVP_Constraint_Solver_Car(); // vtable[8]
+	virtual ~IVP_Constraint_Solver_Car(); // vtable[7]
+	virtual ~IVP_Constraint_Solver_Car(); // vtable[8]
 
-	void IVP_Constraint_Solver_Car();
-	void init_constraint_system();
-	void IVP_Constraint_Solver_Car();
-	void do_simulation_controller_rotation();
-	void init_constraint_system();
+	IVP_Constraint_Solver_Car(); // size[0]
+	void init_constraint_system(); // size[0]
+	IVP_Constraint_Solver_Car(); // size[0]
+	void do_simulation_controller_rotation(); // size[0]
+	void init_constraint_system(); // size[0]
 };

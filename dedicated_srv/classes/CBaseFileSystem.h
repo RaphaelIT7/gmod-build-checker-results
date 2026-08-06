@@ -3,6 +3,9 @@
 class CBaseFileSystem : public CTier1AppSystem
 {
 public:
+	virtual void QueryInterface() override; // vtable[2]
+	virtual void Init() override; // vtable[3]
+	virtual void Shutdown() override; // vtable[4]
 	virtual void AddSearchPath(); // vtable[7]
 	virtual void RemoveSearchPath(); // vtable[8]
 	virtual void RemoveAllSearchPaths(); // vtable[9]
@@ -136,87 +139,87 @@ public:
 	virtual void __cxa_pure_virtual(); // vtable[159]
 	virtual void FS_GetSectorSize(); // vtable[160]
 
-	void WriteFile();
-	void Open();
-	void Read();
-	void IOCallback();
-	void ReadFile();
-	void LogFileAccess();
-	void FullPathToRelativePathEx();
-	void FileExists();
-	void OpenedFileLessFunc();
-	void ContainsReservedName();
-	void GetFileNameForHandle();
-	void Trace_DumpUnclosedFiles();
-	void FindSearchPathByStoreId();
-	void FindWritePath();
-	void LogFileAccess();
-	void FastFileTime();
-	void UnloadCompiledKeyValues();
-	void LookupKeyValuesRootKeyName();
-	void SetSearchPathIsTrustedSource();
-	void Warning();
-	void ParsePathID();
-	void Precache();
-	void Close();
-	void Size();
-	void Flush();
-	void LogAccessToFile();
-	void GetWritePath();
-	void COpenedFile();
-	void ~COpenedFile();
-	void COpenedFile();
-	void Trace_FClose();
-	void Trace_FRead();
-	void Trace_FWrite();
-	void operator==();
-	void SetName();
-	void GetName();
-	void CSearchPath();
-	void GetDebugString();
-	void ~CSearchPath();
-	void Write();
-	void Tell();
-	void Size();
-	void Seek();
-	void CFileCacheObject();
-	void ProcessNewEntries();
-	void MountDirectoryAndVPKs();
-	void UnzipFile();
-	void FindNextFileInVPKHelper();
-	void RemoveAllMapSearchPaths();
-	void NewSearchPath();
-	void FindNextFileInMapPakHelper();
-	void FindNextFileInMapPakHelper();
-	void ~CFileCacheObject();
-	void GetNext();
-	void GetFirst();
-	void GetFirst();
-	void FindNextFileHelper();
-	void GetFileTime();
-	void IsFileWritable();
-	void SetFileWritable();
-	void Trace_FOpen();
-	void HandleOpenRegularFile();
-	void FindFileInSearchPath();
-	void OpenForRead();
-	void OpenForWrite();
-	void AddPackFileFromPath();
-	void FindOrAddPathIDInfo();
-	void AddPackFiles();
-	void AddVPKFile();
-	void AddMapPackFile();
-	void AddSearchPathInternal();
-	void AddFiles();
-	void FindFirstHelper();
-	void CBaseFileSystem();
-	void ~CSearchPathsIterator();
-	void CSearchPathsIterator();
-	void InitAsync();
-	void RemoveAsyncCustomFetchJob();
-	void SyncWrite();
-	void SyncAppendFile();
-	void DoAsyncCallback();
-	void SyncGetFileSize();
-	void SyncRead();
+	void WriteFile(); // size[0]
+	void Open(); // size[0]
+	void Read(); // size[0]
+	void IOCallback(); // size[0]
+	void ReadFile(); // size[0]
+	void LogFileAccess(); // size[0]
+	void FullPathToRelativePathEx(); // size[0]
+	void FileExists(); // size[0]
+	void OpenedFileLessFunc(); // size[0]
+	void ContainsReservedName(); // size[0]
+	void GetFileNameForHandle(); // size[0]
+	void Trace_DumpUnclosedFiles(); // size[0]
+	void FindSearchPathByStoreId(); // size[0]
+	void FindWritePath(); // size[0]
+	void LogFileAccess(); // size[0]
+	void FastFileTime(); // size[0]
+	void UnloadCompiledKeyValues(); // size[0]
+	void LookupKeyValuesRootKeyName(); // size[0]
+	void SetSearchPathIsTrustedSource(); // size[0]
+	void Warning(); // size[0]
+	void ParsePathID(); // size[0]
+	void Precache(); // size[0]
+	void Close(); // size[0]
+	void Size(); // size[0]
+	void Flush(); // size[0]
+	void LogAccessToFile(); // size[0]
+	void GetWritePath(); // size[0]
+	COpenedFile(); // size[0]
+	~COpenedFile(); // size[0]
+	COpenedFile(); // size[0]
+	void Trace_FClose(); // size[0]
+	void Trace_FRead(); // size[0]
+	void Trace_FWrite(); // size[0]
+	void operator==(); // size[0]
+	void SetName(); // size[0]
+	void GetName(); // size[0]
+	CSearchPath(); // size[0]
+	void GetDebugString(); // size[0]
+	~CSearchPath(); // size[0]
+	void Write(); // size[0]
+	void Tell(); // size[0]
+	void Size(); // size[0]
+	void Seek(); // size[0]
+	CFileCacheObject(); // size[0]
+	void ProcessNewEntries(); // size[0]
+	void MountDirectoryAndVPKs(); // size[0]
+	void UnzipFile(); // size[0]
+	void FindNextFileInVPKHelper(); // size[0]
+	void RemoveAllMapSearchPaths(); // size[0]
+	void NewSearchPath(); // size[0]
+	void FindNextFileInMapPakHelper(); // size[0]
+	void FindNextFileInMapPakHelper(); // size[0]
+	~CFileCacheObject(); // size[0]
+	void GetNext(); // size[0]
+	void GetFirst(); // size[0]
+	void GetFirst(); // size[0]
+	void FindNextFileHelper(); // size[0]
+	void GetFileTime(); // size[0]
+	void IsFileWritable(); // size[0]
+	void SetFileWritable(); // size[0]
+	void Trace_FOpen(); // size[0]
+	void HandleOpenRegularFile(); // size[0]
+	void FindFileInSearchPath(); // size[0]
+	void OpenForRead(); // size[0]
+	void OpenForWrite(); // size[0]
+	void AddPackFileFromPath(); // size[0]
+	void FindOrAddPathIDInfo(); // size[0]
+	void AddPackFiles(); // size[0]
+	void AddVPKFile(); // size[0]
+	void AddMapPackFile(); // size[0]
+	void AddSearchPathInternal(); // size[0]
+	void AddFiles(); // size[0]
+	void FindFirstHelper(); // size[0]
+	CBaseFileSystem(); // size[0]
+	~CSearchPathsIterator(); // size[0]
+	CSearchPathsIterator(); // size[0]
+	void InitAsync(); // size[0]
+	void RemoveAsyncCustomFetchJob(); // size[0]
+	void SyncWrite(); // size[0]
+	void SyncAppendFile(); // size[0]
+	void DoAsyncCallback(); // size[0]
+	void SyncGetFileSize(); // size[0]
+	void SyncRead(); // size[0]
 };

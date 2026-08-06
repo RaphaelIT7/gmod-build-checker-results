@@ -11,5 +11,5 @@ public:
 	virtual void get_controller_priority(); // vtable[5]
 	virtual void get_controller_name(); // vtable[6]
 
-	void anchor_will_be_deleted_event();
+	void anchor_will_be_deleted_event(); // size[0]
 };

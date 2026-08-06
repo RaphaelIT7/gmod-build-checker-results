@@ -3,8 +3,8 @@
 class CAI_Navigator : public CAI_Component, public CAI_DefMovementSink
 {
 public:
-	virtual void ~CAI_Navigator() override; // vtable[0]
-	virtual void ~CAI_Navigator() override; // vtable[1]
+	virtual ~CAI_Navigator() override; // vtable[0]
+	virtual ~CAI_Navigator() override; // vtable[1]
 	virtual void SetOuter() override; // vtable[2]
 	virtual void TaskFail() override; // vtable[3]
 	virtual void TaskComplete() override; // vtable[4]
@@ -36,117 +36,117 @@ public:
 	virtual void ShouldOptimizeInitialPathSegment(); // vtable[30]
 	virtual void GetStoppingPath(); // vtable[31]
 
-	void OnCalcBaseMove();
-	void OnMoveStalled();
-	void ShouldAttemptSimplifyTo();
-	void CalcYawSpeed();
-	void GetBaseMap();
-	void CAI_Navigator();
-	void ActivityIsLocomotive();
-	void GetPathfinder();
-	void GetPathfinder();
-	void GetNavTargetEntity();
-	void TaskMovementComplete();
-	void MaxYawSpeed();
-	void SetSpeed();
-	void CalculateDeflection();
-	void FindVectorGoal();
-	void PrependWaypoint();
-	void GetGoalPos();
-	void GetGoalTarget();
-	void GetGoalTolerance();
-	void SetGoalTolerance();
-	void SetMovementActivity();
-	void GetMovementSequence();
-	void SetMovementSequence();
-	void GetMovementActivity();
-	void SetArrivalActivity();
-	void GetArrivalSequence();
-	void SetArrivalSequence();
-	void GetArrivalActivity();
-	void SetArrivalDirection();
-	void SetArrivalDirection();
-	void SetArrivalDirection();
-	void GetArrivalDirection();
-	void SetArrivalSpeed();
-	void GetArrivalSpeed();
-	void SetArrivalDistance();
-	void GetArrivalDistance();
-	void GetCurWaypointPos();
-	void GetCurWaypointFlags();
-	void GetGoalType();
-	void GetGoalFlags();
-	void CurWaypointIsGoal();
-	void IsGoalSet();
-	void IsGoalActive();
-	void GetPointAlongPath();
-	void GetPathDistanceToGoal();
-	void GetPathTimeToGoal();
-	void GetNearestNode();
-	void GetNodePos();
-	void GetNavFailCounter();
-	void ClearNavFailCounter();
-	void GetLastNavFailTime();
-	void ResetCalculations();
-	void SetNavType();
-	void DelayNavigationFailure();
-	void OnFailedLocalNavigation();
-	void OnMoveExecuteFailed();
-	void PreMove();
-	void IsMovingOutOfWay();
-	void OnInsufficientStopDist();
-	void GetStepDownMultiplier();
-	void ShouldAttemptSimplifyTo();
-	void ShouldSimplifyTo();
-	void SimplifyPathInsertSimplification();
-	void SimplifyPathForwardScan();
-	void SimplifyPathBacktrack();
-	void MovementCost();
-	void CanFitAtPosition();
-	void CanFitAtNode();
-	void GetPathDistToCurWaypoint();
-	void SimplifyPathForwardScan();
-	void SimplifyPathQuick();
-	void SimplifyPathForward();
-	void GetPathDistToGoal();
-	void BuildAndGetPathDistToGoal();
-	void MarkCurWaypointFailedLink();
-	void GetNextPathcorner();
-	void DoFindPathToPathcorner();
-	void IgnoreStoppingPath();
-	void SaveStoppingPath();
-	void ClearPath();
-	void SetGoalFromStoppingPath();
-	void SetRadialGoal();
-	void SetRandomGoal();
-	void SetRandomGoal();
-	void SetDirectGoal();
-	void SetVectorGoal();
-	void SetVectorGoalFromTarget();
-	void SetWanderGoal();
-	void PrependLocalAvoidance();
-	void OnFailedSteer();
-	void ClearGoal();
-	void StopMoving();
-	void OnScheduleChange();
-	void OnNavFailed();
-	void DrawDebugRouteOverlay();
-	void AdvancePath();
-	void TeleportAlongPath();
-	void OnNavFailed();
-	void OnNavFailed();
-	void OnObstructionPreSteer();
-	void OnMoveBlocked();
-	void SimplifyFlyPath();
-	void SimplifyFlyPath();
-	void ProgressFlyPath();
-	void DoFindPath();
-	void FindPath();
-	void FindPath();
-	void RefindPathToGoal();
-	void SetGoalPos();
-	void UpdateGoalPos();
-	void UpdateGoalPos();
-	void Restore();
-	void Save();
+	void OnCalcBaseMove(); // size[0]
+	void OnMoveStalled(); // size[0]
+	void ShouldAttemptSimplifyTo(); // size[0]
+	void CalcYawSpeed(); // size[0]
+	void GetBaseMap(); // size[0]
+	CAI_Navigator(); // size[0]
+	void ActivityIsLocomotive(); // size[0]
+	void GetPathfinder(); // size[0]
+	void GetPathfinder(); // size[0]
+	void GetNavTargetEntity(); // size[0]
+	void TaskMovementComplete(); // size[0]
+	void MaxYawSpeed(); // size[0]
+	void SetSpeed(); // size[0]
+	void CalculateDeflection(); // size[0]
+	void FindVectorGoal(); // size[0]
+	void PrependWaypoint(); // size[0]
+	void GetGoalPos(); // size[0]
+	void GetGoalTarget(); // size[0]
+	void GetGoalTolerance(); // size[0]
+	void SetGoalTolerance(); // size[0]
+	void SetMovementActivity(); // size[0]
+	void GetMovementSequence(); // size[0]
+	void SetMovementSequence(); // size[0]
+	void GetMovementActivity(); // size[0]
+	void SetArrivalActivity(); // size[0]
+	void GetArrivalSequence(); // size[0]
+	void SetArrivalSequence(); // size[0]
+	void GetArrivalActivity(); // size[0]
+	void SetArrivalDirection(); // size[0]
+	void SetArrivalDirection(); // size[0]
+	void SetArrivalDirection(); // size[0]
+	void GetArrivalDirection(); // size[0]
+	void SetArrivalSpeed(); // size[0]
+	void GetArrivalSpeed(); // size[0]
+	void SetArrivalDistance(); // size[0]
+	void GetArrivalDistance(); // size[0]
+	void GetCurWaypointPos(); // size[0]
+	void GetCurWaypointFlags(); // size[0]
+	void GetGoalType(); // size[0]
+	void GetGoalFlags(); // size[0]
+	void CurWaypointIsGoal(); // size[0]
+	void IsGoalSet(); // size[0]
+	void IsGoalActive(); // size[0]
+	void GetPointAlongPath(); // size[0]
+	void GetPathDistanceToGoal(); // size[0]
+	void GetPathTimeToGoal(); // size[0]
+	void GetNearestNode(); // size[0]
+	void GetNodePos(); // size[0]
+	void GetNavFailCounter(); // size[0]
+	void ClearNavFailCounter(); // size[0]
+	void GetLastNavFailTime(); // size[0]
+	void ResetCalculations(); // size[0]
+	void SetNavType(); // size[0]
+	void DelayNavigationFailure(); // size[0]
+	void OnFailedLocalNavigation(); // size[0]
+	void OnMoveExecuteFailed(); // size[0]
+	void PreMove(); // size[0]
+	void IsMovingOutOfWay(); // size[0]
+	void OnInsufficientStopDist(); // size[0]
+	void GetStepDownMultiplier(); // size[0]
+	void ShouldAttemptSimplifyTo(); // size[0]
+	void ShouldSimplifyTo(); // size[0]
+	void SimplifyPathInsertSimplification(); // size[0]
+	void SimplifyPathForwardScan(); // size[0]
+	void SimplifyPathBacktrack(); // size[0]
+	void MovementCost(); // size[0]
+	void CanFitAtPosition(); // size[0]
+	void CanFitAtNode(); // size[0]
+	void GetPathDistToCurWaypoint(); // size[0]
+	void SimplifyPathForwardScan(); // size[0]
+	void SimplifyPathQuick(); // size[0]
+	void SimplifyPathForward(); // size[0]
+	void GetPathDistToGoal(); // size[0]
+	void BuildAndGetPathDistToGoal(); // size[0]
+	void MarkCurWaypointFailedLink(); // size[0]
+	void GetNextPathcorner(); // size[0]
+	void DoFindPathToPathcorner(); // size[0]
+	void IgnoreStoppingPath(); // size[0]
+	void SaveStoppingPath(); // size[0]
+	void ClearPath(); // size[0]
+	void SetGoalFromStoppingPath(); // size[0]
+	void SetRadialGoal(); // size[0]
+	void SetRandomGoal(); // size[0]
+	void SetRandomGoal(); // size[0]
+	void SetDirectGoal(); // size[0]
+	void SetVectorGoal(); // size[0]
+	void SetVectorGoalFromTarget(); // size[0]
+	void SetWanderGoal(); // size[0]
+	void PrependLocalAvoidance(); // size[0]
+	void OnFailedSteer(); // size[0]
+	void ClearGoal(); // size[0]
+	void StopMoving(); // size[0]
+	void OnScheduleChange(); // size[0]
+	void OnNavFailed(); // size[0]
+	void DrawDebugRouteOverlay(); // size[0]
+	void AdvancePath(); // size[0]
+	void TeleportAlongPath(); // size[0]
+	void OnNavFailed(); // size[0]
+	void OnNavFailed(); // size[0]
+	void OnObstructionPreSteer(); // size[0]
+	void OnMoveBlocked(); // size[0]
+	void SimplifyFlyPath(); // size[0]
+	void SimplifyFlyPath(); // size[0]
+	void ProgressFlyPath(); // size[0]
+	void DoFindPath(); // size[0]
+	void FindPath(); // size[0]
+	void FindPath(); // size[0]
+	void RefindPathToGoal(); // size[0]
+	void SetGoalPos(); // size[0]
+	void UpdateGoalPos(); // size[0]
+	void UpdateGoalPos(); // size[0]
+	void Restore(); // size[0]
+	void Save(); // size[0]
 };

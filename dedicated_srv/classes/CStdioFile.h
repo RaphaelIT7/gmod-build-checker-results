@@ -3,8 +3,8 @@
 class CStdioFile : public CStdFilesystemFile
 {
 public:
-	virtual void ~CStdioFile() override; // vtable[0]
-	virtual void ~CStdioFile() override; // vtable[1]
+	virtual ~CStdioFile() override; // vtable[0]
+	virtual ~CStdioFile() override; // vtable[1]
 	virtual void FS_setbufsize(); // vtable[2]
 	virtual void FS_fclose(); // vtable[3]
 	virtual void FS_fseek(); // vtable[4]
@@ -18,6 +18,6 @@ public:
 	virtual void FS_fflush(); // vtable[12]
 	virtual void FS_fgets() override; // vtable[13]
 
-	void _GLOBAL__sub_I_m_LockedFDMap();
-	void FS_fopen();
+	void _GLOBAL__sub_I_m_LockedFDMap(); // size[0]
+	void FS_fopen(); // size[0]
 };

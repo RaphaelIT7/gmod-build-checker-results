@@ -3,8 +3,8 @@
 class CGame : public IGame
 {
 public:
-	virtual void ~CGame() override; // vtable[0]
-	virtual void ~CGame() override; // vtable[1]
+	virtual ~CGame() override; // vtable[0]
+	virtual ~CGame() override; // vtable[1]
 	virtual void Init(); // vtable[2]
 	virtual void Shutdown(); // vtable[3]
 	virtual void CreateGameWindow(); // vtable[4]
@@ -23,6 +23,6 @@ public:
 	virtual void IsActiveApp(); // vtable[17]
 	virtual void DispatchAllStoredGameMessages() override; // vtable[18]
 
-	void CGame();
-	void SetActiveApp();
+	CGame(); // size[0]
+	void SetActiveApp(); // size[0]
 };

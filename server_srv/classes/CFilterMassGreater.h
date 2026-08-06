@@ -3,8 +3,10 @@
 class CFilterMassGreater : public CBaseFilter
 {
 public:
-	virtual void ~CFilterMassGreater() override; // vtable[0]
-	virtual void ~CFilterMassGreater() override; // vtable[1]
+	virtual ~CFilterMassGreater() override; // vtable[0]
+	virtual ~CFilterMassGreater() override; // vtable[1]
+	virtual void GetDataDescMap() override; // vtable[12]
+	virtual void PassesFilterImpl() override; // vtable[246]
 
-	void GetBaseMap();
+	void GetBaseMap(); // size[0]
 };

@@ -3,8 +3,8 @@
 class CBaseClient : public IGameEventListener2, public IClient, public IClientMessageHandler
 {
 public:
-	virtual void ~CBaseClient() override; // vtable[0]
-	virtual void ~CBaseClient() override; // vtable[1]
+	virtual ~CBaseClient() override; // vtable[0]
+	virtual ~CBaseClient() override; // vtable[1]
 	virtual void FireGameEvent() override; // vtable[2]
 	virtual void GetPlayerSlot(); // vtable[3]
 	virtual void GetUserID(); // vtable[4]
@@ -64,58 +64,58 @@ public:
 	virtual void FreeBaselines(); // vtable[58]
 	virtual void IgnoreTempEntity(); // vtable[59]
 
-	void SetRate();
-	void GetRate();
-	void SetUpdateRate();
-	void GetUpdateRate();
-	void ProcessTick();
-	void ProcessStringCmd();
-	void GetNetworkID();
-	void SetMaxRoutablePayloadSize();
-	void GetMaxAckTickCount();
-	void ProcessCmdKeyValues();
-	void ClientPrintf();
-	void GetUserSetting();
-	void ProcessListenEvents();
-	void ExecuteStringCommand();
-	void ConnectionStart();
-	void ProcessBaselineAck();
-	void ProcessClientInfo();
-	void ProcessSignonState();
-	void CBaseClient();
-	void StartTrace();
-	void SendOnFullUpdateRequestedEvent();
-	void CheckFlushNameChange();
-	void ClientRequestNameChange();
-	void ProcessSetConVar();
-	void OnRequestFullUpdate();
-	void GetNetworkIDString();
-	void SetSteamID();
-	void OnSignonStateFull();
-	void SetSignOnState();
-	void Reconnect();
-	void Connect();
-	void Disconnect();
-	void Clear();
-	void Inactivate();
-	void EndTrace();
-	void ~CBaseClient();
-	void ~CBaseClient();
-	void ~CBaseClient();
-	void ~CBaseClient();
-	void TraceNetworkData();
-	void TraceNetworkMsg();
-	void SendNetMsg();
-	void GetPlayerSlot();
-	void GetUserID();
-	void GetClientName();
-	void GetNetChannel();
-	void GetServer();
-	void IsConnected();
-	void IsSpawned();
-	void IsActive();
-	void IsFakeClient();
-	void IsHLTV();
-	void IsHearingClient();
-	void IsProximityHearingClient();
+	void SetRate(); // size[0]
+	void GetRate(); // size[0]
+	void SetUpdateRate(); // size[0]
+	void GetUpdateRate(); // size[0]
+	void ProcessTick(); // size[0]
+	void ProcessStringCmd(); // size[0]
+	void GetNetworkID(); // size[0]
+	void SetMaxRoutablePayloadSize(); // size[0]
+	void GetMaxAckTickCount(); // size[0]
+	void ProcessCmdKeyValues(); // size[0]
+	void ClientPrintf(); // size[0]
+	void GetUserSetting(); // size[0]
+	void ProcessListenEvents(); // size[0]
+	void ExecuteStringCommand(); // size[0]
+	void ConnectionStart(); // size[0]
+	void ProcessBaselineAck(); // size[0]
+	void ProcessClientInfo(); // size[0]
+	void ProcessSignonState(); // size[0]
+	CBaseClient(); // size[0]
+	void StartTrace(); // size[0]
+	void SendOnFullUpdateRequestedEvent(); // size[0]
+	void CheckFlushNameChange(); // size[0]
+	void ClientRequestNameChange(); // size[0]
+	void ProcessSetConVar(); // size[0]
+	void OnRequestFullUpdate(); // size[0]
+	void GetNetworkIDString(); // size[0]
+	void SetSteamID(); // size[0]
+	void OnSignonStateFull(); // size[0]
+	void SetSignOnState(); // size[0]
+	void Reconnect(); // size[0]
+	void Connect(); // size[0]
+	void Disconnect(); // size[0]
+	void Clear(); // size[0]
+	void Inactivate(); // size[0]
+	void EndTrace(); // size[0]
+	~CBaseClient(); // size[0]
+	~CBaseClient(); // size[0]
+	~CBaseClient(); // size[0]
+	~CBaseClient(); // size[0]
+	void TraceNetworkData(); // size[0]
+	void TraceNetworkMsg(); // size[0]
+	void SendNetMsg(); // size[0]
+	void GetPlayerSlot(); // size[0]
+	void GetUserID(); // size[0]
+	void GetClientName(); // size[0]
+	void GetNetChannel(); // size[0]
+	void GetServer(); // size[0]
+	void IsConnected(); // size[0]
+	void IsSpawned(); // size[0]
+	void IsActive(); // size[0]
+	void IsFakeClient(); // size[0]
+	void IsHLTV(); // size[0]
+	void IsHearingClient(); // size[0]
+	void IsProximityHearingClient(); // size[0]
 };

@@ -3,13 +3,16 @@
 class CAI_BaseNPCFlyerNew : public CAI_BaseNPC
 {
 public:
-	virtual void ~CAI_BaseNPCFlyerNew() override; // vtable[0]
-	virtual void ~CAI_BaseNPCFlyerNew() override; // vtable[1]
+	virtual ~CAI_BaseNPCFlyerNew() override; // vtable[0]
+	virtual ~CAI_BaseNPCFlyerNew() override; // vtable[1]
+	virtual void GetIdealSpeed() override; // vtable[246]
+	virtual void StartTask() override; // vtable[410]
+	virtual void RunTask() override; // vtable[411]
 	virtual void MinGroundDist(); // vtable[652]
 	virtual void AbortedMovement(); // vtable[653]
 
-	void _GLOBAL__sub_I_CAI_BaseNPCFlyerNew();
-	void CAI_BaseNPCFlyerNew();
-	void SpawnFlyer();
-	void ClearFlyerConditions();
+	_GLOBAL__sub_I_CAI_BaseNPCFlyerNew(); // size[0]
+	CAI_BaseNPCFlyerNew(); // size[0]
+	void SpawnFlyer(); // size[0]
+	void ClearFlyerConditions(); // size[0]
 };

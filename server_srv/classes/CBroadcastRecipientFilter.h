@@ -3,6 +3,6 @@
 class CBroadcastRecipientFilter : public CRecipientFilter
 {
 public:
-	virtual void ~CBroadcastRecipientFilter() override; // vtable[0]
-	virtual void ~CBroadcastRecipientFilter() override; // vtable[1]
+	virtual ~CBroadcastRecipientFilter() override; // vtable[0]
+	virtual ~CBroadcastRecipientFilter() override; // vtable[1]
 };

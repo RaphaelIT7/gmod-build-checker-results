@@ -3,8 +3,8 @@
 class CGib : public CBaseAnimating, public CDefaultPlayerPickupVPhysics
 {
 public:
-	virtual void ~CGib() override; // vtable[0]
-	virtual void ~CGib() override; // vtable[1]
+	virtual ~CGib() override; // vtable[0]
+	virtual ~CGib() override; // vtable[1]
 	virtual void SetRefEHandle() override; // vtable[2]
 	virtual void GetRefEHandle() override; // vtable[3]
 	virtual void GetCollideable() override; // vtable[4]
@@ -13,26 +13,32 @@ public:
 	virtual void GetModelIndex() override; // vtable[7]
 	virtual void GetModelName() override; // vtable[8]
 	virtual void SetModelIndex() override; // vtable[9]
+	virtual void GetDataDescMap() override; // vtable[12]
+	virtual void ObjectCaps() override; // vtable[36]
+	virtual void Use() override; // vtable[100]
+	virtual void SUB_AllowedToFade() override; // vtable[110]
+	virtual void HasPhysicsAttacker() override; // vtable[173]
+	virtual void SetPhysicsAttacker() override; // vtable[236]
 	virtual void OnPhysGunPickup(); // vtable[282]
 	virtual void OnPhysGunDrop(); // vtable[283]
 
-	void _GLOBAL__sub_I_m_DataMap();
-	void OnPhysGunPickup();
-	void OnPhysGunDrop();
-	void DieThink();
-	void BounceGibTouch();
-	void StickyGibTouch();
-	void WaitTillLand();
-	void GetBaseMap();
-	void LimitVelocity();
-	void SetBloodColor();
-	void AdjustVelocityBasedOnHealth();
-	void InitGib();
-	void SetLifeTime();
-	void Spawn();
-	void SpawnStickyGibs();
-	void SpawnHeadGib();
-	void SpawnSpecificGibs();
-	void SpawnRandomGibs();
-	void Spawn();
+	void _GLOBAL__sub_I_m_DataMap(); // size[0]
+	void OnPhysGunPickup(); // size[0]
+	void OnPhysGunDrop(); // size[0]
+	void DieThink(); // size[0]
+	void BounceGibTouch(); // size[0]
+	void StickyGibTouch(); // size[0]
+	void WaitTillLand(); // size[0]
+	void GetBaseMap(); // size[0]
+	void LimitVelocity(); // size[0]
+	void SetBloodColor(); // size[0]
+	void AdjustVelocityBasedOnHealth(); // size[0]
+	void InitGib(); // size[0]
+	void SetLifeTime(); // size[0]
+	void Spawn(); // size[0]
+	void SpawnStickyGibs(); // size[0]
+	void SpawnHeadGib(); // size[0]
+	void SpawnSpecificGibs(); // size[0]
+	void SpawnRandomGibs(); // size[0]
+	void Spawn(); // size[0]
 };

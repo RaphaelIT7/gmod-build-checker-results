@@ -3,6 +3,6 @@
 class IBaseInterface
 {
 public:
-	virtual void ~IBaseInterface(); // vtable[0]
-	virtual void ~IBaseInterface(); // vtable[1]
+	virtual ~IBaseInterface(); // vtable[0]
+	virtual ~IBaseInterface(); // vtable[1]
 };

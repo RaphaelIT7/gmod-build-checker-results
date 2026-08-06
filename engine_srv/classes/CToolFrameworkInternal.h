@@ -56,13 +56,13 @@ public:
 	virtual void SetupEngineView(); // vtable[50]
 	virtual void SetupAudioState(); // vtable[51]
 
-	void InvokeMethod();
-	void InvokeMethodInt();
-	void ShutdownModules();
-	void ShutdownToolDictionaries();
-	void ShutdownTools();
-	void GetEntityData();
-	void LoadToolsFromLibrary();
-	void LoadTools();
-	void ~CToolFrameworkInternal();
+	void InvokeMethod(); // size[0]
+	void InvokeMethodInt(); // size[0]
+	void ShutdownModules(); // size[0]
+	void ShutdownToolDictionaries(); // size[0]
+	void ShutdownTools(); // size[0]
+	void GetEntityData(); // size[0]
+	void LoadToolsFromLibrary(); // size[0]
+	void LoadTools(); // size[0]
+	~CToolFrameworkInternal(); // size[0]
 };

@@ -21,15 +21,15 @@ public:
 	virtual void AllocateRenderContext(); // vtable[15]
 	virtual void FreeRenderContext() override; // vtable[16]
 
-	void CMorphMgr();
-	void ComputeWeightSubrect();
-	void ComputeAccumulatorSubrect();
-	void GetAccumulatorSubrectDimensions();
-	void GetAccumulator4TupleCount();
-	void RegisterMorphSizeInBytes();
-	void GetTotalMemoryUsage();
-	void Display32FTextureData();
-	void DebugMorphAccumulator();
-	void DebugMorphWeights();
-	void DrawMorphTempTexture();
+	CMorphMgr(); // size[0]
+	void ComputeWeightSubrect(); // size[0]
+	void ComputeAccumulatorSubrect(); // size[0]
+	void GetAccumulatorSubrectDimensions(); // size[0]
+	void GetAccumulator4TupleCount(); // size[0]
+	void RegisterMorphSizeInBytes(); // size[0]
+	void GetTotalMemoryUsage(); // size[0]
+	void Display32FTextureData(); // size[0]
+	void DebugMorphAccumulator(); // size[0]
+	void DebugMorphWeights(); // size[0]
+	void DrawMorphTempTexture(); // size[0]
 };

@@ -3,8 +3,29 @@
 class CBaseAnimating : public CBaseEntity
 {
 public:
-	virtual void ~CBaseAnimating() override; // vtable[0]
-	virtual void ~CBaseAnimating() override; // vtable[1]
+	virtual ~CBaseAnimating() override; // vtable[0]
+	virtual ~CBaseAnimating() override; // vtable[1]
+	virtual void GetServerClass() override; // vtable[10]
+	virtual void YouForgotToImplementOrDeclareServerClass() override; // vtable[11]
+	virtual void GetDataDescMap() override; // vtable[12]
+	virtual void TestCollision() override; // vtable[14]
+	virtual void TestHitboxes() override; // vtable[15]
+	virtual void SetTransmit() override; // vtable[21]
+	virtual void Spawn() override; // vtable[23]
+	virtual void Precache() override; // vtable[24]
+	virtual void SetModel() override; // vtable[25]
+	virtual void OnNewModel() override; // vtable[26]
+	virtual void Activate() override; // vtable[34]
+	virtual void GetInputDispatchEffectPosition() override; // vtable[38]
+	virtual void DrawDebugTextOverlays() override; // vtable[40]
+	virtual void Restore() override; // vtable[42]
+	virtual void OnRestore() override; // vtable[45]
+	virtual void GetBaseAnimating() override; // vtable[51]
+	virtual void Teleport() override; // vtable[111]
+	virtual void ModifyOrAppendCriteria() override; // vtable[121]
+	virtual void GetVelocity() override; // vtable[143]
+	virtual void GetStepOrigin() override; // vtable[177]
+	virtual void GetStepAngles() override; // vtable[178]
 	virtual void GetIdealSpeed(); // vtable[246]
 	virtual void GetIdealAccel(); // vtable[247]
 	virtual void StudioFrameAdvance(); // vtable[248]
@@ -42,129 +63,129 @@ public:
 	virtual void GetAnimStateRenderAngles(); // vtable[280]
 	virtual void SetAnimStateRenderAngles(); // vtable[281]
 
-	void TransferDissolveFrom();
-	void InputIgnite();
-	void InputIgniteLifetime();
-	void InputIgniteNumHitboxFires();
-	void InputIgniteHitboxFireScale();
-	void InputBecomeRagdoll();
-	void UpdateModelScale();
-	void GetBaseMap();
-	void UseClientSideAnimation();
-	void GetAnimTimeInterval();
-	void InvalidateBoneCacheIfOlderThan();
-	void SetLightingOriginRelative();
-	void InputSetLightingOriginRelative();
-	void SetLightingOrigin();
-	void InputSetLightingOrigin();
-	void GetSequenceMoveDist();
-	void SequenceDuration();
-	void GetSequenceCycleRate();
-	void SetPoseParameter();
-	void LookupPoseParameter();
-	void SetPoseParameter();
-	void GetBoneScale();
-	void SetIKGroundContactInfo();
-	void InitStepHeightAdjust();
-	void CBaseAnimating();
-	void UpdateStepOrigin();
-	void GetAttachment();
-	void GetAttachment();
-	void GetAttachmentLocal();
-	void GetAttachmentLocal();
-	void RegisterPrivateActivity();
-	void ReportMissingActivity();
-	void LockStudioHdr();
-	void GetEyeballs();
-	void GetNumFlexControllers();
-	void GetNumBones();
-	void ResetEventIndexes();
-	void ResetActivityIndexes();
-	void IsValidSequence();
-	void GetEntryNode();
-	void GetExitNode();
-	void SelectHeaviestSequence();
-	void LookupActivity();
-	void LookupSequence();
-	void LookupAttachment();
-	void GetAttachment();
-	void GetAttachment();
-	void GetAttachmentLocal();
-	void SelectWeightedSequence();
-	void GetSequenceLinearMotion();
-	void SelectWeightedSequence();
-	void GetSequenceVelocity();
-	void LookupBone();
-	void GetFlexControllerType();
-	void GetMovementFrame();
-	void GetFlexDescFacs();
-	void GetFlexControllerName();
-	void GetSequenceMovement();
-	void GetBonePosition();
-	void GetPoseParameterRange();
-	void FindBodygroupByName();
-	void GetAttachmentBone();
-	void GetPoseParameter();
-	void GotoSequence();
-	void EdgeLimitPoseParameter();
-	void HasMovement();
-	void GetExitVelocity();
-	void GetNumBodyGroups();
-	void HasPoseParameter();
-	void HasPoseParameter();
-	void GetPoseParameter();
-	void GetBodygroupCount();
-	void GetBodygroupName();
-	void ExtractBbox();
-	void SetSequenceBox();
-	void GetBodygroup();
-	void GetSequenceActivityName();
-	void GetSequenceName();
-	void GetSequenceMoveYaw();
-	void SetBodygroup();
-	void GetInstantaneousVelocity();
-	void GetSequenceKeyValues();
-	void GetLastVisibleCycle();
-	void StudioFrameAdvanceInternal();
-	void StudioFrameAdvanceManual();
-	void GetIntervalMovement();
-	void ResetSequenceInfo();
-	void FindTransitionSequence();
-	void HasAnimEvent();
-	void BuildMatricesWithBoneMerge();
-	void ResetPoseParameters();
-	void GetBoneCache();
-	void InvalidateBoneCache();
-	void SetBoneController();
-	void GetBoneController();
-	void ResetClientsideFrame();
-	void SetHitboxSet();
-	void SetHitboxSetByName();
-	void GetHitboxSet();
-	void GetHitboxSetName();
-	void GetHitboxSetCount();
-	void DrawServerHitboxes();
-	void DrawRawSkeleton();
-	void GetHitboxBone();
-	void ComputeHitboxSurroundingBox();
-	void ComputeEntitySpaceHitboxSurroundingBox();
-	void GetPhysicsBone();
-	void LookupHitbox();
-	void CopyAnimationDataFrom();
-	void GetHitboxesFrontside();
-	void EnableServerIK();
-	void GetSequenceActivity();
-	void DoMuzzleFlash();
-	void SetModelScale();
-	void InputSetModelScale();
-	void Dissolve();
-	void Scorch();
-	void ResetSequence();
-	void SetFadeDistance();
-	void PrefetchSequence();
-	void IsSequenceLooping();
-	void DisableServerIK();
-	void UnlockStudioHdr();
-	void GetModelPtr();
-	void SetPoseParameter();
+	void TransferDissolveFrom(); // size[0]
+	void InputIgnite(); // size[0]
+	void InputIgniteLifetime(); // size[0]
+	void InputIgniteNumHitboxFires(); // size[0]
+	void InputIgniteHitboxFireScale(); // size[0]
+	void InputBecomeRagdoll(); // size[0]
+	void UpdateModelScale(); // size[0]
+	void GetBaseMap(); // size[0]
+	void UseClientSideAnimation(); // size[0]
+	void GetAnimTimeInterval(); // size[0]
+	void InvalidateBoneCacheIfOlderThan(); // size[0]
+	void SetLightingOriginRelative(); // size[0]
+	void InputSetLightingOriginRelative(); // size[0]
+	void SetLightingOrigin(); // size[0]
+	void InputSetLightingOrigin(); // size[0]
+	void GetSequenceMoveDist(); // size[0]
+	void SequenceDuration(); // size[0]
+	void GetSequenceCycleRate(); // size[0]
+	void SetPoseParameter(); // size[0]
+	void LookupPoseParameter(); // size[0]
+	void SetPoseParameter(); // size[0]
+	void GetBoneScale(); // size[0]
+	void SetIKGroundContactInfo(); // size[0]
+	void InitStepHeightAdjust(); // size[0]
+	CBaseAnimating(); // size[0]
+	void UpdateStepOrigin(); // size[0]
+	void GetAttachment(); // size[0]
+	void GetAttachment(); // size[0]
+	void GetAttachmentLocal(); // size[0]
+	void GetAttachmentLocal(); // size[0]
+	void RegisterPrivateActivity(); // size[0]
+	void ReportMissingActivity(); // size[0]
+	void LockStudioHdr(); // size[0]
+	void GetEyeballs(); // size[0]
+	void GetNumFlexControllers(); // size[0]
+	void GetNumBones(); // size[0]
+	void ResetEventIndexes(); // size[0]
+	void ResetActivityIndexes(); // size[0]
+	void IsValidSequence(); // size[0]
+	void GetEntryNode(); // size[0]
+	void GetExitNode(); // size[0]
+	void SelectHeaviestSequence(); // size[0]
+	void LookupActivity(); // size[0]
+	void LookupSequence(); // size[0]
+	void LookupAttachment(); // size[0]
+	void GetAttachment(); // size[0]
+	void GetAttachment(); // size[0]
+	void GetAttachmentLocal(); // size[0]
+	void SelectWeightedSequence(); // size[0]
+	void GetSequenceLinearMotion(); // size[0]
+	void SelectWeightedSequence(); // size[0]
+	void GetSequenceVelocity(); // size[0]
+	void LookupBone(); // size[0]
+	void GetFlexControllerType(); // size[0]
+	void GetMovementFrame(); // size[0]
+	void GetFlexDescFacs(); // size[0]
+	void GetFlexControllerName(); // size[0]
+	void GetSequenceMovement(); // size[0]
+	void GetBonePosition(); // size[0]
+	void GetPoseParameterRange(); // size[0]
+	void FindBodygroupByName(); // size[0]
+	void GetAttachmentBone(); // size[0]
+	void GetPoseParameter(); // size[0]
+	void GotoSequence(); // size[0]
+	void EdgeLimitPoseParameter(); // size[0]
+	void HasMovement(); // size[0]
+	void GetExitVelocity(); // size[0]
+	void GetNumBodyGroups(); // size[0]
+	void HasPoseParameter(); // size[0]
+	void HasPoseParameter(); // size[0]
+	void GetPoseParameter(); // size[0]
+	void GetBodygroupCount(); // size[0]
+	void GetBodygroupName(); // size[0]
+	void ExtractBbox(); // size[0]
+	void SetSequenceBox(); // size[0]
+	void GetBodygroup(); // size[0]
+	void GetSequenceActivityName(); // size[0]
+	void GetSequenceName(); // size[0]
+	void GetSequenceMoveYaw(); // size[0]
+	void SetBodygroup(); // size[0]
+	void GetInstantaneousVelocity(); // size[0]
+	void GetSequenceKeyValues(); // size[0]
+	void GetLastVisibleCycle(); // size[0]
+	void StudioFrameAdvanceInternal(); // size[0]
+	void StudioFrameAdvanceManual(); // size[0]
+	void GetIntervalMovement(); // size[0]
+	void ResetSequenceInfo(); // size[0]
+	void FindTransitionSequence(); // size[0]
+	void HasAnimEvent(); // size[0]
+	void BuildMatricesWithBoneMerge(); // size[0]
+	void ResetPoseParameters(); // size[0]
+	void GetBoneCache(); // size[0]
+	void InvalidateBoneCache(); // size[0]
+	void SetBoneController(); // size[0]
+	void GetBoneController(); // size[0]
+	void ResetClientsideFrame(); // size[0]
+	void SetHitboxSet(); // size[0]
+	void SetHitboxSetByName(); // size[0]
+	void GetHitboxSet(); // size[0]
+	void GetHitboxSetName(); // size[0]
+	void GetHitboxSetCount(); // size[0]
+	void DrawServerHitboxes(); // size[0]
+	void DrawRawSkeleton(); // size[0]
+	void GetHitboxBone(); // size[0]
+	void ComputeHitboxSurroundingBox(); // size[0]
+	void ComputeEntitySpaceHitboxSurroundingBox(); // size[0]
+	void GetPhysicsBone(); // size[0]
+	void LookupHitbox(); // size[0]
+	void CopyAnimationDataFrom(); // size[0]
+	void GetHitboxesFrontside(); // size[0]
+	void EnableServerIK(); // size[0]
+	void GetSequenceActivity(); // size[0]
+	void DoMuzzleFlash(); // size[0]
+	void SetModelScale(); // size[0]
+	void InputSetModelScale(); // size[0]
+	void Dissolve(); // size[0]
+	void Scorch(); // size[0]
+	void ResetSequence(); // size[0]
+	void SetFadeDistance(); // size[0]
+	void PrefetchSequence(); // size[0]
+	void IsSequenceLooping(); // size[0]
+	void DisableServerIK(); // size[0]
+	void UnlockStudioHdr(); // size[0]
+	void GetModelPtr(); // size[0]
+	void SetPoseParameter(); // size[0]
 };

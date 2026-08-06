@@ -3,13 +3,15 @@
 class CAI_AllyManager : public CBaseEntity
 {
 public:
-	virtual void ~CAI_AllyManager() override; // vtable[0]
-	virtual void ~CAI_AllyManager() override; // vtable[1]
+	virtual ~CAI_AllyManager() override; // vtable[0]
+	virtual ~CAI_AllyManager() override; // vtable[1]
+	virtual void GetDataDescMap() override; // vtable[12]
+	virtual void Spawn() override; // vtable[23]
 
-	void InputSetMaxAllies();
-	void InputSetMaxMedics();
-	void GetBaseMap();
-	void CountAllies();
-	void WatchCounts();
-	void InputReplenish();
+	void InputSetMaxAllies(); // size[0]
+	void InputSetMaxMedics(); // size[0]
+	void GetBaseMap(); // size[0]
+	void CountAllies(); // size[0]
+	void WatchCounts(); // size[0]
+	void InputReplenish(); // size[0]
 };

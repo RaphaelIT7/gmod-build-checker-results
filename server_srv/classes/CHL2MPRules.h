@@ -3,17 +3,40 @@
 class CHL2MPRules : public CTeamplayRules
 {
 public:
-	virtual void ~CHL2MPRules() override; // vtable[13]
-	virtual void ~CHL2MPRules() override; // vtable[14]
+	virtual ~CHL2MPRules() override; // vtable[13]
+	virtual ~CHL2MPRules() override; // vtable[14]
+	virtual void ShouldCollide() override; // vtable[31]
 	virtual void GetViewVectors() override; // vtable[33]
+	virtual void GetEncryptionKey() override; // vtable[37]
+	virtual void Precache() override; // vtable[44]
+	virtual void Think() override; // vtable[46]
+	virtual void FShouldSwitchWeapon() override; // vtable[54]
+	virtual void IsTeamplay() override; // vtable[56]
+	virtual void GetGameDescription() override; // vtable[58]
+	virtual void ClientDisconnected() override; // vtable[61]
+	virtual void ClientCommand() override; // vtable[78]
+	virtual void PlayerKilled() override; // vtable[81]
+	virtual void DeathNotice() override; // vtable[82]
+	virtual void CanHavePlayerItem() override; // vtable[86]
+	virtual void WeaponShouldRespawn() override; // vtable[87]
+	virtual void FlWeaponRespawnTime() override; // vtable[88]
+	virtual void FlWeaponTryRespawn() override; // vtable[89]
+	virtual void VecWeaponRespawnSpot() override; // vtable[90]
+	virtual void FlItemRespawnTime() override; // vtable[94]
+	virtual void VecItemRespawnSpot() override; // vtable[95]
+	virtual void VecItemRespawnAngles() override; // vtable[96]
+	virtual void PlayerRelationship() override; // vtable[108]
+	virtual void CreateStandardEntities() override; // vtable[122]
+	virtual void GetChatFormat() override; // vtable[125]
+	virtual void GoToIntermission() override; // vtable[148]
 
-	void GetHL2MPViewVectors();
-	void IsIntermission();
-	void CheckGameOver();
-	void RestartGame();
-	void CleanUpMap();
-	void CheckChatForReadySignal();
-	void CheckRestartGame();
-	void CheckAllPlayersReady();
-	void CHL2MPRules();
+	void GetHL2MPViewVectors(); // size[0]
+	void IsIntermission(); // size[0]
+	void CheckGameOver(); // size[0]
+	void RestartGame(); // size[0]
+	void CleanUpMap(); // size[0]
+	void CheckChatForReadySignal(); // size[0]
+	void CheckRestartGame(); // size[0]
+	void CheckAllPlayersReady(); // size[0]
+	CHL2MPRules(); // size[0]
 };

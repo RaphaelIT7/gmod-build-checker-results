@@ -3,9 +3,10 @@
 class CFileAsyncFileSizeJob : public CFileAsyncReadJob
 {
 public:
-	virtual void ~CFileAsyncFileSizeJob() override; // vtable[2]
-	virtual void ~CFileAsyncFileSizeJob() override; // vtable[3]
+	virtual ~CFileAsyncFileSizeJob() override; // vtable[2]
+	virtual ~CFileAsyncFileSizeJob() override; // vtable[3]
+	virtual void DoExecute() override; // vtable[6]
 
-	void ~CFileAsyncFileSizeJob();
-	void ~CFileAsyncFileSizeJob();
+	~CFileAsyncFileSizeJob(); // size[0]
+	~CFileAsyncFileSizeJob(); // size[0]
 };

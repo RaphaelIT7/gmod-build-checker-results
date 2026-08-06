@@ -3,12 +3,13 @@
 class CBugBaitSensor : public CPointEntity
 {
 public:
-	virtual void ~CBugBaitSensor() override; // vtable[0]
-	virtual void ~CBugBaitSensor() override; // vtable[1]
+	virtual ~CBugBaitSensor() override; // vtable[0]
+	virtual ~CBugBaitSensor() override; // vtable[1]
+	virtual void GetDataDescMap() override; // vtable[12]
 
-	void CBugBaitSensor();
-	void GetBaseMap();
-	void InputEnable();
-	void InputDisable();
-	void InputToggle();
+	CBugBaitSensor(); // size[0]
+	void GetBaseMap(); // size[0]
+	void InputEnable(); // size[0]
+	void InputDisable(); // size[0]
+	void InputToggle(); // size[0]
 };

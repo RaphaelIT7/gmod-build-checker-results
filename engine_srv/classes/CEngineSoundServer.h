@@ -26,9 +26,9 @@ public:
 	virtual void NotifyEndMoviePlayback(); // vtable[20]
 	virtual void RegisterSound(); // vtable[21]
 	virtual void IsSoundRegistered() override; // vtable[22]
-	virtual void ~CEngineSoundServer(); // vtable[23]
-	virtual void ~CEngineSoundServer(); // vtable[24]
+	virtual ~CEngineSoundServer(); // vtable[23]
+	virtual ~CEngineSoundServer(); // vtable[24]
 
-	void CEngineSoundServer();
-	void EmitSoundInternal();
+	CEngineSoundServer(); // size[0]
+	void EmitSoundInternal(); // size[0]
 };

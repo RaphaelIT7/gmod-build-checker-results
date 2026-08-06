@@ -3,8 +3,10 @@
 class CMultiplayRules : public CGameRules
 {
 public:
-	virtual void ~CMultiplayRules() override; // vtable[13]
-	virtual void ~CMultiplayRules() override; // vtable[14]
+	virtual void Init() override; // vtable[1]
+	virtual ~CMultiplayRules() override; // vtable[13]
+	virtual ~CMultiplayRules() override; // vtable[14]
+	virtual void FrameUpdatePostEntityThink() override; // vtable[16]
 	virtual void Damage_IsTimeBased(); // vtable[19]
 	virtual void Damage_ShouldGibCorpse(); // vtable[20]
 	virtual void Damage_ShowOnHUD(); // vtable[21]
@@ -15,7 +17,12 @@ public:
 	virtual void Damage_GetShowOnHud(); // vtable[26]
 	virtual void Damage_GetNoPhysicsForce(); // vtable[27]
 	virtual void Damage_GetShouldNotBleed(); // vtable[28]
+	virtual void SwitchToNextBestWeapon() override; // vtable[29]
+	virtual void GetNextBestWeapon() override; // vtable[30]
 	virtual void IsMultiplayer(); // vtable[36]
+	virtual void ClientCommandKeyValues() override; // vtable[40]
+	virtual void GetTaggedConVarList() override; // vtable[41]
+	virtual void RefreshSkillData() override; // vtable[45]
 	virtual void Think(); // vtable[46]
 	virtual void IsAllowedToSpawn(); // vtable[47]
 	virtual void FAllowFlashlight(); // vtable[53]
@@ -26,11 +33,16 @@ public:
 	virtual void InitHUD(); // vtable[60]
 	virtual void ClientDisconnected(); // vtable[61]
 	virtual void FlPlayerFallDamage(); // vtable[62]
+	virtual void FPlayerCanTakeDamage() override; // vtable[63]
 	virtual void AllowDamage(); // vtable[70]
 	virtual void PlayerSpawn(); // vtable[71]
 	virtual void PlayerThink(); // vtable[72]
 	virtual void FPlayerCanRespawn(); // vtable[73]
 	virtual void FlPlayerSpawnTime(); // vtable[74]
+	virtual void GetPlayerSpawnSpot() override; // vtable[75]
+	virtual void AllowAutoTargetCrosshair() override; // vtable[77]
+	virtual void ClientCommand() override; // vtable[78]
+	virtual void ClientSettingsChanged() override; // vtable[79]
 	virtual void IPointsForKill(); // vtable[80]
 	virtual void PlayerKilled(); // vtable[81]
 	virtual void DeathNotice(); // vtable[82]
@@ -47,12 +59,18 @@ public:
 	virtual void VecItemRespawnAngles(); // vtable[96]
 	virtual void PlayerGotAmmo(); // vtable[99]
 	virtual void FlHealthChargerRechargeTime(); // vtable[103]
+	virtual void FlHEVChargerRechargeTime() override; // vtable[104]
 	virtual void DeadPlayerWeapons(); // vtable[105]
 	virtual void DeadPlayerAmmo(); // vtable[106]
 	virtual void GetTeamID(); // vtable[107]
 	virtual void PlayerRelationship(); // vtable[108]
 	virtual void PlayerCanHearChat(); // vtable[109]
+	virtual void PlayTextureSounds() override; // vtable[117]
+	virtual void PlayFootstepSounds() override; // vtable[118]
 	virtual void FAllowNPCs() override; // vtable[119]
+	virtual void EndMultiplayerGame() override; // vtable[120]
+	virtual void ResetMapCycleTimeStamp() override; // vtable[130]
+	virtual void ShouldDrawHeadLabels() override; // vtable[136]
 	virtual void GetDeathScorer(); // vtable[140]
 	virtual void VoiceCommand(); // vtable[141]
 	virtual void HandleTimeLimitChange(); // vtable[142]
@@ -63,17 +81,17 @@ public:
 	virtual void ChangeLevel(); // vtable[147]
 	virtual void GoToIntermission(); // vtable[148]
 
-	void GetDeathScorer();
-	void FreeMapCycleFileVector();
-	void IsMapInMapCycle();
-	void ChangeLevelToMap();
-	void SkipNextMapInCycle();
-	void IncrementMapCycleIndex();
-	void IsLoadingBugBaitReport();
-	void HaveAllPlayersSpeakConceptIfAllowed();
-	void LoapMapCycleFileIntoVector();
-	void DetermineMapCycleFilename();
-	void LoadMapCycleFile();
-	void LoadVoiceCommandScript();
-	void CMultiplayRules();
+	void GetDeathScorer(); // size[0]
+	void FreeMapCycleFileVector(); // size[0]
+	void IsMapInMapCycle(); // size[0]
+	void ChangeLevelToMap(); // size[0]
+	void SkipNextMapInCycle(); // size[0]
+	void IncrementMapCycleIndex(); // size[0]
+	void IsLoadingBugBaitReport(); // size[0]
+	void HaveAllPlayersSpeakConceptIfAllowed(); // size[0]
+	void LoapMapCycleFileIntoVector(); // size[0]
+	void DetermineMapCycleFilename(); // size[0]
+	void LoadMapCycleFile(); // size[0]
+	void LoadVoiceCommandScript(); // size[0]
+	CMultiplayRules(); // size[0]
 };

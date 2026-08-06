@@ -3,19 +3,52 @@
 class CNPC_HGrunt : public CHL1BaseNPC
 {
 public:
-	virtual void ~CNPC_HGrunt() override; // vtable[0]
-	virtual void ~CNPC_HGrunt() override; // vtable[1]
+	virtual ~CNPC_HGrunt() override; // vtable[0]
+	virtual ~CNPC_HGrunt() override; // vtable[1]
+	virtual void GetDataDescMap() override; // vtable[12]
+	virtual void Spawn() override; // vtable[23]
+	virtual void Precache() override; // vtable[24]
+	virtual void Classify() override; // vtable[55]
+	virtual void TraceAttack() override; // vtable[62]
+	virtual void Event_Killed() override; // vtable[68]
+	virtual void HandleAnimEvent() override; // vtable[261]
+	virtual void HandleInteraction() override; // vtable[298]
+	virtual void NPC_TranslateActivity() override; // vtable[322]
+	virtual void Weapon_ShootPosition() override; // vtable[331]
 	virtual void _ZN11CNPC_HGrunt18OnTakeDamage_AliveERK15CTakeDamageInfo() override; // vtable[338]
+	virtual void IRelationPriority() override; // vtable[365]
+	virtual void StartNPC() override; // vtable[390]
+	virtual void PrescheduleThink() override; // vtable[403]
+	virtual void SelectSchedule() override; // vtable[407]
+	virtual void TranslateSchedule() override; // vtable[409]
+	virtual void StartTask() override; // vtable[410]
+	virtual void RunTask() override; // vtable[411]
+	virtual void GetSchedulingErrorName() override; // vtable[432]
+	virtual void LoadedSchedules() override; // vtable[433]
+	virtual void GetSoundInterests() override; // vtable[467]
+	virtual void DeathSound() override; // vtable[507]
+	virtual void IdleSound() override; // vtable[509]
+	virtual void PainSound() override; // vtable[510]
+	virtual void MaxYawSpeed() override; // vtable[529]
+	virtual void SetAim() override; // vtable[563]
+	virtual void SquadSlotName() override; // vtable[581]
+	virtual void RangeAttack1Conditions() override; // vtable[595]
+	virtual void RangeAttack2Conditions() override; // vtable[596]
+	virtual void MeleeAttack1Conditions() override; // vtable[597]
+	virtual void ClearAttackConditions() override; // vtable[605]
+	virtual void FCanCheckAttacks() override; // vtable[615]
+	virtual void CheckAmmo() override; // vtable[616]
+	virtual void GetClassScheduleIdSpace() override; // vtable[640]
 
-	void GetBaseMap();
-	void FOkToSpeak();
-	void JustSpoke();
-	void SpeakSentence();
-	void SquadRecruit();
-	void GetGrenadeConditions();
-	void Kick();
-	void Shoot();
-	void Shotgun();
-	void LoadSchedules();
-	void CScheduleLoader();
+	void GetBaseMap(); // size[0]
+	void FOkToSpeak(); // size[0]
+	void JustSpoke(); // size[0]
+	void SpeakSentence(); // size[0]
+	void SquadRecruit(); // size[0]
+	void GetGrenadeConditions(); // size[0]
+	void Kick(); // size[0]
+	void Shoot(); // size[0]
+	void Shotgun(); // size[0]
+	void LoadSchedules(); // size[0]
+	CScheduleLoader(); // size[0]
 };

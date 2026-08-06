@@ -9,7 +9,7 @@ public:
 	virtual void MakeEmpty(); // vtable[3]
 	virtual void Parse(); // vtable[4]
 
-	void CVPhysPtrSaveRestoreOps();
-	void PreRestore();
-	void PostRestore();
+	CVPhysPtrSaveRestoreOps(); // size[0]
+	void PreRestore(); // size[0]
+	void PostRestore(); // size[0]
 };

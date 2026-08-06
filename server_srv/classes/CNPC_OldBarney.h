@@ -3,17 +3,43 @@
 class CNPC_OldBarney : public CHL1NPCTalker
 {
 public:
-	virtual void ~CNPC_OldBarney() override; // vtable[0]
-	virtual void ~CNPC_OldBarney() override; // vtable[1]
+	virtual ~CNPC_OldBarney() override; // vtable[0]
+	virtual ~CNPC_OldBarney() override; // vtable[1]
+	virtual void GetDataDescMap() override; // vtable[12]
+	virtual void Spawn() override; // vtable[23]
+	virtual void Precache() override; // vtable[24]
+	virtual void Classify() override; // vtable[55]
+	virtual void TraceAttack() override; // vtable[62]
+	virtual void Event_Killed() override; // vtable[68]
+	virtual void ModifyOrAppendCriteria() override; // vtable[121]
+	virtual void CanBecomeRagdoll() override; // vtable[255]
+	virtual void HandleAnimEvent() override; // vtable[261]
+	virtual void OnTakeDamage_Alive() override; // vtable[338]
+	virtual void ShouldGib() override; // vtable[352]
+	virtual void SelectSchedule() override; // vtable[407]
+	virtual void TranslateSchedule() override; // vtable[409]
+	virtual void StartTask() override; // vtable[410]
+	virtual void RunTask() override; // vtable[411]
+	virtual void GetSchedulingErrorName() override; // vtable[432]
+	virtual void LoadedSchedules() override; // vtable[433]
+	virtual void SelectIdealState() override; // vtable[453]
+	virtual void GetSoundInterests() override; // vtable[467]
+	virtual void DeathSound() override; // vtable[507]
+	virtual void AlertSound() override; // vtable[508]
+	virtual void PainSound() override; // vtable[510]
+	virtual void SquadSlotName() override; // vtable[581]
+	virtual void RangeAttack1Conditions() override; // vtable[595]
+	virtual void GetClassScheduleIdSpace() override; // vtable[640]
+	virtual void DeclineFollowing() override; // vtable[728]
 
-	void SUB_LVFadeOut();
-	void GetBaseMap();
-	void TalkInit();
-	void SetYawSpeed();
-	void CheckRangeAttack1();
-	void SUB_StartLVFadeOut();
-	void BarneyFirePistol();
-	void InitCustomSchedules();
-	void LoadSchedules();
-	void CScheduleLoader();
+	void SUB_LVFadeOut(); // size[0]
+	void GetBaseMap(); // size[0]
+	void TalkInit(); // size[0]
+	void SetYawSpeed(); // size[0]
+	void CheckRangeAttack1(); // size[0]
+	void SUB_StartLVFadeOut(); // size[0]
+	void BarneyFirePistol(); // size[0]
+	void InitCustomSchedules(); // size[0]
+	void LoadSchedules(); // size[0]
+	CScheduleLoader(); // size[0]
 };

@@ -16,5 +16,5 @@ public:
 	virtual void RemoveBlockHandler(); // vtable[10]
 	virtual void CallBlockHandlerRestore(); // vtable[11]
 
-	void ~CSaveRestoreBlockSet();
+	~CSaveRestoreBlockSet(); // size[0]
 };

@@ -3,9 +3,10 @@
 class CEnvDustPuff : public CPointEntity
 {
 public:
-	virtual void ~CEnvDustPuff() override; // vtable[0]
-	virtual void ~CEnvDustPuff() override; // vtable[1]
+	virtual ~CEnvDustPuff() override; // vtable[0]
+	virtual ~CEnvDustPuff() override; // vtable[1]
+	virtual void GetDataDescMap() override; // vtable[12]
 
-	void InputSpawnDust();
-	void GetBaseMap();
+	void InputSpawnDust(); // size[0]
+	void GetBaseMap(); // size[0]
 };

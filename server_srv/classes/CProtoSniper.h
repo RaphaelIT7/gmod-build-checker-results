@@ -3,43 +3,77 @@
 class CProtoSniper : public CAI_BaseNPC
 {
 public:
-	virtual void ~CProtoSniper() override; // vtable[0]
-	virtual void ~CProtoSniper() override; // vtable[1]
+	virtual ~CProtoSniper() override; // vtable[0]
+	virtual ~CProtoSniper() override; // vtable[1]
+	virtual void GetDataDescMap() override; // vtable[12]
+	virtual void Spawn() override; // vtable[23]
+	virtual void Precache() override; // vtable[24]
+	virtual void KeyValue() override; // vtable[30]
+	virtual void DrawDebugTextOverlays() override; // vtable[40]
+	virtual void Restore() override; // vtable[42]
+	virtual void Classify() override; // vtable[55]
+	virtual void Event_Killed() override; // vtable[68]
+	virtual void Event_KilledOther() override; // vtable[69]
+	virtual void UpdateOnRemove() override; // vtable[108]
+	virtual void EyePosition() override; // vtable[133]
+	virtual void FVisible() override; // vtable[144]
+	virtual void FInViewCone() override; // vtable[292]
+	virtual void OnTakeDamage_Alive() override; // vtable[338]
+	virtual void IRelationPriority() override; // vtable[365]
+	virtual void PrescheduleThink() override; // vtable[403]
+	virtual void OnScheduleChange() override; // vtable[405]
+	virtual void SelectSchedule() override; // vtable[407]
+	virtual void TranslateSchedule() override; // vtable[409]
+	virtual void StartTask() override; // vtable[410]
+	virtual void RunTask() override; // vtable[411]
+	virtual void GetSchedulingErrorName() override; // vtable[432]
+	virtual void LoadedSchedules() override; // vtable[433]
+	virtual void UpdateEfficiency() override; // vtable[456]
+	virtual void QuerySeeEntity() override; // vtable[462]
+	virtual void OnListened() override; // vtable[464]
+	virtual void ShouldNotDistanceCull() override; // vtable[466]
+	virtual void GetSoundInterests() override; // vtable[467]
+	virtual void MaxYawSpeed() override; // vtable[529]
+	virtual void SquadSlotName() override; // vtable[581]
+	virtual void RangeAttack1Conditions() override; // vtable[595]
+	virtual void WeaponLOSCondition() override; // vtable[609]
+	virtual void FCanCheckAttacks() override; // vtable[615]
+	virtual void GetClassScheduleIdSpace() override; // vtable[640]
 
-	void InputSetDecoyRadius();
-	void InputEnableSniper();
-	void InputDisableSniper();
-	void InputStopSweeping();
-	void InputProtectTarget();
-	void InputSweepGroupRandomly();
-	void GetBaseMap();
-	void LaserOff();
-	void GetPositionParameter();
-	void IsPlayerAllySniper();
-	void SetSweepTarget();
-	void InputSweepTarget();
-	void InputSweepTargetHighestPriority();
-	void ClearTargetGroup();
-	void GetBulletOrigin();
-	void GetPaintAim();
-	void PaintTarget();
-	void LaserOn();
-	void ClearOldDecoys();
-	void HasOldDecoy();
-	void AddOldDecoy();
-	void FindDecoyObject();
-	void ShouldSnapShot();
-	void ScopeGlint();
-	void GetBulletSpeed();
-	void DesiredBodyTarget();
-	void VerifyShot();
-	void LeadTarget();
-	void PickDeadPlayerTarget();
-	void FindFrustratedShot();
-	void NotifyShotMissedTarget();
-	void FireBullet();
-	void InitCustomSchedules();
-	void LoadSchedules();
-	void CScheduleLoader();
-	void CProtoSniper();
+	void InputSetDecoyRadius(); // size[0]
+	void InputEnableSniper(); // size[0]
+	void InputDisableSniper(); // size[0]
+	void InputStopSweeping(); // size[0]
+	void InputProtectTarget(); // size[0]
+	void InputSweepGroupRandomly(); // size[0]
+	void GetBaseMap(); // size[0]
+	void LaserOff(); // size[0]
+	void GetPositionParameter(); // size[0]
+	void IsPlayerAllySniper(); // size[0]
+	void SetSweepTarget(); // size[0]
+	void InputSweepTarget(); // size[0]
+	void InputSweepTargetHighestPriority(); // size[0]
+	void ClearTargetGroup(); // size[0]
+	void GetBulletOrigin(); // size[0]
+	void GetPaintAim(); // size[0]
+	void PaintTarget(); // size[0]
+	void LaserOn(); // size[0]
+	void ClearOldDecoys(); // size[0]
+	void HasOldDecoy(); // size[0]
+	void AddOldDecoy(); // size[0]
+	void FindDecoyObject(); // size[0]
+	void ShouldSnapShot(); // size[0]
+	void ScopeGlint(); // size[0]
+	void GetBulletSpeed(); // size[0]
+	void DesiredBodyTarget(); // size[0]
+	void VerifyShot(); // size[0]
+	void LeadTarget(); // size[0]
+	void PickDeadPlayerTarget(); // size[0]
+	void FindFrustratedShot(); // size[0]
+	void NotifyShotMissedTarget(); // size[0]
+	void FireBullet(); // size[0]
+	void InitCustomSchedules(); // size[0]
+	void LoadSchedules(); // size[0]
+	CScheduleLoader(); // size[0]
+	CProtoSniper(); // size[0]
 };

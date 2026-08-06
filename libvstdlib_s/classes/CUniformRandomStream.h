@@ -9,6 +9,6 @@ public:
 	virtual void RandomChar(); // vtable[3]
 	virtual void RandomFillMemory(); // vtable[4]
 
-	void CUniformRandomStream();
-	void GenerateRandomNumber();
+	CUniformRandomStream(); // size[0]
+	void GenerateRandomNumber(); // size[0]
 };

@@ -3,8 +3,8 @@
 class CRagdollProp : public CBaseAnimating, public CDefaultPlayerPickupVPhysics
 {
 public:
-	virtual void ~CRagdollProp() override; // vtable[0]
-	virtual void ~CRagdollProp() override; // vtable[1]
+	virtual ~CRagdollProp() override; // vtable[0]
+	virtual ~CRagdollProp() override; // vtable[1]
 	virtual void SetRefEHandle() override; // vtable[2]
 	virtual void GetRefEHandle() override; // vtable[3]
 	virtual void GetCollideable() override; // vtable[4]
@@ -13,45 +13,74 @@ public:
 	virtual void GetModelIndex() override; // vtable[7]
 	virtual void GetModelName() override; // vtable[8]
 	virtual void SetModelIndex() override; // vtable[9]
+	virtual void GetServerClass() override; // vtable[10]
+	virtual void YouForgotToImplementOrDeclareServerClass() override; // vtable[11]
+	virtual void GetDataDescMap() override; // vtable[12]
+	virtual void TestCollision() override; // vtable[14]
+	virtual void Spawn() override; // vtable[23]
+	virtual void Precache() override; // vtable[24]
+	virtual void ObjectCaps() override; // vtable[36]
+	virtual void DrawDebugGeometryOverlays() override; // vtable[39]
+	virtual void DrawDebugTextOverlays() override; // vtable[40]
+	virtual void OnSave() override; // vtable[44]
+	virtual void OnRestore() override; // vtable[45]
+	virtual void GetResponseSystem() override; // vtable[53]
+	virtual void TraceAttack() override; // vtable[62]
+	virtual void OnTakeDamage() override; // vtable[64]
+	virtual void IsAlive() override; // vtable[67]
+	virtual void UpdateOnRemove() override; // vtable[108]
+	virtual void Teleport() override; // vtable[111]
+	virtual void ModifyOrAppendCriteria() override; // vtable[121]
+	virtual void VPhysicsDestroyObject() override; // vtable[159]
+	virtual void VPhysicsUpdate() override; // vtable[161]
+	virtual void VPhysicsCollision() override; // vtable[165]
+	virtual void VPhysicsGetObjectList() override; // vtable[170]
+	virtual void HasPhysicsAttacker() override; // vtable[173]
+	virtual void VPhysicsGetElement() override; // vtable[196]
+	virtual void IsARagdoll() override; // vtable[198]
+	virtual void GMOD_ShouldPlayPhysicsSounds() override; // vtable[206]
+	virtual void SetPhysicsAttacker() override; // vtable[236]
+	virtual void IsRagdoll() override; // vtable[254]
+	virtual void SetupBones() override; // vtable[258]
 	virtual void SetDamageEntity(); // vtable[282]
 	virtual void OnPhysGunPickup(); // vtable[283]
 	virtual void OnPhysGunDrop(); // vtable[284]
 	virtual void PhysGunLaunchAngularImpulse(); // vtable[285]
 	virtual void SetBuildRagdollFunction(); // vtable[286]
 
-	void SetDebrisThink();
-	void InputEnableMotion();
-	void InputDisableMotion();
-	void InputTurnOff();
-	void InputStartRadgollBoogie();
-	void ClearFlagsThink();
-	void InputTurnOn();
-	void FadeOutThink();
-	void GetBaseMap();
-	void DisableAutoFade();
-	void SetSourceClassName();
-	void CalcRagdollSize();
-	void CRagdollProp();
-	void InitRagdollAnimation();
-	void HasPhysgunInteraction();
-	void PhysGunLaunchAngularImpulse();
-	void OnPhysGunPickup();
-	void OnPhysGunDrop();
-	void HandleFirstCollisionInteractions();
-	void SetOverlaySequence();
-	void RecheckCollisionFilter();
-	void UpdateNetworkDataFromVPhysics();
-	void IsFading();
-	void FadeOut();
-	void InputFadeAndRemove();
-	void SetUnragdoll();
-	void DisableMotion();
-	void EnableConstraints();
-	void RemoveInternalConstraint();
-	void SolveRagdollBone();
-	void NormalizeRagdoll();
-	void RagdollUpdatePhysics();
-	void ClearBoneControllers();
-	void GetAngleOverrideFromCurrentState();
-	void InitRagdoll();
+	void SetDebrisThink(); // size[0]
+	void InputEnableMotion(); // size[0]
+	void InputDisableMotion(); // size[0]
+	void InputTurnOff(); // size[0]
+	void InputStartRadgollBoogie(); // size[0]
+	void ClearFlagsThink(); // size[0]
+	void InputTurnOn(); // size[0]
+	void FadeOutThink(); // size[0]
+	void GetBaseMap(); // size[0]
+	void DisableAutoFade(); // size[0]
+	void SetSourceClassName(); // size[0]
+	void CalcRagdollSize(); // size[0]
+	CRagdollProp(); // size[0]
+	void InitRagdollAnimation(); // size[0]
+	void HasPhysgunInteraction(); // size[0]
+	void PhysGunLaunchAngularImpulse(); // size[0]
+	void OnPhysGunPickup(); // size[0]
+	void OnPhysGunDrop(); // size[0]
+	void HandleFirstCollisionInteractions(); // size[0]
+	void SetOverlaySequence(); // size[0]
+	void RecheckCollisionFilter(); // size[0]
+	void UpdateNetworkDataFromVPhysics(); // size[0]
+	void IsFading(); // size[0]
+	void FadeOut(); // size[0]
+	void InputFadeAndRemove(); // size[0]
+	void SetUnragdoll(); // size[0]
+	void DisableMotion(); // size[0]
+	void EnableConstraints(); // size[0]
+	void RemoveInternalConstraint(); // size[0]
+	void SolveRagdollBone(); // size[0]
+	void NormalizeRagdoll(); // size[0]
+	void RagdollUpdatePhysics(); // size[0]
+	void ClearBoneControllers(); // size[0]
+	void GetAngleOverrideFromCurrentState(); // size[0]
+	void InitRagdoll(); // size[0]
 };

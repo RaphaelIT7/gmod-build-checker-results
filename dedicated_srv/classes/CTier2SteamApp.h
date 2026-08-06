@@ -3,6 +3,6 @@
 class CTier2SteamApp : public CSteamAppSystemGroup
 {
 public:
-	void PreInit();
-	void PostShutdown();
+	void PreInit(); // size[0]
+	void PostShutdown(); // size[0]
 };

@@ -13,10 +13,10 @@ public:
 	virtual void Restore(); // vtable[7]
 	virtual void PostRestore() override; // vtable[8]
 
-	void FindGlobalEntity();
-	void DoRestoreEntity();
-	void ModelSpaceLandmark();
-	void RestoreEntity();
-	void RestoreGlobalEntity();
-	void SaveInitEntities();
+	void FindGlobalEntity(); // size[0]
+	void DoRestoreEntity(); // size[0]
+	void ModelSpaceLandmark(); // size[0]
+	void RestoreEntity(); // size[0]
+	void RestoreGlobalEntity(); // size[0]
+	void SaveInitEntities(); // size[0]
 };

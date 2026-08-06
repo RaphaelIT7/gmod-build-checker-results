@@ -3,43 +3,122 @@
 class CNPC_Alyx : public CNPC_PlayerCompanion
 {
 public:
-	virtual void ~CNPC_Alyx() override; // vtable[0]
-	virtual void ~CNPC_Alyx() override; // vtable[1]
+	virtual ~CNPC_Alyx() override; // vtable[0]
+	virtual ~CNPC_Alyx() override; // vtable[1]
+	virtual void GetDataDescMap() override; // vtable[12]
+	virtual void Spawn() override; // vtable[23]
+	virtual void Precache() override; // vtable[24]
+	virtual void Activate() override; // vtable[34]
+	virtual void ObjectCaps() override; // vtable[36]
+	virtual void Classify() override; // vtable[55]
+	virtual void TraceAttack() override; // vtable[62]
+	virtual void CanBeHitByMeleeAttack() override; // vtable[63]
+	virtual void Event_Killed() override; // vtable[68]
+	virtual void Event_KilledOther() override; // vtable[69]
+	virtual void Use() override; // vtable[100]
+	virtual void StopLoopingSounds() override; // vtable[109]
+	virtual void ModifyOrAppendCriteria() override; // vtable[121]
+	virtual void GetAttackDamageScale() override; // vtable[147]
+	virtual void HandleAnimEvent() override; // vtable[261]
+	virtual void FInViewCone() override; // vtable[292]
+	virtual void HandleInteraction() override; // vtable[298]
+	virtual void NPC_TranslateActivity() override; // vtable[322]
+	virtual void Weapon_CanUse() override; // vtable[326]
+	virtual void Weapon_Equip() override; // vtable[327]
+	virtual void Weapon_Drop() override; // vtable[329]
+	virtual void OnTakeDamage_Alive() override; // vtable[338]
+	virtual void IRelationType() override; // vtable[364]
+	virtual void IRelationPriority() override; // vtable[365]
+	virtual void OnChangeActiveWeapon() override; // vtable[378]
+	virtual void GatherConditions() override; // vtable[402]
+	virtual void PrescheduleThink() override; // vtable[403]
+	virtual void SelectSchedule() override; // vtable[407]
+	virtual void TranslateSchedule() override; // vtable[409]
+	virtual void StartTask() override; // vtable[410]
+	virtual void RunTask() override; // vtable[411]
+	virtual void ShouldPlayerAvoid() override; // vtable[414]
+	virtual void GetSchedulingErrorName() override; // vtable[432]
+	virtual void LoadedSchedules() override; // vtable[433]
+	virtual void BuildScheduleTestBits() override; // vtable[434]
+	virtual void OnStateChange() override; // vtable[455]
+	virtual void QuerySeeEntity() override; // vtable[462]
+	virtual void OnSeeEntity() override; // vtable[465]
+	virtual void IsValidEnemy() override; // vtable[475]
+	virtual void DeathSound() override; // vtable[507]
+	virtual void PainSound() override; // vtable[510]
+	virtual void BarnacleDeathSound() override; // vtable[514]
+	virtual void PlayerHasIlluminatedNPC() override; // vtable[521]
+	virtual void MaxYawSpeed() override; // vtable[529]
+	virtual void GetJumpGravity() override; // vtable[537]
+	virtual void AimGun() override; // vtable[562]
+	virtual void InputOutsideTransition() override; // vtable[566]
+	virtual void OnUpdateShotRegulator() override; // vtable[579]
+	virtual void SquadSlotName() override; // vtable[581]
+	virtual void IsCoverPosition() override; // vtable[590]
+	virtual void OnBeginMoveAndShoot() override; // vtable[601]
+	virtual void OnGivenWeapon() override; // vtable[608]
+	virtual void FCanCheckAttacks() override; // vtable[615]
+	virtual void FValidateHintType() override; // vtable[617]
+	virtual void PlayerInSpread() override; // vtable[624]
+	virtual void GetActualShootPosition() override; // vtable[628]
+	virtual void GetClassScheduleIdSpace() override; // vtable[640]
+	virtual void Crouch() override; // vtable[643]
+	virtual void Stand() override; // vtable[644]
+	virtual void DesireCrouch() override; // vtable[645]
+	virtual void IsCrouchedActivity() override; // vtable[646]
+	virtual void GetCrouchEyeOffset() override; // vtable[647]
+	virtual void GetCrouchGunOffset() override; // vtable[648]
+	virtual void CreateBehaviors() override; // vtable[652]
+	virtual void ShouldBehaviorSelectSchedule() override; // vtable[657]
+	virtual void PickTacticalLookTarget() override; // vtable[695]
+	virtual void OnSelectedLookTarget() override; // vtable[699]
+	virtual void SpeakIfAllowed() override; // vtable[716]
+	virtual void GetDeathMessageText() override; // vtable[720]
+	virtual void SelectModel() override; // vtable[722]
+	virtual void DoCustomSpeechAI() override; // vtable[723]
+	virtual void SelectScheduleDanger() override; // vtable[725]
+	virtual void CanReload() override; // vtable[729]
+	virtual void ShouldDeferToFollowBehavior() override; // vtable[730]
+	virtual void IsReadinessCapable() override; // vtable[732]
+	virtual void GetReadinessDecay() override; // vtable[734]
+	virtual void ReadinessLevelChanged() override; // vtable[735]
+	virtual void IsAllowedToAim() override; // vtable[736]
+	virtual void GetFollowBehavior() override; // vtable[738]
 
-	void InputVehiclePunted();
-	void GetBaseMap();
-	void GetAlyx();
-	void SetupAlyxWithoutParent();
-	void CreateEmpTool();
-	void InputGiveEMP();
-	void AnalyzeGunfireSound();
-	void EnemyIgnited();
-	void RunningPassengerBehavior();
-	void DoMobbedCombatAI();
-	void DoCustomCombatAI();
-	void CanSeeEntityInDarkness();
-	void HolsterPistol();
-	void DrawPistol();
-	void IsValidInteractTarget();
-	void SetInteractTarget();
-	void SearchForInteractTargets();
-	void EmpZapTarget();
-	void CanBeBlindedByFlashlight();
-	void PlayerFlashlightOnMyEyes();
-	void BlindedByFlare();
-	void CheckBlindedByFlare();
-	void EnemyIsValidCrouchTarget();
-	void IsAllowedToInteract();
-	void CanInteractWithTarget();
-	void GetPassengerState();
-	void SpeakAttacking();
-	void ComputeWeaponType();
-	void CombineBallSocketed();
-	void InitCustomSchedules();
-	void LoadSchedules();
-	void CScheduleLoader();
-	void CNPC_Alyx();
-	void InputAllowInteraction();
-	void InputDisallowInteraction();
-	void InputAllowDarknessSpeech();
+	void InputVehiclePunted(); // size[0]
+	void GetBaseMap(); // size[0]
+	void GetAlyx(); // size[0]
+	void SetupAlyxWithoutParent(); // size[0]
+	void CreateEmpTool(); // size[0]
+	void InputGiveEMP(); // size[0]
+	void AnalyzeGunfireSound(); // size[0]
+	void EnemyIgnited(); // size[0]
+	void RunningPassengerBehavior(); // size[0]
+	void DoMobbedCombatAI(); // size[0]
+	void DoCustomCombatAI(); // size[0]
+	void CanSeeEntityInDarkness(); // size[0]
+	void HolsterPistol(); // size[0]
+	void DrawPistol(); // size[0]
+	void IsValidInteractTarget(); // size[0]
+	void SetInteractTarget(); // size[0]
+	void SearchForInteractTargets(); // size[0]
+	void EmpZapTarget(); // size[0]
+	void CanBeBlindedByFlashlight(); // size[0]
+	void PlayerFlashlightOnMyEyes(); // size[0]
+	void BlindedByFlare(); // size[0]
+	void CheckBlindedByFlare(); // size[0]
+	void EnemyIsValidCrouchTarget(); // size[0]
+	void IsAllowedToInteract(); // size[0]
+	void CanInteractWithTarget(); // size[0]
+	void GetPassengerState(); // size[0]
+	void SpeakAttacking(); // size[0]
+	void ComputeWeaponType(); // size[0]
+	void CombineBallSocketed(); // size[0]
+	void InitCustomSchedules(); // size[0]
+	void LoadSchedules(); // size[0]
+	CScheduleLoader(); // size[0]
+	CNPC_Alyx(); // size[0]
+	void InputAllowInteraction(); // size[0]
+	void InputDisallowInteraction(); // size[0]
+	void InputAllowDarknessSpeech(); // size[0]
 };

@@ -3,49 +3,63 @@
 class CAntlionTemplateMaker : public CTemplateNPCMaker
 {
 public:
-	virtual void ~CAntlionTemplateMaker() override; // vtable[0]
-	virtual void ~CAntlionTemplateMaker() override; // vtable[1]
+	virtual ~CAntlionTemplateMaker() override; // vtable[0]
+	virtual ~CAntlionTemplateMaker() override; // vtable[1]
+	virtual void GetDataDescMap() override; // vtable[12]
+	virtual void Activate() override; // vtable[34]
+	virtual void ObjectCaps() override; // vtable[36]
+	virtual void DrawDebugGeometryOverlays() override; // vtable[39]
+	virtual void DrawDebugTextOverlays() override; // vtable[40]
+	virtual void DeathNotice() override; // vtable[56]
+	virtual void UpdateOnRemove() override; // vtable[108]
+	virtual void MakeNPC() override; // vtable[246]
+	virtual void ChildPreSpawn() override; // vtable[247]
+	virtual void ChildPostSpawn() override; // vtable[248]
+	virtual void Enable() override; // vtable[249]
+	virtual void Disable() override; // vtable[250]
+	virtual void IsDepleted() override; // vtable[251]
+	virtual void PrecacheTemplateEntity() override; // vtable[254]
 
-	void InputSetSpawnRadius();
-	void InputAddToPool();
-	void InputSetPoolRegenAmount();
-	void InputChangeDestinationGroup();
-	void InputSetMaxPool();
-	void InputSetPoolRegenTime();
-	void PoolRegenThink();
-	void GetBaseMap();
-	void CAntlionTemplateMaker();
-	void ActivateSpore();
-	void DisableSpore();
-	void GetFightTarget();
-	void GetFollowTarget();
-	void SetFightTarget();
-	void SetFightTarget();
-	void SetFollowTarget();
-	void SetFollowTarget();
-	void SetChildMoveState();
-	void CreateProxyTarget();
-	void SetFightTarget();
-	void DestroyProxyTarget();
-	void CanMakeNPC();
-	void ValidateSpawnPosition();
-	void FindPositionOnFoot();
-	void FindPositionOnVehicle();
-	void FindNearTargetSpawnPosition();
-	void DoBlockedEffects();
-	void PoolAdd();
-	void UpdateChildren();
-	void InputSetFightTarget();
-	void InputSetFollowTarget();
-	void InputClearFightTarget();
-	void InputClearFollowTarget();
-	void RemoveChild();
-	void DisableAllSpores();
-	void BlockedCheckFunc();
-	void AllHintsFromClusterBlocked();
-	void ActivateAllSpores();
-	void FindHintSpawnPosition();
-	void AddChild();
-	void FixupOrphans();
-	void FindNodesCloseToPlayer();
+	void InputSetSpawnRadius(); // size[0]
+	void InputAddToPool(); // size[0]
+	void InputSetPoolRegenAmount(); // size[0]
+	void InputChangeDestinationGroup(); // size[0]
+	void InputSetMaxPool(); // size[0]
+	void InputSetPoolRegenTime(); // size[0]
+	void PoolRegenThink(); // size[0]
+	void GetBaseMap(); // size[0]
+	CAntlionTemplateMaker(); // size[0]
+	void ActivateSpore(); // size[0]
+	void DisableSpore(); // size[0]
+	void GetFightTarget(); // size[0]
+	void GetFollowTarget(); // size[0]
+	void SetFightTarget(); // size[0]
+	void SetFightTarget(); // size[0]
+	void SetFollowTarget(); // size[0]
+	void SetFollowTarget(); // size[0]
+	void SetChildMoveState(); // size[0]
+	void CreateProxyTarget(); // size[0]
+	void SetFightTarget(); // size[0]
+	void DestroyProxyTarget(); // size[0]
+	void CanMakeNPC(); // size[0]
+	void ValidateSpawnPosition(); // size[0]
+	void FindPositionOnFoot(); // size[0]
+	void FindPositionOnVehicle(); // size[0]
+	void FindNearTargetSpawnPosition(); // size[0]
+	void DoBlockedEffects(); // size[0]
+	void PoolAdd(); // size[0]
+	void UpdateChildren(); // size[0]
+	void InputSetFightTarget(); // size[0]
+	void InputSetFollowTarget(); // size[0]
+	void InputClearFightTarget(); // size[0]
+	void InputClearFollowTarget(); // size[0]
+	void RemoveChild(); // size[0]
+	void DisableAllSpores(); // size[0]
+	void BlockedCheckFunc(); // size[0]
+	void AllHintsFromClusterBlocked(); // size[0]
+	void ActivateAllSpores(); // size[0]
+	void FindHintSpawnPosition(); // size[0]
+	void AddChild(); // size[0]
+	void FixupOrphans(); // size[0]
+	void FindNodesCloseToPlayer(); // size[0]
 };

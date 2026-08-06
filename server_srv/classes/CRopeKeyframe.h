@@ -3,43 +3,56 @@
 class CRopeKeyframe : public CBaseEntity, public IPositionWatcher
 {
 public:
-	virtual void ~CRopeKeyframe() override; // vtable[0]
+	virtual ~CRopeKeyframe() override; // vtable[0]
 	virtual void _ZN13CRopeKeyframeD0Ev() override; // vtable[1]
 	virtual void SetRefEHandle() override; // vtable[2]
+	virtual void GetServerClass() override; // vtable[10]
+	virtual void YouForgotToImplementOrDeclareServerClass() override; // vtable[11]
+	virtual void GetDataDescMap() override; // vtable[12]
+	virtual void UpdateTransmitState() override; // vtable[20]
+	virtual void SetTransmit() override; // vtable[21]
+	virtual void Precache() override; // vtable[24]
+	virtual void KeyValue() override; // vtable[30]
+	virtual void Activate() override; // vtable[34]
+	virtual void SetParent() override; // vtable[35]
+	virtual void ObjectCaps() override; // vtable[36]
+	virtual void OnTakeDamage() override; // vtable[64]
+	virtual void UpdateOnRemove() override; // vtable[108]
+	virtual void SetEntity() override; // vtable[210]
 	virtual void NotifyPositionChanged(); // vtable[246]
 
-	void _GLOBAL__sub_I_GetServerClass();
-	void ~CRopeKeyframe();
-	void ~CRopeKeyframe();
-	void InputSetScrollSpeed();
-	void InputSetLength();
-	void GetBaseMap();
-	void CRopeKeyframe();
-	void EnablePlayerWeaponAttach();
-	void ActivateStartDirectionConstraints();
-	void ActivateEndDirectionConstraints();
-	void ShakeRopes();
-	void EndpointsChanged();
-	void SetAttachmentPoint();
-	void SetStartPoint();
-	void SetEndPoint();
-	void DieAtNextRest();
-	void GetEndPointPos2();
-	void GetEndPointPos();
-	void GetEndPointPos();
-	void SetupHangDistance();
-	void RecalculateLength();
-	void UpdateBBox();
-	void Init();
-	void NotifyPositionChanged();
-	void PropagateForce();
-	void InputSetForce();
-	void Break();
-	void InputBreak();
-	void DetachPoint();
-	void EnableCollision();
-	void EnableWind();
-	void SetMaterial();
-	void Create();
-	void CreateWithSecondPointDetached();
+	void _GLOBAL__sub_I_GetServerClass(); // size[0]
+	~CRopeKeyframe(); // size[0]
+	~CRopeKeyframe(); // size[0]
+	void InputSetScrollSpeed(); // size[0]
+	void InputSetLength(); // size[0]
+	void GetBaseMap(); // size[0]
+	CRopeKeyframe(); // size[0]
+	void EnablePlayerWeaponAttach(); // size[0]
+	void ActivateStartDirectionConstraints(); // size[0]
+	void ActivateEndDirectionConstraints(); // size[0]
+	void ShakeRopes(); // size[0]
+	void EndpointsChanged(); // size[0]
+	void SetAttachmentPoint(); // size[0]
+	void SetStartPoint(); // size[0]
+	void SetEndPoint(); // size[0]
+	void DieAtNextRest(); // size[0]
+	void GetEndPointPos2(); // size[0]
+	void GetEndPointPos(); // size[0]
+	void GetEndPointPos(); // size[0]
+	void SetupHangDistance(); // size[0]
+	void RecalculateLength(); // size[0]
+	void UpdateBBox(); // size[0]
+	void Init(); // size[0]
+	void NotifyPositionChanged(); // size[0]
+	void PropagateForce(); // size[0]
+	void InputSetForce(); // size[0]
+	void Break(); // size[0]
+	void InputBreak(); // size[0]
+	void DetachPoint(); // size[0]
+	void EnableCollision(); // size[0]
+	void EnableWind(); // size[0]
+	void SetMaterial(); // size[0]
+	void Create(); // size[0]
+	void CreateWithSecondPointDetached(); // size[0]
 };

@@ -3,8 +3,8 @@
 class CMultiPlayerAnimState
 {
 public:
-	virtual void ~CMultiPlayerAnimState(); // vtable[0]
-	virtual void ~CMultiPlayerAnimState(); // vtable[1]
+	virtual ~CMultiPlayerAnimState(); // vtable[0]
+	virtual ~CMultiPlayerAnimState(); // vtable[1]
 	virtual void ClearAnimationState(); // vtable[2]
 	virtual void DoAnimationEvent(); // vtable[3]
 	virtual void CalcMainActivity(); // vtable[4]
@@ -38,33 +38,33 @@ public:
 	virtual void ComputeSequences(); // vtable[32]
 	virtual void ShouldUpdateAnimState(); // vtable[33]
 
-	void VerifyAnimLayerInSlot();
-	void IsGestureSlotActive();
-	void ResetGestureSlot();
-	void ResetGestureSlots();
-	void IsGestureSlotPlaying();
-	void AddToGestureSlot();
-	void AddVCDSequenceToGestureSlot();
-	void GetGestureSlotLayer();
-	void GetInterpolatedGroundSpeed();
-	void ComputeMainSequence();
-	void ResetGroundSpeed();
-	void UpdateInterpolators();
-	void ComputeFireSequence();
-	void UpdateGestureLayer();
-	void ComputeGestureSequence();
-	void SetupPoseParameters();
-	void DoMovementTest();
-	void DoMovementTest();
-	void GetMovementFlags();
-	void ConvergeYawAngles();
-	void GetRenderAngles();
-	void GetOuterXYSpeed();
-	void DebugShowAnimStateForPlayer();
-	void DebugShowEyeYaw();
-	void DebugGestureInfo();
-	void OnNewModel();
-	void ShutdownGestureSlots();
-	void InitGestureSlots();
-	void CMultiPlayerAnimState();
+	void VerifyAnimLayerInSlot(); // size[0]
+	void IsGestureSlotActive(); // size[0]
+	void ResetGestureSlot(); // size[0]
+	void ResetGestureSlots(); // size[0]
+	void IsGestureSlotPlaying(); // size[0]
+	void AddToGestureSlot(); // size[0]
+	void AddVCDSequenceToGestureSlot(); // size[0]
+	void GetGestureSlotLayer(); // size[0]
+	void GetInterpolatedGroundSpeed(); // size[0]
+	void ComputeMainSequence(); // size[0]
+	void ResetGroundSpeed(); // size[0]
+	void UpdateInterpolators(); // size[0]
+	void ComputeFireSequence(); // size[0]
+	void UpdateGestureLayer(); // size[0]
+	void ComputeGestureSequence(); // size[0]
+	void SetupPoseParameters(); // size[0]
+	void DoMovementTest(); // size[0]
+	void DoMovementTest(); // size[0]
+	void GetMovementFlags(); // size[0]
+	void ConvergeYawAngles(); // size[0]
+	void GetRenderAngles(); // size[0]
+	void GetOuterXYSpeed(); // size[0]
+	void DebugShowAnimStateForPlayer(); // size[0]
+	void DebugShowEyeYaw(); // size[0]
+	void DebugGestureInfo(); // size[0]
+	void OnNewModel(); // size[0]
+	void ShutdownGestureSlots(); // size[0]
+	void InitGestureSlots(); // size[0]
+	CMultiPlayerAnimState(); // size[0]
 };

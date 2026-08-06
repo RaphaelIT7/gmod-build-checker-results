@@ -3,8 +3,8 @@
 class CSys : public ISys
 {
 public:
-	virtual void ~CSys() override; // vtable[0]
-	virtual void ~CSys() override; // vtable[1]
+	virtual ~CSys() override; // vtable[0]
+	virtual ~CSys() override; // vtable[1]
 	virtual void LoadModules(); // vtable[2]
 	virtual void Sleep(); // vtable[3]
 	virtual void GetExecutableName(); // vtable[4]
@@ -19,5 +19,5 @@ public:
 	virtual void ConsoleInput(); // vtable[13]
 	virtual void Printf() override; // vtable[14]
 
-	void dlsym();
+	void dlsym(); // size[0]
 };

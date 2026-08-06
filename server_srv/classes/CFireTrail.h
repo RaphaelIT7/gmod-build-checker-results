@@ -3,10 +3,14 @@
 class CFireTrail : public CBaseParticleEntity
 {
 public:
-	virtual void ~CFireTrail() override; // vtable[0]
-	virtual void ~CFireTrail() override; // vtable[1]
+	virtual ~CFireTrail() override; // vtable[0]
+	virtual ~CFireTrail() override; // vtable[1]
+	virtual void GetServerClass() override; // vtable[10]
+	virtual void YouForgotToImplementOrDeclareServerClass() override; // vtable[11]
+	virtual void GetDataDescMap() override; // vtable[12]
+	virtual void Precache() override; // vtable[24]
 
-	void GetBaseMap();
-	void FollowEntity();
-	void CreateFireTrail();
+	void GetBaseMap(); // size[0]
+	void FollowEntity(); // size[0]
+	void CreateFireTrail(); // size[0]
 };

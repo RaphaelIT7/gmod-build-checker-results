@@ -3,9 +3,13 @@
 class CInfoOverlayAccessor : public CPointEntity
 {
 public:
-	virtual void ~CInfoOverlayAccessor() override; // vtable[0]
-	virtual void ~CInfoOverlayAccessor() override; // vtable[1]
+	virtual ~CInfoOverlayAccessor() override; // vtable[0]
+	virtual ~CInfoOverlayAccessor() override; // vtable[1]
+	virtual void GetServerClass() override; // vtable[10]
+	virtual void YouForgotToImplementOrDeclareServerClass() override; // vtable[11]
+	virtual void GetDataDescMap() override; // vtable[12]
+	virtual void UpdateTransmitState() override; // vtable[20]
 
-	void _GLOBAL__sub_I_GetServerClass();
-	void GetBaseMap();
+	void _GLOBAL__sub_I_GetServerClass(); // size[0]
+	void GetBaseMap(); // size[0]
 };

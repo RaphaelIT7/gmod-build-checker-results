@@ -3,10 +3,12 @@
 class CCombatCharVisCache : public CAutoGameSystemPerFrame
 {
 public:
-	virtual void ~CCombatCharVisCache() override; // vtable[13]
-	virtual void ~CCombatCharVisCache() override; // vtable[14]
+	virtual void LevelShutdownPreEntity() override; // vtable[7]
+	virtual ~CCombatCharVisCache() override; // vtable[13]
+	virtual ~CCombatCharVisCache() override; // vtable[14]
+	virtual void FrameUpdatePreEntityThink() override; // vtable[15]
 
-	void HasVisibility();
-	void RegisterVisibility();
-	void LookupVisibility();
+	void HasVisibility(); // size[0]
+	void RegisterVisibility(); // size[0]
+	void LookupVisibility(); // size[0]
 };

@@ -11,6 +11,6 @@ public:
 	virtual void Disconnect(); // vtable[5]
 	virtual void InsertShader(); // vtable[6]
 
-	void CShaderDLL();
-	void InsertShader();
+	CShaderDLL(); // size[0]
+	void InsertShader(); // size[0]
 };

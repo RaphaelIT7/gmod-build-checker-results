@@ -3,11 +3,51 @@
 class CFastZombie : public CNPC_BaseZombie
 {
 public:
-	virtual void ~CFastZombie() override; // vtable[0]
-	virtual void ~CFastZombie() override; // vtable[1]
+	virtual ~CFastZombie() override; // vtable[0]
+	virtual ~CFastZombie() override; // vtable[1]
+	virtual void GetDataDescMap() override; // vtable[12]
+	virtual void Spawn() override; // vtable[23]
+	virtual void Precache() override; // vtable[24]
+	virtual void GetAutoAimCenter() override; // vtable[59]
+	virtual void Event_Killed() override; // vtable[68]
+	virtual void StopLoopingSounds() override; // vtable[109]
+	virtual void VPhysicsCollision() override; // vtable[165]
+	virtual void HandleAnimEvent() override; // vtable[261]
+	virtual void NPC_TranslateActivity() override; // vtable[322]
+	virtual void PostNPCInit() override; // vtable[389]
+	virtual void PrescheduleThink() override; // vtable[403]
+	virtual void OnScheduleChange() override; // vtable[405]
+	virtual void SelectSchedule() override; // vtable[407]
+	virtual void SelectFailSchedule() override; // vtable[408]
+	virtual void TranslateSchedule() override; // vtable[409]
+	virtual void StartTask() override; // vtable[410]
+	virtual void RunTask() override; // vtable[411]
+	virtual void GetSchedulingErrorName() override; // vtable[432]
+	virtual void LoadedSchedules() override; // vtable[433]
+	virtual void BuildScheduleTestBits() override; // vtable[434]
+	virtual void OnStateChange() override; // vtable[455]
+	virtual void UpdateEfficiency() override; // vtable[456]
+	virtual void OnChangeActivity() override; // vtable[460]
+	virtual void DeathSound() override; // vtable[507]
 	virtual void AlertSound(); // vtable[508]
 	virtual void IdleSound(); // vtable[509]
 	virtual void PainSound(); // vtable[510]
+	virtual void ShouldFailNav() override; // vtable[524]
+	virtual void MovementCost() override; // vtable[527]
+	virtual void MaxYawSpeed() override; // vtable[529]
+	virtual void IsJumpLegal() override; // vtable[534]
+	virtual void SquadSlotName() override; // vtable[581]
+	virtual void RangeAttack1Conditions() override; // vtable[595]
+	virtual void MeleeAttack1Conditions() override; // vtable[597]
+	virtual void InnateRange1MaxRange() override; // vtable[600]
+	virtual void GetClassScheduleIdSpace() override; // vtable[640]
+	virtual void CreateBehaviors() override; // vtable[652]
+	virtual void GetClawAttackRange() override; // vtable[686]
+	virtual void ShouldBecomeTorso() override; // vtable[691]
+	virtual void SetZombieModel() override; // vtable[693]
+	virtual void BecomeTorso() override; // vtable[694]
+	virtual void CanSwatPhysicsObjects() override; // vtable[697]
+	virtual void ShouldPlayFootstepMoan() override; // vtable[700]
 	virtual void AttackSound(); // vtable[701]
 	virtual void AttackHitSound(); // vtable[702]
 	virtual void AttackMissSound(); // vtable[703]
@@ -20,25 +60,25 @@ public:
 	virtual void GetHeadcrabModel() override; // vtable[712]
 	virtual void IsInAVehicle(); // vtable[714]
 
-	void VehicleLeapAttackTouch();
-	void LeapAttackTouch();
-	void ClimbTouch();
-	void InputAttachToVehicle();
-	void GetBaseMap();
-	void SetIdleSoundState();
-	void SoundInit();
-	void SetAngrySoundState();
-	void LeapAttackSound();
-	void LeapAttack();
-	void OnNavJumpHitApex();
-	void BeginNavJump();
-	void EndNavJump();
-	void BeginAttackJump();
-	void EndAttackJump();
-	void VehicleLeapAttack();
-	void CanEnterVehicle();
-	void ShouldFailNav();
-	void InitCustomSchedules();
-	void LoadSchedules();
-	void CScheduleLoader();
+	void VehicleLeapAttackTouch(); // size[0]
+	void LeapAttackTouch(); // size[0]
+	void ClimbTouch(); // size[0]
+	void InputAttachToVehicle(); // size[0]
+	void GetBaseMap(); // size[0]
+	void SetIdleSoundState(); // size[0]
+	void SoundInit(); // size[0]
+	void SetAngrySoundState(); // size[0]
+	void LeapAttackSound(); // size[0]
+	void LeapAttack(); // size[0]
+	void OnNavJumpHitApex(); // size[0]
+	void BeginNavJump(); // size[0]
+	void EndNavJump(); // size[0]
+	void BeginAttackJump(); // size[0]
+	void EndAttackJump(); // size[0]
+	void VehicleLeapAttack(); // size[0]
+	void CanEnterVehicle(); // size[0]
+	void ShouldFailNav(); // size[0]
+	void InitCustomSchedules(); // size[0]
+	void LoadSchedules(); // size[0]
+	CScheduleLoader(); // size[0]
 };

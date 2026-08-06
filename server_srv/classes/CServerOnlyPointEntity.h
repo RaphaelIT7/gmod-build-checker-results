@@ -3,6 +3,7 @@
 class CServerOnlyPointEntity : public CServerOnlyEntity
 {
 public:
-	virtual void ~CServerOnlyPointEntity() override; // vtable[0]
-	virtual void ~CServerOnlyPointEntity() override; // vtable[1]
+	virtual ~CServerOnlyPointEntity() override; // vtable[0]
+	virtual ~CServerOnlyPointEntity() override; // vtable[1]
+	virtual void KeyValue() override; // vtable[30]
 };

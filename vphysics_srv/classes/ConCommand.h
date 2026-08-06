@@ -3,14 +3,14 @@
 class ConCommand : public ConCommandBase
 {
 public:
-	virtual void ~ConCommand() override; // vtable[0]
-	virtual void ~ConCommand() override; // vtable[1]
+	virtual ~ConCommand() override; // vtable[0]
+	virtual ~ConCommand() override; // vtable[1]
 	virtual void AutoCompleteSuggest(); // vtable[11]
 	virtual void CanAutoComplete(); // vtable[12]
 	virtual void Dispatch(); // vtable[13]
 
-	void AutoCompleteSuggest();
-	void ConCommand();
-	void ConCommand();
-	void ConCommand();
+	void AutoCompleteSuggest(); // size[0]
+	ConCommand(); // size[0]
+	ConCommand(); // size[0]
+	ConCommand(); // size[0]
 };

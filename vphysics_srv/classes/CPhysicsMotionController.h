@@ -10,8 +10,8 @@ public:
 	virtual void do_simulation_controller(); // vtable[4]
 	virtual void get_controller_priority(); // vtable[5]
 	virtual void get_controller_name(); // vtable[6]
-	virtual void ~CPhysicsMotionController(); // vtable[7]
-	virtual void ~CPhysicsMotionController(); // vtable[8]
+	virtual ~CPhysicsMotionController(); // vtable[7]
+	virtual ~CPhysicsMotionController(); // vtable[8]
 	virtual void SetEventHandler(); // vtable[9]
 	virtual void AttachObject(); // vtable[10]
 	virtual void DetachObject(); // vtable[11]
@@ -21,18 +21,18 @@ public:
 	virtual void WakeObjects(); // vtable[15]
 	virtual void SetPriority(); // vtable[16]
 
-	void SetEventHandler();
-	void SetPriority();
-	void ~CPhysicsMotionController();
-	void ~CPhysicsMotionController();
-	void CPhysicsMotionController();
-	void RemoveCore();
-	void DetachObject();
-	void InitFromTemplate();
-	void AttachObject();
-	void WriteToTemplate();
-	void CountObjects();
-	void GetObjects();
-	void WakeObjects();
-	void ClearObjects();
+	void SetEventHandler(); // size[0]
+	void SetPriority(); // size[0]
+	~CPhysicsMotionController(); // size[0]
+	~CPhysicsMotionController(); // size[0]
+	CPhysicsMotionController(); // size[0]
+	void RemoveCore(); // size[0]
+	void DetachObject(); // size[0]
+	void InitFromTemplate(); // size[0]
+	void AttachObject(); // size[0]
+	void WriteToTemplate(); // size[0]
+	void CountObjects(); // size[0]
+	void GetObjects(); // size[0]
+	void WakeObjects(); // size[0]
+	void ClearObjects(); // size[0]
 };

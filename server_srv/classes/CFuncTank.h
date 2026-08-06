@@ -3,8 +3,23 @@
 class CFuncTank : public CBaseEntity
 {
 public:
-	virtual void ~CFuncTank() override; // vtable[0]
-	virtual void ~CFuncTank() override; // vtable[1]
+	virtual ~CFuncTank() override; // vtable[0]
+	virtual ~CFuncTank() override; // vtable[1]
+	virtual void GetDataDescMap() override; // vtable[12]
+	virtual void GetTracerType() override; // vtable[22]
+	virtual void Spawn() override; // vtable[23]
+	virtual void Precache() override; // vtable[24]
+	virtual void KeyValue() override; // vtable[30]
+	virtual void Activate() override; // vtable[34]
+	virtual void ObjectCaps() override; // vtable[36]
+	virtual void DrawDebugGeometryOverlays() override; // vtable[39]
+	virtual void DrawDebugTextOverlays() override; // vtable[40]
+	virtual void Think() override; // vtable[48]
+	virtual void OnControls() override; // vtable[80]
+	virtual void Use() override; // vtable[100]
+	virtual void PhysicsSimulate() override; // vtable[107]
+	virtual void UpdateOnRemove() override; // vtable[108]
+	virtual void CreateVPhysics() override; // vtable[157]
 	virtual void FuncTankPreThink(); // vtable[246]
 	virtual void FuncTankPostThink(); // vtable[247]
 	virtual void OnStartControlled(); // vtable[248]
@@ -21,52 +36,52 @@ public:
 	virtual void TankActivate(); // vtable[259]
 	virtual void TankDeactivate(); // vtable[260]
 
-	void InputActivate();
-	void InputDeactivate();
-	void InputSetFireRate();
-	void InputSetDamage();
-	void InputStopFindingNPCs();
-	void InputStartFindingNPCs();
-	void InputSetMaxRange();
-	void LostTarget();
-	void InputSetTargetPosition();
-	void InputSetTargetDir();
-	void GetBaseMap();
-	void CFuncTank();
-	void TraceAttack();
-	void FindTarget();
-	void InputSetTargetEntityName();
-	void UpdateMatrix();
-	void StartControl();
-	void StopControl();
-	void HasController();
-	void GetController();
-	void NPC_FindManPoint();
-	void NPC_JustSawPlayer();
-	void NPC_HasEnemy();
-	void NPC_InterruptRoute();
-	void InputForceNPCOff();
-	void NPC_InterruptController();
-	void GetRandomFireTime();
-	void GetRandomBurst();
-	void NPC_Fire();
-	void InRange();
-	void InRange2();
-	void AimBarrelAt();
-	void CalcPlayerCrosshairTarget();
-	void AimBarrelAtPlayerCrosshair();
-	void CalcNPCEnemyTarget();
-	void AimBarrelAtNPCEnemy();
-	void RotateTankToAngles();
-	void LostTarget();
-	void ComputeLeadingPosition();
-	void AimFuncTankAtTarget();
-	void TrackTarget();
-	void TankTrace();
-	void IsEntityInViewCone();
-	void NPC_FindController();
-	void InputFindNPCToManTank();
-	void HasLOSTo();
-	void StopRotSound();
-	void StartRotSound();
+	void InputActivate(); // size[0]
+	void InputDeactivate(); // size[0]
+	void InputSetFireRate(); // size[0]
+	void InputSetDamage(); // size[0]
+	void InputStopFindingNPCs(); // size[0]
+	void InputStartFindingNPCs(); // size[0]
+	void InputSetMaxRange(); // size[0]
+	void LostTarget(); // size[0]
+	void InputSetTargetPosition(); // size[0]
+	void InputSetTargetDir(); // size[0]
+	void GetBaseMap(); // size[0]
+	CFuncTank(); // size[0]
+	void TraceAttack(); // size[0]
+	void FindTarget(); // size[0]
+	void InputSetTargetEntityName(); // size[0]
+	void UpdateMatrix(); // size[0]
+	void StartControl(); // size[0]
+	void StopControl(); // size[0]
+	void HasController(); // size[0]
+	void GetController(); // size[0]
+	void NPC_FindManPoint(); // size[0]
+	void NPC_JustSawPlayer(); // size[0]
+	void NPC_HasEnemy(); // size[0]
+	void NPC_InterruptRoute(); // size[0]
+	void InputForceNPCOff(); // size[0]
+	void NPC_InterruptController(); // size[0]
+	void GetRandomFireTime(); // size[0]
+	void GetRandomBurst(); // size[0]
+	void NPC_Fire(); // size[0]
+	void InRange(); // size[0]
+	void InRange2(); // size[0]
+	void AimBarrelAt(); // size[0]
+	void CalcPlayerCrosshairTarget(); // size[0]
+	void AimBarrelAtPlayerCrosshair(); // size[0]
+	void CalcNPCEnemyTarget(); // size[0]
+	void AimBarrelAtNPCEnemy(); // size[0]
+	void RotateTankToAngles(); // size[0]
+	void LostTarget(); // size[0]
+	void ComputeLeadingPosition(); // size[0]
+	void AimFuncTankAtTarget(); // size[0]
+	void TrackTarget(); // size[0]
+	void TankTrace(); // size[0]
+	void IsEntityInViewCone(); // size[0]
+	void NPC_FindController(); // size[0]
+	void InputFindNPCToManTank(); // size[0]
+	void HasLOSTo(); // size[0]
+	void StopRotSound(); // size[0]
+	void StartRotSound(); // size[0]
 };

@@ -3,41 +3,65 @@
 class CNPC_CombineDropship : public CBaseHelicopter
 {
 public:
-	virtual void ~CNPC_CombineDropship() override; // vtable[0]
-	virtual void ~CNPC_CombineDropship() override; // vtable[1]
+	virtual ~CNPC_CombineDropship() override; // vtable[0]
+	virtual ~CNPC_CombineDropship() override; // vtable[1]
+	virtual void GetDataDescMap() override; // vtable[12]
+	virtual void Spawn() override; // vtable[23]
+	virtual void Precache() override; // vtable[24]
+	virtual void Activate() override; // vtable[34]
+	virtual void Classify() override; // vtable[55]
+	virtual void UpdateOnRemove() override; // vtable[108]
+	virtual void StopLoopingSounds() override; // vtable[109]
+	virtual void MakeTracer() override; // vtable[113]
+	virtual void DoImpactEffect() override; // vtable[116]
+	virtual void PopulatePoseParameters() override; // vtable[262]
+	virtual void OnTakeDamage_Alive() override; // vtable[338]
+	virtual void PrescheduleThink() override; // vtable[403]
+	virtual void GetSchedulingErrorName() override; // vtable[432]
+	virtual void LoadedSchedules() override; // vtable[433]
+	virtual void GatherEnemyConditions() override; // vtable[478]
+	virtual void SquadSlotName() override; // vtable[581]
+	virtual void GetClassScheduleIdSpace() override; // vtable[640]
+	virtual void InputFlyToPathTrack() override; // vtable[655]
+	virtual void Flight() override; // vtable[666]
+	virtual void Hunt() override; // vtable[668]
+	virtual void InitializeRotorSound() override; // vtable[675]
+	virtual void UpdateRotorSoundPitch() override; // vtable[676]
+	virtual void UpdateFacingDirection() override; // vtable[681]
+	virtual void UpdateRotorWashVolume() override; // vtable[685]
 
-	void InputSetLandTarget();
-	void InputDropMines();
-	void InputSetGunRange();
-	void InputStopWaitingForDropoff();
-	void InputDropStrider();
-	void GetBaseMap();
-	void UpdateRotorWashVolume();
-	void CalculateSoldierCount();
-	void SetLandingState();
-	void LandCommon();
-	void InputLandLeave();
-	void InputLandTake();
-	void InputHover();
-	void InputDropAPC();
-	void DropSoldierContainer();
-	void IsHovering();
-	void UpdateGroundRotorWashSound();
-	void DoRotorWash();
-	void GetDropoffFinishPosition();
-	void SpawnTroop();
-	void InputNPCFinishDustoff();
-	void GetAltitude();
-	void DropMine();
-	void UpdatePickupNavigation();
-	void InputPickup();
-	void UpdateLandTargetNavigation();
-	void UpdateContainerGunFacing();
-	void StartCannon();
-	void FireCannonRound();
-	void StopCannon();
-	void DoCombatStuff();
-	void InitCustomSchedules();
-	void LoadSchedules();
-	void CScheduleLoader();
+	void InputSetLandTarget(); // size[0]
+	void InputDropMines(); // size[0]
+	void InputSetGunRange(); // size[0]
+	void InputStopWaitingForDropoff(); // size[0]
+	void InputDropStrider(); // size[0]
+	void GetBaseMap(); // size[0]
+	void UpdateRotorWashVolume(); // size[0]
+	void CalculateSoldierCount(); // size[0]
+	void SetLandingState(); // size[0]
+	void LandCommon(); // size[0]
+	void InputLandLeave(); // size[0]
+	void InputLandTake(); // size[0]
+	void InputHover(); // size[0]
+	void InputDropAPC(); // size[0]
+	void DropSoldierContainer(); // size[0]
+	void IsHovering(); // size[0]
+	void UpdateGroundRotorWashSound(); // size[0]
+	void DoRotorWash(); // size[0]
+	void GetDropoffFinishPosition(); // size[0]
+	void SpawnTroop(); // size[0]
+	void InputNPCFinishDustoff(); // size[0]
+	void GetAltitude(); // size[0]
+	void DropMine(); // size[0]
+	void UpdatePickupNavigation(); // size[0]
+	void InputPickup(); // size[0]
+	void UpdateLandTargetNavigation(); // size[0]
+	void UpdateContainerGunFacing(); // size[0]
+	void StartCannon(); // size[0]
+	void FireCannonRound(); // size[0]
+	void StopCannon(); // size[0]
+	void DoCombatStuff(); // size[0]
+	void InitCustomSchedules(); // size[0]
+	void LoadSchedules(); // size[0]
+	CScheduleLoader(); // size[0]
 };

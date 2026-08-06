@@ -7,126 +7,126 @@ public:
 	virtual void CurveHasEndTime(); // vtable[1]
 	virtual void GetDefaultCurveType() override; // vtable[2]
 
-	void _GLOBAL__sub_I_s_bEditingDisabled();
-	void EventLess();
-	void FindStopTime();
-	void choreoprintf();
-	void Init();
-	void IgnorePhonemes();
-	void ShouldIgnorePhonemes();
-	void SetEventCallbackInterface();
-	void PrintEvent();
-	void PrintChannel();
-	void PrintActor();
-	void Print();
-	void SceneMsg();
-	void FindActor();
-	void GetNumEvents();
-	void GetEvent();
-	void GetNumActors();
-	void GetActor();
-	void GetNumChannels();
-	void GetChannel();
-	void ParseEdgeInfo();
-	void GetMapname();
-	void SetMapname();
-	void ParseMapname();
-	void ParseFPS();
-	void ParseSnap();
-	void ParseIgnorePhonemes();
-	void ParseFacePoserModel();
-	void InternalDetermineEventTypes();
-	void FindStopTime();
-	void FilePrintf();
-	void FileSaveHeader();
-	void MarkForSaveAll();
-	void FileSaveRamp();
-	void FileSaveSceneRamp();
-	void FileSaveScaleSettings();
-	void FileSaveFlexAnimationTrack();
-	void FileSaveFlexAnimations();
-	void FileSaveEvent();
-	void FileSaveEvent();
-	void FileSaveChannel();
-	void FileSaveActor();
-	void FileSaveActor();
-	void FindAdjustedStartTime();
-	void FindAdjustedEndTime();
-	void CheckEventCompletion();
-	void SimulationFinished();
-	void FindPauseBetweenTimes();
-	void IsTimeInRange();
-	void EventThink();
-	void ClearPauseEventDependencies();
-	void AddPauseEventDependency();
-	void GetTime();
-	void SetTime();
-	void LoopToTime();
-	void SetPrintFunc();
-	void FindActorIndex();
-	void SwapActors();
-	void SetSoundFileStartupLatency();
-	void GetSceneTimes();
-	void FindTargetingEvent();
-	void FindTagByName();
-	void ReconcileTags();
-	void SetSubScene();
-	void IsSubScene();
-	void GetSceneFPS();
-	void SetSceneFPS();
-	void IsUsingFrameSnap();
-	void SetUsingFrameSnap();
-	void SnapTime();
-	void ReconcileGestureTimes();
-	void TimeZoomInvalid();
-	void TimeZoomName();
-	void ReconcileCloseCaption();
-	void GetFilename();
-	void SetFileName();
-	void GetPlayingSoundName();
-	void HasUnplayedSpeech();
-	void HasFlexAnimation();
-	void SetBackground();
-	void IsBackground();
-	void HasEventsOfType();
-	void GetCRCFromBinaryBuffer();
-	void ExportMarkedToFile();
-	void ExportEvents();
-	void SaveToFile();
-	void RemoveActor();
-	void DestroyEvent();
-	void DeleteReferencedObjects();
-	void RemoveEventsExceptTypes();
-	void DestroyChannel();
-	void DeleteReferencedObjects();
-	void ResumeSimulation();
-	void DestroyActor();
-	void DeleteReferencedObjects();
-	void CChoreoScene();
-	void TimeZoomFirst();
-	void TimeZoomNext();
-	void ~CChoreoScene();
-	void AllocChannel();
-	void AllocEvent();
-	void ResetSimulation();
-	void ProcessActiveListEntry();
-	void LoopThink();
-	void AllocActor();
-	void Merge();
-	void RestoreFromBinaryBuffer();
-	void SaveToBinaryBuffer();
-	void SaveBinary();
-	void ParseRamp();
-	void ParseSceneRamp();
-	void ParseFlexAnimations();
-	void ParseEvent();
-	void ParseChannel();
-	void ParseActor();
-	void ImportEvents();
-	void Think();
-	void operator=();
-	void GetTimeZoom();
-	void SetTimeZoom();
-	void ParseScaleSettings();
-	void ParseFromBuffer();
+	void _GLOBAL__sub_I_s_bEditingDisabled(); // size[0]
+	void EventLess(); // size[0]
+	void FindStopTime(); // size[0]
+	void choreoprintf(); // size[0]
+	void Init(); // size[0]
+	void IgnorePhonemes(); // size[0]
+	void ShouldIgnorePhonemes(); // size[0]
+	void SetEventCallbackInterface(); // size[0]
+	void PrintEvent(); // size[0]
+	void PrintChannel(); // size[0]
+	void PrintActor(); // size[0]
+	void Print(); // size[0]
+	void SceneMsg(); // size[0]
+	void FindActor(); // size[0]
+	void GetNumEvents(); // size[0]
+	void GetEvent(); // size[0]
+	void GetNumActors(); // size[0]
+	void GetActor(); // size[0]
+	void GetNumChannels(); // size[0]
+	void GetChannel(); // size[0]
+	void ParseEdgeInfo(); // size[0]
+	void GetMapname(); // size[0]
+	void SetMapname(); // size[0]
+	void ParseMapname(); // size[0]
+	void ParseFPS(); // size[0]
+	void ParseSnap(); // size[0]
+	void ParseIgnorePhonemes(); // size[0]
+	void ParseFacePoserModel(); // size[0]
+	void InternalDetermineEventTypes(); // size[0]
+	void FindStopTime(); // size[0]
+	void FilePrintf(); // size[0]
+	void FileSaveHeader(); // size[0]
+	void MarkForSaveAll(); // size[0]
+	void FileSaveRamp(); // size[0]
+	void FileSaveSceneRamp(); // size[0]
+	void FileSaveScaleSettings(); // size[0]
+	void FileSaveFlexAnimationTrack(); // size[0]
+	void FileSaveFlexAnimations(); // size[0]
+	void FileSaveEvent(); // size[0]
+	void FileSaveEvent(); // size[0]
+	void FileSaveChannel(); // size[0]
+	void FileSaveActor(); // size[0]
+	void FileSaveActor(); // size[0]
+	void FindAdjustedStartTime(); // size[0]
+	void FindAdjustedEndTime(); // size[0]
+	void CheckEventCompletion(); // size[0]
+	void SimulationFinished(); // size[0]
+	void FindPauseBetweenTimes(); // size[0]
+	void IsTimeInRange(); // size[0]
+	void EventThink(); // size[0]
+	void ClearPauseEventDependencies(); // size[0]
+	void AddPauseEventDependency(); // size[0]
+	void GetTime(); // size[0]
+	void SetTime(); // size[0]
+	void LoopToTime(); // size[0]
+	void SetPrintFunc(); // size[0]
+	void FindActorIndex(); // size[0]
+	void SwapActors(); // size[0]
+	void SetSoundFileStartupLatency(); // size[0]
+	void GetSceneTimes(); // size[0]
+	void FindTargetingEvent(); // size[0]
+	void FindTagByName(); // size[0]
+	void ReconcileTags(); // size[0]
+	void SetSubScene(); // size[0]
+	void IsSubScene(); // size[0]
+	void GetSceneFPS(); // size[0]
+	void SetSceneFPS(); // size[0]
+	void IsUsingFrameSnap(); // size[0]
+	void SetUsingFrameSnap(); // size[0]
+	void SnapTime(); // size[0]
+	void ReconcileGestureTimes(); // size[0]
+	void TimeZoomInvalid(); // size[0]
+	void TimeZoomName(); // size[0]
+	void ReconcileCloseCaption(); // size[0]
+	void GetFilename(); // size[0]
+	void SetFileName(); // size[0]
+	void GetPlayingSoundName(); // size[0]
+	void HasUnplayedSpeech(); // size[0]
+	void HasFlexAnimation(); // size[0]
+	void SetBackground(); // size[0]
+	void IsBackground(); // size[0]
+	void HasEventsOfType(); // size[0]
+	void GetCRCFromBinaryBuffer(); // size[0]
+	void ExportMarkedToFile(); // size[0]
+	void ExportEvents(); // size[0]
+	void SaveToFile(); // size[0]
+	void RemoveActor(); // size[0]
+	void DestroyEvent(); // size[0]
+	void DeleteReferencedObjects(); // size[0]
+	void RemoveEventsExceptTypes(); // size[0]
+	void DestroyChannel(); // size[0]
+	void DeleteReferencedObjects(); // size[0]
+	void ResumeSimulation(); // size[0]
+	void DestroyActor(); // size[0]
+	void DeleteReferencedObjects(); // size[0]
+	CChoreoScene(); // size[0]
+	void TimeZoomFirst(); // size[0]
+	void TimeZoomNext(); // size[0]
+	~CChoreoScene(); // size[0]
+	void AllocChannel(); // size[0]
+	void AllocEvent(); // size[0]
+	void ResetSimulation(); // size[0]
+	void ProcessActiveListEntry(); // size[0]
+	void LoopThink(); // size[0]
+	void AllocActor(); // size[0]
+	void Merge(); // size[0]
+	void RestoreFromBinaryBuffer(); // size[0]
+	void SaveToBinaryBuffer(); // size[0]
+	void SaveBinary(); // size[0]
+	void ParseRamp(); // size[0]
+	void ParseSceneRamp(); // size[0]
+	void ParseFlexAnimations(); // size[0]
+	void ParseEvent(); // size[0]
+	void ParseChannel(); // size[0]
+	void ParseActor(); // size[0]
+	void ImportEvents(); // size[0]
+	void Think(); // size[0]
+	void operator=(); // size[0]
+	void GetTimeZoom(); // size[0]
+	void SetTimeZoom(); // size[0]
+	void ParseScaleSettings(); // size[0]
+	void ParseFromBuffer(); // size[0]
 };

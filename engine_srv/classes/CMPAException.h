@@ -3,9 +3,9 @@
 class CMPAException
 {
 public:
-	void _GLOBAL__sub_I_CMPAException();
-	void ~CMPAException();
-	void CMPAException();
-	void CMPAException();
-	void ShowError();
+	_GLOBAL__sub_I_CMPAException(); // size[0]
+	~CMPAException(); // size[0]
+	CMPAException(); // size[0]
+	CMPAException(); // size[0]
+	void ShowError(); // size[0]
 };

@@ -3,25 +3,42 @@
 class CAI_PassengerBehaviorZombie : public CAI_PassengerBehavior
 {
 public:
-	virtual void ~CAI_PassengerBehaviorZombie() override; // vtable[0]
-	virtual void ~CAI_PassengerBehaviorZombie() override; // vtable[1]
+	virtual ~CAI_PassengerBehaviorZombie() override; // vtable[0]
+	virtual ~CAI_PassengerBehaviorZombie() override; // vtable[1]
+	virtual void GetName() override; // vtable[5]
+	virtual void GatherConditions() override; // vtable[11]
+	virtual void GetClassScheduleIdSpace() override; // vtable[14]
+	virtual void Event_Killed() override; // vtable[21]
+	virtual void SelectSchedule() override; // vtable[26]
+	virtual void StartTask() override; // vtable[28]
+	virtual void RunTask() override; // vtable[29]
+	virtual void TranslateSchedule() override; // vtable[31]
+	virtual void GetSchedulingErrorName() override; // vtable[33]
+	virtual void BuildScheduleTestBits() override; // vtable[34]
+	virtual void NPC_TranslateActivity() override; // vtable[35]
+	virtual void HandleAnimEvent() override; // vtable[63]
+	virtual void GetDataDescMap() override; // vtable[70]
+	virtual void GetRoleName() override; // vtable[74]
+	virtual void ExitVehicle() override; // vtable[76]
+	virtual void GatherVehicleStateConditions() override; // vtable[79]
+	virtual void LoadedSchedules() override; // vtable[82]
 	virtual void CanEnterVehicle(); // vtable[83]
 	virtual void AttachToVehicle(); // vtable[84]
 	virtual void FindExitSequence(); // vtable[85]
 	virtual void _ZN27CAI_PassengerBehaviorZombie17CalculateBodyLeanEv(); // vtable[86]
 	virtual void FindEntrySequence(); // vtable[87]
 
-	void GetBaseMap();
-	void SuppressAttack();
-	void EnemyInVehicle();
-	void SelectOutsideSchedule();
-	void SelectInsideSchedule();
-	void CanJumpToAttachToVehicle();
-	void StartDismount();
-	void FinishDismount();
-	void GetEntryPointCost();
-	void InitCustomSchedules();
-	void LoadSchedules();
-	void CScheduleLoader();
-	void CAI_PassengerBehaviorZombie();
+	void GetBaseMap(); // size[0]
+	void SuppressAttack(); // size[0]
+	void EnemyInVehicle(); // size[0]
+	void SelectOutsideSchedule(); // size[0]
+	void SelectInsideSchedule(); // size[0]
+	void CanJumpToAttachToVehicle(); // size[0]
+	void StartDismount(); // size[0]
+	void FinishDismount(); // size[0]
+	void GetEntryPointCost(); // size[0]
+	void InitCustomSchedules(); // size[0]
+	void LoadSchedules(); // size[0]
+	CScheduleLoader(); // size[0]
+	CAI_PassengerBehaviorZombie(); // size[0]
 };

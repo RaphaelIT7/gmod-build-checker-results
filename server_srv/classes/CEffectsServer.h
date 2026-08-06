@@ -3,8 +3,8 @@
 class CEffectsServer : public IEffects
 {
 public:
-	virtual void ~CEffectsServer() override; // vtable[0]
-	virtual void ~CEffectsServer() override; // vtable[1]
+	virtual ~CEffectsServer() override; // vtable[0]
+	virtual ~CEffectsServer() override; // vtable[1]
 	virtual void Beam(); // vtable[2]
 	virtual void Smoke(); // vtable[3]
 	virtual void Sparks(); // vtable[4]
@@ -17,5 +17,5 @@ public:
 	virtual void IsServer(); // vtable[11]
 	virtual void SuppressEffectsSounds() override; // vtable[12]
 
-	void CEffectsServer();
+	CEffectsServer(); // size[0]
 };

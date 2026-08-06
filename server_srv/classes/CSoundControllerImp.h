@@ -35,17 +35,17 @@ public:
 	virtual void OnRestore(); // vtable[29]
 	virtual void PreClientUpdate(); // vtable[30]
 	virtual void LevelShutdownPreEntity(); // vtable[31]
-	virtual void ~CSoundControllerImp(); // vtable[32]
-	virtual void ~CSoundControllerImp(); // vtable[33]
+	virtual ~CSoundControllerImp(); // vtable[32]
+	virtual ~CSoundControllerImp(); // vtable[33]
 
-	void RemoveFromList();
-	void SaveSoundPatch();
-	void ProcessCommand();
-	void OnRestore();
-	void CommandInsert();
-	void RestoreSoundPatch();
-	void PreClientUpdate();
-	void LevelShutdownPreEntity();
-	void ~CSoundControllerImp();
-	void ~CSoundControllerImp();
+	void RemoveFromList(); // size[0]
+	void SaveSoundPatch(); // size[0]
+	void ProcessCommand(); // size[0]
+	void OnRestore(); // size[0]
+	void CommandInsert(); // size[0]
+	void RestoreSoundPatch(); // size[0]
+	void PreClientUpdate(); // size[0]
+	void LevelShutdownPreEntity(); // size[0]
+	~CSoundControllerImp(); // size[0]
+	~CSoundControllerImp(); // size[0]
 };

@@ -3,6 +3,6 @@
 class CMemoryFileBacking : public CRefCounted
 {
 public:
-	virtual void ~CMemoryFileBacking() override; // vtable[0]
-	virtual void ~CMemoryFileBacking() override; // vtable[1]
+	virtual ~CMemoryFileBacking() override; // vtable[0]
+	virtual ~CMemoryFileBacking() override; // vtable[1]
 };

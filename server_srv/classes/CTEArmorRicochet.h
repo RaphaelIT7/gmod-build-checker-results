@@ -3,6 +3,8 @@
 class CTEArmorRicochet : public CTEMetalSparks
 {
 public:
-	virtual void ~CTEArmorRicochet() override; // vtable[2]
-	virtual void ~CTEArmorRicochet() override; // vtable[3]
+	virtual void GetServerClass() override; // vtable[0]
+	virtual void YouForgotToImplementOrDeclareServerClass() override; // vtable[1]
+	virtual ~CTEArmorRicochet() override; // vtable[2]
+	virtual ~CTEArmorRicochet() override; // vtable[3]
 };

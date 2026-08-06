@@ -3,9 +3,10 @@
 class CPointServerCommand : public CPointEntity
 {
 public:
-	virtual void ~CPointServerCommand() override; // vtable[0]
-	virtual void ~CPointServerCommand() override; // vtable[1]
+	virtual ~CPointServerCommand() override; // vtable[0]
+	virtual ~CPointServerCommand() override; // vtable[1]
+	virtual void GetDataDescMap() override; // vtable[12]
 
-	void InputCommand();
-	void GetBaseMap();
+	void InputCommand(); // size[0]
+	void GetBaseMap(); // size[0]
 };

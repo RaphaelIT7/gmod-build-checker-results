@@ -3,8 +3,8 @@
 class CGameEventManager : public IGameEventManager2
 {
 public:
-	virtual void ~CGameEventManager() override; // vtable[0]
-	virtual void ~CGameEventManager() override; // vtable[1]
+	virtual ~CGameEventManager() override; // vtable[0]
+	virtual ~CGameEventManager() override; // vtable[1]
 	virtual void LoadEventsFromFile(); // vtable[2]
 	virtual void Reset(); // vtable[3]
 	virtual void AddListener(); // vtable[4]
@@ -18,24 +18,24 @@ public:
 	virtual void SerializeEvent(); // vtable[12]
 	virtual void UnserializeEvent() override; // vtable[13]
 
-	void Init();
-	void Shutdown();
-	void HasClientListenersChanged();
-	void WriteEventList();
-	void WriteListenEventList();
-	void CreateEvent();
-	void FindEventListener();
-	void ReloadEventDefinitions();
-	void GetEventDescriptor();
-	void ConPrintEvent();
-	void FireEventIntern();
-	void GetEventDescriptor();
-	void GetEventDescriptor();
-	void ParseEventList();
-	void RemoveListenerOld();
-	void CGameEventManager();
-	void AddListener();
-	void AddListener();
-	void AddListenerAll();
-	void RegisterEvent();
+	void Init(); // size[0]
+	void Shutdown(); // size[0]
+	void HasClientListenersChanged(); // size[0]
+	void WriteEventList(); // size[0]
+	void WriteListenEventList(); // size[0]
+	void CreateEvent(); // size[0]
+	void FindEventListener(); // size[0]
+	void ReloadEventDefinitions(); // size[0]
+	void GetEventDescriptor(); // size[0]
+	void ConPrintEvent(); // size[0]
+	void FireEventIntern(); // size[0]
+	void GetEventDescriptor(); // size[0]
+	void GetEventDescriptor(); // size[0]
+	void ParseEventList(); // size[0]
+	void RemoveListenerOld(); // size[0]
+	CGameEventManager(); // size[0]
+	void AddListener(); // size[0]
+	void AddListener(); // size[0]
+	void AddListenerAll(); // size[0]
+	void RegisterEvent(); // size[0]
 };

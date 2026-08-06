@@ -3,8 +3,8 @@
 class CNPCBaseInteractive : public CAI_BasePhysicsFlyingBot, public INPCInteractive
 {
 public:
-	virtual void ~CNPCBaseInteractive() override; // vtable[0]
-	virtual void ~CNPCBaseInteractive() override; // vtable[1]
+	virtual ~CNPCBaseInteractive() override; // vtable[0]
+	virtual ~CNPCBaseInteractive() override; // vtable[1]
 	virtual void GetCollideable() override; // vtable[4]
 	virtual void CanInteractWith(); // vtable[658]
 	virtual void HasBeenInteractedWith(); // vtable[659]

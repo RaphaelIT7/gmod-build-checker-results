@@ -3,14 +3,16 @@
 class CJob : public CRefCounted1
 {
 public:
-	virtual void ~CJob() override; // vtable[2]
-	virtual void ~CJob() override; // vtable[3]
+	virtual void AddRef() override; // vtable[0]
+	virtual void Release() override; // vtable[1]
+	virtual ~CJob() override; // vtable[2]
+	virtual ~CJob() override; // vtable[3]
 	virtual void Describe(); // vtable[4]
 	virtual void SetDescription(); // vtable[5]
 	virtual void __cxa_pure_virtual(); // vtable[6]
 	virtual void DoAbort(); // vtable[7]
 	virtual void DoCleanup(); // vtable[8]
 
-	void ~CJob();
-	void ~CJob();
+	~CJob(); // size[0]
+	~CJob(); // size[0]
 };

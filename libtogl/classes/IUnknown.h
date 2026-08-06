@@ -3,6 +3,6 @@
 class IUnknown
 {
 public:
-	virtual void ~IUnknown(); // vtable[0]
-	virtual void ~IUnknown(); // vtable[1]
+	virtual ~IUnknown(); // vtable[0]
+	virtual ~IUnknown(); // vtable[1]
 };

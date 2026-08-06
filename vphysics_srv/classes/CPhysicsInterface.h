@@ -17,6 +17,6 @@ public:
 	virtual void FindCollisionSet(); // vtable[11]
 	virtual void DestroyAllCollisionSets(); // vtable[12]
 
-	void FindOrCreateCollisionSet();
-	void ~CPhysicsInterface();
+	void FindOrCreateCollisionSet(); // size[0]
+	~CPhysicsInterface(); // size[0]
 };

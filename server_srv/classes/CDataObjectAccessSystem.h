@@ -3,6 +3,8 @@
 class CDataObjectAccessSystem : public CAutoGameSystem
 {
 public:
-	virtual void ~CDataObjectAccessSystem() override; // vtable[13]
-	virtual void ~CDataObjectAccessSystem() override; // vtable[14]
+	virtual void Init() override; // vtable[1]
+	virtual void Shutdown() override; // vtable[3]
+	virtual ~CDataObjectAccessSystem() override; // vtable[13]
+	virtual ~CDataObjectAccessSystem() override; // vtable[14]
 };

@@ -3,8 +3,20 @@
 class CGrenadeHelicopter : public CBaseGrenade
 {
 public:
-	virtual void ~CGrenadeHelicopter() override; // vtable[0]
-	virtual void ~CGrenadeHelicopter() override; // vtable[1]
+	virtual ~CGrenadeHelicopter() override; // vtable[0]
+	virtual ~CGrenadeHelicopter() override; // vtable[1]
+	virtual void GetDataDescMap() override; // vtable[12]
+	virtual void Spawn() override; // vtable[23]
+	virtual void Precache() override; // vtable[24]
+	virtual void Classify() override; // vtable[55]
+	virtual void OnTakeDamage() override; // vtable[64]
+	virtual void OnEntityEvent() override; // vtable[94]
+	virtual void PhysicsSimulate() override; // vtable[107]
+	virtual void UpdateOnRemove() override; // vtable[108]
+	virtual void VPhysicsCollision() override; // vtable[165]
+	virtual void ResolveFlyCollisionCustom() override; // vtable[175]
+	virtual void GetShakeAmplitude() override; // vtable[286]
+	virtual void GetShakeRadius() override; // vtable[287]
 	virtual void PreferredCarryAngles(); // vtable[290]
 	virtual void HasPreferredCarryAnglesForPlayer(); // vtable[291]
 	virtual void OnPhysGunPickup(); // vtable[292]
@@ -12,23 +24,23 @@ public:
 	virtual void ShouldPuntUseLaunchForces(); // vtable[294]
 	virtual void PhysGunLaunchVelocity(); // vtable[295]
 
-	void RampSoundThink();
-	void AnimateThink();
-	void OnPhysGunDrop();
-	void PhysGunLaunchVelocity();
-	void WarningBlinkerThink();
-	void GetBaseMap();
-	void BecomeActive();
-	void InputExplodeIn();
-	void OnPhysGunPickup();
-	void StopWarningBlinker();
-	void GetBombLifetime();
-	void DoExplosion();
-	void IsThrownByPlayer();
-	void SendMissEvent();
-	void ExplodeConcussion();
-	void ExplodeThink();
-	void PreferredCarryAngles();
-	void HasPreferredCarryAnglesForPlayer();
-	void ShouldPuntUseLaunchForces();
+	void RampSoundThink(); // size[0]
+	void AnimateThink(); // size[0]
+	void OnPhysGunDrop(); // size[0]
+	void PhysGunLaunchVelocity(); // size[0]
+	void WarningBlinkerThink(); // size[0]
+	void GetBaseMap(); // size[0]
+	void BecomeActive(); // size[0]
+	void InputExplodeIn(); // size[0]
+	void OnPhysGunPickup(); // size[0]
+	void StopWarningBlinker(); // size[0]
+	void GetBombLifetime(); // size[0]
+	void DoExplosion(); // size[0]
+	void IsThrownByPlayer(); // size[0]
+	void SendMissEvent(); // size[0]
+	void ExplodeConcussion(); // size[0]
+	void ExplodeThink(); // size[0]
+	void PreferredCarryAngles(); // size[0]
+	void HasPreferredCarryAnglesForPlayer(); // size[0]
+	void ShouldPuntUseLaunchForces(); // size[0]
 };

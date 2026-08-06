@@ -3,7 +3,7 @@
 class IVoiceGameMgrHelper
 {
 public:
-	virtual void ~IVoiceGameMgrHelper(); // vtable[0]
-	virtual void ~IVoiceGameMgrHelper(); // vtable[1]
+	virtual ~IVoiceGameMgrHelper(); // vtable[0]
+	virtual ~IVoiceGameMgrHelper(); // vtable[1]
 	virtual void __cxa_pure_virtual(); // vtable[2]
 };

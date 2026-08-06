@@ -3,8 +3,8 @@
 class CHLTVDirector : public CGameEventListener, public CBaseGameSystemPerFrame, public IHLTVDirector
 {
 public:
-	virtual void ~CHLTVDirector() override; // vtable[0]
-	virtual void ~CHLTVDirector() override; // vtable[1]
+	virtual ~CHLTVDirector() override; // vtable[0]
+	virtual ~CHLTVDirector() override; // vtable[1]
 	virtual void FireGameEvent() override; // vtable[2]
 	virtual void Name() override; // vtable[3]
 	virtual void SetHLTVServer() override; // vtable[4]
@@ -37,27 +37,27 @@ public:
 	virtual void FindBestGameEvent(); // vtable[31]
 	virtual void CreateShotFromEvent(); // vtable[32]
 
-	void Init();
-	void GetHLTVServer();
-	void IsActive();
-	void GetDelay();
-	void GetDirectorTick();
-	void GetPVSEntity();
-	void GetPVSOrigin();
-	void GetModEvents();
-	void FrameUpdatePostEntityThink();
-	void CHLTVDirector();
-	void BuildCameraList();
-	void CheckHistory();
-	void FindFirstEvent();
-	void ~CHLTVDirector();
-	void ~CHLTVDirector();
-	void ~CHLTVDirector();
-	void ~CHLTVDirector();
-	void RemoveEventsFromHistory();
-	void Shutdown();
-	void SetHLTVServer();
-	void LevelInitPostEntity();
-	void SetCameraMan();
-	void Name();
+	void Init(); // size[0]
+	void GetHLTVServer(); // size[0]
+	void IsActive(); // size[0]
+	void GetDelay(); // size[0]
+	void GetDirectorTick(); // size[0]
+	void GetPVSEntity(); // size[0]
+	void GetPVSOrigin(); // size[0]
+	void GetModEvents(); // size[0]
+	void FrameUpdatePostEntityThink(); // size[0]
+	CHLTVDirector(); // size[0]
+	void BuildCameraList(); // size[0]
+	void CheckHistory(); // size[0]
+	void FindFirstEvent(); // size[0]
+	~CHLTVDirector(); // size[0]
+	~CHLTVDirector(); // size[0]
+	~CHLTVDirector(); // size[0]
+	~CHLTVDirector(); // size[0]
+	void RemoveEventsFromHistory(); // size[0]
+	void Shutdown(); // size[0]
+	void SetHLTVServer(); // size[0]
+	void LevelInitPostEntity(); // size[0]
+	void SetCameraMan(); // size[0]
+	void Name(); // size[0]
 };

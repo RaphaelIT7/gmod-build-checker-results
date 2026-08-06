@@ -9,6 +9,6 @@ public:
 	virtual void PostShutdown(); // vtable[3]
 	virtual void Destroy() override; // vtable[4]
 
-	void AddLegacySystems();
-	void ModuleAlreadyInList();
+	void AddLegacySystems(); // size[0]
+	void ModuleAlreadyInList(); // size[0]
 };

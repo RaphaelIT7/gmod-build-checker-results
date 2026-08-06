@@ -3,8 +3,17 @@
 class CBaseMultiplayerPlayer : public CAI_ExpresserHost
 {
 public:
-	virtual void ~CBaseMultiplayerPlayer() override; // vtable[0]
-	virtual void ~CBaseMultiplayerPlayer() override; // vtable[1]
+	virtual ~CBaseMultiplayerPlayer() override; // vtable[0]
+	virtual ~CBaseMultiplayerPlayer() override; // vtable[1]
+	virtual void Spawn() override; // vtable[23]
+	virtual void Precache() override; // vtable[24]
+	virtual void PostConstructor() override; // vtable[27]
+	virtual void GetResponseSystem() override; // vtable[53]
+	virtual void ModifyOrAppendCriteria() override; // vtable[121]
+	virtual void ClientCommand() override; // vtable[434]
+	virtual void CanHearAndReadChatFrom() override; // vtable[485]
+	virtual void CanSpeak() override; // vtable[486]
+	virtual void GetExpresser() override; // vtable[509]
 	virtual void SpeakIfAllowed(); // vtable[540]
 	virtual void SpeakConceptIfAllowed(); // vtable[541]
 	virtual void CanBeAutobalanced(); // vtable[542]
@@ -16,16 +25,16 @@ public:
 	virtual void CalculateTeamBalanceScore(); // vtable[548]
 	virtual void CreateExpresser(); // vtable[549]
 
-	void _GLOBAL__sub_I_CBaseMultiplayerPlayer();
-	void EscortScoringThink();
-	void SpeakConcept();
-	void AwardAchievement();
-	void GetPerLifeCounterKV();
-	void SetPerLifeCounterKV();
-	void ResetPerLifeCounters();
-	void StartScoringEscortPoints();
-	void StopScoringEscortPoints();
-	void CBaseMultiplayerPlayer();
-	void ShouldRunRateLimitedCommand();
-	void ShouldRunRateLimitedCommand();
+	_GLOBAL__sub_I_CBaseMultiplayerPlayer(); // size[0]
+	void EscortScoringThink(); // size[0]
+	void SpeakConcept(); // size[0]
+	void AwardAchievement(); // size[0]
+	void GetPerLifeCounterKV(); // size[0]
+	void SetPerLifeCounterKV(); // size[0]
+	void ResetPerLifeCounters(); // size[0]
+	void StartScoringEscortPoints(); // size[0]
+	void StopScoringEscortPoints(); // size[0]
+	CBaseMultiplayerPlayer(); // size[0]
+	void ShouldRunRateLimitedCommand(); // size[0]
+	void ShouldRunRateLimitedCommand(); // size[0]
 };

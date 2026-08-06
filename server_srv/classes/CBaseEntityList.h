@@ -6,17 +6,17 @@ public:
 	virtual void OnAddEntity(); // vtable[0]
 	virtual void OnRemoveEntity(); // vtable[1]
 
-	void CEntInfoList();
-	void LinkBefore();
-	void RemoveEntityAtSlot();
-	void LinkAfter();
-	void Unlink();
-	void IsInList();
-	void CBaseEntityList();
-	void ~CBaseEntityList();
-	void RemoveEntity();
-	void AddEntityAtSlot();
-	void AddNetworkableEntity();
-	void AddNonNetworkableEntity();
-	void RemoveEntityAtSlot();
+	CEntInfoList(); // size[0]
+	void LinkBefore(); // size[0]
+	void RemoveEntityAtSlot(); // size[0]
+	void LinkAfter(); // size[0]
+	void Unlink(); // size[0]
+	void IsInList(); // size[0]
+	CBaseEntityList(); // size[0]
+	~CBaseEntityList(); // size[0]
+	void RemoveEntity(); // size[0]
+	void AddEntityAtSlot(); // size[0]
+	void AddNetworkableEntity(); // size[0]
+	void AddNonNetworkableEntity(); // size[0]
+	void RemoveEntityAtSlot(); // size[0]
 };

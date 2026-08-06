@@ -3,9 +3,27 @@
 class CPropVehicleChoreoGeneric : public CDynamicProp, public IDrivableVehicle
 {
 public:
-	virtual void ~CPropVehicleChoreoGeneric() override; // vtable[0]
-	virtual void ~CPropVehicleChoreoGeneric() override; // vtable[1]
+	virtual ~CPropVehicleChoreoGeneric() override; // vtable[0]
+	virtual ~CPropVehicleChoreoGeneric() override; // vtable[1]
+	virtual void GetServerClass() override; // vtable[10]
+	virtual void YouForgotToImplementOrDeclareServerClass() override; // vtable[11]
+	virtual void GetDataDescMap() override; // vtable[12]
 	virtual void TestHitboxes() override; // vtable[15]
+	virtual void ShouldCollide() override; // vtable[17]
+	virtual void Spawn() override; // vtable[23]
+	virtual void Precache() override; // vtable[24]
+	virtual void ObjectCaps() override; // vtable[36]
+	virtual void DrawDebugGeometryOverlays() override; // vtable[39]
+	virtual void Think() override; // vtable[48]
+	virtual void TraceAttack() override; // vtable[62]
+	virtual void OnTakeDamage() override; // vtable[64]
+	virtual void GetServerVehicle() override; // vtable[91]
+	virtual void Use() override; // vtable[100]
+	virtual void BodyTarget() override; // vtable[137]
+	virtual void GetVectors() override; // vtable[139]
+	virtual void CreateVPhysics() override; // vtable[157]
+	virtual void HandleAnimEvent() override; // vtable[261]
+	virtual void OverridePropdata() override; // vtable[282]
 	virtual void PassengerShouldReceiveDamage(); // vtable[323]
 	virtual void GetDriver(); // vtable[324]
 	virtual void ProcessMovement(); // vtable[325]
@@ -23,41 +41,41 @@ public:
 	virtual void SetupMove(); // vtable[337]
 	virtual void GetVehicleScriptName(); // vtable[338]
 
-	void CanEnterVehicle();
-	void CanExitVehicle();
-	void GetDriver();
-	void InputLock();
-	void InputUnlock();
-	void InputExitVehicle();
-	void InputSetCanShoot();
-	void InputEnterVehicle();
-	void InputEnterVehicleImmediate();
-	void InputSetMaxPitch();
-	void InputSetMinPitch();
-	void InputSetMinYaw();
-	void InputSetMaxYaw();
-	void InputViewlock();
-	void SetVehicleEntryAnim();
-	void InputUseAttachmentEyes();
-	void EnterVehicle();
-	void ExitVehicle();
-	void InputClose();
-	void InputOpen();
-	void GetBaseMap();
-	void ResetUseKey();
-	void ParseViewParams();
-	void PassengerShouldReceiveDamage();
-	void ProcessMovement();
-	void FinishMove();
-	void AllowBlockedExit();
-	void AllowMidairExit();
-	void PreExitVehicle();
-	void ItemPostFrame();
-	void SetupMove();
-	void GetVehicleScriptName();
-	void NetworkStateChanged();
-	void ~CPropVehicleChoreoGeneric();
-	void ~CPropVehicleChoreoGeneric();
-	void NetworkStateChanged();
-	void SetVehicleExitAnim();
+	void CanEnterVehicle(); // size[0]
+	void CanExitVehicle(); // size[0]
+	void GetDriver(); // size[0]
+	void InputLock(); // size[0]
+	void InputUnlock(); // size[0]
+	void InputExitVehicle(); // size[0]
+	void InputSetCanShoot(); // size[0]
+	void InputEnterVehicle(); // size[0]
+	void InputEnterVehicleImmediate(); // size[0]
+	void InputSetMaxPitch(); // size[0]
+	void InputSetMinPitch(); // size[0]
+	void InputSetMinYaw(); // size[0]
+	void InputSetMaxYaw(); // size[0]
+	void InputViewlock(); // size[0]
+	void SetVehicleEntryAnim(); // size[0]
+	void InputUseAttachmentEyes(); // size[0]
+	void EnterVehicle(); // size[0]
+	void ExitVehicle(); // size[0]
+	void InputClose(); // size[0]
+	void InputOpen(); // size[0]
+	void GetBaseMap(); // size[0]
+	void ResetUseKey(); // size[0]
+	void ParseViewParams(); // size[0]
+	void PassengerShouldReceiveDamage(); // size[0]
+	void ProcessMovement(); // size[0]
+	void FinishMove(); // size[0]
+	void AllowBlockedExit(); // size[0]
+	void AllowMidairExit(); // size[0]
+	void PreExitVehicle(); // size[0]
+	void ItemPostFrame(); // size[0]
+	void SetupMove(); // size[0]
+	void GetVehicleScriptName(); // size[0]
+	void NetworkStateChanged(); // size[0]
+	~CPropVehicleChoreoGeneric(); // size[0]
+	~CPropVehicleChoreoGeneric(); // size[0]
+	void NetworkStateChanged(); // size[0]
+	void SetVehicleExitAnim(); // size[0]
 };

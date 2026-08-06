@@ -3,8 +3,8 @@
 class CVTFTexture : public IVTFTexture
 {
 public:
-	virtual void ~CVTFTexture() override; // vtable[0]
-	virtual void ~CVTFTexture() override; // vtable[1]
+	virtual ~CVTFTexture() override; // vtable[0]
+	virtual ~CVTFTexture() override; // vtable[1]
 	virtual void Init(); // vtable[2]
 	virtual void SetBumpScale(); // vtable[3]
 	virtual void SetReflectivity(); // vtable[4]
@@ -60,35 +60,35 @@ public:
 	virtual void SetPostProcessingSettings() override; // vtable[54]
 	virtual void NormalizeTopMipLevel(); // vtable[55]
 
-	void ComputeMipCount();
-	void AllocateImageData();
-	void AllocateData();
-	void AllocateLowResImageData();
-	void ReleaseResources();
-	void Shutdown();
-	void LoadLowResData();
-	void LoadImageData();
-	void LoadData();
-	void WriteData();
-	void SetupByteSwap();
-	void ReadHeader();
-	void LoadNewResources();
-	void FindResourceEntryInfo();
-	void FindResourceEntryInfo();
-	void WriteImageData();
-	void GetImageOffset();
-	void ComputeSpheremapFrame();
-	void ComputeHemispheremapFrame();
-	void SetupFaceVert();
-	void SetupEdgeIncrement();
-	void SetupTextureEdgeIncrements();
-	void BlendCubeMapFaceEdges();
-	void BlendCubeMapFaceCorners();
-	void BuildCubeMapMatchLists();
-	void BlendCubeMapEdgePalettes();
-	void BlendCubeMapCornerPalettes();
-	void MatchCubeMapS3TCPalettes();
-	void CVTFTexture();
-	void RemoveResourceEntryInfo();
-	void FindOrCreateResourceEntryInfo();
+	void ComputeMipCount(); // size[0]
+	void AllocateImageData(); // size[0]
+	void AllocateData(); // size[0]
+	void AllocateLowResImageData(); // size[0]
+	void ReleaseResources(); // size[0]
+	void Shutdown(); // size[0]
+	void LoadLowResData(); // size[0]
+	void LoadImageData(); // size[0]
+	void LoadData(); // size[0]
+	void WriteData(); // size[0]
+	void SetupByteSwap(); // size[0]
+	void ReadHeader(); // size[0]
+	void LoadNewResources(); // size[0]
+	void FindResourceEntryInfo(); // size[0]
+	void FindResourceEntryInfo(); // size[0]
+	void WriteImageData(); // size[0]
+	void GetImageOffset(); // size[0]
+	void ComputeSpheremapFrame(); // size[0]
+	void ComputeHemispheremapFrame(); // size[0]
+	void SetupFaceVert(); // size[0]
+	void SetupEdgeIncrement(); // size[0]
+	void SetupTextureEdgeIncrements(); // size[0]
+	void BlendCubeMapFaceEdges(); // size[0]
+	void BlendCubeMapFaceCorners(); // size[0]
+	void BuildCubeMapMatchLists(); // size[0]
+	void BlendCubeMapEdgePalettes(); // size[0]
+	void BlendCubeMapCornerPalettes(); // size[0]
+	void MatchCubeMapS3TCPalettes(); // size[0]
+	CVTFTexture(); // size[0]
+	void RemoveResourceEntryInfo(); // size[0]
+	void FindOrCreateResourceEntryInfo(); // size[0]
 };

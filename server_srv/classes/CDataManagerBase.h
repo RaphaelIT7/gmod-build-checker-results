@@ -6,35 +6,35 @@ public:
 	virtual void Lock(); // vtable[0]
 	virtual void TryLock(); // vtable[1]
 	virtual void Unlock(); // vtable[2]
-	virtual void ~CDataManagerBase(); // vtable[3]
-	virtual void ~CDataManagerBase(); // vtable[4]
+	virtual ~CDataManagerBase(); // vtable[3]
+	virtual ~CDataManagerBase(); // vtable[4]
 	virtual void __cxa_pure_virtual(); // vtable[6]
 
-	void _GLOBAL__sub_I_CDataManagerBase();
-	void NotifySizeChanged();
-	void SetTargetSize();
-	void GetResource_NoLockNoLRUTouch();
-	void StoreResourceInHandle();
-	void ToHandle();
-	void TargetSize();
-	void AvailableSize();
-	void UsedSize();
-	void MarkAsStale();
-	void LockResource();
-	void GetForFreeByIndex();
-	void EnsureCapacity();
-	void FlushToTargetSize();
-	void Purge();
-	void UnlockResource();
-	void BreakLock();
-	void DestroyResource();
-	void BreakAllLocks();
-	void TouchByIndex();
-	void GetResource_NoLock();
-	void TouchResource();
-	void FlushAllUnlocked();
-	void CreateHandle();
-	void GetLRUHandleList();
-	void GetLockHandleList();
-	void CDataManagerBase();
+	_GLOBAL__sub_I_CDataManagerBase(); // size[0]
+	void NotifySizeChanged(); // size[0]
+	void SetTargetSize(); // size[0]
+	void GetResource_NoLockNoLRUTouch(); // size[0]
+	void StoreResourceInHandle(); // size[0]
+	void ToHandle(); // size[0]
+	void TargetSize(); // size[0]
+	void AvailableSize(); // size[0]
+	void UsedSize(); // size[0]
+	void MarkAsStale(); // size[0]
+	void LockResource(); // size[0]
+	void GetForFreeByIndex(); // size[0]
+	void EnsureCapacity(); // size[0]
+	void FlushToTargetSize(); // size[0]
+	void Purge(); // size[0]
+	void UnlockResource(); // size[0]
+	void BreakLock(); // size[0]
+	void DestroyResource(); // size[0]
+	void BreakAllLocks(); // size[0]
+	void TouchByIndex(); // size[0]
+	void GetResource_NoLock(); // size[0]
+	void TouchResource(); // size[0]
+	void FlushAllUnlocked(); // size[0]
+	void CreateHandle(); // size[0]
+	void GetLRUHandleList(); // size[0]
+	void GetLockHandleList(); // size[0]
+	CDataManagerBase(); // size[0]
 };

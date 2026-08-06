@@ -6,9 +6,9 @@ public:
 	virtual void Finish(); // vtable[0]
 	virtual void GetMoreFiles(); // vtable[1]
 
-	void OnReceiveFileDetails();
-	void UserPublishedFiles();
-	void Refresh();
-	void GetCurrentAmount();
-	void OnReceiveFileDetails();
+	void OnReceiveFileDetails(); // size[0]
+	UserPublishedFiles(); // size[0]
+	void Refresh(); // size[0]
+	void GetCurrentAmount(); // size[0]
+	void OnReceiveFileDetails(); // size[0]
 };

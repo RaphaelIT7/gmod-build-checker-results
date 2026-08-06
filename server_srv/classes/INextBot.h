@@ -3,8 +3,10 @@
 class INextBot : public INextBotEventResponder
 {
 public:
-	virtual void ~INextBot() override; // vtable[0]
-	virtual void ~INextBot() override; // vtable[1]
+	virtual ~INextBot() override; // vtable[0]
+	virtual ~INextBot() override; // vtable[1]
+	virtual void FirstContainedResponder() override; // vtable[2]
+	virtual void NextContainedResponder() override; // vtable[3]
 	virtual void Reset(); // vtable[43]
 	virtual void Update(); // vtable[44]
 	virtual void Upkeep(); // vtable[45]
@@ -44,12 +46,12 @@ public:
 	virtual void IsDebugFilterMatch(); // vtable[79]
 	virtual void DisplayDebugText(); // vtable[80]
 
-	void ResetDebugHistory();
-	void BeginUpdate();
-	void EndUpdate();
-	void RegisterComponent();
-	void UpdateImmobileStatus();
-	void INextBot();
-	void DebugConColorMsg();
-	void GetDebugHistory();
+	void ResetDebugHistory(); // size[0]
+	void BeginUpdate(); // size[0]
+	void EndUpdate(); // size[0]
+	void RegisterComponent(); // size[0]
+	void UpdateImmobileStatus(); // size[0]
+	INextBot(); // size[0]
+	void DebugConColorMsg(); // size[0]
+	void GetDebugHistory(); // size[0]
 };

@@ -3,10 +3,11 @@
 class CParticleLight : public CServerOnlyPointEntity
 {
 public:
-	virtual void ~CParticleLight() override; // vtable[0]
-	virtual void ~CParticleLight() override; // vtable[1]
+	virtual ~CParticleLight() override; // vtable[0]
+	virtual ~CParticleLight() override; // vtable[1]
+	virtual void GetDataDescMap() override; // vtable[12]
 
-	void _GLOBAL__sub_I_m_DataMap();
-	void GetBaseMap();
-	void CParticleLight();
+	void _GLOBAL__sub_I_m_DataMap(); // size[0]
+	void GetBaseMap(); // size[0]
+	CParticleLight(); // size[0]
 };

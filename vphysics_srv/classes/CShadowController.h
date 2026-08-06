@@ -10,8 +10,8 @@ public:
 	virtual void do_simulation_controller(); // vtable[4]
 	virtual void get_controller_priority(); // vtable[5]
 	virtual void get_controller_name(); // vtable[6]
-	virtual void ~CShadowController(); // vtable[7]
-	virtual void ~CShadowController(); // vtable[8]
+	virtual ~CShadowController(); // vtable[7]
+	virtual ~CShadowController(); // vtable[8]
 	virtual void Update(); // vtable[9]
 	virtual void MaxSpeed(); // vtable[10]
 	virtual void StepUp(); // vtable[11]
@@ -27,27 +27,27 @@ public:
 	virtual void GetTeleportDistance(); // vtable[21]
 	virtual void GetMaxSpeed(); // vtable[22]
 
-	void MaxSpeed();
-	void SetTeleportDistance();
-	void GetTeleportDistance();
-	void GetMaxSpeed();
-	void StepUp();
-	void GetTargetPosition();
-	void Update();
-	void CShadowController();
-	void AttachObject();
-	void CShadowController();
-	void DetachObject();
-	void ~CShadowController();
-	void ~CShadowController();
-	void SetObject();
-	void WriteToTemplate();
-	void InitFromTemplate();
-	void AllowsTranslation();
-	void AllowsRotation();
-	void GetLastImpulse();
-	void SetPhysicallyControlled();
-	void IsPhysicallyControlled();
-	void UseShadowMaterial();
-	void ObjectMaterialChanged();
+	void MaxSpeed(); // size[0]
+	void SetTeleportDistance(); // size[0]
+	void GetTeleportDistance(); // size[0]
+	void GetMaxSpeed(); // size[0]
+	void StepUp(); // size[0]
+	void GetTargetPosition(); // size[0]
+	void Update(); // size[0]
+	CShadowController(); // size[0]
+	void AttachObject(); // size[0]
+	CShadowController(); // size[0]
+	void DetachObject(); // size[0]
+	~CShadowController(); // size[0]
+	~CShadowController(); // size[0]
+	void SetObject(); // size[0]
+	void WriteToTemplate(); // size[0]
+	void InitFromTemplate(); // size[0]
+	void AllowsTranslation(); // size[0]
+	void AllowsRotation(); // size[0]
+	void GetLastImpulse(); // size[0]
+	void SetPhysicallyControlled(); // size[0]
+	void IsPhysicallyControlled(); // size[0]
+	void UseShadowMaterial(); // size[0]
+	void ObjectMaterialChanged(); // size[0]
 };

@@ -8,57 +8,57 @@ public:
 	virtual void GetCornerNeighbors(); // vtable[2]
 	virtual void GetDispUtilsByIndex() override; // vtable[3]
 
-	void CCoreDispInfo();
-	void ~CCoreDispInfo();
-	void InitDispInfo();
-	void InitDispInfo();
-	void SetDispUtilsHelperInfo();
-	void BuildTriTLtoBR();
-	void BuildTriBLtoTR();
-	void GenerateCollisionSurface();
-	void GenerateCollisionData();
-	void CalcTriSurfPlanes();
-	void CalcRayBoundingBoxes();
-	void CalcTriSurfBoundingBoxes();
-	void CalcTriSurfIndices();
-	void CalcTriSurfInfoAtNode();
-	void CalcMinMaxBoundingBoxAtNode();
-	void CalcBoundingBoxAtNode();
-	void GetMaxErrorFromChildren();
-	void CalcErrorTermAtNode();
-	void CalcNeighborVertIndicesAtNode();
-	void CalcNodeInfo();
-	void GetNodeVertIndexFromParentIndex();
-	void CalcVertIndicesAtNodes();
-	void GenerateLODTree();
-	void CalcDispSurfCoords();
-	void GenerateDispSurfTangentSpaces();
-	void CalcNormalFromEdges();
-	void DoesEdgeExist();
-	void GenerateDispSurfNormals();
-	void GenerateDispSurf();
-	void BaseFacePlaneToDispUV();
-	void DispUVToSurf_TriTLToBR_2();
-	void DispUVToSurf_TriTLToBR_1();
-	void DispUVToSurf_TriTLToBR();
-	void DispUVToSurf_TriBLToTR_2();
-	void DispUVToSurf_TriBLToTR_1();
-	void DispUVToSurf_TriBLToTR();
-	void DispUVToSurf();
-	void GetPositionOnSurface();
-	void CreateBoundingBoxes();
-	void GetTriangleIndicesForDispBBox();
-	void SurfToBaseFacePlane();
-	void GetTriCount();
-	void GetTriIndices();
-	void SetTriIndices();
-	void GetTriPos();
-	void InitTris();
-	void CreateTris();
-	void Create();
-	void CreateWithoutLOD();
-	void IsTriWalkable();
-	void IsTriBuildable();
-	void IsTriRemove();
-	void Position_Update();
+	CCoreDispInfo(); // size[0]
+	~CCoreDispInfo(); // size[0]
+	void InitDispInfo(); // size[0]
+	void InitDispInfo(); // size[0]
+	void SetDispUtilsHelperInfo(); // size[0]
+	void BuildTriTLtoBR(); // size[0]
+	void BuildTriBLtoTR(); // size[0]
+	void GenerateCollisionSurface(); // size[0]
+	void GenerateCollisionData(); // size[0]
+	void CalcTriSurfPlanes(); // size[0]
+	void CalcRayBoundingBoxes(); // size[0]
+	void CalcTriSurfBoundingBoxes(); // size[0]
+	void CalcTriSurfIndices(); // size[0]
+	void CalcTriSurfInfoAtNode(); // size[0]
+	void CalcMinMaxBoundingBoxAtNode(); // size[0]
+	void CalcBoundingBoxAtNode(); // size[0]
+	void GetMaxErrorFromChildren(); // size[0]
+	void CalcErrorTermAtNode(); // size[0]
+	void CalcNeighborVertIndicesAtNode(); // size[0]
+	void CalcNodeInfo(); // size[0]
+	void GetNodeVertIndexFromParentIndex(); // size[0]
+	void CalcVertIndicesAtNodes(); // size[0]
+	void GenerateLODTree(); // size[0]
+	void CalcDispSurfCoords(); // size[0]
+	void GenerateDispSurfTangentSpaces(); // size[0]
+	void CalcNormalFromEdges(); // size[0]
+	void DoesEdgeExist(); // size[0]
+	void GenerateDispSurfNormals(); // size[0]
+	void GenerateDispSurf(); // size[0]
+	void BaseFacePlaneToDispUV(); // size[0]
+	void DispUVToSurf_TriTLToBR_2(); // size[0]
+	void DispUVToSurf_TriTLToBR_1(); // size[0]
+	void DispUVToSurf_TriTLToBR(); // size[0]
+	void DispUVToSurf_TriBLToTR_2(); // size[0]
+	void DispUVToSurf_TriBLToTR_1(); // size[0]
+	void DispUVToSurf_TriBLToTR(); // size[0]
+	void DispUVToSurf(); // size[0]
+	void GetPositionOnSurface(); // size[0]
+	void CreateBoundingBoxes(); // size[0]
+	void GetTriangleIndicesForDispBBox(); // size[0]
+	void SurfToBaseFacePlane(); // size[0]
+	void GetTriCount(); // size[0]
+	void GetTriIndices(); // size[0]
+	void SetTriIndices(); // size[0]
+	void GetTriPos(); // size[0]
+	void InitTris(); // size[0]
+	void CreateTris(); // size[0]
+	void Create(); // size[0]
+	void CreateWithoutLOD(); // size[0]
+	void IsTriWalkable(); // size[0]
+	void IsTriBuildable(); // size[0]
+	void IsTriRemove(); // size[0]
+	void Position_Update(); // size[0]
 };

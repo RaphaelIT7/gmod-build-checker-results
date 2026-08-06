@@ -3,9 +3,9 @@
 class IVP_Actuator_Four_Point : public IVP_Actuator
 {
 public:
-	void IVP_Actuator_Four_Point();
-	void ~IVP_Actuator_Four_Point();
-	void ~IVP_Actuator_Four_Point();
-	void IVP_Actuator_Four_Point();
-	void get_actuator_anchor();
+	IVP_Actuator_Four_Point(); // size[0]
+	~IVP_Actuator_Four_Point(); // size[0]
+	~IVP_Actuator_Four_Point(); // size[0]
+	IVP_Actuator_Four_Point(); // size[0]
+	void get_actuator_anchor(); // size[0]
 };

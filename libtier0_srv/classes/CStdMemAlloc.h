@@ -42,6 +42,6 @@ public:
 	virtual void InitDebugInfo(); // vtable[36]
 	virtual void GlobalMemoryStatus(); // vtable[37]
 
-	void DefaultFailHandler();
-	void SetCRTAllocFailed();
+	void DefaultFailHandler(); // size[0]
+	void SetCRTAllocFailed(); // size[0]
 };

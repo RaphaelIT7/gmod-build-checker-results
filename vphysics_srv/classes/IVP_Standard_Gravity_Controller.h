@@ -10,9 +10,9 @@ public:
 	virtual void do_simulation_controller(); // vtable[4]
 	virtual void get_controller_priority(); // vtable[5]
 	virtual void get_controller_name(); // vtable[6]
-	virtual void ~IVP_Standard_Gravity_Controller(); // vtable[7]
-	virtual void ~IVP_Standard_Gravity_Controller(); // vtable[8]
+	virtual ~IVP_Standard_Gravity_Controller(); // vtable[7]
+	virtual ~IVP_Standard_Gravity_Controller(); // vtable[8]
 
-	void set_standard_gravity();
-	void set_alternate_gravity();
+	void set_standard_gravity(); // size[0]
+	void set_alternate_gravity(); // size[0]
 };

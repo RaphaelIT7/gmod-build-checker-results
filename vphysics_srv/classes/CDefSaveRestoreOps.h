@@ -3,7 +3,7 @@
 class CDefSaveRestoreOps : public ISaveRestoreOps
 {
 public:
-	void Parse();
-	void IsEmpty();
-	void MakeEmpty();
+	void Parse(); // size[0]
+	void IsEmpty(); // size[0]
+	void MakeEmpty(); // size[0]
 };

@@ -6,7 +6,10 @@ public:
 	virtual void BeginRender(); // vtable[0]
 	virtual void EndRender(); // vtable[1]
 	virtual void Flush(); // vtable[2]
+	virtual void BindLocalCubemap() override; // vtable[3]
 	virtual void GetRenderTargetDimensions(); // vtable[6]
+	virtual void Bind() override; // vtable[7]
+	virtual void BindLightmapPage() override; // vtable[8]
 	virtual void DepthRange(); // vtable[9]
 	virtual void ClearBuffers(); // vtable[10]
 	virtual void ReadPixels(); // vtable[11]
@@ -14,8 +17,28 @@ public:
 	virtual void SetLight(); // vtable[13]
 	virtual void SetAmbientLightCube(); // vtable[14]
 	virtual void CopyRenderTargetToTexture(); // vtable[15]
+	virtual void SetFrameBufferCopyTexture() override; // vtable[16]
+	virtual void MatrixMode() override; // vtable[18]
+	virtual void PushMatrix() override; // vtable[19]
+	virtual void PopMatrix() override; // vtable[20]
+	virtual void LoadMatrix() override; // vtable[21]
+	virtual void LoadMatrix() override; // vtable[22]
+	virtual void MultMatrix() override; // vtable[23]
+	virtual void MultMatrix() override; // vtable[24]
+	virtual void MultMatrixLocal() override; // vtable[25]
+	virtual void MultMatrixLocal() override; // vtable[26]
+	virtual void LoadIdentity() override; // vtable[29]
+	virtual void Ortho() override; // vtable[30]
+	virtual void PerspectiveX() override; // vtable[31]
+	virtual void PickMatrix() override; // vtable[32]
+	virtual void Rotate() override; // vtable[33]
+	virtual void Translate() override; // vtable[34]
+	virtual void Scale() override; // vtable[35]
+	virtual void Viewport() override; // vtable[36]
 	virtual void GetViewport(); // vtable[37]
 	virtual void CullMode(); // vtable[38]
+	virtual void SetHeightClipMode() override; // vtable[39]
+	virtual void SetHeightClipZ() override; // vtable[40]
 	virtual void FogMode(); // vtable[41]
 	virtual void FogStart(); // vtable[42]
 	virtual void FogEnd(); // vtable[43]
@@ -69,9 +92,15 @@ public:
 	virtual void GetWindowSize(); // vtable[100]
 	virtual void DrawScreenSpaceRectangle(); // vtable[101]
 	virtual void LoadBoneMatrix(); // vtable[102]
+	virtual void PushRenderTargetAndViewport() override; // vtable[103]
+	virtual void PushRenderTargetAndViewport() override; // vtable[104]
+	virtual void PushRenderTargetAndViewport() override; // vtable[105]
+	virtual void PushRenderTargetAndViewport() override; // vtable[106]
+	virtual void PopRenderTargetAndViewport() override; // vtable[107]
 	virtual void BindLightmapTexture(); // vtable[108]
 	virtual void CopyRenderTargetToTextureEx(); // vtable[109]
 	virtual void CopyTextureToRenderTargetEx(); // vtable[110]
+	virtual void PerspectiveOffCenterX() override; // vtable[111]
 	virtual void SetFloatRenderingParameter(); // vtable[112]
 	virtual void SetIntRenderingParameter(); // vtable[113]
 	virtual void SetVectorRenderingParameter(); // vtable[114]
@@ -84,6 +113,7 @@ public:
 	virtual void SetStencilTestMask(); // vtable[121]
 	virtual void SetStencilWriteMask(); // vtable[122]
 	virtual void ClearStencilBufferRectangle(); // vtable[123]
+	virtual void SetRenderTargetEx() override; // vtable[124]
 	virtual void PushCustomClipPlane(); // vtable[125]
 	virtual void PopCustomClipPlane(); // vtable[126]
 	virtual void GetMaxToRender(); // vtable[127]
@@ -95,6 +125,7 @@ public:
 	virtual void SetFlashlightStateEx(); // vtable[133]
 	virtual void GetLocalCubemap(); // vtable[134]
 	virtual void ClearBuffersObeyStencil(); // vtable[135]
+	virtual void EnableClipping() override; // vtable[136]
 	virtual void GetFogDistances(); // vtable[137]
 	virtual void BeginPIXEvent(); // vtable[138]
 	virtual void EndPIXEvent(); // vtable[139]
@@ -103,6 +134,7 @@ public:
 	virtual void _ZN23CMatQueuedRenderContext9BindBatchEP5IMeshP9IMaterial(); // vtable[142]
 	virtual void DrawBatch(); // vtable[143]
 	virtual void EndBatch(); // vtable[144]
+	virtual void GetCallQueue() override; // vtable[145]
 	virtual void SetToneMappingScaleLinear(); // vtable[151]
 	virtual void SetShadowDepthBiasFactors(); // vtable[153]
 	virtual void PerformFullScreenStencilOperation(); // vtable[154]
@@ -132,14 +164,23 @@ public:
 	virtual void SetNonInteractiveTempFullscreenBuffer(); // vtable[180]
 	virtual void EnableNonInteractiveMode(); // vtable[181]
 	virtual void RefreshFrontBufferNonInteractive(); // vtable[182]
+	virtual void PrintfVA() override; // vtable[188]
+	virtual void Printf() override; // vtable[189]
+	virtual void Knob() override; // vtable[190]
 	virtual void OverrideAlphaWriteEnable(); // vtable[191]
 	virtual void OverrideColorWriteEnable(); // vtable[192]
 	virtual void ClearBuffersObeyStencilEx(); // vtable[193]
+	virtual void GMOD_ForceFilterMode() override; // vtable[194]
+	virtual void GMOD_FlushQueue() override; // vtable[195]
+	virtual void OverrideBlend() override; // vtable[196]
+	virtual void OverrideBlendSeparateAlpha() override; // vtable[197]
 	virtual void _ZN23CMatQueuedRenderContext16GetFogMaxDensityEv() override; // vtable[198]
 	virtual void GetFloatRenderingParameter(); // vtable[199]
 	virtual void GetIntRenderingParameter(); // vtable[200]
 	virtual void GetVectorRenderingParameter(); // vtable[201]
 	virtual void SwapBuffers(); // vtable[202]
+	virtual void SetCurrentMaterialInternal() override; // vtable[203]
+	virtual void GetLightmapPage() override; // vtable[205]
 	virtual void ForceDepthFuncEquals(); // vtable[206]
 	virtual void InFlashlightMode(); // vtable[207]
 	virtual void BindStandardTexture(); // vtable[208]
@@ -155,28 +196,32 @@ public:
 	virtual void ForceHardwareSync(); // vtable[221]
 	virtual void BeginFrame(); // vtable[222]
 	virtual void EndFrame(); // vtable[223]
+	virtual void SetFrameTime() override; // vtable[224]
+	virtual void SetCurrentProxy() override; // vtable[225]
+	virtual void GetCallQueueInternal() override; // vtable[227]
 	virtual void DoStartupShaderPreloading() override; // vtable[228]
+	virtual void GMOD_IsLowOnMemory() override; // vtable[229]
 
-	void ~CMatQueuedRenderContext();
-	void DeferredDrawPrimList();
-	void DeferredSetFlexMesh();
-	void GMOD_QueueLock();
-	void GMOD_QueueUnlock();
-	void DeferredBeginBatch();
-	void Init();
-	void Shutdown();
-	void Free();
-	void CompactMemory();
-	void BeginQueue();
-	void CallQueued();
-	void EndQueue();
-	void AllocVertices();
-	void AllocIndices();
-	void ReallocVertices();
-	void ReallocIndices();
-	void FreeVertices();
-	void FreeIndices();
-	void GMOD_QueueLock();
-	void GMOD_QueueUnlock();
-	void QueueMatrixSync();
+	~CMatQueuedRenderContext(); // size[0]
+	void DeferredDrawPrimList(); // size[0]
+	void DeferredSetFlexMesh(); // size[0]
+	void GMOD_QueueLock(); // size[0]
+	void GMOD_QueueUnlock(); // size[0]
+	void DeferredBeginBatch(); // size[0]
+	void Init(); // size[0]
+	void Shutdown(); // size[0]
+	void Free(); // size[0]
+	void CompactMemory(); // size[0]
+	void BeginQueue(); // size[0]
+	void CallQueued(); // size[0]
+	void EndQueue(); // size[0]
+	void AllocVertices(); // size[0]
+	void AllocIndices(); // size[0]
+	void ReallocVertices(); // size[0]
+	void ReallocIndices(); // size[0]
+	void FreeVertices(); // size[0]
+	void FreeIndices(); // size[0]
+	void GMOD_QueueLock(); // size[0]
+	void GMOD_QueueUnlock(); // size[0]
+	void QueueMatrixSync(); // size[0]
 };

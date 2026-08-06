@@ -3,8 +3,8 @@
 class CPropCombineBall : public CBaseAnimating, public CDefaultPlayerPickupVPhysics
 {
 public:
-	virtual void ~CPropCombineBall() override; // vtable[0]
-	virtual void ~CPropCombineBall() override; // vtable[1]
+	virtual ~CPropCombineBall() override; // vtable[0]
+	virtual ~CPropCombineBall() override; // vtable[1]
 	virtual void SetRefEHandle() override; // vtable[2]
 	virtual void GetRefEHandle() override; // vtable[3]
 	virtual void GetCollideable() override; // vtable[4]
@@ -13,52 +13,62 @@ public:
 	virtual void GetModelIndex() override; // vtable[7]
 	virtual void GetModelName() override; // vtable[8]
 	virtual void SetModelIndex() override; // vtable[9]
+	virtual void GetServerClass() override; // vtable[10]
+	virtual void YouForgotToImplementOrDeclareServerClass() override; // vtable[11]
+	virtual void GetDataDescMap() override; // vtable[12]
+	virtual void Spawn() override; // vtable[23]
+	virtual void Precache() override; // vtable[24]
+	virtual void UpdateOnRemove() override; // vtable[108]
+	virtual void StopLoopingSounds() override; // vtable[109]
+	virtual void CreateVPhysics() override; // vtable[157]
+	virtual void VPhysicsCollision() override; // vtable[165]
+	virtual void HasPhysicsAttacker() override; // vtable[173]
 	virtual void OnPhysGunPickup(); // vtable[282]
 	virtual void OnPhysGunDrop(); // vtable[283]
 	virtual void OverridePropdata(); // vtable[284]
 	virtual void ExplodeThink(); // vtable[285]
 	virtual void ShouldPuntUseLaunchForces(); // vtable[286]
 
-	void AnimThink();
-	void GetBaseMap();
-	void GetSpawner();
-	void SetState();
-	void IsInField();
-	void SetRadius();
-	void StartAnimating();
-	void StopAnimating();
-	void LastCaptureTime();
-	void StartLifetime();
-	void ClearLifetime();
-	void InputSetLifetime();
-	void SetMass();
-	void ShouldHitPlayer();
-	void FadeOut();
-	void InputFadeAndRespawn();
-	void StartWhizSoundThink();
-	void SetPlayerLaunched();
-	void GetBallHoldDissolveTime();
-	void DissolveRampSoundThink();
-	void GetBallHoldSoundRampTime();
-	void CollisionEventToTrace();
-	void DissolveEntity();
-	void IsAttractiveTarget();
-	void DeflectTowardEnemy();
-	void IsHittableEntity();
-	void ReplaceInSpawner();
-	void CaptureBySpawner();
-	void BounceInSpawner();
-	void WhizSoundThink();
-	void SetBallAsLaunched();
-	void OnPhysGunPickup();
-	void OnPhysGunDrop();
-	void DieThink();
-	void NotifySpawnerOfRemoval();
-	void InputKill();
-	void InputSocketed();
-	void DoExplosion();
-	void DissolveThink();
-	void InputExplode();
-	void OnHitEntity();
-	void DoImpactEffect();
+	void AnimThink(); // size[0]
+	void GetBaseMap(); // size[0]
+	void GetSpawner(); // size[0]
+	void SetState(); // size[0]
+	void IsInField(); // size[0]
+	void SetRadius(); // size[0]
+	void StartAnimating(); // size[0]
+	void StopAnimating(); // size[0]
+	void LastCaptureTime(); // size[0]
+	void StartLifetime(); // size[0]
+	void ClearLifetime(); // size[0]
+	void InputSetLifetime(); // size[0]
+	void SetMass(); // size[0]
+	void ShouldHitPlayer(); // size[0]
+	void FadeOut(); // size[0]
+	void InputFadeAndRespawn(); // size[0]
+	void StartWhizSoundThink(); // size[0]
+	void SetPlayerLaunched(); // size[0]
+	void GetBallHoldDissolveTime(); // size[0]
+	void DissolveRampSoundThink(); // size[0]
+	void GetBallHoldSoundRampTime(); // size[0]
+	void CollisionEventToTrace(); // size[0]
+	void DissolveEntity(); // size[0]
+	void IsAttractiveTarget(); // size[0]
+	void DeflectTowardEnemy(); // size[0]
+	void IsHittableEntity(); // size[0]
+	void ReplaceInSpawner(); // size[0]
+	void CaptureBySpawner(); // size[0]
+	void BounceInSpawner(); // size[0]
+	void WhizSoundThink(); // size[0]
+	void SetBallAsLaunched(); // size[0]
+	void OnPhysGunPickup(); // size[0]
+	void OnPhysGunDrop(); // size[0]
+	void DieThink(); // size[0]
+	void NotifySpawnerOfRemoval(); // size[0]
+	void InputKill(); // size[0]
+	void InputSocketed(); // size[0]
+	void DoExplosion(); // size[0]
+	void DissolveThink(); // size[0]
+	void InputExplode(); // size[0]
+	void OnHitEntity(); // size[0]
+	void DoImpactEffect(); // size[0]
 };

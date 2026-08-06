@@ -3,8 +3,8 @@
 class IVP_U_Active_Value_Manager
 {
 public:
-	virtual void ~IVP_U_Active_Value_Manager(); // vtable[0]
-	virtual void ~IVP_U_Active_Value_Manager(); // vtable[1]
+	virtual ~IVP_U_Active_Value_Manager(); // vtable[0]
+	virtual ~IVP_U_Active_Value_Manager(); // vtable[1]
 	virtual void environment_will_be_deleted(); // vtable[2]
 	virtual void insert_active_float(); // vtable[3]
 	virtual void remove_active_float(); // vtable[4]
@@ -20,15 +20,15 @@ public:
 	virtual void install_active_int(); // vtable[14]
 	virtual void create_active_int(); // vtable[15]
 
-	void create_active_int();
-	void install_active_int();
-	void init_active_values_generic();
-	void create_active_float();
-	void install_active_float();
-	void IVP_U_Active_Value_Manager();
-	void get_active_float_by_name();
-	void get_active_int_by_name();
-	void IVP_U_Active_Value_Manager();
-	void get_active_float_by_name();
-	void get_active_int_by_name();
+	void create_active_int(); // size[0]
+	void install_active_int(); // size[0]
+	void init_active_values_generic(); // size[0]
+	void create_active_float(); // size[0]
+	void install_active_float(); // size[0]
+	IVP_U_Active_Value_Manager(); // size[0]
+	void get_active_float_by_name(); // size[0]
+	void get_active_int_by_name(); // size[0]
+	IVP_U_Active_Value_Manager(); // size[0]
+	void get_active_float_by_name(); // size[0]
+	void get_active_int_by_name(); // size[0]
 };

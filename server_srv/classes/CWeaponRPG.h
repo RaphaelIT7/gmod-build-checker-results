@@ -3,22 +3,49 @@
 class CWeaponRPG : public CBaseHL2MPCombatWeapon
 {
 public:
-	virtual void ~CWeaponRPG() override; // vtable[0]
-	virtual void ~CWeaponRPG() override; // vtable[1]
+	virtual ~CWeaponRPG() override; // vtable[0]
+	virtual ~CWeaponRPG() override; // vtable[1]
+	virtual void GetServerClass() override; // vtable[10]
+	virtual void YouForgotToImplementOrDeclareServerClass() override; // vtable[11]
+	virtual void Precache() override; // vtable[24]
+	virtual void Activate() override; // vtable[34]
+	virtual void UpdateOnRemove() override; // vtable[108]
+	virtual void Drop() override; // vtable[285]
+	virtual void HasAnyAmmo() override; // vtable[301]
+	virtual void CanHolster() override; // vtable[304]
+	virtual void Deploy() override; // vtable[307]
+	virtual void Holster() override; // vtable[308]
+	virtual void ItemPostFrame() override; // vtable[318]
+	virtual void Reload() override; // vtable[329]
+	virtual void PrimaryAttack() override; // vtable[332]
+	virtual void GetFireRate() override; // vtable[341]
+	virtual void GetMinBurst() override; // vtable[342]
+	virtual void GetMaxBurst() override; // vtable[343]
+	virtual void GetMinRestTime() override; // vtable[344]
+	virtual void GetMaxRestTime() override; // vtable[345]
+	virtual void GetHoldType() override; // vtable[380]
+	virtual void ActivityList() override; // vtable[388]
+	virtual void ActivityListCount() override; // vtable[389]
+	virtual void CapabilitiesGet() override; // vtable[399]
+	virtual void WeaponLOSCondition() override; // vtable[400]
+	virtual void WeaponRangeAttack1Condition() override; // vtable[401]
+	virtual void Operator_HandleAnimEvent() override; // vtable[406]
+	virtual void Lower() override; // vtable[411]
+	virtual void WeaponShouldBeLowered() override; // vtable[428]
 
-	void CWeaponRPG();
-	void DecrementAmmo();
-	void SetNPCLaserPosition();
-	void GetNPCLaserPosition();
-	void IsGuiding();
-	void StopGuiding();
-	void UpdateLaserPosition();
-	void NotifyRocketDied();
-	void CreateLaserPointer();
-	void GetLaserPosition();
-	void UpdateNPCLaserPosition();
-	void StartGuiding();
-	void StartGuiding();
-	void SuppressGuiding();
-	void ToggleGuiding();
+	CWeaponRPG(); // size[0]
+	void DecrementAmmo(); // size[0]
+	void SetNPCLaserPosition(); // size[0]
+	void GetNPCLaserPosition(); // size[0]
+	void IsGuiding(); // size[0]
+	void StopGuiding(); // size[0]
+	void UpdateLaserPosition(); // size[0]
+	void NotifyRocketDied(); // size[0]
+	void CreateLaserPointer(); // size[0]
+	void GetLaserPosition(); // size[0]
+	void UpdateNPCLaserPosition(); // size[0]
+	void StartGuiding(); // size[0]
+	void StartGuiding(); // size[0]
+	void SuppressGuiding(); // size[0]
+	void ToggleGuiding(); // size[0]
 };

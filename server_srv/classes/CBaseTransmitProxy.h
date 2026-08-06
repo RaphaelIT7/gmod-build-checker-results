@@ -3,12 +3,12 @@
 class CBaseTransmitProxy
 {
 public:
-	virtual void ~CBaseTransmitProxy(); // vtable[0]
-	virtual void ~CBaseTransmitProxy(); // vtable[1]
+	virtual ~CBaseTransmitProxy(); // vtable[0]
+	virtual ~CBaseTransmitProxy(); // vtable[1]
 	virtual void ShouldTransmit(); // vtable[2]
 
-	void _GLOBAL__sub_I_CBaseTransmitProxy();
-	void CBaseTransmitProxy();
-	void AddRef();
-	void Release();
+	_GLOBAL__sub_I_CBaseTransmitProxy(); // size[0]
+	CBaseTransmitProxy(); // size[0]
+	void AddRef(); // size[0]
+	void Release(); // size[0]
 };

@@ -3,13 +3,18 @@
 class CSatchelCharge : public CBaseGrenade
 {
 public:
-	virtual void ~CSatchelCharge() override; // vtable[0]
-	virtual void ~CSatchelCharge() override; // vtable[1]
+	virtual ~CSatchelCharge() override; // vtable[0]
+	virtual ~CSatchelCharge() override; // vtable[1]
+	virtual void GetDataDescMap() override; // vtable[12]
+	virtual void Spawn() override; // vtable[23]
+	virtual void Precache() override; // vtable[24]
+	virtual void UpdateOnRemove() override; // vtable[108]
+	virtual void BounceSound() override; // vtable[285]
 
-	void InputExplode();
-	void SatchelThink();
-	void GetBaseMap();
-	void Deactivate();
-	void CreateEffects();
-	void CSatchelCharge();
+	void InputExplode(); // size[0]
+	void SatchelThink(); // size[0]
+	void GetBaseMap(); // size[0]
+	void Deactivate(); // size[0]
+	void CreateEffects(); // size[0]
+	CSatchelCharge(); // size[0]
 };

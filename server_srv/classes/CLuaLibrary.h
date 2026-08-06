@@ -3,10 +3,11 @@
 class CLuaLibrary : public CLuaUser
 {
 public:
-	virtual void ~CLuaLibrary() override; // vtable[0]
-	virtual void ~CLuaLibrary() override; // vtable[1]
+	virtual ~CLuaLibrary() override; // vtable[0]
+	virtual ~CLuaLibrary() override; // vtable[1]
+	virtual void InitLibraries() override; // vtable[3]
 
-	void _GLOBAL__sub_I_CLuaLibrary();
-	void CLuaLibrary();
-	void Add();
+	_GLOBAL__sub_I_CLuaLibrary(); // size[0]
+	CLuaLibrary(); // size[0]
+	void Add(); // size[0]
 };

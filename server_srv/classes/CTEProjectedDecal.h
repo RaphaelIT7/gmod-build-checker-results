@@ -3,9 +3,12 @@
 class CTEProjectedDecal : public CBaseTempEntity
 {
 public:
-	virtual void ~CTEProjectedDecal() override; // vtable[2]
-	virtual void ~CTEProjectedDecal() override; // vtable[3]
+	virtual void GetServerClass() override; // vtable[0]
+	virtual void YouForgotToImplementOrDeclareServerClass() override; // vtable[1]
+	virtual ~CTEProjectedDecal() override; // vtable[2]
+	virtual ~CTEProjectedDecal() override; // vtable[3]
+	virtual void Test() override; // vtable[4]
 
-	void _GLOBAL__sub_I_CTEProjectedDecal();
-	void CTEProjectedDecal();
+	_GLOBAL__sub_I_CTEProjectedDecal(); // size[0]
+	CTEProjectedDecal(); // size[0]
 };

@@ -3,8 +3,8 @@
 class CPhysCollideVirtualMesh : public CPhysCollide
 {
 public:
-	virtual void ~CPhysCollideVirtualMesh(); // vtable[0]
-	virtual void ~CPhysCollideVirtualMesh(); // vtable[1]
+	virtual ~CPhysCollideVirtualMesh(); // vtable[0]
+	virtual ~CPhysCollideVirtualMesh(); // vtable[1]
 	virtual void CreateSurfaceManager(); // vtable[2]
 	virtual void GetAllLedges(); // vtable[3]
 	virtual void GetSerializationSize(); // vtable[4]
@@ -20,16 +20,16 @@ public:
 	virtual void ComputeOrthographicAreas(); // vtable[14]
 	virtual void GetCollideMap(); // vtable[15]
 
-	void CreateBoundingSurfaceFromRange();
-	void GetSphereRadiusIVP();
-	void Release();
-	void BuildLedges();
-	void AddRef();
-	void AddRef();
-	void CreateBoundingSurfaceFromRange();
-	void CreateMeshBoundingHull();
-	void CreateMeshBoundingHull();
-	void BuildBoundingLedge();
-	void FrameRelease();
-	void GetAllLedgesWithinRadius();
+	void CreateBoundingSurfaceFromRange(); // size[0]
+	void GetSphereRadiusIVP(); // size[0]
+	void Release(); // size[0]
+	void BuildLedges(); // size[0]
+	void AddRef(); // size[0]
+	void AddRef(); // size[0]
+	void CreateBoundingSurfaceFromRange(); // size[0]
+	void CreateMeshBoundingHull(); // size[0]
+	void CreateMeshBoundingHull(); // size[0]
+	void BuildBoundingLedge(); // size[0]
+	void FrameRelease(); // size[0]
+	void GetAllLedgesWithinRadius(); // size[0]
 };

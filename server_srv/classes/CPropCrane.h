@@ -3,10 +3,27 @@
 class CPropCrane : public CBaseProp, public IDrivableVehicle
 {
 public:
-	virtual void ~CPropCrane() override; // vtable[0]
-	virtual void ~CPropCrane() override; // vtable[1]
+	virtual ~CPropCrane() override; // vtable[0]
+	virtual ~CPropCrane() override; // vtable[1]
+	virtual void GetServerClass() override; // vtable[10]
+	virtual void YouForgotToImplementOrDeclareServerClass() override; // vtable[11]
+	virtual void GetDataDescMap() override; // vtable[12]
 	virtual void TestHitboxes() override; // vtable[15]
+	virtual void Spawn() override; // vtable[23]
+	virtual void Precache() override; // vtable[24]
+	virtual void Activate() override; // vtable[34]
+	virtual void ObjectCaps() override; // vtable[36]
+	virtual void DrawDebugGeometryOverlays() override; // vtable[39]
+	virtual void Think() override; // vtable[48]
+	virtual void TraceAttack() override; // vtable[62]
+	virtual void OnTakeDamage() override; // vtable[64]
+	virtual void GetServerVehicle() override; // vtable[91]
+	virtual void Use() override; // vtable[100]
+	virtual void UpdateOnRemove() override; // vtable[108]
+	virtual void BodyTarget() override; // vtable[137]
+	virtual void GetVectors() override; // vtable[139]
 	virtual void _ZN10CPropCrane14CreateVPhysicsEv() override; // vtable[157]
+	virtual void IsVehicle() override; // vtable[203]
 	virtual void PassengerShouldReceiveDamage(); // vtable[283]
 	virtual void GetDriver(); // vtable[284]
 	virtual void ItemPostFrame(); // vtable[285]
@@ -24,34 +41,34 @@ public:
 	virtual void ExitVehicle(); // vtable[297]
 	virtual void GetVehicleScriptName(); // vtable[298]
 
-	void ItemPostFrame();
-	void CanEnterVehicle();
-	void CanExitVehicle();
-	void GetDriver();
-	void InputLock();
-	void InputUnlock();
-	void PreExitVehicle();
-	void InputForcePlayerIn();
-	void EnterVehicle();
-	void ExitVehicle();
-	void GetBaseMap();
-	void InitCraneSpeeds();
-	void ResetUseKey();
-	void RecalculateCraneTip();
-	void TurnMagnetOn();
-	void TurnMagnetOff();
-	void DriveCrane();
-	void GetCraneTipPosition();
-	void GetCraneTipPosition();
-	void SetNPCDriver();
-	void RunCraneMovement();
-	void SetupMove();
-	void PassengerShouldReceiveDamage();
-	void ProcessMovement();
-	void FinishMove();
-	void AllowBlockedExit();
-	void AllowMidairExit();
-	void GetVehicleScriptName();
-	void SetVehicleEntryAnim();
-	void SetVehicleExitAnim();
+	void ItemPostFrame(); // size[0]
+	void CanEnterVehicle(); // size[0]
+	void CanExitVehicle(); // size[0]
+	void GetDriver(); // size[0]
+	void InputLock(); // size[0]
+	void InputUnlock(); // size[0]
+	void PreExitVehicle(); // size[0]
+	void InputForcePlayerIn(); // size[0]
+	void EnterVehicle(); // size[0]
+	void ExitVehicle(); // size[0]
+	void GetBaseMap(); // size[0]
+	void InitCraneSpeeds(); // size[0]
+	void ResetUseKey(); // size[0]
+	void RecalculateCraneTip(); // size[0]
+	void TurnMagnetOn(); // size[0]
+	void TurnMagnetOff(); // size[0]
+	void DriveCrane(); // size[0]
+	void GetCraneTipPosition(); // size[0]
+	void GetCraneTipPosition(); // size[0]
+	void SetNPCDriver(); // size[0]
+	void RunCraneMovement(); // size[0]
+	void SetupMove(); // size[0]
+	void PassengerShouldReceiveDamage(); // size[0]
+	void ProcessMovement(); // size[0]
+	void FinishMove(); // size[0]
+	void AllowBlockedExit(); // size[0]
+	void AllowMidairExit(); // size[0]
+	void GetVehicleScriptName(); // size[0]
+	void SetVehicleEntryAnim(); // size[0]
+	void SetVehicleExitAnim(); // size[0]
 };

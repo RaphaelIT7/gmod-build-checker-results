@@ -3,8 +3,40 @@
 class CLuaNextBot : public NextBotCombatCharacter
 {
 public:
-	virtual void ~CLuaNextBot() override; // vtable[0]
-	virtual void ~CLuaNextBot() override; // vtable[1]
+	virtual ~CLuaNextBot() override; // vtable[0]
+	virtual ~CLuaNextBot() override; // vtable[1]
+	virtual void GetServerClass() override; // vtable[10]
+	virtual void YouForgotToImplementOrDeclareServerClass() override; // vtable[11]
+	virtual void GetDataDescMap() override; // vtable[12]
+	virtual void ShouldCollide() override; // vtable[17]
+	virtual void Spawn() override; // vtable[23]
+	virtual void KeyValue() override; // vtable[30]
+	virtual void ObjectCaps() override; // vtable[36]
+	virtual void AcceptInput() override; // vtable[37]
+	virtual void OnRestore() override; // vtable[45]
+	virtual void TraceAttack() override; // vtable[62]
+	virtual void OnTakeDamage() override; // vtable[64]
+	virtual void UpdateOnRemove() override; // vtable[108]
+	virtual void DoImpactEffect() override; // vtable[116]
+	virtual void NetworkStateChanged_m_iMaxHealth() override; // vtable[122]
+	virtual void NetworkStateChanged_m_iMaxHealth() override; // vtable[123]
+	virtual void NetworkStateChanged_m_iHealth() override; // vtable[124]
+	virtual void NetworkStateChanged_m_iHealth() override; // vtable[125]
+	virtual void NetworkStateChanged_m_lifeState() override; // vtable[126]
+	virtual void NetworkStateChanged_m_lifeState() override; // vtable[127]
+	virtual void PhysicsSolidMaskForEntity() override; // vtable[174]
+	virtual void UsesLua() override; // vtable[205]
+	virtual void SetUseType() override; // vtable[222]
+	virtual void GetLuaScriptName() override; // vtable[224]
+	virtual void InitializeScriptedEntity() override; // vtable[227]
+	virtual void Lua_OnEntityInitialized() override; // vtable[231]
+	virtual void GetNextBot() override; // vtable[235]
+	virtual void Lua_GetLuaClass() override; // vtable[241]
+	virtual void GMOD_CreateBoneFollowers() override; // vtable[242]
+	virtual void GMOD_UpdateBoneFollowers() override; // vtable[243]
+	virtual void GMOD_DestroyBoneFollowers() override; // vtable[244]
+	virtual void GMOD_GetBoneFollowerMgr() override; // vtable[245]
+	virtual void HandleAnimEvent() override; // vtable[261]
 	virtual void IsRemovedOnReset(); // vtable[393]
 	virtual void GetIntentionInterface(); // vtable[394]
 	virtual void GetLocomotionInterface(); // vtable[395]
@@ -13,28 +45,28 @@ public:
 	virtual void ScriptUse(); // vtable[398]
 	virtual void ScriptThink(); // vtable[399]
 
-	void _GLOBAL__sub_I_GetServerClass();
-	void ~CLuaNextBotIntention();
-	void ~CLuaNextBotIntention();
-	void ~CLuaNextBotIntention();
-	void ~CLuaNextBotIntention();
-	void ~CLuaNextBot();
-	void ~CLuaNextBot();
-	void GetBaseMap();
-	void BodyMoveXY();
-	void SetLuaBodySolidMask();
-	void GetLuaBodySolidMask();
-	void Reset();
-	void CLuaNextBotIntention();
-	void CLuaNextBot();
-	void Update();
-	void IsRemovedOnReset();
-	void FirstContainedResponder();
-	void NextContainedResponder();
-	void GetIntentionInterface();
-	void GetLocomotionInterface();
-	void GetBodyInterface();
-	void GetVisionInterface();
-	void NetworkStateChanged();
-	void NetworkStateChanged();
+	void _GLOBAL__sub_I_GetServerClass(); // size[0]
+	~CLuaNextBotIntention(); // size[0]
+	~CLuaNextBotIntention(); // size[0]
+	~CLuaNextBotIntention(); // size[0]
+	~CLuaNextBotIntention(); // size[0]
+	~CLuaNextBot(); // size[0]
+	~CLuaNextBot(); // size[0]
+	void GetBaseMap(); // size[0]
+	void BodyMoveXY(); // size[0]
+	void SetLuaBodySolidMask(); // size[0]
+	void GetLuaBodySolidMask(); // size[0]
+	void Reset(); // size[0]
+	CLuaNextBotIntention(); // size[0]
+	CLuaNextBot(); // size[0]
+	void Update(); // size[0]
+	void IsRemovedOnReset(); // size[0]
+	void FirstContainedResponder(); // size[0]
+	void NextContainedResponder(); // size[0]
+	void GetIntentionInterface(); // size[0]
+	void GetLocomotionInterface(); // size[0]
+	void GetBodyInterface(); // size[0]
+	void GetVisionInterface(); // size[0]
+	void NetworkStateChanged(); // size[0]
+	void NetworkStateChanged(); // size[0]
 };

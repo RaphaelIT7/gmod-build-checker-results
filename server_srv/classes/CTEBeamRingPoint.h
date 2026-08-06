@@ -3,10 +3,11 @@
 class CTEBeamRingPoint : public CTEBaseBeam
 {
 public:
-	virtual void ~CTEBeamRingPoint() override; // vtable[2]
+	virtual void GetServerClass() override; // vtable[0]
+	virtual void YouForgotToImplementOrDeclareServerClass() override; // vtable[1]
+	virtual ~CTEBeamRingPoint() override; // vtable[2]
 	virtual void _ZN16CTEBeamRingPointD0Ev() override; // vtable[3]
-	virtual void _ZN16CTEBeamRingPoint4TestERK6VectorRK6QAngle() override; // vtable[4]
 
-	void _GLOBAL__sub_I_CTEBeamRingPoint();
-	void CTEBeamRingPoint();
+	_GLOBAL__sub_I_CTEBeamRingPoint(); // size[0]
+	CTEBeamRingPoint(); // size[0]
 };

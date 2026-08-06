@@ -3,17 +3,17 @@
 class CAsyncRead
 {
 public:
-	virtual void ~CAsyncRead(); // vtable[0]
-	virtual void ~CAsyncRead(); // vtable[1]
+	virtual ~CAsyncRead(); // vtable[0]
+	virtual ~CAsyncRead(); // vtable[1]
 
-	void _GLOBAL__sub_I_CAsyncRead();
-	void CAsyncRead();
-	void LoadFile();
-	void Finish();
-	void ASyncLoad();
-	void IsLoading();
-	void IsLoaded();
-	void IsErrored();
-	void GetDataPointer();
-	void GetBytes();
+	_GLOBAL__sub_I_CAsyncRead(); // size[0]
+	CAsyncRead(); // size[0]
+	void LoadFile(); // size[0]
+	void Finish(); // size[0]
+	void ASyncLoad(); // size[0]
+	void IsLoading(); // size[0]
+	void IsLoaded(); // size[0]
+	void IsErrored(); // size[0]
+	void GetDataPointer(); // size[0]
+	void GetBytes(); // size[0]
 };

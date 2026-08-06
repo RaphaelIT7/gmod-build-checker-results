@@ -3,8 +3,8 @@
 class CModelInfo : public IVModelInfoClient
 {
 public:
-	virtual void ~CModelInfo() override; // vtable[0]
-	virtual void ~CModelInfo() override; // vtable[1]
+	virtual ~CModelInfo() override; // vtable[0]
+	virtual ~CModelInfo() override; // vtable[1]
 	virtual void GetModelIndex(); // vtable[3]
 	virtual void GetModelName(); // vtable[4]
 	virtual void GetVCollide(); // vtable[5]
@@ -62,6 +62,6 @@ public:
 	virtual void IsNoDrawSurface() override; // vtable[66]
 	virtual void __cxa_pure_virtual(); // vtable[69]
 
-	void _GLOBAL__sub_I_GetModelIndex();
-	void LookupDynamicModel();
+	void _GLOBAL__sub_I_GetModelIndex(); // size[0]
+	void LookupDynamicModel(); // size[0]
 };

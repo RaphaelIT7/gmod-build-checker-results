@@ -40,15 +40,15 @@ public:
 	virtual void FactoryInternalIterator(); // vtable[34]
 	virtual void RevertServerConVars() override; // vtable[35]
 
-	void _GLOBAL__sub_I_SetFirst();
-	void SetFirst();
-	void IsValid();
-	void Get();
-	void Next();
-	void DisplayQueuedMessages();
-	void Find();
-	void CCvar();
-	void ~CCVarIteratorInternal();
-	void ~CCVarIteratorInternal();
-	void ~CCvar();
+	void _GLOBAL__sub_I_SetFirst(); // size[0]
+	void SetFirst(); // size[0]
+	void IsValid(); // size[0]
+	void Get(); // size[0]
+	void Next(); // size[0]
+	void DisplayQueuedMessages(); // size[0]
+	void Find(); // size[0]
+	CCvar(); // size[0]
+	~CCVarIteratorInternal(); // size[0]
+	~CCVarIteratorInternal(); // size[0]
+	~CCvar(); // size[0]
 };

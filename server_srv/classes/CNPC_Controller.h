@@ -3,16 +3,49 @@
 class CNPC_Controller : public CAI_BaseFlyingBot
 {
 public:
-	virtual void ~CNPC_Controller() override; // vtable[0]
-	virtual void ~CNPC_Controller() override; // vtable[1]
+	virtual ~CNPC_Controller() override; // vtable[0]
+	virtual ~CNPC_Controller() override; // vtable[1]
+	virtual void GetDataDescMap() override; // vtable[12]
+	virtual void Spawn() override; // vtable[23]
+	virtual void Precache() override; // vtable[24]
+	virtual void Classify() override; // vtable[55]
+	virtual void Event_Killed() override; // vtable[68]
+	virtual void SetSequence() override; // vtable[249]
+	virtual void HandleAnimEvent() override; // vtable[261]
+	virtual void NPC_TranslateActivity() override; // vtable[322]
+	virtual void OnTakeDamage_Alive() override; // vtable[338]
+	virtual void HasHumanGibs() override; // vtable[350]
+	virtual void HasAlienGibs() override; // vtable[351]
+	virtual void ShouldGib() override; // vtable[352]
+	virtual void IRelationPriority() override; // vtable[365]
+	virtual void CreateNavigator() override; // vtable[397]
+	virtual void RunAI() override; // vtable[401]
+	virtual void TranslateSchedule() override; // vtable[409]
+	virtual void StartTask() override; // vtable[410]
+	virtual void RunTask() override; // vtable[411]
+	virtual void GetSchedulingErrorName() override; // vtable[432]
+	virtual void LoadedSchedules() override; // vtable[433]
+	virtual void SetActivity() override; // vtable[458]
+	virtual void DeathSound() override; // vtable[507]
+	virtual void AlertSound() override; // vtable[508]
+	virtual void IdleSound() override; // vtable[509]
+	virtual void PainSound() override; // vtable[510]
+	virtual void MaxYawSpeed() override; // vtable[529]
+	virtual void OverrideMove() override; // vtable[538]
+	virtual void SquadSlotName() override; // vtable[581]
+	virtual void RangeAttack1Conditions() override; // vtable[595]
+	virtual void RangeAttack2Conditions() override; // vtable[596]
+	virtual void MeleeAttack1Conditions() override; // vtable[597]
+	virtual void MeleeAttack2Conditions() override; // vtable[598]
+	virtual void GetClassScheduleIdSpace() override; // vtable[640]
 	virtual void MoveToTarget() override; // vtable[654]
 
-	void GetBaseMap();
-	void AttackSound();
-	void LookupFloat();
-	void Stop();
-	void OverridePathMove();
-	void InitCustomSchedules();
-	void LoadSchedules();
-	void CScheduleLoader();
+	void GetBaseMap(); // size[0]
+	void AttackSound(); // size[0]
+	void LookupFloat(); // size[0]
+	void Stop(); // size[0]
+	void OverridePathMove(); // size[0]
+	void InitCustomSchedules(); // size[0]
+	void LoadSchedules(); // size[0]
+	CScheduleLoader(); // size[0]
 };

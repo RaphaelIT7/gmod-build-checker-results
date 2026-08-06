@@ -3,11 +3,11 @@
 class CFileAsyncJob : public CJob
 {
 public:
-	virtual void ~CFileAsyncJob() override; // vtable[2]
-	virtual void ~CFileAsyncJob() override; // vtable[3]
+	virtual ~CFileAsyncJob() override; // vtable[2]
+	virtual ~CFileAsyncJob() override; // vtable[3]
 	virtual void GetResult(); // vtable[9]
 	virtual void IsWrite(); // vtable[10]
 
-	void ~CFileAsyncJob();
-	void ~CFileAsyncJob();
+	~CFileAsyncJob(); // size[0]
+	~CFileAsyncJob(); // size[0]
 };

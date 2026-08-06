@@ -15,7 +15,7 @@ public:
 	virtual void GetSceneString(); // vtable[9]
 	virtual void Reload(); // vtable[10]
 
-	void FindSceneInImage();
-	void GetSceneDataFromImage();
-	void ~CSceneFileCache();
+	void FindSceneInImage(); // size[0]
+	void GetSceneDataFromImage(); // size[0]
+	~CSceneFileCache(); // size[0]
 };

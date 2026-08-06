@@ -3,8 +3,11 @@
 class CAI_TrackPather : public CAI_BaseNPC
 {
 public:
-	virtual void ~CAI_TrackPather() override; // vtable[0]
-	virtual void ~CAI_TrackPather() override; // vtable[1]
+	virtual ~CAI_TrackPather() override; // vtable[0]
+	virtual ~CAI_TrackPather() override; // vtable[1]
+	virtual void GetDataDescMap() override; // vtable[12]
+	virtual void OnSave() override; // vtable[44]
+	virtual void OnRestore() override; // vtable[45]
 	virtual void GetTrackPatherTarget(); // vtable[652]
 	virtual void GetTrackPatherTargetEnt(); // vtable[653]
 	virtual void HasReachedTarget(); // vtable[654]
@@ -12,59 +15,59 @@ public:
 	virtual void FindTrackBlocker(); // vtable[656]
 	virtual void ShouldUseFixedPatrolLogic(); // vtable[657]
 
-	void InputStartBreakableMovement();
-	void InputStopBreakableMovement();
-	void InputStartPatrol();
-	void InputStopPatrol();
-	void InputStartPatrolBreakable();
-	void InputStartLeading();
-	void InputChooseFarthestPathPoint();
-	void InputChooseNearestPathPoint();
-	void EnableLeading();
-	void InputStopLeading();
-	void GetBaseMap();
-	void InitPathingData();
-	void EnableLeading();
-	void SetLeadingDistance();
-	void GetLeadingDistance();
-	void BestPointOnPath();
-	void ComputeLeadingPointAlongPath();
-	void VisualizeDebugInfo();
-	void HasLOSToTarget();
-	void ComputePathDirection();
-	void CurrentPathDirection();
-	void ComputePerpDistanceFromPath();
-	void ComputePointFromPerpDistance();
-	void FindClosestPointOnPath();
-	void SelectNewDestTarget();
-	void TargetPathDirection();
-	void TargetPathAcrossDirection();
-	void TargetSpeedAlongPath();
-	void TargetSpeedAcrossPath();
-	void MaxDistanceFromCurrentPath();
-	void SetFarthestPathDist();
-	void SetupNewCurrentTarget();
-	void IsOnSameTrack();
-	void MoveToClosestTrackPoint();
-	void Teleported();
-	void ComputePathDistance();
-	void IsForwardAlongPath();
-	void UpdateTargetPositionLeading();
-	void UpdateTargetPosition();
-	void MoveToTrackPoint();
-	void ClosestPointToCurrentPath();
-	void ComputeDistanceAlongPathToPoint();
-	void ComputeDistanceToLeadingPosition();
-	void ComputeDistanceToTargetPosition();
-	void ComputePointAlongCurrentPath();
-	void UpdateCurrentTarget();
-	void UpdateCurrentTargetLeading();
-	void ComputePathTangent();
-	void ComputeNormalizedDestVelocity();
-	void SetTrack();
-	void SetTrack();
-	void InputSetTrack();
-	void FlyToPathTrack();
-	void UpdateTrackNavigation();
-	void UseFarthestPathPoint();
+	void InputStartBreakableMovement(); // size[0]
+	void InputStopBreakableMovement(); // size[0]
+	void InputStartPatrol(); // size[0]
+	void InputStopPatrol(); // size[0]
+	void InputStartPatrolBreakable(); // size[0]
+	void InputStartLeading(); // size[0]
+	void InputChooseFarthestPathPoint(); // size[0]
+	void InputChooseNearestPathPoint(); // size[0]
+	void EnableLeading(); // size[0]
+	void InputStopLeading(); // size[0]
+	void GetBaseMap(); // size[0]
+	void InitPathingData(); // size[0]
+	void EnableLeading(); // size[0]
+	void SetLeadingDistance(); // size[0]
+	void GetLeadingDistance(); // size[0]
+	void BestPointOnPath(); // size[0]
+	void ComputeLeadingPointAlongPath(); // size[0]
+	void VisualizeDebugInfo(); // size[0]
+	void HasLOSToTarget(); // size[0]
+	void ComputePathDirection(); // size[0]
+	void CurrentPathDirection(); // size[0]
+	void ComputePerpDistanceFromPath(); // size[0]
+	void ComputePointFromPerpDistance(); // size[0]
+	void FindClosestPointOnPath(); // size[0]
+	void SelectNewDestTarget(); // size[0]
+	void TargetPathDirection(); // size[0]
+	void TargetPathAcrossDirection(); // size[0]
+	void TargetSpeedAlongPath(); // size[0]
+	void TargetSpeedAcrossPath(); // size[0]
+	void MaxDistanceFromCurrentPath(); // size[0]
+	void SetFarthestPathDist(); // size[0]
+	void SetupNewCurrentTarget(); // size[0]
+	void IsOnSameTrack(); // size[0]
+	void MoveToClosestTrackPoint(); // size[0]
+	void Teleported(); // size[0]
+	void ComputePathDistance(); // size[0]
+	void IsForwardAlongPath(); // size[0]
+	void UpdateTargetPositionLeading(); // size[0]
+	void UpdateTargetPosition(); // size[0]
+	void MoveToTrackPoint(); // size[0]
+	void ClosestPointToCurrentPath(); // size[0]
+	void ComputeDistanceAlongPathToPoint(); // size[0]
+	void ComputeDistanceToLeadingPosition(); // size[0]
+	void ComputeDistanceToTargetPosition(); // size[0]
+	void ComputePointAlongCurrentPath(); // size[0]
+	void UpdateCurrentTarget(); // size[0]
+	void UpdateCurrentTargetLeading(); // size[0]
+	void ComputePathTangent(); // size[0]
+	void ComputeNormalizedDestVelocity(); // size[0]
+	void SetTrack(); // size[0]
+	void SetTrack(); // size[0]
+	void InputSetTrack(); // size[0]
+	void FlyToPathTrack(); // size[0]
+	void UpdateTrackNavigation(); // size[0]
+	void UseFarthestPathPoint(); // size[0]
 };

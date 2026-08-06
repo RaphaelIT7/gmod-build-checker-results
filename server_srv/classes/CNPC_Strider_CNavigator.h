@@ -3,8 +3,9 @@
 class CNPC_Strider_CNavigator : public CAI_ComponentWithOuter
 {
 public:
-	virtual void ~CNavigator() override; // vtable[0]
-	virtual void ~CNavigator() override; // vtable[1]
+	virtual ~CNavigator() override; // vtable[0]
+	virtual ~CNavigator() override; // vtable[1]
+	virtual void SetOuter() override; // vtable[2]
 	virtual void Init() override; // vtable[5]
 	virtual void SetGoal() override; // vtable[6]
 	virtual void SetGoalTarget() override; // vtable[7]

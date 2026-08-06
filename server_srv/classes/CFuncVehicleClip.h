@@ -3,11 +3,13 @@
 class CFuncVehicleClip : public CBaseEntity
 {
 public:
-	virtual void ~CFuncVehicleClip() override; // vtable[0]
-	virtual void ~CFuncVehicleClip() override; // vtable[1]
+	virtual ~CFuncVehicleClip() override; // vtable[0]
+	virtual ~CFuncVehicleClip() override; // vtable[1]
+	virtual void GetDataDescMap() override; // vtable[12]
 	virtual void _ZN16CFuncVehicleClip5SpawnEv() override; // vtable[23]
+	virtual void CreateVPhysics() override; // vtable[157]
 
-	void InputDisable();
-	void InputEnable();
-	void GetBaseMap();
+	void InputDisable(); // size[0]
+	void InputEnable(); // size[0]
+	void GetBaseMap(); // size[0]
 };

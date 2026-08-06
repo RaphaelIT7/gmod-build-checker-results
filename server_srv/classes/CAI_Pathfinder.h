@@ -3,8 +3,8 @@
 class CAI_Pathfinder : public CAI_Component
 {
 public:
-	virtual void ~CAI_Pathfinder() override; // vtable[0]
-	virtual void ~CAI_Pathfinder() override; // vtable[1]
+	virtual ~CAI_Pathfinder() override; // vtable[0]
+	virtual ~CAI_Pathfinder() override; // vtable[1]
 	virtual void BuildNodeRoute(); // vtable[5]
 	virtual void BuildLocalRoute(); // vtable[6]
 	virtual void BuildRadialRoute(); // vtable[7]
@@ -12,41 +12,41 @@ public:
 	virtual void BuildOBBAvoidanceRoute(); // vtable[9]
 	virtual void CanUseLocalNavigation(); // vtable[10]
 
-	void _GLOBAL__sub_I_m_DataMap();
-	void GetBaseMap();
-	void Init();
-	void UseStrongOptimizations();
-	void ComputeWaypointType();
-	void MakeRouteFromParents();
-	void NearestNodeToNPC();
-	void NearestNodeToPoint();
-	void CreateNodeWaypoint();
-	void RouteToNode();
-	void RouteFromNode();
-	void BuildSimpleRoute();
-	void BuildJumpRoute();
-	void BuildClimbRoute();
-	void CanGiveWay();
-	void BuildComplexRoute();
-	void BuildGroundRoute();
-	void BuildFlyRoute();
-	void BuildRouteThroughPoints();
-	void BuildRoute();
-	void UnlockRouteNodes();
-	void BuildNearestNodeRoute();
-	void Draw();
-	void DrawDebugGeometryOverlays();
-	void ClearTriOverlayLines();
-	void FadeTriOverlayLines();
-	void AddTriOverlayLine();
-	void AddTriOverlayLines();
-	void TestTriangulationRoute();
-	void Triangulate();
-	void Triangulate();
-	void CheckStaleNavTypeRoute();
-	void CheckStaleRoute();
-	void IsLinkStillStale();
-	void IsLinkUsable();
-	void FindBestPath();
-	void FindShortRandomPath();
+	void _GLOBAL__sub_I_m_DataMap(); // size[0]
+	void GetBaseMap(); // size[0]
+	void Init(); // size[0]
+	void UseStrongOptimizations(); // size[0]
+	void ComputeWaypointType(); // size[0]
+	void MakeRouteFromParents(); // size[0]
+	void NearestNodeToNPC(); // size[0]
+	void NearestNodeToPoint(); // size[0]
+	void CreateNodeWaypoint(); // size[0]
+	void RouteToNode(); // size[0]
+	void RouteFromNode(); // size[0]
+	void BuildSimpleRoute(); // size[0]
+	void BuildJumpRoute(); // size[0]
+	void BuildClimbRoute(); // size[0]
+	void CanGiveWay(); // size[0]
+	void BuildComplexRoute(); // size[0]
+	void BuildGroundRoute(); // size[0]
+	void BuildFlyRoute(); // size[0]
+	void BuildRouteThroughPoints(); // size[0]
+	void BuildRoute(); // size[0]
+	void UnlockRouteNodes(); // size[0]
+	void BuildNearestNodeRoute(); // size[0]
+	void Draw(); // size[0]
+	void DrawDebugGeometryOverlays(); // size[0]
+	void ClearTriOverlayLines(); // size[0]
+	void FadeTriOverlayLines(); // size[0]
+	void AddTriOverlayLine(); // size[0]
+	void AddTriOverlayLines(); // size[0]
+	void TestTriangulationRoute(); // size[0]
+	void Triangulate(); // size[0]
+	void Triangulate(); // size[0]
+	void CheckStaleNavTypeRoute(); // size[0]
+	void CheckStaleRoute(); // size[0]
+	void IsLinkStillStale(); // size[0]
+	void IsLinkUsable(); // size[0]
+	void FindBestPath(); // size[0]
+	void FindShortRandomPath(); // size[0]
 };

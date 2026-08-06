@@ -8,6 +8,6 @@ public:
 	virtual void Message(); // vtable[2]
 	virtual void IsExternalBuild(); // vtable[3]
 
-	void SendSessionMessage();
-	void RequestSessionId();
+	void SendSessionMessage(); // size[0]
+	void RequestSessionId(); // size[0]
 };

@@ -3,29 +3,72 @@
 class CGMOD_Player : public CHL2MP_Player
 {
 public:
-	virtual void ~CGMOD_Player() override; // vtable[0]
-	virtual void ~CGMOD_Player() override; // vtable[1]
+	virtual ~CGMOD_Player() override; // vtable[0]
+	virtual ~CGMOD_Player() override; // vtable[1]
+	virtual void GetServerClass() override; // vtable[10]
+	virtual void YouForgotToImplementOrDeclareServerClass() override; // vtable[11]
+	virtual void GetDataDescMap() override; // vtable[12]
+	virtual void ShouldCollide() override; // vtable[17]
+	virtual void ShouldTransmit() override; // vtable[19]
+	virtual void Spawn() override; // vtable[23]
+	virtual void Precache() override; // vtable[24]
+	virtual void TraceAttack() override; // vtable[62]
 	virtual void Event_Killed() override; // vtable[68]
+	virtual void ChangeTeam() override; // vtable[93]
+	virtual void FireBullets() override; // vtable[115]
+	virtual void DoImpactEffect() override; // vtable[116]
+	virtual void GiveAmmo() override; // vtable[318]
+	virtual void Weapon_Equip() override; // vtable[327]
+	virtual void CreateViewModel() override; // vtable[388]
+	virtual void SetupVisibility() override; // vtable[389]
+	virtual void InitialSpawn() override; // vtable[393]
+	virtual void PlayerDeathThink() override; // vtable[396]
+	virtual void PreThink() override; // vtable[399]
+	virtual void PostThink() override; // vtable[400]
+	virtual void OnDamagedByExplosion() override; // vtable[402]
+	virtual void PlayStepSound() override; // vtable[425]
+	virtual void DeathSound() override; // vtable[429]
+	virtual void ClientCommand() override; // vtable[434]
+	virtual void StartObserverMode() override; // vtable[435]
+	virtual void EntSelectSpawnPoint() override; // vtable[457]
+	virtual void GetInVehicle() override; // vtable[458]
+	virtual void BumpWeapon() override; // vtable[462]
+	virtual void PlayerUse() override; // vtable[470]
+	virtual void FindUseEntity() override; // vtable[472]
+	virtual void PickupObject() override; // vtable[474]
+	virtual void PlayerRunCommand() override; // vtable[483]
+	virtual void GetFOV() override; // vtable[507]
+	virtual void GetFOVForNetworking() override; // vtable[508]
+	virtual void UpdateButtonState() override; // vtable[510]
+	virtual void OnPlayerSay() override; // vtable[517]
+	virtual void RestrictPlayerPitch() override; // vtable[518]
+	virtual void CanAttack() override; // vtable[533]
+	virtual void GetMaxArmor() override; // vtable[536]
+	virtual void StartSprinting() override; // vtable[553]
+	virtual void StopSprinting() override; // vtable[554]
+	virtual void CanSprint() override; // vtable[556]
+	virtual void HandleSpeedChanges() override; // vtable[565]
+	virtual void GiveAllItems() override; // vtable[572]
 	virtual void GetPlayerColor(); // vtable[575]
 	virtual void GetWeaponColor(); // vtable[576]
 	virtual void SetPlayerColor(); // vtable[577]
 	virtual void SetWeaponColor(); // vtable[578]
 
-	void _GLOBAL__sub_I_PlayStepSound();
-	void _GLOBAL__sub_I_GetServerClass();
-	void CalcView();
-	void GetSnapAngles();
-	void SnapToGrid();
-	void GetBaseMap();
-	void CGMOD_Player();
-	void Kill();
-	void KillSilent();
-	void ResetForceTransmitTimes();
-	void onDisconnect();
-	void GetUniqueID();
-	void StartWalking();
-	void StopWalking();
-	void GetPlayerInfo();
-	void GetPlayerInfoFloat();
-	void PlayGesture();
+	void _GLOBAL__sub_I_PlayStepSound(); // size[0]
+	void _GLOBAL__sub_I_GetServerClass(); // size[0]
+	void CalcView(); // size[0]
+	void GetSnapAngles(); // size[0]
+	void SnapToGrid(); // size[0]
+	void GetBaseMap(); // size[0]
+	CGMOD_Player(); // size[0]
+	void Kill(); // size[0]
+	void KillSilent(); // size[0]
+	void ResetForceTransmitTimes(); // size[0]
+	void onDisconnect(); // size[0]
+	void GetUniqueID(); // size[0]
+	void StartWalking(); // size[0]
+	void StopWalking(); // size[0]
+	void GetPlayerInfo(); // size[0]
+	void GetPlayerInfoFloat(); // size[0]
+	void PlayGesture(); // size[0]
 };

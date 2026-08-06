@@ -3,10 +3,39 @@
 class CLuaBehaviour : public Action
 {
 public:
-	virtual void ~CLuaBehaviour() override; // vtable[0]
-	virtual void ~CLuaBehaviour() override; // vtable[1]
+	virtual ~CLuaBehaviour() override; // vtable[0]
+	virtual ~CLuaBehaviour() override; // vtable[1]
 	virtual void GetName() override; // vtable[43]
+	virtual void OnStart() override; // vtable[46]
+	virtual void Update() override; // vtable[47]
+	virtual void OnLeaveGround() override; // vtable[52]
+	virtual void OnLandOnGround() override; // vtable[53]
+	virtual void OnContact() override; // vtable[54]
+	virtual void OnMoveToSuccess() override; // vtable[55]
+	virtual void OnMoveToFailure() override; // vtable[56]
+	virtual void OnStuck() override; // vtable[57]
+	virtual void OnUnStuck() override; // vtable[58]
+	virtual void OnPostureChanged() override; // vtable[59]
+	virtual void OnAnimationActivityComplete() override; // vtable[60]
+	virtual void OnAnimationActivityInterrupted() override; // vtable[61]
+	virtual void OnAnimationEvent() override; // vtable[62]
+	virtual void OnIgnite() override; // vtable[63]
+	virtual void OnInjured() override; // vtable[64]
+	virtual void OnKilled() override; // vtable[65]
+	virtual void OnOtherKilled() override; // vtable[66]
+	virtual void OnSight() override; // vtable[67]
+	virtual void OnLostSight() override; // vtable[68]
+	virtual void OnSound() override; // vtable[69]
+	virtual void OnSpokeConcept() override; // vtable[70]
+	virtual void OnWeaponFired() override; // vtable[71]
+	virtual void OnNavAreaChanged() override; // vtable[72]
+	virtual void OnModelChanged() override; // vtable[73]
+	virtual void OnPickUp() override; // vtable[74]
+	virtual void OnDrop() override; // vtable[75]
+	virtual void OnActorEmoted() override; // vtable[76]
+	virtual void OnShoved() override; // vtable[84]
+	virtual void OnBlinded() override; // vtable[85]
 
-	void ~CLuaBehaviour();
-	void ~CLuaBehaviour();
+	~CLuaBehaviour(); // size[0]
+	~CLuaBehaviour(); // size[0]
 };

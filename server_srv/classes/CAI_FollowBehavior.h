@@ -3,9 +3,35 @@
 class CAI_FollowBehavior : public CAI_Behavior
 {
 public:
-	virtual void ~CAI_FollowBehavior() override; // vtable[0]
-	virtual void ~CAI_FollowBehavior() override; // vtable[1]
+	virtual ~CAI_FollowBehavior() override; // vtable[0]
+	virtual ~CAI_FollowBehavior() override; // vtable[1]
+	virtual void TaskComplete() override; // vtable[4]
 	virtual void GetName() override; // vtable[5]
+	virtual void CanSelectSchedule() override; // vtable[7]
+	virtual void BeginScheduleSelection() override; // vtable[8]
+	virtual void EndScheduleSelection() override; // vtable[9]
+	virtual void GatherConditions() override; // vtable[11]
+	virtual void GetClassScheduleIdSpace() override; // vtable[14]
+	virtual void DrawDebugTextOverlays() override; // vtable[15]
+	virtual void Precache() override; // vtable[18]
+	virtual void CleanupOnDeath() override; // vtable[22]
+	virtual void OnStartSchedule() override; // vtable[25]
+	virtual void SelectSchedule() override; // vtable[26]
+	virtual void SelectFailSchedule() override; // vtable[27]
+	virtual void StartTask() override; // vtable[28]
+	virtual void RunTask() override; // vtable[29]
+	virtual void TranslateSchedule() override; // vtable[31]
+	virtual void GetSchedulingErrorName() override; // vtable[33]
+	virtual void BuildScheduleTestBits() override; // vtable[34]
+	virtual void NPC_TranslateActivity() override; // vtable[35]
+	virtual void IsCurTaskContinuousMove() override; // vtable[36]
+	virtual void OnMovementFailed() override; // vtable[37]
+	virtual void OnMovementComplete() override; // vtable[38]
+	virtual void FValidateHintType() override; // vtable[40]
+	virtual void IsValidCover() override; // vtable[43]
+	virtual void IsValidShootPosition() override; // vtable[44]
+	virtual void ShouldAlwaysThink() override; // vtable[64]
+	virtual void GetDataDescMap() override; // vtable[70]
 	virtual void DrawDebugGeometryOverlays() override; // vtable[71]
 	virtual void FarFromFollowTarget() override; // vtable[72]
 	virtual void TargetIsUnreachable() override; // vtable[73]
@@ -14,39 +40,39 @@ public:
 	virtual void IsChaseGoalInRange() override; // vtable[76]
 	virtual void LoadedSchedules(); // vtable[77]
 
-	void GetBaseMap();
-	void GetFollowTarget();
-	void SetFollowGoalDirect();
-	void IsMovingToFollowTarget();
-	void PlayerIsPushing();
-	void IsFollowGoalInRange();
-	void IsFollowTargetInRange();
-	void NoteFailedFollow();
-	void NoteSuccessfulFollow();
-	void ShouldUseFollowPoints();
-	void HasFollowPoint();
-	void ClearFollowPoint();
-	void GetFollowPoint();
-	void FindFollowPoint();
-	void IsFollowPointInRange();
-	void ShouldMoveToFollowTarget();
-	void ShouldIgnoreFollowPointFacing();
-	void SetFollowPoint();
-	void SelectScheduleFollowPoints();
-	void SelectScheduleMoveToFormation();
-	void GetFollowTargetViewLoc();
-	void ValidateFaceTarget();
-	void FindCoverFromEnemyAtFollowTarget();
-	void IsCurScheduleFollowSchedule();
-	void IsActive();
-	void UpdateFollowPosition();
-	void SelectScheduleManagePosition();
-	void InitCustomSchedules();
-	void LoadSchedules();
-	void CScheduleLoader();
-	void CAI_FollowBehavior();
-	void SetParameters();
-	void SetFollowTarget();
-	void SetFollowGoal();
-	void ClearFollowGoal();
+	void GetBaseMap(); // size[0]
+	void GetFollowTarget(); // size[0]
+	void SetFollowGoalDirect(); // size[0]
+	void IsMovingToFollowTarget(); // size[0]
+	void PlayerIsPushing(); // size[0]
+	void IsFollowGoalInRange(); // size[0]
+	void IsFollowTargetInRange(); // size[0]
+	void NoteFailedFollow(); // size[0]
+	void NoteSuccessfulFollow(); // size[0]
+	void ShouldUseFollowPoints(); // size[0]
+	void HasFollowPoint(); // size[0]
+	void ClearFollowPoint(); // size[0]
+	void GetFollowPoint(); // size[0]
+	void FindFollowPoint(); // size[0]
+	void IsFollowPointInRange(); // size[0]
+	void ShouldMoveToFollowTarget(); // size[0]
+	void ShouldIgnoreFollowPointFacing(); // size[0]
+	void SetFollowPoint(); // size[0]
+	void SelectScheduleFollowPoints(); // size[0]
+	void SelectScheduleMoveToFormation(); // size[0]
+	void GetFollowTargetViewLoc(); // size[0]
+	void ValidateFaceTarget(); // size[0]
+	void FindCoverFromEnemyAtFollowTarget(); // size[0]
+	void IsCurScheduleFollowSchedule(); // size[0]
+	void IsActive(); // size[0]
+	void UpdateFollowPosition(); // size[0]
+	void SelectScheduleManagePosition(); // size[0]
+	void InitCustomSchedules(); // size[0]
+	void LoadSchedules(); // size[0]
+	CScheduleLoader(); // size[0]
+	CAI_FollowBehavior(); // size[0]
+	void SetParameters(); // size[0]
+	void SetFollowTarget(); // size[0]
+	void SetFollowGoal(); // size[0]
+	void ClearFollowGoal(); // size[0]
 };

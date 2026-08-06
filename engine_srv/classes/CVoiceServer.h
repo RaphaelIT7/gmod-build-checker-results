@@ -3,8 +3,8 @@
 class CVoiceServer : public IVoiceServer
 {
 public:
-	virtual void ~CVoiceServer() override; // vtable[0]
-	virtual void ~CVoiceServer() override; // vtable[1]
+	virtual ~CVoiceServer() override; // vtable[0]
+	virtual ~CVoiceServer() override; // vtable[1]
 	virtual void GetClientListening(); // vtable[2]
 	virtual void SetClientListening(); // vtable[3]
 	virtual void SetClientProximity(); // vtable[4]

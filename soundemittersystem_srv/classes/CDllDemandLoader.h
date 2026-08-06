@@ -3,10 +3,10 @@
 class CDllDemandLoader
 {
 public:
-	virtual void ~CDllDemandLoader(); // vtable[0]
-	virtual void ~CDllDemandLoader(); // vtable[1]
+	virtual ~CDllDemandLoader(); // vtable[0]
+	virtual ~CDllDemandLoader(); // vtable[1]
 
-	void CDllDemandLoader();
-	void GetFactory();
-	void Unload();
+	CDllDemandLoader(); // size[0]
+	void GetFactory(); // size[0]
+	void Unload(); // size[0]
 };

@@ -5,6 +5,6 @@ class CFlaggedEntitiesEnum : public IPartitionEnumerator
 public:
 	virtual void EnumElement() override; // vtable[0]
 
-	void CFlaggedEntitiesEnum();
-	void AddToList();
+	CFlaggedEntitiesEnum(); // size[0]
+	void AddToList(); // size[0]
 };

@@ -3,5 +3,7 @@
 class CTraceFilterNav : public CTraceFilterSimple
 {
 public:
-	void CTraceFilterNav();
+	virtual void ShouldHitEntity() override; // vtable[0]
+
+	CTraceFilterNav(); // size[0]
 };

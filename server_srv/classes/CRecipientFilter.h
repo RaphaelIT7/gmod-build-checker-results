@@ -3,36 +3,36 @@
 class CRecipientFilter : public IRecipientFilter
 {
 public:
-	virtual void ~CRecipientFilter() override; // vtable[0]
-	virtual void ~CRecipientFilter() override; // vtable[1]
+	virtual ~CRecipientFilter() override; // vtable[0]
+	virtual ~CRecipientFilter() override; // vtable[1]
 	virtual void IsReliable(); // vtable[2]
 	virtual void IsInitMessage(); // vtable[3]
 	virtual void GetRecipientCount(); // vtable[4]
 	virtual void GetRecipientIndex() override; // vtable[5]
 
-	void _GLOBAL__sub_I_CRecipientFilter();
-	void CRecipientFilter();
-	void Reset();
-	void MakeReliable();
-	void RemoveAllRecipients();
-	void GMOD_HasRecipient();
-	void MakeInitMessage();
-	void IsUsingPredictionRules();
-	void IgnorePredictionCull();
-	void SetIgnorePredictionCull();
-	void RemoveRecipient();
-	void RemoveRecipientsByTeam();
-	void RemoveRecipientsNotOnTeam();
-	void RemovePlayersFromBitMask();
-	void RemoveRecipientsByPVS();
-	void GMOD_RemoveRecipientsByPAS();
-	void UsePredictionRules();
-	void RemoveRecipientByPlayerIndex();
-	void CopyFrom();
-	void AddRecipient();
-	void AddAllPlayers();
-	void AddRecipientsByTeam();
-	void AddPlayersFromBitMask();
-	void AddRecipientsByPVS();
-	void AddRecipientsByPAS();
+	_GLOBAL__sub_I_CRecipientFilter(); // size[0]
+	CRecipientFilter(); // size[0]
+	void Reset(); // size[0]
+	void MakeReliable(); // size[0]
+	void RemoveAllRecipients(); // size[0]
+	void GMOD_HasRecipient(); // size[0]
+	void MakeInitMessage(); // size[0]
+	void IsUsingPredictionRules(); // size[0]
+	void IgnorePredictionCull(); // size[0]
+	void SetIgnorePredictionCull(); // size[0]
+	void RemoveRecipient(); // size[0]
+	void RemoveRecipientsByTeam(); // size[0]
+	void RemoveRecipientsNotOnTeam(); // size[0]
+	void RemovePlayersFromBitMask(); // size[0]
+	void RemoveRecipientsByPVS(); // size[0]
+	void GMOD_RemoveRecipientsByPAS(); // size[0]
+	void UsePredictionRules(); // size[0]
+	void RemoveRecipientByPlayerIndex(); // size[0]
+	void CopyFrom(); // size[0]
+	void AddRecipient(); // size[0]
+	void AddAllPlayers(); // size[0]
+	void AddRecipientsByTeam(); // size[0]
+	void AddPlayersFromBitMask(); // size[0]
+	void AddRecipientsByPVS(); // size[0]
+	void AddRecipientsByPAS(); // size[0]
 };

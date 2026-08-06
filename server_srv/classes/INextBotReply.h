@@ -3,5 +3,5 @@
 class INextBotReply
 {
 public:
-	void OnFail();
+	void OnFail(); // size[0]
 };

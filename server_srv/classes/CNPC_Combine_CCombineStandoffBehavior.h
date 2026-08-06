@@ -3,6 +3,7 @@
 class CNPC_Combine_CCombineStandoffBehavior : public CAI_ComponentWithOuter
 {
 public:
-	virtual void ~CCombineStandoffBehavior() override; // vtable[0]
-	virtual void ~CCombineStandoffBehavior() override; // vtable[1]
+	virtual ~CCombineStandoffBehavior() override; // vtable[0]
+	virtual ~CCombineStandoffBehavior() override; // vtable[1]
+	virtual void SelectScheduleAttack() override; // vtable[75]
 };

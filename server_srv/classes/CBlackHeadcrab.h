@@ -3,17 +3,42 @@
 class CBlackHeadcrab : public CBaseHeadcrab
 {
 public:
-	virtual void ~CBlackHeadcrab() override; // vtable[0]
-	virtual void ~CBlackHeadcrab() override; // vtable[1]
+	virtual ~CBlackHeadcrab() override; // vtable[0]
+	virtual ~CBlackHeadcrab() override; // vtable[1]
+	virtual void GetDataDescMap() override; // vtable[12]
+	virtual void Spawn() override; // vtable[23]
+	virtual void Precache() override; // vtable[24]
+	virtual void HandleAnimEvent() override; // vtable[261]
+	virtual void FInViewCone() override; // vtable[292]
+	virtual void NPC_TranslateActivity() override; // vtable[322]
+	virtual void PrescheduleThink() override; // vtable[403]
+	virtual void SelectSchedule() override; // vtable[407]
+	virtual void TranslateSchedule() override; // vtable[409]
+	virtual void GetSchedulingErrorName() override; // vtable[432]
+	virtual void LoadedSchedules() override; // vtable[433]
+	virtual void BuildScheduleTestBits() override; // vtable[434]
+	virtual void GetSoundInterests() override; // vtable[467]
+	virtual void DeathSound() override; // vtable[507]
+	virtual void AlertSound() override; // vtable[508]
+	virtual void IdleSound() override; // vtable[509]
+	virtual void PainSound() override; // vtable[510]
+	virtual void MaxYawSpeed() override; // vtable[529]
+	virtual void SquadSlotName() override; // vtable[581]
+	virtual void IsHeavyDamage() override; // vtable[633]
+	virtual void GetClassScheduleIdSpace() override; // vtable[640]
+	virtual void TouchDamage() override; // vtable[653]
 	virtual void BiteSound() override; // vtable[654]
+	virtual void AttackSound() override; // vtable[655]
+	virtual void ImpactSound() override; // vtable[656]
+	virtual void TelegraphSound() override; // vtable[657]
 
-	void EjectTouch();
-	void TouchDamage();
-	void GetBaseMap();
-	void Eject();
-	void Panic();
-	void JumpFlinch();
-	void InitCustomSchedules();
-	void LoadSchedules();
-	void CScheduleLoader();
+	void EjectTouch(); // size[0]
+	void TouchDamage(); // size[0]
+	void GetBaseMap(); // size[0]
+	void Eject(); // size[0]
+	void Panic(); // size[0]
+	void JumpFlinch(); // size[0]
+	void InitCustomSchedules(); // size[0]
+	void LoadSchedules(); // size[0]
+	CScheduleLoader(); // size[0]
 };

@@ -9,5 +9,5 @@ public:
 	virtual void InterpolatePosition(); // vtable[3]
 	virtual void ProcessKey() override; // vtable[4]
 
-	void CPositionInterpolator_Rope();
+	CPositionInterpolator_Rope(); // size[0]
 };

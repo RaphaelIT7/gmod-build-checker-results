@@ -3,8 +3,32 @@
 class CNPCSimpleTalker : public CAI_PlayerAlly
 {
 public:
-	virtual void ~CNPCSimpleTalker() override; // vtable[0]
-	virtual void ~CNPCSimpleTalker() override; // vtable[1]
+	virtual ~CNPCSimpleTalker() override; // vtable[0]
+	virtual ~CNPCSimpleTalker() override; // vtable[1]
+	virtual void GetDataDescMap() override; // vtable[12]
+	virtual void Precache() override; // vtable[24]
+	virtual void KeyValue() override; // vtable[30]
+	virtual void Event_Killed() override; // vtable[68]
+	virtual void HandleAnimEvent() override; // vtable[261]
+	virtual void NPC_TranslateActivity() override; // vtable[322]
+	virtual void OnTakeDamage_Alive() override; // vtable[338]
+	virtual void PrescheduleThink() override; // vtable[403]
+	virtual void SelectSchedule() override; // vtable[407]
+	virtual void StartTask() override; // vtable[410]
+	virtual void RunTask() override; // vtable[411]
+	virtual void GetSchedulingErrorName() override; // vtable[432]
+	virtual void LoadedSchedules() override; // vtable[433]
+	virtual void BuildScheduleTestBits() override; // vtable[434]
+	virtual void OnBehaviorChangeStatus() override; // vtable[445]
+	virtual void PlayScriptedSentence() override; // vtable[504]
+	virtual void SquadSlotName() override; // vtable[581]
+	virtual void GetClassScheduleIdSpace() override; // vtable[640]
+	virtual void CreateBehaviors() override; // vtable[652]
+	virtual void OnChangeRunningBehavior() override; // vtable[656]
+	virtual void CreateExpresser() override; // vtable[708]
+	virtual void SelectNonCombatSpeechSchedule() override; // vtable[709]
+	virtual void IsValidSpeechTarget() override; // vtable[710]
+	virtual void InputIdleRespond() override; // vtable[719]
 	virtual void StartFollowing(); // vtable[722]
 	virtual void StopFollowing(); // vtable[723]
 	virtual void FollowerUse(); // vtable[724]
@@ -17,25 +41,25 @@ public:
 	virtual void SetAnswerQuestion(); // vtable[731]
 	virtual void FriendNumber(); // vtable[732]
 
-	void GetBaseMap();
-	void ShouldSuspendMonolog();
-	void ShouldResumeMonolog();
-	void EnumFriends();
-	void AlertFriends();
-	void ShutUpFriends();
-	void LimitFollowers();
-	void FindNearestFriend();
-	void IsOkToSpeak();
-	void IdleRespond();
-	void FIdleStare();
-	void SayHelloToPlayer();
-	void FIdleSpeak();
-	void SpeakQuestionFriend();
-	void SpeakAnswerFriend();
-	void TrySmellTalk();
-	void ShouldSpeakRandom();
-	void FIdleSpeakWhileMoving();
-	void InitCustomSchedules();
-	void LoadSchedules();
-	void CScheduleLoader();
+	void GetBaseMap(); // size[0]
+	void ShouldSuspendMonolog(); // size[0]
+	void ShouldResumeMonolog(); // size[0]
+	void EnumFriends(); // size[0]
+	void AlertFriends(); // size[0]
+	void ShutUpFriends(); // size[0]
+	void LimitFollowers(); // size[0]
+	void FindNearestFriend(); // size[0]
+	void IsOkToSpeak(); // size[0]
+	void IdleRespond(); // size[0]
+	void FIdleStare(); // size[0]
+	void SayHelloToPlayer(); // size[0]
+	void FIdleSpeak(); // size[0]
+	void SpeakQuestionFriend(); // size[0]
+	void SpeakAnswerFriend(); // size[0]
+	void TrySmellTalk(); // size[0]
+	void ShouldSpeakRandom(); // size[0]
+	void FIdleSpeakWhileMoving(); // size[0]
+	void InitCustomSchedules(); // size[0]
+	void LoadSchedules(); // size[0]
+	CScheduleLoader(); // size[0]
 };

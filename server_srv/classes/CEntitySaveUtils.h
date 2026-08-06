@@ -7,6 +7,6 @@ public:
 	virtual void GetEntityDependencyCount(); // vtable[1]
 	virtual void GetEntityDependencies(); // vtable[2]
 
-	void PreSave();
-	void PostSave();
+	void PreSave(); // size[0]
+	void PostSave(); // size[0]
 };

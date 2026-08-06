@@ -3,11 +3,16 @@
 class CGrenadeAR2 : public CBaseGrenade
 {
 public:
-	virtual void ~CGrenadeAR2() override; // vtable[0]
-	virtual void ~CGrenadeAR2() override; // vtable[1]
+	virtual ~CGrenadeAR2() override; // vtable[0]
+	virtual ~CGrenadeAR2() override; // vtable[1]
+	virtual void GetDataDescMap() override; // vtable[12]
+	virtual void Spawn() override; // vtable[23]
+	virtual void Precache() override; // vtable[24]
+	virtual void Event_Killed() override; // vtable[68]
+	virtual void Detonate() override; // vtable[283]
 
-	void GrenadeAR2Touch();
-	void GrenadeAR2Think();
-	void GetBaseMap();
-	void CGrenadeAR2();
+	void GrenadeAR2Touch(); // size[0]
+	void GrenadeAR2Think(); // size[0]
+	void GetBaseMap(); // size[0]
+	CGrenadeAR2(); // size[0]
 };

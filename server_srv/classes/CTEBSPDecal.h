@@ -3,9 +3,12 @@
 class CTEBSPDecal : public CBaseTempEntity
 {
 public:
-	virtual void ~CTEBSPDecal() override; // vtable[2]
-	virtual void ~CTEBSPDecal() override; // vtable[3]
+	virtual void GetServerClass() override; // vtable[0]
+	virtual void YouForgotToImplementOrDeclareServerClass() override; // vtable[1]
+	virtual ~CTEBSPDecal() override; // vtable[2]
+	virtual ~CTEBSPDecal() override; // vtable[3]
+	virtual void Test() override; // vtable[4]
 
-	void _GLOBAL__sub_I_CTEBSPDecal();
-	void CTEBSPDecal();
+	_GLOBAL__sub_I_CTEBSPDecal(); // size[0]
+	CTEBSPDecal(); // size[0]
 };

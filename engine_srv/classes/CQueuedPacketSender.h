@@ -3,12 +3,11 @@
 class CQueuedPacketSender : public CThread, public IQueuedPacketSender
 {
 public:
-	virtual void ~CQueuedPacketSender(); // vtable[0]
-	virtual void ~CQueuedPacketSender(); // vtable[1]
+	virtual ~CQueuedPacketSender(); // vtable[0]
+	virtual ~CQueuedPacketSender(); // vtable[1]
 	virtual void Start(); // vtable[2]
 	virtual void Init(); // vtable[3]
 	virtual void Run(); // vtable[4]
-	virtual void OnExit() override; // vtable[5]
 	virtual void GetThreadProc(); // vtable[6]
 	virtual void IsThreadRunning(); // vtable[7]
 	virtual void Setup(); // vtable[8]
@@ -18,12 +17,12 @@ public:
 	virtual void QueuePacket(); // vtable[12]
 	virtual void HasQueuedPackets(); // vtable[13]
 
-	void Setup();
-	void HasQueuedPackets();
-	void CQueuedPacketSender();
-	void Shutdown();
-	void ClearQueuedPacketsForChannel();
-	void QueuePacket();
-	void LessFunc();
-	void IsRunning();
+	void Setup(); // size[0]
+	void HasQueuedPackets(); // size[0]
+	CQueuedPacketSender(); // size[0]
+	void Shutdown(); // size[0]
+	void ClearQueuedPacketsForChannel(); // size[0]
+	void QueuePacket(); // size[0]
+	void LessFunc(); // size[0]
+	void IsRunning(); // size[0]
 };

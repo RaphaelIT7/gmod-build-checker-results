@@ -3,20 +3,43 @@
 class HL1_CNPC_Ichthyosaur : public CHL1BaseNPC
 {
 public:
-	virtual void ~HL1_CNPC_Ichthyosaur() override; // vtable[0]
-	virtual void ~HL1_CNPC_Ichthyosaur() override; // vtable[1]
+	virtual ~HL1_CNPC_Ichthyosaur() override; // vtable[0]
+	virtual ~HL1_CNPC_Ichthyosaur() override; // vtable[1]
+	virtual void GetDataDescMap() override; // vtable[12]
+	virtual void Spawn() override; // vtable[23]
+	virtual void Precache() override; // vtable[24]
+	virtual void Classify() override; // vtable[55]
+	virtual void FVisible() override; // vtable[144]
+	virtual void HandleAnimEvent() override; // vtable[261]
+	virtual void NPCThink() override; // vtable[400]
+	virtual void SelectSchedule() override; // vtable[407]
+	virtual void TranslateSchedule() override; // vtable[409]
+	virtual void StartTask() override; // vtable[410]
+	virtual void RunTask() override; // vtable[411]
+	virtual void GetSchedulingErrorName() override; // vtable[432]
+	virtual void LoadedSchedules() override; // vtable[433]
+	virtual void GatherEnemyConditions() override; // vtable[478]
+	virtual void DeathSound() override; // vtable[507]
+	virtual void AlertSound() override; // vtable[508]
+	virtual void IdleSound() override; // vtable[509]
+	virtual void PainSound() override; // vtable[510]
+	virtual void OverrideMove() override; // vtable[538]
+	virtual void SquadSlotName() override; // vtable[581]
+	virtual void RangeAttack1Conditions() override; // vtable[595]
+	virtual void MeleeAttack1Conditions() override; // vtable[597]
+	virtual void GetClassScheduleIdSpace() override; // vtable[640]
 
-	void InputStartCombat();
-	void InputEndCombat();
-	void BiteTouch();
-	void GetBaseMap();
-	void GetGroundSpeed();
-	void DoProbe();
-	void ProbeZ();
-	void MoveExecute_Alive();
-	void AttackSound();
-	void BiteSound();
-	void InitCustomSchedules();
-	void LoadSchedules();
-	void CScheduleLoader();
+	void InputStartCombat(); // size[0]
+	void InputEndCombat(); // size[0]
+	void BiteTouch(); // size[0]
+	void GetBaseMap(); // size[0]
+	void GetGroundSpeed(); // size[0]
+	void DoProbe(); // size[0]
+	void ProbeZ(); // size[0]
+	void MoveExecute_Alive(); // size[0]
+	void AttackSound(); // size[0]
+	void BiteSound(); // size[0]
+	void InitCustomSchedules(); // size[0]
+	void LoadSchedules(); // size[0]
+	CScheduleLoader(); // size[0]
 };

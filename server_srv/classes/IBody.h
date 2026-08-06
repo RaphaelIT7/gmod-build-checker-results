@@ -3,8 +3,9 @@
 class IBody : public INextBotComponent
 {
 public:
-	virtual void ~IBody() override; // vtable[0]
-	virtual void ~IBody() override; // vtable[1]
+	virtual ~IBody() override; // vtable[0]
+	virtual ~IBody() override; // vtable[1]
+	virtual void Reset() override; // vtable[43]
 	virtual void Update() override; // vtable[44]
 	virtual void SetPosition(); // vtable[47]
 	virtual void GetEyePosition(); // vtable[48]
@@ -43,5 +44,5 @@ public:
 	virtual void GetSolidMask(); // vtable[81]
 	virtual void GetCollisionGroup(); // vtable[82]
 
-	void _GLOBAL__sub_I_AimHeadTowards();
+	void _GLOBAL__sub_I_AimHeadTowards(); // size[0]
 };

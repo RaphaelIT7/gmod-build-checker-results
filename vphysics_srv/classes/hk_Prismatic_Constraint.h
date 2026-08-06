@@ -3,8 +3,8 @@
 class hk_Prismatic_Constraint : public hk_Constraint
 {
 public:
-	virtual void ~hk_Prismatic_Constraint(); // vtable[1]
-	virtual void ~hk_Prismatic_Constraint(); // vtable[2]
+	virtual ~hk_Prismatic_Constraint(); // vtable[1]
+	virtual ~hk_Prismatic_Constraint(); // vtable[2]
 	virtual void get_vmq_storage_size(); // vtable[3]
 	virtual void setup_and_step_constraint(); // vtable[4]
 	virtual void step_constraint(); // vtable[5]
@@ -12,16 +12,16 @@ public:
 	virtual void get_constraint_dof(); // vtable[7]
 	virtual void init_constraint(); // vtable[8]
 
-	void hk_Prismatic_Constraint();
-	void hk_Prismatic_Constraint();
-	void _GLOBAL__sub_I_init_constraint();
-	void reset_linear_limit();
-	void init_prismatic_constraint();
-	void write_to_blueprint();
-	void hk_Prismatic_Constraint();
-	void hk_Prismatic_Constraint();
-	void apply_effector_PSI();
-	void set_limits();
-	void set_friction();
-	void set_motor();
+	hk_Prismatic_Constraint(); // size[0]
+	hk_Prismatic_Constraint(); // size[0]
+	void _GLOBAL__sub_I_init_constraint(); // size[0]
+	void reset_linear_limit(); // size[0]
+	void init_prismatic_constraint(); // size[0]
+	void write_to_blueprint(); // size[0]
+	hk_Prismatic_Constraint(); // size[0]
+	hk_Prismatic_Constraint(); // size[0]
+	void apply_effector_PSI(); // size[0]
+	void set_limits(); // size[0]
+	void set_friction(); // size[0]
+	void set_motor(); // size[0]
 };

@@ -12,24 +12,24 @@ public:
 	virtual void GetBaseNetworkable(); // vtable[6]
 	virtual void GetBaseEntity(); // vtable[7]
 	virtual void GetPVSInfo() override; // vtable[8]
-	virtual void ~CServerNetworkProperty() override; // vtable[9]
-	virtual void ~CServerNetworkProperty() override; // vtable[10]
+	virtual ~CServerNetworkProperty() override; // vtable[9]
+	virtual ~CServerNetworkProperty() override; // vtable[10]
 	virtual void GetDataDescMap(); // vtable[11]
 	virtual void FireEvent(); // vtable[12]
 
-	void _GLOBAL__sub_I_m_DataMap();
-	void NetworkStateChanged();
-	void FireEvent();
-	void GetBaseMap();
-	void CServerNetworkProperty();
-	void Init();
-	void AttachEdict();
-	void DetachEdict();
-	void GetNetworkParent();
-	void MarkForDeletion();
-	void IsMarkedForDeletion();
-	void RecomputePVSInformation();
-	void IsInPVS();
-	void IsInPVS();
-	void SetUpdateInterval();
+	void _GLOBAL__sub_I_m_DataMap(); // size[0]
+	void NetworkStateChanged(); // size[0]
+	void FireEvent(); // size[0]
+	void GetBaseMap(); // size[0]
+	CServerNetworkProperty(); // size[0]
+	void Init(); // size[0]
+	void AttachEdict(); // size[0]
+	void DetachEdict(); // size[0]
+	void GetNetworkParent(); // size[0]
+	void MarkForDeletion(); // size[0]
+	void IsMarkedForDeletion(); // size[0]
+	void RecomputePVSInformation(); // size[0]
+	void IsInPVS(); // size[0]
+	void IsInPVS(); // size[0]
+	void SetUpdateInterval(); // size[0]
 };

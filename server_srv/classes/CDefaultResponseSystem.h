@@ -3,8 +3,8 @@
 class CDefaultResponseSystem : public CResponseSystem, public CAutoGameSystem
 {
 public:
-	virtual void ~CDefaultResponseSystem() override; // vtable[0]
-	virtual void ~CDefaultResponseSystem() override; // vtable[1]
+	virtual ~CDefaultResponseSystem() override; // vtable[0]
+	virtual ~CDefaultResponseSystem() override; // vtable[1]
 	virtual void FindBestResponse() override; // vtable[2]
 	virtual void GetAllResponses() override; // vtable[3]
 	virtual void PrecacheResponses() override; // vtable[4]
@@ -17,12 +17,12 @@ public:
 	virtual void LevelInitPostEntity() override; // vtable[11]
 	virtual void LevelInitPreEntity() override; // vtable[12]
 
-	void Shutdown();
-	void DestroyCustomResponseSystems();
-	void Init();
-	void BuildCustomResponseSystemGivenCriteria();
-	void LevelInitPostEntity();
-	void LevelInitPreEntity();
-	void ~CDefaultResponseSystem();
-	void ~CDefaultResponseSystem();
+	void Shutdown(); // size[0]
+	void DestroyCustomResponseSystems(); // size[0]
+	void Init(); // size[0]
+	void BuildCustomResponseSystemGivenCriteria(); // size[0]
+	void LevelInitPostEntity(); // size[0]
+	void LevelInitPreEntity(); // size[0]
+	~CDefaultResponseSystem(); // size[0]
+	~CDefaultResponseSystem(); // size[0]
 };

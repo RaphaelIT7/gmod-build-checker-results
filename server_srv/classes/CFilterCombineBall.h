@@ -3,8 +3,10 @@
 class CFilterCombineBall : public CBaseFilter
 {
 public:
-	virtual void ~CFilterCombineBall() override; // vtable[0]
-	virtual void ~CFilterCombineBall() override; // vtable[1]
+	virtual ~CFilterCombineBall() override; // vtable[0]
+	virtual ~CFilterCombineBall() override; // vtable[1]
+	virtual void GetDataDescMap() override; // vtable[12]
+	virtual void PassesFilterImpl() override; // vtable[246]
 
-	void GetBaseMap();
+	void GetBaseMap(); // size[0]
 };

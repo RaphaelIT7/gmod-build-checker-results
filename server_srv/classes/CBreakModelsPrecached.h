@@ -3,8 +3,9 @@
 class CBreakModelsPrecached : public CAutoGameSystem
 {
 public:
-	virtual void ~CBreakModelsPrecached() override; // vtable[13]
-	virtual void ~CBreakModelsPrecached() override; // vtable[14]
+	virtual void LevelShutdownPostEntity() override; // vtable[8]
+	virtual ~CBreakModelsPrecached() override; // vtable[13]
+	virtual ~CBreakModelsPrecached() override; // vtable[14]
 
-	void BreakLessFunc();
+	void BreakLessFunc(); // size[0]
 };

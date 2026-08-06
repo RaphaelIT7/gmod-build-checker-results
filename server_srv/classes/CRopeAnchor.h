@@ -3,10 +3,12 @@
 class CRopeAnchor : public CPointEntity
 {
 public:
-	virtual void ~CRopeAnchor() override; // vtable[0]
-	virtual void ~CRopeAnchor() override; // vtable[1]
+	virtual ~CRopeAnchor() override; // vtable[0]
+	virtual ~CRopeAnchor() override; // vtable[1]
+	virtual void GetDataDescMap() override; // vtable[12]
+	virtual void Spawn() override; // vtable[23]
 
-	void FallThink();
-	void RemoveThink();
-	void GetBaseMap();
+	void FallThink(); // size[0]
+	void RemoveThink(); // size[0]
+	void GetBaseMap(); // size[0]
 };

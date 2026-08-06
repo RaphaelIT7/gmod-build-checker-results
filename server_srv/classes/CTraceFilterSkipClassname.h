@@ -3,5 +3,7 @@
 class CTraceFilterSkipClassname : public CTraceFilterSimple
 {
 public:
-	void CTraceFilterSkipClassname();
+	virtual void ShouldHitEntity() override; // vtable[0]
+
+	CTraceFilterSkipClassname(); // size[0]
 };

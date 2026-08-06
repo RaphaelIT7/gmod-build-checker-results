@@ -3,8 +3,29 @@
 class CTeamplayRules : public CMultiplayRules
 {
 public:
-	virtual void ~CTeamplayRules() override; // vtable[13]
-	virtual void ~CTeamplayRules() override; // vtable[14]
+	virtual ~CTeamplayRules() override; // vtable[13]
+	virtual ~CTeamplayRules() override; // vtable[14]
+	virtual void Precache() override; // vtable[44]
+	virtual void Think() override; // vtable[46]
+	virtual void IsTeamplay() override; // vtable[56]
+	virtual void GetGameDescription() override; // vtable[58]
+	virtual void InitHUD() override; // vtable[60]
+	virtual void ClientDisconnected() override; // vtable[61]
+	virtual void FPlayerCanTakeDamage() override; // vtable[63]
+	virtual void ShouldAutoAim() override; // vtable[64]
+	virtual void ClientCommand() override; // vtable[78]
+	virtual void ClientSettingsChanged() override; // vtable[79]
+	virtual void IPointsForKill() override; // vtable[80]
+	virtual void PlayerKilled() override; // vtable[81]
+	virtual void DeathNotice() override; // vtable[82]
+	virtual void GetTeamID() override; // vtable[107]
+	virtual void PlayerRelationship() override; // vtable[108]
+	virtual void PlayerCanHearChat() override; // vtable[109]
+	virtual void GetTeamIndex() override; // vtable[111]
+	virtual void GetIndexedTeamName() override; // vtable[112]
+	virtual void IsValidTeam() override; // vtable[113]
+	virtual void ChangePlayerTeam() override; // vtable[114]
+	virtual void SetDefaultPlayerTeam() override; // vtable[115]
 	virtual void GetCaptureValueForPlayer(); // vtable[149]
 	virtual void TeamMayCapturePoint(); // vtable[150]
 	virtual void PlayerMayCapturePoint(); // vtable[151]
@@ -22,7 +43,7 @@ public:
 	virtual void HandleScrambleTeams(); // vtable[163]
 	virtual void PointsMayAlwaysBeBlocked(); // vtable[164]
 
-	void TeamWithFewestPlayers();
-	void RecountTeams();
-	void CTeamplayRules();
+	void TeamWithFewestPlayers(); // size[0]
+	void RecountTeams(); // size[0]
+	CTeamplayRules(); // size[0]
 };

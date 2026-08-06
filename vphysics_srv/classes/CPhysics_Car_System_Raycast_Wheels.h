@@ -3,8 +3,8 @@
 class CPhysics_Car_System_Raycast_Wheels : public IVP_Controller_Raycast_Car
 {
 public:
-	virtual void ~CPhysics_Car_System_Raycast_Wheels(); // vtable[0]
-	virtual void ~CPhysics_Car_System_Raycast_Wheels(); // vtable[1]
+	virtual ~CPhysics_Car_System_Raycast_Wheels(); // vtable[0]
+	virtual ~CPhysics_Car_System_Raycast_Wheels(); // vtable[1]
 	virtual void do_steering_wheel(); // vtable[2]
 	virtual void change_spring_constant(); // vtable[3]
 	virtual void change_spring_dampening(); // vtable[4]
@@ -42,12 +42,12 @@ public:
 	virtual void do_raycasts(); // vtable[36]
 	virtual void get_controller_name(); // vtable[37]
 
-	void CPhysics_Car_System_Raycast_Wheels();
-	void _GLOBAL__sub_I_CPhysics_Car_System_Raycast_Wheels();
-	void ~CPhysics_Car_System_Raycast_Wheels();
-	void ~CPhysics_Car_System_Raycast_Wheels();
-	void CPhysics_Car_System_Raycast_Wheels();
-	void InitCarSystemWheels();
-	void GetWheel();
-	void get_controller_name();
+	CPhysics_Car_System_Raycast_Wheels(); // size[0]
+	_GLOBAL__sub_I_CPhysics_Car_System_Raycast_Wheels(); // size[0]
+	~CPhysics_Car_System_Raycast_Wheels(); // size[0]
+	~CPhysics_Car_System_Raycast_Wheels(); // size[0]
+	CPhysics_Car_System_Raycast_Wheels(); // size[0]
+	void InitCarSystemWheels(); // size[0]
+	void GetWheel(); // size[0]
+	void get_controller_name(); // size[0]
 };

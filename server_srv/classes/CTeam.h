@@ -3,8 +3,13 @@
 class CTeam : public CBaseEntity
 {
 public:
-	virtual void ~CTeam() override; // vtable[0]
-	virtual void ~CTeam() override; // vtable[1]
+	virtual ~CTeam() override; // vtable[0]
+	virtual ~CTeam() override; // vtable[1]
+	virtual void GetServerClass() override; // vtable[10]
+	virtual void YouForgotToImplementOrDeclareServerClass() override; // vtable[11]
+	virtual void UpdateTransmitState() override; // vtable[20]
+	virtual void Precache() override; // vtable[24]
+	virtual void Think() override; // vtable[48]
 	virtual void Init(); // vtable[246]
 	virtual void GetTeamNumber(); // vtable[247]
 	virtual void GetName(); // vtable[248]
@@ -28,6 +33,6 @@ public:
 	virtual void IncrementRoundsWon(); // vtable[266]
 	virtual void GetAliveMembers(); // vtable[267]
 
-	void CTeam();
-	void AwardAchievement();
+	CTeam(); // size[0]
+	void AwardAchievement(); // size[0]
 };

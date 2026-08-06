@@ -10,25 +10,25 @@ public:
 	virtual void do_simulation_controller(); // vtable[4]
 	virtual void get_controller_priority(); // vtable[5]
 	virtual void get_controller_name(); // vtable[6]
-	virtual void ~IVP_Controller_Motion(); // vtable[7]
-	virtual void ~IVP_Controller_Motion(); // vtable[8]
+	virtual ~IVP_Controller_Motion(); // vtable[7]
+	virtual ~IVP_Controller_Motion(); // vtable[8]
 
-	void IVP_Controller_Motion();
-	void set_max_torque();
-	void set_max_translation_force();
-	void set_target_position_ws();
-	void set_target_object_position_ws();
-	void set_target_q_world_f_core();
-	void get_max_torque();
-	void get_max_translation_force();
-	void get_force_factor();
-	void get_damp_factor();
-	void get_torque_factor();
-	void get_angular_damp_factor();
-	void get_target_position_ws();
-	void get_target_orientation();
-	void set_force_factor();
-	void set_damp_factor();
-	void set_torque_factor();
-	void set_angular_damp_factor();
+	IVP_Controller_Motion(); // size[0]
+	void set_max_torque(); // size[0]
+	void set_max_translation_force(); // size[0]
+	void set_target_position_ws(); // size[0]
+	void set_target_object_position_ws(); // size[0]
+	void set_target_q_world_f_core(); // size[0]
+	void get_max_torque(); // size[0]
+	void get_max_translation_force(); // size[0]
+	void get_force_factor(); // size[0]
+	void get_damp_factor(); // size[0]
+	void get_torque_factor(); // size[0]
+	void get_angular_damp_factor(); // size[0]
+	void get_target_position_ws(); // size[0]
+	void get_target_orientation(); // size[0]
+	void set_force_factor(); // size[0]
+	void set_damp_factor(); // size[0]
+	void set_torque_factor(); // size[0]
+	void set_angular_damp_factor(); // size[0]
 };

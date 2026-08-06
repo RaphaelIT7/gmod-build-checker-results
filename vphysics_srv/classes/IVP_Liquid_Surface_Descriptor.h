@@ -3,6 +3,6 @@
 class IVP_Liquid_Surface_Descriptor
 {
 public:
-	void ~IVP_Liquid_Surface_Descriptor();
-	void ~IVP_Liquid_Surface_Descriptor();
+	~IVP_Liquid_Surface_Descriptor(); // size[0]
+	~IVP_Liquid_Surface_Descriptor(); // size[0]
 };

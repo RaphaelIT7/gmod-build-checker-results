@@ -3,10 +3,27 @@
 class CPropVehicleDriveable : public CPropVehicle, public IDrivableVehicle, public INPCPassengerCarrier
 {
 public:
-	virtual void ~CPropVehicleDriveable() override; // vtable[0]
-	virtual void ~CPropVehicleDriveable() override; // vtable[1]
+	virtual ~CPropVehicleDriveable() override; // vtable[0]
+	virtual ~CPropVehicleDriveable() override; // vtable[1]
 	virtual void GetNetworkable() override; // vtable[5]
+	virtual void GetServerClass() override; // vtable[10]
+	virtual void YouForgotToImplementOrDeclareServerClass() override; // vtable[11]
+	virtual void GetDataDescMap() override; // vtable[12]
 	virtual void TestHitboxes() override; // vtable[15]
+	virtual void Spawn() override; // vtable[23]
+	virtual void Precache() override; // vtable[24]
+	virtual void ObjectCaps() override; // vtable[36]
+	virtual void Restore() override; // vtable[42]
+	virtual void OnRestore() override; // vtable[45]
+	virtual void Think() override; // vtable[48]
+	virtual void TraceAttack() override; // vtable[62]
+	virtual void Event_KilledOther() override; // vtable[69]
+	virtual void GetServerVehicle() override; // vtable[91]
+	virtual void Use() override; // vtable[100]
+	virtual void GetVectors() override; // vtable[139]
+	virtual void VPhysicsCollision() override; // vtable[165]
+	virtual void VPhysicsGetObjectList() override; // vtable[170]
+	virtual void IsVehicle() override; // vtable[203]
 	virtual void CreateServerVehicle(); // vtable[287]
 	virtual void VehicleAngleVectors(); // vtable[288]
 	virtual void DriveVehicle(); // vtable[289]
@@ -36,38 +53,38 @@ public:
 	virtual void NPC_FinishedEnterVehicle(); // vtable[313]
 	virtual void NPC_FinishedExitVehicle(); // vtable[314]
 
-	void ItemPostFrame();
-	void FinishMove();
-	void AllowMidairExit();
-	void PreExitVehicle();
-	void GetVehicleScriptName();
-	void SetVehicleEntryAnim();
-	void SetVehicleExitAnim();
-	void NPC_FinishedEnterVehicle();
-	void NPC_FinishedExitVehicle();
-	void AllowBlockedExit();
-	void PassengerShouldReceiveDamage();
-	void ProcessMovement();
-	void GetDriver();
-	void NPC_CanEnterVehicle();
-	void NPC_CanExitVehicle();
-	void NPC_AddPassenger();
-	void CanExitVehicle();
-	void InputTurnOff();
-	void NPC_RemovePassenger();
-	void CanEnterVehicle();
-	void InputTurnOn();
-	void InputLock();
-	void InputUnlock();
-	void GetBaseMap();
-	void DestroyServerVehicle();
-	void ResetUseKey();
-	void DriveVehicle();
-	void SetupMove();
-	void IsEngineOn();
-	void StartEngine();
-	void StopEngine();
-	void EnterVehicle();
-	void ExitVehicle();
-	void CPropVehicleDriveable();
+	void ItemPostFrame(); // size[0]
+	void FinishMove(); // size[0]
+	void AllowMidairExit(); // size[0]
+	void PreExitVehicle(); // size[0]
+	void GetVehicleScriptName(); // size[0]
+	void SetVehicleEntryAnim(); // size[0]
+	void SetVehicleExitAnim(); // size[0]
+	void NPC_FinishedEnterVehicle(); // size[0]
+	void NPC_FinishedExitVehicle(); // size[0]
+	void AllowBlockedExit(); // size[0]
+	void PassengerShouldReceiveDamage(); // size[0]
+	void ProcessMovement(); // size[0]
+	void GetDriver(); // size[0]
+	void NPC_CanEnterVehicle(); // size[0]
+	void NPC_CanExitVehicle(); // size[0]
+	void NPC_AddPassenger(); // size[0]
+	void CanExitVehicle(); // size[0]
+	void InputTurnOff(); // size[0]
+	void NPC_RemovePassenger(); // size[0]
+	void CanEnterVehicle(); // size[0]
+	void InputTurnOn(); // size[0]
+	void InputLock(); // size[0]
+	void InputUnlock(); // size[0]
+	void GetBaseMap(); // size[0]
+	void DestroyServerVehicle(); // size[0]
+	void ResetUseKey(); // size[0]
+	void DriveVehicle(); // size[0]
+	void SetupMove(); // size[0]
+	void IsEngineOn(); // size[0]
+	void StartEngine(); // size[0]
+	void StopEngine(); // size[0]
+	void EnterVehicle(); // size[0]
+	void ExitVehicle(); // size[0]
+	CPropVehicleDriveable(); // size[0]
 };

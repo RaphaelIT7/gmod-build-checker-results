@@ -3,6 +3,7 @@
 class CWeaponList : public CAutoGameSystem
 {
 public:
-	virtual void ~CWeaponList() override; // vtable[13]
-	virtual void ~CWeaponList() override; // vtable[14]
+	virtual void LevelShutdownPostEntity() override; // vtable[8]
+	virtual ~CWeaponList() override; // vtable[13]
+	virtual ~CWeaponList() override; // vtable[14]
 };

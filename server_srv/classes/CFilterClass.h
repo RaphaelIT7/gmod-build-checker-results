@@ -3,8 +3,10 @@
 class CFilterClass : public CBaseFilter
 {
 public:
-	virtual void ~CFilterClass() override; // vtable[0]
-	virtual void ~CFilterClass() override; // vtable[1]
+	virtual ~CFilterClass() override; // vtable[0]
+	virtual ~CFilterClass() override; // vtable[1]
+	virtual void GetDataDescMap() override; // vtable[12]
+	virtual void PassesFilterImpl() override; // vtable[246]
 
-	void GetBaseMap();
+	void GetBaseMap(); // size[0]
 };

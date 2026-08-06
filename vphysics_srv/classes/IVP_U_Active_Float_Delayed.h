@@ -3,6 +3,6 @@
 class IVP_U_Active_Float_Delayed
 {
 public:
-	void ~IVP_U_Active_Float_Delayed();
-	void ~IVP_U_Active_Float_Delayed();
+	~IVP_U_Active_Float_Delayed(); // size[0]
+	~IVP_U_Active_Float_Delayed(); // size[0]
 };

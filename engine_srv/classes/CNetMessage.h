@@ -3,8 +3,8 @@
 class CNetMessage : public INetMessage
 {
 public:
-	virtual void ~CNetMessage() override; // vtable[0]
-	virtual void ~CNetMessage() override; // vtable[1]
+	virtual ~CNetMessage() override; // vtable[0]
+	virtual ~CNetMessage() override; // vtable[1]
 	virtual void SetNetChannel(); // vtable[2]
 	virtual void SetReliable(); // vtable[3]
 	virtual void Process(); // vtable[4]

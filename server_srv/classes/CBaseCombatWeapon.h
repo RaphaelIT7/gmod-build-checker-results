@@ -3,8 +3,29 @@
 class CBaseCombatWeapon : public CBaseAnimating
 {
 public:
-	virtual void ~CBaseCombatWeapon() override; // vtable[0]
-	virtual void ~CBaseCombatWeapon() override; // vtable[1]
+	virtual ~CBaseCombatWeapon() override; // vtable[0]
+	virtual ~CBaseCombatWeapon() override; // vtable[1]
+	virtual void GetServerClass() override; // vtable[10]
+	virtual void YouForgotToImplementOrDeclareServerClass() override; // vtable[11]
+	virtual void GetDataDescMap() override; // vtable[12]
+	virtual void UpdateTransmitState() override; // vtable[20]
+	virtual void Spawn() override; // vtable[23]
+	virtual void Precache() override; // vtable[24]
+	virtual void Activate() override; // vtable[34]
+	virtual void ObjectCaps() override; // vtable[36]
+	virtual void NetworkStateChanged_m_nNextThinkTick() override; // vtable[49]
+	virtual void NetworkStateChanged_m_nNextThinkTick() override; // vtable[50]
+	virtual void IsBaseCombatWeapon() override; // vtable[88]
+	virtual void MyCombatWeaponPointer() override; // vtable[90]
+	virtual void Use() override; // vtable[100]
+	virtual void MakeTracer() override; // vtable[113]
+	virtual void FireBullets() override; // vtable[115]
+	virtual void Respawn() override; // vtable[118]
+	virtual void GetSoundEmissionOrigin() override; // vtable[153]
+	virtual void IsPredicted() override; // vtable[201]
+	virtual void IsWeapon() override; // vtable[202]
+	virtual void Lua_GetLuaClass() override; // vtable[241]
+	virtual void HandleAnimEvent() override; // vtable[261]
 	virtual void GetSubType(); // vtable[282]
 	virtual void SetSubType(); // vtable[283]
 	virtual void Equip(); // vtable[284]
@@ -152,29 +173,29 @@ public:
 	virtual void MarkAsDropped(); // vtable[426]
 	virtual void GetHolsterActivity(); // vtable[427]
 
-	void _GLOBAL__sub_I_CBaseCombatWeapon();
-	void CBaseCombatWeapon();
-	void GiveDefaultAmmo();
-	void GetWpnData();
-	void IsMeleeWeapon();
-	void GetOwner();
-	void InputHideWeapon();
-	void SetOwner();
-	void GetViewModelSequenceDuration();
-	void IsViewModelSequenceFinished();
-	void UsesPrimaryAmmo();
-	void UsesSecondaryAmmo();
-	void GMOD_WeaponSound();
-	void DefaultReload();
-	void ReloadsSingly();
-	void MaintainIdealActivity();
-	void Lock();
-	void IsLocked();
-	void GetDeploySpeed();
-	void SetIdealActivity();
-	void SetDeploySpeed();
-	void GetBaseMap();
-	void AttemptToMaterialize();
-	void DestroyItem();
-	void GetAvailableWeaponsInBox();
+	_GLOBAL__sub_I_CBaseCombatWeapon(); // size[0]
+	CBaseCombatWeapon(); // size[0]
+	void GiveDefaultAmmo(); // size[0]
+	void GetWpnData(); // size[0]
+	void IsMeleeWeapon(); // size[0]
+	void GetOwner(); // size[0]
+	void InputHideWeapon(); // size[0]
+	void SetOwner(); // size[0]
+	void GetViewModelSequenceDuration(); // size[0]
+	void IsViewModelSequenceFinished(); // size[0]
+	void UsesPrimaryAmmo(); // size[0]
+	void UsesSecondaryAmmo(); // size[0]
+	void GMOD_WeaponSound(); // size[0]
+	void DefaultReload(); // size[0]
+	void ReloadsSingly(); // size[0]
+	void MaintainIdealActivity(); // size[0]
+	void Lock(); // size[0]
+	void IsLocked(); // size[0]
+	void GetDeploySpeed(); // size[0]
+	void SetIdealActivity(); // size[0]
+	void SetDeploySpeed(); // size[0]
+	void GetBaseMap(); // size[0]
+	void AttemptToMaterialize(); // size[0]
+	void DestroyItem(); // size[0]
+	void GetAvailableWeaponsInBox(); // size[0]
 };

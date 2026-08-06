@@ -3,8 +3,10 @@
 class CPlatTrigger : public CBaseEntity
 {
 public:
-	virtual void ~CPlatTrigger() override; // vtable[0]
-	virtual void ~CPlatTrigger() override; // vtable[1]
+	virtual ~CPlatTrigger() override; // vtable[0]
+	virtual ~CPlatTrigger() override; // vtable[1]
+	virtual void ObjectCaps() override; // vtable[36]
+	virtual void Touch() override; // vtable[102]
 
-	void SpawnInsideTrigger();
+	void SpawnInsideTrigger(); // size[0]
 };

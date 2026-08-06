@@ -3,9 +3,12 @@
 class CEnvSoundscapeProxy : public CEnvSoundscape
 {
 public:
-	virtual void ~CEnvSoundscapeProxy() override; // vtable[0]
-	virtual void ~CEnvSoundscapeProxy() override; // vtable[1]
+	virtual ~CEnvSoundscapeProxy() override; // vtable[0]
+	virtual ~CEnvSoundscapeProxy() override; // vtable[1]
+	virtual void GetDataDescMap() override; // vtable[12]
+	virtual void Precache() override; // vtable[24]
+	virtual void Activate() override; // vtable[34]
 
-	void GetBaseMap();
-	void CEnvSoundscapeProxy();
+	void GetBaseMap(); // size[0]
+	CEnvSoundscapeProxy(); // size[0]
 };

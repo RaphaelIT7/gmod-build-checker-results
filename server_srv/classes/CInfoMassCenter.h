@@ -3,6 +3,7 @@
 class CInfoMassCenter : public CPointEntity
 {
 public:
-	virtual void ~CInfoMassCenter() override; // vtable[0]
-	virtual void ~CInfoMassCenter() override; // vtable[1]
+	virtual ~CInfoMassCenter() override; // vtable[0]
+	virtual ~CInfoMassCenter() override; // vtable[1]
+	virtual void Spawn() override; // vtable[23]
 };

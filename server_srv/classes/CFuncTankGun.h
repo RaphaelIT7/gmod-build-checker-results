@@ -3,6 +3,7 @@
 class CFuncTankGun : public CFuncTank
 {
 public:
-	virtual void ~CFuncTankGun() override; // vtable[0]
-	virtual void ~CFuncTankGun() override; // vtable[1]
+	virtual ~CFuncTankGun() override; // vtable[0]
+	virtual ~CFuncTankGun() override; // vtable[1]
+	virtual void Fire() override; // vtable[254]
 };

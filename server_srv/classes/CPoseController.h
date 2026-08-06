@@ -3,36 +3,41 @@
 class CPoseController : public CBaseEntity
 {
 public:
-	virtual void ~CPoseController() override; // vtable[0]
-	virtual void ~CPoseController() override; // vtable[1]
+	virtual ~CPoseController() override; // vtable[0]
+	virtual ~CPoseController() override; // vtable[1]
+	virtual void GetServerClass() override; // vtable[10]
+	virtual void YouForgotToImplementOrDeclareServerClass() override; // vtable[11]
+	virtual void GetDataDescMap() override; // vtable[12]
+	virtual void Spawn() override; // vtable[23]
+	virtual void Think() override; // vtable[48]
 
-	void _GLOBAL__sub_I_m_DataMap();
-	void InputGetFMod();
-	void InputSetFModRate();
-	void InputSetFModTimeOffset();
-	void InputSetFModAmplitude();
-	void InputSetCycleFrequency();
-	void InputSetInterpolationTime();
-	void InputSetFModType();
-	void GetBaseMap();
-	void SetPoseIndex();
-	void BuildPoseIndexList();
-	void InputSetPoseParameterName();
-	void BuildPropList();
-	void GetPoseValue();
-	void SetProp();
-	void SetPropName();
-	void SetPoseParameterName();
-	void SetInterpolationTime();
-	void SetInterpolationWrap();
-	void SetCycleFrequency();
-	void SetFModType();
-	void SetFModTimeOffset();
-	void SetFModRate();
-	void SetFModAmplitude();
-	void RandomizeFMod();
-	void InputRandomizeFMod();
-	void SetCurrentPose();
-	void SetPoseValue();
-	void InputSetPoseValue();
+	void _GLOBAL__sub_I_m_DataMap(); // size[0]
+	void InputGetFMod(); // size[0]
+	void InputSetFModRate(); // size[0]
+	void InputSetFModTimeOffset(); // size[0]
+	void InputSetFModAmplitude(); // size[0]
+	void InputSetCycleFrequency(); // size[0]
+	void InputSetInterpolationTime(); // size[0]
+	void InputSetFModType(); // size[0]
+	void GetBaseMap(); // size[0]
+	void SetPoseIndex(); // size[0]
+	void BuildPoseIndexList(); // size[0]
+	void InputSetPoseParameterName(); // size[0]
+	void BuildPropList(); // size[0]
+	void GetPoseValue(); // size[0]
+	void SetProp(); // size[0]
+	void SetPropName(); // size[0]
+	void SetPoseParameterName(); // size[0]
+	void SetInterpolationTime(); // size[0]
+	void SetInterpolationWrap(); // size[0]
+	void SetCycleFrequency(); // size[0]
+	void SetFModType(); // size[0]
+	void SetFModTimeOffset(); // size[0]
+	void SetFModRate(); // size[0]
+	void SetFModAmplitude(); // size[0]
+	void RandomizeFMod(); // size[0]
+	void InputRandomizeFMod(); // size[0]
+	void SetCurrentPose(); // size[0]
+	void SetPoseValue(); // size[0]
+	void InputSetPoseValue(); // size[0]
 };

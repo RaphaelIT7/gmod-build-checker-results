@@ -3,8 +3,8 @@
 class CRegistry : public IRegistry
 {
 public:
-	virtual void ~CRegistry() override; // vtable[0]
-	virtual void ~CRegistry() override; // vtable[1]
+	virtual ~CRegistry() override; // vtable[0]
+	virtual ~CRegistry() override; // vtable[1]
 	virtual void Init(); // vtable[2]
 	virtual void Shutdown(); // vtable[3]
 	virtual void ReadInt(); // vtable[4]
@@ -17,5 +17,5 @@ public:
 	virtual void WriteString() override; // vtable[11]
 	virtual void DirectInit(); // vtable[12]
 
-	void CRegistry();
+	CRegistry(); // size[0]
 };

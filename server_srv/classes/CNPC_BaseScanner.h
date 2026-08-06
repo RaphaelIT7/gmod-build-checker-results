@@ -3,8 +3,8 @@
 class CNPC_BaseScanner : public CAI_BasePhysicsFlyingBot, public CDefaultPlayerPickupVPhysics
 {
 public:
-	virtual void ~CNPC_BaseScanner() override; // vtable[0]
-	virtual void ~CNPC_BaseScanner() override; // vtable[1]
+	virtual ~CNPC_BaseScanner() override; // vtable[0]
+	virtual ~CNPC_BaseScanner() override; // vtable[1]
 	virtual void SetRefEHandle() override; // vtable[2]
 	virtual void GetRefEHandle() override; // vtable[3]
 	virtual void GetCollideable() override; // vtable[4]
@@ -13,7 +13,43 @@ public:
 	virtual void GetModelIndex() override; // vtable[7]
 	virtual void GetModelName() override; // vtable[8]
 	virtual void SetModelIndex() override; // vtable[9]
+	virtual void GetDataDescMap() override; // vtable[12]
+	virtual void Spawn() override; // vtable[23]
+	virtual void DrawDebugTextOverlays() override; // vtable[40]
+	virtual void Classify() override; // vtable[55]
+	virtual void GetAutoAimRadius() override; // vtable[58]
+	virtual void TraceAttack() override; // vtable[62]
+	virtual void Event_Killed() override; // vtable[68]
+	virtual void UpdateOnRemove() override; // vtable[108]
+	virtual void StopLoopingSounds() override; // vtable[109]
+	virtual void VPhysicsCollision() override; // vtable[165]
+	virtual void HasPhysicsAttacker() override; // vtable[173]
+	virtual void SetPhysicsAttacker() override; // vtable[236]
+	virtual void CanBecomeServerRagdoll() override; // vtable[337]
+	virtual void OnTakeDamage_Alive() override; // vtable[338]
+	virtual void OnTakeDamage_Dying() override; // vtable[339]
+	virtual void OnScheduleChange() override; // vtable[405]
+	virtual void SelectSchedule() override; // vtable[407]
+	virtual void StartTask() override; // vtable[410]
+	virtual void PostRunStopMoving() override; // vtable[419]
+	virtual void GetSchedulingErrorName() override; // vtable[432]
+	virtual void LoadedSchedules() override; // vtable[433]
+	virtual void OnStateChange() override; // vtable[455]
+	virtual void UpdateEfficiency() override; // vtable[456]
+	virtual void DeathSound() override; // vtable[507]
+	virtual void AlertSound() override; // vtable[508]
+	virtual void IdleSound() override; // vtable[509]
+	virtual void PainSound() override; // vtable[510]
+	virtual void SpeakSentence() override; // vtable[515]
+	virtual void ShouldPlayIdleSound() override; // vtable[516]
+	virtual void OverrideMove() override; // vtable[538]
+	virtual void SquadSlotName() override; // vtable[581]
+	virtual void MeleeAttack1Conditions() override; // vtable[597]
+	virtual void GetClassScheduleIdSpace() override; // vtable[640]
+	virtual void MinGroundDist() override; // vtable[652]
 	virtual void MoveToTarget() override; // vtable[654]
+	virtual void GetHeadTurnRate() override; // vtable[655]
+	virtual void ClampMotorForces() override; // vtable[657]
 	virtual void OnPhysGunPickup(); // vtable[658]
 	virtual void OnPhysGunDrop(); // vtable[659]
 	virtual void GetScannerSoundPrefix(); // vtable[660]
@@ -26,28 +62,28 @@ public:
 	virtual void GetGoalDistance(); // vtable[667]
 	virtual void AttackDivebomb(); // vtable[668]
 
-	void InputSetFlightSpeed();
-	void InputSetDistanceOverride();
-	void GetBaseMap();
-	void TakeDamageFromPhyscannon();
-	void IsHeldByPhyscannon();
-	void PlayFlySound();
-	void StartSmokeTrail();
-	void BlendPhyscannonLaunchSpeed();
-	void MoveToDivebomb();
-	void IsEnemyPlayerInSuit();
-	void GetGoalDirection();
-	void IdealGoalForMovement();
-	void VelocityToEvade();
-	void UpdateHead();
-	void ScannerEmitSound();
-	void DiveBombSoundThink();
-	void OnPhysGunPickup();
-	void OnPhysGunDrop();
-	void InitCustomSchedules();
-	void LoadSchedules();
-	void CScheduleLoader();
-	void CNPC_BaseScanner();
-	void Gib();
-	void AttackDivebombCollide();
+	void InputSetFlightSpeed(); // size[0]
+	void InputSetDistanceOverride(); // size[0]
+	void GetBaseMap(); // size[0]
+	void TakeDamageFromPhyscannon(); // size[0]
+	void IsHeldByPhyscannon(); // size[0]
+	void PlayFlySound(); // size[0]
+	void StartSmokeTrail(); // size[0]
+	void BlendPhyscannonLaunchSpeed(); // size[0]
+	void MoveToDivebomb(); // size[0]
+	void IsEnemyPlayerInSuit(); // size[0]
+	void GetGoalDirection(); // size[0]
+	void IdealGoalForMovement(); // size[0]
+	void VelocityToEvade(); // size[0]
+	void UpdateHead(); // size[0]
+	void ScannerEmitSound(); // size[0]
+	void DiveBombSoundThink(); // size[0]
+	void OnPhysGunPickup(); // size[0]
+	void OnPhysGunDrop(); // size[0]
+	void InitCustomSchedules(); // size[0]
+	void LoadSchedules(); // size[0]
+	CScheduleLoader(); // size[0]
+	CNPC_BaseScanner(); // size[0]
+	void Gib(); // size[0]
+	void AttackDivebombCollide(); // size[0]
 };

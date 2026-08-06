@@ -3,17 +3,29 @@
 class CPropDoorRotatingBreakable : public CPropDoorRotating
 {
 public:
-	virtual void ~CPropDoorRotatingBreakable() override; // vtable[0]
-	virtual void ~CPropDoorRotatingBreakable() override; // vtable[1]
+	virtual ~CPropDoorRotatingBreakable() override; // vtable[0]
+	virtual ~CPropDoorRotatingBreakable() override; // vtable[1]
+	virtual void GetDataDescMap() override; // vtable[12]
+	virtual void Spawn() override; // vtable[23]
+	virtual void Precache() override; // vtable[24]
+	virtual void DrawDebugTextOverlays() override; // vtable[40]
+	virtual void OnTakeDamage() override; // vtable[64]
+	virtual void Event_Killed() override; // vtable[68]
+	virtual void UpdateOnRemove() override; // vtable[108]
+	virtual void IsAbleToCloseAreaPortals() override; // vtable[323]
+	virtual void OnDoorClosed() override; // vtable[331]
+	virtual void OnDoorOpened() override; // vtable[332]
+	virtual void Lock() override; // vtable[338]
+	virtual void Unlock() override; // vtable[339]
 
-	void GetBaseMap();
-	void operator()();
-	void UpdateBlocked();
-	void BlockNav();
-	void InputSetUnbreakable();
-	void UnblockNav();
-	void InputSetBreakable();
-	void PrecacheBreakables();
-	void ~CPropDoorRotatingBreakable();
-	void ~CPropDoorRotatingBreakable();
+	void GetBaseMap(); // size[0]
+	void operator()(); // size[0]
+	void UpdateBlocked(); // size[0]
+	void BlockNav(); // size[0]
+	void InputSetUnbreakable(); // size[0]
+	void UnblockNav(); // size[0]
+	void InputSetBreakable(); // size[0]
+	void PrecacheBreakables(); // size[0]
+	~CPropDoorRotatingBreakable(); // size[0]
+	~CPropDoorRotatingBreakable(); // size[0]
 };

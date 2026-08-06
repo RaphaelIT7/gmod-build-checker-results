@@ -10,8 +10,8 @@ public:
 	virtual void do_simulation_controller(); // vtable[4]
 	virtual void get_controller_priority(); // vtable[5]
 	virtual void get_controller_name(); // vtable[6]
-	virtual void ~IVP_Friction_Sys_Static(); // vtable[7]
-	virtual void ~IVP_Friction_Sys_Static(); // vtable[8]
+	virtual ~IVP_Friction_Sys_Static(); // vtable[7]
+	virtual ~IVP_Friction_Sys_Static(); // vtable[8]
 
-	void do_simulation_single_friction();
+	void do_simulation_single_friction(); // size[0]
 };

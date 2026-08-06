@@ -3,33 +3,45 @@
 class CSprite : public CBaseEntity
 {
 public:
-	virtual void ~CSprite() override; // vtable[0]
-	virtual void ~CSprite() override; // vtable[1]
+	virtual ~CSprite() override; // vtable[0]
+	virtual ~CSprite() override; // vtable[1]
+	virtual void GetServerClass() override; // vtable[10]
+	virtual void YouForgotToImplementOrDeclareServerClass() override; // vtable[11]
+	virtual void GetDataDescMap() override; // vtable[12]
+	virtual void ComputeWorldSpaceSurroundingBox() override; // vtable[16]
+	virtual void ShouldTransmit() override; // vtable[19]
+	virtual void UpdateTransmitState() override; // vtable[20]
+	virtual void Spawn() override; // vtable[23]
+	virtual void Precache() override; // vtable[24]
+	virtual void SetModel() override; // vtable[25]
+	virtual void ObjectCaps() override; // vtable[36]
+	virtual void OnRestore() override; // vtable[45]
+	virtual void Use() override; // vtable[100]
 
-	void _GLOBAL__sub_I_m_DataMap();
-	void SetSpriteScale();
-	void InputColorRedValue();
-	void InputColorGreenValue();
-	void InputColorBlueValue();
-	void ExpandThink();
-	void GetBaseMap();
-	void CSprite();
-	void EnableWorldSpaceScale();
-	void SpriteInit();
-	void Expand();
-	void SetBrightness();
-	void SetSpriteScale();
-	void SetScale();
-	void TurnOff();
-	void InputHideSprite();
-	void Animate();
-	void AnimateThink();
-	void AnimateUntilDead();
-	void TurnOn();
-	void SpriteCreate();
-	void SpriteCreatePredictable();
-	void InputShowSprite();
-	void InputToggleSprite();
-	void BeginFadeOutThink();
-	void SetTransparency();
+	void _GLOBAL__sub_I_m_DataMap(); // size[0]
+	void SetSpriteScale(); // size[0]
+	void InputColorRedValue(); // size[0]
+	void InputColorGreenValue(); // size[0]
+	void InputColorBlueValue(); // size[0]
+	void ExpandThink(); // size[0]
+	void GetBaseMap(); // size[0]
+	CSprite(); // size[0]
+	void EnableWorldSpaceScale(); // size[0]
+	void SpriteInit(); // size[0]
+	void Expand(); // size[0]
+	void SetBrightness(); // size[0]
+	void SetSpriteScale(); // size[0]
+	void SetScale(); // size[0]
+	void TurnOff(); // size[0]
+	void InputHideSprite(); // size[0]
+	void Animate(); // size[0]
+	void AnimateThink(); // size[0]
+	void AnimateUntilDead(); // size[0]
+	void TurnOn(); // size[0]
+	void SpriteCreate(); // size[0]
+	void SpriteCreatePredictable(); // size[0]
+	void InputShowSprite(); // size[0]
+	void InputToggleSprite(); // size[0]
+	void BeginFadeOutThink(); // size[0]
+	void SetTransparency(); // size[0]
 };

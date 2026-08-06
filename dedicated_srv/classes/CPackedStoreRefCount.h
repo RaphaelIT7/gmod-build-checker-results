@@ -3,8 +3,8 @@
 class CPackedStoreRefCount : public CPackedStore, public CRefCounted
 {
 public:
-	virtual void ~CPackedStoreRefCount() override; // vtable[0]
-	virtual void ~CPackedStoreRefCount() override; // vtable[1]
+	virtual ~CPackedStoreRefCount() override; // vtable[0]
+	virtual ~CPackedStoreRefCount() override; // vtable[1]
 
-	void CPackedStoreRefCount();
+	CPackedStoreRefCount(); // size[0]
 };

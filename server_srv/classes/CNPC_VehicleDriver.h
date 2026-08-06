@@ -3,26 +3,49 @@
 class CNPC_VehicleDriver : public CAI_BaseNPC
 {
 public:
-	virtual void ~CNPC_VehicleDriver() override; // vtable[0]
-	virtual void ~CNPC_VehicleDriver() override; // vtable[1]
+	virtual ~CNPC_VehicleDriver() override; // vtable[0]
+	virtual ~CNPC_VehicleDriver() override; // vtable[1]
+	virtual void GetDataDescMap() override; // vtable[12]
+	virtual void Spawn() override; // vtable[23]
+	virtual void Precache() override; // vtable[24]
+	virtual void Activate() override; // vtable[34]
+	virtual void Classify() override; // vtable[55]
+	virtual void BloodColor() override; // vtable[70]
+	virtual void UpdateOnRemove() override; // vtable[108]
+	virtual void IRelationType() override; // vtable[364]
+	virtual void PrescheduleThink() override; // vtable[403]
+	virtual void SelectSchedule() override; // vtable[407]
+	virtual void TranslateSchedule() override; // vtable[409]
+	virtual void StartTask() override; // vtable[410]
+	virtual void RunTask() override; // vtable[411]
+	virtual void GetSchedulingErrorName() override; // vtable[432]
+	virtual void LoadedSchedules() override; // vtable[433]
+	virtual void UpdateEfficiency() override; // vtable[456]
+	virtual void GatherEnemyConditions() override; // vtable[478]
+	virtual void OverrideMove() override; // vtable[538]
+	virtual void SquadSlotName() override; // vtable[581]
+	virtual void RangeAttack1Conditions() override; // vtable[595]
+	virtual void RangeAttack2Conditions() override; // vtable[596]
+	virtual void GetDefaultNavGoalTolerance() override; // vtable[614]
+	virtual void GetClassScheduleIdSpace() override; // vtable[640]
 	virtual void DriveVehicle(); // vtable[652]
 
-	void InputStop();
-	void InputStopFiring();
-	void InputStartFiring();
-	void GetBaseMap();
-	void CalculatePostPoints();
-	void ClearWaypoints();
-	void RecalculateSpeeds();
-	void WaypointReached();
-	void OverridePathMove();
-	void CheckForTeleport();
-	void InputSetDriversMaxSpeed();
-	void InputSetDriversMinSpeed();
-	void InputStartForward();
-	void InputGotoPathCorner();
-	void InitCustomSchedules();
-	void LoadSchedules();
-	void CScheduleLoader();
-	void CNPC_VehicleDriver();
+	void InputStop(); // size[0]
+	void InputStopFiring(); // size[0]
+	void InputStartFiring(); // size[0]
+	void GetBaseMap(); // size[0]
+	void CalculatePostPoints(); // size[0]
+	void ClearWaypoints(); // size[0]
+	void RecalculateSpeeds(); // size[0]
+	void WaypointReached(); // size[0]
+	void OverridePathMove(); // size[0]
+	void CheckForTeleport(); // size[0]
+	void InputSetDriversMaxSpeed(); // size[0]
+	void InputSetDriversMinSpeed(); // size[0]
+	void InputStartForward(); // size[0]
+	void InputGotoPathCorner(); // size[0]
+	void InitCustomSchedules(); // size[0]
+	void LoadSchedules(); // size[0]
+	CScheduleLoader(); // size[0]
+	CNPC_VehicleDriver(); // size[0]
 };

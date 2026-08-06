@@ -3,9 +3,11 @@
 class CTEHL2MPFireBullets : public CBaseTempEntity
 {
 public:
-	virtual void ~CTEHL2MPFireBullets() override; // vtable[2]
+	virtual void GetServerClass() override; // vtable[0]
+	virtual void YouForgotToImplementOrDeclareServerClass() override; // vtable[1]
+	virtual ~CTEHL2MPFireBullets() override; // vtable[2]
 	virtual void _ZN19CTEHL2MPFireBulletsD0Ev() override; // vtable[3]
 
-	void _GLOBAL__sub_I_CTEHL2MPFireBullets();
-	void CTEHL2MPFireBullets();
+	_GLOBAL__sub_I_CTEHL2MPFireBullets(); // size[0]
+	CTEHL2MPFireBullets(); // size[0]
 };

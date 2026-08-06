@@ -4,13 +4,13 @@ class IVP_Object_Callback_Table_Hash : public IVP_VHash
 {
 public:
 	virtual void compare() override; // vtable[0]
-	virtual void ~IVP_Object_Callback_Table_Hash(); // vtable[1]
-	virtual void ~IVP_Object_Callback_Table_Hash(); // vtable[2]
+	virtual ~IVP_Object_Callback_Table_Hash(); // vtable[1]
+	virtual ~IVP_Object_Callback_Table_Hash(); // vtable[2]
 
-	void _GLOBAL__sub_I_~IVP_Object_Callback_Table_Hash();
-	void object_to_index();
-	void add_table();
-	void remove_table();
-	void find_table();
-	void IVP_Object_Callback_Table_Hash();
+	_GLOBAL__sub_I_~IVP_Object_Callback_Table_Hash(); // size[0]
+	void object_to_index(); // size[0]
+	void add_table(); // size[0]
+	void remove_table(); // size[0]
+	void find_table(); // size[0]
+	IVP_Object_Callback_Table_Hash(); // size[0]
 };

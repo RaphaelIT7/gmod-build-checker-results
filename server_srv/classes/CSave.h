@@ -51,32 +51,32 @@ public:
 	virtual void WriteEdictPtr(); // vtable[45]
 	virtual void WriteEHandle(); // vtable[46]
 	virtual void GetGameSaveRestoreInfo() override; // vtable[47]
-	virtual void ~CSave() override; // vtable[48]
-	virtual void ~CSave() override; // vtable[49]
+	virtual ~CSave() override; // vtable[48]
+	virtual ~CSave() override; // vtable[49]
 
-	void IsLogging();
-	void Log();
-	void ShouldSaveField();
-	void WriteBasicField();
-	void DoWriteAll();
-	void BufferData();
-	void WriteVMatrix();
-	void WriteVMatrixWorldspace();
-	void WriteMatrix3x4Worldspace();
-	void WriteInterval();
-	void BufferString();
-	void WriteHeader();
-	void WriteVMatrixWorldspace();
-	void WriteMatrix3x4Worldspace();
-	void WriteVMatrix();
-	void WriteInterval();
-	void BufferField();
-	void EntityIndex();
-	void EntityIndex();
-	void EntityFlagsSet();
-	void WriteTime64();
-	void WriteGMODTable();
-	void WriteGameField();
-	void WriteField();
-	void CSave();
+	void IsLogging(); // size[0]
+	void Log(); // size[0]
+	void ShouldSaveField(); // size[0]
+	void WriteBasicField(); // size[0]
+	void DoWriteAll(); // size[0]
+	void BufferData(); // size[0]
+	void WriteVMatrix(); // size[0]
+	void WriteVMatrixWorldspace(); // size[0]
+	void WriteMatrix3x4Worldspace(); // size[0]
+	void WriteInterval(); // size[0]
+	void BufferString(); // size[0]
+	void WriteHeader(); // size[0]
+	void WriteVMatrixWorldspace(); // size[0]
+	void WriteMatrix3x4Worldspace(); // size[0]
+	void WriteVMatrix(); // size[0]
+	void WriteInterval(); // size[0]
+	void BufferField(); // size[0]
+	void EntityIndex(); // size[0]
+	void EntityIndex(); // size[0]
+	void EntityFlagsSet(); // size[0]
+	void WriteTime64(); // size[0]
+	void WriteGMODTable(); // size[0]
+	void WriteGameField(); // size[0]
+	void WriteField(); // size[0]
+	CSave(); // size[0]
 };

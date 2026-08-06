@@ -3,37 +3,62 @@
 class CAI_PassengerBehaviorCompanion : public CAI_PassengerBehavior
 {
 public:
-	virtual void ~CAI_PassengerBehaviorCompanion() override; // vtable[0]
-	virtual void ~CAI_PassengerBehaviorCompanion() override; // vtable[1]
+	virtual ~CAI_PassengerBehaviorCompanion() override; // vtable[0]
+	virtual ~CAI_PassengerBehaviorCompanion() override; // vtable[1]
+	virtual void CanSelectSchedule() override; // vtable[7]
+	virtual void GatherConditions() override; // vtable[11]
+	virtual void OnUpdateShotRegulator() override; // vtable[13]
+	virtual void GetClassScheduleIdSpace() override; // vtable[14]
+	virtual void SelectSchedule() override; // vtable[26]
+	virtual void SelectFailSchedule() override; // vtable[27]
+	virtual void StartTask() override; // vtable[28]
+	virtual void RunTask() override; // vtable[29]
+	virtual void AimGun() override; // vtable[30]
+	virtual void GetSchedulingErrorName() override; // vtable[33]
+	virtual void BuildScheduleTestBits() override; // vtable[34]
+	virtual void NPC_TranslateActivity() override; // vtable[35]
+	virtual void IsCurTaskContinuousMove() override; // vtable[36]
+	virtual void IsValidEnemy() override; // vtable[41]
+	virtual void IsNavigationUrgent() override; // vtable[50]
+	virtual void IsCrouching() override; // vtable[55]
+	virtual void GetDataDescMap() override; // vtable[70]
+	virtual void EnterVehicle() override; // vtable[75]
+	virtual void ExitVehicle() override; // vtable[76]
+	virtual void SelectTransitionSchedule() override; // vtable[77]
+	virtual void OnExitVehicleFailed() override; // vtable[78]
+	virtual void GatherVehicleStateConditions() override; // vtable[79]
+	virtual void FinishEnterVehicle() override; // vtable[80]
+	virtual void FinishExitVehicle() override; // vtable[81]
+	virtual void LoadedSchedules() override; // vtable[82]
 	virtual void Enable(); // vtable[83]
 	virtual void CanExitVehicle(); // vtable[84]
 	virtual void FindEntrySequence(); // vtable[85]
 
-	void GetBaseMap();
-	void GetVehicleSpeed();
-	void CanPlayJostle();
-	void UpdateStuckStatus();
-	void SelectScheduleOutsideVehicle();
-	void CanEnterVehicleImmediately();
-	void EnterVehicleImmediately();
-	void CanExitAtPosition();
-	void GetStuckExitPos();
-	void ExitStuckVehicle();
-	void UpdateVehicleEntrancePath();
-	void UseRadialRouteToEntryPoint();
-	void GetArcToEntryPoint();
-	void ResetVehicleEntryFailedState();
-	void PointIsWithinEntryFailureRadius();
-	void CalculateBodyLean();
-	void GatherVehicleCollisionConditions();
-	void CanFidget();
-	void ExtendFidgetDelay();
-	void SelectScheduleInsideVehicle();
-	void SpeakVehicleConditions();
-	void MarkVehicleEntryFailed();
-	void FindPathToVehicleEntryPoint();
-	void InitCustomSchedules();
-	void LoadSchedules();
-	void CScheduleLoader();
-	void CAI_PassengerBehaviorCompanion();
+	void GetBaseMap(); // size[0]
+	void GetVehicleSpeed(); // size[0]
+	void CanPlayJostle(); // size[0]
+	void UpdateStuckStatus(); // size[0]
+	void SelectScheduleOutsideVehicle(); // size[0]
+	void CanEnterVehicleImmediately(); // size[0]
+	void EnterVehicleImmediately(); // size[0]
+	void CanExitAtPosition(); // size[0]
+	void GetStuckExitPos(); // size[0]
+	void ExitStuckVehicle(); // size[0]
+	void UpdateVehicleEntrancePath(); // size[0]
+	void UseRadialRouteToEntryPoint(); // size[0]
+	void GetArcToEntryPoint(); // size[0]
+	void ResetVehicleEntryFailedState(); // size[0]
+	void PointIsWithinEntryFailureRadius(); // size[0]
+	void CalculateBodyLean(); // size[0]
+	void GatherVehicleCollisionConditions(); // size[0]
+	void CanFidget(); // size[0]
+	void ExtendFidgetDelay(); // size[0]
+	void SelectScheduleInsideVehicle(); // size[0]
+	void SpeakVehicleConditions(); // size[0]
+	void MarkVehicleEntryFailed(); // size[0]
+	void FindPathToVehicleEntryPoint(); // size[0]
+	void InitCustomSchedules(); // size[0]
+	void LoadSchedules(); // size[0]
+	CScheduleLoader(); // size[0]
+	CAI_PassengerBehaviorCompanion(); // size[0]
 };

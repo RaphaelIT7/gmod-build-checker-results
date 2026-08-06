@@ -13,32 +13,32 @@ public:
 	virtual void RenderOverlays(); // vtable[7]
 	virtual void SetOverlayBindProxy() override; // vtable[8]
 
-	void FadeOverlayFragmentGlobal();
-	void FadeOverlayFragment();
-	void DrawBatches();
-	void DrawFadedFragments();
-	void RenderOverlaysBatch();
-	void Surf_PostClipFragment();
-	void Disp_PostClipFragment();
-	void InitTexCoords();
-	void DestroyStaticBuffers();
-	void CleanupMaterial();
-	void DestroyTempFragment();
-	void GetMaterialSortID();
-	void FindOrAddMesh();
-	void BuildStaticBuffers();
-	void AddFragmentToFragmentList();
-	void CreateTempFragment();
-	void Surf_PreClipFragment();
-	void AddFragmentToFragmentList();
-	void CopyTempFragment();
-	void DoClipFragment();
-	void Disp_DoClip();
-	void Disp_ClipFragment();
-	void BuildClipPlanes();
-	void Surf_ClipFragment();
-	void Surf_CreateFragments();
-	void Disp_PreClipFragment();
-	void Disp_CreateFragments();
-	void ~COverlayMgr();
+	void FadeOverlayFragmentGlobal(); // size[0]
+	void FadeOverlayFragment(); // size[0]
+	void DrawBatches(); // size[0]
+	void DrawFadedFragments(); // size[0]
+	void RenderOverlaysBatch(); // size[0]
+	void Surf_PostClipFragment(); // size[0]
+	void Disp_PostClipFragment(); // size[0]
+	void InitTexCoords(); // size[0]
+	void DestroyStaticBuffers(); // size[0]
+	void CleanupMaterial(); // size[0]
+	void DestroyTempFragment(); // size[0]
+	void GetMaterialSortID(); // size[0]
+	void FindOrAddMesh(); // size[0]
+	void BuildStaticBuffers(); // size[0]
+	void AddFragmentToFragmentList(); // size[0]
+	void CreateTempFragment(); // size[0]
+	void Surf_PreClipFragment(); // size[0]
+	void AddFragmentToFragmentList(); // size[0]
+	void CopyTempFragment(); // size[0]
+	void DoClipFragment(); // size[0]
+	void Disp_DoClip(); // size[0]
+	void Disp_ClipFragment(); // size[0]
+	void BuildClipPlanes(); // size[0]
+	void Surf_ClipFragment(); // size[0]
+	void Surf_CreateFragments(); // size[0]
+	void Disp_PreClipFragment(); // size[0]
+	void Disp_CreateFragments(); // size[0]
+	~COverlayMgr(); // size[0]
 };

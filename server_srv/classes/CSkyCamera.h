@@ -3,9 +3,12 @@
 class CSkyCamera : public CLogicalEntity
 {
 public:
-	virtual void ~CSkyCamera() override; // vtable[0]
-	virtual void ~CSkyCamera() override; // vtable[1]
+	virtual ~CSkyCamera() override; // vtable[0]
+	virtual ~CSkyCamera() override; // vtable[1]
+	virtual void GetDataDescMap() override; // vtable[12]
+	virtual void Spawn() override; // vtable[23]
+	virtual void Activate() override; // vtable[34]
 
-	void GetBaseMap();
-	void CSkyCamera();
+	void GetBaseMap(); // size[0]
+	CSkyCamera(); // size[0]
 };

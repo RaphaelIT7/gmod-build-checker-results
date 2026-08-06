@@ -3,14 +3,15 @@
 class CAI_DynamicLinkController : public CServerOnlyEntity
 {
 public:
-	virtual void ~CAI_DynamicLinkController() override; // vtable[0]
-	virtual void ~CAI_DynamicLinkController() override; // vtable[1]
+	virtual ~CAI_DynamicLinkController() override; // vtable[0]
+	virtual ~CAI_DynamicLinkController() override; // vtable[1]
+	virtual void GetDataDescMap() override; // vtable[12]
 
-	void _GLOBAL__sub_I_m_DataMap();
-	void GetBaseMap();
-	void InputTurnOn();
-	void InputTurnOff();
-	void InputSetAllowed();
-	void InputSetInvert();
-	void GenerateLinksFromVolume();
+	void _GLOBAL__sub_I_m_DataMap(); // size[0]
+	void GetBaseMap(); // size[0]
+	void InputTurnOn(); // size[0]
+	void InputTurnOff(); // size[0]
+	void InputSetAllowed(); // size[0]
+	void InputSetInvert(); // size[0]
+	void GenerateLinksFromVolume(); // size[0]
 };

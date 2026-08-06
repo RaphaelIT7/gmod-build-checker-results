@@ -3,8 +3,8 @@
 class CBaseGrenade : public CBaseAnimating, public CDefaultPlayerPickupVPhysics
 {
 public:
-	virtual void ~CBaseGrenade() override; // vtable[0]
-	virtual void ~CBaseGrenade() override; // vtable[1]
+	virtual ~CBaseGrenade() override; // vtable[0]
+	virtual ~CBaseGrenade() override; // vtable[1]
 	virtual void SetRefEHandle() override; // vtable[2]
 	virtual void GetRefEHandle() override; // vtable[3]
 	virtual void GetCollideable() override; // vtable[4]
@@ -13,6 +13,18 @@ public:
 	virtual void GetModelIndex() override; // vtable[7]
 	virtual void GetModelName() override; // vtable[8]
 	virtual void SetModelIndex() override; // vtable[9]
+	virtual void GetServerClass() override; // vtable[10]
+	virtual void YouForgotToImplementOrDeclareServerClass() override; // vtable[11]
+	virtual void GetDataDescMap() override; // vtable[12]
+	virtual void Precache() override; // vtable[24]
+	virtual void ObjectCaps() override; // vtable[36]
+	virtual void Event_Killed() override; // vtable[68]
+	virtual void BloodColor() override; // vtable[70]
+	virtual void Use() override; // vtable[100]
+	virtual void GetDamage() override; // vtable[131]
+	virtual void SetDamage() override; // vtable[132]
+	virtual void NetworkStateChanged_m_fFlags() override; // vtable[180]
+	virtual void NetworkStateChanged_m_fFlags() override; // vtable[181]
 	virtual void Explode(); // vtable[282]
 	virtual void Detonate(); // vtable[283]
 	virtual void GetBlastForce(); // vtable[284]
@@ -22,17 +34,17 @@ public:
 	virtual void GetDamageRadius(); // vtable[288]
 	virtual void SetDamageRadius(); // vtable[289]
 
-	void _GLOBAL__sub_I_m_DataMap();
-	void DetonateUse();
-	void PreDetonate();
-	void Smoke();
-	void DangerSoundThink();
-	void ExplodeTouch();
-	void TumbleThink();
-	void GetBaseMap();
-	void GetThrower();
-	void SlideTouch();
-	void BounceTouch();
-	void SetThrower();
-	void CBaseGrenade();
+	void _GLOBAL__sub_I_m_DataMap(); // size[0]
+	void DetonateUse(); // size[0]
+	void PreDetonate(); // size[0]
+	void Smoke(); // size[0]
+	void DangerSoundThink(); // size[0]
+	void ExplodeTouch(); // size[0]
+	void TumbleThink(); // size[0]
+	void GetBaseMap(); // size[0]
+	void GetThrower(); // size[0]
+	void SlideTouch(); // size[0]
+	void BounceTouch(); // size[0]
+	void SetThrower(); // size[0]
+	CBaseGrenade(); // size[0]
 };

@@ -7,10 +7,10 @@ public:
 	virtual void Restore(); // vtable[1]
 	virtual void Rebuild() override; // vtable[2]
 
-	void _GLOBAL__sub_I_CSceneCache();
-	void CSceneCache();
-	void GetSoundCount();
-	void GetSoundName();
-	void PrecacheSceneEvent();
-	void CSceneCache();
+	_GLOBAL__sub_I_CSceneCache(); // size[0]
+	CSceneCache(); // size[0]
+	void GetSoundCount(); // size[0]
+	void GetSoundName(); // size[0]
+	void PrecacheSceneEvent(); // size[0]
+	CSceneCache(); // size[0]
 };

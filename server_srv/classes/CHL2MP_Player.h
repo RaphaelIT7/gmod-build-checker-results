@@ -3,32 +3,62 @@
 class CHL2MP_Player : public CHL2_Player
 {
 public:
-	virtual void ~CHL2MP_Player() override; // vtable[0]
-	virtual void ~CHL2MP_Player() override; // vtable[1]
+	virtual ~CHL2MP_Player() override; // vtable[0]
+	virtual ~CHL2MP_Player() override; // vtable[1]
+	virtual void GetServerClass() override; // vtable[10]
+	virtual void YouForgotToImplementOrDeclareServerClass() override; // vtable[11]
+	virtual void GetDataDescMap() override; // vtable[12]
+	virtual void Spawn() override; // vtable[23]
+	virtual void OnTakeDamage() override; // vtable[64]
 	virtual void _ZN13CHL2MP_Player12Event_KilledERK15CTakeDamageInfo() override; // vtable[68]
+	virtual void UpdateOnRemove() override; // vtable[108]
+	virtual void FireBullets() override; // vtable[115]
+	virtual void BecomeRagdollOnClient() override; // vtable[253]
+	virtual void SetupBones() override; // vtable[258]
+	virtual void GetAnimStateRenderAngles() override; // vtable[280]
+	virtual void SetAnimStateRenderAngles() override; // vtable[281]
+	virtual void Weapon_Drop() override; // vtable[329]
+	virtual void Weapon_Switch() override; // vtable[330]
+	virtual void GetAttackSpread() override; // vtable[372]
+	virtual void CreateViewModel() override; // vtable[388]
+	virtual void WantsLagCompensationOnEntity() override; // vtable[390]
+	virtual void PlayerDeathThink() override; // vtable[396]
+	virtual void PreThink() override; // vtable[399]
+	virtual void PostThink() override; // vtable[400]
+	virtual void FlashlightIsOn() override; // vtable[420]
+	virtual void FlashlightTurnOn() override; // vtable[421]
+	virtual void FlashlightTurnOff() override; // vtable[422]
+	virtual void CheatImpulseCommands() override; // vtable[433]
+	virtual void ClientCommand() override; // vtable[434]
+	virtual void StartObserverMode() override; // vtable[435]
 	virtual void _ZN13CHL2MP_Player16StopObserverModeEv() override; // vtable[436]
+	virtual void EntSelectSpawnPoint() override; // vtable[457]
+	virtual void BumpWeapon() override; // vtable[462]
+	virtual void CanHearAndReadChatFrom() override; // vtable[485]
+	virtual void CheckChatText() override; // vtable[488]
+	virtual void CreateRagdollEntity() override; // vtable[489]
 	virtual void HandleCommand_JoinTeam(); // vtable[571]
 	virtual void GiveAllItems(); // vtable[572]
 	virtual void InPlayerThink(); // vtable[573]
 	virtual void SetInPlayerThink(); // vtable[574]
 
-	void _GLOBAL__sub_I_GetAttackSpread();
-	void State_PreThink_OBSERVER_MODE();
-	void State_PreThink_ACTIVE();
-	void State_Enter_OBSERVER_MODE();
-	void State_Enter_ACTIVE();
-	void GetBaseMap();
-	void NoteWeaponFired();
-	void DetonateTripmines();
-	void Reset();
-	void IsReady();
-	void SetReady();
-	void State_Enter();
-	void State_Leave();
-	void State_Transition();
-	void State_PreThink();
-	void State_LookupInfo();
-	void DoAnimationEvent();
-	void CHL2MP_Player();
-	void ShouldRunRateLimitedCommand();
+	void _GLOBAL__sub_I_GetAttackSpread(); // size[0]
+	void State_PreThink_OBSERVER_MODE(); // size[0]
+	void State_PreThink_ACTIVE(); // size[0]
+	void State_Enter_OBSERVER_MODE(); // size[0]
+	void State_Enter_ACTIVE(); // size[0]
+	void GetBaseMap(); // size[0]
+	void NoteWeaponFired(); // size[0]
+	void DetonateTripmines(); // size[0]
+	void Reset(); // size[0]
+	void IsReady(); // size[0]
+	void SetReady(); // size[0]
+	void State_Enter(); // size[0]
+	void State_Leave(); // size[0]
+	void State_Transition(); // size[0]
+	void State_PreThink(); // size[0]
+	void State_LookupInfo(); // size[0]
+	void DoAnimationEvent(); // size[0]
+	CHL2MP_Player(); // size[0]
+	void ShouldRunRateLimitedCommand(); // size[0]
 };

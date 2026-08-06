@@ -3,50 +3,82 @@
 class CPropAirboat : public CPropVehicleDriveable
 {
 public:
-	virtual void ~CPropAirboat() override; // vtable[0]
-	virtual void ~CPropAirboat() override; // vtable[1]
+	virtual ~CPropAirboat() override; // vtable[0]
+	virtual ~CPropAirboat() override; // vtable[1]
+	virtual void GetServerClass() override; // vtable[10]
+	virtual void YouForgotToImplementOrDeclareServerClass() override; // vtable[11]
+	virtual void GetDataDescMap() override; // vtable[12]
+	virtual void GetTracerType() override; // vtable[22]
+	virtual void Spawn() override; // vtable[23]
+	virtual void Precache() override; // vtable[24]
+	virtual void Activate() override; // vtable[34]
+	virtual void ObjectCaps() override; // vtable[36]
+	virtual void OnRestore() override; // vtable[45]
+	virtual void Think() override; // vtable[48]
+	virtual void TraceAttack() override; // vtable[62]
+	virtual void OnTakeDamage() override; // vtable[64]
+	virtual void UpdateOnRemove() override; // vtable[108]
+	virtual void StopLoopingSounds() override; // vtable[109]
+	virtual void DoImpactEffect() override; // vtable[116]
+	virtual void BodyTarget() override; // vtable[137]
+	virtual void GetSmoothedVelocity() override; // vtable[142]
+	virtual void VPhysicsUpdate() override; // vtable[161]
+	virtual void VPhysicsFriction() override; // vtable[168]
+	virtual void ShouldDrawWaterImpacts() override; // vtable[179]
+	virtual void NetworkStateChanged_m_nWaterLevel() override; // vtable[182]
+	virtual void NetworkStateChanged_m_nWaterLevel() override; // vtable[183]
+	virtual void IsVehicle() override; // vtable[203]
+	virtual void DampenEyePosition() override; // vtable[284]
+	virtual void DriveVehicle() override; // vtable[289]
+	virtual void ProcessMovement() override; // vtable[295]
+	virtual void EnterVehicle() override; // vtable[301]
+	virtual void AllowBlockedExit() override; // vtable[302]
+	virtual void PreExitVehicle() override; // vtable[304]
+	virtual void ExitVehicle() override; // vtable[305]
+	virtual void PassengerShouldReceiveDamage() override; // vtable[307]
+	virtual void ShouldThink() override; // vtable[308]
 	virtual void DoMuzzleFlash(); // vtable[315]
 	virtual void PhysGunLaunchAngularImpulse(); // vtable[316]
 	virtual void ShouldPuntUseLaunchForces(); // vtable[317]
 
-	void _GLOBAL__sub_I_GetServerClass();
-	void InputExitVehicle();
-	void InputWake();
-	void InputStartRotorWashForces();
-	void InputStopRotorWashForces();
-	void PhysGunLaunchAngularImpulse();
-	void InputEnableGun();
-	void GetBaseMap();
-	void UpdateWeaponSound();
-	void HeadlightTurnOn();
-	void HeadlightTurnOff();
-	void PreExitVehicle();
-	void AimGunAt();
-	void RemoveAmmo();
-	void RechargeAmmo();
-	void ComputeAimPoint();
-	void UpdateWaterLevel();
-	void UpdatePropeller();
-	void UpdateGauge();
-	void CreateSounds();
-	void UpdateEngineSound();
-	void UpdateFanSound();
-	void UpdateWaterSound();
-	void UpdateSound();
-	void FireGun();
-	void UpdateGunState();
-	void CreateDangerSounds();
-	void ProcessMovement();
-	void ComputePDControllerCoefficients();
-	void DampenForwardMotion();
-	void DampenUpMotion();
-	void CreateSplash();
-	void UpdateSplashEffects();
-	void CalculatePhysicsStressDamage();
-	void ApplyStressDamage();
-	void EnterVehicle();
-	void ExitVehicle();
-	void AllowBlockedExit();
-	void PassengerShouldReceiveDamage();
-	void ShouldPuntUseLaunchForces();
+	void _GLOBAL__sub_I_GetServerClass(); // size[0]
+	void InputExitVehicle(); // size[0]
+	void InputWake(); // size[0]
+	void InputStartRotorWashForces(); // size[0]
+	void InputStopRotorWashForces(); // size[0]
+	void PhysGunLaunchAngularImpulse(); // size[0]
+	void InputEnableGun(); // size[0]
+	void GetBaseMap(); // size[0]
+	void UpdateWeaponSound(); // size[0]
+	void HeadlightTurnOn(); // size[0]
+	void HeadlightTurnOff(); // size[0]
+	void PreExitVehicle(); // size[0]
+	void AimGunAt(); // size[0]
+	void RemoveAmmo(); // size[0]
+	void RechargeAmmo(); // size[0]
+	void ComputeAimPoint(); // size[0]
+	void UpdateWaterLevel(); // size[0]
+	void UpdatePropeller(); // size[0]
+	void UpdateGauge(); // size[0]
+	void CreateSounds(); // size[0]
+	void UpdateEngineSound(); // size[0]
+	void UpdateFanSound(); // size[0]
+	void UpdateWaterSound(); // size[0]
+	void UpdateSound(); // size[0]
+	void FireGun(); // size[0]
+	void UpdateGunState(); // size[0]
+	void CreateDangerSounds(); // size[0]
+	void ProcessMovement(); // size[0]
+	void ComputePDControllerCoefficients(); // size[0]
+	void DampenForwardMotion(); // size[0]
+	void DampenUpMotion(); // size[0]
+	void CreateSplash(); // size[0]
+	void UpdateSplashEffects(); // size[0]
+	void CalculatePhysicsStressDamage(); // size[0]
+	void ApplyStressDamage(); // size[0]
+	void EnterVehicle(); // size[0]
+	void ExitVehicle(); // size[0]
+	void AllowBlockedExit(); // size[0]
+	void PassengerShouldReceiveDamage(); // size[0]
+	void ShouldPuntUseLaunchForces(); // size[0]
 };

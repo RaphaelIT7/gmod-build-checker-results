@@ -3,10 +3,10 @@
 class CPASAttenuationFilter : public CPASFilter
 {
 public:
-	virtual void ~CPASAttenuationFilter() override; // vtable[0]
-	virtual void ~CPASAttenuationFilter() override; // vtable[1]
+	virtual ~CPASAttenuationFilter() override; // vtable[0]
+	virtual ~CPASAttenuationFilter() override; // vtable[1]
 
-	void CPASAttenuationFilter();
-	void CPASAttenuationFilter();
-	void Filter();
+	CPASAttenuationFilter(); // size[0]
+	CPASAttenuationFilter(); // size[0]
+	void Filter(); // size[0]
 };

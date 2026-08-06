@@ -3,6 +3,6 @@
 class CEntityInfo
 {
 public:
-	virtual void ~CEntityInfo(); // vtable[0]
-	virtual void ~CEntityInfo(); // vtable[1]
+	virtual ~CEntityInfo(); // vtable[0]
+	virtual ~CEntityInfo(); // vtable[1]
 };

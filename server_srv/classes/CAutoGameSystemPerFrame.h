@@ -3,8 +3,9 @@
 class CAutoGameSystemPerFrame : public CBaseGameSystemPerFrame
 {
 public:
-	virtual void ~CAutoGameSystemPerFrame() override; // vtable[13]
-	virtual void ~CAutoGameSystemPerFrame() override; // vtable[14]
+	virtual void Name() override; // vtable[0]
+	virtual ~CAutoGameSystemPerFrame() override; // vtable[13]
+	virtual ~CAutoGameSystemPerFrame() override; // vtable[14]
 
-	void CAutoGameSystemPerFrame();
+	CAutoGameSystemPerFrame(); // size[0]
 };

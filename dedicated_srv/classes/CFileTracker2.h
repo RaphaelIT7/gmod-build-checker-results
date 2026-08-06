@@ -7,24 +7,24 @@ public:
 	virtual void BlockUntilMD5RequestComplete(); // vtable[1]
 	virtual void IsMD5RequestComplete() override; // vtable[2]
 
-	void ShutdownAsync();
-	void NotePackFileRead();
-	void CheckCachedFileHash();
-	void NoteFileUnloaded();
-	void ThreadedProcessMD5Requests();
-	void RecordFileSeek();
-	void RecordFileRead();
-	void CFileTracker2();
-	void ~CFileTracker2();
-	void ListOpenedFiles();
-	void MarkAllCRCsUnverified();
-	void GetUnverifiedFileHashes();
-	void IdxFileFromName();
-	void NoteFileIgnoredForPureServer();
-	void NotePackFileOpened();
-	void NotePackFileAccess();
-	void AddFileHashForVPKFile();
-	void NoteFileLoadedFromDisk();
-	void RecordFileClose();
-	void GetFilesToUnloadForWhitelistChange();
+	void ShutdownAsync(); // size[0]
+	void NotePackFileRead(); // size[0]
+	void CheckCachedFileHash(); // size[0]
+	void NoteFileUnloaded(); // size[0]
+	void ThreadedProcessMD5Requests(); // size[0]
+	void RecordFileSeek(); // size[0]
+	void RecordFileRead(); // size[0]
+	CFileTracker2(); // size[0]
+	~CFileTracker2(); // size[0]
+	void ListOpenedFiles(); // size[0]
+	void MarkAllCRCsUnverified(); // size[0]
+	void GetUnverifiedFileHashes(); // size[0]
+	void IdxFileFromName(); // size[0]
+	void NoteFileIgnoredForPureServer(); // size[0]
+	void NotePackFileOpened(); // size[0]
+	void NotePackFileAccess(); // size[0]
+	void AddFileHashForVPKFile(); // size[0]
+	void NoteFileLoadedFromDisk(); // size[0]
+	void RecordFileClose(); // size[0]
+	void GetFilesToUnloadForWhitelistChange(); // size[0]
 };

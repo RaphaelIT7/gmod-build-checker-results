@@ -3,49 +3,73 @@
 class CWeaponPhysCannon : public CBaseHL2MPCombatWeapon
 {
 public:
-	virtual void ~CWeaponPhysCannon() override; // vtable[0]
-	virtual void ~CWeaponPhysCannon() override; // vtable[1]
+	virtual ~CWeaponPhysCannon() override; // vtable[0]
+	virtual ~CWeaponPhysCannon() override; // vtable[1]
+	virtual void GetServerClass() override; // vtable[10]
+	virtual void YouForgotToImplementOrDeclareServerClass() override; // vtable[11]
+	virtual void GetDataDescMap() override; // vtable[12]
+	virtual void Spawn() override; // vtable[23]
+	virtual void Precache() override; // vtable[24]
+	virtual void OnRestore() override; // vtable[45]
+	virtual void UpdateOnRemove() override; // vtable[108]
+	virtual void StopLoopingSounds() override; // vtable[109]
+	virtual void Drop() override; // vtable[285]
+	virtual void SetViewModel() override; // vtable[297]
+	virtual void HasAnyAmmo() override; // vtable[301]
+	virtual void CanHolster() override; // vtable[304]
+	virtual void Deploy() override; // vtable[307]
+	virtual void Holster() override; // vtable[308]
+	virtual void ItemPreFrame() override; // vtable[317]
+	virtual void ItemPostFrame() override; // vtable[318]
+	virtual void WeaponIdle() override; // vtable[321]
+	virtual void PrimaryAttack() override; // vtable[332]
+	virtual void SecondaryAttack() override; // vtable[333]
+	virtual void CanBePickedUpByNPCs() override; // vtable[359]
+	virtual void GetShootSound() override; // vtable[376]
+	virtual void GetHoldType() override; // vtable[380]
+	virtual void ActivityList() override; // vtable[388]
+	virtual void ActivityListCount() override; // vtable[389]
 
-	void GetBaseMap();
-	void CWeaponPhysCannon();
-	void DryFire();
-	void PrimaryFireEffect();
-	void Physgun_OnPhysGunPickup();
-	void ApplyVelocityBasedForce();
-	void TraceLength();
-	void EntityAllowsPunts();
-	void FindObjectTrace();
-	void FindObjectInCone();
-	void DoEffectIdle();
-	void CanPickupObject();
-	void GetLoadPercentage();
-	void GetMotorSound();
-	void DetachObject();
-	void DetachObject();
-	void UpdateObject();
-	void StartEffects();
-	void DoEffectClosed();
-	void DoMegaEffectClosed();
-	void DoMegaEffectReady();
-	void DoEffectReady();
-	void DoEffectHolding();
-	void DoEffectLaunch();
-	void OpenElements();
-	void OpenElements();
-	void CheckForTarget();
-	void CloseElements();
-	void StopEffects();
-	void DestroyEffects();
-	void WaitForUpgradeThink();
-	void ForceDrop();
-	void DropIfEntityHeld();
-	void AttachObject();
-	void FindObject();
-	void DoEffectNone();
-	void DoEffect();
-	void PuntNonVPhysics();
-	void PuntVPhysics();
-	void PuntRagdoll();
-	void LaunchObject();
-	void BeginUpgrade();
+	void GetBaseMap(); // size[0]
+	CWeaponPhysCannon(); // size[0]
+	void DryFire(); // size[0]
+	void PrimaryFireEffect(); // size[0]
+	void Physgun_OnPhysGunPickup(); // size[0]
+	void ApplyVelocityBasedForce(); // size[0]
+	void TraceLength(); // size[0]
+	void EntityAllowsPunts(); // size[0]
+	void FindObjectTrace(); // size[0]
+	void FindObjectInCone(); // size[0]
+	void DoEffectIdle(); // size[0]
+	void CanPickupObject(); // size[0]
+	void GetLoadPercentage(); // size[0]
+	void GetMotorSound(); // size[0]
+	void DetachObject(); // size[0]
+	void DetachObject(); // size[0]
+	void UpdateObject(); // size[0]
+	void StartEffects(); // size[0]
+	void DoEffectClosed(); // size[0]
+	void DoMegaEffectClosed(); // size[0]
+	void DoMegaEffectReady(); // size[0]
+	void DoEffectReady(); // size[0]
+	void DoEffectHolding(); // size[0]
+	void DoEffectLaunch(); // size[0]
+	void OpenElements(); // size[0]
+	void OpenElements(); // size[0]
+	void CheckForTarget(); // size[0]
+	void CloseElements(); // size[0]
+	void StopEffects(); // size[0]
+	void DestroyEffects(); // size[0]
+	void WaitForUpgradeThink(); // size[0]
+	void ForceDrop(); // size[0]
+	void DropIfEntityHeld(); // size[0]
+	void AttachObject(); // size[0]
+	void FindObject(); // size[0]
+	void DoEffectNone(); // size[0]
+	void DoEffect(); // size[0]
+	void PuntNonVPhysics(); // size[0]
+	void PuntVPhysics(); // size[0]
+	void PuntRagdoll(); // size[0]
+	void LaunchObject(); // size[0]
+	void BeginUpgrade(); // size[0]
 };

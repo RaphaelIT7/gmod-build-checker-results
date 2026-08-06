@@ -3,14 +3,43 @@
 class CNPC_Bullsquid : public CHL1BaseNPC
 {
 public:
-	virtual void ~CNPC_Bullsquid() override; // vtable[0]
-	virtual void ~CNPC_Bullsquid() override; // vtable[1]
+	virtual ~CNPC_Bullsquid() override; // vtable[0]
+	virtual ~CNPC_Bullsquid() override; // vtable[1]
+	virtual void GetDataDescMap() override; // vtable[12]
+	virtual void Spawn() override; // vtable[23]
+	virtual void Precache() override; // vtable[24]
+	virtual void Classify() override; // vtable[55]
+	virtual void HandleAnimEvent() override; // vtable[261]
+	virtual void OnTakeDamage_Alive() override; // vtable[338]
+	virtual void IRelationType() override; // vtable[364]
+	virtual void RunAI() override; // vtable[401]
+	virtual void SelectSchedule() override; // vtable[407]
+	virtual void TranslateSchedule() override; // vtable[409]
+	virtual void StartTask() override; // vtable[410]
+	virtual void RunTask() override; // vtable[411]
+	virtual void GetSchedulingErrorName() override; // vtable[432]
+	virtual void LoadedSchedules() override; // vtable[433]
+	virtual void RemoveIgnoredConditions() override; // vtable[449]
+	virtual void SelectIdealState() override; // vtable[453]
+	virtual void OnListened() override; // vtable[464]
+	virtual void GetSoundInterests() override; // vtable[467]
+	virtual void DeathSound() override; // vtable[507]
+	virtual void AlertSound() override; // vtable[508]
+	virtual void IdleSound() override; // vtable[509]
+	virtual void PainSound() override; // vtable[510]
+	virtual void MaxYawSpeed() override; // vtable[529]
+	virtual void SquadSlotName() override; // vtable[581]
+	virtual void RangeAttack1Conditions() override; // vtable[595]
+	virtual void MeleeAttack1Conditions() override; // vtable[597]
+	virtual void MeleeAttack2Conditions() override; // vtable[598]
+	virtual void FValidateHintType() override; // vtable[617]
+	virtual void GetClassScheduleIdSpace() override; // vtable[640]
 
-	void GetBaseMap();
-	void AttackSound();
-	void FInViewCone();
-	void FVisible();
-	void InitCustomSchedules();
-	void LoadSchedules();
-	void CScheduleLoader();
+	void GetBaseMap(); // size[0]
+	void AttackSound(); // size[0]
+	void FInViewCone(); // size[0]
+	void FVisible(); // size[0]
+	void InitCustomSchedules(); // size[0]
+	void LoadSchedules(); // size[0]
+	CScheduleLoader(); // size[0]
 };

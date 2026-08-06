@@ -3,8 +3,8 @@
 class CGameEvent : public IGameEvent
 {
 public:
-	virtual void ~CGameEvent() override; // vtable[0]
-	virtual void ~CGameEvent() override; // vtable[1]
+	virtual ~CGameEvent() override; // vtable[0]
+	virtual ~CGameEvent() override; // vtable[1]
 	virtual void GetName(); // vtable[2]
 	virtual void IsReliable(); // vtable[3]
 	virtual void IsLocal(); // vtable[4]
@@ -19,5 +19,5 @@ public:
 	virtual void SetString(); // vtable[13]
 	virtual void GetKeyValues() override; // vtable[14]
 
-	void CGameEvent();
+	CGameEvent(); // size[0]
 };

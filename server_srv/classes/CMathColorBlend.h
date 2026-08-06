@@ -3,9 +3,11 @@
 class CMathColorBlend : public CLogicalEntity
 {
 public:
-	virtual void ~CMathColorBlend() override; // vtable[0]
-	virtual void ~CMathColorBlend() override; // vtable[1]
+	virtual ~CMathColorBlend() override; // vtable[0]
+	virtual ~CMathColorBlend() override; // vtable[1]
+	virtual void GetDataDescMap() override; // vtable[12]
+	virtual void Spawn() override; // vtable[23]
 
-	void InputValue();
-	void GetBaseMap();
+	void InputValue(); // size[0]
+	void GetBaseMap(); // size[0]
 };

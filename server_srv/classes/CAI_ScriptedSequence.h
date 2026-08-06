@@ -3,46 +3,55 @@
 class CAI_ScriptedSequence : public CBaseEntity
 {
 public:
-	virtual void ~CAI_ScriptedSequence() override; // vtable[0]
-	virtual void ~CAI_ScriptedSequence() override; // vtable[1]
+	virtual ~CAI_ScriptedSequence() override; // vtable[0]
+	virtual ~CAI_ScriptedSequence() override; // vtable[1]
+	virtual void GetDataDescMap() override; // vtable[12]
+	virtual void Spawn() override; // vtable[23]
+	virtual void Activate() override; // vtable[34]
+	virtual void ObjectCaps() override; // vtable[36]
+	virtual void DrawDebugGeometryOverlays() override; // vtable[39]
+	virtual void DrawDebugTextOverlays() override; // vtable[40]
+	virtual void Touch() override; // vtable[102]
+	virtual void Blocked() override; // vtable[105]
+	virtual void UpdateOnRemove() override; // vtable[108]
 
-	void StopThink();
-	void GetBaseMap();
-	void StartThink();
-	void StopThink();
-	void FCanOverrideState();
-	void FireScriptEvent();
-	void IsTimeToStart();
-	void IsWaitingForBegin();
-	void Die();
-	void Pain();
-	void FindScriptEntity();
-	void FindEntity();
-	void OnBeginSequence();
-	void SynchronizeSequence();
-	void FixFlyFlag();
-	void FixScriptNPCSchedule();
-	void ScriptEntityCancel();
-	void InputCancelSequence();
-	void InputScriptPlayerDeath();
-	void AllowInterrupt();
-	void CanInterrupt();
-	void RemoveIgnoredConditions();
-	void CanEnqueueAfter();
-	void StopActionLoop();
-	void ForceSetTargetEntity();
-	void SetupInteractionPosition();
-	void ModifyScriptedAutoMovement();
-	void CancelScript();
-	void DelayStart();
-	void StartScript();
-	void InputMoveToPosition();
-	void ScriptThink();
-	void InputBeginSequence();
-	void PostIdleDone();
-	void SequenceDone();
-	void StartSequence();
-	void SynchNewSequence();
-	void FinishedActionSequence();
-	void GetSpawnPreIdleSequenceForScript();
+	void StopThink(); // size[0]
+	void GetBaseMap(); // size[0]
+	void StartThink(); // size[0]
+	void StopThink(); // size[0]
+	void FCanOverrideState(); // size[0]
+	void FireScriptEvent(); // size[0]
+	void IsTimeToStart(); // size[0]
+	void IsWaitingForBegin(); // size[0]
+	void Die(); // size[0]
+	void Pain(); // size[0]
+	void FindScriptEntity(); // size[0]
+	void FindEntity(); // size[0]
+	void OnBeginSequence(); // size[0]
+	void SynchronizeSequence(); // size[0]
+	void FixFlyFlag(); // size[0]
+	void FixScriptNPCSchedule(); // size[0]
+	void ScriptEntityCancel(); // size[0]
+	void InputCancelSequence(); // size[0]
+	void InputScriptPlayerDeath(); // size[0]
+	void AllowInterrupt(); // size[0]
+	void CanInterrupt(); // size[0]
+	void RemoveIgnoredConditions(); // size[0]
+	void CanEnqueueAfter(); // size[0]
+	void StopActionLoop(); // size[0]
+	void ForceSetTargetEntity(); // size[0]
+	void SetupInteractionPosition(); // size[0]
+	void ModifyScriptedAutoMovement(); // size[0]
+	void CancelScript(); // size[0]
+	void DelayStart(); // size[0]
+	void StartScript(); // size[0]
+	void InputMoveToPosition(); // size[0]
+	void ScriptThink(); // size[0]
+	void InputBeginSequence(); // size[0]
+	void PostIdleDone(); // size[0]
+	void SequenceDone(); // size[0]
+	void StartSequence(); // size[0]
+	SynchNewSequence(); // size[0]
+	void FinishedActionSequence(); // size[0]
+	void GetSpawnPreIdleSequenceForScript(); // size[0]
 };

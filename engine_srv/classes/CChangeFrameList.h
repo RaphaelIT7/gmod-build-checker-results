@@ -8,6 +8,6 @@ public:
 	virtual void SetChangeTick(); // vtable[2]
 	virtual void GetPropsChangedAfterTick(); // vtable[3]
 	virtual void Copy() override; // vtable[4]
-	virtual void ~CChangeFrameList() override; // vtable[5]
-	virtual void ~CChangeFrameList() override; // vtable[6]
+	virtual ~CChangeFrameList() override; // vtable[5]
+	virtual ~CChangeFrameList() override; // vtable[6]
 };

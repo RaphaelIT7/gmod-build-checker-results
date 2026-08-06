@@ -3,10 +3,12 @@
 class CEnvViewPunch : public CPointEntity
 {
 public:
-	virtual void ~CEnvViewPunch() override; // vtable[0]
-	virtual void ~CEnvViewPunch() override; // vtable[1]
+	virtual ~CEnvViewPunch() override; // vtable[0]
+	virtual ~CEnvViewPunch() override; // vtable[1]
+	virtual void GetDataDescMap() override; // vtable[12]
+	virtual void Spawn() override; // vtable[23]
 
-	void GetBaseMap();
-	void DoViewPunch();
-	void InputViewPunch();
+	void GetBaseMap(); // size[0]
+	void DoViewPunch(); // size[0]
+	void InputViewPunch(); // size[0]
 };

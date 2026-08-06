@@ -3,10 +3,11 @@
 class CInfoTargetVehicleTransition : public CPointEntity
 {
 public:
-	virtual void ~CInfoTargetVehicleTransition() override; // vtable[0]
-	virtual void ~CInfoTargetVehicleTransition() override; // vtable[1]
+	virtual ~CInfoTargetVehicleTransition() override; // vtable[0]
+	virtual ~CInfoTargetVehicleTransition() override; // vtable[1]
+	virtual void GetDataDescMap() override; // vtable[12]
 
-	void GetBaseMap();
-	void InputEnable();
-	void InputDisable();
+	void GetBaseMap(); // size[0]
+	void InputEnable(); // size[0]
+	void InputDisable(); // size[0]
 };

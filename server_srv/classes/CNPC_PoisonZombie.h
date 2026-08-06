@@ -3,28 +3,56 @@
 class CNPC_PoisonZombie : public CAI_BlendingHost
 {
 public:
-	virtual void ~CNPC_PoisonZombie() override; // vtable[0]
-	virtual void ~CNPC_PoisonZombie() override; // vtable[1]
+	virtual ~CNPC_PoisonZombie() override; // vtable[0]
+	virtual ~CNPC_PoisonZombie() override; // vtable[1]
+	virtual void GetDataDescMap() override; // vtable[12]
+	virtual void Spawn() override; // vtable[23]
+	virtual void Precache() override; // vtable[24]
+	virtual void Classify() override; // vtable[55]
+	virtual void Event_Killed() override; // vtable[68]
+	virtual void StopLoopingSounds() override; // vtable[109]
+	virtual void HeadTarget() override; // vtable[138]
+	virtual void HandleAnimEvent() override; // vtable[261]
+	virtual void OnTakeDamage_Alive() override; // vtable[338]
+	virtual void PrescheduleThink() override; // vtable[403]
+	virtual void SelectSchedule() override; // vtable[407]
+	virtual void SelectFailSchedule() override; // vtable[408]
+	virtual void TranslateSchedule() override; // vtable[409]
+	virtual void GetSchedulingErrorName() override; // vtable[432]
+	virtual void LoadedSchedules() override; // vtable[433]
+	virtual void BuildScheduleTestBits() override; // vtable[434]
 	virtual void AlertSound(); // vtable[508]
 	virtual void IdleSound(); // vtable[509]
 	virtual void PainSound(); // vtable[510]
+	virtual void ShouldPlayIdleSound() override; // vtable[516]
+	virtual void MaxYawSpeed() override; // vtable[529]
+	virtual void SquadSlotName() override; // vtable[581]
+	virtual void RangeAttack1Conditions() override; // vtable[595]
+	virtual void RangeAttack2Conditions() override; // vtable[596]
+	virtual void GetClassScheduleIdSpace() override; // vtable[640]
+	virtual void GetClawAttackRange() override; // vtable[686]
+	virtual void IsChopped() override; // vtable[688]
+	virtual void ShouldBecomeTorso() override; // vtable[691]
+	virtual void SetZombieModel() override; // vtable[693]
+	virtual void MustCloseToAttack() override; // vtable[698]
 	virtual void AttackSound(); // vtable[701]
 	virtual void AttackHitSound(); // vtable[702]
 	virtual void AttackMissSound(); // vtable[703]
 	virtual void FootstepSound(); // vtable[704]
 	virtual void FootscuffSound(); // vtable[705]
+	virtual void MoanSound() override; // vtable[707]
 	virtual void GetMoanSound(); // vtable[708]
 	virtual void GetHeadcrabClassname(); // vtable[709]
 	virtual void GetLegsModel(); // vtable[710]
 	virtual void GetTorsoModel(); // vtable[711]
 	virtual void GetHeadcrabModel() override; // vtable[712]
 
-	void EnableCrab();
-	void GetBaseMap();
-	void EnableCrab();
-	void RandomThrowCrab();
-	void EvacuateNest();
-	void InitCustomSchedules();
-	void LoadSchedules();
-	void CScheduleLoader();
+	void EnableCrab(); // size[0]
+	void GetBaseMap(); // size[0]
+	void EnableCrab(); // size[0]
+	void RandomThrowCrab(); // size[0]
+	void EvacuateNest(); // size[0]
+	void InitCustomSchedules(); // size[0]
+	void LoadSchedules(); // size[0]
+	CScheduleLoader(); // size[0]
 };

@@ -3,8 +3,9 @@
 class CBloodSplat : public CPointEntity
 {
 public:
-	virtual void ~CBloodSplat() override; // vtable[0]
-	virtual void ~CBloodSplat() override; // vtable[1]
+	virtual ~CBloodSplat() override; // vtable[0]
+	virtual ~CBloodSplat() override; // vtable[1]
+	virtual void Think() override; // vtable[48]
 
-	void Spawn();
+	void Spawn(); // size[0]
 };

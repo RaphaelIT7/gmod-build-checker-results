@@ -77,33 +77,33 @@ public:
 	virtual void StartEngineRumble(); // vtable[71]
 	virtual void StopEngineRumble(); // vtable[72]
 
-	void PlaySound();
-	void GetBaseMap();
-	void Initialize();
-	void GetDrivableVehicle();
-	void SetPassengerWeapon();
-	void GetLocalAttachmentAtTime();
-	void GetLocalAttachmentAtTime();
-	void CacheEntryExitPoints();
-	void PlaySound();
-	void StopLoopingSound();
-	void PlayLoopingSound();
-	void PlayCrashSound();
-	void CheckCrash();
-	void CheckCrash();
-	void SoundState_ChooseState();
-	void StateSoundName();
-	void SoundState_OnNewState();
-	void SoundState_Update();
-	void InitSoundParams();
-	void NPC_GetAvailableSeat_Any();
-	void NPC_GetAvailableSeat_Nearest();
-	void FindRoleIndexByName();
-	void FindSeatIndexByName();
-	void ~CBaseServerVehicle();
-	void CBaseServerVehicle();
-	void ParseExitAnim();
-	void ParseNPCPassengerSeat();
-	void FindOrCreatePassengerRole();
-	void ParseNPCRoles();
+	void PlaySound(); // size[0]
+	void GetBaseMap(); // size[0]
+	void Initialize(); // size[0]
+	void GetDrivableVehicle(); // size[0]
+	void SetPassengerWeapon(); // size[0]
+	void GetLocalAttachmentAtTime(); // size[0]
+	void GetLocalAttachmentAtTime(); // size[0]
+	void CacheEntryExitPoints(); // size[0]
+	void PlaySound(); // size[0]
+	void StopLoopingSound(); // size[0]
+	void PlayLoopingSound(); // size[0]
+	void PlayCrashSound(); // size[0]
+	void CheckCrash(); // size[0]
+	void CheckCrash(); // size[0]
+	void SoundState_ChooseState(); // size[0]
+	void StateSoundName(); // size[0]
+	void SoundState_OnNewState(); // size[0]
+	void SoundState_Update(); // size[0]
+	void InitSoundParams(); // size[0]
+	void NPC_GetAvailableSeat_Any(); // size[0]
+	void NPC_GetAvailableSeat_Nearest(); // size[0]
+	void FindRoleIndexByName(); // size[0]
+	void FindSeatIndexByName(); // size[0]
+	~CBaseServerVehicle(); // size[0]
+	CBaseServerVehicle(); // size[0]
+	void ParseExitAnim(); // size[0]
+	void ParseNPCPassengerSeat(); // size[0]
+	void FindOrCreatePassengerRole(); // size[0]
+	void ParseNPCRoles(); // size[0]
 };

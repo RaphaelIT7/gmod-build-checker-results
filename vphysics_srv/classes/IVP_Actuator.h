@@ -11,8 +11,8 @@ public:
 	virtual void get_controller_priority(); // vtable[5]
 	virtual void get_controller_name(); // vtable[6]
 
-	void anchor_will_be_deleted_event();
-	void IVP_Actuator();
-	void ~IVP_Actuator();
-	void ~IVP_Actuator();
+	void anchor_will_be_deleted_event(); // size[0]
+	IVP_Actuator(); // size[0]
+	~IVP_Actuator(); // size[0]
+	~IVP_Actuator(); // size[0]
 };

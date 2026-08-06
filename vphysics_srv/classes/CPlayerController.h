@@ -10,8 +10,8 @@ public:
 	virtual void do_simulation_controller(); // vtable[4]
 	virtual void get_controller_priority(); // vtable[5]
 	virtual void get_controller_name(); // vtable[6]
-	virtual void ~CPlayerController(); // vtable[7]
-	virtual void ~CPlayerController(); // vtable[8]
+	virtual ~CPlayerController(); // vtable[7]
+	virtual ~CPlayerController(); // vtable[8]
 	virtual void SetObject(); // vtable[9]
 	virtual void SetEventHandler(); // vtable[10]
 	virtual void Update(); // vtable[11]
@@ -33,33 +33,33 @@ public:
 	virtual void event_object_revived(); // vtable[27]
 	virtual void event_object_frozen(); // vtable[28]
 
-	void GetShadowVelocity();
-	void MaxSpeed();
-	void IsInContact();
-	void Jump();
-	void SetEventHandler();
-	void StepUp();
-	void SetGround();
-	void Update();
-	void AttachObject();
-	void CPlayerController();
-	void DetachObject();
-	void ~CPlayerController();
-	void ~CPlayerController();
-	void SetObject();
-	void ~CPlayerController();
-	void ~CPlayerController();
-	void TryTeleportObject();
-	void WasFrozen();
-	void GetLastImpulse();
-	void GetObject();
-	void SetPushMassLimit();
-	void SetPushSpeedLimit();
-	void GetPushMassLimit();
-	void GetPushSpeedLimit();
-	void event_object_deleted();
-	void event_object_created();
-	void event_object_revived();
-	void event_object_frozen();
-	void GetShadowPosition();
+	void GetShadowVelocity(); // size[0]
+	void MaxSpeed(); // size[0]
+	void IsInContact(); // size[0]
+	void Jump(); // size[0]
+	void SetEventHandler(); // size[0]
+	void StepUp(); // size[0]
+	void SetGround(); // size[0]
+	void Update(); // size[0]
+	void AttachObject(); // size[0]
+	CPlayerController(); // size[0]
+	void DetachObject(); // size[0]
+	~CPlayerController(); // size[0]
+	~CPlayerController(); // size[0]
+	void SetObject(); // size[0]
+	~CPlayerController(); // size[0]
+	~CPlayerController(); // size[0]
+	void TryTeleportObject(); // size[0]
+	void WasFrozen(); // size[0]
+	void GetLastImpulse(); // size[0]
+	void GetObject(); // size[0]
+	void SetPushMassLimit(); // size[0]
+	void SetPushSpeedLimit(); // size[0]
+	void GetPushMassLimit(); // size[0]
+	void GetPushSpeedLimit(); // size[0]
+	void event_object_deleted(); // size[0]
+	void event_object_created(); // size[0]
+	void event_object_revived(); // size[0]
+	void event_object_frozen(); // size[0]
+	void GetShadowPosition(); // size[0]
 };

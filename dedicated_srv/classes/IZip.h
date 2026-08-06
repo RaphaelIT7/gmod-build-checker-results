@@ -5,6 +5,6 @@ class IZip
 public:
 	virtual void __cxa_pure_virtual(); // vtable[18]
 
-	void CreateZip();
-	void ReleaseZip();
+	void CreateZip(); // size[0]
+	void ReleaseZip(); // size[0]
 };

@@ -3,53 +3,53 @@
 class CBasePlayerAnimState : public IPlayerAnimState
 {
 public:
-	void Release();
-	void Release();
-	void ClearAnimationState();
-	void ClearAnimationState();
-	void ShouldUpdateAnimState();
-	void ShouldChangeSequences();
-	void ResetGroundSpeed();
-	void ShouldBlendAimSequenceToIdle();
-	void CanThePlayerMove();
-	void GetRenderAngles();
-	void GetRenderAngles();
-	void ShouldResetMainSequence();
-	void SelectWeightedSequence();
-	void SetOuterBodyYaw();
-	void ComputePoseParam_BodyPitch();
-	void ClearAnimationLayers();
-	void Init();
-	void TimeSinceLastAnimationStateClear();
-	void SetOuterPoseParameter();
-	void RestartMainSequence();
-	void ComputeMainSequence();
-	void UpdateAimSequenceLayers();
-	void OptimizeLayerWeights();
-	void ComputeAimSequence();
-	void UpdateInterpolators();
-	void ComputeSequences();
-	void GetInterpolatedGroundSpeed();
-	void ComputePlaybackRate();
-	void Update();
-	void Update();
-	void GetOuter();
-	void ConvergeAngles();
-	void BodyYawTranslateActivity();
-	void GetOuterAbsVelocity();
-	void CalcMovementPlaybackRate();
-	void EstimateYaw();
-	void ComputePoseParam_MoveYaw();
-	void ComputePoseParam_BodyYaw();
-	void GetOuterXYSpeed();
-	void AnimStateLog();
-	void DebugShowAnimState();
-	void DebugShowAnimStateFull();
-	void CBasePlayerAnimState();
-	void CBasePlayerAnimState();
-	void ~CBasePlayerAnimState();
-	void ~CBasePlayerAnimState();
-	void ~CBasePlayerAnimState();
-	void CalcSequenceIndex();
-	void TranslateActivity();
+	void Release(); // size[0]
+	void Release(); // size[0]
+	void ClearAnimationState(); // size[0]
+	void ClearAnimationState(); // size[0]
+	void ShouldUpdateAnimState(); // size[0]
+	void ShouldChangeSequences(); // size[0]
+	void ResetGroundSpeed(); // size[0]
+	void ShouldBlendAimSequenceToIdle(); // size[0]
+	void CanThePlayerMove(); // size[0]
+	void GetRenderAngles(); // size[0]
+	void GetRenderAngles(); // size[0]
+	void ShouldResetMainSequence(); // size[0]
+	void SelectWeightedSequence(); // size[0]
+	void SetOuterBodyYaw(); // size[0]
+	void ComputePoseParam_BodyPitch(); // size[0]
+	void ClearAnimationLayers(); // size[0]
+	void Init(); // size[0]
+	void TimeSinceLastAnimationStateClear(); // size[0]
+	void SetOuterPoseParameter(); // size[0]
+	void RestartMainSequence(); // size[0]
+	void ComputeMainSequence(); // size[0]
+	void UpdateAimSequenceLayers(); // size[0]
+	void OptimizeLayerWeights(); // size[0]
+	void ComputeAimSequence(); // size[0]
+	void UpdateInterpolators(); // size[0]
+	void ComputeSequences(); // size[0]
+	void GetInterpolatedGroundSpeed(); // size[0]
+	void ComputePlaybackRate(); // size[0]
+	void Update(); // size[0]
+	void Update(); // size[0]
+	void GetOuter(); // size[0]
+	void ConvergeAngles(); // size[0]
+	void BodyYawTranslateActivity(); // size[0]
+	void GetOuterAbsVelocity(); // size[0]
+	void CalcMovementPlaybackRate(); // size[0]
+	void EstimateYaw(); // size[0]
+	void ComputePoseParam_MoveYaw(); // size[0]
+	void ComputePoseParam_BodyYaw(); // size[0]
+	void GetOuterXYSpeed(); // size[0]
+	void AnimStateLog(); // size[0]
+	void DebugShowAnimState(); // size[0]
+	void DebugShowAnimStateFull(); // size[0]
+	CBasePlayerAnimState(); // size[0]
+	CBasePlayerAnimState(); // size[0]
+	~CBasePlayerAnimState(); // size[0]
+	~CBasePlayerAnimState(); // size[0]
+	~CBasePlayerAnimState(); // size[0]
+	void CalcSequenceIndex(); // size[0]
+	void TranslateActivity(); // size[0]
 };

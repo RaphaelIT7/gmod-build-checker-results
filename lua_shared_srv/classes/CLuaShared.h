@@ -3,8 +3,8 @@
 class CLuaShared : public ILuaShared
 {
 public:
-	virtual void ~CLuaShared() override; // vtable[0]
-	virtual void ~CLuaShared() override; // vtable[1]
+	virtual ~CLuaShared() override; // vtable[0]
+	virtual ~CLuaShared() override; // vtable[1]
 	virtual void Init(); // vtable[2]
 	virtual void Shutdown(); // vtable[3]
 	virtual void DumpStats(); // vtable[4]
@@ -24,9 +24,9 @@ public:
 	virtual void EmptyCache(); // vtable[18]
 	virtual void ScriptExists() override; // vtable[19]
 
-	void AddSearchPath();
-	void CLuaShared();
-	void CreateCache();
-	void LoadFile_FromFile();
-	void LoadFile_FromDataTable();
+	void AddSearchPath(); // size[0]
+	CLuaShared(); // size[0]
+	void CreateCache(); // size[0]
+	void LoadFile_FromFile(); // size[0]
+	void LoadFile_FromDataTable(); // size[0]
 };

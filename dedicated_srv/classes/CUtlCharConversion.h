@@ -5,11 +5,11 @@ class CUtlCharConversion
 public:
 	virtual void FindConversion(); // vtable[0]
 
-	void CUtlCharConversion();
-	void GetEscapeChar();
-	void GetDelimiter();
-	void GetDelimiterLength();
-	void GetConversionString();
-	void GetConversionLength();
-	void MaxConversionLength();
+	CUtlCharConversion(); // size[0]
+	void GetEscapeChar(); // size[0]
+	void GetDelimiter(); // size[0]
+	void GetDelimiterLength(); // size[0]
+	void GetConversionString(); // size[0]
+	void GetConversionLength(); // size[0]
+	void MaxConversionLength(); // size[0]
 };

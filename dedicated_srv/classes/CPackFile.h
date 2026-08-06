@@ -3,8 +3,8 @@
 class CPackFile : public CRefCounted
 {
 public:
-	virtual void ~CPackFile() override; // vtable[0]
-	virtual void ~CPackFile() override; // vtable[1]
+	virtual ~CPackFile() override; // vtable[0]
+	virtual ~CPackFile() override; // vtable[1]
 	virtual void OpenFile(); // vtable[3]
 	virtual void ReadFromPack(); // vtable[8]
 	virtual void SetupPreloadData(); // vtable[10]

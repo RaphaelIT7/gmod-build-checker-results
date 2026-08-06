@@ -3,8 +3,42 @@
 class CAI_PlayerAlly : public CAI_BaseActor
 {
 public:
-	virtual void ~CAI_PlayerAlly() override; // vtable[0]
-	virtual void ~CAI_PlayerAlly() override; // vtable[1]
+	virtual ~CAI_PlayerAlly() override; // vtable[0]
+	virtual ~CAI_PlayerAlly() override; // vtable[1]
+	virtual void GetDataDescMap() override; // vtable[12]
+	virtual void ObjectCaps() override; // vtable[36]
+	virtual void TraceAttack() override; // vtable[62]
+	virtual void TakeHealth() override; // vtable[66]
+	virtual void Event_Killed() override; // vtable[68]
+	virtual void Touch() override; // vtable[102]
+	virtual void ModifyOrAppendCriteria() override; // vtable[121]
+	virtual void CreateVPhysics() override; // vtable[157]
+	virtual void OnTakeDamage_Alive() override; // vtable[338]
+	virtual void OnKilledNPC() override; // vtable[353]
+	virtual void GatherConditions() override; // vtable[402]
+	virtual void PrescheduleThink() override; // vtable[403]
+	virtual void OnStartSchedule() override; // vtable[406]
+	virtual void SelectSchedule() override; // vtable[407]
+	virtual void TranslateSchedule() override; // vtable[409]
+	virtual void StartTask() override; // vtable[410]
+	virtual void RunTask() override; // vtable[411]
+	virtual void TaskFail() override; // vtable[427]
+	virtual void TaskFail() override; // vtable[428]
+	virtual void GetSchedulingErrorName() override; // vtable[432]
+	virtual void LoadedSchedules() override; // vtable[433]
+	virtual void OnStateChange() override; // vtable[455]
+	virtual void GatherEnemyConditions() override; // vtable[478]
+	virtual void CanPlaySentence() override; // vtable[502]
+	virtual void PlayScriptedSentence() override; // vtable[504]
+	virtual void PainSound() override; // vtable[510]
+	virtual void CanRespondToEvent() override; // vtable[519]
+	virtual void RespondedTo() override; // vtable[520]
+	virtual void EyeLookTarget() override; // vtable[554]
+	virtual void SquadSlotName() override; // vtable[581]
+	virtual void FindNamedEntity() override; // vtable[604]
+	virtual void GetClassScheduleIdSpace() override; // vtable[640]
+	virtual void SpeakMapmakerInterruptConcept() override; // vtable[655]
+	virtual void PostSpeakDispatchResponse() override; // vtable[691]
 	virtual void SelectNonCombatSpeechSchedule(); // vtable[709]
 	virtual void IsValidSpeechTarget(); // vtable[710]
 	virtual void SelectIdleSpeech(); // vtable[711]
@@ -19,35 +53,35 @@ public:
 	virtual void GetDeathMessageText(); // vtable[720]
 	virtual void ShouldRegenerateHealth(); // vtable[721]
 
-	void InputMakeGameEndAlly();
-	void InputMakeRegularAlly();
-	void InputSpeakResponseConcept();
-	void InputEnableSpeakWhileScripting();
-	void InputDisableSpeakWhileScripting();
-	void OnStartSpeaking();
-	void GetBaseMap();
-	void DisplayDeathMessage();
-	void TalkInit();
-	void SetPendingSpeech();
-	void ClearPendingSpeech();
-	void SelectNonCombatSpeech();
-	void ClearTransientConditions();
-	void FindSpeechTarget();
-	void DeferAllIdleSpeech();
-	void IsOkToSpeak();
-	void IsOkToSpeak();
-	void IsOkToCombatSpeak();
-	void IsOkToSpeakInResponseToPlayer();
-	void ShouldSpeakRandom();
-	void OnSpokeConcept();
-	void IsAllowedToSpeak();
-	void SelectSpeechResponse();
-	void SelectQuestionFriend();
-	void SelectAnswerFriend();
-	void AnswerQuestion();
-	void InputAnswerQuestion();
-	void InputAnswerQuestionHello();
-	void InitCustomSchedules();
-	void LoadSchedules();
-	void CScheduleLoader();
+	void InputMakeGameEndAlly(); // size[0]
+	void InputMakeRegularAlly(); // size[0]
+	void InputSpeakResponseConcept(); // size[0]
+	void InputEnableSpeakWhileScripting(); // size[0]
+	void InputDisableSpeakWhileScripting(); // size[0]
+	void OnStartSpeaking(); // size[0]
+	void GetBaseMap(); // size[0]
+	void DisplayDeathMessage(); // size[0]
+	void TalkInit(); // size[0]
+	void SetPendingSpeech(); // size[0]
+	void ClearPendingSpeech(); // size[0]
+	void SelectNonCombatSpeech(); // size[0]
+	void ClearTransientConditions(); // size[0]
+	void FindSpeechTarget(); // size[0]
+	void DeferAllIdleSpeech(); // size[0]
+	void IsOkToSpeak(); // size[0]
+	void IsOkToSpeak(); // size[0]
+	void IsOkToCombatSpeak(); // size[0]
+	void IsOkToSpeakInResponseToPlayer(); // size[0]
+	void ShouldSpeakRandom(); // size[0]
+	void OnSpokeConcept(); // size[0]
+	void IsAllowedToSpeak(); // size[0]
+	void SelectSpeechResponse(); // size[0]
+	void SelectQuestionFriend(); // size[0]
+	void SelectAnswerFriend(); // size[0]
+	void AnswerQuestion(); // size[0]
+	void InputAnswerQuestion(); // size[0]
+	void InputAnswerQuestionHello(); // size[0]
+	void InitCustomSchedules(); // size[0]
+	void LoadSchedules(); // size[0]
+	CScheduleLoader(); // size[0]
 };

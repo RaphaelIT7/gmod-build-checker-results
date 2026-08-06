@@ -3,20 +3,48 @@
 class CNPC_Scientist : public CHL1NPCTalker
 {
 public:
-	virtual void ~CNPC_Scientist() override; // vtable[0]
-	virtual void ~CNPC_Scientist() override; // vtable[1]
+	virtual ~CNPC_Scientist() override; // vtable[0]
+	virtual ~CNPC_Scientist() override; // vtable[1]
+	virtual void GetDataDescMap() override; // vtable[12]
+	virtual void Spawn() override; // vtable[23]
+	virtual void Precache() override; // vtable[24]
+	virtual void Activate() override; // vtable[34]
+	virtual void ObjectCaps() override; // vtable[36]
+	virtual void Classify() override; // vtable[55]
+	virtual void Event_Killed() override; // vtable[68]
 	virtual void _ZN14CNPC_Scientist22ModifyOrAppendCriteriaER14AI_CriteriaSet() override; // vtable[121]
+	virtual void CanBecomeRagdoll() override; // vtable[255]
+	virtual void HandleAnimEvent() override; // vtable[261]
+	virtual void NPC_TranslateActivity() override; // vtable[322]
+	virtual void OnTakeDamage_Alive() override; // vtable[338]
+	virtual void ShouldGib() override; // vtable[352]
+	virtual void SelectSchedule() override; // vtable[407]
+	virtual void TranslateSchedule() override; // vtable[409]
+	virtual void StartTask() override; // vtable[410]
+	virtual void RunTask() override; // vtable[411]
+	virtual void GetSchedulingErrorName() override; // vtable[432]
+	virtual void LoadedSchedules() override; // vtable[433]
+	virtual void SelectIdealState() override; // vtable[453]
+	virtual void GetSoundInterests() override; // vtable[467]
+	virtual void IsValidEnemy() override; // vtable[475]
+	virtual void DeathSound() override; // vtable[507]
+	virtual void PainSound() override; // vtable[510]
+	virtual void MaxYawSpeed() override; // vtable[529]
+	virtual void SquadSlotName() override; // vtable[581]
+	virtual void GetClassScheduleIdSpace() override; // vtable[640]
+	virtual void DeclineFollowing() override; // vtable[728]
+	virtual void FriendNumber() override; // vtable[732]
 
-	void SUB_LVFadeOut();
-	void GetBaseMap();
-	void TalkInit();
-	void SUB_StartLVFadeOut();
-	void Scream();
-	void GetStoppedActivity();
-	void CanHeal();
-	void Heal();
-	void TargetDistance();
-	void InitCustomSchedules();
-	void LoadSchedules();
-	void CScheduleLoader();
+	void SUB_LVFadeOut(); // size[0]
+	void GetBaseMap(); // size[0]
+	void TalkInit(); // size[0]
+	void SUB_StartLVFadeOut(); // size[0]
+	void Scream(); // size[0]
+	void GetStoppedActivity(); // size[0]
+	void CanHeal(); // size[0]
+	void Heal(); // size[0]
+	void TargetDistance(); // size[0]
+	void InitCustomSchedules(); // size[0]
+	void LoadSchedules(); // size[0]
+	CScheduleLoader(); // size[0]
 };

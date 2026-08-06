@@ -7,10 +7,10 @@ public:
 	virtual void GetVertByIndex(); // vtable[1]
 	virtual void Radius(); // vtable[2]
 
-	void SupportMap();
-	void CTraceIVP();
-	void BuildLeafmapCacheRLE();
-	void BuildLeafmapCache();
-	void SetLedge();
-	void SupportMapCached();
+	void SupportMap(); // size[0]
+	CTraceIVP(); // size[0]
+	void BuildLeafmapCacheRLE(); // size[0]
+	void BuildLeafmapCache(); // size[0]
+	void SetLedge(); // size[0]
+	void SupportMapCached(); // size[0]
 };

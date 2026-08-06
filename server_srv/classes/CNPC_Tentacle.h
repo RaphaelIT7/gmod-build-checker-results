@@ -3,19 +3,39 @@
 class CNPC_Tentacle : public CHL1BaseNPC
 {
 public:
-	virtual void ~CNPC_Tentacle() override; // vtable[0]
-	virtual void ~CNPC_Tentacle() override; // vtable[1]
+	virtual ~CNPC_Tentacle() override; // vtable[0]
+	virtual ~CNPC_Tentacle() override; // vtable[1]
+	virtual void GetDataDescMap() override; // vtable[12]
+	virtual void Spawn() override; // vtable[23]
+	virtual void Precache() override; // vtable[24]
+	virtual void KeyValue() override; // vtable[30]
+	virtual void ObjectCaps() override; // vtable[36]
+	virtual void Classify() override; // vtable[55]
+	virtual void OnTakeDamage() override; // vtable[64]
+	virtual void Event_Killed() override; // vtable[68]
+	virtual void UpdateOnRemove() override; // vtable[108]
+	virtual void CreateVPhysics() override; // vtable[157]
+	virtual void CanBecomeRagdoll() override; // vtable[255]
+	virtual void HandleAnimEvent() override; // vtable[261]
+	virtual void CanBecomeServerRagdoll() override; // vtable[337]
+	virtual void GetSchedulingErrorName() override; // vtable[432]
+	virtual void LoadedSchedules() override; // vtable[433]
+	virtual void QueryHearSound() override; // vtable[461]
+	virtual void HearingSensitivity() override; // vtable[471]
+	virtual void MaxYawSpeed() override; // vtable[529]
+	virtual void SquadSlotName() override; // vtable[581]
+	virtual void GetClassScheduleIdSpace() override; // vtable[640]
 
-	void HitTouch();
-	void Start();
-	void GetBaseMap();
-	void Level();
-	void MyHeight();
-	void MyLevel();
-	void HeardAnything();
-	void Cycle();
-	void InitCustomSchedules();
-	void LoadSchedules();
-	void CScheduleLoader();
-	void CNPC_Tentacle();
+	void HitTouch(); // size[0]
+	void Start(); // size[0]
+	void GetBaseMap(); // size[0]
+	void Level(); // size[0]
+	void MyHeight(); // size[0]
+	void MyLevel(); // size[0]
+	void HeardAnything(); // size[0]
+	void Cycle(); // size[0]
+	void InitCustomSchedules(); // size[0]
+	void LoadSchedules(); // size[0]
+	CScheduleLoader(); // size[0]
+	CNPC_Tentacle(); // size[0]
 };

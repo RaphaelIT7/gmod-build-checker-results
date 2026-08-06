@@ -3,5 +3,7 @@
 class CUtlCStringConversion : public CUtlCharConversion
 {
 public:
-	void CUtlCStringConversion();
+	virtual void FindConversion() override; // vtable[0]
+
+	CUtlCStringConversion(); // size[0]
 };

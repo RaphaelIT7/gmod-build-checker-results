@@ -5,6 +5,6 @@ class CFireSphere : public IPartitionEnumerator
 public:
 	virtual void EnumElement() override; // vtable[0]
 
-	void CFireSphere();
-	void AddToList();
+	CFireSphere(); // size[0]
+	void AddToList(); // size[0]
 };

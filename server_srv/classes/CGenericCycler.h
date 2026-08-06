@@ -3,6 +3,7 @@
 class CGenericCycler : public CCycler
 {
 public:
-	virtual void ~CGenericCycler() override; // vtable[0]
-	virtual void ~CGenericCycler() override; // vtable[1]
+	virtual ~CGenericCycler() override; // vtable[0]
+	virtual ~CGenericCycler() override; // vtable[1]
+	virtual void Spawn() override; // vtable[23]
 };

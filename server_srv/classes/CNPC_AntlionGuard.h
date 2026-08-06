@@ -3,57 +3,102 @@
 class CNPC_AntlionGuard : public CAI_BlendedNPC
 {
 public:
-	virtual void ~CNPC_AntlionGuard() override; // vtable[0]
-	virtual void ~CNPC_AntlionGuard() override; // vtable[1]
+	virtual ~CNPC_AntlionGuard() override; // vtable[0]
+	virtual ~CNPC_AntlionGuard() override; // vtable[1]
+	virtual void GetServerClass() override; // vtable[10]
+	virtual void YouForgotToImplementOrDeclareServerClass() override; // vtable[11]
+	virtual void GetDataDescMap() override; // vtable[12]
+	virtual void Spawn() override; // vtable[23]
+	virtual void Precache() override; // vtable[24]
+	virtual void Activate() override; // vtable[34]
+	virtual void Classify() override; // vtable[55]
+	virtual void GetAutoAimRadius() override; // vtable[58]
+	virtual void TraceAttack() override; // vtable[62]
+	virtual void Event_Killed() override; // vtable[68]
+	virtual void UpdateOnRemove() override; // vtable[108]
+	virtual void StopLoopingSounds() override; // vtable[109]
+	virtual void BecomeRagdollOnClient() override; // vtable[253]
+	virtual void CanBecomeRagdoll() override; // vtable[255]
+	virtual void HandleAnimEvent() override; // vtable[261]
+	virtual void PopulatePoseParameters() override; // vtable[262]
+	virtual void GetPhysicsImpactDamageTable() override; // vtable[291]
+	virtual void HandleInteraction() override; // vtable[298]
+	virtual void NPC_TranslateActivity() override; // vtable[322]
+	virtual void OnTakeDamage_Alive() override; // vtable[338]
+	virtual void CreateNavigator() override; // vtable[397]
+	virtual void GatherConditions() override; // vtable[402]
+	virtual void PrescheduleThink() override; // vtable[403]
+	virtual void SelectSchedule() override; // vtable[407]
+	virtual void SelectFailSchedule() override; // vtable[408]
+	virtual void TranslateSchedule() override; // vtable[409]
+	virtual void StartTask() override; // vtable[410]
+	virtual void RunTask() override; // vtable[411]
+	virtual void GetSchedulingErrorName() override; // vtable[432]
+	virtual void LoadedSchedules() override; // vtable[433]
+	virtual void BuildScheduleTestBits() override; // vtable[434]
+	virtual void UpdateEfficiency() override; // vtable[456]
+	virtual void QueryHearSound() override; // vtable[461]
+	virtual void GetSoundInterests() override; // vtable[467]
+	virtual void DeathSound() override; // vtable[507]
+	virtual void MaxYawSpeed() override; // vtable[529]
+	virtual void OverrideMove() override; // vtable[538]
+	virtual void OverrideMoveFacing() override; // vtable[539]
+	virtual void IsUnreachable() override; // vtable[546]
+	virtual void SquadSlotName() override; // vtable[581]
+	virtual void MeleeAttack1Conditions() override; // vtable[597]
+	virtual void IsLightDamage() override; // vtable[632]
+	virtual void IsHeavyDamage() override; // vtable[633]
+	virtual void GetClassScheduleIdSpace() override; // vtable[640]
+	virtual void ShouldProbeCollideAgainstEntity() override; // vtable[651]
 
-	void InputClearChargeTarget();
-	void InputEnablePreferPhysicsAttack();
-	void InputDisablePreferPhysicsAttack();
-	void InputEnableBark();
-	void InputDisableBark();
-	void GetStoppingPath();
-	void InputRagdoll();
-	void SetHeavyDamageAnim();
-	void InputSetShoveTarget();
-	void InputSummonedAntlionDied();
-	void InputSetChargeTarget();
-	void InputUnburrow();
-	void GetBaseMap();
-	void DestroyGlows();
-	void CreateGlow();
-	void CanSummon();
-	void ShouldCharge();
-	void GetPhysicsShoveDir();
-	void SetHeavyDamageAnim();
-	void EnemyIsRightInFrontOfMe();
-	void ChargeLookAhead();
-	void ChargeSteer();
-	void SummonAntlions();
-	void FoundEnemy();
-	void LostEnemy();
-	void ShouldWatchEnemy();
-	void UpdateHead();
-	void MaintainPhysicsTarget();
-	void GetPhysicsHitPosition();
-	void CanStandAtShoveTarget();
-	void GetNextShoveTarget();
-	void ImpactShock();
-	void Shove();
-	void ChargeDamage();
-	void HandleChargeImpact();
-	void StartSounds();
-	void GetBleedingLevel();
-	void FindPhysicsObjectTarget();
-	void SelectUnreachableSchedule();
-	void SelectUnreachableSchedule();
-	void SelectCombatSchedule();
-	void UpdatePhysicsTarget();
-	void RememberFailedPhysicsTarget();
-	void Footstep();
-	void InitCustomSchedules();
-	void LoadSchedules();
-	void CScheduleLoader();
-	void CNPC_AntlionGuard();
-	void ~CNavigator();
-	void ~CNavigator();
+	void InputClearChargeTarget(); // size[0]
+	void InputEnablePreferPhysicsAttack(); // size[0]
+	void InputDisablePreferPhysicsAttack(); // size[0]
+	void InputEnableBark(); // size[0]
+	void InputDisableBark(); // size[0]
+	void GetStoppingPath(); // size[0]
+	void InputRagdoll(); // size[0]
+	void SetHeavyDamageAnim(); // size[0]
+	void InputSetShoveTarget(); // size[0]
+	void InputSummonedAntlionDied(); // size[0]
+	void InputSetChargeTarget(); // size[0]
+	void InputUnburrow(); // size[0]
+	void GetBaseMap(); // size[0]
+	void DestroyGlows(); // size[0]
+	void CreateGlow(); // size[0]
+	void CanSummon(); // size[0]
+	void ShouldCharge(); // size[0]
+	void GetPhysicsShoveDir(); // size[0]
+	void SetHeavyDamageAnim(); // size[0]
+	void EnemyIsRightInFrontOfMe(); // size[0]
+	void ChargeLookAhead(); // size[0]
+	void ChargeSteer(); // size[0]
+	void SummonAntlions(); // size[0]
+	void FoundEnemy(); // size[0]
+	void LostEnemy(); // size[0]
+	void ShouldWatchEnemy(); // size[0]
+	void UpdateHead(); // size[0]
+	void MaintainPhysicsTarget(); // size[0]
+	void GetPhysicsHitPosition(); // size[0]
+	void CanStandAtShoveTarget(); // size[0]
+	void GetNextShoveTarget(); // size[0]
+	void ImpactShock(); // size[0]
+	void Shove(); // size[0]
+	void ChargeDamage(); // size[0]
+	void HandleChargeImpact(); // size[0]
+	void StartSounds(); // size[0]
+	void GetBleedingLevel(); // size[0]
+	void FindPhysicsObjectTarget(); // size[0]
+	void SelectUnreachableSchedule(); // size[0]
+	void SelectUnreachableSchedule(); // size[0]
+	void SelectCombatSchedule(); // size[0]
+	void UpdatePhysicsTarget(); // size[0]
+	void RememberFailedPhysicsTarget(); // size[0]
+	void Footstep(); // size[0]
+	void InitCustomSchedules(); // size[0]
+	void LoadSchedules(); // size[0]
+	CScheduleLoader(); // size[0]
+	CNPC_AntlionGuard(); // size[0]
+	~CNavigator(); // size[0]
+	~CNavigator(); // size[0]
 };

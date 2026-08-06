@@ -3,9 +3,32 @@
 class CClientState : public CBaseClientState, public CClientFrameManager
 {
 public:
-	virtual void ~CClientState() override; // vtable[0]
-	virtual void ~CClientState() override; // vtable[1]
+	virtual ~CClientState() override; // vtable[0]
+	virtual ~CClientState() override; // vtable[1]
+	virtual void ConnectionClosing() override; // vtable[3]
+	virtual void ConnectionCrashed() override; // vtable[4]
+	virtual void PacketStart() override; // vtable[5]
+	virtual void PacketEnd() override; // vtable[6]
+	virtual void FileRequested() override; // vtable[7]
+	virtual void FileReceived() override; // vtable[8]
+	virtual void FileDenied() override; // vtable[9]
+	virtual void FileSent() override; // vtable[10]
 	virtual void ShouldAcceptFile() override; // vtable[11]
+	virtual void ProcessConnectionlessPacket() override; // vtable[12]
+	virtual void ProcessTick() override; // vtable[13]
+	virtual void ProcessStringCmd() override; // vtable[14]
+	virtual void ProcessServerInfo() override; // vtable[18]
+	virtual void ProcessClassInfo() override; // vtable[20]
+	virtual void ProcessSetPause() override; // vtable[21]
+	virtual void ProcessPacketEntities() override; // vtable[25]
+	virtual void Clear() override; // vtable[31]
+	virtual void FullConnect() override; // vtable[32]
+	virtual void SetSignonState() override; // vtable[34]
+	virtual void Disconnect() override; // vtable[35]
+	virtual void GetCDKeyHash() override; // vtable[37]
+	virtual void RunFrame() override; // vtable[38]
+	virtual void InstallStringTableCallback() override; // vtable[40]
+	virtual void HookClientStringTable() override; // vtable[41]
 	virtual void ReadEnterPVS(); // vtable[45]
 	virtual void ReadLeavePVS(); // vtable[46]
 	virtual void ReadDeltaEnt(); // vtable[47]
@@ -23,33 +46,33 @@ public:
 	virtual void ProcessTempEntities(); // vtable[59]
 	virtual void ProcessPrefetch(); // vtable[60]
 
-	void ProcessConnectionlessPacket();
-	void ProcessGameEvent();
-	void ProcessUserMessage();
-	void ProcessEntityMessage();
-	void ProcessBSPDecal();
-	void ProcessCrosshairAngle();
-	void ProcessFixAngle();
-	void ProcessVoiceData();
-	void ProcessVoiceInit();
-	void ProcessSetPause();
-	void ProcessClassInfo();
-	void ProcessStringCmd();
-	void ProcessServerInfo();
-	void ProcessTick();
-	void ProcessTempEntities();
-	void ProcessPacketEntities();
-	void ProcessSounds();
-	void ProcessPrefetch();
-	void SendClientInfo();
-	void SendServerCmdKeyValues();
-	void InstallEngineStringTableCallback();
-	void GetTime();
-	void ~CClientState();
-	void ~CClientState();
-	void ~CClientState();
-	void ~CClientState();
-	void ~CClientState();
-	void ~CClientState();
-	void CClientState();
+	void ProcessConnectionlessPacket(); // size[0]
+	void ProcessGameEvent(); // size[0]
+	void ProcessUserMessage(); // size[0]
+	void ProcessEntityMessage(); // size[0]
+	void ProcessBSPDecal(); // size[0]
+	void ProcessCrosshairAngle(); // size[0]
+	void ProcessFixAngle(); // size[0]
+	void ProcessVoiceData(); // size[0]
+	void ProcessVoiceInit(); // size[0]
+	void ProcessSetPause(); // size[0]
+	void ProcessClassInfo(); // size[0]
+	void ProcessStringCmd(); // size[0]
+	void ProcessServerInfo(); // size[0]
+	void ProcessTick(); // size[0]
+	void ProcessTempEntities(); // size[0]
+	void ProcessPacketEntities(); // size[0]
+	void ProcessSounds(); // size[0]
+	void ProcessPrefetch(); // size[0]
+	void SendClientInfo(); // size[0]
+	void SendServerCmdKeyValues(); // size[0]
+	void InstallEngineStringTableCallback(); // size[0]
+	void GetTime(); // size[0]
+	~CClientState(); // size[0]
+	~CClientState(); // size[0]
+	~CClientState(); // size[0]
+	~CClientState(); // size[0]
+	~CClientState(); // size[0]
+	~CClientState(); // size[0]
+	CClientState(); // size[0]
 };

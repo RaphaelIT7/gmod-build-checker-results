@@ -3,30 +3,42 @@
 class CDynamicProp : public CBreakableProp, public IPositionWatcher
 {
 public:
-	virtual void ~CDynamicProp() override; // vtable[0]
-	virtual void ~CDynamicProp() override; // vtable[1]
+	virtual ~CDynamicProp() override; // vtable[0]
+	virtual ~CDynamicProp() override; // vtable[1]
 	virtual void SetRefEHandle() override; // vtable[2]
+	virtual void GetServerClass() override; // vtable[10]
+	virtual void YouForgotToImplementOrDeclareServerClass() override; // vtable[11]
+	virtual void GetDataDescMap() override; // vtable[12]
+	virtual void TestCollision() override; // vtable[14]
+	virtual void Spawn() override; // vtable[23]
+	virtual void SetParent() override; // vtable[35]
+	virtual void OnRestore() override; // vtable[45]
+	virtual void UpdateOnRemove() override; // vtable[108]
+	virtual void CreateVPhysics() override; // vtable[157]
+	virtual void HandleAnimEvent() override; // vtable[261]
+	virtual void OverridePropdata() override; // vtable[282]
+	virtual void GetRootPhysicsObjectForBreak() override; // vtable[284]
 	virtual void NotifyPositionChanged(); // vtable[322]
 
-	void InputSetDefaultAnimation();
-	void InputBecomeRagdoll();
-	void InputTurnOff();
-	void InputDisableCollision();
-	void InputEnableCollision();
-	void NotifyPositionChanged();
-	void InputFadeAndKill();
-	void InputTurnOn();
-	void InputSetPlaybackRate();
-	void GetBaseMap();
-	void CDynamicProp();
-	void BoneFollowerHierarchyChanged();
-	void CreateBoneFollowers();
-	void FinishSetSequence();
-	void PropSetSequence();
-	void PropSetAnim();
-	void InputSetAnimation();
-	void InputSetAnimationNoReset();
-	void AnimThink();
-	void ~CDynamicProp();
-	void ~CDynamicProp();
+	void InputSetDefaultAnimation(); // size[0]
+	void InputBecomeRagdoll(); // size[0]
+	void InputTurnOff(); // size[0]
+	void InputDisableCollision(); // size[0]
+	void InputEnableCollision(); // size[0]
+	void NotifyPositionChanged(); // size[0]
+	void InputFadeAndKill(); // size[0]
+	void InputTurnOn(); // size[0]
+	void InputSetPlaybackRate(); // size[0]
+	void GetBaseMap(); // size[0]
+	CDynamicProp(); // size[0]
+	void BoneFollowerHierarchyChanged(); // size[0]
+	void CreateBoneFollowers(); // size[0]
+	void FinishSetSequence(); // size[0]
+	void PropSetSequence(); // size[0]
+	void PropSetAnim(); // size[0]
+	void InputSetAnimation(); // size[0]
+	void InputSetAnimationNoReset(); // size[0]
+	void AnimThink(); // size[0]
+	~CDynamicProp(); // size[0]
+	~CDynamicProp(); // size[0]
 };

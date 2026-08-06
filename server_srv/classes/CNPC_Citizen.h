@@ -3,55 +3,122 @@
 class CNPC_Citizen : public CNPC_PlayerCompanion
 {
 public:
-	virtual void ~CNPC_Citizen() override; // vtable[0]
-	virtual void ~CNPC_Citizen() override; // vtable[1]
+	virtual ~CNPC_Citizen() override; // vtable[0]
+	virtual ~CNPC_Citizen() override; // vtable[1]
+	virtual void GetModelName() override; // vtable[8]
+	virtual void GetDataDescMap() override; // vtable[12]
+	virtual void Spawn() override; // vtable[23]
+	virtual void Precache() override; // vtable[24]
+	virtual void Activate() override; // vtable[34]
+	virtual void DrawDebugTextOverlays() override; // vtable[40]
+	virtual void OnRestore() override; // vtable[45]
+	virtual void Classify() override; // vtable[55]
+	virtual void HandleAnimEvent() override; // vtable[261]
+	virtual void FInViewCone() override; // vtable[292]
+	virtual void HandleInteraction() override; // vtable[298]
+	virtual void NPC_TranslateActivity() override; // vtable[322]
+	virtual void OnTakeDamage_Alive() override; // vtable[338]
+	virtual void OnChangeActiveWeapon() override; // vtable[378]
+	virtual void PostNPCInit() override; // vtable[389]
+	virtual void GatherConditions() override; // vtable[402]
+	virtual void PrescheduleThink() override; // vtable[403]
+	virtual void SelectSchedule() override; // vtable[407]
+	virtual void SelectFailSchedule() override; // vtable[408]
+	virtual void TranslateSchedule() override; // vtable[409]
+	virtual void StartTask() override; // vtable[410]
+	virtual void RunTask() override; // vtable[411]
+	virtual void ShouldAlwaysThink() override; // vtable[417]
+	virtual void TaskFail() override; // vtable[427]
+	virtual void GetSchedulingErrorName() override; // vtable[432]
+	virtual void LoadedSchedules() override; // vtable[433]
+	virtual void BuildScheduleTestBits() override; // vtable[434]
+	virtual void ShouldAcceptGoal() override; // vtable[443]
+	virtual void OnClearGoal() override; // vtable[444]
+	virtual void IsCommandable() override; // vtable[485]
+	virtual void IsPlayerAlly() override; // vtable[486]
+	virtual void IsMedic() override; // vtable[487]
+	virtual void IsCommandMoving() override; // vtable[488]
+	virtual void ShouldAutoSummon() override; // vtable[489]
+	virtual void OnMoveOrder() override; // vtable[493]
+	virtual void IsValidCommandTarget() override; // vtable[494]
+	virtual void OnMoveToCommandGoalFailed() override; // vtable[495]
+	virtual void GetSquadCommandRepresentative() override; // vtable[496]
+	virtual void TargetOrder() override; // vtable[497]
+	virtual void MoveOrder() override; // vtable[498]
+	virtual void DeathSound() override; // vtable[507]
+	virtual void FearSound() override; // vtable[511]
+	virtual void GetJumpGravity() override; // vtable[537]
+	virtual void SquadSlotName() override; // vtable[581]
+	virtual void SetSquad() override; // vtable[582]
+	virtual void OnBeginMoveAndShoot() override; // vtable[601]
+	virtual void OnEndMoveAndShoot() override; // vtable[602]
+	virtual void UseAttackSquadSlots() override; // vtable[603]
+	virtual void ShouldLookForBetterWeapon() override; // vtable[606]
+	virtual void OnGivenWeapon() override; // vtable[608]
+	virtual void FValidateHintType() override; // vtable[617]
+	virtual void GetActualShootPosition() override; // vtable[628]
+	virtual void PickupItem() override; // vtable[635]
+	virtual void GetClassScheduleIdSpace() override; // vtable[640]
+	virtual void CreateBehaviors() override; // vtable[652]
+	virtual void OnChangeRunningBehavior() override; // vtable[656]
+	virtual void ShouldBehaviorSelectSchedule() override; // vtable[657]
+	virtual void SelectRandomExpressionForState() override; // vtable[706]
+	virtual void UseSemaphore() override; // vtable[707]
+	virtual void SelectModel() override; // vtable[722]
+	virtual void PredictPlayerPush() override; // vtable[724]
+	virtual void SelectSchedulePriorityAction() override; // vtable[726]
+	virtual void SelectScheduleNonCombat() override; // vtable[727]
+	virtual void SelectScheduleCombat() override; // vtable[728]
+	virtual void ShouldDeferToFollowBehavior() override; // vtable[730]
+	virtual void IgnorePlayerPushing() override; // vtable[731]
+	virtual void LocateEnemySound() override; // vtable[737]
 
-	void InputStartPatrolling();
-	void InputStopPatrolling();
-	void InputSpeakIdleResponse();
-	void PlayerSquadCandidateSortFunc();
-	void SimpleUse();
-	void UseSemaphore();
-	void InputSetAmmoResupplierOn();
-	void InputSetMedicOn();
-	void InputSetAmmoResupplierOff();
-	void InputSetMedicOff();
-	void InputSetCommandable();
-	void TossHealthKit();
-	void InputForceHealthKitToss();
-	void GetBaseMap();
-	void SelectExpressionType();
-	void FixupMattWeapon();
-	void SelectScheduleRetrieveItem();
-	void IsManhackMeleeCombatant();
-	void SelectScheduleManhackCombat();
-	void CanJoinPlayerSquad();
-	void WasInPlayerSquad();
-	void HaveCommandGoal();
-	void ShouldSpeakRadio();
-	void ClearFollowTarget();
-	void FixupPlayerSquad();
-	void AddToPlayerSquad();
-	void RemoveFromPlayerSquad();
-	void IsFollowingCommandPoint();
-	void UpdateFollowCommandPoint();
-	void CanHeal();
-	void ShouldHealTarget();
-	void ShouldHealTossTarget();
-	void SelectScheduleHeal();
-	void Heal();
-	void TossHealthKit();
-	void ShouldLookForHealthItem();
-	void AddInsignia();
-	void RemoveInsignia();
-	void PrecacheAllOfType();
-	void SpeakCommandResponse();
-	void TogglePlayerSquadState();
-	void CommanderUse();
-	void MoveOrder();
-	void UpdatePlayerSquad();
-	void InitCustomSchedules();
-	void LoadSchedules();
-	void CScheduleLoader();
-	void InputRemoveFromPlayerSquad();
+	void InputStartPatrolling(); // size[0]
+	void InputStopPatrolling(); // size[0]
+	void InputSpeakIdleResponse(); // size[0]
+	void PlayerSquadCandidateSortFunc(); // size[0]
+	void SimpleUse(); // size[0]
+	void UseSemaphore(); // size[0]
+	void InputSetAmmoResupplierOn(); // size[0]
+	void InputSetMedicOn(); // size[0]
+	void InputSetAmmoResupplierOff(); // size[0]
+	void InputSetMedicOff(); // size[0]
+	void InputSetCommandable(); // size[0]
+	void TossHealthKit(); // size[0]
+	void InputForceHealthKitToss(); // size[0]
+	void GetBaseMap(); // size[0]
+	void SelectExpressionType(); // size[0]
+	void FixupMattWeapon(); // size[0]
+	void SelectScheduleRetrieveItem(); // size[0]
+	void IsManhackMeleeCombatant(); // size[0]
+	void SelectScheduleManhackCombat(); // size[0]
+	void CanJoinPlayerSquad(); // size[0]
+	void WasInPlayerSquad(); // size[0]
+	void HaveCommandGoal(); // size[0]
+	void ShouldSpeakRadio(); // size[0]
+	void ClearFollowTarget(); // size[0]
+	void FixupPlayerSquad(); // size[0]
+	void AddToPlayerSquad(); // size[0]
+	void RemoveFromPlayerSquad(); // size[0]
+	void IsFollowingCommandPoint(); // size[0]
+	void UpdateFollowCommandPoint(); // size[0]
+	void CanHeal(); // size[0]
+	void ShouldHealTarget(); // size[0]
+	void ShouldHealTossTarget(); // size[0]
+	void SelectScheduleHeal(); // size[0]
+	void Heal(); // size[0]
+	void TossHealthKit(); // size[0]
+	void ShouldLookForHealthItem(); // size[0]
+	void AddInsignia(); // size[0]
+	void RemoveInsignia(); // size[0]
+	void PrecacheAllOfType(); // size[0]
+	void SpeakCommandResponse(); // size[0]
+	void TogglePlayerSquadState(); // size[0]
+	void CommanderUse(); // size[0]
+	void MoveOrder(); // size[0]
+	void UpdatePlayerSquad(); // size[0]
+	void InitCustomSchedules(); // size[0]
+	void LoadSchedules(); // size[0]
+	CScheduleLoader(); // size[0]
+	void InputRemoveFromPlayerSquad(); // size[0]
 };

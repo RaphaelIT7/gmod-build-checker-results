@@ -29,8 +29,8 @@ public:
 	virtual void GetPacketResponseLatency(); // vtable[23]
 	virtual void GetRemoteFramerate(); // vtable[24]
 	virtual void GetTimeoutSeconds() override; // vtable[25]
-	virtual void ~CNetChan() override; // vtable[26]
-	virtual void ~CNetChan() override; // vtable[27]
+	virtual ~CNetChan() override; // vtable[26]
+	virtual ~CNetChan() override; // vtable[27]
 	virtual void SetDataRate(); // vtable[28]
 	virtual void RegisterMessage(); // vtable[29]
 	virtual void StartStreaming(); // vtable[30]
@@ -76,37 +76,37 @@ public:
 	virtual void GetMaxRoutablePayloadSize(); // vtable[70]
 	virtual void GetProtocolVersion() override; // vtable[71]
 
-	void IsValidFileForTransfer();
-	void CompressFragments();
-	void UncompressFragments();
-	void FlowReset();
-	void Setup();
-	void FlowNewPacket();
-	void FlowUpdate();
-	void IsFileInWaitingList();
-	void RemoveHeadInWaitingList();
-	void ReadSubChannelData();
-	void UpdateSubChannels();
-	void ProcessControlMessage();
-	void GetFreeSubChannel();
-	void CheckWaitingList();
-	void HandleUpload();
-	void ProcessPacketHeader();
-	void FindMessage();
-	void ProcessMessages();
-	void CheckReceivingList();
-	void SendReliableViaStream();
-	void SendTCPData();
-	void SendSubChannelData();
-	void SendReliableAcknowledge();
-	void ProcessStream();
-	void IncrementQueuedPackets();
-	void DecrementQueuedPackets();
-	void HasQueuedPackets();
-	void IncrementSplitPacketSequence();
-	void IsValidFileForTransfer();
-	void Shutdown();
-	void CNetChan();
-	void CreateFragmentsFromBuffer();
-	void CreateFragmentsFromFile();
+	void IsValidFileForTransfer(); // size[0]
+	void CompressFragments(); // size[0]
+	void UncompressFragments(); // size[0]
+	void FlowReset(); // size[0]
+	void Setup(); // size[0]
+	void FlowNewPacket(); // size[0]
+	void FlowUpdate(); // size[0]
+	void IsFileInWaitingList(); // size[0]
+	void RemoveHeadInWaitingList(); // size[0]
+	void ReadSubChannelData(); // size[0]
+	void UpdateSubChannels(); // size[0]
+	void ProcessControlMessage(); // size[0]
+	void GetFreeSubChannel(); // size[0]
+	void CheckWaitingList(); // size[0]
+	void HandleUpload(); // size[0]
+	void ProcessPacketHeader(); // size[0]
+	void FindMessage(); // size[0]
+	void ProcessMessages(); // size[0]
+	void CheckReceivingList(); // size[0]
+	void SendReliableViaStream(); // size[0]
+	void SendTCPData(); // size[0]
+	void SendSubChannelData(); // size[0]
+	void SendReliableAcknowledge(); // size[0]
+	void ProcessStream(); // size[0]
+	void IncrementQueuedPackets(); // size[0]
+	void DecrementQueuedPackets(); // size[0]
+	void HasQueuedPackets(); // size[0]
+	void IncrementSplitPacketSequence(); // size[0]
+	void IsValidFileForTransfer(); // size[0]
+	void Shutdown(); // size[0]
+	CNetChan(); // size[0]
+	void CreateFragmentsFromBuffer(); // size[0]
+	void CreateFragmentsFromFile(); // size[0]
 };

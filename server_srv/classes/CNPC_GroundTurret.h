@@ -3,19 +3,45 @@
 class CNPC_GroundTurret : public CAI_BaseNPC
 {
 public:
-	virtual void ~CNPC_GroundTurret() override; // vtable[0]
-	virtual void ~CNPC_GroundTurret() override; // vtable[1]
+	virtual ~CNPC_GroundTurret() override; // vtable[0]
+	virtual ~CNPC_GroundTurret() override; // vtable[1]
+	virtual void GetDataDescMap() override; // vtable[12]
+	virtual void Spawn() override; // vtable[23]
+	virtual void Precache() override; // vtable[24]
+	virtual void Classify() override; // vtable[55]
+	virtual void Event_Killed() override; // vtable[68]
+	virtual void MakeTracer() override; // vtable[113]
+	virtual void EyePosition() override; // vtable[133]
+	virtual void FVisible() override; // vtable[144]
+	virtual void CreateVPhysics() override; // vtable[157]
+	virtual void CanBecomeRagdoll() override; // vtable[255]
+	virtual void NPC_TranslateActivity() override; // vtable[322]
+	virtual void OnTakeDamage_Alive() override; // vtable[338]
+	virtual void GetAttackSpread() override; // vtable[372]
+	virtual void PostNPCInit() override; // vtable[389]
+	virtual void GatherConditions() override; // vtable[402]
+	virtual void PrescheduleThink() override; // vtable[403]
+	virtual void SelectSchedule() override; // vtable[407]
+	virtual void TranslateSchedule() override; // vtable[409]
+	virtual void StartTask() override; // vtable[410]
+	virtual void RunTask() override; // vtable[411]
+	virtual void GetSchedulingErrorName() override; // vtable[432]
+	virtual void LoadedSchedules() override; // vtable[433]
+	virtual void QuerySeeEntity() override; // vtable[462]
+	virtual void DeathSound() override; // vtable[507]
+	virtual void SquadSlotName() override; // vtable[581]
+	virtual void GetClassScheduleIdSpace() override; // vtable[640]
 	virtual void Shoot(); // vtable[652]
 	virtual void Scan(); // vtable[653]
 
-	void InputEnable();
-	void InputDisable();
-	void DeathEffects();
-	void GetBaseMap();
-	void IsEnabled();
-	void IsOpen();
-	void ProjectBeam();
-	void InitCustomSchedules();
-	void LoadSchedules();
-	void CScheduleLoader();
+	void InputEnable(); // size[0]
+	void InputDisable(); // size[0]
+	void DeathEffects(); // size[0]
+	void GetBaseMap(); // size[0]
+	void IsEnabled(); // size[0]
+	void IsOpen(); // size[0]
+	void ProjectBeam(); // size[0]
+	void InitCustomSchedules(); // size[0]
+	void LoadSchedules(); // size[0]
+	CScheduleLoader(); // size[0]
 };

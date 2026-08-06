@@ -3,8 +3,10 @@
 class CGameRules : public CAutoGameSystemPerFrame
 {
 public:
-	virtual void ~CGameRules() override; // vtable[13]
-	virtual void ~CGameRules() override; // vtable[14]
+	virtual void Name() override; // vtable[0]
+	virtual ~CGameRules() override; // vtable[13]
+	virtual ~CGameRules() override; // vtable[14]
+	virtual void FrameUpdatePostEntityThink() override; // vtable[16]
 	virtual void SwitchToNextBestWeapon(); // vtable[29]
 	virtual void GetNextBestWeapon(); // vtable[30]
 	virtual void ShouldCollide(); // vtable[31]
@@ -81,7 +83,7 @@ public:
 	virtual void OnFileReceived(); // vtable[138]
 	virtual void IsHolidayActive(); // vtable[139]
 
-	void IsSpawnPointValid();
-	void CGameRules();
-	void Think();
+	void IsSpawnPointValid(); // size[0]
+	CGameRules(); // size[0]
+	void Think(); // size[0]
 };

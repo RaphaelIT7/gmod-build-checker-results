@@ -3,8 +3,20 @@
 class CNPC_BaseTurret : public CAI_BaseNPC
 {
 public:
-	virtual void ~CNPC_BaseTurret() override; // vtable[0]
-	virtual void ~CNPC_BaseTurret() override; // vtable[1]
+	virtual ~CNPC_BaseTurret() override; // vtable[0]
+	virtual ~CNPC_BaseTurret() override; // vtable[1]
+	virtual void GetDataDescMap() override; // vtable[12]
+	virtual void Spawn() override; // vtable[23]
+	virtual void Precache() override; // vtable[24]
+	virtual void Classify() override; // vtable[55]
+	virtual void TraceAttack() override; // vtable[62]
+	virtual void OnTakeDamage() override; // vtable[64]
+	virtual void Event_Killed() override; // vtable[68]
+	virtual void UpdateOnRemove() override; // vtable[108]
+	virtual void CanBecomeServerRagdoll() override; // vtable[337]
+	virtual void OnTakeDamage_Alive() override; // vtable[338]
+	virtual void ShouldGib() override; // vtable[352]
+	virtual void ShouldFadeOnDeath() override; // vtable[594]
 	virtual void SpinDownCall(); // vtable[652]
 	virtual void SpinUpCall(); // vtable[653]
 	virtual void Ping(); // vtable[654]
@@ -12,18 +24,18 @@ public:
 	virtual void EyeOff(); // vtable[656]
 	virtual void Shoot(); // vtable[657]
 
-	void _GLOBAL__sub_I_m_DataMap();
-	void TurretUse();
-	void InputDeactivate();
-	void InputActivate();
-	void AutoSearchThink();
-	void Initialize();
-	void GetBaseMap();
-	void SetTurretAnim();
-	void Deploy();
-	void MoveTurret();
-	void ActiveThink();
-	void SearchThink();
-	void Retire();
-	void TurretDeath();
+	void _GLOBAL__sub_I_m_DataMap(); // size[0]
+	void TurretUse(); // size[0]
+	void InputDeactivate(); // size[0]
+	void InputActivate(); // size[0]
+	void AutoSearchThink(); // size[0]
+	void Initialize(); // size[0]
+	void GetBaseMap(); // size[0]
+	void SetTurretAnim(); // size[0]
+	void Deploy(); // size[0]
+	void MoveTurret(); // size[0]
+	void ActiveThink(); // size[0]
+	void SearchThink(); // size[0]
+	void Retire(); // size[0]
+	void TurretDeath(); // size[0]
 };

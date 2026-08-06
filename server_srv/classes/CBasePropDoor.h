@@ -3,8 +3,21 @@
 class CBasePropDoor : public CDynamicProp
 {
 public:
-	virtual void ~CBasePropDoor() override; // vtable[0]
-	virtual void ~CBasePropDoor() override; // vtable[1]
+	virtual ~CBasePropDoor() override; // vtable[0]
+	virtual ~CBasePropDoor() override; // vtable[1]
+	virtual void GetServerClass() override; // vtable[10]
+	virtual void YouForgotToImplementOrDeclareServerClass() override; // vtable[11]
+	virtual void GetDataDescMap() override; // vtable[12]
+	virtual void TestCollision() override; // vtable[14]
+	virtual void Spawn() override; // vtable[23]
+	virtual void Precache() override; // vtable[24]
+	virtual void Activate() override; // vtable[34]
+	virtual void ObjectCaps() override; // vtable[36]
+	virtual void Use() override; // vtable[100]
+	virtual void StartBlocked() override; // vtable[104]
+	virtual void Blocked() override; // vtable[105]
+	virtual void EndBlocked() override; // vtable[106]
+	virtual void HandleAnimEvent() override; // vtable[261]
 	virtual void IsAbleToCloseAreaPortals(); // vtable[323]
 	virtual void IsDoorLocked(); // vtable[324]
 	virtual void DoorCanClose(); // vtable[325]
@@ -16,31 +29,31 @@ public:
 	virtual void Lock(); // vtable[338]
 	virtual void Unlock(); // vtable[339]
 
-	void InputLock();
-	void InputUnlock();
-	void OnEndBlocked();
-	void GetBaseMap();
-	void CBasePropDoor();
-	void RegisterPrivateActivities();
-	void UpdateAreaPortals();
-	void DisableAreaPortalThink();
-	void SetDoorBlocker();
-	void DoorOpenMoveDone();
-	void DoorCloseMoveDone();
-	void DoorOpen();
-	void OpenIfUnlocked();
-	void InputOpen();
-	void InputOpenAwayFrom();
-	void DoorClose();
-	void InputClose();
-	void InputToggle();
-	void DoorActivate();
-	void OnUse();
-	void DoorAutoCloseThink();
-	void OnStartBlocked();
-	void MasterStartBlocked();
-	void OnEndBlocked();
-	void NPCOpenDoor();
-	void ~CBasePropDoor();
-	void ~CBasePropDoor();
+	void InputLock(); // size[0]
+	void InputUnlock(); // size[0]
+	void OnEndBlocked(); // size[0]
+	void GetBaseMap(); // size[0]
+	CBasePropDoor(); // size[0]
+	void RegisterPrivateActivities(); // size[0]
+	void UpdateAreaPortals(); // size[0]
+	void DisableAreaPortalThink(); // size[0]
+	void SetDoorBlocker(); // size[0]
+	void DoorOpenMoveDone(); // size[0]
+	void DoorCloseMoveDone(); // size[0]
+	void DoorOpen(); // size[0]
+	void OpenIfUnlocked(); // size[0]
+	void InputOpen(); // size[0]
+	void InputOpenAwayFrom(); // size[0]
+	void DoorClose(); // size[0]
+	void InputClose(); // size[0]
+	void InputToggle(); // size[0]
+	void DoorActivate(); // size[0]
+	void OnUse(); // size[0]
+	void DoorAutoCloseThink(); // size[0]
+	void OnStartBlocked(); // size[0]
+	void MasterStartBlocked(); // size[0]
+	void OnEndBlocked(); // size[0]
+	void NPCOpenDoor(); // size[0]
+	~CBasePropDoor(); // size[0]
+	~CBasePropDoor(); // size[0]
 };

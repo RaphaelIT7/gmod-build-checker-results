@@ -7,38 +7,38 @@ public:
 	virtual void TryLock(); // vtable[1]
 	virtual void Unlock(); // vtable[2]
 
-	void FlushAllUnlocked();
-	void FlushAll();
-	void CreateHandle();
-	void CDataManagerBase();
-	void _GLOBAL__sub_I_CDataManagerBase();
-	void NotifySizeChanged();
-	void SetTargetSize();
-	void GetResource_NoLockNoLRUTouch();
-	void StoreResourceInHandle();
-	void ToHandle();
-	void TargetSize();
-	void AvailableSize();
-	void UsedSize();
-	void ~CDataManagerBase();
-	void ~CDataManagerBase();
-	void MarkAsStale();
-	void GetForFreeByIndex();
-	void EnsureCapacity();
-	void FlushToTargetSize();
-	void Purge();
-	void FlushAllUnlocked();
-	void FlushAll();
-	void LockResource();
-	void UnlockResource();
-	void BreakLock();
-	void DestroyResource();
-	void BreakAllLocks();
-	void GetResource_NoLock();
-	void TouchByIndex();
-	void TouchResource();
-	void CreateHandle();
-	void GetLockHandleList();
-	void GetLRUHandleList();
-	void CDataManagerBase();
+	void FlushAllUnlocked(); // size[0]
+	void FlushAll(); // size[0]
+	void CreateHandle(); // size[0]
+	CDataManagerBase(); // size[0]
+	_GLOBAL__sub_I_CDataManagerBase(); // size[0]
+	void NotifySizeChanged(); // size[0]
+	void SetTargetSize(); // size[0]
+	void GetResource_NoLockNoLRUTouch(); // size[0]
+	void StoreResourceInHandle(); // size[0]
+	void ToHandle(); // size[0]
+	void TargetSize(); // size[0]
+	void AvailableSize(); // size[0]
+	void UsedSize(); // size[0]
+	~CDataManagerBase(); // size[0]
+	~CDataManagerBase(); // size[0]
+	void MarkAsStale(); // size[0]
+	void GetForFreeByIndex(); // size[0]
+	void EnsureCapacity(); // size[0]
+	void FlushToTargetSize(); // size[0]
+	void Purge(); // size[0]
+	void FlushAllUnlocked(); // size[0]
+	void FlushAll(); // size[0]
+	void LockResource(); // size[0]
+	void UnlockResource(); // size[0]
+	void BreakLock(); // size[0]
+	void DestroyResource(); // size[0]
+	void BreakAllLocks(); // size[0]
+	void GetResource_NoLock(); // size[0]
+	void TouchByIndex(); // size[0]
+	void TouchResource(); // size[0]
+	void CreateHandle(); // size[0]
+	void GetLockHandleList(); // size[0]
+	void GetLRUHandleList(); // size[0]
+	CDataManagerBase(); // size[0]
 };

@@ -3,9 +3,10 @@
 class CEnvSplash : public CPointEntity
 {
 public:
-	virtual void ~CEnvSplash() override; // vtable[0]
-	virtual void ~CEnvSplash() override; // vtable[1]
+	virtual ~CEnvSplash() override; // vtable[0]
+	virtual ~CEnvSplash() override; // vtable[1]
+	virtual void GetDataDescMap() override; // vtable[12]
 
-	void InputSplash();
-	void GetBaseMap();
+	void InputSplash(); // size[0]
+	void GetBaseMap(); // size[0]
 };

@@ -3,6 +3,6 @@
 class CUtlCachedFileData
 {
 public:
-	virtual void ~CUtlCachedFileData(); // vtable[0]
-	virtual void ~CUtlCachedFileData(); // vtable[1]
+	virtual ~CUtlCachedFileData(); // vtable[0]
+	virtual ~CUtlCachedFileData(); // vtable[1]
 };

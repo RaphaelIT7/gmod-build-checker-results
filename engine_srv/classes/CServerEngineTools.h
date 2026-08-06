@@ -3,8 +3,8 @@
 class CServerEngineTools : public IServerEngineTools
 {
 public:
-	virtual void ~CServerEngineTools() override; // vtable[0]
-	virtual void ~CServerEngineTools() override; // vtable[1]
+	virtual ~CServerEngineTools() override; // vtable[0]
+	virtual ~CServerEngineTools() override; // vtable[1]
 	virtual void LevelInitPreEntityAllTools(); // vtable[2]
 	virtual void LevelInitPostEntityAllTools(); // vtable[3]
 	virtual void LevelShutdownPreEntityAllTools(); // vtable[4]

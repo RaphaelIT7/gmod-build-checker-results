@@ -3,27 +3,40 @@
 class CPropDoorRotating : public CBasePropDoor
 {
 public:
-	virtual void ~CPropDoorRotating() override; // vtable[0]
-	virtual void ~CPropDoorRotating() override; // vtable[1]
+	virtual ~CPropDoorRotating() override; // vtable[0]
+	virtual ~CPropDoorRotating() override; // vtable[1]
+	virtual void GetServerClass() override; // vtable[10]
+	virtual void YouForgotToImplementOrDeclareServerClass() override; // vtable[11]
+	virtual void GetDataDescMap() override; // vtable[12]
+	virtual void UpdateTransmitState() override; // vtable[20]
+	virtual void Spawn() override; // vtable[23]
+	virtual void DrawDebugTextOverlays() override; // vtable[40]
+	virtual void OnRestore() override; // vtable[45]
+	virtual void MoveDone() override; // vtable[47]
+	virtual void UpdateOnRemove() override; // vtable[108]
+	virtual void OverridePropdata() override; // vtable[282]
+	virtual void DoorCanClose() override; // vtable[325]
 	virtual void GetNPCOpenData(); // vtable[327]
 	virtual void GetOpenInterval(); // vtable[328]
 	virtual void ComputeDoorExtent(); // vtable[329]
+	virtual void OnDoorClosed() override; // vtable[331]
+	virtual void OnDoorOpened() override; // vtable[332]
 	virtual void BeginOpening(); // vtable[333]
 	virtual void BeginClosing(); // vtable[334]
 	virtual void DoorStop(); // vtable[335]
 	virtual void DoorResume(); // vtable[336]
 	virtual void DoorTeleportToSpawnPosition() override; // vtable[337]
 
-	void InputSetSpeed();
-	void GetBaseMap();
-	void CalcOpenAngles();
-	void IsHingeOnLeft();
-	void GetOpenState();
-	void CalculateDoorVolume();
-	void InputSetRotationDistance();
-	void InputMoveToRotationDistance();
-	void AngularMove();
-	void CheckDoorClear();
-	void ~CPropDoorRotating();
-	void ~CPropDoorRotating();
+	void InputSetSpeed(); // size[0]
+	void GetBaseMap(); // size[0]
+	void CalcOpenAngles(); // size[0]
+	void IsHingeOnLeft(); // size[0]
+	void GetOpenState(); // size[0]
+	void CalculateDoorVolume(); // size[0]
+	void InputSetRotationDistance(); // size[0]
+	void InputMoveToRotationDistance(); // size[0]
+	void AngularMove(); // size[0]
+	void CheckDoorClear(); // size[0]
+	~CPropDoorRotating(); // size[0]
+	~CPropDoorRotating(); // size[0]
 };

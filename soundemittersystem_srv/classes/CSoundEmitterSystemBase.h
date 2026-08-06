@@ -50,18 +50,18 @@ public:
 	virtual void AddSoundOverride(); // vtable[44]
 	virtual void SetActorGender(); // vtable[45]
 	virtual void GMOD_ReloadSoundScripts() override; // vtable[46]
-	virtual void ~CSoundEmitterSystemBase(); // vtable[47]
-	virtual void ~CSoundEmitterSystemBase(); // vtable[48]
+	virtual ~CSoundEmitterSystemBase(); // vtable[47]
+	virtual ~CSoundEmitterSystemBase(); // vtable[48]
 
-	void _GLOBAL__sub_I_CSoundEmitterSystemBase();
-	void AddSoundName();
-	void TranslateAttenuation();
-	void InitSoundInternalParameters();
-	void TranslateSoundLevel();
-	void TranslateChannel();
-	void CSoundEmitterSystemBase();
-	void EnsureAvailableSlotsForGender();
-	void FindBestSoundForGender();
-	void LoadGlobalActors();
-	void AddSoundsFromFile();
+	_GLOBAL__sub_I_CSoundEmitterSystemBase(); // size[0]
+	void AddSoundName(); // size[0]
+	void TranslateAttenuation(); // size[0]
+	void InitSoundInternalParameters(); // size[0]
+	void TranslateSoundLevel(); // size[0]
+	void TranslateChannel(); // size[0]
+	CSoundEmitterSystemBase(); // size[0]
+	void EnsureAvailableSlotsForGender(); // size[0]
+	void FindBestSoundForGender(); // size[0]
+	void LoadGlobalActors(); // size[0]
+	void AddSoundsFromFile(); // size[0]
 };

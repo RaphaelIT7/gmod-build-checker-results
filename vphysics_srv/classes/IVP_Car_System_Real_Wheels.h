@@ -3,8 +3,8 @@
 class IVP_Car_System_Real_Wheels : public IVP_Car_System
 {
 public:
-	virtual void ~IVP_Car_System_Real_Wheels(); // vtable[0]
-	virtual void ~IVP_Car_System_Real_Wheels(); // vtable[1]
+	virtual ~IVP_Car_System_Real_Wheels(); // vtable[0]
+	virtual ~IVP_Car_System_Real_Wheels(); // vtable[1]
 	virtual void do_steering_wheel(); // vtable[2]
 	virtual void change_spring_constant(); // vtable[3]
 	virtual void change_spring_dampening(); // vtable[4]
@@ -37,9 +37,9 @@ public:
 	virtual void GetCarSystemDebugData(); // vtable[31]
 	virtual void environment_will_be_deleted(); // vtable[32]
 
-	void IVP_Car_System_Real_Wheels();
-	void _GLOBAL__sub_I_change_spring_dampening();
-	void change_wheel_speed_dampening();
-	void IVP_Car_System_Real_Wheels();
-	void event_object_deleted();
+	IVP_Car_System_Real_Wheels(); // size[0]
+	void _GLOBAL__sub_I_change_spring_dampening(); // size[0]
+	void change_wheel_speed_dampening(); // size[0]
+	IVP_Car_System_Real_Wheels(); // size[0]
+	void event_object_deleted(); // size[0]
 };

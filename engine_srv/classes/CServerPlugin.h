@@ -22,15 +22,15 @@ public:
 	virtual void OnEdictAllocated(); // vtable[16]
 	virtual void OnEdictFreed(); // vtable[17]
 
-	void CServerPlugin();
-	void DisablePlugins();
-	void EnablePlugins();
-	void DisablePlugin();
-	void EnablePlugin();
-	void PrintDetails();
-	void UnloadPlugins();
-	void UnloadPlugin();
-	void ~CServerPlugin();
-	void LoadPlugin();
-	void LoadPlugins();
+	CServerPlugin(); // size[0]
+	void DisablePlugins(); // size[0]
+	void EnablePlugins(); // size[0]
+	void DisablePlugin(); // size[0]
+	void EnablePlugin(); // size[0]
+	void PrintDetails(); // size[0]
+	void UnloadPlugins(); // size[0]
+	void UnloadPlugin(); // size[0]
+	~CServerPlugin(); // size[0]
+	void LoadPlugin(); // size[0]
+	void LoadPlugins(); // size[0]
 };

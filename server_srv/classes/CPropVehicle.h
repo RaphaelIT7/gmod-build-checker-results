@@ -3,8 +3,8 @@
 class CPropVehicle : public CBaseProp, public CDefaultPlayerPickupVPhysics
 {
 public:
-	virtual void ~CPropVehicle() override; // vtable[0]
-	virtual void ~CPropVehicle() override; // vtable[1]
+	virtual ~CPropVehicle() override; // vtable[0]
+	virtual ~CPropVehicle() override; // vtable[1]
 	virtual void SetRefEHandle() override; // vtable[2]
 	virtual void GetRefEHandle() override; // vtable[3]
 	virtual void GetCollideable() override; // vtable[4]
@@ -13,19 +13,31 @@ public:
 	virtual void GetModelIndex() override; // vtable[7]
 	virtual void GetModelName() override; // vtable[8]
 	virtual void SetModelIndex() override; // vtable[9]
+	virtual void GetDataDescMap() override; // vtable[12]
+	virtual void Spawn() override; // vtable[23]
+	virtual void DrawDebugGeometryOverlays() override; // vtable[39]
+	virtual void DrawDebugTextOverlays() override; // vtable[40]
+	virtual void Restore() override; // vtable[42]
+	virtual void Think() override; // vtable[48]
+	virtual void Teleport() override; // vtable[111]
+	virtual void GetSmoothedVelocity() override; // vtable[142]
+	virtual void VPhysicsUpdate() override; // vtable[161]
+	virtual void HasPhysicsAttacker() override; // vtable[173]
+	virtual void IsVehicle() override; // vtable[203]
+	virtual void SetPhysicsAttacker() override; // vtable[236]
 	virtual void OnPhysGunPickup(); // vtable[283]
 	virtual void DampenEyePosition(); // vtable[284]
 	virtual void GetUprightStrength(); // vtable[285]
 	virtual void GetUprightTime(); // vtable[286]
 
-	void InputThrottle();
-	void InputSteering();
-	void InputAction();
-	void InputHandBrakeOn();
-	void InputHandBrakeOff();
-	void OnPhysGunPickup();
-	void GetBaseMap();
-	void CPropVehicle();
-	void RemovePhysicsChild();
-	void AddPhysicsChild();
+	void InputThrottle(); // size[0]
+	void InputSteering(); // size[0]
+	void InputAction(); // size[0]
+	void InputHandBrakeOn(); // size[0]
+	void InputHandBrakeOff(); // size[0]
+	void OnPhysGunPickup(); // size[0]
+	void GetBaseMap(); // size[0]
+	CPropVehicle(); // size[0]
+	void RemovePhysicsChild(); // size[0]
+	void AddPhysicsChild(); // size[0]
 };

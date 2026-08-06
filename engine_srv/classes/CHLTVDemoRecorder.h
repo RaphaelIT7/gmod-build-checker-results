@@ -18,15 +18,15 @@ public:
 	virtual void RecordServerClasses(); // vtable[12]
 	virtual void RecordStringTables(); // vtable[13]
 	virtual void ResetDemoInterpolation() override; // vtable[14]
-	virtual void ~CHLTVDemoRecorder(); // vtable[15]
-	virtual void ~CHLTVDemoRecorder(); // vtable[16]
+	virtual ~CHLTVDemoRecorder(); // vtable[15]
+	virtual ~CHLTVDemoRecorder(); // vtable[16]
 
-	void _GLOBAL__sub_I_CHLTVDemoRecorder();
-	void StopRecording();
-	void CHLTVDemoRecorder();
-	void StartAutoRecording();
-	void WriteMessages();
-	void WriteServerInfo();
-	void WriteSignonData();
-	void WriteFrame();
+	_GLOBAL__sub_I_CHLTVDemoRecorder(); // size[0]
+	void StopRecording(); // size[0]
+	CHLTVDemoRecorder(); // size[0]
+	void StartAutoRecording(); // size[0]
+	void WriteMessages(); // size[0]
+	void WriteServerInfo(); // size[0]
+	void WriteSignonData(); // size[0]
+	void WriteFrame(); // size[0]
 };

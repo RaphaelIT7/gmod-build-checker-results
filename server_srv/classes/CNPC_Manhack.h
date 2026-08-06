@@ -3,8 +3,8 @@
 class CNPC_Manhack : public CNPCBaseInteractive, public CDefaultPlayerPickupVPhysics
 {
 public:
-	virtual void ~CNPC_Manhack() override; // vtable[0]
-	virtual void ~CNPC_Manhack() override; // vtable[1]
+	virtual ~CNPC_Manhack() override; // vtable[0]
+	virtual ~CNPC_Manhack() override; // vtable[1]
 	virtual void SetRefEHandle() override; // vtable[2]
 	virtual void GetRefEHandle() override; // vtable[3]
 	virtual void GetCollideable() override; // vtable[4]
@@ -13,57 +13,107 @@ public:
 	virtual void GetModelIndex() override; // vtable[7]
 	virtual void GetModelName() override; // vtable[8]
 	virtual void SetModelIndex() override; // vtable[9]
+	virtual void GetServerClass() override; // vtable[10]
+	virtual void YouForgotToImplementOrDeclareServerClass() override; // vtable[11]
+	virtual void GetDataDescMap() override; // vtable[12]
+	virtual void Spawn() override; // vtable[23]
+	virtual void Precache() override; // vtable[24]
+	virtual void Activate() override; // vtable[34]
+	virtual void Classify() override; // vtable[55]
+	virtual void TraceAttack() override; // vtable[62]
+	virtual void Event_Killed() override; // vtable[68]
+	virtual void UpdateOnRemove() override; // vtable[108]
+	virtual void StopLoopingSounds() override; // vtable[109]
+	virtual void BodyTarget() override; // vtable[137]
+	virtual void CreateVPhysics() override; // vtable[157]
+	virtual void VPhysicsShadowCollision() override; // vtable[163]
+	virtual void VPhysicsCollision() override; // vtable[165]
+	virtual void HasPhysicsAttacker() override; // vtable[173]
+	virtual void PhysicsSolidMaskForEntity() override; // vtable[174]
+	virtual void SetPhysicsAttacker() override; // vtable[236]
+	virtual void HandleAnimEvent() override; // vtable[261]
+	virtual void Ignite() override; // vtable[267]
+	virtual void HandleInteraction() override; // vtable[298]
+	virtual void NPC_TranslateActivity() override; // vtable[322]
+	virtual void OnTakeDamage_Alive() override; // vtable[338]
+	virtual void OnTakeDamage_Dying() override; // vtable[339]
+	virtual void CorpseGib() override; // vtable[348]
+	virtual void ShouldGib() override; // vtable[352]
+	virtual void Event_Dying() override; // vtable[356]
+	virtual void PostNPCInit() override; // vtable[389]
+	virtual void GatherConditions() override; // vtable[402]
+	virtual void PrescheduleThink() override; // vtable[403]
+	virtual void TranslateSchedule() override; // vtable[409]
+	virtual void StartTask() override; // vtable[410]
+	virtual void RunTask() override; // vtable[411]
+	virtual void GetSchedulingErrorName() override; // vtable[432]
+	virtual void LoadedSchedules() override; // vtable[433]
+	virtual void OnStateChange() override; // vtable[455]
+	virtual void GatherEnemyConditions() override; // vtable[478]
+	virtual void DeathSound() override; // vtable[507]
+	virtual void OverrideMove() override; // vtable[538]
+	virtual void SquadSlotName() override; // vtable[581]
+	virtual void MeleeAttack1Conditions() override; // vtable[597]
+	virtual void TranslateNavGoal() override; // vtable[613]
+	virtual void GetDefaultNavGoalTolerance() override; // vtable[614]
+	virtual void GetClassScheduleIdSpace() override; // vtable[640]
 	virtual void MoveToTarget() override; // vtable[654]
+	virtual void GetHeadTurnRate() override; // vtable[655]
+	virtual void ClampMotorForces() override; // vtable[657]
+	virtual void CanInteractWith() override; // vtable[658]
+	virtual void HasBeenInteractedWith() override; // vtable[659]
+	virtual void NotifyInteraction() override; // vtable[660]
+	virtual void InputPowerdown() override; // vtable[661]
 	virtual void OnPhysGunPickup(); // vtable[664]
 	virtual void OnPhysGunDrop(); // vtable[665]
 
-	void InputDisableSwarm();
-	void CrashTouch();
-	void InputUnpack();
-	void TakeDamageFromPhyscannon();
-	void GetBaseMap();
-	void HitPhysicsObject();
-	void TakeDamageFromPhyscannon();
-	void TakeDamageFromVehicle();
-	void TakeDamageFromPhysicsImpact();
-	void CreateSmokeTrail();
-	void DestroySmokeTrail();
-	void IsFlyingActivity();
-	void Loiter();
-	void MaintainGroundHeight();
-	void TurnHeadRandomly();
-	void MoveCollisionMask();
-	void Splash();
-	void ComputeSliceBounceVelocity();
-	void IsHeldByPhyscannon();
-	void Bump();
-	void SpinBlades();
-	void SoundInit();
-	void StartEngine();
-	void BladesInit();
-	void ManhackMaxSpeed();
-	void KillSprites();
-	void IsInEffectiveTargetZone();
-	void StartLoitering();
-	void GetMaxEnginePower();
-	void UpdatePanels();
-	void ShowHostile();
-	void StartBurst();
-	void StopBurst();
-	void Slice();
-	void CheckCollisions();
-	void StartEye();
-	void SetEyeState();
-	void OnPhysGunPickup();
-	void OnPhysGunDrop();
-	void PlayFlySound();
-	void MoveExecute_Alive();
-	void MoveExecute_Dead();
-	void InitCustomSchedules();
-	void LoadSchedules();
-	void CScheduleLoader();
-	void CNPC_Manhack();
-	void CanInteractWith();
-	void HasBeenInteractedWith();
-	void NotifyInteraction();
+	void InputDisableSwarm(); // size[0]
+	void CrashTouch(); // size[0]
+	void InputUnpack(); // size[0]
+	void TakeDamageFromPhyscannon(); // size[0]
+	void GetBaseMap(); // size[0]
+	void HitPhysicsObject(); // size[0]
+	void TakeDamageFromPhyscannon(); // size[0]
+	void TakeDamageFromVehicle(); // size[0]
+	void TakeDamageFromPhysicsImpact(); // size[0]
+	void CreateSmokeTrail(); // size[0]
+	void DestroySmokeTrail(); // size[0]
+	void IsFlyingActivity(); // size[0]
+	void Loiter(); // size[0]
+	void MaintainGroundHeight(); // size[0]
+	void TurnHeadRandomly(); // size[0]
+	void MoveCollisionMask(); // size[0]
+	void Splash(); // size[0]
+	void ComputeSliceBounceVelocity(); // size[0]
+	void IsHeldByPhyscannon(); // size[0]
+	void Bump(); // size[0]
+	void SpinBlades(); // size[0]
+	void SoundInit(); // size[0]
+	void StartEngine(); // size[0]
+	void BladesInit(); // size[0]
+	void ManhackMaxSpeed(); // size[0]
+	void KillSprites(); // size[0]
+	void IsInEffectiveTargetZone(); // size[0]
+	void StartLoitering(); // size[0]
+	void GetMaxEnginePower(); // size[0]
+	void UpdatePanels(); // size[0]
+	void ShowHostile(); // size[0]
+	void StartBurst(); // size[0]
+	void StopBurst(); // size[0]
+	void Slice(); // size[0]
+	void CheckCollisions(); // size[0]
+	void StartEye(); // size[0]
+	void SetEyeState(); // size[0]
+	void OnPhysGunPickup(); // size[0]
+	void OnPhysGunDrop(); // size[0]
+	void PlayFlySound(); // size[0]
+	void MoveExecute_Alive(); // size[0]
+	void MoveExecute_Dead(); // size[0]
+	void InitCustomSchedules(); // size[0]
+	void LoadSchedules(); // size[0]
+	CScheduleLoader(); // size[0]
+	CNPC_Manhack(); // size[0]
+	void CanInteractWith(); // size[0]
+	void HasBeenInteractedWith(); // size[0]
+	void NotifyInteraction(); // size[0]
 };

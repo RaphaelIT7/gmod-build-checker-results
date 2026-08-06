@@ -3,42 +3,54 @@
 class CNPC_RocketTurret : public CAI_BaseNPC
 {
 public:
-	virtual void ~CNPC_RocketTurret() override; // vtable[0]
-	virtual void ~CNPC_RocketTurret() override; // vtable[1]
+	virtual ~CNPC_RocketTurret() override; // vtable[0]
+	virtual ~CNPC_RocketTurret() override; // vtable[1]
+	virtual void GetServerClass() override; // vtable[10]
+	virtual void YouForgotToImplementOrDeclareServerClass() override; // vtable[11]
+	virtual void GetDataDescMap() override; // vtable[12]
+	virtual void Spawn() override; // vtable[23]
+	virtual void Precache() override; // vtable[24]
+	virtual void Classify() override; // vtable[55]
+	virtual void Event_Killed() override; // vtable[68]
+	virtual void UpdateOnRemove() override; // vtable[108]
+	virtual void EyePosition() override; // vtable[133]
+	virtual void FVisible() override; // vtable[144]
+	virtual void CreateVPhysics() override; // vtable[157]
+	virtual void EyeOffset() override; // vtable[553]
 
-	void InputSetTarget();
-	void Enable();
-	void InputEnable();
-	void Disable();
-	void InputDisable();
-	void DyingThink();
-	void DeathThink();
-	void GetBaseMap();
-	void CNPC_RocketTurret();
-	void UpdateAimPoint();
-	void FindAnEnemy();
-	void FireRocket();
-	void UpdateSkin();
-	void RocketDied();
-	void UpdateMuzzleMatrix();
-	void SyncPoseToAimAngles();
-	void OpeningThink();
-	void UpdateFacing();
-	void ClosingThink();
-	void TestLOS();
-	void TestPortalsForLOS();
-	void LaserOn();
-	void LaserOff();
-	void PreThink();
-	void SearchThink();
-	void FollowThink();
-	void LockingThink();
-	void FiringThink();
-	void Toggle();
-	void InputToggle();
-	void Enable();
-	void Disable();
-	void SetTarget();
-	void Destroy();
-	void InputDestroy();
+	void InputSetTarget(); // size[0]
+	void Enable(); // size[0]
+	void InputEnable(); // size[0]
+	void Disable(); // size[0]
+	void InputDisable(); // size[0]
+	void DyingThink(); // size[0]
+	void DeathThink(); // size[0]
+	void GetBaseMap(); // size[0]
+	CNPC_RocketTurret(); // size[0]
+	void UpdateAimPoint(); // size[0]
+	void FindAnEnemy(); // size[0]
+	void FireRocket(); // size[0]
+	void UpdateSkin(); // size[0]
+	void RocketDied(); // size[0]
+	void UpdateMuzzleMatrix(); // size[0]
+	void SyncPoseToAimAngles(); // size[0]
+	void OpeningThink(); // size[0]
+	void UpdateFacing(); // size[0]
+	void ClosingThink(); // size[0]
+	void TestLOS(); // size[0]
+	void TestPortalsForLOS(); // size[0]
+	void LaserOn(); // size[0]
+	void LaserOff(); // size[0]
+	void PreThink(); // size[0]
+	void SearchThink(); // size[0]
+	void FollowThink(); // size[0]
+	void LockingThink(); // size[0]
+	void FiringThink(); // size[0]
+	void Toggle(); // size[0]
+	void InputToggle(); // size[0]
+	void Enable(); // size[0]
+	void Disable(); // size[0]
+	void SetTarget(); // size[0]
+	void Destroy(); // size[0]
+	void InputDestroy(); // size[0]
 };

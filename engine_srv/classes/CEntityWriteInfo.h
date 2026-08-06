@@ -3,6 +3,6 @@
 class CEntityWriteInfo : public CEntityInfo
 {
 public:
-	virtual void ~CEntityWriteInfo() override; // vtable[0]
-	virtual void ~CEntityWriteInfo() override; // vtable[1]
+	virtual ~CEntityWriteInfo() override; // vtable[0]
+	virtual ~CEntityWriteInfo() override; // vtable[1]
 };

@@ -3,8 +3,8 @@
 class CSENT_anim : public CBaseAnimatingOverlay, public IMotionEvent, public CDefaultPlayerPickupVPhysics
 {
 public:
-	virtual void ~CSENT_anim() override; // vtable[0]
-	virtual void ~CSENT_anim() override; // vtable[1]
+	virtual ~CSENT_anim() override; // vtable[0]
+	virtual ~CSENT_anim() override; // vtable[1]
 	virtual void SetRefEHandle() override; // vtable[2]
 	virtual void GetRefEHandle() override; // vtable[3]
 	virtual void GetCollideable() override; // vtable[4]
@@ -13,6 +13,48 @@ public:
 	virtual void GetModelIndex() override; // vtable[7]
 	virtual void GetModelName() override; // vtable[8]
 	virtual void SetModelIndex() override; // vtable[9]
+	virtual void GetServerClass() override; // vtable[10]
+	virtual void YouForgotToImplementOrDeclareServerClass() override; // vtable[11]
+	virtual void GetDataDescMap() override; // vtable[12]
+	virtual void TestCollision() override; // vtable[14]
+	virtual void UpdateTransmitState() override; // vtable[20]
+	virtual void Spawn() override; // vtable[23]
+	virtual void KeyValue() override; // vtable[30]
+	virtual void ObjectCaps() override; // vtable[36]
+	virtual void AcceptInput() override; // vtable[37]
+	virtual void OnRestore() override; // vtable[45]
+	virtual void OnTakeDamage() override; // vtable[64]
+	virtual void ImpactTrace() override; // vtable[79]
+	virtual void StartTouch() override; // vtable[101]
+	virtual void Touch() override; // vtable[102]
+	virtual void EndTouch() override; // vtable[103]
+	virtual void Blocked() override; // vtable[105]
+	virtual void UpdateOnRemove() override; // vtable[108]
+	virtual void DoImpactEffect() override; // vtable[116]
+	virtual void NetworkStateChanged_m_iMaxHealth() override; // vtable[122]
+	virtual void NetworkStateChanged_m_iMaxHealth() override; // vtable[123]
+	virtual void NetworkStateChanged_m_iHealth() override; // vtable[124]
+	virtual void NetworkStateChanged_m_iHealth() override; // vtable[125]
+	virtual void VPhysicsUpdate() override; // vtable[161]
+	virtual void VPhysicsCollision() override; // vtable[165]
+	virtual void HasPhysicsAttacker() override; // vtable[173]
+	virtual void PhysicsSolidMaskForEntity() override; // vtable[174]
+	virtual void ResolveFlyCollisionCustom() override; // vtable[175]
+	virtual void UsesLua() override; // vtable[205]
+	virtual void GetLuaEntityType() override; // vtable[207]
+	virtual void StartMotionController() override; // vtable[216]
+	virtual void StopMotionController() override; // vtable[217]
+	virtual void AttachObjectToMotionController() override; // vtable[218]
+	virtual void DetachObjectFromMotionController() override; // vtable[219]
+	virtual void SetUseType() override; // vtable[222]
+	virtual void GetLuaScriptName() override; // vtable[224]
+	virtual void InitializeScriptedEntity() override; // vtable[227]
+	virtual void SetPhysicsAttacker() override; // vtable[236]
+	virtual void GMOD_CreateBoneFollowers() override; // vtable[242]
+	virtual void GMOD_UpdateBoneFollowers() override; // vtable[243]
+	virtual void GMOD_DestroyBoneFollowers() override; // vtable[244]
+	virtual void GMOD_GetBoneFollowerMgr() override; // vtable[245]
+	virtual void HandleAnimEvent() override; // vtable[261]
 	virtual void ScriptThink(); // vtable[282]
 	virtual void Simulate(); // vtable[283]
 	virtual void ScriptUse(); // vtable[284]
@@ -21,14 +63,14 @@ public:
 	virtual void PreferredCarryAngles(); // vtable[287]
 	virtual void HasPreferredCarryAnglesForPlayer(); // vtable[288]
 
-	void _GLOBAL__sub_I_GetServerClass();
-	void OnPhysGunPickup();
-	void OnPhysGunDrop();
-	void HasPreferredCarryAnglesForPlayer();
-	void Simulate();
-	void GetBaseMap();
-	void CSENT_anim();
-	void PreferredCarryAngles();
-	void NetworkStateChanged();
-	void NetworkStateChanged();
+	void _GLOBAL__sub_I_GetServerClass(); // size[0]
+	void OnPhysGunPickup(); // size[0]
+	void OnPhysGunDrop(); // size[0]
+	void HasPreferredCarryAnglesForPlayer(); // size[0]
+	void Simulate(); // size[0]
+	void GetBaseMap(); // size[0]
+	CSENT_anim(); // size[0]
+	void PreferredCarryAngles(); // size[0]
+	void NetworkStateChanged(); // size[0]
+	void NetworkStateChanged(); // size[0]
 };

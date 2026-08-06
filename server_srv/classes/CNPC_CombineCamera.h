@@ -3,31 +3,44 @@
 class CNPC_CombineCamera : public CAI_BaseNPC
 {
 public:
-	virtual void ~CNPC_CombineCamera() override; // vtable[0]
-	virtual void ~CNPC_CombineCamera() override; // vtable[1]
+	virtual ~CNPC_CombineCamera() override; // vtable[0]
+	virtual ~CNPC_CombineCamera() override; // vtable[1]
+	virtual void GetDataDescMap() override; // vtable[12]
+	virtual void Spawn() override; // vtable[23]
+	virtual void Precache() override; // vtable[24]
+	virtual void DrawDebugGeometryOverlays() override; // vtable[39]
+	virtual void DrawDebugTextOverlays() override; // vtable[40]
+	virtual void Classify() override; // vtable[55]
+	virtual void OnTakeDamage() override; // vtable[64]
+	virtual void EyePosition() override; // vtable[133]
+	virtual void FVisible() override; // vtable[144]
+	virtual void HeadDirection2D() override; // vtable[302]
+	virtual void IsValidEnemy() override; // vtable[475]
+	virtual void MaxYawSpeed() override; // vtable[529]
+	virtual void EyeOffset() override; // vtable[553]
 
-	void GetBaseMap();
-	void CNPC_CombineCamera();
-	void GetTarget();
-	void UpdateFacing();
-	void MaintainEnemy();
-	void TrackTarget();
-	void MaintainEye();
-	void PreThink();
-	void SetEyeState();
-	void Ping();
-	void SearchThink();
-	void Enable();
-	void InputEnable();
-	void Disable();
-	void Toggle();
-	void InputToggle();
-	void InputDisable();
-	void SetAngry();
-	void ActiveThink();
-	void InputSetAngry();
-	void InputSetIdle();
-	void SetHeight();
-	void Deploy();
-	void DeathThink();
+	void GetBaseMap(); // size[0]
+	CNPC_CombineCamera(); // size[0]
+	void GetTarget(); // size[0]
+	void UpdateFacing(); // size[0]
+	void MaintainEnemy(); // size[0]
+	void TrackTarget(); // size[0]
+	void MaintainEye(); // size[0]
+	void PreThink(); // size[0]
+	void SetEyeState(); // size[0]
+	void Ping(); // size[0]
+	void SearchThink(); // size[0]
+	void Enable(); // size[0]
+	void InputEnable(); // size[0]
+	void Disable(); // size[0]
+	void Toggle(); // size[0]
+	void InputToggle(); // size[0]
+	void InputDisable(); // size[0]
+	void SetAngry(); // size[0]
+	void ActiveThink(); // size[0]
+	void InputSetAngry(); // size[0]
+	void InputSetIdle(); // size[0]
+	void SetHeight(); // size[0]
+	void Deploy(); // size[0]
+	void DeathThink(); // size[0]
 };

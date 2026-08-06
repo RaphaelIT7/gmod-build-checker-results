@@ -3,15 +3,15 @@
 class CSHA1
 {
 public:
-	virtual void ~CSHA1(); // vtable[0]
-	virtual void ~CSHA1(); // vtable[1]
+	virtual ~CSHA1(); // vtable[0]
+	virtual ~CSHA1(); // vtable[1]
 
-	void CSHA1();
-	void Reset();
-	void Transform();
-	void Update();
-	void HashFile();
-	void Final();
-	void ReportHash();
-	void GetHash();
+	CSHA1(); // size[0]
+	void Reset(); // size[0]
+	void Transform(); // size[0]
+	void Update(); // size[0]
+	void HashFile(); // size[0]
+	void Final(); // size[0]
+	void ReportHash(); // size[0]
+	void GetHash(); // size[0]
 };

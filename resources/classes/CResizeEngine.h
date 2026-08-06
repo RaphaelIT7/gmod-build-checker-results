@@ -3,10 +3,10 @@
 class CResizeEngine
 {
 public:
-	virtual void ~CResizeEngine(); // vtable[0]
-	virtual void ~CResizeEngine(); // vtable[1]
+	virtual ~CResizeEngine(); // vtable[0]
+	virtual ~CResizeEngine(); // vtable[1]
 
-	void horizontalFilter();
-	void verticalFilter();
-	void scale();
+	void horizontalFilter(); // size[0]
+	void verticalFilter(); // size[0]
+	void scale(); // size[0]
 };

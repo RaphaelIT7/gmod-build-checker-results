@@ -3,10 +3,12 @@
 class CTEBeamPoints : public CTEBaseBeam
 {
 public:
-	virtual void ~CTEBeamPoints() override; // vtable[2]
-	virtual void ~CTEBeamPoints() override; // vtable[3]
+	virtual void GetServerClass() override; // vtable[0]
+	virtual void YouForgotToImplementOrDeclareServerClass() override; // vtable[1]
+	virtual ~CTEBeamPoints() override; // vtable[2]
+	virtual ~CTEBeamPoints() override; // vtable[3]
 	virtual void Test() override; // vtable[4]
 
-	void _GLOBAL__sub_I_CTEBeamPoints();
-	void CTEBeamPoints();
+	_GLOBAL__sub_I_CTEBeamPoints(); // size[0]
+	CTEBeamPoints(); // size[0]
 };

@@ -17,8 +17,8 @@ public:
 	virtual void IsStaticProp(); // vtable[11]
 	virtual void GetStaticPropIndex(); // vtable[12]
 	virtual void PropHasBakedLightingDisabled() override; // vtable[13]
-	virtual void ~CStaticPropMgr(); // vtable[14]
-	virtual void ~CStaticPropMgr(); // vtable[15]
+	virtual ~CStaticPropMgr(); // vtable[14]
+	virtual ~CStaticPropMgr(); // vtable[15]
 	virtual void GetStaticPropByIndex(); // vtable[16]
 	virtual void ComputePropOpacity(); // vtable[17]
 	virtual void TraceRayAgainstStaticProp(); // vtable[18]
@@ -32,39 +32,39 @@ public:
 	virtual void GetAllStaticPropsInOBB(); // vtable[26]
 	virtual void DrawStaticProps(); // vtable[27]
 
-	void GetStaticPropByIndex();
-	void GetStaticPropByIndex();
-	void IsStaticProp();
-	void IsStaticProp();
-	void IsStaticProp();
-	void IsStaticProp();
-	void ComputePropOpacity();
-	void TraceRayAgainstStaticProp();
-	void TraceRayAgainstStaticProp();
-	void AddDecalToStaticProp();
-	void AddShadowToStaticProp();
-	void RemoveAllShadowsFromStaticProp();
-	void GetStaticPropMaterialColorAndLighting();
-	void CreateVPhysicsRepresentations();
-	void CreateVPhysicsRepresentations();
-	void OutputLevelStats();
-	void PrecacheLighting();
-	void DrawStaticProps_Slow();
-	void DrawStaticProps_Fast();
-	void DrawStaticProps_FastPipeline();
-	void DrawStaticProps();
-	void ComputeScreenFade();
-	void ChangeRenderGroup();
-	void ComputePropOpacity();
-	void CStaticPropMgr();
-	void UnserializeModelDict();
-	void UnserializeLeafList();
-	void UnserializeModels();
-	void UnserializeStaticProps();
-	void GetAllStaticProps();
-	void GetAllStaticProps();
-	void GetAllStaticPropsInAABB();
-	void GetAllStaticPropsInAABB();
-	void GetAllStaticPropsInOBB();
-	void GetAllStaticPropsInOBB();
+	void GetStaticPropByIndex(); // size[0]
+	void GetStaticPropByIndex(); // size[0]
+	void IsStaticProp(); // size[0]
+	void IsStaticProp(); // size[0]
+	void IsStaticProp(); // size[0]
+	void IsStaticProp(); // size[0]
+	void ComputePropOpacity(); // size[0]
+	void TraceRayAgainstStaticProp(); // size[0]
+	void TraceRayAgainstStaticProp(); // size[0]
+	void AddDecalToStaticProp(); // size[0]
+	void AddShadowToStaticProp(); // size[0]
+	void RemoveAllShadowsFromStaticProp(); // size[0]
+	void GetStaticPropMaterialColorAndLighting(); // size[0]
+	void CreateVPhysicsRepresentations(); // size[0]
+	void CreateVPhysicsRepresentations(); // size[0]
+	void OutputLevelStats(); // size[0]
+	void PrecacheLighting(); // size[0]
+	void DrawStaticProps_Slow(); // size[0]
+	void DrawStaticProps_Fast(); // size[0]
+	void DrawStaticProps_FastPipeline(); // size[0]
+	void DrawStaticProps(); // size[0]
+	void ComputeScreenFade(); // size[0]
+	void ChangeRenderGroup(); // size[0]
+	void ComputePropOpacity(); // size[0]
+	CStaticPropMgr(); // size[0]
+	void UnserializeModelDict(); // size[0]
+	void UnserializeLeafList(); // size[0]
+	void UnserializeModels(); // size[0]
+	void UnserializeStaticProps(); // size[0]
+	void GetAllStaticProps(); // size[0]
+	void GetAllStaticProps(); // size[0]
+	void GetAllStaticPropsInAABB(); // size[0]
+	void GetAllStaticPropsInAABB(); // size[0]
+	void GetAllStaticPropsInOBB(); // size[0]
+	void GetAllStaticPropsInOBB(); // size[0]
 };

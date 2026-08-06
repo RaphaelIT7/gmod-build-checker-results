@@ -3,8 +3,8 @@
 class CClientEngineTools : public IClientEngineTools
 {
 public:
-	virtual void ~CClientEngineTools() override; // vtable[0]
-	virtual void ~CClientEngineTools() override; // vtable[1]
+	virtual ~CClientEngineTools() override; // vtable[0]
+	virtual ~CClientEngineTools() override; // vtable[1]
 	virtual void LevelInitPreEntityAllTools(); // vtable[2]
 	virtual void LevelInitPostEntityAllTools(); // vtable[3]
 	virtual void LevelShutdownPreEntityAllTools(); // vtable[4]

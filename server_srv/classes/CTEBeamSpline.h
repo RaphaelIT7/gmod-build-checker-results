@@ -3,9 +3,12 @@
 class CTEBeamSpline : public CBaseTempEntity
 {
 public:
-	virtual void ~CTEBeamSpline() override; // vtable[2]
-	virtual void ~CTEBeamSpline() override; // vtable[3]
+	virtual void GetServerClass() override; // vtable[0]
+	virtual void YouForgotToImplementOrDeclareServerClass() override; // vtable[1]
+	virtual ~CTEBeamSpline() override; // vtable[2]
+	virtual ~CTEBeamSpline() override; // vtable[3]
+	virtual void Test() override; // vtable[4]
 
-	void _GLOBAL__sub_I_CTEBeamSpline();
-	void CTEBeamSpline();
+	_GLOBAL__sub_I_CTEBeamSpline(); // size[0]
+	CTEBeamSpline(); // size[0]
 };

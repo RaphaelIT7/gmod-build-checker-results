@@ -3,8 +3,8 @@
 class CMatQueuedMesh : public IMesh
 {
 public:
-	virtual void ~CMatQueuedMesh() override; // vtable[0]
-	virtual void ~CMatQueuedMesh() override; // vtable[1]
+	virtual ~CMatQueuedMesh() override; // vtable[0]
+	virtual ~CMatQueuedMesh() override; // vtable[1]
 	virtual void VertexCount(); // vtable[2]
 	virtual void GetVertexFormat(); // vtable[3]
 	virtual void IsDynamic(); // vtable[4]
@@ -42,21 +42,21 @@ public:
 	virtual void IndexFormat(); // vtable[36]
 	virtual void BeginCastBuffer(); // vtable[37]
 
-	void IndexCount();
-	void Lock();
-	void Unlock();
-	void Spew();
-	void ValidateData();
-	void IsDynamic();
-	void IndexFormat();
-	void BeginCastBuffer();
-	void EndCastBuffer();
-	void GetRoomRemaining();
-	void ~CMatQueuedMesh();
-	void ~CMatQueuedMesh();
-	void ExecuteDefferredBuild();
-	void DeferredGetDynamicMesh();
-	void ModifyBegin();
-	void ModifyEnd();
-	void OnGetDynamicMesh();
+	void IndexCount(); // size[0]
+	void Lock(); // size[0]
+	void Unlock(); // size[0]
+	void Spew(); // size[0]
+	void ValidateData(); // size[0]
+	void IsDynamic(); // size[0]
+	void IndexFormat(); // size[0]
+	void BeginCastBuffer(); // size[0]
+	void EndCastBuffer(); // size[0]
+	void GetRoomRemaining(); // size[0]
+	~CMatQueuedMesh(); // size[0]
+	~CMatQueuedMesh(); // size[0]
+	void ExecuteDefferredBuild(); // size[0]
+	void DeferredGetDynamicMesh(); // size[0]
+	void ModifyBegin(); // size[0]
+	void ModifyEnd(); // size[0]
+	void OnGetDynamicMesh(); // size[0]
 };

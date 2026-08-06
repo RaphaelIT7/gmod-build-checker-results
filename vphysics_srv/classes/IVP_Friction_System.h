@@ -10,50 +10,50 @@ public:
 	virtual void do_simulation_controller(); // vtable[4]
 	virtual void get_controller_priority(); // vtable[5]
 	virtual void get_controller_name(); // vtable[6]
-	virtual void ~IVP_Friction_System(); // vtable[7]
-	virtual void ~IVP_Friction_System(); // vtable[8]
+	virtual ~IVP_Friction_System(); // vtable[7]
+	virtual ~IVP_Friction_System(); // vtable[8]
 
-	void split_friction_system();
-	void do_friction_system();
-	void dist_added_update_pair_info();
-	void calc_friction_forces();
-	void ease_friction_forces();
-	void delete_friction_distance();
-	void apply_real_friction();
-	void fusion_friction_systems();
-	void add_fr_pair();
-	void del_fr_pair();
-	void get_pair_info_for_objs();
-	void debug_check_system_consistency();
-	void union_find_fr_sys();
-	void split_friction_system();
-	void print_all_dists();
-	void clear_integrated_anti_energy();
-	void remove_energy_gained_by_real_friction();
-	void debug_fs_out_ascii();
-	void core_is_found_in_pairs();
-	void find_pair_of_cores();
-	void get_num_supposed_active_frdists();
-	void do_pushes_distance_keepers();
-	void test_hole_fr_system_data();
-	void reorder_mindists_for_complex();
-	void exchange_friction_dists();
-	void ivp_debug_fs_pointers();
-	void bubble_sort_dists_importance();
-	void core_is_terminal_in_fs();
-	void static_fr_oversized_matrix_panic();
-	void kinetic_energy_of_hole_frs();
-	void confirm_complex_pushes();
-	void undo_complex_pushes();
-	void get_max_energy_gain();
-	void do_friction_system();
-	void debug_clean_tmp_info();
-	void fs_recalc_all_contact_points();
-	void dist_removed_update_pair_info();
-	void remove_dist_from_system();
-	void dist_added_update_pair_info();
-	void add_dist_to_system();
-	void add_core_to_system();
-	void remove_core_from_system();
-	void IVP_Friction_System();
+	void split_friction_system(); // size[0]
+	void do_friction_system(); // size[0]
+	void dist_added_update_pair_info(); // size[0]
+	void calc_friction_forces(); // size[0]
+	void ease_friction_forces(); // size[0]
+	void delete_friction_distance(); // size[0]
+	void apply_real_friction(); // size[0]
+	void fusion_friction_systems(); // size[0]
+	void add_fr_pair(); // size[0]
+	void del_fr_pair(); // size[0]
+	void get_pair_info_for_objs(); // size[0]
+	void debug_check_system_consistency(); // size[0]
+	void union_find_fr_sys(); // size[0]
+	void split_friction_system(); // size[0]
+	void print_all_dists(); // size[0]
+	void clear_integrated_anti_energy(); // size[0]
+	void remove_energy_gained_by_real_friction(); // size[0]
+	void debug_fs_out_ascii(); // size[0]
+	void core_is_found_in_pairs(); // size[0]
+	void find_pair_of_cores(); // size[0]
+	void get_num_supposed_active_frdists(); // size[0]
+	void do_pushes_distance_keepers(); // size[0]
+	void test_hole_fr_system_data(); // size[0]
+	void reorder_mindists_for_complex(); // size[0]
+	void exchange_friction_dists(); // size[0]
+	void ivp_debug_fs_pointers(); // size[0]
+	void bubble_sort_dists_importance(); // size[0]
+	void core_is_terminal_in_fs(); // size[0]
+	void static_fr_oversized_matrix_panic(); // size[0]
+	void kinetic_energy_of_hole_frs(); // size[0]
+	void confirm_complex_pushes(); // size[0]
+	void undo_complex_pushes(); // size[0]
+	void get_max_energy_gain(); // size[0]
+	void do_friction_system(); // size[0]
+	void debug_clean_tmp_info(); // size[0]
+	void fs_recalc_all_contact_points(); // size[0]
+	void dist_removed_update_pair_info(); // size[0]
+	void remove_dist_from_system(); // size[0]
+	void dist_added_update_pair_info(); // size[0]
+	void add_dist_to_system(); // size[0]
+	void add_core_to_system(); // size[0]
+	void remove_core_from_system(); // size[0]
+	IVP_Friction_System(); // size[0]
 };

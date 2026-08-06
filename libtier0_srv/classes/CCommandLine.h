@@ -16,12 +16,12 @@ public:
 	virtual void FindParm(); // vtable[10]
 	virtual void GetParm(); // vtable[11]
 	virtual void SetParm() override; // vtable[12]
-	virtual void ~CCommandLine(); // vtable[13]
-	virtual void ~CCommandLine(); // vtable[14]
+	virtual ~CCommandLine(); // vtable[13]
+	virtual ~CCommandLine(); // vtable[14]
 
-	void CCommandLine();
-	void LoadParametersFromFile();
-	void AddArgument();
-	void CleanUpParms();
-	void ParseCommandLine();
+	CCommandLine(); // size[0]
+	void LoadParametersFromFile(); // size[0]
+	void AddArgument(); // size[0]
+	void CleanUpParms(); // size[0]
+	void ParseCommandLine(); // size[0]
 };

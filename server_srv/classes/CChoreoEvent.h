@@ -7,155 +7,155 @@ public:
 	virtual void CurveHasEndTime(); // vtable[1]
 	virtual void GetDefaultCurveType() override; // vtable[2]
 
-	void _GLOBAL__sub_I_s_nGlobalID();
-	void GetBoundedAbsoluteTagPercentage();
-	void GetType();
-	void SetType();
-	void SetName();
-	void GetName();
-	void SetParameters();
-	void GetParameters();
-	void SetParameters2();
-	void GetParameters2();
-	void SetParameters3();
-	void GetParameters3();
-	void GetDescription();
-	void SetStartTime();
-	void GetStartTime();
-	void GetEndTime();
-	void HasEndTime();
-	void GetCompletion();
-	void SetDefaultCurveType();
-	void OffsetStartTime();
-	void OffsetTime();
-	void SetActor();
-	void GetActor();
-	void SetChannel();
-	void GetChannel();
-	void SetSubScene();
-	void GetSubScene();
-	void TypeForName();
-	void NameForType();
-	void CCTypeForName();
-	void NameForCCType();
-	void IsFixedLength();
-	void SetFixedLength();
-	void SetResumeCondition();
-	void IsResumeCondition();
-	void SetLockBodyFacing();
-	void IsLockBodyFacing();
-	void SetDistanceToTarget();
-	void GetDistanceToTarget();
-	void SetForceShortMovement();
-	void GetForceShortMovement();
-	void SetSyncToFollowingGesture();
-	void GetSyncToFollowingGesture();
-	void SetPlayOverScript();
-	void GetPlayOverScript();
-	void GetNumRelativeTags();
-	void GetRelativeTag();
-	void RemoveRelativeTag();
-	void FindRelativeTag();
-	void IsUsingRelativeTag();
-	void SetUsingRelativeTag();
-	void Init();
-	void GetRelativeTagName();
-	void GetRelativeWavName();
-	void GetNumTimingTags();
-	void GetTimingTag();
-	void RemoveTimingTag();
-	void FindTimingTag();
-	void GetNumFlexAnimationTracks();
-	void GetFlexAnimationTrack();
-	void RemoveTrack();
-	void RemoveAllTracks();
-	void FindTrack();
-	void GetTrackLookupSet();
-	void SetTrackLookupSet();
-	void IsProcessing();
-	void StartProcessing();
-	void ContinueProcessing();
-	void StopProcessing();
-	void CheckProcessing();
-	void ResetProcessing();
-	void SetMixer();
-	void GetMixer();
-	void SnapTimes();
-	void SnapTime();
-	void GetScene();
-	void SetScene();
-	void NameForAbsoluteTagType();
-	void TypeForAbsoluteTagName();
-	void GetNumAbsoluteTags();
-	void GetAbsoluteTag();
-	void FindAbsoluteTag();
-	void RemoveAbsoluteTag();
-	void VerifyTagOrder();
-	void GetBoundedAbsoluteTagPercentage();
-	void GetOriginalPercentageFromPlaybackPercentage();
-	void GetPlaybackPercentageFromOriginalPercentage();
-	void SetGestureSequenceDuration();
-	void GetGestureSequenceDuration();
-	void GetPitch();
-	void SetPitch();
-	void GetYaw();
-	void SetYaw();
-	void SetLoopCount();
-	void GetNumLoopsRemaining();
-	void SetNumLoopsRemaining();
-	void GetLoopCount();
-	void _GetIntensity();
-	void GetIntensity();
-	void RescaleGestureTimes();
-	void PreventTagOverlap();
-	void FindEntryTag();
-	void FindExitTag();
-	void GetMovementStyle();
-	void GetDistanceStyle();
-	void SetCloseCaptionType();
-	void GetCloseCaptionType();
-	void SetCloseCaptionToken();
-	void GetCloseCaptionToken();
-	void GetPlaybackCloseCaptionToken();
-	void SetUsingCombinedFile();
-	void IsUsingCombinedFile();
-	void SetRequiredCombinedChecksum();
-	void GetRequiredCombinedChecksum();
-	void SetNumSlaves();
-	void GetNumSlaves();
-	void SetLastSlaveEndTime();
-	void GetLastSlaveEndTime();
-	void SetCloseCaptionTokenValid();
-	void GetCloseCaptionTokenValid();
-	void ComputeCombinedBaseFileName();
-	void IsCombinedUsingGenderToken();
-	void SetCombinedUsingGenderToken();
-	void ValidateCombinedFile();
-	void IsSuppressingCaptionAttenuation();
-	void SetSuppressingCaptionAttenuation();
-	void ClearEventDependencies();
-	void SaveFlexAnimationsToBuffer();
-	void SaveToBuffer();
-	void SetActive();
-	void GetActive();
-	void OnEndTimeChanged();
-	void SetEndTime();
-	void OffsetEndTime();
-	void ClearAllRelativeTags();
-	void ClearAllTimingTags();
-	void ClearAllAbsoluteTags();
-	void CChoreoEvent();
-	void CChoreoEvent();
-	void CChoreoEvent();
-	void ~CChoreoEvent();
-	void AddRelativeTag();
-	void AddTimingTag();
-	void AddAbsoluteTag();
-	void operator=();
-	void AddTrack();
-	void RestoreFlexAnimationsFromBuffer();
-	void RestoreFromBuffer();
-	void AddEventDependency();
-	void GetEventDependencies();
-	void GetIntensityArea();
+	void _GLOBAL__sub_I_s_nGlobalID(); // size[0]
+	void GetBoundedAbsoluteTagPercentage(); // size[0]
+	void GetType(); // size[0]
+	void SetType(); // size[0]
+	void SetName(); // size[0]
+	void GetName(); // size[0]
+	void SetParameters(); // size[0]
+	void GetParameters(); // size[0]
+	void SetParameters2(); // size[0]
+	void GetParameters2(); // size[0]
+	void SetParameters3(); // size[0]
+	void GetParameters3(); // size[0]
+	void GetDescription(); // size[0]
+	void SetStartTime(); // size[0]
+	void GetStartTime(); // size[0]
+	void GetEndTime(); // size[0]
+	void HasEndTime(); // size[0]
+	void GetCompletion(); // size[0]
+	void SetDefaultCurveType(); // size[0]
+	void OffsetStartTime(); // size[0]
+	void OffsetTime(); // size[0]
+	void SetActor(); // size[0]
+	void GetActor(); // size[0]
+	void SetChannel(); // size[0]
+	void GetChannel(); // size[0]
+	void SetSubScene(); // size[0]
+	void GetSubScene(); // size[0]
+	void TypeForName(); // size[0]
+	void NameForType(); // size[0]
+	void CCTypeForName(); // size[0]
+	void NameForCCType(); // size[0]
+	void IsFixedLength(); // size[0]
+	void SetFixedLength(); // size[0]
+	void SetResumeCondition(); // size[0]
+	void IsResumeCondition(); // size[0]
+	void SetLockBodyFacing(); // size[0]
+	void IsLockBodyFacing(); // size[0]
+	void SetDistanceToTarget(); // size[0]
+	void GetDistanceToTarget(); // size[0]
+	void SetForceShortMovement(); // size[0]
+	void GetForceShortMovement(); // size[0]
+	void SetSyncToFollowingGesture(); // size[0]
+	void GetSyncToFollowingGesture(); // size[0]
+	void SetPlayOverScript(); // size[0]
+	void GetPlayOverScript(); // size[0]
+	void GetNumRelativeTags(); // size[0]
+	void GetRelativeTag(); // size[0]
+	void RemoveRelativeTag(); // size[0]
+	void FindRelativeTag(); // size[0]
+	void IsUsingRelativeTag(); // size[0]
+	void SetUsingRelativeTag(); // size[0]
+	void Init(); // size[0]
+	void GetRelativeTagName(); // size[0]
+	void GetRelativeWavName(); // size[0]
+	void GetNumTimingTags(); // size[0]
+	void GetTimingTag(); // size[0]
+	void RemoveTimingTag(); // size[0]
+	void FindTimingTag(); // size[0]
+	void GetNumFlexAnimationTracks(); // size[0]
+	void GetFlexAnimationTrack(); // size[0]
+	void RemoveTrack(); // size[0]
+	void RemoveAllTracks(); // size[0]
+	void FindTrack(); // size[0]
+	void GetTrackLookupSet(); // size[0]
+	void SetTrackLookupSet(); // size[0]
+	void IsProcessing(); // size[0]
+	void StartProcessing(); // size[0]
+	void ContinueProcessing(); // size[0]
+	void StopProcessing(); // size[0]
+	void CheckProcessing(); // size[0]
+	void ResetProcessing(); // size[0]
+	void SetMixer(); // size[0]
+	void GetMixer(); // size[0]
+	void SnapTimes(); // size[0]
+	void SnapTime(); // size[0]
+	void GetScene(); // size[0]
+	void SetScene(); // size[0]
+	void NameForAbsoluteTagType(); // size[0]
+	void TypeForAbsoluteTagName(); // size[0]
+	void GetNumAbsoluteTags(); // size[0]
+	void GetAbsoluteTag(); // size[0]
+	void FindAbsoluteTag(); // size[0]
+	void RemoveAbsoluteTag(); // size[0]
+	void VerifyTagOrder(); // size[0]
+	void GetBoundedAbsoluteTagPercentage(); // size[0]
+	void GetOriginalPercentageFromPlaybackPercentage(); // size[0]
+	void GetPlaybackPercentageFromOriginalPercentage(); // size[0]
+	void SetGestureSequenceDuration(); // size[0]
+	void GetGestureSequenceDuration(); // size[0]
+	void GetPitch(); // size[0]
+	void SetPitch(); // size[0]
+	void GetYaw(); // size[0]
+	void SetYaw(); // size[0]
+	void SetLoopCount(); // size[0]
+	void GetNumLoopsRemaining(); // size[0]
+	void SetNumLoopsRemaining(); // size[0]
+	void GetLoopCount(); // size[0]
+	void _GetIntensity(); // size[0]
+	void GetIntensity(); // size[0]
+	void RescaleGestureTimes(); // size[0]
+	void PreventTagOverlap(); // size[0]
+	void FindEntryTag(); // size[0]
+	void FindExitTag(); // size[0]
+	void GetMovementStyle(); // size[0]
+	void GetDistanceStyle(); // size[0]
+	void SetCloseCaptionType(); // size[0]
+	void GetCloseCaptionType(); // size[0]
+	void SetCloseCaptionToken(); // size[0]
+	void GetCloseCaptionToken(); // size[0]
+	void GetPlaybackCloseCaptionToken(); // size[0]
+	void SetUsingCombinedFile(); // size[0]
+	void IsUsingCombinedFile(); // size[0]
+	void SetRequiredCombinedChecksum(); // size[0]
+	void GetRequiredCombinedChecksum(); // size[0]
+	void SetNumSlaves(); // size[0]
+	void GetNumSlaves(); // size[0]
+	void SetLastSlaveEndTime(); // size[0]
+	void GetLastSlaveEndTime(); // size[0]
+	void SetCloseCaptionTokenValid(); // size[0]
+	void GetCloseCaptionTokenValid(); // size[0]
+	void ComputeCombinedBaseFileName(); // size[0]
+	void IsCombinedUsingGenderToken(); // size[0]
+	void SetCombinedUsingGenderToken(); // size[0]
+	void ValidateCombinedFile(); // size[0]
+	void IsSuppressingCaptionAttenuation(); // size[0]
+	void SetSuppressingCaptionAttenuation(); // size[0]
+	void ClearEventDependencies(); // size[0]
+	void SaveFlexAnimationsToBuffer(); // size[0]
+	void SaveToBuffer(); // size[0]
+	void SetActive(); // size[0]
+	void GetActive(); // size[0]
+	void OnEndTimeChanged(); // size[0]
+	void SetEndTime(); // size[0]
+	void OffsetEndTime(); // size[0]
+	void ClearAllRelativeTags(); // size[0]
+	void ClearAllTimingTags(); // size[0]
+	void ClearAllAbsoluteTags(); // size[0]
+	CChoreoEvent(); // size[0]
+	CChoreoEvent(); // size[0]
+	CChoreoEvent(); // size[0]
+	~CChoreoEvent(); // size[0]
+	void AddRelativeTag(); // size[0]
+	void AddTimingTag(); // size[0]
+	void AddAbsoluteTag(); // size[0]
+	void operator=(); // size[0]
+	void AddTrack(); // size[0]
+	void RestoreFlexAnimationsFromBuffer(); // size[0]
+	void RestoreFromBuffer(); // size[0]
+	void AddEventDependency(); // size[0]
+	void GetEventDependencies(); // size[0]
+	void GetIntensityArea(); // size[0]
 };

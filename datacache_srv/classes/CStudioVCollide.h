@@ -3,6 +3,6 @@
 class CStudioVCollide : public CRefCounted
 {
 public:
-	virtual void ~CStudioVCollide() override; // vtable[0]
-	virtual void ~CStudioVCollide() override; // vtable[1]
+	virtual ~CStudioVCollide() override; // vtable[0]
+	virtual ~CStudioVCollide() override; // vtable[1]
 };

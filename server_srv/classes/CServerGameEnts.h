@@ -3,8 +3,8 @@
 class CServerGameEnts : public IServerGameEnts
 {
 public:
-	virtual void ~CServerGameEnts() override; // vtable[0]
-	virtual void ~CServerGameEnts() override; // vtable[1]
+	virtual ~CServerGameEnts() override; // vtable[0]
+	virtual ~CServerGameEnts() override; // vtable[1]
 	virtual void SetDebugEdictBase(); // vtable[2]
 	virtual void MarkEntitiesAsTouching(); // vtable[3]
 	virtual void FreeContainingEntity(); // vtable[4]

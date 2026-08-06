@@ -3,8 +3,8 @@
 class CPhysicsConstraint : public IPhysicsConstraint, public IVP_Listener_Object
 {
 public:
-	virtual void ~CPhysicsConstraint(); // vtable[0]
-	virtual void ~CPhysicsConstraint(); // vtable[1]
+	virtual ~CPhysicsConstraint(); // vtable[0]
+	virtual ~CPhysicsConstraint(); // vtable[1]
 	virtual void Activate(); // vtable[2]
 	virtual void Deactivate() override; // vtable[3]
 	virtual void SetGameData(); // vtable[4]
@@ -22,36 +22,36 @@ public:
 	virtual void event_object_revived(); // vtable[16]
 	virtual void event_object_frozen(); // vtable[17]
 
-	void InitHinge();
-	void InitFixed();
-	void InitBallsocket();
-	void InitSliding();
-	void InitPulley();
-	void InitLength();
-	void InitRagdoll();
-	void CPhysicsConstraint();
-	void InitHinge();
-	void InitFixed();
-	void InitBallsocket();
-	void InitSliding();
-	void InitPulley();
-	void InitLength();
-	void GetConstraintGroup();
-	void WriteFixed();
-	void WriteRagdoll();
-	void WriteHinge();
-	void WriteSliding();
-	void WritePulley();
-	void WriteLength();
-	void WriteBallsocket();
-	void WriteToTemplate();
-	void GetConstraintParams();
-	void DetachListener();
-	void event_object_deleted();
-	void ~CPhysicsConstraint();
-	void ~CPhysicsConstraint();
-	void SetupRagdollAxis();
-	void event_object_created();
-	void event_object_revived();
-	void event_object_frozen();
+	void InitHinge(); // size[0]
+	void InitFixed(); // size[0]
+	void InitBallsocket(); // size[0]
+	void InitSliding(); // size[0]
+	void InitPulley(); // size[0]
+	void InitLength(); // size[0]
+	void InitRagdoll(); // size[0]
+	CPhysicsConstraint(); // size[0]
+	void InitHinge(); // size[0]
+	void InitFixed(); // size[0]
+	void InitBallsocket(); // size[0]
+	void InitSliding(); // size[0]
+	void InitPulley(); // size[0]
+	void InitLength(); // size[0]
+	void GetConstraintGroup(); // size[0]
+	void WriteFixed(); // size[0]
+	void WriteRagdoll(); // size[0]
+	void WriteHinge(); // size[0]
+	void WriteSliding(); // size[0]
+	void WritePulley(); // size[0]
+	void WriteLength(); // size[0]
+	void WriteBallsocket(); // size[0]
+	void WriteToTemplate(); // size[0]
+	void GetConstraintParams(); // size[0]
+	void DetachListener(); // size[0]
+	void event_object_deleted(); // size[0]
+	~CPhysicsConstraint(); // size[0]
+	~CPhysicsConstraint(); // size[0]
+	void SetupRagdollAxis(); // size[0]
+	void event_object_created(); // size[0]
+	void event_object_revived(); // size[0]
+	void event_object_frozen(); // size[0]
 };

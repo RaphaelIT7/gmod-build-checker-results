@@ -3,8 +3,27 @@
 class CBaseCombatCharacter : public CBaseFlex
 {
 public:
-	virtual void ~CBaseCombatCharacter() override; // vtable[0]
-	virtual void ~CBaseCombatCharacter() override; // vtable[1]
+	virtual ~CBaseCombatCharacter() override; // vtable[0]
+	virtual ~CBaseCombatCharacter() override; // vtable[1]
+	virtual void GetServerClass() override; // vtable[10]
+	virtual void YouForgotToImplementOrDeclareServerClass() override; // vtable[11]
+	virtual void GetDataDescMap() override; // vtable[12]
+	virtual void SetTransmit() override; // vtable[21]
+	virtual void Spawn() override; // vtable[23]
+	virtual void Precache() override; // vtable[24]
+	virtual void Restore() override; // vtable[42]
+	virtual void OnTakeDamage() override; // vtable[64]
+	virtual void TakeHealth() override; // vtable[66]
+	virtual void Event_Killed() override; // vtable[68]
+	virtual void BloodColor() override; // vtable[70]
+	virtual void MyCombatCharacterPointer() override; // vtable[73]
+	virtual void ChangeTeam() override; // vtable[93]
+	virtual void UpdateOnRemove() override; // vtable[108]
+	virtual void FVisible() override; // vtable[144]
+	virtual void FVisible() override; // vtable[145]
+	virtual void VPhysicsUpdate() override; // vtable[161]
+	virtual void VPhysicsShadowCollision() override; // vtable[163]
+	virtual void SetLightingOriginRelative() override; // vtable[272]
 	virtual void GetPhysicsImpactDamageTable(); // vtable[291]
 	virtual void FInViewCone(); // vtable[292]
 	virtual void FInViewCone(); // vtable[293]
@@ -103,41 +122,41 @@ public:
 	virtual void NetworkStateChanged_m_iAmmo(); // vtable[386]
 	virtual void NetworkStateChanged_m_iAmmo(); // vtable[387]
 
-	void _GLOBAL__sub_I_SwitchToNextBestWeapon();
-	void SwitchToNextBestWeapon();
-	void GetActiveWeapon();
-	void RemoveAllAmmo();
-	void SetAmmo();
-	void SetAmmoCount();
-	void GetAmmoCount();
-	void Weapon_OwnsThisType();
-	void SetBloodColor();
-	void ComputeLOS();
-	void IsAbleToSee();
-	void IsAbleToSee();
-	void InputKilledNPC();
-	void GetBaseMap();
-	void InitInteractionSystem();
-	void GetInteractionID();
-	void Weapon_SetActivity();
-	void CalcDamageForceVector();
-	void ThrowDirForWeaponStrip();
-	void Weapon_GetWpnForAmmo();
-	void Weapon_Create();
-	void AllocateDefaultRelationships();
-	void SetDefaultRelationship();
-	void GetDefaultRelationshipDisposition();
-	void FindEntityRelationship();
-	void FindHealthItem();
-	void Weapon_IsOnGround();
-	void Weapon_FindUsable();
-	void GiveAmmo();
-	void CalculatePhysicsStressDamage();
-	void ApplyStressDamage();
-	void SetActiveWeapon();
-	void Weapon_Detach();
-	void DropWeaponForWeaponStrip();
-	void Weapon_DropAll();
-	void CBaseCombatCharacter();
-	void ResetVisibilityCache();
+	void _GLOBAL__sub_I_SwitchToNextBestWeapon(); // size[0]
+	void SwitchToNextBestWeapon(); // size[0]
+	void GetActiveWeapon(); // size[0]
+	void RemoveAllAmmo(); // size[0]
+	void SetAmmo(); // size[0]
+	void SetAmmoCount(); // size[0]
+	void GetAmmoCount(); // size[0]
+	void Weapon_OwnsThisType(); // size[0]
+	void SetBloodColor(); // size[0]
+	void ComputeLOS(); // size[0]
+	void IsAbleToSee(); // size[0]
+	void IsAbleToSee(); // size[0]
+	void InputKilledNPC(); // size[0]
+	void GetBaseMap(); // size[0]
+	void InitInteractionSystem(); // size[0]
+	void GetInteractionID(); // size[0]
+	void Weapon_SetActivity(); // size[0]
+	void CalcDamageForceVector(); // size[0]
+	void ThrowDirForWeaponStrip(); // size[0]
+	void Weapon_GetWpnForAmmo(); // size[0]
+	void Weapon_Create(); // size[0]
+	void AllocateDefaultRelationships(); // size[0]
+	void SetDefaultRelationship(); // size[0]
+	void GetDefaultRelationshipDisposition(); // size[0]
+	void FindEntityRelationship(); // size[0]
+	void FindHealthItem(); // size[0]
+	void Weapon_IsOnGround(); // size[0]
+	void Weapon_FindUsable(); // size[0]
+	void GiveAmmo(); // size[0]
+	void CalculatePhysicsStressDamage(); // size[0]
+	void ApplyStressDamage(); // size[0]
+	void SetActiveWeapon(); // size[0]
+	void Weapon_Detach(); // size[0]
+	void DropWeaponForWeaponStrip(); // size[0]
+	void Weapon_DropAll(); // size[0]
+	CBaseCombatCharacter(); // size[0]
+	void ResetVisibilityCache(); // size[0]
 };

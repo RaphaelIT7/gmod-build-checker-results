@@ -11,11 +11,11 @@ public:
 	virtual void GetList(); // vtable[5]
 	virtual void GetRefreshCount() override; // vtable[6]
 
-	void System();
-	void FindGame();
-	void MountAsSteampipe();
-	void Mount();
-	void MountAsFallback();
-	void Load();
-	void Setup();
+	System(); // size[0]
+	void FindGame(); // size[0]
+	void MountAsSteampipe(); // size[0]
+	void Mount(); // size[0]
+	void MountAsFallback(); // size[0]
+	void Load(); // size[0]
+	void Setup(); // size[0]
 };

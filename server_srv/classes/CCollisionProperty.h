@@ -27,39 +27,39 @@ public:
 	virtual void NetworkStateChanged(); // vtable[22]
 	virtual void GetDataDescMap(); // vtable[23]
 
-	void GetBaseMap();
-	void ~CCollisionProperty();
-	void Init();
-	void CCollisionProperty();
-	void CheckForUntouch();
-	void BoundingRadius2D();
-	void NormalizedToCollisionSpace();
-	void CollisionToNormalizedSpace();
-	void NormalizedToWorldSpace();
-	void WorldToNormalizedSpace();
-	void RandomPointInBounds();
-	void CollisionAABBToWorldAABB();
-	void IsPointInBounds();
-	void CalcNearestPoint();
-	void CalcDistanceFromPoint();
-	void ComputeSupportMap();
-	void ComputeVPhysicsSurroundingBox();
-	void ComputeHitboxSurroundingBox();
-	void ComputeEntitySpaceHitboxSurroundingBox();
-	void ComputeRotationExpandedBounds();
-	void ComputeCollisionSurroundingBox();
-	void ComputeSurroundingBox();
-	void DoesVPhysicsInvalidateSurroundingBox();
-	void CreatePartitionHandle();
-	void DestroyPartitionHandle();
-	void UpdateServerPartitionMask();
-	void MarkPartitionHandleDirty();
-	void MarkSurroundingBoundsDirty();
-	void SetCollisionBounds();
-	void SetSolidFlags();
-	void UseTriggerBounds();
-	void SetSurroundingBoundsType();
-	void RefreshScaledCollisionBounds();
-	void UpdatePartition();
-	void SetSolid();
+	void GetBaseMap(); // size[0]
+	~CCollisionProperty(); // size[0]
+	void Init(); // size[0]
+	CCollisionProperty(); // size[0]
+	void CheckForUntouch(); // size[0]
+	void BoundingRadius2D(); // size[0]
+	void NormalizedToCollisionSpace(); // size[0]
+	void CollisionToNormalizedSpace(); // size[0]
+	void NormalizedToWorldSpace(); // size[0]
+	void WorldToNormalizedSpace(); // size[0]
+	void RandomPointInBounds(); // size[0]
+	void CollisionAABBToWorldAABB(); // size[0]
+	void IsPointInBounds(); // size[0]
+	void CalcNearestPoint(); // size[0]
+	void CalcDistanceFromPoint(); // size[0]
+	void ComputeSupportMap(); // size[0]
+	void ComputeVPhysicsSurroundingBox(); // size[0]
+	void ComputeHitboxSurroundingBox(); // size[0]
+	void ComputeEntitySpaceHitboxSurroundingBox(); // size[0]
+	void ComputeRotationExpandedBounds(); // size[0]
+	void ComputeCollisionSurroundingBox(); // size[0]
+	void ComputeSurroundingBox(); // size[0]
+	void DoesVPhysicsInvalidateSurroundingBox(); // size[0]
+	void CreatePartitionHandle(); // size[0]
+	void DestroyPartitionHandle(); // size[0]
+	void UpdateServerPartitionMask(); // size[0]
+	void MarkPartitionHandleDirty(); // size[0]
+	void MarkSurroundingBoundsDirty(); // size[0]
+	void SetCollisionBounds(); // size[0]
+	void SetSolidFlags(); // size[0]
+	void UseTriggerBounds(); // size[0]
+	void SetSurroundingBoundsType(); // size[0]
+	void RefreshScaledCollisionBounds(); // size[0]
+	void UpdatePartition(); // size[0]
+	void SetSolid(); // size[0]
 };

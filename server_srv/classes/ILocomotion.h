@@ -3,8 +3,11 @@
 class ILocomotion : public INextBotComponent
 {
 public:
-	virtual void ~ILocomotion() override; // vtable[0]
-	virtual void ~ILocomotion() override; // vtable[1]
+	virtual ~ILocomotion() override; // vtable[0]
+	virtual ~ILocomotion() override; // vtable[1]
+	virtual void OnLeaveGround() override; // vtable[4]
+	virtual void OnLandOnGround() override; // vtable[5]
+	virtual void Reset() override; // vtable[43]
 	virtual void Update() override; // vtable[44]
 	virtual void Approach(); // vtable[47]
 	virtual void DriveTo(); // vtable[48]
@@ -64,7 +67,7 @@ public:
 	virtual void AdjustPosture(); // vtable[102]
 	virtual void StuckMonitor(); // vtable[103]
 
-	void _GLOBAL__sub_I_ILocomotion();
-	void ILocomotion();
-	void TraceHull();
+	_GLOBAL__sub_I_ILocomotion(); // size[0]
+	ILocomotion(); // size[0]
+	void TraceHull(); // size[0]
 };

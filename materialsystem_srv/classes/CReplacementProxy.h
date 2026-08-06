@@ -7,8 +7,8 @@ public:
 	virtual void OnBind(); // vtable[1]
 	virtual void Release(); // vtable[2]
 	virtual void GetMaterial() override; // vtable[3]
-	virtual void ~CReplacementProxy() override; // vtable[5]
-	virtual void ~CReplacementProxy() override; // vtable[6]
+	virtual ~CReplacementProxy() override; // vtable[5]
+	virtual ~CReplacementProxy() override; // vtable[6]
 
-	void CReplacementProxy();
+	CReplacementProxy(); // size[0]
 };

@@ -10,6 +10,6 @@ public:
 	virtual void do_simulation_controller(); // vtable[4]
 	virtual void get_controller_priority(); // vtable[5]
 	virtual void get_controller_name(); // vtable[6]
-	virtual void ~CDragController(); // vtable[7]
-	virtual void ~CDragController(); // vtable[8]
+	virtual ~CDragController(); // vtable[7]
+	virtual ~CDragController(); // vtable[8]
 };

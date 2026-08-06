@@ -3,8 +3,8 @@
 class CNetworkStringDict : public INetworkStringDict
 {
 public:
-	virtual void ~CNetworkStringDict() override; // vtable[0]
-	virtual void ~CNetworkStringDict() override; // vtable[1]
+	virtual ~CNetworkStringDict() override; // vtable[0]
+	virtual ~CNetworkStringDict() override; // vtable[1]
 	virtual void Count(); // vtable[2]
 	virtual void Purge(); // vtable[3]
 	virtual void String(); // vtable[4]

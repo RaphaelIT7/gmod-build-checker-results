@@ -3,9 +3,25 @@
 class CAI_PassengerBehavior : public CAI_Behavior
 {
 public:
-	virtual void ~CAI_PassengerBehavior() override; // vtable[0]
-	virtual void ~CAI_PassengerBehavior() override; // vtable[1]
+	virtual ~CAI_PassengerBehavior() override; // vtable[0]
+	virtual ~CAI_PassengerBehavior() override; // vtable[1]
 	virtual void GetName() override; // vtable[5]
+	virtual void CanSelectSchedule() override; // vtable[7]
+	virtual void GatherConditions() override; // vtable[11]
+	virtual void GetClassScheduleIdSpace() override; // vtable[14]
+	virtual void PrescheduleThink() override; // vtable[23]
+	virtual void SelectSchedule() override; // vtable[26]
+	virtual void SelectFailSchedule() override; // vtable[27]
+	virtual void StartTask() override; // vtable[28]
+	virtual void RunTask() override; // vtable[29]
+	virtual void TranslateSchedule() override; // vtable[31]
+	virtual void GetSchedulingErrorName() override; // vtable[33]
+	virtual void BuildScheduleTestBits() override; // vtable[34]
+	virtual void IsInterruptable() override; // vtable[49]
+	virtual void ModifyOrAppendCriteria() override; // vtable[61]
+	virtual void Teleport() override; // vtable[62]
+	virtual void OnRestore() override; // vtable[67]
+	virtual void GetDataDescMap() override; // vtable[70]
 	virtual void GetEntryTarget() override; // vtable[71]
 	virtual void ClearSchedule() override; // vtable[72]
 	virtual void CancelEnterVehicle() override; // vtable[73]
@@ -19,37 +35,37 @@ public:
 	virtual void FinishExitVehicle(); // vtable[81]
 	virtual void LoadedSchedules(); // vtable[82]
 
-	void GetBaseMap();
-	void Disable();
-	void AddPhysicsPush();
-	void IsPassengerHostile();
-	void CanExitVehicle();
-	void FindGroundAtPosition();
-	void PointIsNavigable();
-	void GetExitPoint();
-	void ReserveEntryPoint();
-	void IsValidTransitionPoint();
-	void FindExitSequence();
-	void GetEntryPoint();
-	void FindEntrySequence();
-	void DetachFromVehicle();
-	void AttachToVehicle();
-	void GetSequenceBlendAmount();
-	void GetTransitionAnimationIdeal();
-	void GetNextCycleForInterval();
-	void LocalIntervalMovement();
-	void DrawDebugTransitionInfo();
-	void DoTransitionMovement();
-	void GetLocalVehicleVelocity();
-	void InitVehicleState();
-	void Enable();
-	void CacheBlendTargets();
-	void SetTransitionSequence();
-	void ReserveExitPoint();
-	void SpeakIfAllowed();
-	void ForceVehicleInteraction();
-	void InitCustomSchedules();
-	void LoadSchedules();
-	void CScheduleLoader();
-	void CAI_PassengerBehavior();
+	void GetBaseMap(); // size[0]
+	void Disable(); // size[0]
+	void AddPhysicsPush(); // size[0]
+	void IsPassengerHostile(); // size[0]
+	void CanExitVehicle(); // size[0]
+	void FindGroundAtPosition(); // size[0]
+	void PointIsNavigable(); // size[0]
+	void GetExitPoint(); // size[0]
+	void ReserveEntryPoint(); // size[0]
+	void IsValidTransitionPoint(); // size[0]
+	void FindExitSequence(); // size[0]
+	void GetEntryPoint(); // size[0]
+	void FindEntrySequence(); // size[0]
+	void DetachFromVehicle(); // size[0]
+	void AttachToVehicle(); // size[0]
+	void GetSequenceBlendAmount(); // size[0]
+	void GetTransitionAnimationIdeal(); // size[0]
+	void GetNextCycleForInterval(); // size[0]
+	void LocalIntervalMovement(); // size[0]
+	void DrawDebugTransitionInfo(); // size[0]
+	void DoTransitionMovement(); // size[0]
+	void GetLocalVehicleVelocity(); // size[0]
+	void InitVehicleState(); // size[0]
+	void Enable(); // size[0]
+	void CacheBlendTargets(); // size[0]
+	void SetTransitionSequence(); // size[0]
+	void ReserveExitPoint(); // size[0]
+	void SpeakIfAllowed(); // size[0]
+	void ForceVehicleInteraction(); // size[0]
+	void InitCustomSchedules(); // size[0]
+	void LoadSchedules(); // size[0]
+	CScheduleLoader(); // size[0]
+	CAI_PassengerBehavior(); // size[0]
 };

@@ -3,6 +3,7 @@
 class CAngryZombieCounter : public CAutoGameSystem
 {
 public:
-	virtual void ~CAngryZombieCounter() override; // vtable[13]
-	virtual void ~CAngryZombieCounter() override; // vtable[14]
+	virtual void LevelInitPreEntity() override; // vtable[4]
+	virtual ~CAngryZombieCounter() override; // vtable[13]
+	virtual ~CAngryZombieCounter() override; // vtable[14]
 };

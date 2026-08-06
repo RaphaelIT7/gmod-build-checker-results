@@ -3,8 +3,8 @@
 class CGameEventManagerOld : public IGameEventManager
 {
 public:
-	virtual void ~CGameEventManagerOld() override; // vtable[0]
-	virtual void ~CGameEventManagerOld() override; // vtable[1]
+	virtual ~CGameEventManagerOld() override; // vtable[0]
+	virtual ~CGameEventManagerOld() override; // vtable[1]
 	virtual void LoadEventsFromFile(); // vtable[2]
 	virtual void Reset(); // vtable[3]
 	virtual void GetEvent(); // vtable[4]
@@ -17,6 +17,6 @@ public:
 	virtual void SerializeKeyValues(); // vtable[11]
 	virtual void UnserializeKeyValue() override; // vtable[12]
 
-	void _GLOBAL__sub_I_AddListener();
-	void FireEventIntern();
+	void _GLOBAL__sub_I_AddListener(); // size[0]
+	void FireEventIntern(); // size[0]
 };

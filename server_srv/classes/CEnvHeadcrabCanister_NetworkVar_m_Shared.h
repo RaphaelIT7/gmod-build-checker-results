@@ -3,4 +3,6 @@
 class CEnvHeadcrabCanister_NetworkVar_m_Shared : public CEnvHeadcrabCanisterShared
 {
 public:
+	virtual void NetworkStateChanged() override; // vtable[0]
+	virtual void NetworkStateChanged() override; // vtable[1]
 };

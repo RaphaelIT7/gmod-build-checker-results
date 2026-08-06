@@ -3,29 +3,41 @@
 class CAI_PolicingBehavior : public CAI_Behavior
 {
 public:
-	virtual void ~CAI_PolicingBehavior() override; // vtable[0]
-	virtual void ~CAI_PolicingBehavior() override; // vtable[1]
+	virtual ~CAI_PolicingBehavior() override; // vtable[0]
+	virtual ~CAI_PolicingBehavior() override; // vtable[1]
 	virtual void GetName() override; // vtable[5]
+	virtual void CanSelectSchedule() override; // vtable[7]
+	virtual void GatherConditions() override; // vtable[11]
+	virtual void GetClassScheduleIdSpace() override; // vtable[14]
+	virtual void SelectSchedule() override; // vtable[26]
+	virtual void SelectFailSchedule() override; // vtable[27]
+	virtual void StartTask() override; // vtable[28]
+	virtual void RunTask() override; // vtable[29]
+	virtual void TranslateSchedule() override; // vtable[31]
+	virtual void GetSchedulingErrorName() override; // vtable[33]
+	virtual void BuildScheduleTestBits() override; // vtable[34]
+	virtual void NPC_TranslateActivity() override; // vtable[35]
+	virtual void GetDataDescMap() override; // vtable[70]
 	virtual void LoadedSchedules() override; // vtable[71]
 
-	void _GLOBAL__sub_I_m_DataMap();
-	void GetBaseMap();
-	void TargetIsHostile();
-	void Enable();
-	void Disable();
-	void HostSetBatonState();
-	void HostBatonIsOn();
-	void HostSpeakSentence();
-	void AnnouncePolicing();
-	void GetGoalTarget();
-	void SetTargetHostileDuration();
-	void MaintainGoalPosition();
-	void ShouldKnockOutTarget();
-	void KnockOutTarget();
-	void SelectSuppressSchedule();
-	void SelectHarassSchedule();
-	void InitCustomSchedules();
-	void LoadSchedules();
-	void CScheduleLoader();
-	void CAI_PolicingBehavior();
+	void _GLOBAL__sub_I_m_DataMap(); // size[0]
+	void GetBaseMap(); // size[0]
+	void TargetIsHostile(); // size[0]
+	void Enable(); // size[0]
+	void Disable(); // size[0]
+	void HostSetBatonState(); // size[0]
+	void HostBatonIsOn(); // size[0]
+	void HostSpeakSentence(); // size[0]
+	void AnnouncePolicing(); // size[0]
+	void GetGoalTarget(); // size[0]
+	void SetTargetHostileDuration(); // size[0]
+	void MaintainGoalPosition(); // size[0]
+	void ShouldKnockOutTarget(); // size[0]
+	void KnockOutTarget(); // size[0]
+	void SelectSuppressSchedule(); // size[0]
+	void SelectHarassSchedule(); // size[0]
+	void InitCustomSchedules(); // size[0]
+	void LoadSchedules(); // size[0]
+	CScheduleLoader(); // size[0]
+	CAI_PolicingBehavior(); // size[0]
 };

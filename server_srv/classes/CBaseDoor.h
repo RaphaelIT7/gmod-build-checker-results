@@ -3,34 +3,49 @@
 class CBaseDoor : public CBaseToggle
 {
 public:
-	virtual void ~CBaseDoor() override; // vtable[0]
-	virtual void ~CBaseDoor() override; // vtable[1]
+	virtual ~CBaseDoor() override; // vtable[0]
+	virtual ~CBaseDoor() override; // vtable[1]
+	virtual void GetServerClass() override; // vtable[10]
+	virtual void YouForgotToImplementOrDeclareServerClass() override; // vtable[11]
+	virtual void GetDataDescMap() override; // vtable[12]
+	virtual void Spawn() override; // vtable[23]
+	virtual void Precache() override; // vtable[24]
+	virtual void KeyValue() override; // vtable[30]
+	virtual void Activate() override; // vtable[34]
+	virtual void ObjectCaps() override; // vtable[36]
+	virtual void ShouldSavePhysics() override; // vtable[43]
+	virtual void Use() override; // vtable[100]
+	virtual void StartBlocked() override; // vtable[104]
+	virtual void Blocked() override; // vtable[105]
+	virtual void EndBlocked() override; // vtable[106]
+	virtual void StopLoopingSounds() override; // vtable[109]
+	virtual void CreateVPhysics() override; // vtable[157]
 	virtual void SetToggleState(); // vtable[247]
 	virtual void IsRotatingDoor(); // vtable[248]
 	virtual void StopMovingSound(); // vtable[249]
 
-	void InputSetToggleState();
-	void InputLock();
-	void InputUnlock();
-	void InputSetSpeed();
-	void GetBaseMap();
-	void PassesBlockTouchFilter();
-	void UpdateAreaPortals();
-	void CloseAreaPortalsThink();
-	void ChainUse();
-	void ChainTouch();
-	void Lock();
-	void Unlock();
-	void GetDoorMovementGroup();
-	void DoorHitTop();
-	void DoorHitBottom();
-	void MovingSoundThink();
-	void StartMovingSound();
-	void DoorGoUp();
-	void InputOpen();
-	void DoorGoDown();
-	void InputClose();
-	void InputToggle();
-	void DoorActivate();
-	void DoorTouch();
+	void InputSetToggleState(); // size[0]
+	void InputLock(); // size[0]
+	void InputUnlock(); // size[0]
+	void InputSetSpeed(); // size[0]
+	void GetBaseMap(); // size[0]
+	void PassesBlockTouchFilter(); // size[0]
+	void UpdateAreaPortals(); // size[0]
+	void CloseAreaPortalsThink(); // size[0]
+	void ChainUse(); // size[0]
+	void ChainTouch(); // size[0]
+	void Lock(); // size[0]
+	void Unlock(); // size[0]
+	void GetDoorMovementGroup(); // size[0]
+	void DoorHitTop(); // size[0]
+	void DoorHitBottom(); // size[0]
+	void MovingSoundThink(); // size[0]
+	void StartMovingSound(); // size[0]
+	void DoorGoUp(); // size[0]
+	void InputOpen(); // size[0]
+	void DoorGoDown(); // size[0]
+	void InputClose(); // size[0]
+	void InputToggle(); // size[0]
+	void DoorActivate(); // size[0]
+	void DoorTouch(); // size[0]
 };

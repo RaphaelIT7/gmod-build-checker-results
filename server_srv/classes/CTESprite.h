@@ -3,10 +3,13 @@
 class CTESprite : public CBaseTempEntity
 {
 public:
-	virtual void ~CTESprite() override; // vtable[2]
-	virtual void ~CTESprite() override; // vtable[3]
+	virtual void GetServerClass() override; // vtable[0]
+	virtual void YouForgotToImplementOrDeclareServerClass() override; // vtable[1]
+	virtual ~CTESprite() override; // vtable[2]
+	virtual ~CTESprite() override; // vtable[3]
 	virtual void _ZN9CTESprite4TestERK6VectorRK6QAngle() override; // vtable[4]
+	virtual void Precache() override; // vtable[6]
 
-	void _GLOBAL__sub_I_CTESprite();
-	void CTESprite();
+	_GLOBAL__sub_I_CTESprite(); // size[0]
+	CTESprite(); // size[0]
 };

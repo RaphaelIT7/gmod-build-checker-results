@@ -3,6 +3,8 @@
 class CNPC_Pigeon : public CNPC_Crow
 {
 public:
-	virtual void ~CNPC_Pigeon() override; // vtable[0]
-	virtual void ~CNPC_Pigeon() override; // vtable[1]
+	virtual ~CNPC_Pigeon() override; // vtable[0]
+	virtual ~CNPC_Pigeon() override; // vtable[1]
+	virtual void Spawn() override; // vtable[23]
+	virtual void IdleSound() override; // vtable[509]
 };

@@ -3,8 +3,9 @@
 class CWC_UpdateIgnoreList : public CBaseEntity
 {
 public:
-	virtual void ~CWC_UpdateIgnoreList() override; // vtable[0]
-	virtual void ~CWC_UpdateIgnoreList() override; // vtable[1]
+	virtual ~CWC_UpdateIgnoreList() override; // vtable[0]
+	virtual ~CWC_UpdateIgnoreList() override; // vtable[1]
+	virtual void GetDataDescMap() override; // vtable[12]
 
-	void GetBaseMap();
+	void GetBaseMap(); // size[0]
 };

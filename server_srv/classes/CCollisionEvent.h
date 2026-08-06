@@ -11,6 +11,8 @@ public:
 	virtual void _ZN15CCollisionEvent15FluidStartTouchEP14IPhysicsObjectP23IPhysicsFluidController(); // vtable[5]
 	virtual void FluidEndTouch(); // vtable[6]
 	virtual void PostSimulationFrame() override; // vtable[7]
+	virtual void ObjectEnterTrigger() override; // vtable[8]
+	virtual void ObjectLeaveTrigger() override; // vtable[9]
 	virtual void AddDamageEvent(); // vtable[10]
 	virtual void ShouldCollide(); // vtable[11]
 	virtual void ShouldSolvePenetration(); // vtable[12]
@@ -20,38 +22,38 @@ public:
 	virtual void ObjectWake(); // vtable[16]
 	virtual void ObjectSleep(); // vtable[17]
 
-	void ShouldCollide();
-	void ShouldFreezeContacts();
-	void ObjectWake();
-	void ObjectSleep();
-	void UpdatePenetrateEvents();
-	void FindFriction();
-	void ShutdownFriction();
-	void UpdateRemoveObjects();
-	void UpdateFluidEvents();
-	void UpdateFrictionSounds();
-	void DispatchStartTouch();
-	void DispatchEndTouch();
-	void UpdateTouchEvents();
-	void RestoreDamageInflictorState();
-	void RestoreDamageInflictorState();
-	void UpdateDamageEvents();
-	void FlushQueuedOperations();
-	void FrameUpdate();
-	void GetInflictorVelocity();
-	void FindDamageInflictor();
-	void LevelShutdown();
-	void GetTriggerEvent();
-	void CCollisionEvent();
-	void GetListOfPenetratingEntities();
-	void FindOrAddPenetrateEvent();
-	void ShouldSolvePenetration();
-	void DeltaTimeSinceLastFluid();
-	void AddTouchEvent();
-	void AddRemoveObject();
-	void AddDamageInflictor();
-	void AddDamageEvent();
-	void ShouldFreezeObject();
-	void AdditionalCollisionChecksThisTick();
-	void ~CCollisionEvent();
+	void ShouldCollide(); // size[0]
+	void ShouldFreezeContacts(); // size[0]
+	void ObjectWake(); // size[0]
+	void ObjectSleep(); // size[0]
+	void UpdatePenetrateEvents(); // size[0]
+	void FindFriction(); // size[0]
+	void ShutdownFriction(); // size[0]
+	void UpdateRemoveObjects(); // size[0]
+	void UpdateFluidEvents(); // size[0]
+	void UpdateFrictionSounds(); // size[0]
+	void DispatchStartTouch(); // size[0]
+	void DispatchEndTouch(); // size[0]
+	void UpdateTouchEvents(); // size[0]
+	void RestoreDamageInflictorState(); // size[0]
+	void RestoreDamageInflictorState(); // size[0]
+	void UpdateDamageEvents(); // size[0]
+	void FlushQueuedOperations(); // size[0]
+	void FrameUpdate(); // size[0]
+	void GetInflictorVelocity(); // size[0]
+	void FindDamageInflictor(); // size[0]
+	void LevelShutdown(); // size[0]
+	void GetTriggerEvent(); // size[0]
+	CCollisionEvent(); // size[0]
+	void GetListOfPenetratingEntities(); // size[0]
+	void FindOrAddPenetrateEvent(); // size[0]
+	void ShouldSolvePenetration(); // size[0]
+	void DeltaTimeSinceLastFluid(); // size[0]
+	void AddTouchEvent(); // size[0]
+	void AddRemoveObject(); // size[0]
+	void AddDamageInflictor(); // size[0]
+	void AddDamageEvent(); // size[0]
+	void ShouldFreezeObject(); // size[0]
+	void AdditionalCollisionChecksThisTick(); // size[0]
+	~CCollisionEvent(); // size[0]
 };

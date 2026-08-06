@@ -3,99 +3,138 @@
 class CNPC_AttackHelicopter : public CBaseHelicopter
 {
 public:
-	virtual void ~CNPC_AttackHelicopter() override; // vtable[0]
-	virtual void ~CNPC_AttackHelicopter() override; // vtable[1]
+	virtual ~CNPC_AttackHelicopter() override; // vtable[0]
+	virtual ~CNPC_AttackHelicopter() override; // vtable[1]
+	virtual void GetDataDescMap() override; // vtable[12]
+	virtual void SetTransmit() override; // vtable[21]
+	virtual void GetTracerType() override; // vtable[22]
+	virtual void Spawn() override; // vtable[23]
+	virtual void Precache() override; // vtable[24]
+	virtual void Activate() override; // vtable[34]
+	virtual void ObjectCaps() override; // vtable[36]
+	virtual void Classify() override; // vtable[55]
+	virtual void TraceAttack() override; // vtable[62]
+	virtual void OnTakeDamage() override; // vtable[64]
+	virtual void Event_Killed() override; // vtable[68]
+	virtual void BloodColor() override; // vtable[70]
+	virtual void UpdateOnRemove() override; // vtable[108]
+	virtual void StopLoopingSounds() override; // vtable[109]
+	virtual void FireBullets() override; // vtable[115]
+	virtual void DoImpactEffect() override; // vtable[116]
+	virtual void FVisible() override; // vtable[144]
+	virtual void CreateVPhysics() override; // vtable[157]
+	virtual void PopulatePoseParameters() override; // vtable[262]
+	virtual void OnTakeDamage_Alive() override; // vtable[338]
+	virtual void GetAttackSpread() override; // vtable[372]
+	virtual void DoMuzzleFlash() override; // vtable[374]
+	virtual void CreateComponents() override; // vtable[392]
+	virtual void PrescheduleThink() override; // vtable[403]
+	virtual void GetSchedulingErrorName() override; // vtable[432]
+	virtual void LoadedSchedules() override; // vtable[433]
+	virtual void InputOutsideTransition() override; // vtable[566]
+	virtual void SquadSlotName() override; // vtable[581]
+	virtual void GetClassScheduleIdSpace() override; // vtable[640]
+	virtual void FindTrackBlocker() override; // vtable[656]
+	virtual void ShouldUseFixedPatrolLogic() override; // vtable[657]
+	virtual void Startup() override; // vtable[665]
+	virtual void Flight() override; // vtable[666]
+	virtual void Hunt() override; // vtable[668]
+	virtual void FireGun() override; // vtable[673]
+	virtual void InitializeRotorSound() override; // vtable[675]
+	virtual void GetMaxSpeed() override; // vtable[682]
+	virtual void GetMaxSpeedFiring() override; // vtable[683]
+	virtual void EnemySearchDistance() override; // vtable[684]
 
-	void InputEnableAlwaysTransition();
-	void InputDisableAlwaysTransition();
-	void InputStartDefaultBehavior();
-	void InputStartCarpetBombing();
-	void InputStopCarpetBombing();
-	void InputBecomeIndestructible();
-	void InputEnableDeadlyShooting();
-	void InputDisableDeadlyShooting();
-	void InputStartNormalShooting();
-	void InputStartLongCycleShooting();
-	void InputStartContinuousShooting();
-	void InputStartFastShooting();
-	void InputStartBombExplodeOnContact();
-	void InputStopBombExplodeOnContact();
-	void InputSetOutsideTransitionTarget();
-	void BlinkLightsThink();
-	void InputStartBombingVehicle();
-	void InputStartTrailingVehicle();
-	void InputStartAlwaysLeadingVehicle();
-	void InputDisablePathVisibilityTests();
-	void InputEnablePathVisibilityTests();
-	void InputSelfDestruct();
-	void InputGunOff();
-	void InputStartBullrushBehavior();
-	void InputSetHealthFraction();
-	void InputResetIdleTime();
-	void GetBaseMap();
-	void SpotlightShutdown();
-	void SpotlightThink();
-	void SpotlightStartup();
-	void SpotlightStartup();
-	void InputEnableBombing();
-	void InputDisableBombing();
-	void GetEnemyVehicle();
-	void GetMaxFiringDistance();
-	void BuildMissTargetList();
-	void IsDeadlyShooting();
-	void GetShootingMode();
-	void ShootAtPlayer();
-	void PickDirectionToCircleOfDeath();
-	void AimCloseToTargetButMiss();
-	void ShootInsideCircleOfDeath();
-	void ShootAtVehicle();
-	void PoseGunTowardTargetDirection();
-	void ComputeFireAtPosition();
-	void ComputeVehicleFireAtPosition();
-	void DoGunIdle();
-	void UpdateTargetHittability();
-	void DoGunCharging();
-	void ShootAtFacingDirection();
-	void IsValidZapTarget();
-	void CreateZapBeam();
-	void CreateEntityZapEffect();
-	void FireElectricityGun();
-	void DoGunFiring();
-	void IsBombDropFair();
-	void SpawnBombEntity();
-	void AddSmokeTrail();
-	void DestroySmokeTrails();
-	void ExplodeAndThrowChunk();
-	void DropCorpse();
-	void CreateChopperHusk();
-	void GetMaxSpeedAndAccel();
-	void ComputeAngularVelocity();
-	void CreepTowardEnemy();
-	void ComputeBombingLeadingDistance();
-	void ComputeBullrushLeadingDistance();
-	void SwitchToBullrushIdle();
-	void ShouldShootIdlePlayerInBullrush();
-	void ShutdownGunDuringBullrush();
-	void ShouldBombIdlePlayer();
-	void ShouldDropBombs();
-	void UpdatePerpPathDistance();
-	void UpdateFacingDirection();
-	void InputDropBombStraightDown();
-	void InputDropBombAtTargetInternal();
-	void InputDropBombAtTargetAlways();
-	void InputDropBombAtTarget();
-	void InputDropBombDelay();
-	void UpdateBullrushState();
-	void UpdateEnemyLeading();
-	void InitBoneFollowers();
-	void ComputeVelocity();
-	void FlightDirectlyOverhead();
-	void CreateBomb();
-	void BullrushBombs();
-	void InputDropBomb();
-	void DropBombs();
-	void InitCustomSchedules();
-	void LoadSchedules();
-	void CScheduleLoader();
-	void CNPC_AttackHelicopter();
+	void InputEnableAlwaysTransition(); // size[0]
+	void InputDisableAlwaysTransition(); // size[0]
+	void InputStartDefaultBehavior(); // size[0]
+	void InputStartCarpetBombing(); // size[0]
+	void InputStopCarpetBombing(); // size[0]
+	void InputBecomeIndestructible(); // size[0]
+	void InputEnableDeadlyShooting(); // size[0]
+	void InputDisableDeadlyShooting(); // size[0]
+	void InputStartNormalShooting(); // size[0]
+	void InputStartLongCycleShooting(); // size[0]
+	void InputStartContinuousShooting(); // size[0]
+	void InputStartFastShooting(); // size[0]
+	void InputStartBombExplodeOnContact(); // size[0]
+	void InputStopBombExplodeOnContact(); // size[0]
+	void InputSetOutsideTransitionTarget(); // size[0]
+	void BlinkLightsThink(); // size[0]
+	void InputStartBombingVehicle(); // size[0]
+	void InputStartTrailingVehicle(); // size[0]
+	void InputStartAlwaysLeadingVehicle(); // size[0]
+	void InputDisablePathVisibilityTests(); // size[0]
+	void InputEnablePathVisibilityTests(); // size[0]
+	void InputSelfDestruct(); // size[0]
+	void InputGunOff(); // size[0]
+	void InputStartBullrushBehavior(); // size[0]
+	void InputSetHealthFraction(); // size[0]
+	void InputResetIdleTime(); // size[0]
+	void GetBaseMap(); // size[0]
+	void SpotlightShutdown(); // size[0]
+	void SpotlightThink(); // size[0]
+	void SpotlightStartup(); // size[0]
+	void SpotlightStartup(); // size[0]
+	void InputEnableBombing(); // size[0]
+	void InputDisableBombing(); // size[0]
+	void GetEnemyVehicle(); // size[0]
+	void GetMaxFiringDistance(); // size[0]
+	void BuildMissTargetList(); // size[0]
+	void IsDeadlyShooting(); // size[0]
+	void GetShootingMode(); // size[0]
+	void ShootAtPlayer(); // size[0]
+	void PickDirectionToCircleOfDeath(); // size[0]
+	void AimCloseToTargetButMiss(); // size[0]
+	void ShootInsideCircleOfDeath(); // size[0]
+	void ShootAtVehicle(); // size[0]
+	void PoseGunTowardTargetDirection(); // size[0]
+	void ComputeFireAtPosition(); // size[0]
+	void ComputeVehicleFireAtPosition(); // size[0]
+	void DoGunIdle(); // size[0]
+	void UpdateTargetHittability(); // size[0]
+	void DoGunCharging(); // size[0]
+	void ShootAtFacingDirection(); // size[0]
+	void IsValidZapTarget(); // size[0]
+	void CreateZapBeam(); // size[0]
+	void CreateEntityZapEffect(); // size[0]
+	void FireElectricityGun(); // size[0]
+	void DoGunFiring(); // size[0]
+	void IsBombDropFair(); // size[0]
+	void SpawnBombEntity(); // size[0]
+	void AddSmokeTrail(); // size[0]
+	void DestroySmokeTrails(); // size[0]
+	void ExplodeAndThrowChunk(); // size[0]
+	void DropCorpse(); // size[0]
+	void CreateChopperHusk(); // size[0]
+	void GetMaxSpeedAndAccel(); // size[0]
+	void ComputeAngularVelocity(); // size[0]
+	void CreepTowardEnemy(); // size[0]
+	void ComputeBombingLeadingDistance(); // size[0]
+	void ComputeBullrushLeadingDistance(); // size[0]
+	void SwitchToBullrushIdle(); // size[0]
+	void ShouldShootIdlePlayerInBullrush(); // size[0]
+	void ShutdownGunDuringBullrush(); // size[0]
+	void ShouldBombIdlePlayer(); // size[0]
+	void ShouldDropBombs(); // size[0]
+	void UpdatePerpPathDistance(); // size[0]
+	void UpdateFacingDirection(); // size[0]
+	void InputDropBombStraightDown(); // size[0]
+	void InputDropBombAtTargetInternal(); // size[0]
+	void InputDropBombAtTargetAlways(); // size[0]
+	void InputDropBombAtTarget(); // size[0]
+	void InputDropBombDelay(); // size[0]
+	void UpdateBullrushState(); // size[0]
+	void UpdateEnemyLeading(); // size[0]
+	void InitBoneFollowers(); // size[0]
+	void ComputeVelocity(); // size[0]
+	void FlightDirectlyOverhead(); // size[0]
+	void CreateBomb(); // size[0]
+	void BullrushBombs(); // size[0]
+	void InputDropBomb(); // size[0]
+	void DropBombs(); // size[0]
+	void InitCustomSchedules(); // size[0]
+	void LoadSchedules(); // size[0]
+	CScheduleLoader(); // size[0]
+	CNPC_AttackHelicopter(); // size[0]
 };

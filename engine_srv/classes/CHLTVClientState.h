@@ -3,8 +3,26 @@
 class CHLTVClientState : public CBaseClientState
 {
 public:
-	virtual void ~CHLTVClientState() override; // vtable[0]
-	virtual void ~CHLTVClientState() override; // vtable[1]
+	virtual ~CHLTVClientState() override; // vtable[0]
+	virtual ~CHLTVClientState() override; // vtable[1]
+	virtual void ConnectionClosing() override; // vtable[3]
+	virtual void ConnectionCrashed() override; // vtable[4]
+	virtual void PacketEnd() override; // vtable[6]
+	virtual void ProcessStringCmd() override; // vtable[14]
+	virtual void ProcessSetConVar() override; // vtable[15]
+	virtual void ProcessServerInfo() override; // vtable[18]
+	virtual void ProcessClassInfo() override; // vtable[20]
+	virtual void ProcessSetView() override; // vtable[24]
+	virtual void ProcessPacketEntities() override; // vtable[25]
+	virtual void ProcessGameEventList() override; // vtable[26]
+	virtual void Clear() override; // vtable[31]
+	virtual void SetSignonState() override; // vtable[34]
+	virtual void GetCDKeyHash() override; // vtable[37]
+	virtual void RunFrame() override; // vtable[38]
+	virtual void InstallStringTableCallback() override; // vtable[40]
+	virtual void HookClientStringTable() override; // vtable[41]
+	virtual void GetConnectionRetryNumber() override; // vtable[43]
+	virtual void GetClientName() override; // vtable[44]
 	virtual void ReadEnterPVS(); // vtable[45]
 	virtual void ReadLeavePVS(); // vtable[46]
 	virtual void ReadDeltaEnt(); // vtable[47]
@@ -22,31 +40,31 @@ public:
 	virtual void ProcessTempEntities(); // vtable[59]
 	virtual void ProcessPrefetch(); // vtable[60]
 
-	void ~CHLTVClientState();
-	void ~CHLTVClientState();
-	void ~CHLTVClientState();
-	void ~CHLTVClientState();
-	void ProcessStringCmd();
-	void ProcessVoiceInit();
-	void ProcessPrefetch();
-	void ProcessFixAngle();
-	void ProcessCrosshairAngle();
-	void ProcessBSPDecal();
-	void ProcessVoiceData();
-	void ProcessSounds();
-	void ProcessUserMessage();
-	void ProcessEntityMessage();
-	void ProcessTempEntities();
-	void ProcessGameEvent();
-	void ProcessClassInfo();
-	void CHLTVClientState();
-	void CopyNewEntity();
-	void SendClientInfo();
-	void SendPacket();
-	void UpdateStats();
-	void ProcessSetConVar();
-	void ProcessServerInfo();
-	void ProcessSetView();
-	void ProcessGameEventList();
-	void ProcessPacketEntities();
+	~CHLTVClientState(); // size[0]
+	~CHLTVClientState(); // size[0]
+	~CHLTVClientState(); // size[0]
+	~CHLTVClientState(); // size[0]
+	void ProcessStringCmd(); // size[0]
+	void ProcessVoiceInit(); // size[0]
+	void ProcessPrefetch(); // size[0]
+	void ProcessFixAngle(); // size[0]
+	void ProcessCrosshairAngle(); // size[0]
+	void ProcessBSPDecal(); // size[0]
+	void ProcessVoiceData(); // size[0]
+	void ProcessSounds(); // size[0]
+	void ProcessUserMessage(); // size[0]
+	void ProcessEntityMessage(); // size[0]
+	void ProcessTempEntities(); // size[0]
+	void ProcessGameEvent(); // size[0]
+	void ProcessClassInfo(); // size[0]
+	CHLTVClientState(); // size[0]
+	void CopyNewEntity(); // size[0]
+	void SendClientInfo(); // size[0]
+	void SendPacket(); // size[0]
+	void UpdateStats(); // size[0]
+	void ProcessSetConVar(); // size[0]
+	void ProcessServerInfo(); // size[0]
+	void ProcessSetView(); // size[0]
+	void ProcessGameEventList(); // size[0]
+	void ProcessPacketEntities(); // size[0]
 };

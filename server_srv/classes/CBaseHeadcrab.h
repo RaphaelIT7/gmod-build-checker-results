@@ -3,8 +3,45 @@
 class CBaseHeadcrab : public CAI_BaseNPC
 {
 public:
-	virtual void ~CBaseHeadcrab() override; // vtable[0]
-	virtual void ~CBaseHeadcrab() override; // vtable[1]
+	virtual ~CBaseHeadcrab() override; // vtable[0]
+	virtual ~CBaseHeadcrab() override; // vtable[1]
+	virtual void GetDataDescMap() override; // vtable[12]
+	virtual void Spawn() override; // vtable[23]
+	virtual void Precache() override; // vtable[24]
+	virtual void Classify() override; // vtable[55]
+	virtual void GetAutoAimRadius() override; // vtable[58]
+	virtual void TraceAttack() override; // vtable[62]
+	virtual void Event_Killed() override; // vtable[68]
+	virtual void Touch() override; // vtable[102]
+	virtual void BodyTarget() override; // vtable[137]
+	virtual void ClampRagdollForce() override; // vtable[252]
+	virtual void HandleAnimEvent() override; // vtable[261]
+	virtual void Ignite() override; // vtable[267]
+	virtual void HandleInteraction() override; // vtable[298]
+	virtual void OnTakeDamage_Alive() override; // vtable[338]
+	virtual void CorpseGib() override; // vtable[348]
+	virtual void GatherConditions() override; // vtable[402]
+	virtual void PrescheduleThink() override; // vtable[403]
+	virtual void SelectSchedule() override; // vtable[407]
+	virtual void SelectFailSchedule() override; // vtable[408]
+	virtual void TranslateSchedule() override; // vtable[409]
+	virtual void StartTask() override; // vtable[410]
+	virtual void RunTask() override; // vtable[411]
+	virtual void GetSchedulingErrorName() override; // vtable[432]
+	virtual void LoadedSchedules() override; // vtable[433]
+	virtual void BuildScheduleTestBits() override; // vtable[434]
+	virtual void OnChangeActivity() override; // vtable[460]
+	virtual void CanBeAnEnemyOf() override; // vtable[476]
+	virtual void AllowedToIgnite() override; // vtable[483]
+	virtual void PlayerHasIlluminatedNPC() override; // vtable[521]
+	virtual void MaxYawSpeed() override; // vtable[529]
+	virtual void GetReactionDelay() override; // vtable[574]
+	virtual void SquadSlotName() override; // vtable[581]
+	virtual void RangeAttack1Conditions() override; // vtable[595]
+	virtual void InnateRange1MinRange() override; // vtable[599]
+	virtual void InnateRange1MaxRange() override; // vtable[600]
+	virtual void FValidateHintType() override; // vtable[617]
+	virtual void GetClassScheduleIdSpace() override; // vtable[640]
 	virtual void JumpAttack(); // vtable[652]
 	virtual void TouchDamage(); // vtable[653]
 	virtual void __cxa_pure_virtual(); // vtable[654]
@@ -12,37 +49,37 @@ public:
 	virtual void ImpactSound(); // vtable[656]
 	virtual void TelegraphSound(); // vtable[657]
 
-	void LeapTouch();
-	void EliminateRollAndPitch();
-	void InputUnburrow();
-	void InputBurrow();
-	void InputBurrowImmediate();
-	void InputStartHangingFromCeiling();
-	void InputDropFromCeiling();
-	void ThrowThink();
-	void RangeAttack1Conditions();
-	void GetBaseMap();
-	void CrawlFromCanister();
-	void IsFirmlyOnGround();
-	void MoveOrigin();
-	void ThrowAt();
-	void SetBurrowed();
-	void HeadcrabInit();
-	void HasHeadroom();
-	void Leap();
-	void CalcDamageInfo();
-	void DropFromCeiling();
-	void ClearBurrowPoint();
-	void ValidBurrowPoint();
-	void GrabHintNode();
-	void BeginClimbFromCanister();
-	void JumpToBurrowHint();
-	void JumpFromCanister();
-	void FindBurrow();
-	void Burrow();
-	void Unburrow();
-	void CreateDust();
-	void InitCustomSchedules();
-	void LoadSchedules();
-	void CScheduleLoader();
+	void LeapTouch(); // size[0]
+	void EliminateRollAndPitch(); // size[0]
+	void InputUnburrow(); // size[0]
+	void InputBurrow(); // size[0]
+	void InputBurrowImmediate(); // size[0]
+	void InputStartHangingFromCeiling(); // size[0]
+	void InputDropFromCeiling(); // size[0]
+	void ThrowThink(); // size[0]
+	void RangeAttack1Conditions(); // size[0]
+	void GetBaseMap(); // size[0]
+	void CrawlFromCanister(); // size[0]
+	void IsFirmlyOnGround(); // size[0]
+	void MoveOrigin(); // size[0]
+	void ThrowAt(); // size[0]
+	void SetBurrowed(); // size[0]
+	void HeadcrabInit(); // size[0]
+	void HasHeadroom(); // size[0]
+	void Leap(); // size[0]
+	void CalcDamageInfo(); // size[0]
+	void DropFromCeiling(); // size[0]
+	void ClearBurrowPoint(); // size[0]
+	void ValidBurrowPoint(); // size[0]
+	void GrabHintNode(); // size[0]
+	void BeginClimbFromCanister(); // size[0]
+	void JumpToBurrowHint(); // size[0]
+	void JumpFromCanister(); // size[0]
+	void FindBurrow(); // size[0]
+	void Burrow(); // size[0]
+	void Unburrow(); // size[0]
+	void CreateDust(); // size[0]
+	void InitCustomSchedules(); // size[0]
+	void LoadSchedules(); // size[0]
+	CScheduleLoader(); // size[0]
 };

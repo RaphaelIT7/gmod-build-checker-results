@@ -3,31 +3,41 @@
 class CFuncRotating : public CBaseEntity
 {
 public:
-	virtual void ~CFuncRotating() override; // vtable[0]
-	virtual void ~CFuncRotating() override; // vtable[1]
+	virtual ~CFuncRotating() override; // vtable[0]
+	virtual ~CFuncRotating() override; // vtable[1]
+	virtual void GetServerClass() override; // vtable[10]
+	virtual void YouForgotToImplementOrDeclareServerClass() override; // vtable[11]
+	virtual void GetDataDescMap() override; // vtable[12]
+	virtual void Spawn() override; // vtable[23]
+	virtual void Precache() override; // vtable[24]
+	virtual void KeyValue() override; // vtable[30]
+	virtual void DrawDebugTextOverlays() override; // vtable[40]
+	virtual void Blocked() override; // vtable[105]
+	virtual void StopLoopingSounds() override; // vtable[109]
+	virtual void CreateVPhysics() override; // vtable[157]
 
-	void InputGetSpeed();
-	void GetNextMoveInterval();
-	void HurtTouch();
-	void GetBaseMap();
-	void RampPitchVol();
-	void GetNextMoveInterval();
-	void UpdateSpeed();
-	void SpinDown();
-	void GetMoveSpeed();
-	void SetTargetSpeed();
-	void ReverseMove();
-	void RotatingUse();
-	void InputReverse();
-	void InputSetSpeed();
-	void InputStart();
-	void InputStartForward();
-	void InputStartBackward();
-	void InputStop();
-	void InputStopAtStartPos();
-	void InputSnapToStartPos();
-	void InputToggle();
-	void RotateMove();
-	void SpinUpMove();
-	void SpinDownMove();
+	void InputGetSpeed(); // size[0]
+	void GetNextMoveInterval(); // size[0]
+	void HurtTouch(); // size[0]
+	void GetBaseMap(); // size[0]
+	void RampPitchVol(); // size[0]
+	void GetNextMoveInterval(); // size[0]
+	void UpdateSpeed(); // size[0]
+	void SpinDown(); // size[0]
+	void GetMoveSpeed(); // size[0]
+	void SetTargetSpeed(); // size[0]
+	void ReverseMove(); // size[0]
+	void RotatingUse(); // size[0]
+	void InputReverse(); // size[0]
+	void InputSetSpeed(); // size[0]
+	void InputStart(); // size[0]
+	void InputStartForward(); // size[0]
+	void InputStartBackward(); // size[0]
+	void InputStop(); // size[0]
+	void InputStopAtStartPos(); // size[0]
+	void InputSnapToStartPos(); // size[0]
+	void InputToggle(); // size[0]
+	void RotateMove(); // size[0]
+	void SpinUpMove(); // size[0]
+	void SpinDownMove(); // size[0]
 };

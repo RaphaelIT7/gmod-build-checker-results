@@ -3,6 +3,7 @@
 class CCleanupDefaultRelationShips : public CAutoGameSystem
 {
 public:
-	virtual void ~CCleanupDefaultRelationShips() override; // vtable[13]
-	virtual void ~CCleanupDefaultRelationShips() override; // vtable[14]
+	virtual void Shutdown() override; // vtable[3]
+	virtual ~CCleanupDefaultRelationShips() override; // vtable[13]
+	virtual ~CCleanupDefaultRelationShips() override; // vtable[14]
 };

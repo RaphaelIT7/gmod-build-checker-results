@@ -3,8 +3,8 @@
 class CEmptyMesh : public IMesh
 {
 public:
-	virtual void ~CEmptyMesh() override; // vtable[0]
-	virtual void ~CEmptyMesh() override; // vtable[1]
+	virtual ~CEmptyMesh() override; // vtable[0]
+	virtual ~CEmptyMesh() override; // vtable[1]
 	virtual void VertexCount(); // vtable[2]
 	virtual void GetVertexFormat(); // vtable[3]
 	virtual void IsDynamic(); // vtable[4]
@@ -42,20 +42,20 @@ public:
 	virtual void IndexCount(); // vtable[36]
 	virtual void GetMesh(); // vtable[37]
 
-	void Lock();
-	void Unlock();
-	void ModifyBegin();
-	void ModifyEnd();
-	void Spew();
-	void ValidateData();
-	void ~CEmptyMesh();
-	void ~CEmptyMesh();
-	void CEmptyMesh();
-	void GetMaterial();
-	void IsDynamic();
-	void BeginCastBuffer();
-	void EndCastBuffer();
-	void GetRoomRemaining();
-	void IndexFormat();
-	void IndexCount();
+	void Lock(); // size[0]
+	void Unlock(); // size[0]
+	void ModifyBegin(); // size[0]
+	void ModifyEnd(); // size[0]
+	void Spew(); // size[0]
+	void ValidateData(); // size[0]
+	~CEmptyMesh(); // size[0]
+	~CEmptyMesh(); // size[0]
+	CEmptyMesh(); // size[0]
+	void GetMaterial(); // size[0]
+	void IsDynamic(); // size[0]
+	void BeginCastBuffer(); // size[0]
+	void EndCastBuffer(); // size[0]
+	void GetRoomRemaining(); // size[0]
+	void IndexFormat(); // size[0]
+	void IndexCount(); // size[0]
 };

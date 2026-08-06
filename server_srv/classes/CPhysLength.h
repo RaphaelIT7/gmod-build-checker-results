@@ -3,9 +3,11 @@
 class CPhysLength : public CPhysConstraint
 {
 public:
-	virtual void ~CPhysLength() override; // vtable[0]
-	virtual void ~CPhysLength() override; // vtable[1]
+	virtual ~CPhysLength() override; // vtable[0]
+	virtual ~CPhysLength() override; // vtable[1]
+	virtual void GetDataDescMap() override; // vtable[12]
+	virtual void DrawDebugGeometryOverlays() override; // vtable[39]
 	virtual void CreateConstraint() override; // vtable[248]
 
-	void GetBaseMap();
+	void GetBaseMap(); // size[0]
 };

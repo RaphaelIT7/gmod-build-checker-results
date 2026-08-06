@@ -3,8 +3,11 @@
 class CAI_InjuredFollowGoal : public CAI_FollowGoal
 {
 public:
-	virtual void ~CAI_InjuredFollowGoal() override; // vtable[0]
-	virtual void ~CAI_InjuredFollowGoal() override; // vtable[1]
+	virtual ~CAI_InjuredFollowGoal() override; // vtable[0]
+	virtual ~CAI_InjuredFollowGoal() override; // vtable[1]
+	virtual void GetDataDescMap() override; // vtable[12]
+	virtual void EnableGoal() override; // vtable[251]
+	virtual void DisableGoal() override; // vtable[252]
 
-	void GetBaseMap();
+	void GetBaseMap(); // size[0]
 };

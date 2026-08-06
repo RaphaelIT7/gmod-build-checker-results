@@ -3,9 +3,12 @@
 class CTEDecal : public CBaseTempEntity
 {
 public:
-	virtual void ~CTEDecal() override; // vtable[2]
-	virtual void ~CTEDecal() override; // vtable[3]
+	virtual void GetServerClass() override; // vtable[0]
+	virtual void YouForgotToImplementOrDeclareServerClass() override; // vtable[1]
+	virtual ~CTEDecal() override; // vtable[2]
+	virtual ~CTEDecal() override; // vtable[3]
+	virtual void Test() override; // vtable[4]
 
-	void _GLOBAL__sub_I_CTEDecal();
-	void CTEDecal();
+	_GLOBAL__sub_I_CTEDecal(); // size[0]
+	CTEDecal(); // size[0]
 };

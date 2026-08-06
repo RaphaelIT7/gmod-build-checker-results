@@ -3,98 +3,160 @@
 class CNPC_MetroPolice : public CAI_BaseActor
 {
 public:
-	virtual void ~CNPC_MetroPolice() override; // vtable[0]
-	virtual void ~CNPC_MetroPolice() override; // vtable[1]
+	virtual ~CNPC_MetroPolice() override; // vtable[0]
+	virtual ~CNPC_MetroPolice() override; // vtable[1]
+	virtual void GetDataDescMap() override; // vtable[12]
+	virtual void Spawn() override; // vtable[23]
+	virtual void Precache() override; // vtable[24]
+	virtual void ObjectCaps() override; // vtable[36]
+	virtual void Classify() override; // vtable[55]
+	virtual void TraceAttack() override; // vtable[62]
+	virtual void Event_Killed() override; // vtable[68]
+	virtual void FireBullets() override; // vtable[115]
+	virtual void VPhysicsCollision() override; // vtable[165]
+	virtual void GetIdealAccel() override; // vtable[247]
+	virtual void HandleAnimEvent() override; // vtable[261]
+	virtual void HandleInteraction() override; // vtable[298]
+	virtual void EyeDirection3D() override; // vtable[305]
+	virtual void NPC_TranslateActivity() override; // vtable[322]
+	virtual void Weapon_Equip() override; // vtable[327]
+	virtual void OnTakeDamage_Alive() override; // vtable[338]
+	virtual void CheckTraceHullAttack() override; // vtable[361]
+	virtual void CheckTraceHullAttack() override; // vtable[362]
+	virtual void IRelationType() override; // vtable[364]
+	virtual void CalcWeaponProficiency() override; // vtable[371]
+	virtual void CreateComponents() override; // vtable[392]
+	virtual void GatherConditions() override; // vtable[402]
+	virtual void PrescheduleThink() override; // vtable[403]
+	virtual void OnScheduleChange() override; // vtable[405]
+	virtual void SelectSchedule() override; // vtable[407]
+	virtual void SelectFailSchedule() override; // vtable[408]
+	virtual void TranslateSchedule() override; // vtable[409]
+	virtual void StartTask() override; // vtable[410]
+	virtual void RunTask() override; // vtable[411]
+	virtual void GetSchedulingErrorName() override; // vtable[432]
+	virtual void LoadedSchedules() override; // vtable[433]
+	virtual void BuildScheduleTestBits() override; // vtable[434]
+	virtual void PlayFlinchGesture() override; // vtable[439]
+	virtual void QueryHearSound() override; // vtable[461]
+	virtual void GetSoundInterests() override; // vtable[467]
+	virtual void AllowedToIgnite() override; // vtable[483]
+	virtual void DeathSound() override; // vtable[507]
+	virtual void AlertSound() override; // vtable[508]
+	virtual void IdleSound() override; // vtable[509]
+	virtual void PainSound() override; // vtable[510]
+	virtual void LostEnemySound() override; // vtable[512]
+	virtual void FoundEnemySound() override; // vtable[513]
+	virtual void SpeakSentence() override; // vtable[515]
+	virtual void ShouldPlayIdleSound() override; // vtable[516]
+	virtual void ShouldBruteForceFailedNav() override; // vtable[525]
+	virtual void MaxYawSpeed() override; // vtable[529]
+	virtual void OverrideMoveFacing() override; // vtable[539]
+	virtual void OnObstructionPreSteer() override; // vtable[549]
+	virtual void OnUpdateShotRegulator() override; // vtable[579]
+	virtual void SquadSlotName() override; // vtable[581]
+	virtual void OnBeginMoveAndShoot() override; // vtable[601]
+	virtual void OnEndMoveAndShoot() override; // vtable[602]
+	virtual void UseAttackSquadSlots() override; // vtable[603]
+	virtual void IsWaitingToRappel() override; // vtable[611]
+	virtual void BeginRappel() override; // vtable[612]
+	virtual void GetFlinchActivity() override; // vtable[626]
+	virtual void GetActualShootTrajectory() override; // vtable[629]
+	virtual void ShouldMoveAndShoot() override; // vtable[631]
+	virtual void IsHeavyDamage() override; // vtable[633]
+	virtual void NotifyDeadFriend() override; // vtable[636]
+	virtual void GetClassScheduleIdSpace() override; // vtable[640]
+	virtual void CreateBehaviors() override; // vtable[652]
 
-	void InputSetPoliceGoal();
-	void CanDeployManhack();
-	void OnObstructionPreSteer();
-	void InputEnableManhackToss();
-	void GetBaseMap();
-	void SpeakFuncTankSentence();
-	void AnnounceEnemyKill();
-	void AnnounceOutOfAmmo();
-	void SpeakStandoffSentence();
-	void SpeakAssaultSentence();
-	void AnnounceTakeCoverFromDanger();
-	void IsCurrentlyFiringBurst();
-	void IsEnemyInAnAirboat();
-	void GetEnemyAirboat();
-	void GetShootTarget();
-	void SetBurstMode();
-	void ShouldAttemptToStitch();
-	void StitchAimTarget();
-	void AimBurstRandomly();
-	void RandomDirectionBetweenVectors();
-	void PredictShootTargetPosition();
-	void PredictShootTargetVelocity();
-	void CountShotsInTime();
-	void GetTimeForShots();
-	void VisualizeStitch();
-	void VisualizeLineOfDeath();
-	void ComputeDistanceStitchModifier();
-	void SetupBurstShotRegulator();
-	void AimBurstTightGrouping();
-	void AimBurstAtReactionTime();
-	void AimBurstAtSetupHitCount();
-	void AimBurstAtEnemy();
-	void AimBurstAtEnemy();
-	void AimBurstInFrontOfEnemy();
-	void AimBurstBehindEnemy();
-	void AimBurstAlongSideOfEnemy();
-	void SteerBurstTowardTargetUseSpeedOnly();
-	void SteerBurstTowardTargetUseVelocity();
-	void SteerBurstTowardTargetUsePosition();
-	void SteerBurstTowardPredictedPoint();
-	void SteerBurstWithinLineOfDeath();
-	void SteerBurstTowardTarget();
-	void ComputeBurstLockOnTrajectory();
-	void ComputeBurstDeliberatelyMissTrajectory();
-	void ComputeBurstTrajectory();
-	void AimCloseToTargetButMiss();
-	void ComputeTightBurstTrajectory();
-	void PlayerIsCriminal();
-	void AnnounceEnemyType();
-	void OnAnimEventStartDeployManhack();
-	void OnAnimEventShove();
-	void OnAnimEventBatonOn();
-	void OnAnimEventBatonOff();
-	void ReleaseManhack();
-	void OnAnimEventDeployManhack();
-	void TryToEnterPistolSlot();
-	void SquadArrestCount();
-	void SelectScheduleArrestEnemy();
-	void SelectScheduleInvestigateSound();
-	void ShouldKnockOutTarget();
-	void KnockOutTarget();
-	void CanEnemySeeMe();
-	void StitchAtWeight();
-	void StitchAcrossWeight();
-	void StitchAlongSideWeight();
-	void StitchBehindWeight();
-	void StitchTightWeight();
-	void SelectStitchSchedule();
-	void SelectMoveToLedgeSchedule();
-	void SelectRangeAttackSchedule();
-	void SelectAirboatRangeAttackSchedule();
-	void AnnounceHarrassment();
-	void AdministerJustice();
-	void EnemyResistingArrest();
-	void CanDeployManhack();
-	void HasBaton();
-	void SelectScheduleNoDirectEnemy();
-	void BatonActive();
-	void SetBatonState();
-	void InputActivateBaton();
-	void IncrementPlayerCriminalStatus();
-	void SelectShoveSchedule();
-	void PrecriminalUse();
-	void SelectScheduleNewEnemy();
-	void SelectCombatSchedule();
-	void SelectAirboatCombatSchedule();
-	void StunnedTarget();
-	void InitCustomSchedules();
-	void LoadSchedules();
-	void CScheduleLoader();
-	void CNPC_MetroPolice();
+	void InputSetPoliceGoal(); // size[0]
+	void CanDeployManhack(); // size[0]
+	void OnObstructionPreSteer(); // size[0]
+	void InputEnableManhackToss(); // size[0]
+	void GetBaseMap(); // size[0]
+	void SpeakFuncTankSentence(); // size[0]
+	void AnnounceEnemyKill(); // size[0]
+	void AnnounceOutOfAmmo(); // size[0]
+	void SpeakStandoffSentence(); // size[0]
+	void SpeakAssaultSentence(); // size[0]
+	void AnnounceTakeCoverFromDanger(); // size[0]
+	void IsCurrentlyFiringBurst(); // size[0]
+	void IsEnemyInAnAirboat(); // size[0]
+	void GetEnemyAirboat(); // size[0]
+	void GetShootTarget(); // size[0]
+	void SetBurstMode(); // size[0]
+	void ShouldAttemptToStitch(); // size[0]
+	void StitchAimTarget(); // size[0]
+	void AimBurstRandomly(); // size[0]
+	void RandomDirectionBetweenVectors(); // size[0]
+	void PredictShootTargetPosition(); // size[0]
+	void PredictShootTargetVelocity(); // size[0]
+	void CountShotsInTime(); // size[0]
+	void GetTimeForShots(); // size[0]
+	void VisualizeStitch(); // size[0]
+	void VisualizeLineOfDeath(); // size[0]
+	void ComputeDistanceStitchModifier(); // size[0]
+	void SetupBurstShotRegulator(); // size[0]
+	void AimBurstTightGrouping(); // size[0]
+	void AimBurstAtReactionTime(); // size[0]
+	void AimBurstAtSetupHitCount(); // size[0]
+	void AimBurstAtEnemy(); // size[0]
+	void AimBurstAtEnemy(); // size[0]
+	void AimBurstInFrontOfEnemy(); // size[0]
+	void AimBurstBehindEnemy(); // size[0]
+	void AimBurstAlongSideOfEnemy(); // size[0]
+	void SteerBurstTowardTargetUseSpeedOnly(); // size[0]
+	void SteerBurstTowardTargetUseVelocity(); // size[0]
+	void SteerBurstTowardTargetUsePosition(); // size[0]
+	void SteerBurstTowardPredictedPoint(); // size[0]
+	void SteerBurstWithinLineOfDeath(); // size[0]
+	void SteerBurstTowardTarget(); // size[0]
+	void ComputeBurstLockOnTrajectory(); // size[0]
+	void ComputeBurstDeliberatelyMissTrajectory(); // size[0]
+	void ComputeBurstTrajectory(); // size[0]
+	void AimCloseToTargetButMiss(); // size[0]
+	void ComputeTightBurstTrajectory(); // size[0]
+	void PlayerIsCriminal(); // size[0]
+	void AnnounceEnemyType(); // size[0]
+	void OnAnimEventStartDeployManhack(); // size[0]
+	void OnAnimEventShove(); // size[0]
+	void OnAnimEventBatonOn(); // size[0]
+	void OnAnimEventBatonOff(); // size[0]
+	void ReleaseManhack(); // size[0]
+	void OnAnimEventDeployManhack(); // size[0]
+	void TryToEnterPistolSlot(); // size[0]
+	void SquadArrestCount(); // size[0]
+	void SelectScheduleArrestEnemy(); // size[0]
+	void SelectScheduleInvestigateSound(); // size[0]
+	void ShouldKnockOutTarget(); // size[0]
+	void KnockOutTarget(); // size[0]
+	void CanEnemySeeMe(); // size[0]
+	void StitchAtWeight(); // size[0]
+	void StitchAcrossWeight(); // size[0]
+	void StitchAlongSideWeight(); // size[0]
+	void StitchBehindWeight(); // size[0]
+	void StitchTightWeight(); // size[0]
+	void SelectStitchSchedule(); // size[0]
+	void SelectMoveToLedgeSchedule(); // size[0]
+	void SelectRangeAttackSchedule(); // size[0]
+	void SelectAirboatRangeAttackSchedule(); // size[0]
+	void AnnounceHarrassment(); // size[0]
+	void AdministerJustice(); // size[0]
+	void EnemyResistingArrest(); // size[0]
+	void CanDeployManhack(); // size[0]
+	void HasBaton(); // size[0]
+	void SelectScheduleNoDirectEnemy(); // size[0]
+	void BatonActive(); // size[0]
+	void SetBatonState(); // size[0]
+	void InputActivateBaton(); // size[0]
+	void IncrementPlayerCriminalStatus(); // size[0]
+	void SelectShoveSchedule(); // size[0]
+	void PrecriminalUse(); // size[0]
+	void SelectScheduleNewEnemy(); // size[0]
+	void SelectCombatSchedule(); // size[0]
+	void SelectAirboatCombatSchedule(); // size[0]
+	void StunnedTarget(); // size[0]
+	void InitCustomSchedules(); // size[0]
+	void LoadSchedules(); // size[0]
+	CScheduleLoader(); // size[0]
+	CNPC_MetroPolice(); // size[0]
 };

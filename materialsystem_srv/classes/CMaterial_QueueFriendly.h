@@ -103,6 +103,6 @@ public:
 	virtual void DecideShouldReloadFromWhitelist(); // vtable[98]
 	virtual void ReloadFromWhitelistIfMarked() override; // vtable[99]
 
-	void _GLOBAL__sub_I_GetName();
-	void UpdateToRealTime();
+	void _GLOBAL__sub_I_GetName(); // size[0]
+	void UpdateToRealTime(); // size[0]
 };

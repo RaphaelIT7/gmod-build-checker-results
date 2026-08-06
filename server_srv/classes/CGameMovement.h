@@ -3,8 +3,8 @@
 class CGameMovement : public IGameMovement
 {
 public:
-	virtual void ~CGameMovement() override; // vtable[0]
-	virtual void ~CGameMovement() override; // vtable[1]
+	virtual ~CGameMovement() override; // vtable[0]
+	virtual ~CGameMovement() override; // vtable[1]
 	virtual void ProcessMovement(); // vtable[2]
 	virtual void StartTrackPredictionErrors(); // vtable[3]
 	virtual void FinishTrackPredictionErrors(); // vtable[4]
@@ -61,35 +61,35 @@ public:
 	virtual void TracePlayerBBoxLower(); // vtable[56]
 	virtual void GameHasLadders(); // vtable[57]
 
-	void CGameMovement();
-	void CheckInterval();
-	void CategorizeGroundSurface();
-	void IsDead();
-	void ComputeConstraintSpeedFactor();
-	void FinishMove();
-	void WaterJump();
-	void Friction();
-	void StayOnGround();
-	void FullNoClipMove();
-	void PlaySwimSound();
-	void CheckVelocity();
-	void FinishGravity();
-	void FullObserverMove();
-	void StartGravity();
-	void AddGravity();
-	void PushEntity();
-	void ClipVelocity();
-	void InWater();
-	void ResetGetPointContentsCache();
-	void GetPointContentsCached();
-	void TryTouchGroundInQuadrants();
-	void SplineFraction();
-	void FixPlayerCrouchStuck();
-	void FinishUnDuckJump();
-	void StartUnDuckJump();
-	void SetDuckedEyeOffset();
-	void UpdateDuckJumpEyeOffset();
-	void CanUnDuckJump();
-	void PerformFlyCollisionResolution();
-	void IsometricMove();
+	CGameMovement(); // size[0]
+	void CheckInterval(); // size[0]
+	void CategorizeGroundSurface(); // size[0]
+	void IsDead(); // size[0]
+	void ComputeConstraintSpeedFactor(); // size[0]
+	void FinishMove(); // size[0]
+	void WaterJump(); // size[0]
+	void Friction(); // size[0]
+	void StayOnGround(); // size[0]
+	void FullNoClipMove(); // size[0]
+	void PlaySwimSound(); // size[0]
+	void CheckVelocity(); // size[0]
+	void FinishGravity(); // size[0]
+	void FullObserverMove(); // size[0]
+	void StartGravity(); // size[0]
+	void AddGravity(); // size[0]
+	void PushEntity(); // size[0]
+	void ClipVelocity(); // size[0]
+	void InWater(); // size[0]
+	void ResetGetPointContentsCache(); // size[0]
+	void GetPointContentsCached(); // size[0]
+	void TryTouchGroundInQuadrants(); // size[0]
+	void SplineFraction(); // size[0]
+	void FixPlayerCrouchStuck(); // size[0]
+	void FinishUnDuckJump(); // size[0]
+	void StartUnDuckJump(); // size[0]
+	void SetDuckedEyeOffset(); // size[0]
+	void UpdateDuckJumpEyeOffset(); // size[0]
+	void CanUnDuckJump(); // size[0]
+	void PerformFlyCollisionResolution(); // size[0]
+	void IsometricMove(); // size[0]
 };

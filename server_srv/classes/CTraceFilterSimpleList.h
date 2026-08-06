@@ -3,6 +3,8 @@
 class CTraceFilterSimpleList : public CTraceFilterSimple
 {
 public:
-	void CTraceFilterSimpleList();
-	void AddEntityToIgnore();
+	virtual void ShouldHitEntity() override; // vtable[0]
+
+	CTraceFilterSimpleList(); // size[0]
+	void AddEntityToIgnore(); // size[0]
 };

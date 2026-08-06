@@ -3,5 +3,5 @@
 class CNavAreaCriticalData
 {
 public:
-	void ~CNavAreaCriticalData();
+	~CNavAreaCriticalData(); // size[0]
 };

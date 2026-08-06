@@ -3,57 +3,80 @@
 class CPropJeepEpisodic : public CPropJeep
 {
 public:
-	virtual void ~CPropJeepEpisodic() override; // vtable[0]
-	virtual void ~CPropJeepEpisodic() override; // vtable[1]
+	virtual ~CPropJeepEpisodic() override; // vtable[0]
+	virtual ~CPropJeepEpisodic() override; // vtable[1]
+	virtual void GetServerClass() override; // vtable[10]
+	virtual void YouForgotToImplementOrDeclareServerClass() override; // vtable[11]
+	virtual void GetDataDescMap() override; // vtable[12]
+	virtual void Spawn() override; // vtable[23]
+	virtual void Precache() override; // vtable[24]
+	virtual void Activate() override; // vtable[34]
+	virtual void ObjectCaps() override; // vtable[36]
+	virtual void DrawDebugTextOverlays() override; // vtable[40]
+	virtual void Think() override; // vtable[48]
+	virtual void Use() override; // vtable[100]
+	virtual void UpdateOnRemove() override; // vtable[108]
+	virtual void GetUprightStrength() override; // vtable[285]
+	virtual void GetUprightTime() override; // vtable[286]
+	virtual void DriveVehicle() override; // vtable[289]
+	virtual void EnterVehicle() override; // vtable[301]
+	virtual void AllowBlockedExit() override; // vtable[302]
+	virtual void ExitVehicle() override; // vtable[305]
+	virtual void PassengerShouldReceiveDamage() override; // vtable[307]
+	virtual void NPC_CanEnterVehicle() override; // vtable[309]
+	virtual void NPC_CanExitVehicle() override; // vtable[310]
+	virtual void NPC_FinishedEnterVehicle() override; // vtable[313]
+	virtual void NPC_FinishedExitVehicle() override; // vtable[314]
+	virtual void HandleWater() override; // vtable[317]
 	virtual void OnFailedPhysGunPickup(); // vtable[318]
 	virtual void ShouldPuntUseLaunchForces(); // vtable[319]
 	virtual void PhysGunLaunchAngularImpulse(); // vtable[320]
 	virtual void PhysGunLaunchVelocity(); // vtable[321]
 
-	void InputLockEntrance();
-	void InputUnlockEntrance();
-	void InputLockExit();
-	void InputUnlockExit();
-	void InputEnableRadarDetectEnemies();
-	void InputDisableRadarDetectEnemies();
-	void InputDisablePhysGun();
-	void InputEnablePhysGun();
-	void NPC_CanEnterVehicle();
-	void NPC_CanExitVehicle();
-	void HazardBlinkThink();
-	void InputDestroyLinkController();
-	void NPC_FinishedEnterVehicle();
-	void NPC_FinishedExitVehicle();
-	void PhysGunLaunchAngularImpulse();
-	void AllowBlockedExit();
-	void InputOutsideTransition();
-	void InputCreateLinkController();
-	void CreateHazardLights();
-	void InputEnableHazardLights();
-	void ExitVehicle();
-	void GetBaseMap();
-	void CPropJeepEpisodic();
-	void PassengerInTransition();
-	void PhysGunLaunchVelocity();
-	void CreateCargoTrigger();
-	void UpdateWheelDust();
-	void UpdateCargoEntry();
-	void CreateAvoidanceZone();
-	void AddPropToCargoHold();
-	void ReleasePropFromCargoHold();
-	void InputReleaseBusterFromCargo();
-	void InputAddBusterToCargo();
-	void OnFailedPhysGunPickup();
-	void CreateHazardLights();
-	void DestroyHazardLights();
-	void EnterVehicle();
-	void InputDisableHazardLights();
-	void SetBusterHopperVisibility();
-	void InputSetCargoVisibility();
-	void InputEnableRadar();
-	void DestroyRadarPanel();
-	void InputDisableRadar();
-	void UpdateRadar();
-	void PassengerShouldReceiveDamage();
-	void ShouldPuntUseLaunchForces();
+	void InputLockEntrance(); // size[0]
+	void InputUnlockEntrance(); // size[0]
+	void InputLockExit(); // size[0]
+	void InputUnlockExit(); // size[0]
+	void InputEnableRadarDetectEnemies(); // size[0]
+	void InputDisableRadarDetectEnemies(); // size[0]
+	void InputDisablePhysGun(); // size[0]
+	void InputEnablePhysGun(); // size[0]
+	void NPC_CanEnterVehicle(); // size[0]
+	void NPC_CanExitVehicle(); // size[0]
+	void HazardBlinkThink(); // size[0]
+	void InputDestroyLinkController(); // size[0]
+	void NPC_FinishedEnterVehicle(); // size[0]
+	void NPC_FinishedExitVehicle(); // size[0]
+	void PhysGunLaunchAngularImpulse(); // size[0]
+	void AllowBlockedExit(); // size[0]
+	void InputOutsideTransition(); // size[0]
+	void InputCreateLinkController(); // size[0]
+	void CreateHazardLights(); // size[0]
+	void InputEnableHazardLights(); // size[0]
+	void ExitVehicle(); // size[0]
+	void GetBaseMap(); // size[0]
+	CPropJeepEpisodic(); // size[0]
+	void PassengerInTransition(); // size[0]
+	void PhysGunLaunchVelocity(); // size[0]
+	void CreateCargoTrigger(); // size[0]
+	void UpdateWheelDust(); // size[0]
+	void UpdateCargoEntry(); // size[0]
+	void CreateAvoidanceZone(); // size[0]
+	void AddPropToCargoHold(); // size[0]
+	void ReleasePropFromCargoHold(); // size[0]
+	void InputReleaseBusterFromCargo(); // size[0]
+	void InputAddBusterToCargo(); // size[0]
+	void OnFailedPhysGunPickup(); // size[0]
+	void CreateHazardLights(); // size[0]
+	void DestroyHazardLights(); // size[0]
+	void EnterVehicle(); // size[0]
+	void InputDisableHazardLights(); // size[0]
+	void SetBusterHopperVisibility(); // size[0]
+	void InputSetCargoVisibility(); // size[0]
+	void InputEnableRadar(); // size[0]
+	void DestroyRadarPanel(); // size[0]
+	void InputDisableRadar(); // size[0]
+	void UpdateRadar(); // size[0]
+	void PassengerShouldReceiveDamage(); // size[0]
+	void ShouldPuntUseLaunchForces(); // size[0]
 };

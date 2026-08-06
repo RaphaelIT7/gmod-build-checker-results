@@ -3,19 +3,38 @@
 class CNPC_BigMomma : public CHL1BaseNPC
 {
 public:
-	virtual void ~CNPC_BigMomma() override; // vtable[0]
-	virtual void ~CNPC_BigMomma() override; // vtable[1]
+	virtual ~CNPC_BigMomma() override; // vtable[0]
+	virtual ~CNPC_BigMomma() override; // vtable[1]
 	virtual void _ZN13CNPC_BigMomma14GetDataDescMapEv() override; // vtable[12]
+	virtual void Spawn() override; // vtable[23]
+	virtual void Precache() override; // vtable[24]
+	virtual void Activate() override; // vtable[34]
+	virtual void OnRestore() override; // vtable[45]
+	virtual void Classify() override; // vtable[55]
+	virtual void DeathNotice() override; // vtable[56]
+	virtual void TraceAttack() override; // vtable[62]
+	virtual void OnTakeDamage() override; // vtable[64]
+	virtual void HandleAnimEvent() override; // vtable[261]
+	virtual void CanBecomeServerRagdoll() override; // vtable[337]
+	virtual void SelectSchedule() override; // vtable[407]
+	virtual void StartTask() override; // vtable[410]
+	virtual void RunTask() override; // vtable[411]
+	virtual void GetSchedulingErrorName() override; // vtable[432]
+	virtual void LoadedSchedules() override; // vtable[433]
 	virtual void _ZN13CNPC_BigMomma11MaxYawSpeedEv() override; // vtable[529]
 	virtual void _ZN13CNPC_BigMomma13SquadSlotNameEi() override; // vtable[581]
+	virtual void RangeAttack1Conditions() override; // vtable[595]
+	virtual void MeleeAttack1Conditions() override; // vtable[597]
+	virtual void MeleeAttack2Conditions() override; // vtable[598]
+	virtual void GetClassScheduleIdSpace() override; // vtable[640]
 
-	void GetBaseMap();
-	void NodeStart();
-	void NodeReach();
-	void ShouldGoToNode();
-	void LayHeadcrab();
-	void LaunchMortar();
-	void InitCustomSchedules();
-	void LoadSchedules();
-	void CScheduleLoader();
+	void GetBaseMap(); // size[0]
+	void NodeStart(); // size[0]
+	void NodeReach(); // size[0]
+	void ShouldGoToNode(); // size[0]
+	void LayHeadcrab(); // size[0]
+	void LaunchMortar(); // size[0]
+	void InitCustomSchedules(); // size[0]
+	void LoadSchedules(); // size[0]
+	CScheduleLoader(); // size[0]
 };

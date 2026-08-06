@@ -135,5 +135,5 @@ public:
 	virtual void NET_IsHostLocal(); // vtable[129]
 	virtual void GMOD_IsEdictActuallyFree(); // vtable[130]
 
-	void Message_CheckMessageLength();
+	void Message_CheckMessageLength(); // size[0]
 };

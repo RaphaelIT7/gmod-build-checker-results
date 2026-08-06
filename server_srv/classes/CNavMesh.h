@@ -3,8 +3,8 @@
 class CNavMesh : public CGameEventListener
 {
 public:
-	virtual void ~CNavMesh() override; // vtable[0]
-	virtual void ~CNavMesh() override; // vtable[1]
+	virtual ~CNavMesh() override; // vtable[0]
+	virtual ~CNavMesh() override; // vtable[1]
 	virtual void FireGameEvent() override; // vtable[2]
 	virtual void PreLoadAreas(); // vtable[3]
 	virtual void CreateArea(); // vtable[4]
@@ -43,177 +43,177 @@ public:
 	virtual void EndCustomAnalysis(); // vtable[37]
 	virtual void DestroyLadder(); // vtable[38]
 
-	void _GLOBAL__sub_I_RemoveNodes();
-	void FindNavAreaOrLadderAlongRay();
-	void SnapToGrid();
-	void SnapToGrid();
-	void GetEditVectors();
-	void FindLadderCorners();
-	void SetEditMode();
-	void FindNavAreaOrLadderAlongRay();
-	void FindActiveNavArea();
-	void FindLadderCorners();
-	void CommandNavBuildLadder();
-	void OnEditModeStart();
-	void OnEditModeEnd();
-	void SetMarkedLadder();
-	void SetMarkedArea();
-	void CommandNavClearSelectedSet();
-	void CommandNavBeginSelecting();
-	void CommandNavEndSelecting();
-	void CommandNavBeginDragSelecting();
-	void CommandNavBeginDragDeselecting();
-	void CommandNavToggleSelecting();
-	void CommandNavBeginDeselecting();
-	void CommandNavEndDeselecting();
-	void CommandNavToggleDeselecting();
-	void CommandNavBeginShiftXY();
-	void CommandNavSplit();
-	void CommandNavMakeSniperSpots();
-	void CommandNavMerge();
-	void CommandNavUnmark();
-	void CommandNavBeginArea();
-	void CommandNavConnect();
-	void CommandNavDisconnect();
-	void CommandNavSplice();
-	void CommandNavTogglePlaceMode();
-	void CommandNavPlaceFloodFill();
-	void CommandNavPlaceSet();
-	void CommandNavPlacePick();
-	void CommandNavTogglePlacePainting();
-	void CommandNavMarkUnnamed();
-	void CommandNavCornerSelect();
-	void CommandNavCornerRaise();
-	void CommandNavCornerLower();
-	void CommandNavCornerPlaceOnGround();
-	void CommandNavWarpToMark();
-	void CommandNavLadderFlip();
-	void ClearDragSelectionSet();
-	void ClearSelectedSet();
-	void IsSelectedSetEmpty();
-	void GetSelecteSetSize();
-	void GetSelectedSet();
-	void IsInSelectedSet();
-	void RemoveFromSelectedSet();
-	void CommandNavRemoveFromSelectedSet();
-	void CommandNavEndDragDeselecting();
-	void RemoveFromDragSelectionSet();
-	void CommandNavDelete();
-	void CommandNavDeleteMarked();
-	void CommandNavStoreSelectedSet();
-	void CommandNavEndArea();
-	void CommandNavDisconnectOutgoingOneWays();
-	void DoToggleAttribute();
-	void CommandNavToggleAttribute();
-	void AddToSelectedSet();
-	void CommandNavRecallSelectedSet();
-	void CommandNavAddToSelectedSet();
-	void CommandNavAddToSelectedSetByID();
-	void CommandNavToggleInSelectedSet();
-	void CommandNavEndDragSelecting();
-	void CommandNavSelectHalfSpace();
-	void CommandNavSelectInvalidAreas();
-	void CommandNavSelectBlockedAreas();
-	void CommandNavSelectObstructedAreas();
-	void CommandNavSelectDamagingAreas();
-	void CommandNavSelectStairs();
-	void CommandNavMark();
-	void CommandNavToggleSelectedSet();
-	void CommandNavSelectOrphans();
-	void AddToDragSelectionSet();
-	void UpdateDragSelectionSet();
-	void DrawEditMode();
-	void CommandNavEndShiftXY();
-	void CommandNavRaiseDragVolumeMax();
-	void CommandNavLowerDragVolumeMax();
-	void CommandNavRaiseDragVolumeMin();
-	void CommandNavLowerDragVolumeMin();
-	void ComputeBattlefrontAreas();
-	void GetFilename();
-	void GetNavDataFromFile();
-	void GetPlacesFromNavFile();
-	void BuildLadders();
-	void MarkPlayerClipAreas();
-	void MarkJumpAreas();
-	void MarkStairAreas();
-	void SquareUpAreas();
-	void MergeGeneratedAreas();
-	void SplitAreasUnderOverhangs();
-	void CheckObstacles();
-	void TestArea();
-	void SetPlayerSpawnName();
-	void GetPlayerSpawnName();
-	void AddNode();
-	void FindGroundForNode();
-	void GetNextWalkableSeedNode();
-	void SampleStep();
-	void CommandNavSubdivide();
-	void ValidateNavAreaConnections();
-	void PostProcessCliffAreas();
-	void ConnectGeneratedAreas();
-	void StitchGeneratedAreas();
-	void StitchAreaSet();
-	void RaiseAreasWithInternalObstacles();
-	void CreateObstacleTopAreaIfNecessary();
-	void RemoveOverlappingObstacleTopAreas();
-	void HandleObstacleTopAreas();
-	void RemoveJumpAreas();
-	void StichAndRemoveJumpAreas();
-	void CommandNavRemoveJumpAreas();
-	void FixConnections();
-	void FixCornerOnCornerAreas();
-	void FixUpGeneratedAreas();
-	void BuildArea();
-	void CreateNavAreasFromNodes();
-	void BeginAnalysis();
-	void CreateLadder();
-	void CreateLadder();
-	void AddWalkableSeed();
-	void BeginGeneration();
-	void UpdateGeneration();
-	void StitchAreaIntoMesh<IncrementallyGeneratedAreas>();
-	void StitchAreaIntoMesh<AreaSet>();
-	void CommandNavSaveSelected();
-	void CommandNavMergeMesh();
-	void GetMarkedArea();
-	void TestAllAreasForBlockedStatus();
-	void GetNavArea();
-	void GetNavArea();
-	void GetNavAreaByID();
-	void GetLadderByID();
-	void PlaceToName();
-	void NameToPlace();
-	void GMOD_ClearPlaces();
-	void PartialNameToPlace();
-	void PlaceNameAutocomplete();
-	void GetGroundHeight();
-	void GetNearestNavArea();
-	void GetNearestNavArea();
-	void GetPlace();
-	void GetSimpleGroundHeight();
-	void DrawDanger();
-	void DrawFuncNavAvoid();
-	void DrawFuncNavPrefer();
-	void IncreaseDangerNearby();
-	void CommandNavMarkWalkable();
-	void DestroyLadders();
-	void StripNavigationAreas();
-	void DestroyHidingSpots();
-	void UpdateBlockedAreas();
-	void UpdateAvoidanceObstacleAreas();
-	void EndVisibilityComputations();
-	void DrawPlayerCounts();
-	void UnregisterAvoidanceObstacle();
-	void DestroyNavigationMesh();
-	void LoadPlaceDatabase();
-	void CNavMesh();
-	void BuildTransientAreaList();
-	void PrintAllPlaces();
-	void RegisterAvoidanceObstacle();
-	void AllocateGrid();
-	void AddNavArea();
-	void BeginVisibilityComputations();
-	void RemoveNodes();
-	void GenerateNodes();
-	void SimplifySelectedAreas();
+	void _GLOBAL__sub_I_RemoveNodes(); // size[0]
+	void FindNavAreaOrLadderAlongRay(); // size[0]
+	void SnapToGrid(); // size[0]
+	void SnapToGrid(); // size[0]
+	void GetEditVectors(); // size[0]
+	void FindLadderCorners(); // size[0]
+	void SetEditMode(); // size[0]
+	void FindNavAreaOrLadderAlongRay(); // size[0]
+	void FindActiveNavArea(); // size[0]
+	void FindLadderCorners(); // size[0]
+	void CommandNavBuildLadder(); // size[0]
+	void OnEditModeStart(); // size[0]
+	void OnEditModeEnd(); // size[0]
+	void SetMarkedLadder(); // size[0]
+	void SetMarkedArea(); // size[0]
+	void CommandNavClearSelectedSet(); // size[0]
+	void CommandNavBeginSelecting(); // size[0]
+	void CommandNavEndSelecting(); // size[0]
+	void CommandNavBeginDragSelecting(); // size[0]
+	void CommandNavBeginDragDeselecting(); // size[0]
+	void CommandNavToggleSelecting(); // size[0]
+	void CommandNavBeginDeselecting(); // size[0]
+	void CommandNavEndDeselecting(); // size[0]
+	void CommandNavToggleDeselecting(); // size[0]
+	void CommandNavBeginShiftXY(); // size[0]
+	void CommandNavSplit(); // size[0]
+	void CommandNavMakeSniperSpots(); // size[0]
+	void CommandNavMerge(); // size[0]
+	void CommandNavUnmark(); // size[0]
+	void CommandNavBeginArea(); // size[0]
+	void CommandNavConnect(); // size[0]
+	void CommandNavDisconnect(); // size[0]
+	void CommandNavSplice(); // size[0]
+	void CommandNavTogglePlaceMode(); // size[0]
+	void CommandNavPlaceFloodFill(); // size[0]
+	void CommandNavPlaceSet(); // size[0]
+	void CommandNavPlacePick(); // size[0]
+	void CommandNavTogglePlacePainting(); // size[0]
+	void CommandNavMarkUnnamed(); // size[0]
+	void CommandNavCornerSelect(); // size[0]
+	void CommandNavCornerRaise(); // size[0]
+	void CommandNavCornerLower(); // size[0]
+	void CommandNavCornerPlaceOnGround(); // size[0]
+	void CommandNavWarpToMark(); // size[0]
+	void CommandNavLadderFlip(); // size[0]
+	void ClearDragSelectionSet(); // size[0]
+	void ClearSelectedSet(); // size[0]
+	void IsSelectedSetEmpty(); // size[0]
+	void GetSelecteSetSize(); // size[0]
+	void GetSelectedSet(); // size[0]
+	void IsInSelectedSet(); // size[0]
+	void RemoveFromSelectedSet(); // size[0]
+	void CommandNavRemoveFromSelectedSet(); // size[0]
+	void CommandNavEndDragDeselecting(); // size[0]
+	void RemoveFromDragSelectionSet(); // size[0]
+	void CommandNavDelete(); // size[0]
+	void CommandNavDeleteMarked(); // size[0]
+	void CommandNavStoreSelectedSet(); // size[0]
+	void CommandNavEndArea(); // size[0]
+	void CommandNavDisconnectOutgoingOneWays(); // size[0]
+	void DoToggleAttribute(); // size[0]
+	void CommandNavToggleAttribute(); // size[0]
+	void AddToSelectedSet(); // size[0]
+	void CommandNavRecallSelectedSet(); // size[0]
+	void CommandNavAddToSelectedSet(); // size[0]
+	void CommandNavAddToSelectedSetByID(); // size[0]
+	void CommandNavToggleInSelectedSet(); // size[0]
+	void CommandNavEndDragSelecting(); // size[0]
+	void CommandNavSelectHalfSpace(); // size[0]
+	void CommandNavSelectInvalidAreas(); // size[0]
+	void CommandNavSelectBlockedAreas(); // size[0]
+	void CommandNavSelectObstructedAreas(); // size[0]
+	void CommandNavSelectDamagingAreas(); // size[0]
+	void CommandNavSelectStairs(); // size[0]
+	void CommandNavMark(); // size[0]
+	void CommandNavToggleSelectedSet(); // size[0]
+	void CommandNavSelectOrphans(); // size[0]
+	void AddToDragSelectionSet(); // size[0]
+	void UpdateDragSelectionSet(); // size[0]
+	void DrawEditMode(); // size[0]
+	void CommandNavEndShiftXY(); // size[0]
+	void CommandNavRaiseDragVolumeMax(); // size[0]
+	void CommandNavLowerDragVolumeMax(); // size[0]
+	void CommandNavRaiseDragVolumeMin(); // size[0]
+	void CommandNavLowerDragVolumeMin(); // size[0]
+	void ComputeBattlefrontAreas(); // size[0]
+	void GetFilename(); // size[0]
+	void GetNavDataFromFile(); // size[0]
+	void GetPlacesFromNavFile(); // size[0]
+	void BuildLadders(); // size[0]
+	void MarkPlayerClipAreas(); // size[0]
+	void MarkJumpAreas(); // size[0]
+	void MarkStairAreas(); // size[0]
+	void SquareUpAreas(); // size[0]
+	void MergeGeneratedAreas(); // size[0]
+	void SplitAreasUnderOverhangs(); // size[0]
+	void CheckObstacles(); // size[0]
+	void TestArea(); // size[0]
+	void SetPlayerSpawnName(); // size[0]
+	void GetPlayerSpawnName(); // size[0]
+	void AddNode(); // size[0]
+	void FindGroundForNode(); // size[0]
+	void GetNextWalkableSeedNode(); // size[0]
+	void SampleStep(); // size[0]
+	void CommandNavSubdivide(); // size[0]
+	void ValidateNavAreaConnections(); // size[0]
+	void PostProcessCliffAreas(); // size[0]
+	void ConnectGeneratedAreas(); // size[0]
+	void StitchGeneratedAreas(); // size[0]
+	void StitchAreaSet(); // size[0]
+	void RaiseAreasWithInternalObstacles(); // size[0]
+	void CreateObstacleTopAreaIfNecessary(); // size[0]
+	void RemoveOverlappingObstacleTopAreas(); // size[0]
+	void HandleObstacleTopAreas(); // size[0]
+	void RemoveJumpAreas(); // size[0]
+	void StichAndRemoveJumpAreas(); // size[0]
+	void CommandNavRemoveJumpAreas(); // size[0]
+	void FixConnections(); // size[0]
+	void FixCornerOnCornerAreas(); // size[0]
+	void FixUpGeneratedAreas(); // size[0]
+	void BuildArea(); // size[0]
+	void CreateNavAreasFromNodes(); // size[0]
+	void BeginAnalysis(); // size[0]
+	void CreateLadder(); // size[0]
+	void CreateLadder(); // size[0]
+	void AddWalkableSeed(); // size[0]
+	void BeginGeneration(); // size[0]
+	void UpdateGeneration(); // size[0]
+	void StitchAreaIntoMesh<IncrementallyGeneratedAreas>(); // size[0]
+	void StitchAreaIntoMesh<AreaSet>(); // size[0]
+	void CommandNavSaveSelected(); // size[0]
+	void CommandNavMergeMesh(); // size[0]
+	void GetMarkedArea(); // size[0]
+	void TestAllAreasForBlockedStatus(); // size[0]
+	void GetNavArea(); // size[0]
+	void GetNavArea(); // size[0]
+	void GetNavAreaByID(); // size[0]
+	void GetLadderByID(); // size[0]
+	void PlaceToName(); // size[0]
+	void NameToPlace(); // size[0]
+	void GMOD_ClearPlaces(); // size[0]
+	void PartialNameToPlace(); // size[0]
+	void PlaceNameAutocomplete(); // size[0]
+	void GetGroundHeight(); // size[0]
+	void GetNearestNavArea(); // size[0]
+	void GetNearestNavArea(); // size[0]
+	void GetPlace(); // size[0]
+	void GetSimpleGroundHeight(); // size[0]
+	void DrawDanger(); // size[0]
+	void DrawFuncNavAvoid(); // size[0]
+	void DrawFuncNavPrefer(); // size[0]
+	void IncreaseDangerNearby(); // size[0]
+	void CommandNavMarkWalkable(); // size[0]
+	void DestroyLadders(); // size[0]
+	void StripNavigationAreas(); // size[0]
+	void DestroyHidingSpots(); // size[0]
+	void UpdateBlockedAreas(); // size[0]
+	void UpdateAvoidanceObstacleAreas(); // size[0]
+	void EndVisibilityComputations(); // size[0]
+	void DrawPlayerCounts(); // size[0]
+	void UnregisterAvoidanceObstacle(); // size[0]
+	void DestroyNavigationMesh(); // size[0]
+	void LoadPlaceDatabase(); // size[0]
+	CNavMesh(); // size[0]
+	void BuildTransientAreaList(); // size[0]
+	void PrintAllPlaces(); // size[0]
+	void RegisterAvoidanceObstacle(); // size[0]
+	void AllocateGrid(); // size[0]
+	void AddNavArea(); // size[0]
+	void BeginVisibilityComputations(); // size[0]
+	void RemoveNodes(); // size[0]
+	void GenerateNodes(); // size[0]
+	void SimplifySelectedAreas(); // size[0]
 };

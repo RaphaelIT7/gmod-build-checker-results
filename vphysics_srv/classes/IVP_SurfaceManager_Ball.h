@@ -10,7 +10,7 @@ public:
 	virtual void get_all_ledges_within_radius(); // vtable[4]
 	virtual void get_all_terminal_ledges(); // vtable[5]
 	virtual void insert_all_ledges_hitting_ray(); // vtable[6]
-	virtual void ~IVP_SurfaceManager_Ball(); // vtable[9]
-	virtual void ~IVP_SurfaceManager_Ball(); // vtable[10]
+	virtual ~IVP_SurfaceManager_Ball(); // vtable[9]
+	virtual ~IVP_SurfaceManager_Ball(); // vtable[10]
 	virtual void get_type() override; // vtable[11]
 };

@@ -3,6 +3,7 @@
 class CXenSporeMed : public CXenSpore
 {
 public:
-	virtual void ~CXenSporeMed() override; // vtable[0]
-	virtual void ~CXenSporeMed() override; // vtable[1]
+	virtual ~CXenSporeMed() override; // vtable[0]
+	virtual ~CXenSporeMed() override; // vtable[1]
+	virtual void Spawn() override; // vtable[23]
 };

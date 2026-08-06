@@ -3,9 +3,10 @@
 class CAutoGameSystem : public CBaseGameSystem
 {
 public:
-	virtual void ~CAutoGameSystem() override; // vtable[13]
-	virtual void ~CAutoGameSystem() override; // vtable[14]
+	virtual void Name() override; // vtable[0]
+	virtual ~CAutoGameSystem() override; // vtable[13]
+	virtual ~CAutoGameSystem() override; // vtable[14]
 
-	void _GLOBAL__sub_I_CAutoGameSystem();
-	void CAutoGameSystem();
+	_GLOBAL__sub_I_CAutoGameSystem(); // size[0]
+	CAutoGameSystem(); // size[0]
 };

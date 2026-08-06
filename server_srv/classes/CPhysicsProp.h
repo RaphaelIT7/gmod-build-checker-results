@@ -3,37 +3,54 @@
 class CPhysicsProp : public CBreakableProp, public INavAvoidanceObstacle
 {
 public:
-	virtual void ~CPhysicsProp() override; // vtable[0]
-	virtual void ~CPhysicsProp() override; // vtable[1]
+	virtual ~CPhysicsProp() override; // vtable[0]
+	virtual ~CPhysicsProp() override; // vtable[1]
 	virtual void GetCollideable() override; // vtable[4]
+	virtual void GetServerClass() override; // vtable[10]
+	virtual void YouForgotToImplementOrDeclareServerClass() override; // vtable[11]
+	virtual void GetDataDescMap() override; // vtable[12]
+	virtual void TestCollision() override; // vtable[14]
+	virtual void Spawn() override; // vtable[23]
+	virtual void Precache() override; // vtable[24]
+	virtual void ObjectCaps() override; // vtable[36]
+	virtual void DrawDebugTextOverlays() override; // vtable[40]
+	virtual void OnTakeDamage() override; // vtable[64]
+	virtual void Use() override; // vtable[100]
+	virtual void CreateVPhysics() override; // vtable[157]
+	virtual void VPhysicsUpdate() override; // vtable[161]
+	virtual void VPhysicsCollision() override; // vtable[165]
+	virtual void UpdateWaterState() override; // vtable[172]
+	virtual void OverridePropdata() override; // vtable[282]
+	virtual void OnPhysGunPickup() override; // vtable[319]
+	virtual void OnPhysGunDrop() override; // vtable[320]
 	virtual void IsPotentiallyAbleToObstructNavAreas(); // vtable[322]
 	virtual void GetNavObstructionHeight(); // vtable[323]
 	virtual void CanObstructNavAreas(); // vtable[324]
 	virtual void GetObstructingEntity(); // vtable[325]
 	virtual void OnNavMeshLoaded(); // vtable[326]
 
-	void GetObstructingEntity();
-	void InputWake();
-	void InputSleep();
-	void InputDisableMotion();
-	void ClearFlagsThink();
-	void InputDisableFloating();
-	void GetNavObstructionHeight();
-	void IsPotentiallyAbleToObstructNavAreas();
-	void CanObstructNavAreas();
-	void OnNavMeshLoaded();
-	void GetBaseMap();
-	void IsGib();
-	void CanBePickedUpByPhyscannon();
-	void GetPropDataAngles();
-	void HandleAnyCollisionInteractions();
-	void GetCarryDistanceOffset();
-	void ComputeEnablingImpulse();
-	void GetMassCenter();
-	void GetMass();
-	void EnableMotion();
-	void InputEnableMotion();
-	void OnPhysGunPickup();
-	void OnPhysGunDrop();
-	void NavThink();
+	void GetObstructingEntity(); // size[0]
+	void InputWake(); // size[0]
+	void InputSleep(); // size[0]
+	void InputDisableMotion(); // size[0]
+	void ClearFlagsThink(); // size[0]
+	void InputDisableFloating(); // size[0]
+	void GetNavObstructionHeight(); // size[0]
+	void IsPotentiallyAbleToObstructNavAreas(); // size[0]
+	void CanObstructNavAreas(); // size[0]
+	void OnNavMeshLoaded(); // size[0]
+	void GetBaseMap(); // size[0]
+	void IsGib(); // size[0]
+	void CanBePickedUpByPhyscannon(); // size[0]
+	void GetPropDataAngles(); // size[0]
+	void HandleAnyCollisionInteractions(); // size[0]
+	void GetCarryDistanceOffset(); // size[0]
+	void ComputeEnablingImpulse(); // size[0]
+	void GetMassCenter(); // size[0]
+	void GetMass(); // size[0]
+	void EnableMotion(); // size[0]
+	void InputEnableMotion(); // size[0]
+	void OnPhysGunPickup(); // size[0]
+	void OnPhysGunDrop(); // size[0]
+	void NavThink(); // size[0]
 };

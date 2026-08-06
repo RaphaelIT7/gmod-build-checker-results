@@ -3,8 +3,8 @@
 class CKnownEntity
 {
 public:
-	virtual void ~CKnownEntity(); // vtable[0]
-	virtual void ~CKnownEntity(); // vtable[1]
+	virtual ~CKnownEntity(); // vtable[0]
+	virtual ~CKnownEntity(); // vtable[1]
 	virtual void Destroy(); // vtable[2]
 	virtual void UpdatePosition(); // vtable[3]
 	virtual void GetEntity(); // vtable[4]

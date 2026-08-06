@@ -35,16 +35,16 @@ public:
 	virtual void GetVecValueInternal(); // vtable[29]
 	virtual void VectorSizeInternal() override; // vtable[30]
 	virtual void operator.cast.to.ITexture*(); // vtable[31]
-	virtual void ~CMaterialVar(); // vtable[32]
-	virtual void ~CMaterialVar(); // vtable[33]
+	virtual ~CMaterialVar(); // vtable[32]
+	virtual ~CMaterialVar(); // vtable[33]
 	virtual void GMOD_SetupNonQueuedVar(); // vtable[34]
 
-	void CMaterialVar();
-	void CMaterialVar();
-	void CMaterialVar();
-	void CMaterialVar();
-	void CMaterialVar();
-	void CMaterialVar();
-	void CleanUpData();
-	void SetVecValueInternal();
+	CMaterialVar(); // size[0]
+	CMaterialVar(); // size[0]
+	CMaterialVar(); // size[0]
+	CMaterialVar(); // size[0]
+	CMaterialVar(); // size[0]
+	CMaterialVar(); // size[0]
+	void CleanUpData(); // size[0]
+	void SetVecValueInternal(); // size[0]
 };

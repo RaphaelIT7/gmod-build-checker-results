@@ -33,37 +33,37 @@ public:
 	virtual void CanUseEditorMaterials(); // vtable[27]
 	virtual void LoadShaderDLL(); // vtable[28]
 
-	void CanUseEditorMaterials();
-	void DrawSnapshot();
-	void GetShaderAPITextureBindHandle();
-	void BindTexture();
-	void TakeSnapshot();
-	void IsUsingGraphics();
-	void BindTexture();
-	void LoadCubeMap();
-	void UnloadShaderDLL();
-	void LoadModShaderDLLs();
-	void VerifyBaseShaderDLL();
-	void FindShaderDLL();
-	void UnloadShaderDLL();
-	void CleanupShaderDictionary();
-	void BufferSpew();
-	void PrintBufferedSpew();
-	void PrepForShaderDraw();
-	void DoneWithShaderDraw();
-	void InitRenderStateFlags();
-	void ComputeRenderStateFlagsFromSnapshot();
-	void GetModulationSnapshotCount();
-	void InitStateSnapshots();
-	void ComputeVertexFormatFromSnapshot();
-	void DrawUsingMaterial();
-	void CopyMaterialVarToDebugShader();
-	void DrawMeasureFillRate();
-	void DrawNormalMap();
-	void DrawEnvmapMask();
-	void CShaderSystem();
-	void UnloadAllShaderDLLs();
-	void SetupShaderDictionary();
-	void LoadAllShaderDLLs();
-	void ~CShaderSystem();
+	void CanUseEditorMaterials(); // size[0]
+	void DrawSnapshot(); // size[0]
+	void GetShaderAPITextureBindHandle(); // size[0]
+	void BindTexture(); // size[0]
+	void TakeSnapshot(); // size[0]
+	void IsUsingGraphics(); // size[0]
+	void BindTexture(); // size[0]
+	void LoadCubeMap(); // size[0]
+	void UnloadShaderDLL(); // size[0]
+	void LoadModShaderDLLs(); // size[0]
+	void VerifyBaseShaderDLL(); // size[0]
+	void FindShaderDLL(); // size[0]
+	void UnloadShaderDLL(); // size[0]
+	void CleanupShaderDictionary(); // size[0]
+	void BufferSpew(); // size[0]
+	void PrintBufferedSpew(); // size[0]
+	void PrepForShaderDraw(); // size[0]
+	void DoneWithShaderDraw(); // size[0]
+	void InitRenderStateFlags(); // size[0]
+	void ComputeRenderStateFlagsFromSnapshot(); // size[0]
+	void GetModulationSnapshotCount(); // size[0]
+	void InitStateSnapshots(); // size[0]
+	void ComputeVertexFormatFromSnapshot(); // size[0]
+	void DrawUsingMaterial(); // size[0]
+	void CopyMaterialVarToDebugShader(); // size[0]
+	void DrawMeasureFillRate(); // size[0]
+	void DrawNormalMap(); // size[0]
+	void DrawEnvmapMask(); // size[0]
+	CShaderSystem(); // size[0]
+	void UnloadAllShaderDLLs(); // size[0]
+	void SetupShaderDictionary(); // size[0]
+	void LoadAllShaderDLLs(); // size[0]
+	~CShaderSystem(); // size[0]
 };

@@ -7,5 +7,5 @@ public:
 	virtual void SetPassEntity(); // vtable[3]
 	virtual void SetCollisionGroup(); // vtable[4]
 
-	void CTraceFilterSimple();
+	CTraceFilterSimple(); // size[0]
 };

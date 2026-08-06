@@ -3,6 +3,6 @@
 class CBotCmd
 {
 public:
-	virtual void ~CBotCmd(); // vtable[0]
-	virtual void ~CBotCmd(); // vtable[1]
+	virtual ~CBotCmd(); // vtable[0]
+	virtual ~CBotCmd(); // vtable[1]
 };

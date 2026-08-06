@@ -3,8 +3,8 @@
 class CPhysicsSpring : public IPhysicsSpring, public IVP_Listener_Object
 {
 public:
-	virtual void ~CPhysicsSpring(); // vtable[0]
-	virtual void ~CPhysicsSpring(); // vtable[1]
+	virtual ~CPhysicsSpring(); // vtable[0]
+	virtual ~CPhysicsSpring(); // vtable[1]
 	virtual void GetEndpoints(); // vtable[2]
 	virtual void SetSpringConstant() override; // vtable[3]
 	virtual void SetSpringDamping(); // vtable[4]
@@ -16,14 +16,14 @@ public:
 	virtual void event_object_revived(); // vtable[10]
 	virtual void event_object_frozen(); // vtable[11]
 
-	void event_object_deleted();
-	void CPhysicsSpring();
-	void AttachListener();
-	void DetachListener();
-	void ~CPhysicsSpring();
-	void ~CPhysicsSpring();
-	void WriteToTemplate();
-	void event_object_created();
-	void event_object_revived();
-	void event_object_frozen();
+	void event_object_deleted(); // size[0]
+	CPhysicsSpring(); // size[0]
+	void AttachListener(); // size[0]
+	void DetachListener(); // size[0]
+	~CPhysicsSpring(); // size[0]
+	~CPhysicsSpring(); // size[0]
+	void WriteToTemplate(); // size[0]
+	void event_object_created(); // size[0]
+	void event_object_revived(); // size[0]
+	void event_object_frozen(); // size[0]
 };

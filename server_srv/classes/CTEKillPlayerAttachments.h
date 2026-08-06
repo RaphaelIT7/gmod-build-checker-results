@@ -3,9 +3,12 @@
 class CTEKillPlayerAttachments : public CBaseTempEntity
 {
 public:
-	virtual void ~CTEKillPlayerAttachments() override; // vtable[2]
-	virtual void ~CTEKillPlayerAttachments() override; // vtable[3]
+	virtual void GetServerClass() override; // vtable[0]
+	virtual void YouForgotToImplementOrDeclareServerClass() override; // vtable[1]
+	virtual ~CTEKillPlayerAttachments() override; // vtable[2]
+	virtual ~CTEKillPlayerAttachments() override; // vtable[3]
+	virtual void Test() override; // vtable[4]
 
-	void _GLOBAL__sub_I_CTEKillPlayerAttachments();
-	void CTEKillPlayerAttachments();
+	_GLOBAL__sub_I_CTEKillPlayerAttachments(); // size[0]
+	CTEKillPlayerAttachments(); // size[0]
 };

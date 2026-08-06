@@ -3,8 +3,20 @@
 class CHLTVClient : public CBaseClient
 {
 public:
-	virtual void ~CHLTVClient() override; // vtable[0]
-	virtual void ~CHLTVClient() override; // vtable[1]
+	virtual ~CHLTVClient() override; // vtable[0]
+	virtual ~CHLTVClient() override; // vtable[1]
+	virtual void SetRate() override; // vtable[15]
+	virtual void SetUpdateRate() override; // vtable[17]
+	virtual void ExecuteStringCommand() override; // vtable[22]
+	virtual void ProcessSetConVar() override; // vtable[36]
+	virtual void ProcessClientInfo() override; // vtable[38]
+	virtual void ProcessListenEvents() override; // vtable[40]
+	virtual void ShouldSendMessages() override; // vtable[44]
+	virtual void UpdateUserSettings() override; // vtable[47]
+	virtual void GetDeltaFrame() override; // vtable[50]
+	virtual void SendSnapshot() override; // vtable[51]
+	virtual void SendSignonData() override; // vtable[53]
+	virtual void SpawnPlayer() override; // vtable[54]
 	virtual void ConnectionClosing(); // vtable[60]
 	virtual void ConnectionCrashed(); // vtable[61]
 	virtual void PacketStart(); // vtable[62]
@@ -22,31 +34,31 @@ public:
 	virtual void ProcessSaveReplay(); // vtable[74]
 	virtual void ProcessGMod_ClientToServer(); // vtable[75]
 
-	void _GLOBAL__sub_I_CHLTVClient();
-	void ProcessMove();
-	void ProcessListenEvents();
-	void ProcessRespondCvarValue();
-	void ProcessFileCRCCheck();
-	void ProcessVoiceData();
-	void ProcessGMod_ClientToServer();
-	void ConnectionClosing();
-	void ConnectionCrashed();
-	void PacketStart();
-	void PacketEnd();
-	void ShouldAcceptFile();
-	void FileSent();
-	void SetUpdateRate();
-	void FileRequested();
-	void FileDenied();
-	void FileReceived();
-	void ~CHLTVClient();
-	void ~CHLTVClient();
-	void ~CHLTVClient();
-	void ~CHLTVClient();
-	void CHLTVClient();
-	void ProcessClientInfo();
-	void ExecuteStringCommand();
-	void SetRate();
-	void ProcessSetConVar();
-	void ProcessFileMD5Check();
+	_GLOBAL__sub_I_CHLTVClient(); // size[0]
+	void ProcessMove(); // size[0]
+	void ProcessListenEvents(); // size[0]
+	void ProcessRespondCvarValue(); // size[0]
+	void ProcessFileCRCCheck(); // size[0]
+	void ProcessVoiceData(); // size[0]
+	void ProcessGMod_ClientToServer(); // size[0]
+	void ConnectionClosing(); // size[0]
+	void ConnectionCrashed(); // size[0]
+	void PacketStart(); // size[0]
+	void PacketEnd(); // size[0]
+	void ShouldAcceptFile(); // size[0]
+	void FileSent(); // size[0]
+	void SetUpdateRate(); // size[0]
+	void FileRequested(); // size[0]
+	void FileDenied(); // size[0]
+	void FileReceived(); // size[0]
+	~CHLTVClient(); // size[0]
+	~CHLTVClient(); // size[0]
+	~CHLTVClient(); // size[0]
+	~CHLTVClient(); // size[0]
+	CHLTVClient(); // size[0]
+	void ProcessClientInfo(); // size[0]
+	void ExecuteStringCommand(); // size[0]
+	void SetRate(); // size[0]
+	void ProcessSetConVar(); // size[0]
+	void ProcessFileMD5Check(); // size[0]
 };

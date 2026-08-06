@@ -3,8 +3,8 @@
 class CPhysics_Airboat : public IVP_Car_System, public IVP_Controller_Dependent
 {
 public:
-	virtual void ~CPhysics_Airboat(); // vtable[0]
-	virtual void ~CPhysics_Airboat(); // vtable[1]
+	virtual ~CPhysics_Airboat(); // vtable[0]
+	virtual ~CPhysics_Airboat(); // vtable[1]
 	virtual void do_steering_wheel(); // vtable[2]
 	virtual void change_spring_constant(); // vtable[3]
 	virtual void change_spring_dampening(); // vtable[4]
@@ -42,43 +42,43 @@ public:
 	virtual void do_simulation_controller(); // vtable[36]
 	virtual void get_controller_priority(); // vtable[37]
 
-	void CPhysics_Airboat();
-	void _GLOBAL__sub_I_CPhysics_Airboat();
-	void get_controller_priority();
-	void get_associated_controlled_cores();
-	void do_steering();
-	void ~CPhysics_Airboat();
-	void ~CPhysics_Airboat();
-	void core_is_going_to_be_deleted_event();
-	void InitAirboat();
-	void GetWheel();
-	void SetWheelFriction();
-	void ComputeFrontPontoonWaveNoise();
-	void pre_raycasts_gameside();
-	void GetWaterDepth();
-	void do_raycasts_gameside();
-	void PreRaycasts();
-	void UpdateAirborneState();
-	void PostRaycasts();
-	void DoSimulationPontoonsGround();
-	void DoSimulationPontoons();
-	void DoSimulationPontoonsWater();
-	void PerformFrictionNotification();
-	void DoSimulationDrag();
-	void DoSimulationTurbine();
-	void DoSimulationSteering();
-	void DoSimulationGravity();
-	void CountSurfaceContactPoints();
-	void DoSimulationKeepUprightPitch();
-	void DoSimulationKeepUprightRoll();
-	void do_simulation_controller();
-	void change_friction_of_wheel();
-	void InitRaycastCarEnvironment();
-	void InitRaycastCarBody();
-	void InitRaycastCarWheels();
-	void CPhysics_Airboat();
-	void InitRaycastCarAxes();
-	void get_axle();
-	void get_wheel();
-	void get_controller_name();
+	CPhysics_Airboat(); // size[0]
+	_GLOBAL__sub_I_CPhysics_Airboat(); // size[0]
+	void get_controller_priority(); // size[0]
+	void get_associated_controlled_cores(); // size[0]
+	void do_steering(); // size[0]
+	~CPhysics_Airboat(); // size[0]
+	~CPhysics_Airboat(); // size[0]
+	void core_is_going_to_be_deleted_event(); // size[0]
+	void InitAirboat(); // size[0]
+	void GetWheel(); // size[0]
+	void SetWheelFriction(); // size[0]
+	void ComputeFrontPontoonWaveNoise(); // size[0]
+	void pre_raycasts_gameside(); // size[0]
+	void GetWaterDepth(); // size[0]
+	void do_raycasts_gameside(); // size[0]
+	void PreRaycasts(); // size[0]
+	void UpdateAirborneState(); // size[0]
+	void PostRaycasts(); // size[0]
+	void DoSimulationPontoonsGround(); // size[0]
+	void DoSimulationPontoons(); // size[0]
+	void DoSimulationPontoonsWater(); // size[0]
+	void PerformFrictionNotification(); // size[0]
+	void DoSimulationDrag(); // size[0]
+	void DoSimulationTurbine(); // size[0]
+	void DoSimulationSteering(); // size[0]
+	void DoSimulationGravity(); // size[0]
+	void CountSurfaceContactPoints(); // size[0]
+	void DoSimulationKeepUprightPitch(); // size[0]
+	void DoSimulationKeepUprightRoll(); // size[0]
+	void do_simulation_controller(); // size[0]
+	void change_friction_of_wheel(); // size[0]
+	void InitRaycastCarEnvironment(); // size[0]
+	void InitRaycastCarBody(); // size[0]
+	void InitRaycastCarWheels(); // size[0]
+	CPhysics_Airboat(); // size[0]
+	void InitRaycastCarAxes(); // size[0]
+	void get_axle(); // size[0]
+	void get_wheel(); // size[0]
+	void get_controller_name(); // size[0]
 };

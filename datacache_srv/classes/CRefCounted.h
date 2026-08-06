@@ -3,6 +3,6 @@
 class CRefCounted : public CRefCountServiceBase
 {
 public:
-	virtual void ~CRefCounted() override; // vtable[0]
-	virtual void ~CRefCounted() override; // vtable[1]
+	virtual ~CRefCounted() override; // vtable[0]
+	virtual ~CRefCounted() override; // vtable[1]
 };

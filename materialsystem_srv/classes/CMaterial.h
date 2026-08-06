@@ -96,38 +96,39 @@ public:
 	virtual void GetChangeID(); // vtable[90]
 	virtual void IsTranslucentInternal(); // vtable[91]
 	virtual void IsRealTimeVersion(); // vtable[92]
+	virtual void ClearContextData() override; // vtable[93]
 	virtual void GetRealTimeVersion(); // vtable[94]
 	virtual void GetQueueFriendlyVersion(); // vtable[95]
 	virtual void PrecacheMappingDimensions(); // vtable[96]
 	virtual void FindRepresentativeTexture(); // vtable[97]
 	virtual void DecideShouldReloadFromWhitelist(); // vtable[98]
 	virtual void ReloadFromWhitelistIfMarked() override; // vtable[99]
-	virtual void ~CMaterial(); // vtable[100]
-	virtual void ~CMaterial(); // vtable[101]
+	virtual ~CMaterial(); // vtable[100]
+	virtual ~CMaterial(); // vtable[101]
 
-	void CleanUpStateSnapshots();
-	void DecideShouldReloadFromWhitelist();
-	void CreateRenderPassList();
-	void DestroyRenderPassList();
-	void GetDummyVariable();
-	void CleanUpShaderParams();
-	void InitializeMaterialProxy();
-	void CleanUpMaterialProxy();
-	void DetermineProxyReplacements();
-	void FindMaterialVarFlag();
-	void PrintMaterialFlags();
-	void ParseMaterialFlag();
-	void ShouldSkipVar();
-	void ParseMaterialVars();
-	void InitializeStateSnapshots();
-	void CleanUpStateSnapshots();
-	void SetupErrorShader();
-	void IsUsingDiffuseBumpedLighting();
-	void IsUsingLightmap();
-	void UsesUNCFileName();
-	void GetPreviewImageName();
-	void GetPreviewImageFileName();
-	void GetShaderParam();
-	void CMaterial();
-	void InitializeShader();
+	void CleanUpStateSnapshots(); // size[0]
+	void DecideShouldReloadFromWhitelist(); // size[0]
+	void CreateRenderPassList(); // size[0]
+	void DestroyRenderPassList(); // size[0]
+	void GetDummyVariable(); // size[0]
+	void CleanUpShaderParams(); // size[0]
+	void InitializeMaterialProxy(); // size[0]
+	void CleanUpMaterialProxy(); // size[0]
+	void DetermineProxyReplacements(); // size[0]
+	void FindMaterialVarFlag(); // size[0]
+	void PrintMaterialFlags(); // size[0]
+	void ParseMaterialFlag(); // size[0]
+	void ShouldSkipVar(); // size[0]
+	void ParseMaterialVars(); // size[0]
+	void InitializeStateSnapshots(); // size[0]
+	void CleanUpStateSnapshots(); // size[0]
+	void SetupErrorShader(); // size[0]
+	void IsUsingDiffuseBumpedLighting(); // size[0]
+	void IsUsingLightmap(); // size[0]
+	void UsesUNCFileName(); // size[0]
+	void GetPreviewImageName(); // size[0]
+	void GetPreviewImageFileName(); // size[0]
+	void GetShaderParam(); // size[0]
+	CMaterial(); // size[0]
+	void InitializeShader(); // size[0]
 };

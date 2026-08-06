@@ -38,5 +38,5 @@ public:
 	virtual void HandleThreadEvent(); // vtable[32]
 	virtual void DoStartupShaderPreloading(); // vtable[33]
 
-	void ~CShaderDeviceEmpty();
+	~CShaderDeviceEmpty(); // size[0]
 };

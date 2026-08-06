@@ -3,8 +3,8 @@
 class CPhysicsConstraintGroup : public IPhysicsConstraintGroup
 {
 public:
-	virtual void ~CPhysicsConstraintGroup(); // vtable[0]
-	virtual void ~CPhysicsConstraintGroup(); // vtable[1]
+	virtual ~CPhysicsConstraintGroup(); // vtable[0]
+	virtual ~CPhysicsConstraintGroup(); // vtable[1]
 	virtual void Activate(); // vtable[2]
 	virtual void IsInErrorState(); // vtable[3]
 	virtual void ClearErrorState(); // vtable[4]
@@ -12,6 +12,6 @@ public:
 	virtual void SetErrorParams(); // vtable[6]
 	virtual void SolvePenetration(); // vtable[7]
 
-	void CPhysicsConstraintGroup();
-	void CPhysicsConstraintGroup();
+	CPhysicsConstraintGroup(); // size[0]
+	CPhysicsConstraintGroup(); // size[0]
 };

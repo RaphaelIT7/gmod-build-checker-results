@@ -3,63 +3,63 @@
 class IVP_Controller_Raycast_Car : public IVP_Car_System, public IVP_Controller_Dependent
 {
 public:
-	void IVP_Controller_Raycast_Car();
-	void _GLOBAL__sub_I_do_simulation_controller();
-	void change_spring_constant();
-	void change_spring_dampening();
-	void change_spring_dampening_compression();
-	void change_spring_pre_tension();
-	void change_spring_length();
-	void get_wheel_torque();
-	void fix_wheel();
-	void change_stabilizer_constant();
-	void change_fast_turn_factor();
-	void change_body_downforce();
-	void get_controller_priority();
-	void set_booster_acceleration();
-	void get_booster_delay();
-	void get_wheel_angular_velocity();
-	void get_body_speed();
-	void get_orig_front_wheel_distance();
-	void get_orig_axles_distance();
-	void get_skid_info();
-	void SetCarSystemDebugData();
-	void GetCarSystemDebugData();
-	void do_steering_wheel();
-	void change_wheel_torque();
-	void activate_booster();
-	void get_controller_priority();
-	void do_steering();
-	void do_steering();
-	void SetupWheelRaycasts();
-	void DoSimulationWheels();
-	void DoSimulationStabilizers();
-	void DoSimulationShocks();
-	void DoSimulationBooster();
-	void CalcSteeringForces();
-	void ApplySteeringForces();
-	void DoSimulationSteering();
-	void do_simulation_controller();
-	void do_simulation_controller();
-	void ~IVP_Controller_Raycast_Car();
-	void ~IVP_Controller_Raycast_Car();
-	void ~IVP_Controller_Raycast_Car();
-	void ~IVP_Controller_Raycast_Car();
-	void InitRaycastCarEnvironment();
-	void InitRaycastCarBody();
-	void InitRaycastCarWheels();
-	void IVP_Controller_Raycast_Car();
-	void InitRaycastCarAxes();
-	void core_is_going_to_be_deleted_event();
-	void core_is_going_to_be_deleted_event();
-	void get_associated_controlled_cores();
-	void get_associated_controlled_cores();
-	void change_max_body_force();
-	void update_throttle();
-	void update_body_countertorque();
-	void set_powerslide();
-	void update_booster();
-	void get_booster_time_to_go();
-	void get_wheel();
-	void get_axis();
+	IVP_Controller_Raycast_Car(); // size[0]
+	void _GLOBAL__sub_I_do_simulation_controller(); // size[0]
+	void change_spring_constant(); // size[0]
+	void change_spring_dampening(); // size[0]
+	void change_spring_dampening_compression(); // size[0]
+	void change_spring_pre_tension(); // size[0]
+	void change_spring_length(); // size[0]
+	void get_wheel_torque(); // size[0]
+	void fix_wheel(); // size[0]
+	void change_stabilizer_constant(); // size[0]
+	void change_fast_turn_factor(); // size[0]
+	void change_body_downforce(); // size[0]
+	void get_controller_priority(); // size[0]
+	void set_booster_acceleration(); // size[0]
+	void get_booster_delay(); // size[0]
+	void get_wheel_angular_velocity(); // size[0]
+	void get_body_speed(); // size[0]
+	void get_orig_front_wheel_distance(); // size[0]
+	void get_orig_axles_distance(); // size[0]
+	void get_skid_info(); // size[0]
+	void SetCarSystemDebugData(); // size[0]
+	void GetCarSystemDebugData(); // size[0]
+	void do_steering_wheel(); // size[0]
+	void change_wheel_torque(); // size[0]
+	void activate_booster(); // size[0]
+	void get_controller_priority(); // size[0]
+	void do_steering(); // size[0]
+	void do_steering(); // size[0]
+	void SetupWheelRaycasts(); // size[0]
+	void DoSimulationWheels(); // size[0]
+	void DoSimulationStabilizers(); // size[0]
+	void DoSimulationShocks(); // size[0]
+	void DoSimulationBooster(); // size[0]
+	void CalcSteeringForces(); // size[0]
+	void ApplySteeringForces(); // size[0]
+	void DoSimulationSteering(); // size[0]
+	void do_simulation_controller(); // size[0]
+	void do_simulation_controller(); // size[0]
+	~IVP_Controller_Raycast_Car(); // size[0]
+	~IVP_Controller_Raycast_Car(); // size[0]
+	~IVP_Controller_Raycast_Car(); // size[0]
+	~IVP_Controller_Raycast_Car(); // size[0]
+	void InitRaycastCarEnvironment(); // size[0]
+	void InitRaycastCarBody(); // size[0]
+	void InitRaycastCarWheels(); // size[0]
+	IVP_Controller_Raycast_Car(); // size[0]
+	void InitRaycastCarAxes(); // size[0]
+	void core_is_going_to_be_deleted_event(); // size[0]
+	void core_is_going_to_be_deleted_event(); // size[0]
+	void get_associated_controlled_cores(); // size[0]
+	void get_associated_controlled_cores(); // size[0]
+	void change_max_body_force(); // size[0]
+	void update_throttle(); // size[0]
+	void update_body_countertorque(); // size[0]
+	void set_powerslide(); // size[0]
+	void update_booster(); // size[0]
+	void get_booster_time_to_go(); // size[0]
+	void get_wheel(); // size[0]
+	void get_axis(); // size[0]
 };

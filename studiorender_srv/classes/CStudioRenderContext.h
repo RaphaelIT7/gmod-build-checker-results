@@ -3,6 +3,11 @@
 class CStudioRenderContext : public CTier3AppSystem
 {
 public:
+	virtual void Connect() override; // vtable[0]
+	virtual void Disconnect() override; // vtable[1]
+	virtual void QueryInterface() override; // vtable[2]
+	virtual void Init() override; // vtable[3]
+	virtual void Shutdown() override; // vtable[4]
 	virtual void BeginFrame(); // vtable[5]
 	virtual void EndFrame(); // vtable[6]
 	virtual void Mat_Stub(); // vtable[7]
@@ -50,31 +55,31 @@ public:
 	virtual void GMOD_ResetMaterialOverridesByIndex(); // vtable[49]
 	virtual void GMOD_MeshOverrideCount(); // vtable[50]
 	virtual void GMOD_MeshOverride() override; // vtable[51]
-	virtual void ~CStudioRenderContext(); // vtable[52]
-	virtual void ~CStudioRenderContext(); // vtable[53]
+	virtual ~CStudioRenderContext(); // vtable[52]
+	virtual ~CStudioRenderContext(); // vtable[53]
 
-	void _GLOBAL__sub_I_GetTriangles();
-	void GetMaterialList();
-	void CStudioRenderContext();
-	void ComputeMaterialFlags();
-	void LoadMaterials();
-	void CountDeltaFlexedStripGroups();
-	void CountFlexedVertices();
-	void DetermineHWMorphing();
-	void R_StudioBuildMorph();
-	void R_StudioBuildMeshStrips();
-	void GetNumBoneWeights();
-	void CalculateVertexFormat();
-	void MeshNeedsTangentSpace();
-	void R_StudioDestroyStaticMeshes();
-	void BuildDecalBoneMap();
-	void ComputeHWMorphDecalBoneRemap();
-	void GenerateRandomFlexWeights();
-	void ComputeRenderLOD();
-	void InvokeBindProxies();
-	void R_StudioBuildMeshGroup();
-	void R_StudioCreateSingleMesh();
-	void R_StudioCreateStaticMeshes();
-	void R_AddVertexToMesh<(VertexCompressionType_t)1>();
-	void R_AddVertexToMesh<(VertexCompressionType_t)0>();
+	void _GLOBAL__sub_I_GetTriangles(); // size[0]
+	void GetMaterialList(); // size[0]
+	CStudioRenderContext(); // size[0]
+	void ComputeMaterialFlags(); // size[0]
+	void LoadMaterials(); // size[0]
+	void CountDeltaFlexedStripGroups(); // size[0]
+	void CountFlexedVertices(); // size[0]
+	void DetermineHWMorphing(); // size[0]
+	void R_StudioBuildMorph(); // size[0]
+	void R_StudioBuildMeshStrips(); // size[0]
+	void GetNumBoneWeights(); // size[0]
+	void CalculateVertexFormat(); // size[0]
+	void MeshNeedsTangentSpace(); // size[0]
+	void R_StudioDestroyStaticMeshes(); // size[0]
+	void BuildDecalBoneMap(); // size[0]
+	void ComputeHWMorphDecalBoneRemap(); // size[0]
+	void GenerateRandomFlexWeights(); // size[0]
+	void ComputeRenderLOD(); // size[0]
+	void InvokeBindProxies(); // size[0]
+	void R_StudioBuildMeshGroup(); // size[0]
+	void R_StudioCreateSingleMesh(); // size[0]
+	void R_StudioCreateStaticMeshes(); // size[0]
+	void R_AddVertexToMesh<(VertexCompressionType_t)1>(); // size[0]
+	void R_AddVertexToMesh<(VertexCompressionType_t)0>(); // size[0]
 };

@@ -5,6 +5,6 @@ class CTongueEntitiesEnum : public IPartitionEnumerator
 public:
 	virtual void EnumElement() override; // vtable[0]
 
-	void CTongueEntitiesEnum();
-	void AddToList();
+	CTongueEntitiesEnum(); // size[0]
+	void AddToList(); // size[0]
 };

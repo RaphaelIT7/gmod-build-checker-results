@@ -3,9 +3,20 @@
 class CSceneEntity : public CPointEntity, public IChoreoEventCallback
 {
 public:
-	virtual void ~CSceneEntity() override; // vtable[0]
-	virtual void ~CSceneEntity() override; // vtable[1]
+	virtual ~CSceneEntity() override; // vtable[0]
+	virtual ~CSceneEntity() override; // vtable[1]
 	virtual void GetRefEHandle() override; // vtable[3]
+	virtual void GetServerClass() override; // vtable[10]
+	virtual void YouForgotToImplementOrDeclareServerClass() override; // vtable[11]
+	virtual void GetDataDescMap() override; // vtable[12]
+	virtual void ShouldTransmit() override; // vtable[19]
+	virtual void UpdateTransmitState() override; // vtable[20]
+	virtual void Spawn() override; // vtable[23]
+	virtual void Precache() override; // vtable[24]
+	virtual void Activate() override; // vtable[34]
+	virtual void OnRestore() override; // vtable[45]
+	virtual void Think() override; // vtable[48]
+	virtual void UpdateOnRemove() override; // vtable[108]
 	virtual void StartEvent(); // vtable[246]
 	virtual void EndEvent(); // vtable[247]
 	virtual void ProcessEvent(); // vtable[248]
@@ -58,54 +69,54 @@ public:
 	virtual void FindNamedEntity(); // vtable[295]
 	virtual void FindNamedEntityClosest(); // vtable[296]
 
-	void InputPausePlayback();
-	void InputResumePlayback();
-	void InputPitchShiftPlayback();
-	void InputStopWaitingForActor();
-	void SpeakEventSoundLessFunc();
-	void InputCancelPlayback();
-	void InputCancelAtNextInterrupt();
-	void InputTriggerEvent();
-	void DispatchPauseScene();
-	void ProcessEvent();
-	void InputScriptPlayerDeath();
-	void CheckEvent();
-	void StartEvent();
-	void EndEvent();
-	void GetBaseMap();
-	void SetCurrentTime();
-	void GenerateSceneForSound();
-	void GetSoundSystemLatency();
-	void GenerateSoundScene();
-	void HasUnplayedSpeech();
-	void HasFlexAnimation();
-	void SetBackground();
-	void IsBackground();
-	void IsInterruptable();
-	void GetSoundNameForPlayer();
-	void InvolvesActor();
-	void CancelIfSceneInvolvesActor();
-	void ValidScene();
-	void ShouldNetwork();
-	void FindNamedTarget();
-	void ClearSceneEvents();
-	void UnloadScene();
-	void ClearSchedules();
-	void SetRecipientFilter();
-	void CheckActors();
-	void LoadScene();
-	void PrecacheScene();
-	void PrefetchSpeakEventSounds();
-	void InputSetTarget1();
-	void InputSetTarget2();
-	void InputSetTarget3();
-	void InputSetTarget4();
-	void ClearActivatorTargets();
-	void InputStartPlayback();
-	void CSceneEntity();
-	void InputInterjectResponse();
-	void RequestCompletionNotification();
-	void AddListManager();
-	void BuildSortedSpeakEventSoundsPrefetchList();
-	void PrefetchAnimBlocks();
+	void InputPausePlayback(); // size[0]
+	void InputResumePlayback(); // size[0]
+	void InputPitchShiftPlayback(); // size[0]
+	void InputStopWaitingForActor(); // size[0]
+	void SpeakEventSoundLessFunc(); // size[0]
+	void InputCancelPlayback(); // size[0]
+	void InputCancelAtNextInterrupt(); // size[0]
+	void InputTriggerEvent(); // size[0]
+	void DispatchPauseScene(); // size[0]
+	void ProcessEvent(); // size[0]
+	void InputScriptPlayerDeath(); // size[0]
+	void CheckEvent(); // size[0]
+	void StartEvent(); // size[0]
+	void EndEvent(); // size[0]
+	void GetBaseMap(); // size[0]
+	void SetCurrentTime(); // size[0]
+	void GenerateSceneForSound(); // size[0]
+	void GetSoundSystemLatency(); // size[0]
+	void GenerateSoundScene(); // size[0]
+	void HasUnplayedSpeech(); // size[0]
+	void HasFlexAnimation(); // size[0]
+	void SetBackground(); // size[0]
+	void IsBackground(); // size[0]
+	void IsInterruptable(); // size[0]
+	void GetSoundNameForPlayer(); // size[0]
+	void InvolvesActor(); // size[0]
+	void CancelIfSceneInvolvesActor(); // size[0]
+	void ValidScene(); // size[0]
+	void ShouldNetwork(); // size[0]
+	void FindNamedTarget(); // size[0]
+	void ClearSceneEvents(); // size[0]
+	void UnloadScene(); // size[0]
+	void ClearSchedules(); // size[0]
+	void SetRecipientFilter(); // size[0]
+	void CheckActors(); // size[0]
+	void LoadScene(); // size[0]
+	void PrecacheScene(); // size[0]
+	void PrefetchSpeakEventSounds(); // size[0]
+	void InputSetTarget1(); // size[0]
+	void InputSetTarget2(); // size[0]
+	void InputSetTarget3(); // size[0]
+	void InputSetTarget4(); // size[0]
+	void ClearActivatorTargets(); // size[0]
+	void InputStartPlayback(); // size[0]
+	CSceneEntity(); // size[0]
+	void InputInterjectResponse(); // size[0]
+	void RequestCompletionNotification(); // size[0]
+	void AddListManager(); // size[0]
+	void BuildSortedSpeakEventSoundsPrefetchList(); // size[0]
+	void PrefetchAnimBlocks(); // size[0]
 };

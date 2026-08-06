@@ -3,7 +3,9 @@
 class CPhysFixed : public CPhysConstraint
 {
 public:
-	virtual void ~CPhysFixed() override; // vtable[0]
-	virtual void ~CPhysFixed() override; // vtable[1]
+	virtual ~CPhysFixed() override; // vtable[0]
+	virtual ~CPhysFixed() override; // vtable[1]
+	virtual void DrawDebugGeometryOverlays() override; // vtable[39]
+	virtual void DrawDebugTextOverlays() override; // vtable[40]
 	virtual void CreateConstraint() override; // vtable[248]
 };

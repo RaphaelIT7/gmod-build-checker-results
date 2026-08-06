@@ -37,13 +37,13 @@ public:
 	virtual void DoFind(); // vtable[31]
 	virtual void OnRemove(); // vtable[32]
 
-	void CDataCacheSection();
-	void ~CDataCacheSection();
-	void GetLimits();
-	void GetFirstUnlockedItem();
-	void GetFirstLockedItem();
-	void GetNextItem();
-	void DiscardItemData();
-	void DiscardItem();
-	void PurgeItems();
+	CDataCacheSection(); // size[0]
+	~CDataCacheSection(); // size[0]
+	void GetLimits(); // size[0]
+	void GetFirstUnlockedItem(); // size[0]
+	void GetFirstLockedItem(); // size[0]
+	void GetNextItem(); // size[0]
+	void DiscardItemData(); // size[0]
+	void DiscardItem(); // size[0]
+	void PurgeItems(); // size[0]
 };

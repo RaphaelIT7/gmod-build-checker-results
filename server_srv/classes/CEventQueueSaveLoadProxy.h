@@ -3,6 +3,8 @@
 class CEventQueueSaveLoadProxy : public CLogicalEntity
 {
 public:
-	virtual void ~CEventQueueSaveLoadProxy() override; // vtable[0]
-	virtual void ~CEventQueueSaveLoadProxy() override; // vtable[1]
+	virtual ~CEventQueueSaveLoadProxy() override; // vtable[0]
+	virtual ~CEventQueueSaveLoadProxy() override; // vtable[1]
+	virtual void Save() override; // vtable[41]
+	virtual void Restore() override; // vtable[42]
 };

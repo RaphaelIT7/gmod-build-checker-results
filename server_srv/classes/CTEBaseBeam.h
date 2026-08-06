@@ -3,10 +3,12 @@
 class CTEBaseBeam : public CBaseTempEntity
 {
 public:
-	virtual void ~CTEBaseBeam() override; // vtable[2]
-	virtual void ~CTEBaseBeam() override; // vtable[3]
+	virtual void GetServerClass() override; // vtable[0]
+	virtual void YouForgotToImplementOrDeclareServerClass() override; // vtable[1]
+	virtual ~CTEBaseBeam() override; // vtable[2]
+	virtual ~CTEBaseBeam() override; // vtable[3]
 	virtual void __cxa_pure_virtual() override; // vtable[4]
 
-	void _GLOBAL__sub_I_CTEBaseBeam();
-	void CTEBaseBeam();
+	_GLOBAL__sub_I_CTEBaseBeam(); // size[0]
+	CTEBaseBeam(); // size[0]
 };

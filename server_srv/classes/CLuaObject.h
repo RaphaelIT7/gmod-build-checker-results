@@ -99,12 +99,12 @@ public:
 	virtual void GetMemberEntity(); // vtable[93]
 	virtual void GetMemberMatrix(); // vtable[94]
 
-	void CLuaObject();
-	void CLuaObject();
-	void CLuaObject();
-	void CLuaObject();
-	void CLuaObject();
-	void ~CLuaObject();
-	void GetMemberTypedUserData();
-	void GetMemberTypedUserData();
+	CLuaObject(); // size[0]
+	CLuaObject(); // size[0]
+	CLuaObject(); // size[0]
+	CLuaObject(); // size[0]
+	CLuaObject(); // size[0]
+	~CLuaObject(); // size[0]
+	void GetMemberTypedUserData(); // size[0]
+	void GetMemberTypedUserData(); // size[0]
 };

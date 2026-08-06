@@ -3,21 +3,43 @@
 class CNPC_Headcrab : public CHL1BaseNPC
 {
 public:
-	virtual void ~CNPC_Headcrab() override; // vtable[0]
-	virtual void ~CNPC_Headcrab() override; // vtable[1]
+	virtual ~CNPC_Headcrab() override; // vtable[0]
+	virtual ~CNPC_Headcrab() override; // vtable[1]
+	virtual void GetDataDescMap() override; // vtable[12]
+	virtual void Spawn() override; // vtable[23]
+	virtual void Precache() override; // vtable[24]
+	virtual void Classify() override; // vtable[55]
+	virtual void Touch() override; // vtable[102]
+	virtual void BodyTarget() override; // vtable[137]
+	virtual void HandleAnimEvent() override; // vtable[261]
+	virtual void OnTakeDamage_Alive() override; // vtable[338]
+	virtual void PrescheduleThink() override; // vtable[403]
+	virtual void SelectSchedule() override; // vtable[407]
+	virtual void TranslateSchedule() override; // vtable[409]
+	virtual void StartTask() override; // vtable[410]
+	virtual void RunTask() override; // vtable[411]
+	virtual void GetSchedulingErrorName() override; // vtable[432]
+	virtual void LoadedSchedules() override; // vtable[433]
+	virtual void DeathSound() override; // vtable[507]
+	virtual void AlertSound() override; // vtable[508]
+	virtual void IdleSound() override; // vtable[509]
+	virtual void PainSound() override; // vtable[510]
+	virtual void MaxYawSpeed() override; // vtable[529]
 	virtual void _ZN13CNPC_Headcrab13SquadSlotNameEi() override; // vtable[581]
+	virtual void RangeAttack1Conditions() override; // vtable[595]
+	virtual void GetClassScheduleIdSpace() override; // vtable[640]
 	virtual void GetVoicePitch(); // vtable[652]
 	virtual void GetSoundVolume(); // vtable[653]
 
-	void GetBaseMap();
-	void GetDamageAmount();
-	void Center();
-	void TouchDamage();
-	void HeadCrabSound();
-	void BiteSound();
-	void LeapTouch();
-	void AttackSound();
-	void InitCustomSchedules();
-	void LoadSchedules();
-	void CScheduleLoader();
+	void GetBaseMap(); // size[0]
+	void GetDamageAmount(); // size[0]
+	void Center(); // size[0]
+	void TouchDamage(); // size[0]
+	void HeadCrabSound(); // size[0]
+	void BiteSound(); // size[0]
+	void LeapTouch(); // size[0]
+	void AttackSound(); // size[0]
+	void InitCustomSchedules(); // size[0]
+	void LoadSchedules(); // size[0]
+	CScheduleLoader(); // size[0]
 };

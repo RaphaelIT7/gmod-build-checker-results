@@ -3,8 +3,8 @@
 class CBaseEntity : public IServerEntity
 {
 public:
-	virtual void ~CBaseEntity() override; // vtable[0]
-	virtual void ~CBaseEntity() override; // vtable[1]
+	virtual ~CBaseEntity() override; // vtable[0]
+	virtual ~CBaseEntity() override; // vtable[1]
 	virtual void SetRefEHandle(); // vtable[2]
 	virtual void GetRefEHandle() override; // vtable[3]
 	virtual void GetCollideable(); // vtable[4]
@@ -250,320 +250,320 @@ public:
 	virtual void GMOD_DestroyBoneFollowers(); // vtable[244]
 	virtual void GMOD_GetBoneFollowerMgr(); // vtable[245]
 
-	void _GLOBAL__sub_I_m_bInDebugSelect();
-	void SetPlayerSimulated();
-	void UnsetPlayerSimulated();
-	void AddFlag();
-	void RemoveFlag();
-	void ClearFlags();
-	void ToggleFlag();
-	void SetEffects();
-	void AddEffects();
-	void SetBlocksLOS();
-	void BlocksLOS();
-	void SetAIWalkable();
-	void IsAIWalkable();
-	void SetPredictionRandomSeed();
-	void GetIndexForThinkContext();
-	void GetNextThink();
-	void GetNextThinkTick();
-	void GetLastThink();
-	void GetLastThinkTick();
-	void WillThink();
-	void GetFirstThinkTick();
-	void CheckHasThinkFunction();
-	void WillSimulateGamePhysics();
-	void CheckHasGamePhysicsSimulation();
-	void SetLastThink();
-	void GetNextThink();
-	void GetNextThinkTick();
-	void VPhysicsInitSetup();
-	void IsBSPModel();
-	void IsStandable();
-	void InvalidatePhysicsRecursive();
-	void GetRootMoveParent();
-	void IsPrecacheAllowed();
-	void SetAllowPrecache();
-	void ShouldDrawUnderwaterBulletBubbles();
-	void DispatchTraceAttack();
-	void ComputeTracerStartPosition();
-	void HealthFraction();
-	void TraceBleed();
-	void FollowEntity();
-	void SetEffectEntity();
-	void ApplyLocalVelocityImpulse();
-	void ApplyAbsVelocityImpulse();
-	void ApplyLocalAngularVelocityImpulse();
-	void CollisionRulesChanged();
-	void VPhysicsSetObject();
-	void VPhysicsInitNormal();
-	void VPhysicsInitShadow();
-	void VPhysicsInitStatic();
-	void SetCollisionGroup();
-	void GetWaterType();
-	void SetWaterType();
-	void IsSimulatingOnAlternateTicks();
-	void PhysicsTouchTriggers();
-	void RegisterThinkContext();
-	void ThinkSet();
-	void SetNextThink();
-	void SetNextThink();
-	void DestroyDataObject();
-	void HasDataObjectType();
-	void AddDataObjectType();
-	void RemoveDataObjectType();
-	void GetDataObject();
-	void CreateDataObject();
-	void DestroyDataObject();
-	void DestroyAllDataObjects();
-	void IsCurrentlyTouching();
-	void PhysicsRemoveToucher();
-	void PhysicsNotifyOtherOfUntouch();
-	void PhysicsRemoveTouchedList();
-	void PhysicsStartGroundContact();
-	void AddEntityToGroundList();
-	void PhysicsRemoveGround();
-	void PhysicsNotifyOtherOfGroundRemoval();
-	void PhysicsRemoveGroundList();
-	void PhysicsTouch();
-	void PhysicsCheckForEntityUntouch();
-	void PhysicsStartTouch();
-	void PhysicsMarkEntityAsTouched();
-	void GetTouchTrace();
-	void ClearTouchTrace();
-	void PhysicsMarkEntitiesAsTouching();
-	void PhysicsMarkEntitiesAsTouchingEventDriven();
-	void PhysicsImpact();
-	void PhysicsCheckWater();
-	void PhysicsCheckVelocity();
-	void PhysicsAddGravityMove();
-	void PhysicsClipVelocity();
-	void PhysicsCheckWaterTransition();
-	void SimulateAngles();
-	void UpdateBaseVelocity();
-	void SetGroundEntity();
-	void ResolveFlyCollisionBounce();
-	void ResolveFlyCollisionSlide();
-	void PerformFlyCollisionResolution();
-	void GetGroundEntity();
-	void StartGroundContact();
-	void EndGroundContact();
-	void SetGroundChangeTime();
-	void GetGroundChangeTime();
-	void WakeRestingObjects();
-	void HasNPCsOnIt();
-	void PhysicsRunSpecificThink();
-	void PhysicsRunThink();
-	void PhysicsRunThink();
-	void PhysicsToss();
-	void PhysicsRigidChild();
-	void StopSound();
-	void StopSound();
-	void StopSound();
-	void StopSound();
-	void LookupSoundLevel();
-	void LookupSoundLevel();
-	void GenderExpandString();
-	void GetParametersForSound();
-	void GetParametersForSound();
-	void PrefetchScriptSound();
-	void GetSoundDuration();
-	void PrecacheSound();
-	void PrecacheScriptSound();
-	void PrefetchSound();
-	void EmitCloseCaption();
-	void EmitSound();
-	void EmitSound();
-	void EmitAmbientSound();
-	void EmitSound();
-	void EmitSound();
-	void EmitSound();
-	void EmitSound();
-	void TraceAttackToTriggers();
-	void UpdateShotStatistics();
-	void HandleShotImpactingGlass();
-	void CreateBubbleTrailTracer();
-	void InputUse();
-	void InputEnableDamageForces();
-	void InputDisableDamageForces();
-	void InputClearParent();
-	void InputSetTeam();
-	void InputClearContext();
-	void InputDisableShadow();
-	void InputDisableReceivingFlashlight();
-	void InputDisableDraw();
-	void InputDispatchResponse();
-	void InputFireUser1();
-	void InputFireUser2();
-	void InputFireUser3();
-	void InputFireUser4();
-	void InputAddOutput();
-	void InputKill();
-	void InputKillHierarchy();
-	void InputDispatchEffect();
-	void InputSetDamageFilter();
-	void InputAlternativeSorting();
-	void InputAlpha();
-	void InputColor();
-	void ShadowCastDistThink();
-	void SetScaledPhysics();
-	void SetCollisionBounds();
-	void IsFollowingEntity();
-	void GetFollowedEntity();
-	void SetClassname();
-	void ClearModelIndexOverrides();
-	void AddTimedOverlay();
-	void DrawBBoxOverlay();
-	void DrawAbsBoxOverlay();
-	void DrawRBoxOverlay();
-	void EntityText();
-	void DrawTimedOverlays();
-	void SetParent();
-	void InputSetParent();
-	void TransformStepData_ParentToWorld();
-	void TransformStepData_ParentToParent();
-	void TransformStepData_WorldToParent();
-	void FireNamedOutput();
-	void TakeDamage();
-	void SendOnKilledGameEvent();
-	void GetNextTarget();
-	void GetBaseMap();
-	void SetMoveDoneTime();
-	void PhysicsRelinkChildren();
-	void VPhysicsSwapObject();
-	void Intersects();
-	void SetShadowCastDistance();
-	void NameMatchesComplex();
-	void ClassMatchesComplex();
-	void ValidateEntityConnections();
-	void IsDormant();
-	void ShouldToggle();
-	void SaveDataDescBlock();
-	void RestoreDataDescBlock();
-	void operator.new();
-	void operator.new();
-	void operator.delete();
-	void SetMoveType();
-	void MakeDormant();
-	void Instance();
-	void GetTransmitState();
-	void SetTransmitState();
-	void DispatchUpdateTransmitState();
-	void InputEnableReceivingFlashlight();
-	void InputEnableShadow();
-	void InputEnableDraw();
-	void StopFollowingEntity();
-	void GetEntitySkybox();
-	void DetectInSkybox();
-	void GetDebugName();
-	void DrawInputOverlay();
-	void DrawOutputOverlay();
-	void ReadKeyField();
-	void GetTeam();
-	void InSameTeam();
-	void TeamID();
-	void IsInTeam();
-	void GetTeamNumber();
-	void IsInAnyTeam();
-	void SetSize();
-	void PrecacheSoundHelper();
-	void Remove();
-	void SetCheckUntouch();
-	void GetModel();
-	void GetParentToWorldTransform();
-	void CalcAbsolutePosition();
-	void SendDebugPivotOverlay();
-	void ComputeAbsPosition();
-	void ComputeAbsDirection();
-	void CalcAbsoluteVelocity();
-	void IsInWorld();
-	void SUB_Vanish();
-	void SetAbsOrigin();
-	void SetAbsAngles();
-	void SetAbsVelocity();
-	void SetLocalOrigin();
-	void InputSetLocalOrigin();
-	void SetLocalAngles();
-	void CreateNoSpawn();
-	void Create();
-	void SetParentAttachment();
-	void InputSetParentAttachment();
-	void InputSetParentAttachmentMaintainOffset();
-	void InputSetLocalAngles();
-	void SetLocalVelocity();
-	void SetLocalAngularVelocity();
-	void SUB_StartFadeOut();
-	void SUB_StartFadeOutInstant();
-	void SetLocalTransform();
-	void IsFloating();
-	void CreatePredictedEntityByName();
-	void SetPredictionEligible();
-	void AddPoints();
-	void AddPointsToTeam();
-	void VelocityPunch();
-	void RemoveAllDecals();
-	void GetContextCount();
-	void GetContextName();
-	void GetContextValue();
-	void ContextExpired();
-	void FindContextByName();
-	void DumpResponseCriteria();
-	void MyNPCPointer();
-	void ComputeStepSimulationNetwork();
-	void UseStepSimulationNetworkOrigin();
-	void UseStepSimulationNetworkAngles();
-	void AddStepDiscontinuity();
-	void RemoveRecipientsIfNotCloseCaptioning();
-	void RemoveDeferred();
-	void SUB_PerformFadeOut();
-	void SUB_FadeOut();
-	void RecalcHasPlayerChildBit();
-	void DoesHavePlayerChild();
-	void IncrementInterpolationFrame();
-	void SetCollisionBoundsFromModel();
-	void OnModelLoadComplete();
-	void GetLuaVector();
-	void ClearSubMaterialOverrides();
-	void SetSubMaterialOverride();
-	void GetSubMaterialOverride();
-	void GetMaterialType();
-	void AI_GetClosestPlayer();
-	void VPhysicsTakeDamage();
-	void SetWaterLevel();
-	void ClearAllOutputs();
-	void InputClearAllOutputs();
-	void RemoveExpiredConcepts();
-	void AppendContextToCriteria();
-	void InputRemoveContext();
-	void EmitSentenceByIndex();
-	void VPhysicsUpdatePusher();
-	void AddContext();
-	void InputAddContext();
-	void PrecacheModelComponents();
-	void PrecacheModel_Cleaned();
-	void PrecacheModel();
-	void CBaseEntity();
-	void SUB_CallUseToggle();
-	void NetworkStateChanged();
-	void NetworkStateChanged();
-	void PhysicsDispatchThink();
-	void PhysicsCheckSweep();
-	void PhysicsTryMove();
-	void PhysicsAddHalfGravity();
-	void PhysicsPushEntity();
-	void PhysicsTestEntityPosition();
-	void PhysicsNone();
-	void PhysicsNoclip();
-	void PhysicsCustom();
-	void CheckStepSimulationChanged();
-	void PhysicsStepRecheckGround();
-	void PhysicsStepRunTimestep();
-	void StepSimulationThink();
-	void PhysicsStep();
-	void PhysicsPushRotate();
-	void PhysicsPushMove();
-	void PerformPush();
-	void PhysicsPusher();
-	void SUB_Remove();
-	void SUB_DoNothing();
+	void _GLOBAL__sub_I_m_bInDebugSelect(); // size[0]
+	void SetPlayerSimulated(); // size[0]
+	void UnsetPlayerSimulated(); // size[0]
+	void AddFlag(); // size[0]
+	void RemoveFlag(); // size[0]
+	void ClearFlags(); // size[0]
+	void ToggleFlag(); // size[0]
+	void SetEffects(); // size[0]
+	void AddEffects(); // size[0]
+	void SetBlocksLOS(); // size[0]
+	void BlocksLOS(); // size[0]
+	void SetAIWalkable(); // size[0]
+	void IsAIWalkable(); // size[0]
+	void SetPredictionRandomSeed(); // size[0]
+	void GetIndexForThinkContext(); // size[0]
+	void GetNextThink(); // size[0]
+	void GetNextThinkTick(); // size[0]
+	void GetLastThink(); // size[0]
+	void GetLastThinkTick(); // size[0]
+	void WillThink(); // size[0]
+	void GetFirstThinkTick(); // size[0]
+	void CheckHasThinkFunction(); // size[0]
+	void WillSimulateGamePhysics(); // size[0]
+	void CheckHasGamePhysicsSimulation(); // size[0]
+	void SetLastThink(); // size[0]
+	void GetNextThink(); // size[0]
+	void GetNextThinkTick(); // size[0]
+	void VPhysicsInitSetup(); // size[0]
+	void IsBSPModel(); // size[0]
+	void IsStandable(); // size[0]
+	void InvalidatePhysicsRecursive(); // size[0]
+	void GetRootMoveParent(); // size[0]
+	void IsPrecacheAllowed(); // size[0]
+	void SetAllowPrecache(); // size[0]
+	void ShouldDrawUnderwaterBulletBubbles(); // size[0]
+	void DispatchTraceAttack(); // size[0]
+	void ComputeTracerStartPosition(); // size[0]
+	void HealthFraction(); // size[0]
+	void TraceBleed(); // size[0]
+	void FollowEntity(); // size[0]
+	void SetEffectEntity(); // size[0]
+	void ApplyLocalVelocityImpulse(); // size[0]
+	void ApplyAbsVelocityImpulse(); // size[0]
+	void ApplyLocalAngularVelocityImpulse(); // size[0]
+	void CollisionRulesChanged(); // size[0]
+	void VPhysicsSetObject(); // size[0]
+	void VPhysicsInitNormal(); // size[0]
+	void VPhysicsInitShadow(); // size[0]
+	void VPhysicsInitStatic(); // size[0]
+	void SetCollisionGroup(); // size[0]
+	void GetWaterType(); // size[0]
+	void SetWaterType(); // size[0]
+	void IsSimulatingOnAlternateTicks(); // size[0]
+	void PhysicsTouchTriggers(); // size[0]
+	void RegisterThinkContext(); // size[0]
+	void ThinkSet(); // size[0]
+	void SetNextThink(); // size[0]
+	void SetNextThink(); // size[0]
+	void DestroyDataObject(); // size[0]
+	void HasDataObjectType(); // size[0]
+	void AddDataObjectType(); // size[0]
+	void RemoveDataObjectType(); // size[0]
+	void GetDataObject(); // size[0]
+	void CreateDataObject(); // size[0]
+	void DestroyDataObject(); // size[0]
+	void DestroyAllDataObjects(); // size[0]
+	void IsCurrentlyTouching(); // size[0]
+	void PhysicsRemoveToucher(); // size[0]
+	void PhysicsNotifyOtherOfUntouch(); // size[0]
+	void PhysicsRemoveTouchedList(); // size[0]
+	void PhysicsStartGroundContact(); // size[0]
+	void AddEntityToGroundList(); // size[0]
+	void PhysicsRemoveGround(); // size[0]
+	void PhysicsNotifyOtherOfGroundRemoval(); // size[0]
+	void PhysicsRemoveGroundList(); // size[0]
+	void PhysicsTouch(); // size[0]
+	void PhysicsCheckForEntityUntouch(); // size[0]
+	void PhysicsStartTouch(); // size[0]
+	void PhysicsMarkEntityAsTouched(); // size[0]
+	void GetTouchTrace(); // size[0]
+	void ClearTouchTrace(); // size[0]
+	void PhysicsMarkEntitiesAsTouching(); // size[0]
+	void PhysicsMarkEntitiesAsTouchingEventDriven(); // size[0]
+	void PhysicsImpact(); // size[0]
+	void PhysicsCheckWater(); // size[0]
+	void PhysicsCheckVelocity(); // size[0]
+	void PhysicsAddGravityMove(); // size[0]
+	void PhysicsClipVelocity(); // size[0]
+	void PhysicsCheckWaterTransition(); // size[0]
+	void SimulateAngles(); // size[0]
+	void UpdateBaseVelocity(); // size[0]
+	void SetGroundEntity(); // size[0]
+	void ResolveFlyCollisionBounce(); // size[0]
+	void ResolveFlyCollisionSlide(); // size[0]
+	void PerformFlyCollisionResolution(); // size[0]
+	void GetGroundEntity(); // size[0]
+	void StartGroundContact(); // size[0]
+	void EndGroundContact(); // size[0]
+	void SetGroundChangeTime(); // size[0]
+	void GetGroundChangeTime(); // size[0]
+	void WakeRestingObjects(); // size[0]
+	void HasNPCsOnIt(); // size[0]
+	void PhysicsRunSpecificThink(); // size[0]
+	void PhysicsRunThink(); // size[0]
+	void PhysicsRunThink(); // size[0]
+	void PhysicsToss(); // size[0]
+	void PhysicsRigidChild(); // size[0]
+	void StopSound(); // size[0]
+	void StopSound(); // size[0]
+	void StopSound(); // size[0]
+	void StopSound(); // size[0]
+	void LookupSoundLevel(); // size[0]
+	void LookupSoundLevel(); // size[0]
+	void GenderExpandString(); // size[0]
+	void GetParametersForSound(); // size[0]
+	void GetParametersForSound(); // size[0]
+	void PrefetchScriptSound(); // size[0]
+	void GetSoundDuration(); // size[0]
+	void PrecacheSound(); // size[0]
+	void PrecacheScriptSound(); // size[0]
+	void PrefetchSound(); // size[0]
+	void EmitCloseCaption(); // size[0]
+	void EmitSound(); // size[0]
+	void EmitSound(); // size[0]
+	void EmitAmbientSound(); // size[0]
+	void EmitSound(); // size[0]
+	void EmitSound(); // size[0]
+	void EmitSound(); // size[0]
+	void EmitSound(); // size[0]
+	void TraceAttackToTriggers(); // size[0]
+	void UpdateShotStatistics(); // size[0]
+	void HandleShotImpactingGlass(); // size[0]
+	void CreateBubbleTrailTracer(); // size[0]
+	void InputUse(); // size[0]
+	void InputEnableDamageForces(); // size[0]
+	void InputDisableDamageForces(); // size[0]
+	void InputClearParent(); // size[0]
+	void InputSetTeam(); // size[0]
+	void InputClearContext(); // size[0]
+	void InputDisableShadow(); // size[0]
+	void InputDisableReceivingFlashlight(); // size[0]
+	void InputDisableDraw(); // size[0]
+	void InputDispatchResponse(); // size[0]
+	void InputFireUser1(); // size[0]
+	void InputFireUser2(); // size[0]
+	void InputFireUser3(); // size[0]
+	void InputFireUser4(); // size[0]
+	void InputAddOutput(); // size[0]
+	void InputKill(); // size[0]
+	void InputKillHierarchy(); // size[0]
+	void InputDispatchEffect(); // size[0]
+	void InputSetDamageFilter(); // size[0]
+	void InputAlternativeSorting(); // size[0]
+	void InputAlpha(); // size[0]
+	void InputColor(); // size[0]
+	void ShadowCastDistThink(); // size[0]
+	void SetScaledPhysics(); // size[0]
+	void SetCollisionBounds(); // size[0]
+	void IsFollowingEntity(); // size[0]
+	void GetFollowedEntity(); // size[0]
+	void SetClassname(); // size[0]
+	void ClearModelIndexOverrides(); // size[0]
+	void AddTimedOverlay(); // size[0]
+	void DrawBBoxOverlay(); // size[0]
+	void DrawAbsBoxOverlay(); // size[0]
+	void DrawRBoxOverlay(); // size[0]
+	void EntityText(); // size[0]
+	void DrawTimedOverlays(); // size[0]
+	void SetParent(); // size[0]
+	void InputSetParent(); // size[0]
+	void TransformStepData_ParentToWorld(); // size[0]
+	void TransformStepData_ParentToParent(); // size[0]
+	void TransformStepData_WorldToParent(); // size[0]
+	void FireNamedOutput(); // size[0]
+	void TakeDamage(); // size[0]
+	void SendOnKilledGameEvent(); // size[0]
+	void GetNextTarget(); // size[0]
+	void GetBaseMap(); // size[0]
+	void SetMoveDoneTime(); // size[0]
+	void PhysicsRelinkChildren(); // size[0]
+	void VPhysicsSwapObject(); // size[0]
+	void Intersects(); // size[0]
+	void SetShadowCastDistance(); // size[0]
+	void NameMatchesComplex(); // size[0]
+	void ClassMatchesComplex(); // size[0]
+	void ValidateEntityConnections(); // size[0]
+	void IsDormant(); // size[0]
+	void ShouldToggle(); // size[0]
+	void SaveDataDescBlock(); // size[0]
+	void RestoreDataDescBlock(); // size[0]
+	void operator.new(); // size[0]
+	void operator.new(); // size[0]
+	void operator.delete(); // size[0]
+	void SetMoveType(); // size[0]
+	void MakeDormant(); // size[0]
+	void Instance(); // size[0]
+	void GetTransmitState(); // size[0]
+	void SetTransmitState(); // size[0]
+	void DispatchUpdateTransmitState(); // size[0]
+	void InputEnableReceivingFlashlight(); // size[0]
+	void InputEnableShadow(); // size[0]
+	void InputEnableDraw(); // size[0]
+	void StopFollowingEntity(); // size[0]
+	void GetEntitySkybox(); // size[0]
+	void DetectInSkybox(); // size[0]
+	void GetDebugName(); // size[0]
+	void DrawInputOverlay(); // size[0]
+	void DrawOutputOverlay(); // size[0]
+	void ReadKeyField(); // size[0]
+	void GetTeam(); // size[0]
+	void InSameTeam(); // size[0]
+	void TeamID(); // size[0]
+	void IsInTeam(); // size[0]
+	void GetTeamNumber(); // size[0]
+	void IsInAnyTeam(); // size[0]
+	void SetSize(); // size[0]
+	void PrecacheSoundHelper(); // size[0]
+	void Remove(); // size[0]
+	void SetCheckUntouch(); // size[0]
+	void GetModel(); // size[0]
+	void GetParentToWorldTransform(); // size[0]
+	void CalcAbsolutePosition(); // size[0]
+	void SendDebugPivotOverlay(); // size[0]
+	void ComputeAbsPosition(); // size[0]
+	void ComputeAbsDirection(); // size[0]
+	void CalcAbsoluteVelocity(); // size[0]
+	void IsInWorld(); // size[0]
+	void SUB_Vanish(); // size[0]
+	void SetAbsOrigin(); // size[0]
+	void SetAbsAngles(); // size[0]
+	void SetAbsVelocity(); // size[0]
+	void SetLocalOrigin(); // size[0]
+	void InputSetLocalOrigin(); // size[0]
+	void SetLocalAngles(); // size[0]
+	void CreateNoSpawn(); // size[0]
+	void Create(); // size[0]
+	void SetParentAttachment(); // size[0]
+	void InputSetParentAttachment(); // size[0]
+	void InputSetParentAttachmentMaintainOffset(); // size[0]
+	void InputSetLocalAngles(); // size[0]
+	void SetLocalVelocity(); // size[0]
+	void SetLocalAngularVelocity(); // size[0]
+	void SUB_StartFadeOut(); // size[0]
+	void SUB_StartFadeOutInstant(); // size[0]
+	void SetLocalTransform(); // size[0]
+	void IsFloating(); // size[0]
+	void CreatePredictedEntityByName(); // size[0]
+	void SetPredictionEligible(); // size[0]
+	void AddPoints(); // size[0]
+	void AddPointsToTeam(); // size[0]
+	void VelocityPunch(); // size[0]
+	void RemoveAllDecals(); // size[0]
+	void GetContextCount(); // size[0]
+	void GetContextName(); // size[0]
+	void GetContextValue(); // size[0]
+	void ContextExpired(); // size[0]
+	void FindContextByName(); // size[0]
+	void DumpResponseCriteria(); // size[0]
+	void MyNPCPointer(); // size[0]
+	void ComputeStepSimulationNetwork(); // size[0]
+	void UseStepSimulationNetworkOrigin(); // size[0]
+	void UseStepSimulationNetworkAngles(); // size[0]
+	void AddStepDiscontinuity(); // size[0]
+	void RemoveRecipientsIfNotCloseCaptioning(); // size[0]
+	void RemoveDeferred(); // size[0]
+	void SUB_PerformFadeOut(); // size[0]
+	void SUB_FadeOut(); // size[0]
+	void RecalcHasPlayerChildBit(); // size[0]
+	void DoesHavePlayerChild(); // size[0]
+	void IncrementInterpolationFrame(); // size[0]
+	void SetCollisionBoundsFromModel(); // size[0]
+	void OnModelLoadComplete(); // size[0]
+	void GetLuaVector(); // size[0]
+	void ClearSubMaterialOverrides(); // size[0]
+	void SetSubMaterialOverride(); // size[0]
+	void GetSubMaterialOverride(); // size[0]
+	void GetMaterialType(); // size[0]
+	void AI_GetClosestPlayer(); // size[0]
+	void VPhysicsTakeDamage(); // size[0]
+	void SetWaterLevel(); // size[0]
+	void ClearAllOutputs(); // size[0]
+	void InputClearAllOutputs(); // size[0]
+	void RemoveExpiredConcepts(); // size[0]
+	void AppendContextToCriteria(); // size[0]
+	void InputRemoveContext(); // size[0]
+	void EmitSentenceByIndex(); // size[0]
+	void VPhysicsUpdatePusher(); // size[0]
+	void AddContext(); // size[0]
+	void InputAddContext(); // size[0]
+	void PrecacheModelComponents(); // size[0]
+	void PrecacheModel_Cleaned(); // size[0]
+	void PrecacheModel(); // size[0]
+	CBaseEntity(); // size[0]
+	void SUB_CallUseToggle(); // size[0]
+	void NetworkStateChanged(); // size[0]
+	void NetworkStateChanged(); // size[0]
+	void PhysicsDispatchThink(); // size[0]
+	void PhysicsCheckSweep(); // size[0]
+	void PhysicsTryMove(); // size[0]
+	void PhysicsAddHalfGravity(); // size[0]
+	void PhysicsPushEntity(); // size[0]
+	void PhysicsTestEntityPosition(); // size[0]
+	void PhysicsNone(); // size[0]
+	void PhysicsNoclip(); // size[0]
+	void PhysicsCustom(); // size[0]
+	void CheckStepSimulationChanged(); // size[0]
+	void PhysicsStepRecheckGround(); // size[0]
+	void PhysicsStepRunTimestep(); // size[0]
+	void StepSimulationThink(); // size[0]
+	void PhysicsStep(); // size[0]
+	void PhysicsPushRotate(); // size[0]
+	void PhysicsPushMove(); // size[0]
+	void PerformPush(); // size[0]
+	void PhysicsPusher(); // size[0]
+	void SUB_Remove(); // size[0]
+	void SUB_DoNothing(); // size[0]
 };

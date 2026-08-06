@@ -9,31 +9,31 @@ public:
 	virtual void GetTrustedKeyCount(); // vtable[3]
 	virtual void GetTrustedKey() override; // vtable[4]
 
-	void _GLOBAL__sub_I_CCommand();
-	void CCommand();
-	void ~CCommand();
-	void PrintCommand();
-	void CacheFileCRCs();
-	void InternalCacheFileCRCs();
-	void CheckEntry();
-	void GetBestEntry();
-	void CommandDictDifferent();
-	void operator==();
-	void UpdateCommandStats();
-	void FindCommandByLoadOrder();
-	void PrintWhitelistContents();
-	void EncodeCommandList();
-	void Encode();
-	void CPureServerWhitelist();
-	void Term();
-	void ~CPureServerWhitelist();
-	void Init();
-	void Create();
-	void LoadTrustedKeysFromKeyValues();
-	void AddFileCommand();
-	void LoadCommandsFromKeyValues();
-	void AddHardcodedFileCommands();
-	void Load();
-	void DecodeCommandList();
-	void Decode();
+	_GLOBAL__sub_I_CCommand(); // size[0]
+	CCommand(); // size[0]
+	~CCommand(); // size[0]
+	void PrintCommand(); // size[0]
+	void CacheFileCRCs(); // size[0]
+	void InternalCacheFileCRCs(); // size[0]
+	void CheckEntry(); // size[0]
+	void GetBestEntry(); // size[0]
+	void CommandDictDifferent(); // size[0]
+	void operator==(); // size[0]
+	void UpdateCommandStats(); // size[0]
+	void FindCommandByLoadOrder(); // size[0]
+	void PrintWhitelistContents(); // size[0]
+	void EncodeCommandList(); // size[0]
+	void Encode(); // size[0]
+	CPureServerWhitelist(); // size[0]
+	void Term(); // size[0]
+	~CPureServerWhitelist(); // size[0]
+	void Init(); // size[0]
+	void Create(); // size[0]
+	void LoadTrustedKeysFromKeyValues(); // size[0]
+	void AddFileCommand(); // size[0]
+	void LoadCommandsFromKeyValues(); // size[0]
+	void AddHardcodedFileCommands(); // size[0]
+	void Load(); // size[0]
+	void DecodeCommandList(); // size[0]
+	void Decode(); // size[0]
 };

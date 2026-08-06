@@ -3,8 +3,8 @@
 class CWorkerThread : public CThread
 {
 public:
-	virtual void ~CWorkerThread(); // vtable[0]
-	virtual void ~CWorkerThread(); // vtable[1]
+	virtual ~CWorkerThread(); // vtable[0]
+	virtual ~CWorkerThread(); // vtable[1]
 	virtual void Start(); // vtable[2]
 	virtual void Init(); // vtable[3]
 	virtual void __cxa_pure_virtual(); // vtable[4]

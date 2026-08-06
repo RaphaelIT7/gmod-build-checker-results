@@ -7,5 +7,5 @@ public:
 	virtual void GetDllName(); // vtable[1]
 	virtual void GetInterfaceName(); // vtable[2]
 
-	void ~CServerDLLSharedAppSystems();
+	~CServerDLLSharedAppSystems(); // size[0]
 };

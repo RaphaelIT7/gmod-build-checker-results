@@ -7,5 +7,5 @@ public:
 	virtual void GetWorldspaceBounds(); // vtable[1]
 	virtual void GetTrianglesInSphere(); // vtable[2]
 
-	void ~CVirtualTerrain();
+	~CVirtualTerrain(); // size[0]
 };

@@ -3,5 +3,5 @@
 class CLuaDisposable : public CLuaObject
 {
 public:
-	void ~CLuaDisposable();
+	~CLuaDisposable(); // size[0]
 };

@@ -3,15 +3,16 @@
 class CAI_ScriptedSchedule : public CBaseEntity
 {
 public:
-	virtual void ~CAI_ScriptedSchedule() override; // vtable[0]
-	virtual void ~CAI_ScriptedSchedule() override; // vtable[1]
+	virtual ~CAI_ScriptedSchedule() override; // vtable[0]
+	virtual ~CAI_ScriptedSchedule() override; // vtable[1]
+	virtual void GetDataDescMap() override; // vtable[12]
 
-	void InputStartSchedule();
-	void GetBaseMap();
-	void CAI_ScriptedSchedule();
-	void FindScriptEntity();
-	void StartSchedule();
-	void ScriptThink();
-	void StopSchedule();
-	void InputStopSchedule();
+	void InputStartSchedule(); // size[0]
+	void GetBaseMap(); // size[0]
+	CAI_ScriptedSchedule(); // size[0]
+	void FindScriptEntity(); // size[0]
+	void StartSchedule(); // size[0]
+	void ScriptThink(); // size[0]
+	void StopSchedule(); // size[0]
+	void InputStopSchedule(); // size[0]
 };

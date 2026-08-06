@@ -3,8 +3,8 @@
 class NextBotCombatCharacter : public CBaseCombatCharacter, public INextBot
 {
 public:
-	virtual void ~NextBotCombatCharacter() override; // vtable[0]
-	virtual void ~NextBotCombatCharacter() override; // vtable[1]
+	virtual ~NextBotCombatCharacter() override; // vtable[0]
+	virtual ~NextBotCombatCharacter() override; // vtable[1]
 	virtual void SetRefEHandle() override; // vtable[2]
 	virtual void GetRefEHandle() override; // vtable[3]
 	virtual void GetCollideable() override; // vtable[4]
@@ -84,19 +84,29 @@ public:
 	virtual void DecalTrace() override; // vtable[78]
 	virtual void ImpactTrace() override; // vtable[79]
 	virtual void OnControls() override; // vtable[80]
+	virtual void Touch() override; // vtable[102]
+	virtual void EyePosition() override; // vtable[133]
+	virtual void PerformCustomPhysics() override; // vtable[176]
+	virtual void HandleAnimEvent() override; // vtable[261]
+	virtual void Ignite() override; // vtable[267]
+	virtual void OnTakeDamage_Alive() override; // vtable[338]
+	virtual void OnTakeDamage_Dying() override; // vtable[339]
+	virtual void BecomeRagdoll() override; // vtable[357]
+	virtual void IsAreaTraversable() override; // vtable[380]
+	virtual void OnNavAreaChanged() override; // vtable[383]
 	virtual void Ignite(); // vtable[388]
 	virtual void IsUseableEntity(); // vtable[389]
 	virtual void GetLastAttacker(); // vtable[390]
 	virtual void GetEntity(); // vtable[391]
 	virtual void GetNextBotCombatCharacter(); // vtable[392]
 
-	void GetEntity();
-	void GetNextBotCombatCharacter();
-	void OnNavAreaChanged();
-	void DoThink();
-	void GetBaseMap();
-	void NextBotCombatCharacter();
-	void UseEntity();
-	void ~NextBotCombatCharacter();
-	void ~NextBotCombatCharacter();
+	void GetEntity(); // size[0]
+	void GetNextBotCombatCharacter(); // size[0]
+	void OnNavAreaChanged(); // size[0]
+	void DoThink(); // size[0]
+	void GetBaseMap(); // size[0]
+	NextBotCombatCharacter(); // size[0]
+	void UseEntity(); // size[0]
+	~NextBotCombatCharacter(); // size[0]
+	~NextBotCombatCharacter(); // size[0]
 };

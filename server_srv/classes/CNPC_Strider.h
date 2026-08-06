@@ -3,13 +3,143 @@
 class CNPC_Strider : public CAI_BlendingHost, public IStriderMinigunHost
 {
 public:
-	virtual void ~CNPC_Strider() override; // vtable[0]
-	virtual void ~CNPC_Strider() override; // vtable[1]
+	virtual ~CNPC_Strider() override; // vtable[0]
+	virtual ~CNPC_Strider() override; // vtable[1]
 	virtual void GetBaseEntity() override; // vtable[6]
+	virtual void GetServerClass() override; // vtable[10]
 	virtual void YouForgotToImplementOrDeclareServerClass() override; // vtable[11]
+	virtual void GetDataDescMap() override; // vtable[12]
+	virtual void TestCollision() override; // vtable[14]
+	virtual void Spawn() override; // vtable[23]
+	virtual void Precache() override; // vtable[24]
+	virtual void Activate() override; // vtable[34]
+	virtual void DrawDebugTextOverlays() override; // vtable[40]
+	virtual void Save() override; // vtable[41]
+	virtual void Restore() override; // vtable[42]
+	virtual void OnRestore() override; // vtable[45]
+	virtual void Classify() override; // vtable[55]
+	virtual void ShouldAttractAutoAim() override; // vtable[57]
+	virtual void GetAutoAimRadius() override; // vtable[58]
+	virtual void TraceAttack() override; // vtable[62]
+	virtual void Event_Killed() override; // vtable[68]
+	virtual StartTouch() override; // vtable[101]
+	virtual void UpdateOnRemove() override; // vtable[108]
+	virtual void StopLoopingSounds() override; // vtable[109]
+	virtual void Teleport() override; // vtable[111]
+	virtual void MakeTracer() override; // vtable[113]
+	virtual void DoImpactEffect() override; // vtable[116]
+	virtual ModifyOrAppendCriteria() override; // vtable[121]
+	virtual void EyePosition() override; // vtable[133]
+	virtual void BodyTarget() override; // vtable[137]
+	virtual void HeadTarget() override; // vtable[138]
+	virtual void FVisible() override; // vtable[144]
+	virtual void CreateVPhysics() override; // vtable[157]
+	virtual void VPhysicsShadowCollision() override; // vtable[163]
+	virtual void GetIdealAccel() override; // vtable[247]
+	virtual void GetSequenceGroundSpeed() override; // vtable[251]
+	virtual void CalculateIKLocks() override; // vtable[259]
+	virtual void HandleAnimEvent() override; // vtable[261]
+	virtual void PopulatePoseParameters() override; // vtable[262]
+	virtual void InitBoneControllers() override; // vtable[264]
+	virtual void Ignite() override; // vtable[267]
+	virtual void HandleInteraction() override; // vtable[298]
+	virtual NPC_TranslateActivity() override; // vtable[322]
+	virtual void Weapon_ShootPosition() override; // vtable[331]
+	virtual void CanBecomeServerRagdoll() override; // vtable[337]
+	virtual void OnTakeDamage_Alive() override; // vtable[338]
+	virtual OnFriendDamaged() override; // vtable[342]
+	virtual void BecomeRagdoll() override; // vtable[358]
+	virtual void IRelationType() override; // vtable[364]
+	virtual void DoMuzzleFlash() override; // vtable[374]
+	virtual void AddEntityRelationship() override; // vtable[375]
+	virtual OnChangeActiveWeapon() override; // vtable[378]
+	virtual void NPCInit() override; // vtable[388]
+	virtual void PostNPCInit() override; // vtable[389]
+	virtual CleanupOnDeath() override; // vtable[391]
+	virtual CreateComponents() override; // vtable[392]
+	virtual void CreateMotor() override; // vtable[395]
+	virtual void CreateNavigator() override; // vtable[397]
+	virtual void CreatePathfinder() override; // vtable[398]
+	virtual void NPCThink() override; // vtable[400]
+	virtual void GatherConditions() override; // vtable[402]
+	virtual void PrescheduleThink() override; // vtable[403]
+	virtual OnScheduleChange() override; // vtable[405]
+	virtual OnStartSchedule() override; // vtable[406]
+	virtual void SelectSchedule() override; // vtable[407]
+	virtual SelectFailSchedule() override; // vtable[408]
+	virtual void TranslateSchedule() override; // vtable[409]
+	virtual void StartTask() override; // vtable[410]
+	virtual void RunTask() override; // vtable[411]
+	virtual IsInterruptable() override; // vtable[412]
+	virtual ShouldPlayerAvoid() override; // vtable[414]
+	virtual ShouldAlwaysThink() override; // vtable[417]
+	virtual GetSchedule() override; // vtable[424]
+	virtual void TaskName() override; // vtable[430]
+	virtual void GetSchedulingErrorName() override; // vtable[432]
+	virtual void LoadedSchedules() override; // vtable[433]
+	virtual void BuildScheduleTestBits() override; // vtable[434]
+	virtual GetNewSchedule() override; // vtable[435]
+	virtual GetFailSchedule() override; // vtable[436]
+	virtual void CanFlinch() override; // vtable[437]
+	virtual void CheckFlinches() override; // vtable[438]
+	virtual GetRunningBehavior() override; // vtable[442]
+	virtual OnBehaviorChangeStatus() override; // vtable[445]
+	virtual AccessBehaviors() override; // vtable[446]
+	virtual NumBehaviors() override; // vtable[447]
+	virtual void OnStateChange() override; // vtable[455]
+	virtual void UpdateEfficiency() override; // vtable[456]
+	virtual QueryHearSound() override; // vtable[461]
+	virtual OnSeeEntity() override; // vtable[465]
+	virtual ShouldIgnoreSound() override; // vtable[472]
+	virtual void BestEnemy() override; // vtable[474]
+	virtual void IsValidEnemy() override; // vtable[475]
+	virtual AllowedToIgnite() override; // vtable[483]
+	virtual CanRunAScriptedNPCInteraction() override; // vtable[500]
+	virtual void DeathSound() override; // vtable[507]
 	virtual void AlertSound(); // vtable[508]
 	virtual void IdleSound(); // vtable[509]
 	virtual void PainSound(); // vtable[510]
+	virtual ShouldPlayIdleSound() override; // vtable[516]
+	virtual IsNavigationUrgent() override; // vtable[523]
+	virtual void GetTimeToNavGoal() override; // vtable[526]
+	virtual void MaxYawSpeed() override; // vtable[529]
+	virtual void OverrideMove() override; // vtable[538]
+	virtual OverrideMoveFacing() override; // vtable[539]
+	virtual void IsUnusableNode() override; // vtable[540]
+	virtual IsCurTaskContinuousMove() override; // vtable[542]
+	virtual OnMovementFailed() override; // vtable[544]
+	virtual void OnMovementComplete() override; // vtable[545]
+	virtual OnCalcBaseMove() override; // vtable[548]
+	virtual void GetNodeViewOffset() override; // vtable[552]
+	virtual void MaintainTurnActivity() override; // vtable[561]
+	virtual void AimGun() override; // vtable[562]
+	virtual void ScheduledMoveToGoalEntity() override; // vtable[569]
+	virtual void ScheduledFollowPath() override; // vtable[570]
+	virtual void UpdateEnemyMemory() override; // vtable[573]
+	virtual GetReactionDelay() override; // vtable[574]
+	virtual void SquadSlotName() override; // vtable[581]
+	virtual IsValidCover() override; // vtable[587]
+	virtual void IsValidShootPosition() override; // vtable[588]
+	virtual void TestShootPosition() override; // vtable[589]
+	virtual GetMaxTacticalLateralMovement() override; // vtable[592]
+	virtual OnChangeHintGroup() override; // vtable[593]
+	virtual RangeAttack1Conditions() override; // vtable[595]
+	virtual void RangeAttack2Conditions() override; // vtable[596]
+	virtual void MeleeAttack1Conditions() override; // vtable[597]
+	virtual void MeleeAttack2Conditions() override; // vtable[598]
+	virtual void WeaponLOSCondition() override; // vtable[609]
+	virtual void CurrentWeaponLOSCondition() override; // vtable[610]
+	virtual void TranslateNavGoal() override; // vtable[613]
+	virtual void GetDefaultNavGoalTolerance() override; // vtable[614]
+	virtual void FCanCheckAttacks() override; // vtable[615]
+	virtual FValidateHintType() override; // vtable[617]
+	virtual GetHitgroupDamageMultiplier() override; // vtable[623]
+	virtual GetFlinchActivity() override; // vtable[626]
+	virtual GetReasonableFacingDist() override; // vtable[639]
+	virtual void GetClassScheduleIdSpace() override; // vtable[640]
+	virtual IsCrouching() override; // vtable[642]
+	virtual IsCrouchedActivity() override; // vtable[646]
+	virtual void ShouldProbeCollideAgainstEntity() override; // vtable[651]
 	virtual void ShootMinigun() override; // vtable[652]
 	virtual void UpdateMinigunControls() override; // vtable[653]
 	virtual void GetViewCone() override; // vtable[654]
@@ -23,96 +153,96 @@ public:
 	virtual void GetMinigunShootVariation() override; // vtable[662]
 	virtual void GetEntity() override; // vtable[663]
 
-	void InputEnableMinigun();
-	void InputSetMinigunTime();
-	void InputFlickRagdoll();
-	void InputSetHeight();
-	void InputDisableCrouchWalk();
-	void InputEnableCrouchWalk();
-	void InputDisableCrouch();
-	void InputDisableMoveToLOS();
-	void InputScaleGroundSpeed();
-	void GetViewCone();
-	void GetMinigunRateOfFire();
-	void GetMinigunOnTargetTime();
-	void GetMinigunShootDuration();
-	void GetMinigunShootDowntime();
-	void GetMinigunShootVariation();
-	void ShouldOptimizeInitialPathSegment();
-	void GetStoppingPath();
-	void InputCrouch();
-	void InputCrouchInstantly();
-	void InputStand();
-	void InputClearTargetPath();
-	void InputEnableAggressiveBehavior();
-	void MoveUpdateWaypoint();
-	void InputDisableMinigun();
-	void UpdateMinigunControls();
-	void InputExplode();
-	void ShootMinigun();
-	void InputDisableAggressiveBehavior();
-	void InputSetCannonTarget();
-	void GetBaseMap();
-	void SetupGlobalModelData();
-	void InitBoneFollowers();
-	void GetViewOffset();
-	void StriderEnemyDistance();
-	void CanShootThrough();
-	void CreateFocus();
-	void GetFocus();
-	void OnMinigunStopShooting();
-	void GetWeaponLosZ();
-	void GatherHeightConditions();
-	void HuntSound();
-	void ShouldExplodeFromDamage();
-	void StartSmoking();
-	void TakeDamageFromCombineBall();
-	void StopSmoking();
-	void Explode();
-	void SetHeight();
-	void SetIdealHeight();
-	void SetAbsIdealHeight();
-	void IsStriderCrouching();
-	void IsStriderStanding();
-	void HasPendingTargetPath();
-	void CannonPosition();
-	void GetCannonTarget();
-	void HasCannonTarget();
-	void IsCannonTarget();
-	void AimCannonAt();
-	void FireCannon();
-	void CarriedByDropship();
-	void CarriedThink();
-	void StompHit();
-	void FootFX();
-	void LeftFootHit();
-	void RightFootHit();
-	void BackFootHit();
-	void CalculateStompHitPosition();
-	void MoveCalcBaseGoal();
-	void IsLegBoneFollower();
-	void GetBoneFollowerByIndex();
-	void InputDisableCollisionWith();
-	void InputEnableCollisionWith();
-	void GetBoneFollowerIndex();
-	void InputStopShootingMinigunForSeconds();
-	void CannonHitThink();
-	void InputSetMinigunTarget();
-	void DoFindPathToPos();
-	void RagdollDeathEffect();
-	void InitCustomSchedules();
-	void LoadSchedules();
-	void CScheduleLoader();
-	void CNPC_Strider();
-	void SetTargetPath();
-	void InputSetTargetPath();
-	void CanUseLocalNavigation();
-	void NewTarget();
-	void OnMinigunStartShooting();
-	void GetEntity();
-	void ~CPathfinder();
-	void ~CPathfinder();
-	void ~CNavigator();
-	void ~CNavigator();
-	void GetAdjustedOrigin();
+	void InputEnableMinigun(); // size[0]
+	void InputSetMinigunTime(); // size[0]
+	void InputFlickRagdoll(); // size[0]
+	void InputSetHeight(); // size[0]
+	void InputDisableCrouchWalk(); // size[0]
+	void InputEnableCrouchWalk(); // size[0]
+	void InputDisableCrouch(); // size[0]
+	void InputDisableMoveToLOS(); // size[0]
+	void InputScaleGroundSpeed(); // size[0]
+	void GetViewCone(); // size[0]
+	void GetMinigunRateOfFire(); // size[0]
+	void GetMinigunOnTargetTime(); // size[0]
+	void GetMinigunShootDuration(); // size[0]
+	void GetMinigunShootDowntime(); // size[0]
+	void GetMinigunShootVariation(); // size[0]
+	void ShouldOptimizeInitialPathSegment(); // size[0]
+	void GetStoppingPath(); // size[0]
+	void InputCrouch(); // size[0]
+	void InputCrouchInstantly(); // size[0]
+	void InputStand(); // size[0]
+	void InputClearTargetPath(); // size[0]
+	void InputEnableAggressiveBehavior(); // size[0]
+	void MoveUpdateWaypoint(); // size[0]
+	void InputDisableMinigun(); // size[0]
+	void UpdateMinigunControls(); // size[0]
+	void InputExplode(); // size[0]
+	void ShootMinigun(); // size[0]
+	void InputDisableAggressiveBehavior(); // size[0]
+	void InputSetCannonTarget(); // size[0]
+	void GetBaseMap(); // size[0]
+	void SetupGlobalModelData(); // size[0]
+	void InitBoneFollowers(); // size[0]
+	void GetViewOffset(); // size[0]
+	void StriderEnemyDistance(); // size[0]
+	void CanShootThrough(); // size[0]
+	void CreateFocus(); // size[0]
+	void GetFocus(); // size[0]
+	void OnMinigunStopShooting(); // size[0]
+	void GetWeaponLosZ(); // size[0]
+	void GatherHeightConditions(); // size[0]
+	void HuntSound(); // size[0]
+	void ShouldExplodeFromDamage(); // size[0]
+	void StartSmoking(); // size[0]
+	void TakeDamageFromCombineBall(); // size[0]
+	void StopSmoking(); // size[0]
+	void Explode(); // size[0]
+	void SetHeight(); // size[0]
+	void SetIdealHeight(); // size[0]
+	void SetAbsIdealHeight(); // size[0]
+	void IsStriderCrouching(); // size[0]
+	void IsStriderStanding(); // size[0]
+	void HasPendingTargetPath(); // size[0]
+	void CannonPosition(); // size[0]
+	void GetCannonTarget(); // size[0]
+	void HasCannonTarget(); // size[0]
+	void IsCannonTarget(); // size[0]
+	void AimCannonAt(); // size[0]
+	void FireCannon(); // size[0]
+	void CarriedByDropship(); // size[0]
+	void CarriedThink(); // size[0]
+	void StompHit(); // size[0]
+	void FootFX(); // size[0]
+	void LeftFootHit(); // size[0]
+	void RightFootHit(); // size[0]
+	void BackFootHit(); // size[0]
+	void CalculateStompHitPosition(); // size[0]
+	void MoveCalcBaseGoal(); // size[0]
+	void IsLegBoneFollower(); // size[0]
+	void GetBoneFollowerByIndex(); // size[0]
+	void InputDisableCollisionWith(); // size[0]
+	void InputEnableCollisionWith(); // size[0]
+	void GetBoneFollowerIndex(); // size[0]
+	void InputStopShootingMinigunForSeconds(); // size[0]
+	void CannonHitThink(); // size[0]
+	void InputSetMinigunTarget(); // size[0]
+	void DoFindPathToPos(); // size[0]
+	void RagdollDeathEffect(); // size[0]
+	void InitCustomSchedules(); // size[0]
+	void LoadSchedules(); // size[0]
+	CScheduleLoader(); // size[0]
+	CNPC_Strider(); // size[0]
+	void SetTargetPath(); // size[0]
+	void InputSetTargetPath(); // size[0]
+	void CanUseLocalNavigation(); // size[0]
+	void NewTarget(); // size[0]
+	void OnMinigunStartShooting(); // size[0]
+	void GetEntity(); // size[0]
+	~CPathfinder(); // size[0]
+	~CPathfinder(); // size[0]
+	~CNavigator(); // size[0]
+	~CNavigator(); // size[0]
+	void GetAdjustedOrigin(); // size[0]
 };

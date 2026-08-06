@@ -9,7 +9,7 @@ public:
 	virtual void FindFactory(); // vtable[3]
 	virtual void GetCannonicalName() override; // vtable[4]
 
-	void CEntityFactoryDictionary();
-	void ReportEntitySizes();
-	void ~CEntityFactoryDictionary();
+	CEntityFactoryDictionary(); // size[0]
+	void ReportEntitySizes(); // size[0]
+	~CEntityFactoryDictionary(); // size[0]
 };

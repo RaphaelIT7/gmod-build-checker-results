@@ -3,51 +3,67 @@
 class CFuncTrackTrain : public CBaseEntity
 {
 public:
-	virtual void ~CFuncTrackTrain() override; // vtable[0]
-	virtual void ~CFuncTrackTrain() override; // vtable[1]
+	virtual ~CFuncTrackTrain() override; // vtable[0]
+	virtual ~CFuncTrackTrain() override; // vtable[1]
+	virtual void GetServerClass() override; // vtable[10]
+	virtual void YouForgotToImplementOrDeclareServerClass() override; // vtable[11]
+	virtual void GetDataDescMap() override; // vtable[12]
+	virtual void Spawn() override; // vtable[23]
+	virtual void Precache() override; // vtable[24]
 	virtual void _ZN15CFuncTrackTrain8KeyValueEPKcS1_() override; // vtable[30]
+	virtual void ObjectCaps() override; // vtable[36]
+	virtual void DrawDebugGeometryOverlays() override; // vtable[39]
+	virtual void DrawDebugTextOverlays() override; // vtable[40]
+	virtual void OnRestore() override; // vtable[45]
+	virtual void MoveDone() override; // vtable[47]
+	virtual void OnTakeDamage() override; // vtable[64]
+	virtual void OnControls() override; // vtable[80]
+	virtual void IsBaseTrain() override; // vtable[86]
 	virtual void _ZN15CFuncTrackTrain3UseEP11CBaseEntityS1_8USE_TYPEf() override; // vtable[100]
+	virtual void Blocked() override; // vtable[105]
+	virtual void UpdateOnRemove() override; // vtable[108]
+	virtual void CreateVPhysics() override; // vtable[157]
 
-	void InputSetMaxSpeed();
-	void DeadEnd();
-	void InputUnlockOrientation();
-	void InputLockOrientation();
-	void GetBaseMap();
-	void CFuncTrackTrain();
-	void IsDirForward();
-	void SetDirForward();
-	void GetTrainVelocityType();
-	void UpdateTrainVelocity();
-	void GetTrainOrientationType();
-	void DoUpdateOrientation();
-	void UpdateOrientationBlend();
-	void UpdateOrientationAtPathTracks();
-	void UpdateTrainOrientation();
-	void TeleportToPathTrack();
-	void InputTeleportToPathTrack();
-	void FirePassInputs();
-	void SetControls();
-	void Instance();
-	void SoundStop();
-	void Stop();
-	void InputStop();
-	void Next();
-	void Start();
-	void InputResume();
-	void SetSpeed();
-	void InputReverse();
-	void InputStartForward();
-	void InputStartBackward();
-	void InputToggle();
-	void InputSetSpeedReal();
-	void InputSetSpeed();
-	void InputSetSpeedDir();
-	void InputMoveToPathNode();
-	void SetSpeedDirAccel();
-	void InputSetSpeedDirAccel();
-	void SetSpeedForwardModifier();
-	void InputSetSpeedForwardModifier();
-	void ArriveAtNode();
-	void InputTeleportToPathNode();
-	void Find();
+	void InputSetMaxSpeed(); // size[0]
+	void DeadEnd(); // size[0]
+	void InputUnlockOrientation(); // size[0]
+	void InputLockOrientation(); // size[0]
+	void GetBaseMap(); // size[0]
+	CFuncTrackTrain(); // size[0]
+	void IsDirForward(); // size[0]
+	void SetDirForward(); // size[0]
+	void GetTrainVelocityType(); // size[0]
+	void UpdateTrainVelocity(); // size[0]
+	void GetTrainOrientationType(); // size[0]
+	void DoUpdateOrientation(); // size[0]
+	void UpdateOrientationBlend(); // size[0]
+	void UpdateOrientationAtPathTracks(); // size[0]
+	void UpdateTrainOrientation(); // size[0]
+	void TeleportToPathTrack(); // size[0]
+	void InputTeleportToPathTrack(); // size[0]
+	void FirePassInputs(); // size[0]
+	void SetControls(); // size[0]
+	void Instance(); // size[0]
+	void SoundStop(); // size[0]
+	void Stop(); // size[0]
+	void InputStop(); // size[0]
+	void Next(); // size[0]
+	void Start(); // size[0]
+	void InputResume(); // size[0]
+	void SetSpeed(); // size[0]
+	void InputReverse(); // size[0]
+	void InputStartForward(); // size[0]
+	void InputStartBackward(); // size[0]
+	void InputToggle(); // size[0]
+	void InputSetSpeedReal(); // size[0]
+	void InputSetSpeed(); // size[0]
+	void InputSetSpeedDir(); // size[0]
+	void InputMoveToPathNode(); // size[0]
+	void SetSpeedDirAccel(); // size[0]
+	void InputSetSpeedDirAccel(); // size[0]
+	void SetSpeedForwardModifier(); // size[0]
+	void InputSetSpeedForwardModifier(); // size[0]
+	void ArriveAtNode(); // size[0]
+	void InputTeleportToPathNode(); // size[0]
+	void Find(); // size[0]
 };

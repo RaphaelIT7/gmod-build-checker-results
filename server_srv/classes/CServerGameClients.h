@@ -26,6 +26,6 @@ public:
 	virtual void GMOD_SentClientStringTables(); // vtable[20]
 	virtual void GMOD_OnReceivedVoicePacket(); // vtable[21]
 
-	void _GLOBAL__sub_I_GetPlayerLimits();
-	void GetBugReportInfo();
+	void _GLOBAL__sub_I_GetPlayerLimits(); // size[0]
+	void GetBugReportInfo(); // size[0]
 };

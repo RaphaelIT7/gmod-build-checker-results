@@ -3,9 +3,9 @@
 class CSendTablePrecalc
 {
 public:
-	virtual void ~CSendTablePrecalc(); // vtable[0]
-	virtual void ~CSendTablePrecalc(); // vtable[1]
+	virtual ~CSendTablePrecalc(); // vtable[0]
+	virtual ~CSendTablePrecalc(); // vtable[1]
 
-	void CSendTablePrecalc();
-	void SetupFlatPropertyArray();
+	CSendTablePrecalc(); // size[0]
+	void SetupFlatPropertyArray(); // size[0]
 };

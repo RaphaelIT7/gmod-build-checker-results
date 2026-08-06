@@ -3,32 +3,52 @@
 class CAI_AssaultBehavior : public CAI_Behavior
 {
 public:
-	virtual void ~CAI_AssaultBehavior() override; // vtable[0]
-	virtual void ~CAI_AssaultBehavior() override; // vtable[1]
+	virtual ~CAI_AssaultBehavior() override; // vtable[0]
+	virtual ~CAI_AssaultBehavior() override; // vtable[1]
 	virtual void GetName() override; // vtable[5]
+	virtual void CanSelectSchedule() override; // vtable[7]
+	virtual void BeginScheduleSelection() override; // vtable[8]
+	virtual void EndScheduleSelection() override; // vtable[9]
+	virtual void GatherConditions() override; // vtable[11]
+	virtual void GetClassScheduleIdSpace() override; // vtable[14]
+	virtual void DrawDebugTextOverlays() override; // vtable[15]
+	virtual void UpdateOnRemove() override; // vtable[20]
+	virtual void OnScheduleChange() override; // vtable[24]
+	virtual void OnStartSchedule() override; // vtable[25]
+	virtual void SelectSchedule() override; // vtable[26]
+	virtual void StartTask() override; // vtable[28]
+	virtual void RunTask() override; // vtable[29]
+	virtual void TranslateSchedule() override; // vtable[31]
+	virtual void GetSchedulingErrorName() override; // vtable[33]
+	virtual void BuildScheduleTestBits() override; // vtable[34]
+	virtual void IsValidShootPosition() override; // vtable[44]
+	virtual void GetMaxTacticalLateralMovement() override; // vtable[45]
+	virtual void CanRunAScriptedNPCInteraction() override; // vtable[58]
+	virtual void OnRestore() override; // vtable[67]
+	virtual void GetDataDescMap() override; // vtable[70]
 	virtual void LoadedSchedules() override; // vtable[71]
 
-	void GetBaseMap();
-	void ReceiveAssaultCue();
-	void AssaultHasBegun();
-	void SetAssaultPoint();
-	void OnHitAssaultPoint();
-	void FindBestRallyPointInRadius();
-	void OnStrictAssault();
-	void IsForcingCrouch();
-	void UpdateForceCrouch();
-	void IsUrgent();
-	void UnlockRallyPoint();
-	void PollAssaultCue();
-	void ClearSchedule();
-	void IsAllowedToDivert();
-	void FindAssaultPoint();
-	void ClearAssaultPoint();
-	void InitializeBehavior();
-	void SetParameters();
-	void SetParameters();
-	void InitCustomSchedules();
-	void LoadSchedules();
-	void CScheduleLoader();
-	void CAI_AssaultBehavior();
+	void GetBaseMap(); // size[0]
+	void ReceiveAssaultCue(); // size[0]
+	void AssaultHasBegun(); // size[0]
+	void SetAssaultPoint(); // size[0]
+	void OnHitAssaultPoint(); // size[0]
+	void FindBestRallyPointInRadius(); // size[0]
+	void OnStrictAssault(); // size[0]
+	void IsForcingCrouch(); // size[0]
+	void UpdateForceCrouch(); // size[0]
+	void IsUrgent(); // size[0]
+	void UnlockRallyPoint(); // size[0]
+	void PollAssaultCue(); // size[0]
+	void ClearSchedule(); // size[0]
+	void IsAllowedToDivert(); // size[0]
+	void FindAssaultPoint(); // size[0]
+	void ClearAssaultPoint(); // size[0]
+	void InitializeBehavior(); // size[0]
+	void SetParameters(); // size[0]
+	void SetParameters(); // size[0]
+	void InitCustomSchedules(); // size[0]
+	void LoadSchedules(); // size[0]
+	CScheduleLoader(); // size[0]
+	CAI_AssaultBehavior(); // size[0]
 };

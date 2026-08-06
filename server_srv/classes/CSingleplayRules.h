@@ -3,8 +3,8 @@
 class CSingleplayRules : public CGameRules
 {
 public:
-	virtual void ~CSingleplayRules() override; // vtable[13]
-	virtual void ~CSingleplayRules() override; // vtable[14]
+	virtual ~CSingleplayRules() override; // vtable[13]
+	virtual ~CSingleplayRules() override; // vtable[14]
 	virtual void Damage_IsTimeBased(); // vtable[19]
 	virtual void Damage_ShouldGibCorpse(); // vtable[20]
 	virtual void Damage_ShowOnHUD(); // vtable[21]
@@ -15,6 +15,8 @@ public:
 	virtual void Damage_GetShowOnHud(); // vtable[26]
 	virtual void Damage_GetNoPhysicsForce(); // vtable[27]
 	virtual void Damage_GetShouldNotBleed(); // vtable[28]
+	virtual void SwitchToNextBestWeapon() override; // vtable[29]
+	virtual void GetNextBestWeapon() override; // vtable[30]
 	virtual void IsMultiplayer(); // vtable[36]
 	virtual void Think(); // vtable[46]
 	virtual void IsAllowedToSpawn(); // vtable[47]
@@ -26,11 +28,13 @@ public:
 	virtual void InitHUD(); // vtable[60]
 	virtual void ClientDisconnected(); // vtable[61]
 	virtual void FlPlayerFallDamage(); // vtable[62]
+	virtual void GetAutoAimMode() override; // vtable[66]
 	virtual void AllowDamage(); // vtable[70]
 	virtual void PlayerSpawn(); // vtable[71]
 	virtual void __cxa_pure_virtual(); // vtable[72]
 	virtual void FPlayerCanRespawn(); // vtable[73]
 	virtual void FlPlayerSpawnTime(); // vtable[74]
+	virtual void AllowAutoTargetCrosshair() override; // vtable[77]
 	virtual void IPointsForKill(); // vtable[80]
 	virtual void PlayerKilled(); // vtable[81]
 	virtual void DeathNotice(); // vtable[82]
@@ -53,6 +57,6 @@ public:
 	virtual void PlayerCanHearChat(); // vtable[109]
 	virtual void FAllowNPCs() override; // vtable[119]
 
-	void _GLOBAL__sub_I_IsMultiplayer();
-	void CSingleplayRules();
+	void _GLOBAL__sub_I_IsMultiplayer(); // size[0]
+	CSingleplayRules(); // size[0]
 };

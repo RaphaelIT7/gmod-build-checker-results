@@ -3,6 +3,7 @@
 class CFuncNavAvoid : public CFuncNavCost
 {
 public:
-	virtual void ~CFuncNavAvoid() override; // vtable[0]
-	virtual void ~CFuncNavAvoid() override; // vtable[1]
+	virtual ~CFuncNavAvoid() override; // vtable[0]
+	virtual ~CFuncNavAvoid() override; // vtable[1]
+	virtual void GetCostMultiplier() override; // vtable[246]
 };

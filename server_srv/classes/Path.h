@@ -3,8 +3,8 @@
 class Path
 {
 public:
-	virtual void ~Path(); // vtable[0]
-	virtual void ~Path(); // vtable[1]
+	virtual ~Path(); // vtable[0]
+	virtual ~Path(); // vtable[1]
 	virtual void GetLength(); // vtable[2]
 	virtual void GetPosition(); // vtable[3]
 	virtual void GetClosestPosition(); // vtable[4]
@@ -35,11 +35,11 @@ public:
 	virtual void ValidatePath(); // vtable[29]
 	virtual void ValidatePathConst(); // vtable[30]
 
-	void Path();
-	void ComputePathDetails();
-	void InsertSegment();
-	void BuildTrivialPath();
-	void Optimize();
-	void PostProcess();
-	void Draw();
+	Path(); // size[0]
+	void ComputePathDetails(); // size[0]
+	void InsertSegment(); // size[0]
+	void BuildTrivialPath(); // size[0]
+	void Optimize(); // size[0]
+	void PostProcess(); // size[0]
+	void Draw(); // size[0]
 };

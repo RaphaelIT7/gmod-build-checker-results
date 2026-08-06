@@ -3,5 +3,7 @@
 class CTraceFilterLOS : public CTraceFilterSkipTwoEntities
 {
 public:
-	void CTraceFilterLOS();
+	virtual void ShouldHitEntity() override; // vtable[0]
+
+	CTraceFilterLOS(); // size[0]
 };

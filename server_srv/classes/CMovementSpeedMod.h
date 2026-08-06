@@ -3,10 +3,11 @@
 class CMovementSpeedMod : public CPointEntity
 {
 public:
-	virtual void ~CMovementSpeedMod() override; // vtable[0]
-	virtual void ~CMovementSpeedMod() override; // vtable[1]
+	virtual ~CMovementSpeedMod() override; // vtable[0]
+	virtual ~CMovementSpeedMod() override; // vtable[1]
+	virtual void GetDataDescMap() override; // vtable[12]
 
-	void GetBaseMap();
-	void GetDisabledButtonMask();
-	void InputSpeedMod();
+	void GetBaseMap(); // size[0]
+	void GetDisabledButtonMask(); // size[0]
+	void InputSpeedMod(); // size[0]
 };

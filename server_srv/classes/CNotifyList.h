@@ -11,9 +11,9 @@ public:
 	virtual void OnEntityCreated(); // vtable[5]
 	virtual void OnEntityDeleted(); // vtable[6]
 
-	void OnEntityCreated();
-	void OnEntityDeleted();
-	void LevelShutdownPreEntity();
-	void LevelInitPreEntity();
-	void ~CNotifyList();
+	void OnEntityCreated(); // size[0]
+	void OnEntityDeleted(); // size[0]
+	void LevelShutdownPreEntity(); // size[0]
+	void LevelInitPreEntity(); // size[0]
+	~CNotifyList(); // size[0]
 };

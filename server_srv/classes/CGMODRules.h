@@ -3,14 +3,43 @@
 class CGMODRules : public CHL2MPRules
 {
 public:
-	virtual void ~CGMODRules() override; // vtable[13]
-	virtual void ~CGMODRules() override; // vtable[14]
+	virtual void LevelInitPreEntity() override; // vtable[4]
+	virtual ~CGMODRules() override; // vtable[13]
+	virtual ~CGMODRules() override; // vtable[14]
+	virtual void ShouldCollide() override; // vtable[31]
+	virtual void GetAmmoDamage() override; // vtable[34]
+	virtual void GetEncryptionKey() override; // vtable[37]
+	virtual void Precache() override; // vtable[44]
+	virtual void Think() override; // vtable[46]
+	virtual void OnSkillLevelChanged() override; // vtable[51]
+	virtual void IsTeamplay() override; // vtable[56]
+	virtual void GetGameDescription() override; // vtable[58]
+	virtual void ClientDisconnected() override; // vtable[61]
+	virtual void FlPlayerFallDamage() override; // vtable[62]
+	virtual void FPlayerCanTakeDamage() override; // vtable[63]
+	virtual void ShouldAutoAim() override; // vtable[64]
+	virtual void ShouldUseRobustRadiusDamage() override; // vtable[67]
+	virtual void FlPlayerFallDeathDoesScreenFade() override; // vtable[69]
+	virtual void ClientCommand() override; // vtable[78]
+	virtual void ClientSettingsChanged() override; // vtable[79]
+	virtual void DeathNotice() override; // vtable[82]
+	virtual void AdjustPlayerDamageInflicted() override; // vtable[84]
+	virtual void AdjustPlayerDamageTaken() override; // vtable[85]
+	virtual void CanHavePlayerItem() override; // vtable[86]
+	virtual void WeaponShouldRespawn() override; // vtable[87]
+	virtual void CanHaveItem() override; // vtable[91]
+	virtual void ItemShouldRespawn() override; // vtable[93]
+	virtual void GetAmmoQuantityScale() override; // vtable[100]
+	virtual void InitDefaultAIRelationships() override; // vtable[101]
+	virtual void AIClassText() override; // vtable[102]
+	virtual void CreateStandardEntities() override; // vtable[122]
+	virtual void ShouldBurningPropsEmitLight() override; // vtable[126]
 	virtual void CleanUpMap(); // vtable[165]
 	virtual void IsAlyxInDarknessMode(); // vtable[166]
 
-	void NPC_ShouldDropHealth();
-	void NPC_DroppedHealth();
-	void NPC_DroppedGrenade();
-	void NPC_ShouldDropGrenade();
-	void CGMODRules();
+	void NPC_ShouldDropHealth(); // size[0]
+	void NPC_DroppedHealth(); // size[0]
+	void NPC_DroppedGrenade(); // size[0]
+	void NPC_ShouldDropGrenade(); // size[0]
+	CGMODRules(); // size[0]
 };

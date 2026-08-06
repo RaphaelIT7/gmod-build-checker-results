@@ -3,8 +3,10 @@
 class CBaseGrenadeContact : public CBaseGrenade
 {
 public:
-	virtual void ~CBaseGrenadeContact() override; // vtable[0]
-	virtual void ~CBaseGrenadeContact() override; // vtable[1]
+	virtual ~CBaseGrenadeContact() override; // vtable[0]
+	virtual ~CBaseGrenadeContact() override; // vtable[1]
+	virtual void Spawn() override; // vtable[23]
+	virtual void Precache() override; // vtable[24]
 
-	void _GLOBAL__sub_I_Spawn();
+	void _GLOBAL__sub_I_Spawn(); // size[0]
 };

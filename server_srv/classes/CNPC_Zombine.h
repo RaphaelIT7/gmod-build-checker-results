@@ -3,8 +3,8 @@
 class CNPC_Zombine : public CAI_BlendingHost, public CDefaultPlayerPickupVPhysics
 {
 public:
-	virtual void ~CNPC_Zombine() override; // vtable[0]
-	virtual void ~CNPC_Zombine() override; // vtable[1]
+	virtual ~CNPC_Zombine() override; // vtable[0]
+	virtual ~CNPC_Zombine() override; // vtable[1]
 	virtual void SetRefEHandle() override; // vtable[2]
 	virtual void GetRefEHandle() override; // vtable[3]
 	virtual void GetCollideable() override; // vtable[4]
@@ -13,14 +13,38 @@ public:
 	virtual void GetModelIndex() override; // vtable[7]
 	virtual void GetModelName() override; // vtable[8]
 	virtual void SetModelIndex() override; // vtable[9]
+	virtual void GetDataDescMap() override; // vtable[12]
+	virtual void Spawn() override; // vtable[23]
+	virtual void Precache() override; // vtable[24]
+	virtual void TraceAttack() override; // vtable[62]
+	virtual void Event_Killed() override; // vtable[68]
+	virtual void HandleAnimEvent() override; // vtable[261]
+	virtual void HandleInteraction() override; // vtable[298]
+	virtual void NPC_TranslateActivity() override; // vtable[322]
+	virtual void PrescheduleThink() override; // vtable[403]
+	virtual void OnScheduleChange() override; // vtable[405]
+	virtual void SelectSchedule() override; // vtable[407]
+	virtual void TranslateSchedule() override; // vtable[409]
+	virtual void RunTask() override; // vtable[411]
+	virtual void GetSchedulingErrorName() override; // vtable[432]
+	virtual void LoadedSchedules() override; // vtable[433]
+	virtual void BuildScheduleTestBits() override; // vtable[434]
+	virtual void CanRunAScriptedNPCInteraction() override; // vtable[500]
+	virtual void DeathSound() override; // vtable[507]
 	virtual void AlertSound(); // vtable[508]
 	virtual void IdleSound(); // vtable[509]
 	virtual void PainSound(); // vtable[510]
+	virtual void SquadSlotName() override; // vtable[581]
+	virtual void MeleeAttack1Conditions() override; // vtable[597]
+	virtual void GetClassScheduleIdSpace() override; // vtable[640]
+	virtual void ShouldBecomeTorso() override; // vtable[691]
+	virtual void SetZombieModel() override; // vtable[693]
 	virtual void AttackSound(); // vtable[701]
 	virtual void AttackHitSound(); // vtable[702]
 	virtual void AttackMissSound(); // vtable[703]
 	virtual void FootstepSound(); // vtable[704]
 	virtual void FootscuffSound(); // vtable[705]
+	virtual void MoanSound() override; // vtable[707]
 	virtual void GetMoanSound(); // vtable[708]
 	virtual void GetHeadcrabClassname(); // vtable[709]
 	virtual void GetLegsModel(); // vtable[710]
@@ -28,17 +52,17 @@ public:
 	virtual void GetHeadcrabModel() override; // vtable[712]
 	virtual void OnFailedPhysGunPickup(); // vtable[714]
 
-	void InputPullGrenade();
-	void GetBaseMap();
-	void GatherGrenadeConditions();
-	void DropGrenade();
-	void AllowedToSprint();
-	void StopSprint();
-	void Sprint();
-	void InputStartSprint();
-	void ReleaseGrenade();
-	void OnFailedPhysGunPickup();
-	void InitCustomSchedules();
-	void LoadSchedules();
-	void CScheduleLoader();
+	void InputPullGrenade(); // size[0]
+	void GetBaseMap(); // size[0]
+	void GatherGrenadeConditions(); // size[0]
+	void DropGrenade(); // size[0]
+	void AllowedToSprint(); // size[0]
+	void StopSprint(); // size[0]
+	void Sprint(); // size[0]
+	void InputStartSprint(); // size[0]
+	void ReleaseGrenade(); // size[0]
+	void OnFailedPhysGunPickup(); // size[0]
+	void InitCustomSchedules(); // size[0]
+	void LoadSchedules(); // size[0]
+	CScheduleLoader(); // size[0]
 };

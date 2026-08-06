@@ -7,9 +7,9 @@ public:
 	virtual void remove_reference_to_ledge(); // vtable[8]
 	virtual void __cxa_pure_virtual(); // vtable[11]
 
-	void _GLOBAL__sub_I_~IVP_SurfaceManager();
-	void ~IVP_SurfaceManager();
-	void ~IVP_SurfaceManager();
-	void set_ledge_specific_client_data();
-	void get_ledge_specific_client_data();
+	_GLOBAL__sub_I_~IVP_SurfaceManager(); // size[0]
+	~IVP_SurfaceManager(); // size[0]
+	~IVP_SurfaceManager(); // size[0]
+	void set_ledge_specific_client_data(); // size[0]
+	void get_ledge_specific_client_data(); // size[0]
 };

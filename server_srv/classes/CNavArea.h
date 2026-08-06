@@ -3,8 +3,8 @@
 class CNavArea : public CNavAreaCriticalData
 {
 public:
-	virtual void ~CNavArea(); // vtable[0]
-	virtual void ~CNavArea(); // vtable[1]
+	virtual ~CNavArea(); // vtable[0]
+	virtual ~CNavArea(); // vtable[1]
 	virtual void OnServerActivate(); // vtable[2]
 	virtual void OnRoundRestart(); // vtable[3]
 	virtual void OnRoundRestartPreEntity(); // vtable[4]
@@ -41,111 +41,111 @@ public:
 	virtual void IsCompletelyVisible(); // vtable[35]
 	virtual void IsCompletelyVisibleToTeam(); // vtable[36]
 
-	void _GLOBAL__sub_I_s_nDeleteCount();
-	void _GLOBAL__sub_I_SaveToSelectedSet();
-	void CalcDebugID();
-	void CompressIDs();
-	void Build();
-	void Build();
-	void Build();
-	void GetExtent();
-	void ConnectElevators();
-	void ResetNodes();
-	void HasNodes();
-	void Disconnect();
-	void AddLadderUp();
-	void AddLadderDown();
-	void ConnectTo();
-	void AssignNodes();
-	void IsConnected();
-	void IsConnected();
-	void AddIncomingConnection();
-	void ConnectTo();
-	void Disconnect();
-	void MergeAdjacentConnections();
-	void CalcDebugID();
-	void IsRoughlySquare();
-	void IsOverlapping();
-	void IsOverlapping();
-	void IsOverlapping();
-	void IsOverlappingX();
-	void IsOverlappingY();
-	void Contains();
-	void ComputeNormal();
-	void RemoveOrthogonalConnections();
-	void IsFlat();
-	void IsCoplanar();
-	void GetZ();
-	void Contains();
-	void GetClosestPointOnArea();
-	void ComputeGroundHeightChange();
-	void GetDistanceSquaredToPoint();
-	void GetRandomAdjacentArea();
-	void ComputePortal();
-	void ComputeLargestPortal();
-	void IsContiguous();
-	void ComputeAdjacentConnectionHeightChange();
-	void IsEdge();
-	void ComputeClosestPointInPortal();
-	void ComputeDirection();
-	void GetCornerHotspot();
-	void GetCornerUnderCursor();
-	void DrawDragSelectionSet();
-	void DrawHidingSpots();
-	void DrawConnectedAreas();
-	void AddToOpenList();
-	void AddToOpenListTail();
-	void UpdateOnOpenList();
-	void RemoveFromOpenList();
-	void ClearSearchLists();
-	void SetCorner();
-	void IsHidingSpotCollision();
-	void AddHidingSpot();
-	void RemoveHidingSpot();
-	void GetSpotEncounter();
-	void DecayDanger();
-	void IncreaseDanger();
-	void GetDanger();
-	void GetLightIntensity();
-	void GetLightIntensity();
-	void GetLightIntensity();
-	void RaiseCorner();
-	void PlaceOnGround();
-	void Shift();
-	void MarkAsBlocked();
-	void MarkAsUnblocked();
-	void UpdateBlockedFromNavBlockers();
-	void UnblockArea();
-	void CheckFloor();
-	void MarkObstacleToAvoid();
-	void UpdateAvoidanceObstacles();
-	void ClearAllNavCostEntities();
-	void ComputeFuncNavCost();
-	void HasFuncNavAvoid();
-	void HasFuncNavPrefer();
-	void CheckWaterLevel();
-	void SetupPVS();
-	void IsInPVS();
-	void ComputeVisibility();
-	void ResetPotentiallyVisibleAreas();
-	void GetRandomPoint();
-	void FreeLua();
-	void PushForLua();
-	void FinishMerge();
-	void MergeEdit();
-	void CNavArea();
-	void Strip();
-	void ComputeVisibilityDelta();
-	void ComputeVisToArea();
-	void FinishSplitEdit();
-	void SplitEdit();
-	void SpliceEdit();
-	void CollectAdjacentAreas();
-	void GetNodes();
-	void FindClosestNode();
-	void AddSpotEncounters();
-	void AddFuncNavCostEntity();
-	void ComputeVisibilityToMesh();
-	void TestStairs();
-	void TestStairs();
+	void _GLOBAL__sub_I_s_nDeleteCount(); // size[0]
+	void _GLOBAL__sub_I_SaveToSelectedSet(); // size[0]
+	void CalcDebugID(); // size[0]
+	void CompressIDs(); // size[0]
+	void Build(); // size[0]
+	void Build(); // size[0]
+	void Build(); // size[0]
+	void GetExtent(); // size[0]
+	void ConnectElevators(); // size[0]
+	void ResetNodes(); // size[0]
+	void HasNodes(); // size[0]
+	void Disconnect(); // size[0]
+	void AddLadderUp(); // size[0]
+	void AddLadderDown(); // size[0]
+	void ConnectTo(); // size[0]
+	void AssignNodes(); // size[0]
+	void IsConnected(); // size[0]
+	void IsConnected(); // size[0]
+	void AddIncomingConnection(); // size[0]
+	void ConnectTo(); // size[0]
+	void Disconnect(); // size[0]
+	void MergeAdjacentConnections(); // size[0]
+	void CalcDebugID(); // size[0]
+	void IsRoughlySquare(); // size[0]
+	void IsOverlapping(); // size[0]
+	void IsOverlapping(); // size[0]
+	void IsOverlapping(); // size[0]
+	void IsOverlappingX(); // size[0]
+	void IsOverlappingY(); // size[0]
+	void Contains(); // size[0]
+	void ComputeNormal(); // size[0]
+	void RemoveOrthogonalConnections(); // size[0]
+	void IsFlat(); // size[0]
+	void IsCoplanar(); // size[0]
+	void GetZ(); // size[0]
+	void Contains(); // size[0]
+	void GetClosestPointOnArea(); // size[0]
+	void ComputeGroundHeightChange(); // size[0]
+	void GetDistanceSquaredToPoint(); // size[0]
+	void GetRandomAdjacentArea(); // size[0]
+	void ComputePortal(); // size[0]
+	void ComputeLargestPortal(); // size[0]
+	void IsContiguous(); // size[0]
+	void ComputeAdjacentConnectionHeightChange(); // size[0]
+	void IsEdge(); // size[0]
+	void ComputeClosestPointInPortal(); // size[0]
+	void ComputeDirection(); // size[0]
+	void GetCornerHotspot(); // size[0]
+	void GetCornerUnderCursor(); // size[0]
+	void DrawDragSelectionSet(); // size[0]
+	void DrawHidingSpots(); // size[0]
+	void DrawConnectedAreas(); // size[0]
+	void AddToOpenList(); // size[0]
+	void AddToOpenListTail(); // size[0]
+	void UpdateOnOpenList(); // size[0]
+	void RemoveFromOpenList(); // size[0]
+	void ClearSearchLists(); // size[0]
+	void SetCorner(); // size[0]
+	void IsHidingSpotCollision(); // size[0]
+	void AddHidingSpot(); // size[0]
+	void RemoveHidingSpot(); // size[0]
+	void GetSpotEncounter(); // size[0]
+	void DecayDanger(); // size[0]
+	void IncreaseDanger(); // size[0]
+	void GetDanger(); // size[0]
+	void GetLightIntensity(); // size[0]
+	void GetLightIntensity(); // size[0]
+	void GetLightIntensity(); // size[0]
+	void RaiseCorner(); // size[0]
+	void PlaceOnGround(); // size[0]
+	void Shift(); // size[0]
+	void MarkAsBlocked(); // size[0]
+	void MarkAsUnblocked(); // size[0]
+	void UpdateBlockedFromNavBlockers(); // size[0]
+	void UnblockArea(); // size[0]
+	void CheckFloor(); // size[0]
+	void MarkObstacleToAvoid(); // size[0]
+	void UpdateAvoidanceObstacles(); // size[0]
+	void ClearAllNavCostEntities(); // size[0]
+	void ComputeFuncNavCost(); // size[0]
+	void HasFuncNavAvoid(); // size[0]
+	void HasFuncNavPrefer(); // size[0]
+	void CheckWaterLevel(); // size[0]
+	void SetupPVS(); // size[0]
+	void IsInPVS(); // size[0]
+	void ComputeVisibility(); // size[0]
+	void ResetPotentiallyVisibleAreas(); // size[0]
+	void GetRandomPoint(); // size[0]
+	void FreeLua(); // size[0]
+	void PushForLua(); // size[0]
+	void FinishMerge(); // size[0]
+	void MergeEdit(); // size[0]
+	CNavArea(); // size[0]
+	void Strip(); // size[0]
+	void ComputeVisibilityDelta(); // size[0]
+	void ComputeVisToArea(); // size[0]
+	void FinishSplitEdit(); // size[0]
+	void SplitEdit(); // size[0]
+	void SpliceEdit(); // size[0]
+	void CollectAdjacentAreas(); // size[0]
+	void GetNodes(); // size[0]
+	void FindClosestNode(); // size[0]
+	void AddSpotEncounters(); // size[0]
+	void AddFuncNavCostEntity(); // size[0]
+	void ComputeVisibilityToMesh(); // size[0]
+	void TestStairs(); // size[0]
+	void TestStairs(); // size[0]
 };

@@ -3,6 +3,7 @@
 class CAnchorList : public CAutoGameSystem
 {
 public:
-	virtual void ~CAnchorList() override; // vtable[13]
-	virtual void ~CAnchorList() override; // vtable[14]
+	virtual void LevelShutdownPostEntity() override; // vtable[8]
+	virtual ~CAnchorList() override; // vtable[13]
+	virtual ~CAnchorList() override; // vtable[14]
 };

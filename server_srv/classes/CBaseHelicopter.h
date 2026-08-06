@@ -3,8 +3,25 @@
 class CBaseHelicopter : public CAI_TrackPather
 {
 public:
-	virtual void ~CBaseHelicopter() override; // vtable[0]
-	virtual void ~CBaseHelicopter() override; // vtable[1]
+	virtual ~CBaseHelicopter() override; // vtable[0]
+	virtual ~CBaseHelicopter() override; // vtable[1]
+	virtual void GetServerClass() override; // vtable[10]
+	virtual void YouForgotToImplementOrDeclareServerClass() override; // vtable[11]
+	virtual void GetDataDescMap() override; // vtable[12]
+	virtual void SetTransmit() override; // vtable[21]
+	virtual void Spawn() override; // vtable[23]
+	virtual void Precache() override; // vtable[24]
+	virtual void DrawDebugGeometryOverlays() override; // vtable[39]
+	virtual void Classify() override; // vtable[55]
+	virtual void TraceAttack() override; // vtable[62]
+	virtual void Event_Killed() override; // vtable[68]
+	virtual void BloodColor() override; // vtable[70]
+	virtual void UpdateOnRemove() override; // vtable[108]
+	virtual void StopLoopingSounds() override; // vtable[109]
+	virtual void Ignite() override; // vtable[267]
+	virtual void GatherEnemyConditions() override; // vtable[478]
+	virtual void GetTrackPatherTarget() override; // vtable[652]
+	virtual void GetTrackPatherTargetEnt() override; // vtable[653]
 	virtual void ChooseEnemy(); // vtable[658]
 	virtual void HelicopterPostThink(); // vtable[659]
 	virtual void FlyTouch(); // vtable[660]
@@ -34,31 +51,31 @@ public:
 	virtual void EnemySearchDistance(); // vtable[684]
 	virtual void UpdateRotorWashVolume(); // vtable[685]
 
-	void InputEnableRotorSound();
-	void InputDisableRotorSound();
-	void InputGunOn();
-	void InputGunOff();
-	void InputMissileOn();
-	void InputMissileOff();
-	void DelayedKillThink();
-	void InputSetAngles();
-	void RotorWashThink();
-	void InputActivate();
-	void InputEnableRotorWash();
-	void InputDisableRotorWash();
-	void GetBaseMap();
-	void CBaseHelicopter();
-	void DoWashPushOnAirboat();
-	void UpdateEnemy();
-	void FireWeapons();
-	void UpdatePlayerDopplerShift();
-	void ComputeActualTargetPosition();
-	void InputMoveTopSpeed();
-	void InputMoveSpecifiedSpeed();
-	void StopRotorWash();
-	void InputKill();
-	void GibMonster();
-	void DoWashPush();
-	void DoRotorPhysicsPush();
-	void CallDyingThink();
+	void InputEnableRotorSound(); // size[0]
+	void InputDisableRotorSound(); // size[0]
+	void InputGunOn(); // size[0]
+	void InputGunOff(); // size[0]
+	void InputMissileOn(); // size[0]
+	void InputMissileOff(); // size[0]
+	void DelayedKillThink(); // size[0]
+	void InputSetAngles(); // size[0]
+	void RotorWashThink(); // size[0]
+	void InputActivate(); // size[0]
+	void InputEnableRotorWash(); // size[0]
+	void InputDisableRotorWash(); // size[0]
+	void GetBaseMap(); // size[0]
+	CBaseHelicopter(); // size[0]
+	void DoWashPushOnAirboat(); // size[0]
+	void UpdateEnemy(); // size[0]
+	void FireWeapons(); // size[0]
+	void UpdatePlayerDopplerShift(); // size[0]
+	void ComputeActualTargetPosition(); // size[0]
+	void InputMoveTopSpeed(); // size[0]
+	void InputMoveSpecifiedSpeed(); // size[0]
+	void StopRotorWash(); // size[0]
+	void InputKill(); // size[0]
+	void GibMonster(); // size[0]
+	void DoWashPush(); // size[0]
+	void DoRotorPhysicsPush(); // size[0]
+	void CallDyingThink(); // size[0]
 };

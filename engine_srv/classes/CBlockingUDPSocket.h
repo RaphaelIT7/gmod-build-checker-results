@@ -3,12 +3,12 @@
 class CBlockingUDPSocket
 {
 public:
-	virtual void ~CBlockingUDPSocket(); // vtable[0]
-	virtual void ~CBlockingUDPSocket(); // vtable[1]
+	virtual ~CBlockingUDPSocket(); // vtable[0]
+	virtual ~CBlockingUDPSocket(); // vtable[1]
 
-	void CreateSocket();
-	void CBlockingUDPSocket();
-	void WaitForMessage();
-	void ReceiveSocketMessage();
-	void SendSocketMessage();
+	void CreateSocket(); // size[0]
+	CBlockingUDPSocket(); // size[0]
+	void WaitForMessage(); // size[0]
+	void ReceiveSocketMessage(); // size[0]
+	void SendSocketMessage(); // size[0]
 };

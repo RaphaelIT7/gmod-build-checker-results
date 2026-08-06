@@ -3,8 +3,8 @@
 class CFrictionSnapshot : public IPhysicsFrictionSnapshot
 {
 public:
-	virtual void ~CFrictionSnapshot(); // vtable[0]
-	virtual void ~CFrictionSnapshot(); // vtable[1]
+	virtual ~CFrictionSnapshot(); // vtable[0]
+	virtual ~CFrictionSnapshot(); // vtable[1]
 	virtual void IsValid(); // vtable[2]
 	virtual void GetObject(); // vtable[3]
 	virtual void GetMaterial(); // vtable[4]
@@ -19,7 +19,7 @@ public:
 	virtual void NextFrictionData(); // vtable[13]
 	virtual void GetFrictionCoefficient(); // vtable[14]
 
-	void _GLOBAL__sub_I_CFrictionSnapshot();
-	void CFrictionSnapshot();
-	void SetFrictionSynapse();
+	_GLOBAL__sub_I_CFrictionSnapshot(); // size[0]
+	CFrictionSnapshot(); // size[0]
+	void SetFrictionSynapse(); // size[0]
 };

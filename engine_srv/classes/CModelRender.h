@@ -31,31 +31,31 @@ public:
 	virtual void GetBrightestShadowingLightSource(); // vtable[25]
 	virtual void GetItemName(); // vtable[26]
 
-	void GetItemName();
-	void Init();
-	void Shutdown();
-	void SnapCurrentLightingState();
-	void TimeAverageAmbientLight();
-	void TimeAverageLightingState();
-	void StudioSetupLighting();
-	void SetupModelState();
-	void DebugDrawLightingOrigin();
-	void ComputeLOD();
-	void InitColormeshParams();
-	void ValidateColorMesh();
-	void ProtectColorDataIfQueued();
-	void FindOrCreateStaticPropColorData();
-	void ComputeModelVertexLightingOld();
-	void ComputeModelVertexLighting();
-	void StaticPropColorMeshCallback();
-	void StaticPropColorTexelCallback();
-	void LoadStaticPropColorData();
-	void UpdateStaticPropColorData();
-	void DestroyStaticPropColorData();
-	void PurgeCachedStaticPropColorData();
-	void IsStaticPropColorDataCached();
-	void GetCachedStaticPropColorData();
-	void IsModelInstanceValid();
-	void ValidateStaticPropColorData();
-	void ~CModelRender();
+	void GetItemName(); // size[0]
+	void Init(); // size[0]
+	void Shutdown(); // size[0]
+	void SnapCurrentLightingState(); // size[0]
+	void TimeAverageAmbientLight(); // size[0]
+	void TimeAverageLightingState(); // size[0]
+	void StudioSetupLighting(); // size[0]
+	void SetupModelState(); // size[0]
+	void DebugDrawLightingOrigin(); // size[0]
+	void ComputeLOD(); // size[0]
+	void InitColormeshParams(); // size[0]
+	void ValidateColorMesh(); // size[0]
+	void ProtectColorDataIfQueued(); // size[0]
+	void FindOrCreateStaticPropColorData(); // size[0]
+	void ComputeModelVertexLightingOld(); // size[0]
+	void ComputeModelVertexLighting(); // size[0]
+	void StaticPropColorMeshCallback(); // size[0]
+	void StaticPropColorTexelCallback(); // size[0]
+	void LoadStaticPropColorData(); // size[0]
+	void UpdateStaticPropColorData(); // size[0]
+	void DestroyStaticPropColorData(); // size[0]
+	void PurgeCachedStaticPropColorData(); // size[0]
+	void IsStaticPropColorDataCached(); // size[0]
+	void GetCachedStaticPropColorData(); // size[0]
+	void IsModelInstanceValid(); // size[0]
+	void ValidateStaticPropColorData(); // size[0]
+	~CModelRender(); // size[0]
 };

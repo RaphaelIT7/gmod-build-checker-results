@@ -3,8 +3,15 @@
 class ConVar : public ConCommandBase, public IConVar
 {
 public:
-	virtual void ~ConVar() override; // vtable[0]
-	virtual void ~ConVar() override; // vtable[1]
+	virtual ~ConVar() override; // vtable[0]
+	virtual ~ConVar() override; // vtable[1]
+	virtual void IsCommand() override; // vtable[2]
+	virtual void IsFlagSet() override; // vtable[3]
+	virtual void AddFlags() override; // vtable[4]
+	virtual void GetName() override; // vtable[5]
+	virtual void GetHelpText() override; // vtable[6]
+	virtual void IsRegistered() override; // vtable[7]
+	virtual void Init() override; // vtable[10]
 	virtual void SetValue(); // vtable[11]
 	virtual void SetValue(); // vtable[12]
 	virtual void SetValue(); // vtable[13]
@@ -16,25 +23,25 @@ public:
 	virtual void Create_Vtbl(); // vtable[19]
 	virtual void InternalSetFloatValue2(); // vtable[20]
 
-	void GetName();
-	void IsFlagSet();
-	void SetValue();
-	void SetValue();
-	void SetValue();
-	void InstallChangeCallback();
-	void Create();
-	void ConVar();
-	void ConVar();
-	void ConVar();
-	void ConVar();
-	void ConVar();
-	void ConVar();
-	void Revert();
-	void GetMin();
-	void GetMax();
-	void GetCompMin();
-	void GetCompMax();
-	void SetCompetitiveMode();
-	void GetDefault();
-	void SetDefault();
+	void GetName(); // size[0]
+	void IsFlagSet(); // size[0]
+	void SetValue(); // size[0]
+	void SetValue(); // size[0]
+	void SetValue(); // size[0]
+	void InstallChangeCallback(); // size[0]
+	void Create(); // size[0]
+	ConVar(); // size[0]
+	ConVar(); // size[0]
+	ConVar(); // size[0]
+	ConVar(); // size[0]
+	ConVar(); // size[0]
+	ConVar(); // size[0]
+	void Revert(); // size[0]
+	void GetMin(); // size[0]
+	void GetMax(); // size[0]
+	void GetCompMin(); // size[0]
+	void GetCompMax(); // size[0]
+	void SetCompetitiveMode(); // size[0]
+	void GetDefault(); // size[0]
+	void SetDefault(); // size[0]
 };

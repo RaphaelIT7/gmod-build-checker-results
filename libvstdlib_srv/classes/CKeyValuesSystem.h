@@ -12,8 +12,8 @@ public:
 	virtual void RemoveKeyValuesFromMemoryLeakList(); // vtable[6]
 	virtual void GMOD_SetAllowGrowingPool() override; // vtable[7]
 
-	void CaseInsensitiveHash();
-	void ~CKeyValuesSystem();
-	void CKeyValuesSystem();
-	void MemoryLeakTrackerLessFunc();
+	void CaseInsensitiveHash(); // size[0]
+	~CKeyValuesSystem(); // size[0]
+	CKeyValuesSystem(); // size[0]
+	void MemoryLeakTrackerLessFunc(); // size[0]
 };

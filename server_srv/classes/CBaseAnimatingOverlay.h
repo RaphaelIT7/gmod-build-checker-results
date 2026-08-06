@@ -3,44 +3,51 @@
 class CBaseAnimatingOverlay : public CBaseAnimating
 {
 public:
-	virtual void ~CBaseAnimatingOverlay() override; // vtable[0]
-	virtual void ~CBaseAnimatingOverlay() override; // vtable[1]
+	virtual ~CBaseAnimatingOverlay() override; // vtable[0]
+	virtual ~CBaseAnimatingOverlay() override; // vtable[1]
+	virtual void GetServerClass() override; // vtable[10]
+	virtual void YouForgotToImplementOrDeclareServerClass() override; // vtable[11]
+	virtual void GetDataDescMap() override; // vtable[12]
+	virtual void OnRestore() override; // vtable[45]
+	virtual void StudioFrameAdvance() override; // vtable[248]
+	virtual void GetSkeleton() override; // vtable[256]
+	virtual void DispatchAnimEvents() override; // vtable[260]
 
-	void GetBaseMap();
-	void VerifyOrder();
-	void SetLayerDuration();
-	void GetLayerDuration();
-	void IsValidLayer();
-	void SetLayerPriority();
-	void FindGestureLayer();
-	void FindGestureSequenceLayer();
-	void IsPlayingGesture();
-	void SetLayerCycle();
-	void SetLayerCycle();
-	void SetLayerCycle();
-	void GetLayerCycle();
-	void SetLayerPlaybackRate();
-	void SetLayerWeight();
-	void GetLayerWeight();
-	void SetLayerBlendIn();
-	void SetLayerBlendOut();
-	void SetLayerAutokill();
-	void SetLayerLooping();
-	void SetLayerNoRestore();
-	void GetLayerActivity();
-	void GetLayerSequence();
-	void RemoveLayer();
-	void RemoveGesture();
-	void RemoveAllGestures();
-	void FastRemoveLayer();
-	void GetAnimOverlay();
-	void HasActiveLayer();
-	void AllocateLayer();
-	void AddLayeredSequence();
-	void AddGestureSequence();
-	void AddGestureSequence();
-	void AddGesture();
-	void AddGesture();
-	void RestartGesture();
-	void SetNumAnimOverlays();
+	void GetBaseMap(); // size[0]
+	void VerifyOrder(); // size[0]
+	void SetLayerDuration(); // size[0]
+	void GetLayerDuration(); // size[0]
+	void IsValidLayer(); // size[0]
+	void SetLayerPriority(); // size[0]
+	void FindGestureLayer(); // size[0]
+	void FindGestureSequenceLayer(); // size[0]
+	void IsPlayingGesture(); // size[0]
+	void SetLayerCycle(); // size[0]
+	void SetLayerCycle(); // size[0]
+	void SetLayerCycle(); // size[0]
+	void GetLayerCycle(); // size[0]
+	void SetLayerPlaybackRate(); // size[0]
+	void SetLayerWeight(); // size[0]
+	void GetLayerWeight(); // size[0]
+	void SetLayerBlendIn(); // size[0]
+	void SetLayerBlendOut(); // size[0]
+	void SetLayerAutokill(); // size[0]
+	void SetLayerLooping(); // size[0]
+	void SetLayerNoRestore(); // size[0]
+	void GetLayerActivity(); // size[0]
+	void GetLayerSequence(); // size[0]
+	void RemoveLayer(); // size[0]
+	void RemoveGesture(); // size[0]
+	void RemoveAllGestures(); // size[0]
+	void FastRemoveLayer(); // size[0]
+	void GetAnimOverlay(); // size[0]
+	void HasActiveLayer(); // size[0]
+	void AllocateLayer(); // size[0]
+	void AddLayeredSequence(); // size[0]
+	void AddGestureSequence(); // size[0]
+	void AddGestureSequence(); // size[0]
+	void AddGesture(); // size[0]
+	void AddGesture(); // size[0]
+	void RestartGesture(); // size[0]
+	void SetNumAnimOverlays(); // size[0]
 };

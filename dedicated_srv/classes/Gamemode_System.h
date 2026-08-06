@@ -14,9 +14,9 @@ public:
 	virtual void IsServerBlacklisted(); // vtable[8]
 	virtual void OnServerDownloadsMounted() override; // vtable[9]
 
-	void ~System();
-	void ChangeGamemode();
-	void Mount();
-	void AddGamemode();
-	void System();
+	~System(); // size[0]
+	void ChangeGamemode(); // size[0]
+	void Mount(); // size[0]
+	void AddGamemode(); // size[0]
+	System(); // size[0]
 };

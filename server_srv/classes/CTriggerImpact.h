@@ -3,11 +3,14 @@
 class CTriggerImpact : public CTriggerMultiple
 {
 public:
-	virtual void ~CTriggerImpact() override; // vtable[0]
-	virtual void ~CTriggerImpact() override; // vtable[1]
+	virtual ~CTriggerImpact() override; // vtable[0]
+	virtual ~CTriggerImpact() override; // vtable[1]
 	virtual void GetDataDescMap() override; // vtable[12]
+	virtual void Spawn() override; // vtable[23]
+	virtual void DrawDebugTextOverlays() override; // vtable[40]
+	virtual void StartTouch() override; // vtable[101]
 
-	void InputSetMagnitude();
-	void InputImpact();
-	void GetBaseMap();
+	void InputSetMagnitude(); // size[0]
+	void InputImpact(); // size[0]
+	void GetBaseMap(); // size[0]
 };

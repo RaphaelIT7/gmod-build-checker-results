@@ -3,8 +3,47 @@
 class NextBotGroundLocomotion : public ILocomotion
 {
 public:
-	virtual void ~NextBotGroundLocomotion() override; // vtable[0]
-	virtual void ~NextBotGroundLocomotion() override; // vtable[1]
+	virtual ~NextBotGroundLocomotion() override; // vtable[0]
+	virtual ~NextBotGroundLocomotion() override; // vtable[1]
+	virtual void OnLeaveGround() override; // vtable[4]
+	virtual void OnLandOnGround() override; // vtable[5]
+	virtual void OnMoveToSuccess() override; // vtable[7]
+	virtual void OnMoveToFailure() override; // vtable[8]
+	virtual void Reset() override; // vtable[43]
+	virtual void Update() override; // vtable[44]
+	virtual void Approach() override; // vtable[47]
+	virtual void DriveTo() override; // vtable[48]
+	virtual void ClimbUpToLedge() override; // vtable[49]
+	virtual void JumpAcrossGap() override; // vtable[50]
+	virtual void IsClimbingOrJumping() override; // vtable[52]
+	virtual void IsClimbingUpToLedge() override; // vtable[53]
+	virtual void IsJumpingAcrossGap() override; // vtable[54]
+	virtual void Run() override; // vtable[56]
+	virtual void Walk() override; // vtable[57]
+	virtual void Stop() override; // vtable[58]
+	virtual void IsRunning() override; // vtable[59]
+	virtual void SetDesiredSpeed() override; // vtable[60]
+	virtual void GetDesiredSpeed() override; // vtable[61]
+	virtual void GetSpeedLimit() override; // vtable[63]
+	virtual void IsOnGround() override; // vtable[64]
+	virtual void GetGround() override; // vtable[65]
+	virtual void GetGroundNormal() override; // vtable[66]
+	virtual void ClimbLadder() override; // vtable[69]
+	virtual void DescendLadder() override; // vtable[70]
+	virtual void IsUsingLadder() override; // vtable[71]
+	virtual void IsAscendingOrDescendingLadder() override; // vtable[72]
+	virtual void FaceTowards() override; // vtable[74]
+	virtual void SetDesiredLean() override; // vtable[75]
+	virtual void GetDesiredLean() override; // vtable[76]
+	virtual void GetFeet() override; // vtable[79]
+	virtual void GetStepHeight() override; // vtable[80]
+	virtual void GetMaxJumpHeight() override; // vtable[81]
+	virtual void GetDeathDropHeight() override; // vtable[82]
+	virtual void GetRunSpeed() override; // vtable[83]
+	virtual void GetWalkSpeed() override; // vtable[84]
+	virtual void GetMaxAcceleration() override; // vtable[85]
+	virtual void GetMaxDeceleration() override; // vtable[86]
+	virtual void GetVelocity() override; // vtable[87]
 	virtual void Jump(); // vtable[104]
 	virtual void GetAcceleration(); // vtable[105]
 	virtual void SetAcceleration(); // vtable[106]
@@ -14,13 +53,13 @@ public:
 	virtual void GetFrictionSideways(); // vtable[110]
 	virtual void GetMaxYawRate(); // vtable[111]
 
-	void _GLOBAL__sub_I_NextBotGroundLocomotion();
-	void NextBotGroundLocomotion();
-	void TraverseLadder();
-	void DetectCollision();
-	void ResolveCollision();
-	void UpdatePosition();
-	void DidJustJump();
-	void ApplyAccumulatedApproach();
-	void UpdateGroundConstraint();
+	_GLOBAL__sub_I_NextBotGroundLocomotion(); // size[0]
+	NextBotGroundLocomotion(); // size[0]
+	void TraverseLadder(); // size[0]
+	void DetectCollision(); // size[0]
+	void ResolveCollision(); // size[0]
+	void UpdatePosition(); // size[0]
+	void DidJustJump(); // size[0]
+	void ApplyAccumulatedApproach(); // size[0]
+	void UpdateGroundConstraint(); // size[0]
 };

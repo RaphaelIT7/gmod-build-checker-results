@@ -3,8 +3,8 @@
 class CNPC_RollerMine : public CNPCBaseInteractive, public CDefaultPlayerPickupVPhysics
 {
 public:
-	virtual void ~CNPC_RollerMine() override; // vtable[0]
-	virtual void ~CNPC_RollerMine() override; // vtable[1]
+	virtual ~CNPC_RollerMine() override; // vtable[0]
+	virtual ~CNPC_RollerMine() override; // vtable[1]
 	virtual void SetRefEHandle() override; // vtable[2]
 	virtual void GetRefEHandle() override; // vtable[3]
 	virtual void GetCollideable() override; // vtable[4]
@@ -13,7 +13,45 @@ public:
 	virtual void GetModelIndex() override; // vtable[7]
 	virtual void GetModelName() override; // vtable[8]
 	virtual void SetModelIndex() override; // vtable[9]
+	virtual void GetServerClass() override; // vtable[10]
+	virtual void YouForgotToImplementOrDeclareServerClass() override; // vtable[11]
+	virtual void GetDataDescMap() override; // vtable[12]
+	virtual void Spawn() override; // vtable[23]
+	virtual void Precache() override; // vtable[24]
+	virtual void DrawDebugGeometryOverlays() override; // vtable[39]
+	virtual void ShouldSavePhysics() override; // vtable[43]
+	virtual void OnRestore() override; // vtable[45]
+	virtual void Classify() override; // vtable[55]
+	virtual void TraceAttack() override; // vtable[62]
+	virtual void OnTakeDamage() override; // vtable[64]
+	virtual void StopLoopingSounds() override; // vtable[109]
+	virtual void EyePosition() override; // vtable[133]
+	virtual void GetVelocity() override; // vtable[143]
+	virtual void GetAttackDamageScale() override; // vtable[147]
+	virtual void CreateVPhysics() override; // vtable[157]
+	virtual void VPhysicsCollision() override; // vtable[165]
+	virtual void PhysicsSolidMaskForEntity() override; // vtable[174]
+	virtual void BodyAngles() override; // vtable[299]
+	virtual void CanBecomeServerRagdoll() override; // vtable[337]
+	virtual void RunAI() override; // vtable[401]
+	virtual void PrescheduleThink() override; // vtable[403]
+	virtual void SelectSchedule() override; // vtable[407]
+	virtual void TranslateSchedule() override; // vtable[409]
+	virtual void StartTask() override; // vtable[410]
 	virtual void _ZN15CNPC_RollerMine7RunTaskEPK6Task_t() override; // vtable[411]
+	virtual void GetSchedulingErrorName() override; // vtable[432]
+	virtual void LoadedSchedules() override; // vtable[433]
+	virtual void SelectIdealState() override; // vtable[453]
+	virtual void ShouldGoToIdleState() override; // vtable[454]
+	virtual void OnStateChange() override; // vtable[455]
+	virtual void UpdateEfficiency() override; // vtable[456]
+	virtual void QuerySeeEntity() override; // vtable[462]
+	virtual void IsValidEnemy() override; // vtable[475]
+	virtual void OverrideMove() override; // vtable[538]
+	virtual void SquadSlotName() override; // vtable[581]
+	virtual void RangeAttack1Conditions() override; // vtable[595]
+	virtual TranslateNavGoal() override; // vtable[613]
+	virtual void GetClassScheduleIdSpace() override; // vtable[640]
 	virtual void CanInteractWith() override; // vtable[652]
 	virtual void HasBeenInteractedWith() override; // vtable[653]
 	virtual void NotifyInteraction() override; // vtable[654]
@@ -23,51 +61,51 @@ public:
 	virtual void OnPhysGunPickup() override; // vtable[658]
 	virtual void OnPhysGunDrop() override; // vtable[659]
 
-	void SpikeTouch();
-	void InputTurnOn();
-	void InputTurnOff();
-	void InputRespondToChirp();
-	void Explode();
-	void InputRespondToExplodeChirp();
-	void GetStunDelay();
-	void OnPhysGunDrop();
-	void GetBaseMap();
-	void Bury();
-	void EmbedTouch();
-	void WakeupMine();
-	void WakeNeighbors();
-	void BecomePhysical();
-	void GetHackedIdleSchedule();
-	void SetRollerSkin();
-	void Close();
-	void IsPlayerVehicle();
-	void ShockTarget();
-	void ShockTouch();
-	void CloseTouch();
-	void UnstickFromVehicle();
-	void OnPhysGunPickup();
-	void InputConstraintBroken();
-	void GetVehicleStuckTo();
-	void Hop();
-	void PreDetonate();
-	void RollingSpeed();
-	void GetStunDelay();
-	void EmbedOnGroundImpact();
-	void StopRollingSound();
-	void UpdateRollingSound();
-	void StopPingSound();
-	void UpdatePingSound();
-	void EnemyInVehicle();
-	void Open();
-	void NotifyInteraction();
-	void VehicleHeading();
-	void CountRollersOnMyVehicle();
-	void AnnounceArrivalToOthers();
-	void StickToVehicle();
-	void InputJoltVehicle();
-	void InitCustomSchedules();
-	void LoadSchedules();
-	void CScheduleLoader();
-	void CanInteractWith();
-	void HasBeenInteractedWith();
+	void SpikeTouch(); // size[0]
+	void InputTurnOn(); // size[0]
+	void InputTurnOff(); // size[0]
+	void InputRespondToChirp(); // size[0]
+	void Explode(); // size[0]
+	void InputRespondToExplodeChirp(); // size[0]
+	void GetStunDelay(); // size[0]
+	void OnPhysGunDrop(); // size[0]
+	void GetBaseMap(); // size[0]
+	void Bury(); // size[0]
+	void EmbedTouch(); // size[0]
+	void WakeupMine(); // size[0]
+	void WakeNeighbors(); // size[0]
+	void BecomePhysical(); // size[0]
+	void GetHackedIdleSchedule(); // size[0]
+	void SetRollerSkin(); // size[0]
+	void Close(); // size[0]
+	void IsPlayerVehicle(); // size[0]
+	void ShockTarget(); // size[0]
+	void ShockTouch(); // size[0]
+	void CloseTouch(); // size[0]
+	void UnstickFromVehicle(); // size[0]
+	void OnPhysGunPickup(); // size[0]
+	void InputConstraintBroken(); // size[0]
+	void GetVehicleStuckTo(); // size[0]
+	void Hop(); // size[0]
+	void PreDetonate(); // size[0]
+	void RollingSpeed(); // size[0]
+	void GetStunDelay(); // size[0]
+	void EmbedOnGroundImpact(); // size[0]
+	void StopRollingSound(); // size[0]
+	void UpdateRollingSound(); // size[0]
+	void StopPingSound(); // size[0]
+	void UpdatePingSound(); // size[0]
+	void EnemyInVehicle(); // size[0]
+	void Open(); // size[0]
+	void NotifyInteraction(); // size[0]
+	void VehicleHeading(); // size[0]
+	void CountRollersOnMyVehicle(); // size[0]
+	void AnnounceArrivalToOthers(); // size[0]
+	void StickToVehicle(); // size[0]
+	void InputJoltVehicle(); // size[0]
+	void InitCustomSchedules(); // size[0]
+	void LoadSchedules(); // size[0]
+	CScheduleLoader(); // size[0]
+	void CanInteractWith(); // size[0]
+	void HasBeenInteractedWith(); // size[0]
 };

@@ -3,8 +3,8 @@
 class CBaseAchievement : public CGameEventListener, public IAchievement
 {
 public:
-	virtual void ~CBaseAchievement() override; // vtable[0]
-	virtual void ~CBaseAchievement() override; // vtable[1]
+	virtual ~CBaseAchievement() override; // vtable[0]
+	virtual ~CBaseAchievement() override; // vtable[1]
 	virtual void FireGameEvent() override; // vtable[2]
 	virtual void Init(); // vtable[3]
 	virtual void ListenForEvents(); // vtable[4]
@@ -41,38 +41,38 @@ public:
 	virtual void CalcProgressMsgIncrement(); // vtable[35]
 	virtual void GetDataDescMap(); // vtable[36]
 
-	void SetShowOnHUD();
-	void ShouldSaveWithGame();
-	void GetBaseMap();
-	void CBaseAchievement();
-	void SetFlags();
-	void SetVictimFilter();
-	void SetAttackerFilter();
-	void SetInflictorFilter();
-	void SetInflictorEntityNameFilter();
-	void SetMapNameFilter();
-	void SetGameDirFilter();
-	void SetComponentPrefix();
-	void SetNextThink();
-	void ClearThink();
-	void EvaluateIsAlreadyAchieved();
-	void AwardAchievement();
-	void EvaluateNewAchievement();
-	void ShowProgressNotification();
-	void HandleProgressUpdate();
-	void IncrementCount();
-	void IncrementCount();
-	void EnsureComponentBitSetAndEvaluate();
-	void OnComponentEvent();
-	void SetComponentBits();
-	void ShouldSaveGlobal();
-	void GetAchievementID();
-	void GetName();
-	void GetFlags();
-	void GetGoal();
-	void GetPointValue();
-	void ShouldHideUntilAchieved();
-	void GetCount();
-	void IsAchieved();
-	void ShouldShowOnHUD();
+	void SetShowOnHUD(); // size[0]
+	void ShouldSaveWithGame(); // size[0]
+	void GetBaseMap(); // size[0]
+	CBaseAchievement(); // size[0]
+	void SetFlags(); // size[0]
+	void SetVictimFilter(); // size[0]
+	void SetAttackerFilter(); // size[0]
+	void SetInflictorFilter(); // size[0]
+	void SetInflictorEntityNameFilter(); // size[0]
+	void SetMapNameFilter(); // size[0]
+	void SetGameDirFilter(); // size[0]
+	void SetComponentPrefix(); // size[0]
+	void SetNextThink(); // size[0]
+	void ClearThink(); // size[0]
+	void EvaluateIsAlreadyAchieved(); // size[0]
+	void AwardAchievement(); // size[0]
+	void EvaluateNewAchievement(); // size[0]
+	void ShowProgressNotification(); // size[0]
+	void HandleProgressUpdate(); // size[0]
+	void IncrementCount(); // size[0]
+	void IncrementCount(); // size[0]
+	void EnsureComponentBitSetAndEvaluate(); // size[0]
+	void OnComponentEvent(); // size[0]
+	void SetComponentBits(); // size[0]
+	void ShouldSaveGlobal(); // size[0]
+	void GetAchievementID(); // size[0]
+	void GetName(); // size[0]
+	void GetFlags(); // size[0]
+	void GetGoal(); // size[0]
+	void GetPointValue(); // size[0]
+	void ShouldHideUntilAchieved(); // size[0]
+	void GetCount(); // size[0]
+	void IsAchieved(); // size[0]
+	void ShouldShowOnHUD(); // size[0]
 };

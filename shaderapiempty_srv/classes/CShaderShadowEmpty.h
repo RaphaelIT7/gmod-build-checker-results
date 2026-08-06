@@ -55,9 +55,9 @@ public:
 	virtual void SetShadowDepthFiltering(); // vtable[49]
 	virtual void BlendOp(); // vtable[50]
 	virtual void BlendOpSeparateAlpha() override; // vtable[51]
-	virtual void ~CShaderShadowEmpty(); // vtable[52]
-	virtual void ~CShaderShadowEmpty(); // vtable[53]
+	virtual ~CShaderShadowEmpty(); // vtable[52]
+	virtual ~CShaderShadowEmpty(); // vtable[53]
 	virtual void ExecuteCommandBuffer(); // vtable[54]
 
-	void CShaderShadowEmpty();
+	CShaderShadowEmpty(); // size[0]
 };

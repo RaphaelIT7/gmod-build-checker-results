@@ -3,10 +3,12 @@
 class CNPCMaker : public CBaseNPCMaker
 {
 public:
-	virtual void ~CNPCMaker() override; // vtable[0]
-	virtual void ~CNPCMaker() override; // vtable[1]
+	virtual ~CNPCMaker() override; // vtable[0]
+	virtual ~CNPCMaker() override; // vtable[1]
+	virtual void GetDataDescMap() override; // vtable[12]
+	virtual void Precache() override; // vtable[24]
 	virtual void MakeNPC() override; // vtable[246]
 
-	void GetBaseMap();
-	void CNPCMaker();
+	void GetBaseMap(); // size[0]
+	CNPCMaker(); // size[0]
 };

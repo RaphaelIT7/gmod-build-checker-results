@@ -4,15 +4,15 @@ class IVP_I_Point_VHash : public IVP_VHash
 {
 public:
 	virtual void compare() override; // vtable[0]
-	virtual void ~IVP_I_Point_VHash(); // vtable[1]
-	virtual void ~IVP_I_Point_VHash(); // vtable[2]
+	virtual ~IVP_I_Point_VHash(); // vtable[1]
+	virtual ~IVP_I_Point_VHash(); // vtable[2]
 
-	void point_to_index();
-	void add_point();
-	void remove_point();
-	void find_point();
-	void len();
-	void element_at();
-	void IVP_I_Point_VHash();
-	void print();
+	void point_to_index(); // size[0]
+	void add_point(); // size[0]
+	void remove_point(); // size[0]
+	void find_point(); // size[0]
+	void len(); // size[0]
+	void element_at(); // size[0]
+	IVP_I_Point_VHash(); // size[0]
+	void print(); // size[0]
 };

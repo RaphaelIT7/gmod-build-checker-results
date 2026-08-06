@@ -3,22 +3,46 @@
 class CNPC_Gargantua : public CHL1BaseNPC
 {
 public:
-	virtual void ~CNPC_Gargantua() override; // vtable[0]
-	virtual void ~CNPC_Gargantua() override; // vtable[1]
+	virtual ~CNPC_Gargantua() override; // vtable[0]
+	virtual ~CNPC_Gargantua() override; // vtable[1]
+	virtual void GetDataDescMap() override; // vtable[12]
+	virtual void Spawn() override; // vtable[23]
+	virtual void Precache() override; // vtable[24]
+	virtual void Classify() override; // vtable[55]
+	virtual void TraceAttack() override; // vtable[62]
+	virtual void Event_Killed() override; // vtable[68]
+	virtual void UpdateOnRemove() override; // vtable[108]
+	virtual void CanBecomeRagdoll() override; // vtable[255]
+	virtual void HandleAnimEvent() override; // vtable[261]
+	virtual void CanBecomeServerRagdoll() override; // vtable[337]
+	virtual void OnTakeDamage_Alive() override; // vtable[338]
+	virtual void ShouldGib() override; // vtable[352]
+	virtual void PrescheduleThink() override; // vtable[403]
+	virtual void TranslateSchedule() override; // vtable[409]
+	virtual void StartTask() override; // vtable[410]
+	virtual void RunTask() override; // vtable[411]
+	virtual void GetSchedulingErrorName() override; // vtable[432]
+	virtual void LoadedSchedules() override; // vtable[433]
+	virtual void MaxYawSpeed() override; // vtable[529]
+	virtual void SquadSlotName() override; // vtable[581]
+	virtual void RangeAttack1Conditions() override; // vtable[595]
+	virtual void MeleeAttack1Conditions() override; // vtable[597]
+	virtual void MeleeAttack2Conditions() override; // vtable[598]
+	virtual void GetClassScheduleIdSpace() override; // vtable[640]
 
-	void GetBaseMap();
-	void GargantuaCheckTraceHullAttack();
-	void FlameCreate();
-	void FlameControls();
-	void FlameDamage();
-	void FlameUpdate();
-	void FlameDestroy();
-	void EyeOn();
-	void EyeOff();
-	void EyeUpdate();
-	void StompAttack();
-	void DeathEffect();
-	void InitCustomSchedules();
-	void LoadSchedules();
-	void CScheduleLoader();
+	void GetBaseMap(); // size[0]
+	void GargantuaCheckTraceHullAttack(); // size[0]
+	void FlameCreate(); // size[0]
+	void FlameControls(); // size[0]
+	void FlameDamage(); // size[0]
+	void FlameUpdate(); // size[0]
+	void FlameDestroy(); // size[0]
+	void EyeOn(); // size[0]
+	void EyeOff(); // size[0]
+	void EyeUpdate(); // size[0]
+	void StompAttack(); // size[0]
+	void DeathEffect(); // size[0]
+	void InitCustomSchedules(); // size[0]
+	void LoadSchedules(); // size[0]
+	CScheduleLoader(); // size[0]
 };

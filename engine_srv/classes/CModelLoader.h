@@ -41,33 +41,33 @@ public:
 	virtual void GMOD_LoadModel(); // vtable[35]
 	virtual void GMOD_ReloadModels(); // vtable[36]
 
-	void Map_IsValid();
-	void UnloadAllModels();
-	void Map_UnloadCubemapSamples();
-	void Sprite_LoadModel();
-	void Sprite_UnloadModel();
-	void SetWorldModel();
-	void IsWorldModelSet();
-	void GetNumWorldSubmodels();
-	void UpdateOrCreate();
-	void GetTypeFromName();
-	void FinishDynamicModelLoadIfReady();
-	void DebugPrintDynamicModels();
-	void FindModelNoCreate();
-	void FindNext();
-	void CancelDynamicModelLoad();
-	void DumpVCollideStats();
-	void ClearWorldModel();
-	void Map_UnloadModel();
-	void Studio_UnloadModel();
-	void Studio_UnloadModel();
-	void QueueDynamicModelLoad();
-	void Studio_LoadModel();
-	void SetupSubModels();
-	void Map_LoadModel();
-	void LoadModel();
-	void UpdateDynamicModelLoadQueue();
-	void InternalUpdateDynamicModels();
-	void FindModel();
-	void ~CModelLoader();
+	void Map_IsValid(); // size[0]
+	void UnloadAllModels(); // size[0]
+	void Map_UnloadCubemapSamples(); // size[0]
+	void Sprite_LoadModel(); // size[0]
+	void Sprite_UnloadModel(); // size[0]
+	void SetWorldModel(); // size[0]
+	void IsWorldModelSet(); // size[0]
+	void GetNumWorldSubmodels(); // size[0]
+	void UpdateOrCreate(); // size[0]
+	void GetTypeFromName(); // size[0]
+	void FinishDynamicModelLoadIfReady(); // size[0]
+	void DebugPrintDynamicModels(); // size[0]
+	void FindModelNoCreate(); // size[0]
+	void FindNext(); // size[0]
+	void CancelDynamicModelLoad(); // size[0]
+	void DumpVCollideStats(); // size[0]
+	void ClearWorldModel(); // size[0]
+	void Map_UnloadModel(); // size[0]
+	void Studio_UnloadModel(); // size[0]
+	void Studio_UnloadModel(); // size[0]
+	void QueueDynamicModelLoad(); // size[0]
+	void Studio_LoadModel(); // size[0]
+	void SetupSubModels(); // size[0]
+	void Map_LoadModel(); // size[0]
+	void LoadModel(); // size[0]
+	void UpdateDynamicModelLoadQueue(); // size[0]
+	void InternalUpdateDynamicModels(); // size[0]
+	void FindModel(); // size[0]
+	~CModelLoader(); // size[0]
 };

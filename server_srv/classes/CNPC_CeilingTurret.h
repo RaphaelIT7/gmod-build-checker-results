@@ -3,31 +3,43 @@
 class CNPC_CeilingTurret : public CAI_BaseNPC
 {
 public:
-	virtual void ~CNPC_CeilingTurret() override; // vtable[0]
-	virtual void ~CNPC_CeilingTurret() override; // vtable[1]
+	virtual ~CNPC_CeilingTurret() override; // vtable[0]
+	virtual ~CNPC_CeilingTurret() override; // vtable[1]
+	virtual void GetDataDescMap() override; // vtable[12]
+	virtual void Spawn() override; // vtable[23]
+	virtual void Precache() override; // vtable[24]
+	virtual void Classify() override; // vtable[55]
+	virtual void OnTakeDamage() override; // vtable[64]
+	virtual void UpdateOnRemove() override; // vtable[108]
+	virtual void EyePosition() override; // vtable[133]
+	virtual void FVisible() override; // vtable[144]
+	virtual void GetAttackSpread() override; // vtable[372]
+	virtual void CanBeAnEnemyOf() override; // vtable[476]
+	virtual void MaxYawSpeed() override; // vtable[529]
+	virtual void EyeOffset() override; // vtable[553]
 
-	void AutoSearchThink();
-	void SetLastSightTime();
-	void GetBaseMap();
-	void CNPC_CeilingTurret();
-	void SetLastSightTime();
-	void UpdateFacing();
-	void Shoot();
-	void ActiveThink();
-	void PreThink();
-	void SetEyeState();
-	void Ping();
-	void SearchThink();
-	void Enable();
-	void InputEnable();
-	void Disable();
-	void InputDisable();
-	void Toggle();
-	void InputToggle();
-	void SpinUp();
-	void SpinDown();
-	void SetHeight();
-	void Retire();
-	void Deploy();
-	void DeathThink();
+	void AutoSearchThink(); // size[0]
+	void SetLastSightTime(); // size[0]
+	void GetBaseMap(); // size[0]
+	CNPC_CeilingTurret(); // size[0]
+	void SetLastSightTime(); // size[0]
+	void UpdateFacing(); // size[0]
+	void Shoot(); // size[0]
+	void ActiveThink(); // size[0]
+	void PreThink(); // size[0]
+	void SetEyeState(); // size[0]
+	void Ping(); // size[0]
+	void SearchThink(); // size[0]
+	void Enable(); // size[0]
+	void InputEnable(); // size[0]
+	void Disable(); // size[0]
+	void InputDisable(); // size[0]
+	void Toggle(); // size[0]
+	void InputToggle(); // size[0]
+	void SpinUp(); // size[0]
+	void SpinDown(); // size[0]
+	void SetHeight(); // size[0]
+	void Retire(); // size[0]
+	void Deploy(); // size[0]
+	void DeathThink(); // size[0]
 };

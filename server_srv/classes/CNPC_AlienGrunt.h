@@ -3,14 +3,38 @@
 class CNPC_AlienGrunt : public CHL1BaseNPC
 {
 public:
-	virtual void ~CNPC_AlienGrunt() override; // vtable[0]
-	virtual void ~CNPC_AlienGrunt() override; // vtable[1]
+	virtual ~CNPC_AlienGrunt() override; // vtable[0]
+	virtual ~CNPC_AlienGrunt() override; // vtable[1]
+	virtual void GetDataDescMap() override; // vtable[12]
+	virtual void Spawn() override; // vtable[23]
+	virtual void Precache() override; // vtable[24]
+	virtual void Classify() override; // vtable[55]
+	virtual void TraceAttack() override; // vtable[62]
+	virtual void HandleAnimEvent() override; // vtable[261]
+	virtual void IRelationPriority() override; // vtable[365]
+	virtual void PrescheduleThink() override; // vtable[403]
+	virtual void SelectSchedule() override; // vtable[407]
+	virtual void TranslateSchedule() override; // vtable[409]
+	virtual void StartTask() override; // vtable[410]
+	virtual void RunTask() override; // vtable[411]
+	virtual void GetSchedulingErrorName() override; // vtable[432]
+	virtual void LoadedSchedules() override; // vtable[433]
+	virtual void GetSoundInterests() override; // vtable[467]
+	virtual void DeathSound() override; // vtable[507]
+	virtual void AlertSound() override; // vtable[508]
+	virtual void PainSound() override; // vtable[510]
+	virtual void MaxYawSpeed() override; // vtable[529]
+	virtual void SquadSlotName() override; // vtable[581]
+	virtual void RangeAttack1Conditions() override; // vtable[595]
+	virtual void MeleeAttack1Conditions() override; // vtable[597]
+	virtual void FCanCheckAttacks() override; // vtable[615]
+	virtual void GetClassScheduleIdSpace() override; // vtable[640]
 
-	void GetBaseMap();
-	void ShouldSpeak();
-	void StopTalking();
-	void AttackSound();
-	void InitCustomSchedules();
-	void LoadSchedules();
-	void CScheduleLoader();
+	void GetBaseMap(); // size[0]
+	void ShouldSpeak(); // size[0]
+	void StopTalking(); // size[0]
+	void AttackSound(); // size[0]
+	void InitCustomSchedules(); // size[0]
+	void LoadSchedules(); // size[0]
+	CScheduleLoader(); // size[0]
 };

@@ -3,8 +3,13 @@
 class CFuncTankTrain : public CFuncTrackTrain
 {
 public:
-	virtual void ~CFuncTankTrain() override; // vtable[0]
-	virtual void ~CFuncTankTrain() override; // vtable[1]
+	virtual ~CFuncTankTrain() override; // vtable[0]
+	virtual ~CFuncTankTrain() override; // vtable[1]
+	virtual void GetDataDescMap() override; // vtable[12]
+	virtual void Spawn() override; // vtable[23]
+	virtual void OnTakeDamage() override; // vtable[64]
+	virtual void Event_Killed() override; // vtable[68]
+	virtual void Blocked() override; // vtable[105]
 
-	void GetBaseMap();
+	void GetBaseMap(); // size[0]
 };

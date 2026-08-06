@@ -3,42 +3,42 @@
 class CPackedStore
 {
 public:
-	void _GLOBAL__sub_I_FindFileEntry();
-	void GetDataFileName();
-	void FindFileEntry();
-	void BuildHashTables();
-	void IsEmpty();
-	void GetDataFileName();
-	void OpenFile();
-	void GetHandleForHashingFiles();
-	void DiscardChunkHashes();
-	void ComputeDirectoryHash();
-	void ComputeChunkHash();
-	void BTestDirectoryHash();
-	void BTestMasterChunkHash();
-	void HashMetadata();
-	void GetPackFileName();
-	void GetFileHandle();
-	void HashEntirePackFile();
-	void InternalRemoveFileFromDirectory();
-	void RemoveFileFromDirectory();
-	void Init();
-	void FindFileHashFraction();
-	void GetPackFileLoadErrorSummary();
-	void ~CPackedStore();
-	void HashChunkFile();
-	void HashAllChunkFiles();
-	void HashEverything();
-	void AddFileToDirectory();
-	void Write();
-	void GetFileList();
-	void GetFileList();
-	void CPackedStore();
-	void AddFile();
-	void GetFileList();
-	void ReadData();
-	void BuildFindFirstCache();
-	void DirectoryEntryExists();
-	void GetFileAndDirLists();
-	void GetFileAndDirLists();
+	void _GLOBAL__sub_I_FindFileEntry(); // size[0]
+	void GetDataFileName(); // size[0]
+	void FindFileEntry(); // size[0]
+	void BuildHashTables(); // size[0]
+	void IsEmpty(); // size[0]
+	void GetDataFileName(); // size[0]
+	void OpenFile(); // size[0]
+	void GetHandleForHashingFiles(); // size[0]
+	void DiscardChunkHashes(); // size[0]
+	void ComputeDirectoryHash(); // size[0]
+	void ComputeChunkHash(); // size[0]
+	void BTestDirectoryHash(); // size[0]
+	void BTestMasterChunkHash(); // size[0]
+	void HashMetadata(); // size[0]
+	void GetPackFileName(); // size[0]
+	void GetFileHandle(); // size[0]
+	void HashEntirePackFile(); // size[0]
+	void InternalRemoveFileFromDirectory(); // size[0]
+	void RemoveFileFromDirectory(); // size[0]
+	void Init(); // size[0]
+	void FindFileHashFraction(); // size[0]
+	void GetPackFileLoadErrorSummary(); // size[0]
+	~CPackedStore(); // size[0]
+	void HashChunkFile(); // size[0]
+	void HashAllChunkFiles(); // size[0]
+	void HashEverything(); // size[0]
+	void AddFileToDirectory(); // size[0]
+	void Write(); // size[0]
+	void GetFileList(); // size[0]
+	void GetFileList(); // size[0]
+	CPackedStore(); // size[0]
+	void AddFile(); // size[0]
+	void GetFileList(); // size[0]
+	void ReadData(); // size[0]
+	void BuildFindFirstCache(); // size[0]
+	void DirectoryEntryExists(); // size[0]
+	void GetFileAndDirLists(); // size[0]
+	void GetFileAndDirLists(); // size[0]
 };

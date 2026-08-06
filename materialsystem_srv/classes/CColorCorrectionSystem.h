@@ -33,10 +33,10 @@ public:
 	virtual void EnableColorCorrection(); // vtable[27]
 	virtual void GetCurrentColorCorrection(); // vtable[28]
 
-	void SortLookups();
-	void FindLookup();
-	void GetLookupHandle();
-	void SetLookupPtr();
-	void GetNormalizedWeights();
-	void ~CColorCorrectionSystem();
+	void SortLookups(); // size[0]
+	void FindLookup(); // size[0]
+	void GetLookupHandle(); // size[0]
+	void SetLookupPtr(); // size[0]
+	void GetNormalizedWeights(); // size[0]
+	~CColorCorrectionSystem(); // size[0]
 };

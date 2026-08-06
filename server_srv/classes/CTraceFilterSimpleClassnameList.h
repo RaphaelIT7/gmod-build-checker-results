@@ -3,6 +3,8 @@
 class CTraceFilterSimpleClassnameList : public CTraceFilterSimple
 {
 public:
-	void CTraceFilterSimpleClassnameList();
-	void AddClassnameToIgnore();
+	virtual void ShouldHitEntity() override; // vtable[0]
+
+	CTraceFilterSimpleClassnameList(); // size[0]
+	void AddClassnameToIgnore(); // size[0]
 };

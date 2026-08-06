@@ -3,10 +3,12 @@
 class CTraceSolverSweptObject : public CTraceSolver
 {
 public:
-	void SweepLedgeTree_r();
-	void DoSweep();
-	void CTraceSolverSweptObject();
-	void InitOSRay();
-	void SweepLedgeTree_r();
-	void SweepAgainstNode();
+	virtual void DoSweep() override; // vtable[0]
+
+	void SweepLedgeTree_r(); // size[0]
+	void DoSweep(); // size[0]
+	CTraceSolverSweptObject(); // size[0]
+	void InitOSRay(); // size[0]
+	void SweepLedgeTree_r(); // size[0]
+	void SweepAgainstNode(); // size[0]
 };

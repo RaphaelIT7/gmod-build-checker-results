@@ -3,44 +3,101 @@
 class CNPC_Combine : public CAI_BaseActor
 {
 public:
-	virtual void ~CNPC_Combine() override; // vtable[0]
-	virtual void ~CNPC_Combine() override; // vtable[1]
+	virtual ~CNPC_Combine() override; // vtable[0]
+	virtual ~CNPC_Combine() override; // vtable[1]
+	virtual void GetDataDescMap() override; // vtable[12]
+	virtual void Spawn() override; // vtable[23]
+	virtual void Precache() override; // vtable[24]
+	virtual void Activate() override; // vtable[34]
+	virtual void Classify() override; // vtable[55]
+	virtual void Event_Killed() override; // vtable[68]
+	virtual void EyePosition() override; // vtable[133]
 	virtual void _ZN12CNPC_Combine10BodyTargetERK6Vectorb() override; // vtable[137]
+	virtual void FVisible() override; // vtable[144]
+	virtual void HandleAnimEvent() override; // vtable[261]
+	virtual void HandleInteraction() override; // vtable[298]
+	virtual void NPC_TranslateActivity() override; // vtable[322]
+	virtual void Weapon_ShootPosition() override; // vtable[331]
+	virtual void CalcWeaponProficiency() override; // vtable[371]
+	virtual void PostNPCInit() override; // vtable[389]
+	virtual void CreateComponents() override; // vtable[392]
+	virtual void GatherConditions() override; // vtable[402]
+	virtual void PrescheduleThink() override; // vtable[403]
+	virtual void OnStartSchedule() override; // vtable[406]
+	virtual void SelectSchedule() override; // vtable[407]
+	virtual void SelectFailSchedule() override; // vtable[408]
+	virtual void TranslateSchedule() override; // vtable[409]
+	virtual void StartTask() override; // vtable[410]
+	virtual void RunTask() override; // vtable[411]
+	virtual void GetSchedulingErrorName() override; // vtable[432]
+	virtual void LoadedSchedules() override; // vtable[433]
+	virtual void BuildScheduleTestBits() override; // vtable[434]
+	virtual void SelectIdealState() override; // vtable[453]
+	virtual void SetActivity() override; // vtable[458]
+	virtual void QueryHearSound() override; // vtable[461]
+	virtual void GetSoundInterests() override; // vtable[467]
+	virtual void HearingSensitivity() override; // vtable[471]
+	virtual void ShouldPickADeathPose() override; // vtable[482]
+	virtual void AlertSound() override; // vtable[508]
+	virtual void IdleSound() override; // vtable[509]
+	virtual void PainSound() override; // vtable[510]
+	virtual void LostEnemySound() override; // vtable[512]
+	virtual void FoundEnemySound() override; // vtable[513]
+	virtual void SpeakSentence() override; // vtable[515]
+	virtual void MaxYawSpeed() override; // vtable[529]
+	virtual void GetJumpGravity() override; // vtable[537]
+	virtual void OverrideMoveFacing() override; // vtable[539]
+	virtual void IsCurTaskContinuousMove() override; // vtable[542]
+	virtual void EyeOffset() override; // vtable[553]
+	virtual void UpdateEnemyMemory() override; // vtable[573]
+	virtual void SquadSlotName() override; // vtable[581]
+	virtual void RangeAttack2Conditions() override; // vtable[596]
+	virtual void MeleeAttack1Conditions() override; // vtable[597]
+	virtual void OnBeginMoveAndShoot() override; // vtable[601]
+	virtual void OnEndMoveAndShoot() override; // vtable[602]
+	virtual void IsWaitingToRappel() override; // vtable[611]
+	virtual void BeginRappel() override; // vtable[612]
+	virtual void ShouldMoveAndShoot() override; // vtable[631]
+	virtual void NotifyDeadFriend() override; // vtable[636]
+	virtual void GetClassScheduleIdSpace() override; // vtable[640]
+	virtual void GetSquadSlotDebugName() override; // vtable[641]
+	virtual void GetCrouchEyeOffset() override; // vtable[647]
+	virtual void CreateBehaviors() override; // vtable[652]
 	virtual void CanGrenadeEnemy(); // vtable[709]
 	virtual void CanAltFireEnemy(); // vtable[710]
 
-	void InputStartPatrolling();
-	void InputStopPatrolling();
-	void InputHitByBugbait();
-	void InputAssault();
-	void InputThrowGrenadeAtTarget();
-	void CanAltFireEnemy();
-	void InputLookOff();
-	void InputLookOn();
-	void GetBaseMap();
-	void DelayAltFireAttack();
-	void DelaySquadAltFireAttack();
-	void StartTaskChaseEnemyContinuously();
-	void RunTaskChaseEnemyContinuously();
-	void AnnounceAssault();
-	void AnnounceEnemyType();
-	void AnnounceEnemyKill();
-	void ShouldChargePlayer();
-	void SelectScheduleAttack();
-	void SelectCombatSchedule();
-	void DeathSound();
-	void CheckCanThrowGrenade();
-	void CanThrowGrenade();
-	void GetAltFireTarget();
-	void HasShotgun();
-	void ActiveWeaponIsFullyLoaded();
-	void IsUsingTacticalVariant();
-	void IsRunningApproachEnemySchedule();
-	void InitCustomSchedules();
-	void LoadSchedules();
-	void CScheduleLoader();
-	void CNPC_Combine();
-	void SelectScheduleAttack();
-	void ~CCombineStandoffBehavior();
-	void ~CCombineStandoffBehavior();
+	void InputStartPatrolling(); // size[0]
+	void InputStopPatrolling(); // size[0]
+	void InputHitByBugbait(); // size[0]
+	void InputAssault(); // size[0]
+	void InputThrowGrenadeAtTarget(); // size[0]
+	void CanAltFireEnemy(); // size[0]
+	void InputLookOff(); // size[0]
+	void InputLookOn(); // size[0]
+	void GetBaseMap(); // size[0]
+	void DelayAltFireAttack(); // size[0]
+	void DelaySquadAltFireAttack(); // size[0]
+	void StartTaskChaseEnemyContinuously(); // size[0]
+	void RunTaskChaseEnemyContinuously(); // size[0]
+	void AnnounceAssault(); // size[0]
+	void AnnounceEnemyType(); // size[0]
+	void AnnounceEnemyKill(); // size[0]
+	void ShouldChargePlayer(); // size[0]
+	void SelectScheduleAttack(); // size[0]
+	void SelectCombatSchedule(); // size[0]
+	void DeathSound(); // size[0]
+	void CheckCanThrowGrenade(); // size[0]
+	void CanThrowGrenade(); // size[0]
+	void GetAltFireTarget(); // size[0]
+	void HasShotgun(); // size[0]
+	void ActiveWeaponIsFullyLoaded(); // size[0]
+	void IsUsingTacticalVariant(); // size[0]
+	void IsRunningApproachEnemySchedule(); // size[0]
+	void InitCustomSchedules(); // size[0]
+	void LoadSchedules(); // size[0]
+	CScheduleLoader(); // size[0]
+	CNPC_Combine(); // size[0]
+	void SelectScheduleAttack(); // size[0]
+	~CCombineStandoffBehavior(); // size[0]
+	~CCombineStandoffBehavior(); // size[0]
 };

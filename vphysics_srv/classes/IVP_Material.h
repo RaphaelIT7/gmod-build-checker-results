@@ -3,8 +3,8 @@
 class IVP_Material
 {
 public:
-	void ~IVP_Material();
-	void ~IVP_Material();
-	void IVP_Material();
-	void IVP_Material();
+	~IVP_Material(); // size[0]
+	~IVP_Material(); // size[0]
+	IVP_Material(); // size[0]
+	IVP_Material(); // size[0]
 };

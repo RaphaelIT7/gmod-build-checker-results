@@ -3,10 +3,12 @@
 class CActBusyAnimData : public CAutoGameSystem
 {
 public:
-	virtual void ~CActBusyAnimData() override; // vtable[13]
-	virtual void ~CActBusyAnimData() override; // vtable[14]
+	virtual void LevelInitPostEntity() override; // vtable[5]
+	virtual void LevelShutdownPostEntity() override; // vtable[8]
+	virtual ~CActBusyAnimData() override; // vtable[13]
+	virtual ~CActBusyAnimData() override; // vtable[14]
 
-	void ParseActBusyFromKV();
-	void FindBusyAnim();
-	void ParseAnimDataFile();
+	void ParseActBusyFromKV(); // size[0]
+	void FindBusyAnim(); // size[0]
+	void ParseAnimDataFile(); // size[0]
 };

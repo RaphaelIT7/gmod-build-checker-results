@@ -3,14 +3,43 @@
 class CNPC_Monk : public CAI_PlayerAlly
 {
 public:
-	virtual void ~CNPC_Monk() override; // vtable[0]
-	virtual void ~CNPC_Monk() override; // vtable[1]
+	virtual ~CNPC_Monk() override; // vtable[0]
+	virtual ~CNPC_Monk() override; // vtable[1]
+	virtual void GetDataDescMap() override; // vtable[12]
+	virtual void Spawn() override; // vtable[23]
+	virtual void Precache() override; // vtable[24]
+	virtual void Classify() override; // vtable[55]
+	virtual void PassesDamageFilter() override; // vtable[61]
+	virtual void HandleAnimEvent() override; // vtable[261]
+	virtual void NPC_TranslateActivity() override; // vtable[322]
+	virtual void OnKilledNPC() override; // vtable[353]
+	virtual void CalcWeaponProficiency() override; // vtable[371]
+	virtual void GatherConditions() override; // vtable[402]
+	virtual void PrescheduleThink() override; // vtable[403]
+	virtual void SelectSchedule() override; // vtable[407]
+	virtual void SelectFailSchedule() override; // vtable[408]
+	virtual void TranslateSchedule() override; // vtable[409]
+	virtual void StartTask() override; // vtable[410]
+	virtual void RunTask() override; // vtable[411]
+	virtual void GetSchedulingErrorName() override; // vtable[432]
+	virtual void LoadedSchedules() override; // vtable[433]
+	virtual void BuildScheduleTestBits() override; // vtable[434]
+	virtual void GetSoundInterests() override; // vtable[467]
+	virtual void IsValidEnemy() override; // vtable[475]
+	virtual void DeathSound() override; // vtable[507]
+	virtual void PainSound() override; // vtable[510]
+	virtual void IsJumpLegal() override; // vtable[534]
+	virtual void SquadSlotName() override; // vtable[581]
+	virtual void GetActualShootPosition() override; // vtable[628]
+	virtual void GetActualShootTrajectory() override; // vtable[629]
+	virtual void GetClassScheduleIdSpace() override; // vtable[640]
+	virtual void CreateBehaviors() override; // vtable[652]
 
-	void InputPerfectAccuracyOn();
-	void InputPerfectAccuracyOff();
-	void GetBaseMap();
-	void ShouldBackAway();
-	void InitCustomSchedules();
-	void LoadSchedules();
-	void CScheduleLoader();
+	void InputPerfectAccuracyOn(); // size[0]
+	void InputPerfectAccuracyOff(); // size[0]
+	void GetBaseMap(); // size[0]
+	void ShouldBackAway(); // size[0]
+	void InitCustomSchedules(); // size[0]
+	void LoadSchedules(); // size[0]
+	CScheduleLoader(); // size[0]
 };

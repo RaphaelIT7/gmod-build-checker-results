@@ -3,8 +3,8 @@
 class CPhysicsEnvironment : public IPhysicsEnvironment
 {
 public:
-	virtual void ~CPhysicsEnvironment(); // vtable[0]
-	virtual void ~CPhysicsEnvironment(); // vtable[1]
+	virtual ~CPhysicsEnvironment(); // vtable[0]
+	virtual ~CPhysicsEnvironment(); // vtable[1]
 	virtual void SetDebugOverlay(); // vtable[2]
 	virtual void GetDebugOverlay(); // vtable[3]
 	virtual void SetGravity(); // vtable[4]
@@ -75,15 +75,15 @@ public:
 	virtual void ShouldQuickDelete(); // vtable[69]
 	virtual void TraceBox(); // vtable[70]
 
-	void CPhysicsEnvironment();
-	void Simulate();
-	void GetCollisionEventHandler();
-	void NotifyConstraintDisabled();
-	void ClearDeadObjects();
-	void AddPlayerController();
-	void FindPlayerController();
-	void PhantomAdd();
-	void PhantomRemove();
-	void CPhysicsEnvironment();
-	void RemovePlayerController();
+	CPhysicsEnvironment(); // size[0]
+	void Simulate(); // size[0]
+	void GetCollisionEventHandler(); // size[0]
+	void NotifyConstraintDisabled(); // size[0]
+	void ClearDeadObjects(); // size[0]
+	void AddPlayerController(); // size[0]
+	void FindPlayerController(); // size[0]
+	void PhantomAdd(); // size[0]
+	void PhantomRemove(); // size[0]
+	CPhysicsEnvironment(); // size[0]
+	void RemovePlayerController(); // size[0]
 };

@@ -42,22 +42,22 @@ public:
 	virtual void GetPrecacheMode(); // vtable[36]
 	virtual void GetGameSaveRestoreInfo(); // vtable[37]
 	virtual void ReadStringLength() override; // vtable[38]
-	virtual void ~CRestore() override; // vtable[39]
-	virtual void ~CRestore() override; // vtable[40]
+	virtual ~CRestore() override; // vtable[39]
+	virtual ~CRestore() override; // vtable[40]
 
-	void ReadBasicField();
-	void ShouldReadField();
-	void FindField();
-	void ShouldEmptyField();
-	void DoReadAll();
-	void BufferPointer();
-	void BufferReadBytes();
-	void BufferSkipBytes();
-	void ReadInterval();
-	void ReadGMODTable();
-	void EntityFromIndex();
-	void ReadTime64();
-	void ReadGameField();
-	void ReadField();
-	void CRestore();
+	void ReadBasicField(); // size[0]
+	void ShouldReadField(); // size[0]
+	void FindField(); // size[0]
+	void ShouldEmptyField(); // size[0]
+	void DoReadAll(); // size[0]
+	void BufferPointer(); // size[0]
+	void BufferReadBytes(); // size[0]
+	void BufferSkipBytes(); // size[0]
+	void ReadInterval(); // size[0]
+	void ReadGMODTable(); // size[0]
+	void EntityFromIndex(); // size[0]
+	void ReadTime64(); // size[0]
+	void ReadGameField(); // size[0]
+	void ReadField(); // size[0]
+	CRestore(); // size[0]
 };

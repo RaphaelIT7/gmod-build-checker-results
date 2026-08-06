@@ -7,5 +7,5 @@ public:
 	virtual void GetVertByIndex(); // vtable[1]
 	virtual void Radius(); // vtable[2]
 
-	void CTraceAABB();
+	CTraceAABB(); // size[0]
 };

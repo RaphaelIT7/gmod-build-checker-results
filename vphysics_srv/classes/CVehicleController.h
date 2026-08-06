@@ -3,8 +3,8 @@
 class CVehicleController : public IPhysicsVehicleController, public IVP_Listener_Object
 {
 public:
-	virtual void ~CVehicleController(); // vtable[0]
-	virtual void ~CVehicleController(); // vtable[1]
+	virtual ~CVehicleController(); // vtable[0]
+	virtual ~CVehicleController(); // vtable[1]
 	virtual void Update(); // vtable[2]
 	virtual void GetOperatingParams() override; // vtable[3]
 	virtual void GetVehicleParams(); // vtable[4]
@@ -27,42 +27,42 @@ public:
 	virtual void event_object_frozen(); // vtable[21]
 	virtual void IsBoosting(); // vtable[22]
 
-	void CreateIVPObjects();
-	void GetWheelContactPoint();
-	void CreateWheel();
-	void CalcEngineTransmission();
-	void CreateTraceData();
-	void UpdateSkidding();
-	void UpdatePowerslide();
-	void ResetState();
-	void CVehicleController();
-	void AttachListener();
-	void CreateWheel();
-	void CreateTraceData();
-	void InitCarSystemBody();
-	void InitCarSystemWheels();
-	void CreateIVPObjects();
-	void InitCarSystem();
-	void ~CVehicleController();
-	void event_object_deleted();
-	void ~CVehicleController();
-	void InitVehicleData();
-	void CVehicleController();
-	void UpdatePowerslide();
-	void UpdateEngineTurboStart();
-	void UpdateEngineTurboFinish();
-	void UpdateHandbrake();
-	void UpdateSkidding();
-	void UpdateExtraForces();
-	void UpdateWheelPositions();
-	void CalcSteering();
-	void UpdateSteering();
-	void CalcEngineTransmission();
-	void CalcEngine();
-	void UpdateEngine();
-	void WriteToTemplate();
-	void InitFromTemplate();
-	void event_object_created();
-	void event_object_revived();
-	void event_object_frozen();
+	void CreateIVPObjects(); // size[0]
+	void GetWheelContactPoint(); // size[0]
+	void CreateWheel(); // size[0]
+	void CalcEngineTransmission(); // size[0]
+	void CreateTraceData(); // size[0]
+	void UpdateSkidding(); // size[0]
+	void UpdatePowerslide(); // size[0]
+	void ResetState(); // size[0]
+	CVehicleController(); // size[0]
+	void AttachListener(); // size[0]
+	void CreateWheel(); // size[0]
+	void CreateTraceData(); // size[0]
+	void InitCarSystemBody(); // size[0]
+	void InitCarSystemWheels(); // size[0]
+	void CreateIVPObjects(); // size[0]
+	void InitCarSystem(); // size[0]
+	~CVehicleController(); // size[0]
+	void event_object_deleted(); // size[0]
+	~CVehicleController(); // size[0]
+	void InitVehicleData(); // size[0]
+	CVehicleController(); // size[0]
+	void UpdatePowerslide(); // size[0]
+	void UpdateEngineTurboStart(); // size[0]
+	void UpdateEngineTurboFinish(); // size[0]
+	void UpdateHandbrake(); // size[0]
+	void UpdateSkidding(); // size[0]
+	void UpdateExtraForces(); // size[0]
+	void UpdateWheelPositions(); // size[0]
+	void CalcSteering(); // size[0]
+	void UpdateSteering(); // size[0]
+	void CalcEngineTransmission(); // size[0]
+	void CalcEngine(); // size[0]
+	void UpdateEngine(); // size[0]
+	void WriteToTemplate(); // size[0]
+	void InitFromTemplate(); // size[0]
+	void event_object_created(); // size[0]
+	void event_object_revived(); // size[0]
+	void event_object_frozen(); // size[0]
 };

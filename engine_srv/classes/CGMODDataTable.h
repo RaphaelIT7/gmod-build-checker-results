@@ -3,8 +3,8 @@
 class CGMODDataTable : public IGMODDataTable
 {
 public:
-	virtual void ~CGMODDataTable() override; // vtable[0]
-	virtual void ~CGMODDataTable() override; // vtable[1]
+	virtual ~CGMODDataTable() override; // vtable[0]
+	virtual ~CGMODDataTable() override; // vtable[1]
 	virtual void GetKey(); // vtable[2]
 	virtual void GetValue(); // vtable[3]
 	virtual void IncrementIterator(); // vtable[4]
@@ -18,13 +18,13 @@ public:
 	virtual void Begin(); // vtable[12]
 	virtual void End() override; // vtable[13]
 
-	void IsEmpty();
-	void Compare();
-	void Skip();
-	void WriteProps();
-	void Encode();
-	void CGMODDataTable();
-	void Decode();
-	void CopyFrom();
-	void ~Entry();
+	void IsEmpty(); // size[0]
+	void Compare(); // size[0]
+	void Skip(); // size[0]
+	void WriteProps(); // size[0]
+	void Encode(); // size[0]
+	CGMODDataTable(); // size[0]
+	void Decode(); // size[0]
+	void CopyFrom(); // size[0]
+	~Entry(); // size[0]
 };

@@ -3,13 +3,19 @@
 class CEnvScreenOverlay : public CPointEntity
 {
 public:
-	virtual void ~CEnvScreenOverlay() override; // vtable[0]
-	virtual void ~CEnvScreenOverlay() override; // vtable[1]
+	virtual ~CEnvScreenOverlay() override; // vtable[0]
+	virtual ~CEnvScreenOverlay() override; // vtable[1]
+	virtual void GetServerClass() override; // vtable[10]
+	virtual void YouForgotToImplementOrDeclareServerClass() override; // vtable[11]
+	virtual void GetDataDescMap() override; // vtable[12]
+	virtual void UpdateTransmitState() override; // vtable[20]
+	virtual void Spawn() override; // vtable[23]
+	virtual void Precache() override; // vtable[24]
 
-	void _GLOBAL__sub_I_m_DataMap();
-	void InputStopOverlay();
-	void InputSwitchOverlay();
-	void InputStartOverlay();
-	void GetBaseMap();
-	void CEnvScreenOverlay();
+	void _GLOBAL__sub_I_m_DataMap(); // size[0]
+	void InputStopOverlay(); // size[0]
+	void InputSwitchOverlay(); // size[0]
+	void InputStartOverlay(); // size[0]
+	void GetBaseMap(); // size[0]
+	CEnvScreenOverlay(); // size[0]
 };

@@ -3,8 +3,8 @@
 class CBaseClientState : public INetChannelHandler, public IConnectionlessPacketHandler, public IServerMessageHandler
 {
 public:
-	virtual void ~CBaseClientState() override; // vtable[0]
-	virtual void ~CBaseClientState() override; // vtable[1]
+	virtual ~CBaseClientState() override; // vtable[0]
+	virtual ~CBaseClientState() override; // vtable[1]
 	virtual void ConnectionStart() override; // vtable[2]
 	virtual void ConnectionClosing(); // vtable[3]
 	virtual void ConnectionCrashed(); // vtable[4]
@@ -14,7 +14,6 @@ public:
 	virtual void FileReceived(); // vtable[8]
 	virtual void FileDenied(); // vtable[9]
 	virtual void FileSent(); // vtable[10]
-	virtual void _ZN16CBaseClientState16ShouldAcceptFileEPKcj() override; // vtable[11]
 	virtual void ProcessConnectionlessPacket(); // vtable[12]
 	virtual void ProcessTick(); // vtable[13]
 	virtual void ProcessStringCmd(); // vtable[14]
@@ -50,41 +49,41 @@ public:
 	virtual void GetClientName(); // vtable[44]
 	virtual void __cxa_pure_virtual(); // vtable[49]
 
-	void ProcessGMod_ServerToClient();
-	void ProcessCmdKeyValues();
-	void ~CBaseClientState();
-	void ~CBaseClientState();
-	void ~CBaseClientState();
-	void ~CBaseClientState();
-	void ProcessSetPause();
-	void ProcessSetView();
-	void ProcessSignonState();
-	void ProcessSendTable();
-	void ProcessGameEventList();
-	void ProcessUpdateStringTable();
-	void ProcessConnectionlessPacket();
-	void ProcessCreateStringTable();
-	void ProcessPacketEntities();
-	void ProcessTick();
-	void ProcessPrint();
-	void ProcessGetCvarValue();
-	void ProcessSetConVar();
-	void ProcessClassInfo();
-	void CBaseClientState();
-	void PrepareSteamConnectResponse();
-	void GetStringTable();
-	void SendStringCmd();
-	void InternalProcessStringCmd();
-	void ProcessStringCmd();
-	void ReadPacketEntities();
-	void FindClientClass();
-	void GetEntityBaseline();
-	void FreeEntityBaselines();
-	void ForceFullUpdate();
-	void ProcessServerInfo();
-	void SetEntityBaseline();
-	void CopyEntityBaseline();
-	void GetClientClass();
-	void GetClassBaseline();
-	void SetSignOnState();
+	void ProcessGMod_ServerToClient(); // size[0]
+	void ProcessCmdKeyValues(); // size[0]
+	~CBaseClientState(); // size[0]
+	~CBaseClientState(); // size[0]
+	~CBaseClientState(); // size[0]
+	~CBaseClientState(); // size[0]
+	void ProcessSetPause(); // size[0]
+	void ProcessSetView(); // size[0]
+	void ProcessSignonState(); // size[0]
+	void ProcessSendTable(); // size[0]
+	void ProcessGameEventList(); // size[0]
+	void ProcessUpdateStringTable(); // size[0]
+	void ProcessConnectionlessPacket(); // size[0]
+	void ProcessCreateStringTable(); // size[0]
+	void ProcessPacketEntities(); // size[0]
+	void ProcessTick(); // size[0]
+	void ProcessPrint(); // size[0]
+	void ProcessGetCvarValue(); // size[0]
+	void ProcessSetConVar(); // size[0]
+	void ProcessClassInfo(); // size[0]
+	CBaseClientState(); // size[0]
+	void PrepareSteamConnectResponse(); // size[0]
+	void GetStringTable(); // size[0]
+	void SendStringCmd(); // size[0]
+	void InternalProcessStringCmd(); // size[0]
+	void ProcessStringCmd(); // size[0]
+	void ReadPacketEntities(); // size[0]
+	void FindClientClass(); // size[0]
+	void GetEntityBaseline(); // size[0]
+	void FreeEntityBaselines(); // size[0]
+	void ForceFullUpdate(); // size[0]
+	void ProcessServerInfo(); // size[0]
+	void SetEntityBaseline(); // size[0]
+	void CopyEntityBaseline(); // size[0]
+	void GetClientClass(); // size[0]
+	void GetClassBaseline(); // size[0]
+	void SetSignOnState(); // size[0]
 };

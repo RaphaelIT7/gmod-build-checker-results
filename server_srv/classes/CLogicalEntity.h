@@ -3,6 +3,7 @@
 class CLogicalEntity : public CServerOnlyEntity
 {
 public:
-	virtual void ~CLogicalEntity() override; // vtable[0]
-	virtual void ~CLogicalEntity() override; // vtable[1]
+	virtual ~CLogicalEntity() override; // vtable[0]
+	virtual ~CLogicalEntity() override; // vtable[1]
+	virtual void KeyValue() override; // vtable[30]
 };

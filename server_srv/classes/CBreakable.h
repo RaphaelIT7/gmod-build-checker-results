@@ -3,8 +3,8 @@
 class CBreakable : public CBaseEntity, public IBreakableWithPropData, public CDefaultPlayerPickupVPhysics
 {
 public:
-	virtual void ~CBreakable() override; // vtable[0]
-	virtual void ~CBreakable() override; // vtable[1]
+	virtual ~CBreakable() override; // vtable[0]
+	virtual ~CBreakable() override; // vtable[1]
 	virtual void SetRefEHandle() override; // vtable[2]
 	virtual void GetRefEHandle() override; // vtable[3]
 	virtual void GetCollideable() override; // vtable[4]
@@ -13,7 +13,19 @@ public:
 	virtual void GetModelIndex() override; // vtable[7]
 	virtual void GetModelName() override; // vtable[8]
 	virtual void SetModelIndex() override; // vtable[9]
+	virtual void GetDataDescMap() override; // vtable[12]
+	virtual void Spawn() override; // vtable[23]
+	virtual void Precache() override; // vtable[24]
 	virtual void ParseMapData() override; // vtable[29]
+	virtual void KeyValue() override; // vtable[30]
+	virtual void DrawDebugTextOverlays() override; // vtable[40]
+	virtual void TraceAttack() override; // vtable[62]
+	virtual void OnTakeDamage() override; // vtable[64]
+	virtual void DamageDecal() override; // vtable[77]
+	virtual void CreateVPhysics() override; // vtable[157]
+	virtual void VPhysicsCollision() override; // vtable[165]
+	virtual void HasPhysicsAttacker() override; // vtable[173]
+	virtual void SetPhysicsAttacker() override; // vtable[236]
 	virtual void Die(); // vtable[246]
 	virtual void SetDmgModBullet(); // vtable[247]
 	virtual void SetDmgModClub(); // vtable[248]
@@ -48,50 +60,50 @@ public:
 	virtual void OnPhysGunPickup(); // vtable[277]
 	virtual void OnPhysGunDrop(); // vtable[278]
 
-	void InputSetMass();
-	void OnPhysGunPickup();
-	void OnPhysGunDrop();
-	void GetBaseMap();
-	void ParsePropData();
-	void MaterialSound();
-	void Break();
-	void InputBreak();
-	void UpdateHealth();
-	void InputAddHealth();
-	void InputRemoveHealth();
-	void InputSetHealth();
-	void ResetOnGroundFlags();
-	void IsBreakable();
-	void MaterialSoundRandom();
-	void DamageSound();
-	void BreakTouch();
-	void SetDmgModBullet();
-	void SetDmgModClub();
-	void SetDmgModExplosive();
-	void GetDmgModBullet();
-	void GetDmgModClub();
-	void GetDmgModExplosive();
-	void SetExplosiveRadius();
-	void SetExplosiveDamage();
-	void GetExplosiveRadius();
-	void GetExplosiveDamage();
-	void SetPhysicsDamageTable();
-	void SetBreakableModel();
-	void GetBreakableModel();
-	void SetBreakableSkin();
-	void GetBreakableSkin();
-	void SetBreakableCount();
-	void GetBreakableCount();
-	void SetMaxBreakableSize();
-	void GetMaxBreakableSize();
-	void SetBasePropData();
-	void GetBasePropData();
-	void SetInteraction();
-	void HasInteraction();
-	void SetPhysicsMode();
-	void GetPhysicsMode();
-	void SetMultiplayerBreakMode();
-	void GetMultiplayerBreakMode();
-	void SetPropDataBlocksLOS();
-	void SetPropDataIsAIWalkable();
+	void InputSetMass(); // size[0]
+	void OnPhysGunPickup(); // size[0]
+	void OnPhysGunDrop(); // size[0]
+	void GetBaseMap(); // size[0]
+	void ParsePropData(); // size[0]
+	void MaterialSound(); // size[0]
+	void Break(); // size[0]
+	void InputBreak(); // size[0]
+	void UpdateHealth(); // size[0]
+	void InputAddHealth(); // size[0]
+	void InputRemoveHealth(); // size[0]
+	void InputSetHealth(); // size[0]
+	void ResetOnGroundFlags(); // size[0]
+	void IsBreakable(); // size[0]
+	void MaterialSoundRandom(); // size[0]
+	void DamageSound(); // size[0]
+	void BreakTouch(); // size[0]
+	void SetDmgModBullet(); // size[0]
+	void SetDmgModClub(); // size[0]
+	void SetDmgModExplosive(); // size[0]
+	void GetDmgModBullet(); // size[0]
+	void GetDmgModClub(); // size[0]
+	void GetDmgModExplosive(); // size[0]
+	void SetExplosiveRadius(); // size[0]
+	void SetExplosiveDamage(); // size[0]
+	void GetExplosiveRadius(); // size[0]
+	void GetExplosiveDamage(); // size[0]
+	void SetPhysicsDamageTable(); // size[0]
+	void SetBreakableModel(); // size[0]
+	void GetBreakableModel(); // size[0]
+	void SetBreakableSkin(); // size[0]
+	void GetBreakableSkin(); // size[0]
+	void SetBreakableCount(); // size[0]
+	void GetBreakableCount(); // size[0]
+	void SetMaxBreakableSize(); // size[0]
+	void GetMaxBreakableSize(); // size[0]
+	void SetBasePropData(); // size[0]
+	void GetBasePropData(); // size[0]
+	void SetInteraction(); // size[0]
+	void HasInteraction(); // size[0]
+	void SetPhysicsMode(); // size[0]
+	void GetPhysicsMode(); // size[0]
+	void SetMultiplayerBreakMode(); // size[0]
+	void GetMultiplayerBreakMode(); // size[0]
+	void SetPropDataBlocksLOS(); // size[0]
+	void SetPropDataIsAIWalkable(); // size[0]
 };

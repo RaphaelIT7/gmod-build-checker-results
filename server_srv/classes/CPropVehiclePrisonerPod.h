@@ -3,9 +3,26 @@
 class CPropVehiclePrisonerPod : public CPhysicsProp, public IDrivableVehicle
 {
 public:
-	virtual void ~CPropVehiclePrisonerPod() override; // vtable[0]
-	virtual void ~CPropVehiclePrisonerPod() override; // vtable[1]
+	virtual ~CPropVehiclePrisonerPod() override; // vtable[0]
+	virtual ~CPropVehiclePrisonerPod() override; // vtable[1]
+	virtual void GetServerClass() override; // vtable[10]
+	virtual void YouForgotToImplementOrDeclareServerClass() override; // vtable[11]
+	virtual void GetDataDescMap() override; // vtable[12]
 	virtual void TestHitboxes() override; // vtable[15]
+	virtual void Spawn() override; // vtable[23]
+	virtual void Precache() override; // vtable[24]
+	virtual void ObjectCaps() override; // vtable[36]
+	virtual void DrawDebugGeometryOverlays() override; // vtable[39]
+	virtual void Think() override; // vtable[48]
+	virtual void TraceAttack() override; // vtable[62]
+	virtual void OnTakeDamage() override; // vtable[64]
+	virtual void GetServerVehicle() override; // vtable[91]
+	virtual void Use() override; // vtable[100]
+	virtual void BodyTarget() override; // vtable[137]
+	virtual void GetVectors() override; // vtable[139]
+	virtual void IsVehicle() override; // vtable[203]
+	virtual void HandleAnimEvent() override; // vtable[261]
+	virtual void OverridePropdata() override; // vtable[282]
 	virtual void PassengerShouldReceiveDamage(); // vtable[327]
 	virtual void GetDriver(); // vtable[328]
 	virtual void ProcessMovement(); // vtable[329]
@@ -23,31 +40,31 @@ public:
 	virtual void SetupMove(); // vtable[341]
 	virtual void GetVehicleScriptName(); // vtable[342]
 
-	void _GLOBAL__sub_I_m_DataMap();
-	void CanEnterVehicle();
-	void GetDriver();
-	void InputExitVehicle();
-	void CanExitVehicle();
-	void InputEnterVehicleImmediate();
-	void InputLock();
-	void SetVehicleEntryAnim();
-	void InputUnlock();
-	void EnterVehicle();
-	void ExitVehicle();
-	void InputClose();
-	void InputEnterVehicle();
-	void InputOpen();
-	void GetBaseMap();
-	void UpdateWaterLevel();
-	void ResetUseKey();
-	void PassengerShouldReceiveDamage();
-	void ProcessMovement();
-	void FinishMove();
-	void AllowBlockedExit();
-	void AllowMidairExit();
-	void PreExitVehicle();
-	void ItemPostFrame();
-	void SetupMove();
-	void GetVehicleScriptName();
-	void SetVehicleExitAnim();
+	void _GLOBAL__sub_I_m_DataMap(); // size[0]
+	void CanEnterVehicle(); // size[0]
+	void GetDriver(); // size[0]
+	void InputExitVehicle(); // size[0]
+	void CanExitVehicle(); // size[0]
+	void InputEnterVehicleImmediate(); // size[0]
+	void InputLock(); // size[0]
+	void SetVehicleEntryAnim(); // size[0]
+	void InputUnlock(); // size[0]
+	void EnterVehicle(); // size[0]
+	void ExitVehicle(); // size[0]
+	void InputClose(); // size[0]
+	void InputEnterVehicle(); // size[0]
+	void InputOpen(); // size[0]
+	void GetBaseMap(); // size[0]
+	void UpdateWaterLevel(); // size[0]
+	void ResetUseKey(); // size[0]
+	void PassengerShouldReceiveDamage(); // size[0]
+	void ProcessMovement(); // size[0]
+	void FinishMove(); // size[0]
+	void AllowBlockedExit(); // size[0]
+	void AllowMidairExit(); // size[0]
+	void PreExitVehicle(); // size[0]
+	void ItemPostFrame(); // size[0]
+	void SetupMove(); // size[0]
+	void GetVehicleScriptName(); // size[0]
+	void SetVehicleExitAnim(); // size[0]
 };

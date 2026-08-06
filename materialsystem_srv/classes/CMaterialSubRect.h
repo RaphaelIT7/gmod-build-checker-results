@@ -102,13 +102,13 @@ public:
 	virtual void FindRepresentativeTexture(); // vtable[97]
 	virtual void DecideShouldReloadFromWhitelist(); // vtable[98]
 	virtual void ReloadFromWhitelistIfMarked() override; // vtable[99]
-	virtual void ~CMaterialSubRect(); // vtable[100]
-	virtual void ~CMaterialSubRect(); // vtable[101]
+	virtual ~CMaterialSubRect(); // vtable[100]
+	virtual ~CMaterialSubRect(); // vtable[101]
 
-	void _GLOBAL__sub_I_s_Allocator();
-	void UsesUNCFileName();
-	void SetupMaterialVars();
-	void GetDummyMaterialVar();
-	void ParseMaterialVars();
-	void CMaterialSubRect();
+	void _GLOBAL__sub_I_s_Allocator(); // size[0]
+	void UsesUNCFileName(); // size[0]
+	void SetupMaterialVars(); // size[0]
+	void GetDummyMaterialVar(); // size[0]
+	void ParseMaterialVars(); // size[0]
+	CMaterialSubRect(); // size[0]
 };

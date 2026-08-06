@@ -3,8 +3,9 @@
 class CLuaEnums : public CLuaUser
 {
 public:
-	virtual void ~CLuaEnums() override; // vtable[0]
-	virtual void ~CLuaEnums() override; // vtable[1]
+	virtual ~CLuaEnums() override; // vtable[0]
+	virtual ~CLuaEnums() override; // vtable[1]
+	virtual void InitLibraries() override; // vtable[3]
 
-	void _GLOBAL__sub_I_InitLibraries();
+	void _GLOBAL__sub_I_InitLibraries(); // size[0]
 };

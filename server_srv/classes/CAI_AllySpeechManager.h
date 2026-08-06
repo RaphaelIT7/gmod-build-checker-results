@@ -3,16 +3,18 @@
 class CAI_AllySpeechManager : public CLogicalEntity
 {
 public:
-	virtual void ~CAI_AllySpeechManager() override; // vtable[0]
-	virtual void ~CAI_AllySpeechManager() override; // vtable[1]
+	virtual ~CAI_AllySpeechManager() override; // vtable[0]
+	virtual ~CAI_AllySpeechManager() override; // vtable[1]
+	virtual void GetDataDescMap() override; // vtable[12]
+	virtual void Spawn() override; // vtable[23]
 
-	void GetConceptCategoryInfo();
-	void SetCategoryDelay();
-	void CategoryDelayExpired();
-	void GetBaseMap();
-	void GetConceptInfo();
-	void OnSpokeConcept();
-	void ConceptDelayExpired();
-	void CAI_AllySpeechManager();
-	void AddCustomConcept();
+	void GetConceptCategoryInfo(); // size[0]
+	void SetCategoryDelay(); // size[0]
+	void CategoryDelayExpired(); // size[0]
+	void GetBaseMap(); // size[0]
+	void GetConceptInfo(); // size[0]
+	void OnSpokeConcept(); // size[0]
+	void ConceptDelayExpired(); // size[0]
+	CAI_AllySpeechManager(); // size[0]
+	void AddCustomConcept(); // size[0]
 };

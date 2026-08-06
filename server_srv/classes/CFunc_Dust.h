@@ -3,12 +3,19 @@
 class CFunc_Dust : public CBaseEntity
 {
 public:
-	virtual void ~CFunc_Dust() override; // vtable[0]
-	virtual void ~CFunc_Dust() override; // vtable[1]
+	virtual ~CFunc_Dust() override; // vtable[0]
+	virtual ~CFunc_Dust() override; // vtable[1]
+	virtual void GetServerClass() override; // vtable[10]
+	virtual void YouForgotToImplementOrDeclareServerClass() override; // vtable[11]
+	virtual void GetDataDescMap() override; // vtable[12]
+	virtual void Spawn() override; // vtable[23]
+	virtual void Precache() override; // vtable[24]
+	virtual void KeyValue() override; // vtable[30]
+	virtual void Activate() override; // vtable[34]
 
-	void _GLOBAL__sub_I_GetServerClass();
-	void InputTurnOff();
-	void InputTurnOn();
-	void GetBaseMap();
-	void CFunc_Dust();
+	void _GLOBAL__sub_I_GetServerClass(); // size[0]
+	void InputTurnOff(); // size[0]
+	void InputTurnOn(); // size[0]
+	void GetBaseMap(); // size[0]
+	CFunc_Dust(); // size[0]
 };

@@ -3,34 +3,49 @@
 class CWeaponStriderBuster : public CPhysicsProp
 {
 public:
-	virtual void ~CWeaponStriderBuster() override; // vtable[0]
-	virtual void ~CWeaponStriderBuster() override; // vtable[1]
+	virtual ~CWeaponStriderBuster() override; // vtable[0]
+	virtual ~CWeaponStriderBuster() override; // vtable[1]
+	virtual void GetDataDescMap() override; // vtable[12]
+	virtual void Spawn() override; // vtable[23]
+	virtual void Precache() override; // vtable[24]
+	virtual void Activate() override; // vtable[34]
+	virtual void OnRestore() override; // vtable[45]
+	virtual void ShouldAttractAutoAim() override; // vtable[57]
+	virtual void GetAutoAimRadius() override; // vtable[58]
+	virtual void OnTakeDamage() override; // vtable[64]
+	virtual void IsAlive() override; // vtable[67]
+	virtual void UpdateOnRemove() override; // vtable[108]
+	virtual void VPhysicsCollision() override; // vtable[165]
+	virtual void HasPreferredCarryAnglesForPlayer() override; // vtable[285]
+	virtual void PreferredCarryAngles() override; // vtable[286]
+	virtual void OnPhysGunPickup() override; // vtable[319]
+	virtual void OnPhysGunDrop() override; // vtable[320]
 	virtual void ShouldPuntUseLaunchForces(); // vtable[327]
 	virtual void PhysGunLaunchVelocity(); // vtable[328]
 	virtual void BusterTouch(); // vtable[329]
 
-	void BusterPingThink();
-	void PhysGunLaunchVelocity();
-	void CreateConstraintToObject();
-	void BusterFlyThink();
-	void BusterFlyThink();
-	void GetBaseMap();
-	void CWeaponStriderBuster();
-	void DestroyConstraint();
-	void CreateConstraintToObject();
-	void ShouldStickToEntity();
-	void StickToEntity();
-	void CreateDestroyedEffect();
-	void Launch();
-	void OnPhysGunPickup();
-	void OnPhysGunDrop();
-	void Shatter();
-	void InputConstraintBroken();
-	void Detonate();
-	void BusterDetachThink();
-	void OnAddToCargoHold();
-	void OnFlechetteAttach();
-	void ShouldPuntUseLaunchForces();
-	void PreferredCarryAngles();
-	void HasPreferredCarryAnglesForPlayer();
+	void BusterPingThink(); // size[0]
+	void PhysGunLaunchVelocity(); // size[0]
+	void CreateConstraintToObject(); // size[0]
+	void BusterFlyThink(); // size[0]
+	void BusterFlyThink(); // size[0]
+	void GetBaseMap(); // size[0]
+	CWeaponStriderBuster(); // size[0]
+	void DestroyConstraint(); // size[0]
+	void CreateConstraintToObject(); // size[0]
+	void ShouldStickToEntity(); // size[0]
+	void StickToEntity(); // size[0]
+	void CreateDestroyedEffect(); // size[0]
+	void Launch(); // size[0]
+	void OnPhysGunPickup(); // size[0]
+	void OnPhysGunDrop(); // size[0]
+	void Shatter(); // size[0]
+	void InputConstraintBroken(); // size[0]
+	void Detonate(); // size[0]
+	void BusterDetachThink(); // size[0]
+	void OnAddToCargoHold(); // size[0]
+	void OnFlechetteAttach(); // size[0]
+	void ShouldPuntUseLaunchForces(); // size[0]
+	void PreferredCarryAngles(); // size[0]
+	void HasPreferredCarryAnglesForPlayer(); // size[0]
 };

@@ -3,8 +3,8 @@
 class CSpatialPartition : public ISpatialPartitionInternal
 {
 public:
-	virtual void ~CSpatialPartition() override; // vtable[0]
-	virtual void ~CSpatialPartition() override; // vtable[1]
+	virtual ~CSpatialPartition() override; // vtable[0]
+	virtual ~CSpatialPartition() override; // vtable[1]
 	virtual void CreateHandle(); // vtable[2]
 	virtual void CreateHandle(); // vtable[3]
 	virtual void DestroyHandle(); // vtable[4]
@@ -43,7 +43,7 @@ public:
 	virtual void InsertIntoTree(); // vtable[37]
 	virtual void RemoveFromTree(); // vtable[38]
 
-	void InvokeQueryCallbacks();
-	void Shutdown();
-	void CSpatialPartition();
+	void InvokeQueryCallbacks(); // size[0]
+	void Shutdown(); // size[0]
+	CSpatialPartition(); // size[0]
 };

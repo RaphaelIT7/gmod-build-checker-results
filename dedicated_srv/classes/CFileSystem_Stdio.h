@@ -3,6 +3,7 @@
 class CFileSystem_Stdio : public CBaseFileSystem
 {
 public:
+	virtual void QueryInterface() override; // vtable[2]
 	virtual void IsSteam(); // vtable[5]
 	virtual void MountSteamContent(); // vtable[6]
 	virtual void WaitForResources(); // vtable[56]
@@ -10,6 +11,10 @@ public:
 	virtual void CancelWaitForResources(); // vtable[58]
 	virtual void HintResourceNeed(); // vtable[59]
 	virtual void IsFileImmediatelyAvailable(); // vtable[60]
+	virtual void GetLocalCopy() override; // vtable[61]
+	virtual void GetOptimalIOConstraints() override; // vtable[84]
+	virtual void AllocOptimalReadBuffer() override; // vtable[85]
+	virtual void FreeOptimalReadBuffer() override; // vtable[86]
 	virtual void GMOD_FixPathCase() override; // vtable[123]
 	virtual void FS_fopen(); // vtable[142]
 	virtual void FS_setbufsize(); // vtable[143]
@@ -19,6 +24,7 @@ public:
 	virtual void FS_feof(); // vtable[147]
 	virtual void FS_fread(); // vtable[148]
 	virtual void FS_fwrite(); // vtable[149]
+	virtual void FS_setmode() override; // vtable[150]
 	virtual void FS_vfprintf(); // vtable[151]
 	virtual void FS_ferror(); // vtable[152]
 	virtual void FS_fflush(); // vtable[153]
@@ -28,7 +34,8 @@ public:
 	virtual void FS_FindFirstFile(); // vtable[157]
 	virtual void FS_FindNextFile(); // vtable[158]
 	virtual void FS_FindClose() override; // vtable[159]
+	virtual void FS_GetSectorSize() override; // vtable[160]
 
-	void ~CFileSystem_Stdio();
-	void CFileSystem_Stdio();
+	~CFileSystem_Stdio(); // size[0]
+	CFileSystem_Stdio(); // size[0]
 };

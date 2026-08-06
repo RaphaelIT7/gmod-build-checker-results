@@ -7,6 +7,6 @@ public:
 	virtual void NetworkStateChanged(); // vtable[1]
 	virtual void GetDataDescMap(); // vtable[2]
 
-	void _GLOBAL__sub_I_m_DataMap();
-	void GetBaseMap();
+	void _GLOBAL__sub_I_m_DataMap(); // size[0]
+	void GetBaseMap(); // size[0]
 };

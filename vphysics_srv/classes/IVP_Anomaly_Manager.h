@@ -11,9 +11,9 @@ public:
 	virtual void max_contacts_exceeded_check_freezing(); // vtable[5]
 	virtual void environment_will_be_deleted(); // vtable[6]
 	virtual void get_push_speed_penetration(); // vtable[7]
-	virtual void ~IVP_Anomaly_Manager(); // vtable[8]
-	virtual void ~IVP_Anomaly_Manager(); // vtable[9]
+	virtual ~IVP_Anomaly_Manager(); // vtable[8]
+	virtual ~IVP_Anomaly_Manager(); // vtable[9]
 
-	void IVP_Anomaly_Manager();
-	void solve_inter_penetration_simple();
+	IVP_Anomaly_Manager(); // size[0]
+	void solve_inter_penetration_simple(); // size[0]
 };

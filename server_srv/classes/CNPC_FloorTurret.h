@@ -3,8 +3,8 @@
 class CNPC_FloorTurret : public CNPCBaseInteractive, public CDefaultPlayerPickupVPhysics
 {
 public:
-	virtual void ~CNPC_FloorTurret() override; // vtable[0]
-	virtual void ~CNPC_FloorTurret() override; // vtable[1]
+	virtual ~CNPC_FloorTurret() override; // vtable[0]
+	virtual ~CNPC_FloorTurret() override; // vtable[1]
 	virtual void SetRefEHandle() override; // vtable[2]
 	virtual void GetRefEHandle() override; // vtable[3]
 	virtual void GetCollideable() override; // vtable[4]
@@ -13,6 +13,42 @@ public:
 	virtual void GetModelIndex() override; // vtable[7]
 	virtual void GetModelName() override; // vtable[8]
 	virtual void SetModelIndex() override; // vtable[9]
+	virtual void GetDataDescMap() override; // vtable[12]
+	virtual void GetTracerType() override; // vtable[22]
+	virtual void Spawn() override; // vtable[23]
+	virtual void Precache() override; // vtable[24]
+	virtual void Activate() override; // vtable[34]
+	virtual void ObjectCaps() override; // vtable[36]
+	virtual void DrawDebugTextOverlays() override; // vtable[40]
+	virtual void ShouldSavePhysics() override; // vtable[43]
+	virtual void Classify() override; // vtable[55]
+	virtual void OnTakeDamage() override; // vtable[64]
+	virtual void BloodColor() override; // vtable[70]
+	virtual void Use() override; // vtable[100]
+	virtual void UpdateOnRemove() override; // vtable[108]
+	virtual void EyePosition() override; // vtable[133]
+	virtual void GetVelocity() override; // vtable[143]
+	virtual void GetAttackDamageScale() override; // vtable[147]
+	virtual void CreateVPhysics() override; // vtable[157]
+	virtual void VPhysicsTakeDamage() override; // vtable[162]
+	virtual void HasPhysicsAttacker() override; // vtable[173]
+	virtual void PhysicsSolidMaskForEntity() override; // vtable[174]
+	virtual void SetPhysicsAttacker() override; // vtable[236]
+	virtual void HandleInteraction() override; // vtable[298]
+	virtual void BodyAngles() override; // vtable[299]
+	virtual void CanBecomeServerRagdoll() override; // vtable[337]
+	virtual void GetAttackSpread() override; // vtable[372]
+	virtual void StartTask() override; // vtable[410]
+	virtual void PlayerPenetratingVPhysics() override; // vtable[416]
+	virtual void GetSchedulingErrorName() override; // vtable[432]
+	virtual void LoadedSchedules() override; // vtable[433]
+	virtual void IsValidEnemy() override; // vtable[475]
+	virtual void CanBeAnEnemyOf() override; // vtable[476]
+	virtual void MaxYawSpeed() override; // vtable[529]
+	virtual void EyeOffset() override; // vtable[553]
+	virtual void SquadSlotName() override; // vtable[581]
+	virtual TranslateNavGoal() override; // vtable[613]
+	virtual void GetClassScheduleIdSpace() override; // vtable[640]
 	virtual void CanInteractWith() override; // vtable[652]
 	virtual void HasBeenInteractedWith() override; // vtable[653]
 	virtual void NotifyInteraction() override; // vtable[654]
@@ -41,35 +77,35 @@ public:
 	virtual void SetEyeState(); // vtable[677]
 	virtual void OnSide(); // vtable[678]
 
-	void HasPreferredCarryAnglesForPlayer();
-	void PreferredCarryAngles();
-	void OnAttemptPhysGunPickup();
-	void OnPhysGunDrop();
-	void InputSelfDestruct();
-	void OnPhysGunPickup();
-	void InputDepleteAmmo();
-	void InputRestoreAmmo();
-	void GetBaseMap();
-	void WasJustDroppedByPlayer();
-	void UpdateFacing();
-	void DryFire();
-	void Ping();
-	void Enable();
-	void InputEnable();
-	void ReturnToLife();
-	void Disable();
-	void InputDisable();
-	void Toggle();
-	void InputToggle();
-	void ToggleUse();
-	void SpinUp();
-	void SpinDown();
-	void UpdateMuzzleMatrix();
-	void InitCustomSchedules();
-	void LoadSchedules();
-	void CScheduleLoader();
-	void CNPC_FloorTurret();
-	void CanInteractWith();
-	void HasBeenInteractedWith();
-	void NotifyInteraction();
+	void HasPreferredCarryAnglesForPlayer(); // size[0]
+	void PreferredCarryAngles(); // size[0]
+	void OnAttemptPhysGunPickup(); // size[0]
+	void OnPhysGunDrop(); // size[0]
+	void InputSelfDestruct(); // size[0]
+	void OnPhysGunPickup(); // size[0]
+	void InputDepleteAmmo(); // size[0]
+	void InputRestoreAmmo(); // size[0]
+	void GetBaseMap(); // size[0]
+	void WasJustDroppedByPlayer(); // size[0]
+	void UpdateFacing(); // size[0]
+	void DryFire(); // size[0]
+	void Ping(); // size[0]
+	void Enable(); // size[0]
+	void InputEnable(); // size[0]
+	void ReturnToLife(); // size[0]
+	void Disable(); // size[0]
+	void InputDisable(); // size[0]
+	void Toggle(); // size[0]
+	void InputToggle(); // size[0]
+	void ToggleUse(); // size[0]
+	void SpinUp(); // size[0]
+	void SpinDown(); // size[0]
+	void UpdateMuzzleMatrix(); // size[0]
+	void InitCustomSchedules(); // size[0]
+	void LoadSchedules(); // size[0]
+	CScheduleLoader(); // size[0]
+	CNPC_FloorTurret(); // size[0]
+	void CanInteractWith(); // size[0]
+	void HasBeenInteractedWith(); // size[0]
+	void NotifyInteraction(); // size[0]
 };

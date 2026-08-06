@@ -11,23 +11,23 @@ public:
 	virtual void get_controller_priority(); // vtable[5]
 	virtual void get_controller_name(); // vtable[6]
 
-	void _GLOBAL__sub_I_core_is_going_to_be_deleted_event();
-	void change_target_fixing_point_Ros();
-	void change_target_translation_axes_Ros();
-	void fix_translation_axis();
-	void free_translation_axis();
-	void limit_translation_axis();
-	void change_max_translation_impulse();
-	void change_rotation_axes_Ros();
-	void fix_rotation_axis();
-	void free_rotation_axis();
-	void limit_rotation_axis();
-	void change_max_rotation_impulse();
-	void change_Aos_to_relaxe_constraint();
-	void IVP_Constraint();
-	void get_environment();
-	void activate();
-	void deactivate();
-	void ~IVP_Constraint();
-	void ~IVP_Constraint();
+	void _GLOBAL__sub_I_core_is_going_to_be_deleted_event(); // size[0]
+	void change_target_fixing_point_Ros(); // size[0]
+	void change_target_translation_axes_Ros(); // size[0]
+	void fix_translation_axis(); // size[0]
+	void free_translation_axis(); // size[0]
+	void limit_translation_axis(); // size[0]
+	void change_max_translation_impulse(); // size[0]
+	void change_rotation_axes_Ros(); // size[0]
+	void fix_rotation_axis(); // size[0]
+	void free_rotation_axis(); // size[0]
+	void limit_rotation_axis(); // size[0]
+	void change_max_rotation_impulse(); // size[0]
+	void change_Aos_to_relaxe_constraint(); // size[0]
+	IVP_Constraint(); // size[0]
+	void get_environment(); // size[0]
+	void activate(); // size[0]
+	void deactivate(); // size[0]
+	~IVP_Constraint(); // size[0]
+	~IVP_Constraint(); // size[0]
 };

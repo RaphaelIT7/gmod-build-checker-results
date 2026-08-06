@@ -9,6 +9,6 @@ public:
 	virtual void GetString(); // vtable[3]
 	virtual void UpdateSourceEngineLanguage(); // vtable[4]
 
-	void TellLuaLanguageChanged();
-	void ProcessFile();
+	void TellLuaLanguageChanged(); // size[0]
+	void ProcessFile(); // size[0]
 };

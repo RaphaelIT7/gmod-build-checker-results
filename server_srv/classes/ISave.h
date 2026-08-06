@@ -4,6 +4,6 @@ class ISave
 {
 public:
 	virtual void __cxa_pure_virtual(); // vtable[47]
-	virtual void ~ISave(); // vtable[48]
-	virtual void ~ISave(); // vtable[49]
+	virtual ~ISave(); // vtable[48]
+	virtual ~ISave(); // vtable[49]
 };

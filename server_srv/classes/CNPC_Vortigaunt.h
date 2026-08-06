@@ -3,50 +3,108 @@
 class CNPC_Vortigaunt : public CNPC_PlayerCompanion
 {
 public:
-	virtual void ~CNPC_Vortigaunt() override; // vtable[0]
-	virtual void ~CNPC_Vortigaunt() override; // vtable[1]
+	virtual ~CNPC_Vortigaunt() override; // vtable[0]
+	virtual ~CNPC_Vortigaunt() override; // vtable[1]
+	virtual void GetServerClass() override; // vtable[10]
+	virtual void YouForgotToImplementOrDeclareServerClass() override; // vtable[11]
+	virtual void GetDataDescMap() override; // vtable[12]
+	virtual void Spawn() override; // vtable[23]
+	virtual void Precache() override; // vtable[24]
+	virtual void OnRestore() override; // vtable[45]
+	virtual void Classify() override; // vtable[55]
+	virtual void TraceAttack() override; // vtable[62]
+	virtual void Event_Killed() override; // vtable[68]
+	virtual void Use() override; // vtable[100]
+	virtual void UpdateOnRemove() override; // vtable[108]
+	virtual void BodyTarget() override; // vtable[137]
+	virtual void HandleAnimEvent() override; // vtable[261]
+	virtual void FInViewCone() override; // vtable[292]
+	virtual void NPC_TranslateActivity() override; // vtable[322]
+	virtual void OnTakeDamage_Alive() override; // vtable[338]
+	virtual void IRelationType() override; // vtable[364]
+	virtual void IRelationPriority() override; // vtable[365]
+	virtual void GatherConditions() override; // vtable[402]
+	virtual void PrescheduleThink() override; // vtable[403]
+	virtual void OnScheduleChange() override; // vtable[405]
+	virtual void SelectSchedule() override; // vtable[407]
+	virtual void SelectFailSchedule() override; // vtable[408]
+	virtual void TranslateSchedule() override; // vtable[409]
+	virtual void StartTask() override; // vtable[410]
+	virtual void RunTask() override; // vtable[411]
+	virtual void IsInterruptable() override; // vtable[412]
+	virtual void OnStartScene() override; // vtable[413]
+	virtual void GetSchedulingErrorName() override; // vtable[432]
+	virtual void LoadedSchedules() override; // vtable[433]
+	virtual void BuildScheduleTestBits() override; // vtable[434]
+	virtual void CanFlinch() override; // vtable[437]
+	virtual void IsValidEnemy() override; // vtable[475]
+	virtual void CanBeUsedAsAFriend() override; // vtable[499]
+	virtual void CanRunAScriptedNPCInteraction() override; // vtable[500]
+	virtual void DeathSound() override; // vtable[507]
+	virtual void AlertSound() override; // vtable[508]
+	virtual void PainSound() override; // vtable[510]
+	virtual void SpeakSentence() override; // vtable[515]
+	virtual void MaxYawSpeed() override; // vtable[529]
+	virtual void OverrideMoveFacing() override; // vtable[539]
+	virtual void FacingPosition() override; // vtable[560]
+	virtual void AimGun() override; // vtable[562]
+	virtual void SetScriptedScheduleIgnoreConditions() override; // vtable[568]
+	virtual void OnUpdateShotRegulator() override; // vtable[579]
+	virtual void SquadSlotName() override; // vtable[581]
+	virtual void RangeAttack1Conditions() override; // vtable[595]
+	virtual void RangeAttack2Conditions() override; // vtable[596]
+	virtual void MeleeAttack1Conditions() override; // vtable[597]
+	virtual void InnateRange1MinRange() override; // vtable[599]
+	virtual void InnateRange1MaxRange() override; // vtable[600]
+	virtual void InnateWeaponLOSCondition() override; // vtable[625]
+	virtual void ShouldMoveAndShoot() override; // vtable[631]
+	virtual void GetClassScheduleIdSpace() override; // vtable[640]
+	virtual void GetHeadDebounce() override; // vtable[702]
+	virtual void ShouldRegenerateHealth() override; // vtable[721]
+	virtual void IsReadinessCapable() override; // vtable[732]
+	virtual void GetReadinessDecay() override; // vtable[734]
 	virtual void ClearSchedule(); // vtable[739]
 	virtual void DeclineFollowing(); // vtable[740]
 	virtual void IsPlayerAlly(); // vtable[741]
 
-	void InputEnableArmorRecharge();
-	void InputDisableArmorRecharge();
-	void InputEnableHealthRegeneration();
-	void InputDisableHealthRegeneration();
-	void InputDispel();
-	void InputBeginCarryNPC();
-	void InputEndCarryNPC();
-	void InputExtractBugbait();
-	void ClearBeams();
-	void PlayerBelowHealthPercentage();
-	void InputChargeTarget();
-	void InputTurnBlack();
-	void InputTurnBlue();
-	void GetBaseMap();
-	void PlayerBelowHealthPercentage();
-	void NumAntlionsInRadius();
-	void SetHealTarget();
-	void HealBehaviorAvailable();
-	void ShouldHealTarget();
-	void FindHealTarget();
-	void StartHealing();
-	void ArmBeam();
-	void CreateBeamBlast();
-	void ClearHandGlow();
-	void ClearBeams();
-	void HealGestureHasLOS();
-	void GatherHealConditions();
-	void OnSquishedGrub();
-	void StartHandGlow();
-	void EndHandGlow();
-	void StopHealing();
-	void SelectHealSchedule();
-	void MaintainHealSchedule();
-	void MaintainGlows();
-	void DispelAntlions();
-	void ZapBeam();
-	void InitCustomSchedules();
-	void LoadSchedules();
-	void CScheduleLoader();
-	void CNPC_Vortigaunt();
+	void InputEnableArmorRecharge(); // size[0]
+	void InputDisableArmorRecharge(); // size[0]
+	void InputEnableHealthRegeneration(); // size[0]
+	void InputDisableHealthRegeneration(); // size[0]
+	void InputDispel(); // size[0]
+	void InputBeginCarryNPC(); // size[0]
+	void InputEndCarryNPC(); // size[0]
+	void InputExtractBugbait(); // size[0]
+	void ClearBeams(); // size[0]
+	void PlayerBelowHealthPercentage(); // size[0]
+	void InputChargeTarget(); // size[0]
+	void InputTurnBlack(); // size[0]
+	void InputTurnBlue(); // size[0]
+	void GetBaseMap(); // size[0]
+	void PlayerBelowHealthPercentage(); // size[0]
+	void NumAntlionsInRadius(); // size[0]
+	void SetHealTarget(); // size[0]
+	void HealBehaviorAvailable(); // size[0]
+	void ShouldHealTarget(); // size[0]
+	void FindHealTarget(); // size[0]
+	void StartHealing(); // size[0]
+	void ArmBeam(); // size[0]
+	void CreateBeamBlast(); // size[0]
+	void ClearHandGlow(); // size[0]
+	void ClearBeams(); // size[0]
+	void HealGestureHasLOS(); // size[0]
+	void GatherHealConditions(); // size[0]
+	void OnSquishedGrub(); // size[0]
+	void StartHandGlow(); // size[0]
+	void EndHandGlow(); // size[0]
+	void StopHealing(); // size[0]
+	void SelectHealSchedule(); // size[0]
+	void MaintainHealSchedule(); // size[0]
+	void MaintainGlows(); // size[0]
+	void DispelAntlions(); // size[0]
+	void ZapBeam(); // size[0]
+	void InitCustomSchedules(); // size[0]
+	void LoadSchedules(); // size[0]
+	CScheduleLoader(); // size[0]
+	CNPC_Vortigaunt(); // size[0]
 };

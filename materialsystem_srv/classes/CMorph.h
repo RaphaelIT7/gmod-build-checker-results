@@ -12,33 +12,33 @@ public:
 	virtual void RegenerateTextureBits(); // vtable[6]
 	virtual void Release(); // vtable[7]
 
-	void WriteDeltaPositionNormalToTexture();
-	void WriteSideSpeedToTexture();
-	void RegenerateTextureBits();
-	void BindMorphWeight();
-	void ComputeMorphTextureSizeInBytes();
-	void CleanUp();
-	void IsLocked();
-	void CreateAccumulatorMaterial();
-	void Get4TupleCount();
-	void DetermineTotalDeltaCount();
-	void ComputeTextureDimensions();
-	void CountStaticMeshVertices();
-	void ComputeVertexFormat();
-	void CreateStaticMesh();
-	void ReportMorphStats();
-	void RenderMorphQuads();
-	void BuildNonZeroMorphList();
-	void RenderMorphWeights();
-	void AccumulateMorph();
-	void ClearMorphStats();
-	void DisplayMorphStats();
-	void AccumulateMorphStats();
-	void HandleMorphStats();
-	void BuildSegmentList();
-	void CMorph();
-	void BuildQuadList();
-	void ~CMorph();
-	void PackMorphData();
-	void Release();
+	void WriteDeltaPositionNormalToTexture(); // size[0]
+	void WriteSideSpeedToTexture(); // size[0]
+	void RegenerateTextureBits(); // size[0]
+	void BindMorphWeight(); // size[0]
+	void ComputeMorphTextureSizeInBytes(); // size[0]
+	void CleanUp(); // size[0]
+	void IsLocked(); // size[0]
+	void CreateAccumulatorMaterial(); // size[0]
+	void Get4TupleCount(); // size[0]
+	void DetermineTotalDeltaCount(); // size[0]
+	void ComputeTextureDimensions(); // size[0]
+	void CountStaticMeshVertices(); // size[0]
+	void ComputeVertexFormat(); // size[0]
+	void CreateStaticMesh(); // size[0]
+	void ReportMorphStats(); // size[0]
+	void RenderMorphQuads(); // size[0]
+	void BuildNonZeroMorphList(); // size[0]
+	void RenderMorphWeights(); // size[0]
+	void AccumulateMorph(); // size[0]
+	void ClearMorphStats(); // size[0]
+	void DisplayMorphStats(); // size[0]
+	void AccumulateMorphStats(); // size[0]
+	void HandleMorphStats(); // size[0]
+	void BuildSegmentList(); // size[0]
+	CMorph(); // size[0]
+	void BuildQuadList(); // size[0]
+	~CMorph(); // size[0]
+	void PackMorphData(); // size[0]
+	void Release(); // size[0]
 };

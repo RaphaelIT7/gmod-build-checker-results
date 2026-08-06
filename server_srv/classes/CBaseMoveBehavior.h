@@ -3,14 +3,19 @@
 class CBaseMoveBehavior : public CPathKeyFrame
 {
 public:
-	virtual void ~CBaseMoveBehavior() override; // vtable[0]
-	virtual void ~CBaseMoveBehavior() override; // vtable[1]
+	virtual ~CBaseMoveBehavior() override; // vtable[0]
+	virtual ~CBaseMoveBehavior() override; // vtable[1]
+	virtual void GetDataDescMap() override; // vtable[12]
+	virtual void Spawn() override; // vtable[23]
+	virtual void Activate() override; // vtable[34]
+	virtual void MoveDone() override; // vtable[47]
+	virtual void IsMoving() override; // vtable[76]
 	virtual void StartMoving(); // vtable[246]
 	virtual void StopMoving(); // vtable[247]
 
-	void GetBaseMap();
-	void IsAtSequenceStart();
-	void IsAtSequenceEnd();
-	void CalculateTimeAdvancementForSpeed();
-	void SetObjectPhysicsVelocity();
+	void GetBaseMap(); // size[0]
+	void IsAtSequenceStart(); // size[0]
+	void IsAtSequenceEnd(); // size[0]
+	void CalculateTimeAdvancementForSpeed(); // size[0]
+	void SetObjectPhysicsVelocity(); // size[0]
 };

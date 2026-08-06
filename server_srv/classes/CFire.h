@@ -3,31 +3,40 @@
 class CFire : public CBaseEntity
 {
 public:
-	virtual void ~CFire() override; // vtable[0]
-	virtual void ~CFire() override; // vtable[1]
+	virtual ~CFire() override; // vtable[0]
+	virtual ~CFire() override; // vtable[1]
+	virtual void GetDataDescMap() override; // vtable[12]
+	virtual void UpdateTransmitState() override; // vtable[20]
+	virtual void Spawn() override; // vtable[23]
+	virtual void Precache() override; // vtable[24]
+	virtual void Activate() override; // vtable[34]
+	virtual void DrawDebugGeometryOverlays() override; // vtable[39]
+	virtual void DrawDebugTextOverlays() override; // vtable[40]
+	virtual void OnTakeDamage() override; // vtable[64]
+	virtual void UpdateOnRemove() override; // vtable[108]
 	virtual void Update(); // vtable[246]
 
-	void InputEnable();
-	void BurnThink();
-	void GetBaseMap();
-	void CFire();
-	void SpawnEffect();
-	void Init();
-	void Start();
-	void StartFire();
-	void InputStartFire();
-	void AddHeat();
-	void IsBurning();
-	void GetFireDimensions();
-	void DestroyEffect();
-	void AddHeat();
-	void Scale();
-	void GoOutInSeconds();
-	void InputExtinguishTemporary();
-	void InputExtinguish();
-	void GoOut();
-	void Disable();
-	void InputDisable();
-	void GoOutThink();
-	void Extinguish();
+	void InputEnable(); // size[0]
+	void BurnThink(); // size[0]
+	void GetBaseMap(); // size[0]
+	CFire(); // size[0]
+	void SpawnEffect(); // size[0]
+	void Init(); // size[0]
+	void Start(); // size[0]
+	void StartFire(); // size[0]
+	void InputStartFire(); // size[0]
+	void AddHeat(); // size[0]
+	void IsBurning(); // size[0]
+	void GetFireDimensions(); // size[0]
+	void DestroyEffect(); // size[0]
+	void AddHeat(); // size[0]
+	void Scale(); // size[0]
+	void GoOutInSeconds(); // size[0]
+	void InputExtinguishTemporary(); // size[0]
+	void InputExtinguish(); // size[0]
+	void GoOut(); // size[0]
+	void Disable(); // size[0]
+	void InputDisable(); // size[0]
+	void GoOutThink(); // size[0]
+	void Extinguish(); // size[0]
 };

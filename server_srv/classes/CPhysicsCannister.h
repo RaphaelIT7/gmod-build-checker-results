@@ -3,8 +3,8 @@
 class CPhysicsCannister : public CBaseCombatCharacter, public CDefaultPlayerPickupVPhysics
 {
 public:
-	virtual void ~CPhysicsCannister() override; // vtable[0]
-	virtual void ~CPhysicsCannister() override; // vtable[1]
+	virtual ~CPhysicsCannister() override; // vtable[0]
+	virtual ~CPhysicsCannister() override; // vtable[1]
 	virtual void SetRefEHandle() override; // vtable[2]
 	virtual void GetRefEHandle() override; // vtable[3]
 	virtual void GetCollideable() override; // vtable[4]
@@ -13,6 +13,21 @@ public:
 	virtual void GetModelIndex() override; // vtable[7]
 	virtual void GetModelName() override; // vtable[8]
 	virtual void SetModelIndex() override; // vtable[9]
+	virtual void GetDataDescMap() override; // vtable[12]
+	virtual void TestCollision() override; // vtable[14]
+	virtual void Spawn() override; // vtable[23]
+	virtual void Precache() override; // vtable[24]
+	virtual void ObjectCaps() override; // vtable[36]
+	virtual void OnRestore() override; // vtable[45]
+	virtual void TraceAttack() override; // vtable[62]
+	virtual void OnTakeDamage() override; // vtable[64]
+	virtual void IsAlive() override; // vtable[67]
+	virtual void Use() override; // vtable[100]
+	virtual void CreateVPhysics() override; // vtable[157]
+	virtual void VPhysicsUpdate() override; // vtable[161]
+	virtual void VPhysicsCollision() override; // vtable[165]
+	virtual void HasPhysicsAttacker() override; // vtable[173]
+	virtual void SetPhysicsAttacker() override; // vtable[236]
 	virtual void PreferredCarryAngles(); // vtable[388]
 	virtual void HasPreferredCarryAnglesForPlayer(); // vtable[389]
 	virtual void OnAttemptPhysGunPickup(); // vtable[390]
@@ -22,25 +37,25 @@ public:
 	virtual void PhysGunLaunchAngularImpulse(); // vtable[394]
 	virtual void PhysGunLaunchVelocity(); // vtable[395]
 
-	void InputWake();
-	void OnPhysGunPickup();
-	void GetBaseMap();
-	void CalcLocalThrust();
-	void ShutdownJet();
-	void Deactivate();
-	void InputDeactivate();
-	void Explode();
-	void InputExplode();
-	void ExplodeTouch();
-	void BeginShutdownThink();
-	void CannisterActivate();
-	void CannisterFire();
-	void InputActivate();
-	void OnPhysGunDrop();
-	void PreferredCarryAngles();
-	void HasPreferredCarryAnglesForPlayer();
-	void OnAttemptPhysGunPickup();
-	void ShouldPuntUseLaunchForces();
-	void PhysGunLaunchAngularImpulse();
-	void PhysGunLaunchVelocity();
+	void InputWake(); // size[0]
+	void OnPhysGunPickup(); // size[0]
+	void GetBaseMap(); // size[0]
+	void CalcLocalThrust(); // size[0]
+	void ShutdownJet(); // size[0]
+	void Deactivate(); // size[0]
+	void InputDeactivate(); // size[0]
+	void Explode(); // size[0]
+	void InputExplode(); // size[0]
+	void ExplodeTouch(); // size[0]
+	void BeginShutdownThink(); // size[0]
+	void CannisterActivate(); // size[0]
+	void CannisterFire(); // size[0]
+	void InputActivate(); // size[0]
+	void OnPhysGunDrop(); // size[0]
+	void PreferredCarryAngles(); // size[0]
+	void HasPreferredCarryAnglesForPlayer(); // size[0]
+	void OnAttemptPhysGunPickup(); // size[0]
+	void ShouldPuntUseLaunchForces(); // size[0]
+	void PhysGunLaunchAngularImpulse(); // size[0]
+	void PhysGunLaunchVelocity(); // size[0]
 };

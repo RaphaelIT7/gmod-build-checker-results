@@ -3,6 +3,6 @@
 class CDefaultDataCacheClient : public IDataCacheClient
 {
 public:
-	void HandleCacheNotification();
-	void GetItemName();
+	void HandleCacheNotification(); // size[0]
+	void GetItemName(); // size[0]
 };

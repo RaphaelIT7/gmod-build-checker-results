@@ -3,25 +3,41 @@
 class CWeapon_SLAM : public CBaseHL2MPCombatWeapon
 {
 public:
-	virtual void ~CWeapon_SLAM() override; // vtable[0]
-	virtual void ~CWeapon_SLAM() override; // vtable[1]
+	virtual ~CWeapon_SLAM() override; // vtable[0]
+	virtual ~CWeapon_SLAM() override; // vtable[1]
+	virtual void GetServerClass() override; // vtable[10]
+	virtual void YouForgotToImplementOrDeclareServerClass() override; // vtable[11]
+	virtual void GetDataDescMap() override; // vtable[12]
+	virtual void Spawn() override; // vtable[23]
+	virtual void Precache() override; // vtable[24]
 	virtual void _ZN12CWeapon_SLAM14SetPickupTouchEv() override; // vtable[291]
+	virtual void Deploy() override; // vtable[307]
+	virtual void Holster() override; // vtable[308]
+	virtual void ItemPostFrame() override; // vtable[318]
+	virtual void WeaponIdle() override; // vtable[321]
+	virtual void Reload() override; // vtable[329]
+	virtual void PrimaryAttack() override; // vtable[332]
+	virtual void SecondaryAttack() override; // vtable[333]
+	virtual void CanBePickedUpByNPCs() override; // vtable[359]
+	virtual void GetHoldType() override; // vtable[380]
+	virtual void ActivityList() override; // vtable[388]
+	virtual void ActivityListCount() override; // vtable[389]
 
-	void _GLOBAL__sub_I_GetServerClass();
-	void SlamTouch();
-	void GetBaseMap();
-	void SatchelDetonate();
-	void AnyUndetonatedCharges();
-	void StartSatchelDetonate();
-	void TripmineAttach();
-	void StartTripmineAttach();
-	void StartSatchelThrow();
-	void SatchelAttach();
-	void StartSatchelAttach();
-	void SetSlamState();
-	void CanAttachSLAM();
-	void SLAMThink();
-	void SatchelThrow();
-	void Weapon_Switch();
-	void CWeapon_SLAM();
+	void _GLOBAL__sub_I_GetServerClass(); // size[0]
+	void SlamTouch(); // size[0]
+	void GetBaseMap(); // size[0]
+	void SatchelDetonate(); // size[0]
+	void AnyUndetonatedCharges(); // size[0]
+	void StartSatchelDetonate(); // size[0]
+	void TripmineAttach(); // size[0]
+	void StartTripmineAttach(); // size[0]
+	void StartSatchelThrow(); // size[0]
+	void SatchelAttach(); // size[0]
+	void StartSatchelAttach(); // size[0]
+	void SetSlamState(); // size[0]
+	void CanAttachSLAM(); // size[0]
+	void SLAMThink(); // size[0]
+	void SatchelThrow(); // size[0]
+	void Weapon_Switch(); // size[0]
+	CWeapon_SLAM(); // size[0]
 };

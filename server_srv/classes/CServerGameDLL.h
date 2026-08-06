@@ -50,7 +50,7 @@ public:
 	virtual void GMOD_ClientSignOnStateChanged(); // vtable[44]
 	virtual void GMOD_OnAllSoundsStoppedSV(); // vtable[45]
 
-	void LoadMessageOfTheDay();
-	void LoadSpecificMOTDMsg();
-	void LevelInit_ParseAllEntities();
+	void LoadMessageOfTheDay(); // size[0]
+	void LoadSpecificMOTDMsg(); // size[0]
+	void LevelInit_ParseAllEntities(); // size[0]
 };

@@ -3,8 +3,85 @@
 class CBasePlayer : public CBaseCombatCharacter
 {
 public:
-	virtual void ~CBasePlayer() override; // vtable[0]
-	virtual void ~CBasePlayer() override; // vtable[1]
+	virtual ~CBasePlayer() override; // vtable[0]
+	virtual ~CBasePlayer() override; // vtable[1]
+	virtual void GetServerClass() override; // vtable[10]
+	virtual void YouForgotToImplementOrDeclareServerClass() override; // vtable[11]
+	virtual void GetDataDescMap() override; // vtable[12]
+	virtual void ShouldTransmit() override; // vtable[19]
+	virtual void UpdateTransmitState() override; // vtable[20]
+	virtual void GetTracerType() override; // vtable[22]
+	virtual void Spawn() override; // vtable[23]
+	virtual void Precache() override; // vtable[24]
+	virtual void SetModel() override; // vtable[25]
+	virtual void Activate() override; // vtable[34]
+	virtual void ObjectCaps() override; // vtable[36]
+	virtual void DrawDebugGeometryOverlays() override; // vtable[39]
+	virtual void Save() override; // vtable[41]
+	virtual void Restore() override; // vtable[42]
+	virtual void ShouldSavePhysics() override; // vtable[43]
+	virtual void OnRestore() override; // vtable[45]
+	virtual void RequiredEdictIndex() override; // vtable[46]
+	virtual void NetworkStateChanged_m_nNextThinkTick() override; // vtable[49]
+	virtual void NetworkStateChanged_m_nNextThinkTick() override; // vtable[50]
+	virtual void Classify() override; // vtable[55]
+	virtual void TraceAttack() override; // vtable[62]
+	virtual void OnTakeDamage() override; // vtable[64]
+	virtual void TakeHealth() override; // vtable[66]
+	virtual void Event_Killed() override; // vtable[68]
+	virtual void IsPlayer() override; // vtable[82]
+	virtual void IsNetClient() override; // vtable[83]
+	virtual void ChangeTeam() override; // vtable[93]
+	virtual void ViewPunch() override; // vtable[99]
+	virtual void Touch() override; // vtable[102]
+	virtual void PhysicsSimulate() override; // vtable[107]
+	virtual void UpdateOnRemove() override; // vtable[108]
+	virtual void MakeTracer() override; // vtable[113]
+	virtual void DoImpactEffect() override; // vtable[116]
+	virtual void NetworkStateChanged_m_iHealth() override; // vtable[124]
+	virtual void NetworkStateChanged_m_iHealth() override; // vtable[125]
+	virtual void NetworkStateChanged_m_lifeState() override; // vtable[126]
+	virtual void NetworkStateChanged_m_lifeState() override; // vtable[127]
+	virtual void EyePosition() override; // vtable[133]
+	virtual void EyeAngles() override; // vtable[134]
+	virtual void LocalEyeAngles() override; // vtable[135]
+	virtual void BodyTarget() override; // vtable[137]
+	virtual void GetSmoothedVelocity() override; // vtable[142]
+	virtual void VPhysicsDestroyObject() override; // vtable[159]
+	virtual void VPhysicsUpdate() override; // vtable[161]
+	virtual void VPhysicsShadowUpdate() override; // vtable[164]
+	virtual void VPhysicsCollision() override; // vtable[165]
+	virtual void PhysicsSolidMaskForEntity() override; // vtable[174]
+	virtual void NetworkStateChanged_m_fFlags() override; // vtable[180]
+	virtual void NetworkStateChanged_m_fFlags() override; // vtable[181]
+	virtual void NetworkStateChanged_m_nWaterLevel() override; // vtable[182]
+	virtual void NetworkStateChanged_m_nWaterLevel() override; // vtable[183]
+	virtual void NetworkStateChanged_m_hGroundEntity() override; // vtable[184]
+	virtual void NetworkStateChanged_m_hGroundEntity() override; // vtable[185]
+	virtual void NetworkStateChanged_m_vecBaseVelocity() override; // vtable[186]
+	virtual void NetworkStateChanged_m_vecBaseVelocity() override; // vtable[187]
+	virtual void NetworkStateChanged_m_flFriction() override; // vtable[190]
+	virtual void NetworkStateChanged_m_flFriction() override; // vtable[191]
+	virtual void NetworkStateChanged_m_vecViewOffset() override; // vtable[192]
+	virtual void NetworkStateChanged_m_vecViewOffset() override; // vtable[193]
+	virtual void HandleAnimEvent() override; // vtable[261]
+	virtual void RefreshCollisionBounds() override; // vtable[266]
+	virtual void GetPhysicsImpactDamageTable() override; // vtable[291]
+	virtual void BodyAngles() override; // vtable[299]
+	virtual void Weapon_CanUse() override; // vtable[326]
+	virtual void Weapon_Equip() override; // vtable[327]
+	virtual void Weapon_Drop() override; // vtable[329]
+	virtual void Weapon_Switch() override; // vtable[330]
+	virtual void Weapon_ShootPosition() override; // vtable[331]
+	virtual void RemovePlayerItem() override; // vtable[336]
+	virtual void OnTakeDamage_Alive() override; // vtable[338]
+	virtual void Event_Dying() override; // vtable[355]
+	virtual void IsInAVehicle() override; // vtable[366]
+	virtual void GetVehicle() override; // vtable[367]
+	virtual void GetVehicleEntity() override; // vtable[368]
+	virtual void DoMuzzleFlash() override; // vtable[374]
+	virtual void NetworkStateChanged_m_iAmmo() override; // vtable[386]
+	virtual void NetworkStateChanged_m_iAmmo() override; // vtable[387]
 	virtual void CreateViewModel(); // vtable[388]
 	virtual void SetupVisibility(); // vtable[389]
 	virtual void WantsLagCompensationOnEntity(); // vtable[390]
@@ -155,138 +232,138 @@ public:
 	virtual void SetMouseWheel(); // vtable[535]
 	virtual void GetMaxArmor(); // vtable[536]
 
-	void CalcViewRoll();
-	void GetTimeBase();
-	void ItemPreFrame();
-	void UsingStandardWeaponsInVehicle();
-	void SetAllowWeaponsInVehicle();
-	void CacheVehicleView();
-	void EyeVectors();
-	void EyePositionAndVectors();
-	void AbortReload();
-	void ClearPlayerSimulationList();
-	void ViewPunchReset();
-	void SmoothViewOnStairs();
-	void CalcViewModelView();
-	void CalcVehicleView();
-	void CalcObserverView();
-	void CalcView();
-	void CalcViewRoll();
-	void GetFOVDistanceAdjustFactor();
-	void GetDefaultFOV();
-	void AvoidPhysicsProps();
-	void ClearZoomOwner();
-	void SetFOV();
-	void UpdateUnderwaterState();
-	void SetPreviouslyPredictedOrigin();
-	void GetPreviouslyPredictedOrigin();
-	void DisableButtons();
-	void EnableButtons();
-	void ForceButtons();
-	void UnforceButtons();
-	void ResetPlayerHull();
-	void UpdateHull();
-	void SimulatePlayerSimulatedEntities();
-	void RemoveFromPlayerSimulationList();
-	void AddToPlayerSimulationList();
-	void InputSetHealth();
-	void InputSetHUDVisibility();
-	void InputSetFogController();
-	void InputSetColorCorrectionController();
-	void GetBaseMap();
-	void GetViewModel();
-	void DestroyViewModels();
-	void CreatePlayer();
-	void SnapEyeAngles();
-	void IsDead();
-	void WaterMove();
-	void IsOnLadder();
-	void GetWaterJumpTime();
-	void SetWaterJumpTime();
-	void GetSwimSoundTime();
-	void SetSwimSoundTime();
-	void CanPickupObject();
-	void ResetFragCount();
-	void IncrementFragCount();
-	void ResetDeathCount();
-	void IncrementDeathCount();
-	void AddPoints();
-	void AddPointsToTeam();
-	void GetCommandContextCount();
-	void GetCommandContext();
-	void DetermineSimulationTicks();
-	void RunNullCommand();
-	void ForceSimulation();
-	void IsUserCmdDataValid();
-	void DumpPerfToRecipient();
-	void HandleFuncTrain();
-	void CheckTimeBasedDamage();
-	void CheckSuitUpdate();
-	void SetSuitUpdate();
-	void UpdatePlayerSound();
-	void IsRideablePhysics();
-	void GetGroundVPhysics();
-	void ForceOrigin();
-	void UpdateVPhysicsPosition();
-	void RunLastCommand();
-	void UpdatePhysicsShadowToPosition();
-	void SetArmorValue();
-	void IncrementArmorValue();
-	void SetPhysicsFlag();
-	void NotifyNearbyRadiationSource();
-	void AllowImmediateDecalPainting();
-	void HasWeapons();
-	void VelocityPunch();
-	void CanEnterVehicle();
-	void ShowViewModel();
-	void ShowCrosshair();
-	void RumbleEffect();
-	void EnableControl();
-	void Weapon_DropSlot();
-	void HasNamedPlayerItem();
-	void LockPlayerInPlace();
-	void UnlockPlayer();
-	void ClearUseEntity();
-	void HideViewModels();
-	void SetVCollisionState();
-	void SetupVPhysicsShadow();
-	void PostThinkVPhysics();
-	void GetFOVDistanceAdjustFactorForNetworking();
-	void SetDefaultFOV();
-	void GetPunchAngle();
-	void SetPunchAngle();
-	void ActivateMovementConstraint();
-	void DeactivateMovementConstraint();
-	void DoubleCheckUseNPC();
-	void InitFogController();
-	void InitColorCorrectionController();
-	void SetViewEntity();
-	void HasAnyAmmoOfType();
-	void GetNetworkIDString();
-	void SetPlayerName();
-	void ToggleDuck();
-	void GetStickDist();
-	void SetBodyPitch();
-	void AdjustDrownDmg();
-	void GetSteamID();
-	void GetSteamIDAsUInt64();
-	void GetOwnerSteamID64();
-	void OnVoicePacketReceived();
-	void GetPlayerViewOffset();
-	void OnTonemapTriggerEndTouch();
-	void RemoveAllCommandContexts();
-	void CBasePlayer();
-	void RemoveCommandContext();
-	void AllocCommandContext();
-	void RemoveAllCommandContextsExceptNewest();
-	void ReplaceContextCommands();
-	void AdjustPlayerTimeBase();
-	void OnTonemapTriggerStartTouch();
-	void ~NetworkVar_pl();
-	void ~NetworkVar_pl();
-	void NetworkStateChanged();
-	void NetworkStateChanged();
-	void NetworkStateChanged();
-	void NetworkStateChanged();
-	void Kick();
+	void CalcViewRoll(); // size[0]
+	void GetTimeBase(); // size[0]
+	void ItemPreFrame(); // size[0]
+	void UsingStandardWeaponsInVehicle(); // size[0]
+	void SetAllowWeaponsInVehicle(); // size[0]
+	void CacheVehicleView(); // size[0]
+	void EyeVectors(); // size[0]
+	void EyePositionAndVectors(); // size[0]
+	void AbortReload(); // size[0]
+	void ClearPlayerSimulationList(); // size[0]
+	void ViewPunchReset(); // size[0]
+	void SmoothViewOnStairs(); // size[0]
+	void CalcViewModelView(); // size[0]
+	void CalcVehicleView(); // size[0]
+	void CalcObserverView(); // size[0]
+	void CalcView(); // size[0]
+	void CalcViewRoll(); // size[0]
+	void GetFOVDistanceAdjustFactor(); // size[0]
+	void GetDefaultFOV(); // size[0]
+	void AvoidPhysicsProps(); // size[0]
+	void ClearZoomOwner(); // size[0]
+	void SetFOV(); // size[0]
+	void UpdateUnderwaterState(); // size[0]
+	void SetPreviouslyPredictedOrigin(); // size[0]
+	void GetPreviouslyPredictedOrigin(); // size[0]
+	void DisableButtons(); // size[0]
+	void EnableButtons(); // size[0]
+	void ForceButtons(); // size[0]
+	void UnforceButtons(); // size[0]
+	void ResetPlayerHull(); // size[0]
+	void UpdateHull(); // size[0]
+	void SimulatePlayerSimulatedEntities(); // size[0]
+	void RemoveFromPlayerSimulationList(); // size[0]
+	void AddToPlayerSimulationList(); // size[0]
+	void InputSetHealth(); // size[0]
+	void InputSetHUDVisibility(); // size[0]
+	void InputSetFogController(); // size[0]
+	void InputSetColorCorrectionController(); // size[0]
+	void GetBaseMap(); // size[0]
+	void GetViewModel(); // size[0]
+	void DestroyViewModels(); // size[0]
+	void CreatePlayer(); // size[0]
+	void SnapEyeAngles(); // size[0]
+	void IsDead(); // size[0]
+	void WaterMove(); // size[0]
+	void IsOnLadder(); // size[0]
+	void GetWaterJumpTime(); // size[0]
+	void SetWaterJumpTime(); // size[0]
+	void GetSwimSoundTime(); // size[0]
+	void SetSwimSoundTime(); // size[0]
+	void CanPickupObject(); // size[0]
+	void ResetFragCount(); // size[0]
+	void IncrementFragCount(); // size[0]
+	void ResetDeathCount(); // size[0]
+	void IncrementDeathCount(); // size[0]
+	void AddPoints(); // size[0]
+	void AddPointsToTeam(); // size[0]
+	void GetCommandContextCount(); // size[0]
+	void GetCommandContext(); // size[0]
+	void DetermineSimulationTicks(); // size[0]
+	void RunNullCommand(); // size[0]
+	void ForceSimulation(); // size[0]
+	void IsUserCmdDataValid(); // size[0]
+	void DumpPerfToRecipient(); // size[0]
+	void HandleFuncTrain(); // size[0]
+	void CheckTimeBasedDamage(); // size[0]
+	void CheckSuitUpdate(); // size[0]
+	void SetSuitUpdate(); // size[0]
+	void UpdatePlayerSound(); // size[0]
+	void IsRideablePhysics(); // size[0]
+	void GetGroundVPhysics(); // size[0]
+	void ForceOrigin(); // size[0]
+	void UpdateVPhysicsPosition(); // size[0]
+	void RunLastCommand(); // size[0]
+	void UpdatePhysicsShadowToPosition(); // size[0]
+	void SetArmorValue(); // size[0]
+	void IncrementArmorValue(); // size[0]
+	void SetPhysicsFlag(); // size[0]
+	void NotifyNearbyRadiationSource(); // size[0]
+	void AllowImmediateDecalPainting(); // size[0]
+	void HasWeapons(); // size[0]
+	void VelocityPunch(); // size[0]
+	void CanEnterVehicle(); // size[0]
+	void ShowViewModel(); // size[0]
+	void ShowCrosshair(); // size[0]
+	void RumbleEffect(); // size[0]
+	void EnableControl(); // size[0]
+	void Weapon_DropSlot(); // size[0]
+	void HasNamedPlayerItem(); // size[0]
+	void LockPlayerInPlace(); // size[0]
+	void UnlockPlayer(); // size[0]
+	void ClearUseEntity(); // size[0]
+	void HideViewModels(); // size[0]
+	void SetVCollisionState(); // size[0]
+	void SetupVPhysicsShadow(); // size[0]
+	void PostThinkVPhysics(); // size[0]
+	void GetFOVDistanceAdjustFactorForNetworking(); // size[0]
+	void SetDefaultFOV(); // size[0]
+	void GetPunchAngle(); // size[0]
+	void SetPunchAngle(); // size[0]
+	void ActivateMovementConstraint(); // size[0]
+	void DeactivateMovementConstraint(); // size[0]
+	void DoubleCheckUseNPC(); // size[0]
+	void InitFogController(); // size[0]
+	void InitColorCorrectionController(); // size[0]
+	void SetViewEntity(); // size[0]
+	void HasAnyAmmoOfType(); // size[0]
+	void GetNetworkIDString(); // size[0]
+	void SetPlayerName(); // size[0]
+	void ToggleDuck(); // size[0]
+	void GetStickDist(); // size[0]
+	void SetBodyPitch(); // size[0]
+	void AdjustDrownDmg(); // size[0]
+	void GetSteamID(); // size[0]
+	void GetSteamIDAsUInt64(); // size[0]
+	void GetOwnerSteamID64(); // size[0]
+	void OnVoicePacketReceived(); // size[0]
+	void GetPlayerViewOffset(); // size[0]
+	void OnTonemapTriggerEndTouch(); // size[0]
+	void RemoveAllCommandContexts(); // size[0]
+	CBasePlayer(); // size[0]
+	void RemoveCommandContext(); // size[0]
+	void AllocCommandContext(); // size[0]
+	void RemoveAllCommandContextsExceptNewest(); // size[0]
+	void ReplaceContextCommands(); // size[0]
+	void AdjustPlayerTimeBase(); // size[0]
+	void OnTonemapTriggerStartTouch(); // size[0]
+	~NetworkVar_pl(); // size[0]
+	~NetworkVar_pl(); // size[0]
+	void NetworkStateChanged(); // size[0]
+	void NetworkStateChanged(); // size[0]
+	void NetworkStateChanged(); // size[0]
+	void NetworkStateChanged(); // size[0]
+	void Kick(); // size[0]
 };

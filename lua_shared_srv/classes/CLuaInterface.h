@@ -135,11 +135,11 @@ public:
 	virtual void CheckNumberOpt(); // vtable[129]
 	virtual void RegisterMetaTable() override; // vtable[130]
 
-	void CLuaInterface();
-	void DoStackCheck();
-	void ExecuteLuaFile();
-	void RunMacros();
-	void RunThreadedCalls();
-	void ShutdownThreadedCalls();
-	void FilterConVarFlags();
+	CLuaInterface(); // size[0]
+	void DoStackCheck(); // size[0]
+	void ExecuteLuaFile(); // size[0]
+	void RunMacros(); // size[0]
+	void RunThreadedCalls(); // size[0]
+	void ShutdownThreadedCalls(); // size[0]
+	void FilterConVarFlags(); // size[0]
 };
