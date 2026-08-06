@@ -74,5 +74,4 @@ public:
 	~CClientState(); // size[7]
 	~CClientState(); // size[7]
 	~CClientState(); // size[10]
-	CClientState(); // size[267]
 };

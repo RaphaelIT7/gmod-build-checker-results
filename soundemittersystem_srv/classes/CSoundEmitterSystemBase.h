@@ -56,7 +56,7 @@ public:
 	_GLOBAL__sub_I_CSoundEmitterSystemBase(); // size[119]
 	void AddSoundName(CSoundParametersInternal *param_1, char *param_2, gender_t param_3); // size[106]
 	void TranslateAttenuation(char *param_1); // size[234]
-	void InitSoundInternalParameters(char *param_1, KeyValues *param_2, CSoundParametersInternal *param_3); // size[1498]
+	void InitSoundInternalParameters(char *param_1, KeyValues *param_2, CSoundParametersInternal *param_3); // size[1546]
 	void TranslateSoundLevel(char *param_1); // size[15]
 	void TranslateChannel(char *param_1); // size[15]
 	CSoundEmitterSystemBase(); // size[342]

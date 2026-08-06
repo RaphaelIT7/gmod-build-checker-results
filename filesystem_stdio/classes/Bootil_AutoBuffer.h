@@ -6,8 +6,9 @@ public:
 	virtual ~AutoBuffer() override; // vtable[0]
 	virtual ~AutoBuffer() override; // vtable[1]
 	virtual void Clear() override; // vtable[2]
-	virtual void EnsureCapacity(uint param_1) override; // vtable[3]
+	virtual void EnsureCapacity(ulonglong param_1) override; // vtable[3]
 	virtual void _M_dispose(); // vtable[4]
 
-	AutoBuffer(int param_1); // size[11]
+	~AutoBuffer(); // size[10]
+	AutoBuffer(ulonglong param_1); // size[12]
 };

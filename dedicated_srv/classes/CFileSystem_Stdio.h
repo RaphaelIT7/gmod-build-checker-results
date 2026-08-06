@@ -32,10 +32,10 @@ public:
 	virtual void FS_stat(char *param_1, stat *param_2, bool *param_3); // vtable[155]
 	virtual void FS_chmod(char *param_1, int param_2); // vtable[156]
 	virtual void FS_FindFirstFile(char *param_1, FIND_DATA *param_2); // vtable[157]
-	virtual void FS_FindNextFile(void *param_1, FIND_DATA *param_2); // vtable[158]
+	virtual void _ZN17CFileSystem_Stdio15FS_FindNextFileEPvP9FIND_DATA(); // vtable[158]
 	virtual void FS_FindClose(void *param_1) override; // vtable[159]
 	virtual void FS_GetSectorSize(_IO_FILE *param_1) override; // vtable[160]
 
 	~CFileSystem_Stdio(); // size[25]
-	CFileSystem_Stdio(); // size[10]
+	CFileSystem_Stdio(); // size[7]
 };

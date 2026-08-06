@@ -42,7 +42,7 @@ public:
 	void AddResourceToTable(char *param_1); // size[596]
 	void ParseResourceList(CUtlBuffer *param_1); // size[497]
 	CQueuedLoader(); // size[615]
-	void SubmitPendingJobs(); // size[1135]
+	void SubmitPendingJobs(); // size[1327]
 	void SubmitBatchedJobs(); // size[362]
 	void SubmitBatchedJobsAndWait(); // size[141]
 };

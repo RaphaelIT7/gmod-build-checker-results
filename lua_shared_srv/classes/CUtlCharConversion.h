@@ -10,6 +10,6 @@ public:
 	void GetDelimiter(); // size[11]
 	void GetDelimiterLength(); // size[11]
 	void GetConversionString(char param_1); // size[19]
-	void GetConversionLength(char param_1); // size[19]
+	void GetConversionLength(char param_1); // size[11]
 	void MaxConversionLength(); // size[11]
 };

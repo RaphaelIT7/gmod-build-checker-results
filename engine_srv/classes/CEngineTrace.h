@@ -26,7 +26,7 @@ public:
 	void ClipRayToHitboxes(Ray_t *param_1, uint param_2, ICollideable *param_3, CGameTrace *param_4); // size[661]
 	void ClipRayToVPhysics(Ray_t *param_1, uint param_2, ICollideable *param_3, studiohdr_t *param_4, CGameTrace *param_5); // size[451]
 	void ClipRayToBSP(Ray_t *param_1, uint param_2, ICollideable *param_3, CGameTrace *param_4); // size[134]
-	void ClipRayToBBox(Ray_t *param_1, uint param_2, ICollideable *param_3, CGameTrace *param_4); // size[1569]
+	void ClipRayToBBox(Ray_t *param_1, uint param_2, ICollideable *param_3, CGameTrace *param_4); // size[1196]
 	void ClipRayToOBB(Ray_t *param_1, uint param_2, ICollideable *param_3, CGameTrace *param_4); // size[136]
 	void ClipTraceToTrace(CGameTrace *param_1, CGameTrace *param_2); // size[549]
 };
