@@ -11,7 +11,7 @@ public:
 	void InputSetValue(inputdata_t *param_1); // size[33]
 	void InputSetCompareValue(inputdata_t *param_1); // size[33]
 	void GetBaseMap(); // size[10]
-	void DoCompare(CBaseEntity *param_1, floatparam_2); // size[112]
+	void DoCompare(CBaseEntity *param_1, float param_2); // size[112]
 	void InputSetValueCompare(inputdata_t *param_1); // size[56]
 	void InputCompare(inputdata_t *param_1); // size[42]
 };

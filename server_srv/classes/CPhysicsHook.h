@@ -15,7 +15,7 @@ public:
 	virtual void PreClientUpdate() override; // vtable[17]
 	virtual void IsInCallback() override; // vtable[18]
 	virtual void GetPhysicsPaused(); // vtable[19]
-	virtual void SetPhysicsPaused(boolparam_1); // vtable[20]
+	virtual void SetPhysicsPaused(bool param_1); // vtable[20]
 
 	void FindOrAddVehicleScript(char *param_1, vehicleparams_t *param_2, vehiclesounds_t *param_3); // size[2145]
 };

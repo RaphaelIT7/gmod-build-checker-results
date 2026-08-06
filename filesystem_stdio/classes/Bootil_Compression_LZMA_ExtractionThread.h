@@ -13,7 +13,7 @@ public:
 	virtual void _ZN6Bootil11Compression4LZMA16ExtractionThread10OnProgressEfjj(); // vtable[8]
 
 	void Destroy(); // size[1]
-	void OnProgress(floatparam_1, uintparam_2, uintparam_3); // size[7]
+	void OnProgress(float param_1, uint param_2, uint param_3); // size[7]
 	void Finished(); // size[7]
 	void Success(); // size[7]
 	void GetProgress(); // size[7]

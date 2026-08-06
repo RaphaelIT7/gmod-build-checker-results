@@ -15,7 +15,7 @@ public:
 	virtual void SelectSchedule() override; // vtable[26]
 	virtual void StartTask(Task_t *param_1) override; // vtable[28]
 	virtual void RunTask(Task_t *param_1) override; // vtable[29]
-	virtual void TranslateSchedule(intparam_1) override; // vtable[31]
+	virtual void TranslateSchedule(int param_1) override; // vtable[31]
 	virtual void GetSchedulingErrorName() override; // vtable[33]
 	virtual void BuildScheduleTestBits() override; // vtable[34]
 	virtual void GetDataDescMap() override; // vtable[70]

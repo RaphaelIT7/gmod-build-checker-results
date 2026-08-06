@@ -13,5 +13,5 @@ public:
 	void _GLOBAL__sub_I_m_DataMap(); // size[112]
 	void BounceTouch(CBaseEntity *param_1); // size[608]
 	void GetBaseMap(); // size[10]
-	void ShootTimed(CBaseCombatCharacter *param_1, Vectorparam_2, floatparam_3); // size[30]
+	void ShootTimed(CBaseCombatCharacter *param_1, Vector param_2, float param_3); // size[30]
 };

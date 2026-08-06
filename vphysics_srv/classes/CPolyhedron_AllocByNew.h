@@ -8,5 +8,5 @@ public:
 	virtual void Release(); // vtable[2]
 
 	void _GLOBAL__sub_I_Release(); // size[114]
-	void Allocate(ushortparam_1, ushortparam_2, ushortparam_3, ushortparam_4); // size[121]
+	void Allocate(ushort param_1, ushort param_2, ushort param_3, ushort param_4); // size[121]
 };

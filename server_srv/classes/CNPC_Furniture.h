@@ -18,7 +18,7 @@ public:
 	virtual void NPCThink() override; // vtable[400]
 	virtual void SelectSchedule() override; // vtable[407]
 	virtual void SetPlayerAvoidState() override; // vtable[415]
-	virtual void UpdateEfficiency(boolparam_1) override; // vtable[456]
+	virtual void UpdateEfficiency(bool param_1) override; // vtable[456]
 	virtual void MaxYawSpeed() override; // vtable[529]
 
 	void UpdateBoneFollowerState(); // size[204]

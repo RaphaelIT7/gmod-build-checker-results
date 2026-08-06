@@ -6,5 +6,5 @@ public:
 	virtual ~IFuncNavPrerequisiteAutoList(); // vtable[0]
 	virtual ~IFuncNavPrerequisiteAutoList(); // vtable[1]
 
-	IFuncNavPrerequisiteAutoList(boolparam_1); // size[141]
+	IFuncNavPrerequisiteAutoList(bool param_1); // size[141]
 };

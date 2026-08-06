@@ -13,5 +13,5 @@ public:
 	void _GLOBAL__sub_I_GetServerClass(); // size[112]
 	void GetBaseMap(); // size[10]
 	CPlasma(); // size[95]
-	void EnableSmoke(intparam_1); // size[89]
+	void EnableSmoke(int param_1); // size[89]
 };

@@ -12,6 +12,6 @@ public:
 	virtual void EndTouch(CBaseEntity *param_1) override; // vtable[103]
 
 	void GetBaseMap(); // size[10]
-	void Trigger(CBaseEntity *param_1, boolparam_2); // size[63]
+	void Trigger(CBaseEntity *param_1, bool param_2); // size[63]
 	void TimeoutThink(); // size[10]
 };

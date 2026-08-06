@@ -12,5 +12,5 @@ public:
 	void add_active_value(IVP_U_Active_Value *param_1); // size[104]
 	void remove_active_value(IVP_U_Active_Value *param_1); // size[85]
 	void find_active_value(IVP_U_Active_Value *param_1); // size[82]
-	IVP_Active_Value_Hash(intparam_1); // size[33]
+	IVP_Active_Value_Hash(int param_1); // size[33]
 };

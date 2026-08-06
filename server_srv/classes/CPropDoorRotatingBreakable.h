@@ -20,7 +20,7 @@ public:
 
 	void GetBaseMap(); // size[10]
 	void operator()(CNavArea *param_1); // size[49]
-	void UpdateBlocked(boolparam_1); // size[1165]
+	void UpdateBlocked(bool param_1); // size[1165]
 	void BlockNav(); // size[74]
 	void InputSetUnbreakable(inputdata_t *param_1); // size[31]
 	void UnblockNav(); // size[74]

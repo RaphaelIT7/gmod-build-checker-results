@@ -18,11 +18,11 @@ public:
 	virtual void PreSave(CSaveRestoreData *param_1); // vtable[19]
 	virtual void PreRestore(); // vtable[20]
 	virtual void Save(ISave *param_1); // vtable[21]
-	virtual void Restore(IRestore *param_1, boolparam_2); // vtable[22]
+	virtual void Restore(IRestore *param_1, bool param_2); // vtable[22]
 
 	void GetBlockName(); // size[7]
 	void PreSave(CSaveRestoreData *param_1); // size[10]
 	void PreRestore(); // size[10]
 	void Save(ISave *param_1); // size[10]
-	void Restore(IRestore *param_1, boolparam_2); // size[10]
+	void Restore(IRestore *param_1, bool param_2); // size[10]
 };

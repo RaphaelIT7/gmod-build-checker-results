@@ -9,7 +9,7 @@ public:
 	virtual void UpdateTransmitState() override; // vtable[20]
 	virtual void Spawn() override; // vtable[23]
 	virtual void KeyValue(char *param_1, char *param_2) override; // vtable[30]
-	virtual void Use(CBaseEntity *param_1, CBaseEntity *param_2, USE_TYPEparam_3, floatparam_4) override; // vtable[100]
+	virtual void Use(CBaseEntity *param_1, CBaseEntity *param_2, USE_TYPE param_3, float param_4) override; // vtable[100]
 	virtual void UpdateOnRemove() override; // vtable[108]
 
 	void InputSetTrackSpeed(inputdata_t *param_1); // size[33]
@@ -22,7 +22,7 @@ public:
 	void Disable(); // size[726]
 	void InputDisable(inputdata_t *param_1); // size[9]
 	void InputTeleportToView(inputdata_t *param_1); // size[680]
-	void MoveViewTo(QAngleparam_1); // size[332]
+	void MoveViewTo(QAngle param_1); // size[332]
 	void ReturnToEyes(); // size[602]
 	void Move(); // size[1112]
 	void Enable(); // size[2432]

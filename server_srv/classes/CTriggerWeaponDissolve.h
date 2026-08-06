@@ -14,7 +14,7 @@ public:
 	void _GLOBAL__sub_I_m_DataMap(); // size[113]
 	void InputStopSound(inputdata_t *param_1); // size[46]
 	void GetBaseMap(); // size[10]
-	void CreateBeam(Vector *param_1, CBaseEntity *param_2, floatparam_3); // size[26]
+	void CreateBeam(Vector *param_1, CBaseEntity *param_2, float param_3); // size[26]
 	void GetConduitPoint(CBaseEntity *param_1); // size[429]
 	void DissolveThink(); // size[810]
 	void AddWeapon(CBaseCombatWeapon *param_1); // size[437]

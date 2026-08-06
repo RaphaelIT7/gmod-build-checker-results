@@ -14,6 +14,6 @@ public:
 	void GetBaseMap(); // size[10]
 	ParticleSmokeGrenade(); // size[99]
 	void FillVolume(); // size[160]
-	void SetFadeTime(floatparam_1, floatparam_2); // size[51]
-	void SetRelativeFadeTime(floatparam_1, floatparam_2); // size[58]
+	void SetFadeTime(float param_1, float param_2); // size[51]
+	void SetRelativeFadeTime(float param_1, float param_2); // size[58]
 };

@@ -16,7 +16,7 @@ public:
 	void GetBaseMap(); // size[10]
 	void FixUpImpactPoint(Vector *param_1, Vector *param_2, Vector *param_3, Vector *param_4); // size[319]
 	void Impact(); // size[375]
-	void Create(Vector *param_1, Vector *param_2, Vector *param_3, floatparam_4, floatparam_5, string_tparam_6); // size[379]
+	void Create(Vector *param_1, Vector *param_2, Vector *param_3, float param_4, float param_5, string_t param_6); // size[379]
 	void Warn(); // size[79]
 	void FlyThink(); // size[52]
 };

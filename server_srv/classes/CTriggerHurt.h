@@ -12,8 +12,8 @@ public:
 	virtual void EndTouch(CBaseEntity *param_1) override; // vtable[103]
 
 	void GetBaseMap(); // size[10]
-	void HurtEntity(CBaseEntity *param_1, floatparam_2); // size[6]
-	void HurtAllTouchers(floatparam_1); // size[470]
+	void HurtEntity(CBaseEntity *param_1, float param_2); // size[6]
+	void HurtAllTouchers(float param_1); // size[470]
 	void RadiationThink(); // size[270]
 	void HurtThink(); // size[119]
 };

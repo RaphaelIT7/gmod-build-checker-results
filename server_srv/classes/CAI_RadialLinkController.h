@@ -10,6 +10,6 @@ public:
 	virtual void Activate() override; // vtable[34]
 
 	void GetBaseMap(); // size[10]
-	void ModifyNodeLinks(boolparam_1); // size[775]
+	void ModifyNodeLinks(bool param_1); // size[775]
 	void PollMotionThink(); // size[50]
 };

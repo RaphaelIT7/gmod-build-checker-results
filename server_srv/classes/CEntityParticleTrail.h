@@ -8,10 +8,10 @@ public:
 	virtual void GetServerClass() override; // vtable[10]
 	virtual void YouForgotToImplementOrDeclareServerClass() override; // vtable[11]
 	virtual void GetDataDescMap() override; // vtable[12]
-	virtual void SetTransmit(CCheckTransmitInfo *param_1, boolparam_2) override; // vtable[21]
+	virtual void SetTransmit(CCheckTransmitInfo *param_1, bool param_2) override; // vtable[21]
 	virtual void Spawn() override; // vtable[23]
 	virtual void UpdateOnRemove() override; // vtable[108]
-	virtual void NotifySystemEvent(CBaseEntity *param_1, notify_system_event_tparam_2, notify_system_event_params_t *param_3) override; // vtable[112]
+	virtual void NotifySystemEvent(CBaseEntity *param_1, notify_system_event_t param_2, notify_system_event_params_t *param_3) override; // vtable[112]
 
 	void _GLOBAL__sub_I_m_DataMap(); // size[112]
 	void GetBaseMap(); // size[10]

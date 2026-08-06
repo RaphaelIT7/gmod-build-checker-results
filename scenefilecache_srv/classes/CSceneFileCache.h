@@ -9,13 +9,13 @@ public:
 	virtual void Init(); // vtable[3]
 	virtual void Shutdown(); // vtable[4]
 	virtual void GetSceneBufferSize(char *param_1); // vtable[5]
-	virtual void GetSceneData(char *param_1, uchar *param_2, uintparam_3); // vtable[6]
+	virtual void GetSceneData(char *param_1, uchar *param_2, uint param_3); // vtable[6]
 	virtual void GetSceneCachedData(char *param_1, SceneCachedData_t *param_2); // vtable[7]
-	virtual void GetSceneCachedSound(intparam_1, intparam_2); // vtable[8]
-	virtual void GetSceneString(shortparam_1); // vtable[9]
+	virtual void GetSceneCachedSound(int param_1, int param_2); // vtable[8]
+	virtual void GetSceneString(short param_1); // vtable[9]
 	virtual void Reload(); // vtable[10]
 
 	void FindSceneInImage(char *param_1); // size[349]
-	void GetSceneDataFromImage(char *param_1, intparam_2, uchar *param_3, uint *param_4); // size[357]
+	void GetSceneDataFromImage(char *param_1, int param_2, uchar *param_3, uint *param_4); // size[357]
 	~CSceneFileCache(); // size[24]
 };

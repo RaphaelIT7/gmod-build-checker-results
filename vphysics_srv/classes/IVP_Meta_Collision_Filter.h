@@ -10,5 +10,5 @@ public:
 
 	void add_collision_filter(IVP_Collision_Filter *param_1); // size[60]
 	void remove_collision_filter(IVP_Collision_Filter *param_1); // size[134]
-	IVP_Meta_Collision_Filter(IVP_BOOLparam_1); // size[34]
+	IVP_Meta_Collision_Filter(IVP_BOOL param_1); // size[34]
 };

@@ -11,5 +11,5 @@ public:
 	void add(IVP_CFEP_Objectpair *param_1); // size[77]
 	void remove(IVP_CFEP_Objectpair *param_1); // size[74]
 	void find(IVP_CFEP_Objectpair *param_1); // size[74]
-	IVP_CFEP_Hash(intparam_1); // size[33]
+	IVP_CFEP_Hash(int param_1); // size[33]
 };

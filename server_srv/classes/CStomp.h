@@ -11,5 +11,5 @@ public:
 	virtual void Think() override; // vtable[48]
 
 	void GetBaseMap(); // size[10]
-	void StompCreate(Vector *param_1, Vector *param_2, floatparam_3, CBaseEntity *param_4); // size[58]
+	void StompCreate(Vector *param_1, Vector *param_2, float param_3, CBaseEntity *param_4); // size[58]
 };

@@ -18,11 +18,11 @@ public:
 	void InputSetTargetEnt(inputdata_t *param_1); // size[75]
 	void SetTargetEntity(CBaseEntity *param_1); // size[49]
 	void ActivateAutomatic(CBaseEntity *param_1, CBaseEntity *param_2); // size[28]
-	void StartCharge(floatparam_1); // size[82]
+	void StartCharge(float param_1); // size[82]
 	void InputStartCharge(inputdata_t *param_1); // size[37]
 	void StartDischarge(); // size[91]
 	void InputStartDischarge(inputdata_t *param_1); // size[9]
-	void Stop(floatparam_1); // size[88]
+	void Stop(float param_1); // size[88]
 	void AutomaticThink(); // size[148]
 	void InputStop(inputdata_t *param_1); // size[37]
 };

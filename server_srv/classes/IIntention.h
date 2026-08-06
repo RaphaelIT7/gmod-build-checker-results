@@ -11,7 +11,7 @@ public:
 	virtual void OnLandOnGround(CBaseEntity *param_1) override; // vtable[5]
 	virtual void OnContact(CBaseEntity *param_1, CGameTrace *param_2) override; // vtable[6]
 	virtual void OnMoveToSuccess(Path *param_1) override; // vtable[7]
-	virtual void OnMoveToFailure(Path *param_1, MoveToFailureTypeparam_2) override; // vtable[8]
+	virtual void OnMoveToFailure(Path *param_1, MoveToFailureType param_2) override; // vtable[8]
 	virtual void OnStuck() override; // vtable[9]
 	virtual void Reset() override; // vtable[43]
 	virtual void Update() override; // vtable[44]

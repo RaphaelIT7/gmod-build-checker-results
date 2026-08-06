@@ -3,7 +3,7 @@
 class CFourWheelServerVehicle : public CBaseServerVehicle
 {
 public:
-	virtual void GetVehicleViewPosition(intparam_1, Vector *param_2, QAngle *param_3, float *param_4) override; // vtable[2]
+	virtual void GetVehicleViewPosition(int param_1, Vector *param_2, QAngle *param_3, float *param_4) override; // vtable[2]
 	virtual void IsVehicleUpright() override; // vtable[13]
 	virtual void IsPassengerEntering() override; // vtable[14]
 	virtual void IsPassengerExiting() override; // vtable[15]
@@ -24,5 +24,5 @@ public:
 	void GetVehicleOperatingParams(); // size[44]
 	void GetVehicleControlParams(); // size[35]
 	void GetFourWheelVehiclePhysics(); // size[32]
-	void GetWheelContactPoint(intparam_1, Vector *param_2); // size[82]
+	void GetWheelContactPoint(int param_1, Vector *param_2); // size[82]
 };

@@ -9,7 +9,7 @@ public:
 	virtual void Activate() override; // vtable[34]
 
 	void GetBaseMap(); // size[1]
-	void RemoveScene(intparam_1); // size[97]
+	void RemoveScene(int param_1); // size[97]
 	void ShutdownList(); // size[103]
 	void InputShutdown(inputdata_t *param_1); // size[9]
 	void SceneStarted(CBaseEntity *param_1); // size[28]

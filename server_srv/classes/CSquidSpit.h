@@ -11,5 +11,5 @@ public:
 	virtual void Touch(CBaseEntity *param_1) override; // vtable[102]
 
 	void GetBaseMap(); // size[10]
-	void Shoot(CBaseEntity *param_1, Vectorparam_2, Vectorparam_3); // size[122]
+	void Shoot(CBaseEntity *param_1, Vector param_2, Vector param_3); // size[122]
 };

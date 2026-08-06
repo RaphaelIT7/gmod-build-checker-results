@@ -10,7 +10,7 @@ public:
 	virtual void Precache() override; // vtable[24]
 	virtual void Activate() override; // vtable[34]
 	virtual void OnRestore() override; // vtable[45]
-	virtual void Use(CBaseEntity *param_1, CBaseEntity *param_2, USE_TYPEparam_3, floatparam_4) override; // vtable[100]
+	virtual void Use(CBaseEntity *param_1, CBaseEntity *param_2, USE_TYPE param_3, float param_4) override; // vtable[100]
 	virtual void Blocked(CBaseEntity *param_1) override; // vtable[105]
 
 	void GetBaseMap(); // size[10]

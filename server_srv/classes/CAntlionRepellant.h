@@ -11,7 +11,7 @@ public:
 
 	void GetBaseMap(); // size[10]
 	void GetRadius(); // size[39]
-	void IsPositionRepellantFree(Vectorparam_1); // size[224]
+	void IsPositionRepellantFree(Vector param_1); // size[224]
 	void InputDisable(inputdata_t *param_1); // size[57]
 	void InputEnable(inputdata_t *param_1); // size[106]
 };

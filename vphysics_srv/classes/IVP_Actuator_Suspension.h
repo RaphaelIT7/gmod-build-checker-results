@@ -9,6 +9,6 @@ public:
 	virtual ~IVP_Actuator_Suspension() override; // vtable[8]
 
 	IVP_Actuator_Suspension(IVP_Environment *param_1, IVP_Template_Suspension *param_2); // size[73]
-	void set_spring_damp_compression(floatparam_1); // size[44]
-	void set_max_body_force(floatparam_1); // size[36]
+	void set_spring_damp_compression(float param_1); // size[44]
+	void set_max_body_force(float param_1); // size[36]
 };

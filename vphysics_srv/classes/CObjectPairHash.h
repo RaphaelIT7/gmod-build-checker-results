@@ -11,7 +11,7 @@ public:
 	virtual void RemoveAllPairsForObject(void *param_1); // vtable[5]
 	virtual void IsObjectInHash(void *param_1); // vtable[6]
 	virtual void GetPairCountForObject(void *param_1); // vtable[7]
-	virtual void GetPairListForObject(void *param_1, intparam_2, void * *param_3); // vtable[8]
+	virtual void GetPairListForObject(void *param_1, int param_2, void * *param_3); // vtable[8]
 
 	void AddToObjectList(void *param_1, void *param_2); // size[564]
 };

@@ -26,5 +26,5 @@ public:
 	void _GLOBAL__sub_I_GetServerClass(); // size[112]
 	CWeaponGlock(); // size[44]
 	void DryFire(); // size[127]
-	void GlockFire(floatparam_1, floatparam_2, boolparam_3); // size[212]
+	void GlockFire(float param_1, float param_2, bool param_3); // size[212]
 };

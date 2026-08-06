@@ -18,8 +18,8 @@ public:
 	void OnEntityDeleted(CBaseEntity *param_1); // size[10]
 	void OnEntityCreated(CBaseEntity *param_1); // size[13]
 	void GetBaseMap(); // size[10]
-	void PopulateSubjectList(boolparam_1); // size[288]
-	void Enable(boolparam_1); // size[30]
+	void PopulateSubjectList(bool param_1); // size[288]
+	void Enable(bool param_1); // size[30]
 	void InputEnable(inputdata_t *param_1); // size[26]
 	void InputDisable(inputdata_t *param_1); // size[26]
 };

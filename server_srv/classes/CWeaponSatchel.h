@@ -19,7 +19,7 @@ public:
 	virtual void PrimaryAttack() override; // vtable[332]
 	virtual void SecondaryAttack() override; // vtable[333]
 	virtual void CanBePickedUpByNPCs() override; // vtable[359]
-	virtual void GetViewModel(intparam_1) override; // vtable[361]
+	virtual void GetViewModel(int param_1) override; // vtable[361]
 	virtual void GetWorldModel() override; // vtable[362]
 	virtual void GetHoldType() override; // vtable[380]
 	virtual void ActivityList() override; // vtable[388]

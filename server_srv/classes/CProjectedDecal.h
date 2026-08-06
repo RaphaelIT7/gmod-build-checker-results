@@ -12,7 +12,7 @@ public:
 
 	void GetBaseMap(); // size[10]
 	void ProjectDecal(CRecipientFilter *param_1); // size[119]
-	void TriggerDecal(CBaseEntity *param_1, CBaseEntity *param_2, USE_TYPEparam_3, floatparam_4); // size[22]
+	void TriggerDecal(CBaseEntity *param_1, CBaseEntity *param_2, USE_TYPE param_3, float param_4); // size[22]
 	void InputActivate(inputdata_t *param_1); // size[51]
 	void StaticDecal(); // size[22]
 };

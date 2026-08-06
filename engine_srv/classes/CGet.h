@@ -34,7 +34,7 @@ public:
 	virtual void UpdateRichPresense(char *param_1); // vtable[28]
 	virtual void ResetRichPresense(); // vtable[29]
 	virtual void BaseDir(); // vtable[30]
-	virtual void FilterText(char *param_1, char *param_2, intparam_3, ETextFilteringContextparam_4, CSteamIDparam_5); // vtable[31]
+	virtual void FilterText(char *param_1, char *param_2, int param_3, ETextFilteringContext param_4, CSteamID param_5); // vtable[31]
 
 	~CGet(); // size[246]
 };

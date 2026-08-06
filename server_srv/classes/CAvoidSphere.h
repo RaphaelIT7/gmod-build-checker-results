@@ -10,6 +10,6 @@ public:
 	virtual void UpdateOnRemove() override; // vtable[108]
 
 	void GetBaseMap(); // size[10]
-	void Init(floatparam_1); // size[21]
-	void ComputeAvoidanceForces(CBaseEntity *param_1, floatparam_2, floatparam_3, Vector *param_4); // size[44]
+	void Init(float param_1); // size[21]
+	void ComputeAvoidanceForces(CBaseEntity *param_1, float param_2, float param_3, Vector *param_4); // size[44]
 };

@@ -10,5 +10,5 @@ public:
 	virtual void Finished() override; // vtable[4]
 
 	_GLOBAL__sub_I_UpdateTotals(); // size[91]
-	UpdateTotals(intparam_1, intparam_2); // size[26]
+	UpdateTotals(int param_1, int param_2); // size[26]
 };

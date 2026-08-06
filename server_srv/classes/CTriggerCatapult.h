@@ -14,7 +14,7 @@ public:
 
 	void _GLOBAL__sub_I_s_szPlayerPassesTriggerFiltersThinkContext(); // size[113]
 	void CalculateLaunchVector(CBaseEntity *param_1, CBaseEntity *param_2); // size[380]
-	void CalculateLaunchVectorPreserve(Vectorparam_1, CBaseEntity *param_2, CBaseEntity *param_3, boolparam_4); // size[1430]
+	void CalculateLaunchVectorPreserve(Vector param_1, CBaseEntity *param_2, CBaseEntity *param_3, bool param_4); // size[1430]
 	void OnLaunchedVictim(CBaseEntity *param_1); // size[44]
 	void LaunchByTarget(CBaseEntity *param_1, CBaseEntity *param_2); // size[578]
 	void LaunchByDirection(CBaseEntity *param_1); // size[45]

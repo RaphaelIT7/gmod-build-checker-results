@@ -7,8 +7,8 @@ public:
 	virtual ~CRotorWashShooter() override; // vtable[1]
 	virtual void GetDataDescMap() override; // vtable[12]
 	virtual void Spawn() override; // vtable[23]
-	virtual void DoWashPush(floatparam_1, Vector *param_2); // vtable[247]
+	virtual void DoWashPush(float param_1, Vector *param_2); // vtable[247]
 
-	void DoWashPush(floatparam_1, Vector *param_2); // size[13]
+	void DoWashPush(float param_1, Vector *param_2); // size[13]
 	void GetBaseMap(); // size[10]
 };

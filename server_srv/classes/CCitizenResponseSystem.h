@@ -11,6 +11,6 @@ public:
 
 	void ResponseThink(); // size[459]
 	void GetBaseMap(); // size[10]
-	void AddResponseTrigger(citizenresponses_tparam_1); // size[71]
+	void AddResponseTrigger(citizenresponses_t param_1); // size[71]
 	void InputResponseVitalNPC(inputdata_t *param_1); // size[16]
 };

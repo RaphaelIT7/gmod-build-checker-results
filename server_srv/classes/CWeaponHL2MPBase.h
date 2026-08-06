@@ -13,7 +13,7 @@ public:
 	virtual void FireBullets(FireBulletsInfo_t *param_1) override; // vtable[115]
 	virtual void IsPredicted() override; // vtable[201]
 	virtual void Reload() override; // vtable[329]
-	virtual void WeaponSound(WeaponSound_tparam_1, doubleparam_2) override; // vtable[347]
+	virtual void WeaponSound(WeaponSound_t param_1, double param_2) override; // vtable[347]
 	virtual void FallInit() override; // vtable[393]
 	virtual void Materialize() override; // vtable[395]
 	virtual void GetPlayerDamage() override; // vtable[415]

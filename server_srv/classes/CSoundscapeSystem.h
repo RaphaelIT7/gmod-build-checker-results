@@ -16,10 +16,10 @@ public:
 	void LoadManifestFile(char *param_1); // size[142]
 	void FlushSoundscapes(); // size[25]
 	void GetSoundscapeIndex(char *param_1); // size[18]
-	void IsValidIndex(intparam_1); // size[23]
+	void IsValidIndex(int param_1); // size[23]
 	void RemoveSoundscapeEntity(CEnvSoundscape *param_1); // size[115]
-	void AddSoundscapeSounds(KeyValues *param_1, intparam_2); // size[5]
-	void PrecacheSounds(intparam_1); // size[5]
+	void AddSoundscapeSounds(KeyValues *param_1, int param_2); // size[5]
+	void PrecacheSounds(int param_1); // size[5]
 	void AddSoundscapeEntity(CEnvSoundscape *param_1); // size[181]
 	CSoundscapeSystem(char *param_1); // size[190]
 };

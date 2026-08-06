@@ -13,10 +13,10 @@ public:
 	virtual void StartTask(Task_t *param_1) override; // vtable[410]
 	virtual void RunTask(Task_t *param_1) override; // vtable[411]
 	virtual void GetSoundInterests() override; // vtable[467]
-	virtual void PlayScriptedSentence(char *param_1, floatparam_2, floatparam_3, soundlevel_tparam_4, boolparam_5, CBaseEntity *param_6) override; // vtable[504]
+	virtual void PlayScriptedSentence(char *param_1, float param_2, float param_3, soundlevel_t param_4, bool param_5, CBaseEntity *param_6) override; // vtable[504]
 	virtual void MaxYawSpeed() override; // vtable[529]
 
 	void _GLOBAL__sub_I_IsInC5A1(); // size[113]
 	void IsInC5A1(); // size[55]
-	void TraceAttack(CBaseEntity *param_1, floatparam_2, Vector *param_3, CGameTrace *param_4, intparam_5); // size[36]
+	void TraceAttack(CBaseEntity *param_1, float param_2, Vector *param_3, CGameTrace *param_4, int param_5); // size[36]
 };

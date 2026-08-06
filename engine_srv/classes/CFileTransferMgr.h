@@ -9,11 +9,11 @@ public:
 
 	_GLOBAL__sub_I_CFileTransferMgr(); // size[72]
 	CFileTransferMgr(); // size[14]
-	void StartSending(INetChannel *param_1, void *param_2, intparam_3, char *param_4, intparam_5, intparam_6); // size[7]
+	void StartSending(INetChannel *param_1, void *param_2, int param_3, char *param_4, int param_5, int param_6); // size[7]
 	void HandleClientDisconnect(INetChannel *param_1); // size[5]
-	void HandleReceivedData(INetChannel *param_1, void *param_2, intparam_3); // size[5]
+	void HandleReceivedData(INetChannel *param_1, void *param_2, int param_3); // size[5]
 	void FirstIncoming(); // size[7]
-	void NextIncoming(intparam_1); // size[7]
+	void NextIncoming(int param_1); // size[7]
 	void InvalidIncoming(); // size[7]
-	void GetIncomingUserData(intparam_1, void * *param_2, int *param_3); // size[5]
+	void GetIncomingUserData(int param_1, void * *param_2, int *param_3); // size[5]
 };

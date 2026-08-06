@@ -7,5 +7,5 @@ public:
 	virtual ~CThrownGrenade() override; // vtable[1]
 	virtual void Spawn() override; // vtable[23]
 
-	void Thrown(Vectorparam_1, Vectorparam_2, floatparam_3); // size[40]
+	void Thrown(Vector param_1, Vector param_2, float param_3); // size[40]
 };

@@ -9,5 +9,5 @@ public:
 	virtual void IsMetaAchievement() override; // vtable[21]
 	virtual void OnSteamUserStatsStored() override; // vtable[27]
 
-	void SetAchievementsRequired(intparam_1, intparam_2, intparam_3); // size[29]
+	void SetAchievementsRequired(int param_1, int param_2, int param_3); // size[29]
 };

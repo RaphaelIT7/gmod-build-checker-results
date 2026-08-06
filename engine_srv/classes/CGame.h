@@ -17,12 +17,12 @@ public:
 	virtual void GetMainDeviceWindow(); // vtable[11]
 	virtual void GetMainWindowAddress(); // vtable[12]
 	virtual void GetDesktopInfo(int *param_1, int *param_2, int *param_3); // vtable[13]
-	virtual void SetWindowXY(intparam_1, intparam_2); // vtable[14]
-	virtual void SetWindowSize(intparam_1, intparam_2); // vtable[15]
+	virtual void SetWindowXY(int param_1, int param_2); // vtable[14]
+	virtual void SetWindowSize(int param_1, int param_2); // vtable[15]
 	virtual void GetWindowRect(int *param_1, int *param_2, int *param_3, int *param_4); // vtable[16]
 	virtual void IsActiveApp(); // vtable[17]
 	virtual void DispatchAllStoredGameMessages() override; // vtable[18]
 
 	CGame(); // size[18]
-	void SetActiveApp(boolparam_1); // size[14]
+	void SetActiveApp(bool param_1); // size[14]
 };

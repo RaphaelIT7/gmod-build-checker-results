@@ -13,8 +13,8 @@ public:
 	virtual void KeyValue(char *param_1, char *param_2) override; // vtable[30]
 	virtual void RequiredEdictIndex() override; // vtable[46]
 	virtual void DecalTrace(CGameTrace *param_1, char *param_2) override; // vtable[78]
-	virtual void VPhysicsCollision(intparam_1, gamevcollisionevent_t *param_2) override; // vtable[165]
-	virtual void VPhysicsFriction(IPhysicsObject *param_1, floatparam_2, intparam_3, intparam_4) override; // vtable[168]
+	virtual void VPhysicsCollision(int param_1, gamevcollisionevent_t *param_2) override; // vtable[165]
+	virtual void VPhysicsFriction(IPhysicsObject *param_1, float param_2, int param_3, int param_4) override; // vtable[168]
 
 	void GetBaseMap(); // size[10]
 	CWorld(); // size[27]
@@ -22,6 +22,6 @@ public:
 	void RegisterSharedEvents(); // size[9]
 	void GetDisplayTitle(); // size[15]
 	void GetStartDark(); // size[15]
-	void SetDisplayTitle(boolparam_1); // size[17]
-	void SetStartDark(boolparam_1); // size[65]
+	void SetDisplayTitle(bool param_1); // size[17]
+	void SetStartDark(bool param_1); // size[65]
 };

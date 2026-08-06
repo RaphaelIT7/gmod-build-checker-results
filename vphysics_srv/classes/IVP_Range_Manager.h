@@ -10,5 +10,5 @@ public:
 	virtual void environment_will_be_deleted(IVP_Environment *param_1); // vtable[4]
 
 	_GLOBAL__sub_I_IVP_Range_Manager(); // size[1]
-	IVP_Range_Manager(IVP_Environment *param_1, IVP_BOOLparam_2); // size[116]
+	IVP_Range_Manager(IVP_Environment *param_1, IVP_BOOL param_2); // size[116]
 };

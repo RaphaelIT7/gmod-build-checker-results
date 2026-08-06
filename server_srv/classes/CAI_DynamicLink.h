@@ -16,7 +16,7 @@ public:
 	void ResetDynamicLinks(); // size[48]
 	void InputTurnOn(inputdata_t *param_1); // size[34]
 	void InputTurnOff(inputdata_t *param_1); // size[33]
-	void GetDynamicLink(intparam_1, intparam_2); // size[80]
+	void GetDynamicLink(int param_1, int param_2); // size[80]
 	CAI_DynamicLink(); // size[26]
 	void GenerateControllerLinks(); // size[78]
 	void InitDynamicLinks(); // size[641]

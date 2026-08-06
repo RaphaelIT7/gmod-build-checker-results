@@ -18,7 +18,7 @@ public:
 	void GetBaseMap(); // size[10]
 	CEntityDissolve(); // size[28]
 	void AttachToEntity(CBaseEntity *param_1); // size[72]
-	void Create(CBaseEntity *param_1, char *param_2, floatparam_3, intparam_4, bool *param_5); // size[239]
+	void Create(CBaseEntity *param_1, char *param_2, float param_3, int param_4, bool *param_5); // size[239]
 	void Create(CBaseEntity *param_1, CBaseEntity *param_2); // size[106]
-	void SetStartTime(floatparam_1); // size[51]
+	void SetStartTime(float param_1); // size[51]
 };

@@ -14,5 +14,5 @@ public:
 
 	void _GLOBAL__sub_I_m_DataMap(); // size[113]
 	void GetBaseMap(); // size[10]
-	void Spawn(char *param_1, Vector *param_2, Vector *param_3, edict_t *param_4, MoveType_tparam_5, MoveCollide_tparam_6, intparam_7, intparam_8, CBaseEntity *param_9); // size[90]
+	void Spawn(char *param_1, Vector *param_2, Vector *param_3, edict_t *param_4, MoveType_t param_5, MoveCollide_t param_6, int param_7, int param_8, CBaseEntity *param_9); // size[90]
 };

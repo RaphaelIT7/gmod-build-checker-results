@@ -18,7 +18,7 @@ public:
 	void RunInThread(void *param_1); // size[10]
 	void TryLock(); // size[9]
 	void WantsToClose(); // size[11]
-	void SetClosing(boolparam_1); // size[12]
+	void SetClosing(bool param_1); // size[12]
 	void Join(); // size[14]
 	void StartInThread(); // size[11]
 	void StartInThreadAndDetatch(); // size[9]

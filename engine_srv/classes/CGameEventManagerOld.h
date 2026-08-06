@@ -8,8 +8,8 @@ public:
 	virtual void LoadEventsFromFile(char *param_1); // vtable[2]
 	virtual void Reset(); // vtable[3]
 	virtual void GetEvent(char *param_1); // vtable[4]
-	virtual void AddListener(IGameEventListener *param_1, char *param_2, boolparam_3); // vtable[5]
-	virtual void AddListener(IGameEventListener *param_1, boolparam_2); // vtable[6]
+	virtual void AddListener(IGameEventListener *param_1, char *param_2, bool param_3); // vtable[5]
+	virtual void AddListener(IGameEventListener *param_1, bool param_2); // vtable[6]
 	virtual void RemoveListener(IGameEventListener *param_1); // vtable[7]
 	virtual void FireEvent(KeyValues *param_1); // vtable[8]
 	virtual void FireEventServerOnly(KeyValues *param_1); // vtable[9]
@@ -18,5 +18,5 @@ public:
 	virtual void UnserializeKeyValue(bf_read *param_1) override; // vtable[12]
 
 	void _GLOBAL__sub_I_AddListener(); // size[107]
-	void FireEventIntern(KeyValues *param_1, boolparam_2, boolparam_3); // size[149]
+	void FireEventIntern(KeyValues *param_1, bool param_2, bool param_3); // size[149]
 };

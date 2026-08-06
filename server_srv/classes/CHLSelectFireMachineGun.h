@@ -12,9 +12,9 @@ public:
 	virtual void PrimaryAttack() override; // vtable[332]
 	virtual void SecondaryAttack() override; // vtable[333]
 	virtual void GetFireRate() override; // vtable[341]
-	virtual void WeaponSound(WeaponSound_tparam_1, doubleparam_2) override; // vtable[347]
-	virtual void WeaponRangeAttack1Condition(floatparam_1, floatparam_2) override; // vtable[401]
-	virtual void WeaponRangeAttack2Condition(floatparam_1, floatparam_2) override; // vtable[402]
+	virtual void WeaponSound(WeaponSound_t param_1, double param_2) override; // vtable[347]
+	virtual void WeaponRangeAttack1Condition(float param_1, float param_2) override; // vtable[401]
+	virtual void WeaponRangeAttack2Condition(float param_1, float param_2) override; // vtable[402]
 	virtual void GetBurstCycleRate(); // vtable[429]
 	virtual void GetBurstSize(); // vtable[430]
 

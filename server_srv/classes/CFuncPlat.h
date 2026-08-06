@@ -18,7 +18,7 @@ public:
 	void InputToggle(inputdata_t *param_1); // size[25]
 	void InputGoUp(inputdata_t *param_1); // size[28]
 	void InputGoDown(inputdata_t *param_1); // size[29]
-	void PlatUse(CBaseEntity *param_1, CBaseEntity *param_2, USE_TYPEparam_3, floatparam_4); // size[132]
+	void PlatUse(CBaseEntity *param_1, CBaseEntity *param_2, USE_TYPE param_3, float param_4); // size[132]
 	void GetBaseMap(); // size[10]
 	void Setup(); // size[116]
 	void CallGoDown(); // size[17]

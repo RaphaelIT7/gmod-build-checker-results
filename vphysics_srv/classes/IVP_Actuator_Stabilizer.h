@@ -9,6 +9,6 @@ public:
 	virtual ~IVP_Actuator_Stabilizer(); // vtable[8]
 	virtual void anchor_will_be_deleted_event(IVP_Anchor *param_1); // vtable[9]
 
-	void set_stabi_constant(doubleparam_1); // size[55]
+	void set_stabi_constant(double param_1); // size[55]
 	IVP_Actuator_Stabilizer(IVP_Environment *param_1, IVP_Template_Stabilizer *param_2); // size[52]
 };

@@ -10,7 +10,7 @@ public:
 	virtual void Spawn() override; // vtable[23]
 	virtual void Precache() override; // vtable[24]
 	virtual void Activate() override; // vtable[34]
-	virtual void OnEntityEvent(EntityEvent_tparam_1, void *param_2) override; // vtable[94]
+	virtual void OnEntityEvent(EntityEvent_t param_1, void *param_2) override; // vtable[94]
 	virtual void UpdateOnRemove() override; // vtable[108]
 
 	void _GLOBAL__sub_I_m_DataMap(); // size[113]

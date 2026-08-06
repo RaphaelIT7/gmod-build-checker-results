@@ -23,6 +23,6 @@ public:
 	void TraceAttack(CTakeDamageInfo *param_1, Vector *param_2, CGameTrace *param_3); // size[542]
 	void HasDead(); // size[395]
 	void HoverThink(); // size[172]
-	void MakeGrunt(Vectorparam_1); // size[59]
+	void MakeGrunt(Vector param_1); // size[59]
 	void DeployThink(); // size[204]
 };

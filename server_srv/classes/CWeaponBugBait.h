@@ -32,5 +32,5 @@ public:
 	void GetBaseMap(); // size[10]
 	CWeaponBugBait(); // size[54]
 	void ThrowGrenade(CBasePlayer *param_1); // size[193]
-	void SetSporeEmitterState(boolparam_1); // size[17]
+	void SetSporeEmitterState(bool param_1); // size[17]
 };

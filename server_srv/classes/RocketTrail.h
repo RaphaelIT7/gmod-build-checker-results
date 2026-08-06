@@ -11,7 +11,7 @@ public:
 
 	void GetBaseMap(); // size[10]
 	RocketTrail(); // size[255]
-	void SetEmit(boolparam_1); // size[81]
+	void SetEmit(bool param_1); // size[81]
 	void CreateRocketTrail(); // size[77]
 	void FollowEntity(CBaseEntity *param_1, char *param_2); // size[134]
 };

@@ -11,7 +11,7 @@ public:
 	virtual void Blocked(CBaseEntity *param_1) override; // vtable[105]
 
 	void InputActivate(inputdata_t *param_1); // size[50]
-	void PendulumUse(CBaseEntity *param_1, CBaseEntity *param_2, USE_TYPEparam_3, floatparam_4); // size[313]
+	void PendulumUse(CBaseEntity *param_1, CBaseEntity *param_2, USE_TYPE param_3, float param_4); // size[313]
 	void Stop(); // size[90]
 	void Swing(); // size[354]
 	void RopeTouch(CBaseEntity *param_1); // size[130]

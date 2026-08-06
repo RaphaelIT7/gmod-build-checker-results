@@ -14,7 +14,7 @@ public:
 	virtual void GetSchedulingErrorName() override; // vtable[432]
 	virtual void LoadedSchedules() override; // vtable[433]
 	virtual void DeathSound(CTakeDamageInfo *param_1) override; // vtable[507]
-	virtual void SquadSlotName(intparam_1) override; // vtable[581]
+	virtual void SquadSlotName(int param_1) override; // vtable[581]
 	virtual void ShouldLookForBetterWeapon() override; // vtable[606]
 	virtual void GetClassScheduleIdSpace() override; // vtable[640]
 	virtual void SelectModel() override; // vtable[722]

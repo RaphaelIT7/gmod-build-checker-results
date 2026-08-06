@@ -11,5 +11,5 @@ public:
 	_GLOBAL__sub_I_IVP_Ball(); // size[72]
 	IVP_Ball(IVP_Cluster *param_1, IVP_Template_Ball *param_2, IVP_Template_Real_Object *param_3, IVP_U_Quat *param_4, IVP_U_Point *param_5); // size[128]
 	void get_radius(); // size[14]
-	void set_radius(doubleparam_1); // size[5]
+	void set_radius(double param_1); // size[5]
 };

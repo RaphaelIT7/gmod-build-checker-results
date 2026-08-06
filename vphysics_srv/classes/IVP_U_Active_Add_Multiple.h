@@ -8,9 +8,9 @@ public:
 	virtual void print(); // vtable[2]
 	virtual void active_float_changed(IVP_U_Active_Float *param_1); // vtable[3]
 
-	IVP_U_Active_Add_Multiple(char *param_1, IVP_U_Active_Float *param_2, IVP_U_Active_Float *param_3, doubleparam_4); // size[17]
+	IVP_U_Active_Add_Multiple(char *param_1, IVP_U_Active_Float *param_2, IVP_U_Active_Float *param_3, double param_4); // size[17]
 	void active_float_changed(IVP_U_Active_Float *param_1); // size[120]
 	~IVP_U_Active_Add_Multiple(); // size[422]
 	~IVP_U_Active_Add_Multiple(); // size[436]
-	IVP_U_Active_Add_Multiple(char *param_1, IVP_U_Active_Float *param_2, IVP_U_Active_Float *param_3, doubleparam_4); // size[245]
+	IVP_U_Active_Add_Multiple(char *param_1, IVP_U_Active_Float *param_2, IVP_U_Active_Float *param_3, double param_4); // size[245]
 };

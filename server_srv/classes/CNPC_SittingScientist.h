@@ -9,7 +9,7 @@ public:
 	virtual void Spawn() override; // vtable[23]
 	virtual void Precache() override; // vtable[24]
 	virtual void SetAnswerQuestion(CNPCSimpleTalker *param_1) override; // vtable[731]
-	virtual void FriendNumber(intparam_1) override; // vtable[732]
+	virtual void FriendNumber(int param_1) override; // vtable[732]
 
 	void SittingThink(); // size[420]
 	void GetBaseMap(); // size[10]

@@ -11,7 +11,7 @@ public:
 	virtual void KeyValue(char *param_1, char *param_2) override; // vtable[30]
 	virtual void ObjectCaps() override; // vtable[36]
 	virtual void DrawDebugTextOverlays() override; // vtable[40]
-	virtual void Use(CBaseEntity *param_1, CBaseEntity *param_2, USE_TYPEparam_3, floatparam_4) override; // vtable[100]
+	virtual void Use(CBaseEntity *param_1, CBaseEntity *param_2, USE_TYPE param_3, float param_4) override; // vtable[100]
 	virtual void UpdateOnRemove() override; // vtable[108]
 	virtual void CreateVPhysics() override; // vtable[157]
 	virtual void StudioFrameAdvance() override; // vtable[248]

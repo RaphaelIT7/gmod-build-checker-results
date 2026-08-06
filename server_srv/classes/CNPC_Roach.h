@@ -16,9 +16,9 @@ public:
 	virtual void MaxYawSpeed() override; // vtable[529]
 
 	void _GLOBAL__sub_I_Spawn(); // size[17]
-	void Eat(floatparam_1); // size[42]
+	void Eat(float param_1); // size[42]
 	void ShouldEat(); // size[32]
-	void PickNewDest(intparam_1); // size[218]
-	void Look(intparam_1); // size[251]
-	void Move(floatparam_1); // size[630]
+	void PickNewDest(int param_1); // size[218]
+	void Look(int param_1); // size[251]
+	void Move(float param_1); // size[630]
 };

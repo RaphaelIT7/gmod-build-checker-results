@@ -14,11 +14,11 @@ public:
 
 	void GetBaseMap(); // size[10]
 	CFish(); // size[360]
-	void Initialize(CFishPool *param_1, uintparam_2); // size[154]
-	void FlockTo(CFish *param_1, floatparam_2); // size[945]
+	void Initialize(CFishPool *param_1, uint param_2); // size[154]
+	void FlockTo(CFish *param_1, float param_2); // size[945]
 	void Avoid(); // size[852]
 	void Panic(); // size[192]
-	void Update(floatparam_1); // size[180]
+	void Update(float param_1); // size[180]
 	void ResetVisible(); // size[18]
 	void AddVisible(CFish *param_1); // size[41]
 };

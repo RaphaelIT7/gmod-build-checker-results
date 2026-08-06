@@ -12,7 +12,7 @@ public:
 	virtual void ComputeWorldSpaceSurroundingBox(Vector *param_1, Vector *param_2) override; // vtable[16]
 	virtual void Spawn() override; // vtable[23]
 	virtual void VPhysicsUpdate(IPhysicsObject *param_1) override; // vtable[161]
-	virtual void SetPhysicsMode(intparam_1) override; // vtable[315]
+	virtual void SetPhysicsMode(int param_1) override; // vtable[315]
 	virtual void GetPhysicsMode() override; // vtable[316]
 	virtual void GetMultiplayerPhysicsMode(); // vtable[327]
 	virtual void GetMass(); // vtable[328]
@@ -23,5 +23,5 @@ public:
 	void GetMultiplayerPhysicsMode(); // size[10]
 	void GetMass(); // size[10]
 	void IsAsleep(); // size[10]
-	void SetPhysicsMode(intparam_1); // size[13]
+	void SetPhysicsMode(int param_1); // size[13]
 };

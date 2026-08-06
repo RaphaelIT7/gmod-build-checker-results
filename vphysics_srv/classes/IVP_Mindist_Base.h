@@ -10,7 +10,7 @@ public:
 	virtual void delegator_is_going_to_be_deleted_event(IVP_Collision_Delegator *param_1); // vtable[5]
 
 	IVP_Mindist_Base(IVP_Collision_Delegator *param_1); // size[14]
-	void get_mindist_synapse(intparam_1); // size[15]
-	void get_mindist_synapse(intparam_1); // size[15]
+	void get_mindist_synapse(int param_1); // size[15]
+	void get_mindist_synapse(int param_1); // size[15]
 	void get_length(); // size[11]
 };

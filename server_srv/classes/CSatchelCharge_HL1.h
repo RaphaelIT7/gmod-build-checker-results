@@ -10,7 +10,7 @@ public:
 	virtual void Precache() override; // vtable[24]
 	virtual void BounceSound() override; // vtable[285]
 
-	void SatchelUse(CBaseEntity *param_1, CBaseEntity *param_2, USE_TYPEparam_3, floatparam_4); // size[59]
+	void SatchelUse(CBaseEntity *param_1, CBaseEntity *param_2, USE_TYPE param_3, float param_4); // size[59]
 	void GetBaseMap(); // size[10]
 	void Deactivate(); // size[54]
 	void UpdateSlideSound(); // size[342]

@@ -21,6 +21,6 @@ public:
 	void BoltTouch(CBaseEntity *param_1); // size[2651]
 	void BoltTouch(CBaseEntity *param_1); // size[38]
 	void GetBaseMap(); // size[10]
-	void BoltCreate(Vector *param_1, QAngle *param_2, intparam_3, CBaseCombatCharacter *param_4); // size[31]
+	void BoltCreate(Vector *param_1, QAngle *param_2, int param_3, CBaseCombatCharacter *param_4); // size[31]
 	void CreateSprites(); // size[683]
 };

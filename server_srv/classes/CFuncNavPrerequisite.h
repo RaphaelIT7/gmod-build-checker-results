@@ -12,7 +12,7 @@ public:
 
 	void _GLOBAL__sub_I_m_DataMap(); // size[113]
 	void GetBaseMap(); // size[10]
-	void IsTask(TaskTypeparam_1); // size[20]
+	void IsTask(TaskType param_1); // size[20]
 	void GetTaskEntity(); // size[230]
 	CFuncNavPrerequisite(); // size[94]
 	~CFuncNavPrerequisite(); // size[13]

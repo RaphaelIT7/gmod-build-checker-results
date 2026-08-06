@@ -14,5 +14,5 @@ public:
 	void _GLOBAL__sub_I_m_DataMap(); // size[112]
 	void GetBaseMap(); // size[10]
 	CFuncSmokeVolume(); // size[9]
-	void SetDensity(floatparam_1); // size[51]
+	void SetDensity(float param_1); // size[51]
 };

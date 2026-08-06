@@ -16,9 +16,9 @@ public:
 
 	void _GLOBAL__sub_I_m_DataMap(); // size[113]
 	void GetBaseMap(); // size[10]
-	void TurnHeadToTarget(floatparam_1, Vector *param_2); // size[235]
-	void VelocityToAvoidObstacles(floatparam_1); // size[698]
-	void MoveToTarget(floatparam_1, Vector *param_2); // size[5]
-	void ProgressFlyPath(floatparam_1, CBaseEntity *param_2, uintparam_3, boolparam_4, floatparam_5); // size[175]
+	void TurnHeadToTarget(float param_1, Vector *param_2); // size[235]
+	void VelocityToAvoidObstacles(float param_1); // size[698]
+	void MoveToTarget(float param_1, Vector *param_2); // size[5]
+	void ProgressFlyPath(float param_1, CBaseEntity *param_2, uint param_3, bool param_4, float param_5); // size[175]
 	CAI_BaseFlyingBot(); // size[18]
 };

@@ -14,9 +14,9 @@ public:
 	void HasAvailableRangeAttack(); // size[21]
 	void StartShootWhileMove(); // size[335]
 	void CanAimAtEnemy(); // size[108]
-	void UpdateMoveShootActivity(boolparam_1); // size[159]
+	void UpdateMoveShootActivity(bool param_1); // size[159]
 	void RunShootWhileMove(); // size[922]
 	void EndShootWhileMove(); // size[20]
-	void SuspendMoveAndShoot(floatparam_1); // size[60]
-	void SetInitialDelay(floatparam_1); // size[18]
+	void SuspendMoveAndShoot(float param_1); // size[60]
+	void SetInitialDelay(float param_1); // size[18]
 };

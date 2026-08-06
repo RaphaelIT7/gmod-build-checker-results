@@ -9,7 +9,7 @@ public:
 	IVP_Object(IVP_Cluster *param_1, IVP_Template_Object *param_2); // size[89]
 	IVP_Object(IVP_Environment *param_1); // size[35]
 	void init(IVP_Environment *param_1); // size[29]
-	void set_type(IVP_OBJECT_TYPEparam_1); // size[14]
+	void set_type(IVP_OBJECT_TYPE param_1); // size[14]
 	void get_type(); // size[11]
 	void get_name(); // size[11]
 	void get_environment(); // size[11]

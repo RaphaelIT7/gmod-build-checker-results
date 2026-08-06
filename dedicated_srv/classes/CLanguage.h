@@ -3,10 +3,10 @@
 class CLanguage : public IGModLanguage
 {
 public:
-	virtual void ChangeLanguage(char *param_1, boolparam_2); // vtable[0]
+	virtual void ChangeLanguage(char *param_1, bool param_2); // vtable[0]
 	virtual void ChangeLanguage_Steam(char *param_1); // vtable[1]
 	virtual void ReloadLanguage(); // vtable[2]
-	virtual void GetString(char *param_1, wchar_t *param_2, uintparam_3); // vtable[3]
+	virtual void GetString(char *param_1, wchar_t *param_2, uint param_3); // vtable[3]
 	virtual void UpdateSourceEngineLanguage(); // vtable[4]
 
 	void TellLuaLanguageChanged(char *param_1); // size[374]

@@ -15,8 +15,8 @@ public:
 	~IVP_Actuator_Extra(); // size[37]
 	void get_force(); // size[17]
 	void get_float_cam_props(double *param_1, double *param_2, double *param_3, double *param_4); // size[76]
-	void do_puck_force(doubleparam_1); // size[304]
+	void do_puck_force(double param_1); // size[304]
 	void calc_float_cam_matrix(IVP_U_Matrix *param_1); // size[181]
-	void do_float_cam(doubleparam_1); // size[581]
+	void do_float_cam(double param_1); // size[581]
 	IVP_Actuator_Extra(IVP_Environment *param_1, IVP_Template_Extra *param_2); // size[442]
 };

@@ -11,7 +11,7 @@ public:
 	virtual void Classify() override; // vtable[55]
 	virtual void Event_Killed(CTakeDamageInfo *param_1) override; // vtable[68]
 	virtual void GetDamage() override; // vtable[131]
-	virtual void SetDamage(floatparam_1) override; // vtable[132]
+	virtual void SetDamage(float param_1) override; // vtable[132]
 	virtual void PhysicsSolidMaskForEntity() override; // vtable[174]
 	virtual void ResolveFlyCollisionCustom(CGameTrace *param_1, Vector *param_2) override; // vtable[175]
 	virtual void ShouldGib(CTakeDamageInfo *param_1) override; // vtable[352]

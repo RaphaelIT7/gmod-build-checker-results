@@ -9,7 +9,7 @@ public:
 	virtual void Spawn() override; // vtable[23]
 	virtual void Activate() override; // vtable[34]
 	virtual void UpdateOnRemove() override; // vtable[108]
-	virtual void FVisible(CBaseEntity *param_1, intparam_2, CBaseEntity * *param_3) override; // vtable[144]
+	virtual void FVisible(CBaseEntity *param_1, int param_2, CBaseEntity * *param_3) override; // vtable[144]
 	virtual void GatherConditions() override; // vtable[402]
 	virtual void IsValidEnemy(CBaseEntity *param_1) override; // vtable[475]
 

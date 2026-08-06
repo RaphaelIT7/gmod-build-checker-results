@@ -4,7 +4,7 @@ class CDecalEmitterSystem : public IDecalEmitterSystem, public CAutoGameSystem
 {
 public:
 	virtual void GetDecalIndexForName(char *param_1) override; // vtable[0]
-	virtual void TranslateDecalForGameMaterial(char *param_1, ucharparam_2) override; // vtable[1]
+	virtual void TranslateDecalForGameMaterial(char *param_1, uchar param_2) override; // vtable[1]
 	virtual void AddDecal(char *param_1, char *param_2) override; // vtable[2]
 	virtual void AddDecalEx(char *param_1, char * *param_2) override; // vtable[3]
 	virtual void GetDecalMaterial(char *param_1) override; // vtable[4]
@@ -16,8 +16,8 @@ public:
 	virtual ~CDecalEmitterSystem() override; // vtable[10]
 
 	void LevelInitPreEntity(); // size[10]
-	void ImpactDecalForGameMaterial(intparam_1); // size[227]
-	void GetDecalMaterialName(intparam_1); // size[37]
+	void ImpactDecalForGameMaterial(int param_1); // size[227]
+	void GetDecalMaterialName(int param_1); // size[37]
 	void DoModelMaterialPrecache(DecalListEntry *param_1); // size[5]
 	void Clear(); // size[75]
 	void Shutdown(); // size[7]

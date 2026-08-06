@@ -9,7 +9,7 @@ public:
 
 	_GLOBAL__sub_I_CModelSoundsCache(); // size[113]
 	CModelSoundsCache(); // size[49]
-	void GetSoundName(intparam_1); // size[37]
+	void GetSoundName(int param_1); // size[37]
 	void PrecacheSoundList(); // size[71]
 	void FindOrAddScriptSound(CUtlVector *param_1, char *param_2); // size[114]
 	void BuildAnimationEventSoundList(CStudioHdr *param_1, CUtlVector *param_2); // size[454]

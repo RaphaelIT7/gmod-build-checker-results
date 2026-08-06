@@ -8,7 +8,7 @@ public:
 	virtual ~CBaseTempEntity(); // vtable[2]
 	virtual ~CBaseTempEntity(); // vtable[3]
 	virtual void Test(Vector *param_1, QAngle *param_2); // vtable[4]
-	virtual void Create(IRecipientFilter *param_1, floatparam_2); // vtable[5]
+	virtual void Create(IRecipientFilter *param_1, float param_2); // vtable[5]
 	virtual void Precache(); // vtable[6]
 
 	void _GLOBAL__sub_I_GetServerClass(); // size[112]

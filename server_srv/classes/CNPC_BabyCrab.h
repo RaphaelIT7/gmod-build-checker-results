@@ -9,7 +9,7 @@ public:
 	virtual void Precache() override; // vtable[24]
 	virtual void PhysicsSolidMaskForEntity() override; // vtable[174]
 	virtual void MaxYawSpeed() override; // vtable[529]
-	virtual void RangeAttack1Conditions(floatparam_1, floatparam_2) override; // vtable[595]
+	virtual void RangeAttack1Conditions(float param_1, float param_2) override; // vtable[595]
 	virtual void GetVoicePitch() override; // vtable[652]
 	virtual void GetSoundVolume() override; // vtable[653]
 

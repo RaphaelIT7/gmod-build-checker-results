@@ -18,7 +18,7 @@ public:
 	virtual void FireEvent(); // vtable[12]
 
 	void _GLOBAL__sub_I_m_DataMap(); // size[113]
-	void NetworkStateChanged(ushortparam_1); // size[68]
+	void NetworkStateChanged(ushort param_1); // size[68]
 	void FireEvent(); // size[7]
 	void GetBaseMap(); // size[7]
 	CServerNetworkProperty(); // size[105]
@@ -29,7 +29,7 @@ public:
 	void MarkForDeletion(); // size[18]
 	void IsMarkedForDeletion(); // size[20]
 	void RecomputePVSInformation(); // size[65]
-	void IsInPVS(edict_t *param_1, void *param_2, intparam_3); // size[144]
+	void IsInPVS(edict_t *param_1, void *param_2, int param_3); // size[144]
 	void IsInPVS(CCheckTransmitInfo *param_1); // size[475]
-	void SetUpdateInterval(floatparam_1); // size[51]
+	void SetUpdateInterval(float param_1); // size[51]
 };

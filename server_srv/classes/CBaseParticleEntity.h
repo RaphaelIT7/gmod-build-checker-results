@@ -14,5 +14,5 @@ public:
 	void _GLOBAL__sub_I_GetServerClass(); // size[112]
 	CBaseParticleEntity(); // size[26]
 	void FollowEntity(CBaseEntity *param_1); // size[53]
-	void SetLifetime(floatparam_1); // size[86]
+	void SetLifetime(float param_1); // size[86]
 };

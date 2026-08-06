@@ -34,7 +34,7 @@ public:
 	void StartSatchelThrow(); // size[373]
 	void SatchelAttach(); // size[490]
 	void StartSatchelAttach(); // size[409]
-	void SetSlamState(intparam_1); // size[47]
+	void SetSlamState(int param_1); // size[47]
 	void CanAttachSLAM(); // size[98]
 	void SLAMThink(); // size[563]
 	void SatchelThrow(); // size[888]

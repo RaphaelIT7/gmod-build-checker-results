@@ -10,11 +10,11 @@ public:
 	virtual void PostSave(); // vtable[4]
 	virtual void PreRestore(); // vtable[5]
 	virtual void ReadRestoreHeaders(IRestore *param_1); // vtable[6]
-	virtual void Restore(IRestore *param_1, boolparam_2); // vtable[7]
+	virtual void Restore(IRestore *param_1, bool param_2); // vtable[7]
 	virtual void PostRestore() override; // vtable[8]
 	virtual void AddBlockHandler(ISaveRestoreBlockHandler *param_1); // vtable[9]
 	virtual void RemoveBlockHandler(ISaveRestoreBlockHandler *param_1); // vtable[10]
-	virtual void CallBlockHandlerRestore(ISaveRestoreBlockHandler *param_1, intparam_2, IRestore *param_3, boolparam_4); // vtable[11]
+	virtual void CallBlockHandlerRestore(ISaveRestoreBlockHandler *param_1, int param_2, IRestore *param_3, bool param_4); // vtable[11]
 
 	~CSaveRestoreBlockSet(); // size[87]
 };

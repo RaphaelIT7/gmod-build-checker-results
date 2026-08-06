@@ -10,7 +10,7 @@ public:
 	void InputStartSchedule(inputdata_t *param_1); // size[196]
 	void GetBaseMap(); // size[10]
 	CAI_ScriptedSchedule(); // size[26]
-	void FindScriptEntity(boolparam_1); // size[422]
+	void FindScriptEntity(bool param_1); // size[422]
 	void StartSchedule(CAI_BaseNPC *param_1); // size[964]
 	void ScriptThink(); // size[394]
 	void StopSchedule(CAI_BaseNPC *param_1); // size[136]

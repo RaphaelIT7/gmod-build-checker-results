@@ -10,6 +10,6 @@ public:
 	virtual void PostSave(); // vtable[4]
 	virtual void PreRestore(); // vtable[5]
 	virtual void ReadRestoreHeaders(IRestore *param_1); // vtable[6]
-	virtual void Restore(IRestore *param_1, boolparam_2); // vtable[7]
+	virtual void Restore(IRestore *param_1, bool param_2); // vtable[7]
 	virtual void PostRestore() override; // vtable[8]
 };

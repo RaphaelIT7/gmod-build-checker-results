@@ -15,9 +15,9 @@ public:
 	void _GLOBAL__sub_I_m_DataMap(); // size[112]
 	void GetBaseMap(); // size[10]
 	CFlexManipulate(); // size[28]
-	void SetFlex(ucharparam_1, floatparam_2); // size[61]
-	void GetFlex(ucharparam_1); // size[41]
-	void SetFlexScale(floatparam_1); // size[51]
+	void SetFlex(uchar param_1, float param_2); // size[61]
+	void GetFlex(uchar param_1); // size[41]
+	void SetFlexScale(float param_1); // size[51]
 	void GetFlexScale(); // size[27]
-	void SetupWeights(CBaseEntity *param_1, intparam_2, float *param_3, float *param_4); // size[5]
+	void SetupWeights(CBaseEntity *param_1, int param_2, float *param_3, float *param_4); // size[5]
 };

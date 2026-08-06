@@ -14,5 +14,5 @@ public:
 
 	void GetBaseMap(); // size[10]
 	void SetupRotation(); // size[267]
-	void RotMove(QAngle *param_1, floatparam_2); // size[138]
+	void RotMove(QAngle *param_1, float param_2); // size[138]
 };

@@ -11,7 +11,7 @@ public:
 	void _GLOBAL__sub_I_m_DataMap(); // size[113]
 	void GetBaseMap(); // size[10]
 	void IsEligible(CBaseEntity *param_1); // size[245]
-	void Reserve(floatparam_1); // size[59]
+	void Reserve(float param_1); // size[59]
 	void GetFirstLookTarget(); // size[101]
 	void GetNextLookTarget(CAI_LookTarget *param_1); // size[101]
 };

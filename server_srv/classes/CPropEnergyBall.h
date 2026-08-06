@@ -15,8 +15,8 @@ public:
 	virtual void StartTouch(CBaseEntity *param_1) override; // vtable[101]
 	virtual void EndTouch(CBaseEntity *param_1) override; // vtable[103]
 	virtual void StopLoopingSounds() override; // vtable[109]
-	virtual void NotifySystemEvent(CBaseEntity *param_1, notify_system_event_tparam_2, notify_system_event_params_t *param_3) override; // vtable[112]
-	virtual void VPhysicsCollision(intparam_1, gamevcollisionevent_t *param_2) override; // vtable[165]
+	virtual void NotifySystemEvent(CBaseEntity *param_1, notify_system_event_t param_2, notify_system_event_params_t *param_3) override; // vtable[112]
+	virtual void VPhysicsCollision(int param_1, gamevcollisionevent_t *param_2) override; // vtable[165]
 	virtual void ExplodeThink() override; // vtable[285]
 	virtual void CreateSounds(); // vtable[287]
 

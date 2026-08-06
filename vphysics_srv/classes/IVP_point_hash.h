@@ -13,7 +13,7 @@ public:
 	void remove_point(IVP_Poly_Point *param_1); // size[74]
 	void find_point(IVP_Poly_Point *param_1); // size[74]
 	void len(); // size[14]
-	void element_at(intparam_1); // size[18]
-	IVP_point_hash(intparam_1); // size[33]
+	void element_at(int param_1); // size[18]
+	IVP_point_hash(int param_1); // size[33]
 	void print(); // size[5]
 };

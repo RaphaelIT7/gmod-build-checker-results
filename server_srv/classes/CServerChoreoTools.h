@@ -8,5 +8,5 @@ public:
 	virtual void NextChoreoEntity(void *param_1); // vtable[2]
 	virtual void GetSceneFile(void *param_1); // vtable[3]
 	virtual void GetEntIndex(void *param_1); // vtable[4]
-	virtual void ReloadSceneFromDisk(intparam_1) override; // vtable[5]
+	virtual void ReloadSceneFromDisk(int param_1) override; // vtable[5]
 };

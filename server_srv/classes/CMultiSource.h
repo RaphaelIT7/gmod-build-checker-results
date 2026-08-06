@@ -10,7 +10,7 @@ public:
 	virtual void KeyValue(char *param_1, char *param_2) override; // vtable[30]
 	virtual void ObjectCaps() override; // vtable[36]
 	virtual void IsTriggered(CBaseEntity *param_1) override; // vtable[71]
-	virtual void Use(CBaseEntity *param_1, CBaseEntity *param_2, USE_TYPEparam_3, floatparam_4) override; // vtable[100]
+	virtual void Use(CBaseEntity *param_1, CBaseEntity *param_2, USE_TYPE param_3, float param_4) override; // vtable[100]
 
 	void Register(); // size[88]
 	void GetBaseMap(); // size[10]

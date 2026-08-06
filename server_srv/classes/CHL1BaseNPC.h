@@ -16,5 +16,5 @@ public:
 
 	_GLOBAL__sub_I_NoFriendlyFire(); // size[113]
 	NoFriendlyFire(); // size[466]
-	EjectShell(Vector *param_1, Vector *param_2, floatparam_3, intparam_4); // size[285]
+	EjectShell(Vector *param_1, Vector *param_2, float param_3, int param_4); // size[285]
 };

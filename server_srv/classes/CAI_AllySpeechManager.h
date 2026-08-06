@@ -8,9 +8,9 @@ public:
 	virtual void GetDataDescMap() override; // vtable[12]
 	virtual void Spawn() override; // vtable[23]
 
-	void GetConceptCategoryInfo(ConceptCategory_tparam_1); // size[16]
-	void SetCategoryDelay(ConceptCategory_tparam_1, floatparam_2, floatparam_3); // size[139]
-	void CategoryDelayExpired(ConceptCategory_tparam_1); // size[33]
+	void GetConceptCategoryInfo(ConceptCategory_t param_1); // size[16]
+	void SetCategoryDelay(ConceptCategory_t param_1, float param_2, float param_3); // size[139]
+	void CategoryDelayExpired(ConceptCategory_t param_1); // size[33]
 	void GetBaseMap(); // size[10]
 	void GetConceptInfo(char *param_1); // size[58]
 	void OnSpokeConcept(CAI_PlayerAlly *param_1, char *param_2, AI_Response *param_3); // size[1079]

@@ -12,5 +12,5 @@ public:
 	void Refresh(); // size[301]
 	void Ready(); // size[24]
 	void GetCurrentAmount(); // size[11]
-	void OnReceiveFileDetails(SteamUGCQueryCompleted_t *param_1, boolparam_2); // size[1296]
+	void OnReceiveFileDetails(SteamUGCQueryCompleted_t *param_1, bool param_2); // size[1296]
 };

@@ -11,7 +11,7 @@ public:
 	virtual void GatherConditions() override; // vtable[11]
 	virtual void GetClassScheduleIdSpace() override; // vtable[14]
 	virtual void Precache() override; // vtable[18]
-	virtual void CleanupOnDeath(CBaseEntity *param_1, boolparam_2) override; // vtable[22]
+	virtual void CleanupOnDeath(CBaseEntity *param_1, bool param_2) override; // vtable[22]
 	virtual void SelectSchedule() override; // vtable[26]
 	virtual void StartTask(Task_t *param_1) override; // vtable[28]
 	virtual void RunTask(Task_t *param_1) override; // vtable[29]

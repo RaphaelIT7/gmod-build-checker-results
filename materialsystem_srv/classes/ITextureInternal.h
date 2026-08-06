@@ -7,10 +7,10 @@ public:
 	virtual ~ITextureInternal(); // vtable[44]
 	virtual void __cxa_pure_virtual(); // vtable[52]
 
-	void CreateReferenceTextureFromHandle(char *param_1, char *param_2, intparam_3); // size[114]
+	void CreateReferenceTextureFromHandle(char *param_1, char *param_2, int param_3); // size[114]
 	void Destroy(ITextureInternal *param_1); // size[23]
-	void ChangeRenderTarget(ITextureInternal *param_1, intparam_2, intparam_3, RenderTargetSizeMode_tparam_4, ImageFormatparam_5, RenderTargetType_tparam_6, uintparam_7, uintparam_8); // size[167]
+	void ChangeRenderTarget(ITextureInternal *param_1, int param_2, int param_3, RenderTargetSizeMode_t param_4, ImageFormat param_5, RenderTargetType_t param_6, uint param_7, uint param_8); // size[167]
 	void CreateFileTexture(char *param_1, char *param_2); // size[61]
-	void CreateProceduralTexture(char *param_1, char *param_2, intparam_3, intparam_4, intparam_5, ImageFormatparam_6, intparam_7, ITextureRegenerator *param_8); // size[111]
-	void CreateRenderTarget(char *param_1, intparam_2, intparam_3, RenderTargetSizeMode_tparam_4, ImageFormatparam_5, RenderTargetType_tparam_6, uintparam_7, uintparam_8); // size[103]
+	void CreateProceduralTexture(char *param_1, char *param_2, int param_3, int param_4, int param_5, ImageFormat param_6, int param_7, ITextureRegenerator *param_8); // size[111]
+	void CreateRenderTarget(char *param_1, int param_2, int param_3, RenderTargetSizeMode_t param_4, ImageFormat param_5, RenderTargetType_t param_6, uint param_7, uint param_8); // size[103]
 };

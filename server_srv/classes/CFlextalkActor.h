@@ -9,6 +9,6 @@ public:
 	virtual void ProcessSceneEvents() override; // vtable[284]
 
 	void GetBaseMap(); // size[10]
-	void SetFlexTarget(LocalFlexController_tparam_1, floatparam_2); // size[434]
+	void SetFlexTarget(LocalFlexController_t param_1, float param_2); // size[434]
 	void LookupFlex(char *param_1); // size[87]
 };

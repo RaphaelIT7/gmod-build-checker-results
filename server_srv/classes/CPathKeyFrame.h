@@ -12,7 +12,7 @@ public:
 	void GetBaseMap(); // size[10]
 	void CalculateFrameDuration(); // size[368]
 	void Link(); // size[136]
-	void SetKeyAngles(QAngleparam_1); // size[11]
-	void NextKey(intparam_1); // size[76]
-	void InsertNewKey(Vectorparam_1, QAngleparam_2); // size[402]
+	void SetKeyAngles(QAngle param_1); // size[11]
+	void NextKey(int param_1); // size[76]
+	void InsertNewKey(Vector param_1, QAngle param_2); // size[402]
 };

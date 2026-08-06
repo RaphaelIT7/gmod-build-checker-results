@@ -11,6 +11,6 @@ public:
 	virtual void OnReceiveFileInfo(Request *param_1); // vtable[6]
 
 	_GLOBAL__sub_I_OnSubscribed(); // size[91]
-	OnSubscribed(ulonglongparam_1); // size[37]
+	OnSubscribed(ulonglong param_1); // size[37]
 	void OnReceiveFileInfo(Request *param_1); // size[10]
 };

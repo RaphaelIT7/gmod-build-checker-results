@@ -14,6 +14,6 @@ public:
 	void InputEnable(inputdata_t *param_1); // size[15]
 	void UpdateMaterialThink(); // size[69]
 	void GetBaseMap(); // size[10]
-	void PlayerSurfaceChanged(CBasePlayer *param_1, charparam_2); // size[224]
-	void SetPlayerSurface(CBasePlayer *param_1, charparam_2); // size[111]
+	void PlayerSurfaceChanged(CBasePlayer *param_1, char param_2); // size[224]
+	void SetPlayerSurface(CBasePlayer *param_1, char param_2); // size[111]
 };

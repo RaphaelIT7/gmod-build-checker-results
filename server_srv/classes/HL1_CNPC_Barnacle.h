@@ -14,7 +14,7 @@ public:
 	virtual void OnTakeDamage_Alive(CTakeDamageInfo *param_1) override; // vtable[338]
 	virtual void GetSchedulingErrorName() override; // vtable[432]
 	virtual void LoadedSchedules() override; // vtable[433]
-	virtual void SquadSlotName(intparam_1) override; // vtable[581]
+	virtual void SquadSlotName(int param_1) override; // vtable[581]
 	virtual void GetClassScheduleIdSpace() override; // vtable[640]
 
 	void WaitTillDead(); // size[52]

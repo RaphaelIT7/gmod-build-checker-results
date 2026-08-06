@@ -9,13 +9,13 @@ public:
 	virtual void YouForgotToImplementOrDeclareServerClass() override; // vtable[11]
 	virtual void GetDataDescMap() override; // vtable[12]
 	virtual void Spawn() override; // vtable[23]
-	virtual void Use(CBaseEntity *param_1, CBaseEntity *param_2, USE_TYPEparam_3, floatparam_4) override; // vtable[100]
+	virtual void Use(CBaseEntity *param_1, CBaseEntity *param_2, USE_TYPE param_3, float param_4) override; // vtable[100]
 	virtual void GetGroundVelocityToApply(Vector *param_1) override; // vtable[149]
 
 	void InputToggleDirection(inputdata_t *param_1); // size[59]
 	void InputSetSpeed(inputdata_t *param_1); // size[73]
 	void GetBaseMap(); // size[10]
 	CFuncConveyor(); // size[20]
-	void UpdateSpeed(floatparam_1); // size[37]
+	void UpdateSpeed(float param_1); // size[37]
 	void ThinkPushPhysics(); // size[12]
 };

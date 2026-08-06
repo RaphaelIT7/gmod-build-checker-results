@@ -10,7 +10,7 @@ public:
 	virtual void Spawn() override; // vtable[23]
 	virtual void Precache() override; // vtable[24]
 	virtual void KeyValue(char *param_1, char *param_2) override; // vtable[30]
-	virtual void AcceptInput(char *param_1, CBaseEntity *param_2, CBaseEntity *param_3, variant_tparam_4, intparam_5) override; // vtable[37]
+	virtual void AcceptInput(char *param_1, CBaseEntity *param_2, CBaseEntity *param_3, variant_t param_4, int param_5) override; // vtable[37]
 	virtual void OnRestore() override; // vtable[45]
 	virtual void UpdateOnRemove() override; // vtable[108]
 	virtual void UsesLua() override; // vtable[205]

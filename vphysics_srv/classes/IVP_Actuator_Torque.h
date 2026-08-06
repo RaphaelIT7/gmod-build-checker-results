@@ -10,8 +10,8 @@ public:
 	virtual void anchor_will_be_deleted_event(IVP_Anchor *param_1); // vtable[9]
 
 	IVP_Actuator_Torque(IVP_Environment *param_1, IVP_Template_Torque *param_2); // size[17]
-	void set_max_rotation_speed(doubleparam_1); // size[64]
-	void set_torque(doubleparam_1); // size[64]
+	void set_max_rotation_speed(double param_1); // size[64]
+	void set_torque(double param_1); // size[64]
 	IVP_Actuator_Torque(IVP_Environment *param_1, IVP_Template_Torque *param_2); // size[263]
 	void get_torque(); // size[14]
 };

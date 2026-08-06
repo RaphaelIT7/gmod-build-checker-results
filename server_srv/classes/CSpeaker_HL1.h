@@ -12,7 +12,7 @@ public:
 	virtual void ObjectCaps() override; // vtable[36]
 
 	void _GLOBAL__sub_I_m_DataMap(); // size[113]
-	void ToggleUse(CBaseEntity *param_1, CBaseEntity *param_2, USE_TYPEparam_3, floatparam_4); // size[180]
+	void ToggleUse(CBaseEntity *param_1, CBaseEntity *param_2, USE_TYPE param_3, float param_4); // size[180]
 	void SpeakerThink(); // size[657]
 	void GetBaseMap(); // size[10]
 };

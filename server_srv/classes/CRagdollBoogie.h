@@ -15,7 +15,7 @@ public:
 	void IncrementSuppressionCount(CBaseEntity *param_1); // size[99]
 	void DecrementSuppressionCount(CBaseEntity *param_1); // size[139]
 	void AttachToEntity(CBaseEntity *param_1); // size[174]
-	void Create(CBaseEntity *param_1, floatparam_2, floatparam_3, floatparam_4, intparam_5); // size[62]
-	void SetBoogieTime(floatparam_1, floatparam_2); // size[34]
-	void SetMagnitude(floatparam_1); // size[21]
+	void Create(CBaseEntity *param_1, float param_2, float param_3, float param_4, int param_5); // size[62]
+	void SetBoogieTime(float param_1, float param_2); // size[34]
+	void SetMagnitude(float param_1); // size[21]
 };

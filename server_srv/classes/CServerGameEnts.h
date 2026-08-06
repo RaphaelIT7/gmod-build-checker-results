@@ -10,5 +10,5 @@ public:
 	virtual void FreeContainingEntity(edict_t *param_1); // vtable[4]
 	virtual void BaseEntityToEdict(CBaseEntity *param_1); // vtable[5]
 	virtual void EdictToBaseEntity(edict_t *param_1); // vtable[6]
-	virtual void CheckTransmit(CCheckTransmitInfo *param_1, ushort *param_2, intparam_3) override; // vtable[7]
+	virtual void CheckTransmit(CCheckTransmitInfo *param_1, ushort *param_2, int param_3) override; // vtable[7]
 };

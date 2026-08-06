@@ -26,7 +26,7 @@ public:
 	void InputSpawnNPC(inputdata_t *param_1); // size[49]
 	void GetBaseMap(); // size[10]
 	void HumanHullFits(Vector *param_1); // size[166]
-	void CanMakeNPC(boolparam_1); // size[938]
+	void CanMakeNPC(bool param_1); // size[938]
 	void Toggle(); // size[38]
 	void InputToggle(inputdata_t *param_1); // size[9]
 };

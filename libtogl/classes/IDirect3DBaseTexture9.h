@@ -8,5 +8,5 @@ public:
 
 	void GetType(); // size[11]
 	void GetLevelCount(); // size[17]
-	void GetLevelDesc(uintparam_1, _D3DSURFACE_DESC *param_2); // size[138]
+	void GetLevelDesc(uint param_1, _D3DSURFACE_DESC *param_2); // size[138]
 };

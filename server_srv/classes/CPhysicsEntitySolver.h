@@ -10,6 +10,6 @@ public:
 	virtual void Think() override; // vtable[48]
 	virtual void UpdateOnRemove() override; // vtable[108]
 
-	void Init(CBaseEntity *param_1, CBaseEntity *param_2, floatparam_3); // size[101]
-	void Create(CBaseEntity *param_1, CBaseEntity *param_2, floatparam_3); // size[112]
+	void Init(CBaseEntity *param_1, CBaseEntity *param_2, float param_3); // size[101]
+	void Create(CBaseEntity *param_1, CBaseEntity *param_2, float param_3); // size[112]
 };

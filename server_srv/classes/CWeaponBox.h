@@ -13,6 +13,6 @@ public:
 	void _GLOBAL__sub_I_m_DataMap(); // size[113]
 	void BoxTouch(CBaseEntity *param_1); // size[41]
 	void GetBaseMap(); // size[10]
-	void GiveAmmo(intparam_1, char *param_2, intparam_3, int *param_4); // size[228]
-	void PackAmmo(char *param_1, intparam_2); // size[136]
+	void GiveAmmo(int param_1, char *param_2, int param_3, int *param_4); // size[228]
+	void PackAmmo(char *param_1, int param_2); // size[136]
 };

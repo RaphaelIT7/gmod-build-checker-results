@@ -20,11 +20,11 @@ public:
 	void MoveQueueUp(); // size[162]
 	void InputPlayerStoppedBlocking(inputdata_t *param_1); // size[60]
 	void RemoveNPCFromQueue(CAI_BaseNPC *param_1); // size[31]
-	void GetNPCOnNode(intparam_1); // size[13]
+	void GetNPCOnNode(int param_1); // size[13]
 	void InputMoveQueueUp(inputdata_t *param_1); // size[193]
 	void QueueThink(); // size[98]
 	void GetQueueBehaviorForNPC(CAI_BaseNPC *param_1); // size[54]
-	void PushNPCBackInQueue(CAI_BaseNPC *param_1, intparam_2); // size[461]
+	void PushNPCBackInQueue(CAI_BaseNPC *param_1, int param_2); // size[461]
 	void InputPlayerStartedBlocking(inputdata_t *param_1); // size[82]
 	void MoveQueueUpThink(); // size[404]
 };

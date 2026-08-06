@@ -12,13 +12,13 @@ public:
 	virtual void OnTakeDamage(CTakeDamageInfo *param_1) override; // vtable[64]
 	virtual void CreateVPhysics() override; // vtable[157]
 	virtual void VPhysicsUpdate(IPhysicsObject *param_1) override; // vtable[161]
-	virtual void OnPhysGunPickup(CBasePlayer *param_1, PhysGunPickup_tparam_2); // vtable[290]
+	virtual void OnPhysGunPickup(CBasePlayer *param_1, PhysGunPickup_t param_2); // vtable[290]
 
 	void DelayThink(); // size[301]
 	void GetBaseMap(); // size[10]
 	void CreateEffects(); // size[845]
-	void SetTimer(floatparam_1, floatparam_2); // size[93]
-	void OnPhysGunPickup(CBasePlayer *param_1, PhysGunPickup_tparam_2); // size[13]
+	void SetTimer(float param_1, float param_2); // size[93]
+	void OnPhysGunPickup(CBasePlayer *param_1, PhysGunPickup_t param_2); // size[13]
 	void InputSetTimer(inputdata_t *param_1); // size[59]
 	void SetVelocity(Vector *param_1, Vector *param_2); // size[35]
 };

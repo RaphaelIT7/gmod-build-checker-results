@@ -17,7 +17,7 @@ public:
 	void GetFactory(); // size[10]
 	CAppSystemGroup(CAppSystemGroup *param_1); // size[212]
 	void FindSystem(char *param_1); // size[148]
-	void ReportStartupFailure(intparam_1, intparam_2); // size[156]
+	void ReportStartupFailure(int param_1, int param_2); // size[156]
 	void ConnectSystems(); // size[100]
 	void InitSystems(); // size[94]
 	void OnStartup(); // size[140]
@@ -26,7 +26,7 @@ public:
 	void Run(); // size[73]
 	void LoadModule(char *param_1); // size[464]
 	void LoadModule(_func_void_ptr_char_ptr_int_ptr *param_1); // size[269]
-	void AddSystem(intparam_1, char *param_2); // size[243]
+	void AddSystem(int param_1, char *param_2); // size[243]
 	void AddSystems(AppSystemInfo_t *param_1); // size[139]
 	void AddSystem(IAppSystem *param_1, char *param_2); // size[76]
 };

@@ -15,7 +15,7 @@ public:
 	virtual void IdleSound() override; // vtable[509]
 	virtual void PainSound(CTakeDamageInfo *param_1) override; // vtable[510]
 	virtual void MaxYawSpeed() override; // vtable[529]
-	virtual void MeleeAttack1Conditions(floatparam_1, floatparam_2) override; // vtable[597]
+	virtual void MeleeAttack1Conditions(float param_1, float param_2) override; // vtable[597]
 
 	void AttackSound(); // size[44]
 };

@@ -15,7 +15,7 @@ public:
 	void InputSetValueNoFire(inputdata_t *param_1); // size[183]
 	void InputGetValue(inputdata_t *param_1); // size[65]
 	void GetBaseMap(); // size[10]
-	void UpdateOutValue(CBaseEntity *param_1, floatparam_2); // size[291]
+	void UpdateOutValue(CBaseEntity *param_1, float param_2); // size[291]
 	void InputSetValue(inputdata_t *param_1); // size[81]
 	void InputSetHitMax(inputdata_t *param_1); // size[85]
 	void InputSetHitMin(inputdata_t *param_1); // size[81]

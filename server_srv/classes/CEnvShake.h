@@ -12,8 +12,8 @@ public:
 	virtual void Think() override; // vtable[48]
 
 	void GetBaseMap(); // size[10]
-	void Radius(boolparam_1); // size[45]
-	void ApplyShake(ShakeCommand_tparam_1); // size[452]
+	void Radius(bool param_1); // size[45]
+	void ApplyShake(ShakeCommand_t param_1); // size[452]
 	void InputStartShake(inputdata_t *param_1); // size[67]
 	void InputStopShake(inputdata_t *param_1); // size[16]
 	void InputAmplitude(inputdata_t *param_1); // size[47]

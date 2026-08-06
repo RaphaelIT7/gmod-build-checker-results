@@ -12,5 +12,5 @@ public:
 
 	void GetBaseMap(); // size[10]
 	void Animate(); // size[51]
-	void Shoot(CBaseEntity *param_1, Vectorparam_2, Vectorparam_3); // size[120]
+	void Shoot(CBaseEntity *param_1, Vector param_2, Vector param_3); // size[120]
 };

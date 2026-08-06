@@ -14,7 +14,7 @@ public:
 	void FindTemplate(); // size[175]
 	void HasRoomToSpawn(); // size[693]
 	void IsPlayerLooking(); // size[323]
-	void SpawnEntity(Vectorparam_1, QAngleparam_2); // size[1140]
+	void SpawnEntity(Vector param_1, QAngle param_2); // size[1140]
 	void CheckSpawnThink(); // size[50]
 	void InputForceSpawn(inputdata_t *param_1); // size[175]
 	void InputForceSpawnAtEntityOrigin(inputdata_t *param_1); // size[198]

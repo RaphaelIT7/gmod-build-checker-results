@@ -12,6 +12,6 @@ public:
 	void KillThink(); // size[67]
 	void BounceTouch(CBaseEntity *param_1); // size[347]
 	void GetBaseMap(); // size[10]
-	void MovetoTarget(Vectorparam_1); // size[482]
+	void MovetoTarget(Vector param_1); // size[482]
 	void HuntThink(); // size[55]
 };

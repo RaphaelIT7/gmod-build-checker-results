@@ -5,10 +5,10 @@ class CQueuedLoader : public CTier2AppSystem
 public:
 	virtual void Init() override; // vtable[3]
 	virtual void Shutdown() override; // vtable[4]
-	virtual void InstallLoader(ResourcePreload_tparam_1, IResourcePreload *param_2); // vtable[5]
+	virtual void InstallLoader(ResourcePreload_t param_1, IResourcePreload *param_2); // vtable[5]
 	virtual void InstallProgress(ILoaderProgress *param_1); // vtable[6]
-	virtual void BeginMapLoading(char *param_1, boolparam_2, boolparam_3); // vtable[7]
-	virtual void EndMapLoading(boolparam_1); // vtable[8]
+	virtual void BeginMapLoading(char *param_1, bool param_2, bool param_3); // vtable[7]
+	virtual void EndMapLoading(bool param_1); // vtable[8]
 	virtual void AddJob(LoaderJob_t *param_1); // vtable[9]
 	virtual void AddMapResource(char *param_1); // vtable[10]
 	virtual void DynamicLoadMapResource(char *param_1, _func_void_char_ptr_void_ptr_void_ptr *param_2, void *param_3, void *param_4); // vtable[11]
@@ -27,7 +27,7 @@ public:
 	virtual ~CQueuedLoader(); // vtable[24]
 
 	void Less(void * *param_1, void * *param_2, void *param_3); // size[222]
-	void GetFilename(void *param_1, char *param_2, intparam_3); // size[52]
+	void GetFilename(void *param_1, char *param_2, int param_3); // size[52]
 	void FindFilename(char *param_1); // size[15]
 	void Less(void * *param_1, void * *param_2, void *param_3); // size[30]
 	void GetLayoutOrderForFilename(char *param_1); // size[130]

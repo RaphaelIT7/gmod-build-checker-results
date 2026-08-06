@@ -12,7 +12,7 @@ public:
 
 	void _GLOBAL__sub_I_m_DataMap(); // size[113]
 	void GetBaseMap(); // size[10]
-	void AddDebugHistoryLine(intparam_1, char *param_2); // size[6]
-	void DumpDebugHistory(intparam_1); // size[360]
+	void AddDebugHistoryLine(int param_1, char *param_2); // size[6]
+	void DumpDebugHistory(int param_1); // size[360]
 	void ClearHistories(); // size[73]
 };

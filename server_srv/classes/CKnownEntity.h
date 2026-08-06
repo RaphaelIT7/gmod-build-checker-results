@@ -14,7 +14,7 @@ public:
 	virtual void GetLastKnownArea(); // vtable[8]
 	virtual void GetTimeSinceLastKnown(); // vtable[9]
 	virtual void GetTimeSinceBecameKnown(); // vtable[10]
-	virtual void UpdateVisibilityStatus(boolparam_1); // vtable[11]
+	virtual void UpdateVisibilityStatus(bool param_1); // vtable[11]
 	virtual void IsVisibleInFOVNow(); // vtable[12]
 	virtual void IsVisibleRecently(); // vtable[13]
 	virtual void GetTimeSinceBecameVisible(); // vtable[14]

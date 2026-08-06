@@ -10,7 +10,7 @@ public:
 	virtual void DispatchResponse(char *param_1) override; // vtable[54]
 	virtual void ModifyOrAppendCriteria(AI_CriteriaSet *param_1) override; // vtable[121]
 	virtual void CanSpeak() override; // vtable[486]
-	virtual void NoteSpeaking(floatparam_1, floatparam_2); // vtable[537]
-	virtual void Speak(char *param_1, char *param_2, char *param_3, uintparam_4, IRecipientFilter *param_5); // vtable[538]
+	virtual void NoteSpeaking(float param_1, float param_2); // vtable[537]
+	virtual void Speak(char *param_1, char *param_2, char *param_3, uint param_4, IRecipientFilter *param_5); // vtable[538]
 	virtual void PostSpeakDispatchResponse(char *param_1, AI_Response *param_2); // vtable[539]
 };

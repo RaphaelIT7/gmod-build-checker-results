@@ -5,7 +5,7 @@ class CHL2MPRules : public CTeamplayRules
 public:
 	virtual ~CHL2MPRules() override; // vtable[13]
 	virtual ~CHL2MPRules() override; // vtable[14]
-	virtual void ShouldCollide(intparam_1, intparam_2) override; // vtable[31]
+	virtual void ShouldCollide(int param_1, int param_2) override; // vtable[31]
 	virtual void GetViewVectors() override; // vtable[33]
 	virtual void GetEncryptionKey() override; // vtable[37]
 	virtual void Precache() override; // vtable[44]
@@ -27,7 +27,7 @@ public:
 	virtual void VecItemRespawnAngles(CItem *param_1) override; // vtable[96]
 	virtual void PlayerRelationship(CBaseEntity *param_1, CBaseEntity *param_2) override; // vtable[108]
 	virtual void CreateStandardEntities() override; // vtable[122]
-	virtual void GetChatFormat(boolparam_1, CBasePlayer *param_2) override; // vtable[125]
+	virtual void GetChatFormat(bool param_1, CBasePlayer *param_2) override; // vtable[125]
 	virtual void GoToIntermission() override; // vtable[148]
 
 	void GetHL2MPViewVectors(); // size[10]

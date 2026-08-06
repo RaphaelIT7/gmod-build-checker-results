@@ -11,7 +11,7 @@ public:
 	virtual void collision_is_going_to_be_deleted_event(IVP_Collision *param_1); // vtable[6]
 
 	IVP_OO_Watcher(IVP_Collision_Delegator *param_1, IVP_Real_Object *param_2, IVP_Real_Object *param_3); // size[58]
-	void get_synapse(intparam_1); // size[17]
+	void get_synapse(int param_1); // size[17]
 	void hull_limit_exceeded_event(); // size[290]
 	IVP_OO_Watcher(IVP_Collision_Delegator *param_1, IVP_Real_Object *param_2, IVP_Real_Object *param_3); // size[138]
 	void collision_is_going_to_be_deleted_event(IVP_Collision *param_1); // size[10]

@@ -16,7 +16,7 @@ public:
 	void InputDisable(inputdata_t *param_1); // size[46]
 	void InputSetTargetEntity(inputdata_t *param_1); // size[107]
 	void GetBaseMap(); // size[10]
-	void IsFacingWithinTolerance(CBaseEntity *param_1, CBaseEntity *param_2, floatparam_3, float *param_4); // size[399]
+	void IsFacingWithinTolerance(CBaseEntity *param_1, CBaseEntity *param_2, float param_3, float *param_4); // size[399]
 	void InputTest(inputdata_t *param_1); // size[194]
 	void Enable(); // size[96]
 	void InputEnable(inputdata_t *param_1); // size[9]

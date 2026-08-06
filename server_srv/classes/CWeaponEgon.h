@@ -19,7 +19,7 @@ public:
 
 	void _GLOBAL__sub_I_GetServerClass(); // size[112]
 	CWeaponEgon(); // size[74]
-	void UseAmmo(intparam_1); // size[149]
+	void UseAmmo(int param_1); // size[149]
 	void DestroyEffect(); // size[202]
 	void CreateEffect(); // size[538]
 	void UpdateEffect(Vector *param_1, Vector *param_2); // size[427]

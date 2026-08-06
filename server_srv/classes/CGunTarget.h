@@ -11,7 +11,7 @@ public:
 	virtual void Classify() override; // vtable[55]
 	virtual void OnTakeDamage(CTakeDamageInfo *param_1) override; // vtable[64]
 	virtual void BloodColor() override; // vtable[70]
-	virtual void BodyTarget(Vector *param_1, boolparam_2) override; // vtable[137]
+	virtual void BodyTarget(Vector *param_1, bool param_2) override; // vtable[137]
 	virtual void CreateVPhysics() override; // vtable[157]
 
 	void _GLOBAL__sub_I_m_DataMap(); // size[113]

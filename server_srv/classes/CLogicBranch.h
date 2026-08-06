@@ -10,7 +10,7 @@ public:
 	virtual void UpdateOnRemove() override; // vtable[108]
 
 	void GetBaseMap(); // size[10]
-	void UpdateValue(boolparam_1, CBaseEntity *param_2, LogicBranchFire_tparam_3); // size[257]
+	void UpdateValue(bool param_1, CBaseEntity *param_2, LogicBranchFire_t param_3); // size[257]
 	void InputSetValue(inputdata_t *param_1); // size[58]
 	void InputSetValueTest(inputdata_t *param_1); // size[58]
 	void InputToggle(inputdata_t *param_1); // size[53]

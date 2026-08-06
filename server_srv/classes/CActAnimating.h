@@ -10,5 +10,5 @@ public:
 
 	void _GLOBAL__sub_I_m_DataMap(); // size[113]
 	void GetBaseMap(); // size[10]
-	void SetActivity(Activityparam_1); // size[94]
+	void SetActivity(Activity param_1); // size[94]
 };

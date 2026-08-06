@@ -12,6 +12,6 @@ public:
 
 	void GetBaseMap(); // size[10]
 	DustTrail(); // size[228]
-	void SetEmit(boolparam_1); // size[65]
+	void SetEmit(bool param_1); // size[65]
 	void CreateDustTrail(); // size[77]
 };

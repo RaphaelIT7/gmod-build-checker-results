@@ -37,9 +37,9 @@ public:
 	virtual void FireGun(); // vtable[670]
 	virtual void GetRotorVolume(); // vtable[671]
 	virtual void InitializeRotorSound(); // vtable[672]
-	virtual void UpdateRotorSoundPitch(intparam_1); // vtable[673]
+	virtual void UpdateRotorSoundPitch(int param_1); // vtable[673]
 	virtual void AimRocketGun(); // vtable[674]
-	virtual void FireRocket(Vectorparam_1, Vectorparam_2); // vtable[675]
+	virtual void FireRocket(Vector param_1, Vector param_2); // vtable[675]
 
 	void InputActivate(inputdata_t *param_1); // size[81]
 	void GetBaseMap(); // size[10]

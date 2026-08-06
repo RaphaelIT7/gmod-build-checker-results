@@ -14,5 +14,5 @@ public:
 	virtual void TraceEmitSound(char *param_1); // vtable[18]
 
 	void StartLog(); // size[105]
-	void EmitCloseCaption(IRecipientFilter *param_1, intparam_2, boolparam_3, char *param_4, CUtlVector *param_5, floatparam_6, boolparam_7); // size[379]
+	void EmitCloseCaption(IRecipientFilter *param_1, int param_2, bool param_3, char *param_4, CUtlVector *param_5, float param_6, bool param_7); // size[379]
 };

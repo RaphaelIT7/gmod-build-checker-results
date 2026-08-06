@@ -10,7 +10,7 @@ public:
 	virtual void Spawn() override; // vtable[23]
 	virtual void Enable() override; // vtable[246]
 	virtual void Disable() override; // vtable[247]
-	virtual void MoveTime(floatparam_1) override; // vtable[249]
+	virtual void MoveTime(float param_1) override; // vtable[249]
 
 	void InputDisable(inputdata_t *param_1); // size[17]
 	void InputEnable(inputdata_t *param_1); // size[37]

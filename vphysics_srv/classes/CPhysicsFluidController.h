@@ -13,7 +13,7 @@ public:
 	virtual void GetContents(); // vtable[7]
 
 	_GLOBAL__sub_I_CPhysicsFluidController(); // size[1]
-	CPhysicsFluidController(CBuoyancyAttacher *param_1, IVP_Liquid_Surface_Descriptor *param_2, CPhysicsObject *param_3, intparam_4); // size[38]
+	CPhysicsFluidController(CBuoyancyAttacher *param_1, IVP_Liquid_Surface_Descriptor *param_2, CPhysicsObject *param_3, int param_4); // size[38]
 	void GetIVPObject(); // size[14]
 	void GetIVPObject(); // size[14]
 };

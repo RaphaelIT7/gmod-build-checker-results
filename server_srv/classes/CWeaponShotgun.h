@@ -22,7 +22,7 @@ public:
 	virtual void ActivityListCount() override; // vtable[389]
 	virtual void CapabilitiesGet() override; // vtable[399]
 	virtual void Operator_HandleAnimEvent(animevent_t *param_1, CBaseCombatCharacter *param_2) override; // vtable[406]
-	virtual void Operator_ForceNPCFire(CBaseCombatCharacter *param_1, boolparam_2) override; // vtable[407]
+	virtual void Operator_ForceNPCFire(CBaseCombatCharacter *param_1, bool param_2) override; // vtable[407]
 
 	void _GLOBAL__sub_I_GetServerClass(); // size[112]
 	void StartReload(); // size[331]
@@ -31,5 +31,5 @@ public:
 	void Pump(); // size[386]
 	void DryFire(); // size[197]
 	CWeaponShotgun(); // size[95]
-	void FireNPCPrimaryAttack(CBaseCombatCharacter *param_1, boolparam_2); // size[187]
+	void FireNPCPrimaryAttack(CBaseCombatCharacter *param_1, bool param_2); // size[187]
 };

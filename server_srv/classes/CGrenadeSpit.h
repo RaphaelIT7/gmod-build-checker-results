@@ -17,6 +17,6 @@ public:
 	void GrenadeSpitTouch(CBaseEntity *param_1); // size[44]
 	void GetBaseMap(); // size[10]
 	CGrenadeSpit(); // size[67]
-	void SetSpitSize(intparam_1); // size[196]
+	void SetSpitSize(int param_1); // size[196]
 	void InitHissSound(); // size[34]
 };

@@ -13,5 +13,5 @@ public:
 	void Create(CBaseEntity *param_1, Vector *param_2); // size[111]
 	void ComputeEndPos(); // size[115]
 	void ReComputeCollisionBox(); // size[9]
-	void UpdateBeam(CBaseEntity *param_1, Vector *param_2, intparam_3); // size[70]
+	void UpdateBeam(CBaseEntity *param_1, Vector *param_2, int param_3); // size[70]
 };

@@ -14,7 +14,7 @@ public:
 	void InputChangeFOV(inputdata_t *param_1); // size[94]
 	void ChangeFOVThink(); // size[52]
 	CPointCamera(); // size[28]
-	void SetActive(boolparam_1); // size[132]
+	void SetActive(bool param_1); // size[132]
 	void InputSetOn(inputdata_t *param_1); // size[37]
 	void InputSetOff(inputdata_t *param_1); // size[26]
 	void InputSetOnAndTurnOthersOff(inputdata_t *param_1); // size[112]

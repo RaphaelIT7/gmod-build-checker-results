@@ -15,9 +15,9 @@ public:
 
 	void GrenadeTouch(CBaseEntity *param_1); // size[380]
 	void GetBaseMap(); // size[10]
-	void Launch(floatparam_1, string_tparam_2); // size[477]
+	void Launch(float param_1, string_t param_2); // size[477]
 	CGrenadePathfollower(); // size[70]
-	void CreateGrenadePathfollower(string_tparam_1, string_tparam_2, Vector *param_3, QAngle *param_4, edict_t *param_5); // size[225]
+	void CreateGrenadePathfollower(string_t param_1, string_t param_2, Vector *param_3, QAngle *param_4, edict_t *param_5); // size[225]
 	void PlayFlySound(); // size[103]
 	void AimThink(); // size[1181]
 };

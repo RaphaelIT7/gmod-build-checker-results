@@ -14,7 +14,7 @@ public:
 	virtual void ProcessSceneEvents() override; // vtable[284]
 
 	void GetBaseMap(); // size[10]
-	void GenericCyclerSpawn(char *param_1, Vectorparam_2, Vectorparam_3); // size[132]
-	void SetFlexTarget(LocalFlexController_tparam_1); // size[376]
+	void GenericCyclerSpawn(char *param_1, Vector param_2, Vector param_3); // size[132]
+	void SetFlexTarget(LocalFlexController_t param_1); // size[376]
 	void LookupFlex(char *param_1); // size[87]
 };

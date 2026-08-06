@@ -15,8 +15,8 @@ public:
 	virtual void OnServerDownloadsMounted() override; // vtable[9]
 
 	~System(); // size[98]
-	void ChangeGamemode(string *param_1, boolparam_2); // size[178]
+	void ChangeGamemode(string *param_1, bool param_2); // size[178]
 	void Mount(string *param_1); // size[1382]
-	void AddGamemode(stringparam_1); // size[1388]
+	void AddGamemode(string param_1); // size[1388]
 	System(); // size[137]
 };

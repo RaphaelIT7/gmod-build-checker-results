@@ -17,6 +17,6 @@ public:
 	void _GLOBAL__sub_I_GetServerClass(); // size[112]
 	void GetBaseMap(); // size[10]
 	CHL2MPMachineGun(); // size[40]
-	void DoMachineGunKick(CBasePlayer *param_1, floatparam_2, floatparam_3, floatparam_4, floatparam_5); // size[156]
-	void WeaponSoundRealtime(WeaponSound_tparam_1); // size[293]
+	void DoMachineGunKick(CBasePlayer *param_1, float param_2, float param_3, float param_4, float param_5); // size[156]
+	void WeaponSoundRealtime(WeaponSound_t param_1); // size[293]
 };

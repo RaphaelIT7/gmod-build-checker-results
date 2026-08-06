@@ -13,5 +13,5 @@ public:
 	void _GLOBAL__sub_I_m_DataMap(); // size[113]
 	void GrenadeMP5Touch(CBaseEntity *param_1); // size[162]
 	void GetBaseMap(); // size[10]
-	void Event_Killed(CBaseEntity *param_1, CBaseEntity *param_2, floatparam_3, intparam_4); // size[17]
+	void Event_Killed(CBaseEntity *param_1, CBaseEntity *param_2, float param_3, int param_4); // size[17]
 };

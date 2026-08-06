@@ -9,10 +9,10 @@ public:
 	virtual void GetDataDescMap() override; // vtable[12]
 	virtual void DrawDebugGeometryOverlays() override; // vtable[39]
 	virtual void CreateConstraint(IPhysicsConstraintGroup *param_1, hl_constraint_info_t *param_2) override; // vtable[248]
-	virtual void NotifyVPhysicsStateChanged(IPhysicsObject *param_1, CBaseEntity *param_2, boolparam_3); // vtable[249]
+	virtual void NotifyVPhysicsStateChanged(IPhysicsObject *param_1, CBaseEntity *param_2, bool param_3); // vtable[249]
 
 	void GetBaseMap(); // size[10]
-	void NotifyVPhysicsStateChanged(IPhysicsObject *param_1, CBaseEntity *param_2, boolparam_3); // size[10]
+	void NotifyVPhysicsStateChanged(IPhysicsObject *param_1, CBaseEntity *param_2, bool param_3); // size[10]
 	void InputSetVelocity(inputdata_t *param_1); // size[456]
 	~CPhysSlideConstraint(); // size[13]
 	~CPhysSlideConstraint(); // size[10]

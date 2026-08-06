@@ -24,6 +24,6 @@ public:
 	CWeaponGauss(); // size[153]
 	void GetFullChargeTime(); // size[52]
 	void StopSpinSound(); // size[31]
-	void Fire(Vectorparam_1, Vectorparam_2, floatparam_3); // size[821]
+	void Fire(Vector param_1, Vector param_2, float param_3); // size[821]
 	void StartFire(); // size[753]
 };

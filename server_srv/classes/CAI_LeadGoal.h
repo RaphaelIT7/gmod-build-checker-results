@@ -9,10 +9,10 @@ public:
 	virtual void InputActivate(inputdata_t *param_1) override; // vtable[246]
 	virtual void InputDeactivate(inputdata_t *param_1) override; // vtable[248]
 	virtual void GetConceptModifiers(char *param_1); // vtable[253]
-	virtual void OnEvent(intparam_1); // vtable[254]
+	virtual void OnEvent(int param_1); // vtable[254]
 
 	void InputSetFailure(inputdata_t *param_1); // size[16]
-	void OnEvent(intparam_1); // size[13]
+	void OnEvent(int param_1); // size[13]
 	void GetConceptModifiers(char *param_1); // size[13]
 	void GetBaseMap(); // size[10]
 	void GetLeadBehavior(); // size[191]

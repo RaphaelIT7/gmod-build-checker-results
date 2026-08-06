@@ -12,7 +12,7 @@ public:
 
 	void GetBaseMap(); // size[10]
 	CLaserDot_HL1(); // size[28]
-	void Create(Vector *param_1, CBaseEntity *param_2, boolparam_3); // size[119]
+	void Create(Vector *param_1, CBaseEntity *param_2, bool param_3); // size[119]
 	void SetLaserPosition(Vector *param_1, Vector *param_2); // size[74]
 	void GetChasePosition(); // size[5]
 	void TurnOn(); // size[120]

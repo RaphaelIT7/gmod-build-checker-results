@@ -11,5 +11,5 @@ public:
 
 	void _GLOBAL__sub_I_event_pre_collision(); // size[1]
 	void get_enabled_callbacks(); // size[11]
-	IVP_Listener_Collision(intparam_1); // size[20]
+	IVP_Listener_Collision(int param_1); // size[20]
 };

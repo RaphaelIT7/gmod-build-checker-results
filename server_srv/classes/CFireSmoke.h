@@ -13,7 +13,7 @@ public:
 
 	void GetBaseMap(); // size[10]
 	CFireSmoke(); // size[82]
-	void EnableSmoke(intparam_1); // size[89]
-	void EnableGlow(intparam_1); // size[89]
-	void EnableVisibleFromAbove(intparam_1); // size[89]
+	void EnableSmoke(int param_1); // size[89]
+	void EnableGlow(int param_1); // size[89]
+	void EnableVisibleFromAbove(int param_1); // size[89]
 };

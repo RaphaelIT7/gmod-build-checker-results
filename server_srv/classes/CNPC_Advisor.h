@@ -24,5 +24,5 @@ public:
 
 	void GetBaseMap(); // size[10]
 	void StartLevitatingObjects(); // size[213]
-	void CanLevitateEntity(CBaseEntity *param_1, intparam_2, intparam_3); // size[115]
+	void CanLevitateEntity(CBaseEntity *param_1, int param_2, int param_3); // size[115]
 };

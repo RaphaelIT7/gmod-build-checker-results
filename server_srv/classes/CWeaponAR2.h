@@ -9,7 +9,7 @@ public:
 	virtual void YouForgotToImplementOrDeclareServerClass() override; // vtable[11]
 	virtual void GetTracerType() override; // vtable[22]
 	virtual void Precache() override; // vtable[24]
-	virtual void DoImpactEffect(CGameTrace *param_1, intparam_2) override; // vtable[116]
+	virtual void DoImpactEffect(CGameTrace *param_1, int param_2) override; // vtable[116]
 	virtual void CanHolster() override; // vtable[304]
 	virtual void Deploy() override; // vtable[307]
 	virtual void ItemPostFrame() override; // vtable[318]
@@ -27,10 +27,10 @@ public:
 	virtual void ActivityListCount() override; // vtable[389]
 	virtual void CapabilitiesGet() override; // vtable[399]
 	virtual void Operator_HandleAnimEvent(animevent_t *param_1, CBaseCombatCharacter *param_2) override; // vtable[406]
-	virtual void Operator_ForceNPCFire(CBaseCombatCharacter *param_1, boolparam_2) override; // vtable[407]
+	virtual void Operator_ForceNPCFire(CBaseCombatCharacter *param_1, bool param_2) override; // vtable[407]
 
 	CWeaponAR2(); // size[102]
 	void DelayedAttack(); // size[223]
-	void FireNPCPrimaryAttack(CBaseCombatCharacter *param_1, boolparam_2); // size[438]
-	void FireNPCSecondaryAttack(CBaseCombatCharacter *param_1, boolparam_2); // size[310]
+	void FireNPCPrimaryAttack(CBaseCombatCharacter *param_1, bool param_2); // size[438]
+	void FireNPCSecondaryAttack(CBaseCombatCharacter *param_1, bool param_2); // size[310]
 };

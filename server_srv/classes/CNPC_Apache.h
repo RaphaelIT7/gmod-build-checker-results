@@ -20,6 +20,6 @@ public:
 
 	void _GLOBAL__sub_I_m_DataMap(); // size[113]
 	void GetBaseMap(); // size[10]
-	void LaunchRocket(Vector *param_1, intparam_2, intparam_3, Vectorparam_4); // size[178]
+	void LaunchRocket(Vector *param_1, int param_2, int param_3, Vector param_4); // size[178]
 	void FireRocket(); // size[133]
 };

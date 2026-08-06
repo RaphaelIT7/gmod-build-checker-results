@@ -9,6 +9,6 @@ public:
 	virtual ~IVP_Actuator_Force(); // vtable[8]
 	virtual void anchor_will_be_deleted_event(IVP_Anchor *param_1); // vtable[9]
 
-	void set_force(doubleparam_1); // size[64]
+	void set_force(double param_1); // size[64]
 	IVP_Actuator_Force(IVP_Environment *param_1, IVP_Template_Force *param_2); // size[86]
 };

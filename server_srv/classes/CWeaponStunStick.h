@@ -18,13 +18,13 @@ public:
 	virtual void ActivityList() override; // vtable[388]
 	virtual void ActivityListCount() override; // vtable[389]
 	virtual void CapabilitiesGet() override; // vtable[399]
-	virtual void WeaponMeleeAttack1Condition(floatparam_1, floatparam_2) override; // vtable[403]
+	virtual void WeaponMeleeAttack1Condition(float param_1, float param_2) override; // vtable[403]
 	virtual void Operator_HandleAnimEvent(animevent_t *param_1, CBaseCombatCharacter *param_2) override; // vtable[406]
 	virtual void GetRange() override; // vtable[429]
-	virtual void GetDamageForActivity(Activityparam_1) override; // vtable[430]
+	virtual void GetDamageForActivity(Activity param_1) override; // vtable[430]
 	virtual void ImpactEffect(CGameTrace *param_1) override; // vtable[431]
 
 	CWeaponStunStick(); // size[37]
-	void SetStunState(boolparam_1); // size[276]
+	void SetStunState(bool param_1); // size[276]
 	void GetStunState(); // size[15]
 };

@@ -19,7 +19,7 @@ public:
 	virtual void RunTask(Task_t *param_1) override; // vtable[29]
 	virtual void AimGun() override; // vtable[30]
 	virtual void GetSchedulingErrorName() override; // vtable[33]
-	virtual void NPC_TranslateActivity(Activityparam_1) override; // vtable[35]
+	virtual void NPC_TranslateActivity(Activity param_1) override; // vtable[35]
 	virtual void BestEnemy() override; // vtable[42]
 	virtual void OnTakeDamage_Alive(CTakeDamageInfo *param_1) override; // vtable[51]
 	virtual void GetDataDescMap() override; // vtable[70]
@@ -27,7 +27,7 @@ public:
 
 	void _GLOBAL__sub_I_m_DataMap(); // size[113]
 	void GetBaseMap(); // size[10]
-	void SetFuncTank(CHandleparam_1); // size[184]
+	void SetFuncTank(CHandle param_1); // size[184]
 	void Dismount(); // size[338]
 	void InitCustomSchedules(); // size[290]
 	void LoadSchedules(); // size[56]
