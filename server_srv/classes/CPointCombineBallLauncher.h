@@ -9,7 +9,7 @@ public:
 	virtual void Spawn() override; // vtable[23]
 	virtual void SpawnBall() override; // vtable[246]
 
-	void InputLaunchBall(); // size[0]
-	void GetBaseMap(); // size[0]
-	CPointCombineBallLauncher(); // size[0]
+	void InputLaunchBall(inputdata_t *param_1); // size[17]
+	void GetBaseMap(); // size[10]
+	CPointCombineBallLauncher(); // size[67]
 };

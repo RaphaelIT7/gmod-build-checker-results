@@ -10,7 +10,7 @@ public:
 	virtual void Precache() override; // vtable[24]
 	virtual void SpinDownCall() override; // vtable[652]
 	virtual void SpinUpCall() override; // vtable[653]
-	virtual void Shoot() override; // vtable[657]
+	virtual void Shoot(Vector *param_1, Vector *param_2) override; // vtable[657]
 
-	void GetBaseMap(); // size[0]
+	void GetBaseMap(); // size[10]
 };

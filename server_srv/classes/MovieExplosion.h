@@ -8,6 +8,6 @@ public:
 	virtual void GetServerClass() override; // vtable[10]
 	virtual void YouForgotToImplementOrDeclareServerClass() override; // vtable[11]
 
-	void _GLOBAL__sub_I_GetServerClass(); // size[0]
-	void CreateMovieExplosion(); // size[0]
+	void _GLOBAL__sub_I_GetServerClass(); // size[112]
+	void CreateMovieExplosion(Vector *param_1); // size[75]
 };

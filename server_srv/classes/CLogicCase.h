@@ -8,9 +8,9 @@ public:
 	virtual void GetDataDescMap() override; // vtable[12]
 	virtual void Spawn() override; // vtable[23]
 
-	void InputValue(); // size[0]
-	void GetBaseMap(); // size[0]
-	void BuildCaseMap(); // size[0]
-	void InputPickRandom(); // size[0]
-	void InputPickRandomShuffle(); // size[0]
+	void InputValue(inputdata_t *param_1); // size[201]
+	void GetBaseMap(); // size[10]
+	void BuildCaseMap(uchar *param_1); // size[98]
+	void InputPickRandom(inputdata_t *param_1); // size[151]
+	void InputPickRandomShuffle(inputdata_t *param_1); // size[281]
 };

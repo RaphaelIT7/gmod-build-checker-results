@@ -9,6 +9,6 @@ public:
 	virtual void Cycle(); // vtable[3]
 	virtual void Finished() override; // vtable[4]
 
-	_GLOBAL__sub_I_DownloadAddons(); // size[0]
-	DownloadAddons(); // size[0]
+	_GLOBAL__sub_I_DownloadAddons(); // size[91]
+	DownloadAddons(bool param_1); // size[27]
 };

@@ -3,18 +3,10 @@
 	"id": 0,
 	"entrybits": 13,
 	"maxstrings": 8192,
-	"numstrings": 3,
+	"numstrings": 1,
 	"strings": [
 		{
 			"key": "maps\\gm_flatgrass.bsp",
-			"userdatalength": 0
-		},
-		{
-			"key": "maps\\graphs\\gm_flatgrass.ain",
-			"userdatalength": 0
-		},
-		{
-			"key": "maps\\gm_flatgrass.nav",
 			"userdatalength": 0
 		}
 	]

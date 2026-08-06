@@ -10,6 +10,6 @@ public:
 	virtual void Precache() override; // vtable[24]
 	virtual void ObjectCaps() override; // vtable[36]
 
-	void InputTrigger(); // size[0]
-	void GetBaseMap(); // size[0]
+	void InputTrigger(inputdata_t *param_1); // size[732]
+	void GetBaseMap(); // size[10]
 };

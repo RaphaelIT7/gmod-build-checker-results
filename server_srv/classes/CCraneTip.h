@@ -9,8 +9,8 @@ public:
 	virtual void Spawn() override; // vtable[23]
 	virtual void Precache() override; // vtable[24]
 
-	void _GLOBAL__sub_I_m_DataMap(); // size[0]
-	void GetBaseMap(); // size[0]
-	void CreateConstraint(); // size[0]
-	void Create(); // size[0]
+	void _GLOBAL__sub_I_m_DataMap(); // size[112]
+	void GetBaseMap(); // size[10]
+	void CreateConstraint(CBaseAnimating *param_1, IPhysicsConstraintGroup *param_2); // size[423]
+	void Create(CBaseAnimating *param_1, IPhysicsConstraintGroup *param_2, Vector *param_3, QAngle *param_4); // size[89]
 };

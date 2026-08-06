@@ -3,8 +3,8 @@
 class CTraceFilterSimpleList : public CTraceFilterSimple
 {
 public:
-	virtual void ShouldHitEntity() override; // vtable[0]
+	virtual void ShouldHitEntity(IHandleEntity *param_1, int param_2) override; // vtable[0]
 
-	CTraceFilterSimpleList(); // size[0]
-	void AddEntityToIgnore(); // size[0]
+	CTraceFilterSimpleList(int param_1); // size[69]
+	void AddEntityToIgnore(IHandleEntity *param_1); // size[113]
 };

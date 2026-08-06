@@ -13,7 +13,7 @@ public:
 	virtual void FallInit() override; // vtable[393]
 	virtual void FallThink() override; // vtable[394]
 
-	void _GLOBAL__sub_I_GetServerClass(); // size[0]
-	void _GLOBAL__sub_I_Precache(); // size[0]
-	void ShouldSkipPrecache(); // size[0]
+	void _GLOBAL__sub_I_GetServerClass(); // size[112]
+	void _GLOBAL__sub_I_Precache(); // size[113]
+	void ShouldSkipPrecache(); // size[15]
 };

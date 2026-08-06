@@ -7,7 +7,8 @@ public:
 	virtual void YouForgotToImplementOrDeclareServerClass() override; // vtable[1]
 	virtual ~CTEBloodSprite() override; // vtable[2]
 	virtual ~CTEBloodSprite() override; // vtable[3]
-	virtual void Test() override; // vtable[4]
+	virtual void Test(Vector *param_1, QAngle *param_2) override; // vtable[4]
 
-	_GLOBAL__sub_I_CTEBloodSprite(); // size[0]
+	_GLOBAL__sub_I_CTEBloodSprite(); // size[112]
+	CTEBloodSprite(char *param_1); // size[105]
 };

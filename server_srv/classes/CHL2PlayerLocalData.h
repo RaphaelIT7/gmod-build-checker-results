@@ -4,8 +4,8 @@ class CHL2PlayerLocalData
 {
 public:
 	virtual void NetworkStateChanged(); // vtable[0]
-	virtual void NetworkStateChanged(); // vtable[1]
+	virtual void NetworkStateChanged(void *param_1); // vtable[1]
 
-	void GetBaseMap(); // size[0]
-	CHL2PlayerLocalData(); // size[0]
+	void GetBaseMap(); // size[7]
+	CHL2PlayerLocalData(); // size[157]
 };

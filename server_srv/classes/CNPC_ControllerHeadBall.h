@@ -9,9 +9,9 @@ public:
 	virtual void Spawn() override; // vtable[23]
 	virtual void Precache() override; // vtable[24]
 
-	void KillThink(); // size[0]
-	void BounceTouch(); // size[0]
-	void GetBaseMap(); // size[0]
-	void MovetoTarget(); // size[0]
-	void HuntThink(); // size[0]
+	void KillThink(); // size[90]
+	void BounceTouch(CBaseEntity *param_1); // size[347]
+	void GetBaseMap(); // size[10]
+	void MovetoTarget(Vector param_1); // size[482]
+	void HuntThink(); // size[151]
 };

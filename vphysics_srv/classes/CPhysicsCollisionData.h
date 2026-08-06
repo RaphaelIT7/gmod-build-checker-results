@@ -3,7 +3,7 @@
 class CPhysicsCollisionData : public IPhysicsCollisionData
 {
 public:
-	virtual void GetSurfaceNormal(); // vtable[0]
-	virtual void GetContactPoint(); // vtable[1]
-	virtual void GetContactSpeed(); // vtable[2]
+	virtual void GetSurfaceNormal(Vector *param_1); // vtable[0]
+	virtual void GetContactPoint(Vector *param_1); // vtable[1]
+	virtual void GetContactSpeed(Vector *param_1); // vtable[2]
 };

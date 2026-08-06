@@ -9,6 +9,6 @@ public:
 	virtual void Spawn() override; // vtable[23]
 	virtual void Precache() override; // vtable[24]
 
-	void LeechThink(); // size[0]
-	void GetBaseMap(); // size[0]
+	void LeechThink(); // size[701]
+	void GetBaseMap(); // size[10]
 };

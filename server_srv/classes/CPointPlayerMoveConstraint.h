@@ -9,9 +9,9 @@ public:
 	virtual void UpdateTransmitState() override; // vtable[20]
 	virtual void Activate() override; // vtable[34]
 
-	void _GLOBAL__sub_I_m_DataMap(); // size[0]
-	void ConstraintThink(); // size[0]
-	void GetBaseMap(); // size[0]
-	void InputTurnOff(); // size[0]
-	void InputTurnOn(); // size[0]
+	void _GLOBAL__sub_I_m_DataMap(); // size[113]
+	void ConstraintThink(); // size[413]
+	void GetBaseMap(); // size[10]
+	void InputTurnOff(inputdata_t *param_1); // size[160]
+	void InputTurnOn(inputdata_t *param_1); // size[781]
 };

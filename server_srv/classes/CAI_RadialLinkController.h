@@ -9,7 +9,7 @@ public:
 	virtual void Spawn() override; // vtable[23]
 	virtual void Activate() override; // vtable[34]
 
-	void GetBaseMap(); // size[0]
-	void ModifyNodeLinks(); // size[0]
-	void PollMotionThink(); // size[0]
+	void GetBaseMap(); // size[10]
+	void ModifyNodeLinks(bool param_1); // size[617]
+	void PollMotionThink(); // size[509]
 };

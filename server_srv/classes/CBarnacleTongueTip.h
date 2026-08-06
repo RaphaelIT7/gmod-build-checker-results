@@ -10,10 +10,10 @@ public:
 	virtual void Spawn() override; // vtable[23]
 	virtual void Precache() override; // vtable[24]
 	virtual void UpdateOnRemove() override; // vtable[108]
-	virtual void VPhysicsUpdate() override; // vtable[161]
+	virtual void VPhysicsUpdate(IPhysicsObject *param_1) override; // vtable[161]
 
-	void GetBaseMap(); // size[0]
-	void CreateSpring(); // size[0]
-	void CreateTongueTip(); // size[0]
-	void CreateTongueRoot(); // size[0]
+	void GetBaseMap(); // size[10]
+	void CreateSpring(CBaseAnimating *param_1); // size[429]
+	void CreateTongueTip(CNPC_Barnacle *param_1, CBaseAnimating *param_2, Vector *param_3, QAngle *param_4); // size[228]
+	void CreateTongueRoot(Vector *param_1, QAngle *param_2); // size[86]
 };

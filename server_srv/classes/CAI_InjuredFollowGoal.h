@@ -6,8 +6,8 @@ public:
 	virtual ~CAI_InjuredFollowGoal() override; // vtable[0]
 	virtual ~CAI_InjuredFollowGoal() override; // vtable[1]
 	virtual void GetDataDescMap() override; // vtable[12]
-	virtual void EnableGoal() override; // vtable[251]
-	virtual void DisableGoal() override; // vtable[252]
+	virtual void EnableGoal(CAI_BaseNPC *param_1) override; // vtable[251]
+	virtual void DisableGoal(CAI_BaseNPC *param_1) override; // vtable[252]
 
-	void GetBaseMap(); // size[0]
+	void GetBaseMap(); // size[10]
 };

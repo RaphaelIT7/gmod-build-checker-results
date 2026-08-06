@@ -7,6 +7,6 @@ public:
 	virtual ~CPhysConvert() override; // vtable[1]
 	virtual void GetDataDescMap() override; // vtable[12]
 
-	void InputConvertTarget(); // size[0]
-	void GetBaseMap(); // size[0]
+	void InputConvertTarget(inputdata_t *param_1); // size[58]
+	void GetBaseMap(); // size[10]
 };

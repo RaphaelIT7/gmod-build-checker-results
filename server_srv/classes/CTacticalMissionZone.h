@@ -3,6 +3,6 @@
 class CTacticalMissionZone
 {
 public:
-	virtual void SelectArea(); // vtable[0]
-	virtual void ForEachArea(); // vtable[1]
+	virtual void SelectArea(CBasePlayer *param_1); // vtable[0]
+	virtual void ForEachArea(IForEachNavArea *param_1); // vtable[1]
 };

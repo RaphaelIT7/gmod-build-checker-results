@@ -8,9 +8,9 @@ public:
 	virtual void GetDataDescMap() override; // vtable[12]
 	virtual void Spawn() override; // vtable[23]
 	virtual void Precache() override; // vtable[24]
-	virtual void SetAnswerQuestion() override; // vtable[731]
-	virtual void FriendNumber() override; // vtable[732]
+	virtual void SetAnswerQuestion(CNPCSimpleTalker *param_1) override; // vtable[731]
+	virtual void FriendNumber(int param_1) override; // vtable[732]
 
-	void SittingThink(); // size[0]
-	void GetBaseMap(); // size[0]
+	void SittingThink(); // size[178]
+	void GetBaseMap(); // size[10]
 };

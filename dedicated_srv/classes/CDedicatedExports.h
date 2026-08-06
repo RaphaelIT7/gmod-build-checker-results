@@ -3,11 +3,11 @@
 class CDedicatedExports : public CBaseAppSystem
 {
 public:
-	virtual void Connect(); // vtable[0]
+	virtual void Connect(_func_void_ptr_char_ptr_int_ptr *param_1); // vtable[0]
 	virtual void Disconnect(); // vtable[1]
-	virtual void QueryInterface(); // vtable[2]
+	virtual void QueryInterface(char *param_1); // vtable[2]
 	virtual void Init(); // vtable[3]
 	virtual void Shutdown() override; // vtable[4]
-	virtual void Sys_Printf(); // vtable[5]
+	virtual void Sys_Printf(char *param_1); // vtable[5]
 	virtual void RunServer(); // vtable[6]
 };

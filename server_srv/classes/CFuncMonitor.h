@@ -11,9 +11,9 @@ public:
 	virtual void Activate() override; // vtable[34]
 	virtual void UpdateOnRemove() override; // vtable[108]
 
-	void _GLOBAL__sub_I_m_DataMap(); // size[0]
-	void GetBaseMap(); // size[0]
-	void ReleaseCameraLink(); // size[0]
-	void SetCameraByName(); // size[0]
-	void InputSetCamera(); // size[0]
+	void _GLOBAL__sub_I_m_DataMap(); // size[112]
+	void GetBaseMap(); // size[10]
+	void ReleaseCameraLink(); // size[95]
+	void SetCameraByName(char *param_1); // size[121]
+	void InputSetCamera(inputdata_t *param_1); // size[75]
 };

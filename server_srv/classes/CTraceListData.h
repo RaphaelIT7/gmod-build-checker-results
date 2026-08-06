@@ -3,5 +3,5 @@
 class CTraceListData : public IPartitionEnumerator
 {
 public:
-	virtual void EnumElement() override; // vtable[0]
+	virtual void EnumElement(IHandleEntity *param_1) override; // vtable[0]
 };

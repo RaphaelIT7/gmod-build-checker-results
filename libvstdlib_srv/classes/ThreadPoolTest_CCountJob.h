@@ -7,6 +7,6 @@ public:
 	virtual ~CCountJob() override; // vtable[3]
 	virtual void DoExecute() override; // vtable[6]
 
-	~CCountJob(); // size[0]
-	~CCountJob(); // size[0]
+	~CCountJob(); // size[10]
+	~CCountJob(); // size[7]
 };

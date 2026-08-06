@@ -8,10 +8,10 @@ public:
 	virtual void GetServerClass() override; // vtable[10]
 	virtual void YouForgotToImplementOrDeclareServerClass() override; // vtable[11]
 	virtual void GetDataDescMap() override; // vtable[12]
-	virtual void KeyValue() override; // vtable[30]
+	virtual void KeyValue(char *param_1, char *param_2) override; // vtable[30]
 
-	void GetBaseMap(); // size[0]
-	DustTrail(); // size[0]
-	void SetEmit(); // size[0]
-	void CreateDustTrail(); // size[0]
+	void GetBaseMap(); // size[10]
+	DustTrail(); // size[228]
+	void SetEmit(bool param_1); // size[65]
+	void CreateDustTrail(); // size[77]
 };

@@ -6,6 +6,6 @@ public:
 	virtual ~IDirect3DCubeTexture9() override; // vtable[0]
 	virtual ~IDirect3DCubeTexture9() override; // vtable[1]
 
-	void GetCubeMapSurface(); // size[0]
-	void GetLevelDesc(); // size[0]
+	void GetCubeMapSurface(_D3DCUBEMAP_FACES param_1, uint param_2, IDirect3DSurface9 * *param_3); // size[201]
+	void GetLevelDesc(uint param_1, _D3DSURFACE_DESC *param_2); // size[138]
 };

@@ -10,10 +10,10 @@ public:
 	virtual void Precache() override; // vtable[24]
 	virtual void Think() override; // vtable[48]
 	virtual void Classify() override; // vtable[55]
-	virtual void OnTakeDamage() override; // vtable[64]
-	virtual void Touch() override; // vtable[102]
-	virtual void HandleAnimEvent() override; // vtable[261]
+	virtual void OnTakeDamage(CTakeDamageInfo *param_1) override; // vtable[64]
+	virtual void Touch(CBaseEntity *param_1) override; // vtable[102]
+	virtual void HandleAnimEvent(animevent_t *param_1) override; // vtable[261]
 
-	void GetBaseMap(); // size[0]
-	void Attack(); // size[0]
+	void GetBaseMap(); // size[10]
+	void Attack(); // size[83]
 };

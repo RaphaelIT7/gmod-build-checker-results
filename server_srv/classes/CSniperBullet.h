@@ -8,9 +8,9 @@ public:
 	virtual void GetDataDescMap() override; // vtable[12]
 	virtual void Precache() override; // vtable[24]
 
-	void GetBaseMap(); // size[0]
-	void Start(); // size[0]
-	void Init(); // size[0]
-	void Stop(); // size[0]
-	void BulletThink(); // size[0]
+	void GetBaseMap(); // size[10]
+	void Start(Vector *param_1, Vector *param_2, CBaseEntity *param_3, bool param_4); // size[824]
+	void Init(); // size[72]
+	void Stop(); // size[59]
+	void BulletThink(); // size[744]
 };

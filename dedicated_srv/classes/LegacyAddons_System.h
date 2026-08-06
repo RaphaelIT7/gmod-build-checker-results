@@ -6,6 +6,6 @@ public:
 	virtual void Refresh(); // vtable[0]
 	virtual void GetList() override; // vtable[1]
 
-	_GLOBAL__sub_I_System(); // size[0]
-	System(); // size[0]
+	_GLOBAL__sub_I_System(); // size[91]
+	System(); // size[23]
 };

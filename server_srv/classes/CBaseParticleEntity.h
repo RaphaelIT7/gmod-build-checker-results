@@ -11,8 +11,8 @@ public:
 	virtual void Activate() override; // vtable[34]
 	virtual void Think() override; // vtable[48]
 
-	void _GLOBAL__sub_I_GetServerClass(); // size[0]
-	CBaseParticleEntity(); // size[0]
-	void FollowEntity(); // size[0]
-	void SetLifetime(); // size[0]
+	void _GLOBAL__sub_I_GetServerClass(); // size[112]
+	CBaseParticleEntity(); // size[26]
+	void FollowEntity(CBaseEntity *param_1); // size[53]
+	void SetLifetime(float param_1); // size[90]
 };

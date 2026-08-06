@@ -3,5 +3,5 @@
 class CUtlNoEscConversion : public CUtlCharConversion
 {
 public:
-	virtual void FindConversion() override; // vtable[0]
+	virtual void FindConversion(char *param_1, int *param_2) override; // vtable[0]
 };

@@ -9,7 +9,7 @@ public:
 	virtual void YouForgotToImplementOrDeclareServerClass() override; // vtable[11]
 	virtual void GetDataDescMap() override; // vtable[12]
 	virtual void Deploy() override; // vtable[307]
-	virtual void Holster() override; // vtable[308]
+	virtual void Holster(CBaseCombatWeapon *param_1) override; // vtable[308]
 	virtual void WeaponIdle() override; // vtable[321]
 	virtual void Reload() override; // vtable[329]
 	virtual void PrimaryAttack() override; // vtable[332]
@@ -18,8 +18,8 @@ public:
 	virtual void ActivityList() override; // vtable[388]
 	virtual void ActivityListCount() override; // vtable[389]
 
-	void GetBaseMap(); // size[0]
-	CWeaponCrossbow_HL1(); // size[0]
-	void FireBolt(); // size[0]
-	void ToggleZoom(); // size[0]
+	void GetBaseMap(); // size[10]
+	CWeaponCrossbow_HL1(); // size[51]
+	void FireBolt(); // size[95]
+	void ToggleZoom(); // size[20]
 };

@@ -7,8 +7,7 @@ public:
 	virtual void YouForgotToImplementOrDeclareServerClass() override; // vtable[1]
 	virtual ~CTEPlayerDecal() override; // vtable[2]
 	virtual ~CTEPlayerDecal() override; // vtable[3]
-	virtual void Test() override; // vtable[4]
+	virtual void Test(Vector *param_1, QAngle *param_2) override; // vtable[4]
 
-	_GLOBAL__sub_I_CTEPlayerDecal(); // size[0]
-	CTEPlayerDecal(); // size[0]
+	_GLOBAL__sub_I_CTEPlayerDecal(); // size[112]
 };

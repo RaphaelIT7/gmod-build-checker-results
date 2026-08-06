@@ -7,8 +7,8 @@ public:
 	virtual ~CTextureToggle() override; // vtable[1]
 	virtual void GetDataDescMap() override; // vtable[12]
 
-	void _GLOBAL__sub_I_m_DataMap(); // size[0]
-	void InputIncrementBrushTexIndex(); // size[0]
-	void InputSetBrushTexIndex(); // size[0]
-	void GetBaseMap(); // size[0]
+	void _GLOBAL__sub_I_m_DataMap(); // size[113]
+	void InputIncrementBrushTexIndex(inputdata_t *param_1); // size[225]
+	void InputSetBrushTexIndex(inputdata_t *param_1); // size[26]
+	void GetBaseMap(); // size[10]
 };

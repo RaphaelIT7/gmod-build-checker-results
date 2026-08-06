@@ -9,11 +9,11 @@ public:
 	virtual void Activate() override; // vtable[34]
 	virtual void Think() override; // vtable[48]
 
-	void InputDisable(); // size[0]
-	void InputSetTargetEntity(); // size[0]
-	void GetBaseMap(); // size[0]
-	void Enable(); // size[0]
-	void InputEnable(); // size[0]
-	void InputToggle(); // size[0]
-	void Disable(); // size[0]
+	void InputDisable(inputdata_t *param_1); // size[48]
+	void InputSetTargetEntity(inputdata_t *param_1); // size[350]
+	void GetBaseMap(); // size[10]
+	void Enable(); // size[107]
+	void InputEnable(inputdata_t *param_1); // size[9]
+	void InputToggle(inputdata_t *param_1); // size[63]
+	void Disable(); // size[32]
 };

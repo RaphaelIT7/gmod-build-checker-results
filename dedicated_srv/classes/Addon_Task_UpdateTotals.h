@@ -9,6 +9,6 @@ public:
 	virtual void Cycle(); // vtable[3]
 	virtual void Finished() override; // vtable[4]
 
-	_GLOBAL__sub_I_UpdateTotals(); // size[0]
-	UpdateTotals(); // size[0]
+	_GLOBAL__sub_I_UpdateTotals(); // size[91]
+	UpdateTotals(int param_1, int param_2); // size[33]
 };

@@ -4,10 +4,10 @@ class CDefaultResponseSystemSaveRestoreBlockHandler : public CDefSaveRestoreBloc
 {
 public:
 	virtual void GetBlockName() override; // vtable[0]
-	virtual void Save() override; // vtable[2]
-	virtual void WriteSaveHeaders() override; // vtable[3]
-	virtual void ReadRestoreHeaders() override; // vtable[6]
-	virtual void Restore() override; // vtable[7]
+	virtual void Save(ISave *param_1) override; // vtable[2]
+	virtual void WriteSaveHeaders(ISave *param_1) override; // vtable[3]
+	virtual void ReadRestoreHeaders(IRestore *param_1) override; // vtable[6]
+	virtual void Restore(IRestore *param_1, bool param_2) override; // vtable[7]
 
-	void Restore(); // size[0]
+	void Restore(IRestore *param_1, bool param_2); // size[126]
 };

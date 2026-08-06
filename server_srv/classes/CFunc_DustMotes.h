@@ -6,5 +6,5 @@ public:
 	virtual ~CFunc_DustMotes() override; // vtable[0]
 	virtual ~CFunc_DustMotes() override; // vtable[1]
 
-	CFunc_DustMotes(); // size[0]
+	CFunc_DustMotes(); // size[67]
 };

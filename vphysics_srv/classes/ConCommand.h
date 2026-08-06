@@ -5,12 +5,12 @@ class ConCommand : public ConCommandBase
 public:
 	virtual ~ConCommand() override; // vtable[0]
 	virtual ~ConCommand() override; // vtable[1]
-	virtual void AutoCompleteSuggest(); // vtable[11]
+	virtual void AutoCompleteSuggest(char *param_1, CUtlVector *param_2); // vtable[11]
 	virtual void CanAutoComplete(); // vtable[12]
-	virtual void Dispatch(); // vtable[13]
+	virtual void Dispatch(CCommand *param_1); // vtable[13]
 
-	void AutoCompleteSuggest(); // size[0]
-	ConCommand(); // size[0]
-	ConCommand(); // size[0]
-	ConCommand(); // size[0]
+	void AutoCompleteSuggest(char *param_1, CUtlVector *param_2); // size[23]
+	ConCommand(char *param_1, _func_void *param_2, char *param_3, int param_4, int_(*)(char_const*,char *param_5); // size[136]
+	ConCommand(char *param_1, _func_void_CCommand_ptr *param_2, char *param_3, int param_4, int_(*)(char_const*,char *param_5); // size[148]
+	ConCommand(char *param_1, ICommandCallback *param_2, char *param_3, int param_4, ICommandCompletionCallback *param_5); // size[129]
 };

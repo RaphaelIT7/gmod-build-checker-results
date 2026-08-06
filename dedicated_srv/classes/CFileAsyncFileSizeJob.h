@@ -7,6 +7,6 @@ public:
 	virtual ~CFileAsyncFileSizeJob() override; // vtable[3]
 	virtual void DoExecute() override; // vtable[6]
 
-	~CFileAsyncFileSizeJob(); // size[0]
-	~CFileAsyncFileSizeJob(); // size[0]
+	~CFileAsyncFileSizeJob(); // size[10]
+	~CFileAsyncFileSizeJob(); // size[10]
 };

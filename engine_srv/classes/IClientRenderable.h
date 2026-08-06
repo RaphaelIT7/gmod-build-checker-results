@@ -4,5 +4,5 @@ class IClientRenderable
 {
 public:
 	virtual void __cxa_pure_virtual(); // vtable[44]
-	virtual void ComputeFxBlendForView(); // vtable[45]
+	virtual void ComputeFxBlendForView(int param_1); // vtable[45]
 };

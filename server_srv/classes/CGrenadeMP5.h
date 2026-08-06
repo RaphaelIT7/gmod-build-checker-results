@@ -10,8 +10,8 @@ public:
 	virtual void Precache() override; // vtable[24]
 	virtual void Detonate() override; // vtable[283]
 
-	void _GLOBAL__sub_I_m_DataMap(); // size[0]
-	void GrenadeMP5Touch(); // size[0]
-	void GetBaseMap(); // size[0]
-	void Event_Killed(); // size[0]
+	void _GLOBAL__sub_I_m_DataMap(); // size[113]
+	void GrenadeMP5Touch(CBaseEntity *param_1); // size[162]
+	void GetBaseMap(); // size[10]
+	void Event_Killed(CBaseEntity *param_1, CBaseEntity *param_2, float param_3, int param_4); // size[17]
 };

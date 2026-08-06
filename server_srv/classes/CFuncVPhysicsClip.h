@@ -9,10 +9,10 @@ public:
 	virtual void Spawn() override; // vtable[23]
 	virtual void Activate() override; // vtable[34]
 	virtual void CreateVPhysics() override; // vtable[157]
-	virtual void ForceVPhysicsCollide() override; // vtable[158]
+	virtual void ForceVPhysicsCollide(CBaseEntity *param_1) override; // vtable[158]
 
-	void InputEnable(); // size[0]
-	void InputDisable(); // size[0]
-	void GetBaseMap(); // size[0]
-	void EntityPassesFilter(); // size[0]
+	void InputEnable(inputdata_t *param_1); // size[45]
+	void InputDisable(inputdata_t *param_1); // size[45]
+	void GetBaseMap(); // size[10]
+	void EntityPassesFilter(CBaseEntity *param_1); // size[124]
 };

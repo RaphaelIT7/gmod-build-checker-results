@@ -11,10 +11,10 @@ public:
 	virtual void UpdateOnRemove() override; // vtable[108]
 	virtual void BounceSound() override; // vtable[285]
 
-	void InputExplode(); // size[0]
-	void SatchelThink(); // size[0]
-	void GetBaseMap(); // size[0]
-	void Deactivate(); // size[0]
-	void CreateEffects(); // size[0]
-	CSatchelCharge(); // size[0]
+	void InputExplode(inputdata_t *param_1); // size[220]
+	void SatchelThink(); // size[717]
+	void GetBaseMap(); // size[10]
+	void Deactivate(); // size[41]
+	void CreateEffects(); // size[363]
+	CSatchelCharge(); // size[87]
 };

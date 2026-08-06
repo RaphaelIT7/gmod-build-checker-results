@@ -8,6 +8,6 @@ public:
 	virtual void Unlock() override; // vtable[2]
 	virtual ~CDataManager(); // vtable[3]
 	virtual ~CDataManager(); // vtable[4]
-	virtual void DestroyResourceStorage(); // vtable[5]
-	virtual void GetRealSize(); // vtable[6]
+	virtual void DestroyResourceStorage(void *param_1); // vtable[5]
+	virtual void GetRealSize(void *param_1); // vtable[6]
 };

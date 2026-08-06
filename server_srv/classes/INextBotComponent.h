@@ -10,6 +10,6 @@ public:
 	virtual void Upkeep(); // vtable[45]
 	virtual void GetBot(); // vtable[46]
 
-	_GLOBAL__sub_I_INextBotComponent(); // size[0]
-	INextBotComponent(); // size[0]
+	_GLOBAL__sub_I_INextBotComponent(); // size[113]
+	INextBotComponent(INextBot *param_1); // size[67]
 };

@@ -8,7 +8,7 @@ public:
 	virtual void GetDataDescMap() override; // vtable[12]
 	virtual void Spawn() override; // vtable[23]
 
-	void FallThink(); // size[0]
-	void RemoveThink(); // size[0]
-	void GetBaseMap(); // size[0]
+	void FallThink(); // size[34]
+	void RemoveThink(); // size[130]
+	void GetBaseMap(); // size[10]
 };

@@ -8,8 +8,8 @@ public:
 	virtual void GetServerClass() override; // vtable[10]
 	virtual void YouForgotToImplementOrDeclareServerClass() override; // vtable[11]
 	virtual void UpdateTransmitState() override; // vtable[20]
-	virtual void KeyValue() override; // vtable[30]
+	virtual void KeyValue(char *param_1, char *param_2) override; // vtable[30]
 
-	void _GLOBAL__sub_I_GetServerClass(); // size[0]
-	CEnvDetailController(); // size[0]
+	void _GLOBAL__sub_I_GetServerClass(); // size[112]
+	CEnvDetailController(); // size[26]
 };

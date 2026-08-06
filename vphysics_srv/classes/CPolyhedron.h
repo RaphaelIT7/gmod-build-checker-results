@@ -3,5 +3,5 @@
 class CPolyhedron
 {
 public:
-	void Center(); // size[0]
+	void Center(); // size[207]
 };

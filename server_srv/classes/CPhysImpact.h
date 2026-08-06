@@ -9,7 +9,7 @@ public:
 	virtual void Spawn() override; // vtable[23]
 	virtual void Activate() override; // vtable[34]
 
-	void PointAtEntity(); // size[0]
-	void InputImpact(); // size[0]
-	void GetBaseMap(); // size[0]
+	void PointAtEntity(); // size[39]
+	void InputImpact(inputdata_t *param_1); // size[218]
+	void GetBaseMap(); // size[10]
 };

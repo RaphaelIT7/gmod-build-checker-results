@@ -8,10 +8,10 @@ public:
 	virtual void GetDataDescMap() override; // vtable[12]
 	virtual void Spawn() override; // vtable[23]
 
-	void InputSetMaxAllies(); // size[0]
-	void InputSetMaxMedics(); // size[0]
-	void GetBaseMap(); // size[0]
-	void CountAllies(); // size[0]
-	void WatchCounts(); // size[0]
-	void InputReplenish(); // size[0]
+	void InputSetMaxAllies(inputdata_t *param_1); // size[29]
+	void InputSetMaxMedics(inputdata_t *param_1); // size[29]
+	void GetBaseMap(); // size[10]
+	void CountAllies(int *param_1, int *param_2); // size[602]
+	void WatchCounts(); // size[256]
+	void InputReplenish(inputdata_t *param_1); // size[358]
 };

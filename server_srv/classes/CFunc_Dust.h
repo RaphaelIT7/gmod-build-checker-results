@@ -10,12 +10,12 @@ public:
 	virtual void GetDataDescMap() override; // vtable[12]
 	virtual void Spawn() override; // vtable[23]
 	virtual void Precache() override; // vtable[24]
-	virtual void KeyValue() override; // vtable[30]
+	virtual void KeyValue(char *param_1, char *param_2) override; // vtable[30]
 	virtual void Activate() override; // vtable[34]
 
-	void _GLOBAL__sub_I_GetServerClass(); // size[0]
-	void InputTurnOff(); // size[0]
-	void InputTurnOn(); // size[0]
-	void GetBaseMap(); // size[0]
-	CFunc_Dust(); // size[0]
+	void _GLOBAL__sub_I_GetServerClass(); // size[113]
+	void InputTurnOn(inputdata_t *param_1); // size[69]
+	void InputTurnOff(inputdata_t *param_1); // size[69]
+	void GetBaseMap(); // size[10]
+	CFunc_Dust(); // size[28]
 };

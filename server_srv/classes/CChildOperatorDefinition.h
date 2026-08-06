@@ -4,7 +4,7 @@ class CChildOperatorDefinition : public IParticleOperatorDefinition
 {
 public:
 	virtual void GetName(); // vtable[0]
-	virtual void CreateInstance(); // vtable[1]
+	virtual void CreateInstance(UniqueId_t *param_1); // vtable[1]
 	virtual void GetUnpackStructure(); // vtable[2]
 	virtual void GetId(); // vtable[3]
 	virtual void GetFilter(); // vtable[4]

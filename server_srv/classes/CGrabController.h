@@ -3,18 +3,18 @@
 class CGrabController : public IMotionEvent
 {
 public:
-	virtual void Simulate() override; // vtable[0]
+	virtual void Simulate(IPhysicsMotionController *param_1, IPhysicsObject *param_2, float param_3, Vector *param_4, Vector *param_5) override; // vtable[0]
 
-	CGrabController(); // size[0]
-	void OnRestore(); // size[0]
-	void ComputeMaxSpeed(); // size[0]
-	void TransformAnglesToPlayerSpace(); // size[0]
-	void TransformAnglesFromPlayerSpace(); // size[0]
-	void DetachEntity(); // size[0]
-	~CGrabController(); // size[0]
-	void SetTargetPosition(); // size[0]
-	void AttachEntity(); // size[0]
-	void ComputeError(); // size[0]
-	void GetSavedMass(); // size[0]
-	void UpdateObject(); // size[0]
+	CGrabController(); // size[206]
+	void OnRestore(); // size[33]
+	void ComputeMaxSpeed(CBaseEntity *param_1, IPhysicsObject *param_2); // size[414]
+	void TransformAnglesToPlayerSpace(QAngle *param_1, CBasePlayer *param_2); // size[109]
+	void TransformAnglesFromPlayerSpace(QAngle *param_1, CBasePlayer *param_2); // size[109]
+	void DetachEntity(bool param_1); // size[969]
+	~CGrabController(); // size[33]
+	void SetTargetPosition(Vector *param_1, QAngle *param_2); // size[174]
+	void AttachEntity(CBasePlayer *param_1, CBaseEntity *param_2, IPhysicsObject *param_3, bool param_4, Vector *param_5, bool param_6); // size[2214]
+	void ComputeError(); // size[376]
+	void GetSavedMass(IPhysicsObject *param_1); // size[183]
+	void UpdateObject(CBasePlayer *param_1, float param_2); // size[417]
 };

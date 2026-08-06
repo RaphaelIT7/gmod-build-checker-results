@@ -9,6 +9,6 @@ public:
 	virtual void Precache() override; // vtable[24]
 	virtual void Activate() override; // vtable[34]
 
-	void GetBaseMap(); // size[0]
-	CEnvSoundscapeProxy(); // size[0]
+	void GetBaseMap(); // size[10]
+	CEnvSoundscapeProxy(); // size[40]
 };

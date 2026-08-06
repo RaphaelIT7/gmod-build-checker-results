@@ -8,11 +8,11 @@ public:
 	virtual void GetServerClass() override; // vtable[10]
 	virtual void YouForgotToImplementOrDeclareServerClass() override; // vtable[11]
 	virtual void GetDataDescMap() override; // vtable[12]
-	virtual void Drop() override; // vtable[285]
+	virtual void Drop(Vector *param_1) override; // vtable[285]
 	virtual void ItemPostFrame() override; // vtable[318]
-	virtual void ActivityList() override; // vtable[388]
+	virtual void _ZN21CWeaponCitizenPackage12ActivityListEv() override; // vtable[388]
 	virtual void ActivityListCount() override; // vtable[389]
 
-	void _GLOBAL__sub_I_GetServerClass(); // size[0]
-	void GetBaseMap(); // size[0]
+	void _GLOBAL__sub_I_GetServerClass(); // size[113]
+	void GetBaseMap(); // size[10]
 };

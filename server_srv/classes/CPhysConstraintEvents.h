@@ -3,5 +3,5 @@
 class CPhysConstraintEvents : public IPhysicsConstraintEvent
 {
 public:
-	virtual void ConstraintBroken() override; // vtable[0]
+	virtual void ConstraintBroken(IPhysicsConstraint *param_1) override; // vtable[0]
 };

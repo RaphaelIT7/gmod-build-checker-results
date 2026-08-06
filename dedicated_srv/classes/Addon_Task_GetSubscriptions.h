@@ -9,7 +9,7 @@ public:
 	virtual void Cycle(); // vtable[3]
 	virtual void Finished() override; // vtable[4]
 
-	_GLOBAL__sub_I_GetSubscriptions(); // size[0]
-	GetSubscriptions(); // size[0]
-	void CheckForWastedSpace(); // size[0]
+	_GLOBAL__sub_I_GetSubscriptions(); // size[175]
+	GetSubscriptions(); // size[32]
+	void CheckForWastedSpace(); // size[35]
 };

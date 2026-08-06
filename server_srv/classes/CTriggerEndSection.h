@@ -8,6 +8,6 @@ public:
 	virtual void GetDataDescMap() override; // vtable[12]
 	virtual void Spawn() override; // vtable[23]
 
-	void InputEndSection(); // size[0]
-	void GetBaseMap(); // size[0]
+	void InputEndSection(inputdata_t *param_1); // size[79]
+	void GetBaseMap(); // size[10]
 };

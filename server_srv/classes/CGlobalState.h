@@ -8,9 +8,9 @@ public:
 	virtual ~CGlobalState() override; // vtable[13]
 	virtual ~CGlobalState() override; // vtable[14]
 
-	void DumpGlobals(); // size[0]
-	void GetBaseMap(); // size[0]
-	void Save(); // size[0]
-	void Reset(); // size[0]
-	void Restore(); // size[0]
+	void DumpGlobals(); // size[190]
+	void GetBaseMap(); // size[7]
+	void Save(ISave *param_1); // size[70]
+	void Reset(); // size[50]
+	void Restore(IRestore *param_1); // size[85]
 };

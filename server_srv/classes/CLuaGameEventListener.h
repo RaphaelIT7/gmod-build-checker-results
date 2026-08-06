@@ -9,9 +9,9 @@ public:
 	virtual void LevelShutdownPostEntity() override; // vtable[8]
 	virtual ~CLuaGameEventListener() override; // vtable[13]
 	virtual ~CLuaGameEventListener() override; // vtable[14]
-	virtual void FireGameEvent(); // vtable[19]
+	virtual void FireGameEvent(IGameEvent *param_1); // vtable[19]
 
-	~CLuaGameEventListener(); // size[0]
-	~CLuaGameEventListener(); // size[0]
-	void FireGameEvent(); // size[0]
+	~CLuaGameEventListener(); // size[10]
+	~CLuaGameEventListener(); // size[7]
+	void FireGameEvent(IGameEvent *param_1); // size[10]
 };

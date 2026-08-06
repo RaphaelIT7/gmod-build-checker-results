@@ -9,9 +9,9 @@ public:
 	virtual void Spawn() override; // vtable[23]
 	virtual void OnRestore() override; // vtable[45]
 
-	void GetBaseMap(); // size[0]
-	void GetRadius(); // size[0]
-	void IsPositionRepellantFree(); // size[0]
-	void InputDisable(); // size[0]
-	void InputEnable(); // size[0]
+	void GetBaseMap(); // size[10]
+	void GetRadius(); // size[39]
+	void IsPositionRepellantFree(Vector param_1); // size[224]
+	void InputDisable(inputdata_t *param_1); // size[57]
+	void InputEnable(inputdata_t *param_1); // size[106]
 };

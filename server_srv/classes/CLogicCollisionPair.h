@@ -9,9 +9,9 @@ public:
 	virtual void Activate() override; // vtable[34]
 	virtual void OnRestore() override; // vtable[45]
 	virtual void UpdateOnRemove() override; // vtable[108]
-	virtual void SetPhysObject() override; // vtable[209]
+	virtual void SetPhysObject(int param_1, IPhysicsObject *param_2) override; // vtable[209]
 
-	void GetBaseMap(); // size[0]
-	void InputEnableCollisions(); // size[0]
-	void InputDisableCollisions(); // size[0]
+	void GetBaseMap(); // size[10]
+	void InputEnableCollisions(inputdata_t *param_1); // size[247]
+	void InputDisableCollisions(inputdata_t *param_1); // size[247]
 };

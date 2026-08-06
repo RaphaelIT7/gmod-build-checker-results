@@ -10,8 +10,8 @@ public:
 	virtual void Activate() override; // vtable[34]
 	virtual void Think() override; // vtable[48]
 
-	void InputDisable(); // size[0]
-	void InputEnable(); // size[0]
-	void GetBaseMap(); // size[0]
-	void SampleVelocity(); // size[0]
+	void InputDisable(inputdata_t *param_1); // size[15]
+	void InputEnable(inputdata_t *param_1); // size[96]
+	void GetBaseMap(); // size[10]
+	void SampleVelocity(); // size[435]
 };

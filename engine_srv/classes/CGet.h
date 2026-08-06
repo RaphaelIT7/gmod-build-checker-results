@@ -3,7 +3,7 @@
 class CGet : public IGet
 {
 public:
-	virtual void OnLoadFailed(); // vtable[0]
+	virtual void OnLoadFailed(char *param_1); // vtable[0]
 	virtual void GameDir(); // vtable[1]
 	virtual void IsDedicatedServer(); // vtable[2]
 	virtual void GetClientCount(); // vtable[3]
@@ -20,10 +20,10 @@ public:
 	virtual void SteamUtils(); // vtable[14]
 	virtual void SteamUGC(); // vtable[15]
 	virtual void SteamNetworking(); // vtable[16]
-	virtual void Initialize(); // vtable[17]
+	virtual void Initialize(IFileSystem *param_1); // vtable[17]
 	virtual void ShutDown(); // vtable[18]
 	virtual void RunSteamCallbacks(); // vtable[19]
-	virtual void SetMotionSensor(); // vtable[20]
+	virtual void SetMotionSensor(IMotionSensor *param_1); // vtable[20]
 	virtual void MotionSensor(); // vtable[21]
 	virtual void Version(); // vtable[22]
 	virtual void VersionStr(); // vtable[23]
@@ -31,10 +31,10 @@ public:
 	virtual void Audio(); // vtable[25]
 	virtual void VersionTimeStr(); // vtable[26]
 	virtual void Analytics(); // vtable[27]
-	virtual void UpdateRichPresense(); // vtable[28]
+	virtual void UpdateRichPresense(char *param_1); // vtable[28]
 	virtual void ResetRichPresense(); // vtable[29]
 	virtual void BaseDir(); // vtable[30]
-	virtual void FilterText(); // vtable[31]
+	virtual void FilterText(char *param_1, char *param_2, int param_3, ETextFilteringContext param_4, CSteamID param_5); // vtable[31]
 
-	~CGet(); // size[0]
+	~CGet(); // size[211]
 };

@@ -12,8 +12,8 @@ public:
 	virtual void Spawn() override; // vtable[23]
 	virtual void Activate() override; // vtable[34]
 
-	void _GLOBAL__sub_I_GetServerClass(); // size[0]
-	void InputColor(); // size[0]
-	void GetBaseMap(); // size[0]
-	CLightGlow(); // size[0]
+	void _GLOBAL__sub_I_GetServerClass(); // size[112]
+	void InputColor(inputdata_t *param_1); // size[76]
+	void GetBaseMap(); // size[10]
+	CLightGlow(); // size[28]
 };

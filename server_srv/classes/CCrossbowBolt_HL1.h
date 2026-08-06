@@ -9,11 +9,11 @@ public:
 	virtual void Spawn() override; // vtable[23]
 	virtual void Classify() override; // vtable[55]
 
-	void _GLOBAL__sub_I_m_DataMap(); // size[0]
-	void BubbleThink(); // size[0]
-	void ExplodeThink(); // size[0]
-	void BoltTouch(); // size[0]
-	void BoltTouch(); // size[0]
-	void GetBaseMap(); // size[0]
-	void BoltCreate(); // size[0]
+	void _GLOBAL__sub_I_m_DataMap(); // size[112]
+	void BubbleThink(); // size[115]
+	void ExplodeThink(); // size[90]
+	void BoltTouch(CBaseEntity *param_1); // size[94]
+	void BoltTouch(CBaseEntity *param_1); // size[38]
+	void GetBaseMap(); // size[10]
+	void BoltCreate(Vector *param_1, QAngle *param_2, CBasePlayer *param_3, CBaseEntity *param_4); // size[80]
 };

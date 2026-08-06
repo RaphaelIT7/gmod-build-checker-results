@@ -3,8 +3,8 @@
 class CDummyMorph : public IMorph
 {
 public:
-	virtual void Lock(); // vtable[0]
-	virtual void AddMorph(); // vtable[1]
+	virtual void Lock(float param_1); // vtable[0]
+	virtual void AddMorph(MorphVertexInfo_t *param_1); // vtable[1]
 	virtual void Unlock() override; // vtable[2]
-	virtual void AccumulateMorph(); // vtable[3]
+	virtual void AccumulateMorph(int param_1, MorphWeight_t *param_2); // vtable[3]
 };

@@ -10,8 +10,8 @@ public:
 	virtual void GetDataDescMap() override; // vtable[12]
 	virtual void Precache() override; // vtable[24]
 
-	void _GLOBAL__sub_I_GetServerClass(); // size[0]
-	void GetBaseMap(); // size[0]
-	CPlasma(); // size[0]
-	void EnableSmoke(); // size[0]
+	void _GLOBAL__sub_I_GetServerClass(); // size[112]
+	void GetBaseMap(); // size[10]
+	CPlasma(); // size[95]
+	void EnableSmoke(int param_1); // size[89]
 };

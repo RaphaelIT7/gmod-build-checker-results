@@ -10,6 +10,6 @@ public:
 	virtual void DoCleanup() override; // vtable[8]
 	virtual void IsWrite() override; // vtable[10]
 
-	~CFileAsyncWriteJob(); // size[0]
-	~CFileAsyncWriteJob(); // size[0]
+	~CFileAsyncWriteJob(); // size[10]
+	~CFileAsyncWriteJob(); // size[10]
 };

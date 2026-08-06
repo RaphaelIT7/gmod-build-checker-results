@@ -3,7 +3,7 @@
 	"id": 1,
 	"entrybits": 13,
 	"maxstrings": 8192,
-	"numstrings": 109,
+	"numstrings": 102,
 	"strings": [
 		{
 			"key": "",
@@ -162,10 +162,6 @@
 			"userdatalength": 1
 		},
 		{
-			"key": "sprites/zerogxplode.vmt",
-			"userdatalength": 1
-		},
-		{
 			"key": "sprites/steam1.vmt",
 			"userdatalength": 1
 		},
@@ -183,34 +179,6 @@
 		},
 		{
 			"key": "models/weapons/w_bullet.mdl",
-			"userdatalength": 1
-		},
-		{
-			"key": "cable/cable.vmt",
-			"userdatalength": 1
-		},
-		{
-			"key": "cable/cable_lit.vmt",
-			"userdatalength": 1
-		},
-		{
-			"key": "cable/chain.vmt",
-			"userdatalength": 1
-		},
-		{
-			"key": "cable/rope.vmt",
-			"userdatalength": 1
-		},
-		{
-			"key": "sprites/blueglow1.vmt",
-			"userdatalength": 1
-		},
-		{
-			"key": "sprites/purpleglow1.vmt",
-			"userdatalength": 1
-		},
-		{
-			"key": "sprites/purplelaser1.vmt",
 			"userdatalength": 1
 		},
 		{
@@ -419,6 +387,10 @@
 		},
 		{
 			"key": "models/weapons/w_irifle.mdl",
+			"userdatalength": 1
+		},
+		{
+			"key": "sprites/blueglow1.vmt",
 			"userdatalength": 1
 		},
 		{

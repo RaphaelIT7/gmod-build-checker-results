@@ -3,6 +3,6 @@
 class CShowZone : public IForEachNavArea
 {
 public:
-	virtual void Inspect(); // vtable[0]
-	virtual void PostIteration(); // vtable[1]
+	virtual void Inspect(CNavArea *param_1); // vtable[0]
+	virtual void PostIteration(bool param_1); // vtable[1]
 };

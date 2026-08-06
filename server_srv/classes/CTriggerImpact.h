@@ -8,9 +8,9 @@ public:
 	virtual void GetDataDescMap() override; // vtable[12]
 	virtual void Spawn() override; // vtable[23]
 	virtual void DrawDebugTextOverlays() override; // vtable[40]
-	virtual void StartTouch() override; // vtable[101]
+	virtual void StartTouch(CBaseEntity *param_1) override; // vtable[101]
 
-	void InputSetMagnitude(); // size[0]
-	void InputImpact(); // size[0]
-	void GetBaseMap(); // size[0]
+	void InputSetMagnitude(inputdata_t *param_1); // size[33]
+	void InputImpact(inputdata_t *param_1); // size[58]
+	void GetBaseMap(); // size[10]
 };

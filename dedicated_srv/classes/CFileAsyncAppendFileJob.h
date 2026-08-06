@@ -9,6 +9,6 @@ public:
 	virtual void DoExecute() override; // vtable[6]
 	virtual void IsWrite() override; // vtable[10]
 
-	~CFileAsyncAppendFileJob(); // size[0]
-	~CFileAsyncAppendFileJob(); // size[0]
+	~CFileAsyncAppendFileJob(); // size[10]
+	~CFileAsyncAppendFileJob(); // size[7]
 };

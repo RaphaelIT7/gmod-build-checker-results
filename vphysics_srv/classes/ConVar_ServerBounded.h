@@ -3,5 +3,5 @@
 class ConVar_ServerBounded : public ConVar
 {
 public:
-	void GetInt(); // size[0]
+	void GetInt(); // size[25]
 };

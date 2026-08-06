@@ -7,8 +7,8 @@ public:
 	virtual ~CAssaultPoint() override; // vtable[1]
 	virtual void GetDataDescMap() override; // vtable[12]
 
-	void GetBaseMap(); // size[0]
-	void InputSetClearOnContact(); // size[0]
-	void InputSetAllowDiversion(); // size[0]
-	void InputSetForceClear(); // size[0]
+	void GetBaseMap(); // size[10]
+	void InputSetClearOnContact(inputdata_t *param_1); // size[30]
+	void InputSetAllowDiversion(inputdata_t *param_1); // size[30]
+	void InputSetForceClear(inputdata_t *param_1); // size[30]
 };

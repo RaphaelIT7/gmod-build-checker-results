@@ -9,7 +9,7 @@ public:
 	virtual void YouForgotToImplementOrDeclareServerClass() override; // vtable[11]
 	virtual void Precache() override; // vtable[24]
 	virtual void Deploy() override; // vtable[307]
-	virtual void Holster() override; // vtable[308]
+	virtual void Holster(CBaseCombatWeapon *param_1) override; // vtable[308]
 	virtual void WeaponIdle() override; // vtable[321]
 	virtual void Reload() override; // vtable[329]
 	virtual void PrimaryAttack() override; // vtable[332]
@@ -24,9 +24,9 @@ public:
 	virtual void ActivityList() override; // vtable[388]
 	virtual void ActivityListCount() override; // vtable[389]
 	virtual void CapabilitiesGet() override; // vtable[399]
-	virtual void Operator_HandleAnimEvent() override; // vtable[406]
+	virtual void Operator_HandleAnimEvent(animevent_t *param_1, CBaseCombatCharacter *param_2) override; // vtable[406]
 
-	void _GLOBAL__sub_I_GetServerClass(); // size[0]
-	CWeapon357_HL1(); // size[0]
-	void ToggleZoom(); // size[0]
+	void _GLOBAL__sub_I_GetServerClass(); // size[112]
+	CWeapon357_HL1(); // size[86]
+	void ToggleZoom(); // size[20]
 };

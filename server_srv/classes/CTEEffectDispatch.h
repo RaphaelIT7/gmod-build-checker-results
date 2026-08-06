@@ -8,6 +8,6 @@ public:
 	virtual ~CTEEffectDispatch() override; // vtable[2]
 	virtual ~CTEEffectDispatch() override; // vtable[3]
 
-	_GLOBAL__sub_I_CTEEffectDispatch(); // size[0]
-	CTEEffectDispatch(); // size[0]
+	_GLOBAL__sub_I_CTEEffectDispatch(); // size[112]
+	CTEEffectDispatch(char *param_1); // size[251]
 };

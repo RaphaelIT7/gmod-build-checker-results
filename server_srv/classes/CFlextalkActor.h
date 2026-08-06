@@ -8,7 +8,7 @@ public:
 	virtual void GetDataDescMap() override; // vtable[12]
 	virtual void ProcessSceneEvents() override; // vtable[284]
 
-	void GetBaseMap(); // size[0]
-	void SetFlexTarget(); // size[0]
-	void LookupFlex(); // size[0]
+	void GetBaseMap(); // size[10]
+	void SetFlexTarget(LocalFlexController_t param_1, float param_2); // size[9]
+	void LookupFlex(char *param_1); // size[87]
 };

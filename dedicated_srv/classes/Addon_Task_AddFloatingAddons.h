@@ -9,6 +9,6 @@ public:
 	virtual void Cycle(); // vtable[3]
 	virtual void Finished() override; // vtable[4]
 
-	_GLOBAL__sub_I_AddFloatingAddons(); // size[0]
-	AddFloatingAddons(); // size[0]
+	_GLOBAL__sub_I_AddFloatingAddons(); // size[91]
+	AddFloatingAddons(); // size[21]
 };

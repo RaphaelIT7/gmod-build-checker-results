@@ -7,8 +7,8 @@ public:
 	virtual ~CLogicAutosave() override; // vtable[1]
 	virtual void GetDataDescMap() override; // vtable[12]
 
-	void InputSave(); // size[0]
-	void InputSetMinHitpointsThreshold(); // size[0]
-	void InputSaveDangerous(); // size[0]
-	void GetBaseMap(); // size[0]
+	void InputSave(inputdata_t *param_1); // size[60]
+	void InputSetMinHitpointsThreshold(inputdata_t *param_1); // size[29]
+	void InputSaveDangerous(inputdata_t *param_1); // size[271]
+	void GetBaseMap(); // size[10]
 };

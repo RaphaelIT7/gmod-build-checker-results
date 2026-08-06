@@ -6,5 +6,5 @@ public:
 	virtual ~Base(); // vtable[0]
 	virtual ~Base(); // vtable[1]
 	virtual void __cxa_pure_virtual(); // vtable[4]
-	virtual void Init(); // vtable[5]
+	virtual void Init(FileSystem *param_1); // vtable[5]
 };

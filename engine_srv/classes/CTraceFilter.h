@@ -3,5 +3,5 @@
 class CTraceFilter : public ITraceFilter
 {
 public:
-	void GetTraceType(); // size[0]
+	void GetTraceType(); // size[7]
 };

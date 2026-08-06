@@ -14,6 +14,6 @@ public:
 	virtual void ResourceThink(); // vtable[246]
 	virtual void UpdatePlayerData(); // vtable[247]
 
-	void _GLOBAL__sub_I_GetServerClass(); // size[0]
-	void GetBaseMap(); // size[0]
+	void _GLOBAL__sub_I_GetServerClass(); // size[112]
+	void GetBaseMap(); // size[10]
 };

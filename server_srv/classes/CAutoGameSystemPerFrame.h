@@ -7,5 +7,5 @@ public:
 	virtual ~CAutoGameSystemPerFrame() override; // vtable[13]
 	virtual ~CAutoGameSystemPerFrame() override; // vtable[14]
 
-	CAutoGameSystemPerFrame(); // size[0]
+	CAutoGameSystemPerFrame(char *param_1); // size[68]
 };

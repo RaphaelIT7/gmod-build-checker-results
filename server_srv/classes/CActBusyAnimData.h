@@ -8,7 +8,7 @@ public:
 	virtual ~CActBusyAnimData() override; // vtable[13]
 	virtual ~CActBusyAnimData() override; // vtable[14]
 
-	void ParseActBusyFromKV(); // size[0]
-	void FindBusyAnim(); // size[0]
-	void ParseAnimDataFile(); // size[0]
+	void ParseActBusyFromKV(busyanim_t *param_1, KeyValues *param_2); // size[757]
+	void FindBusyAnim(Activity param_1, char *param_2); // size[267]
+	void ParseAnimDataFile(); // size[281]
 };

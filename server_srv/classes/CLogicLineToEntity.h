@@ -10,5 +10,5 @@ public:
 	virtual void Activate() override; // vtable[34]
 	virtual void Think() override; // vtable[48]
 
-	void GetBaseMap(); // size[0]
+	void GetBaseMap(); // size[10]
 };

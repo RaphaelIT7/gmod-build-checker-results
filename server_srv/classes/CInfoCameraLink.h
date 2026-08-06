@@ -8,8 +8,8 @@ public:
 	virtual void GetDataDescMap() override; // vtable[12]
 	virtual void Activate() override; // vtable[34]
 
-	void GetBaseMap(); // size[0]
-	void SetCameraByName(); // size[0]
-	void InputSetCamera(); // size[0]
-	CInfoCameraLink(); // size[0]
+	void GetBaseMap(); // size[10]
+	void SetCameraByName(char *param_1); // size[58]
+	void InputSetCamera(inputdata_t *param_1); // size[75]
+	CInfoCameraLink(); // size[27]
 };

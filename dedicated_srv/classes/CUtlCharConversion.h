@@ -3,13 +3,12 @@
 class CUtlCharConversion
 {
 public:
-	virtual void FindConversion(); // vtable[0]
+	virtual void FindConversion(char *param_1, int *param_2); // vtable[0]
 
-	CUtlCharConversion(); // size[0]
-	void GetEscapeChar(); // size[0]
-	void GetDelimiter(); // size[0]
-	void GetDelimiterLength(); // size[0]
-	void GetConversionString(); // size[0]
-	void GetConversionLength(); // size[0]
-	void MaxConversionLength(); // size[0]
+	CUtlCharConversion(char param_1, char *param_2, int param_3, ConversionArray_t *param_4); // size[30]
+	void GetEscapeChar(); // size[12]
+	void GetDelimiterLength(); // size[11]
+	void GetConversionString(char param_1); // size[3]
+	void GetConversionLength(char param_1); // size[19]
+	void MaxConversionLength(); // size[11]
 };

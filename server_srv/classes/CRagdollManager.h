@@ -12,10 +12,10 @@ public:
 	virtual void Activate() override; // vtable[34]
 	virtual void DrawDebugTextOverlays() override; // vtable[40]
 
-	void _GLOBAL__sub_I_GetServerClass(); // size[0]
-	void GetBaseMap(); // size[0]
-	CRagdollManager(); // size[0]
-	void UpdateCurrentMaxRagDollCount(); // size[0]
-	void InputSetMaxRagdollCount(); // size[0]
-	void InputSetMaxRagdollCountDX8(); // size[0]
+	void _GLOBAL__sub_I_GetServerClass(); // size[112]
+	void GetBaseMap(); // size[10]
+	CRagdollManager(); // size[28]
+	void UpdateCurrentMaxRagDollCount(); // size[12]
+	void InputSetMaxRagdollCount(inputdata_t *param_1); // size[35]
+	void InputSetMaxRagdollCountDX8(inputdata_t *param_1); // size[35]
 };

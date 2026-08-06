@@ -9,7 +9,7 @@ public:
 	virtual void Spawn() override; // vtable[23]
 	virtual void Precache() override; // vtable[24]
 	virtual void SpawnBall() override; // vtable[246]
-	virtual void InputBallCaught(); // vtable[247]
+	virtual void InputBallCaught(inputdata_t *param_1); // vtable[247]
 
-	void GetBaseMap(); // size[0]
+	void GetBaseMap(); // size[10]
 };

@@ -12,11 +12,11 @@ public:
 	virtual void Precache() override; // vtable[24]
 	virtual void PhysicsSolidMaskForEntity() override; // vtable[174]
 
-	void GetBaseMap(); // size[0]
-	CVortigauntChargeToken(); // size[0]
-	void CreateChargeToken(); // size[0]
-	void FadeAndDie(); // size[0]
-	void SeekTouch(); // size[0]
-	void GetSteerVector(); // size[0]
-	void SeekThink(); // size[0]
+	void GetBaseMap(); // size[10]
+	CVortigauntChargeToken(); // size[26]
+	void CreateChargeToken(Vector *param_1, CBaseEntity *param_2, CBaseEntity *param_3); // size[85]
+	void FadeAndDie(); // size[48]
+	void SeekTouch(CBaseEntity *param_1); // size[118]
+	void GetSteerVector(Vector *param_1); // size[50]
+	void SeekThink(); // size[915]
 };

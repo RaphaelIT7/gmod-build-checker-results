@@ -3,5 +3,5 @@
 class CEntityListAlongRay : public IPartitionEnumerator
 {
 public:
-	virtual void EnumElement(); // vtable[0]
+	virtual void EnumElement(IHandleEntity *param_1); // vtable[0]
 };

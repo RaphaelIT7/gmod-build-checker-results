@@ -11,5 +11,5 @@ public:
 	virtual void Startup() override; // vtable[5]
 	virtual void Shutdown() override; // vtable[6]
 
-	CSteamApplication(); // size[0]
+	CSteamApplication(CSteamAppSystemGroup *param_1); // size[51]
 };

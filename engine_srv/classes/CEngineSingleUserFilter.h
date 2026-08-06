@@ -8,6 +8,6 @@ public:
 	virtual void IsReliable(); // vtable[2]
 	virtual void IsInitMessage(); // vtable[3]
 	virtual void GetRecipientCount(); // vtable[4]
-	virtual void GetRecipientIndex() override; // vtable[5]
+	virtual void GetRecipientIndex(int param_1) override; // vtable[5]
 	virtual void IsBroadcastMessage(); // vtable[6]
 };

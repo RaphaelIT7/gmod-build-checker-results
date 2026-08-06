@@ -8,7 +8,8 @@ public:
 	virtual void GetDataDescMap() override; // vtable[12]
 	virtual void UpdateOnRemove() override; // vtable[108]
 
-	void _GLOBAL__sub_I_m_DataMap(); // size[0]
-	void InputZoom(); // size[0]
-	void GetBaseMap(); // size[0]
+	void _GLOBAL__sub_I_m_DataMap(); // size[113]
+	void InputUnZoom(inputdata_t *param_1); // size[276]
+	void InputZoom(inputdata_t *param_1); // size[520]
+	void GetBaseMap(); // size[10]
 };

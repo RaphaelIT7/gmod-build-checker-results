@@ -3,9 +3,9 @@
 class CEntityTouchManager : public IEntityListener
 {
 public:
-	virtual void OnEntityCreated() override; // vtable[0]
-	virtual void OnEntityDeleted() override; // vtable[2]
+	virtual void OnEntityCreated(CBaseEntity *param_1) override; // vtable[0]
+	virtual void OnEntityDeleted(CBaseEntity *param_1) override; // vtable[2]
 
-	void FrameUpdatePostEntityThink(); // size[0]
-	~CEntityTouchManager(); // size[0]
+	void FrameUpdatePostEntityThink(); // size[219]
+	~CEntityTouchManager(); // size[55]
 };

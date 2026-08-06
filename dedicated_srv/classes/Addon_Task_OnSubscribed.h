@@ -8,9 +8,9 @@ public:
 	virtual void Start(); // vtable[2]
 	virtual void Cycle(); // vtable[3]
 	virtual void Finished() override; // vtable[4]
-	virtual void OnReceiveFileInfo(); // vtable[6]
+	virtual void OnReceiveFileInfo(Request *param_1); // vtable[6]
 
-	_GLOBAL__sub_I_OnSubscribed(); // size[0]
-	OnSubscribed(); // size[0]
-	void OnReceiveFileInfo(); // size[0]
+	_GLOBAL__sub_I_OnSubscribed(); // size[91]
+	OnSubscribed(ulonglong param_1); // size[44]
+	void OnReceiveFileInfo(Request *param_1); // size[10]
 };

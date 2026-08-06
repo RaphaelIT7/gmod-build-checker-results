@@ -9,9 +9,9 @@ public:
 	virtual void Spawn() override; // vtable[23]
 	virtual void Precache() override; // vtable[24]
 	virtual void Think() override; // vtable[48]
-	virtual void Touch() override; // vtable[102]
+	virtual void Touch(CBaseEntity *param_1) override; // vtable[102]
 
-	void GetBaseMap(); // size[0]
-	void LightOn(); // size[0]
-	void LightOff(); // size[0]
+	void GetBaseMap(); // size[10]
+	void LightOn(); // size[181]
+	void LightOff(); // size[169]
 };

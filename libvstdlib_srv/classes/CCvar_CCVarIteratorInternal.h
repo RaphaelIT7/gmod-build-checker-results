@@ -10,5 +10,5 @@ public:
 	virtual void IsValid(); // vtable[4]
 	virtual void Get() override; // vtable[5]
 
-	void _GLOBAL__sub_I_SetFirst(); // size[0]
+	void _GLOBAL__sub_I_SetFirst(); // size[119]
 };

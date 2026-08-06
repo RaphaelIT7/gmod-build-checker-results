@@ -7,10 +7,10 @@ public:
 	virtual ~CTeamSpawnPoint() override; // vtable[1]
 	virtual void GetDataDescMap() override; // vtable[12]
 	virtual void Activate() override; // vtable[34]
-	virtual void IsValid(); // vtable[246]
+	virtual void IsValid(CBasePlayer *param_1); // vtable[246]
 
-	void _GLOBAL__sub_I_m_DataMap(); // size[0]
-	void InputEnable(); // size[0]
-	void InputDisable(); // size[0]
-	void GetBaseMap(); // size[0]
+	void _GLOBAL__sub_I_m_DataMap(); // size[113]
+	void InputEnable(inputdata_t *param_1); // size[18]
+	void InputDisable(inputdata_t *param_1); // size[18]
+	void GetBaseMap(); // size[10]
 };

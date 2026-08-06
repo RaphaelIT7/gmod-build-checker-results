@@ -10,6 +10,6 @@ public:
 	virtual void Activate() override; // vtable[34]
 	virtual void UpdateOnRemove() override; // vtable[108]
 
-	void GetBaseMap(); // size[0]
-	void CanBomb(); // size[0]
+	void GetBaseMap(); // size[10]
+	void CanBomb(Vector *param_1); // size[131]
 };

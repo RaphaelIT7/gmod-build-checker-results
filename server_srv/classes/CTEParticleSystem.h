@@ -8,5 +8,5 @@ public:
 	virtual ~CTEParticleSystem() override; // vtable[2]
 	virtual ~CTEParticleSystem() override; // vtable[3]
 
-	void _GLOBAL__sub_I_GetServerClass(); // size[0]
+	void _GLOBAL__sub_I_GetServerClass(); // size[112]
 };

@@ -3,6 +3,6 @@
 class CClassPtrSaveRestoreOps : public CDefSaveRestoreOps
 {
 public:
-	void IsEmpty(); // size[0]
-	void MakeEmpty(); // size[0]
+	void IsEmpty(SaveRestoreFieldInfo_t *param_1); // size[53]
+	void MakeEmpty(SaveRestoreFieldInfo_t *param_1); // size[43]
 };

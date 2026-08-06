@@ -9,13 +9,13 @@ public:
 	virtual void Spawn() override; // vtable[23]
 	virtual void Precache() override; // vtable[24]
 	virtual void StopLoopingSounds() override; // vtable[109]
-	virtual void NotifySystemEvent() override; // vtable[112]
+	virtual void NotifySystemEvent(CBaseEntity *param_1, notify_system_event_t param_2, notify_system_event_params_t *param_3) override; // vtable[112]
 	virtual void DoExplosion() override; // vtable[388]
 	virtual void NotifyLauncherOnDeath(); // vtable[391]
-	virtual void SetLauncher(); // vtable[392]
+	virtual void SetLauncher(CHandle param_1); // vtable[392]
 	virtual void CreateSmokeTrail(); // vtable[393]
-	virtual void MissileTouch(); // vtable[394]
+	virtual void MissileTouch(CBaseEntity *param_1); // vtable[394]
 	virtual void CreateSounds(); // vtable[395]
 
-	void GetBaseMap(); // size[0]
+	void GetBaseMap(); // size[10]
 };

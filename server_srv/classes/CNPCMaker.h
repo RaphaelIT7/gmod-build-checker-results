@@ -9,6 +9,6 @@ public:
 	virtual void Precache() override; // vtable[24]
 	virtual void MakeNPC() override; // vtable[246]
 
-	void GetBaseMap(); // size[0]
-	CNPCMaker(); // size[0]
+	void GetBaseMap(); // size[10]
+	CNPCMaker(); // size[26]
 };

@@ -9,8 +9,8 @@ public:
 	virtual void Spawn() override; // vtable[23]
 	virtual void Precache() override; // vtable[24]
 
-	void _GLOBAL__sub_I_m_nTrailSprite(); // size[0]
-	void ExplodeConcussion(); // size[0]
-	void FallThink(); // size[0]
-	void GetBaseMap(); // size[0]
+	void _GLOBAL__sub_I_m_nTrailSprite(); // size[113]
+	void ExplodeConcussion(CBaseEntity *param_1); // size[138]
+	void FallThink(); // size[139]
+	void GetBaseMap(); // size[10]
 };

@@ -10,6 +10,6 @@ public:
 	virtual void GetDataDescMap() override; // vtable[12]
 	virtual void Spawn() override; // vtable[23]
 
-	void InputSetRadius(); // size[0]
-	void GetBaseMap(); // size[0]
+	void InputSetRadius(inputdata_t *param_1); // size[109]
+	void GetBaseMap(); // size[10]
 };

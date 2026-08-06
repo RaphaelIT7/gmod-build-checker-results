@@ -9,8 +9,8 @@ public:
 	virtual void Activate() override; // vtable[34]
 	virtual void UpdateOnRemove() override; // vtable[108]
 
-	void GetBaseMap(); // size[0]
-	void DebugThink(); // size[0]
-	void InputDisable(); // size[0]
-	void InputEnable(); // size[0]
+	void GetBaseMap(); // size[10]
+	void DebugThink(); // size[706]
+	void InputDisable(inputdata_t *param_1); // size[39]
+	void InputEnable(inputdata_t *param_1); // size[10]
 };

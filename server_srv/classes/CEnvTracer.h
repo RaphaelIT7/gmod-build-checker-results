@@ -9,6 +9,6 @@ public:
 	virtual void Spawn() override; // vtable[23]
 	virtual void Activate() override; // vtable[34]
 
-	void TracerThink(); // size[0]
-	void GetBaseMap(); // size[0]
+	void TracerThink(); // size[150]
+	void GetBaseMap(); // size[10]
 };

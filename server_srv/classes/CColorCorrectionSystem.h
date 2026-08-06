@@ -10,10 +10,10 @@ public:
 	virtual void LevelInitPostEntity() override; // vtable[5]
 	virtual ~CColorCorrectionSystem() override; // vtable[13]
 	virtual ~CColorCorrectionSystem() override; // vtable[14]
-	virtual void FireGameEvent(); // vtable[18]
+	virtual void FireGameEvent(IGameEvent *param_1); // vtable[18]
 
-	void InitMasterController(); // size[0]
-	void FireGameEvent(); // size[0]
-	~CColorCorrectionSystem(); // size[0]
-	~CColorCorrectionSystem(); // size[0]
+	void InitMasterController(); // size[84]
+	void FireGameEvent(IGameEvent *param_1); // size[7]
+	~CColorCorrectionSystem(); // size[10]
+	~CColorCorrectionSystem(); // size[7]
 };

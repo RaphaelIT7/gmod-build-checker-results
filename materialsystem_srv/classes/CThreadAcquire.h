@@ -7,6 +7,6 @@ public:
 	virtual ~CThreadAcquire() override; // vtable[3]
 	virtual void DoExecute() override; // vtable[6]
 
-	~CThreadAcquire(); // size[0]
-	~CThreadAcquire(); // size[0]
+	~CThreadAcquire(); // size[10]
+	~CThreadAcquire(); // size[7]
 };

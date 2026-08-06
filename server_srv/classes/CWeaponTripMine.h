@@ -10,8 +10,8 @@ public:
 	virtual void GetDataDescMap() override; // vtable[12]
 	virtual void Spawn() override; // vtable[23]
 	virtual void Precache() override; // vtable[24]
-	virtual void Equip() override; // vtable[284]
-	virtual void Holster() override; // vtable[308]
+	virtual void Equip(CBaseCombatCharacter *param_1) override; // vtable[284]
+	virtual void Holster(CBaseCombatWeapon *param_1) override; // vtable[308]
 	virtual void WeaponIdle() override; // vtable[321]
 	virtual void PrimaryAttack() override; // vtable[332]
 	virtual void CanBePickedUpByNPCs() override; // vtable[359]
@@ -19,7 +19,7 @@ public:
 	virtual void ActivityList() override; // vtable[388]
 	virtual void ActivityListCount() override; // vtable[389]
 
-	void _GLOBAL__sub_I_GetServerClass(); // size[0]
-	void GetBaseMap(); // size[0]
-	CWeaponTripMine(); // size[0]
+	void _GLOBAL__sub_I_GetServerClass(); // size[112]
+	void GetBaseMap(); // size[10]
+	CWeaponTripMine(); // size[64]
 };

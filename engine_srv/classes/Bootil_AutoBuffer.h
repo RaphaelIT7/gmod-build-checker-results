@@ -6,10 +6,10 @@ public:
 	virtual ~AutoBuffer() override; // vtable[0]
 	virtual ~AutoBuffer() override; // vtable[1]
 	virtual void Clear() override; // vtable[2]
-	virtual void EnsureCapacity() override; // vtable[3]
+	virtual void EnsureCapacity(ulonglong param_1) override; // vtable[3]
 
-	~AutoBuffer(); // size[0]
-	void EnsureCapacity(); // size[0]
-	AutoBuffer(); // size[0]
-	AutoBuffer(); // size[0]
+	~AutoBuffer(); // size[67]
+	void EnsureCapacity(ulonglong param_1); // size[227]
+	AutoBuffer(ulonglong param_1); // size[123]
+	AutoBuffer(ulonglong param_1); // size[123]
 };

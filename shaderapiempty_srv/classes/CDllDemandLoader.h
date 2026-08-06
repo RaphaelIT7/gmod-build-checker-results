@@ -6,7 +6,7 @@ public:
 	virtual ~CDllDemandLoader(); // vtable[0]
 	virtual ~CDllDemandLoader(); // vtable[1]
 
-	CDllDemandLoader(); // size[0]
-	void GetFactory(); // size[0]
-	void Unload(); // size[0]
+	CDllDemandLoader(char *param_1); // size[31]
+	void GetFactory(); // size[87]
+	void Unload(); // size[38]
 };

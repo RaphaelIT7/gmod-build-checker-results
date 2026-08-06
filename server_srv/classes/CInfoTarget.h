@@ -8,5 +8,5 @@ public:
 	virtual void UpdateTransmitState() override; // vtable[20]
 	virtual void Spawn() override; // vtable[23]
 
-	void _GLOBAL__sub_I_Spawn(); // size[0]
+	void _GLOBAL__sub_I_Spawn(); // size[112]
 };

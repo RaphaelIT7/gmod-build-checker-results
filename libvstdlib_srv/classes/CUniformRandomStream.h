@@ -3,11 +3,11 @@
 class CUniformRandomStream : public IUniformRandomStream
 {
 public:
-	virtual void SetSeed(); // vtable[0]
-	virtual void RandomFloat(); // vtable[1]
-	virtual void RandomInt(); // vtable[2]
-	virtual void RandomFloatExp() override; // vtable[3]
+	virtual void SetSeed(int param_1); // vtable[0]
+	virtual void RandomFloat(float param_1, float param_2); // vtable[1]
+	virtual void RandomInt(int param_1, int param_2); // vtable[2]
+	virtual void RandomFloatExp(float param_1, float param_2, float param_3) override; // vtable[3]
 
-	CUniformRandomStream(); // size[0]
-	void GenerateRandomNumber(); // size[0]
+	CUniformRandomStream(); // size[53]
+	void GenerateRandomNumber(); // size[453]
 };

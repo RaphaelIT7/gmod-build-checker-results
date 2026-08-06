@@ -12,7 +12,7 @@ public:
 	virtual void FrameUpdatePreEntityThinkAllTools(); // vtable[6]
 	virtual void FrameUpdatePostEntityThinkAllTools(); // vtable[7]
 	virtual void PreClientUpdateAllTools(); // vtable[8]
-	virtual void GetEntityData(); // vtable[9]
+	virtual void GetEntityData(char *param_1); // vtable[9]
 	virtual void PreSetupVisibilityAllTools(); // vtable[10]
 	virtual void InToolMode() override; // vtable[11]
 };

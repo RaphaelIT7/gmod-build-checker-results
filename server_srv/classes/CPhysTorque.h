@@ -7,7 +7,7 @@ public:
 	virtual ~CPhysTorque() override; // vtable[1]
 	virtual void GetDataDescMap() override; // vtable[12]
 	virtual void Spawn() override; // vtable[23]
-	virtual void SetupForces() override; // vtable[246]
+	virtual void SetupForces(IPhysicsObject *param_1, Vector *param_2, Vector *param_3) override; // vtable[246]
 
-	void GetBaseMap(); // size[0]
+	void GetBaseMap(); // size[10]
 };

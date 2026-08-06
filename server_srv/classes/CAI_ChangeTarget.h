@@ -8,6 +8,6 @@ public:
 	virtual void GetDataDescMap() override; // vtable[12]
 	virtual void ObjectCaps() override; // vtable[36]
 
-	void InputActivate(); // size[0]
-	void GetBaseMap(); // size[0]
+	void InputActivate(inputdata_t *param_1); // size[75]
+	void GetBaseMap(); // size[10]
 };

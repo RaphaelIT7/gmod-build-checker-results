@@ -8,10 +8,10 @@ public:
 	virtual void GetServerClass() override; // vtable[10]
 	virtual void YouForgotToImplementOrDeclareServerClass() override; // vtable[11]
 	virtual void IsPredicted() override; // vtable[201]
-	virtual void WeaponSound() override; // vtable[347]
+	virtual void WeaponSound(WeaponSound_t param_1, double param_2) override; // vtable[347]
 
-	void _GLOBAL__sub_I_GetServerClass(); // size[0]
-	CBaseHL1MPCombatWeapon(); // size[0]
-	void EjectShell(); // size[0]
-	void GetPlayerOwner(); // size[0]
+	void _GLOBAL__sub_I_GetServerClass(); // size[112]
+	CBaseHL1MPCombatWeapon(); // size[72]
+	void EjectShell(CBaseEntity *param_1, int param_2); // size[208]
+	void GetPlayerOwner(); // size[17]
 };

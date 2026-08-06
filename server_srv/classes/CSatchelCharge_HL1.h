@@ -10,11 +10,11 @@ public:
 	virtual void Precache() override; // vtable[24]
 	virtual void BounceSound() override; // vtable[285]
 
-	void SatchelUse(); // size[0]
-	void GetBaseMap(); // size[0]
-	void Deactivate(); // size[0]
-	void UpdateSlideSound(); // size[0]
-	void SatchelTouch(); // size[0]
-	void SatchelThink(); // size[0]
-	CSatchelCharge_HL1(); // size[0]
+	void SatchelUse(CBaseEntity *param_1, CBaseEntity *param_2, USE_TYPE param_3, float param_4); // size[59]
+	void GetBaseMap(); // size[10]
+	void Deactivate(); // size[41]
+	void UpdateSlideSound(); // size[342]
+	void SatchelTouch(CBaseEntity *param_1); // size[181]
+	void SatchelThink(); // size[227]
+	CSatchelCharge_HL1(); // size[82]
 };

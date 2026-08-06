@@ -9,7 +9,8 @@ public:
 	virtual void YouForgotToImplementOrDeclareServerClass() override; // vtable[11]
 	virtual void GetDataDescMap() override; // vtable[12]
 	virtual void Precache() override; // vtable[24]
-	virtual void Holster() override; // vtable[308]
+	virtual void Equip(CBaseCombatCharacter *param_1) override; // vtable[284]
+	virtual void Holster(CBaseCombatWeapon *param_1) override; // vtable[308]
 	virtual void ItemPostFrame() override; // vtable[318]
 	virtual void WeaponIdle() override; // vtable[321]
 	virtual void Reload() override; // vtable[329]
@@ -19,7 +20,8 @@ public:
 	virtual void ActivityList() override; // vtable[388]
 	virtual void ActivityListCount() override; // vtable[389]
 
-	void _GLOBAL__sub_I_GetServerClass(); // size[0]
-	void GetBaseMap(); // size[0]
-	CWeaponHgun(); // size[0]
+	void _GLOBAL__sub_I_GetServerClass(); // size[112]
+	void GetBaseMap(); // size[10]
+	CWeaponHgun(); // size[96]
+	void CanHaveAmmo(CBasePlayer *param_1); // size[94]
 };

@@ -9,6 +9,6 @@ public:
 	virtual void Cycle(); // vtable[3]
 	virtual void Finished() override; // vtable[4]
 
-	_GLOBAL__sub_I_ClearUnusedGMAs(); // size[0]
-	ClearUnusedGMAs(); // size[0]
+	_GLOBAL__sub_I_ClearUnusedGMAs(); // size[91]
+	ClearUnusedGMAs(); // size[25]
 };

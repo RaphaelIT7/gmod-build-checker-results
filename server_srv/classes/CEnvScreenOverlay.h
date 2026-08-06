@@ -12,10 +12,10 @@ public:
 	virtual void Spawn() override; // vtable[23]
 	virtual void Precache() override; // vtable[24]
 
-	void _GLOBAL__sub_I_m_DataMap(); // size[0]
-	void InputStopOverlay(); // size[0]
-	void InputSwitchOverlay(); // size[0]
-	void InputStartOverlay(); // size[0]
-	void GetBaseMap(); // size[0]
-	CEnvScreenOverlay(); // size[0]
+	void _GLOBAL__sub_I_m_DataMap(); // size[113]
+	void InputStopOverlay(inputdata_t *param_1); // size[48]
+	void InputSwitchOverlay(inputdata_t *param_1); // size[135]
+	void InputStartOverlay(inputdata_t *param_1); // size[118]
+	void GetBaseMap(); // size[10]
+	CEnvScreenOverlay(); // size[33]
 };

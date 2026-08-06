@@ -7,10 +7,10 @@ public:
 	virtual ~IVP_U_Active_Terminal_Double() override; // vtable[1]
 	virtual void print(); // vtable[2]
 	virtual void update_float(); // vtable[3]
-	virtual void set_double(); // vtable[4]
+	virtual void set_double(double param_1, IVP_BOOL param_2); // vtable[4]
 
-	void update_float(); // size[0]
-	IVP_U_Active_Terminal_Double(); // size[0]
-	~IVP_U_Active_Terminal_Double(); // size[0]
-	~IVP_U_Active_Terminal_Double(); // size[0]
+	void update_float(); // size[32]
+	IVP_U_Active_Terminal_Double(char *param_1, double param_2); // size[108]
+	~IVP_U_Active_Terminal_Double(); // size[68]
+	~IVP_U_Active_Terminal_Double(); // size[78]
 };

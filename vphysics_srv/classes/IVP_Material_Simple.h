@@ -12,6 +12,6 @@ public:
 	virtual void get_adhesion(); // vtable[6]
 	virtual void get_name(); // vtable[7]
 
-	IVP_Material_Simple(); // size[0]
-	IVP_Material_Simple(); // size[0]
+	IVP_Material_Simple(); // size[53]
+	IVP_Material_Simple(double param_1, double param_2); // size[55]
 };

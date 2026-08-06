@@ -10,7 +10,7 @@ public:
 	virtual void GetDataDescMap() override; // vtable[12]
 	virtual void Precache() override; // vtable[24]
 
-	void GetBaseMap(); // size[0]
-	void FollowEntity(); // size[0]
-	void CreateFireTrail(); // size[0]
+	void GetBaseMap(); // size[10]
+	void FollowEntity(CBaseEntity *param_1, char *param_2); // size[134]
+	void CreateFireTrail(); // size[77]
 };

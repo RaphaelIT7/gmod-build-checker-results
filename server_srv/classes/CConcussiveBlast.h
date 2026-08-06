@@ -8,5 +8,5 @@ public:
 	virtual void GetDataDescMap() override; // vtable[12]
 	virtual void Precache() override; // vtable[24]
 
-	void GetBaseMap(); // size[0]
+	void GetBaseMap(); // size[10]
 };

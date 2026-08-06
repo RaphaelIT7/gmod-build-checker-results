@@ -15,12 +15,10 @@ public:
 	virtual void CreateVPhysics() override; // vtable[157]
 	virtual void PhysicsSolidMaskForEntity() override; // vtable[174]
 
-	void _GLOBAL__sub_I_m_DataMap(); // size[0]
-	void InputSetDamage(); // size[0]
-	void BubbleThink(); // size[0]
-	void BoltTouch(); // size[0]
-	void BoltTouch(); // size[0]
-	void GetBaseMap(); // size[0]
-	void BoltCreate(); // size[0]
-	void CreateSprites(); // size[0]
+	void _GLOBAL__sub_I_m_DataMap(); // size[113]
+	void InputSetDamage(inputdata_t *param_1); // size[29]
+	void BubbleThink(); // size[340]
+	void BoltTouch(CBaseEntity *param_1); // size[787]
+	void GetBaseMap(); // size[10]
+	void CreateSprites(); // size[42]
 };

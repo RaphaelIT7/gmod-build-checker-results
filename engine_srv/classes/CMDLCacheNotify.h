@@ -3,9 +3,9 @@
 class CMDLCacheNotify : public IMDLCacheNotify
 {
 public:
-	virtual void OnDataLoaded(); // vtable[0]
-	virtual void OnDataUnloaded(); // vtable[1]
+	virtual void OnDataLoaded(MDLCacheDataType_t param_1, ushort param_2); // vtable[0]
+	virtual void OnDataUnloaded(MDLCacheDataType_t param_1, ushort param_2); // vtable[1]
 
-	void SetBoundsFromStudioHdr(); // size[0]
-	void ComputeModelFlags(); // size[0]
+	void SetBoundsFromStudioHdr(model_t *param_1, ushort param_2); // size[188]
+	void ComputeModelFlags(model_t *param_1, ushort param_2); // size[193]
 };

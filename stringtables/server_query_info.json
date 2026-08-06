@@ -3,15 +3,11 @@
 	"id": 9,
 	"entrybits": 2,
 	"maxstrings": 4,
-	"numstrings": 2,
+	"numstrings": 1,
 	"strings": [
 		{
 			"key": "QueryPort",
 			"userdatalength": 4
-		},
-		{
-			"key": "PureServerWhitelist",
-			"userdatalength": 20
 		}
 	]
 }
