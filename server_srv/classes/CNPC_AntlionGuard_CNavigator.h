@@ -1,0 +1,35 @@
+// Generated header
+
+class CNPC_AntlionGuard_CNavigator : public CAI_ComponentWithOuter
+{
+public:
+	virtual void ~CNavigator() override; // vtable[0]
+	virtual void ~CNavigator() override; // vtable[1]
+	virtual void Init() override; // vtable[5]
+	virtual void SetGoal() override; // vtable[6]
+	virtual void SetGoalTarget() override; // vtable[7]
+	virtual void SimplifyPath() override; // vtable[8]
+	virtual void CalcYawSpeed() override; // vtable[9]
+	virtual void OnScheduleChange() override; // vtable[10]
+	virtual void Move() override; // vtable[11]
+	virtual void OnClearPath() override; // vtable[12]
+	virtual void OnNewGoal() override; // vtable[13]
+	virtual void OnNavComplete() override; // vtable[14]
+	virtual void MoveNormal() override; // vtable[15]
+	virtual void MoveClimb() override; // vtable[16]
+	virtual void MoveJump() override; // vtable[17]
+	virtual void MoveEnact() override; // vtable[18]
+	virtual void MoveCalcBaseGoal() override; // vtable[19]
+	virtual void OnCalcBaseMove() override; // vtable[20]
+	virtual void OnObstructionPreSteer() override; // vtable[21]
+	virtual void OnFailedSteer() override; // vtable[22]
+	virtual void OnFailedLocalNavigation() override; // vtable[23]
+	virtual void OnInsufficientStopDist() override; // vtable[24]
+	virtual void OnMoveStalled() override; // vtable[25]
+	virtual void OnMoveExecuteFailed() override; // vtable[26]
+	virtual void OnMoveBlocked() override; // vtable[27]
+	virtual void MoveUpdateWaypoint() override; // vtable[28]
+	virtual void DoFindPathToPos() override; // vtable[29]
+	virtual void ShouldOptimizeInitialPathSegment() override; // vtable[30]
+	virtual void GetStoppingPath() override; // vtable[31]
+};

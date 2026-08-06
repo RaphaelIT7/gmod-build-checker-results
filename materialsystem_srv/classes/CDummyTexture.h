@@ -1,0 +1,37 @@
+// Generated header
+
+class CDummyTexture : public ITexture
+{
+public:
+	virtual void GetName(); // vtable[0]
+	virtual void GetMappingWidth(); // vtable[1]
+	virtual void GetMappingHeight(); // vtable[2]
+	virtual void GetActualWidth(); // vtable[3]
+	virtual void GetActualHeight(); // vtable[4]
+	virtual void GetNumAnimationFrames(); // vtable[5]
+	virtual void IsTranslucent(); // vtable[6]
+	virtual void IsMipmapped(); // vtable[7]
+	virtual void GetLowResColorSample(); // vtable[8]
+	virtual void GetResourceData(); // vtable[9]
+	virtual void IncrementReferenceCount(); // vtable[10]
+	virtual void DecrementReferenceCount(); // vtable[11]
+	virtual void SetTextureRegenerator(); // vtable[12]
+	virtual void Download(); // vtable[13]
+	virtual void GetApproximateVidMemBytes(); // vtable[14]
+	virtual void IsError(); // vtable[15]
+	virtual void IsVolumeTexture(); // vtable[16]
+	virtual void GetMappingDepth(); // vtable[17]
+	virtual void GetActualDepth(); // vtable[18]
+	virtual void GetImageFormat(); // vtable[19]
+	virtual void GetNormalDecodeMode(); // vtable[20]
+	virtual void IsRenderTarget(); // vtable[21]
+	virtual void IsCubeMap(); // vtable[22]
+	virtual void IsNormalMap(); // vtable[23]
+	virtual void IsProcedural(); // vtable[24]
+	virtual void DeleteIfUnreferenced(); // vtable[25]
+	virtual void SwapContents(); // vtable[26]
+	virtual void GetFlags(); // vtable[27]
+	virtual void ForceLODOverride(); // vtable[28]
+	virtual void SaveToFile() override; // vtable[29]
+	virtual void GetEmbeddedTexture(); // vtable[30]
+};

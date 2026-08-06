@@ -1,0 +1,47 @@
+// Generated header
+
+class IBody : public INextBotComponent
+{
+public:
+	virtual void ~IBody() override; // vtable[0]
+	virtual void ~IBody() override; // vtable[1]
+	virtual void Update() override; // vtable[44]
+	virtual void SetPosition(); // vtable[47]
+	virtual void GetEyePosition(); // vtable[48]
+	virtual void GetViewVector(); // vtable[49]
+	virtual void AimHeadTowards(); // vtable[50]
+	virtual void AimHeadTowards(); // vtable[51]
+	virtual void IsHeadAimingOnTarget(); // vtable[52]
+	virtual void IsHeadSteady(); // vtable[53]
+	virtual void GetHeadSteadyDuration(); // vtable[54]
+	virtual void GetHeadAimSubjectLeadTime(); // vtable[55]
+	virtual void GetHeadAimTrackingInterval(); // vtable[56]
+	virtual void ClearPendingAimReply(); // vtable[57]
+	virtual void GetMaxHeadAngularVelocity(); // vtable[58]
+	virtual void StartActivity(); // vtable[59]
+	virtual void SelectAnimationSequence(); // vtable[60]
+	virtual void GetActivity(); // vtable[61]
+	virtual void IsActivity(); // vtable[62]
+	virtual void HasActivityType(); // vtable[63]
+	virtual void SetDesiredPosture(); // vtable[64]
+	virtual void GetDesiredPosture(); // vtable[65]
+	virtual void IsDesiredPosture(); // vtable[66]
+	virtual void IsInDesiredPosture(); // vtable[67]
+	virtual void GetActualPosture(); // vtable[68]
+	virtual void IsActualPosture(); // vtable[69]
+	virtual void IsPostureMobile(); // vtable[70]
+	virtual void IsPostureChanging(); // vtable[71]
+	virtual void SetArousal(); // vtable[72]
+	virtual void GetArousal(); // vtable[73]
+	virtual void IsArousal(); // vtable[74]
+	virtual void GetHullWidth(); // vtable[75]
+	virtual void GetHullHeight(); // vtable[76]
+	virtual void GetStandHullHeight(); // vtable[77]
+	virtual void GetCrouchHullHeight(); // vtable[78]
+	virtual void GetHullMins(); // vtable[79]
+	virtual void GetHullMaxs(); // vtable[80]
+	virtual void GetSolidMask(); // vtable[81]
+	virtual void GetCollisionGroup(); // vtable[82]
+
+	void _GLOBAL__sub_I_AimHeadTowards();
+};

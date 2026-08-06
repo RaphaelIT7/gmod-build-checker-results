@@ -1,0 +1,93 @@
+// Generated header
+
+class CMatRenderContextBase : public IMatRenderContextInternal
+{
+public:
+	virtual void BindLocalCubemap(); // vtable[3]
+	virtual void SetRenderTarget(); // vtable[4]
+	virtual void GetRenderTarget(); // vtable[5]
+	virtual void Bind(); // vtable[7]
+	virtual void BindLightmapPage(); // vtable[8]
+	virtual void SetFrameBufferCopyTexture(); // vtable[16]
+	virtual void GetFrameBufferCopyTexture(); // vtable[17]
+	virtual void MatrixMode(); // vtable[18]
+	virtual void PushMatrix(); // vtable[19]
+	virtual void PopMatrix(); // vtable[20]
+	virtual void LoadMatrix(); // vtable[21]
+	virtual void LoadMatrix(); // vtable[22]
+	virtual void MultMatrix(); // vtable[23]
+	virtual void MultMatrix(); // vtable[24]
+	virtual void MultMatrixLocal(); // vtable[25]
+	virtual void MultMatrixLocal(); // vtable[26]
+	virtual void GetMatrix(); // vtable[27]
+	virtual void GetMatrix(); // vtable[28]
+	virtual void LoadIdentity(); // vtable[29]
+	virtual void Ortho(); // vtable[30]
+	virtual void PerspectiveX(); // vtable[31]
+	virtual void PickMatrix(); // vtable[32]
+	virtual void Rotate(); // vtable[33]
+	virtual void Translate(); // vtable[34]
+	virtual void Scale(); // vtable[35]
+	virtual void Viewport(); // vtable[36]
+	virtual void SetHeightClipMode(); // vtable[39]
+	virtual void SetHeightClipZ(); // vtable[40]
+	virtual void ComputePixelWidthOfSphere(); // vtable[75]
+	virtual void GetHeightClipMode(); // vtable[83]
+	virtual void ComputePixelDiameterOfSphere(); // vtable[84]
+	virtual void PushRenderTargetAndViewport(); // vtable[103]
+	virtual void PushRenderTargetAndViewport(); // vtable[104]
+	virtual void PushRenderTargetAndViewport(); // vtable[105]
+	virtual void PushRenderTargetAndViewport(); // vtable[106]
+	virtual void PopRenderTargetAndViewport(); // vtable[107]
+	virtual void PerspectiveOffCenterX(); // vtable[111]
+	virtual void SetRenderTargetEx(); // vtable[124]
+	virtual void EnableClipping(); // vtable[136]
+	virtual void GetCallQueue(); // vtable[145]
+	virtual void GetWorldSpaceCameraPosition(); // vtable[146]
+	virtual void GetWorldSpaceCameraVectors(); // vtable[147]
+	virtual void ResetToneMappingScale(); // vtable[148]
+	virtual void SetGoalToneMappingScale(); // vtable[149]
+	virtual void TurnOnToneMapping(); // vtable[150]
+	virtual void GetToneMappingScaleLinear(); // vtable[152]
+	virtual void GetCurrentMaterial(); // vtable[166]
+	virtual void GetCurrentProxy(); // vtable[168]
+	virtual void LockRenderData(); // vtable[183]
+	virtual void UnlockRenderData(); // vtable[184]
+	virtual void AddRefRenderData(); // vtable[185]
+	virtual void ReleaseRenderData(); // vtable[186]
+	virtual void IsRenderData(); // vtable[187]
+	virtual void PrintfVA(); // vtable[188]
+	virtual void Printf(); // vtable[189]
+	virtual void Knob(); // vtable[190]
+	virtual void GMOD_ForceFilterMode(); // vtable[194]
+	virtual void GMOD_FlushQueue(); // vtable[195]
+	virtual void OverrideBlend(); // vtable[196]
+	virtual void OverrideBlendSeparateAlpha(); // vtable[197]
+	virtual void GetFogMaxDensity() override; // vtable[198]
+	virtual void SetCurrentMaterialInternal(); // vtable[203]
+	virtual void GetCurrentMaterialInternal(); // vtable[204]
+	virtual void GetLightmapPage(); // vtable[205]
+	virtual void GetRenderTargetEx(); // vtable[211]
+	virtual void SyncMatrices(); // vtable[219]
+	virtual void SyncMatrix(); // vtable[220]
+	virtual void SetFrameTime(); // vtable[224]
+	virtual void SetCurrentProxy(); // vtable[225]
+	virtual void MarkRenderDataUnused(); // vtable[226]
+	virtual void GetCallQueueInternal(); // vtable[227]
+	virtual void InitializeFrom(); // vtable[230]
+	virtual void UpdateHeightClipUserClipPlane(); // vtable[231]
+	virtual void ApplyCustomClipPlanes(); // vtable[232]
+	virtual void CommitRenderTargetAndViewport(); // vtable[233]
+	virtual void OnRenderDataUnreferenced(); // vtable[234]
+
+	void BindLocalCubemap();
+	void RecomputeViewState();
+	void Init();
+	void Shutdown();
+	void CompactMemory();
+	void RenderDataSizeUsed();
+	void CurrentMatrixChanged();
+	void RecomputeViewState();
+	void RecomputeViewProjState();
+	void CMatRenderContextBase();
+};

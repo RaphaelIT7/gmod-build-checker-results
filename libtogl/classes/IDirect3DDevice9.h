@@ -1,0 +1,93 @@
+// Generated header
+
+class IDirect3DDevice9 : public IUnknown
+{
+public:
+	virtual void ~IDirect3DDevice9() override; // vtable[0]
+	virtual void ~IDirect3DDevice9() override; // vtable[1]
+
+	void CreateTexture();
+	void CreateCubeTexture();
+	void CreateVolumeTexture();
+	void CreateVertexBuffer();
+	void CreateIndexBuffer();
+	void IDirect3DDevice9();
+	void SetViewport();
+	void BeginScene();
+	void EndScene();
+	void PrintObjectStats();
+	void DumpStatsToConsole();
+	void GetTexture();
+	void CreateRenderTarget();
+	void SetRenderTarget();
+	void GetRenderTarget();
+	void CreateOffscreenPlainSurface();
+	void CreateDepthStencilSurface();
+	void SetDepthStencilSurface();
+	void GetDepthStencilSurface();
+	void GetFrontBufferData();
+	void SetPixelShaderNonInline();
+	void SetPixelShaderConstantFNonInline();
+	void SetPixelShaderConstantB();
+	void SetPixelShaderConstantI();
+	void SetVertexShaderNonInline();
+	void SetVertexShaderConstantFNonInline();
+	void SetVertexShaderConstantBNonInline();
+	void SetVertexShaderConstantINonInline();
+	void LinkShaderPair();
+	void QueryShaderPair();
+	void CreateVertexDeclaration();
+	void SetVertexDeclarationNonInline();
+	void SetFVF();
+	void GetFVF();
+	void SetStreamSourceNonInline();
+	void SetIndicesNonInline();
+	void ReleasedVertexDeclaration();
+	void ReleasedTexture();
+	void ReleasedSurface();
+	void ReleasedPixelShader();
+	void ReleasedVertexShader();
+	void ReleasedVertexBuffer();
+	void ReleasedIndexBuffer();
+	void ReleasedQuery();
+	void CreateQuery();
+	void FlushClipPlaneEquation();
+	void InitStates();
+	void FullFlushStates();
+	void DrawPrimitive();
+	void DrawIndexedPrimitiveUP();
+	void ShowCursor();
+	void SetTransform();
+	void SetTextureStageState();
+	void ValidateDevice();
+	void SetMaterial();
+	void LightEnable();
+	void SetScissorRect();
+	void GetDeviceCaps();
+	void TestCooperativeLevel();
+	void SetClipPlane();
+	void EvictManagedResources();
+	void SetLight();
+	void SetGammaRamp();
+	void SaveGLState();
+	void RestoreGLState();
+	void AcquireThreadOwnership();
+	void ReleaseThreadOwnership();
+	void SetMaxUsedVertexShaderConstantsHintNonInline();
+	void SetRenderState();
+	void SetSamplerStateNonInline();
+	void SetSamplerStatesNonInline();
+	void SetTextureNonInline();
+	void CreatePixelShader();
+	void CreateVertexShader();
+	void ResetFBOMap();
+	void UpdateBoundFBO();
+	void Create();
+	void Reset();
+	void StretchRect();
+	void GetRenderTargetData();
+	void DrawIndexedPrimitive();
+	void Clear();
+	void ScrubFBOMap();
+	void Present();
+};

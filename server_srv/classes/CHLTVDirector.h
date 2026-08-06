@@ -1,0 +1,63 @@
+// Generated header
+
+class CHLTVDirector : public CGameEventListener, public CBaseGameSystemPerFrame, public IHLTVDirector
+{
+public:
+	virtual void ~CHLTVDirector() override; // vtable[0]
+	virtual void ~CHLTVDirector() override; // vtable[1]
+	virtual void FireGameEvent() override; // vtable[2]
+	virtual void Name() override; // vtable[3]
+	virtual void SetHLTVServer() override; // vtable[4]
+	virtual void GetHLTVServer() override; // vtable[5]
+	virtual void GetDirectorTick() override; // vtable[6]
+	virtual void GetPVSEntity() override; // vtable[7]
+	virtual void GetPVSOrigin() override; // vtable[8]
+	virtual void GetDelay() override; // vtable[9]
+	virtual void IsActive() override; // vtable[10]
+	virtual void GetModEvents() override; // vtable[11]
+	virtual void Init() override; // vtable[12]
+	virtual void Shutdown() override; // vtable[13]
+	virtual void FrameUpdatePostEntityThink() override; // vtable[14]
+	virtual void _ZN13CHLTVDirector19LevelInitPostEntityEv() override; // vtable[15]
+	virtual void GetFixedCameraEntityName() override; // vtable[16]
+	virtual void StartNewShot() override; // vtable[17]
+	virtual void StartRandomShot() override; // vtable[18]
+	virtual void StartDelayMessage(); // vtable[19]
+	virtual void StartBestFixedCameraShot(); // vtable[20]
+	virtual void StartBestPlayerCameraShot(); // vtable[21]
+	virtual void StartFixedCameraShot(); // vtable[22]
+	virtual void StartChaseCameraShot(); // vtable[23]
+	virtual void UpdateSettings(); // vtable[24]
+	virtual void AnalyzePlayers(); // vtable[25]
+	virtual void AnalyzeCameras(); // vtable[26]
+	virtual void StartCameraManShot(); // vtable[27]
+	virtual void StartInstantBroadcastShot(); // vtable[28]
+	virtual void FinishCameraManShot(); // vtable[29]
+	virtual void BuildActivePlayerList(); // vtable[30]
+	virtual void FindBestGameEvent(); // vtable[31]
+	virtual void CreateShotFromEvent(); // vtable[32]
+
+	void Init();
+	void GetHLTVServer();
+	void IsActive();
+	void GetDelay();
+	void GetDirectorTick();
+	void GetPVSEntity();
+	void GetPVSOrigin();
+	void GetModEvents();
+	void FrameUpdatePostEntityThink();
+	void CHLTVDirector();
+	void BuildCameraList();
+	void CheckHistory();
+	void FindFirstEvent();
+	void ~CHLTVDirector();
+	void ~CHLTVDirector();
+	void ~CHLTVDirector();
+	void ~CHLTVDirector();
+	void RemoveEventsFromHistory();
+	void Shutdown();
+	void SetHLTVServer();
+	void LevelInitPostEntity();
+	void SetCameraMan();
+	void Name();
+};

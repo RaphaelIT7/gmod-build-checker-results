@@ -1,0 +1,50 @@
+// Generated header
+
+class CMaterialVar : public IMaterialVar
+{
+public:
+	virtual void GetTextureValue(); // vtable[0]
+	virtual void GetName(); // vtable[1]
+	virtual void GetNameAsSymbol(); // vtable[2]
+	virtual void SetFloatValue(); // vtable[3]
+	virtual void SetIntValue(); // vtable[4]
+	virtual void SetStringValue(); // vtable[5]
+	virtual void GetStringValue(); // vtable[6]
+	virtual void SetFourCCValue(); // vtable[7]
+	virtual void GetFourCCValue(); // vtable[8]
+	virtual void SetVecValue(); // vtable[9]
+	virtual void SetVecValue(); // vtable[10]
+	virtual void SetVecValue(); // vtable[11]
+	virtual void SetVecValue(); // vtable[12]
+	virtual void GetLinearVecValue(); // vtable[13]
+	virtual void SetTextureValue(); // vtable[14]
+	virtual void GetMaterialValue(); // vtable[15]
+	virtual void SetMaterialValue(); // vtable[16]
+	virtual void IsDefined(); // vtable[17]
+	virtual void SetUndefined(); // vtable[18]
+	virtual void SetMatrixValue(); // vtable[19]
+	virtual void GetMatrixValue(); // vtable[20]
+	virtual void MatrixIsIdentity(); // vtable[21]
+	virtual void CopyFrom(); // vtable[22]
+	virtual void SetValueAutodetectType(); // vtable[23]
+	virtual void GetOwningMaterial(); // vtable[24]
+	virtual void _ZN12CMaterialVar20SetVecComponentValueEfi(); // vtable[25]
+	virtual void GetIntValueInternal(); // vtable[26]
+	virtual void GetFloatValueInternal(); // vtable[27]
+	virtual void GetVecValueInternal(); // vtable[28]
+	virtual void GetVecValueInternal(); // vtable[29]
+	virtual void VectorSizeInternal() override; // vtable[30]
+	virtual void operator.cast.to.ITexture*(); // vtable[31]
+	virtual void ~CMaterialVar(); // vtable[32]
+	virtual void ~CMaterialVar(); // vtable[33]
+	virtual void GMOD_SetupNonQueuedVar(); // vtable[34]
+
+	void CMaterialVar();
+	void CMaterialVar();
+	void CMaterialVar();
+	void CMaterialVar();
+	void CMaterialVar();
+	void CMaterialVar();
+	void CleanUpData();
+	void SetVecValueInternal();
+};

@@ -1,0 +1,109 @@
+// Generated header
+
+class CBaseServerVehicle : public IServerVehicle
+{
+public:
+	virtual void GetPassenger(); // vtable[0]
+	virtual void GetPassengerRole(); // vtable[1]
+	virtual void GetVehicleViewPosition(); // vtable[2]
+	virtual void IsPassengerUsingStandardWeapons(); // vtable[3]
+	virtual void SetupMove(); // vtable[4]
+	virtual void ProcessMovement(); // vtable[5]
+	virtual void FinishMove(); // vtable[6]
+	virtual void ItemPostFrame() override; // vtable[7]
+	virtual void GetVehicleEnt(); // vtable[8]
+	virtual void SetPassenger(); // vtable[9]
+	virtual void IsPassengerVisible(); // vtable[10]
+	virtual void IsPassengerDamagable(); // vtable[11]
+	virtual void PassengerShouldReceiveDamage(); // vtable[12]
+	virtual void IsVehicleUpright(); // vtable[13]
+	virtual void IsPassengerEntering(); // vtable[14]
+	virtual void IsPassengerExiting(); // vtable[15]
+	virtual void GetPassengerSeatPoint(); // vtable[16]
+	virtual void HandlePassengerEntry(); // vtable[17]
+	virtual void HandlePassengerExit(); // vtable[18]
+	virtual void GetPassengerExitPoint(); // vtable[19]
+	virtual void GetEntryAnimForPoint(); // vtable[20]
+	virtual void GetExitAnimToUse(); // vtable[21]
+	virtual void HandleEntryExitFinish(); // vtable[22]
+	virtual void ClassifyPassenger(); // vtable[23]
+	virtual void PassengerDamageModifier(); // vtable[24]
+	virtual void GetVehicleParams(); // vtable[25]
+	virtual void GetVehicleController(); // vtable[26]
+	virtual void NPC_GetAvailableSeat(); // vtable[27]
+	virtual void NPC_AddPassenger(); // vtable[28]
+	virtual void NPC_RemovePassenger(); // vtable[29]
+	virtual void NPC_GetPassengerSeatPosition(); // vtable[30]
+	virtual void NPC_GetPassengerSeatPositionLocal(); // vtable[31]
+	virtual void NPC_GetPassengerSeatAttachment(); // vtable[32]
+	virtual void NPC_HasAvailableSeat(); // vtable[33]
+	virtual void NPC_GetPassengerSeatAnims(); // vtable[34]
+	virtual void NPC_GetPassengerInSeat(); // vtable[35]
+	virtual void RestorePassengerInfo(); // vtable[36]
+	virtual void NPC_CanDrive(); // vtable[37]
+	virtual void NPC_SetDriver(); // vtable[38]
+	virtual void NPC_DriveVehicle(); // vtable[39]
+	virtual void NPC_ThrottleCenter(); // vtable[40]
+	virtual void NPC_ThrottleReverse(); // vtable[41]
+	virtual void NPC_ThrottleForward(); // vtable[42]
+	virtual void NPC_Brake(); // vtable[43]
+	virtual void NPC_TurnLeft(); // vtable[44]
+	virtual void NPC_TurnRight(); // vtable[45]
+	virtual void NPC_TurnCenter(); // vtable[46]
+	virtual void NPC_PrimaryFire(); // vtable[47]
+	virtual void NPC_SecondaryFire(); // vtable[48]
+	virtual void NPC_HasPrimaryWeapon(); // vtable[49]
+	virtual void NPC_HasSecondaryWeapon(); // vtable[50]
+	virtual void NPC_AimPrimaryWeapon(); // vtable[51]
+	virtual void NPC_AimSecondaryWeapon(); // vtable[52]
+	virtual void Weapon_PrimaryRanges(); // vtable[53]
+	virtual void Weapon_SecondaryRanges(); // vtable[54]
+	virtual void Weapon_PrimaryCanFireAt(); // vtable[55]
+	virtual void Weapon_SecondaryCanFireAt(); // vtable[56]
+	virtual void ReloadScript() override; // vtable[57]
+	virtual void Precache(); // vtable[58]
+	virtual void IsVehicleBodyInWater(); // vtable[59]
+	virtual void GetDriver(); // vtable[60]
+	virtual void ParseEntryExitAnims(); // vtable[61]
+	virtual void CheckExitPoint(); // vtable[62]
+	virtual void SetVehicle(); // vtable[63]
+	virtual void SoundStart(); // vtable[64]
+	virtual void SoundStartDisabled(); // vtable[65]
+	virtual void SoundShutdown(); // vtable[66]
+	virtual void SoundUpdate(); // vtable[67]
+	virtual void PlaySound(); // vtable[68]
+	virtual void StopSound(); // vtable[69]
+	virtual void RecalculateSoundGear(); // vtable[70]
+	virtual void StartEngineRumble(); // vtable[71]
+	virtual void StopEngineRumble(); // vtable[72]
+
+	void PlaySound();
+	void GetBaseMap();
+	void Initialize();
+	void GetDrivableVehicle();
+	void SetPassengerWeapon();
+	void GetLocalAttachmentAtTime();
+	void GetLocalAttachmentAtTime();
+	void CacheEntryExitPoints();
+	void PlaySound();
+	void StopLoopingSound();
+	void PlayLoopingSound();
+	void PlayCrashSound();
+	void CheckCrash();
+	void CheckCrash();
+	void SoundState_ChooseState();
+	void StateSoundName();
+	void SoundState_OnNewState();
+	void SoundState_Update();
+	void InitSoundParams();
+	void NPC_GetAvailableSeat_Any();
+	void NPC_GetAvailableSeat_Nearest();
+	void FindRoleIndexByName();
+	void FindSeatIndexByName();
+	void ~CBaseServerVehicle();
+	void CBaseServerVehicle();
+	void ParseExitAnim();
+	void ParseNPCPassengerSeat();
+	void FindOrCreatePassengerRole();
+	void ParseNPCRoles();
+};

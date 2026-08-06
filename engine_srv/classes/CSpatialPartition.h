@@ -1,0 +1,49 @@
+// Generated header
+
+class CSpatialPartition : public ISpatialPartitionInternal
+{
+public:
+	virtual void ~CSpatialPartition() override; // vtable[0]
+	virtual void ~CSpatialPartition() override; // vtable[1]
+	virtual void CreateHandle(); // vtable[2]
+	virtual void CreateHandle(); // vtable[3]
+	virtual void DestroyHandle(); // vtable[4]
+	virtual void Insert(); // vtable[5]
+	virtual void Remove(); // vtable[6]
+	virtual void RemoveAndInsert(); // vtable[7]
+	virtual void Remove(); // vtable[8]
+	virtual void ElementMoved(); // vtable[9]
+	virtual void HideElement(); // vtable[10]
+	virtual void UnhideElement(); // vtable[11]
+	virtual void InstallQueryCallback_V1(); // vtable[12]
+	virtual void RemoveQueryCallback(); // vtable[13]
+	virtual void EnumerateElementsInBox(); // vtable[14]
+	virtual void EnumerateElementsInSphere(); // vtable[15]
+	virtual void EnumerateElementsAlongRay(); // vtable[16]
+	virtual void EnumerateElementsAtPoint(); // vtable[17]
+	virtual void SuppressLists(); // vtable[18]
+	virtual void GetSuppressedLists(); // vtable[19]
+	virtual void RenderAllObjectsInTree(); // vtable[20]
+	virtual void RenderObjectsInPlayerLeafs(); // vtable[21]
+	virtual void RenderLeafsForRayTraceStart(); // vtable[22]
+	virtual void RenderLeafsForRayTraceEnd(); // vtable[23]
+	virtual void RenderLeafsForHullTraceStart(); // vtable[24]
+	virtual void RenderLeafsForHullTraceEnd(); // vtable[25]
+	virtual void RenderLeafsForBoxStart(); // vtable[26]
+	virtual void RenderLeafsForBoxEnd(); // vtable[27]
+	virtual void RenderLeafsForSphereStart(); // vtable[28]
+	virtual void RenderLeafsForSphereEnd(); // vtable[29]
+	virtual void RenderObjectsInBox(); // vtable[30]
+	virtual void RenderObjectsInSphere(); // vtable[31]
+	virtual void RenderObjectsAlongRay(); // vtable[32]
+	virtual void ReportStats(); // vtable[33]
+	virtual void InstallQueryCallback() override; // vtable[34]
+	virtual void Init(); // vtable[35]
+	virtual void DrawDebugOverlays() override; // vtable[36]
+	virtual void InsertIntoTree(); // vtable[37]
+	virtual void RemoveFromTree(); // vtable[38]
+
+	void InvokeQueryCallbacks();
+	void Shutdown();
+	void CSpatialPartition();
+};

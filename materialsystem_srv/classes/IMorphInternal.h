@@ -1,0 +1,7 @@
+// Generated header
+
+class IMorphInternal : public IMorph
+{
+public:
+	virtual void __cxa_pure_virtual(); // vtable[5]
+};

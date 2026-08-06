@@ -1,0 +1,133 @@
+// Generated header
+
+class CMaterial : public IMaterialInternal
+{
+public:
+	virtual void GetName(); // vtable[0]
+	virtual void GetTextureGroupName(); // vtable[1]
+	virtual void GetPreviewImageProperties(); // vtable[2]
+	virtual void GetPreviewImage(); // vtable[3]
+	virtual void GetMappingWidth(); // vtable[4]
+	virtual void GetMappingHeight(); // vtable[5]
+	virtual void GetNumAnimationFrames(); // vtable[6]
+	virtual void InMaterialPage(); // vtable[7]
+	virtual void GetMaterialOffset(); // vtable[8]
+	virtual void GetMaterialScale(); // vtable[9]
+	virtual void GetMaterialPage(); // vtable[10]
+	virtual void FindVar(); // vtable[11]
+	virtual void IncrementReferenceCount(); // vtable[12]
+	virtual void DecrementReferenceCount(); // vtable[13]
+	virtual void GetEnumerationID(); // vtable[14]
+	virtual void GetLowResColorSample(); // vtable[15]
+	virtual void RecomputeStateSnapshots(); // vtable[16]
+	virtual void IsTranslucent(); // vtable[17]
+	virtual void IsAlphaTested(); // vtable[18]
+	virtual void IsVertexLit(); // vtable[19]
+	virtual void GetVertexFormat(); // vtable[20]
+	virtual void HasProxy(); // vtable[21]
+	virtual void UsesEnvCubemap(); // vtable[22]
+	virtual void NeedsTangentSpace(); // vtable[23]
+	virtual void NeedsPowerOfTwoFrameBufferTexture(); // vtable[24]
+	virtual void NeedsFullFrameBufferTexture(); // vtable[25]
+	virtual void NeedsSoftwareSkinning(); // vtable[26]
+	virtual void AlphaModulate(); // vtable[27]
+	virtual void ColorModulate(); // vtable[28]
+	virtual void SetMaterialVarFlag(); // vtable[29]
+	virtual void GetMaterialVarFlag(); // vtable[30]
+	virtual void GetReflectivity(); // vtable[31]
+	virtual void GetPropertyFlag(); // vtable[32]
+	virtual void IsTwoSided(); // vtable[33]
+	virtual void SetShader(); // vtable[34]
+	virtual void GetNumPasses(); // vtable[35]
+	virtual void GetTextureMemoryBytes(); // vtable[36]
+	virtual void Refresh(); // vtable[37]
+	virtual void NeedsLightmapBlendAlpha(); // vtable[38]
+	virtual void NeedsSoftwareLighting(); // vtable[39]
+	virtual void ShaderParamCount(); // vtable[40]
+	virtual void GetShaderParams(); // vtable[41]
+	virtual void IsErrorMaterial(); // vtable[42]
+	virtual void SetUseFixedFunctionBakedLighting(); // vtable[43]
+	virtual void GetAlphaModulation(); // vtable[44]
+	virtual void GetColorModulation(); // vtable[45]
+	virtual void GetMorphFormat(); // vtable[46]
+	virtual void FindVarFast(); // vtable[47]
+	virtual void SetShaderAndParams(); // vtable[48]
+	virtual void GetShaderName(); // vtable[49]
+	virtual void DeleteIfUnreferenced(); // vtable[50]
+	virtual void IsSpriteCard(); // vtable[51]
+	virtual void CallBindProxy(); // vtable[52]
+	virtual void CheckProxyReplacement(); // vtable[53]
+	virtual void RefreshPreservingMaterialVars(); // vtable[54]
+	virtual void WasReloadedFromWhitelist(); // vtable[55]
+	virtual void IsPrecached(); // vtable[56]
+	virtual void GMOD_Persist() override; // vtable[57]
+	virtual void GetReferenceCount(); // vtable[58]
+	virtual void SetEnumerationID(); // vtable[59]
+	virtual void SetNeedsWhiteLightmap(); // vtable[60]
+	virtual void GetNeedsWhiteLightmap(); // vtable[61]
+	virtual void Uncache(); // vtable[62]
+	virtual void Precache(); // vtable[63]
+	virtual void PrecacheVars(); // vtable[64]
+	virtual void ReloadTextures(); // vtable[65]
+	virtual void SetMinLightmapPageID(); // vtable[66]
+	virtual void SetMaxLightmapPageID(); // vtable[67]
+	virtual void GetMinLightmapPageID(); // vtable[68]
+	virtual void GetMaxLightmapPageID(); // vtable[69]
+	virtual void GetShader(); // vtable[70]
+	virtual void IsPrecachedVars(); // vtable[71]
+	virtual void DrawMesh(); // vtable[72]
+	virtual void GetVertexUsage(); // vtable[73]
+	virtual void PerformDebugTrace(); // vtable[74]
+	virtual void NoDebugOverride(); // vtable[75]
+	virtual void ToggleSuppression(); // vtable[76]
+	virtual void IsSuppressed(); // vtable[77]
+	virtual void ToggleDebugTrace(); // vtable[78]
+	virtual void UseFog(); // vtable[79]
+	virtual void AddMaterialVar(); // vtable[80]
+	virtual void GetRenderState(); // vtable[81]
+	virtual void IsManuallyCreated(); // vtable[82]
+	virtual void NeedsFixedFunctionFlashlight(); // vtable[83]
+	virtual void IsUsingVertexID(); // vtable[84]
+	virtual void MarkAsPreloaded(); // vtable[85]
+	virtual void IsPreloaded(); // vtable[86]
+	virtual void ArtificialAddRef(); // vtable[87]
+	virtual void ArtificialRelease(); // vtable[88]
+	virtual void ReportVarChanged(); // vtable[89]
+	virtual void GetChangeID(); // vtable[90]
+	virtual void IsTranslucentInternal(); // vtable[91]
+	virtual void IsRealTimeVersion(); // vtable[92]
+	virtual void GetRealTimeVersion(); // vtable[94]
+	virtual void GetQueueFriendlyVersion(); // vtable[95]
+	virtual void PrecacheMappingDimensions(); // vtable[96]
+	virtual void FindRepresentativeTexture(); // vtable[97]
+	virtual void DecideShouldReloadFromWhitelist(); // vtable[98]
+	virtual void ReloadFromWhitelistIfMarked() override; // vtable[99]
+	virtual void ~CMaterial(); // vtable[100]
+	virtual void ~CMaterial(); // vtable[101]
+
+	void CleanUpStateSnapshots();
+	void DecideShouldReloadFromWhitelist();
+	void CreateRenderPassList();
+	void DestroyRenderPassList();
+	void GetDummyVariable();
+	void CleanUpShaderParams();
+	void InitializeMaterialProxy();
+	void CleanUpMaterialProxy();
+	void DetermineProxyReplacements();
+	void FindMaterialVarFlag();
+	void PrintMaterialFlags();
+	void ParseMaterialFlag();
+	void ShouldSkipVar();
+	void ParseMaterialVars();
+	void InitializeStateSnapshots();
+	void CleanUpStateSnapshots();
+	void SetupErrorShader();
+	void IsUsingDiffuseBumpedLighting();
+	void IsUsingLightmap();
+	void UsesUNCFileName();
+	void GetPreviewImageName();
+	void GetPreviewImageFileName();
+	void GetShaderParam();
+	void CMaterial();
+	void InitializeShader();
+};

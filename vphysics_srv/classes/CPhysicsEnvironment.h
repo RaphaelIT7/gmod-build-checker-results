@@ -1,0 +1,89 @@
+// Generated header
+
+class CPhysicsEnvironment : public IPhysicsEnvironment
+{
+public:
+	virtual void ~CPhysicsEnvironment(); // vtable[0]
+	virtual void ~CPhysicsEnvironment(); // vtable[1]
+	virtual void SetDebugOverlay(); // vtable[2]
+	virtual void GetDebugOverlay(); // vtable[3]
+	virtual void SetGravity(); // vtable[4]
+	virtual void GetGravity(); // vtable[5]
+	virtual void SetAirDensity(); // vtable[6]
+	virtual void GetAirDensity(); // vtable[7]
+	virtual void CreatePolyObject(); // vtable[8]
+	virtual void CreatePolyObjectStatic(); // vtable[9]
+	virtual void CreateSphereObject(); // vtable[10]
+	virtual void DestroyObject(); // vtable[11]
+	virtual void CreateFluidController(); // vtable[12]
+	virtual void DestroyFluidController(); // vtable[13]
+	virtual void CreateSpring(); // vtable[14]
+	virtual void DestroySpring(); // vtable[15]
+	virtual void CreateRagdollConstraint(); // vtable[16]
+	virtual void CreateHingeConstraint(); // vtable[17]
+	virtual void CreateFixedConstraint(); // vtable[18]
+	virtual void CreateSlidingConstraint(); // vtable[19]
+	virtual void CreateBallsocketConstraint(); // vtable[20]
+	virtual void CreatePulleyConstraint(); // vtable[21]
+	virtual void CreateLengthConstraint(); // vtable[22]
+	virtual void DestroyConstraint(); // vtable[23]
+	virtual void CreateConstraintGroup(); // vtable[24]
+	virtual void DestroyConstraintGroup(); // vtable[25]
+	virtual void CreateShadowController(); // vtable[26]
+	virtual void DestroyShadowController(); // vtable[27]
+	virtual void CreatePlayerController(); // vtable[28]
+	virtual void DestroyPlayerController(); // vtable[29]
+	virtual void CreateMotionController(); // vtable[30]
+	virtual void DestroyMotionController(); // vtable[31]
+	virtual void CreateVehicleController(); // vtable[32]
+	virtual void DestroyVehicleController(); // vtable[33]
+	virtual void SetCollisionSolver(); // vtable[34]
+	virtual void Simulate(); // vtable[35]
+	virtual void IsInSimulation(); // vtable[36]
+	virtual void GetSimulationTimestep(); // vtable[37]
+	virtual void SetSimulationTimestep(); // vtable[38]
+	virtual void GetSimulationTime(); // vtable[39]
+	virtual void ResetSimulationClock(); // vtable[40]
+	virtual void GetNextFrameTime(); // vtable[41]
+	virtual void SetCollisionEventHandler(); // vtable[42]
+	virtual void SetObjectEventHandler(); // vtable[43]
+	virtual void SetConstraintEventHandler(); // vtable[44]
+	virtual void SetQuickDelete(); // vtable[45]
+	virtual void GetActiveObjectCount(); // vtable[46]
+	virtual void GetActiveObjects(); // vtable[47]
+	virtual void GetObjectList(); // vtable[48]
+	virtual void TransferObject(); // vtable[49]
+	virtual void CleanupDeleteList(); // vtable[50]
+	virtual void EnableDeleteQueue(); // vtable[51]
+	virtual void Save(); // vtable[52]
+	virtual void PreRestore(); // vtable[53]
+	virtual void Restore(); // vtable[54]
+	virtual void PostRestore(); // vtable[55]
+	virtual void IsCollisionModelUsed(); // vtable[56]
+	virtual void TraceRay(); // vtable[57]
+	virtual void SweepCollideable(); // vtable[58]
+	virtual void GetPerformanceSettings(); // vtable[59]
+	virtual void SetPerformanceSettings(); // vtable[60]
+	virtual void ReadStats(); // vtable[61]
+	virtual void ClearStats(); // vtable[62]
+	virtual void GetObjectSerializeSize(); // vtable[63]
+	virtual void SerializeObjectToBuffer(); // vtable[64]
+	virtual void UnserializeObjectFromBuffer(); // vtable[65]
+	virtual void EnableConstraintNotify(); // vtable[66]
+	virtual void DebugCheckContacts(); // vtable[67]
+	virtual void CreateLimitedHingeConstraint(); // vtable[68]
+	virtual void ShouldQuickDelete(); // vtable[69]
+	virtual void TraceBox(); // vtable[70]
+
+	void CPhysicsEnvironment();
+	void Simulate();
+	void GetCollisionEventHandler();
+	void NotifyConstraintDisabled();
+	void ClearDeadObjects();
+	void AddPlayerController();
+	void FindPlayerController();
+	void PhantomAdd();
+	void PhantomRemove();
+	void CPhysicsEnvironment();
+	void RemovePlayerController();
+};

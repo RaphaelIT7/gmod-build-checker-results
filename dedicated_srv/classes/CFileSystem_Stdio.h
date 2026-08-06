@@ -1,0 +1,34 @@
+// Generated header
+
+class CFileSystem_Stdio : public CBaseFileSystem
+{
+public:
+	virtual void IsSteam(); // vtable[5]
+	virtual void MountSteamContent(); // vtable[6]
+	virtual void WaitForResources(); // vtable[56]
+	virtual void GetWaitForResourcesProgress(); // vtable[57]
+	virtual void CancelWaitForResources(); // vtable[58]
+	virtual void HintResourceNeed(); // vtable[59]
+	virtual void IsFileImmediatelyAvailable(); // vtable[60]
+	virtual void GMOD_FixPathCase() override; // vtable[123]
+	virtual void FS_fopen(); // vtable[142]
+	virtual void FS_setbufsize(); // vtable[143]
+	virtual void FS_fclose(); // vtable[144]
+	virtual void FS_fseek(); // vtable[145]
+	virtual void FS_ftell(); // vtable[146]
+	virtual void FS_feof(); // vtable[147]
+	virtual void FS_fread(); // vtable[148]
+	virtual void FS_fwrite(); // vtable[149]
+	virtual void FS_vfprintf(); // vtable[151]
+	virtual void FS_ferror(); // vtable[152]
+	virtual void FS_fflush(); // vtable[153]
+	virtual void FS_fgets(); // vtable[154]
+	virtual void FS_stat(); // vtable[155]
+	virtual void FS_chmod(); // vtable[156]
+	virtual void FS_FindFirstFile(); // vtable[157]
+	virtual void FS_FindNextFile(); // vtable[158]
+	virtual void FS_FindClose() override; // vtable[159]
+
+	void ~CFileSystem_Stdio();
+	void CFileSystem_Stdio();
+};

@@ -1,0 +1,39 @@
+// Generated header
+
+class IVision : public INextBotComponent
+{
+public:
+	virtual void ~IVision() override; // vtable[0]
+	virtual void ~IVision() override; // vtable[1]
+	virtual void Update() override; // vtable[44]
+	virtual void ForEachKnownEntity(); // vtable[47]
+	virtual void CollectKnownEntities(); // vtable[48]
+	virtual void GetPrimaryKnownThreat(); // vtable[49]
+	virtual void GetTimeSinceVisible(); // vtable[50]
+	virtual void GetClosestKnown(); // vtable[51]
+	virtual void GetKnownCount(); // vtable[52]
+	virtual void GetClosestKnown(); // vtable[53]
+	virtual void GetKnown(); // vtable[54]
+	virtual void AddKnownEntity(); // vtable[55]
+	virtual void ForgetEntity(); // vtable[56]
+	virtual void ForgetAllKnownEntities(); // vtable[57]
+	virtual void CollectPotentiallyVisibleEntities(); // vtable[58]
+	virtual void GetMaxVisionRange(); // vtable[59]
+	virtual void GetMinRecognizeTime(); // vtable[60]
+	virtual void IsAbleToSee(); // vtable[61]
+	virtual void IsAbleToSee(); // vtable[62]
+	virtual void IsIgnored(); // vtable[63]
+	virtual void IsVisibleEntityNoticed(); // vtable[64]
+	virtual void IsInFieldOfView(); // vtable[65]
+	virtual void IsInFieldOfView(); // vtable[66]
+	virtual void GetDefaultFieldOfView(); // vtable[67]
+	virtual void GetFieldOfView(); // vtable[68]
+	virtual void SetFieldOfView(); // vtable[69]
+	virtual void IsLineOfSightClear(); // vtable[70]
+	virtual void IsLineOfSightClearToEntity(); // vtable[71]
+	virtual void IsLookingAt(); // vtable[72]
+	virtual void IsLookingAt(); // vtable[73]
+
+	void IVision();
+	void UpdateKnownEntities();
+};

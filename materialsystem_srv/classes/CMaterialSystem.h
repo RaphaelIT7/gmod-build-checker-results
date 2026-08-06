@@ -1,0 +1,250 @@
+// Generated header
+
+class CMaterialSystem : public CTier2AppSystem, public IShaderUtil
+{
+public:
+	virtual void Shutdown() override; // vtable[4]
+	virtual void Init(); // vtable[5]
+	virtual void SetShaderAPI(); // vtable[6]
+	virtual void SetAdapter(); // vtable[7]
+	virtual void ModInit(); // vtable[8]
+	virtual void ModShutdown(); // vtable[9]
+	virtual void SetThreadMode(); // vtable[10]
+	virtual void GetThreadMode(); // vtable[11]
+	virtual void IsRenderThreadSafe(); // vtable[12]
+	virtual void ExecuteQueued(); // vtable[13]
+	virtual void GetHardwareConfig(); // vtable[14]
+	virtual void UpdateConfig(); // vtable[15]
+	virtual void OverrideConfig(); // vtable[16]
+	virtual void GetCurrentConfigForVideoCard(); // vtable[17]
+	virtual void GetRecommendedConfigurationInfo(); // vtable[18]
+	virtual void GetDisplayAdapterCount(); // vtable[19]
+	virtual void GetCurrentAdapter(); // vtable[20]
+	virtual void GetDisplayAdapterInfo(); // vtable[21]
+	virtual void GetModeCount(); // vtable[22]
+	virtual void GetModeInfo(); // vtable[23]
+	virtual void AddModeChangeCallBack(); // vtable[24]
+	virtual void GetDisplayMode(); // vtable[25]
+	virtual void SetMode(); // vtable[26]
+	virtual void SupportsMSAAMode(); // vtable[27]
+	virtual void GetVideoCardIdentifier(); // vtable[28]
+	virtual void SpewDriverInfo(); // vtable[29]
+	virtual void GetDXLevelDefaults(); // vtable[30]
+	virtual void GetBackBufferDimensions(); // vtable[31]
+	virtual void GetBackBufferFormat(); // vtable[32]
+	virtual void SupportsHDRMode(); // vtable[33]
+	virtual void AddView(); // vtable[34]
+	virtual void RemoveView() override; // vtable[35]
+	virtual void SetView(); // vtable[36]
+	virtual void BeginFrame(); // vtable[37]
+	virtual void EndFrame(); // vtable[38]
+	virtual void Flush(); // vtable[39]
+	virtual void SwapBuffers(); // vtable[40]
+	virtual void EvictManagedResources(); // vtable[41]
+	virtual void ReleaseResources(); // vtable[42]
+	virtual void ReacquireResources(); // vtable[43]
+	virtual void AddReleaseFunc(); // vtable[44]
+	virtual void RemoveReleaseFunc(); // vtable[45]
+	virtual void AddRestoreFunc(); // vtable[46]
+	virtual void RemoveRestoreFunc(); // vtable[47]
+	virtual void ResetTempHWMemory(); // vtable[48]
+	virtual void HandleDeviceLost(); // vtable[49]
+	virtual void ShaderCount(); // vtable[50]
+	virtual void GetShaders(); // vtable[51]
+	virtual void ShaderFlagCount(); // vtable[52]
+	virtual void ShaderFlagName(); // vtable[53]
+	virtual void GetShaderFallback(); // vtable[54]
+	virtual void GetMaterialProxyFactory(); // vtable[55]
+	virtual void SetMaterialProxyFactory(); // vtable[56]
+	virtual void EnableEditorMaterials(); // vtable[57]
+	virtual void SetInStubMode(); // vtable[58]
+	virtual void DebugPrintUsedMaterials(); // vtable[59]
+	virtual void DebugPrintUsedTextures(); // vtable[60]
+	virtual void ToggleSuppressMaterial(); // vtable[61]
+	virtual void ToggleDebugMaterial(); // vtable[62]
+	virtual void UsingFastClipping(); // vtable[63]
+	virtual void _ZN15CMaterialSystem17StencilBufferBitsEv(); // vtable[64]
+	virtual void UncacheAllMaterials(); // vtable[65]
+	virtual void UncacheUnusedMaterials(); // vtable[66]
+	virtual void CacheUsedMaterials(); // vtable[67]
+	virtual void ReloadTextures(); // vtable[68]
+	virtual void ReloadMaterials(); // vtable[69]
+	virtual void CreateMaterial(); // vtable[70]
+	virtual void FindMaterial(); // vtable[71]
+	virtual void IsMaterialLoaded(); // vtable[72]
+	virtual void FirstMaterial(); // vtable[73]
+	virtual void NextMaterial(); // vtable[74]
+	virtual void InvalidMaterial(); // vtable[75]
+	virtual void GetMaterial(); // vtable[76]
+	virtual void GetNumMaterials(); // vtable[77]
+	virtual void SetAsyncTextureLoadCache(); // vtable[78]
+	virtual void FindTexture(); // vtable[79]
+	virtual void IsTextureLoaded(); // vtable[80]
+	virtual void CreateProceduralTexture(); // vtable[81]
+	virtual void BeginRenderTargetAllocation(); // vtable[82]
+	virtual void EndRenderTargetAllocation(); // vtable[83]
+	virtual void CreateRenderTargetTexture(); // vtable[84]
+	virtual void CreateNamedRenderTargetTextureEx(); // vtable[85]
+	virtual void CreateNamedRenderTargetTexture(); // vtable[86]
+	virtual void CreateNamedRenderTargetTextureEx2(); // vtable[87]
+	virtual void BeginLightmapAllocation(); // vtable[88]
+	virtual void EndLightmapAllocation(); // vtable[89]
+	virtual void AllocateLightmap(); // vtable[90]
+	virtual void AllocateWhiteLightmap(); // vtable[91]
+	virtual void UpdateLightmap(); // vtable[92]
+	virtual void GetNumSortIDs(); // vtable[93]
+	virtual void GetSortInfo(); // vtable[94]
+	virtual void GetLightmapPageSize(); // vtable[95]
+	virtual void ResetMaterialLightmapPageInfo(); // vtable[96]
+	virtual void ClearBuffers(); // vtable[97]
+	virtual void GetRenderContext(); // vtable[98]
+	virtual void SupportsShadowDepthTextures(); // vtable[99]
+	virtual void BeginUpdateLightmaps(); // vtable[100]
+	virtual void EndUpdateLightmaps(); // vtable[101]
+	virtual void Lock(); // vtable[102]
+	virtual void Unlock(); // vtable[103]
+	virtual void GetShadowDepthTextureFormat(); // vtable[104]
+	virtual void SupportsFetch4(); // vtable[105]
+	virtual void SupportsCSAAMode(); // vtable[106]
+	virtual void RemoveModeChangeCallBack(); // vtable[107]
+	virtual void FindProceduralMaterial(); // vtable[108]
+	virtual void GetNullTextureFormat(); // vtable[109]
+	virtual void AddTextureAlias(); // vtable[110]
+	virtual void RemoveTextureAlias(); // vtable[111]
+	virtual void AllocateDynamicLightmap(); // vtable[112]
+	virtual void SetExcludedTextures(); // vtable[113]
+	virtual void UpdateExcludedTextures(); // vtable[114]
+	virtual void IsInFrame(); // vtable[115]
+	virtual void CompactMemory(); // vtable[116]
+	virtual void ReloadFilesInList(); // vtable[117]
+	virtual void AllowThreading(); // vtable[118]
+	virtual void FindMaterialEx(); // vtable[119]
+	virtual void DoStartupShaderPreloading(); // vtable[120]
+	virtual void GMOD_FlushQueue(); // vtable[121]
+	virtual void GMOD_TextureExists(); // vtable[122]
+	virtual void GMOD_IsMaterialMissing(); // vtable[123]
+	virtual void GMOD_GetErrorMaterial(); // vtable[124]
+	virtual void GMOD_MarkMissing(); // vtable[125]
+	virtual void GMOD_ClearMissing(); // vtable[126]
+	virtual void CreateTextureFromBits(); // vtable[127]
+	virtual void CreateNamedTextureFromBitsEx(); // vtable[128]
+	virtual void GMOD_SetLightmapScale() override; // vtable[129]
+	virtual void GetCurrentMaterial(); // vtable[130]
+	virtual void GetLightmapPage(); // vtable[131]
+	virtual void GetLightmapWidth(); // vtable[132]
+	virtual void GetLightmapHeight(); // vtable[133]
+	virtual void GetLocalCubemap(); // vtable[134]
+	virtual void ForceDepthFuncEquals(); // vtable[135]
+	virtual void GetHeightClipMode(); // vtable[136]
+	virtual void AddMaterialToMaterialList(); // vtable[137]
+	virtual void RemoveMaterial(); // vtable[138]
+	virtual void RemoveMaterialSubRect(); // vtable[139]
+	virtual void InFlashlightMode(); // vtable[140]
+	virtual void CanUseEditorMaterials(); // vtable[141]
+	virtual void GetForcedTextureLoadPathID(); // vtable[142]
+	virtual void GetRenderCallQueue(); // vtable[143]
+	virtual void UnbindMaterial(); // vtable[144]
+	virtual void GetRenderThreadId(); // vtable[145]
+	virtual void DetermineProxyReplacements() override; // vtable[146]
+	virtual void GetConfig(); // vtable[147]
+	virtual void NoteAnisotropicLevel(); // vtable[148]
+	virtual void ReleaseShaderObjects(); // vtable[149]
+	virtual void RestoreShaderObjects(); // vtable[150]
+	virtual void InEditorMode(); // vtable[151]
+	virtual void IsInStubMode(); // vtable[152]
+	virtual void ImageFormatInfo(); // vtable[153]
+	virtual void GetMemRequired(); // vtable[154]
+	virtual void ConvertImageFormat(); // vtable[155]
+	virtual void OnDrawMesh(); // vtable[156]
+	virtual void OnDrawMesh(); // vtable[157]
+	virtual void OnSetFlexMesh(); // vtable[158]
+	virtual void OnSetColorMesh(); // vtable[159]
+	virtual void OnSetPrimitiveType(); // vtable[160]
+	virtual void SyncMatrices(); // vtable[161]
+	virtual void SyncMatrix(); // vtable[162]
+	virtual void OnFlushBufferedPrimitives(); // vtable[163]
+	virtual void OnThreadEvent(); // vtable[164]
+	virtual void BindStandardTexture(); // vtable[165]
+	virtual void BindStandardVertexTexture(); // vtable[166]
+	virtual void GetLightmapDimensions(); // vtable[167]
+	virtual void GetStandardTextureDimensions(); // vtable[168]
+	virtual void GetBoundMorphFormat(); // vtable[169]
+	virtual void GetRenderTargetEx(); // vtable[170]
+	virtual void DrawClearBufferQuad(); // vtable[171]
+	virtual void MaxHWMorphBatchCount(); // vtable[172]
+	virtual void GetCurrentColorCorrection(); // vtable[173]
+	virtual void GMOD_DumpAllMaterials(); // vtable[174]
+
+	void GetThreadMode();
+	void GetConfig();
+	void IsInStubMode();
+	void NoteAnisotropicLevel();
+	void DebugPrintUsedTextures();
+	void ReloadAllMaterials();
+	void ReloadTextures();
+	void ThreadExecuteQueuedContext();
+	void ConvertImageFormat();
+	void GetMemRequired();
+	void ImageFormatInfo();
+	void ReloadMaterials();
+	void ReloadTexture();
+	void InEditorMode();
+	void IsRenderThreadSafe();
+	void DebugPrintUsedMaterials();
+	void DebugPrintUsedMaterialsVerbose();
+	void QueryInterface();
+	void ReleaseStandardTextures();
+	void OnDrawMesh();
+	void OnDrawMesh();
+	void AllocateStandardTextures();
+	void Connect();
+	void ReleaseShaderObjects();
+	void CreateDebugMaterials();
+	void CleanUpDebugMaterials();
+	void DestroyShaderAPI();
+	void CreateShaderAPI();
+	void Disconnect();
+	void Init();
+	void QueryShaderAPI();
+	void InitColorCorrection();
+	void WriteConfigurationInfoToConVars();
+	void GenerateConfigFromConfigKeyValues();
+	void GetShaderAPITextureBindHandle();
+	void RecomputeAllStateSnapshots();
+	void AllocateStandardTextures();
+	void ReleaseStandardTextures();
+	void CreateMatQueueThreadPool();
+	void DestroyMatQueueThreadPool();
+	void Shutdown();
+	void SetShadowDepthBiasFactors();
+	void UsesSRGBCorrectBlending();
+	void ThreadRelease();
+	void ForceSingleThreaded();
+	void ThreadAcquire();
+	void OnRenderingAsyncComplete();
+	void UncacheUnusedMaterials();
+	void RestoreShaderObjects();
+	void ~CMaterialSystem();
+	void CMaterialSystem();
+	void OnThreadEvent();
+	void ScanDirForReplacements();
+	void PreloadReplacements();
+	void ReadConfigFromConVars();
+	void WriteConfigIntoConVars();
+	void GetBoundMorphFormat();
+	void MaxHWMorphBatchCount();
+	void GetCurrentColorCorrection();
+	void OnSetFlexMesh();
+	void OnSetColorMesh();
+	void OnSetPrimitiveType();
+	void SyncMatrices();
+	void SyncMatrix();
+	void OnFlushBufferedPrimitives();
+	void InFlashlightMode();
+	void BindStandardTexture();
+	void BindStandardVertexTexture();
+	void GetLightmapDimensions();
+	void GetStandardTextureDimensions();
+	void GetRenderTargetEx();
+	void DrawClearBufferQuad();
+};

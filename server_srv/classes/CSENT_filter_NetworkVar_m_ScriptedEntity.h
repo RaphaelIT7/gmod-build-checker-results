@@ -1,0 +1,6 @@
+// Generated header
+
+class CSENT_filter_NetworkVar_m_ScriptedEntity : public CScriptedEntity
+{
+public:
+};

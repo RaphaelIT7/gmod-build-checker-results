@@ -1,0 +1,56 @@
+// Generated header
+
+class CServerGameDLL : public IServerGameDLL
+{
+public:
+	virtual void PreInit(); // vtable[0]
+	virtual void DLLInit(); // vtable[1]
+	virtual void ReplayInit(); // vtable[2]
+	virtual void GameInit(); // vtable[3]
+	virtual void LevelInit(); // vtable[4]
+	virtual void ServerActivate(); // vtable[5]
+	virtual void GameFrame(); // vtable[6]
+	virtual void PreClientUpdate(); // vtable[7]
+	virtual void LevelShutdown(); // vtable[8]
+	virtual void GameShutdown(); // vtable[9]
+	virtual void DLLShutdown(); // vtable[10]
+	virtual void GetTickInterval(); // vtable[11]
+	virtual void GetAllServerClasses(); // vtable[12]
+	virtual void GetGameDescription(); // vtable[13]
+	virtual void CreateNetworkStringTables(); // vtable[14]
+	virtual void SaveInit(); // vtable[15]
+	virtual void SaveWriteFields(); // vtable[16]
+	virtual void SaveReadFields(); // vtable[17]
+	virtual void SaveGlobalState(); // vtable[18]
+	virtual void RestoreGlobalState(); // vtable[19]
+	virtual void PreSave(); // vtable[20]
+	virtual void Save(); // vtable[21]
+	virtual void GetSaveComment(); // vtable[22]
+	virtual void WriteSaveHeaders(); // vtable[23]
+	virtual void ReadRestoreHeaders(); // vtable[24]
+	virtual void Restore(); // vtable[25]
+	virtual void IsRestoring(); // vtable[26]
+	virtual void CreateEntityTransitionList(); // vtable[27]
+	virtual void BuildAdjacentMapList(); // vtable[28]
+	virtual void GetUserMessageInfo(); // vtable[29]
+	virtual void GetStandardSendProxies(); // vtable[30]
+	virtual void PostInit(); // vtable[31]
+	virtual void Think(); // vtable[32]
+	virtual void PreSaveGameLoaded(); // vtable[33]
+	virtual void ShouldHideServer(); // vtable[34]
+	virtual void InvalidateMdlCache(); // vtable[35]
+	virtual void OnQueryCvarValueFinished(); // vtable[36]
+	virtual void GameServerSteamAPIActivated(); // vtable[37]
+	virtual void GameServerSteamAPIShutdown(); // vtable[38]
+	virtual void SetServerHibernation(); // vtable[39]
+	virtual void GetServerGCLobby(); // vtable[40]
+	virtual void GetServerBrowserMapOverride(); // vtable[41]
+	virtual void GetServerBrowserGameData(); // vtable[42]
+	virtual void GMOD_CheckPassword(); // vtable[43]
+	virtual void GMOD_ClientSignOnStateChanged(); // vtable[44]
+	virtual void GMOD_OnAllSoundsStoppedSV(); // vtable[45]
+
+	void LoadMessageOfTheDay();
+	void LoadSpecificMOTDMsg();
+	void LevelInit_ParseAllEntities();
+};

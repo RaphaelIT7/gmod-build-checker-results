@@ -1,0 +1,42 @@
+// Generated header
+
+class CShaderDeviceEmpty : public IShaderDevice
+{
+public:
+	virtual void ReleaseResources(); // vtable[0]
+	virtual void ReacquireResources(); // vtable[1]
+	virtual void GetBackBufferFormat(); // vtable[2]
+	virtual void GetBackBufferDimensions(); // vtable[3]
+	virtual void GetCurrentAdapter(); // vtable[4]
+	virtual void IsUsingGraphics(); // vtable[5]
+	virtual void SpewDriverInfo(); // vtable[6]
+	virtual void StencilBufferBits(); // vtable[7]
+	virtual void IsAAEnabled(); // vtable[8]
+	virtual void Present(); // vtable[9]
+	virtual void GetWindowSize(); // vtable[10]
+	virtual void SetHardwareGammaRamp(); // vtable[11]
+	virtual void AddView(); // vtable[12]
+	virtual void RemoveView(); // vtable[13]
+	virtual void SetView(); // vtable[14]
+	virtual void CompileShader(); // vtable[15]
+	virtual void CreateVertexShader(); // vtable[16]
+	virtual void DestroyVertexShader(); // vtable[17]
+	virtual void CreateGeometryShader(); // vtable[18]
+	virtual void DestroyGeometryShader(); // vtable[19]
+	virtual void CreatePixelShader(); // vtable[20]
+	virtual void DestroyPixelShader(); // vtable[21]
+	virtual void CreateStaticMesh(); // vtable[22]
+	virtual void DestroyStaticMesh(); // vtable[23]
+	virtual void CreateVertexBuffer(); // vtable[24]
+	virtual void DestroyVertexBuffer(); // vtable[25]
+	virtual void CreateIndexBuffer(); // vtable[26]
+	virtual void DestroyIndexBuffer(); // vtable[27]
+	virtual void GetDynamicVertexBuffer(); // vtable[28]
+	virtual void GetDynamicIndexBuffer(); // vtable[29]
+	virtual void EnableNonInteractiveMode(); // vtable[30]
+	virtual void RefreshFrontBufferNonInteractive(); // vtable[31]
+	virtual void HandleThreadEvent(); // vtable[32]
+	virtual void DoStartupShaderPreloading(); // vtable[33]
+
+	void ~CShaderDeviceEmpty();
+};

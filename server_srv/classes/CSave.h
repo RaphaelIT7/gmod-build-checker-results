@@ -1,0 +1,82 @@
+// Generated header
+
+class CSave : public ISave
+{
+public:
+	virtual void StartLogging(); // vtable[0]
+	virtual void EndLogging(); // vtable[1]
+	virtual void IsAsync(); // vtable[2]
+	virtual void GetWritePos(); // vtable[3]
+	virtual void SetWritePos(); // vtable[4]
+	virtual void WriteAll(); // vtable[5]
+	virtual void WriteFields(); // vtable[6]
+	virtual void StartBlock(); // vtable[7]
+	virtual void StartBlock(); // vtable[8]
+	virtual void EndBlock(); // vtable[9]
+	virtual void WriteShort(); // vtable[10]
+	virtual void WriteInt(); // vtable[11]
+	virtual void WriteBool(); // vtable[12]
+	virtual void WriteFloat(); // vtable[13]
+	virtual void WriteData(); // vtable[14]
+	virtual void WriteString(); // vtable[15]
+	virtual void WriteString(); // vtable[16]
+	virtual void WriteVector(); // vtable[17]
+	virtual void WriteVector(); // vtable[18]
+	virtual void WriteQuaternion(); // vtable[19]
+	virtual void WriteQuaternion(); // vtable[20]
+	virtual void WriteShort(); // vtable[21]
+	virtual void WriteInt(); // vtable[22]
+	virtual void WriteBool(); // vtable[23]
+	virtual void WriteFloat(); // vtable[24]
+	virtual void WriteData(); // vtable[25]
+	virtual void WriteString(); // vtable[26]
+	virtual void WriteString(); // vtable[27]
+	virtual void WriteVector(); // vtable[28]
+	virtual void WriteVector(); // vtable[29]
+	virtual void WriteQuaternion(); // vtable[30]
+	virtual void WriteQuaternion(); // vtable[31]
+	virtual void WriteTime(); // vtable[32]
+	virtual void WriteTick(); // vtable[33]
+	virtual void WritePositionVector(); // vtable[34]
+	virtual void WritePositionVector(); // vtable[35]
+	virtual void WriteFunction(); // vtable[36]
+	virtual void WriteTime(); // vtable[37]
+	virtual void WriteTick(); // vtable[38]
+	virtual void WritePositionVector(); // vtable[39]
+	virtual void WritePositionVector(); // vtable[40]
+	virtual void WriteEntityPtr(); // vtable[41]
+	virtual void WriteEdictPtr(); // vtable[42]
+	virtual void WriteEHandle(); // vtable[43]
+	virtual void WriteEntityPtr(); // vtable[44]
+	virtual void WriteEdictPtr(); // vtable[45]
+	virtual void WriteEHandle(); // vtable[46]
+	virtual void GetGameSaveRestoreInfo() override; // vtable[47]
+	virtual void ~CSave() override; // vtable[48]
+	virtual void ~CSave() override; // vtable[49]
+
+	void IsLogging();
+	void Log();
+	void ShouldSaveField();
+	void WriteBasicField();
+	void DoWriteAll();
+	void BufferData();
+	void WriteVMatrix();
+	void WriteVMatrixWorldspace();
+	void WriteMatrix3x4Worldspace();
+	void WriteInterval();
+	void BufferString();
+	void WriteHeader();
+	void WriteVMatrixWorldspace();
+	void WriteMatrix3x4Worldspace();
+	void WriteVMatrix();
+	void WriteInterval();
+	void BufferField();
+	void EntityIndex();
+	void EntityIndex();
+	void EntityFlagsSet();
+	void WriteTime64();
+	void WriteGMODTable();
+	void WriteGameField();
+	void WriteField();
+	void CSave();
+};

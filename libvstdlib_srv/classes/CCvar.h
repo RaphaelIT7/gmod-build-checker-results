@@ -1,0 +1,54 @@
+// Generated header
+
+class CCvar : public ICvar
+{
+public:
+	virtual void Connect(); // vtable[0]
+	virtual void Disconnect(); // vtable[1]
+	virtual void QueryInterface(); // vtable[2]
+	virtual void Init(); // vtable[3]
+	virtual void Shutdown() override; // vtable[4]
+	virtual void AllocateDLLIdentifier(); // vtable[5]
+	virtual void RegisterConCommand(); // vtable[6]
+	virtual void UnregisterConCommand(); // vtable[7]
+	virtual void UnregisterConCommands(); // vtable[8]
+	virtual void GetCommandLineValue(); // vtable[9]
+	virtual void FindCommandBase(); // vtable[10]
+	virtual void FindCommandBase(); // vtable[11]
+	virtual void FindVar(); // vtable[12]
+	virtual void FindVar(); // vtable[13]
+	virtual void FindCommand(); // vtable[14]
+	virtual void FindCommand(); // vtable[15]
+	virtual void GetCommands(); // vtable[16]
+	virtual void GetCommands(); // vtable[17]
+	virtual void InstallGlobalChangeCallback(); // vtable[18]
+	virtual void RemoveGlobalChangeCallback(); // vtable[19]
+	virtual void CallGlobalChangeCallbacks(); // vtable[20]
+	virtual void InstallConsoleDisplayFunc(); // vtable[21]
+	virtual void RemoveConsoleDisplayFunc(); // vtable[22]
+	virtual void ConsoleColorPrintf(); // vtable[23]
+	virtual void ConsolePrintf(); // vtable[24]
+	virtual void ConsoleDPrintf(); // vtable[25]
+	virtual void RevertFlaggedConVars(); // vtable[26]
+	virtual void InstallCVarQuery(); // vtable[27]
+	virtual void IsMaterialThreadSetAllowed(); // vtable[28]
+	virtual void QueueMaterialThreadSetValue(); // vtable[29]
+	virtual void QueueMaterialThreadSetValue(); // vtable[30]
+	virtual void QueueMaterialThreadSetValue(); // vtable[31]
+	virtual void HasQueuedMaterialThreadConVarSets(); // vtable[32]
+	virtual void ProcessQueuedMaterialThreadConVarSets(); // vtable[33]
+	virtual void FactoryInternalIterator(); // vtable[34]
+	virtual void RevertServerConVars() override; // vtable[35]
+
+	void _GLOBAL__sub_I_SetFirst();
+	void SetFirst();
+	void IsValid();
+	void Get();
+	void Next();
+	void DisplayQueuedMessages();
+	void Find();
+	void CCvar();
+	void ~CCVarIteratorInternal();
+	void ~CCVarIteratorInternal();
+	void ~CCvar();
+};

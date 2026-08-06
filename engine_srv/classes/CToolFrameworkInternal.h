@@ -1,0 +1,68 @@
+// Generated header
+
+class CToolFrameworkInternal : public IToolFrameworkInternal
+{
+public:
+	virtual void Connect(); // vtable[0]
+	virtual void Disconnect(); // vtable[1]
+	virtual void QueryInterface(); // vtable[2]
+	virtual void Init(); // vtable[3]
+	virtual void Shutdown(); // vtable[4]
+	virtual void ClientInit(); // vtable[5]
+	virtual void ClientShutdown(); // vtable[6]
+	virtual void ClientLevelInitPreEntityAllTools(); // vtable[7]
+	virtual void ClientLevelInitPostEntityAllTools(); // vtable[8]
+	virtual void ClientLevelShutdownPreEntityAllTools(); // vtable[9]
+	virtual void ClientLevelShutdownPostEntityAllTools(); // vtable[10]
+	virtual void ClientPreRenderAllTools(); // vtable[11]
+	virtual void ClientPostRenderAllTools(); // vtable[12]
+	virtual void IsThirdPersonCamera(); // vtable[13]
+	virtual void IsToolRecording(); // vtable[14]
+	virtual void ServerInit(); // vtable[15]
+	virtual void ServerShutdown(); // vtable[16]
+	virtual void ServerLevelInitPreEntityAllTools(); // vtable[17]
+	virtual void ServerLevelInitPostEntityAllTools(); // vtable[18]
+	virtual void ServerLevelShutdownPreEntityAllTools(); // vtable[19]
+	virtual void ServerLevelShutdownPostEntityAllTools(); // vtable[20]
+	virtual void ServerFrameUpdatePreEntityThinkAllTools(); // vtable[21]
+	virtual void ServerFrameUpdatePostEntityThinkAllTools(); // vtable[22]
+	virtual void ServerPreClientUpdateAllTools(); // vtable[23]
+	virtual void ServerPreSetupVisibilityAllTools(); // vtable[24]
+	virtual void _ZN22CToolFrameworkInternal7CanQuitEv(); // vtable[25]
+	virtual void PostInit(); // vtable[26]
+	virtual void Think(); // vtable[27]
+	virtual void PostMessage(); // vtable[28]
+	virtual void GetSoundSpatialization(); // vtable[29]
+	virtual void HostRunFrameBegin(); // vtable[30]
+	virtual void HostRunFrameEnd(); // vtable[31]
+	virtual void RenderFrameBegin(); // vtable[32]
+	virtual void RenderFrameEnd(); // vtable[33]
+	virtual void VGui_PreRenderAllTools(); // vtable[34]
+	virtual void VGui_PostRenderAllTools(); // vtable[35]
+	virtual void VGui_PreSimulateAllTools(); // vtable[36]
+	virtual void VGui_PostSimulateAllTools(); // vtable[37]
+	virtual void InToolMode(); // vtable[38]
+	virtual void ShouldGameRenderView(); // vtable[39]
+	virtual void LookupProxy(); // vtable[40]
+	virtual void GetToolCount(); // vtable[41]
+	virtual void GetToolName(); // vtable[42]
+	virtual void SwitchToTool(); // vtable[43]
+	virtual void SwitchToTool(); // vtable[44]
+	virtual void IsTopmostTool(); // vtable[45]
+	virtual void GetToolSystem(); // vtable[46]
+	virtual void GetTopmostTool(); // vtable[47]
+	virtual void PostToolMessage(); // vtable[48]
+	virtual void AdjustEngineViewport(); // vtable[49]
+	virtual void SetupEngineView(); // vtable[50]
+	virtual void SetupAudioState(); // vtable[51]
+
+	void InvokeMethod();
+	void InvokeMethodInt();
+	void ShutdownModules();
+	void ShutdownToolDictionaries();
+	void ShutdownTools();
+	void GetEntityData();
+	void LoadToolsFromLibrary();
+	void LoadTools();
+	void ~CToolFrameworkInternal();
+};
