@@ -50,10 +50,10 @@ public:
 	void EnableCrab(int param_1, bool param_2); // size[65]
 	void GetBaseMap(); // size[10]
 	void EnableCrab(int param_1, bool param_2); // size[28]
-	void BreatheOffShort(); // size[129]
+	void BreatheOffShort(); // size[29]
 	void RandomThrowCrab(); // size[66]
 	void EvacuateNest(bool param_1, float param_2, CBaseEntity *param_3); // size[437]
-	void InitCustomSchedules(); // size[138]
+	void InitCustomSchedules(); // size[387]
 	void LoadSchedules(); // size[62]
 	CScheduleLoader(); // size[9]
 };

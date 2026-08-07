@@ -24,7 +24,7 @@ public:
 	virtual void ShouldPuntUseLaunchForces(PhysGunForce_t param_1); // vtable[294]
 	virtual void PhysGunLaunchVelocity(Vector *param_1, float param_2); // vtable[295]
 
-	void RampSoundThink(); // size[114]
+	void RampSoundThink(); // size[80]
 	void AnimateThink(); // size[84]
 	void OnPhysGunDrop(CBasePlayer *param_1, PhysGunDrop_t param_2); // size[10]
 	void PhysGunLaunchVelocity(Vector *param_1, float param_2); // size[13]

@@ -18,7 +18,8 @@ public:
 	void _GLOBAL__sub_I_m_DataMap(); // size[113]
 	void InputSetDamage(inputdata_t *param_1); // size[29]
 	void BubbleThink(); // size[340]
-	void BoltTouch(CBaseEntity *param_1); // size[787]
+	void BoltTouch(CBaseEntity *param_1); // size[1925]
 	void GetBaseMap(); // size[10]
-	void CreateSprites(); // size[42]
+	void BoltCreate(Vector *param_1, QAngle *param_2, int param_3, CBaseCombatCharacter *param_4); // size[22]
+	void CreateSprites(); // size[27]
 };

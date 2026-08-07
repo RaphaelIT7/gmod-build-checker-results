@@ -10,7 +10,7 @@ public:
 	virtual void ObjectCaps() override; // vtable[36]
 
 	CPhysBeam(); // size[28]
-	void Create(CBaseEntity *param_1, Vector *param_2); // size[19]
+	void Create(CBaseEntity *param_1, Vector *param_2); // size[30]
 	void ComputeEndPos(); // size[115]
 	void ReComputeCollisionBox(); // size[9]
 	void UpdateBeam(CBaseEntity *param_1, Vector *param_2, int param_3); // size[70]

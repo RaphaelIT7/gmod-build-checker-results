@@ -18,7 +18,7 @@ public:
 	virtual void GetBurstCycleRate(); // vtable[429]
 	virtual void GetBurstSize(); // vtable[430]
 
-	void BurstThink(); // size[148]
+	void BurstThink(); // size[45]
 	void GetBaseMap(); // size[10]
 	CHLSelectFireMachineGun(); // size[88]
 };

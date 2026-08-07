@@ -29,5 +29,5 @@ public:
 	void _GLOBAL__sub_I_GetServerClass(); // size[112]
 	void GetBaseMap(); // size[10]
 	CWeaponAlyxGun(); // size[60]
-	void FireNPCPrimaryAttack(CBaseCombatCharacter *param_1, bool param_2); // size[760]
+	void FireNPCPrimaryAttack(CBaseCombatCharacter *param_1, bool param_2); // size[778]
 };

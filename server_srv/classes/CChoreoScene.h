@@ -97,7 +97,7 @@ public:
 	void DestroyEvent(CChoreoEvent *param_1); // size[138]
 	void DeleteReferencedObjects(CChoreoEvent *param_1); // size[95]
 	void RemoveEventsExceptTypes(int *param_1, int param_2); // size[455]
-	void DestroyChannel(CChoreoChannel *param_1); // size[226]
+	void DestroyChannel(CChoreoChannel *param_1); // size[200]
 	void DeleteReferencedObjects(CChoreoChannel *param_1); // size[99]
 	void ResumeSimulation(); // size[221]
 	void DestroyActor(CChoreoActor *param_1); // size[168]

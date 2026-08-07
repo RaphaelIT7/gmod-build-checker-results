@@ -462,9 +462,9 @@ public:
 	void AccumulateIdealYaw(float param_1, float param_2); // size[95]
 	void SetAccumulatedYawAndUpdate(); // size[179]
 	void UpdateBodyControl(); // size[430]
-	void UpdateHeadControl(Vector *param_1, float param_2); // size[263]
+	void UpdateHeadControl(Vector *param_1, float param_2); // size[2358]
 	void ClearExpression(); // size[107]
-	void SetExpression(char *param_1); // size[438]
+	void SetExpression(char *param_1); // size[406]
 	void InputSetExpressionOverride(inputdata_t *param_1); // size[99]
 	void GetExpression(); // size[24]
 };

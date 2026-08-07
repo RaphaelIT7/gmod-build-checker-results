@@ -18,5 +18,5 @@ public:
 	void GetBaseMap(); // size[10]
 	CGrenadeSpit(); // size[67]
 	void SetSpitSize(int param_1); // size[196]
-	void InitHissSound(); // size[78]
+	void InitHissSound(); // size[34]
 };

@@ -21,7 +21,7 @@ public:
 	void GetBaseMap(); // size[10]
 	void OnDamage(CTakeDamageInfo *param_1); // size[268]
 	void CheckBreakEscort(); // size[230]
-	void SetEscortTarget(CNPC_Strider *param_1, bool param_2); // size[357]
+	void SetEscortTarget(CNPC_Strider *param_1, bool param_2); // size[322]
 	void FindFreeHunters(CUtlVector *param_1); // size[257]
-	void DistributeFreeHunters(); // size[453]
+	void DistributeFreeHunters(); // size[415]
 };

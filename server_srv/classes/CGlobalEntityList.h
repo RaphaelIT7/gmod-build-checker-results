@@ -35,7 +35,7 @@ public:
 	void RemoveListenerEntity(IEntityListener *param_1); // size[31]
 	void Clear(); // size[449]
 	void ReportEntityFlagsChanged(CBaseEntity *param_1, uint param_2, uint param_3); // size[156]
-	void AddToDeleteList(IServerNetworkable *param_1); // size[156]
-	void AddListenerEntity(IEntityListener *param_1); // size[193]
+	void AddToDeleteList(IServerNetworkable *param_1); // size[150]
+	void AddListenerEntity(IEntityListener *param_1); // size[187]
 	~CGlobalEntityList(); // size[75]
 };

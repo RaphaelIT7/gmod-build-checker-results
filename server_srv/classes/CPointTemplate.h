@@ -17,7 +17,7 @@ public:
 	void GetTemplateIndexForTemplate(int param_1); // size[27]
 	void GetNumTemplateEntities(); // size[14]
 	void GetTemplateEntity(int param_1); // size[65]
-	void FinishBuildingTemplates(); // size[59]
+	void FinishBuildingTemplates(); // size[34]
 	void StartBuildingTemplates(); // size[305]
 	void AddTemplate(CBaseEntity *param_1, char *param_2, int param_3); // size[408]
 	void CreateInstance(Vector *param_1, QAngle *param_2, CUtlVector *param_3); // size[648]

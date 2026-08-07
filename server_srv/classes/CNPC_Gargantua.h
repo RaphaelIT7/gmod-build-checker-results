@@ -39,7 +39,7 @@ public:
 	void FlameDestroy(); // size[142]
 	void EyeOn(int param_1); // size[17]
 	void EyeOff(); // size[18]
-	void EyeUpdate(); // size[355]
+	void EyeUpdate(); // size[363]
 	void StompAttack(); // size[160]
 	void DeathEffect(); // size[75]
 	void InitCustomSchedules(); // size[255]

@@ -24,7 +24,7 @@ public:
 	virtual void BeginOpening(CBaseEntity *param_1); // vtable[333]
 	virtual void BeginClosing(); // vtable[334]
 	virtual void DoorStop(); // vtable[335]
-	virtual void DoorResume(); // vtable[336]
+	virtual void _ZN17CPropDoorRotating10DoorResumeEv(); // vtable[336]
 	virtual void DoorTeleportToSpawnPosition() override; // vtable[337]
 
 	void InputSetSpeed(inputdata_t *param_1); // size[42]
@@ -35,8 +35,8 @@ public:
 	void CalculateDoorVolume(QAngle param_1, QAngle param_2, Vector *param_3, Vector *param_4); // size[465]
 	void InputSetRotationDistance(inputdata_t *param_1); // size[227]
 	void InputMoveToRotationDistance(inputdata_t *param_1); // size[50]
-	void AngularMove(QAngle *param_1, float param_2); // size[4]
-	void CheckDoorClear(doorCheck_e param_1); // size[1684]
+	void AngularMove(QAngle *param_1, float param_2); // size[329]
+	void CheckDoorClear(doorCheck_e param_1); // size[1662]
 	~CPropDoorRotating(); // size[13]
 	~CPropDoorRotating(); // size[13]
 };

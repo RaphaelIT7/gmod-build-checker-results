@@ -21,7 +21,7 @@ public:
 	virtual void UpdateEfficiency(bool param_1) override; // vtable[456]
 	virtual void MaxYawSpeed() override; // vtable[529]
 
-	void UpdateBoneFollowerState(); // size[193]
+	void UpdateBoneFollowerState(); // size[204]
 	void InputDisablePlayerCollision(inputdata_t *param_1); // size[54]
 	void InputEnablePlayerCollision(inputdata_t *param_1); // size[54]
 	void GetBaseMap(); // size[10]

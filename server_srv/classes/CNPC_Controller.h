@@ -44,7 +44,7 @@ public:
 	void AttackSound(); // size[44]
 	void LookupFloat(); // size[205]
 	void Stop(); // size[36]
-	void OverridePathMove(float param_1); // size[492]
+	void OverridePathMove(float param_1); // size[561]
 	void InitCustomSchedules(); // size[5]
 	void LoadSchedules(); // size[62]
 	CScheduleLoader(); // size[9]

@@ -20,12 +20,12 @@ public:
 
 	void GetBaseMap(); // size[10]
 	void operator()(CNavArea *param_1); // size[49]
-	void UpdateBlocked(bool param_1); // size[598]
+	void UpdateBlocked(bool param_1); // size[584]
 	void BlockNav(); // size[74]
 	void InputSetUnbreakable(inputdata_t *param_1); // size[31]
 	void UnblockNav(); // size[74]
 	void InputSetBreakable(inputdata_t *param_1); // size[19]
-	void PrecacheBreakables(); // size[528]
+	void PrecacheBreakables(); // size[512]
 	~CPropDoorRotatingBreakable(); // size[13]
 	~CPropDoorRotatingBreakable(); // size[13]
 };

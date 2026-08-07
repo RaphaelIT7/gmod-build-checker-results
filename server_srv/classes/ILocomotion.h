@@ -65,9 +65,9 @@ public:
 	virtual void ShouldCollideWith(CBaseEntity *param_1); // vtable[100]
 	virtual void IsAllowedToAvoid(); // vtable[101]
 	virtual void AdjustPosture(Vector *param_1); // vtable[102]
-	virtual void _ZN11ILocomotion12StuckMonitorEv(); // vtable[103]
+	virtual void StuckMonitor(); // vtable[103]
 
 	_GLOBAL__sub_I_ILocomotion(); // size[113]
-	ILocomotion(INextBot *param_1); // size[77]
+	ILocomotion(INextBot *param_1); // size[25]
 	void TraceHull(Vector *param_1, Vector *param_2, Vector *param_3, Vector *param_4, uint param_5, ITraceFilter *param_6, CGameTrace *param_7); // size[410]
 };

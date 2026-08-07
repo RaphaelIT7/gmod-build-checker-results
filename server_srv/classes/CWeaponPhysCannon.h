@@ -67,9 +67,9 @@ public:
 	void FindObject(); // size[23]
 	void DoEffectNone(); // size[5]
 	void DoEffect(int param_1, Vector *param_2); // size[50]
-	void PuntNonVPhysics(CBaseEntity *param_1, Vector *param_2, CGameTrace *param_3); // size[171]
+	void PuntNonVPhysics(CBaseEntity *param_1, Vector *param_2, CGameTrace *param_3); // size[179]
 	void PuntVPhysics(CBaseEntity *param_1, Vector *param_2, CGameTrace *param_3); // size[18]
 	void PuntRagdoll(CBaseEntity *param_1, Vector *param_2, CGameTrace *param_3); // size[29]
-	void LaunchObject(Vector *param_1, float param_2); // size[483]
+	void LaunchObject(Vector *param_1, float param_2); // size[398]
 	void BeginUpgrade(); // size[149]
 };

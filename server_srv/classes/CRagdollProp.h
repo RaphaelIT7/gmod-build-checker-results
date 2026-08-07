@@ -66,7 +66,7 @@ public:
 	void PhysGunLaunchAngularImpulse(); // size[13]
 	void OnPhysGunPickup(CBasePlayer *param_1, PhysGunPickup_t param_2); // size[13]
 	void OnPhysGunDrop(CBasePlayer *param_1, PhysGunDrop_t param_2); // size[13]
-	void HandleFirstCollisionInteractions(int param_1, gamevcollisionevent_t *param_2); // size[610]
+	void HandleFirstCollisionInteractions(int param_1, gamevcollisionevent_t *param_2); // size[935]
 	void SetOverlaySequence(Activity param_1); // size[95]
 	void RecheckCollisionFilter(); // size[68]
 	void UpdateNetworkDataFromVPhysics(IPhysicsObject *param_1, int param_2); // size[170]

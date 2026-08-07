@@ -8,6 +8,6 @@ public:
 	virtual void GetDataDescMap() override; // vtable[12]
 
 	void GetBaseMap(); // size[10]
-	void GetDisabledButtonMask(); // size[17]
-	void InputSpeedMod(inputdata_t *param_1); // size[444]
+	void GetDisabledButtonMask(); // size[88]
+	void InputSpeedMod(inputdata_t *param_1); // size[649]
 };

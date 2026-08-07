@@ -11,7 +11,7 @@ public:
 	void GetBaseMap(); // size[7]
 	CAI_MoveAndShootOverlay(); // size[43]
 	void NoShootWhileMove(); // size[12]
-	void HasAvailableRangeAttack(); // size[21]
+	void HasAvailableRangeAttack(); // size[79]
 	void StartShootWhileMove(); // size[401]
 	void CanAimAtEnemy(); // size[108]
 	void UpdateMoveShootActivity(bool param_1); // size[159]

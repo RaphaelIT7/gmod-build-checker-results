@@ -9,7 +9,7 @@ public:
 	virtual void Spawn() override; // vtable[23]
 	virtual void Event_Killed(CTakeDamageInfo *param_1) override; // vtable[68]
 
-	void InputBreak(inputdata_t *param_1); // size[22]
+	void InputBreak(inputdata_t *param_1); // size[70]
 	void Materialize(); // size[485]
 	void GetBaseMap(); // size[10]
 	CPhysicsPropRespawnable(); // size[454]

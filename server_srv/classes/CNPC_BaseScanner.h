@@ -64,11 +64,10 @@ public:
 
 	void InputSetFlightSpeed(inputdata_t *param_1); // size[5]
 	void InputSetDistanceOverride(inputdata_t *param_1); // size[33]
-	void GetBaseMap(); // size[10]
-	void TakeDamageFromPhyscannon(CBasePlayer *param_1); // size[29]
+	void GetBaseMap(); // size[1]
 	void TakeDamageFromPhysicsImpact(int param_1, gamevcollisionevent_t *param_2); // size[725]
 	void IsHeldByPhyscannon(); // size[38]
-	void PlayFlySound(); // size[406]
+	void PlayFlySound(); // size[34]
 	void StartSmokeTrail(); // size[215]
 	void BlendPhyscannonLaunchSpeed(); // size[361]
 	void MoveToDivebomb(float param_1); // size[449]
@@ -84,7 +83,7 @@ public:
 	void InitCustomSchedules(); // size[352]
 	void LoadSchedules(); // size[62]
 	CScheduleLoader(); // size[9]
-	CNPC_BaseScanner(); // size[69]
+	CNPC_BaseScanner(); // size[178]
 	void Gib(); // size[305]
 	void AttackDivebombCollide(float param_1); // size[729]
 };

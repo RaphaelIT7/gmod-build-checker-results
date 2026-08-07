@@ -8,7 +8,7 @@ public:
 	virtual void GetDataDescMap() override; // vtable[12]
 	virtual void Spawn() override; // vtable[23]
 
-	void MoveThink(); // size[822]
+	void MoveThink(); // size[709]
 	void InputInvertOff(inputdata_t *param_1); // size[53]
 	void InputInvertOn(inputdata_t *param_1); // size[53]
 	void GetBaseMap(); // size[10]

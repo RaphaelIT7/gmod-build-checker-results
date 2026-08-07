@@ -18,7 +18,7 @@ public:
 	CParticleSystem(); // size[33]
 	void StopParticleSystem(); // size[99]
 	void InputStop(inputdata_t *param_1); // size[9]
-	void ReadControlPointEnts(); // size[150]
+	void ReadControlPointEnts(); // size[196]
 	void StartParticleSystem(); // size[65]
 	void StartParticleSystem(); // size[23]
 	void StartParticleSystemThink(); // size[23]

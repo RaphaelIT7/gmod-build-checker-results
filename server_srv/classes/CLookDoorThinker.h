@@ -8,6 +8,6 @@ public:
 	virtual void GetDataDescMap() override; // vtable[12]
 
 	void _GLOBAL__sub_I_m_DataMap(); // size[113]
-	void LookThink(); // size[37]
+	void LookThink(); // size[100]
 	void GetBaseMap(); // size[10]
 };

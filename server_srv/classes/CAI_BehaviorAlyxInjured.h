@@ -20,9 +20,9 @@ public:
 	virtual void LoadedSchedules() override; // vtable[77]
 
 	void GetBaseMap(); // size[10]
-	void ShouldRunToFollowGoal(); // size[82]
-	void FindThreatDirection2D(Vector *param_1, Vector *param_2); // size[508]
-	void FindCoverFromEnemyBehindTarget(CBaseEntity *param_1, float param_2, Vector *param_3); // size[15]
+	void ShouldRunToFollowGoal(); // size[143]
+	void FindThreatDirection2D(Vector *param_1, Vector *param_2); // size[457]
+	void FindCoverFromEnemyBehindTarget(CBaseEntity *param_1, float param_2, Vector *param_3); // size[37]
 	void ShouldRunToCover(); // size[149]
 	void IsInjured(); // size[9]
 	void SpeakIfAllowed(char *param_1); // size[108]

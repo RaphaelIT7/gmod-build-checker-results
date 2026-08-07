@@ -9,7 +9,7 @@ public:
 	virtual void ObjectCaps() override; // vtable[36]
 
 	void WaitTillLand(); // size[253]
-	void BounceGibTouch(CBaseEntity *param_1); // size[720]
+	void BounceGibTouch(CBaseEntity *param_1); // size[837]
 	void StickyGibTouch(CBaseEntity *param_1); // size[140]
 	void Spawn(char *param_1); // size[45]
 	void GetBaseMap(); // size[10]

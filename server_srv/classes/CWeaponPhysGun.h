@@ -28,7 +28,7 @@ public:
 	void _GLOBAL__sub_I_GetServerClass(); // size[112]
 	CWeaponPhysGun(); // size[203]
 	void RemovePhysBeam(); // size[109]
-	void CreatePhysBeam(); // size[132]
+	void CreatePhysBeam(); // size[168]
 	void DropEntity(); // size[20]
 	void ValidatePhysObj(); // size[48]
 	void UpdateRotation(); // size[20]

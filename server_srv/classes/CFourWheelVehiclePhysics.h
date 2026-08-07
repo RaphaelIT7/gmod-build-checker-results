@@ -30,7 +30,7 @@ public:
 	void DrawDebugTextOverlays(int param_1); // size[160]
 	void PlaceWheelDust(int param_1, bool param_2); // size[5]
 	void VPhysicsUpdate(IPhysicsObject *param_1); // size[58]
-	void GetVehicleViewPosition(char *param_1, float param_2, Vector *param_3, QAngle *param_4); // size[503]
+	void GetVehicleViewPosition(char *param_1, float param_2, Vector *param_3, QAngle *param_4); // size[755]
 	void ResetControls(); // size[36]
 	void ReleaseHandbrake(); // size[12]
 	void SetHandbrake(bool param_1); // size[14]

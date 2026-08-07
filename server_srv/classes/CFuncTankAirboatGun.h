@@ -17,10 +17,10 @@ public:
 	virtual void Fire(int param_1, Vector *param_2, Vector *param_3, CBaseEntity *param_4, bool param_5) override; // vtable[254]
 	virtual void ControllerPostFrame() override; // vtable[258]
 
-	void StopFiring(); // size[117]
+	void StopFiring(); // size[15]
 	void GetBaseMap(); // size[10]
-	void CreateSounds(); // size[52]
-	void DestroySounds(); // size[49]
-	void StartFiring(); // size[120]
+	void CreateSounds(); // size[23]
+	void DestroySounds(); // size[15]
+	void StartFiring(); // size[32]
 	void StopFiring(); // size[23]
 };

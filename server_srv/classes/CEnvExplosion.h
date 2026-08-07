@@ -10,6 +10,6 @@ public:
 	virtual void DrawDebugTextOverlays() override; // vtable[40]
 
 	void Smoke(); // size[23]
-	void InputExplode(inputdata_t *param_1); // size[155]
+	void InputExplode(inputdata_t *param_1); // size[78]
 	void GetBaseMap(); // size[10]
 };

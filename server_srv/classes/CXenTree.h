@@ -15,5 +15,5 @@ public:
 	virtual void HandleAnimEvent(animevent_t *param_1) override; // vtable[261]
 
 	void GetBaseMap(); // size[10]
-	void Attack(); // size[83]
+	void Attack(); // size[58]
 };

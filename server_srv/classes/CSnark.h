@@ -18,7 +18,7 @@ public:
 	virtual void Event_Gibbed(CTakeDamageInfo *param_1) override; // vtable[354]
 	virtual void IsValidEnemy(CBaseEntity *param_1) override; // vtable[475]
 
-	void HuntThink(); // size[2244]
+	void HuntThink(); // size[2270]
 	void GetBaseMap(); // size[10]
 	void SuperBounceTouch(CBaseEntity *param_1); // size[1099]
 };

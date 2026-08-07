@@ -14,6 +14,6 @@ public:
 	virtual void ShouldFadeOnDeath() override; // vtable[594]
 	virtual void Shoot(Vector *param_1, Vector *param_2) override; // vtable[657]
 
-	void SentryTouch(CBaseEntity *param_1); // size[64]
+	void SentryTouch(CBaseEntity *param_1); // size[112]
 	void GetBaseMap(); // size[10]
 };

@@ -11,5 +11,5 @@ public:
 
 	void InputLaunchBall(inputdata_t *param_1); // size[17]
 	void GetBaseMap(); // size[10]
-	CPointCombineBallLauncher(); // size[67]
+	CPointCombineBallLauncher(); // size[7]
 };

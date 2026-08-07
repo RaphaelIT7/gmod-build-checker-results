@@ -11,5 +11,5 @@ public:
 	virtual void UpdateOnRemove() override; // vtable[108]
 
 	void GetBaseMap(); // size[10]
-	void FindAimTarget(CBaseEntity *param_1, char *param_2, Vector *param_3, Vector *param_4); // size[33]
+	void FindAimTarget(CBaseEntity *param_1, char *param_2, Vector *param_3, Vector *param_4); // size[1037]
 };

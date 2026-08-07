@@ -12,6 +12,6 @@ public:
 
 	void _GLOBAL__sub_I_m_DataMap(); // size[112]
 	void GetBaseMap(); // size[10]
-	void StopMovingSound(); // size[59]
-	void PlayMovingSound(); // size[81]
+	void StopMovingSound(); // size[31]
+	void PlayMovingSound(); // size[47]
 };

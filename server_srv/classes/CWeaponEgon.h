@@ -22,7 +22,7 @@ public:
 	void UseAmmo(int param_1); // size[20]
 	void DestroyEffect(); // size[239]
 	void CreateEffect(); // size[20]
-	void UpdateEffect(Vector *param_1, Vector *param_2); // size[266]
+	void UpdateEffect(Vector *param_1, Vector *param_2); // size[273]
 	void Fire(Vector *param_1, Vector *param_2); // size[26]
 	void EndAttack(); // size[166]
 };

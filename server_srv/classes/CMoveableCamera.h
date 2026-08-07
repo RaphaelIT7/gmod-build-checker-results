@@ -13,7 +13,7 @@ public:
 
 	CMoveableCamera(); // size[26]
 	void SetTarget(CHandle param_1); // size[8]
-	void Move(); // size[442]
+	void Move(); // size[487]
 	void FollowTarget(); // size[156]
 	void StartMovement(); // size[123]
 };

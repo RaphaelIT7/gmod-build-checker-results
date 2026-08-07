@@ -41,5 +41,5 @@ public:
 	virtual void GetSolidMask() override; // vtable[81]
 	virtual void GetEntity(); // vtable[83]
 
-	PlayerBody(INextBot *param_1); // size[344]
+	PlayerBody(INextBot *param_1); // size[386]
 };

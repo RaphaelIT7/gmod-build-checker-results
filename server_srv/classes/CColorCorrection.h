@@ -20,7 +20,8 @@ public:
 	void FadeInThink(); // size[339]
 	void GetBaseMap(); // size[10]
 	CColorCorrection(); // size[28]
-	void InputEnable(inputdata_t *param_1); // size[12]
+	void FadeIn(); // size[55]
+	void InputEnable(inputdata_t *param_1); // size[126]
 	void FadeOut(); // size[194]
 	void InputDisable(inputdata_t *param_1); // size[139]
 };

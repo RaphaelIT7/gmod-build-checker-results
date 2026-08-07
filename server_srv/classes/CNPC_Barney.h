@@ -20,13 +20,13 @@ public:
 	virtual void SquadSlotName(int param_1) override; // vtable[581]
 	virtual void ShouldLookForBetterWeapon() override; // vtable[606]
 	virtual void GetClassScheduleIdSpace() override; // vtable[640]
-	virtual void _ZN11CNPC_Barney15CreateBehaviorsEv() override; // vtable[652]
+	virtual void CreateBehaviors() override; // vtable[652]
 	virtual void OnChangeRunningBehavior(CAI_BehaviorBase *param_1, CAI_BehaviorBase *param_2) override; // vtable[656]
 	virtual void SelectModel() override; // vtable[722]
 
 	void UseFunc(CBaseEntity *param_1, CBaseEntity *param_2, USE_TYPE param_3, float param_4); // size[117]
 	void GetBaseMap(); // size[10]
-	void InitCustomSchedules(); // size[612]
-	void LoadSchedules(); // size[38]
+	void InitCustomSchedules(); // size[18]
+	void LoadSchedules(); // size[62]
 	CScheduleLoader(); // size[9]
 };

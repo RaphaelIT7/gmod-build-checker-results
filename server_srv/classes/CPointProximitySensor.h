@@ -10,7 +10,7 @@ public:
 	virtual void Think() override; // vtable[48]
 
 	void InputDisable(inputdata_t *param_1); // size[48]
-	void InputSetTargetEntity(inputdata_t *param_1); // size[350]
+	void InputSetTargetEntity(inputdata_t *param_1); // size[130]
 	void GetBaseMap(); // size[10]
 	void Enable(); // size[107]
 	void InputEnable(inputdata_t *param_1); // size[9]

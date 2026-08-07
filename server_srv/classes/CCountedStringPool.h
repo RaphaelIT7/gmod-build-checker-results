@@ -11,8 +11,8 @@ public:
 	void DereferenceString(char *param_1); // size[106]
 	void HandleToString(ushort param_1); // size[18]
 	void SpewStrings(); // size[107]
-	void ReferenceStringHandle(char *param_1); // size[296]
+	void ReferenceStringHandle(char *param_1); // size[290]
 	void ReferenceString(char *param_1); // size[48]
-	void FreeAll(); // size[250]
-	CCountedStringPool(); // size[264]
+	void FreeAll(); // size[245]
+	CCountedStringPool(); // size[261]
 };

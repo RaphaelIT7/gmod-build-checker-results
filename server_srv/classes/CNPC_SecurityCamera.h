@@ -53,7 +53,7 @@ public:
 	void GetBaseMap(); // size[10]
 	CNPC_SecurityCamera(); // size[18]
 	void SetLastSightTime(); // size[33]
-	void UpdateFacing(); // size[834]
+	void UpdateFacing(); // size[726]
 	void ActiveThink(); // size[2131]
 	void DeathThink(); // size[214]
 	void PreThink(turretState_e param_1); // size[37]

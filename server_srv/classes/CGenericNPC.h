@@ -13,5 +13,5 @@ public:
 	virtual MaxYawSpeed() override; // vtable[529]
 
 	void _GLOBAL__sub_I_Classify(); // size[113]
-	TempGunEffect(); // size[120]
+	TempGunEffect(); // size[5]
 };

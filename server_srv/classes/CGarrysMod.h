@@ -23,7 +23,7 @@ public:
 	void PostInitialize(); // size[10]
 	void ShouldCollide(CBaseEntity *param_1, CBaseEntity *param_2); // size[144]
 	void EntityCreated(CBaseEntity *param_1); // size[118]
-	void EntityRemoved(CBaseEntity *param_1, bool param_2); // size[260]
+	void EntityRemoved(CBaseEntity *param_1, bool param_2); // size[50]
 	void Think(); // size[85]
 	~CGarrysMod(); // size[10]
 	~CGarrysMod(); // size[10]

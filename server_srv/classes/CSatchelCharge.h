@@ -12,7 +12,7 @@ public:
 	virtual void BounceSound() override; // vtable[285]
 
 	void InputExplode(inputdata_t *param_1); // size[220]
-	void SatchelThink(); // size[717]
+	void SatchelThink(); // size[806]
 	void GetBaseMap(); // size[10]
 	void Deactivate(); // size[41]
 	void CreateEffects(); // size[363]

@@ -25,7 +25,7 @@ public:
 	void InputDisableFiring(inputdata_t *param_1); // size[15]
 	void GetBaseMap(); // size[10]
 	void IsBeingCarried(); // size[266]
-	void InitCustomSchedules(); // size[612]
+	void InitCustomSchedules(); // size[1731]
 	void LoadSchedules(); // size[62]
 	CScheduleLoader(); // size[9]
 };

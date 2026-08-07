@@ -36,7 +36,7 @@ public:
 
 	void InputEnable(inputdata_t *param_1); // size[38]
 	void InputDisable(inputdata_t *param_1); // size[15]
-	void DeathEffects(); // size[78]
+	void DeathEffects(); // size[147]
 	void GetBaseMap(); // size[10]
 	void IsEnabled(); // size[58]
 	void IsOpen(); // size[70]

@@ -35,7 +35,7 @@ public:
 	CreateAPCLaserDot(); // size[142]
 	AddSmokeTrail(Vector *param_1); // size[280]
 	ExplodeAndThrowChunk(Vector *param_1); // size[244]
-	UpdateWaterLevel(); // size[159]
+	UpdateWaterLevel(); // size[211]
 	AimSecondaryWeaponAt(CBaseEntity *param_1); // size[453]
 	AimPrimaryWeapon(Vector *param_1); // size[1318]
 	DoMuzzleFlash(); // size[477]

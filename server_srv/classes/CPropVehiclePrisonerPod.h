@@ -55,7 +55,7 @@ public:
 	void InputEnterVehicle(inputdata_t *param_1); // size[298]
 	void InputOpen(inputdata_t *param_1); // size[82]
 	void GetBaseMap(); // size[10]
-	void UpdateWaterLevel(); // size[159]
+	void UpdateWaterLevel(); // size[332]
 	void ResetUseKey(CBasePlayer *param_1); // size[15]
 	void PassengerShouldReceiveDamage(CTakeDamageInfo *param_1); // size[10]
 	void ProcessMovement(CBasePlayer *param_1, CMoveData *param_2); // size[10]

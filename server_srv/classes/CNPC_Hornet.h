@@ -16,7 +16,7 @@ public:
 	void DieTouch(CBaseEntity *param_1); // size[97]
 	void TrackTouch(CBaseEntity *param_1); // size[455]
 	void DartTouch(CBaseEntity *param_1); // size[9]
-	void TrackTarget(); // size[1098]
+	void TrackTarget(); // size[2065]
 	void GetBaseMap(); // size[10]
 	void IgniteTrail(); // size[113]
 	void StartDart(); // size[87]

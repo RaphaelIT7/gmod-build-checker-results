@@ -17,7 +17,7 @@ public:
 	void SetupTarget(); // size[203]
 	void Stop(); // size[72]
 	void InputStop(inputdata_t *param_1); // size[9]
-	void Next(); // size[301]
+	void Next(); // size[604]
 	void Wait(); // size[376]
 	void Start(); // size[69]
 	void InputStart(inputdata_t *param_1); // size[9]

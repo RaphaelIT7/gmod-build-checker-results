@@ -42,7 +42,7 @@ public:
 	void PickupOrCatchObject(char *param_1); // size[418]
 	void ClearSprites(); // size[95]
 	void ClearBeams(); // size[103]
-	void CleanCatchAndThrow(bool param_1); // size[333]
+	void CleanCatchAndThrow(bool param_1); // size[476]
 	void InputPlayerPickupObject(inputdata_t *param_1); // size[262]
 	void InputStartWaitAndCatch(inputdata_t *param_1); // size[39]
 	void InputStopWaitAndCatch(inputdata_t *param_1); // size[16]
@@ -56,7 +56,7 @@ public:
 	void FindPhysicsObject(char *param_1, CBaseEntity *param_2); // size[965]
 	void InputSetPickupTarget(inputdata_t *param_1); // size[89]
 	void InputStartCatchThrowBehavior(inputdata_t *param_1); // size[178]
-	void InitCustomSchedules(); // size[523]
+	void InitCustomSchedules(); // size[517]
 	void LoadSchedules(); // size[62]
 	CScheduleLoader(); // size[9]
 };

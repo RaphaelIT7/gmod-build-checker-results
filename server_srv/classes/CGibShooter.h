@@ -13,7 +13,7 @@ public:
 
 	void InputShoot(inputdata_t *param_1); // size[59]
 	void GetBaseMap(); // size[10]
-	void InitPointGib(CGib *param_1, Vector *param_2, float param_3); // size[132]
+	void InitPointGib(CGib *param_1, Vector *param_2, float param_3); // size[858]
 	void SpawnGib(Vector *param_1, float param_2); // size[12]
 	void ShootThink(); // size[193]
 };

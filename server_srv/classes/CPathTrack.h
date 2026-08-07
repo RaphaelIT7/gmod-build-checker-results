@@ -11,7 +11,7 @@ public:
 	virtual void DrawDebugGeometryOverlays() override; // vtable[39]
 
 	void _GLOBAL__sub_I_m_DataMap(); // size[113]
-	void InputPass(inputdata_t *param_1); // size[9]
+	void InputPass(inputdata_t *param_1); // size[43]
 	void InputTeleport(inputdata_t *param_1); // size[43]
 	void InputDisablePath(inputdata_t *param_1); // size[53]
 	void InputEnablePath(inputdata_t *param_1); // size[53]
@@ -37,7 +37,7 @@ public:
 	void GetNext(); // size[114]
 	void GetPrevious(); // size[118]
 	void SetPrevious(CPathTrack *param_1); // size[70]
-	void Link(); // size[180]
+	void Link(); // size[280]
 	void GetNextInDir(bool param_1); // size[27]
 	void LookAhead(Vector *param_1, float param_2, int param_3, CPathTrack * *param_4); // size[1027]
 	void Nearest(Vector *param_1); // size[226]

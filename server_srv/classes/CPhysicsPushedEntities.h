@@ -7,7 +7,7 @@ public:
 	virtual void SpeculativelyCheckLinearPush(Vector *param_1); // vtable[1]
 	virtual void FinishRotPushedEntity(CBaseEntity *param_1, RotatingPushMove_t *param_2); // vtable[2]
 
-	void UnlinkPusherList(int *param_1); // size[43]
+	void UnlinkPusherList(int *param_1); // size[87]
 	void RelinkPusherList(int *param_1); // size[92]
 	void ComputeRotationalPushDirection(CBaseEntity *param_1, RotatingPushMove_t *param_2, Vector *param_3, CBaseEntity *param_4); // size[437]
 	void IsPushedPositionValid(CBaseEntity *param_1); // size[54]

@@ -94,7 +94,7 @@ public:
 	void UpdateStepOrigin(); // size[610]
 	void GetAttachment(int param_1, Vector *param_2, QAngle *param_3); // size[85]
 	void GetAttachment(int param_1, Vector *param_2, Vector *param_3, Vector *param_4, Vector *param_5); // size[269]
-	void GetAttachmentLocal(int param_1, matrix3x4_t *param_2); // size[81]
+	void GetAttachmentLocal(int param_1, matrix3x4_t *param_2); // size[111]
 	void GetAttachmentLocal(int param_1, Vector *param_2, QAngle *param_3); // size[82]
 	void RegisterPrivateActivity(char *param_1); // size[15]
 	void ReportMissingActivity(int param_1); // size[55]

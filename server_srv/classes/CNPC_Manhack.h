@@ -70,7 +70,7 @@ public:
 	void InputDisableSwarm(inputdata_t *param_1); // size[15]
 	void CrashTouch(CBaseEntity *param_1); // size[88]
 	void InputUnpack(inputdata_t *param_1); // size[35]
-	void TakeDamageFromPhyscannon(CBasePlayer *param_1); // size[27]
+	void TakeDamageFromPhyscannon(CBasePlayer *param_1); // size[357]
 	void GetBaseMap(); // size[10]
 	void HitPhysicsObject(CBaseEntity *param_1); // size[764]
 	void TakeDamageFromPhyscannon(CBasePlayer *param_1); // size[27]

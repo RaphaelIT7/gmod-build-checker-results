@@ -10,5 +10,5 @@ public:
 	virtual void FrameUpdatePreEntityThink() override; // vtable[15]
 	virtual void FrameUpdatePostEntityThink() override; // vtable[16]
 
-	void EnqueueEntityNavigationQuery(CAI_BaseNPC *param_1, CFunctor *param_2); // size[165]
+	void EnqueueEntityNavigationQuery(CAI_BaseNPC *param_1, CFunctor *param_2); // size[162]
 };

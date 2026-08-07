@@ -31,6 +31,6 @@ public:
 
 	CWeaponAR2(); // size[102]
 	void DelayedAttack(); // size[30]
-	void FireNPCPrimaryAttack(CBaseCombatCharacter *param_1, bool param_2); // size[682]
+	void FireNPCPrimaryAttack(CBaseCombatCharacter *param_1, bool param_2); // size[700]
 	void FireNPCSecondaryAttack(CBaseCombatCharacter *param_1, bool param_2); // size[52]
 };

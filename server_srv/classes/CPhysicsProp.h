@@ -51,5 +51,5 @@ public:
 	void InputEnableMotion(inputdata_t *param_1); // size[9]
 	void OnPhysGunPickup(CBasePlayer *param_1, PhysGunPickup_t param_2); // size[13]
 	void OnPhysGunDrop(CBasePlayer *param_1, PhysGunDrop_t param_2); // size[13]
-	void NavThink(); // size[1049]
+	void NavThink(); // size[1144]
 };

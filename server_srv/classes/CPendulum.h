@@ -14,6 +14,6 @@ public:
 	void PendulumUse(CBaseEntity *param_1, CBaseEntity *param_2, USE_TYPE param_3, float param_4); // size[433]
 	void Stop(); // size[90]
 	void Swing(); // size[543]
-	void RopeTouch(CBaseEntity *param_1); // size[130]
+	void RopeTouch(CBaseEntity *param_1); // size[154]
 	void GetBaseMap(); // size[10]
 };

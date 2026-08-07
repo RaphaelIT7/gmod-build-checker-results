@@ -3,7 +3,7 @@
 class CAI_FuncTankBehavior : public CAI_Behavior
 {
 public:
-	virtual ~CAI_FuncTankBehavior() override; // vtable[0]
+	virtual _ZN20CAI_FuncTankBehaviorD1Ev() override; // vtable[0]
 	virtual ~CAI_FuncTankBehavior() override; // vtable[1]
 	virtual void GetName() override; // vtable[5]
 	virtual void CanSelectSchedule() override; // vtable[7]

@@ -16,7 +16,7 @@ public:
 
 	void _GLOBAL__sub_I_m_DataMap(); // size[113]
 	void GetBaseMap(); // size[10]
-	void Stop(); // size[26]
+	void Stop(); // size[85]
 	void Next(); // size[59]
 	void Start(); // size[196]
 	void InputStart(inputdata_t *param_1); // size[9]

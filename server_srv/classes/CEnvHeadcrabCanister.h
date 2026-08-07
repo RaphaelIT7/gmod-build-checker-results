@@ -15,7 +15,7 @@ public:
 
 	void InputStopSmoke(inputdata_t *param_1); // size[85]
 	void HeadcrabCanisterSkyboxOnlyThink(); // size[12]
-	void HeadcrabCanisterSpawnHeadcrabThink(); // size[105]
+	void HeadcrabCanisterSpawnHeadcrabThink(); // size[344]
 	void GetBaseMap(); // size[10]
 	CEnvHeadcrabCanister(); // size[233]
 	void SetupWorldModel(); // size[26]

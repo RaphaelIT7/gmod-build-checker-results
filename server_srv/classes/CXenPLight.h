@@ -12,6 +12,6 @@ public:
 	virtual void Touch(CBaseEntity *param_1) override; // vtable[102]
 
 	void GetBaseMap(); // size[10]
-	void LightOn(); // size[181]
-	void LightOff(); // size[169]
+	void LightOn(); // size[134]
+	void LightOff(); // size[175]
 };

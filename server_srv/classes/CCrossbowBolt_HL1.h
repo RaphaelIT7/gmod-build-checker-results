@@ -10,8 +10,8 @@ public:
 	virtual void Classify() override; // vtable[55]
 
 	void _GLOBAL__sub_I_m_DataMap(); // size[112]
-	void BubbleThink(); // size[115]
-	void ExplodeThink(); // size[90]
+	void BubbleThink(); // size[25]
+	void ExplodeThink(); // size[367]
 	void BoltTouch(CBaseEntity *param_1); // size[94]
 	void BoltTouch(CBaseEntity *param_1); // size[38]
 	void GetBaseMap(); // size[10]

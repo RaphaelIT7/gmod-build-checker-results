@@ -18,5 +18,5 @@ public:
 	void InputKill(inputdata_t *param_1); // size[9]
 	void CrateThink(); // size[32]
 	void GetBaseMap(); // size[10]
-	void SetupCrate(); // size[142]
+	void SetupCrate(); // size[79]
 };

@@ -16,7 +16,7 @@ public:
 	void _GLOBAL__sub_I_m_DataMap(); // size[112]
 	void GetBaseMap(); // size[10]
 	void StartCharge(float param_1); // size[48]
-	void InputStartCharge(inputdata_t *param_1); // size[37]
+	void InputStartCharge(inputdata_t *param_1); // size[3]
 	void StartDischarge(); // size[48]
 	void InputStartDischarge(inputdata_t *param_1); // size[9]
 	void StopDischarge(float param_1); // size[48]

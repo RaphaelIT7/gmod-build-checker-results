@@ -11,7 +11,7 @@ public:
 
 	void RemoveTouch(CBaseEntity *param_1); // size[122]
 	void BounceTouch(CBaseEntity *param_1); // size[48]
-	void ZapTouch(CBaseEntity *param_1); // size[425]
+	void ZapTouch(CBaseEntity *param_1); // size[431]
 	void GetBaseMap(); // size[10]
 	void TeleportTouch(CBaseEntity *param_1); // size[421]
 	void SpriteInit(char *param_1, CNihilanthHVR *param_2); // size[257]
@@ -25,5 +25,5 @@ public:
 	void MovetoTarget(Vector param_1); // size[627]
 	void TeleportThink(); // size[978]
 	void GreenBallInit(); // size[36]
-	void ZapThink(); // size[1081]
+	void ZapThink(); // size[1087]
 };

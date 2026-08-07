@@ -38,7 +38,7 @@ public:
 	void SetEndPoint(CBaseEntity *param_1, int param_2); // size[138]
 	void DieAtNextRest(); // size[59]
 	void GetEndPointPos2(CBaseEntity *param_1, int param_2, Vector *param_3); // size[171]
-	void GetEndPointPos(Vector *param_1, CBaseEntity *param_2, Vector param_3, int param_4, bool param_5); // size[499]
+	void GetEndPointPos(Vector *param_1, CBaseEntity *param_2, Vector param_3, int param_4, bool param_5); // size[683]
 	void GetEndPointPos(int param_1, Vector *param_2); // size[512]
 	void SetupHangDistance(float param_1); // size[299]
 	void RecalculateLength(); // size[271]
@@ -52,7 +52,7 @@ public:
 	void DetachPoint(int param_1); // size[60]
 	void EnableCollision(); // size[69]
 	void EnableWind(bool param_1); // size[78]
-	void SetMaterial(char *param_1); // size[68]
+	void SetMaterial(char *param_1); // size[30]
 	void Create(CBaseEntity *param_1, CBaseEntity *param_2, int param_3, int param_4, int param_5, char *param_6, int param_7); // size[146]
 	void CreateWithSecondPointDetached(CBaseEntity *param_1, int param_2, int param_3, int param_4, char *param_5, int param_6, bool param_7); // size[146]
 };

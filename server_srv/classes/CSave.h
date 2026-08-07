@@ -76,7 +76,7 @@ public:
 	void EntityFlagsSet(int param_1, int param_2); // size[69]
 	void WriteTime64(char *param_1, double *param_2, int param_3); // size[227]
 	void WriteGMODTable(char *param_1, IGMODDataTable *param_2); // size[154]
-	void WriteGameField(char *param_1, void *param_2, datamap_t *param_3, typedescription_t *param_4); // size[724]
+	void WriteGameField(char *param_1, void *param_2, datamap_t *param_3, typedescription_t *param_4); // size[715]
 	void WriteField(char *param_1, void *param_2, datamap_t *param_3, typedescription_t *param_4); // size[56]
 	CSave(CSaveRestoreData *param_1); // size[128]
 };

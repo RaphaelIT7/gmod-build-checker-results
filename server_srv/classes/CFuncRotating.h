@@ -18,7 +18,7 @@ public:
 
 	void InputGetSpeed(inputdata_t *param_1); // size[81]
 	void GetNextMoveInterval(); // size[19]
-	void HurtTouch(CBaseEntity *param_1); // size[397]
+	void HurtTouch(CBaseEntity *param_1); // size[408]
 	void GetBaseMap(); // size[10]
 	void RampPitchVol(); // size[224]
 	void GetNextMoveInterval(); // size[41]

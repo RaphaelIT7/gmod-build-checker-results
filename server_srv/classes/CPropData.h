@@ -13,5 +13,5 @@ public:
 	void ParsePropFromBase(CBaseEntity *param_1, char *param_2); // size[93]
 	void ParsePropFromKV(CBaseEntity *param_1, KeyValues *param_2, KeyValues *param_3); // size[65]
 	void GetRandomChunkModel(char *param_1, int param_2); // size[31]
-	void ParsePropDataFile(); // size[539]
+	void ParsePropDataFile(); // size[392]
 };

@@ -11,7 +11,7 @@ public:
 
 	CPlayerMove(); // size[14]
 	void FinishCommand(CBasePlayer *param_1); // size[111]
-	void CheckMovingGround(CBasePlayer *param_1, double param_2); // size[470]
+	void CheckMovingGround(CBasePlayer *param_1, double param_2); // size[427]
 	void RunPreThink(CBasePlayer *param_1); // size[418]
 	void RunThink(CBasePlayer *param_1, double param_2); // size[194]
 	void RunPostThink(CBasePlayer *param_1); // size[92]

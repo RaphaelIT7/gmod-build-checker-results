@@ -25,6 +25,6 @@ public:
 	virtual void ImpactEffect(CGameTrace *param_1) override; // vtable[431]
 
 	CWeaponStunStick(); // size[37]
-	void SetStunState(bool param_1); // size[206]
+	void SetStunState(bool param_1); // size[276]
 	void GetStunState(); // size[15]
 };

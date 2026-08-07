@@ -19,7 +19,7 @@ public:
 
 	void _GLOBAL__sub_I_m_DataMap(); // size[113]
 	void GetBaseMap(); // size[10]
-	void GetGunAim(Vector *param_1); // size[83]
+	void GetGunAim(Vector *param_1); // size[222]
 	void Gib(); // size[354]
 	void EnemyShootPosition(CBaseEntity *param_1, Vector *param_2); // size[339]
 	void FireCannons(); // size[767]

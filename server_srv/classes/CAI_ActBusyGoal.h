@@ -19,9 +19,10 @@ public:
 	virtual void NPCSeeEnemy(CAI_BaseNPC *param_1); // vtable[260]
 
 	void InputSetBusySearchRange(inputdata_t *param_1); // size[287]
+	void GetBaseMap(); // size[10]
 	void GetBusyBehaviorForNPC(CBaseEntity *param_1, char *param_2); // size[83]
 	void GetBusyBehaviorForNPC(char *param_1, CBaseEntity *param_2, CBaseEntity *param_3, char *param_4); // size[142]
-	void InputForceNPCToActBusy(inputdata_t *param_1); // size[988]
+	void InputForceNPCToActBusy(inputdata_t *param_1); // size[952]
 	void InputForceThisNPCToActBusy(inputdata_t *param_1); // size[228]
 	void InputForceThisNPCToLeave(inputdata_t *param_1); // size[176]
 };

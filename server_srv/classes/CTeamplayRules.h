@@ -43,6 +43,7 @@ public:
 	virtual void HandleScrambleTeams(); // vtable[163]
 	virtual void PointsMayAlwaysBeBlocked(); // vtable[164]
 
-	void RecountTeams(); // size[12]
+	void TeamWithFewestPlayers(); // size[191]
+	void RecountTeams(); // size[34]
 	CTeamplayRules(); // size[103]
 };

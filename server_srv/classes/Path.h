@@ -36,11 +36,11 @@ public:
 	virtual void ValidatePathConst(); // vtable[30]
 
 	Path(); // size[334]
-	void ComputePathDetails(INextBot *param_1, Vector *param_2); // size[5759]
+	void ComputePathDetails(INextBot *param_1, Vector *param_2); // size[309]
 	void InsertSegment(Segment param_1, int param_2); // size[515]
-	void BuildTrivialPath(INextBot *param_1, Vector *param_2); // size[610]
+	void BuildTrivialPath(INextBot *param_1, Vector *param_2); // size[190]
 	void FindNextOccludedNode(INextBot *param_1, int param_2); // size[296]
 	void Optimize(INextBot *param_1); // size[5]
-	void PostProcess(); // size[38]
-	void Draw(Segment *param_1); // size[987]
+	void PostProcess(); // size[979]
+	void Draw(Segment *param_1); // size[43]
 };

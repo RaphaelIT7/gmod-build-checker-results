@@ -22,5 +22,5 @@ public:
 	void RebuildThink(); // size[59]
 	void BuildNetworkGraph(); // size[84]
 	void DelayedInit(); // size[537]
-	void InitializeAINetworks(); // size[301]
+	void InitializeAINetworks(); // size[117]
 };

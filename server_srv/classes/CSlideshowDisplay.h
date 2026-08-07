@@ -24,7 +24,7 @@ public:
 	void InputSetMaxSlideTime(inputdata_t *param_1); // size[68]
 	void InputAddSlides(inputdata_t *param_1); // size[222]
 	void GetBaseMap(); // size[10]
-	void ScreenVisible(bool param_1); // size[170]
+	void ScreenVisible(bool param_1); // size[181]
 	void Disable(); // size[100]
 	void InputDisable(inputdata_t *param_1); // size[9]
 	void Enable(); // size[96]

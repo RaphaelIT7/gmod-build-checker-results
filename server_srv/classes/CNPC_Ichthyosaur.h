@@ -42,7 +42,7 @@ public:
 	void EnsnareVictim(CBaseEntity *param_1); // size[260]
 	void ReleaseVictim(); // size[132]
 	void DragVictim(float param_1); // size[645]
-	void DoMovement(float param_1, Vector *param_2, int param_3); // size[1155]
+	void DoMovement(float param_1, Vector *param_2, int param_3); // size[1166]
 	void GetGroundSpeed(); // size[96]
 	void MoveFlyExecute(CBaseEntity *param_1, Vector *param_2, float param_3, float param_4); // size[1144]
 };

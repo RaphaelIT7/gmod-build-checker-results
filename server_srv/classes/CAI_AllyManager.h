@@ -11,7 +11,7 @@ public:
 	void InputSetMaxAllies(inputdata_t *param_1); // size[29]
 	void InputSetMaxMedics(inputdata_t *param_1); // size[29]
 	void GetBaseMap(); // size[10]
-	void CountAllies(int *param_1, int *param_2); // size[602]
+	void CountAllies(int *param_1, int *param_2); // size[649]
 	void WatchCounts(); // size[256]
 	void InputReplenish(inputdata_t *param_1); // size[358]
 };

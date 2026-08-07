@@ -43,7 +43,7 @@ public:
 
 	void InputDisableSpotlight(inputdata_t *param_1); // size[15]
 	void InputEnableSpotlight(inputdata_t *param_1); // size[15]
-	void InputEquipMine(inputdata_t *param_1); // size[347]
+	void InputEquipMine(inputdata_t *param_1); // size[362]
 	void SpotlightCreate(); // size[1034]
 	void GetBaseMap(); // size[10]
 	void RequestInspectSupport(); // size[58]
@@ -55,7 +55,7 @@ public:
 	void SetInspectTargetToPos(Vector *param_1, float param_2); // size[101]
 	void HaveInspectTarget(); // size[126]
 	void InspectTargetPosition(); // size[395]
-	void DeployMine(); // size[182]
+	void DeployMine(); // size[265]
 	void InputDeployMine(inputdata_t *param_1); // size[9]
 	void InspectTarget(inputdata_t *param_1, ScannerFlyMode_t param_2); // size[232]
 	void InputInspectTargetPhoto(inputdata_t *param_1); // size[89]

@@ -32,7 +32,7 @@ public:
 	void SetBrightness(int param_1, float param_2); // size[47]
 	void SetSpriteScale(float param_1); // size[30]
 	void SetScale(float param_1, float param_2); // size[66]
-	void TurnOff(); // size[26]
+	void TurnOff(); // size[62]
 	void InputHideSprite(inputdata_t *param_1); // size[9]
 	void Animate(float param_1); // size[72]
 	void AnimateThink(); // size[132]

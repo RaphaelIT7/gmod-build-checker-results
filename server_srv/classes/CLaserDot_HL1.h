@@ -16,6 +16,6 @@ public:
 	void SetLaserPosition(Vector *param_1, Vector *param_2); // size[29]
 	void GetChasePosition(); // size[147]
 	void TurnOn(); // size[138]
-	void TurnOff(); // size[107]
+	void TurnOff(); // size[115]
 	void MakeInvisible(); // size[5]
 };

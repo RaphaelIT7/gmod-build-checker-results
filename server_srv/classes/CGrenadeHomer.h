@@ -21,6 +21,6 @@ public:
 	void StopRocketTrail(); // size[159]
 	void GrenadeHomerTouch(CBaseEntity *param_1); // size[25]
 	void PlayFlySound(); // size[103]
-	void AimThink(); // size[2480]
-	void Launch(CBaseEntity *param_1, CBaseEntity *param_2, Vector *param_3, float param_4, float param_5, int param_6); // size[118]
+	void AimThink(); // size[2485]
+	void Launch(CBaseEntity *param_1, CBaseEntity *param_2, Vector *param_3, float param_4, float param_5, int param_6); // size[173]
 };

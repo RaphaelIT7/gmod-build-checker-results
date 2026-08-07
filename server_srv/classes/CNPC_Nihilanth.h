@@ -26,8 +26,8 @@ public:
 	void NextActivity(); // size[197]
 	void EmitSphere(); // size[267]
 	void StartupThink(); // size[400]
-	void ShootBalls(); // size[278]
+	void ShootBalls(); // size[1154]
 	void AbsorbSphere(); // size[118]
 	void HuntThink(); // size[786]
-	void DyingThink(); // size[981]
+	void DyingThink(); // size[1087]
 };

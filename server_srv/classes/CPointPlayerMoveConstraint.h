@@ -10,8 +10,8 @@ public:
 	virtual void Activate() override; // vtable[34]
 
 	void _GLOBAL__sub_I_m_DataMap(); // size[113]
-	void ConstraintThink(); // size[413]
+	void ConstraintThink(); // size[407]
 	void GetBaseMap(); // size[10]
-	void InputTurnOff(inputdata_t *param_1); // size[160]
+	void InputTurnOff(inputdata_t *param_1); // size[140]
 	void InputTurnOn(inputdata_t *param_1); // size[781]
 };

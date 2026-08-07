@@ -5,7 +5,7 @@ class NextBotManager
 public:
 	virtual ~NextBotManager(); // vtable[0]
 	virtual ~NextBotManager(); // vtable[1]
-	virtual void Update(); // vtable[2]
+	virtual void _ZN14NextBotManager6UpdateEv(); // vtable[2]
 	virtual void OnMapLoaded(); // vtable[3]
 	virtual void OnRoundRestart(); // vtable[4]
 	virtual void OnBeginChangeLevel(); // vtable[5]
@@ -15,7 +15,7 @@ public:
 	virtual void OnWeaponFired(CBaseCombatCharacter *param_1, CBaseCombatWeapon *param_2); // vtable[9]
 
 	void Reset(); // size[105]
-	void ShouldUpdate(INextBot *param_1); // size[516]
+	void ShouldUpdate(INextBot *param_1); // size[340]
 	void NotifyEndUpdate(INextBot *param_1); // size[44]
 	void DebugFilterClear(); // size[15]
 	void IsDebugFilterMatch(INextBot *param_1); // size[176]
@@ -27,6 +27,6 @@ public:
 	void Register(INextBot *param_1); // size[442]
 	void DebugFilterAdd(int param_1); // size[87]
 	void DebugFilterAdd(char *param_1); // size[119]
-	void CollectAllBots(CUtlVector *param_1); // size[191]
+	void CollectAllBots(CUtlVector *param_1); // size[184]
 	void GetBotUnderCrosshair(CBasePlayer *param_1); // size[127]
 };

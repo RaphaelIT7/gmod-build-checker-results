@@ -19,7 +19,7 @@ public:
 	virtual void PassesTriggerFilters(CBaseEntity *param_1) override; // vtable[255]
 
 	void _GLOBAL__sub_I_m_DataMap(); // size[112]
-	void ThinkFunc(); // size[263]
+	void ThinkFunc(); // size[421]
 	void GetBaseMap(); // size[10]
 	CColorCorrectionVolume(); // size[181]
 };

@@ -57,7 +57,7 @@ public:
 	void ReadGMODTable(IGMODDataTable *param_1, int param_2); // size[1617]
 	void EntityFromIndex(int param_1); // size[118]
 	void ReadTime64(double *param_1, int param_2, int param_3); // size[222]
-	void ReadGameField(SaveRestoreRecordHeader_t *param_1, void *param_2, datamap_t *param_3, typedescription_t *param_4); // size[1315]
+	void ReadGameField(SaveRestoreRecordHeader_t *param_1, void *param_2, datamap_t *param_3, typedescription_t *param_4); // size[1293]
 	void ReadField(SaveRestoreRecordHeader_t *param_1, void *param_2, datamap_t *param_3, typedescription_t *param_4); // size[56]
 	CRestore(CSaveRestoreData *param_1); // size[115]
 };

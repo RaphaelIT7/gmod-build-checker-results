@@ -20,6 +20,6 @@ public:
 
 	void GetBaseMap(); // size[10]
 	CWeaponCrossbow_HL1(); // size[51]
-	void FireBolt(); // size[95]
+	void FireBolt(); // size[135]
 	void ToggleZoom(); // size[20]
 };

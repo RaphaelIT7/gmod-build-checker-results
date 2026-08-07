@@ -17,10 +17,10 @@ public:
 
 	void GetBaseMap(); // size[10]
 	void RecalculateQueueCount(); // size[434]
-	void InputPlayerStoppedBlocking(inputdata_t *param_1); // size[31]
+	void MoveQueueUp(); // size[10]
+	void InputPlayerStoppedBlocking(inputdata_t *param_1); // size[60]
 	void RemoveNPCFromQueue(CAI_BaseNPC *param_1); // size[31]
 	void GetNPCOnNode(int param_1); // size[138]
-	void InputMoveQueueUp(inputdata_t *param_1); // size[92]
 	void QueueThink(); // size[103]
 	void GetQueueBehaviorForNPC(CAI_BaseNPC *param_1); // size[96]
 	void PushNPCBackInQueue(CAI_BaseNPC *param_1, int param_2); // size[461]

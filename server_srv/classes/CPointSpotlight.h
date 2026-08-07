@@ -24,7 +24,7 @@ public:
 	void InputLightOn(inputdata_t *param_1); // size[39]
 	void SpotlightDestroy(); // size[93]
 	void InputLightOff(inputdata_t *param_1); // size[39]
-	void SpotlightUpdate(); // size[878]
+	void SpotlightUpdate(); // size[1418]
 	void SpotlightThink(); // size[158]
 	void InputForceUpdate(inputdata_t *param_1); // size[9]
 };

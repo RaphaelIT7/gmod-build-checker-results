@@ -11,5 +11,5 @@ public:
 	void _GLOBAL__sub_I_m_DataMap(); // size[113]
 	void GetBaseMap(); // size[10]
 	void ChaserCreate(CGrenadeBeam *param_1); // size[76]
-	void ChaserThink(); // size[659]
+	void ChaserThink(); // size[664]
 };

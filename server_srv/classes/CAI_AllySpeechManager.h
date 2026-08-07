@@ -16,5 +16,5 @@ public:
 	void OnSpokeConcept(CAI_PlayerAlly *param_1, char *param_2, AI_Response *param_3); // size[1079]
 	void ConceptDelayExpired(char *param_1); // size[122]
 	CAI_AllySpeechManager(); // size[26]
-	void AddCustomConcept(ConceptInfo_t *param_1); // size[193]
+	void AddCustomConcept(ConceptInfo_t *param_1); // size[75]
 };

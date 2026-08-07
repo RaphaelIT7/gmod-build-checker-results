@@ -20,7 +20,7 @@ public:
 	virtual void VPhysicsFriction(IPhysicsObject *param_1, float param_2, int param_3, int param_4) override; // vtable[168]
 
 	void GetBaseMap(); // size[10]
-	void Init(CBaseEntity *param_1, char *param_2, solid_t *param_3, Vector *param_4, QAngle *param_5); // size[58]
+	void Init(CBaseEntity *param_1, char *param_2, solid_t *param_3, Vector *param_4, QAngle *param_5); // size[109]
 	void UpdateFollower(Vector *param_1, QAngle *param_2, float param_3); // size[65]
 	void SetTraceData(int param_1, int param_2); // size[26]
 	void Create(CBaseEntity *param_1, char *param_2, solid_t *param_3, Vector *param_4, QAngle *param_5); // size[84]

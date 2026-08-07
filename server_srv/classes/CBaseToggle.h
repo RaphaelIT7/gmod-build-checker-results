@@ -19,7 +19,7 @@ public:
 	void GetBaseMap(); // size[10]
 	CBaseToggle(); // size[26]
 	void LinearMove(Vector *param_1, float param_2); // size[41]
-	void LinearMoveDone(); // size[52]
+	void LinearMoveDone(); // size[74]
 	void AngularMove(QAngle *param_1, float param_2); // size[89]
 	void AngularMoveDone(); // size[66]
 	void AxisValue(int param_1, QAngle *param_2); // size[67]

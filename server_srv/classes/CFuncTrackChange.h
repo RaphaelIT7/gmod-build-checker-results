@@ -20,5 +20,5 @@ public:
 	void Find(); // size[275]
 	void GetBaseMap(); // size[10]
 	void EvaluateTrain(CPathTrack *param_1); // size[451]
-	void UpdateTrain(QAngle *param_1); // size[160]
+	void UpdateTrain(QAngle *param_1); // size[256]
 };

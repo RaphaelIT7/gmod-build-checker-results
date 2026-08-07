@@ -40,7 +40,7 @@ public:
 	void Smoke(); // size[275]
 	void DangerSoundThink(); // size[419]
 	void ExplodeTouch(CBaseEntity *param_1); // size[6]
-	void TumbleThink(); // size[518]
+	void TumbleThink(); // size[551]
 	void GetBaseMap(); // size[10]
 	void GetThrower(); // size[149]
 	void SlideTouch(CBaseEntity *param_1); // size[115]

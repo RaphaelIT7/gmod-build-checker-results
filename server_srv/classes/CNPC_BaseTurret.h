@@ -34,7 +34,7 @@ public:
 	void SetTurretAnim(TURRET_ANIM param_1); // size[240]
 	void Deploy(); // size[540]
 	void MoveTurret(); // size[864]
-	void ActiveThink(); // size[834]
+	void ActiveThink(); // size[838]
 	void SearchThink(); // size[662]
 	void Retire(); // size[552]
 	void TurretDeath(); // size[642]

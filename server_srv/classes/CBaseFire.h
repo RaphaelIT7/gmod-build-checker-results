@@ -12,5 +12,5 @@ public:
 
 	void _GLOBAL__sub_I_m_DataMap(); // size[112]
 	void GetBaseMap(); // size[10]
-	CBaseFire(); // size[12]
+	CBaseFire(); // size[28]
 };

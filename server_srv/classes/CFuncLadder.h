@@ -29,6 +29,6 @@ public:
 	void GetBaseMap(); // size[10]
 	void PlayerGotOn(CBasePlayer *param_1); // size[45]
 	CFuncLadder(); // size[28]
-	void FindNearbyDismountPoints(Vector *param_1, float param_2, CUtlVector *param_3); // size[498]
+	void FindNearbyDismountPoints(Vector *param_1, float param_2, CUtlVector *param_3); // size[111]
 	void SearchForDismountPoints(); // size[565]
 };

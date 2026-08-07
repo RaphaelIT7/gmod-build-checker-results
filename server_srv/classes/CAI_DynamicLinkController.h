@@ -13,5 +13,5 @@ public:
 	void InputTurnOff(inputdata_t *param_1); // size[264]
 	void InputSetAllowed(inputdata_t *param_1); // size[248]
 	void InputSetInvert(inputdata_t *param_1); // size[250]
-	void GenerateLinksFromVolume(); // size[995]
+	void GenerateLinksFromVolume(); // size[981]
 };

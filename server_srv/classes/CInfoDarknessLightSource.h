@@ -10,7 +10,7 @@ public:
 	virtual void UpdateOnRemove() override; // vtable[108]
 
 	void GetBaseMap(); // size[10]
-	void DebugThink(); // size[706]
+	void DebugThink(); // size[452]
 	void InputDisable(inputdata_t *param_1); // size[39]
 	void InputEnable(inputdata_t *param_1); // size[10]
 };

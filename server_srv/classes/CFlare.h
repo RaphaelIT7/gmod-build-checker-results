@@ -22,7 +22,7 @@ public:
 	void GetActiveFlares(); // size[10]
 	CFlare(); // size[123]
 	void StartBurnSound(); // size[71]
-	void Start(float param_1); // size[276]
+	void Start(float param_1); // size[156]
 	void Create(Vector param_1, QAngle param_2, CBaseEntity *param_3, float param_4); // size[172]
 	void InputStart(inputdata_t *param_1); // size[37]
 	void Die(float param_1); // size[78]
@@ -32,5 +32,5 @@ public:
 	void InputLaunch(inputdata_t *param_1); // size[53]
 	void RemoveFromActiveFlares(bool param_1); // size[182]
 	void AddToActiveFlares(); // size[75]
-	void FlareThink(); // size[766]
+	void FlareThink(); // size[677]
 };

@@ -24,5 +24,5 @@ public:
 	void HasDead(); // size[395]
 	void HoverThink(); // size[13]
 	void MakeGrunt(Vector param_1); // size[338]
-	void DeployThink(); // size[204]
+	void DeployThink(); // size[269]
 };

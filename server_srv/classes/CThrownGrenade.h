@@ -8,5 +8,5 @@ public:
 	virtual void Spawn() override; // vtable[23]
 
 	void _GLOBAL__sub_I_Spawn(); // size[113]
-	void Thrown(Vector param_1, Vector param_2, float param_3); // size[40]
+	void Thrown(Vector param_1, Vector param_2, float param_3); // size[89]
 };

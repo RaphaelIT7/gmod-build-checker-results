@@ -10,12 +10,13 @@ public:
 	virtual void Activate() override; // vtable[34]
 	virtual void InputEnable(inputdata_t *param_1) override; // vtable[247]
 	virtual void InputDisable(inputdata_t *param_1) override; // vtable[248]
+	virtual void _ZN10CFogVolume11InputToggleER11inputdata_t() override; // vtable[250]
 
-	void RemoveFromGlobalList(); // size[148]
+	void RemoveFromGlobalList(); // size[131]
 	void GetBaseMap(); // size[10]
 	void FindFogVolumeForPosition(Vector *param_1); // size[762]
 	CFogVolume(); // size[84]
 	void RemoveFromGlobalList(); // size[23]
-	void AddToGlobalList(); // size[136]
+	void AddToGlobalList(); // size[130]
 	void AddToGlobalList(); // size[23]
 };

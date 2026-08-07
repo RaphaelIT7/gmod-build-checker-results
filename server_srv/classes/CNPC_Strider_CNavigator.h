@@ -30,7 +30,7 @@ public:
 	virtual void OnMoveExecuteFailed(AILocalMoveGoal_t *param_1, AIMoveTrace_t *param_2, AIMotorMoveResult_t param_3, AIMoveResult_t *param_4) override; // vtable[26]
 	virtual void OnMoveBlocked(AIMoveResult_t *param_1) override; // vtable[27]
 	virtual void MoveUpdateWaypoint(AIMoveResult_t *param_1) override; // vtable[28]
-	virtual void _ZN12CNPC_Strider10CNavigator15DoFindPathToPosEv() override; // vtable[29]
+	virtual void DoFindPathToPos() override; // vtable[29]
 	virtual void ShouldOptimizeInitialPathSegment(AI_Waypoint_t *param_1) override; // vtable[30]
 	virtual void GetStoppingPath(CAI_WaypointList *param_1) override; // vtable[31]
 };

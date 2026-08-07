@@ -32,7 +32,7 @@ public:
 	void InputLock(inputdata_t *param_1); // size[17]
 	void InputUnlock(inputdata_t *param_1); // size[17]
 	void OnEndBlocked(); // size[19]
-	void GetBaseMap(); // size[1]
+	void GetBaseMap(); // size[10]
 	CBasePropDoor(); // size[527]
 	void RegisterPrivateActivities(); // size[42]
 	void UpdateAreaPortals(bool param_1); // size[68]

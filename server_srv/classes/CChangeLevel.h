@@ -24,5 +24,5 @@ public:
 	void ChangeList(levellist_t *param_1, int param_2); // size[414]
 	void ChangeLevelNow(CBaseEntity *param_1); // size[938]
 	void InputChangeLevel(inputdata_t *param_1); // size[90]
-	void TouchChangeLevel(CBaseEntity *param_1); // size[214]
+	void TouchChangeLevel(CBaseEntity *param_1); // size[230]
 };
