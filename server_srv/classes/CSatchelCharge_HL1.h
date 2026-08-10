@@ -12,7 +12,7 @@ public:
 
 	void SatchelUse(CBaseEntity *param_1, CBaseEntity *param_2, USE_TYPE param_3, float param_4); // size[59]
 	void GetBaseMap(); // size[10]
-	void Deactivate(); // size[41]
+	void Deactivate(); // size[54]
 	void UpdateSlideSound(); // size[342]
 	void SatchelTouch(CBaseEntity *param_1); // size[255]
 	void SatchelThink(); // size[227]

@@ -36,5 +36,5 @@ public:
 	void GetBaseMap(); // size[10]
 	CItem(); // size[168]
 	void CreateItemVPhysicsObject(); // size[75]
-	void ActivateWhenAtRest(float param_1); // size[38]
+	void ActivateWhenAtRest(float param_1); // size[94]
 };

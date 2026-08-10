@@ -52,6 +52,6 @@ public:
 	void RegisterComponent(INextBotComponent *param_1); // size[20]
 	void UpdateImmobileStatus(); // size[338]
 	INextBot(); // size[176]
-	void DebugConColorMsg(NextBotDebugType param_1, Color *param_2, char *param_3); // size[672]
-	void GetDebugHistory(uint param_1, CUtlVector *param_2); // size[188]
+	void DebugConColorMsg(NextBotDebugType param_1, Color *param_2, char *param_3); // size[692]
+	void GetDebugHistory(uint param_1, CUtlVector *param_2); // size[195]
 };

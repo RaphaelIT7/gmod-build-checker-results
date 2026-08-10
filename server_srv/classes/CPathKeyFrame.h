@@ -10,6 +10,7 @@ public:
 	virtual void Activate() override; // vtable[34]
 
 	void GetBaseMap(); // size[10]
+	void CalculateFrameDuration(); // size[40]
 	void Link(); // size[104]
 	void SetKeyAngles(QAngle param_1); // size[62]
 	void NextKey(int param_1); // size[10]

@@ -60,7 +60,7 @@ public:
 	CAchievementMgr(SteamCloudPersisting param_1); // size[828]
 	void AwardAchievement(int param_1); // size[10]
 	void AddPanelToNotifyAch(uint param_1); // size[10]
-	void SetAchievementThink(CBaseAchievement *param_1, float param_2); // size[356]
+	void SetAchievementThink(CBaseAchievement *param_1, float param_2); // size[372]
 	void WereCheatsEverOn(); // size[7]
 	~CAchievementMgr(); // size[10]
 	~CAchievementMgr(); // size[10]

@@ -26,7 +26,7 @@ public:
 	void Create(Vector param_1, QAngle param_2, CBaseEntity *param_3, float param_4); // size[172]
 	void InputStart(inputdata_t *param_1); // size[37]
 	void Die(float param_1); // size[78]
-	void FlareTouch(CBaseEntity *param_1); // size[918]
+	void FlareTouch(CBaseEntity *param_1); // size[1075]
 	void InputDie(inputdata_t *param_1); // size[37]
 	void Launch(Vector *param_1, float param_2); // size[95]
 	void InputLaunch(inputdata_t *param_1); // size[53]

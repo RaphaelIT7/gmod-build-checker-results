@@ -32,6 +32,6 @@ public:
 	void Explode(); // size[12]
 	void AugerThink(); // size[287]
 	void MissileTouch(CBaseEntity *param_1); // size[62]
-	void SeekThink(); // size[1650]
+	void SeekThink(); // size[1665]
 	void GetShootPosition(CLaserDot *param_1, Vector *param_2); // size[159]
 };

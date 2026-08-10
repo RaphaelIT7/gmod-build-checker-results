@@ -78,7 +78,7 @@ public:
 	void VehicleLeapAttack(); // size[164]
 	void CanEnterVehicle(CPropJeepEpisodic *param_1); // size[43]
 	void ShouldFailNav(bool param_1); // size[273]
-	void InitCustomSchedules(); // size[369]
+	void InitCustomSchedules(); // size[911]
 	void LoadSchedules(); // size[62]
 	CScheduleLoader(); // size[9]
 };

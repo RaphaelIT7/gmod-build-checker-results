@@ -18,7 +18,7 @@ public:
 	virtual void GetClassScheduleIdSpace() override; // vtable[640]
 
 	void WaitTillDead(); // size[137]
-	void InitCustomSchedules(); // size[169]
+	void InitCustomSchedules(); // size[201]
 	void LoadSchedules(); // size[62]
 	CScheduleLoader(); // size[9]
 	void GetBaseMap(); // size[10]

@@ -59,7 +59,7 @@ public:
 	CStaticPropMgr(); // size[194]
 	void UnserializeModelDict(CUtlBuffer *param_1); // size[896]
 	void UnserializeLeafList(CUtlBuffer *param_1); // size[368]
-	void UnserializeModels(CUtlBuffer *param_1); // size[4365]
+	void UnserializeModels(CUtlBuffer *param_1); // size[4423]
 	void UnserializeStaticProps(); // size[264]
 	void GetAllStaticProps(CUtlVector *param_1); // size[7]
 	void GetAllStaticProps(CUtlVector *param_1); // size[10]

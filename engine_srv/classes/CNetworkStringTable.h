@@ -43,5 +43,5 @@ public:
 	CNetworkStringTable(int param_1, char *param_2, int param_3, int param_4, int param_5, bool param_6); // size[378]
 	void WriteUpdate(CBaseClient *param_1, bf_write *param_2, int param_3, bool param_4); // size[1936]
 	void WriteBaselines(SVC_CreateStringTable *param_1, char *param_2, int param_3, bool param_4); // size[409]
-	void ParseUpdate(bf_read *param_1, int param_2); // size[1744]
+	void ParseUpdate(bf_read *param_1, int param_2); // size[1759]
 };

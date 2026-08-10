@@ -21,7 +21,7 @@ public:
 	virtual void IgnorePlayerPushing() override; // vtable[731]
 
 	void GetBaseMap(); // size[10]
-	void InitCustomSchedules(); // size[363]
+	void InitCustomSchedules(); // size[2219]
 	void LoadSchedules(); // size[62]
 	CScheduleLoader(); // size[9]
 };

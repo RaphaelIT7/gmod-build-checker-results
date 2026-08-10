@@ -35,7 +35,7 @@ public:
 	virtual void DeclineFollowing() override; // vtable[728]
 	virtual void FriendNumber(int param_1) override; // vtable[732]
 
-	void SUB_LVFadeOut(); // size[193]
+	void SUB_LVFadeOut(); // size[181]
 	void GetBaseMap(); // size[10]
 	void TalkInit(); // size[147]
 	void SUB_StartLVFadeOut(float param_1, bool param_2); // size[74]

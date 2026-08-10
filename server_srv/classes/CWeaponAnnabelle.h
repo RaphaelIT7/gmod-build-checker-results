@@ -19,8 +19,8 @@ public:
 	virtual void GetMinRestTime() override; // vtable[344]
 	virtual void GetMaxRestTime() override; // vtable[345]
 	virtual void GetHoldType() override; // vtable[380]
-	virtual void _ZN16CWeaponAnnabelle12ActivityListEv() override; // vtable[388]
-	virtual void _ZN16CWeaponAnnabelle17ActivityListCountEv() override; // vtable[389]
+	virtual void ActivityList() override; // vtable[388]
+	virtual void ActivityListCount() override; // vtable[389]
 	virtual void CapabilitiesGet() override; // vtable[399]
 	virtual void Operator_HandleAnimEvent(animevent_t *param_1, CBaseCombatCharacter *param_2) override; // vtable[406]
 

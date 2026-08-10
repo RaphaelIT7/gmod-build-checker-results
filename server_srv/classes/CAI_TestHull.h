@@ -11,6 +11,6 @@ public:
 	virtual void IsJumpLegal(Vector *param_1, Vector *param_2, Vector *param_3) override; // vtable[534]
 
 	void _GLOBAL__sub_I_pTestHull(); // size[113]
-	void GetTestHull(); // size[172]
-	void ReturnTestHull(); // size[48]
+	void GetTestHull(); // size[186]
+	void ReturnTestHull(); // size[102]
 };

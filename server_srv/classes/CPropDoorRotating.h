@@ -36,7 +36,7 @@ public:
 	void InputSetRotationDistance(inputdata_t *param_1); // size[227]
 	void InputMoveToRotationDistance(inputdata_t *param_1); // size[50]
 	void AngularMove(QAngle *param_1, float param_2); // size[329]
-	void CheckDoorClear(doorCheck_e param_1); // size[1662]
+	void CheckDoorClear(doorCheck_e param_1); // size[1668]
 	~CPropDoorRotating(); // size[13]
 	~CPropDoorRotating(); // size[13]
 };

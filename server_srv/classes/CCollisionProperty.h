@@ -61,5 +61,5 @@ public:
 	void SetSurroundingBoundsType(SurroundingBoundsType_t param_1, Vector *param_2, Vector *param_3); // size[96]
 	void RefreshScaledCollisionBounds(); // size[111]
 	void UpdatePartition(); // size[378]
-	void SetSolid(SolidType_t param_1); // size[487]
+	void SetSolid(SolidType_t param_1); // size[501]
 };

@@ -42,7 +42,7 @@ public:
 	void IsFriend(CBaseEntity *param_1); // size[112]
 	void FindNearestNPC(); // size[1109]
 	void OpenHooks(bool param_1); // size[198]
-	void SetMineState(int param_1); // size[438]
+	void SetMineState(int param_1); // size[421]
 	void SearchThink(); // size[22]
 	void OnPhysGunPickup(CBasePlayer *param_1, PhysGunPickup_t param_2); // size[13]
 	void InputDisarm(inputdata_t *param_1); // size[115]

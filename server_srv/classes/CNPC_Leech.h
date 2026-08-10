@@ -17,7 +17,7 @@ public:
 	virtual void IRelationType(CBaseEntity *param_1) override; // vtable[364]
 	virtual void AlertSound() override; // vtable[508]
 
-	void DeadThink(); // size[655]
+	void DeadThink(); // size[679]
 	void GetBaseMap(); // size[10]
 	void AttackSound(); // size[79]
 	void SwitchLeechState(); // size[340]

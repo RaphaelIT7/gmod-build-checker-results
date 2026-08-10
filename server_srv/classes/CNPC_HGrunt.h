@@ -49,7 +49,7 @@ public:
 	void Kick(); // size[159]
 	void Shoot(); // size[42]
 	void Shotgun(); // size[257]
-	void InitCustomSchedules(); // size[366]
+	void InitCustomSchedules(); // size[873]
 	void LoadSchedules(); // size[62]
 	CScheduleLoader(); // size[9]
 };

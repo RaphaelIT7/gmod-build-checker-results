@@ -59,7 +59,7 @@ public:
 	void TrySmellTalk(); // size[44]
 	void ShouldSpeakRandom(int param_1, float param_2); // size[107]
 	void FIdleSpeakWhileMoving(); // size[260]
-	void InitCustomSchedules(); // size[489]
+	void InitCustomSchedules(); // size[495]
 	void LoadSchedules(); // size[62]
 	CScheduleLoader(); // size[9]
 };

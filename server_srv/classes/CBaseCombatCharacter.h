@@ -158,5 +158,5 @@ public:
 	void DropWeaponForWeaponStrip(CBaseCombatWeapon *param_1, Vector *param_2, QAngle *param_3, float param_4); // size[555]
 	void Weapon_DropAll(bool param_1); // size[231]
 	CBaseCombatCharacter(); // size[1240]
-	void ResetVisibilityCache(CBaseCombatCharacter *param_1); // size[612]
+	void ResetVisibilityCache(CBaseCombatCharacter *param_1); // size[615]
 };

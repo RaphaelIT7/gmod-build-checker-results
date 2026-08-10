@@ -32,7 +32,7 @@ public:
 	void GetEventDescriptor(int param_1); // size[60]
 	void GetEventDescriptor(char *param_1); // size[88]
 	void ParseEventList(SVC_GameEventList *param_1); // size[771]
-	void RemoveListenerOld(void *param_1); // size[169]
+	void RemoveListenerOld(void *param_1); // size[177]
 	CGameEventManager(); // size[174]
 	void AddListener(void *param_1, CGameEventDescriptor *param_2, int param_3); // size[192]
 	void AddListener(void *param_1, CGameEventDescriptor *param_2, int param_3); // size[39]

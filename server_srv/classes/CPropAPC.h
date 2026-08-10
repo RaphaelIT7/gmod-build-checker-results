@@ -41,7 +41,7 @@ public:
 	DoMuzzleFlash(); // size[477]
 	FireMachineGun(); // size[663]
 	GetRocketShootPosition(Vector *param_1); // size[60]
-	CreateCorpse(); // size[152]
+	CreateCorpse(); // size[184]
 	void FireDying(); // size[140]
 	FireRocket(); // size[888]
 	MaxAttackRange(); // size[11]

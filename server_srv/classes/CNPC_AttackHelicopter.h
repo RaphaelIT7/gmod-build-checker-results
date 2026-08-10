@@ -133,7 +133,7 @@ public:
 	void BullrushBombs(); // size[607]
 	void InputDropBomb(inputdata_t *param_1); // size[229]
 	void DropBombs(); // size[585]
-	void InitCustomSchedules(); // size[363]
+	void InitCustomSchedules(); // size[1851]
 	void LoadSchedules(); // size[62]
 	CScheduleLoader(); // size[9]
 	CNPC_AttackHelicopter(); // size[517]

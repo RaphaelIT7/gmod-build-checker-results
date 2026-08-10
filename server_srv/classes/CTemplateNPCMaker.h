@@ -17,7 +17,7 @@ public:
 	void InputChangeDestinationGroup(inputdata_t *param_1); // size[29]
 	void InputSetMinimumSpawnDistance(inputdata_t *param_1); // size[29]
 	void GetBaseMap(); // size[10]
-	void PlaceNPCInLine(CAI_BaseNPC *param_1); // size[585]
+	void PlaceNPCInLine(CAI_BaseNPC *param_1); // size[578]
 	void MakeNPCInLine(); // size[154]
 	void PlaceNPCInRadius(CAI_BaseNPC *param_1); // size[145]
 	void MakeNPCInRadius(); // size[154]

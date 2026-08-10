@@ -74,7 +74,7 @@ public:
 	void EmbedTouch(CBaseEntity *param_1); // size[235]
 	void WakeupMine(CAI_BaseNPC *param_1); // size[72]
 	void WakeNeighbors(); // size[461]
-	void BecomePhysical(); // size[88]
+	void BecomePhysical(); // size[226]
 	void GetHackedIdleSchedule(); // size[199]
 	void SetRollerSkin(); // size[130]
 	void Close(); // size[71]

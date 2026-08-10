@@ -85,7 +85,7 @@ public:
 	void DoCombat(); // size[1205]
 	void InputBecomeInvulnerable(inputdata_t *param_1); // size[15]
 	void InputBecomeVulnerable(inputdata_t *param_1); // size[15]
-	void InitCustomSchedules(); // size[363]
+	void InitCustomSchedules(); // size[1339]
 	void LoadSchedules(); // size[62]
 	CScheduleLoader(); // size[9]
 	CNPC_CombineGunship(); // size[467]

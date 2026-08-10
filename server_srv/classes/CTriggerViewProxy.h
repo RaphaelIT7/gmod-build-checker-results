@@ -12,12 +12,12 @@ public:
 
 	void GetBaseMap(); // size[10]
 	CTriggerViewProxy(); // size[26]
-	void Disable(); // size[321]
+	void Disable(); // size[326]
 	void InputDisable(inputdata_t *param_1); // size[9]
 	void InputTeleportPlayerToProxy(inputdata_t *param_1); // size[67]
 	void GetPlayerOffset(); // size[114]
 	void Move(); // size[87]
 	void TranslateViewToProxy(); // size[839]
-	void Enable(); // size[1013]
+	void Enable(); // size[1019]
 	void InputEnable(inputdata_t *param_1); // size[315]
 };

@@ -17,7 +17,7 @@ public:
 	void SetMaterialVar(inputdata_t *param_1); // size[129]
 	void SetMaterialVarToCurrentTime(inputdata_t *param_1); // size[66]
 	void InputStartFloatLerp(inputdata_t *param_1); // size[144]
-	void InputStartAnimSequence(inputdata_t *param_1); // size[154]
+	void InputStartAnimSequence(inputdata_t *param_1); // size[130]
 	void GetBaseMap(); // size[10]
 	CMaterialModifyControl(); // size[28]
 };

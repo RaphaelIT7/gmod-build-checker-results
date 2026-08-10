@@ -56,7 +56,7 @@ public:
 	void FindPhysicsObject(char *param_1, CBaseEntity *param_2); // size[965]
 	void InputSetPickupTarget(inputdata_t *param_1); // size[89]
 	void InputStartCatchThrowBehavior(inputdata_t *param_1); // size[178]
-	void InitCustomSchedules(); // size[517]
+	void InitCustomSchedules(); // size[961]
 	void LoadSchedules(); // size[62]
 	CScheduleLoader(); // size[9]
 };

@@ -30,9 +30,9 @@ public:
 	void Create(IFileSystem *param_1); // size[19]
 	void LoadTrustedKeysFromKeyValues(KeyValues *param_1); // size[418]
 	void AddFileCommand(char *param_1, EPureServerFileClass param_2, ushort param_3); // size[44]
-	void LoadCommandsFromKeyValues(KeyValues *param_1); // size[991]
+	void LoadCommandsFromKeyValues(KeyValues *param_1); // size[999]
 	void AddHardcodedFileCommands(); // size[112]
-	void Load(int param_1); // size[706]
+	void Load(int param_1); // size[713]
 	void DecodeCommandList(CUtlDict *param_1, CUtlBuffer *param_2, uint param_3); // size[325]
 	void Decode(CUtlBuffer *param_1); // size[908]
 };

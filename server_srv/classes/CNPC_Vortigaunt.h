@@ -103,7 +103,7 @@ public:
 	void MaintainGlows(); // size[90]
 	void DispelAntlions(Vector *param_1, float param_2, bool param_3); // size[848]
 	void ZapBeam(int param_1); // size[2016]
-	void InitCustomSchedules(); // size[477]
+	void InitCustomSchedules(); // size[483]
 	void LoadSchedules(); // size[62]
 	CScheduleLoader(); // size[9]
 	CNPC_Vortigaunt(); // size[26]

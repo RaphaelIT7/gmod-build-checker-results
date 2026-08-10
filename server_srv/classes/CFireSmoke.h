@@ -9,7 +9,7 @@ public:
 	virtual void YouForgotToImplementOrDeclareServerClass() override; // vtable[11]
 	virtual void _ZN10CFireSmoke14GetDataDescMapEv() override; // vtable[12]
 	virtual void Spawn() override; // vtable[23]
-	virtual void Precache() override; // vtable[24]
+	virtual void _ZN10CFireSmoke8PrecacheEv() override; // vtable[24]
 
 	void GetBaseMap(); // size[10]
 	CFireSmoke(); // size[82]

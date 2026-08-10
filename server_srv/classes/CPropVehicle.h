@@ -37,6 +37,6 @@ public:
 	void InputHandBrakeOff(inputdata_t *param_1); // size[16]
 	void OnPhysGunPickup(CBasePlayer *param_1, PhysGunPickup_t param_2); // size[10]
 	CPropVehicle(); // size[170]
-	void RemovePhysicsChild(CBaseEntity *param_1); // size[137]
+	void RemovePhysicsChild(CBaseEntity *param_1); // size[143]
 	void AddPhysicsChild(CBaseEntity *param_1); // size[192]
 };

@@ -20,6 +20,7 @@ public:
 	void TryLock(); // size[9]
 	void WantsToClose(); // size[6]
 	void SetClosing(bool param_1); // size[7]
+	void SetClosing(bool param_1); // size[7]
 	void Join(); // size[6]
 	void StartInThread(); // size[11]
 	void StartInThreadAndDetatch(); // size[9]

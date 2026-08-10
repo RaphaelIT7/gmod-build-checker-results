@@ -9,5 +9,5 @@ public:
 
 	_GLOBAL__sub_I_CLuaLibrary(); // size[46]
 	CLuaLibrary(char *param_1); // size[71]
-	void Add(CLuaLibraryFunction *param_1); // size[126]
+	void Add(CLuaLibraryFunction *param_1); // size[129]
 };

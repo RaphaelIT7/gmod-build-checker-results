@@ -46,7 +46,7 @@ public:
 	void ClearAssaultPoint(); // size[485]
 	void InitializeBehavior(); // size[254]
 	void SetParameters(CBaseEntity *param_1, AssaultCue_t param_2); // size[179]
-	void SetParameters(string_t param_1, AssaultCue_t param_2, int param_3); // size[1548]
+	void SetParameters(string_t param_1, AssaultCue_t param_2, int param_3); // size[1554]
 	void InitCustomSchedules(); // size[290]
 	void LoadSchedules(); // size[56]
 	CScheduleLoader(); // size[9]

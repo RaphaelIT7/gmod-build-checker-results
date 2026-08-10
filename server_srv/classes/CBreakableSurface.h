@@ -14,7 +14,7 @@ public:
 	virtual void OnTakeDamage(CTakeDamageInfo *param_1) override; // vtable[64]
 	virtual void VPhysicsCollision(int param_1, gamevcollisionevent_t *param_2) override; // vtable[165]
 
-	void InputRestore(inputdata_t *param_1); // size[115]
+	void InputRestore(inputdata_t *param_1); // size[272]
 	void Die(CBaseEntity *param_1, Vector *param_2); // size[628]
 	void GetBaseMap(); // size[10]
 	void Die(CBaseEntity *param_1, Vector *param_2); // size[29]

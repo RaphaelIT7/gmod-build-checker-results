@@ -27,7 +27,7 @@ public:
 	void CanStandOn(CBaseEntity *param_1); // size[23]
 	void IsJumpLegal(Vector *param_1, Vector *param_2, Vector *param_3); // size[23]
 	void SetupCheckStepTraceListData(CheckStepArgs_t *param_1); // size[692]
-	void TestGroundMove(Vector *param_1, Vector *param_2, uint param_3, float param_4, uint param_5, AIMoveTrace_t *param_6); // size[3746]
+	void TestGroundMove(Vector *param_1, Vector *param_2, uint param_3, float param_4, uint param_5, AIMoveTrace_t *param_6); // size[3752]
 	void GroundMoveLimit(Vector *param_1, Vector *param_2, uint param_3, CBaseEntity *param_4, uint param_5, float param_6, AIMoveTrace_t *param_7); // size[579]
 	void MoveLimit(Navigation_t param_1, Vector *param_2, Vector *param_3, uint param_4, CBaseEntity *param_5, float param_6, uint param_7, AIMoveTrace_t *param_8); // size[1098]
 };

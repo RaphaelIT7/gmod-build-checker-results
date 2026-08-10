@@ -23,7 +23,7 @@ public:
 	void InputColorRedValue(inputdata_t *param_1); // size[382]
 	void InputColorBlueValue(inputdata_t *param_1); // size[217]
 	void InputColorGreenValue(inputdata_t *param_1); // size[297]
-	void ExpandThink(); // size[348]
+	void ExpandThink(); // size[342]
 	void GetBaseMap(); // size[10]
 	CSprite(); // size[28]
 	void EnableWorldSpaceScale(bool param_1); // size[81]

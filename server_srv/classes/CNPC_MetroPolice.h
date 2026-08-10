@@ -74,7 +74,7 @@ public:
 	void InputEnableManhackToss(inputdata_t *param_1); // size[72]
 	void GetBaseMap(); // size[10]
 	void SpeakFuncTankSentence(int param_1); // size[211]
-	void AnnounceEnemyKill(CBaseEntity *param_1); // size[72]
+	void AnnounceEnemyKill(CBaseEntity *param_1); // size[71]
 	void AnnounceOutOfAmmo(); // size[26]
 	void SpeakStandoffSentence(int param_1); // size[116]
 	void SpeakAssaultSentence(int param_1); // size[291]

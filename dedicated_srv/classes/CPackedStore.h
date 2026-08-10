@@ -30,7 +30,7 @@ public:
 	void HashAllChunkFiles(); // size[102]
 	void HashEverything(); // size[31]
 	void Write(); // size[1145]
-	void AddFileToDirectory(VPKContentFileInfo_t *param_1); // size[1206]
+	void AddFileToDirectory(VPKContentFileInfo_t *param_1); // size[51]
 	void GetFileList(char *param_1, CUtlStringList *param_2, bool param_3, bool param_4); // size[1439]
 	void GetFileList(CUtlStringList *param_1, bool param_2, bool param_3); // size[50]
 	CPackedStore(char *param_1, char *param_2, IBaseFileSystem *param_3, bool param_4); // size[3328]

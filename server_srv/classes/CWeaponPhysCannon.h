@@ -60,7 +60,7 @@ public:
 	void CloseElements(); // size[73]
 	void StopEffects(bool param_1); // size[51]
 	void DestroyEffects(); // size[27]
-	void WaitForUpgradeThink(); // size[579]
+	void WaitForUpgradeThink(); // size[614]
 	void ForceDrop(); // size[63]
 	void DropIfEntityHeld(CBaseEntity *param_1); // size[103]
 	void AttachObject(CBaseEntity *param_1, Vector *param_2); // size[239]

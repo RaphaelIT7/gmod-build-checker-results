@@ -65,6 +65,7 @@ public:
 	void InputSetFlightSpeed(inputdata_t *param_1); // size[5]
 	void InputSetDistanceOverride(inputdata_t *param_1); // size[33]
 	void GetBaseMap(); // size[1]
+	void TakeDamageFromPhyscannon(CBasePlayer *param_1); // size[359]
 	void TakeDamageFromPhysicsImpact(int param_1, gamevcollisionevent_t *param_2); // size[725]
 	void IsHeldByPhyscannon(); // size[38]
 	void PlayFlySound(); // size[34]

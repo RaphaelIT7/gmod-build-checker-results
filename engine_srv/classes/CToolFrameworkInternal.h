@@ -62,7 +62,7 @@ public:
 	void ShutdownToolDictionaries(); // size[120]
 	void ShutdownTools(); // size[103]
 	void GetEntityData(char *param_1); // size[35]
-	void LoadToolsFromLibrary(char *param_1); // size[585]
+	void LoadToolsFromLibrary(char *param_1); // size[689]
 	void LoadTools(); // size[256]
 	~CToolFrameworkInternal(); // size[119]
 };

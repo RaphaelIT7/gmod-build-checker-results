@@ -27,7 +27,7 @@ public:
 	void IdleThink(); // size[611]
 	void SpawnSquashedGrub(); // size[687]
 	void MakeSquashDecals(Vector *param_1); // size[668]
-	void Squash(CBaseEntity *param_1, bool param_2, bool param_3); // size[77]
+	void Squash(CBaseEntity *param_1, bool param_2, bool param_3); // size[255]
 	void GrubTouch(CBaseEntity *param_1); // size[126]
 	void InputSquash(inputdata_t *param_1); // size[33]
 	void Squash(CBaseEntity *param_1, bool param_2, bool param_3); // size[32]

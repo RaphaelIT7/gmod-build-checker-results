@@ -20,7 +20,7 @@ public:
 	void InputDisable(inputdata_t *param_1); // size[9]
 	void Toggle(); // size[30]
 	void InputToggle(inputdata_t *param_1); // size[9]
-	void MakeNPC(); // size[169]
+	void MakeNPC(); // size[137]
 	void InputSpawnNPC(inputdata_t *param_1); // size[9]
 	void MakerThink(); // size[66]
 };

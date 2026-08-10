@@ -11,6 +11,6 @@ public:
 
 	void DevShotThink_TakeShot(); // size[136]
 	void DevShotThink_PostShot(); // size[109]
-	void DevShotThink_Setup(); // size[219]
+	void DevShotThink_Setup(); // size[382]
 	void GetBaseMap(); // size[10]
 };

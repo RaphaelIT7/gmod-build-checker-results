@@ -38,6 +38,7 @@ public:
 	void SetYawSpeed(); // size[44]
 	void CheckRangeAttack1(float param_1, float param_2); // size[131]
 	void SUB_StartLVFadeOut(float param_1, bool param_2); // size[69]
+	void BarneyFirePistol(); // size[45]
 	void InitCustomSchedules(); // size[352]
 	void LoadSchedules(); // size[62]
 	CScheduleLoader(); // size[9]

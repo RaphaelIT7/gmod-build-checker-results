@@ -34,7 +34,7 @@ public:
 	void ShouldSpeak(); // size[86]
 	void StopTalking(); // size[105]
 	void AttackSound(); // size[52]
-	void InitCustomSchedules(); // size[387]
+	void InitCustomSchedules(); // size[476]
 	void LoadSchedules(); // size[38]
 	CScheduleLoader(); // size[9]
 };

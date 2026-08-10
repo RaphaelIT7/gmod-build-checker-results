@@ -34,7 +34,7 @@ public:
 	void ActorInPlayersPVS(CBaseEntity *param_1, bool param_2); // size[51]
 	void EvalActorInPVS(EvalArgs_t *param_1); // size[53]
 	void ActorInList(CBaseEntity *param_1); // size[118]
-	void EvaluationThink(); // size[1147]
+	void EvaluationThink(); // size[1153]
 	void AddNewElement(CBaseEntity *param_1); // size[249]
 	void Enable(); // size[176]
 	void InputEnable(inputdata_t *param_1); // size[19]

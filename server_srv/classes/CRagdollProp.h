@@ -59,7 +59,7 @@ public:
 	void GetBaseMap(); // size[10]
 	void DisableAutoFade(); // size[48]
 	void SetSourceClassName(char *param_1); // size[29]
-	void CalcRagdollSize(); // size[71]
+	void CalcRagdollSize(); // size[78]
 	CRagdollProp(); // size[590]
 	void InitRagdollAnimation(); // size[62]
 	void HasPhysgunInteraction(char *param_1, char *param_2); // size[265]

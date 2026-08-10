@@ -36,7 +36,7 @@ public:
 	void GetAbsStartPos(); // size[222]
 	void GetAbsEndPos(); // size[381]
 	void BeamInit(char *param_1, float param_2); // size[329]
-	void BeamCreate(char *param_1, float param_2); // size[72]
+	void BeamCreate(char *param_1, float param_2); // size[69]
 	void BeamCreatePredictable(char *param_1, int param_2, bool param_3, char *param_4, float param_5, CBasePlayer *param_6); // size[110]
 	void RelinkBeam(); // size[76]
 	void SetStartEntity(CBaseEntity *param_1); // size[68]

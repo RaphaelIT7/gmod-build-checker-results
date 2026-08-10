@@ -12,4 +12,5 @@ public:
 	virtual void DoCleanup(); // vtable[8]
 
 	~CJob(); // size[10]
+	~CJob(); // size[7]
 };

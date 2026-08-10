@@ -23,5 +23,5 @@ public:
 	CRConServer(char *param_1); // size[172]
 	~CRConServer(); // size[78]
 	void HandleFailedRconAuth(netadr_s *param_1); // size[1258]
-	void RunFrame(); // size[2793]
+	void RunFrame(); // size[2819]
 };

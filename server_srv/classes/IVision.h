@@ -36,5 +36,5 @@ public:
 	virtual void IsLookingAt(CBaseCombatCharacter *param_1, float param_2); // vtable[73]
 
 	IVision(INextBot *param_1); // size[269]
-	void UpdateKnownEntities(); // size[129]
+	void UpdateKnownEntities(); // size[3784]
 };

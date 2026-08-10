@@ -65,6 +65,6 @@ public:
 	void DebugGestureInfo(); // size[403]
 	void OnNewModel(); // size[48]
 	void ShutdownGestureSlots(); // size[40]
-	void InitGestureSlots(); // size[239]
+	void InitGestureSlots(); // size[247]
 	CMultiPlayerAnimState(CBasePlayer *param_1, MultiPlayerMovementData_t *param_2); // size[373]
 };

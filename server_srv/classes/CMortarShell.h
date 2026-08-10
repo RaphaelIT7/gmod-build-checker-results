@@ -12,7 +12,7 @@ public:
 	virtual void Spawn() override; // vtable[23]
 	virtual void Precache() override; // vtable[24]
 
-	void FadeThink(); // size[1338]
+	void FadeThink(); // size[959]
 	void GetBaseMap(); // size[10]
 	void FixUpImpactPoint(Vector *param_1, Vector *param_2, Vector *param_3, Vector *param_4); // size[319]
 	void Impact(); // size[370]

@@ -27,5 +27,5 @@ public:
 	void GetBaseMap(); // size[10]
 	CSENT_point(); // size[34]
 	void NetworkStateChanged(); // size[53]
-	void NetworkStateChanged(void *param_1); // size[84]
+	void NetworkStateChanged(void *param_1); // size[69]
 };

@@ -17,5 +17,5 @@ public:
 	void DelayDeathThink(); // size[455]
 	void MakeBeam(); // size[283]
 	void BeamBreakThink(); // size[348]
-	void PowerupThink(); // size[1146]
+	void PowerupThink(); // size[1277]
 };

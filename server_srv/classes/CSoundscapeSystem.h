@@ -17,9 +17,9 @@ public:
 	void FlushSoundscapes(); // size[25]
 	void GetSoundscapeIndex(char *param_1); // size[18]
 	void IsValidIndex(int param_1); // size[23]
-	void RemoveSoundscapeEntity(CEnvSoundscape *param_1); // size[120]
+	void RemoveSoundscapeEntity(CEnvSoundscape *param_1); // size[131]
 	void AddSoundscapeSounds(KeyValues *param_1, int param_2); // size[5]
 	void PrecacheSounds(int param_1); // size[5]
-	void AddSoundscapeEntity(CEnvSoundscape *param_1); // size[181]
+	void AddSoundscapeEntity(CEnvSoundscape *param_1); // size[187]
 	CSoundscapeSystem(char *param_1); // size[190]
 };

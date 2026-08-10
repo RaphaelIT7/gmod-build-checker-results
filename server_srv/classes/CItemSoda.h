@@ -10,6 +10,6 @@ public:
 	virtual void Precache() override; // vtable[24]
 
 	void CanThink(); // size[57]
-	void CanTouch(CBaseEntity *param_1); // size[159]
+	void CanTouch(CBaseEntity *param_1); // size[183]
 	void GetBaseMap(); // size[10]
 };

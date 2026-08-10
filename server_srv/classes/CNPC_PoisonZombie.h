@@ -53,7 +53,7 @@ public:
 	void BreatheOffShort(); // size[29]
 	void RandomThrowCrab(); // size[66]
 	void EvacuateNest(bool param_1, float param_2, CBaseEntity *param_3); // size[437]
-	void InitCustomSchedules(); // size[387]
+	void InitCustomSchedules(); // size[1064]
 	void LoadSchedules(); // size[62]
 	CScheduleLoader(); // size[9]
 };

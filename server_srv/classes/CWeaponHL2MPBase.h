@@ -19,7 +19,7 @@ public:
 	virtual void GetPlayerDamage() override; // vtable[415]
 
 	void GetBaseMap(); // size[10]
-	CWeaponHL2MPBase(); // size[132]
+	CWeaponHL2MPBase(); // size[151]
 	void GetPlayerOwner(); // size[17]
 	void GetHL2MPPlayerOwner(); // size[17]
 	void GetHL2MPWpnData(); // size[9]

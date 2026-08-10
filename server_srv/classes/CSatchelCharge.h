@@ -14,7 +14,7 @@ public:
 	void InputExplode(inputdata_t *param_1); // size[220]
 	void SatchelThink(); // size[806]
 	void GetBaseMap(); // size[10]
-	void Deactivate(); // size[41]
+	void Deactivate(); // size[124]
 	void CreateEffects(); // size[363]
 	CSatchelCharge(); // size[87]
 };

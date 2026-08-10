@@ -11,7 +11,8 @@ public:
 	virtual void SetValue(float param_1) override; // vtable[12]
 	virtual void SetValue(int param_1) override; // vtable[13]
 
-	void SetValue(float param_1); // size[7]
+	void SetValue(char *param_1); // size[7]
+	void SetValue(int param_1); // size[1]
 	void GetName(); // size[7]
 	void IsFlagSet(int param_1); // size[7]
 };

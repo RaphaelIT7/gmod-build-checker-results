@@ -64,7 +64,7 @@ public:
 	void ReserveExitPoint(); // size[460]
 	void SpeakIfAllowed(char *param_1, char *param_2, bool param_3, char *param_4, uint param_5); // size[73]
 	void ForceVehicleInteraction(char *param_1, CBaseCombatCharacter *param_2); // size[47]
-	void InitCustomSchedules(); // size[295]
+	void InitCustomSchedules(); // size[429]
 	void LoadSchedules(); // size[56]
 	CScheduleLoader(); // size[9]
 	CAI_PassengerBehavior(); // size[185]

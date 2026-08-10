@@ -39,7 +39,7 @@ public:
 	void InputPerfectAccuracyOff(inputdata_t *param_1); // size[15]
 	void GetBaseMap(); // size[10]
 	void ShouldBackAway(); // size[266]
-	void InitCustomSchedules(); // size[387]
+	void InitCustomSchedules(); // size[479]
 	void LoadSchedules(); // size[62]
 	CScheduleLoader(); // size[9]
 };

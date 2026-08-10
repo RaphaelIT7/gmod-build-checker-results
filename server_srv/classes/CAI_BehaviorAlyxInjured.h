@@ -27,7 +27,7 @@ public:
 	void IsInjured(); // size[9]
 	void SpeakIfAllowed(char *param_1); // size[108]
 	void NumKnownEnemiesInRadius(Vector *param_1, float param_2); // size[441]
-	void InitCustomSchedules(); // size[310]
+	void InitCustomSchedules(); // size[471]
 	void LoadSchedules(); // size[62]
 	CScheduleLoader(); // size[9]
 	CAI_BehaviorAlyxInjured(); // size[191]

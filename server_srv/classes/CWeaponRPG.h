@@ -39,7 +39,7 @@ public:
 	void GetNPCLaserPosition(); // size[13]
 	void IsGuiding(); // size[15]
 	void StopGuiding(); // size[97]
-	void UpdateLaserPosition(Vector param_1, Vector param_2); // size[288]
+	void UpdateLaserPosition(Vector param_1, Vector param_2); // size[277]
 	void NotifyRocketDied(); // size[153]
 	void CreateLaserPointer(); // size[77]
 	void GetLaserPosition(); // size[155]

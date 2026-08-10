@@ -57,7 +57,7 @@ public:
 	void DropTongue(); // size[410]
 	void InputDropTongue(inputdata_t *param_1); // size[9]
 	void BarnacleThink(); // size[1608]
-	void InitCustomSchedules(); // size[472]
+	void InitCustomSchedules(); // size[2638]
 	void LoadSchedules(); // size[62]
 	CScheduleLoader(); // size[9]
 	CNPC_Barnacle(); // size[20]

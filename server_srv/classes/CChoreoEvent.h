@@ -67,7 +67,7 @@ public:
 	void FindTimingTag(char *param_1); // size[76]
 	void GetNumFlexAnimationTracks(); // size[14]
 	void GetFlexAnimationTrack(int param_1); // size[36]
-	void RemoveTrack(int param_1); // size[133]
+	void RemoveTrack(int param_1); // size[139]
 	void RemoveAllTracks(); // size[56]
 	void FindTrack(char *param_1); // size[108]
 	void GetTrackLookupSet(); // size[21]
