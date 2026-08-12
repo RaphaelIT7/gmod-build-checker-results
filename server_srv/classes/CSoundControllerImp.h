@@ -40,7 +40,7 @@ public:
 
 	void RemoveFromList(CSoundPatch *param_1); // size[145]
 	void SaveSoundPatch(CSoundPatch *param_1, ISave *param_2); // size[335]
-	void ProcessCommand(SoundCommand_t *param_1); // size[303]
+	void ProcessCommand(SoundCommand_t *param_1); // size[266]
 	void OnRestore(); // size[7]
 	void CommandInsert(SoundCommand_t *param_1); // size[29]
 	void RestoreSoundPatch(CSoundPatch * *param_1, IRestore *param_2); // size[505]

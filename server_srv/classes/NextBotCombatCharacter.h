@@ -82,7 +82,7 @@ public:
 	virtual void IsMoving() override; // vtable[76]
 	virtual void DamageDecal(int param_1, int param_2) override; // vtable[77]
 	virtual void DecalTrace(CGameTrace *param_1, char *param_2) override; // vtable[78]
-	virtual void ImpactTrace(CGameTrace *param_1, int param_2, char *param_3) override; // vtable[79]
+	virtual void _ZN11CBaseEntity11ImpactTraceEP10CGameTraceiPKc() override; // vtable[79]
 	virtual void OnControls(CBaseEntity *param_1) override; // vtable[80]
 	virtual void Touch(CBaseEntity *param_1) override; // vtable[102]
 	virtual void EyePosition() override; // vtable[133]

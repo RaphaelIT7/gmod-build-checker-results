@@ -111,7 +111,7 @@ public:
 	void TossHealthKit(CBaseCombatCharacter *param_1, Vector *param_2); // size[24]
 	void ShouldLookForHealthItem(); // size[129]
 	void AddInsignia(); // size[72]
-	void RemoveInsignia(); // size[134]
+	void RemoveInsignia(); // size[147]
 	void PrecacheAllOfType(CitizenType_t param_1); // size[181]
 	void SpeakCommandResponse(char *param_1, char *param_2); // size[301]
 	void TogglePlayerSquadState(); // size[182]

@@ -28,7 +28,7 @@ public:
 	void DieThink(); // size[260]
 	void BounceGibTouch(CBaseEntity *param_1); // size[829]
 	void StickyGibTouch(CBaseEntity *param_1); // size[140]
-	void WaitTillLand(); // size[251]
+	void WaitTillLand(); // size[417]
 	void GetBaseMap(); // size[10]
 	void LimitVelocity(); // size[243]
 	void SetBloodColor(int param_1); // size[17]

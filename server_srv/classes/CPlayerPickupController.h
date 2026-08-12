@@ -12,7 +12,7 @@ public:
 	virtual void VPhysicsUpdate(IPhysicsObject *param_1) override; // vtable[161]
 	virtual void VPhysicsShadowUpdate(IPhysicsObject *param_1) override; // vtable[164]
 
-	void Shutdown(bool param_1); // size[674]
+	void Shutdown(bool param_1); // size[784]
 	void Init(CBasePlayer *param_1, CBaseEntity *param_2); // size[466]
 	void IsHoldingEntity(CBaseEntity *param_1); // size[75]
 };

@@ -14,5 +14,5 @@ public:
 	virtual void Deallocate(int param_1, int param_2) override; // vtable[8]
 
 	CPooledVBAllocator_ColorMesh(); // size[37]
-	void CheckIsClear(); // size[47]
+	void CheckIsClear(); // size[46]
 };

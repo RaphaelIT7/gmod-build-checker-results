@@ -190,7 +190,7 @@ public:
 	void PrefetchSequence(int param_1); // size[94]
 	void IsSequenceLooping(CStudioHdr *param_1, int param_2); // size[29]
 	void DisableServerIK(); // size[150]
-	void UnlockStudioHdr(); // size[459]
+	void UnlockStudioHdr(); // size[373]
 	void OnSpawnGib(CBaseEntity *param_1, bool param_2); // size[382]
 	void GetModelPtr(); // size[71]
 	void SetPoseParameter(int param_1, float param_2); // size[97]

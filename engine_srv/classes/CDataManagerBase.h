@@ -20,7 +20,7 @@ public:
 	void AvailableSize(); // size[14]
 	void UsedSize(); // size[11]
 	void MarkAsStale(memhandle_t__ *param_1); // size[267]
-	void LockResource(memhandle_t__ *param_1); // size[194]
+	void LockResource(memhandle_t__ *param_1); // size[250]
 	void GetForFreeByIndex(ushort param_1); // size[164]
 	void EnsureCapacity(uint param_1); // size[195]
 	void FlushToTargetSize(); // size[27]

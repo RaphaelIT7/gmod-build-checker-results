@@ -19,7 +19,7 @@ public:
 	void InputDisableHarrass(inputdata_t *param_1); // size[15]
 	void FuncTankPostThink(); // size[58]
 	void GetBaseMap(); // size[10]
-	void CreateBeam(); // size[542]
+	void CreateBeam(); // size[534]
 	void UpdateBeamThink(); // size[81]
 	void DestroyBeam(); // size[85]
 	void AdjustRateOfFire(); // size[18]

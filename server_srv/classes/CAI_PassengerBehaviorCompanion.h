@@ -56,7 +56,7 @@ public:
 	void SelectScheduleInsideVehicle(); // size[54]
 	void SpeakVehicleConditions(); // size[140]
 	void MarkVehicleEntryFailed(Vector *param_1); // size[6]
-	void FindPathToVehicleEntryPoint(); // size[695]
+	void FindPathToVehicleEntryPoint(); // size[925]
 	void InitCustomSchedules(); // size[1395]
 	void LoadSchedules(); // size[62]
 	CScheduleLoader(); // size[9]

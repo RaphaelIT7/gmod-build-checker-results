@@ -10,7 +10,7 @@ public:
 	virtual void PreClientUpdate() override; // vtable[17]
 
 	void Destroy(QueuedMessage_t *param_1); // size[71]
-	void SendMessage(QueuedMessage_t *param_1); // size[193]
+	void SendMessage(QueuedMessage_t *param_1); // size[226]
 	CUserMessageManager(); // size[155]
 	void AddToQueue(QueuedMessage_t *param_1); // size[263]
 };

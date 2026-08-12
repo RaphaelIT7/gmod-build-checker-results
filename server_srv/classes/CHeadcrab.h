@@ -3,7 +3,7 @@
 class CHeadcrab : public CBaseHeadcrab
 {
 public:
-	virtual ~CHeadcrab() override; // vtable[0]
+	virtual _ZN9CHeadcrabD1Ev() override; // vtable[0]
 	virtual ~CHeadcrab() override; // vtable[1]
 	virtual void Spawn() override; // vtable[23]
 	virtual void Precache() override; // vtable[24]

@@ -4,7 +4,7 @@ class CPropAirboat : public CPropVehicleDriveable
 {
 public:
 	virtual ~CPropAirboat() override; // vtable[0]
-	virtual ~CPropAirboat() override; // vtable[1]
+	virtual void _ZN12CPropAirboatD0Ev() override; // vtable[1]
 	virtual void GetServerClass() override; // vtable[10]
 	virtual void YouForgotToImplementOrDeclareServerClass() override; // vtable[11]
 	virtual void GetDataDescMap() override; // vtable[12]

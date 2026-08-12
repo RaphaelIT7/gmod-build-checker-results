@@ -49,7 +49,6 @@ public:
 	void FileSent(char *param_1, uint param_2); // size[7]
 	void SetUpdateRate(int param_1, bool param_2); // size[7]
 	void FileRequested(RequestFile_t param_1, uint param_2, uint param_3); // size[7]
-	void FileDenied(uint param_1); // size[7]
 	void FileReceived(char *param_1, uint param_2); // size[7]
 	~CHLTVClient(); // size[7]
 	~CHLTVClient(); // size[7]

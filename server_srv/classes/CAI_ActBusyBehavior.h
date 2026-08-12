@@ -43,7 +43,6 @@ public:
 	void FindCombatActBusyTeleportHintNode(); // size[334]
 	void CheckAndCleanupOnExit(); // size[84]
 	void SelectScheduleForLeaving(); // size[450]
-	void ActBusyNodeStillActive(); // size[60]
 	void ComputeAndSetRenderBounds(); // size[293]
 	void IsActive(); // size[35]
 	void IsCombatActBusy(); // size[4]
