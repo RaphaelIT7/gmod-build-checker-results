@@ -6,7 +6,7 @@
             "path": 3,
             "pathidname": "null",
             "pathname": "bin/",
-            "prioritygroup": 160034840,
+            "prioritygroup": 144592920,
             "vpkhack": "false"
         },
         {
@@ -15,7 +15,7 @@
             "path": 5,
             "pathidname": "null",
             "pathname": "modserver/",
-            "prioritygroup": 160034848,
+            "prioritygroup": 144592928,
             "vpkhack": "false"
         },
         {
@@ -24,7 +24,7 @@
             "path": 7,
             "pathidname": "null",
             "pathname": "garrysmod/bin/",
-            "prioritygroup": 160035016,
+            "prioritygroup": 144593096,
             "vpkhack": "false"
         },
         {
@@ -33,7 +33,7 @@
             "path": 14,
             "pathidname": "null",
             "pathname": "garrysmod/",
-            "prioritygroup": 160035008,
+            "prioritygroup": 144593088,
             "vpkhack": "false"
         },
         {
@@ -42,7 +42,7 @@
             "path": 31,
             "pathidname": "null",
             "pathname": "garrysmod/addons/server_addon/lua/",
-            "prioritygroup": 629307720,
+            "prioritygroup": 613865800,
             "vpkhack": "false"
         },
         {
@@ -51,7 +51,7 @@
             "path": 33,
             "pathidname": "null",
             "pathname": "garrysmod/workshop/lua/",
-            "prioritygroup": 629307720,
+            "prioritygroup": 613865800,
             "vpkhack": "false"
         },
         {
@@ -60,7 +60,7 @@
             "path": 34,
             "pathidname": "null",
             "pathname": "garrysmod/workshop/gamemodes/",
-            "prioritygroup": 629307720,
+            "prioritygroup": 613865800,
             "vpkhack": "false"
         },
         {
@@ -69,7 +69,7 @@
             "path": 35,
             "pathidname": "null",
             "pathname": "garrysmod/lua/",
-            "prioritygroup": 629307720,
+            "prioritygroup": 613865800,
             "vpkhack": "false"
         },
         {
@@ -78,7 +78,7 @@
             "path": 36,
             "pathidname": "null",
             "pathname": "garrysmod/gamemodes/",
-            "prioritygroup": 629307720,
+            "prioritygroup": 613865800,
             "vpkhack": "false"
         },
         {
@@ -87,7 +87,7 @@
             "path": 37,
             "pathidname": "null",
             "pathname": "garrysmod/workshop/gamemodes/base/entities/",
-            "prioritygroup": 629307720,
+            "prioritygroup": 613865800,
             "vpkhack": "false"
         },
         {
@@ -96,7 +96,7 @@
             "path": 38,
             "pathidname": "null",
             "pathname": "garrysmod/gamemodes/base/entities/",
-            "prioritygroup": 629307720,
+            "prioritygroup": 613865800,
             "vpkhack": "false"
         },
         {
@@ -105,7 +105,7 @@
             "path": 39,
             "pathidname": "null",
             "pathname": "garrysmod/workshop/gamemodes/sandbox/entities/",
-            "prioritygroup": 629307720,
+            "prioritygroup": 613865800,
             "vpkhack": "false"
         },
         {
@@ -114,7 +114,7 @@
             "path": 40,
             "pathidname": "null",
             "pathname": "garrysmod/gamemodes/sandbox/entities/",
-            "prioritygroup": 629307720,
+            "prioritygroup": 613865800,
             "vpkhack": "false"
         },
         {
@@ -123,7 +123,7 @@
             "path": 30,
             "pathidname": "null",
             "pathname": "maps/gm_flatgrass.bsp",
-            "prioritygroup": 160035024,
+            "prioritygroup": 144593104,
             "vpkhack": "false"
         },
         {
@@ -132,7 +132,7 @@
             "path": 23,
             "pathidname": "null",
             "pathname": "garrysmod/addons/server_addon/",
-            "prioritygroup": 160035024,
+            "prioritygroup": 144593104,
             "vpkhack": "false"
         },
         {
@@ -141,7 +141,7 @@
             "path": 23,
             "pathidname": "null",
             "pathname": "garrysmod/addons/server_addon/",
-            "prioritygroup": 160035040,
+            "prioritygroup": 144593120,
             "vpkhack": "false"
         },
         {
@@ -150,7 +150,7 @@
             "path": 28,
             "pathidname": "null",
             "pathname": "garrysmod/workshop/gamemodes/sandbox/content/",
-            "prioritygroup": 160035024,
+            "prioritygroup": 144593104,
             "vpkhack": "false"
         },
         {
@@ -159,7 +159,7 @@
             "path": 28,
             "pathidname": "null",
             "pathname": "garrysmod/workshop/gamemodes/sandbox/content/",
-            "prioritygroup": 160035040,
+            "prioritygroup": 144593120,
             "vpkhack": "false"
         },
         {
@@ -168,7 +168,7 @@
             "path": 29,
             "pathidname": "null",
             "pathname": "garrysmod/workshop/gamemodes/base/content/",
-            "prioritygroup": 160035024,
+            "prioritygroup": 144593104,
             "vpkhack": "false"
         },
         {
@@ -177,7 +177,7 @@
             "path": 29,
             "pathidname": "null",
             "pathname": "garrysmod/workshop/gamemodes/base/content/",
-            "prioritygroup": 160035040,
+            "prioritygroup": 144593120,
             "vpkhack": "false"
         },
         {
@@ -186,7 +186,7 @@
             "path": 9,
             "pathidname": "null",
             "pathname": "garrysmod/workshop/",
-            "prioritygroup": 160035024,
+            "prioritygroup": 144593104,
             "vpkhack": "false"
         },
         {
@@ -195,7 +195,7 @@
             "path": 9,
             "pathidname": "null",
             "pathname": "garrysmod/workshop/",
-            "prioritygroup": 160035032,
+            "prioritygroup": 144593112,
             "vpkhack": "false"
         },
         {
@@ -204,7 +204,7 @@
             "path": 9,
             "pathidname": "null",
             "pathname": "garrysmod/workshop/",
-            "prioritygroup": 160035040,
+            "prioritygroup": 144593120,
             "vpkhack": "false"
         },
         {
@@ -213,7 +213,7 @@
             "path": 12,
             "pathidname": "null",
             "pathname": "MOD",
-            "prioritygroup": 342025584,
+            "prioritygroup": 326583664,
             "vpkhack": "false"
         },
         {
@@ -222,7 +222,7 @@
             "path": 1,
             "pathidname": "null",
             "pathname": "GAME",
-            "prioritygroup": 160035024,
+            "prioritygroup": 144593104,
             "vpkhack": "false"
         },
         {
@@ -231,7 +231,7 @@
             "path": 13,
             "pathidname": "null",
             "pathname": "garrysmod",
-            "prioritygroup": 343125656,
+            "prioritygroup": 327683736,
             "vpkhack": "false"
         },
         {
@@ -240,7 +240,7 @@
             "path": 14,
             "pathidname": "null",
             "pathname": "garrysmod/",
-            "prioritygroup": 342025584,
+            "prioritygroup": 326583664,
             "vpkhack": "false"
         },
         {
@@ -249,7 +249,7 @@
             "path": 14,
             "pathidname": "null",
             "pathname": "garrysmod/",
-            "prioritygroup": 343125664,
+            "prioritygroup": 327683744,
             "vpkhack": "false"
         },
         {
@@ -258,7 +258,7 @@
             "path": 14,
             "pathidname": "null",
             "pathname": "garrysmod/",
-            "prioritygroup": 343125672,
+            "prioritygroup": 327683752,
             "vpkhack": "false"
         },
         {
@@ -267,7 +267,7 @@
             "path": 14,
             "pathidname": "null",
             "pathname": "garrysmod/",
-            "prioritygroup": 160035024,
+            "prioritygroup": 144593104,
             "vpkhack": "false"
         },
         {
@@ -276,7 +276,7 @@
             "path": 14,
             "pathidname": "null",
             "pathname": "garrysmod/",
-            "prioritygroup": 343125680,
+            "prioritygroup": 327683760,
             "vpkhack": "false"
         },
         {
@@ -285,7 +285,7 @@
             "path": 14,
             "pathidname": "null",
             "pathname": "garrysmod/",
-            "prioritygroup": 343125656,
+            "prioritygroup": 327683736,
             "vpkhack": "false"
         },
         {
@@ -294,7 +294,7 @@
             "path": 24,
             "pathidname": "null",
             "pathname": "garrysmod/data/",
-            "prioritygroup": 620423784,
+            "prioritygroup": 604981864,
             "vpkhack": "false"
         },
         {
@@ -303,7 +303,7 @@
             "path": 1,
             "pathidname": "null",
             "pathname": "GAME",
-            "prioritygroup": 160035024,
+            "prioritygroup": 144593104,
             "vpkhack": "false"
         },
         {
@@ -312,7 +312,7 @@
             "path": 1,
             "pathidname": "null",
             "pathname": "GAME",
-            "prioritygroup": 160035024,
+            "prioritygroup": 144593104,
             "vpkhack": "false"
         },
         {
@@ -321,7 +321,7 @@
             "path": 1,
             "pathidname": "null",
             "pathname": "GAME",
-            "prioritygroup": 160035024,
+            "prioritygroup": 144593104,
             "vpkhack": "false"
         },
         {
@@ -330,7 +330,7 @@
             "path": 1,
             "pathidname": "null",
             "pathname": "GAME",
-            "prioritygroup": 160035024,
+            "prioritygroup": 144593104,
             "vpkhack": "false"
         },
         {
@@ -339,7 +339,7 @@
             "path": 18,
             "pathidname": "null",
             "pathname": "sourceengine/",
-            "prioritygroup": 160035024,
+            "prioritygroup": 144593104,
             "vpkhack": "false"
         },
         {
@@ -348,7 +348,7 @@
             "path": 1,
             "pathidname": "null",
             "pathname": "GAME",
-            "prioritygroup": 160035024,
+            "prioritygroup": 144593104,
             "vpkhack": "false"
         },
         {
@@ -357,7 +357,7 @@
             "path": 19,
             "pathidname": "null",
             "pathname": "platform/",
-            "prioritygroup": 160035024,
+            "prioritygroup": 144593104,
             "vpkhack": "false"
         },
         {
@@ -366,7 +366,7 @@
             "path": 1,
             "pathidname": "null",
             "pathname": "GAME",
-            "prioritygroup": 160035024,
+            "prioritygroup": 144593104,
             "vpkhack": "false"
         },
         {
@@ -375,7 +375,7 @@
             "path": 26,
             "pathidname": "null",
             "pathname": "hl2",
-            "prioritygroup": 620030920,
+            "prioritygroup": 604589000,
             "vpkhack": "false"
         },
         {
@@ -384,7 +384,7 @@
             "path": 1,
             "pathidname": "null",
             "pathname": "GAME",
-            "prioritygroup": 160035024,
+            "prioritygroup": 144593104,
             "vpkhack": "false"
         },
         {
@@ -393,7 +393,7 @@
             "path": 27,
             "pathidname": "null",
             "pathname": "cstrike",
-            "prioritygroup": 618072992,
+            "prioritygroup": 602631072,
             "vpkhack": "false"
         },
         {
@@ -402,7 +402,7 @@
             "path": 20,
             "pathidname": "null",
             "pathname": "garrysmod/download/",
-            "prioritygroup": 160035024,
+            "prioritygroup": 144593104,
             "vpkhack": "false"
         },
         {
@@ -411,7 +411,7 @@
             "path": 20,
             "pathidname": "null",
             "pathname": "garrysmod/download/",
-            "prioritygroup": 343984792,
+            "prioritygroup": 328542872,
             "vpkhack": "false"
         },
         {
@@ -420,7 +420,7 @@
             "path": 1,
             "pathidname": "null",
             "pathname": "GAME",
-            "prioritygroup": 160035024,
+            "prioritygroup": 144593104,
             "vpkhack": "false"
         },
         {
@@ -429,7 +429,7 @@
             "path": 12,
             "pathidname": "null",
             "pathname": "MOD",
-            "prioritygroup": 342025584,
+            "prioritygroup": 326583664,
             "vpkhack": "false"
         }
     ]
