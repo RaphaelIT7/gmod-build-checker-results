@@ -10,6 +10,6 @@ public:
 	virtual void Finished() override; // vtable[4]
 
 	_GLOBAL__sub_I_GetSubscriptions(); // size[175]
-	GetSubscriptions(); // size[32]
+	GetSubscriptions(); // size[3]
 	void CheckForWastedSpace(); // size[35]
 };

@@ -15,6 +15,6 @@ public:
 	virtual void GetQuitting(); // vtable[9]
 	virtual void SetQuitting(int param_1) override; // vtable[10]
 
-	CEngine(); // size[66]
-	void FilterTime(float param_1); // size[440]
+	CEngine(); // size[76]
+	void FilterTime(float param_1); // size[428]
 };

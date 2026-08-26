@@ -28,7 +28,7 @@ public:
 	virtual void ServerFrameUpdatePostEntityThinkAllTools(); // vtable[22]
 	virtual void ServerPreClientUpdateAllTools(); // vtable[23]
 	virtual void ServerPreSetupVisibilityAllTools(); // vtable[24]
-	virtual void CanQuit(); // vtable[25]
+	virtual void _ZN22CToolFrameworkInternal7CanQuitEv(); // vtable[25]
 	virtual void PostInit(); // vtable[26]
 	virtual void Think(bool param_1); // vtable[27]
 	virtual void PostMessage(KeyValues *param_1); // vtable[28]
@@ -62,7 +62,7 @@ public:
 	void ShutdownToolDictionaries(); // size[120]
 	void ShutdownTools(); // size[103]
 	void GetEntityData(char *param_1); // size[35]
-	void LoadToolsFromLibrary(char *param_1); // size[585]
+	void LoadToolsFromLibrary(char *param_1); // size[689]
 	void LoadTools(); // size[256]
 	~CToolFrameworkInternal(); // size[119]
 };

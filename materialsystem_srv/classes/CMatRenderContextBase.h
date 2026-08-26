@@ -82,12 +82,12 @@ public:
 
 	void BindLocalCubemap(ITexture *param_1); // size[32]
 	void RecomputeViewState(); // size[279]
-	void Init(); // size[132]
-	void Shutdown(); // size[42]
-	void CompactMemory(); // size[79]
+	void Init(); // size[157]
+	void Shutdown(); // size[7]
+	void CompactMemory(); // size[57]
 	void RenderDataSizeUsed(); // size[27]
-	void CurrentMatrixChanged(); // size[38]
-	void RecomputeViewState(); // size[23]
+	void CurrentMatrixChanged(); // size[22]
+	void RecomputeViewState(); // size[3]
 	void RecomputeViewProjState(); // size[143]
 	CMatRenderContextBase(); // size[716]
 };

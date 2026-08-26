@@ -16,6 +16,6 @@ public:
 	virtual void Reload(); // vtable[10]
 
 	void FindSceneInImage(char *param_1); // size[349]
-	void GetSceneDataFromImage(char *param_1, int param_2, uchar *param_3, uint *param_4); // size[334]
+	void GetSceneDataFromImage(char *param_1, int param_2, uchar *param_3, uint *param_4); // size[357]
 	~CSceneFileCache(); // size[24]
 };

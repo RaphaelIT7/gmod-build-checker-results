@@ -29,7 +29,7 @@ public:
 	void SetValue(char *param_1); // size[7]
 	void SetValue(float param_1); // size[7]
 	void SetValue(int param_1); // size[7]
-	ConVar(char *param_1, char *param_2, int param_3); // size[147]
+	ConVar(char *param_1, char *param_2, int param_3); // size[112]
 	ConVar(char *param_1, char *param_2, int param_3, char *param_4); // size[146]
 	ConVar(char *param_1, char *param_2, int param_3, char *param_4, bool param_5, float param_6, bool param_7, float param_8); // size[156]
 	ConVar(char *param_1, char *param_2, int param_3, char *param_4, _func_void_IConVar_ptr_char_ptr_float *param_5); // size[145]

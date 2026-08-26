@@ -10,5 +10,5 @@ public:
 	virtual void Finished() override; // vtable[4]
 
 	_GLOBAL__sub_I_ClearUnusedGMAs(); // size[91]
-	ClearUnusedGMAs(); // size[25]
+	ClearUnusedGMAs(); // size[18]
 };

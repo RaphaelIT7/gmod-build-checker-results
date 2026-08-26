@@ -7,5 +7,5 @@ public:
 	virtual ~CSendTablePrecalc(); // vtable[1]
 
 	CSendTablePrecalc(); // size[658]
-	void SetupFlatPropertyArray(); // size[481]
+	void SetupFlatPropertyArray(); // size[577]
 };

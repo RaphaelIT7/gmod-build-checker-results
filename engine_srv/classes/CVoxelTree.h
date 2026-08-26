@@ -17,10 +17,10 @@ public:
 	virtual void DrawDebugOverlays(); // vtable[11]
 
 	void ComputeSweptRayBounds(Ray_t *param_1, Vector *param_2, Vector *param_3, Vector *param_4, Vector *param_5); // size[208]
-	void EnumerateElementsAlongRay_Ray(int param_1, Ray_t *param_2, Vector *param_3, Vector *param_4, IPartitionEnumerator *param_5); // size[1077]
+	void EnumerateElementsAlongRay_Ray(int param_1, Ray_t *param_2, Vector *param_3, Vector *param_4, IPartitionEnumerator *param_5); // size[106]
 	void EnumerateElementsAlongRay_ExtrudedRay(int param_1, Ray_t *param_2, Vector *param_3, Vector *param_4, IPartitionEnumerator *param_5); // size[1963]
-	void InsertIntoTree(ushort param_1, Vector *param_2, Vector *param_3); // size[719]
+	void InsertIntoTree(ushort param_1, Vector *param_2, Vector *param_3); // size[65]
 	void Shutdown(); // size[75]
 	CVoxelTree(); // size[200]
-	void RemoveFromTree(ushort param_1); // size[416]
+	void RemoveFromTree(ushort param_1); // size[106]
 };

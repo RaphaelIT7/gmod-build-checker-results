@@ -6,7 +6,7 @@ public:
 	virtual ~CHLTVClient() override; // vtable[0]
 	virtual ~CHLTVClient() override; // vtable[1]
 	virtual void SetRate(int param_1, bool param_2) override; // vtable[15]
-	virtual void _ZN11CHLTVClient13SetUpdateRateEib() override; // vtable[17]
+	virtual void SetUpdateRate(int param_1, bool param_2) override; // vtable[17]
 	virtual void ExecuteStringCommand(char *param_1) override; // vtable[22]
 	virtual void ProcessSetConVar(NET_SetConVar *param_1) override; // vtable[36]
 	virtual void ProcessClientInfo(CLC_ClientInfo *param_1) override; // vtable[38]

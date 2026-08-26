@@ -14,9 +14,9 @@ public:
 	virtual void IsServerBlacklisted(char *param_1, char *param_2, char *param_3, char *param_4, char *param_5); // vtable[8]
 	virtual void OnServerDownloadsMounted() override; // vtable[9]
 
-	~System(); // size[190]
+	~System(); // size[98]
 	void ChangeGamemode(string *param_1, bool param_2); // size[178]
 	void Mount(string *param_1); // size[1382]
-	void AddGamemode(string param_1); // size[1467]
+	void AddGamemode(string param_1); // size[1388]
 	System(); // size[137]
 };

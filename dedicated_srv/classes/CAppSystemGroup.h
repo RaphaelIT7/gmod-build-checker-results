@@ -11,7 +11,7 @@ public:
 	~CAppSystemGroup(); // size[228]
 	void UnloadAllModules(); // size[100]
 	void GetParent(); // size[11]
-	void DisconnectSystems(); // size[65]
+	void DisconnectSystems(); // size[18]
 	void ShutdownSystems(); // size[65]
 	void GetErrorStage(); // size[11]
 	void GetFactory(); // size[10]

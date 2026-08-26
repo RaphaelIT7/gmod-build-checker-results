@@ -15,9 +15,9 @@ public:
 	virtual void FS_setmode(FileMode_t param_1); // vtable[9]
 	virtual void FS_vfprintf(char *param_1, char *param_2); // vtable[10]
 	virtual void FS_ferror(); // vtable[11]
-	virtual void _ZN10CStdioFile9FS_fflushEv(); // vtable[12]
+	virtual void FS_fflush(); // vtable[12]
 	virtual void FS_fgets(char *param_1, int param_2) override; // vtable[13]
 
-	void _GLOBAL__sub_I_m_LockedFDMap(); // size[492]
-	void FS_fopen(char *param_1, char *param_2, longlong *param_3); // size[588]
+	void _GLOBAL__sub_I_m_LockedFDMap(); // size[556]
+	void FS_fopen(char *param_1, char *param_2, longlong *param_3); // size[823]
 };

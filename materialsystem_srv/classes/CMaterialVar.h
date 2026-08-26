@@ -28,7 +28,7 @@ public:
 	virtual void CopyFrom(IMaterialVar *param_1); // vtable[22]
 	virtual void SetValueAutodetectType(char *param_1); // vtable[23]
 	virtual void GetOwningMaterial(); // vtable[24]
-	virtual void SetVecComponentValue(float param_1, int param_2); // vtable[25]
+	virtual void _ZN12CMaterialVar20SetVecComponentValueEfi(); // vtable[25]
 	virtual void GetIntValueInternal(); // vtable[26]
 	virtual void GetFloatValueInternal(); // vtable[27]
 	virtual void GetVecValueInternal(); // vtable[28]
@@ -44,7 +44,7 @@ public:
 	CMaterialVar(IMaterial *param_1, char *param_2, float *param_3, int param_4); // size[382]
 	CMaterialVar(IMaterial *param_1, char *param_2, float param_3); // size[167]
 	CMaterialVar(IMaterial *param_1, char *param_2, int param_3); // size[160]
-	CMaterialVar(IMaterial *param_1, char *param_2); // size[134]
+	CMaterialVar(IMaterial *param_1, char *param_2); // size[9]
 	void CleanUpData(); // size[147]
 	void SetVecValueInternal(Vector4D *param_1, int param_2); // size[577]
 };

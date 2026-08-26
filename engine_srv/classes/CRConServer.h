@@ -18,10 +18,10 @@ public:
 	void operator<(FailedRCon_t *param_1); // size[76]
 	void BCloseAcceptedSocket(uint param_1); // size[97]
 	void SendRCONResponse(int param_1, void *param_2, int param_3, bool param_4); // size[432]
-	void FinishRedirect(char *param_1, netadr_s *param_2); // size[1330]
+	void FinishRedirect(char *param_1, netadr_s *param_2); // size[927]
 	CRConServer(); // size[157]
 	CRConServer(char *param_1); // size[172]
 	~CRConServer(); // size[78]
-	void HandleFailedRconAuth(netadr_s *param_1); // size[1258]
-	void RunFrame(); // size[2793]
+	void HandleFailedRconAuth(netadr_s *param_1); // size[1368]
+	void RunFrame(); // size[2819]
 };

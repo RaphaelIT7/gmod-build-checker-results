@@ -19,7 +19,7 @@ public:
 
 	void Setup(); // size[7]
 	void HasQueuedPackets(INetChannel *param_1); // size[7]
-	CQueuedPacketSender(); // size[173]
+	CQueuedPacketSender(); // size[84]
 	void Shutdown(); // size[10]
 	void ClearQueuedPacketsForChannel(INetChannel *param_1); // size[10]
 	void QueuePacket(INetChannel *param_1, int param_2, char *param_3, int param_4, sockaddr *param_5, int param_6, uint param_7); // size[10]
