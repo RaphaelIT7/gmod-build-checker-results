@@ -4,61 +4,96 @@
 		{
 			"index": 0,
 			"name": "baseclass",
+			"excludeName": "NULL",
 			"offset": 0,
 			"bits": 0,
 			"type": "DPT_DataTable",
+			"flags": "Flags:",
 			"elements": 1,
+			"lowValue": 0.000000,
+			"highValue": 0.000000,
+			"highLowMul": 0.000000,
 			"datatable": "DT_BaseAnimating"
 		},
 		{
 			"index": 1,
 			"name": "LocalWeaponData",
+			"excludeName": "NULL",
 			"offset": 0,
 			"bits": 0,
 			"type": "DPT_DataTable",
+			"flags": "Flags: None",
 			"elements": 1,
+			"lowValue": 0.000000,
+			"highValue": 0.000000,
+			"highLowMul": 0.000000,
 			"datatable": "DT_LocalWeaponData"
 		},
 		{
 			"index": 2,
 			"name": "LocalActiveWeaponData",
+			"excludeName": "NULL",
 			"offset": 0,
 			"bits": 0,
 			"type": "DPT_DataTable",
+			"flags": "Flags: None",
 			"elements": 1,
+			"lowValue": 0.000000,
+			"highValue": 0.000000,
+			"highLowMul": 0.000000,
 			"datatable": "DT_LocalActiveWeaponData"
 		},
 		{
 			"index": 3,
 			"name": "m_iViewModelIndex",
+			"excludeName": "NULL",
 			"offset": 5524,
 			"bits": 14,
 			"type": "DPT_Int",
-			"elements": 1
+			"flags": "Flags: None",
+			"elements": 1,
+			"lowValue": 0.000000,
+			"highValue": 0.000000,
+			"highLowMul": 0.000000
 		},
 		{
 			"index": 4,
 			"name": "m_iWorldModelIndex",
+			"excludeName": "NULL",
 			"offset": 5528,
 			"bits": 14,
 			"type": "DPT_Int",
-			"elements": 1
+			"flags": "Flags: None",
+			"elements": 1,
+			"lowValue": 0.000000,
+			"highValue": 0.000000,
+			"highLowMul": 0.000000
 		},
 		{
 			"index": 5,
 			"name": "m_iState",
+			"excludeName": "NULL",
 			"offset": 5560,
 			"bits": 4,
 			"type": "DPT_Int",
-			"elements": 1
+			"flags": "Flags: UNSIGNED",
+			"elements": 1,
+			"lowValue": 0.000000,
+			"highValue": 0.000000,
+			"highLowMul": 0.000000
 		},
 		{
 			"index": 6,
 			"name": "m_hOwner",
+			"excludeName": "NULL",
 			"offset": 5488,
 			"bits": 23,
 			"type": "DPT_Int",
-			"elements": 1
+			"flags": "Flags: UNSIGNED",
+			"elements": 1,
+			"lowValue": 0.000000,
+			"highValue": 0.000000,
+			"highLowMul": 0.000000
 		}
 	]
 }

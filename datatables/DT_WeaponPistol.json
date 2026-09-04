@@ -4,43 +4,68 @@
 		{
 			"index": 0,
 			"name": "baseclass",
+			"excludeName": "NULL",
 			"offset": 0,
 			"bits": 0,
 			"type": "DPT_DataTable",
+			"flags": "Flags:",
 			"elements": 1,
+			"lowValue": 0.000000,
+			"highValue": 0.000000,
+			"highLowMul": 0.000000,
 			"datatable": "DT_HL2MPMachineGun"
 		},
 		{
 			"index": 1,
 			"name": "m_flSoonestPrimaryAttack",
+			"excludeName": "NULL",
 			"offset": 5788,
 			"bits": 0,
 			"type": "DPT_VectorXY",
-			"elements": 1
+			"flags": "Flags: NOSCALE",
+			"elements": 1,
+			"lowValue": 0.000000,
+			"highValue": -121121.125000,
+			"highLowMul": -35460.101562
 		},
 		{
 			"index": 2,
 			"name": "m_flLastAttackTime",
+			"excludeName": "NULL",
 			"offset": 5796,
 			"bits": 0,
 			"type": "DPT_VectorXY",
-			"elements": 1
+			"flags": "Flags: NOSCALE",
+			"elements": 1,
+			"lowValue": 0.000000,
+			"highValue": -121121.125000,
+			"highLowMul": -35460.101562
 		},
 		{
 			"index": 3,
 			"name": "m_flAccuracyPenalty",
+			"excludeName": "NULL",
 			"offset": 5804,
 			"bits": 0,
 			"type": "DPT_Float",
-			"elements": 1
+			"flags": "Flags: NOSCALE",
+			"elements": 1,
+			"lowValue": 0.000000,
+			"highValue": 0.000000,
+			"highLowMul": 4294967296.000000
 		},
 		{
 			"index": 4,
 			"name": "m_nNumShotsFired",
+			"excludeName": "NULL",
 			"offset": 5808,
 			"bits": 16,
 			"type": "DPT_Int",
-			"elements": 1
+			"flags": "Flags: None",
+			"elements": 1,
+			"lowValue": 0.000000,
+			"highValue": 0.000000,
+			"highLowMul": 0.000000
 		}
 	]
 }

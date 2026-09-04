@@ -4,50 +4,80 @@
 		{
 			"index": 0,
 			"name": "m_iTeamNum",
+			"excludeName": "NULL",
 			"offset": 5128,
 			"bits": 5,
 			"type": "DPT_Int",
-			"elements": 1
+			"flags": "Flags: None",
+			"elements": 1,
+			"lowValue": 0.000000,
+			"highValue": 0.000000,
+			"highLowMul": 0.000000
 		},
 		{
 			"index": 1,
 			"name": "m_iScore",
+			"excludeName": "NULL",
 			"offset": 5112,
 			"bits": 32,
 			"type": "DPT_Int",
-			"elements": 1
+			"flags": "Flags: None",
+			"elements": 1,
+			"lowValue": 0.000000,
+			"highValue": 0.000000,
+			"highLowMul": 0.000000
 		},
 		{
 			"index": 2,
 			"name": "m_iRoundsWon",
+			"excludeName": "NULL",
 			"offset": 5116,
 			"bits": 8,
 			"type": "DPT_Int",
-			"elements": 1
+			"flags": "Flags: None",
+			"elements": 1,
+			"lowValue": 0.000000,
+			"highValue": 0.000000,
+			"highLowMul": 0.000000
 		},
 		{
 			"index": 3,
 			"name": "m_szTeamname",
+			"excludeName": "NULL",
 			"offset": 5080,
 			"bits": 0,
 			"type": "DPT_String",
-			"elements": 1
+			"flags": "Flags: None",
+			"elements": 1,
+			"lowValue": 0.000000,
+			"highValue": 0.000000,
+			"highLowMul": 0.000000
 		},
 		{
 			"index": 4,
 			"name": "player_array_element",
+			"excludeName": "NULL",
 			"offset": 0,
 			"bits": 10,
 			"type": "DPT_Int",
-			"elements": 1
+			"flags": "Flags: UNSIGNED INSIDEARRAY",
+			"elements": 1,
+			"lowValue": 0.000000,
+			"highValue": 0.000000,
+			"highLowMul": 0.000000
 		},
 		{
 			"index": 5,
 			"name": "\"player_array\"",
+			"excludeName": "NULL",
 			"offset": 0,
 			"bits": 0,
 			"type": "DPT_Array",
-			"elements": 128
+			"flags": "Flags: None",
+			"elements": 128,
+			"lowValue": 0.000000,
+			"highValue": 0.000000,
+			"highLowMul": 0.000000
 		}
 	]
 }

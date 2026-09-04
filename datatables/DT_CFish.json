@@ -4,66 +4,106 @@
 		{
 			"index": 0,
 			"name": "m_poolOrigin",
+			"excludeName": "NULL",
 			"offset": 5540,
 			"bits": 0,
 			"type": "DPT_Vector",
-			"elements": 1
+			"flags": "Flags: COORD",
+			"elements": 1,
+			"lowValue": 0.000000,
+			"highValue": -121121.125000,
+			"highLowMul": -17728.277344
 		},
 		{
 			"index": 1,
 			"name": "m_angle",
+			"excludeName": "NULL",
 			"offset": 5508,
 			"bits": 7,
 			"type": "DPT_Float",
-			"elements": 1
+			"flags": "Flags: None",
+			"elements": 1,
+			"lowValue": 0.000000,
+			"highValue": 360.000000,
+			"highLowMul": 0.352778
 		},
 		{
 			"index": 2,
 			"name": "m_x",
+			"excludeName": "NULL",
 			"offset": 5496,
 			"bits": 7,
 			"type": "DPT_Float",
-			"elements": 1
+			"flags": "Flags: None",
+			"elements": 1,
+			"lowValue": -255.000000,
+			"highValue": 255.000000,
+			"highLowMul": 0.249020
 		},
 		{
 			"index": 3,
 			"name": "m_y",
+			"excludeName": "NULL",
 			"offset": 5500,
 			"bits": 7,
 			"type": "DPT_Float",
-			"elements": 1
+			"flags": "Flags: None",
+			"elements": 1,
+			"lowValue": -255.000000,
+			"highValue": 255.000000,
+			"highLowMul": 0.249020
 		},
 		{
 			"index": 4,
 			"name": "m_z",
+			"excludeName": "NULL",
 			"offset": 5504,
 			"bits": 0,
 			"type": "DPT_Float",
-			"elements": 1
+			"flags": "Flags: COORD NOSCALE",
+			"elements": 1,
+			"lowValue": 0.000000,
+			"highValue": 0.000000,
+			"highLowMul": 2147483648.000000
 		},
 		{
 			"index": 5,
 			"name": "m_nModelIndex",
+			"excludeName": "NULL",
 			"offset": 122,
 			"bits": 14,
 			"type": "DPT_Int",
-			"elements": 1
+			"flags": "Flags: None",
+			"elements": 1,
+			"lowValue": 0.000000,
+			"highValue": 0.000000,
+			"highLowMul": 0.000000
 		},
 		{
 			"index": 6,
 			"name": "m_lifeState",
+			"excludeName": "NULL",
 			"offset": 260,
 			"bits": 3,
 			"type": "DPT_Int",
-			"elements": 1
+			"flags": "Flags: UNSIGNED",
+			"elements": 1,
+			"lowValue": 0.000000,
+			"highValue": 0.000000,
+			"highLowMul": 0.000000
 		},
 		{
 			"index": 7,
 			"name": "m_waterLevel",
+			"excludeName": "NULL",
 			"offset": 5552,
 			"bits": 0,
 			"type": "DPT_Float",
-			"elements": 1
+			"flags": "Flags: NOSCALE",
+			"elements": 1,
+			"lowValue": 0.000000,
+			"highValue": 0.000000,
+			"highLowMul": 4294967296.000000
 		}
 	]
 }

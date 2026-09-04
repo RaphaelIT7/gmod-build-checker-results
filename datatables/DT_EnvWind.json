@@ -4,10 +4,15 @@
 		{
 			"index": 0,
 			"name": "m_EnvWindShared",
+			"excludeName": "NULL",
 			"offset": 5040,
 			"bits": 0,
 			"type": "DPT_DataTable",
+			"flags": "Flags: PROXY_ALWAYS_YES",
 			"elements": 1,
+			"lowValue": 0.000000,
+			"highValue": 0.000000,
+			"highLowMul": 0.000000,
 			"datatable": "DT_EnvWindShared"
 		}
 	]

@@ -4,10 +4,15 @@
 		{
 			"index": 0,
 			"name": "baseclass",
+			"excludeName": "NULL",
 			"offset": 0,
 			"bits": 0,
 			"type": "DPT_DataTable",
+			"flags": "Flags:",
 			"elements": 1,
+			"lowValue": 0.000000,
+			"highValue": 0.000000,
+			"highLowMul": 0.000000,
 			"datatable": "DT_BaseParticleEntity"
 		}
 	]
