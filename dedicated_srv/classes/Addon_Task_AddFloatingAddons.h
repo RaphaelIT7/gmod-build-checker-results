@@ -10,5 +10,5 @@ public:
 	virtual void Finished() override; // vtable[4]
 
 	_GLOBAL__sub_I_AddFloatingAddons(); // size[91]
-	AddFloatingAddons(); // size[14]
+	AddFloatingAddons(); // size[21]
 };

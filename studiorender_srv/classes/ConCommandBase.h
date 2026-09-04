@@ -21,5 +21,5 @@ public:
 	void Shutdown(); // size[33]
 	void GetNext(); // size[11]
 	void GetNext(); // size[11]
-	void CopyString(char *param_1); // size[85]
+	void CopyString(char *param_1); // size[19]
 };

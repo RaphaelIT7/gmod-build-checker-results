@@ -28,7 +28,7 @@ public:
 	virtual void ServerFrameUpdatePostEntityThinkAllTools(); // vtable[22]
 	virtual void ServerPreClientUpdateAllTools(); // vtable[23]
 	virtual void ServerPreSetupVisibilityAllTools(); // vtable[24]
-	virtual void _ZN22CToolFrameworkInternal7CanQuitEv(); // vtable[25]
+	virtual void CanQuit(); // vtable[25]
 	virtual void PostInit(); // vtable[26]
 	virtual void Think(bool param_1); // vtable[27]
 	virtual void PostMessage(KeyValues *param_1); // vtable[28]

@@ -22,11 +22,11 @@ public:
 	virtual ~CHLTVDemoRecorder(); // vtable[16]
 
 	_GLOBAL__sub_I_CHLTVDemoRecorder(); // size[72]
-	void StopRecording(); // size[240]
+	void StopRecording(); // size[21]
 	CHLTVDemoRecorder(); // size[58]
 	void StartAutoRecording(); // size[195]
 	void WriteMessages(uchar param_1, bf_write *param_2); // size[389]
-	void WriteServerInfo(); // size[729]
-	void WriteSignonData(); // size[211]
-	void WriteFrame(CHLTVFrame *param_1); // size[587]
+	void WriteServerInfo(); // size[238]
+	void WriteSignonData(); // size[165]
+	void WriteFrame(CHLTVFrame *param_1); // size[318]
 };

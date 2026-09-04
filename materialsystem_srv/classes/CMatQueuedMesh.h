@@ -58,5 +58,5 @@ public:
 	void DeferredGetDynamicMesh(ulonglong param_1, uint param_2, IMesh *param_3, IMesh *param_4, IMaterialInternal *param_5); // size[180]
 	void ModifyBegin(bool param_1, int param_2, int param_3, IndexDesc_t *param_4); // size[7]
 	void ModifyEnd(IndexDesc_t *param_1); // size[7]
-	void OnGetDynamicMesh(ulonglong param_1, uint param_2, IMesh *param_3, IMesh *param_4, IMaterialInternal *param_5, int param_6); // size[477]
+	void OnGetDynamicMesh(ulonglong param_1, uint param_2, IMesh *param_3, IMesh *param_4, IMaterialInternal *param_5, int param_6); // size[724]
 };

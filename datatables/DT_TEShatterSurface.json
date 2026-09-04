@@ -4,123 +4,198 @@
 		{
 			"index": 0,
 			"name": "baseclass",
+			"excludeName": "NULL",
 			"offset": 0,
 			"bits": 0,
 			"type": "DPT_DataTable",
+			"flags": "Flags:",
 			"elements": 1,
+			"lowValue": 0.000000,
+			"highValue": 0.000000,
+			"highLowMul": 0.000000,
 			"datatable": "DT_BaseTempEntity"
 		},
 		{
 			"index": 1,
 			"name": "m_vecOrigin",
+			"excludeName": "NULL",
 			"offset": 12,
 			"bits": 0,
 			"type": "DPT_Vector",
-			"elements": 1
+			"flags": "Flags: COORD",
+			"elements": 1,
+			"lowValue": 0.000000,
+			"highValue": -121121.125000,
+			"highLowMul": -17728.277344
 		},
 		{
 			"index": 2,
 			"name": "m_vecAngles",
+			"excludeName": "NULL",
 			"offset": 24,
 			"bits": 0,
 			"type": "DPT_Vector",
-			"elements": 1
+			"flags": "Flags: COORD",
+			"elements": 1,
+			"lowValue": 0.000000,
+			"highValue": -121121.125000,
+			"highLowMul": -17728.277344
 		},
 		{
 			"index": 3,
 			"name": "m_vecForce",
+			"excludeName": "NULL",
 			"offset": 36,
 			"bits": 0,
 			"type": "DPT_Vector",
-			"elements": 1
+			"flags": "Flags: COORD",
+			"elements": 1,
+			"lowValue": 0.000000,
+			"highValue": -121121.125000,
+			"highLowMul": -17728.277344
 		},
 		{
 			"index": 4,
 			"name": "m_vecForcePos",
+			"excludeName": "NULL",
 			"offset": 48,
 			"bits": 0,
 			"type": "DPT_Vector",
-			"elements": 1
+			"flags": "Flags: COORD",
+			"elements": 1,
+			"lowValue": 0.000000,
+			"highValue": -121121.125000,
+			"highLowMul": -17728.277344
 		},
 		{
 			"index": 5,
 			"name": "m_flWidth",
+			"excludeName": "NULL",
 			"offset": 60,
 			"bits": 0,
 			"type": "DPT_Float",
-			"elements": 1
+			"flags": "Flags: NOSCALE",
+			"elements": 1,
+			"lowValue": 0.000000,
+			"highValue": 0.000000,
+			"highLowMul": 0.000000
 		},
 		{
 			"index": 6,
 			"name": "m_flHeight",
+			"excludeName": "NULL",
 			"offset": 64,
 			"bits": 0,
 			"type": "DPT_Float",
-			"elements": 1
+			"flags": "Flags: NOSCALE",
+			"elements": 1,
+			"lowValue": 0.000000,
+			"highValue": 0.000000,
+			"highLowMul": 0.000000
 		},
 		{
 			"index": 7,
 			"name": "m_flShardSize",
+			"excludeName": "NULL",
 			"offset": 68,
 			"bits": 0,
 			"type": "DPT_Float",
-			"elements": 1
+			"flags": "Flags: NOSCALE",
+			"elements": 1,
+			"lowValue": 0.000000,
+			"highValue": 0.000000,
+			"highLowMul": 0.000000
 		},
 		{
 			"index": 8,
 			"name": "m_nSurfaceType",
+			"excludeName": "NULL",
 			"offset": 72,
 			"bits": 2,
 			"type": "DPT_Int",
-			"elements": 1
+			"flags": "Flags: UNSIGNED",
+			"elements": 1,
+			"lowValue": 0.000000,
+			"highValue": 0.000000,
+			"highLowMul": 0.000000
 		},
 		{
 			"index": 9,
 			"name": "m_uchFrontColor[0]",
+			"excludeName": "NULL",
 			"offset": 76,
 			"bits": 8,
 			"type": "DPT_Int",
-			"elements": 1
+			"flags": "Flags: UNSIGNED",
+			"elements": 1,
+			"lowValue": 0.000000,
+			"highValue": 0.000000,
+			"highLowMul": 0.000000
 		},
 		{
 			"index": 10,
 			"name": "m_uchFrontColor[1]",
+			"excludeName": "NULL",
 			"offset": 77,
 			"bits": 8,
 			"type": "DPT_Int",
-			"elements": 1
+			"flags": "Flags: UNSIGNED",
+			"elements": 1,
+			"lowValue": 0.000000,
+			"highValue": 0.000000,
+			"highLowMul": 0.000000
 		},
 		{
 			"index": 11,
 			"name": "m_uchFrontColor[2]",
+			"excludeName": "NULL",
 			"offset": 78,
 			"bits": 8,
 			"type": "DPT_Int",
-			"elements": 1
+			"flags": "Flags: UNSIGNED",
+			"elements": 1,
+			"lowValue": 0.000000,
+			"highValue": 0.000000,
+			"highLowMul": 0.000000
 		},
 		{
 			"index": 12,
 			"name": "m_uchBackColor[0]",
+			"excludeName": "NULL",
 			"offset": 79,
 			"bits": 8,
 			"type": "DPT_Int",
-			"elements": 1
+			"flags": "Flags: UNSIGNED",
+			"elements": 1,
+			"lowValue": 0.000000,
+			"highValue": 0.000000,
+			"highLowMul": 0.000000
 		},
 		{
 			"index": 13,
 			"name": "m_uchBackColor[1]",
+			"excludeName": "NULL",
 			"offset": 80,
 			"bits": 8,
 			"type": "DPT_Int",
-			"elements": 1
+			"flags": "Flags: UNSIGNED",
+			"elements": 1,
+			"lowValue": 0.000000,
+			"highValue": 0.000000,
+			"highLowMul": 0.000000
 		},
 		{
 			"index": 14,
 			"name": "m_uchBackColor[2]",
+			"excludeName": "NULL",
 			"offset": 81,
 			"bits": 8,
 			"type": "DPT_Int",
-			"elements": 1
+			"flags": "Flags: UNSIGNED",
+			"elements": 1,
+			"lowValue": 0.000000,
+			"highValue": 0.000000,
+			"highLowMul": 0.000000
 		}
 	]
 }

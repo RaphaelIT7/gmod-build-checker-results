@@ -10,5 +10,5 @@ public:
 	virtual void Finished() override; // vtable[4]
 
 	_GLOBAL__sub_I_MountAvailable(); // size[91]
-	MountAvailable(); // size[25]
+	MountAvailable(); // size[32]
 };

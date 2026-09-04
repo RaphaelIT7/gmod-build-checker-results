@@ -12,6 +12,7 @@ public:
 	~Thread(); // size[185]
 	~Thread(); // size[185]
 	Thread(); // size[59]
+	Thread(); // size[59]
 	void Running(); // size[59]
 	void Lock(); // size[35]
 	void Lock(); // size[35]
@@ -24,7 +25,8 @@ public:
 	void SetClosing(bool param_1); // size[58]
 	void Join(); // size[149]
 	void Join(); // size[149]
-	void StartInThread(); // size[56]
+	void StartInThread(); // size[95]
+	void StartInThreadAndDetatch(); // size[82]
 	void StartInThreadAndDetatch(); // size[82]
 	void StartInThreadAndDestroy(); // size[82]
 };

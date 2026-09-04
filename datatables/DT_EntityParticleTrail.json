@@ -4,36 +4,56 @@
 		{
 			"index": 0,
 			"name": "baseclass",
+			"excludeName": "NULL",
 			"offset": 0,
 			"bits": 0,
 			"type": "DPT_DataTable",
+			"flags": "Flags:",
 			"elements": 1,
+			"lowValue": 0.000000,
+			"highValue": 0.000000,
+			"highLowMul": 0.000000,
 			"datatable": "DT_BaseParticleEntity"
 		},
 		{
 			"index": 1,
 			"name": "m_iMaterialName",
+			"excludeName": "NULL",
 			"offset": 5040,
 			"bits": 10,
 			"type": "DPT_Int",
-			"elements": 1
+			"flags": "Flags: UNSIGNED",
+			"elements": 1,
+			"lowValue": 0.000000,
+			"highValue": 0.000000,
+			"highLowMul": 0.000000
 		},
 		{
 			"index": 2,
 			"name": "m_Info",
+			"excludeName": "NULL",
 			"offset": 5044,
 			"bits": 0,
 			"type": "DPT_DataTable",
+			"flags": "Flags: PROXY_ALWAYS_YES",
 			"elements": 1,
+			"lowValue": 0.000000,
+			"highValue": 0.000000,
+			"highLowMul": 0.000000,
 			"datatable": "DT_EntityParticleTrailInfo"
 		},
 		{
 			"index": 3,
 			"name": "m_hConstraintEntity",
+			"excludeName": "NULL",
 			"offset": 5064,
 			"bits": 23,
 			"type": "DPT_Int",
-			"elements": 1
+			"flags": "Flags: UNSIGNED",
+			"elements": 1,
+			"lowValue": 0.000000,
+			"highValue": 0.000000,
+			"highLowMul": 0.000000
 		}
 	]
 }

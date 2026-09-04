@@ -18,6 +18,6 @@ public:
 	virtual void FS_fflush(); // vtable[12]
 	virtual void FS_fgets(char *param_1, int param_2) override; // vtable[13]
 
-	void _GLOBAL__sub_I_m_LockedFDMap(); // size[556]
-	void FS_fopen(char *param_1, char *param_2, longlong *param_3); // size[823]
+	void _GLOBAL__sub_I_m_LockedFDMap(); // size[492]
+	void FS_fopen(char *param_1, char *param_2, longlong *param_3); // size[663]
 };

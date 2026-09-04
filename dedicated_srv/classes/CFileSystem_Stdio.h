@@ -37,5 +37,5 @@ public:
 	virtual void FS_GetSectorSize(_IO_FILE *param_1) override; // vtable[160]
 
 	~CFileSystem_Stdio(); // size[25]
-	CFileSystem_Stdio(); // size[10]
+	CFileSystem_Stdio(); // size[76]
 };

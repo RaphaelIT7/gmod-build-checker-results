@@ -36,5 +36,5 @@ public:
 	virtual void BaseDir(); // vtable[30]
 	virtual void FilterText(char *param_1, char *param_2, int param_3, ETextFilteringContext param_4, CSteamID param_5); // vtable[31]
 
-	~CGet(); // size[246]
+	~CGet(); // size[253]
 };

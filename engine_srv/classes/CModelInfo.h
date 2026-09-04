@@ -12,7 +12,7 @@ public:
 	virtual void GetModelBounds(model_t *param_1, Vector *param_2, Vector *param_3); // vtable[7]
 	virtual void GetModelRenderBounds(model_t *param_1, Vector *param_2, Vector *param_3); // vtable[8]
 	virtual void GetModelFrameCount(model_t *param_1); // vtable[9]
-	virtual void GetModelType(model_t *param_1); // vtable[10]
+	virtual void _ZNK10CModelInfo12GetModelTypeEPK7model_t(); // vtable[10]
 	virtual void GetModelExtraData(model_t *param_1); // vtable[11]
 	virtual void ModelHasMaterialProxy(model_t *param_1); // vtable[12]
 	virtual void IsTranslucent(model_t *param_1); // vtable[13]

@@ -4,162 +4,262 @@
 		{
 			"index": 0,
 			"name": "m_fog.enable",
+			"excludeName": "NULL",
 			"offset": 5116,
 			"bits": 1,
 			"type": "DPT_Int",
-			"elements": 1
+			"flags": "Flags: UNSIGNED",
+			"elements": 1,
+			"lowValue": 0.000000,
+			"highValue": 0.000000,
+			"highLowMul": 0.000000
 		},
 		{
 			"index": 1,
 			"name": "m_fog.blend",
+			"excludeName": "NULL",
 			"offset": 5117,
 			"bits": 1,
 			"type": "DPT_Int",
-			"elements": 1
+			"flags": "Flags: UNSIGNED",
+			"elements": 1,
+			"lowValue": 0.000000,
+			"highValue": 0.000000,
+			"highLowMul": 0.000000
 		},
 		{
 			"index": 2,
 			"name": "m_fog.radial",
+			"excludeName": "NULL",
 			"offset": 5118,
 			"bits": 1,
 			"type": "DPT_Int",
-			"elements": 1
+			"flags": "Flags: UNSIGNED",
+			"elements": 1,
+			"lowValue": 0.000000,
+			"highValue": 0.000000,
+			"highLowMul": 0.000000
 		},
 		{
 			"index": 3,
 			"name": "m_fog.dirPrimary",
+			"excludeName": "NULL",
 			"offset": 5044,
 			"bits": 0,
 			"type": "DPT_Vector",
-			"elements": 1
+			"flags": "Flags: COORD",
+			"elements": 1,
+			"lowValue": 0.000000,
+			"highValue": -121121.125000,
+			"highLowMul": -17728.277344
 		},
 		{
 			"index": 4,
 			"name": "m_fog.colorPrimary",
+			"excludeName": "NULL",
 			"offset": 5056,
 			"bits": 32,
 			"type": "DPT_Int",
-			"elements": 1
+			"flags": "Flags: UNSIGNED",
+			"elements": 1,
+			"lowValue": 0.000000,
+			"highValue": 0.000000,
+			"highLowMul": 0.000000
 		},
 		{
 			"index": 5,
 			"name": "m_fog.colorSecondary",
+			"excludeName": "NULL",
 			"offset": 5060,
 			"bits": 32,
 			"type": "DPT_Int",
-			"elements": 1
+			"flags": "Flags: UNSIGNED",
+			"elements": 1,
+			"lowValue": 0.000000,
+			"highValue": 0.000000,
+			"highLowMul": 0.000000
 		},
 		{
 			"index": 6,
 			"name": "m_fog.colorPrimaryHDR",
+			"excludeName": "NULL",
 			"offset": 5064,
 			"bits": 32,
 			"type": "DPT_Int",
-			"elements": 1
+			"flags": "Flags: UNSIGNED",
+			"elements": 1,
+			"lowValue": 0.000000,
+			"highValue": 0.000000,
+			"highLowMul": 0.000000
 		},
 		{
 			"index": 7,
 			"name": "m_fog.colorSecondaryHDR",
+			"excludeName": "NULL",
 			"offset": 5068,
 			"bits": 32,
 			"type": "DPT_Int",
-			"elements": 1
+			"flags": "Flags: UNSIGNED",
+			"elements": 1,
+			"lowValue": 0.000000,
+			"highValue": 0.000000,
+			"highLowMul": 0.000000
 		},
 		{
 			"index": 8,
 			"name": "m_fog.start",
+			"excludeName": "NULL",
 			"offset": 5080,
 			"bits": 0,
 			"type": "DPT_Float",
-			"elements": 1
+			"flags": "Flags: NOSCALE",
+			"elements": 1,
+			"lowValue": 0.000000,
+			"highValue": 0.000000,
+			"highLowMul": 0.000000
 		},
 		{
 			"index": 9,
 			"name": "m_fog.end",
+			"excludeName": "NULL",
 			"offset": 5084,
 			"bits": 0,
 			"type": "DPT_Float",
-			"elements": 1
+			"flags": "Flags: NOSCALE",
+			"elements": 1,
+			"lowValue": 0.000000,
+			"highValue": 0.000000,
+			"highLowMul": 0.000000
 		},
 		{
 			"index": 10,
 			"name": "m_fog.maxdensity",
+			"excludeName": "NULL",
 			"offset": 5092,
 			"bits": 0,
 			"type": "DPT_Float",
-			"elements": 1
+			"flags": "Flags: NOSCALE",
+			"elements": 1,
+			"lowValue": 0.000000,
+			"highValue": 0.000000,
+			"highLowMul": 0.000000
 		},
 		{
 			"index": 11,
 			"name": "m_fog.farz",
+			"excludeName": "NULL",
 			"offset": 5088,
 			"bits": 0,
 			"type": "DPT_Float",
-			"elements": 1
+			"flags": "Flags: NOSCALE",
+			"elements": 1,
+			"lowValue": 0.000000,
+			"highValue": 0.000000,
+			"highLowMul": 0.000000
 		},
 		{
 			"index": 12,
 			"name": "m_fog.colorPrimaryLerpTo",
+			"excludeName": "NULL",
 			"offset": 5072,
 			"bits": 32,
 			"type": "DPT_Int",
-			"elements": 1
+			"flags": "Flags: UNSIGNED",
+			"elements": 1,
+			"lowValue": 0.000000,
+			"highValue": 0.000000,
+			"highLowMul": 0.000000
 		},
 		{
 			"index": 13,
 			"name": "m_fog.colorSecondaryLerpTo",
+			"excludeName": "NULL",
 			"offset": 5076,
 			"bits": 32,
 			"type": "DPT_Int",
-			"elements": 1
+			"flags": "Flags: UNSIGNED",
+			"elements": 1,
+			"lowValue": 0.000000,
+			"highValue": 0.000000,
+			"highLowMul": 0.000000
 		},
 		{
 			"index": 14,
 			"name": "m_fog.startLerpTo",
+			"excludeName": "NULL",
 			"offset": 5096,
 			"bits": 0,
 			"type": "DPT_Float",
-			"elements": 1
+			"flags": "Flags: NOSCALE",
+			"elements": 1,
+			"lowValue": 0.000000,
+			"highValue": 0.000000,
+			"highLowMul": 0.000000
 		},
 		{
 			"index": 15,
 			"name": "m_fog.endLerpTo",
+			"excludeName": "NULL",
 			"offset": 5100,
 			"bits": 0,
 			"type": "DPT_Float",
-			"elements": 1
+			"flags": "Flags: NOSCALE",
+			"elements": 1,
+			"lowValue": 0.000000,
+			"highValue": 0.000000,
+			"highLowMul": 0.000000
 		},
 		{
 			"index": 16,
 			"name": "m_fog.maxdensityLerpTo",
+			"excludeName": "NULL",
 			"offset": 5104,
 			"bits": 0,
 			"type": "DPT_Float",
-			"elements": 1
+			"flags": "Flags: NOSCALE",
+			"elements": 1,
+			"lowValue": 0.000000,
+			"highValue": 0.000000,
+			"highLowMul": 0.000000
 		},
 		{
 			"index": 17,
 			"name": "m_fog.lerptime",
+			"excludeName": "NULL",
 			"offset": 5108,
 			"bits": 0,
 			"type": "DPT_Float",
-			"elements": 1
+			"flags": "Flags: NOSCALE",
+			"elements": 1,
+			"lowValue": 0.000000,
+			"highValue": 0.000000,
+			"highLowMul": 0.000000
 		},
 		{
 			"index": 18,
 			"name": "m_fog.duration",
+			"excludeName": "NULL",
 			"offset": 5112,
 			"bits": 0,
 			"type": "DPT_Float",
-			"elements": 1
+			"flags": "Flags: NOSCALE",
+			"elements": 1,
+			"lowValue": 0.000000,
+			"highValue": 0.000000,
+			"highLowMul": 0.000000
 		},
 		{
 			"index": 19,
 			"name": "m_fog.HDRColorScale",
+			"excludeName": "NULL",
 			"offset": 5120,
 			"bits": 0,
 			"type": "DPT_Float",
-			"elements": 1
+			"flags": "Flags: NOSCALE",
+			"elements": 1,
+			"lowValue": 0.000000,
+			"highValue": 0.000000,
+			"highLowMul": 0.000000
 		}
 	]
 }

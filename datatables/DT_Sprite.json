@@ -4,99 +4,159 @@
 		{
 			"index": 0,
 			"name": "baseclass",
+			"excludeName": "NULL",
 			"offset": 0,
 			"bits": 0,
 			"type": "DPT_DataTable",
+			"flags": "Flags:",
 			"elements": 1,
+			"lowValue": 0.000000,
+			"highValue": 0.000000,
+			"highLowMul": 0.000000,
 			"datatable": "DT_BaseEntity"
 		},
 		{
 			"index": 1,
 			"name": "m_hAttachedToEntity",
+			"excludeName": "NULL",
 			"offset": 5040,
 			"bits": 23,
 			"type": "DPT_Int",
-			"elements": 1
+			"flags": "Flags: UNSIGNED",
+			"elements": 1,
+			"lowValue": 0.000000,
+			"highValue": 0.000000,
+			"highLowMul": 0.000000
 		},
 		{
 			"index": 2,
 			"name": "m_nAttachment",
+			"excludeName": "NULL",
 			"offset": 5044,
 			"bits": 8,
 			"type": "DPT_Int",
-			"elements": 1
+			"flags": "Flags: None",
+			"elements": 1,
+			"lowValue": 0.000000,
+			"highValue": 0.000000,
+			"highLowMul": 0.000000
 		},
 		{
 			"index": 3,
 			"name": "m_flScaleTime",
+			"excludeName": "NULL",
 			"offset": 5072,
 			"bits": 0,
 			"type": "DPT_Float",
-			"elements": 1
+			"flags": "Flags: NOSCALE",
+			"elements": 1,
+			"lowValue": 0.000000,
+			"highValue": 0.000000,
+			"highLowMul": 0.000000
 		},
 		{
 			"index": 4,
 			"name": "m_flSpriteScale",
+			"excludeName": "NULL",
 			"offset": 5068,
 			"bits": 0,
 			"type": "DPT_Float",
-			"elements": 1
+			"flags": "Flags: NOSCALE",
+			"elements": 1,
+			"lowValue": 0.000000,
+			"highValue": 0.000000,
+			"highLowMul": 0.000000
 		},
 		{
 			"index": 5,
 			"name": "m_flGlowProxySize",
+			"excludeName": "NULL",
 			"offset": 5080,
 			"bits": 6,
 			"type": "DPT_Float",
-			"elements": 1
+			"flags": "Flags: ROUNDUP",
+			"elements": 1,
+			"lowValue": 1.000000,
+			"highValue": 64.000000,
+			"highLowMul": 1.000000
 		},
 		{
 			"index": 6,
 			"name": "m_flHDRColorScale",
+			"excludeName": "NULL",
 			"offset": 5084,
 			"bits": 0,
 			"type": "DPT_Float",
-			"elements": 1
+			"flags": "Flags: NOSCALE",
+			"elements": 1,
+			"lowValue": 0.000000,
+			"highValue": 0.000000,
+			"highLowMul": 0.000000
 		},
 		{
 			"index": 7,
 			"name": "m_flSpriteFramerate",
+			"excludeName": "NULL",
 			"offset": 5048,
 			"bits": 8,
 			"type": "DPT_Float",
-			"elements": 1
+			"flags": "Flags: ROUNDUP",
+			"elements": 1,
+			"lowValue": 0.234375,
+			"highValue": 60.000000,
+			"highLowMul": 4.266240
 		},
 		{
 			"index": 8,
 			"name": "m_flFrame",
+			"excludeName": "NULL",
 			"offset": 5052,
 			"bits": 20,
 			"type": "DPT_Float",
-			"elements": 1
+			"flags": "Flags: ROUNDDOWN",
+			"elements": 1,
+			"lowValue": 0.000000,
+			"highValue": 255.999756,
+			"highLowMul": 4096.000000
 		},
 		{
 			"index": 9,
 			"name": "m_flBrightnessTime",
+			"excludeName": "NULL",
 			"offset": 5064,
 			"bits": 0,
 			"type": "DPT_Float",
-			"elements": 1
+			"flags": "Flags: NOSCALE",
+			"elements": 1,
+			"lowValue": 0.000000,
+			"highValue": 0.000000,
+			"highLowMul": 0.000000
 		},
 		{
 			"index": 10,
 			"name": "m_nBrightness",
+			"excludeName": "NULL",
 			"offset": 5060,
 			"bits": 8,
 			"type": "DPT_Int",
-			"elements": 1
+			"flags": "Flags: UNSIGNED",
+			"elements": 1,
+			"lowValue": 0.000000,
+			"highValue": 0.000000,
+			"highLowMul": 0.000000
 		},
 		{
 			"index": 11,
 			"name": "m_bWorldSpaceScale",
+			"excludeName": "NULL",
 			"offset": 5076,
 			"bits": 1,
 			"type": "DPT_Int",
-			"elements": 1
+			"flags": "Flags: UNSIGNED",
+			"elements": 1,
+			"lowValue": 0.000000,
+			"highValue": 0.000000,
+			"highLowMul": 0.000000
 		}
 	]
 }

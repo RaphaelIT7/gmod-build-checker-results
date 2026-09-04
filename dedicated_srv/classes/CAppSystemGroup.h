@@ -8,10 +8,10 @@ public:
 	virtual void LoadModuleDLL(char *param_1); // vtable[7]
 
 	_GLOBAL__sub_I_CAppSystemGroup(); // size[48]
-	~CAppSystemGroup(); // size[228]
+	~CAppSystemGroup(); // size[12]
 	void UnloadAllModules(); // size[100]
 	void GetParent(); // size[11]
-	void DisconnectSystems(); // size[18]
+	void DisconnectSystems(); // size[65]
 	void ShutdownSystems(); // size[65]
 	void GetErrorStage(); // size[11]
 	void GetFactory(); // size[10]

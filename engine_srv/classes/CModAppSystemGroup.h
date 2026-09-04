@@ -10,5 +10,5 @@ public:
 	virtual void Destroy() override; // vtable[4]
 
 	void AddLegacySystems(); // size[61]
-	void ModuleAlreadyInList(CUtlVector *param_1, char *param_2, char *param_3); // size[121]
+	void ModuleAlreadyInList(CUtlVector *param_1, char *param_2, char *param_3); // size[143]
 };

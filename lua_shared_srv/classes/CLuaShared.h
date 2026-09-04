@@ -26,7 +26,7 @@ public:
 
 	void AddSearchPath(char *param_1, char *param_2); // size[835]
 	CLuaShared(); // size[193]
-	void CreateCache(string *param_1, string *param_2, long param_3); // size[477]
+	void CreateCache(string *param_1, string *param_2, long param_3); // size[485]
 	void LoadFile_FromFile(string *param_1, string *param_2, bool param_3, bool param_4); // size[993]
 	void LoadFile_FromDataTable(string *param_1, string *param_2, bool param_3); // size[1353]
 };

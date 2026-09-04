@@ -18,5 +18,5 @@ public:
 	virtual void UnserializeKeyValue(bf_read *param_1) override; // vtable[12]
 
 	void _GLOBAL__sub_I_AddListener(); // size[107]
-	void FireEventIntern(KeyValues *param_1, bool param_2, bool param_3); // size[149]
+	void FireEventIntern(KeyValues *param_1, bool param_2, bool param_3); // size[134]
 };

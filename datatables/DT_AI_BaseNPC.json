@@ -4,67 +4,107 @@
 		{
 			"index": 0,
 			"name": "baseclass",
+			"excludeName": "NULL",
 			"offset": 0,
 			"bits": 0,
 			"type": "DPT_DataTable",
+			"flags": "Flags:",
 			"elements": 1,
+			"lowValue": 0.000000,
+			"highValue": 0.000000,
+			"highLowMul": 0.000000,
 			"datatable": "DT_BaseCombatCharacter"
 		},
 		{
 			"index": 1,
 			"name": "m_lifeState",
+			"excludeName": "NULL",
 			"offset": 260,
 			"bits": 3,
 			"type": "DPT_Int",
-			"elements": 1
+			"flags": "Flags: UNSIGNED",
+			"elements": 1,
+			"lowValue": 0.000000,
+			"highValue": 0.000000,
+			"highLowMul": 0.000000
 		},
 		{
 			"index": 2,
 			"name": "m_bPerformAvoidance",
+			"excludeName": "NULL",
 			"offset": 9660,
 			"bits": 1,
 			"type": "DPT_Int",
-			"elements": 1
+			"flags": "Flags: UNSIGNED",
+			"elements": 1,
+			"lowValue": 0.000000,
+			"highValue": 0.000000,
+			"highLowMul": 0.000000
 		},
 		{
 			"index": 3,
 			"name": "m_bIsMoving",
+			"excludeName": "NULL",
 			"offset": 9661,
 			"bits": 1,
 			"type": "DPT_Int",
-			"elements": 1
+			"flags": "Flags: UNSIGNED",
+			"elements": 1,
+			"lowValue": 0.000000,
+			"highValue": 0.000000,
+			"highLowMul": 0.000000
 		},
 		{
 			"index": 4,
 			"name": "m_bFadeCorpse",
+			"excludeName": "NULL",
 			"offset": 9662,
 			"bits": 1,
 			"type": "DPT_Int",
-			"elements": 1
+			"flags": "Flags: UNSIGNED",
+			"elements": 1,
+			"lowValue": 0.000000,
+			"highValue": 0.000000,
+			"highLowMul": 0.000000
 		},
 		{
 			"index": 5,
 			"name": "m_iDeathPose",
+			"excludeName": "NULL",
 			"offset": 8520,
 			"bits": 12,
 			"type": "DPT_Int",
-			"elements": 1
+			"flags": "Flags: None",
+			"elements": 1,
+			"lowValue": 0.000000,
+			"highValue": 0.000000,
+			"highLowMul": 0.000000
 		},
 		{
 			"index": 6,
 			"name": "m_iDeathFrame",
+			"excludeName": "NULL",
 			"offset": 8524,
 			"bits": 5,
 			"type": "DPT_Int",
-			"elements": 1
+			"flags": "Flags: None",
+			"elements": 1,
+			"lowValue": 0.000000,
+			"highValue": 0.000000,
+			"highLowMul": 0.000000
 		},
 		{
 			"index": 7,
 			"name": "m_bImportanRagdoll",
+			"excludeName": "NULL",
 			"offset": 9663,
 			"bits": 1,
 			"type": "DPT_Int",
-			"elements": 1
+			"flags": "Flags: UNSIGNED",
+			"elements": 1,
+			"lowValue": 0.000000,
+			"highValue": 0.000000,
+			"highLowMul": 0.000000
 		}
 	]
 }

@@ -4,99 +4,159 @@
 		{
 			"index": 0,
 			"name": "baseclass",
+			"excludeName": "NULL",
 			"offset": 0,
 			"bits": 0,
 			"type": "DPT_DataTable",
+			"flags": "Flags:",
 			"elements": 1,
+			"lowValue": 0.000000,
+			"highValue": 0.000000,
+			"highLowMul": 0.000000,
 			"datatable": "DT_BaseTempEntity"
 		},
 		{
 			"index": 1,
 			"name": "m_vecOrigin",
+			"excludeName": "NULL",
 			"offset": 12,
 			"bits": 0,
 			"type": "DPT_Vector",
-			"elements": 1
+			"flags": "Flags: COORD",
+			"elements": 1,
+			"lowValue": 0.000000,
+			"highValue": -121121.125000,
+			"highLowMul": -17728.277344
 		},
 		{
 			"index": 2,
 			"name": "m_angRotation[0]",
+			"excludeName": "NULL",
 			"offset": 48,
 			"bits": 13,
 			"type": "DPT_Float",
-			"elements": 1
+			"flags": "Flags: ROUNDDOWN IS_A_VECTOR_ELEM",
+			"elements": 1,
+			"lowValue": 0.000000,
+			"highValue": 359.956055,
+			"highLowMul": 22.755556
 		},
 		{
 			"index": 3,
 			"name": "m_angRotation[1]",
+			"excludeName": "NULL",
 			"offset": 52,
 			"bits": 13,
 			"type": "DPT_Float",
-			"elements": 1
+			"flags": "Flags: ROUNDDOWN IS_A_VECTOR_ELEM",
+			"elements": 1,
+			"lowValue": 0.000000,
+			"highValue": 359.956055,
+			"highLowMul": 22.755556
 		},
 		{
 			"index": 4,
 			"name": "m_angRotation[2]",
+			"excludeName": "NULL",
 			"offset": 56,
 			"bits": 13,
 			"type": "DPT_Float",
-			"elements": 1
+			"flags": "Flags: ROUNDDOWN IS_A_VECTOR_ELEM",
+			"elements": 1,
+			"lowValue": 0.000000,
+			"highValue": 359.956055,
+			"highLowMul": 22.755556
 		},
 		{
 			"index": 5,
 			"name": "m_vecSize",
+			"excludeName": "NULL",
 			"offset": 24,
 			"bits": 0,
 			"type": "DPT_Vector",
-			"elements": 1
+			"flags": "Flags: COORD",
+			"elements": 1,
+			"lowValue": 0.000000,
+			"highValue": -121121.125000,
+			"highLowMul": -17728.277344
 		},
 		{
 			"index": 6,
 			"name": "m_vecVelocity",
+			"excludeName": "NULL",
 			"offset": 36,
 			"bits": 0,
 			"type": "DPT_Vector",
-			"elements": 1
+			"flags": "Flags: COORD",
+			"elements": 1,
+			"lowValue": 0.000000,
+			"highValue": -121121.125000,
+			"highLowMul": -17728.277344
 		},
 		{
 			"index": 7,
 			"name": "m_nModelIndex",
+			"excludeName": "NULL",
 			"offset": 64,
 			"bits": 14,
 			"type": "DPT_Int",
-			"elements": 1
+			"flags": "Flags: None",
+			"elements": 1,
+			"lowValue": 0.000000,
+			"highValue": 0.000000,
+			"highLowMul": 0.000000
 		},
 		{
 			"index": 8,
 			"name": "m_nRandomization",
+			"excludeName": "NULL",
 			"offset": 60,
 			"bits": 9,
 			"type": "DPT_Int",
-			"elements": 1
+			"flags": "Flags: UNSIGNED",
+			"elements": 1,
+			"lowValue": 0.000000,
+			"highValue": 0.000000,
+			"highLowMul": 0.000000
 		},
 		{
 			"index": 9,
 			"name": "m_nCount",
+			"excludeName": "NULL",
 			"offset": 68,
 			"bits": 8,
 			"type": "DPT_Int",
-			"elements": 1
+			"flags": "Flags: UNSIGNED",
+			"elements": 1,
+			"lowValue": 0.000000,
+			"highValue": 0.000000,
+			"highLowMul": 0.000000
 		},
 		{
 			"index": 10,
 			"name": "m_fTime",
+			"excludeName": "NULL",
 			"offset": 72,
 			"bits": 10,
 			"type": "DPT_Float",
-			"elements": 1
+			"flags": "Flags: None",
+			"elements": 1,
+			"lowValue": 0.000000,
+			"highValue": 102.400002,
+			"highLowMul": 9.990234
 		},
 		{
 			"index": 11,
 			"name": "m_nFlags",
+			"excludeName": "NULL",
 			"offset": 76,
 			"bits": 8,
 			"type": "DPT_Int",
-			"elements": 1
+			"flags": "Flags: UNSIGNED",
+			"elements": 1,
+			"lowValue": 0.000000,
+			"highValue": 0.000000,
+			"highLowMul": 0.000000
 		}
 	]
 }

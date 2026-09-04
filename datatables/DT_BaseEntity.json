@@ -4,435 +4,700 @@
 		{
 			"index": 0,
 			"name": "AnimTimeMustBeFirst",
+			"excludeName": "NULL",
 			"offset": 0,
 			"bits": 0,
 			"type": "DPT_DataTable",
+			"flags": "Flags: None",
 			"elements": 1,
+			"lowValue": 0.000000,
+			"highValue": 0.000000,
+			"highLowMul": 0.000000,
 			"datatable": "DT_AnimTimeMustBeFirst"
 		},
 		{
 			"index": 1,
 			"name": "m_flSimulationTime",
+			"excludeName": "NULL",
 			"offset": 144,
 			"bits": 8,
 			"type": "DPT_Int",
-			"elements": 1
+			"flags": "Flags: UNSIGNED CHANGES_OFTEN ENCODED_AGAINST_TICKCOUNT",
+			"elements": 1,
+			"lowValue": 0.000000,
+			"highValue": 0.000000,
+			"highLowMul": 0.000000
 		},
 		{
 			"index": 2,
 			"name": "m_vecOrigin",
+			"excludeName": "NULL",
 			"offset": 808,
 			"bits": 0,
 			"type": "DPT_Vector",
-			"elements": 1
+			"flags": "Flags: COORD CHANGES_OFTEN",
+			"elements": 1,
+			"lowValue": 0.000000,
+			"highValue": -121121.125000,
+			"highLowMul": -17728.277344
 		},
 		{
 			"index": 3,
 			"name": "m_ubInterpolationFrame",
+			"excludeName": "NULL",
 			"offset": 152,
 			"bits": 2,
 			"type": "DPT_Int",
-			"elements": 1
+			"flags": "Flags: UNSIGNED",
+			"elements": 1,
+			"lowValue": 0.000000,
+			"highValue": 0.000000,
+			"highLowMul": 0.000000
 		},
 		{
 			"index": 4,
 			"name": "m_nModelIndex",
+			"excludeName": "NULL",
 			"offset": 122,
 			"bits": 14,
 			"type": "DPT_Int",
-			"elements": 1
+			"flags": "Flags: None",
+			"elements": 1,
+			"lowValue": 0.000000,
+			"highValue": 0.000000,
+			"highLowMul": 0.000000
 		},
 		{
 			"index": 5,
 			"name": "m_Collision",
+			"excludeName": "NULL",
 			"offset": 360,
 			"bits": 0,
 			"type": "DPT_DataTable",
+			"flags": "Flags: PROXY_ALWAYS_YES",
 			"elements": 1,
+			"lowValue": 0.000000,
+			"highValue": 0.000000,
+			"highLowMul": 0.000000,
 			"datatable": "DT_CollisionProperty"
 		},
 		{
 			"index": 6,
 			"name": "m_nRenderFX",
+			"excludeName": "NULL",
 			"offset": 120,
 			"bits": 8,
 			"type": "DPT_Int",
-			"elements": 1
+			"flags": "Flags: UNSIGNED",
+			"elements": 1,
+			"lowValue": 0.000000,
+			"highValue": 0.000000,
+			"highLowMul": 0.000000
 		},
 		{
 			"index": 7,
 			"name": "m_nRenderMode",
+			"excludeName": "NULL",
 			"offset": 121,
 			"bits": 8,
 			"type": "DPT_Int",
-			"elements": 1
+			"flags": "Flags: UNSIGNED",
+			"elements": 1,
+			"lowValue": 0.000000,
+			"highValue": 0.000000,
+			"highLowMul": 0.000000
 		},
 		{
 			"index": 8,
 			"name": "m_fEffects",
+			"excludeName": "NULL",
 			"offset": 216,
 			"bits": 16,
 			"type": "DPT_Int",
-			"elements": 1
+			"flags": "Flags: UNSIGNED",
+			"elements": 1,
+			"lowValue": 0.000000,
+			"highValue": 0.000000,
+			"highLowMul": 0.000000
 		},
 		{
 			"index": 9,
 			"name": "m_clrRender",
+			"excludeName": "NULL",
 			"offset": 124,
 			"bits": 32,
 			"type": "DPT_Int",
-			"elements": 1
+			"flags": "Flags: UNSIGNED",
+			"elements": 1,
+			"lowValue": 0.000000,
+			"highValue": 0.000000,
+			"highLowMul": 0.000000
 		},
 		{
 			"index": 10,
 			"name": "m_iTeamNum",
+			"excludeName": "NULL",
 			"offset": 528,
 			"bits": 15,
 			"type": "DPT_Int",
-			"elements": 1
+			"flags": "Flags: None",
+			"elements": 1,
+			"lowValue": 0.000000,
+			"highValue": 0.000000,
+			"highLowMul": 0.000000
 		},
 		{
 			"index": 11,
 			"name": "m_CollisionGroup",
+			"excludeName": "NULL",
 			"offset": 508,
 			"bits": 5,
 			"type": "DPT_Int",
-			"elements": 1
+			"flags": "Flags: UNSIGNED",
+			"elements": 1,
+			"lowValue": 0.000000,
+			"highValue": 0.000000,
+			"highLowMul": 0.000000
 		},
 		{
 			"index": 12,
 			"name": "m_flElasticity",
+			"excludeName": "NULL",
 			"offset": 652,
 			"bits": 0,
 			"type": "DPT_Float",
-			"elements": 1
+			"flags": "Flags: COORD NOSCALE",
+			"elements": 1,
+			"lowValue": 0.000000,
+			"highValue": 0.000000,
+			"highLowMul": 0.000000
 		},
 		{
 			"index": 13,
 			"name": "m_flShadowCastDistance",
+			"excludeName": "NULL",
 			"offset": 516,
 			"bits": 12,
 			"type": "DPT_Float",
-			"elements": 1
+			"flags": "Flags: UNSIGNED",
+			"elements": 1,
+			"lowValue": 0.000000,
+			"highValue": 4096.000000,
+			"highLowMul": 0.999756
 		},
 		{
 			"index": 14,
 			"name": "m_hOwnerEntity",
+			"excludeName": "NULL",
 			"offset": 500,
 			"bits": 23,
 			"type": "DPT_Int",
-			"elements": 1
+			"flags": "Flags: UNSIGNED",
+			"elements": 1,
+			"lowValue": 0.000000,
+			"highValue": 0.000000,
+			"highLowMul": 0.000000
 		},
 		{
 			"index": 15,
 			"name": "m_hEffectEntity",
+			"excludeName": "NULL",
 			"offset": 504,
 			"bits": 23,
 			"type": "DPT_Int",
-			"elements": 1
+			"flags": "Flags: UNSIGNED",
+			"elements": 1,
+			"lowValue": 0.000000,
+			"highValue": 0.000000,
+			"highLowMul": 0.000000
 		},
 		{
 			"index": 16,
 			"name": "moveparent",
+			"excludeName": "NULL",
 			"offset": 348,
 			"bits": 23,
 			"type": "DPT_Int",
-			"elements": 1
+			"flags": "Flags: UNSIGNED",
+			"elements": 1,
+			"lowValue": 0.000000,
+			"highValue": 0.000000,
+			"highLowMul": 0.000000
 		},
 		{
 			"index": 17,
 			"name": "m_iParentAttachment",
+			"excludeName": "NULL",
 			"offset": 345,
 			"bits": 8,
 			"type": "DPT_Int",
-			"elements": 1
+			"flags": "Flags: UNSIGNED",
+			"elements": 1,
+			"lowValue": 0.000000,
+			"highValue": 0.000000,
+			"highLowMul": 0.000000
 		},
 		{
 			"index": 18,
 			"name": "movetype",
+			"excludeName": "NULL",
 			"offset": 346,
 			"bits": 4,
 			"type": "DPT_Int",
-			"elements": 1
+			"flags": "Flags: UNSIGNED",
+			"elements": 1,
+			"lowValue": 0.000000,
+			"highValue": 0.000000,
+			"highLowMul": 0.000000
 		},
 		{
 			"index": 19,
 			"name": "movecollide",
+			"excludeName": "NULL",
 			"offset": 347,
 			"bits": 3,
 			"type": "DPT_Int",
-			"elements": 1
+			"flags": "Flags: UNSIGNED",
+			"elements": 1,
+			"lowValue": 0.000000,
+			"highValue": 0.000000,
+			"highLowMul": 0.000000
 		},
 		{
 			"index": 20,
 			"name": "m_angRotation",
+			"excludeName": "NULL",
 			"offset": 820,
 			"bits": 24,
 			"type": "DPT_Vector",
-			"elements": 1
+			"flags": "Flags: ROUNDDOWN CHANGES_OFTEN",
+			"elements": 1,
+			"lowValue": 0.000000,
+			"highValue": 359.999969,
+			"highLowMul": 46603.378906
 		},
 		{
 			"index": 21,
 			"name": "m_iTextureFrameIndex",
+			"excludeName": "NULL",
 			"offset": 696,
 			"bits": 8,
 			"type": "DPT_Int",
-			"elements": 1
+			"flags": "Flags: UNSIGNED",
+			"elements": 1,
+			"lowValue": 0.000000,
+			"highValue": 0.000000,
+			"highLowMul": 0.000000
 		},
 		{
 			"index": 22,
 			"name": "predictable_id",
+			"excludeName": "NULL",
 			"offset": 0,
 			"bits": 0,
 			"type": "DPT_DataTable",
+			"flags": "Flags: None",
 			"elements": 1,
+			"lowValue": 0.000000,
+			"highValue": 0.000000,
+			"highLowMul": 0.000000,
 			"datatable": "DT_PredictableId"
 		},
 		{
 			"index": 23,
 			"name": "m_bSimulatedEveryTick",
+			"excludeName": "NULL",
 			"offset": 697,
 			"bits": 1,
 			"type": "DPT_Int",
-			"elements": 1
+			"flags": "Flags: UNSIGNED",
+			"elements": 1,
+			"lowValue": 0.000000,
+			"highValue": 0.000000,
+			"highLowMul": 0.000000
 		},
 		{
 			"index": 24,
 			"name": "m_bAnimatedEveryTick",
+			"excludeName": "NULL",
 			"offset": 698,
 			"bits": 1,
 			"type": "DPT_Int",
-			"elements": 1
+			"flags": "Flags: UNSIGNED",
+			"elements": 1,
+			"lowValue": 0.000000,
+			"highValue": 0.000000,
+			"highLowMul": 0.000000
 		},
 		{
 			"index": 25,
 			"name": "m_bAlternateSorting",
+			"excludeName": "NULL",
 			"offset": 699,
 			"bits": 1,
 			"type": "DPT_Int",
-			"elements": 1
+			"flags": "Flags: UNSIGNED",
+			"elements": 1,
+			"lowValue": 0.000000,
+			"highValue": 0.000000,
+			"highLowMul": 0.000000
 		},
 		{
 			"index": 26,
 			"name": "m_takedamage",
+			"excludeName": "NULL",
 			"offset": 261,
 			"bits": 8,
 			"type": "DPT_Int",
-			"elements": 1
+			"flags": "Flags: None",
+			"elements": 1,
+			"lowValue": 0.000000,
+			"highValue": 0.000000,
+			"highLowMul": 0.000000
 		},
 		{
 			"index": 27,
 			"name": "m_RealClassName",
+			"excludeName": "NULL",
 			"offset": 1376,
 			"bits": 16,
 			"type": "DPT_Int",
-			"elements": 1
+			"flags": "Flags: UNSIGNED",
+			"elements": 1,
+			"lowValue": 0.000000,
+			"highValue": 0.000000,
+			"highLowMul": 0.000000
 		},
 		{
 			"index": 28,
 			"name": "m_OverrideMaterial",
+			"excludeName": "NULL",
 			"offset": 1372,
 			"bits": 16,
 			"type": "DPT_Int",
-			"elements": 1
+			"flags": "Flags: UNSIGNED",
+			"elements": 1,
+			"lowValue": 0.000000,
+			"highValue": 0.000000,
+			"highLowMul": 0.000000
 		},
 		{
 			"index": 29,
 			"name": "m_OverrideSubMaterials",
+			"excludeName": "NULL",
 			"offset": 1520,
 			"bits": 16,
 			"type": "DPT_Int",
-			"elements": 1
+			"flags": "Flags: UNSIGNED INSIDEARRAY",
+			"elements": 1,
+			"lowValue": 0.000000,
+			"highValue": 0.000000,
+			"highLowMul": 0.000000
 		},
 		{
 			"index": 30,
 			"name": "m_OverrideSubMaterials",
+			"excludeName": "NULL",
 			"offset": 0,
 			"bits": 0,
 			"type": "DPT_Array",
-			"elements": 32
+			"flags": "Flags: None",
+			"elements": 32,
+			"lowValue": 0.000000,
+			"highValue": 0.000000,
+			"highLowMul": 0.000000
 		},
 		{
 			"index": 31,
 			"name": "m_iHealth",
+			"excludeName": "NULL",
 			"offset": 256,
 			"bits": 32,
 			"type": "DPT_Int",
-			"elements": 1
+			"flags": "Flags: NORMAL CHANGES_OFTEN VARINT",
+			"elements": 1,
+			"lowValue": 0.000000,
+			"highValue": 0.000000,
+			"highLowMul": 0.000000
 		},
 		{
 			"index": 32,
 			"name": "m_iMaxHealth",
+			"excludeName": "NULL",
 			"offset": 252,
 			"bits": 32,
 			"type": "DPT_Int",
-			"elements": 1
+			"flags": "Flags: None",
+			"elements": 1,
+			"lowValue": 0.000000,
+			"highValue": 0.000000,
+			"highLowMul": 0.000000
 		},
 		{
 			"index": 33,
 			"name": "m_spawnflags",
+			"excludeName": "NULL",
 			"offset": 284,
 			"bits": 32,
 			"type": "DPT_Int",
-			"elements": 1
+			"flags": "Flags: UNSIGNED",
+			"elements": 1,
+			"lowValue": 0.000000,
+			"highValue": 0.000000,
+			"highLowMul": 0.000000
 		},
 		{
 			"index": 34,
 			"name": "m_iGModFlags",
+			"excludeName": "NULL",
 			"offset": 4972,
 			"bits": 7,
 			"type": "DPT_Int",
-			"elements": 1
+			"flags": "Flags: None",
+			"elements": 1,
+			"lowValue": 0.000000,
+			"highValue": 0.000000,
+			"highLowMul": 0.000000
 		},
 		{
 			"index": 35,
 			"name": "m_bOnFire",
+			"excludeName": "NULL",
 			"offset": 1380,
 			"bits": 1,
 			"type": "DPT_Int",
-			"elements": 1
+			"flags": "Flags: UNSIGNED",
+			"elements": 1,
+			"lowValue": 0.000000,
+			"highValue": 0.000000,
+			"highLowMul": 0.000000
 		},
 		{
 			"index": 36,
 			"name": "m_CreationTime",
+			"excludeName": "NULL",
 			"offset": 1384,
 			"bits": 0,
 			"type": "DPT_Float",
-			"elements": 1
+			"flags": "Flags: NOSCALE",
+			"elements": 1,
+			"lowValue": 0.000000,
+			"highValue": 0.000000,
+			"highLowMul": 4294967296.000000
 		},
 		{
 			"index": 37,
 			"name": "m_vecVelocity[0]",
+			"excludeName": "NULL",
 			"offset": 684,
 			"bits": 0,
 			"type": "DPT_Float",
-			"elements": 1
+			"flags": "Flags: NOSCALE CHANGES_OFTEN IS_A_VECTOR_ELEM",
+			"elements": 1,
+			"lowValue": 0.000000,
+			"highValue": 0.000000,
+			"highLowMul": 4294967296.000000
 		},
 		{
 			"index": 38,
 			"name": "m_vecVelocity[1]",
+			"excludeName": "NULL",
 			"offset": 688,
 			"bits": 0,
 			"type": "DPT_Float",
-			"elements": 1
+			"flags": "Flags: NOSCALE CHANGES_OFTEN IS_A_VECTOR_ELEM",
+			"elements": 1,
+			"lowValue": 0.000000,
+			"highValue": 0.000000,
+			"highLowMul": 4294967296.000000
 		},
 		{
 			"index": 39,
 			"name": "m_vecVelocity[2]",
+			"excludeName": "NULL",
 			"offset": 692,
 			"bits": 0,
 			"type": "DPT_Float",
-			"elements": 1
+			"flags": "Flags: NOSCALE CHANGES_OFTEN IS_A_VECTOR_ELEM",
+			"elements": 1,
+			"lowValue": 0.000000,
+			"highValue": 0.000000,
+			"highLowMul": 4294967296.000000
 		},
 		{
 			"index": 40,
 			"name": "m_GMOD_DataTable",
+			"excludeName": "NULL",
 			"offset": 4928,
 			"bits": 0,
 			"type": "DPT_GMODTable",
-			"elements": 1
+			"flags": "Flags: None",
+			"elements": 1,
+			"lowValue": 0.000000,
+			"highValue": 0.000000,
+			"highLowMul": 0.000000
 		},
 		{
 			"index": 41,
 			"name": "m_GMOD_bool",
+			"excludeName": "NULL",
 			"offset": 1696,
 			"bits": 0,
 			"type": "DPT_DataTable",
+			"flags": "Flags: PROXY_ALWAYS_YES",
 			"elements": 1,
+			"lowValue": 0.000000,
+			"highValue": 0.000000,
+			"highLowMul": 0.000000,
 			"datatable": "m_GMOD_bool"
 		},
 		{
 			"index": 42,
 			"name": "m_GMOD_float",
+			"excludeName": "NULL",
 			"offset": 1728,
 			"bits": 0,
 			"type": "DPT_DataTable",
+			"flags": "Flags: PROXY_ALWAYS_YES",
 			"elements": 1,
+			"lowValue": 0.000000,
+			"highValue": 0.000000,
+			"highLowMul": 0.000000,
 			"datatable": "m_GMOD_float"
 		},
 		{
 			"index": 43,
 			"name": "m_GMOD_int",
+			"excludeName": "NULL",
 			"offset": 1856,
 			"bits": 0,
 			"type": "DPT_DataTable",
+			"flags": "Flags: PROXY_ALWAYS_YES",
 			"elements": 1,
+			"lowValue": 0.000000,
+			"highValue": 0.000000,
+			"highLowMul": 0.000000,
 			"datatable": "m_GMOD_int"
 		},
 		{
 			"index": 44,
 			"name": "m_GMOD_Vector",
+			"excludeName": "NULL",
 			"offset": 1984,
 			"bits": 0,
 			"type": "DPT_DataTable",
+			"flags": "Flags: PROXY_ALWAYS_YES",
 			"elements": 1,
+			"lowValue": 0.000000,
+			"highValue": 0.000000,
+			"highLowMul": 0.000000,
 			"datatable": "m_GMOD_Vector"
 		},
 		{
 			"index": 45,
 			"name": "m_GMOD_QAngle",
+			"excludeName": "NULL",
 			"offset": 2368,
 			"bits": 0,
 			"type": "DPT_DataTable",
+			"flags": "Flags: PROXY_ALWAYS_YES",
 			"elements": 1,
+			"lowValue": 0.000000,
+			"highValue": 0.000000,
+			"highLowMul": 0.000000,
 			"datatable": "m_GMOD_QAngle"
 		},
 		{
 			"index": 46,
 			"name": "m_GMOD_EHANDLE",
+			"excludeName": "NULL",
 			"offset": 2752,
 			"bits": 0,
 			"type": "DPT_DataTable",
+			"flags": "Flags: PROXY_ALWAYS_YES",
 			"elements": 1,
+			"lowValue": 0.000000,
+			"highValue": 0.000000,
+			"highLowMul": 0.000000,
 			"datatable": "m_GMOD_EHANDLE"
 		},
 		{
 			"index": 47,
 			"name": "m_GMOD_String0",
+			"excludeName": "NULL",
 			"offset": 2880,
 			"bits": 0,
 			"type": "DPT_String",
-			"elements": 1
+			"flags": "Flags: None",
+			"elements": 1,
+			"lowValue": 0.000000,
+			"highValue": 0.000000,
+			"highLowMul": 0.000000
 		},
 		{
 			"index": 48,
 			"name": "m_GMOD_String1",
+			"excludeName": "NULL",
 			"offset": 3392,
 			"bits": 0,
 			"type": "DPT_String",
-			"elements": 1
+			"flags": "Flags: None",
+			"elements": 1,
+			"lowValue": 0.000000,
+			"highValue": 0.000000,
+			"highLowMul": 0.000000
 		},
 		{
 			"index": 49,
 			"name": "m_GMOD_String2",
+			"excludeName": "NULL",
 			"offset": 3904,
 			"bits": 0,
 			"type": "DPT_String",
-			"elements": 1
+			"flags": "Flags: None",
+			"elements": 1,
+			"lowValue": 0.000000,
+			"highValue": 0.000000,
+			"highLowMul": 0.000000
 		},
 		{
 			"index": 50,
 			"name": "m_GMOD_String3",
+			"excludeName": "NULL",
 			"offset": 4416,
 			"bits": 0,
 			"type": "DPT_String",
-			"elements": 1
+			"flags": "Flags: None",
+			"elements": 1,
+			"lowValue": 0.000000,
+			"highValue": 0.000000,
+			"highLowMul": 0.000000
 		},
 		{
 			"index": 51,
 			"name": "m_iCreationID",
+			"excludeName": "NULL",
 			"offset": 4932,
 			"bits": 24,
 			"type": "DPT_Int",
-			"elements": 1
+			"flags": "Flags: None",
+			"elements": 1,
+			"lowValue": 0.000000,
+			"highValue": 0.000000,
+			"highLowMul": 0.000000
 		},
 		{
 			"index": 52,
 			"name": "m_iMapCreatedID",
+			"excludeName": "NULL",
 			"offset": 4936,
 			"bits": 16,
 			"type": "DPT_Int",
-			"elements": 1
+			"flags": "Flags: None",
+			"elements": 1,
+			"lowValue": 0.000000,
+			"highValue": 0.000000,
+			"highLowMul": 0.000000
 		}
 	]
 }

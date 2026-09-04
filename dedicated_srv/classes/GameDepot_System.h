@@ -11,7 +11,7 @@ public:
 	virtual void GetList(); // vtable[5]
 	virtual void GetRefreshCount() override; // vtable[6]
 
-	System(); // size[23]
+	System(); // size[30]
 	void FindGame(string *param_1); // size[93]
 	void MountAsSteampipe(Information *param_1, bool param_2); // size[10]
 	void Mount(Information *param_1, bool param_2); // size[48]

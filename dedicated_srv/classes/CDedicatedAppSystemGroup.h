@@ -9,5 +9,5 @@ public:
 	virtual void PostShutdown(); // vtable[3]
 	virtual void Destroy() override; // vtable[4]
 
-	void PreInit(); // size[263]
+	void PreInit(); // size[154]
 };

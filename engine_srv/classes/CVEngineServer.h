@@ -134,6 +134,7 @@ public:
 	virtual void GMOD_GetPlayerIsBot(edict_t *param_1); // vtable[128]
 	virtual void NET_IsHostLocal(char *param_1); // vtable[129]
 	virtual void GMOD_IsEdictActuallyFree(int param_1); // vtable[130]
+	virtual void GetLightForPointListenServerOnly(Vector *param_1, bool param_2, Vector *param_3); // vtable[131]
 
-	void Message_CheckMessageLength(); // size[261]
+	void Message_CheckMessageLength(); // size[326]
 };
