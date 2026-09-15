@@ -5,7 +5,7 @@ class CFourWheelServerVehicle : public CBaseServerVehicle
 public:
 	virtual void GetVehicleViewPosition(int param_1, Vector *param_2, QAngle *param_3, float *param_4) override; // vtable[2]
 	virtual void IsVehicleUpright() override; // vtable[13]
-	virtual void IsPassengerEntering() override; // vtable[14]
+	virtual void _ZN23CFourWheelServerVehicle19IsPassengerEnteringEv() override; // vtable[14]
 	virtual void IsPassengerExiting() override; // vtable[15]
 	virtual void GetVehicleParams() override; // vtable[25]
 	virtual void GetVehicleController() override; // vtable[26]

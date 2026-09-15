@@ -22,7 +22,7 @@ public:
 	void CountElementsInLeaf(int param_1); // size[53]
 	CBSPTreeData(); // size[281]
 	void RemoveFromTree(ushort param_1); // size[210]
-	void AddHandleToLeaf(int param_1, ushort param_2); // size[790]
+	void AddHandleToLeaf(int param_1, ushort param_2); // size[819]
 	void EnumerateLeaf(int param_1, int param_2); // size[7]
-	void NewHandle(int param_1); // size[350]
+	void NewHandle(int param_1); // size[358]
 };

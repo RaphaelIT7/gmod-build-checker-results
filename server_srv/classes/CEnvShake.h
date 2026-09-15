@@ -13,7 +13,7 @@ public:
 
 	void GetBaseMap(); // size[10]
 	void Radius(bool param_1); // size[45]
-	void ApplyShake(ShakeCommand_t param_1); // size[423]
+	void ApplyShake(ShakeCommand_t param_1); // size[221]
 	void InputStartShake(inputdata_t *param_1); // size[67]
 	void InputStopShake(inputdata_t *param_1); // size[16]
 	void InputAmplitude(inputdata_t *param_1); // size[47]

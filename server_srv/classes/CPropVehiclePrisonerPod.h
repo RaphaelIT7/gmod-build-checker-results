@@ -66,5 +66,4 @@ public:
 	void ItemPostFrame(CBasePlayer *param_1); // size[10]
 	void SetupMove(CBasePlayer *param_1, CUserCmd *param_2, IMoveHelper *param_3, CMoveData *param_4); // size[10]
 	void GetVehicleScriptName(); // size[10]
-	void SetVehicleExitAnim(bool param_1, Vector param_2); // size[13]
 };

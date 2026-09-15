@@ -5,7 +5,7 @@ class COcclusionSystem : public IOcclusionSystem
 public:
 	virtual void ActivateOccluder(int param_1, bool param_2); // vtable[0]
 	virtual void SetView(Vector *param_1, float param_2, VMatrix *param_3, VMatrix *param_4, VPlane *param_5); // vtable[1]
-	virtual void IsOccluded(Vector *param_1, Vector *param_2); // vtable[2]
+	virtual void _ZN16COcclusionSystem10IsOccludedERK6VectorS2_(); // vtable[2]
 	virtual void SetOcclusionParameters(float param_1, float param_2); // vtable[3]
 	virtual void MinOccluderArea(); // vtable[4]
 	virtual void DrawDebugOverlays() override; // vtable[5]
@@ -15,8 +15,8 @@ public:
 	void ClipPolygonToAxisAlignedPlane(Vector * *param_1, int param_2, AxisAlignedPlane_t *param_3, Vector * *param_4); // size[570]
 	void ComputeScreenSpacePlane(cplane_t *param_1, cplane_t *param_2); // size[118]
 	COcclusionSystem(); // size[230]
-	~COcclusionSystem(); // size[370]
+	~COcclusionSystem(); // size[341]
 	void StitchClippedVertices(Vector *param_1, int param_2); // size[281]
-	void AddPolygonToEdgeList(CEdgeList *param_1, Vector * *param_2, int param_3, int param_4, bool param_5); // size[763]
-	void RecomputeOccluderEdgeList(); // size[790]
+	void AddPolygonToEdgeList(CEdgeList *param_1, Vector * *param_2, int param_3, int param_4, bool param_5); // size[79]
+	void RecomputeOccluderEdgeList(); // size[824]
 };

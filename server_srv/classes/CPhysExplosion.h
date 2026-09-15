@@ -12,6 +12,6 @@ public:
 	void GetBaseMap(); // size[10]
 	void GetRadius(); // size[51]
 	void FindEntity(CBaseEntity *param_1, CBaseEntity *param_2, CBaseEntity *param_3); // size[313]
-	void Explode(CBaseEntity *param_1, CBaseEntity *param_2); // size[2248]
+	void Explode(CBaseEntity *param_1, CBaseEntity *param_2); // size[1353]
 	void InputExplode(inputdata_t *param_1); // size[35]
 };

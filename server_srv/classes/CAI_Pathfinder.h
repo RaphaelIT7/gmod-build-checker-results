@@ -34,7 +34,7 @@ public:
 	void BuildRoute(Vector *param_1, Vector *param_2, CBaseEntity *param_3, float param_4, Navigation_t param_5, bool param_6); // size[384]
 	void UnlockRouteNodes(AI_Waypoint_t *param_1); // size[115]
 	void BuildNearestNodeRoute(Vector *param_1, bool param_2, int param_3, float param_4, int *param_5); // size[131]
-	void Draw(int param_1); // size[145]
+	void Draw(int param_1); // size[153]
 	void DrawDebugGeometryOverlays(int param_1); // size[18]
 	void ClearTriOverlayLines(); // size[37]
 	void FadeTriOverlayLines(); // size[101]

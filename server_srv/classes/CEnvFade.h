@@ -10,6 +10,6 @@ public:
 	virtual void DrawDebugTextOverlays() override; // vtable[40]
 
 	void _GLOBAL__sub_I_m_DataMap(); // size[113]
-	void InputFade(inputdata_t *param_1); // size[160]
+	void InputFade(inputdata_t *param_1); // size[168]
 	void GetBaseMap(); // size[10]
 };

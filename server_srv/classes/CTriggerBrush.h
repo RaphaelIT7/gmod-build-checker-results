@@ -12,7 +12,7 @@ public:
 	virtual void EndTouch(CBaseEntity *param_1) override; // vtable[103]
 
 	void GetBaseMap(); // size[10]
-	void PassesInputFilter(CBaseEntity *param_1, int param_2); // size[137]
+	void PassesInputFilter(CBaseEntity *param_1, int param_2); // size[141]
 	void InputDisable(inputdata_t *param_1); // size[16]
 	void InputEnable(inputdata_t *param_1); // size[16]
 };

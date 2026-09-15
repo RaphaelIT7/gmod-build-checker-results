@@ -8,5 +8,5 @@ public:
 	virtual void Activate() override; // vtable[34]
 
 	void _GLOBAL__sub_I_Activate(); // size[113]
-	void Validate(); // size[19]
+	void Validate(); // size[6]
 };

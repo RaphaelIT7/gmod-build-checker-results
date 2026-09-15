@@ -9,5 +9,5 @@ public:
 	virtual ~CTEEffectDispatch() override; // vtable[3]
 
 	_GLOBAL__sub_I_CTEEffectDispatch(); // size[112]
-	CTEEffectDispatch(char *param_1); // size[251]
+	CTEEffectDispatch(char *param_1); // size[25]
 };

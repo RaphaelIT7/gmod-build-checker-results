@@ -3,7 +3,7 @@
 class ConVar : public ConCommandBase, public IConVar
 {
 public:
-	virtual ~ConVar() override; // vtable[0]
+	virtual _ZN6ConVarD1Ev() override; // vtable[0]
 	virtual ~ConVar() override; // vtable[1]
 	virtual void IsCommand() override; // vtable[2]
 	virtual void IsFlagSet(int param_1) override; // vtable[3]

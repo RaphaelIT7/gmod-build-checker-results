@@ -26,7 +26,7 @@ public:
 	virtual void GetClassScheduleIdSpace() override; // vtable[640]
 
 	void GetBaseMap(); // size[10]
-	void Shoot(); // size[477]
+	void Shoot(); // size[1275]
 	void InitCustomSchedules(); // size[352]
 	void LoadSchedules(); // size[62]
 	CScheduleLoader(); // size[9]

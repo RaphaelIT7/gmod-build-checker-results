@@ -17,7 +17,7 @@ public:
 	void InternalCacheFileCRCs(CUtlDict *param_1, ECacheCRCType param_2); // size[5]
 	void CheckEntry(CUtlDict *param_1, char *param_2, CCommand *param_3); // size[92]
 	void GetBestEntry(char *param_1); // size[342]
-	void CommandDictDifferent(CUtlDict *param_1, CUtlDict *param_2); // size[113]
+	void CommandDictDifferent(CUtlDict *param_1, CUtlDict *param_2); // size[311]
 	void operator==(CPureServerWhitelist *param_1); // size[247]
 	void UpdateCommandStats(CUtlDict *param_1, int *param_2, int *param_3); // size[129]
 	void FindCommandByLoadOrder(CUtlDict *param_1, int param_2); // size[85]
@@ -26,6 +26,7 @@ public:
 	void Encode(CUtlBuffer *param_1); // size[911]
 	CPureServerWhitelist(); // size[270]
 	void Term(); // size[85]
+	~CPureServerWhitelist(); // size[223]
 	void Init(IFileSystem *param_1); // size[30]
 	void Create(IFileSystem *param_1); // size[19]
 	void LoadTrustedKeysFromKeyValues(KeyValues *param_1); // size[418]
@@ -34,5 +35,5 @@ public:
 	void AddHardcodedFileCommands(); // size[112]
 	void Load(int param_1); // size[713]
 	void DecodeCommandList(CUtlDict *param_1, CUtlBuffer *param_2, uint param_3); // size[325]
-	void Decode(CUtlBuffer *param_1); // size[908]
+	void Decode(CUtlBuffer *param_1); // size[871]
 };

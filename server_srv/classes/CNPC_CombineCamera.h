@@ -37,10 +37,10 @@ public:
 	void InputToggle(inputdata_t *param_1); // size[9]
 	void InputDisable(inputdata_t *param_1); // size[9]
 	void SetAngry(bool param_1); // size[298]
-	void ActiveThink(); // size[390]
+	void ActiveThink(); // size[440]
 	void InputSetAngry(inputdata_t *param_1); // size[16]
 	void InputSetIdle(inputdata_t *param_1); // size[16]
-	void SetHeight(float param_1); // size[110]
+	void SetHeight(float param_1); // size[430]
 	void Deploy(); // size[74]
 	void DeathThink(); // size[328]
 };

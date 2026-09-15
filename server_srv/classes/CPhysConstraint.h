@@ -26,7 +26,7 @@ public:
 	void GetConstraintObjects(hl_constraint_info_t *param_1); // size[452]
 	void ActivateConstraint(); // size[548]
 	void InputTurnOn(inputdata_t *param_1); // size[143]
-	void OnBreak(); // size[108]
+	void OnBreak(); // size[124]
 	void InputBreak(inputdata_t *param_1); // size[41]
 	void InputOnBreak(inputdata_t *param_1); // size[9]
 };

@@ -11809,6 +11809,7 @@ materials/icon16/status_busy.png
 materials/icon16/status_offline.png
 materials/icon16/status_online.png
 materials/icon16/stop.png
+materials/icon16/stop_cross.png
 materials/icon16/style.png
 materials/icon16/style_add.png
 materials/icon16/style_delete.png
@@ -14389,6 +14390,7 @@ materials/models/humans/female/group03m/lakeetra_facemap.vtf
 materials/models/humans/female/group03m/naomi_facemap.vmt
 materials/models/humans/female/group03m/naomi_facemap.vtf
 materials/models/humans/female/group03m/players_sheet.vmt
+materials/models/humans/female/group03m/players_sheet.vtf
 materials/models/humans/female/pupil_l.vmt
 materials/models/humans/female/pupil_l.vtf
 materials/models/humans/female/pupil_r.vmt
@@ -14495,6 +14497,7 @@ materials/models/humans/male/group03m/joe_facemap.vtf
 materials/models/humans/male/group03m/mike_facemap.vmt
 materials/models/humans/male/group03m/mike_facemap.vtf
 materials/models/humans/male/group03m/players_sheet.vmt
+materials/models/humans/male/group03m/players_sheet.vtf
 materials/models/humans/male/group03m/sandro_facemap.vmt
 materials/models/humans/male/group03m/sandro_facemap.vtf
 materials/models/humans/male/group03m/ted_facemap.vmt

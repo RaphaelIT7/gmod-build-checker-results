@@ -13,5 +13,5 @@ public:
 	~CEnvWindShared(); // size[180]
 	void Init(int param_1, int param_2, float param_3, int param_4, float param_5); // size[106]
 	void ComputeWindVariation(double param_1); // size[178]
-	void WindThink(float param_1); // size[546]
+	void WindThink(float param_1); // size[585]
 };

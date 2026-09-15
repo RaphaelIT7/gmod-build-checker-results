@@ -17,5 +17,5 @@ public:
 	void IsAtSequenceStart(); // size[176]
 	void IsAtSequenceEnd(); // size[138]
 	void CalculateTimeAdvancementForSpeed(float param_1, float param_2); // size[37]
-	void SetObjectPhysicsVelocity(float param_1); // size[347]
+	void SetObjectPhysicsVelocity(float param_1); // size[448]
 };

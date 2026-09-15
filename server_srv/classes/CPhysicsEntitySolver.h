@@ -12,5 +12,5 @@ public:
 
 	void GetBaseMap(); // size[10]
 	void Init(CBaseEntity *param_1, CBaseEntity *param_2, float param_3); // size[101]
-	void Create(CBaseEntity *param_1, CBaseEntity *param_2, float param_3); // size[110]
+	void Create(CBaseEntity *param_1, CBaseEntity *param_2, float param_3); // size[91]
 };

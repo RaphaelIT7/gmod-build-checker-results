@@ -12,7 +12,7 @@ public:
 	virtual void HasTarget(string_t param_1) override; // vtable[81]
 
 	void ManagerThink(); // size[334]
-	void ManagerUse(CBaseEntity *param_1, CBaseEntity *param_2, USE_TYPE param_3, float param_4); // size[115]
+	void ManagerUse(CBaseEntity *param_1, CBaseEntity *param_2, USE_TYPE param_3, float param_4); // size[184]
 	void InputManagerTrigger(inputdata_t *param_1); // size[51]
 	void GetBaseMap(); // size[10]
 };

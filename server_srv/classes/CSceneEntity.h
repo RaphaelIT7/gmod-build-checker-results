@@ -76,7 +76,7 @@ public:
 	void SpeakEventSoundLessFunc(SpeakEventSound_t *param_1, SpeakEventSound_t *param_2); // size[23]
 	void InputCancelPlayback(inputdata_t *param_1); // size[60]
 	void InputCancelAtNextInterrupt(inputdata_t *param_1); // size[83]
-	void InputTriggerEvent(inputdata_t *param_1); // size[499]
+	void InputTriggerEvent(inputdata_t *param_1); // size[531]
 	void DispatchPauseScene(CChoreoScene *param_1, char *param_2); // size[295]
 	void ProcessEvent(float param_1, CChoreoScene *param_2, CChoreoEvent *param_3); // size[10]
 	void InputScriptPlayerDeath(inputdata_t *param_1); // size[4]

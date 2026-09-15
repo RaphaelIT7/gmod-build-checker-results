@@ -11,7 +11,7 @@ public:
 	virtual void Spawn() override; // vtable[23]
 	virtual void Precache() override; // vtable[24]
 	virtual void Touch(CBaseEntity *param_1) override; // vtable[102]
-	virtual void VPhysicsCollision(int param_1, gamevcollisionevent_t *param_2) override; // vtable[165]
+	virtual void _ZN11CPhysMagnet17VPhysicsCollisionEiP21gamevcollisionevent_t() override; // vtable[165]
 	virtual void ConstraintBroken(IPhysicsConstraint *param_1); // vtable[282]
 
 	void InputTurnOn(inputdata_t *param_1); // size[15]
@@ -22,8 +22,8 @@ public:
 	void SetConstraintGroup(IPhysicsConstraintGroup *param_1); // size[5]
 	void GetNumAttachedObjects(); // size[14]
 	void GetTotalMassAttachedObjects(); // size[27]
-	void GetAttachedObject(int param_1); // size[4]
-	void DetachAll(); // size[92]
-	void InputTurnOff(inputdata_t *param_1); // size[19]
+	void GetAttachedObject(int param_1); // size[16]
+	void DetachAll(); // size[1]
+	void InputTurnOff(inputdata_t *param_1); // size[14]
 	void InputToggle(inputdata_t *param_1); // size[37]
 };

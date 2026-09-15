@@ -10,5 +10,5 @@ public:
 	virtual void IsWrite() override; // vtable[10]
 
 	~CFileAsyncAppendFileJob(); // size[10]
-	~CFileAsyncAppendFileJob(); // size[7]
+	~CFileAsyncAppendFileJob(); // size[1]
 };

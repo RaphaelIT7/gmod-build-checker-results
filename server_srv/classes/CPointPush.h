@@ -9,7 +9,7 @@ public:
 	virtual void Activate() override; // vtable[34]
 
 	void InputEnable(inputdata_t *param_1); // size[66]
-	void InputDisable(inputdata_t *param_1); // size[66]
-	void PushThink(); // size[2337]
+	void InputDisable(inputdata_t *param_1); // size[61]
+	void PushThink(); // size[45]
 	void GetBaseMap(); // size[10]
 };

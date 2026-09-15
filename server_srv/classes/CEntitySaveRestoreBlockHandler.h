@@ -13,10 +13,10 @@ public:
 	virtual void Restore(IRestore *param_1, bool param_2); // vtable[7]
 	virtual void PostRestore() override; // vtable[8]
 
-	void FindGlobalEntity(string_t param_1, string_t param_2); // size[227]
+	void FindGlobalEntity(string_t param_1, string_t param_2); // size[243]
 	void DoRestoreEntity(CBaseEntity *param_1, IRestore *param_2); // size[224]
 	void ModelSpaceLandmark(int param_1); // size[191]
-	void RestoreEntity(CBaseEntity *param_1, IRestore *param_2, entitytable_t *param_3); // size[202]
-	void RestoreGlobalEntity(CBaseEntity *param_1, CSaveRestoreData *param_2, entitytable_t *param_3); // size[462]
-	void SaveInitEntities(CSaveRestoreData *param_1); // size[38]
+	void RestoreEntity(CBaseEntity *param_1, IRestore *param_2, entitytable_t *param_3); // size[206]
+	void RestoreGlobalEntity(CBaseEntity *param_1, CSaveRestoreData *param_2, entitytable_t *param_3); // size[494]
+	void SaveInitEntities(CSaveRestoreData *param_1); // size[295]
 };

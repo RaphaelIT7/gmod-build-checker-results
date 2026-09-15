@@ -13,5 +13,5 @@ public:
 	void _GLOBAL__sub_I_m_DataMap(); // size[112]
 	void InputSetColor(inputdata_t *param_1); // size[456]
 	void GetBaseMap(); // size[10]
-	void SetColor(Vector *param_1); // size[41]
+	void SetColor(Vector *param_1); // size[20]
 };

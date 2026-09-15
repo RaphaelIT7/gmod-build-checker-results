@@ -101,7 +101,7 @@ public:
 	void StartBurst(Vector *param_1); // size[161]
 	void StopBurst(bool param_1); // size[154]
 	void Slice(CBaseEntity *param_1, float param_2, CGameTrace *param_3); // size[1262]
-	void CheckCollisions(float param_1); // size[1054]
+	void CheckCollisions(float param_1); // size[1123]
 	void StartEye(); // size[765]
 	void SetEyeState(int param_1); // size[2628]
 	void OnPhysGunPickup(CBasePlayer *param_1, PhysGunPickup_t param_2); // size[13]

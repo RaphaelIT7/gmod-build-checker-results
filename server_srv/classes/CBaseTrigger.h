@@ -30,7 +30,7 @@ public:
 	void Disable(); // size[99]
 	void GetBaseMap(); // size[10]
 	void Enable(); // size[100]
-	void TouchTest(); // size[72]
+	void TouchTest(); // size[74]
 	void PointIsWithin(Vector *param_1); // size[293]
 	void GetTouchedEntityOfType(char *param_1); // size[138]
 	void IsTouching(CBaseEntity *param_1); // size[64]

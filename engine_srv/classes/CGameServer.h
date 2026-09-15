@@ -28,7 +28,7 @@ public:
 	void FinishRestore(); // size[5]
 	void CopyTempEntities(CFrameSnapshot *param_1); // size[110]
 	void ReloadWhitelist(char *param_1); // size[490]
-	void SpawnServer(char *param_1, char *param_2); // size[2931]
+	void SpawnServer(char *param_1, char *param_2); // size[2996]
 	void CopyPureServerWhitelistToStringTable(); // size[133]
 	void CreateEngineStringTables(); // size[1165]
 	CGameServer(); // size[382]
@@ -48,5 +48,5 @@ public:
 	void GetDecalPrecacheTable(); // size[14]
 	void PrecacheDecal(char *param_1, int param_2); // size[240]
 	void LookupDecalIndex(char *param_1); // size[58]
-	void DumpPrecacheStats(INetworkStringTable *param_1); // size[230]
+	void DumpPrecacheStats(INetworkStringTable *param_1); // size[573]
 };

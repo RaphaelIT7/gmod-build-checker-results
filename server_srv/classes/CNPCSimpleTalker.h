@@ -43,7 +43,7 @@ public:
 
 	void GetBaseMap(); // size[10]
 	void ShouldSuspendMonolog(); // size[249]
-	void ShouldResumeMonolog(); // size[27]
+	void ShouldResumeMonolog(); // size[283]
 	void EnumFriends(CBaseEntity *param_1, int param_2, bool param_3); // size[589]
 	void AlertFriends(CBaseEntity *param_1); // size[306]
 	void ShutUpFriends(); // size[114]
@@ -56,10 +56,10 @@ public:
 	void FIdleSpeak(); // size[596]
 	void SpeakQuestionFriend(CBaseEntity *param_1); // size[62]
 	void SpeakAnswerFriend(CBaseEntity *param_1); // size[62]
-	void TrySmellTalk(); // size[44]
+	void TrySmellTalk(); // size[132]
 	void ShouldSpeakRandom(int param_1, float param_2); // size[107]
 	void FIdleSpeakWhileMoving(); // size[260]
-	void InitCustomSchedules(); // size[495]
+	void InitCustomSchedules(); // size[489]
 	void LoadSchedules(); // size[62]
 	CScheduleLoader(); // size[9]
 };

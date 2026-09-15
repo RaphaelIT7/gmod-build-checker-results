@@ -14,13 +14,12 @@ public:
 
 	void _GLOBAL__sub_I_m_DataMap(); // size[113]
 	void OnEntitySpawned(CBaseEntity *param_1); // size[13]
-	void GetBaseMap(); // size[10]
 	void UpdateProperty(); // size[173]
 	void TurnOn(); // size[49]
 	void TurnOn(); // size[20]
 	void TurnOff(); // size[49]
 	void TurnOff(); // size[20]
 	void InputTurnOn(inputdata_t *param_1); // size[23]
-	void InputToggle(inputdata_t *param_1); // size[27]
+	void InputToggle(inputdata_t *param_1); // size[1]
 	void InputTurnOff(inputdata_t *param_1); // size[23]
 };

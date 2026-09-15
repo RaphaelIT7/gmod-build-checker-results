@@ -12,7 +12,7 @@ public:
 	virtual void UpdateOnRemove() override; // vtable[108]
 
 	void IdleThink(); // size[126]
-	void FallHack(); // size[240]
+	void FallHack(); // size[32]
 	void GetBaseMap(); // size[10]
 	void SpawnCommonCode(); // size[96]
 	void SquadUnlink(); // size[28]
@@ -22,10 +22,10 @@ public:
 	void SquadRemove(CNPC_FlockingFlyer *param_1); // size[301]
 	void BoidAdvanceFrame(); // size[204]
 	void Start(); // size[173]
-	void FPathBlocked(); // size[303]
+	void FPathBlocked(); // size[639]
 	void SpreadFlock(); // size[672]
 	void SpreadFlock2(); // size[509]
-	void FlockFollowerThink(); // size[1234]
+	void FlockFollowerThink(); // size[1218]
 	void MakeSound(); // size[91]
-	void FlockLeaderThink(); // size[280]
+	void FlockLeaderThink(); // size[959]
 };

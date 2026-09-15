@@ -12,9 +12,10 @@ public:
 
 	void GetBaseMap(); // size[10]
 	CPointAngularVelocitySensor(); // size[26]
-	void DrawDebugLines(); // size[548]
+	void DrawDebugLines(); // size[1589]
 	void SampleAngularVelocity(CBaseEntity *param_1); // size[748]
 	void CompareToThreshold(CBaseEntity *param_1, float param_2, bool param_3); // size[190]
 	void InputTestWithInterval(inputdata_t *param_1); // size[191]
+	void FireCompareOutput(int param_1, CBaseEntity *param_2); // size[178]
 	void InputTest(inputdata_t *param_1); // size[120]
 };

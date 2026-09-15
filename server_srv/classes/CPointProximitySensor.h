@@ -12,8 +12,8 @@ public:
 	void InputDisable(inputdata_t *param_1); // size[48]
 	void InputSetTargetEntity(inputdata_t *param_1); // size[130]
 	void GetBaseMap(); // size[10]
-	void Enable(); // size[107]
+	void Enable(); // size[74]
 	void InputEnable(inputdata_t *param_1); // size[9]
 	void InputToggle(inputdata_t *param_1); // size[63]
-	void Disable(); // size[32]
+	void Disable(); // size[48]
 };

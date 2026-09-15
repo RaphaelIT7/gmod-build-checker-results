@@ -20,7 +20,7 @@ public:
 	void Strike(); // size[29]
 	void InputStrikeOnce(inputdata_t *param_1); // size[9]
 	void PassesTouchFilters(CBaseEntity *param_1); // size[15]
-	void UpdateThink(); // size[1099]
+	void UpdateThink(); // size[1104]
 	void Zap(Vector *param_1, Vector *param_2); // size[26]
 	void RandomArea(); // size[715]
 	void RandomPoint(Vector *param_1); // size[624]

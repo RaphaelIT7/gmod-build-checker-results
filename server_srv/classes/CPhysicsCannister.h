@@ -48,7 +48,7 @@ public:
 	void InputExplode(inputdata_t *param_1); // size[17]
 	void ExplodeTouch(CBaseEntity *param_1); // size[95]
 	void BeginShutdownThink(); // size[9]
-	void CannisterActivate(CBaseEntity *param_1, Vector *param_2); // size[286]
+	void CannisterActivate(CBaseEntity *param_1, Vector *param_2); // size[695]
 	void CannisterFire(CBaseEntity *param_1); // size[95]
 	void InputActivate(inputdata_t *param_1); // size[56]
 	void OnPhysGunDrop(CBasePlayer *param_1, PhysGunDrop_t param_2); // size[10]

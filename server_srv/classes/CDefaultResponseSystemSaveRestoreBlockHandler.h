@@ -9,5 +9,5 @@ public:
 	virtual void ReadRestoreHeaders(IRestore *param_1) override; // vtable[6]
 	virtual void Restore(IRestore *param_1, bool param_2) override; // vtable[7]
 
-	void Restore(IRestore *param_1, bool param_2); // size[126]
+	void Restore(IRestore *param_1, bool param_2); // size[551]
 };

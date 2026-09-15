@@ -20,7 +20,7 @@ public:
 	virtual void Precache() override; // vtable[24]
 	virtual void UpdateOnRemove() override; // vtable[108]
 	virtual void StopLoopingSounds() override; // vtable[109]
-	virtual void _ZN16CPropCombineBall14CreateVPhysicsEv() override; // vtable[157]
+	virtual void CreateVPhysics() override; // vtable[157]
 	virtual void VPhysicsCollision(int param_1, gamevcollisionevent_t *param_2) override; // vtable[165]
 	virtual void HasPhysicsAttacker(float param_1) override; // vtable[173]
 	virtual void OnPhysGunPickup(CBasePlayer *param_1, PhysGunPickup_t param_2); // vtable[282]

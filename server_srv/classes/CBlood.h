@@ -11,6 +11,6 @@ public:
 
 	void GetBaseMap(); // size[10]
 	void Direction(); // size[72]
-	void BloodPosition(CBaseEntity *param_1); // size[25]
+	void BloodPosition(CBaseEntity *param_1); // size[9]
 	void InputEmitBlood(inputdata_t *param_1); // size[786]
 };

@@ -20,5 +20,5 @@ public:
 	void SetTimer(float param_1, float param_2); // size[106]
 	void OnPhysGunPickup(CBasePlayer *param_1, PhysGunPickup_t param_2); // size[13]
 	void InputSetTimer(inputdata_t *param_1); // size[69]
-	void SetVelocity(Vector *param_1, Vector *param_2); // size[170]
+	void SetVelocity(Vector *param_1, Vector *param_2); // size[35]
 };

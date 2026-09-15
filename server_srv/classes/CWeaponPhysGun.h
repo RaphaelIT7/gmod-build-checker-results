@@ -26,7 +26,7 @@ public:
 	virtual void ActivityListCount() override; // vtable[389]
 
 	void _GLOBAL__sub_I_GetServerClass(); // size[112]
-	CWeaponPhysGun(); // size[203]
+	CWeaponPhysGun(); // size[12]
 	void RemovePhysBeam(); // size[109]
 	void CreatePhysBeam(); // size[168]
 	void DropEntity(); // size[20]

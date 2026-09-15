@@ -130,5 +130,5 @@ public:
 	void GetPreviewImageFileName(); // size[158]
 	void GetShaderParam(int param_1); // size[17]
 	CMaterial(char *param_1, char *param_2, KeyValues *param_3); // size[522]
-	void InitializeShader(KeyValues *param_1, KeyValues *param_2, int param_3); // size[2633]
+	void InitializeShader(KeyValues *param_1, KeyValues *param_2, int param_3); // size[2681]
 };

@@ -12,12 +12,12 @@ public:
 	virtual void Think() override; // vtable[48]
 	virtual void HandleAnimEvent(animevent_t *param_1) override; // vtable[261]
 
-	void InputSetSequence(inputdata_t *param_1); // size[62]
+	void InputSetSequence(inputdata_t *param_1); // size[112]
 	void GetBaseMap(); // size[10]
 	void TrailEffectEvent(CEffectScriptElement *param_1); // size[1585]
-	void SpriteEffectEvent(CEffectScriptElement *param_1); // size[1259]
-	void GetScriptElementByName(char *param_1); // size[83]
-	void ParseNewEffect(); // size[338]
-	void LoadFromBuffer(char *param_1, char *param_2); // size[126]
+	void SpriteEffectEvent(CEffectScriptElement *param_1); // size[1250]
+	void GetScriptElementByName(char *param_1); // size[100]
+	void ParseNewEffect(); // size[1613]
+	void LoadFromBuffer(char *param_1, char *param_2); // size[162]
 	void ParseScriptFile(); // size[232]
 };

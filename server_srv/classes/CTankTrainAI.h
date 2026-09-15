@@ -15,7 +15,6 @@ public:
 	void InputTargetEntity(inputdata_t *param_1); // size[174]
 	void GetBaseMap(); // size[10]
 	void FindTarget(string_t param_1, CBaseEntity *param_2); // size[67]
-	void SoundEnginePitch(); // size[6]
 	void SoundEngineStop(); // size[24]
 	void SoundShutdown(); // size[16]
 	void SoundEngineStart(); // size[194]

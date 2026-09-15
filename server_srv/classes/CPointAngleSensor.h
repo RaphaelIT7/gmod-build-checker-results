@@ -14,10 +14,10 @@ public:
 
 	void _GLOBAL__sub_I_m_DataMap(); // size[113]
 	void InputDisable(inputdata_t *param_1); // size[48]
-	void InputSetTargetEntity(inputdata_t *param_1); // size[112]
+	void InputSetTargetEntity(inputdata_t *param_1); // size[100]
 	void GetBaseMap(); // size[10]
-	void IsFacingWithinTolerance(CBaseEntity *param_1, CBaseEntity *param_2, float param_3, float *param_4); // size[329]
-	void InputTest(inputdata_t *param_1); // size[186]
+	void IsFacingWithinTolerance(CBaseEntity *param_1, CBaseEntity *param_2, float param_3, float *param_4); // size[333]
+	void InputTest(inputdata_t *param_1); // size[210]
 	void Enable(); // size[107]
 	void InputEnable(inputdata_t *param_1); // size[9]
 	void InputToggle(inputdata_t *param_1); // size[63]

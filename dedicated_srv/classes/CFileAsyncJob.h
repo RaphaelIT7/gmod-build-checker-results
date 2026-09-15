@@ -9,5 +9,4 @@ public:
 	virtual void IsWrite(); // vtable[10]
 
 	~CFileAsyncJob(); // size[10]
-	~CFileAsyncJob(); // size[7]
 };

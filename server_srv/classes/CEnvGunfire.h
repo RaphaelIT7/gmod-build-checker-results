@@ -13,7 +13,8 @@ public:
 	void InputDisable(inputdata_t *param_1); // size[65]
 	void GetBaseMap(); // size[10]
 	void StartShooting(); // size[98]
-	void UpdateTarget(); // size[352]
+	void InputEnable(inputdata_t *param_1); // size[19]
+	void UpdateTarget(); // size[149]
 	void StopShooting(); // size[58]
-	void ShootThink(); // size[381]
+	void ShootThink(); // size[362]
 };

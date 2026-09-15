@@ -24,5 +24,5 @@ public:
 	void RecalculateWaterlevel(); // size[70]
 	void ObstacleDistance(CBaseEntity *param_1); // size[22]
 	void UpdateMotion(); // size[228]
-	void SwimThink(); // size[1612]
+	void SwimThink(); // size[2235]
 };

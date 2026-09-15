@@ -11,7 +11,7 @@ public:
 	virtual void PassesDamageFilterImpl(CTakeDamageInfo *param_1); // vtable[247]
 
 	void _GLOBAL__sub_I_m_DataMap(); // size[113]
-	void InputTestActivator(inputdata_t *param_1); // size[98]
+	void InputTestActivator(inputdata_t *param_1); // size[112]
 	void GetBaseMap(); // size[10]
 	void PassesFilter(CBaseEntity *param_1, CBaseEntity *param_2); // size[56]
 };

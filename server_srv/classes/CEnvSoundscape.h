@@ -22,5 +22,5 @@ public:
 	void Enable(); // size[15]
 	void InRangeOfPlayer(CBasePlayer *param_1); // size[417]
 	void WriteAudioParamsTo(audioparams_t *param_1); // size[169]
-	void UpdateForPlayer(ss_update_t *param_1); // size[1647]
+	void UpdateForPlayer(ss_update_t *param_1); // size[2012]
 };

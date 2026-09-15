@@ -9,5 +9,5 @@ public:
 	virtual ~CTEDust() override; // vtable[3]
 	virtual void Test(Vector *param_1, QAngle *param_2) override; // vtable[4]
 
-	CTEDust(char *param_1); // size[121]
+	CTEDust(char *param_1); // size[29]
 };

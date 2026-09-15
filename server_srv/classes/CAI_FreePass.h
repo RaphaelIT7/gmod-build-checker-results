@@ -10,6 +10,6 @@ public:
 	void Reset(float param_1, float param_2); // size[290]
 	void HasPass(); // size[23]
 	void Revoke(bool param_1); // size[148]
-	void Update(); // size[704]
-	void ShouldAllowFVisible(bool param_1); // size[1183]
+	void Update(); // size[701]
+	void ShouldAllowFVisible(bool param_1); // size[1192]
 };

@@ -63,5 +63,5 @@ public:
 	void EnsureAvailableSlotsForGender(SoundFile *param_1, int param_2, gender_t param_3); // size[266]
 	void FindBestSoundForGender(SoundFile *param_1, int param_2, gender_t param_3); // size[300]
 	void LoadGlobalActors(); // size[568]
-	void AddSoundsFromFile(char *param_1, bool param_2, bool param_3, bool param_4); // size[1643]
+	void AddSoundsFromFile(char *param_1, bool param_2, bool param_3, bool param_4); // size[1659]
 };

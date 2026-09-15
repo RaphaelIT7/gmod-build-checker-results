@@ -46,7 +46,7 @@ public:
 	void DrawAttackBeam(); // size[484]
 	void KillAttackBeam(); // size[406]
 	void StalkerThink(); // size[299]
-	void AddZigZagToPath(); // size[60]
+	void AddZigZagToPath(); // size[1048]
 	void InitCustomSchedules(); // size[352]
 	void LoadSchedules(); // size[62]
 	CScheduleLoader(); // size[9]

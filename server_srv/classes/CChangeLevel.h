@@ -21,8 +21,8 @@ public:
 	void IsEntityInTransition(CBaseEntity *param_1); // size[321]
 	void NotifyEntitiesOutOfTransition(); // size[250]
 	void BuildEntityTransitionList(CBaseEntity *param_1, char *param_2, CBaseEntity * *param_3, int *param_4, int param_5); // size[334]
-	void ChangeList(levellist_t *param_1, int param_2); // size[414]
-	void ChangeLevelNow(CBaseEntity *param_1); // size[938]
+	void ChangeList(levellist_t *param_1, int param_2); // size[434]
+	void ChangeLevelNow(CBaseEntity *param_1); // size[1211]
 	void InputChangeLevel(inputdata_t *param_1); // size[90]
-	void TouchChangeLevel(CBaseEntity *param_1); // size[230]
+	void TouchChangeLevel(CBaseEntity *param_1); // size[214]
 };

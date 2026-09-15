@@ -76,7 +76,7 @@ public:
 	void GetGoalDirection(Vector *param_1); // size[166]
 	void IdealGoalForMovement(Vector *param_1, Vector *param_2, float param_3, float param_4); // size[1035]
 	void VelocityToEvade(CBaseCombatCharacter *param_1); // size[570]
-	void UpdateHead(float param_1); // size[162]
+	void UpdateHead(float param_1); // size[1222]
 	void ScannerEmitSound(char *param_1); // size[143]
 	void DiveBombSoundThink(); // size[609]
 	void OnPhysGunPickup(CBasePlayer *param_1, PhysGunPickup_t param_2); // size[13]

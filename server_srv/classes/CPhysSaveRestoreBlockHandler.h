@@ -25,7 +25,7 @@ public:
 	void RestorePhysicsObjectAndModel(IRestore *param_1, PhysObjectHeader_t *param_2, QueuedItem_t *param_3, int param_4); // size[848]
 	void ForgetAllModels(); // size[7]
 	CPhysSaveRestoreBlockHandler(); // size[376]
-	~CPhysSaveRestoreBlockHandler(); // size[14]
+	~CPhysSaveRestoreBlockHandler(); // size[20]
 	void OnEntityDeleted(CBaseEntity *param_1); // size[10]
 	void NoteBBox(Vector *param_1, Vector *param_2, CPhysCollide *param_3); // size[10]
 	void AssociateModel(IPhysicsObject *param_1, int param_2); // size[7]

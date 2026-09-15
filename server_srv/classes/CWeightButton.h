@@ -10,6 +10,6 @@ public:
 	virtual void CreateVPhysics() override; // vtable[157]
 
 	void _GLOBAL__sub_I_m_DataMap(); // size[113]
-	void TriggerThink(); // size[233]
+	void TriggerThink(); // size[254]
 	void GetBaseMap(); // size[10]
 };

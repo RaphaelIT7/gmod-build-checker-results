@@ -14,7 +14,7 @@ public:
 
 	void InputTurnOff(inputdata_t *param_1); // size[51]
 	void GetBaseMap(); // size[10]
-	void CalculateAcceleration(); // size[55]
+	void CalculateAcceleration(); // size[76]
 	void TargetSpeedChanged(); // size[85]
 	void InputSetTargetSpeed(inputdata_t *param_1); // size[159]
 	void TurnOn(); // size[138]

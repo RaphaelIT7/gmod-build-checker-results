@@ -35,10 +35,10 @@ public:
 	void CreateBoneFollowers(); // size[386]
 	void FinishSetSequence(int param_1); // size[48]
 	void PropSetSequence(int param_1); // size[166]
-	void PropSetAnim(char *param_1); // size[57]
+	void PropSetAnim(char *param_1); // size[138]
 	void InputSetAnimation(inputdata_t *param_1); // size[75]
 	void InputSetAnimationNoReset(inputdata_t *param_1); // size[128]
-	void AnimThink(); // size[673]
+	void AnimThink(); // size[774]
 	~CDynamicProp(); // size[13]
 	~CDynamicProp(); // size[13]
 };

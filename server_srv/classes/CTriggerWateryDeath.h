@@ -5,7 +5,7 @@ class CTriggerWateryDeath : public CBaseTrigger
 public:
 	virtual ~CTriggerWateryDeath() override; // vtable[0]
 	virtual ~CTriggerWateryDeath() override; // vtable[1]
-	virtual void GetDataDescMap() override; // vtable[12]
+	virtual void _ZN19CTriggerWateryDeath14GetDataDescMapEv() override; // vtable[12]
 	virtual void Spawn() override; // vtable[23]
 	virtual void Precache() override; // vtable[24]
 	virtual void StartTouch(CBaseEntity *param_1) override; // vtable[101]

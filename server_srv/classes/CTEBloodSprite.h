@@ -10,5 +10,5 @@ public:
 	virtual void Test(Vector *param_1, QAngle *param_2) override; // vtable[4]
 
 	_GLOBAL__sub_I_CTEBloodSprite(); // size[112]
-	CTEBloodSprite(char *param_1); // size[105]
+	CTEBloodSprite(char *param_1); // size[25]
 };

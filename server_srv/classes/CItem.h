@@ -35,6 +35,6 @@ public:
 	void OnPhysGunPickup(CBasePlayer *param_1, PhysGunPickup_t param_2); // size[13]
 	void GetBaseMap(); // size[10]
 	CItem(); // size[168]
-	void CreateItemVPhysicsObject(); // size[75]
+	void CreateItemVPhysicsObject(); // size[56]
 	void ActivateWhenAtRest(float param_1); // size[94]
 };
