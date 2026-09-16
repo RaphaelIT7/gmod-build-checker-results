@@ -1,4 +1,5 @@
 // Generated header
+// Estimated minimum size: 0x4 (4) bytes, no debug info available
 
 class CServerEngineTools : public IServerEngineTools
 {
@@ -14,5 +15,5 @@ public:
 	virtual void PreClientUpdateAllTools(); // vtable[8]
 	virtual void GetEntityData(char *param_1); // vtable[9]
 	virtual void PreSetupVisibilityAllTools(); // vtable[10]
-	virtual void InToolMode() override; // vtable[11]
+	virtual void InToolMode(); // vtable[11]
 };

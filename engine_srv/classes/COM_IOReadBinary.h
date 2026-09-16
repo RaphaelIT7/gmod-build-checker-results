@@ -1,4 +1,5 @@
 // Generated header
+// Estimated minimum size: 0x4 (4) bytes, no debug info available
 
 class COM_IOReadBinary : public IFileReadBinary
 {

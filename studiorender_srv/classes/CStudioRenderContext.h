@@ -1,4 +1,5 @@
 // Generated header
+// Estimated minimum size: 0x1000010 (16777232) bytes, no debug info available
 
 class CStudioRenderContext : public CTier3AppSystem
 {
@@ -54,13 +55,13 @@ public:
 	virtual void GMOD_ForcedMaterialOverrideByIndex(int param_1, IMaterial *param_2, char param_3); // vtable[48]
 	virtual void GMOD_ResetMaterialOverridesByIndex(); // vtable[49]
 	virtual void GMOD_MeshOverrideCount(int param_1); // vtable[50]
-	virtual void GMOD_MeshOverride(int param_1, IMesh *param_2, IMaterial *param_3, VMatrix param_4) override; // vtable[51]
+	virtual void GMOD_MeshOverride(int param_1, IMesh *param_2, IMaterial *param_3, VMatrix param_4); // vtable[51]
 	virtual ~CStudioRenderContext(); // vtable[52]
 	virtual ~CStudioRenderContext(); // vtable[53]
 
 	void _GLOBAL__sub_I_GetTriangles(); // size[72]
 	void GetMaterialList(studiohdr_t *param_1, int param_2, IMaterial * *param_3); // size[658]
-	CStudioRenderContext(); // size[613]
+	CStudioRenderContext(); // size[589]
 	void ComputeMaterialFlags(studiohdr_t *param_1, studioloddata_t *param_2, IMaterial *param_3); // size[208]
 	void LoadMaterials(studiohdr_t *param_1, FileHeader_t *param_2, studioloddata_t *param_3, int param_4); // size[1112]
 	void CountDeltaFlexedStripGroups(studiohdr_t *param_1, mstudiomodel_t *param_2, ModelLODHeader_t *param_3); // size[150]
@@ -77,8 +78,8 @@ public:
 	void GenerateRandomFlexWeights(int param_1, float *param_2, float *param_3); // size[559]
 	void ComputeRenderLOD(IMatRenderContext *param_1, DrawModelInfo_t *param_2, Vector *param_3, float *param_4); // size[351]
 	void InvokeBindProxies(DrawModelInfo_t *param_1); // size[559]
-	void R_StudioBuildMeshGroup(char *param_1, bool param_2, studiomeshgroup_t *param_3, StripGroupHeader_t *param_4, mstudiomesh_t *param_5, studiohdr_t *param_6, ulonglong param_7); // size[2193]
-	void R_StudioCreateSingleMesh(studiohdr_t *param_1, studioloddata_t *param_2, mstudiomesh_t *param_3, MeshHeader_t *param_4, int param_5, studiomeshdata_t *param_6, int *param_7); // size[607]
+	void R_StudioBuildMeshGroup(char *param_1, bool param_2, studiomeshgroup_t *param_3, StripGroupHeader_t *param_4, mstudiomesh_t *param_5, studiohdr_t *param_6, ulonglong param_7); // size[2157]
+	void R_StudioCreateSingleMesh(studiohdr_t *param_1, studioloddata_t *param_2, mstudiomesh_t *param_3, MeshHeader_t *param_4, int param_5, studiomeshdata_t *param_6, int *param_7); // size[611]
 	void R_StudioCreateStaticMeshes(studiohdr_t *param_1, FileHeader_t *param_2, studiohwdata_t *param_3, int param_4, int *param_5); // size[524]
 	bool R_AddVertexToMesh<(VertexCompressionType_t)1>(char *param_1, bool param_2, CMeshBuilder *param_3, Vertex_t *param_4, mstudiomesh_t *param_5, mstudio_meshvertexdata_t *param_6, bool param_7); // size[1598]
 	bool R_AddVertexToMesh<(VertexCompressionType_t)0>(char *param_1, bool param_2, CMeshBuilder *param_3, Vertex_t *param_4, mstudiomesh_t *param_5, mstudio_meshvertexdata_t *param_6, bool param_7); // size[1051]

@@ -1,4 +1,5 @@
 // Generated header
+// Estimated minimum size: 0x64 (100) bytes, no debug info available
 
 class CLuaObject : public ILuaObject
 {
@@ -44,7 +45,7 @@ public:
 	virtual void SetMember(float param_1, _func_int_lua_State_ptr *param_2); // vtable[38]
 	virtual void GetMemberStr(float param_1, char *param_2); // vtable[39]
 	virtual void SetMember(ILuaObject *param_1, ILuaObject *param_2); // vtable[40]
-	virtual void GetBool() override; // vtable[41]
+	virtual void GetBool(); // vtable[41]
 	virtual void PushMemberFast(int param_1); // vtable[42]
 	virtual void SetMemberFast(int param_1, int param_2); // vtable[43]
 	virtual void SetFloat(float param_1); // vtable[44]
@@ -58,7 +59,7 @@ public:
 	virtual void isBool(); // vtable[52]
 	virtual void SetMemberDouble(char *param_1, double param_2); // vtable[53]
 	virtual void SetMemberNil(char *param_1); // vtable[54]
-	virtual void SetMemberNil(float param_1) override; // vtable[55]
+	virtual void SetMemberNil(float param_1); // vtable[55]
 	virtual void RemoveMe(); // vtable[56]
 	virtual void Init(); // vtable[57]
 	virtual void SetFromGlobal(char *param_1); // vtable[58]

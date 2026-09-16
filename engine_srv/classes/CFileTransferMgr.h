@@ -1,11 +1,11 @@
 // Generated header
+// Estimated minimum size: 0x4 (4) bytes, no debug info available
 
 class CFileTransferMgr
 {
 public:
 	virtual ~CFileTransferMgr(); // vtable[0]
 	virtual ~CFileTransferMgr(); // vtable[1]
-	virtual void __cxa_pure_virtual(); // vtable[5]
 
 	_GLOBAL__sub_I_CFileTransferMgr(); // size[72]
 	CFileTransferMgr(); // size[14]

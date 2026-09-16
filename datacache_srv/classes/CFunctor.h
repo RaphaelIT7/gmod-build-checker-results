@@ -1,9 +1,9 @@
 // Generated header
+// Estimated minimum size: 0x4 (4) bytes, no debug info available
 
 class CFunctor : public IRefCounted
 {
 public:
-	virtual ~CFunctor(); // vtable[2]
-	virtual ~CFunctor(); // vtable[3]
-	virtual void __cxa_pure_virtual(); // vtable[4]
+	~CFunctor(); // size[14]
+	~CFunctor(); // size[18]
 };

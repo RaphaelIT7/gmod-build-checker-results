@@ -1,8 +1,8 @@
 // Generated header
+// Estimated minimum size: 0x4 (4) bytes, no debug info available
 
 class CTraceFilter : public ITraceFilter
 {
 public:
-	virtual void __cxa_pure_virtual(); // vtable[0]
-	virtual void GetTraceType() override; // vtable[1]
+	void GetTraceType(); // size[7]
 };

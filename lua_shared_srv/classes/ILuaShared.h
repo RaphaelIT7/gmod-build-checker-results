@@ -1,9 +1,9 @@
 // Generated header
+// Estimated minimum size: 0x4 (4) bytes, no debug info available
 
 class ILuaShared : public IBaseInterface
 {
 public:
 	virtual ~ILuaShared() override; // vtable[0]
 	virtual ~ILuaShared() override; // vtable[1]
-	virtual void __cxa_pure_virtual(); // vtable[19]
 };

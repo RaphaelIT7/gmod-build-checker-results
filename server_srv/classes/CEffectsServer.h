@@ -1,4 +1,5 @@
 // Generated header
+// Estimated minimum size: 0x14 (20) bytes, no debug info available
 
 class CEffectsServer : public IEffects
 {
@@ -15,7 +16,7 @@ public:
 	virtual void Ricochet(Vector *param_1, Vector *param_2); // vtable[9]
 	virtual void Time(); // vtable[10]
 	virtual void IsServer(); // vtable[11]
-	virtual void SuppressEffectsSounds(bool param_1) override; // vtable[12]
+	virtual void SuppressEffectsSounds(bool param_1); // vtable[12]
 
 	CEffectsServer(); // size[52]
 };

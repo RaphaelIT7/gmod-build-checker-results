@@ -1,7 +1,41 @@
 // Generated header
+// Estimated minimum size: 0x8 (8) bytes, no debug info available
 
 class CFmtStrN
 {
 public:
 	virtual void InitQuietTruncation(); // vtable[0]
+	virtual void caseD_4(); // vtable[1]
+	virtual void caseD_5(); // vtable[2]
+	virtual void caseD_6(); // vtable[3]
+	virtual void caseD_7(); // vtable[4]
+	virtual void caseD_8(); // vtable[5]
+	virtual void caseD_1(); // vtable[9]
+	virtual void caseD_4(); // vtable[10]
+	virtual void caseD_5(); // vtable[11]
+	virtual void caseD_6(); // vtable[12]
+	virtual void caseD_7(); // vtable[13]
+	virtual void caseD_0(); // vtable[14]
+	virtual void caseD_4(); // vtable[15]
+	virtual void caseD_5(); // vtable[16]
+	virtual void caseD_6(); // vtable[17]
+	virtual void caseD_7(); // vtable[18]
+	virtual void caseD_8(); // vtable[19]
+	virtual void caseD_1(); // vtable[23]
+	virtual void caseD_4(); // vtable[24]
+	virtual void caseD_5(); // vtable[25]
+	virtual void caseD_6(); // vtable[26]
+	virtual void caseD_7(); // vtable[27]
+	virtual void caseD_0(); // vtable[28]
+	virtual void caseD_4(); // vtable[29]
+	virtual void caseD_5(); // vtable[30]
+	virtual void caseD_6(); // vtable[31]
+	virtual void caseD_7(); // vtable[32]
+	virtual void caseD_8(); // vtable[33]
+	virtual void caseD_1(); // vtable[37]
+	virtual void caseD_4(); // vtable[38]
+	virtual void caseD_5(); // vtable[39]
+	virtual void caseD_6(); // vtable[40]
+	virtual void caseD_7(); // vtable[41]
+	virtual void caseD_0(); // vtable[42]
 };

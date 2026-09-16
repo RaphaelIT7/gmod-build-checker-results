@@ -1,17 +1,18 @@
 // Generated header
+// Estimated minimum size: 0x25AC (9644) bytes, no debug info available
 
 class CAI_ScriptConditions : public CBaseEntity, public IEntityListener
 {
 public:
 	virtual ~CAI_ScriptConditions() override; // vtable[0]
 	virtual ~CAI_ScriptConditions() override; // vtable[1]
-	virtual void SetRefEHandle(CBaseHandle *param_1) override; // vtable[2]
 	virtual void GetDataDescMap() override; // vtable[12]
 	virtual void Spawn() override; // vtable[23]
 	virtual void Activate() override; // vtable[34]
 	virtual void OnRestore() override; // vtable[45]
 	virtual void UpdateOnRemove() override; // vtable[108]
 	virtual void OnEntitySpawned(CBaseEntity *param_1); // vtable[246]
+	virtual void OnEntitySpawned(CBaseEntity *param_1) override; // vtable[1]
 
 	void EvalPlayerBlockingActor(EvalArgs_t *param_1); // size[31]
 	void EvalActorSeeTarget(EvalArgs_t *param_1); // size[156]
@@ -37,5 +38,4 @@ public:
 	void AddNewElement(CBaseEntity *param_1); // size[250]
 	void Enable(); // size[176]
 	void InputEnable(inputdata_t *param_1); // size[19]
-	void OnEntitySpawned(CBaseEntity *param_1); // size[13]
 };

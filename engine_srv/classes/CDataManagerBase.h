@@ -1,4 +1,5 @@
 // Generated header
+// Estimated minimum size: 0x4C (76) bytes, no debug info available
 
 class CDataManagerBase
 {
@@ -8,7 +9,6 @@ public:
 	virtual void Unlock(); // vtable[2]
 	virtual ~CDataManagerBase(); // vtable[3]
 	virtual ~CDataManagerBase(); // vtable[4]
-	virtual void __cxa_pure_virtual(); // vtable[6]
 
 	_GLOBAL__sub_I_CDataManagerBase(); // size[48]
 	void NotifySizeChanged(memhandle_t__ *param_1, uint param_2, uint param_3); // size[47]
@@ -19,10 +19,10 @@ public:
 	void TargetSize(); // size[11]
 	void AvailableSize(); // size[14]
 	void UsedSize(); // size[11]
-	void MarkAsStale(memhandle_t__ *param_1); // size[267]
-	void LockResource(memhandle_t__ *param_1); // size[250]
+	void MarkAsStale(memhandle_t__ *param_1); // size[282]
+	void LockResource(memhandle_t__ *param_1); // size[194]
 	void GetForFreeByIndex(ushort param_1); // size[164]
-	void EnsureCapacity(uint param_1); // size[195]
+	void EnsureCapacity(uint param_1); // size[205]
 	void FlushToTargetSize(); // size[27]
 	void Purge(uint param_1); // size[41]
 	void UnlockResource(memhandle_t__ *param_1); // size[199]

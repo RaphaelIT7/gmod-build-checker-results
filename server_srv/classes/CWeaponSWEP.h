@@ -1,4 +1,5 @@
 // Generated header
+// Estimated minimum size: 0x25AC (9644) bytes, no debug info available
 
 class CWeaponSWEP : public CBaseHL2MPCombatWeapon
 {
@@ -72,6 +73,4 @@ public:
 	CWeaponSWEP(); // size[137]
 	void UpdateBurstSettings(); // size[162]
 	void UpdateRestSettings(); // size[125]
-	void NetworkStateChanged(); // size[6]
-	void NetworkStateChanged(void *param_1); // size[84]
 };

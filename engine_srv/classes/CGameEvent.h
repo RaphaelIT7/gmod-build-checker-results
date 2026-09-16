@@ -1,4 +1,5 @@
 // Generated header
+// Estimated minimum size: 0x2C (44) bytes, no debug info available
 
 class CGameEvent : public IGameEvent
 {
@@ -17,7 +18,7 @@ public:
 	virtual void SetInt(char *param_1, int param_2); // vtable[11]
 	virtual void SetFloat(char *param_1, float param_2); // vtable[12]
 	virtual void SetString(char *param_1, char *param_2); // vtable[13]
-	virtual void GetKeyValues() override; // vtable[14]
+	virtual void GetKeyValues(); // vtable[14]
 
 	CGameEvent(CGameEventDescriptor *param_1); // size[61]
 };

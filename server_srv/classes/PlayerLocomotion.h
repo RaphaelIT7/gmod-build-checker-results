@@ -1,4 +1,5 @@
 // Generated header
+// Estimated minimum size: 0x26AC (9900) bytes, no debug info available
 
 class PlayerLocomotion : public ILocomotion
 {

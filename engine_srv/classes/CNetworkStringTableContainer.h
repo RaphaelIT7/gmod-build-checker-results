@@ -1,4 +1,5 @@
 // Generated header
+// Estimated minimum size: 0x24 (36) bytes, no debug info available
 
 class CNetworkStringTableContainer : public INetworkStringTableContainer
 {
@@ -11,19 +12,18 @@ public:
 	virtual void GetTable(int param_1); // vtable[5]
 	virtual void GetNumTables(); // vtable[6]
 	virtual void CreateStringTableEx(char *param_1, int param_2, int param_3, int param_4, bool param_5); // vtable[7]
-	virtual void SetAllowClientSideAddString(INetworkStringTable *param_1, bool param_2) override; // vtable[8]
+	virtual void SetAllowClientSideAddString(INetworkStringTable *param_1, bool param_2); // vtable[8]
 
-	void OnStringTableRemoved(CNetworkStringTable *param_1); // size[64]
 	CNetworkStringTableContainer(); // size[68]
 	void AllowCreation(bool param_1); // size[14]
 	void Lock(bool param_1); // size[84]
-	void DirectUpdate(int param_1); // size[317]
+	void DirectUpdate(int param_1); // size[159]
 	void EnableRollback(bool param_1); // size[14]
-	void RestoreTick(int param_1); // size[72]
+	void RestoreTick(int param_1); // size[33]
 	void TriggerCallbacks(int param_1); // size[95]
 	void SetTick(int param_1); // size[72]
-	void Dump(char *param_1); // size[132]
-	void ReadStringTables(bf_read *param_1); // size[317]
-	void WriteUpdateMessage(CBaseClient *param_1, int param_2, bf_write *param_3); // size[641]
-	void WriteBaselines(int param_1, bf_write *param_2, INetChannel *param_3); // size[1714]
+	void Dump(); // size[53]
+	void ReadStringTables(bf_read *param_1); // size[126]
+	void WriteUpdateMessage(CBaseClient *param_1, int param_2, bf_write *param_3); // size[489]
+	void WriteBaselines(int param_1, bf_write *param_2, INetChannel *param_3); // size[1562]
 };

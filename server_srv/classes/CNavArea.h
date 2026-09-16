@@ -1,4 +1,5 @@
 // Generated header
+// Estimated minimum size: 0x164 (356) bytes, no debug info available
 
 class CNavArea : public CNavAreaCriticalData
 {

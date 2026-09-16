@@ -1,4 +1,5 @@
 // Generated header
+// Estimated minimum size: 0x6E0 (1760) bytes, no debug info available
 
 class CHL2MPSWeaponInfo : public FileWeaponInfo_t
 {

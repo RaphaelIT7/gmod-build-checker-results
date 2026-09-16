@@ -1,4 +1,5 @@
 // Generated header
+// Estimated minimum size: 0x155C (5468) bytes, no debug info available
 
 class CBasePlayerAnimState : public IPlayerAnimState
 {
@@ -42,7 +43,7 @@ public:
 	void ComputePoseParam_MoveYaw(CStudioHdr *param_1); // size[1036]
 	void ComputePoseParam_BodyYaw(); // size[884]
 	void GetOuterXYSpeed(); // size[78]
-	void AnimStateLog(char *param_1); // size[286]
+	void AnimStateLog(char const *null, ... null); // size[286]
 	void DebugShowAnimState(int param_1); // size[76]
 	void DebugShowAnimStateFull(int param_1); // size[75]
 	CBasePlayerAnimState(); // size[235]
@@ -50,6 +51,6 @@ public:
 	~CBasePlayerAnimState(); // size[99]
 	~CBasePlayerAnimState(); // size[109]
 	~CBasePlayerAnimState(); // size[107]
-	void CalcSequenceIndex(char *param_1); // size[494]
+	void CalcSequenceIndex(char const *null, ... null); // size[494]
 	void TranslateActivity(Activity param_1); // size[8]
 };

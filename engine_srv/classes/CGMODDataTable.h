@@ -1,4 +1,5 @@
 // Generated header
+// Estimated minimum size: 0x286864 (2648164) bytes, no debug info available
 
 class CGMODDataTable : public IGMODDataTable
 {
@@ -16,15 +17,14 @@ public:
 	virtual void ClearLocal(char *param_1); // vtable[10]
 	virtual void Clear(); // vtable[11]
 	virtual void Begin(); // vtable[12]
-	virtual void End() override; // vtable[13]
+	virtual void End(); // vtable[13]
 
 	void IsEmpty(); // size[16]
-	void Compare(bf_read *param_1, bf_read *param_2, CGMODDataTable *param_3, int param_4); // size[1507]
+	void Compare(bf_read *param_1, bf_read *param_2, CGMODDataTable *param_3, int param_4); // size[1394]
 	void Skip(bf_read *param_1); // size[218]
 	void WriteProps(bf_read *param_1, bf_write *param_2, int param_3); // size[1156]
-	void Encode(void *param_1, bf_write *param_2); // size[448]
+	void Encode(void *param_1, bf_write *param_2); // size[558]
 	CGMODDataTable(_func_void_void_ptr_int_CGMODVariant_ptr *param_1); // size[160]
-	void Decode(void *param_1, bf_read *param_2); // size[1521]
-	void CopyFrom(void *param_1, void *param_2, CGMODDataTable *param_3); // size[2232]
-	~Entry(); // size[26]
+	void Decode(void *param_1, bf_read *param_2); // size[302]
+	void CopyFrom(void *param_1, void *param_2, CGMODDataTable *param_3); // size[397]
 };

@@ -1,4 +1,5 @@
 // Generated header
+// Estimated minimum size: 0x68 (104) bytes, no debug info available
 
 class CTraceFilterChopper : public CTraceFilterSimple
 {

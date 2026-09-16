@@ -1,4 +1,5 @@
 // Generated header
+// Estimated minimum size: 0x139BB4 (1285044) bytes, no debug info available
 
 class CDebugHistory : public CBaseEntity
 {

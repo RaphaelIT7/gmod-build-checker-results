@@ -1,4 +1,5 @@
 // Generated header
+// Estimated minimum size: 0x244 (580) bytes, no debug info available
 
 class CLuaLocomotion : public NextBotGroundLocomotion
 {

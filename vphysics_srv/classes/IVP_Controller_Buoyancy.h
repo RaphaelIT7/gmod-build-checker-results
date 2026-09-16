@@ -1,4 +1,5 @@
 // Generated header
+// Estimated minimum size: 0x10C (268) bytes, no debug info available
 
 class IVP_Controller_Buoyancy : public IVP_Controller_Independent
 {

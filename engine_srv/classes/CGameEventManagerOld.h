@@ -1,4 +1,5 @@
 // Generated header
+// Estimated minimum size: 0x4 (4) bytes, no debug info available
 
 class CGameEventManagerOld : public IGameEventManager
 {
@@ -15,8 +16,8 @@ public:
 	virtual void FireEventServerOnly(KeyValues *param_1); // vtable[9]
 	virtual void FireEventClientOnly(KeyValues *param_1); // vtable[10]
 	virtual void SerializeKeyValues(KeyValues *param_1, bf_write *param_2, CGameEvent *param_3); // vtable[11]
-	virtual void UnserializeKeyValue(bf_read *param_1) override; // vtable[12]
+	virtual void UnserializeKeyValue(bf_read *param_1); // vtable[12]
 
 	void _GLOBAL__sub_I_AddListener(); // size[107]
-	void FireEventIntern(KeyValues *param_1, bool param_2, bool param_3); // size[134]
+	void FireEventIntern(KeyValues *param_1, bool param_2, bool param_3); // size[149]
 };

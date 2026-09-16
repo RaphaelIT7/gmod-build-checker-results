@@ -1,4 +1,5 @@
 // Generated header
+// Estimated minimum size: 0x25AC (9644) bytes, no debug info available
 
 class CInstancedSceneEntity : public CSceneEntity
 {
@@ -24,6 +25,10 @@ public:
 	virtual void SetPostSpeakDelay(float param_1); // vtable[298]
 	virtual void GetPreDelay(); // vtable[299]
 	virtual void SetPreDelay(float param_1); // vtable[300]
+	virtual void StartEvent(float param_1, CChoreoScene *param_2, CChoreoEvent *param_3); // vtable[0]
+	virtual void EndEvent(float param_1, CChoreoScene *param_2, CChoreoEvent *param_3); // vtable[1]
+	virtual void ProcessEvent(float param_1, CChoreoScene *param_2, CChoreoEvent *param_3); // vtable[2]
+	virtual void CheckEvent(float param_1, CChoreoScene *param_2, CChoreoEvent *param_3); // vtable[3]
 
 	void GetBaseMap(); // size[10]
 	void PassThrough(CBaseFlex *param_1); // size[198]

@@ -1,4 +1,5 @@
 // Generated header
+// Estimated minimum size: 0x15F0A4 (1437860) bytes, no debug info available
 
 class hk_Hinge_Constraint : public hk_Constraint
 {

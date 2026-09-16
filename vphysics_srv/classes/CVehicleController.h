@@ -1,4 +1,5 @@
 // Generated header
+// Estimated minimum size: 0x43C (1084) bytes, no debug info available
 
 class CVehicleController : public IPhysicsVehicleController, public IVP_Listener_Object
 {
@@ -6,7 +7,7 @@ public:
 	virtual ~CVehicleController(); // vtable[0]
 	virtual ~CVehicleController(); // vtable[1]
 	virtual void Update(float param_1, vehicle_controlparams_t *param_2); // vtable[2]
-	virtual void GetOperatingParams() override; // vtable[3]
+	virtual void GetOperatingParams(); // vtable[3]
 	virtual void GetVehicleParams(); // vtable[4]
 	virtual void GetVehicleParamsForChange(); // vtable[5]
 	virtual void UpdateBooster(float param_1); // vtable[6]
@@ -26,6 +27,12 @@ public:
 	virtual void event_object_revived(IVP_Event_Object *param_1); // vtable[20]
 	virtual void event_object_frozen(IVP_Event_Object *param_1); // vtable[21]
 	virtual void IsBoosting(); // vtable[22]
+	virtual void event_object_deleted(IVP_Event_Object *param_1); // vtable[0]
+	virtual void event_object_created(IVP_Event_Object *param_1); // vtable[1]
+	virtual void event_object_revived(IVP_Event_Object *param_1); // vtable[2]
+	virtual void event_object_frozen(IVP_Event_Object *param_1); // vtable[3]
+	virtual ~CVehicleController(); // vtable[4]
+	virtual ~CVehicleController(); // vtable[5]
 
 	void CreateIVPObjects(); // size[17]
 	void GetWheelContactPoint(int param_1, Vector *param_2, int *param_3); // size[508]
@@ -43,9 +50,6 @@ public:
 	void InitCarSystemWheels(IVP_Template_Car_System *param_1); // size[658]
 	void CreateIVPObjects(); // size[528]
 	void InitCarSystem(CPhysicsObject *param_1); // size[171]
-	~CVehicleController(); // size[49]
-	void event_object_deleted(IVP_Event_Object *param_1); // size[25]
-	~CVehicleController(); // size[61]
 	void InitVehicleData(vehicleparams_t *param_1); // size[160]
 	CVehicleController(vehicleparams_t *param_1, CPhysicsEnvironment *param_2, uint param_3, IPhysicsGameTrace *param_4); // size[88]
 	void UpdatePowerslide(vehicle_controlparams_t *param_1, bool param_2, float param_3); // size[46]
@@ -62,7 +66,4 @@ public:
 	void UpdateEngine(vehicle_controlparams_t *param_1, float param_2, float param_3, float param_4, bool param_5, bool param_6); // size[156]
 	void WriteToTemplate(vphysics_save_cvehiclecontroller_t *param_1); // size[606]
 	void InitFromTemplate(CPhysicsEnvironment *param_1, void *param_2, IPhysicsGameTrace *param_3, vphysics_save_cvehiclecontroller_t *param_4); // size[1035]
-	void event_object_created(IVP_Event_Object *param_1); // size[1]
-	void event_object_revived(IVP_Event_Object *param_1); // size[1]
-	void event_object_frozen(IVP_Event_Object *param_1); // size[1]
 };

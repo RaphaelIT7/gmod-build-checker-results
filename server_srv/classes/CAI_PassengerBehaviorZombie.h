@@ -1,4 +1,5 @@
 // Generated header
+// Estimated minimum size: 0x1408 (5128) bytes, no debug info available
 
 class CAI_PassengerBehaviorZombie : public CAI_PassengerBehavior
 {
@@ -39,6 +40,5 @@ public:
 	void GetEntryPointCost(Vector *param_1); // size[7]
 	void InitCustomSchedules(); // size[262]
 	void LoadSchedules(); // size[62]
-	CScheduleLoader(); // size[9]
 	CAI_PassengerBehaviorZombie(); // size[65]
 };

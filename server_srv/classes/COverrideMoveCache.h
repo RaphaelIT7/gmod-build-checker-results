@@ -1,4 +1,5 @@
 // Generated header
+// Estimated minimum size: 0x45C70C48 (1170672712) bytes, no debug info available
 
 class COverrideMoveCache : public IEntityListener
 {

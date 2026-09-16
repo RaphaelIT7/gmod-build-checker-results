@@ -1,4 +1,5 @@
 // Generated header
+// Estimated minimum size: 0x38 (56) bytes, no debug info available
 
 class CEngine : public IEngine
 {
@@ -13,8 +14,8 @@ public:
 	virtual void GetFrameTime(); // vtable[7]
 	virtual void GetCurTime(); // vtable[8]
 	virtual void GetQuitting(); // vtable[9]
-	virtual void SetQuitting(int param_1) override; // vtable[10]
+	virtual void SetQuitting(int param_1); // vtable[10]
 
-	CEngine(); // size[66]
-	void FilterTime(float param_1); // size[440]
+	CEngine(); // size[76]
+	void FilterTime(float param_1); // size[428]
 };

@@ -1,4 +1,5 @@
 // Generated header
+// Estimated minimum size: 0x54 (84) bytes, no debug info available
 
 class CDataManager : public CDataManagerBase
 {
@@ -9,5 +10,5 @@ public:
 	virtual ~CDataManager() override; // vtable[3]
 	virtual ~CDataManager() override; // vtable[4]
 	virtual void DestroyResourceStorage(void *param_1); // vtable[5]
-	virtual void GetRealSize(void *param_1) override; // vtable[6]
+	virtual void GetRealSize(void *param_1); // vtable[6]
 };

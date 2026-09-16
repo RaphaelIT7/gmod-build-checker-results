@@ -1,4 +1,5 @@
 // Generated header
+// Estimated minimum size: 0x28 (40) bytes, no debug info available
 
 class CLiquidSurfaceDescriptor : public IVP_Liquid_Surface_Descriptor
 {

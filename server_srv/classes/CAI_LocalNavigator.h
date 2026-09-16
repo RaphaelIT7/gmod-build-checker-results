@@ -1,13 +1,11 @@
 // Generated header
+// Estimated minimum size: 0x120 (288) bytes, no debug info available
 
 class CAI_LocalNavigator : public CAI_Component, public CAI_ProxyMovementSink
 {
 public:
 	virtual ~CAI_LocalNavigator() override; // vtable[0]
 	virtual ~CAI_LocalNavigator() override; // vtable[1]
-	virtual void SetOuter(CAI_BaseNPC *param_1) override; // vtable[2]
-	virtual void TaskFail(int param_1) override; // vtable[3]
-	virtual void TaskComplete(bool param_1) override; // vtable[4]
 
 	void GetBaseMap(); // size[7]
 	CAI_LocalNavigator(CAI_BaseNPC *param_1); // size[90]

@@ -1,4 +1,5 @@
 // Generated header
+// Estimated minimum size: 0x10008 (65544) bytes, no debug info available
 
 class CBaseMultiplayerPlayer : public CAI_ExpresserHost
 {
@@ -24,6 +25,9 @@ public:
 	virtual void GetMultiplayerExpresser(); // vtable[547]
 	virtual void CalculateTeamBalanceScore(); // vtable[548]
 	virtual void CreateExpresser(); // vtable[549]
+	virtual void OnSpokeConcept(char *param_1, AI_Response *param_2); // vtable[0]
+	virtual void OnStartSpeaking(); // vtable[1]
+	virtual void UseSemaphore(); // vtable[2]
 
 	_GLOBAL__sub_I_CBaseMultiplayerPlayer(); // size[113]
 	void EscortScoringThink(); // size[9]

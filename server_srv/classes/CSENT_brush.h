@@ -1,4 +1,5 @@
 // Generated header
+// Estimated minimum size: 0x25AC (9644) bytes, no debug info available
 
 class CSENT_brush : public CBaseTrigger
 {
@@ -25,6 +26,4 @@ public:
 	void _GLOBAL__sub_I_m_DataMap(); // size[113]
 	void GetBaseMap(); // size[10]
 	CSENT_brush(); // size[78]
-	void NetworkStateChanged(); // size[53]
-	void NetworkStateChanged(void *param_1); // size[84]
 };

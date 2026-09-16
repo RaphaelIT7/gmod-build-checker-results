@@ -1,4 +1,5 @@
 // Generated header
+// Estimated minimum size: 0x740 (1856) bytes, no debug info available
 
 class IVP_Controller_Raycast_Car : public IVP_Car_System, public IVP_Controller_Dependent
 {

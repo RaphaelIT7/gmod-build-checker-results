@@ -1,4 +1,5 @@
 // Generated header
+// Estimated minimum size: 0x24 (36) bytes, no debug info available
 
 class CLC_CmdKeyValues : public Base_CmdKeyValues
 {
@@ -9,8 +10,10 @@ public:
 	virtual void ReadFromBuffer(bf_read *param_1) override; // vtable[5]
 	virtual void WriteToBuffer(bf_write *param_1) override; // vtable[6]
 	virtual void GetType(); // vtable[8]
-	virtual void GetName() override; // vtable[10]
-	virtual void ToString() override; // vtable[12]
+	virtual void GetGroup(); // vtable[9]
+	virtual void GetName(); // vtable[10]
+	virtual void GetNetChannel(); // vtable[11]
+	virtual void ToString(); // vtable[12]
 
 	CLC_CmdKeyValues(KeyValues *param_1); // size[31]
 };

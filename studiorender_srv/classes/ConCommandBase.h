@@ -1,4 +1,5 @@
 // Generated header
+// Estimated minimum size: 0x18 (24) bytes, no debug info available
 
 class ConCommandBase
 {
@@ -21,5 +22,5 @@ public:
 	void Shutdown(); // size[33]
 	void GetNext(); // size[11]
 	void GetNext(); // size[11]
-	void CopyString(char *param_1); // size[19]
+	void CopyString(char *param_1); // size[85]
 };

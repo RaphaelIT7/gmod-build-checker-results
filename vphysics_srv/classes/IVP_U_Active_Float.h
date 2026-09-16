@@ -1,4 +1,5 @@
 // Generated header
+// Estimated minimum size: 0x24 (36) bytes, no debug info available
 
 class IVP_U_Active_Float : public IVP_U_Active_Value
 {

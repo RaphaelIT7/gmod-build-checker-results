@@ -1,4 +1,5 @@
 // Generated header
+// Estimated minimum size: 0x25AC (9644) bytes, no debug info available
 
 class CAI_ActBusyQueueGoal : public CAI_ActBusyGoal
 {
@@ -14,6 +15,9 @@ public:
 	virtual void NPCStartedBusy(CAI_BaseNPC *param_1) override; // vtable[255]
 	virtual void NPCStartedLeavingBusy(CAI_BaseNPC *param_1) override; // vtable[256]
 	virtual void NPCFinishedBusy(CAI_BaseNPC *param_1) override; // vtable[257]
+	virtual void OnEntityCreated(CBaseEntity *param_1); // vtable[0]
+	virtual void OnEntitySpawned(CBaseEntity *param_1); // vtable[1]
+	virtual void OnEntityDeleted(CBaseEntity *param_1); // vtable[2]
 
 	void GetBaseMap(); // size[10]
 	void RecalculateQueueCount(); // size[434]

@@ -1,4 +1,5 @@
 // Generated header
+// Estimated minimum size: 0x214 (532) bytes, no debug info available
 
 class IVP_Ball : public IVP_Real_Object
 {

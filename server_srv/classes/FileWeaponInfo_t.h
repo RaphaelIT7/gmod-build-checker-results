@@ -1,4 +1,5 @@
 // Generated header
+// Estimated minimum size: 0x6D8 (1752) bytes, no debug info available
 
 class FileWeaponInfo_t
 {

@@ -1,4 +1,5 @@
 // Generated header
+// Estimated minimum size: 0xC8 (200) bytes, no debug info available
 
 class CPhysicsFluidController : public IPhysicsFluidController
 {

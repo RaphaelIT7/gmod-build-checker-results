@@ -1,4 +1,5 @@
 // Generated header
+// Estimated minimum size: 0x8 (8) bytes, no debug info available
 
 class CGameEventListener : public IGameEventListener2
 {

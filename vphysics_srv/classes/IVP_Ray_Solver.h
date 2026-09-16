@@ -1,4 +1,5 @@
 // Generated header
+// Estimated minimum size: 0x78 (120) bytes, no debug info available
 
 class IVP_Ray_Solver : public IVP_Ray_Hit_Listener
 {

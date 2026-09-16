@@ -1,4 +1,5 @@
 // Generated header
+// Estimated minimum size: 0x24 (36) bytes, no debug info available
 
 class IVP_Constraint : public IVP_Controller_Dependent
 {
@@ -7,11 +8,9 @@ public:
 	virtual void get_minimum_simulation_frequency(); // vtable[1]
 	virtual void get_associated_controlled_cores(); // vtable[2]
 	virtual void reset_time(IVP_Time param_1); // vtable[3]
-	virtual void __cxa_pure_virtual(); // vtable[4]
-	virtual void get_controller_priority(); // vtable[5]
-	virtual void get_controller_name(); // vtable[6]
 
 	void _GLOBAL__sub_I_core_is_going_to_be_deleted_event(); // size[1]
+	void get_controller_priority(); // size[6]
 	void change_target_fixing_point_Ros(IVP_U_Point *param_1); // size[16]
 	void change_target_translation_axes_Ros(IVP_U_Matrix3 *param_1); // size[16]
 	void fix_translation_axis(IVP_COORDINATE_INDEX param_1); // size[16]

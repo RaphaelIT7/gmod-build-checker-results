@@ -1,4 +1,5 @@
 // Generated header
+// Estimated minimum size: 0x134 (308) bytes, no debug info available
 
 class IVP_Controller_Golem : public IVP_Controller_Motion
 {

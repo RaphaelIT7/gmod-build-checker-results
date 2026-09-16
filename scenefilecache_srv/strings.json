@@ -1,0 +1,3692 @@
+[
+    {
+        "address": "00010625",
+        "length": 15,
+        "value": "__gmon_start__"
+    },
+    {
+        "address": "00010634",
+        "length": 6,
+        "value": "_init"
+    },
+    {
+        "address": "0001063a",
+        "length": 6,
+        "value": "_fini"
+    },
+    {
+        "address": "00010640",
+        "length": 28,
+        "value": "_ITM_deregisterTMCloneTable"
+    },
+    {
+        "address": "0001065c",
+        "length": 26,
+        "value": "_ITM_registerTMCloneTable"
+    },
+    {
+        "address": "00010676",
+        "length": 15,
+        "value": "__cxa_finalize"
+    },
+    {
+        "address": "00010685",
+        "length": 20,
+        "value": "_Jv_RegisterClasses"
+    },
+    {
+        "address": "00010699",
+        "length": 17,
+        "value": "__stack_chk_fail"
+    },
+    {
+        "address": "000106aa",
+        "length": 7,
+        "value": "memcpy"
+    },
+    {
+        "address": "000106b1",
+        "length": 12,
+        "value": "g_pMemAlloc"
+    },
+    {
+        "address": "000106bd",
+        "length": 6,
+        "value": "Error"
+    },
+    {
+        "address": "000106c3",
+        "length": 21,
+        "value": "__gxx_personality_v0"
+    },
+    {
+        "address": "000106d8",
+        "length": 13,
+        "value": "__cxa_atexit"
+    },
+    {
+        "address": "000106e5",
+        "length": 38,
+        "value": "_ZTVN10__cxxabiv117__class_type_infoE"
+    },
+    {
+        "address": "0001070b",
+        "length": 41,
+        "value": "_ZTVN10__cxxabiv120__si_class_type_infoE"
+    },
+    {
+        "address": "00010734",
+        "length": 11,
+        "value": "strcasecmp"
+    },
+    {
+        "address": "0001073f",
+        "length": 8,
+        "value": "dlclose"
+    },
+    {
+        "address": "00010747",
+        "length": 7,
+        "value": "_ZdlPv"
+    },
+    {
+        "address": "0001074e",
+        "length": 16,
+        "value": "CreateInterface"
+    },
+    {
+        "address": "0001075e",
+        "length": 7,
+        "value": "dlopen"
+    },
+    {
+        "address": "00010765",
+        "length": 8,
+        "value": "dlerror"
+    },
+    {
+        "address": "0001076d",
+        "length": 22,
+        "value": "Plat_IsInDebugSession"
+    },
+    {
+        "address": "00010783",
+        "length": 7,
+        "value": "strstr"
+    },
+    {
+        "address": "0001078a",
+        "length": 4,
+        "value": "Msg"
+    },
+    {
+        "address": "0001078e",
+        "length": 7,
+        "value": "getcwd"
+    },
+    {
+        "address": "00010795",
+        "length": 6,
+        "value": "dlsym"
+    },
+    {
+        "address": "0001079b",
+        "length": 14,
+        "value": "__ctype_b_loc"
+    },
+    {
+        "address": "000107a9",
+        "length": 7,
+        "value": "strlen"
+    },
+    {
+        "address": "000107b0",
+        "length": 7,
+        "value": "memset"
+    },
+    {
+        "address": "000107b7",
+        "length": 8,
+        "value": "memmove"
+    },
+    {
+        "address": "000107bf",
+        "length": 7,
+        "value": "memcmp"
+    },
+    {
+        "address": "000107c6",
+        "length": 7,
+        "value": "strcpy"
+    },
+    {
+        "address": "000107cd",
+        "length": 7,
+        "value": "wcslen"
+    },
+    {
+        "address": "000107d4",
+        "length": 7,
+        "value": "strcmp"
+    },
+    {
+        "address": "000107db",
+        "length": 9,
+        "value": "towupper"
+    },
+    {
+        "address": "000107e4",
+        "length": 9,
+        "value": "towlower"
+    },
+    {
+        "address": "000107ed",
+        "length": 20,
+        "value": "__ctype_toupper_loc"
+    },
+    {
+        "address": "00010801",
+        "length": 20,
+        "value": "__ctype_tolower_loc"
+    },
+    {
+        "address": "00010815",
+        "length": 12,
+        "value": "strncasecmp"
+    },
+    {
+        "address": "00010821",
+        "length": 4,
+        "value": "pow"
+    },
+    {
+        "address": "00010825",
+        "length": 7,
+        "value": "strchr"
+    },
+    {
+        "address": "0001082c",
+        "length": 8,
+        "value": "wcsncpy"
+    },
+    {
+        "address": "00010834",
+        "length": 10,
+        "value": "vswprintf"
+    },
+    {
+        "address": "0001083e",
+        "length": 10,
+        "value": "vsnprintf"
+    },
+    {
+        "address": "00010848",
+        "length": 8,
+        "value": "strncat"
+    },
+    {
+        "address": "00010850",
+        "length": 8,
+        "value": "wcsncat"
+    },
+    {
+        "address": "00010858",
+        "length": 9,
+        "value": "iswspace"
+    },
+    {
+        "address": "00010861",
+        "length": 11,
+        "value": "iconv_open"
+    },
+    {
+        "address": "0001086c",
+        "length": 6,
+        "value": "iconv"
+    },
+    {
+        "address": "00010872",
+        "length": 12,
+        "value": "iconv_close"
+    },
+    {
+        "address": "0001087e",
+        "length": 6,
+        "value": "_Znaj"
+    },
+    {
+        "address": "00010884",
+        "length": 6,
+        "value": "chdir"
+    },
+    {
+        "address": "0001088a",
+        "length": 9,
+        "value": "mbstowcs"
+    },
+    {
+        "address": "00010893",
+        "length": 9,
+        "value": "wcstombs"
+    },
+    {
+        "address": "0001089c",
+        "length": 15,
+        "value": "Plat_localtime"
+    },
+    {
+        "address": "000108ab",
+        "length": 9,
+        "value": "strftime"
+    },
+    {
+        "address": "000108b4",
+        "length": 8,
+        "value": "isspace"
+    },
+    {
+        "address": "000108bc",
+        "length": 7,
+        "value": "strtol"
+    },
+    {
+        "address": "000108c3",
+        "length": 8,
+        "value": "strtoul"
+    },
+    {
+        "address": "000108cb",
+        "length": 7,
+        "value": "strtod"
+    },
+    {
+        "address": "000108d2",
+        "length": 8,
+        "value": "tolower"
+    },
+    {
+        "address": "000108da",
+        "length": 16,
+        "value": "libtier0_srv.so"
+    },
+    {
+        "address": "000108ea",
+        "length": 10,
+        "value": "libm.so.6"
+    },
+    {
+        "address": "000108f4",
+        "length": 11,
+        "value": "libdl.so.2"
+    },
+    {
+        "address": "000108ff",
+        "length": 15,
+        "value": "libstdc++.so.6"
+    },
+    {
+        "address": "0001090e",
+        "length": 6,
+        "value": "abort"
+    },
+    {
+        "address": "00010914",
+        "length": 21,
+        "value": "__pthread_key_create"
+    },
+    {
+        "address": "00010929",
+        "length": 13,
+        "value": "pthread_once"
+    },
+    {
+        "address": "00010936",
+        "length": 7,
+        "value": "malloc"
+    },
+    {
+        "address": "0001093d",
+        "length": 5,
+        "value": "free"
+    },
+    {
+        "address": "00010942",
+        "length": 16,
+        "value": "dl_iterate_phdr"
+    },
+    {
+        "address": "00010952",
+        "length": 21,
+        "value": "pthread_mutex_unlock"
+    },
+    {
+        "address": "00010967",
+        "length": 19,
+        "value": "pthread_mutex_lock"
+    },
+    {
+        "address": "0001097a",
+        "length": 10,
+        "value": "libc.so.6"
+    },
+    {
+        "address": "00010984",
+        "length": 7,
+        "value": "_edata"
+    },
+    {
+        "address": "0001098b",
+        "length": 12,
+        "value": "__bss_start"
+    },
+    {
+        "address": "00010997",
+        "length": 5,
+        "value": "_end"
+    },
+    {
+        "address": "0001099c",
+        "length": 10,
+        "value": "GLIBC_2.1"
+    },
+    {
+        "address": "000109a6",
+        "length": 10,
+        "value": "GLIBC_2.0"
+    },
+    {
+        "address": "000109b0",
+        "length": 11,
+        "value": "CXXABI_1.3"
+    },
+    {
+        "address": "000109bb",
+        "length": 12,
+        "value": "GLIBCXX_3.4"
+    },
+    {
+        "address": "000109c7",
+        "length": 12,
+        "value": "GLIBC_2.2.4"
+    },
+    {
+        "address": "000109d3",
+        "length": 10,
+        "value": "GLIBC_2.2"
+    },
+    {
+        "address": "000109dd",
+        "length": 10,
+        "value": "GLIBC_2.4"
+    },
+    {
+        "address": "000109e7",
+        "length": 10,
+        "value": "GLIBC_2.3"
+    },
+    {
+        "address": "000109f1",
+        "length": 12,
+        "value": "GLIBC_2.1.3"
+    },
+    {
+        "address": "000237c0",
+        "length": 15,
+        "value": "VFileSystem022"
+    },
+    {
+        "address": "000237d8",
+        "length": 20,
+        "value": "scenes/scenes.image"
+    },
+    {
+        "address": "000237ec",
+        "length": 18,
+        "value": "SceneFileCache002"
+    },
+    {
+        "address": "00023800",
+        "length": 42,
+        "value": "CSceneFileCache: Bad scene image file %s\n"
+    },
+    {
+        "address": "00023834",
+        "length": 13,
+        "value": "10IAppSystem"
+    },
+    {
+        "address": "00023850",
+        "length": 18,
+        "value": "15ISceneFileCache"
+    },
+    {
+        "address": "00023880",
+        "length": 36,
+        "value": "14CBaseAppSystemI15ISceneFileCacheE"
+    },
+    {
+        "address": "000238a4",
+        "length": 18,
+        "value": "15CSceneFileCache"
+    },
+    {
+        "address": "0002453f",
+        "length": 18,
+        "value": "-DLOPEN Error:%s\n"
+    },
+    {
+        "address": "00024551",
+        "length": 8,
+        "value": "_srv.so"
+    },
+    {
+        "address": "00024559",
+        "length": 13,
+        "value": "No such file"
+    },
+    {
+        "address": "00024566",
+        "length": 16,
+        "value": "image not found"
+    },
+    {
+        "address": "0002457b",
+        "length": 6,
+        "value": "%s/%s"
+    },
+    {
+        "address": "00024581",
+        "length": 10,
+        "value": "%s/bin/%s"
+    },
+    {
+        "address": "0002458b",
+        "length": 16,
+        "value": "CreateInterface"
+    },
+    {
+        "address": "0002459c",
+        "length": 31,
+        "value": " failed to dlopen %s error=%s\n"
+    },
+    {
+        "address": "000245bb",
+        "length": 19,
+        "value": "16CDllDemandLoader"
+    },
+    {
+        "address": "00024600",
+        "length": 17,
+        "value": "0123456789ABCDEF"
+    },
+    {
+        "address": "00024619",
+        "length": 7,
+        "value": " bytes"
+    },
+    {
+        "address": "00024625",
+        "length": 9,
+        "value": "%%.%if%s"
+    },
+    {
+        "address": "00024630",
+        "length": 6,
+        "value": ",%03d"
+    },
+    {
+        "address": "00024636",
+        "length": 8,
+        "value": "UCS-2LE"
+    },
+    {
+        "address": "0002463e",
+        "length": 8,
+        "value": "UCS-4LE"
+    },
+    {
+        "address": "00024646",
+        "length": 9,
+        "value": "UTF-32LE"
+    },
+    {
+        "address": "0002464f",
+        "length": 6,
+        "value": "UTF-8"
+    },
+    {
+        "address": "00024664",
+        "length": 9,
+        "value": "%A %b %d"
+    },
+    {
+        "address": "0002466d",
+        "length": 7,
+        "value": "%I:%M "
+    },
+    {
+        "address": "00024684",
+        "length": 39,
+        "value": "V_AppendSlash: ran out of space on %s."
+    },
+    {
+        "address": "000246ac",
+        "length": 36,
+        "value": "V_MakeAbsolutePath: _getcwd failed."
+    },
+    {
+        "address": "000246d0",
+        "length": 49,
+        "value": "V_MakeAbsolutePath: tried to \"..\" past the root."
+    },
+    {
+        "address": "00024704",
+        "length": 71,
+        "value": "FATAL ERROR: UtlMemory_CalcNewAllocationCount got to negative values!\n"
+    },
+    {
+        "address": "0002474c",
+        "length": 53,
+        "value": "CUtlMemory::Grow ran out of memory? Alloc Size: %lu\n"
+    },
+    {
+        "address": "0002484f",
+        "length": 21,
+        "value": "18CUtlCharConversion"
+    },
+    {
+        "address": "0002486c",
+        "length": 24,
+        "value": "21CUtlCStringConversion"
+    },
+    {
+        "address": "0002489c",
+        "length": 22,
+        "value": "19CUtlNoEscConversion"
+    },
+    {
+        "address": "0002595d",
+        "length": 3,
+        "value": "zR"
+    },
+    {
+        "address": "00025cbd",
+        "length": 5,
+        "value": "zPLR"
+    },
+    {
+        "address": "0002b054",
+        "length": 7,
+        "value": "\rr\"\"\\\\"
+    },
+    {
+        "address": ".comment::00000000",
+        "length": 59,
+        "value": "GCC: (SteamRT 4.8.4-1ubuntu15~12.04+steamrt1.2+srt2) 4.8.4"
+    },
+    {
+        "address": ".shstrtab::00000001",
+        "length": 8,
+        "value": ".symtab"
+    },
+    {
+        "address": ".shstrtab::00000009",
+        "length": 8,
+        "value": ".strtab"
+    },
+    {
+        "address": ".shstrtab::00000011",
+        "length": 10,
+        "value": ".shstrtab"
+    },
+    {
+        "address": ".shstrtab::0000001b",
+        "length": 19,
+        "value": ".note.gnu.build-id"
+    },
+    {
+        "address": ".shstrtab::0000002e",
+        "length": 10,
+        "value": ".gnu.hash"
+    },
+    {
+        "address": ".shstrtab::00000038",
+        "length": 8,
+        "value": ".dynsym"
+    },
+    {
+        "address": ".shstrtab::00000040",
+        "length": 8,
+        "value": ".dynstr"
+    },
+    {
+        "address": ".shstrtab::00000048",
+        "length": 13,
+        "value": ".gnu.version"
+    },
+    {
+        "address": ".shstrtab::00000055",
+        "length": 15,
+        "value": ".gnu.version_r"
+    },
+    {
+        "address": ".shstrtab::00000064",
+        "length": 9,
+        "value": ".rel.dyn"
+    },
+    {
+        "address": ".shstrtab::0000006d",
+        "length": 9,
+        "value": ".rel.plt"
+    },
+    {
+        "address": ".shstrtab::00000076",
+        "length": 6,
+        "value": ".init"
+    },
+    {
+        "address": ".shstrtab::0000007c",
+        "length": 6,
+        "value": ".text"
+    },
+    {
+        "address": ".shstrtab::00000082",
+        "length": 6,
+        "value": ".fini"
+    },
+    {
+        "address": ".shstrtab::00000088",
+        "length": 8,
+        "value": ".rodata"
+    },
+    {
+        "address": ".shstrtab::00000090",
+        "length": 14,
+        "value": ".eh_frame_hdr"
+    },
+    {
+        "address": ".shstrtab::0000009e",
+        "length": 10,
+        "value": ".eh_frame"
+    },
+    {
+        "address": ".shstrtab::000000a8",
+        "length": 18,
+        "value": ".gcc_except_table"
+    },
+    {
+        "address": ".shstrtab::000000ba",
+        "length": 12,
+        "value": ".init_array"
+    },
+    {
+        "address": ".shstrtab::000000c6",
+        "length": 12,
+        "value": ".fini_array"
+    },
+    {
+        "address": ".shstrtab::000000d2",
+        "length": 5,
+        "value": ".jcr"
+    },
+    {
+        "address": ".shstrtab::000000d7",
+        "length": 9,
+        "value": ".dynamic"
+    },
+    {
+        "address": ".shstrtab::000000e0",
+        "length": 5,
+        "value": ".got"
+    },
+    {
+        "address": ".shstrtab::000000e5",
+        "length": 9,
+        "value": ".got.plt"
+    },
+    {
+        "address": ".shstrtab::000000ee",
+        "length": 6,
+        "value": ".data"
+    },
+    {
+        "address": ".shstrtab::000000f4",
+        "length": 5,
+        "value": ".bss"
+    },
+    {
+        "address": ".shstrtab::000000f9",
+        "length": 9,
+        "value": ".comment"
+    },
+    {
+        "address": ".shstrtab::00000102",
+        "length": 15,
+        "value": ".gnu_debuglink"
+    },
+    {
+        "address": ".strtab::00000001",
+        "length": 55,
+        "value": "_ZL48__CreateCSceneFileCacheISceneFileCache_interfacev"
+    },
+    {
+        "address": ".strtab::00000038",
+        "length": 22,
+        "value": "_ZL16g_SceneFileCache"
+    },
+    {
+        "address": ".strtab::0000004e",
+        "length": 26,
+        "value": "_GLOBAL__sub_I_filesystem"
+    },
+    {
+        "address": ".strtab::00000068",
+        "length": 17,
+        "value": "_ZL11vec2_origin"
+    },
+    {
+        "address": ".strtab::00000079",
+        "length": 18,
+        "value": "_ZL12vec2_invalid"
+    },
+    {
+        "address": ".strtab::0000008b",
+        "length": 50,
+        "value": "_ZL44__g_CreateCSceneFileCacheISceneFileCache_reg"
+    },
+    {
+        "address": ".strtab::000000bd",
+        "length": 18,
+        "value": "_ZL11FastToLowerc"
+    },
+    {
+        "address": ".strtab::000000cf",
+        "length": 34,
+        "value": "_ZL14CopyToMaxCharsPciPKci.part.0"
+    },
+    {
+        "address": ".strtab::000000f1",
+        "length": 30,
+        "value": "_Z10V_StrSlicePKciiPci.part.4"
+    },
+    {
+        "address": ".strtab::0000010f",
+        "length": 39,
+        "value": "_Z19Q_URLEncodeInternalPciPKcib.part.6"
+    },
+    {
+        "address": ".strtab::00000136",
+        "length": 39,
+        "value": "_Z19Q_URLDecodeInternalPciPKcib.part.7"
+    },
+    {
+        "address": ".strtab::0000015d",
+        "length": 30,
+        "value": "_ZZ12V_pretifymemfibE7current"
+    },
+    {
+        "address": ".strtab::0000017b",
+        "length": 29,
+        "value": "_ZZ12V_pretifymemfibE6output"
+    },
+    {
+        "address": ".strtab::00000198",
+        "length": 28,
+        "value": "_ZZ12V_pretifynumxE7current"
+    },
+    {
+        "address": ".strtab::000001b4",
+        "length": 27,
+        "value": "_ZZ12V_pretifynumxE6output"
+    },
+    {
+        "address": ".strtab::000001cf",
+        "length": 46,
+        "value": "_ZL21StripWhitespaceWorkeriPwPbb.constprop.14"
+    },
+    {
+        "address": ".strtab::000001fd",
+        "length": 20,
+        "value": "_ZL14s_BackSlashMap"
+    },
+    {
+        "address": ".strtab::00000211",
+        "length": 36,
+        "value": "_GLOBAL__sub_I__Z9_V_memsetPKciPvii"
+    },
+    {
+        "address": ".strtab::00000235",
+        "length": 68,
+        "value": "_ZN10CUtlMemoryIhiE23ConvertToGrowableMemoryEi.part.25.constprop.32"
+    },
+    {
+        "address": ".strtab::00000279",
+        "length": 41,
+        "value": "_ZN10CUtlBuffer12CheckPeekGetEii.part.16"
+    },
+    {
+        "address": ".strtab::000002a2",
+        "length": 44,
+        "value": "_ZN10CUtlBuffer16PeekStringLengthEv.part.20"
+    },
+    {
+        "address": ".strtab::000002ce",
+        "length": 42,
+        "value": "_ZN10CUtlBuffer14PeekLineLengthEv.part.21"
+    },
+    {
+        "address": ".strtab::000002f8",
+        "length": 46,
+        "value": "_ZN10CUtlBuffer18AddNullTerminationEv.part.23"
+    },
+    {
+        "address": ".strtab::00000326",
+        "length": 38,
+        "value": "_GLOBAL__sub_I_s_StringCharConversion"
+    },
+    {
+        "address": ".strtab::0000034c",
+        "length": 46,
+        "value": "_ZL40s_pConversionArrays_StringCharConversion"
+    },
+    {
+        "address": ".strtab::0000037a",
+        "length": 41,
+        "value": "_ZL35s_pConversionArrays_NoEscConversion"
+    },
+    {
+        "address": ".strtab::000003a3",
+        "length": 13,
+        "value": "__JCR_LIST__"
+    },
+    {
+        "address": ".strtab::000003b0",
+        "length": 21,
+        "value": "deregister_tm_clones"
+    },
+    {
+        "address": ".strtab::000003c5",
+        "length": 19,
+        "value": "register_tm_clones"
+    },
+    {
+        "address": ".strtab::000003d8",
+        "length": 22,
+        "value": "__do_global_dtors_aux"
+    },
+    {
+        "address": ".strtab::000003ee",
+        "length": 15,
+        "value": "completed.6585"
+    },
+    {
+        "address": ".strtab::000003fd",
+        "length": 39,
+        "value": "__do_global_dtors_aux_fini_array_entry"
+    },
+    {
+        "address": ".strtab::00000424",
+        "length": 12,
+        "value": "frame_dummy"
+    },
+    {
+        "address": ".strtab::00000430",
+        "length": 31,
+        "value": "__frame_dummy_init_array_entry"
+    },
+    {
+        "address": ".strtab::0000044f",
+        "length": 17,
+        "value": "_ZL11pulCRCTable"
+    },
+    {
+        "address": ".strtab::00000460",
+        "length": 17,
+        "value": "_ZL11pCRC64Table"
+    },
+    {
+        "address": ".strtab::00000471",
+        "length": 55,
+        "value": "_Z20LzmaDecodePropertiesP16_CLzmaPropertiesPKhi.part.0"
+    },
+    {
+        "address": ".strtab::000004a8",
+        "length": 31,
+        "value": "_Z18Q_UChar32ToUTF8Lenw.part.2"
+    },
+    {
+        "address": ".strtab::000004c7",
+        "length": 31,
+        "value": "_Z16Q_UChar32ToUTF16wPt.part.5"
+    },
+    {
+        "address": ".strtab::000004e6",
+        "length": 57,
+        "value": "_ZN12_GLOBAL__N_116Q_UTF32ToUChar32EPKwRwRb.constprop.15"
+    },
+    {
+        "address": ".strtab::0000051f",
+        "length": 180,
+        "value": "_ZN12_GLOBAL__N_117Q_UnicodeConvertTIwwLb1ELZNS_16Q_UTF32ToUChar32EPKwRwRbELZNS_19Q_UChar32ToUTF32LenEwELZNS_16Q_UChar32ToUTF32EwPwEEEiPKT_iPT0_i25EStringConvertErrorPolicy.isra.1"
+    },
+    {
+        "address": ".strtab::000005d3",
+        "length": 13,
+        "value": "read_sleb128"
+    },
+    {
+        "address": ".strtab::000005e0",
+        "length": 20,
+        "value": "execute_cfa_program"
+    },
+    {
+        "address": ".strtab::000005f4",
+        "length": 26,
+        "value": "init_dwarf_reg_size_table"
+    },
+    {
+        "address": ".strtab::0000060e",
+        "length": 21,
+        "value": "dwarf_reg_size_table"
+    },
+    {
+        "address": ".strtab::00000623",
+        "length": 19,
+        "value": "uw_frame_state_for"
+    },
+    {
+        "address": ".strtab::00000636",
+        "length": 17,
+        "value": "execute_stack_op"
+    },
+    {
+        "address": ".strtab::00000647",
+        "length": 20,
+        "value": "uw_update_context_1"
+    },
+    {
+        "address": ".strtab::0000065b",
+        "length": 18,
+        "value": "uw_init_context_1"
+    },
+    {
+        "address": ".strtab::0000066d",
+        "length": 19,
+        "value": "once_regsizes.8792"
+    },
+    {
+        "address": ".strtab::00000680",
+        "length": 18,
+        "value": "uw_update_context"
+    },
+    {
+        "address": ".strtab::00000692",
+        "length": 30,
+        "value": "_Unwind_RaiseException_Phase2"
+    },
+    {
+        "address": ".strtab::000006b0",
+        "length": 28,
+        "value": "_Unwind_ForcedUnwind_Phase2"
+    },
+    {
+        "address": ".strtab::000006cc",
+        "length": 21,
+        "value": "uw_install_context_1"
+    },
+    {
+        "address": ".strtab::000006e1",
+        "length": 18,
+        "value": "_Unwind_DebugHook"
+    },
+    {
+        "address": ".strtab::000006f3",
+        "length": 5,
+        "value": ".L19"
+    },
+    {
+        "address": ".strtab::000006f8",
+        "length": 6,
+        "value": ".L122"
+    },
+    {
+        "address": ".strtab::000006fe",
+        "length": 6,
+        "value": ".L223"
+    },
+    {
+        "address": ".strtab::00000704",
+        "length": 6,
+        "value": ".L325"
+    },
+    {
+        "address": ".strtab::0000070a",
+        "length": 6,
+        "value": ".L523"
+    },
+    {
+        "address": ".strtab::00000710",
+        "length": 5,
+        "value": ".L21"
+    },
+    {
+        "address": ".strtab::00000715",
+        "length": 5,
+        "value": ".L22"
+    },
+    {
+        "address": ".strtab::0000071a",
+        "length": 5,
+        "value": ".L23"
+    },
+    {
+        "address": ".strtab::0000071f",
+        "length": 5,
+        "value": ".L24"
+    },
+    {
+        "address": ".strtab::00000724",
+        "length": 5,
+        "value": ".L25"
+    },
+    {
+        "address": ".strtab::00000729",
+        "length": 5,
+        "value": ".L26"
+    },
+    {
+        "address": ".strtab::0000072e",
+        "length": 5,
+        "value": ".L27"
+    },
+    {
+        "address": ".strtab::00000733",
+        "length": 5,
+        "value": ".L28"
+    },
+    {
+        "address": ".strtab::00000738",
+        "length": 5,
+        "value": ".L29"
+    },
+    {
+        "address": ".strtab::0000073d",
+        "length": 5,
+        "value": ".L30"
+    },
+    {
+        "address": ".strtab::00000742",
+        "length": 5,
+        "value": ".L31"
+    },
+    {
+        "address": ".strtab::00000747",
+        "length": 5,
+        "value": ".L32"
+    },
+    {
+        "address": ".strtab::0000074c",
+        "length": 5,
+        "value": ".L33"
+    },
+    {
+        "address": ".strtab::00000751",
+        "length": 5,
+        "value": ".L34"
+    },
+    {
+        "address": ".strtab::00000756",
+        "length": 5,
+        "value": ".L35"
+    },
+    {
+        "address": ".strtab::0000075b",
+        "length": 5,
+        "value": ".L36"
+    },
+    {
+        "address": ".strtab::00000760",
+        "length": 5,
+        "value": ".L37"
+    },
+    {
+        "address": ".strtab::00000765",
+        "length": 5,
+        "value": ".L38"
+    },
+    {
+        "address": ".strtab::0000076a",
+        "length": 5,
+        "value": ".L39"
+    },
+    {
+        "address": ".strtab::0000076f",
+        "length": 5,
+        "value": ".L40"
+    },
+    {
+        "address": ".strtab::00000774",
+        "length": 5,
+        "value": ".L41"
+    },
+    {
+        "address": ".strtab::00000779",
+        "length": 5,
+        "value": ".L42"
+    },
+    {
+        "address": ".strtab::0000077e",
+        "length": 5,
+        "value": ".L43"
+    },
+    {
+        "address": ".strtab::00000783",
+        "length": 5,
+        "value": ".L44"
+    },
+    {
+        "address": ".strtab::00000788",
+        "length": 5,
+        "value": ".L62"
+    },
+    {
+        "address": ".strtab::0000078d",
+        "length": 5,
+        "value": ".L56"
+    },
+    {
+        "address": ".strtab::00000792",
+        "length": 5,
+        "value": ".L57"
+    },
+    {
+        "address": ".strtab::00000797",
+        "length": 5,
+        "value": ".L63"
+    },
+    {
+        "address": ".strtab::0000079c",
+        "length": 5,
+        "value": ".L60"
+    },
+    {
+        "address": ".strtab::000007a1",
+        "length": 5,
+        "value": ".L61"
+    },
+    {
+        "address": ".strtab::000007a6",
+        "length": 6,
+        "value": ".L197"
+    },
+    {
+        "address": ".strtab::000007ac",
+        "length": 6,
+        "value": ".L191"
+    },
+    {
+        "address": ".strtab::000007b2",
+        "length": 6,
+        "value": ".L192"
+    },
+    {
+        "address": ".strtab::000007b8",
+        "length": 6,
+        "value": ".L198"
+    },
+    {
+        "address": ".strtab::000007be",
+        "length": 6,
+        "value": ".L195"
+    },
+    {
+        "address": ".strtab::000007c4",
+        "length": 6,
+        "value": ".L196"
+    },
+    {
+        "address": ".strtab::000007ca",
+        "length": 6,
+        "value": ".L232"
+    },
+    {
+        "address": ".strtab::000007d0",
+        "length": 6,
+        "value": ".L226"
+    },
+    {
+        "address": ".strtab::000007d6",
+        "length": 6,
+        "value": ".L227"
+    },
+    {
+        "address": ".strtab::000007dc",
+        "length": 6,
+        "value": ".L233"
+    },
+    {
+        "address": ".strtab::000007e2",
+        "length": 6,
+        "value": ".L230"
+    },
+    {
+        "address": ".strtab::000007e8",
+        "length": 6,
+        "value": ".L231"
+    },
+    {
+        "address": ".strtab::000007ee",
+        "length": 6,
+        "value": ".L334"
+    },
+    {
+        "address": ".strtab::000007f4",
+        "length": 6,
+        "value": ".L328"
+    },
+    {
+        "address": ".strtab::000007fa",
+        "length": 6,
+        "value": ".L329"
+    },
+    {
+        "address": ".strtab::00000800",
+        "length": 6,
+        "value": ".L330"
+    },
+    {
+        "address": ".strtab::00000806",
+        "length": 6,
+        "value": ".L331"
+    },
+    {
+        "address": ".strtab::0000080c",
+        "length": 6,
+        "value": ".L332"
+    },
+    {
+        "address": ".strtab::00000812",
+        "length": 6,
+        "value": ".L336"
+    },
+    {
+        "address": ".strtab::00000818",
+        "length": 6,
+        "value": ".L337"
+    },
+    {
+        "address": ".strtab::0000081e",
+        "length": 6,
+        "value": ".L338"
+    },
+    {
+        "address": ".strtab::00000824",
+        "length": 6,
+        "value": ".L339"
+    },
+    {
+        "address": ".strtab::0000082a",
+        "length": 6,
+        "value": ".L340"
+    },
+    {
+        "address": ".strtab::00000830",
+        "length": 6,
+        "value": ".L341"
+    },
+    {
+        "address": ".strtab::00000836",
+        "length": 6,
+        "value": ".L342"
+    },
+    {
+        "address": ".strtab::0000083c",
+        "length": 6,
+        "value": ".L343"
+    },
+    {
+        "address": ".strtab::00000842",
+        "length": 6,
+        "value": ".L344"
+    },
+    {
+        "address": ".strtab::00000848",
+        "length": 6,
+        "value": ".L345"
+    },
+    {
+        "address": ".strtab::0000084e",
+        "length": 6,
+        "value": ".L346"
+    },
+    {
+        "address": ".strtab::00000854",
+        "length": 6,
+        "value": ".L347"
+    },
+    {
+        "address": ".strtab::0000085a",
+        "length": 6,
+        "value": ".L348"
+    },
+    {
+        "address": ".strtab::00000860",
+        "length": 6,
+        "value": ".L349"
+    },
+    {
+        "address": ".strtab::00000866",
+        "length": 6,
+        "value": ".L350"
+    },
+    {
+        "address": ".strtab::0000086c",
+        "length": 6,
+        "value": ".L351"
+    },
+    {
+        "address": ".strtab::00000872",
+        "length": 6,
+        "value": ".L352"
+    },
+    {
+        "address": ".strtab::00000878",
+        "length": 6,
+        "value": ".L440"
+    },
+    {
+        "address": ".strtab::0000087e",
+        "length": 6,
+        "value": ".L354"
+    },
+    {
+        "address": ".strtab::00000884",
+        "length": 6,
+        "value": ".L373"
+    },
+    {
+        "address": ".strtab::0000088a",
+        "length": 6,
+        "value": ".L367"
+    },
+    {
+        "address": ".strtab::00000890",
+        "length": 6,
+        "value": ".L368"
+    },
+    {
+        "address": ".strtab::00000896",
+        "length": 6,
+        "value": ".L374"
+    },
+    {
+        "address": ".strtab::0000089c",
+        "length": 6,
+        "value": ".L371"
+    },
+    {
+        "address": ".strtab::000008a2",
+        "length": 6,
+        "value": ".L372"
+    },
+    {
+        "address": ".strtab::000008a8",
+        "length": 6,
+        "value": ".L415"
+    },
+    {
+        "address": ".strtab::000008ae",
+        "length": 6,
+        "value": ".L417"
+    },
+    {
+        "address": ".strtab::000008b4",
+        "length": 6,
+        "value": ".L418"
+    },
+    {
+        "address": ".strtab::000008ba",
+        "length": 6,
+        "value": ".L419"
+    },
+    {
+        "address": ".strtab::000008c0",
+        "length": 6,
+        "value": ".L420"
+    },
+    {
+        "address": ".strtab::000008c6",
+        "length": 6,
+        "value": ".L421"
+    },
+    {
+        "address": ".strtab::000008cc",
+        "length": 6,
+        "value": ".L422"
+    },
+    {
+        "address": ".strtab::000008d2",
+        "length": 6,
+        "value": ".L423"
+    },
+    {
+        "address": ".strtab::000008d8",
+        "length": 6,
+        "value": ".L424"
+    },
+    {
+        "address": ".strtab::000008de",
+        "length": 6,
+        "value": ".L425"
+    },
+    {
+        "address": ".strtab::000008e4",
+        "length": 6,
+        "value": ".L426"
+    },
+    {
+        "address": ".strtab::000008ea",
+        "length": 6,
+        "value": ".L427"
+    },
+    {
+        "address": ".strtab::000008f0",
+        "length": 6,
+        "value": ".L428"
+    },
+    {
+        "address": ".strtab::000008f6",
+        "length": 6,
+        "value": ".L429"
+    },
+    {
+        "address": ".strtab::000008fc",
+        "length": 6,
+        "value": ".L430"
+    },
+    {
+        "address": ".strtab::00000902",
+        "length": 6,
+        "value": ".L431"
+    },
+    {
+        "address": ".strtab::00000908",
+        "length": 6,
+        "value": ".L432"
+    },
+    {
+        "address": ".strtab::0000090e",
+        "length": 6,
+        "value": ".L524"
+    },
+    {
+        "address": ".strtab::00000914",
+        "length": 6,
+        "value": ".L526"
+    },
+    {
+        "address": ".strtab::0000091a",
+        "length": 6,
+        "value": ".L527"
+    },
+    {
+        "address": ".strtab::00000920",
+        "length": 6,
+        "value": ".L528"
+    },
+    {
+        "address": ".strtab::00000926",
+        "length": 6,
+        "value": ".L529"
+    },
+    {
+        "address": ".strtab::0000092c",
+        "length": 22,
+        "value": "fde_unencoded_compare"
+    },
+    {
+        "address": ".strtab::00000942",
+        "length": 15,
+        "value": "frame_downheap"
+    },
+    {
+        "address": ".strtab::00000951",
+        "length": 15,
+        "value": "frame_heapsort"
+    },
+    {
+        "address": ".strtab::00000960",
+        "length": 22,
+        "value": "size_of_encoded_value"
+    },
+    {
+        "address": ".strtab::00000976",
+        "length": 29,
+        "value": "read_encoded_value_with_base"
+    },
+    {
+        "address": ".strtab::00000993",
+        "length": 17,
+        "value": "get_cie_encoding"
+    },
+    {
+        "address": ".strtab::000009a4",
+        "length": 24,
+        "value": "base_from_object.isra.3"
+    },
+    {
+        "address": ".strtab::000009bc",
+        "length": 28,
+        "value": "fde_single_encoding_compare"
+    },
+    {
+        "address": ".strtab::000009d8",
+        "length": 19,
+        "value": "linear_search_fdes"
+    },
+    {
+        "address": ".strtab::000009eb",
+        "length": 27,
+        "value": "fde_mixed_encoding_compare"
+    },
+    {
+        "address": ".strtab::00000a06",
+        "length": 26,
+        "value": "classify_object_over_fdes"
+    },
+    {
+        "address": ".strtab::00000a20",
+        "length": 9,
+        "value": "add_fdes"
+    },
+    {
+        "address": ".strtab::00000a29",
+        "length": 14,
+        "value": "search_object"
+    },
+    {
+        "address": ".strtab::00000a37",
+        "length": 16,
+        "value": "terminator.8438"
+    },
+    {
+        "address": ".strtab::00000a47",
+        "length": 12,
+        "value": "marker.8332"
+    },
+    {
+        "address": ".strtab::00000a53",
+        "length": 25,
+        "value": "base_from_cb_data.isra.4"
+    },
+    {
+        "address": ".strtab::00000a6c",
+        "length": 28,
+        "value": "_Unwind_IteratePhdrCallback"
+    },
+    {
+        "address": ".strtab::00000a88",
+        "length": 21,
+        "value": "frame_hdr_cache_head"
+    },
+    {
+        "address": ".strtab::00000a9d",
+        "length": 10,
+        "value": "adds.8594"
+    },
+    {
+        "address": ".strtab::00000aa7",
+        "length": 10,
+        "value": "subs.8595"
+    },
+    {
+        "address": ".strtab::00000ab1",
+        "length": 16,
+        "value": "frame_hdr_cache"
+    },
+    {
+        "address": ".strtab::00000ac1",
+        "length": 13,
+        "value": "object_mutex"
+    },
+    {
+        "address": ".strtab::00000ace",
+        "length": 15,
+        "value": "unseen_objects"
+    },
+    {
+        "address": ".strtab::00000add",
+        "length": 13,
+        "value": "seen_objects"
+    },
+    {
+        "address": ".strtab::00000aea",
+        "length": 5,
+        "value": ".L70"
+    },
+    {
+        "address": ".strtab::00000aef",
+        "length": 5,
+        "value": ".L64"
+    },
+    {
+        "address": ".strtab::00000af4",
+        "length": 5,
+        "value": ".L65"
+    },
+    {
+        "address": ".strtab::00000af9",
+        "length": 5,
+        "value": ".L71"
+    },
+    {
+        "address": ".strtab::00000afe",
+        "length": 5,
+        "value": ".L68"
+    },
+    {
+        "address": ".strtab::00000b03",
+        "length": 5,
+        "value": ".L69"
+    },
+    {
+        "address": ".strtab::00000b08",
+        "length": 14,
+        "value": "__FRAME_END__"
+    },
+    {
+        "address": ".strtab::00000b16",
+        "length": 12,
+        "value": "__JCR_END__"
+    },
+    {
+        "address": ".strtab::00000b22",
+        "length": 17,
+        "value": "_ZTI10IAppSystem"
+    },
+    {
+        "address": ".strtab::00000b33",
+        "length": 18,
+        "value": "_Z11CRC64_FinalPy"
+    },
+    {
+        "address": ".strtab::00000b45",
+        "length": 31,
+        "value": "_ZN10CUtlBuffer8VaPrintfEPKcPc"
+    },
+    {
+        "address": ".strtab::00000b64",
+        "length": 27,
+        "value": "_ZN10CUtlBuffer7PeekGetEii"
+    },
+    {
+        "address": ".strtab::00000b7f",
+        "length": 34,
+        "value": "_Z16Sys_UnloadModuleP10CSysModule"
+    },
+    {
+        "address": ".strtab::00000ba1",
+        "length": 31,
+        "value": "_Z22BGetLocalFormattedTimelPci"
+    },
+    {
+        "address": ".strtab::00000bc0",
+        "length": 28,
+        "value": "_Z16Q_UTF16ToUChar32PKtRwRb"
+    },
+    {
+        "address": ".strtab::00000bdc",
+        "length": 28,
+        "value": "_Z16_V_UnicodeToUCS2PKwiPci"
+    },
+    {
+        "address": ".strtab::00000bf8",
+        "length": 21,
+        "value": "_Z13V_GetFileNamePKc"
+    },
+    {
+        "address": ".strtab::00000c0d",
+        "length": 39,
+        "value": "_ZN15CSceneFileCache14GetSceneStringEs"
+    },
+    {
+        "address": ".strtab::00000c34",
+        "length": 22,
+        "value": "_ZN10CUtlBufferC2Eiii"
+    },
+    {
+        "address": ".strtab::00000c4a",
+        "length": 26,
+        "value": "_ZTS19CUtlNoEscConversion"
+    },
+    {
+        "address": ".strtab::00000c64",
+        "length": 25,
+        "value": "_ZTS18CUtlCharConversion"
+    },
+    {
+        "address": ".strtab::00000c7d",
+        "length": 30,
+        "value": "_ZN10CUtlBuffer9PutStringEPKc"
+    },
+    {
+        "address": ".strtab::00000c9b",
+        "length": 22,
+        "value": "__register_frame_info"
+    },
+    {
+        "address": ".strtab::00000cb1",
+        "length": 23,
+        "value": "_Z9_V_strstrPKciS0_S0_"
+    },
+    {
+        "address": ".strtab::00000cc8",
+        "length": 14,
+        "value": "_Z8V_struprPc"
+    },
+    {
+        "address": ".strtab::00000cd6",
+        "length": 50,
+        "value": "_ZN10CUtlBuffer10ParseTokenEP14characterset_tPcib"
+    },
+    {
+        "address": ".strtab::00000d08",
+        "length": 17,
+        "value": "_ZTS10IAppSystem"
+    },
+    {
+        "address": ".strtab::00000d19",
+        "length": 25,
+        "value": "_Z17IsBufferBinaryVCDPci"
+    },
+    {
+        "address": ".strtab::00000d32",
+        "length": 27,
+        "value": "_Z16V_StripExtensionPKcPci"
+    },
+    {
+        "address": ".strtab::00000d4d",
+        "length": 19,
+        "value": "__deregister_frame"
+    },
+    {
+        "address": ".strtab::00000d60",
+        "length": 39,
+        "value": "_ZN10CUtlBuffer4SwapER10CUtlMemoryIhiE"
+    },
+    {
+        "address": ".strtab::00000d87",
+        "length": 24,
+        "value": "_Z18Sys_GetFactoryThisv"
+    },
+    {
+        "address": ".strtab::00000d9f",
+        "length": 22,
+        "value": "_Z14Sys_GetFactoryPKc"
+    },
+    {
+        "address": ".strtab::00000db5",
+        "length": 61,
+        "value": "_ZN10CUtlBuffer18GetDelimitedStringEP18CUtlCharConversionPci"
+    },
+    {
+        "address": ".strtab::00000df2",
+        "length": 24,
+        "value": "_Z16V_IsAbsolutePathPKc"
+    },
+    {
+        "address": ".strtab::00000e0a",
+        "length": 40,
+        "value": "_ZN10CUtlBuffer20ActivateByteSwappingEb"
+    },
+    {
+        "address": ".strtab::00000e32",
+        "length": 57,
+        "value": "_Z18Q_UTF16CharsToUTF8PKtiPci25EStringConvertErrorPolicy"
+    },
+    {
+        "address": ".strtab::00000e6b",
+        "length": 17,
+        "value": "_Z10CRC32_InitPj"
+    },
+    {
+        "address": ".strtab::00000e7c",
+        "length": 23,
+        "value": "__register_frame_table"
+    },
+    {
+        "address": ".strtab::00000e93",
+        "length": 52,
+        "value": "_Z14Q_UTF32ToUTF32PKwPwi25EStringConvertErrorPolicy"
+    },
+    {
+        "address": ".strtab::00000ec7",
+        "length": 29,
+        "value": "_Z21V_SetCurrentDirectoryPKc"
+    },
+    {
+        "address": ".strtab::00000ee4",
+        "length": 23,
+        "value": "_Z9_V_wcscmpPKciPKwS2_"
+    },
+    {
+        "address": ".strtab::00000efb",
+        "length": 16,
+        "value": "_Z9V_atoui64PKc"
+    },
+    {
+        "address": ".strtab::00000f0b",
+        "length": 46,
+        "value": "_ZN14CBaseAppSystemI15ISceneFileCacheE4InitEv"
+    },
+    {
+        "address": ".strtab::00000f39",
+        "length": 34,
+        "value": "__register_frame_info_table_bases"
+    },
+    {
+        "address": ".strtab::00000f5b",
+        "length": 24,
+        "value": "_Z16GMOD_IsValidPathPKc"
+    },
+    {
+        "address": ".strtab::00000f73",
+        "length": 30,
+        "value": "_ZN12InterfaceRegC1EPFPvvEPKc"
+    },
+    {
+        "address": ".strtab::00000f91",
+        "length": 36,
+        "value": "_ZN16CDllDemandLoader10GetFactoryEv"
+    },
+    {
+        "address": ".strtab::00000fb5",
+        "length": 33,
+        "value": "_ZN10CUtlBuffer13OnPutOverflowEi"
+    },
+    {
+        "address": ".strtab::00000fd6",
+        "length": 14,
+        "value": "_Unwind_GetGR"
+    },
+    {
+        "address": ".strtab::00000fe4",
+        "length": 28,
+        "value": "_Z17V_ExtractFilePathPKcPci"
+    },
+    {
+        "address": ".strtab::00001000",
+        "length": 23,
+        "value": "_ZTI16CDllDemandLoader"
+    },
+    {
+        "address": ".strtab::00001017",
+        "length": 39,
+        "value": "_ZN10CUtlBuffer17GetStringInternalEPcj"
+    },
+    {
+        "address": ".strtab::0000103e",
+        "length": 48,
+        "value": "_Z20LzmaDecodePropertiesP16_CLzmaPropertiesPKhi"
+    },
+    {
+        "address": ".strtab::0000106e",
+        "length": 23,
+        "value": "_Z15Q_UnicodeLengthPKc"
+    },
+    {
+        "address": ".strtab::00001085",
+        "length": 26,
+        "value": "_Unwind_Resume_or_Rethrow"
+    },
+    {
+        "address": ".strtab::0000109f",
+        "length": 48,
+        "value": "_ZNK18CUtlCharConversion19MaxConversionLengthEv"
+    },
+    {
+        "address": ".strtab::000010cf",
+        "length": 30,
+        "value": "_Z19CRC32_ProcessBufferPjPKvi"
+    },
+    {
+        "address": ".strtab::000010ed",
+        "length": 25,
+        "value": "_ZTI18CUtlCharConversion"
+    },
+    {
+        "address": ".strtab::00001106",
+        "length": 42,
+        "value": "_ZNK18CUtlCharConversion13GetEscapeCharEv"
+    },
+    {
+        "address": ".strtab::00001130",
+        "length": 58,
+        "value": "_Z19Q_UTF16CharsToUTF32PKtiPwi25EStringConvertErrorPolicy"
+    },
+    {
+        "address": ".strtab::0000116a",
+        "length": 49,
+        "value": "_Z15Q_UnicodeRepairPc25EStringConvertErrorPolicy"
+    },
+    {
+        "address": ".strtab::0000119b",
+        "length": 26,
+        "value": "_Z14Q_URLEncodeRawPciPKci"
+    },
+    {
+        "address": ".strtab::000011b5",
+        "length": 26,
+        "value": "_Z14Q_URLDecodeRawPciPKci"
+    },
+    {
+        "address": ".strtab::000011cf",
+        "length": 25,
+        "value": "_Z10_V_memmovePKciPvPKvi"
+    },
+    {
+        "address": ".strtab::000011e8",
+        "length": 23,
+        "value": "_Z10V_StrSlicePKciiPci"
+    },
+    {
+        "address": ".strtab::000011ff",
+        "length": 19,
+        "value": "_Z9V_wcsncpyPwPKwj"
+    },
+    {
+        "address": ".strtab::00001212",
+        "length": 32,
+        "value": "_ZN10CUtlBuffer12SetBigEndianEb"
+    },
+    {
+        "address": ".strtab::00001232",
+        "length": 44,
+        "value": "_Z37Q_StripPrecedingAndTrailingWhitespacePc"
+    },
+    {
+        "address": ".strtab::0000125e",
+        "length": 25,
+        "value": "_ZTV18CUtlCharConversion"
+    },
+    {
+        "address": ".strtab::00001277",
+        "length": 30,
+        "value": "_ZN10CUtlBuffer7VaScanfEPKcPc"
+    },
+    {
+        "address": ".strtab::00001295",
+        "length": 23,
+        "value": "_Z9_V_memcpyPKciPvPKvi"
+    },
+    {
+        "address": ".strtab::000012ac",
+        "length": 20,
+        "value": "_Z9_V_strlenPKciS0_"
+    },
+    {
+        "address": ".strtab::000012c0",
+        "length": 27,
+        "value": "_ZN10CUtlBuffer5ScanfEPKcz"
+    },
+    {
+        "address": ".strtab::000012db",
+        "length": 33,
+        "value": "_ZN10CUtlBuffer13OnGetOverflowEi"
+    },
+    {
+        "address": ".strtab::000012fc",
+        "length": 28,
+        "value": "_ZN16CDllDemandLoaderC1EPKc"
+    },
+    {
+        "address": ".strtab::00001318",
+        "length": 49,
+        "value": "_Z15Q_UnicodeRepairPt25EStringConvertErrorPolicy"
+    },
+    {
+        "address": ".strtab::00001349",
+        "length": 28,
+        "value": "_Z10V_StrSubstPKcS0_S0_Pcib"
+    },
+    {
+        "address": ".strtab::00001365",
+        "length": 33,
+        "value": "_ZN10CUtlBuffer12CheckPeekGetEii"
+    },
+    {
+        "address": ".strtab::00001386",
+        "length": 52,
+        "value": "_Z14Q_UTF32ToUTF16PKwPti25EStringConvertErrorPolicy"
+    },
+    {
+        "address": ".strtab::000013ba",
+        "length": 23,
+        "value": "_Z15Q_UnicodeLengthPKt"
+    },
+    {
+        "address": ".strtab::000013d1",
+        "length": 23,
+        "value": "_Unwind_RaiseException"
+    },
+    {
+        "address": ".strtab::000013e8",
+        "length": 30,
+        "value": "__deregister_frame_info_bases"
+    },
+    {
+        "address": ".strtab::00001406",
+        "length": 19,
+        "value": "_Z9V_stricmpPKcS0_"
+    },
+    {
+        "address": ".strtab::00001419",
+        "length": 45,
+        "value": "_Z17Sys_LoadInterfacePKcS0_PP10CSysModulePPv"
+    },
+    {
+        "address": ".strtab::00001446",
+        "length": 33,
+        "value": "_ZN10CUtlBuffer13EatWhiteSpaceEv"
+    },
+    {
+        "address": ".strtab::00001467",
+        "length": 36,
+        "value": "_ZN10CUtlBuffer12AssumeMemoryEPviii"
+    },
+    {
+        "address": ".strtab::0000148b",
+        "length": 25,
+        "value": "_ZN15CSceneFileCacheD2Ev"
+    },
+    {
+        "address": ".strtab::000014a4",
+        "length": 27,
+        "value": "_Z21Sys_IsDebuggerPresentv"
+    },
+    {
+        "address": ".strtab::000014bf",
+        "length": 28,
+        "value": "_ZN5CLZMA13GetActualSizeEPh"
+    },
+    {
+        "address": ".strtab::000014db",
+        "length": 19,
+        "value": "_Z13PATHSEPARATORc"
+    },
+    {
+        "address": ".strtab::000014ee",
+        "length": 22,
+        "value": "_GLOBAL_OFFSET_TABLE_"
+    },
+    {
+        "address": ".strtab::00001504",
+        "length": 28,
+        "value": "_ZN10CUtlMemoryIPciE4GrowEi"
+    },
+    {
+        "address": ".strtab::00001520",
+        "length": 10,
+        "value": "__udivdi3"
+    },
+    {
+        "address": ".strtab::0000152a",
+        "length": 28,
+        "value": "_ZN10CUtlBuffer7GetLineEPci"
+    },
+    {
+        "address": ".strtab::00001546",
+        "length": 57,
+        "value": "_Z18Q_UTF8CharsToUTF32PKciPwi25EStringConvertErrorPolicy"
+    },
+    {
+        "address": ".strtab::0000157f",
+        "length": 59,
+        "value": "_ZN14CBaseAppSystemI15ISceneFileCacheE14QueryInterfaceEPKc"
+    },
+    {
+        "address": ".strtab::000015ba",
+        "length": 23,
+        "value": "_ZTS16CDllDemandLoader"
+    },
+    {
+        "address": ".strtab::000015d1",
+        "length": 26,
+        "value": "_ZTI19CUtlNoEscConversion"
+    },
+    {
+        "address": ".strtab::000015eb",
+        "length": 29,
+        "value": "_ZN17CUtlInplaceBufferC1Eiii"
+    },
+    {
+        "address": ".strtab::00001608",
+        "length": 23,
+        "value": "_Z10_V_strrchrPKciS0_c"
+    },
+    {
+        "address": ".strtab::0000161f",
+        "length": 19,
+        "value": "_Z9_V_wcsuprPKciPw"
+    },
+    {
+        "address": ".strtab::00001632",
+        "length": 33,
+        "value": "_ZN10CUtlBuffer11ConvertCRLFERS_"
+    },
+    {
+        "address": ".strtab::00001653",
+        "length": 25,
+        "value": "_Z17Q_UnicodeValidatePKc"
+    },
+    {
+        "address": ".strtab::0000166c",
+        "length": 64,
+        "value": "_ZN10CUtlBuffer24GetDelimitedCharInternalEP18CUtlCharConversion"
+    },
+    {
+        "address": ".strtab::000016ac",
+        "length": 22,
+        "value": "_ZTI15ISceneFileCache"
+    },
+    {
+        "address": ".strtab::000016c2",
+        "length": 57,
+        "value": "_ZN10CUtlBuffer16PutDelimitedCharEP18CUtlCharConversionc"
+    },
+    {
+        "address": ".strtab::000016fb",
+        "length": 18,
+        "value": "_Z12V_pretifynumx"
+    },
+    {
+        "address": ".strtab::0000170d",
+        "length": 15,
+        "value": "_Unwind_GetCFA"
+    },
+    {
+        "address": ".strtab::0000171c",
+        "length": 45,
+        "value": "_ZN15CSceneFileCache18GetSceneBufferSizeEPKc"
+    },
+    {
+        "address": ".strtab::00001749",
+        "length": 25,
+        "value": "_Z14V_SetExtensionPcPKci"
+    },
+    {
+        "address": ".strtab::00001762",
+        "length": 26,
+        "value": "_ZN16CDllDemandLoaderD2Ev"
+    },
+    {
+        "address": ".strtab::0000177c",
+        "length": 18,
+        "value": "_Unwind_Backtrace"
+    },
+    {
+        "address": ".strtab::0000178e",
+        "length": 25,
+        "value": "_Z13_V_UTF8ToUCS2PKciPti"
+    },
+    {
+        "address": ".strtab::000017a7",
+        "length": 34,
+        "value": "_ZN10CUtlBuffer13SetBufferTypeEbb"
+    },
+    {
+        "address": ".strtab::000017c9",
+        "length": 38,
+        "value": "_Z30V_AddBackSlashesToSpecialCharsPKc"
+    },
+    {
+        "address": ".strtab::000017ef",
+        "length": 32,
+        "value": "_Z14Sys_GetFactoryP10CSysModule"
+    },
+    {
+        "address": ".strtab::0000180f",
+        "length": 24,
+        "value": "_Z11V_vsnprintfPciPKcS_"
+    },
+    {
+        "address": ".strtab::00001827",
+        "length": 59,
+        "value": "_Z13V_SplitStringPKcS0_R10CUtlVectorIPc10CUtlMemoryIS2_iEE"
+    },
+    {
+        "address": ".strtab::00001862",
+        "length": 61,
+        "value": "_ZN10CUtlBuffer18PutDelimitedStringEP18CUtlCharConversionPKc"
+    },
+    {
+        "address": ".strtab::0000189f",
+        "length": 53,
+        "value": "_ZN14CBaseAppSystemI15ISceneFileCacheE10DisconnectEv"
+    },
+    {
+        "address": ".strtab::000018d4",
+        "length": 20,
+        "value": "_Z14cIntToHexDigiti"
+    },
+    {
+        "address": ".strtab::000018e8",
+        "length": 22,
+        "value": "_Z11_V_wcslowerPKciPw"
+    },
+    {
+        "address": ".strtab::000018fe",
+        "length": 49,
+        "value": "_Z15Q_UnicodeRepairPw25EStringConvertErrorPolicy"
+    },
+    {
+        "address": ".strtab::0000192f",
+        "length": 25,
+        "value": "_Z12V_vsnwprintfPwiPKwPc"
+    },
+    {
+        "address": ".strtab::00001948",
+        "length": 22,
+        "value": "_ZN10CUtlBufferC1Eiii"
+    },
+    {
+        "address": ".strtab::0000195e",
+        "length": 32,
+        "value": "_Unwind_GetLanguageSpecificData"
+    },
+    {
+        "address": ".strtab::0000197e",
+        "length": 33,
+        "value": "_ZN10CUtlBuffer13EatCPPCommentEv"
+    },
+    {
+        "address": ".strtab::0000199f",
+        "length": 20,
+        "value": "_Z14Q_IsMeanSpaceWw"
+    },
+    {
+        "address": ".strtab::000019b3",
+        "length": 58,
+        "value": "_ZN14CBaseAppSystemI15ISceneFileCacheE7ConnectEPFPvPKcPiE"
+    },
+    {
+        "address": ".strtab::000019ed",
+        "length": 42,
+        "value": "_ZN15CSceneFileCache12GetSceneDataEPKcPhj"
+    },
+    {
+        "address": ".strtab::00001a17",
+        "length": 34,
+        "value": "_ZN5CLZMA14SafeUncompressEPhjS0_j"
+    },
+    {
+        "address": ".strtab::00001a39",
+        "length": 15,
+        "value": "_Unwind_Resume"
+    },
+    {
+        "address": ".strtab::00001a48",
+        "length": 28,
+        "value": "__register_frame_info_table"
+    },
+    {
+        "address": ".strtab::00001a64",
+        "length": 13,
+        "value": "_Z8V_nibblec"
+    },
+    {
+        "address": ".strtab::00001a71",
+        "length": 57,
+        "value": "_Z18Q_UTF8CharsToUTF16PKciPti25EStringConvertErrorPolicy"
+    },
+    {
+        "address": ".strtab::00001aaa",
+        "length": 39,
+        "value": "_ZN10CUtlBuffer15PeekStringMatchEiPKci"
+    },
+    {
+        "address": ".strtab::00001ad1",
+        "length": 15,
+        "value": "_Z9V_StrTrimPc"
+    },
+    {
+        "address": ".strtab::00001ae0",
+        "length": 47,
+        "value": "_ZN19CUtlNoEscConversion14FindConversionEPKcPi"
+    },
+    {
+        "address": ".strtab::00001b0f",
+        "length": 51,
+        "value": "_Z13Q_UTF16ToUTF8PKtPci25EStringConvertErrorPolicy"
+    },
+    {
+        "address": ".strtab::00001b42",
+        "length": 23,
+        "value": "_Z11V_snwprintfPwiPKwz"
+    },
+    {
+        "address": ".strtab::00001b59",
+        "length": 24,
+        "value": "_Z16Q_UChar32ToUTF16wPt"
+    },
+    {
+        "address": ".strtab::00001b71",
+        "length": 25,
+        "value": "_ZN10CUtlBuffer3PutEPKvi"
+    },
+    {
+        "address": ".strtab::00001b8a",
+        "length": 36,
+        "value": "_ZN10CUtlBuffer16PeekStringLengthEv"
+    },
+    {
+        "address": ".strtab::00001bae",
+        "length": 56,
+        "value": "_ZN18CUtlCharConversionC1EcPKciPNS_17ConversionArray_tE"
+    },
+    {
+        "address": ".strtab::00001be6",
+        "length": 18,
+        "value": "s_NoEscConversion"
+    },
+    {
+        "address": ".strtab::00001bf8",
+        "length": 28,
+        "value": "_ZN10CUtlMemoryIhiE5PurgeEv"
+    },
+    {
+        "address": ".strtab::00001c14",
+        "length": 25,
+        "value": "_Z19Q_UChar32ToUTF16Lenw"
+    },
+    {
+        "address": ".strtab::00001c2d",
+        "length": 22,
+        "value": "_Z15V_StripFilenamePc"
+    },
+    {
+        "address": ".strtab::00001c43",
+        "length": 77,
+        "value": "_ZN21CUtlCStringConversionC2EcPKciPN18CUtlCharConversion17ConversionArray_tE"
+    },
+    {
+        "address": ".strtab::00001c90",
+        "length": 30,
+        "value": "_ZN12InterfaceRegC2EPFPvvEPKc"
+    },
+    {
+        "address": ".strtab::00001cae",
+        "length": 48,
+        "value": "_ZNK18CUtlCharConversion19GetConversionLengthEc"
+    },
+    {
+        "address": ".strtab::00001cde",
+        "length": 32,
+        "value": "_Z18V_MakeRelativePathPKcS0_Pci"
+    },
+    {
+        "address": ".strtab::00001cfe",
+        "length": 23,
+        "value": "_Z15Q_UnicodeLengthPKw"
+    },
+    {
+        "address": ".strtab::00001d15",
+        "length": 31,
+        "value": "_ZN10CUtlBuffer11IsBigEndianEv"
+    },
+    {
+        "address": ".strtab::00001d34",
+        "length": 22,
+        "value": "_Z14V_StripLastDirPci"
+    },
+    {
+        "address": ".strtab::00001d4a",
+        "length": 30,
+        "value": "_Unwind_FindEnclosingFunction"
+    },
+    {
+        "address": ".strtab::00001d68",
+        "length": 22,
+        "value": "__x86.get_pc_thunk.bx"
+    },
+    {
+        "address": ".strtab::00001d7e",
+        "length": 41,
+        "value": "_Z30StringAfterPrefixCaseSensitivePKcS0_"
+    },
+    {
+        "address": ".strtab::00001da7",
+        "length": 45,
+        "value": "_ZN10CUtlBuffer16SetOverflowFuncsEMS_FbiES1_"
+    },
+    {
+        "address": ".strtab::00001dd4",
+        "length": 20,
+        "value": "_Z12V_pretifymemfib"
+    },
+    {
+        "address": ".strtab::00001de8",
+        "length": 41,
+        "value": "_ZN10CUtlBuffer17SetExternalBufferEPviii"
+    },
+    {
+        "address": ".strtab::00001e11",
+        "length": 26,
+        "value": "_Z18V_GetFileExtensionPKc"
+    },
+    {
+        "address": ".strtab::00001e2b",
+        "length": 40,
+        "value": "_ZTI14CBaseAppSystemI15ISceneFileCacheE"
+    },
+    {
+        "address": ".strtab::00001e53",
+        "length": 12,
+        "value": "__TMC_END__"
+    },
+    {
+        "address": ".strtab::00001e5f",
+        "length": 22,
+        "value": "_Z10V_StrRightPKciPci"
+    },
+    {
+        "address": ".strtab::00001e75",
+        "length": 77,
+        "value": "_ZN21CUtlCStringConversionC1EcPKciPN18CUtlCharConversion17ConversionArray_tE"
+    },
+    {
+        "address": ".strtab::00001ec2",
+        "length": 26,
+        "value": "_Z15V_FixupPathNamePcjPKc"
+    },
+    {
+        "address": ".strtab::00001edc",
+        "length": 43,
+        "value": "_ZN10CUtlBuffer21CheckArbitraryPeekGetEiRi"
+    },
+    {
+        "address": ".strtab::00001f07",
+        "length": 28,
+        "value": "__register_frame_info_bases"
+    },
+    {
+        "address": ".strtab::00001f23",
+        "length": 59,
+        "value": "_ZN10CUtlVectorIPc10CUtlMemoryIS0_iEE12InsertBeforeEiRKS0_"
+    },
+    {
+        "address": ".strtab::00001f5e",
+        "length": 24,
+        "value": "_ZN10CUtlBufferC1EPKvii"
+    },
+    {
+        "address": ".strtab::00001f76",
+        "length": 11,
+        "value": "filesystem"
+    },
+    {
+        "address": ".strtab::00001f81",
+        "length": 13,
+        "value": "__dso_handle"
+    },
+    {
+        "address": ".strtab::00001f8e",
+        "length": 21,
+        "value": "_Z9_V_memsetPKciPvii"
+    },
+    {
+        "address": ".strtab::00001fa3",
+        "length": 25,
+        "value": "_Z13V_binarytohexPKhiPci"
+    },
+    {
+        "address": ".strtab::00001fbc",
+        "length": 29,
+        "value": "_Z21V_GetCurrentDirectoryPci"
+    },
+    {
+        "address": ".strtab::00001fd9",
+        "length": 18,
+        "value": "_Z9V_stristrPcPKc"
+    },
+    {
+        "address": ".strtab::00001feb",
+        "length": 40,
+        "value": "_ZTS14CBaseAppSystemI15ISceneFileCacheE"
+    },
+    {
+        "address": ".strtab::00002013",
+        "length": 31,
+        "value": "_ZN10CUtlBuffer11GetOverflowEi"
+    },
+    {
+        "address": ".strtab::00002032",
+        "length": 62,
+        "value": "_Z14V_SplitString2PKcPS0_iR10CUtlVectorIPc10CUtlMemoryIS3_iEE"
+    },
+    {
+        "address": ".strtab::00002070",
+        "length": 51,
+        "value": "_Z13Q_UTF8ToUTF32PKcPwi25EStringConvertErrorPolicy"
+    },
+    {
+        "address": ".strtab::000020a3",
+        "length": 31,
+        "value": "_ZN10CUtlBuffer11PutOverflowEi"
+    },
+    {
+        "address": ".strtab::000020c2",
+        "length": 25,
+        "value": "_ZN10CUtlBuffer4SwapERS_"
+    },
+    {
+        "address": ".strtab::000020db",
+        "length": 24,
+        "value": "_Unwind_DeleteException"
+    },
+    {
+        "address": ".strtab::000020f3",
+        "length": 29,
+        "value": "_Z22V_normalizeFloatStringPc"
+    },
+    {
+        "address": ".strtab::00002110",
+        "length": 41,
+        "value": "_ZNK18CUtlCharConversion12GetDelimiterEv"
+    },
+    {
+        "address": ".strtab::00002139",
+        "length": 33,
+        "value": "_Z23CreateInterfaceInternalPKcPi"
+    },
+    {
+        "address": ".strtab::0000215a",
+        "length": 31,
+        "value": "_Z17V_ComposeFileNamePKcS0_Pci"
+    },
+    {
+        "address": ".strtab::00002179",
+        "length": 25,
+        "value": "_ZN15CSceneFileCacheD1Ev"
+    },
+    {
+        "address": ".strtab::00002192",
+        "length": 34,
+        "value": "_ZN10CUtlBuffer14PeekLineLengthEv"
+    },
+    {
+        "address": ".strtab::000021b4",
+        "length": 22,
+        "value": "_Z10V_strtowcsPKciPwi"
+    },
+    {
+        "address": ".strtab::000021ca",
+        "length": 24,
+        "value": "_Z16Q_UnicodeAdvancePwi"
+    },
+    {
+        "address": ".strtab::000021e2",
+        "length": 30,
+        "value": "_ZN15CSceneFileCache6ReloadEv"
+    },
+    {
+        "address": ".strtab::00002200",
+        "length": 23,
+        "value": "_Unwind_GetTextRelBase"
+    },
+    {
+        "address": ".strtab::00002217",
+        "length": 25,
+        "value": "_Z17Q_UnicodeValidatePKw"
+    },
+    {
+        "address": ".strtab::00002230",
+        "length": 28,
+        "value": "_ZTS21CUtlCStringConversion"
+    },
+    {
+        "address": ".strtab::0000224c",
+        "length": 24,
+        "value": "_Z9_V_memcmpPKciPKvS2_i"
+    },
+    {
+        "address": ".strtab::00002264",
+        "length": 15,
+        "value": "_Z8V_atoi64PKc"
+    },
+    {
+        "address": ".strtab::00002273",
+        "length": 34,
+        "value": "_ZN10CUtlBuffer14EnsureCapacityEi"
+    },
+    {
+        "address": ".strtab::00002295",
+        "length": 32,
+        "value": "_Z18V_MakeAbsolutePathPciPKcS1_"
+    },
+    {
+        "address": ".strtab::000022b5",
+        "length": 13,
+        "value": "_Z6V_atofPKc"
+    },
+    {
+        "address": ".strtab::000022c2",
+        "length": 14,
+        "value": "_Unwind_SetIP"
+    },
+    {
+        "address": ".strtab::000022d0",
+        "length": 31,
+        "value": "_ZN16CDllDemandLoader6UnloadEv"
+    },
+    {
+        "address": ".strtab::000022ef",
+        "length": 56,
+        "value": "_ZN18CUtlCharConversionC2EcPKciPNS_17ConversionArray_tE"
+    },
+    {
+        "address": ".strtab::00002327",
+        "length": 20,
+        "value": "_Z11AllocStringPKci"
+    },
+    {
+        "address": ".strtab::0000233b",
+        "length": 38,
+        "value": "_ZN10CUtlBuffer10ParseTokenEPKcS1_Pci"
+    },
+    {
+        "address": ".strtab::00002361",
+        "length": 42,
+        "value": "_ZN10CUtlBuffer7SeekGetENS_10SeekType_tEi"
+    },
+    {
+        "address": ".strtab::0000238b",
+        "length": 45,
+        "value": "_Z38Q_StripPrecedingAndTrailingWhitespaceWPw"
+    },
+    {
+        "address": ".strtab::000023b8",
+        "length": 24,
+        "value": "_Z13_V_UCS2ToUTF8PKtPci"
+    },
+    {
+        "address": ".strtab::000023d0",
+        "length": 32,
+        "value": "_Z19Q_URLDecodeInternalPciPKcib"
+    },
+    {
+        "address": ".strtab::000023f0",
+        "length": 20,
+        "value": "_Z9V_wcsncatPwPKwji"
+    },
+    {
+        "address": ".strtab::00002404",
+        "length": 65,
+        "value": "_ZN15CSceneFileCache18GetSceneCachedDataEPKcP17SceneCachedData_t"
+    },
+    {
+        "address": ".strtab::00002445",
+        "length": 33,
+        "value": "_Z27Sys_RunningWithDebugModulesv"
+    },
+    {
+        "address": ".strtab::00002466",
+        "length": 43,
+        "value": "_ZN15CSceneFileCache16FindSceneInImageEPKc"
+    },
+    {
+        "address": ".strtab::00002491",
+        "length": 22,
+        "value": "_Z16Q_IsValidUChar32w"
+    },
+    {
+        "address": ".strtab::000024a7",
+        "length": 51,
+        "value": "_Z13Q_UTF32ToUTF8PKwPci25EStringConvertErrorPolicy"
+    },
+    {
+        "address": ".strtab::000024da",
+        "length": 23,
+        "value": "_Z15GetModuleHandlePKc"
+    },
+    {
+        "address": ".strtab::000024f1",
+        "length": 25,
+        "value": "_Z19CRC32_GetTableEntryj"
+    },
+    {
+        "address": ".strtab::0000250a",
+        "length": 20,
+        "value": "_Z12V_FixSlashesPcc"
+    },
+    {
+        "address": ".strtab::0000251e",
+        "length": 24,
+        "value": "_ZN10CUtlBuffer3GetEPvi"
+    },
+    {
+        "address": ".strtab::00002536",
+        "length": 32,
+        "value": "_Z25Q_RemoveAllEvilCharactersPc"
+    },
+    {
+        "address": ".strtab::00002556",
+        "length": 26,
+        "value": "_ZTV19CUtlNoEscConversion"
+    },
+    {
+        "address": ".strtab::00002570",
+        "length": 34,
+        "value": "_ZN10CUtlBuffer14PeekWhiteSpaceEi"
+    },
+    {
+        "address": ".strtab::00002592",
+        "length": 56,
+        "value": "_ZN10CUtlBuffer16GetDelimitedCharEP18CUtlCharConversion"
+    },
+    {
+        "address": ".strtab::000025ca",
+        "length": 46,
+        "value": "_ZN18CUtlCharConversion14FindConversionEPKcPi"
+    },
+    {
+        "address": ".strtab::000025f8",
+        "length": 27,
+        "value": "_Z20V_StripTrailingSlashPc"
+    },
+    {
+        "address": ".strtab::00002613",
+        "length": 48,
+        "value": "_ZN17CUtlInplaceBuffer17InplaceGetLinePtrEPPcPi"
+    },
+    {
+        "address": ".strtab::00002643",
+        "length": 17,
+        "value": "__register_frame"
+    },
+    {
+        "address": ".strtab::00002654",
+        "length": 23,
+        "value": "_Z15Q_UChar32ToUTF8wPc"
+    },
+    {
+        "address": ".strtab::0000266b",
+        "length": 49,
+        "value": "_ZN21CUtlCStringConversion14FindConversionEPKcPi"
+    },
+    {
+        "address": ".strtab::0000269c",
+        "length": 21,
+        "value": "_Z13V_AppendSlashPci"
+    },
+    {
+        "address": ".strtab::000026b1",
+        "length": 27,
+        "value": "_Z16_V_UCS2ToUnicodePKtPwi"
+    },
+    {
+        "address": ".strtab::000026cc",
+        "length": 58,
+        "value": "_Z19Q_UTF32CharsToUTF16PKwiPti25EStringConvertErrorPolicy"
+    },
+    {
+        "address": ".strtab::00002706",
+        "length": 26,
+        "value": "_ZN16CDllDemandLoaderD1Ev"
+    },
+    {
+        "address": ".strtab::00002720",
+        "length": 52,
+        "value": "_Z14Q_UTF16ToUTF32PKtPwi25EStringConvertErrorPolicy"
+    },
+    {
+        "address": ".strtab::00002754",
+        "length": 29,
+        "value": "_Z21V_UnqualifiedFileNamePKc"
+    },
+    {
+        "address": ".strtab::00002771",
+        "length": 20,
+        "value": "_Z9V_strncatPcPKcji"
+    },
+    {
+        "address": ".strtab::00002785",
+        "length": 27,
+        "value": "_ZN10CUtlMemoryIhiE4GrowEi"
+    },
+    {
+        "address": ".strtab::000027a0",
+        "length": 20,
+        "value": "_Z9_V_wcslenPKciPKw"
+    },
+    {
+        "address": ".strtab::000027b4",
+        "length": 28,
+        "value": "_ZN5CLZMA10UncompressEPhS0_"
+    },
+    {
+        "address": ".strtab::000027d0",
+        "length": 33,
+        "value": "_Z22V_ExtractFileExtensionPKcPci"
+    },
+    {
+        "address": ".strtab::000027f1",
+        "length": 44,
+        "value": "_ZN17CUtlInplaceBuffer17InplaceGetLinePtrEv"
+    },
+    {
+        "address": ".strtab::0000281d",
+        "length": 22,
+        "value": "_Z10V_strnistrPKcS0_i"
+    },
+    {
+        "address": ".strtab::00002833",
+        "length": 41,
+        "value": "_Z29BGetLocalFormattedDateAndTimelPciS_i"
+    },
+    {
+        "address": ".strtab::0000285c",
+        "length": 28,
+        "value": "_Z17StringAfterPrefixPKcS0_"
+    },
+    {
+        "address": ".strtab::00002878",
+        "length": 32,
+        "value": "_ZN15CSceneFileCache8ShutdownEv"
+    },
+    {
+        "address": ".strtab::00002898",
+        "length": 23,
+        "value": "s_StringCharConversion"
+    },
+    {
+        "address": ".strtab::000028af",
+        "length": 28,
+        "value": "_Z22GetNoEscCharConversionv"
+    },
+    {
+        "address": ".strtab::000028cb",
+        "length": 18,
+        "value": "__frame_state_for"
+    },
+    {
+        "address": ".strtab::000028dd",
+        "length": 29,
+        "value": "_ZN17CUtlInplaceBufferC2Eiii"
+    },
+    {
+        "address": ".strtab::000028fa",
+        "length": 21,
+        "value": "_Unwind_ForcedUnwind"
+    },
+    {
+        "address": ".strtab::0000290f",
+        "length": 29,
+        "value": "_ZN10CUtlBuffer8GetTokenEPKc"
+    },
+    {
+        "address": ".strtab::0000292c",
+        "length": 18,
+        "value": "_Z9V_strnchrPKcci"
+    },
+    {
+        "address": ".strtab::0000293e",
+        "length": 22,
+        "value": "_ZTS15ISceneFileCache"
+    },
+    {
+        "address": ".strtab::00002954",
+        "length": 24,
+        "value": "_Z16Q_UnicodeAdvancePci"
+    },
+    {
+        "address": ".strtab::0000296c",
+        "length": 33,
+        "value": "_Z15Sys_LoadLibraryPKc9Sys_Flags"
+    },
+    {
+        "address": ".strtab::0000298d",
+        "length": 19,
+        "value": "_Z13iHexCharToIntc"
+    },
+    {
+        "address": ".strtab::000029a0",
+        "length": 31,
+        "value": "_Z9V_qsort_sPvjjPFiS_PKvS1_ES_"
+    },
+    {
+        "address": ".strtab::000029bf",
+        "length": 24,
+        "value": "_ZN10CUtlBufferC2EPKvii"
+    },
+    {
+        "address": ".strtab::000029d7",
+        "length": 17,
+        "value": "_Z10CRC64_InitPy"
+    },
+    {
+        "address": ".strtab::000029e8",
+        "length": 57,
+        "value": "_Z18Q_UTF32CharsToUTF8PKwiPci25EStringConvertErrorPolicy"
+    },
+    {
+        "address": ".strtab::00002a21",
+        "length": 55,
+        "value": "_Z48Q_AggressiveStripPrecedingAndTrailingWhitespaceWPw"
+    },
+    {
+        "address": ".strtab::00002a58",
+        "length": 47,
+        "value": "_ZNK18CUtlCharConversion18GetDelimiterLengthEv"
+    },
+    {
+        "address": ".strtab::00002a87",
+        "length": 22,
+        "value": "_ZTV15CSceneFileCache"
+    },
+    {
+        "address": ".strtab::00002a9d",
+        "length": 22,
+        "value": "_Z10V_strnicmpPKcS0_i"
+    },
+    {
+        "address": ".strtab::00002ab3",
+        "length": 23,
+        "value": "_ZTV16CDllDemandLoader"
+    },
+    {
+        "address": ".strtab::00002aca",
+        "length": 28,
+        "value": "_ZN10CUtlBuffer6PrintfEPKcz"
+    },
+    {
+        "address": ".strtab::00002ae6",
+        "length": 26,
+        "value": "_Z18V_RemoveDotSlashesPcc"
+    },
+    {
+        "address": ".strtab::00002b00",
+        "length": 19,
+        "value": "_Z9V_strncpyPcPKcj"
+    },
+    {
+        "address": ".strtab::00002b13",
+        "length": 37,
+        "value": "_ZN12InterfaceReg16s_pInterfaceRegsE"
+    },
+    {
+        "address": ".strtab::00002b38",
+        "length": 23,
+        "value": "_Unwind_GetDataRelBase"
+    },
+    {
+        "address": ".strtab::00002b4f",
+        "length": 27,
+        "value": "_ZN10CUtlBuffer8CheckPutEi"
+    },
+    {
+        "address": ".strtab::00002b6a",
+        "length": 27,
+        "value": "_ZN10CUtlBuffer8CheckGetEi"
+    },
+    {
+        "address": ".strtab::00002b85",
+        "length": 42,
+        "value": "_ZN10CUtlBuffer7SeekPutENS_10SeekType_tEi"
+    },
+    {
+        "address": ".strtab::00002baf",
+        "length": 28,
+        "value": "_ZTV21CUtlCStringConversion"
+    },
+    {
+        "address": ".strtab::00002bcb",
+        "length": 23,
+        "value": "_Unwind_GetRegionStart"
+    },
+    {
+        "address": ".strtab::00002be2",
+        "length": 24,
+        "value": "_Z18Q_UChar32ToUTF8Lenw"
+    },
+    {
+        "address": ".strtab::00002bfa",
+        "length": 25,
+        "value": "_Z18V_FixDoubleSlashesPc"
+    },
+    {
+        "address": ".strtab::00002c13",
+        "length": 45,
+        "value": "_ZN15CSceneFileCache19GetSceneCachedSoundEii"
+    },
+    {
+        "address": ".strtab::00002c40",
+        "length": 20,
+        "value": "_Z9V_strncmpPKcS0_i"
+    },
+    {
+        "address": ".strtab::00002c54",
+        "length": 25,
+        "value": "_Z17Q_UnicodeValidatePKt"
+    },
+    {
+        "address": ".strtab::00002c6d",
+        "length": 26,
+        "value": "_ZN16CDllDemandLoaderD0Ev"
+    },
+    {
+        "address": ".strtab::00002c87",
+        "length": 18,
+        "value": "_Z11CRC32_FinalPj"
+    },
+    {
+        "address": ".strtab::00002c99",
+        "length": 14,
+        "value": "_Unwind_SetGR"
+    },
+    {
+        "address": ".strtab::00002ca7",
+        "length": 23,
+        "value": "_Z11Q_URLDecodePciPKci"
+    },
+    {
+        "address": ".strtab::00002cbe",
+        "length": 48,
+        "value": "_Z10LzmaDecodeP18_CLzmaDecoderStatePKhjPjPhjS3_"
+    },
+    {
+        "address": ".strtab::00002cee",
+        "length": 21,
+        "value": "_Z10V_FileBasePKcPci"
+    },
+    {
+        "address": ".strtab::00002d03",
+        "length": 22,
+        "value": "_ZTI15CSceneFileCache"
+    },
+    {
+        "address": ".strtab::00002d19",
+        "length": 22,
+        "value": "_Z9_V_strcpyPKciPcS0_"
+    },
+    {
+        "address": ".strtab::00002d2f",
+        "length": 8,
+        "value": "qsort_s"
+    },
+    {
+        "address": ".strtab::00002d37",
+        "length": 28,
+        "value": "_ZN15CSceneFileCache4InitEv"
+    },
+    {
+        "address": ".strtab::00002d53",
+        "length": 17,
+        "value": "_Unwind_Find_FDE"
+    },
+    {
+        "address": ".strtab::00002d64",
+        "length": 13,
+        "value": "_Z6V_atoiPKc"
+    },
+    {
+        "address": ".strtab::00002d71",
+        "length": 22,
+        "value": "_Z10V_snprintfPciPKcz"
+    },
+    {
+        "address": ".strtab::00002d87",
+        "length": 23,
+        "value": "_Z11Q_nexttokenPcPKccj"
+    },
+    {
+        "address": ".strtab::00002d9e",
+        "length": 20,
+        "value": "_Z9V_StrLeftPKciPci"
+    },
+    {
+        "address": ".strtab::00002db2",
+        "length": 53,
+        "value": "_ZN15CSceneFileCache21GetSceneDataFromImageEPKciPhPj"
+    },
+    {
+        "address": ".strtab::00002de7",
+        "length": 32,
+        "value": "_Z14Sys_LoadModulePKc9Sys_Flags"
+    },
+    {
+        "address": ".strtab::00002e07",
+        "length": 32,
+        "value": "_Z19Q_URLEncodeInternalPciPKcib"
+    },
+    {
+        "address": ".strtab::00002e27",
+        "length": 27,
+        "value": "_ZN5CLZMA12IsCompressedEPh"
+    },
+    {
+        "address": ".strtab::00002e42",
+        "length": 25,
+        "value": "_Z13V_hextobinaryPKciPhi"
+    },
+    {
+        "address": ".strtab::00002e5b",
+        "length": 30,
+        "value": "_Z19CRC64_ProcessBufferPyPKvi"
+    },
+    {
+        "address": ".strtab::00002e79",
+        "length": 18,
+        "value": "_Unwind_GetIPInfo"
+    },
+    {
+        "address": ".strtab::00002e8b",
+        "length": 28,
+        "value": "_ZN16CDllDemandLoaderC2EPKc"
+    },
+    {
+        "address": ".strtab::00002ea7",
+        "length": 14,
+        "value": "_Unwind_GetIP"
+    },
+    {
+        "address": ".strtab::00002eb5",
+        "length": 30,
+        "value": "_Z24GetCStringCharConversionv"
+    },
+    {
+        "address": ".strtab::00002ed3",
+        "length": 31,
+        "value": "_Z22BGetLocalFormattedDatelPci"
+    },
+    {
+        "address": ".strtab::00002ef2",
+        "length": 27,
+        "value": "_Z15Q_UTF8ToUChar32PKcRwRb"
+    },
+    {
+        "address": ".strtab::00002f0d",
+        "length": 16,
+        "value": "_Z9V_strnlwrPcj"
+    },
+    {
+        "address": ".strtab::00002f1d",
+        "length": 22,
+        "value": "__x86.get_pc_thunk.cx"
+    },
+    {
+        "address": ".strtab::00002f33",
+        "length": 23,
+        "value": "_Z11Q_URLEncodePciPKci"
+    },
+    {
+        "address": ".strtab::00002f4a",
+        "length": 28,
+        "value": "_ZTI21CUtlCStringConversion"
+    },
+    {
+        "address": ".strtab::00002f66",
+        "length": 40,
+        "value": "_ZN15CSceneFileCache7ConnectEPFPvPKcPiE"
+    },
+    {
+        "address": ".strtab::00002f8e",
+        "length": 17,
+        "value": "_Z10V_strlowerPc"
+    },
+    {
+        "address": ".strtab::00002f9f",
+        "length": 24,
+        "value": "_Z16Q_UnicodeAdvancePti"
+    },
+    {
+        "address": ".strtab::00002fb7",
+        "length": 35,
+        "value": "_ZN15CSceneFileCache10DisconnectEv"
+    },
+    {
+        "address": ".strtab::00002fda",
+        "length": 22,
+        "value": "_ZTS15CSceneFileCache"
+    },
+    {
+        "address": ".strtab::00002ff0",
+        "length": 28,
+        "value": "_ZN10CUtlBuffer7GetUpToEPvi"
+    },
+    {
+        "address": ".strtab::0000300c",
+        "length": 22,
+        "value": "_Z10V_wcstostrPKwiPci"
+    },
+    {
+        "address": ".strtab::00003022",
+        "length": 29,
+        "value": "_Z14V_vsnprintfRetPciPKcS_Pb"
+    },
+    {
+        "address": ".strtab::0000303f",
+        "length": 23,
+        "value": "_Z9_V_strcmpPKciS0_S0_"
+    },
+    {
+        "address": ".strtab::00003056",
+        "length": 38,
+        "value": "_ZN10CUtlBuffer18AddNullTerminationEv"
+    },
+    {
+        "address": ".strtab::0000307c",
+        "length": 51,
+        "value": "_Z13Q_UTF8ToUTF16PKcPti25EStringConvertErrorPolicy"
+    },
+    {
+        "address": ".strtab::000030af",
+        "length": 19,
+        "value": "_Z9V_stristrPKcS0_"
+    },
+    {
+        "address": ".strtab::000030c2",
+        "length": 50,
+        "value": "_ZN14CBaseAppSystemI15ISceneFileCacheE8ShutdownEv"
+    },
+    {
+        "address": ".strtab::000030f4",
+        "length": 9,
+        "value": "_DYNAMIC"
+    },
+    {
+        "address": ".strtab::000030fd",
+        "length": 54,
+        "value": "_Z47Q_AggressiveStripPrecedingAndTrailingWhitespacePc"
+    },
+    {
+        "address": ".strtab::00003133",
+        "length": 66,
+        "value": "_ZN10CUtlBuffer25PeekDelimitedStringLengthEP18CUtlCharConversionb"
+    },
+    {
+        "address": ".strtab::00003175",
+        "length": 24,
+        "value": "__deregister_frame_info"
+    },
+    {
+        "address": ".strtab::0000318d",
+        "length": 48,
+        "value": "_ZNK18CUtlCharConversion19GetConversionStringEc"
+    },
+    {
+        "address": ".strtab::000031bd",
+        "length": 29,
+        "value": "_Z18V_DefaultExtensionPcPKci"
+    },
+    {
+        "address": ".strtab::000031da",
+        "length": 17,
+        "value": "abort@@GLIBC_2.0"
+    },
+    {
+        "address": ".strtab::000031eb",
+        "length": 15,
+        "value": "Plat_localtime"
+    },
+    {
+        "address": ".strtab::000031fa",
+        "length": 26,
+        "value": "__cxa_atexit@@GLIBC_2.1.3"
+    },
+    {
+        "address": ".strtab::00003214",
+        "length": 18,
+        "value": "memcmp@@GLIBC_2.0"
+    },
+    {
+        "address": ".strtab::00003226",
+        "length": 19,
+        "value": "wcsncat@@GLIBC_2.0"
+    },
+    {
+        "address": ".strtab::00003239",
+        "length": 4,
+        "value": "Msg"
+    },
+    {
+        "address": ".strtab::0000323d",
+        "length": 15,
+        "value": "__gmon_start__"
+    },
+    {
+        "address": ".strtab::0000324c",
+        "length": 20,
+        "value": "_Jv_RegisterClasses"
+    },
+    {
+        "address": ".strtab::00003260",
+        "length": 22,
+        "value": "iconv_open@@GLIBC_2.1"
+    },
+    {
+        "address": ".strtab::00003276",
+        "length": 20,
+        "value": "_ZdlPv@@GLIBCXX_3.4"
+    },
+    {
+        "address": ".strtab::0000328a",
+        "length": 19,
+        "value": "isspace@@GLIBC_2.0"
+    },
+    {
+        "address": ".strtab::0000329d",
+        "length": 18,
+        "value": "strtod@@GLIBC_2.0"
+    },
+    {
+        "address": ".strtab::000032af",
+        "length": 18,
+        "value": "strchr@@GLIBC_2.0"
+    },
+    {
+        "address": ".strtab::000032c1",
+        "length": 21,
+        "value": "vsnprintf@@GLIBC_2.0"
+    },
+    {
+        "address": ".strtab::000032d6",
+        "length": 6,
+        "value": "_fini"
+    },
+    {
+        "address": ".strtab::000032dc",
+        "length": 18,
+        "value": "wcslen@@GLIBC_2.0"
+    },
+    {
+        "address": ".strtab::000032ee",
+        "length": 15,
+        "value": "pow@@GLIBC_2.0"
+    },
+    {
+        "address": ".strtab::000032fd",
+        "length": 19,
+        "value": "dlclose@@GLIBC_2.0"
+    },
+    {
+        "address": ".strtab::00003310",
+        "length": 18,
+        "value": "memset@@GLIBC_2.0"
+    },
+    {
+        "address": ".strtab::00003322",
+        "length": 16,
+        "value": "CreateInterface"
+    },
+    {
+        "address": ".strtab::00003332",
+        "length": 13,
+        "value": "pthread_once"
+    },
+    {
+        "address": ".strtab::0000333f",
+        "length": 28,
+        "value": "_ITM_deregisterTMCloneTable"
+    },
+    {
+        "address": ".strtab::0000335b",
+        "length": 18,
+        "value": "strtol@@GLIBC_2.0"
+    },
+    {
+        "address": ".strtab::0000336d",
+        "length": 31,
+        "value": "__ctype_toupper_loc@@GLIBC_2.3"
+    },
+    {
+        "address": ".strtab::0000338c",
+        "length": 16,
+        "value": "free@@GLIBC_2.0"
+    },
+    {
+        "address": ".strtab::0000339c",
+        "length": 26,
+        "value": "_ITM_registerTMCloneTable"
+    },
+    {
+        "address": ".strtab::000033b6",
+        "length": 17,
+        "value": "dlsym@@GLIBC_2.0"
+    },
+    {
+        "address": ".strtab::000033c7",
+        "length": 25,
+        "value": "__ctype_b_loc@@GLIBC_2.3"
+    },
+    {
+        "address": ".strtab::000033e0",
+        "length": 32,
+        "value": "pthread_mutex_unlock@@GLIBC_2.0"
+    },
+    {
+        "address": ".strtab::00003400",
+        "length": 50,
+        "value": "_ZTVN10__cxxabiv117__class_type_infoE@@CXXABI_1.3"
+    },
+    {
+        "address": ".strtab::00003432",
+        "length": 20,
+        "value": "mbstowcs@@GLIBC_2.0"
+    },
+    {
+        "address": ".strtab::00003446",
+        "length": 12,
+        "value": "g_pMemAlloc"
+    },
+    {
+        "address": ".strtab::00003452",
+        "length": 18,
+        "value": "memcpy@@GLIBC_2.0"
+    },
+    {
+        "address": ".strtab::00003464",
+        "length": 6,
+        "value": "Error"
+    },
+    {
+        "address": ".strtab::0000346a",
+        "length": 19,
+        "value": "strtoul@@GLIBC_2.0"
+    },
+    {
+        "address": ".strtab::0000347d",
+        "length": 18,
+        "value": "strlen@@GLIBC_2.0"
+    },
+    {
+        "address": ".strtab::0000348f",
+        "length": 17,
+        "value": "iconv@@GLIBC_2.1"
+    },
+    {
+        "address": ".strtab::000034a0",
+        "length": 18,
+        "value": "strcpy@@GLIBC_2.0"
+    },
+    {
+        "address": ".strtab::000034b2",
+        "length": 18,
+        "value": "dlopen@@GLIBC_2.1"
+    },
+    {
+        "address": ".strtab::000034c4",
+        "length": 18,
+        "value": "printf@@GLIBC_2.0"
+    },
+    {
+        "address": ".strtab::000034d6",
+        "length": 17,
+        "value": "chdir@@GLIBC_2.0"
+    },
+    {
+        "address": ".strtab::000034e7",
+        "length": 19,
+        "value": "wcsncpy@@GLIBC_2.0"
+    },
+    {
+        "address": ".strtab::000034fa",
+        "length": 20,
+        "value": "iswspace@@GLIBC_2.0"
+    },
+    {
+        "address": ".strtab::0000350e",
+        "length": 22,
+        "value": "strcasecmp@@GLIBC_2.0"
+    },
+    {
+        "address": ".strtab::00003524",
+        "length": 19,
+        "value": "_Znaj@@GLIBCXX_3.4"
+    },
+    {
+        "address": ".strtab::00003537",
+        "length": 18,
+        "value": "strstr@@GLIBC_2.0"
+    },
+    {
+        "address": ".strtab::00003549",
+        "length": 16,
+        "value": "time@@GLIBC_2.0"
+    },
+    {
+        "address": ".strtab::00003559",
+        "length": 19,
+        "value": "strncat@@GLIBC_2.0"
+    },
+    {
+        "address": ".strtab::0000356c",
+        "length": 12,
+        "value": "__bss_start"
+    },
+    {
+        "address": ".strtab::00003578",
+        "length": 18,
+        "value": "malloc@@GLIBC_2.0"
+    },
+    {
+        "address": ".strtab::0000358a",
+        "length": 30,
+        "value": "pthread_mutex_lock@@GLIBC_2.0"
+    },
+    {
+        "address": ".strtab::000035a8",
+        "length": 53,
+        "value": "_ZTVN10__cxxabiv120__si_class_type_infoE@@CXXABI_1.3"
+    },
+    {
+        "address": ".strtab::000035dd",
+        "length": 28,
+        "value": "__stack_chk_fail@@GLIBC_2.4"
+    },
+    {
+        "address": ".strtab::000035f9",
+        "length": 23,
+        "value": "iconv_close@@GLIBC_2.1"
+    },
+    {
+        "address": ".strtab::00003610",
+        "length": 19,
+        "value": "dlerror@@GLIBC_2.0"
+    },
+    {
+        "address": ".strtab::00003623",
+        "length": 21,
+        "value": "__pthread_key_create"
+    },
+    {
+        "address": ".strtab::00003638",
+        "length": 21,
+        "value": "vswprintf@@GLIBC_2.2"
+    },
+    {
+        "address": ".strtab::0000364d",
+        "length": 23,
+        "value": "strncasecmp@@GLIBC_2.0"
+    },
+    {
+        "address": ".strtab::00003664",
+        "length": 19,
+        "value": "memmove@@GLIBC_2.0"
+    },
+    {
+        "address": ".strtab::00003677",
+        "length": 31,
+        "value": "__ctype_tolower_loc@@GLIBC_2.3"
+    },
+    {
+        "address": ".strtab::00003696",
+        "length": 20,
+        "value": "towlower@@GLIBC_2.0"
+    },
+    {
+        "address": ".strtab::000036aa",
+        "length": 18,
+        "value": "getcwd@@GLIBC_2.0"
+    },
+    {
+        "address": ".strtab::000036bc",
+        "length": 5,
+        "value": "_end"
+    },
+    {
+        "address": ".strtab::000036c1",
+        "length": 20,
+        "value": "wcstombs@@GLIBC_2.0"
+    },
+    {
+        "address": ".strtab::000036d5",
+        "length": 20,
+        "value": "strftime@@GLIBC_2.0"
+    },
+    {
+        "address": ".strtab::000036e9",
+        "length": 29,
+        "value": "dl_iterate_phdr@@GLIBC_2.2.4"
+    },
+    {
+        "address": ".strtab::00003706",
+        "length": 22,
+        "value": "Plat_IsInDebugSession"
+    },
+    {
+        "address": ".strtab::0000371c",
+        "length": 7,
+        "value": "_edata"
+    },
+    {
+        "address": ".strtab::00003723",
+        "length": 33,
+        "value": "__gxx_personality_v0@@CXXABI_1.3"
+    },
+    {
+        "address": ".strtab::00003744",
+        "length": 19,
+        "value": "tolower@@GLIBC_2.0"
+    },
+    {
+        "address": ".strtab::00003757",
+        "length": 18,
+        "value": "strcmp@@GLIBC_2.0"
+    },
+    {
+        "address": ".strtab::00003769",
+        "length": 20,
+        "value": "towupper@@GLIBC_2.0"
+    },
+    {
+        "address": ".strtab::0000377d",
+        "length": 28,
+        "value": "__cxa_finalize@@GLIBC_2.1.3"
+    },
+    {
+        "address": ".strtab::00003799",
+        "length": 6,
+        "value": "_init"
+    }
+]

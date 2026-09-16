@@ -1,4 +1,5 @@
 // Generated header
+// Estimated minimum size: 0x94 (148) bytes, no debug info available
 
 class CSoundEmitterSystemBase : public ISoundEmitterSystemBase
 {
@@ -7,7 +8,7 @@ public:
 	virtual void Disconnect(); // vtable[1]
 	virtual void QueryInterface(char *param_1); // vtable[2]
 	virtual void Init(); // vtable[3]
-	virtual void Shutdown() override; // vtable[4]
+	virtual void Shutdown(); // vtable[4]
 	virtual void ModInit(); // vtable[5]
 	virtual void ModShutdown(); // vtable[6]
 	virtual void GetSoundIndex(char *param_1); // vtable[7]
@@ -49,14 +50,14 @@ public:
 	virtual void ReloadSoundEntriesInList(IFileList *param_1); // vtable[43]
 	virtual void AddSoundOverride(char *param_1, char *param_2, CSoundParametersInternal *param_3); // vtable[44]
 	virtual void SetActorGender(char *param_1, gender_t param_2); // vtable[45]
-	virtual void GMOD_ReloadSoundScripts() override; // vtable[46]
+	virtual void GMOD_ReloadSoundScripts(); // vtable[46]
 	virtual ~CSoundEmitterSystemBase(); // vtable[47]
 	virtual ~CSoundEmitterSystemBase(); // vtable[48]
 
 	_GLOBAL__sub_I_CSoundEmitterSystemBase(); // size[119]
 	void AddSoundName(CSoundParametersInternal *param_1, char *param_2, gender_t param_3); // size[106]
 	void TranslateAttenuation(char *param_1); // size[234]
-	void InitSoundInternalParameters(char *param_1, KeyValues *param_2, CSoundParametersInternal *param_3); // size[1546]
+	void InitSoundInternalParameters(char *param_1, KeyValues *param_2, CSoundParametersInternal *param_3); // size[1498]
 	void TranslateSoundLevel(char *param_1); // size[15]
 	void TranslateChannel(char *param_1); // size[15]
 	CSoundEmitterSystemBase(); // size[342]

@@ -1,8 +1,8 @@
 // Generated header
+// Estimated minimum size: 0x4 (4) bytes, no debug info available
 
 class IClientRenderable
 {
 public:
-	virtual void __cxa_pure_virtual(); // vtable[44]
-	virtual void ComputeFxBlendForView(int param_1); // vtable[45]
+	void ComputeFxBlendForView(int param_1); // size[14]
 };

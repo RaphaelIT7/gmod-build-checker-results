@@ -1,4 +1,5 @@
 // Generated header
+// Estimated minimum size: 0x24 (36) bytes, no debug info available
 
 class IVP_SurfaceManager_Polygon : public IVP_SurfaceManager
 {
@@ -10,10 +11,10 @@ public:
 	virtual void get_all_ledges_within_radius(IVP_U_Point *param_1, double param_2, IVP_Compact_Ledge *param_3, IVP_Real_Object *param_4, IVP_Compact_Ledge *param_5, IVP_U_BigVector *param_6); // vtable[4]
 	virtual void get_all_terminal_ledges(IVP_U_BigVector *param_1); // vtable[5]
 	virtual void insert_all_ledges_hitting_ray(IVP_Ray_Solver *param_1, IVP_Real_Object *param_2); // vtable[6]
-	virtual void add_reference_to_ledge(IVP_Compact_Ledge *param_1) override; // vtable[8]
+	virtual void add_reference_to_ledge(IVP_Compact_Ledge *param_1); // vtable[8]
 	virtual ~IVP_SurfaceManager_Polygon(); // vtable[9]
 	virtual ~IVP_SurfaceManager_Polygon(); // vtable[10]
-	virtual void get_type() override; // vtable[11]
+	virtual void get_type(); // vtable[11]
 
 	IVP_SurfaceManager_Polygon(); // size[14]
 	void get_compact_surface(); // size[11]

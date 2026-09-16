@@ -1,4 +1,5 @@
 // Generated header
+// Estimated minimum size: 0x25AC (9644) bytes, no debug info available
 
 class CAI_ActBusyGoal : public CAI_GoalEntity
 {
@@ -17,6 +18,9 @@ public:
 	virtual void NPCLeft(CAI_BaseNPC *param_1); // vtable[258]
 	virtual void NPCLostSeeEntity(CAI_BaseNPC *param_1); // vtable[259]
 	virtual void NPCSeeEnemy(CAI_BaseNPC *param_1); // vtable[260]
+	virtual void OnEntityCreated(CBaseEntity *param_1); // vtable[0]
+	virtual void OnEntitySpawned(CBaseEntity *param_1); // vtable[1]
+	virtual void OnEntityDeleted(CBaseEntity *param_1); // vtable[2]
 
 	void InputSetBusySearchRange(inputdata_t *param_1); // size[287]
 	void GetBaseMap(); // size[10]

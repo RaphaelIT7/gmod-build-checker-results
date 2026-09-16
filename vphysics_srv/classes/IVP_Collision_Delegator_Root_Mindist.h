@@ -1,9 +1,10 @@
 // Generated header
+// Estimated minimum size: 0xC (12) bytes, no debug info available
 
 class IVP_Collision_Delegator_Root_Mindist : public IVP_Collision_Delegator_Root
 {
 public:
-	virtual void collision_is_going_to_be_deleted_event(IVP_Collision *param_1) override; // vtable[0]
+	virtual void collision_is_going_to_be_deleted_event(IVP_Collision *param_1); // vtable[0]
 	virtual ~IVP_Collision_Delegator_Root_Mindist(); // vtable[1]
 	virtual ~IVP_Collision_Delegator_Root_Mindist(); // vtable[2]
 	virtual void change_spawned_mindist_count(int param_1); // vtable[3]

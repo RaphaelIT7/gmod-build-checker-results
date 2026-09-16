@@ -1,4 +1,5 @@
 // Generated header
+// Estimated minimum size: 0x814 (2068) bytes, no debug info available
 
 class PlayerBody : public IBody
 {

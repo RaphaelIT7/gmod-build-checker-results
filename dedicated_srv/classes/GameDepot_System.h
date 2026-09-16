@@ -1,4 +1,5 @@
 // Generated header
+// Estimated minimum size: 0x2C (44) bytes, no debug info available
 
 class GameDepot_System : public IGameDepotSystem
 {
@@ -9,9 +10,9 @@ public:
 	virtual void SetMount(uint param_1, bool param_2); // vtable[3]
 	virtual void MarkGameAsMounted(string *param_1); // vtable[4]
 	virtual void GetList(); // vtable[5]
-	virtual void GetRefreshCount() override; // vtable[6]
+	virtual void GetRefreshCount(); // vtable[6]
 
-	System(); // size[30]
+	System(); // size[23]
 	void FindGame(string *param_1); // size[93]
 	void MountAsSteampipe(Information *param_1, bool param_2); // size[10]
 	void Mount(Information *param_1, bool param_2); // size[48]

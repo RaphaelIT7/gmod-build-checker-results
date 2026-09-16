@@ -1,4 +1,5 @@
 // Generated header
+// Estimated minimum size: 0x148 (328) bytes, no debug info available
 
 class hk_Ragdoll_Constraint : public hk_Constraint
 {

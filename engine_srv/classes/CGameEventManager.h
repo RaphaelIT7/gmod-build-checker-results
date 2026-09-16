@@ -1,4 +1,5 @@
 // Generated header
+// Estimated minimum size: 0x7C (124) bytes, no debug info available
 
 class CGameEventManager : public IGameEventManager2
 {
@@ -16,7 +17,7 @@ public:
 	virtual void DuplicateEvent(IGameEvent *param_1); // vtable[10]
 	virtual void FreeEvent(IGameEvent *param_1); // vtable[11]
 	virtual void SerializeEvent(IGameEvent *param_1, bf_write *param_2); // vtable[12]
-	virtual void UnserializeEvent(bf_read *param_1) override; // vtable[13]
+	virtual void UnserializeEvent(bf_read *param_1); // vtable[13]
 
 	void Init(); // size[61]
 	void Shutdown(); // size[14]
@@ -27,8 +28,8 @@ public:
 	void FindEventListener(void *param_1); // size[51]
 	void ReloadEventDefinitions(); // size[122]
 	void GetEventDescriptor(IGameEvent *param_1); // size[58]
-	void ConPrintEvent(IGameEvent *param_1); // size[288]
-	void FireEventIntern(IGameEvent *param_1, bool param_2, bool param_3); // size[727]
+	void ConPrintEvent(IGameEvent *param_1); // size[312]
+	void FireEventIntern(IGameEvent *param_1, bool param_2, bool param_3); // size[589]
 	void GetEventDescriptor(int param_1); // size[60]
 	void GetEventDescriptor(char *param_1); // size[88]
 	void ParseEventList(SVC_GameEventList *param_1); // size[771]

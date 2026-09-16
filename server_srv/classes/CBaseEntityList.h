@@ -1,4 +1,5 @@
 // Generated header
+// Estimated minimum size: 0x40014 (262164) bytes, no debug info available
 
 class CBaseEntityList
 {
@@ -6,12 +7,7 @@ public:
 	virtual void OnAddEntity(IHandleEntity *param_1, CBaseHandle param_2); // vtable[0]
 	virtual void OnRemoveEntity(IHandleEntity *param_1, CBaseHandle param_2); // vtable[1]
 
-	CEntInfoList(); // size[21]
-	void LinkBefore(CEntInfo *param_1, CEntInfo *param_2); // size[131]
 	void RemoveEntityAtSlot(int param_1); // size[300]
-	void LinkAfter(CEntInfo *param_1, CEntInfo *param_2); // size[140]
-	void Unlink(CEntInfo *param_1); // size[71]
-	void IsInList(CEntInfo *param_1); // size[14]
 	CBaseEntityList(); // size[86]
 	~CBaseEntityList(); // size[74]
 	void RemoveEntity(CBaseHandle param_1); // size[23]

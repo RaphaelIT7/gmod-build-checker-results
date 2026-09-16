@@ -1,4 +1,5 @@
 // Generated header
+// Estimated minimum size: 0x224 (548) bytes, no debug info available
 
 class CMorphMgr : public IMorphMgr
 {
@@ -6,7 +7,7 @@ public:
 	virtual void ShouldAllocateScratchTextures(); // vtable[0]
 	virtual void AllocateScratchTextures(); // vtable[1]
 	virtual void FreeScratchTextures(); // vtable[2]
-	virtual void AllocateMaterials(); // vtable[3]
+	virtual void _ZN9CMorphMgr17AllocateMaterialsEv(); // vtable[3]
 	virtual void FreeMaterials(); // vtable[4]
 	virtual void MorphAccumulator(); // vtable[5]
 	virtual void MorphWeights(); // vtable[6]
@@ -19,7 +20,7 @@ public:
 	virtual void AdvanceFrame(); // vtable[13]
 	virtual void GetMorphAccumulatorTexCoord(IMorphMgrRenderContext *param_1, Vector2D *param_2, IMorph *param_3, int param_4); // vtable[14]
 	virtual void AllocateRenderContext(); // vtable[15]
-	virtual void FreeRenderContext(IMorphMgrRenderContext *param_1) override; // vtable[16]
+	virtual void FreeRenderContext(IMorphMgrRenderContext *param_1); // vtable[16]
 
 	CMorphMgr(); // size[67]
 	void ComputeWeightSubrect(int *param_1, int *param_2, int *param_3, int *param_4, int param_5); // size[71]

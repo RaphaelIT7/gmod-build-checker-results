@@ -1,4 +1,5 @@
 // Generated header
+// Estimated minimum size: 0x8 (8) bytes, no debug info available
 
 class CShaderShadowEmpty : public IShaderShadow
 {
@@ -54,7 +55,7 @@ public:
 	virtual void EnableAlphaToCoverage(bool param_1); // vtable[48]
 	virtual void SetShadowDepthFiltering(Sampler_t param_1); // vtable[49]
 	virtual void BlendOp(ShaderBlendOp_t param_1); // vtable[50]
-	virtual void BlendOpSeparateAlpha(ShaderBlendOp_t param_1) override; // vtable[51]
+	virtual void BlendOpSeparateAlpha(ShaderBlendOp_t param_1); // vtable[51]
 	virtual ~CShaderShadowEmpty(); // vtable[52]
 	virtual ~CShaderShadowEmpty(); // vtable[53]
 	virtual void ExecuteCommandBuffer(uchar *param_1); // vtable[54]

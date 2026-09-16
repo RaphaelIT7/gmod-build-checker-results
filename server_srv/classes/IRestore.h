@@ -1,9 +1,9 @@
 // Generated header
+// Estimated minimum size: 0x4 (4) bytes, no debug info available
 
 class IRestore
 {
 public:
-	virtual void __cxa_pure_virtual(); // vtable[38]
-	virtual ~IRestore(); // vtable[39]
-	virtual ~IRestore(); // vtable[40]
+	~IRestore(); // size[14]
+	~IRestore(); // size[18]
 };

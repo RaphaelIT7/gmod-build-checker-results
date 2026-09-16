@@ -1,4 +1,5 @@
 // Generated header
+// Estimated minimum size: 0x7F0 (2032) bytes, no debug info available
 
 class CChoreoGenericServerVehicle : public CBaseServerVehicle
 {

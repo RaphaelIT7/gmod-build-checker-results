@@ -1,4 +1,5 @@
 // Generated header
+// Estimated minimum size: 0x234 (564) bytes, no debug info available
 
 class CPositionInterpolator_Rope : public IPositionInterpolator
 {
@@ -7,7 +8,7 @@ public:
 	virtual void GetDetails(char * *param_1, int *param_2, int *param_3); // vtable[1]
 	virtual void SetKeyPosition(int param_1, Vector *param_2); // vtable[2]
 	virtual void InterpolatePosition(float param_1, Vector *param_2); // vtable[3]
-	virtual void ProcessKey(char *param_1, char *param_2) override; // vtable[4]
+	virtual void ProcessKey(char *param_1, char *param_2); // vtable[4]
 
 	CPositionInterpolator_Rope(); // size[439]
 };

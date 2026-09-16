@@ -1,4 +1,5 @@
 // Generated header
+// Estimated minimum size: 0x860 (2144) bytes, no debug info available
 
 class CGMODPlayerMove : public CPlayerMove
 {

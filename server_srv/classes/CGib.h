@@ -1,18 +1,11 @@
 // Generated header
+// Estimated minimum size: 0x25AC (9644) bytes, no debug info available
 
 class CGib : public CBaseAnimating, public CDefaultPlayerPickupVPhysics
 {
 public:
 	virtual ~CGib() override; // vtable[0]
 	virtual ~CGib() override; // vtable[1]
-	virtual void SetRefEHandle(CBaseHandle *param_1) override; // vtable[2]
-	virtual void GetRefEHandle() override; // vtable[3]
-	virtual void GetCollideable() override; // vtable[4]
-	virtual void GetNetworkable() override; // vtable[5]
-	virtual void GetBaseEntity() override; // vtable[6]
-	virtual void GetModelIndex() override; // vtable[7]
-	virtual void GetModelName() override; // vtable[8]
-	virtual void SetModelIndex(int param_1) override; // vtable[9]
 	virtual void GetDataDescMap() override; // vtable[12]
 	virtual void ObjectCaps() override; // vtable[36]
 	virtual void Use(CBaseEntity *param_1, CBaseEntity *param_2, USE_TYPE param_3, float param_4) override; // vtable[100]
@@ -21,10 +14,10 @@ public:
 	virtual void SetPhysicsAttacker(CBasePlayer *param_1, float param_2) override; // vtable[236]
 	virtual void OnPhysGunPickup(CBasePlayer *param_1, PhysGunPickup_t param_2); // vtable[282]
 	virtual void OnPhysGunDrop(CBasePlayer *param_1, PhysGunDrop_t param_2); // vtable[283]
+	virtual void OnPhysGunPickup(CBasePlayer *param_1, PhysGunPickup_t param_2) override; // vtable[2]
+	virtual void OnPhysGunDrop(CBasePlayer *param_1, PhysGunDrop_t param_2) override; // vtable[3]
 
 	void _GLOBAL__sub_I_m_DataMap(); // size[113]
-	void OnPhysGunPickup(CBasePlayer *param_1, PhysGunPickup_t param_2); // size[10]
-	void OnPhysGunDrop(CBasePlayer *param_1, PhysGunDrop_t param_2); // size[10]
 	void DieThink(); // size[260]
 	void BounceGibTouch(CBaseEntity *param_1); // size[740]
 	void StickyGibTouch(CBaseEntity *param_1); // size[72]

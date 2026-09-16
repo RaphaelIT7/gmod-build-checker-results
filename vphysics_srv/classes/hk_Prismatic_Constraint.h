@@ -1,4 +1,5 @@
 // Generated header
+// Estimated minimum size: 0x98 (152) bytes, no debug info available
 
 class hk_Prismatic_Constraint : public hk_Constraint
 {

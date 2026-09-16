@@ -1,11 +1,11 @@
 // Generated header
+// Estimated minimum size: 0x10008 (65544) bytes, no debug info available
 
 class CAI_ExpresserHost : public CBasePlayer, public CAI_ExpresserSink
 {
 public:
 	virtual ~CAI_ExpresserHost() override; // vtable[0]
 	virtual void _ZN17CAI_ExpresserHostI11CBasePlayerED0Ev() override; // vtable[1]
-	virtual void SetRefEHandle(CBaseHandle *param_1) override; // vtable[2]
 	virtual void GetResponseSystem() override; // vtable[53]
 	virtual void DispatchResponse(char *param_1) override; // vtable[54]
 	virtual void ModifyOrAppendCriteria(AI_CriteriaSet *param_1) override; // vtable[121]

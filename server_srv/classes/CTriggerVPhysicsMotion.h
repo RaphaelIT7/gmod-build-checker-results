@@ -1,4 +1,5 @@
 // Generated header
+// Estimated minimum size: 0x25AC (9644) bytes, no debug info available
 
 class CTriggerVPhysicsMotion : public CBaseVPhysicsTrigger, public IMotionEvent
 {
@@ -14,9 +15,9 @@ public:
 	virtual void UpdateOnRemove() override; // vtable[108]
 	virtual void CreateVPhysics() override; // vtable[157]
 	virtual void Simulate(IPhysicsMotionController *param_1, IPhysicsObject *param_2, float param_3, Vector *param_4, Vector *param_5); // vtable[247]
+	virtual void Simulate(IPhysicsMotionController *param_1, IPhysicsObject *param_2, float param_3, Vector *param_4, Vector *param_5); // vtable[0]
 
 	void GetBaseMap(); // size[10]
 	void LinearLimit(); // size[139]
 	void InputSetVelocityLimitTime(inputdata_t *param_1); // size[148]
-	void Simulate(IPhysicsMotionController *param_1, IPhysicsObject *param_2, float param_3, Vector *param_4, Vector *param_5); // size[13]
 };

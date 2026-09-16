@@ -1,4 +1,5 @@
 // Generated header
+// Estimated minimum size: 0x10 (16) bytes, no debug info available
 
 class IBody : public INextBotComponent
 {
@@ -6,7 +7,9 @@ public:
 	virtual ~IBody() override; // vtable[0]
 	virtual ~IBody() override; // vtable[1]
 	virtual void Reset() override; // vtable[43]
-	virtual void Update() override; // vtable[44]
+	virtual void Update(); // vtable[44]
+	virtual void Upkeep(); // vtable[45]
+	virtual void GetBot(); // vtable[46]
 	virtual void SetPosition(Vector *param_1); // vtable[47]
 	virtual void GetEyePosition(); // vtable[48]
 	virtual void GetViewVector(); // vtable[49]

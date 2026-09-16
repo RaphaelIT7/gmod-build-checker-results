@@ -1,9 +1,9 @@
 // Generated header
+// Estimated minimum size: 0x4 (4) bytes, no debug info available
 
 class IMoveHelperServer : public IMoveHelper
 {
 public:
-	virtual ~IMoveHelperServer() override; // vtable[12]
-	virtual ~IMoveHelperServer() override; // vtable[13]
-	virtual void __cxa_pure_virtual(); // vtable[14]
+	~IMoveHelperServer(); // size[14]
+	~IMoveHelperServer(); // size[18]
 };

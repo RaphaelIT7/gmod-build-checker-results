@@ -1,4 +1,5 @@
 // Generated header
+// Estimated minimum size: 0x17C (380) bytes, no debug info available
 
 class CTextureManager : public ITextureManager
 {
@@ -40,7 +41,7 @@ public:
 	virtual void UpdateExcludedTextures(); // vtable[34]
 	virtual void ReleaseTempRenderTargetBits(); // vtable[35]
 	virtual void ReloadFilesInList(IFileList *param_1); // vtable[36]
-	virtual void GMOD_UpdatePostAsync() override; // vtable[37]
+	virtual void GMOD_UpdatePostAsync(); // vtable[37]
 
 	void RestoreTexture(ITextureInternal *param_1); // size[51]
 	void LoadTexture(char *param_1, char *param_2, int param_3); // size[268]

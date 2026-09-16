@@ -1,4 +1,5 @@
 // Generated header
+// Estimated minimum size: 0x25AC (9644) bytes, no debug info available
 
 class CPhysicsNPCSolver : public CLogicalEntity, public IMotionEvent
 {
@@ -11,6 +12,7 @@ public:
 	virtual void Think() override; // vtable[48]
 	virtual void UpdateOnRemove() override; // vtable[108]
 	virtual void Simulate(IPhysicsMotionController *param_1, IPhysicsObject *param_2, float param_3, Vector *param_4, Vector *param_5); // vtable[246]
+	virtual void Simulate(IPhysicsMotionController *param_1, IPhysicsObject *param_2, float param_3, Vector *param_4, Vector *param_5); // vtable[0]
 
 	void _GLOBAL__sub_I_m_DataMap(); // size[113]
 	void GetBaseMap(); // size[10]
@@ -20,7 +22,6 @@ public:
 	void ResetCancelTime(); // size[75]
 	void BecomePenetrationSolver(); // size[334]
 	void IsIntersecting(); // size[925]
-	void Simulate(IPhysicsMotionController *param_1, IPhysicsObject *param_2, float param_3, Vector *param_4, Vector *param_5); // size[13]
 	void IsContactOnNPCHead(IPhysicsFrictionSnapshot *param_1, IPhysicsObject *param_2, CAI_BaseNPC *param_3); // size[261]
 	void CheckTouching(); // size[312]
 };

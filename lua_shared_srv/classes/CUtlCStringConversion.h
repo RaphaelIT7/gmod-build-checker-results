@@ -1,4 +1,5 @@
 // Generated header
+// Estimated minimum size: 0x91C (2332) bytes, no debug info available
 
 class CUtlCStringConversion : public CUtlCharConversion
 {

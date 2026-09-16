@@ -1,4 +1,5 @@
 // Generated header
+// Estimated minimum size: 0x94 (148) bytes, no debug info available
 
 class CKeyValuesSystem : public IKeyValuesSystem
 {
@@ -10,7 +11,7 @@ public:
 	virtual void GetStringForSymbol(int param_1); // vtable[4]
 	virtual void AddKeyValuesToMemoryLeakList(void *param_1, int param_2); // vtable[5]
 	virtual void RemoveKeyValuesFromMemoryLeakList(void *param_1); // vtable[6]
-	virtual void GMOD_SetAllowGrowingPool(bool param_1) override; // vtable[7]
+	virtual void GMOD_SetAllowGrowingPool(bool param_1); // vtable[7]
 
 	void CaseInsensitiveHash(char *param_1, int param_2); // size[58]
 	~CKeyValuesSystem(); // size[124]

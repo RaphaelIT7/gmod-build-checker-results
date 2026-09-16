@@ -1,4 +1,5 @@
 // Generated header
+// Estimated minimum size: 0x848 (2120) bytes, no debug info available
 
 class CTeamplayRules : public CMultiplayRules
 {

@@ -1,4 +1,5 @@
 // Generated header
+// Estimated minimum size: 0x870 (2160) bytes, no debug info available
 
 class CGMODRules : public CHL2MPRules
 {
@@ -34,8 +35,8 @@ public:
 	virtual void AIClassText(int param_1) override; // vtable[102]
 	virtual void CreateStandardEntities() override; // vtable[122]
 	virtual void ShouldBurningPropsEmitLight() override; // vtable[126]
-	virtual void CleanUpMap(CLuaObject *param_1); // vtable[165]
-	virtual void IsAlyxInDarknessMode(); // vtable[166]
+	virtual void CleanUpMap(CLuaObject *param_1) override; // vtable[165]
+	virtual void IsAlyxInDarknessMode() override; // vtable[166]
 
 	void NPC_ShouldDropHealth(CBasePlayer *param_1); // size[123]
 	void NPC_DroppedHealth(); // size[85]

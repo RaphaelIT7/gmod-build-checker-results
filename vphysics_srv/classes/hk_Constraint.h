@@ -1,4 +1,5 @@
 // Generated header
+// Estimated minimum size: 0x14 (20) bytes, no debug info available
 
 class hk_Constraint : public hk_Rigid_Body_Binary_EF
 {

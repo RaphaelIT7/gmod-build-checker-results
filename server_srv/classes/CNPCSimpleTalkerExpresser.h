@@ -1,4 +1,5 @@
 // Generated header
+// Estimated minimum size: 0x1E8 (488) bytes, no debug info available
 
 class CNPCSimpleTalkerExpresser : public CAI_ComponentWithOuter
 {

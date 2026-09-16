@@ -1,4 +1,5 @@
 // Generated header
+// Estimated minimum size: 0x17A8 (6056) bytes, no debug info available
 
 class CAI_MoveProbe : public CAI_Component
 {

@@ -1,4 +1,5 @@
 // Generated header
+// Estimated minimum size: 0x248 (584) bytes, no debug info available
 
 class CLuaNextBotVision : public IVision
 {

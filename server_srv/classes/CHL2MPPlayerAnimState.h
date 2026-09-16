@@ -1,4 +1,5 @@
 // Generated header
+// Estimated minimum size: 0x155C (5468) bytes, no debug info available
 
 class CHL2MPPlayerAnimState : public CMultiPlayerAnimState
 {

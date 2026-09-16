@@ -1,4 +1,5 @@
 // Generated header
+// Estimated minimum size: 0x1BBC68 (1817704) bytes, no debug info available
 
 class CTraceIVP : public ITraceObject
 {

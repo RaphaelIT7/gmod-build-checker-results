@@ -1,4 +1,5 @@
 // Generated header
+// Estimated minimum size: 0x5DC (1500) bytes, no debug info available
 
 class NextBotManager
 {

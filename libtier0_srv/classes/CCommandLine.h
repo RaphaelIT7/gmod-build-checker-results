@@ -1,4 +1,5 @@
 // Generated header
+// Estimated minimum size: 0xC (12) bytes, no debug info available
 
 class CCommandLine : public ICommandLine
 {
@@ -15,7 +16,7 @@ public:
 	virtual void ParmCount(); // vtable[9]
 	virtual void FindParm(char *param_1); // vtable[10]
 	virtual void GetParm(int param_1); // vtable[11]
-	virtual void SetParm(int param_1, char *param_2) override; // vtable[12]
+	virtual void SetParm(int param_1, char *param_2); // vtable[12]
 	virtual ~CCommandLine(); // vtable[13]
 	virtual ~CCommandLine(); // vtable[14]
 

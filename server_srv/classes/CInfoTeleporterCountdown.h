@@ -1,4 +1,5 @@
 // Generated header
+// Estimated minimum size: 0x5FA8B018 (1604890648) bytes, no debug info available
 
 class CInfoTeleporterCountdown : public CPointEntity
 {

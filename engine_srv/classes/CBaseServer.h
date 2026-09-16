@@ -1,11 +1,12 @@
 // Generated header
+// Estimated minimum size: 0x41EDDC38 (1106107448) bytes, no debug info available
 
 class CBaseServer : public IServer
 {
 public:
 	virtual ~CBaseServer() override; // vtable[0]
 	virtual ~CBaseServer() override; // vtable[1]
-	virtual void ProcessConnectionlessPacket(netpacket_s *param_1) override; // vtable[2]
+	virtual void ProcessConnectionlessPacket(netpacket_s *param_1); // vtable[2]
 	virtual void GetNumClients(); // vtable[3]
 	virtual void GetNumProxies(); // vtable[4]
 	virtual void GetNumFakeClients(); // vtable[5]
@@ -37,9 +38,9 @@ public:
 	virtual void SetPassword(char *param_1); // vtable[31]
 	virtual void BroadcastMessage(INetMessage *param_1, bool param_2, bool param_3); // vtable[32]
 	virtual void BroadcastMessage(INetMessage *param_1, IRecipientFilter *param_2); // vtable[33]
-	virtual void DisconnectClient(IClient *param_1, char *param_2) override; // vtable[34]
+	virtual void DisconnectClient(IClient *param_1, char *param_2); // vtable[34]
 	virtual void GetCPUUsage(); // vtable[35]
-	virtual void BroadcastPrintf(char *param_1); // vtable[36]
+	virtual void BroadcastPrintf(char const *null, ... null); // vtable[36]
 	virtual void SetMaxClients(int param_1); // vtable[37]
 	virtual void WriteDeltaEntities(CBaseClient *param_1, CClientFrame *param_2, CClientFrame *param_3, bf_write *param_4); // vtable[38]
 	virtual void WriteTempEntities(CBaseClient *param_1, CFrameSnapshot *param_2, CFrameSnapshot *param_3, bf_write *param_4, int param_5); // vtable[39]
@@ -76,17 +77,17 @@ public:
 	void ValidInfoChallenge(netadr_s *param_1, char *param_2); // size[123]
 	void InactivateClients(); // size[140]
 	void ReconnectClients(); // size[150]
-	void CheckTimeouts(); // size[552]
-	void UpdateUserSettings(); // size[315]
-	void SendPendingServerInfo(); // size[435]
+	void CheckTimeouts(); // size[394]
+	void UpdateUserSettings(); // size[157]
+	void SendPendingServerInfo(); // size[277]
 	void SetMasterServerRulesDirty(); // size[15]
 	void GetFinalTickTime(); // size[53]
 	void GetInstanceBaselineTable(); // size[60]
 	void GetLightStyleTable(); // size[60]
 	void GetUserInfoTable(); // size[64]
-	void GetClassBaseline(ServerClass *param_1, void * *param_2, int *param_3); // size[348]
+	void GetClassBaseline(ServerClass *param_1, void * *param_2, int *param_3); // size[127]
 	void CompressPackedEntity(ServerClass *param_1, char *param_2, int *param_3); // size[175]
-	void UncompressPackedEntity(PackedEntity *param_1, int *param_2); // size[548]
+	void UncompressPackedEntity(PackedEntity *param_1, int *param_2); // size[331]
 	void CheckMasterServerRequestRestart(); // size[178]
 	void UpdateMasterServerRules(); // size[189]
 	void ForwardPacketsFromMasterServerUpdater(); // size[307]
@@ -94,6 +95,6 @@ public:
 	void RemoveTag(char *param_1); // size[5]
 	CBaseServer(); // size[428]
 	void RecalculateTags(); // size[134]
-	void UpdateMasterServer(); // size[697]
-	void RunFrame(); // size[156]
+	void UpdateMasterServer(); // size[333]
+	void RunFrame(); // size[259]
 };

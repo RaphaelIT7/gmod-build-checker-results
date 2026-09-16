@@ -1,4 +1,5 @@
 // Generated header
+// Estimated minimum size: 0x1A0 (416) bytes, no debug info available
 
 class CMaterialSubRect : public IMaterialInternal
 {
@@ -60,7 +61,7 @@ public:
 	virtual void RefreshPreservingMaterialVars(); // vtable[54]
 	virtual void WasReloadedFromWhitelist(); // vtable[55]
 	virtual void IsPrecached(); // vtable[56]
-	virtual void GMOD_Persist() override; // vtable[57]
+	virtual void GMOD_Persist(); // vtable[57]
 	virtual void GetReferenceCount(); // vtable[58]
 	virtual void SetEnumerationID(int param_1); // vtable[59]
 	virtual void SetNeedsWhiteLightmap(bool param_1); // vtable[60]
@@ -96,12 +97,13 @@ public:
 	virtual void GetChangeID(); // vtable[90]
 	virtual void IsTranslucentInternal(float param_1); // vtable[91]
 	virtual void IsRealTimeVersion(); // vtable[92]
+	virtual void ClearContextData(); // vtable[93]
 	virtual void GetRealTimeVersion(); // vtable[94]
 	virtual void GetQueueFriendlyVersion(); // vtable[95]
 	virtual void PrecacheMappingDimensions(); // vtable[96]
 	virtual void FindRepresentativeTexture(); // vtable[97]
 	virtual void DecideShouldReloadFromWhitelist(IFileList *param_1); // vtable[98]
-	virtual void ReloadFromWhitelistIfMarked() override; // vtable[99]
+	virtual void ReloadFromWhitelistIfMarked(); // vtable[99]
 	virtual ~CMaterialSubRect(); // vtable[100]
 	virtual ~CMaterialSubRect(); // vtable[101]
 

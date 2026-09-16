@@ -1,4 +1,5 @@
 // Generated header
+// Estimated minimum size: 0x4 (4) bytes, no debug info available
 
 class CTacticalMission
 {
@@ -8,5 +9,4 @@ public:
 	virtual void GetDeployZone(CBasePlayer *param_1); // vtable[2]
 	virtual void GetObjectiveZone(); // vtable[3]
 	virtual void GetEnemyZone(); // vtable[4]
-	virtual void __cxa_pure_virtual(); // vtable[5]
 };

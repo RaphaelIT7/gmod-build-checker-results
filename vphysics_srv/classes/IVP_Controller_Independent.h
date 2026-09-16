@@ -1,4 +1,5 @@
 // Generated header
+// Estimated minimum size: 0x0 (0) bytes, no debug info available
 
 class IVP_Controller_Independent : public IVP_Controller
 {

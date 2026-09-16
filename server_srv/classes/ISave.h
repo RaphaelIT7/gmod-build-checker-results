@@ -1,9 +1,9 @@
 // Generated header
+// Estimated minimum size: 0x4 (4) bytes, no debug info available
 
 class ISave
 {
 public:
-	virtual void __cxa_pure_virtual(); // vtable[47]
-	virtual ~ISave(); // vtable[48]
-	virtual ~ISave(); // vtable[49]
+	~ISave(); // size[14]
+	~ISave(); // size[18]
 };

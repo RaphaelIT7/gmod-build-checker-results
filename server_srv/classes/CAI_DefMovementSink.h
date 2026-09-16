@@ -1,4 +1,5 @@
 // Generated header
+// Estimated minimum size: 0x4 (4) bytes, no debug info available
 
 class CAI_DefMovementSink : public IAI_MovementSink
 {
@@ -11,5 +12,5 @@ public:
 	virtual void OnInsufficientStopDist(AILocalMoveGoal_t *param_1, float param_2, AIMoveResult_t *param_3); // vtable[5]
 	virtual void OnMoveBlocked(AIMoveResult_t *param_1); // vtable[6]
 	virtual void OnMoveStalled(AILocalMoveGoal_t *param_1); // vtable[7]
-	virtual void OnMoveExecuteFailed(AILocalMoveGoal_t *param_1, AIMoveTrace_t *param_2, AIMotorMoveResult_t param_3, AIMoveResult_t *param_4) override; // vtable[8]
+	virtual void OnMoveExecuteFailed(AILocalMoveGoal_t *param_1, AIMoveTrace_t *param_2, AIMotorMoveResult_t param_3, AIMoveResult_t *param_4); // vtable[8]
 };

@@ -1,4 +1,5 @@
 // Generated header
+// Estimated minimum size: 0x204 (516) bytes, no debug info available
 
 class CPlayerLocalData
 {
@@ -9,10 +10,4 @@ public:
 	void GetBaseMap(); // size[7]
 	CPlayerLocalData(); // size[1586]
 	void UpdateAreaBits(CBasePlayer *param_1, uchar *param_2); // size[262]
-	void NetworkStateChanged(); // size[26]
-	void NetworkStateChanged(void *param_1); // size[27]
-	void NetworkStateChanged(); // size[26]
-	void NetworkStateChanged(void *param_1); // size[27]
-	void NetworkStateChanged(); // size[26]
-	void NetworkStateChanged(void *param_1); // size[27]
 };

@@ -1,4 +1,5 @@
 // Generated header
+// Estimated minimum size: 0x4 (4) bytes, no debug info available
 
 class IVP_Time_Event_N : public IVP_Time_Event
 {

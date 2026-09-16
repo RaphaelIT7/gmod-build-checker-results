@@ -1,4 +1,5 @@
 // Generated header
+// Estimated minimum size: 0x40 (64) bytes, no debug info available
 
 class CPhysicsCollision : public IPhysicsCollision
 {

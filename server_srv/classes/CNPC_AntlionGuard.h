@@ -1,4 +1,5 @@
 // Generated header
+// Estimated minimum size: 0x2698 (9880) bytes, no debug info available
 
 class CNPC_AntlionGuard : public CAI_BlendedNPC
 {
@@ -50,13 +51,21 @@ public:
 	virtual void IsHeavyDamage(CTakeDamageInfo *param_1) override; // vtable[633]
 	virtual void GetClassScheduleIdSpace() override; // vtable[640]
 	virtual void ShouldProbeCollideAgainstEntity(CBaseEntity *param_1) override; // vtable[651]
+	virtual CalcYawSpeed(); // vtable[0]
+	virtual OnCalcBaseMove(AILocalMoveGoal_t *param_1, float param_2, AIMoveResult_t *param_3); // vtable[1]
+	virtual OnObstructionPreSteer(AILocalMoveGoal_t *param_1, float param_2, AIMoveResult_t *param_3); // vtable[2]
+	virtual void OnFailedSteer(AILocalMoveGoal_t *param_1, float param_2, AIMoveResult_t *param_3); // vtable[3]
+	virtual void OnFailedLocalNavigation(AILocalMoveGoal_t *param_1, float param_2, AIMoveResult_t *param_3); // vtable[4]
+	virtual void OnInsufficientStopDist(AILocalMoveGoal_t *param_1, float param_2, AIMoveResult_t *param_3); // vtable[5]
+	virtual void OnMoveBlocked(AIMoveResult_t *param_1); // vtable[6]
+	virtual void OnMoveStalled(AILocalMoveGoal_t *param_1); // vtable[7]
+	virtual void OnMoveExecuteFailed(AILocalMoveGoal_t *param_1, AIMoveTrace_t *param_2, AIMotorMoveResult_t param_3, AIMoveResult_t *param_4); // vtable[8]
 
 	void InputClearChargeTarget(inputdata_t *param_1); // size[18]
 	void InputEnablePreferPhysicsAttack(inputdata_t *param_1); // size[15]
 	void InputDisablePreferPhysicsAttack(inputdata_t *param_1); // size[15]
 	void InputEnableBark(inputdata_t *param_1); // size[15]
 	void InputDisableBark(inputdata_t *param_1); // size[15]
-	void GetStoppingPath(CAI_WaypointList *param_1); // size[28]
 	void InputRagdoll(inputdata_t *param_1); // size[77]
 	void SetHeavyDamageAnim(Vector *param_1); // size[409]
 	void InputSetShoveTarget(inputdata_t *param_1); // size[229]
@@ -97,8 +106,5 @@ public:
 	void Footstep(bool param_1); // size[406]
 	void InitCustomSchedules(); // size[425]
 	void LoadSchedules(); // size[62]
-	CScheduleLoader(); // size[9]
 	CNPC_AntlionGuard(); // size[20]
-	~CNavigator(); // size[25]
-	~CNavigator(); // size[54]
 };

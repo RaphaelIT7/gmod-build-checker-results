@@ -1,10 +1,11 @@
 // Generated header
+// Estimated minimum size: 0x24 (36) bytes, no debug info available
 
 class CBaseRopePhysics : public CSimplePhysics_IHelper
 {
 public:
 	virtual void GetNodeForces(CNode *param_1, int param_2, Vector *param_3); // vtable[0]
-	virtual void ApplyConstraints(CNode *param_1, int param_2) override; // vtable[1]
+	virtual void ApplyConstraints(CNode *param_1, int param_2); // vtable[1]
 
 	_GLOBAL__sub_I_CBaseRopePhysics(); // size[48]
 	void SetNumNodes(int param_1); // size[104]

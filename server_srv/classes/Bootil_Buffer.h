@@ -1,4 +1,5 @@
 // Generated header
+// Estimated minimum size: 0x14 (20) bytes, no debug info available
 
 class Bootil_Buffer
 {

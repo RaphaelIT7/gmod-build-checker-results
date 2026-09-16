@@ -1,0 +1,8047 @@
+[
+    {
+        "address": "001011a1",
+        "length": 15,
+        "value": "__gmon_start__"
+    },
+    {
+        "address": "001011b0",
+        "length": 28,
+        "value": "_ITM_deregisterTMCloneTable"
+    },
+    {
+        "address": "001011cc",
+        "length": 26,
+        "value": "_ITM_registerTMCloneTable"
+    },
+    {
+        "address": "001011e6",
+        "length": 15,
+        "value": "__cxa_finalize"
+    },
+    {
+        "address": "001011f5",
+        "length": 12,
+        "value": "g_pMemAlloc"
+    },
+    {
+        "address": "00101201",
+        "length": 21,
+        "value": "__gxx_personality_v0"
+    },
+    {
+        "address": "00101216",
+        "length": 22,
+        "value": "__cxa_call_unexpected"
+    },
+    {
+        "address": "0010122c",
+        "length": 7,
+        "value": "memset"
+    },
+    {
+        "address": "00101233",
+        "length": 20,
+        "value": "__cxa_guard_acquire"
+    },
+    {
+        "address": "00101247",
+        "length": 20,
+        "value": "__cxa_guard_release"
+    },
+    {
+        "address": "0010125b",
+        "length": 7,
+        "value": "atan2f"
+    },
+    {
+        "address": "00101262",
+        "length": 8,
+        "value": "memmove"
+    },
+    {
+        "address": "0010126a",
+        "length": 13,
+        "value": "__cxa_atexit"
+    },
+    {
+        "address": "00101277",
+        "length": 38,
+        "value": "_ZTVN10__cxxabiv117__class_type_infoE"
+    },
+    {
+        "address": "0010129d",
+        "length": 41,
+        "value": "_ZTVN10__cxxabiv120__si_class_type_infoE"
+    },
+    {
+        "address": "001012c6",
+        "length": 14,
+        "value": "_Z6DevMsgPKcz"
+    },
+    {
+        "address": "001012d4",
+        "length": 42,
+        "value": "_ZTVN10__cxxabiv121__vmi_class_type_infoE"
+    },
+    {
+        "address": "001012fe",
+        "length": 8,
+        "value": "Warning"
+    },
+    {
+        "address": "00101306",
+        "length": 7,
+        "value": "memcpy"
+    },
+    {
+        "address": "0010130d",
+        "length": 6,
+        "value": "Error"
+    },
+    {
+        "address": "00101313",
+        "length": 17,
+        "value": "Plat_ExitProcess"
+    },
+    {
+        "address": "00101324",
+        "length": 7,
+        "value": "DevMsg"
+    },
+    {
+        "address": "0010132b",
+        "length": 33,
+        "value": "__cxa_throw_bad_array_new_length"
+    },
+    {
+        "address": "0010134c",
+        "length": 12,
+        "value": "g_Telemetry"
+    },
+    {
+        "address": "00101358",
+        "length": 19,
+        "value": "ThreadGetCurrentId"
+    },
+    {
+        "address": "0010136b",
+        "length": 31,
+        "value": "_ZNV16CThreadFastMutex4LockEyj"
+    },
+    {
+        "address": "0010138a",
+        "length": 16,
+        "value": "fedisableexcept"
+    },
+    {
+        "address": "0010139a",
+        "length": 15,
+        "value": "feenableexcept"
+    },
+    {
+        "address": "001013a9",
+        "length": 19,
+        "value": "pthread_mutex_lock"
+    },
+    {
+        "address": "001013bc",
+        "length": 21,
+        "value": "pthread_mutex_unlock"
+    },
+    {
+        "address": "001013d1",
+        "length": 24,
+        "value": "_ZN12CThreadEvent3SetEv"
+    },
+    {
+        "address": "001013e9",
+        "length": 34,
+        "value": "_ZN13CThreadRWLock11WaitForReadEv"
+    },
+    {
+        "address": "0010140b",
+        "length": 27,
+        "value": "_ZN17CThreadSyncObjectD2Ev"
+    },
+    {
+        "address": "00101426",
+        "length": 22,
+        "value": "pthread_mutex_destroy"
+    },
+    {
+        "address": "0010143c",
+        "length": 35,
+        "value": "_ZN13CThreadRWLock12LockForWriteEv"
+    },
+    {
+        "address": "0010145f",
+        "length": 34,
+        "value": "_ZN13CThreadRWLock11UnlockWriteEv"
+    },
+    {
+        "address": "00101481",
+        "length": 23,
+        "value": "pthread_mutexattr_init"
+    },
+    {
+        "address": "00101498",
+        "length": 26,
+        "value": "pthread_mutexattr_settype"
+    },
+    {
+        "address": "001014b2",
+        "length": 19,
+        "value": "pthread_mutex_init"
+    },
+    {
+        "address": "001014c5",
+        "length": 22,
+        "value": "_ZN12CThreadEventC1Eb"
+    },
+    {
+        "address": "001014db",
+        "length": 11,
+        "value": "strcasecmp"
+    },
+    {
+        "address": "001014e6",
+        "length": 7,
+        "value": "strlen"
+    },
+    {
+        "address": "001014ed",
+        "length": 8,
+        "value": "toupper"
+    },
+    {
+        "address": "001014f5",
+        "length": 7,
+        "value": "strtod"
+    },
+    {
+        "address": "001014fc",
+        "length": 7,
+        "value": "strtol"
+    },
+    {
+        "address": "00101503",
+        "length": 5,
+        "value": "acos"
+    },
+    {
+        "address": "00101508",
+        "length": 18,
+        "value": "__cxa_guard_abort"
+    },
+    {
+        "address": "0010151a",
+        "length": 26,
+        "value": "_ZN16CThreadLocalBaseD2Ev"
+    },
+    {
+        "address": "00101534",
+        "length": 29,
+        "value": "_ZNK16CThreadLocalBase3GetEv"
+    },
+    {
+        "address": "00101551",
+        "length": 29,
+        "value": "_ZN16CThreadLocalBase3SetEPv"
+    },
+    {
+        "address": "0010156e",
+        "length": 26,
+        "value": "_ZN16CThreadLocalBaseC2Ev"
+    },
+    {
+        "address": "00101588",
+        "length": 28,
+        "value": "_ZN10CVProfNode9ExitScopeEv"
+    },
+    {
+        "address": "001015a4",
+        "length": 22,
+        "value": "g_VProfCurrentProfile"
+    },
+    {
+        "address": "001015ba",
+        "length": 37,
+        "value": "_ZN10CVProfNode10GetSubNodeEPKciS1_i"
+    },
+    {
+        "address": "001015df",
+        "length": 30,
+        "value": "_ZN10CVProfNode10EnterScopeEv"
+    },
+    {
+        "address": "001015fd",
+        "length": 8,
+        "value": "sincosf"
+    },
+    {
+        "address": "00101605",
+        "length": 16,
+        "value": "__isoc99_sscanf"
+    },
+    {
+        "address": "00101615",
+        "length": 7,
+        "value": "strcmp"
+    },
+    {
+        "address": "0010161c",
+        "length": 7,
+        "value": "strchr"
+    },
+    {
+        "address": "00101623",
+        "length": 14,
+        "value": "_Z6ConMsgPKcz"
+    },
+    {
+        "address": "00101631",
+        "length": 15,
+        "value": "__dynamic_cast"
+    },
+    {
+        "address": "00101640",
+        "length": 28,
+        "value": "_Z11ConColorMsgRK5ColorPKcz"
+    },
+    {
+        "address": "0010165c",
+        "length": 19,
+        "value": "__cxa_pure_virtual"
+    },
+    {
+        "address": "0010166f",
+        "length": 8,
+        "value": "dlclose"
+    },
+    {
+        "address": "00101677",
+        "length": 16,
+        "value": "CreateInterface"
+    },
+    {
+        "address": "00101687",
+        "length": 7,
+        "value": "dlopen"
+    },
+    {
+        "address": "0010168e",
+        "length": 8,
+        "value": "dlerror"
+    },
+    {
+        "address": "00101696",
+        "length": 22,
+        "value": "Plat_IsInDebugSession"
+    },
+    {
+        "address": "001016ac",
+        "length": 7,
+        "value": "strstr"
+    },
+    {
+        "address": "001016b3",
+        "length": 7,
+        "value": "getcwd"
+    },
+    {
+        "address": "001016ba",
+        "length": 6,
+        "value": "dlsym"
+    },
+    {
+        "address": "001016c0",
+        "length": 14,
+        "value": "__ctype_b_loc"
+    },
+    {
+        "address": "001016ce",
+        "length": 7,
+        "value": "memcmp"
+    },
+    {
+        "address": "001016d5",
+        "length": 7,
+        "value": "strcpy"
+    },
+    {
+        "address": "001016dc",
+        "length": 7,
+        "value": "wcslen"
+    },
+    {
+        "address": "001016e3",
+        "length": 9,
+        "value": "towupper"
+    },
+    {
+        "address": "001016ec",
+        "length": 9,
+        "value": "towlower"
+    },
+    {
+        "address": "001016f5",
+        "length": 20,
+        "value": "__ctype_toupper_loc"
+    },
+    {
+        "address": "00101709",
+        "length": 20,
+        "value": "__ctype_tolower_loc"
+    },
+    {
+        "address": "0010171d",
+        "length": 12,
+        "value": "strncasecmp"
+    },
+    {
+        "address": "00101729",
+        "length": 4,
+        "value": "exp"
+    },
+    {
+        "address": "0010172d",
+        "length": 8,
+        "value": "strncpy"
+    },
+    {
+        "address": "00101735",
+        "length": 8,
+        "value": "wcsncpy"
+    },
+    {
+        "address": "0010173d",
+        "length": 10,
+        "value": "vswprintf"
+    },
+    {
+        "address": "00101747",
+        "length": 10,
+        "value": "vsnprintf"
+    },
+    {
+        "address": "00101751",
+        "length": 8,
+        "value": "strncat"
+    },
+    {
+        "address": "00101759",
+        "length": 8,
+        "value": "wcsncat"
+    },
+    {
+        "address": "00101761",
+        "length": 9,
+        "value": "iswspace"
+    },
+    {
+        "address": "0010176a",
+        "length": 11,
+        "value": "iconv_open"
+    },
+    {
+        "address": "00101775",
+        "length": 6,
+        "value": "iconv"
+    },
+    {
+        "address": "0010177b",
+        "length": 12,
+        "value": "iconv_close"
+    },
+    {
+        "address": "00101787",
+        "length": 6,
+        "value": "chdir"
+    },
+    {
+        "address": "0010178d",
+        "length": 9,
+        "value": "mbstowcs"
+    },
+    {
+        "address": "00101796",
+        "length": 9,
+        "value": "wcstombs"
+    },
+    {
+        "address": "0010179f",
+        "length": 15,
+        "value": "Plat_localtime"
+    },
+    {
+        "address": "001017ae",
+        "length": 9,
+        "value": "strftime"
+    },
+    {
+        "address": "001017b7",
+        "length": 8,
+        "value": "strtoll"
+    },
+    {
+        "address": "001017bf",
+        "length": 9,
+        "value": "strtoull"
+    },
+    {
+        "address": "001017c8",
+        "length": 5,
+        "value": "cvar"
+    },
+    {
+        "address": "001017cd",
+        "length": 8,
+        "value": "isspace"
+    },
+    {
+        "address": "001017d5",
+        "length": 8,
+        "value": "strtoul"
+    },
+    {
+        "address": "001017dd",
+        "length": 8,
+        "value": "tolower"
+    },
+    {
+        "address": "001017e5",
+        "length": 5,
+        "value": "free"
+    },
+    {
+        "address": "001017ea",
+        "length": 38,
+        "value": "_ZN17CThreadSpinRWLock11LockForReadEv"
+    },
+    {
+        "address": "00101810",
+        "length": 37,
+        "value": "_ZN17CThreadSpinRWLock10UnlockReadEv"
+    },
+    {
+        "address": "00101835",
+        "length": 43,
+        "value": "_ZN17CThreadSpinRWLock16SpinLockForWriteEj"
+    },
+    {
+        "address": "00101860",
+        "length": 38,
+        "value": "_ZN17CThreadSpinRWLock11UnlockWriteEv"
+    },
+    {
+        "address": "00101886",
+        "length": 6,
+        "value": "atan2"
+    },
+    {
+        "address": "0010188c",
+        "length": 6,
+        "value": "acosf"
+    },
+    {
+        "address": "00101892",
+        "length": 8,
+        "value": "putchar"
+    },
+    {
+        "address": "0010189a",
+        "length": 6,
+        "value": "fputs"
+    },
+    {
+        "address": "001018a0",
+        "length": 6,
+        "value": "fputc"
+    },
+    {
+        "address": "001018a6",
+        "length": 7,
+        "value": "fwrite"
+    },
+    {
+        "address": "001018ad",
+        "length": 8,
+        "value": "strrchr"
+    },
+    {
+        "address": "001018b5",
+        "length": 10,
+        "value": "freopen64"
+    },
+    {
+        "address": "001018bf",
+        "length": 6,
+        "value": "qsort"
+    },
+    {
+        "address": "001018c5",
+        "length": 8,
+        "value": "_setjmp"
+    },
+    {
+        "address": "001018cd",
+        "length": 8,
+        "value": "longjmp"
+    },
+    {
+        "address": "001018d5",
+        "length": 7,
+        "value": "stderr"
+    },
+    {
+        "address": "001018dc",
+        "length": 6,
+        "value": "fgets"
+    },
+    {
+        "address": "001018e2",
+        "length": 5,
+        "value": "atan"
+    },
+    {
+        "address": "001018e7",
+        "length": 5,
+        "value": "asin"
+    },
+    {
+        "address": "001018ec",
+        "length": 7,
+        "value": "finite"
+    },
+    {
+        "address": "001018f3",
+        "length": 7,
+        "value": "stdout"
+    },
+    {
+        "address": "001018fa",
+        "length": 7,
+        "value": "fclose"
+    },
+    {
+        "address": "00101901",
+        "length": 9,
+        "value": "vsprintf"
+    },
+    {
+        "address": "0010190a",
+        "length": 7,
+        "value": "sincos"
+    },
+    {
+        "address": "00101911",
+        "length": 7,
+        "value": "strtok"
+    },
+    {
+        "address": "00101918",
+        "length": 13,
+        "value": "_ZGVbN2v_sin"
+    },
+    {
+        "address": "00101925",
+        "length": 5,
+        "value": "logf"
+    },
+    {
+        "address": "0010192a",
+        "length": 6,
+        "value": "asinf"
+    },
+    {
+        "address": "00101930",
+        "length": 12,
+        "value": "HushAsserts"
+    },
+    {
+        "address": "0010193c",
+        "length": 18,
+        "value": "GetCPUInformation"
+    },
+    {
+        "address": "0010194e",
+        "length": 6,
+        "value": "atanf"
+    },
+    {
+        "address": "00101954",
+        "length": 5,
+        "value": "rand"
+    },
+    {
+        "address": "00101959",
+        "length": 6,
+        "value": "cbrtf"
+    },
+    {
+        "address": "0010195f",
+        "length": 15,
+        "value": "_ZGVbN4vv_powf"
+    },
+    {
+        "address": "0010196e",
+        "length": 14,
+        "value": "_ZGVbN2vv_pow"
+    },
+    {
+        "address": "0010197c",
+        "length": 9,
+        "value": "vfprintf"
+    },
+    {
+        "address": "00101985",
+        "length": 7,
+        "value": "fflush"
+    },
+    {
+        "address": "0010198c",
+        "length": 21,
+        "value": "__pthread_key_create"
+    },
+    {
+        "address": "001019a1",
+        "length": 13,
+        "value": "pthread_once"
+    },
+    {
+        "address": "001019ae",
+        "length": 7,
+        "value": "malloc"
+    },
+    {
+        "address": "001019b5",
+        "length": 16,
+        "value": "dl_iterate_phdr"
+    },
+    {
+        "address": "001019c5",
+        "length": 12,
+        "value": "libtier0.so"
+    },
+    {
+        "address": "001019d1",
+        "length": 10,
+        "value": "libm.so.6"
+    },
+    {
+        "address": "001019db",
+        "length": 13,
+        "value": "libmvec.so.1"
+    },
+    {
+        "address": "001019e8",
+        "length": 11,
+        "value": "libdl.so.2"
+    },
+    {
+        "address": "001019f3",
+        "length": 15,
+        "value": "libstdc++.so.6"
+    },
+    {
+        "address": "00101a02",
+        "length": 16,
+        "value": "libpthread.so.0"
+    },
+    {
+        "address": "00101a12",
+        "length": 21,
+        "value": "ld-linux-x86-64.so.2"
+    },
+    {
+        "address": "00101a27",
+        "length": 10,
+        "value": "libc.so.6"
+    },
+    {
+        "address": "00101a31",
+        "length": 12,
+        "value": "GLIBC_2.2.5"
+    },
+    {
+        "address": "00101a3d",
+        "length": 13,
+        "value": "CXXABI_1.3.8"
+    },
+    {
+        "address": "00101a4a",
+        "length": 11,
+        "value": "CXXABI_1.3"
+    },
+    {
+        "address": "00101a55",
+        "length": 11,
+        "value": "GLIBC_2.29"
+    },
+    {
+        "address": "00101a60",
+        "length": 11,
+        "value": "GLIBC_2.27"
+    },
+    {
+        "address": "00101a6b",
+        "length": 11,
+        "value": "GLIBC_2.22"
+    },
+    {
+        "address": "00101a76",
+        "length": 10,
+        "value": "GLIBC_2.7"
+    },
+    {
+        "address": "00101a80",
+        "length": 11,
+        "value": "GLIBC_2.14"
+    },
+    {
+        "address": "00101a8b",
+        "length": 10,
+        "value": "GLIBC_2.3"
+    },
+    {
+        "address": "00244040",
+        "length": 6,
+        "value": "{}()'"
+    },
+    {
+        "address": "00244046",
+        "length": 7,
+        "value": "{}()':"
+    },
+    {
+        "address": "00244052",
+        "length": 14,
+        "value": "SgVPhysics031"
+    },
+    {
+        "address": "00244060",
+        "length": 13,
+        "value": "10IAppSystem"
+    },
+    {
+        "address": "00244070",
+        "length": 10,
+        "value": "8IPhysics"
+    },
+    {
+        "address": "00244080",
+        "length": 23,
+        "value": "20IPhysicsCollisionSet"
+    },
+    {
+        "address": "002440a0",
+        "length": 23,
+        "value": "20CPhysicsCollisionSet"
+    },
+    {
+        "address": "002440c0",
+        "length": 28,
+        "value": "14CBaseAppSystemI8IPhysicsE"
+    },
+    {
+        "address": "002440e0",
+        "length": 29,
+        "value": "15CTier0AppSystemI8IPhysicsE"
+    },
+    {
+        "address": "00244100",
+        "length": 33,
+        "value": "15CTier1AppSystemI8IPhysicsLi0EE"
+    },
+    {
+        "address": "00244130",
+        "length": 20,
+        "value": "17CPhysicsInterface"
+    },
+    {
+        "address": "00244147",
+        "length": 13,
+        "value": "@sys:airboat"
+    },
+    {
+        "address": "00244158",
+        "length": 87,
+        "value": "CPhysics_Airboat::do_simulation_controller projected_axis_direction_ws.normize failed\n"
+    },
+    {
+        "address": "002441b0",
+        "length": 24,
+        "value": "21IPhysicsCollisionData"
+    },
+    {
+        "address": "002441d0",
+        "length": 17,
+        "value": "14IVP_Controller"
+    },
+    {
+        "address": "002441f0",
+        "length": 27,
+        "value": "24IVP_Controller_Dependent"
+    },
+    {
+        "address": "00244210",
+        "length": 19,
+        "value": "16CPhysics_Airboat"
+    },
+    {
+        "address": "00244230",
+        "length": 23,
+        "value": "20CAirboatFrictionData"
+    },
+    {
+        "address": "0024436f",
+        "length": 22,
+        "value": "=Degenerate Triangle\n"
+    },
+    {
+        "address": "00244385",
+        "length": 21,
+        "value": "(%.2f, %.2f, %.2f), "
+    },
+    {
+        "address": "0024439a",
+        "length": 20,
+        "value": "(%.2f, %.2f, %.2f)\n"
+    },
+    {
+        "address": "002443ae",
+        "length": 20,
+        "value": "physcollideheader_t"
+    },
+    {
+        "address": "002443c2",
+        "length": 23,
+        "value": "compactsurfaceheader_t"
+    },
+    {
+        "address": "002443e1",
+        "length": 20,
+        "value": "Null physics model\n"
+    },
+    {
+        "address": "002443f5",
+        "length": 23,
+        "value": "Corrupt physics model\n"
+    },
+    {
+        "address": "0024440c",
+        "length": 21,
+        "value": "VPhysicsCollision007"
+    },
+    {
+        "address": "00244421",
+        "length": 12,
+        "value": "surfaceSize"
+    },
+    {
+        "address": "0024442d",
+        "length": 14,
+        "value": "dragAxisAreas"
+    },
+    {
+        "address": "0024443b",
+        "length": 12,
+        "value": "axisMapSize"
+    },
+    {
+        "address": "00244447",
+        "length": 11,
+        "value": "vphysicsID"
+    },
+    {
+        "address": "00244452",
+        "length": 8,
+        "value": "version"
+    },
+    {
+        "address": "0024445a",
+        "length": 10,
+        "value": "modelType"
+    },
+    {
+        "address": "00244468",
+        "length": 65,
+        "value": "CollisionModel: Compact Surface: %d convex pieces %s outer hull\n"
+    },
+    {
+        "address": "002444b0",
+        "length": 31,
+        "value": "vphysics: Invalid collide map\n"
+    },
+    {
+        "address": "002444d0",
+        "length": 32,
+        "value": "Old format .PHY file loaded!!!\n"
+    },
+    {
+        "address": "002444f0",
+        "length": 20,
+        "value": "17IPhysicsCollision"
+    },
+    {
+        "address": "00244510",
+        "length": 18,
+        "value": "15ICollisionQuery"
+    },
+    {
+        "address": "00244528",
+        "length": 15,
+        "value": "12IPhysCollide"
+    },
+    {
+        "address": "00244538",
+        "length": 15,
+        "value": "12CPhysCollide"
+    },
+    {
+        "address": "00244550",
+        "length": 20,
+        "value": "17CPhysicsCollision"
+    },
+    {
+        "address": "00244570",
+        "length": 29,
+        "value": "26CPhysCollideCompactSurface"
+    },
+    {
+        "address": "00244590",
+        "length": 18,
+        "value": "15CCollisionQuery"
+    },
+    {
+        "address": "002445b7",
+        "length": 27,
+        "value": "5System of %d constraints\n"
+    },
+    {
+        "address": "002445d2",
+        "length": 22,
+        "value": "\tConstraint %d) %s\n"
+    },
+    {
+        "address": "002445e8",
+        "length": 40,
+        "value": "vphysics_save_cphysicsconstraintgroup_t"
+    },
+    {
+        "address": "00244610",
+        "length": 35,
+        "value": "vphysics_save_cphysicsconstraint_t"
+    },
+    {
+        "address": "00244638",
+        "length": 36,
+        "value": "vphysics_save_constraintbreakable_t"
+    },
+    {
+        "address": "00244660",
+        "length": 36,
+        "value": "vphysics_save_constraintaxislimit_t"
+    },
+    {
+        "address": "00244688",
+        "length": 32,
+        "value": "vphysics_save_constraintfixed_t"
+    },
+    {
+        "address": "002446a8",
+        "length": 32,
+        "value": "vphysics_save_constrainthinge_t"
+    },
+    {
+        "address": "002446c8",
+        "length": 34,
+        "value": "vphysics_save_constraintsliding_t"
+    },
+    {
+        "address": "002446f0",
+        "length": 33,
+        "value": "vphysics_save_constraintpulley_t"
+    },
+    {
+        "address": "00244718",
+        "length": 33,
+        "value": "vphysics_save_constraintlength_t"
+    },
+    {
+        "address": "00244740",
+        "length": 37,
+        "value": "vphysics_save_constraintballsocket_t"
+    },
+    {
+        "address": "00244768",
+        "length": 34,
+        "value": "vphysics_save_constraintragdoll_t"
+    },
+    {
+        "address": "00244810",
+        "length": 21,
+        "value": "18IPhysicsConstraint"
+    },
+    {
+        "address": "00244830",
+        "length": 26,
+        "value": "23IPhysicsConstraintGroup"
+    },
+    {
+        "address": "00244850",
+        "length": 26,
+        "value": "23CPhysicsConstraintGroup"
+    },
+    {
+        "address": "00244870",
+        "length": 21,
+        "value": "18CPhysicsConstraint"
+    },
+    {
+        "address": "00244885",
+        "length": 22,
+        "value": "constraintToReference"
+    },
+    {
+        "address": "0024489b",
+        "length": 21,
+        "value": "constraintToAttached"
+    },
+    {
+        "address": "002448c8",
+        "length": 18,
+        "value": "onlyAngularLimits"
+    },
+    {
+        "address": "002448da",
+        "length": 9,
+        "value": "isActive"
+    },
+    {
+        "address": "002448e3",
+        "length": 22,
+        "value": "useClockwiseRotations"
+    },
+    {
+        "address": "002448f9",
+        "length": 19,
+        "value": "constraintPosition"
+    },
+    {
+        "address": "0024490c",
+        "length": 15,
+        "value": "objectPosition"
+    },
+    {
+        "address": "0024491b",
+        "length": 12,
+        "value": "totalLength"
+    },
+    {
+        "address": "00244927",
+        "length": 10,
+        "value": "minLength"
+    },
+    {
+        "address": "00244931",
+        "length": 15,
+        "value": "pulleyPosition"
+    },
+    {
+        "address": "00244940",
+        "length": 10,
+        "value": "gearRatio"
+    },
+    {
+        "address": "0024494a",
+        "length": 8,
+        "value": "isRigid"
+    },
+    {
+        "address": "00244952",
+        "length": 17,
+        "value": "attachedRefXform"
+    },
+    {
+        "address": "00244963",
+        "length": 13,
+        "value": "slideAxisRef"
+    },
+    {
+        "address": "00244970",
+        "length": 9,
+        "value": "limitMin"
+    },
+    {
+        "address": "00244979",
+        "length": 9,
+        "value": "limitMax"
+    },
+    {
+        "address": "00244982",
+        "length": 14,
+        "value": "worldPosition"
+    },
+    {
+        "address": "00244990",
+        "length": 19,
+        "value": "worldAxisDirection"
+    },
+    {
+        "address": "002449a3",
+        "length": 10,
+        "value": "hingeAxis"
+    },
+    {
+        "address": "002449ad",
+        "length": 12,
+        "value": "minRotation"
+    },
+    {
+        "address": "002449b9",
+        "length": 12,
+        "value": "maxRotation"
+    },
+    {
+        "address": "002449c5",
+        "length": 16,
+        "value": "angularVelocity"
+    },
+    {
+        "address": "002449d5",
+        "length": 9,
+        "value": "strength"
+    },
+    {
+        "address": "002449de",
+        "length": 11,
+        "value": "forceLimit"
+    },
+    {
+        "address": "002449e9",
+        "length": 12,
+        "value": "torqueLimit"
+    },
+    {
+        "address": "002449f5",
+        "length": 14,
+        "value": "bodyMassScale"
+    },
+    {
+        "address": "00244a03",
+        "length": 15,
+        "value": "constraintType"
+    },
+    {
+        "address": "00244a19",
+        "length": 14,
+        "value": "pObjReference"
+    },
+    {
+        "address": "00244a27",
+        "length": 13,
+        "value": "pObjAttached"
+    },
+    {
+        "address": "00244a34",
+        "length": 21,
+        "value": "additionalIterations"
+    },
+    {
+        "address": "00244a49",
+        "length": 14,
+        "value": "minErrorTicks"
+    },
+    {
+        "address": "00244a57",
+        "length": 17,
+        "value": "errorTolerance"
+    },
+    {
+        "address": "00244b20",
+        "length": 12,
+        "value": "sys:vehicle"
+    },
+    {
+        "address": "00244b40",
+        "length": 37,
+        "value": "34CPhysics_Car_System_Raycast_Wheels"
+    },
+    {
+        "address": "00244b73",
+        "length": 15,
+        "value": "`vphysics:drag"
+    },
+    {
+        "address": "00244b82",
+        "length": 24,
+        "value": "VPhysicsDebugOverlay001"
+    },
+    {
+        "address": "00244b9e",
+        "length": 30,
+        "value": "Deleted NULL vphysics object\n"
+    },
+    {
+        "address": "00244bbc",
+        "length": 12,
+        "value": "autoMutex__"
+    },
+    {
+        "address": "00244bc8",
+        "length": 24,
+        "value": "physics_environment.cpp"
+    },
+    {
+        "address": "00244be2",
+        "length": 19,
+        "value": "vphysics_nan_debug"
+    },
+    {
+        "address": "00244bf8",
+        "length": 64,
+        "value": "Changed collision rules for %s vs. %s without calling recheck!\n"
+    },
+    {
+        "address": "00244c38",
+        "length": 35,
+        "value": "Set Gravity %.1f (%.3f tolerance)\n"
+    },
+    {
+        "address": "00244c60",
+        "length": 31,
+        "value": "error deleting physics object\n"
+    },
+    {
+        "address": "002451b8",
+        "length": 10,
+        "value": "thickness"
+    },
+    {
+        "address": "002451c2",
+        "length": 8,
+        "value": "density"
+    },
+    {
+        "address": "002451ca",
+        "length": 11,
+        "value": "elasticity"
+    },
+    {
+        "address": "002451d5",
+        "length": 15,
+        "value": "maxspeedfactor"
+    },
+    {
+        "address": "002451e4",
+        "length": 11,
+        "value": "jumpfactor"
+    },
+    {
+        "address": "002451ef",
+        "length": 10,
+        "value": "climbable"
+    },
+    {
+        "address": "002451f9",
+        "length": 18,
+        "value": "audioReflectivity"
+    },
+    {
+        "address": "0024520b",
+        "length": 20,
+        "value": "audioHardnessFactor"
+    },
+    {
+        "address": "0024521f",
+        "length": 21,
+        "value": "audioHardMinVelocity"
+    },
+    {
+        "address": "00245234",
+        "length": 21,
+        "value": "audioRoughnessFactor"
+    },
+    {
+        "address": "00245249",
+        "length": 21,
+        "value": "scrapeRoughThreshold"
+    },
+    {
+        "address": "0024525e",
+        "length": 20,
+        "value": "impactHardThreshold"
+    },
+    {
+        "address": "00245272",
+        "length": 9,
+        "value": "stepleft"
+    },
+    {
+        "address": "0024527b",
+        "length": 10,
+        "value": "stepright"
+    },
+    {
+        "address": "00245285",
+        "length": 11,
+        "value": "impactsoft"
+    },
+    {
+        "address": "00245290",
+        "length": 11,
+        "value": "impacthard"
+    },
+    {
+        "address": "0024529b",
+        "length": 13,
+        "value": "scrapesmooth"
+    },
+    {
+        "address": "002452a8",
+        "length": 12,
+        "value": "scraperough"
+    },
+    {
+        "address": "002452b4",
+        "length": 13,
+        "value": "bulletimpact"
+    },
+    {
+        "address": "002452c1",
+        "length": 6,
+        "value": "break"
+    },
+    {
+        "address": "002452c7",
+        "length": 7,
+        "value": "strain"
+    },
+    {
+        "address": "002452ce",
+        "length": 8,
+        "value": "rolling"
+    },
+    {
+        "address": "002452d6",
+        "length": 13,
+        "value": "gamematerial"
+    },
+    {
+        "address": "002452e3",
+        "length": 10,
+        "value": "dampening"
+    },
+    {
+        "address": "002452ed",
+        "length": 24,
+        "value": "VPhysicsSurfaceProps001"
+    },
+    {
+        "address": "00245310",
+        "length": 23,
+        "value": "20IPhysicsSurfaceProps"
+    },
+    {
+        "address": "00245330",
+        "length": 31,
+        "value": "28IPhysicsSurfacePropsInternal"
+    },
+    {
+        "address": "00245350",
+        "length": 10,
+        "value": "8CSurface"
+    },
+    {
+        "address": "00245360",
+        "length": 22,
+        "value": "19CIVPMaterialManager"
+    },
+    {
+        "address": "00245380",
+        "length": 23,
+        "value": "20CPhysicsSurfaceProps"
+    },
+    {
+        "address": "002453d0",
+        "length": 16,
+        "value": "vphysics:motion"
+    },
+    {
+        "address": "002453e0",
+        "length": 33,
+        "value": "vphysics_save_motioncontroller_t"
+    },
+    {
+        "address": "00245401",
+        "length": 24,
+        "value": "Attached core twice!!!\n"
+    },
+    {
+        "address": "00245419",
+        "length": 13,
+        "value": "m_objectList"
+    },
+    {
+        "address": "00245426",
+        "length": 14,
+        "value": "m_nPriority"
+    },
+    {
+        "address": "00245440",
+        "length": 27,
+        "value": "24IPhysicsMotionController"
+    },
+    {
+        "address": "00245460",
+        "length": 27,
+        "value": "24CPhysicsMotionController"
+    },
+    {
+        "address": "0024547b",
+        "length": 8,
+        "value": "Debug! "
+    },
+    {
+        "address": "00245483",
+        "length": 9,
+        "value": "Disabled"
+    },
+    {
+        "address": "0024548c",
+        "length": 6,
+        "value": "Awake"
+    },
+    {
+        "address": "00245492",
+        "length": 30,
+        "value": "-----------------\nObject: %s\n"
+    },
+    {
+        "address": "002454b0",
+        "length": 23,
+        "value": "Mass: %.1f (inv %.3f)\n"
+    },
+    {
+        "address": "002454c7",
+        "length": 29,
+        "value": "Velocity: %.2f, %.2f, %.2f \n"
+    },
+    {
+        "address": "002454e6",
+        "length": 19,
+        "value": "Hinged on %s axis\n"
+    },
+    {
+        "address": "002454f9",
+        "length": 28,
+        "value": "attached to %d controllers\n"
+    },
+    {
+        "address": "00245515",
+        "length": 13,
+        "value": "sphereRadius"
+    },
+    {
+        "address": "00245522",
+        "length": 9,
+        "value": "isStatic"
+    },
+    {
+        "address": "0024552b",
+        "length": 17,
+        "value": "collisionEnabled"
+    },
+    {
+        "address": "0024553c",
+        "length": 15,
+        "value": "gravityEnabled"
+    },
+    {
+        "address": "0024554b",
+        "length": 12,
+        "value": "dragEnabled"
+    },
+    {
+        "address": "00245557",
+        "length": 14,
+        "value": "motionEnabled"
+    },
+    {
+        "address": "00245565",
+        "length": 9,
+        "value": "isAsleep"
+    },
+    {
+        "address": "0024556e",
+        "length": 10,
+        "value": "isTrigger"
+    },
+    {
+        "address": "00245578",
+        "length": 20,
+        "value": "asleepSinceCreation"
+    },
+    {
+        "address": "0024558c",
+        "length": 18,
+        "value": "hasTouchedDynamic"
+    },
+    {
+        "address": "0024559e",
+        "length": 14,
+        "value": "materialIndex"
+    },
+    {
+        "address": "002455b1",
+        "length": 11,
+        "value": "rotInertia"
+    },
+    {
+        "address": "002455bc",
+        "length": 13,
+        "value": "speedDamping"
+    },
+    {
+        "address": "002455c9",
+        "length": 16,
+        "value": "rotSpeedDamping"
+    },
+    {
+        "address": "002455d9",
+        "length": 19,
+        "value": "massCenterOverride"
+    },
+    {
+        "address": "002455ec",
+        "length": 10,
+        "value": "callbacks"
+    },
+    {
+        "address": "002455f6",
+        "length": 10,
+        "value": "gameFlags"
+    },
+    {
+        "address": "00245600",
+        "length": 13,
+        "value": "contentsMask"
+    },
+    {
+        "address": "0024560d",
+        "length": 7,
+        "value": "volume"
+    },
+    {
+        "address": "00245614",
+        "length": 16,
+        "value": "dragCoefficient"
+    },
+    {
+        "address": "00245624",
+        "length": 19,
+        "value": "angDragCoefficient"
+    },
+    {
+        "address": "00245637",
+        "length": 20,
+        "value": "hasShadowController"
+    },
+    {
+        "address": "0024564b",
+        "length": 7,
+        "value": "origin"
+    },
+    {
+        "address": "00245652",
+        "length": 12,
+        "value": "angVelocity"
+    },
+    {
+        "address": "0024565e",
+        "length": 12,
+        "value": "collideType"
+    },
+    {
+        "address": "0024566a",
+        "length": 10,
+        "value": "gameIndex"
+    },
+    {
+        "address": "00245678",
+        "length": 50,
+        "value": "Inertia: %.2f, %.2f, %.2f (inv %.3f, %.3f, %.3f)\n"
+    },
+    {
+        "address": "002456b0",
+        "length": 33,
+        "value": "Ang Velocity: %.2f, %.2f, %.2f \n"
+    },
+    {
+        "address": "002456d8",
+        "length": 35,
+        "value": "Damping %.2f linear, %.2f angular\n"
+    },
+    {
+        "address": "00245700",
+        "length": 45,
+        "value": "Linear Drag: %.2f, %.2f, %.2f (factor %.2f)\n"
+    },
+    {
+        "address": "00245730",
+        "length": 46,
+        "value": "Angular Drag: %.2f, %.2f, %.2f (factor %.2f)\n"
+    },
+    {
+        "address": "00245760",
+        "length": 72,
+        "value": "State: %s, Collision %s, Motion %s, %sFlags %04X (game %04x, index %d)\n"
+    },
+    {
+        "address": "002457a8",
+        "length": 81,
+        "value": "Material: %s : density(%.1f), thickness(%.2f), friction(%.2f), elasticity(%.2f)\n"
+    },
+    {
+        "address": "00245800",
+        "length": 31,
+        "value": "vphysics_save_cphysicsobject_t"
+    },
+    {
+        "address": "00245820",
+        "length": 17,
+        "value": "14IPhysicsObject"
+    },
+    {
+        "address": "00245840",
+        "length": 18,
+        "value": "15ISaveRestoreOps"
+    },
+    {
+        "address": "00245860",
+        "length": 21,
+        "value": "18CDefSaveRestoreOps"
+    },
+    {
+        "address": "00245880",
+        "length": 17,
+        "value": "14CPhysicsObject"
+    },
+    {
+        "address": "002458a0",
+        "length": 20,
+        "value": "17CMaterialIndexOps"
+    },
+    {
+        "address": "002458ef",
+        "length": 17,
+        "value": "?vphysics:player"
+    },
+    {
+        "address": "00245900",
+        "length": 16,
+        "value": "vphysics:shadow"
+    },
+    {
+        "address": "00245910",
+        "length": 36,
+        "value": "vphysics_save_shadowcontrolparams_t"
+    },
+    {
+        "address": "00245938",
+        "length": 34,
+        "value": "vphysics_save_cshadowcontroller_t"
+    },
+    {
+        "address": "00245960",
+        "length": 16,
+        "value": "13aligned_tmp_t"
+    },
+    {
+        "address": "00245980",
+        "length": 42,
+        "value": "17CAlignedNewDeleteILi16E13aligned_tmp_tE"
+    },
+    {
+        "address": "002459b0",
+        "length": 27,
+        "value": "24IPhysicsShadowController"
+    },
+    {
+        "address": "002459d0",
+        "length": 27,
+        "value": "24IPhysicsPlayerController"
+    },
+    {
+        "address": "002459f0",
+        "length": 20,
+        "value": "17CPlayerController"
+    },
+    {
+        "address": "00245a10",
+        "length": 20,
+        "value": "17CShadowController"
+    },
+    {
+        "address": "00245a24",
+        "length": 17,
+        "value": "secondsToArrival"
+    },
+    {
+        "address": "00245a35",
+        "length": 10,
+        "value": "saveRot.k"
+    },
+    {
+        "address": "00245a3f",
+        "length": 10,
+        "value": "savedRI.k"
+    },
+    {
+        "address": "00245a49",
+        "length": 15,
+        "value": "currentSpeed.k"
+    },
+    {
+        "address": "00245a58",
+        "length": 10,
+        "value": "savedMass"
+    },
+    {
+        "address": "00245a62",
+        "length": 11,
+        "value": "savedFlags"
+    },
+    {
+        "address": "00245a6d",
+        "length": 14,
+        "value": "savedMaterial"
+    },
+    {
+        "address": "00245a7b",
+        "length": 7,
+        "value": "enable"
+    },
+    {
+        "address": "00245a82",
+        "length": 21,
+        "value": "allowPhysicsMovement"
+    },
+    {
+        "address": "00245a97",
+        "length": 21,
+        "value": "allowPhysicsRotation"
+    },
+    {
+        "address": "00245aac",
+        "length": 23,
+        "value": "isPhysicallyControlled"
+    },
+    {
+        "address": "00245ac3",
+        "length": 13,
+        "value": "shadowParams"
+    },
+    {
+        "address": "00245ad0",
+        "length": 15,
+        "value": "targetPosition"
+    },
+    {
+        "address": "00245adf",
+        "length": 15,
+        "value": "targetRotation"
+    },
+    {
+        "address": "00245aee",
+        "length": 9,
+        "value": "maxSpeed"
+    },
+    {
+        "address": "00245af7",
+        "length": 13,
+        "value": "maxDampSpeed"
+    },
+    {
+        "address": "00245b04",
+        "length": 11,
+        "value": "maxAngular"
+    },
+    {
+        "address": "00245b0f",
+        "length": 15,
+        "value": "maxDampAngular"
+    },
+    {
+        "address": "00245b1e",
+        "length": 11,
+        "value": "dampFactor"
+    },
+    {
+        "address": "00245b29",
+        "length": 19,
+        "value": "teleportDistance"
+    },
+    {
+        "address": "00245b90",
+        "length": 31,
+        "value": "vphysics_save_cphysicsspring_t"
+    },
+    {
+        "address": "00245bb0",
+        "length": 35,
+        "value": "Failed to restore spring enpoints\n"
+    },
+    {
+        "address": "00245be0",
+        "length": 17,
+        "value": "14IPhysicsSpring"
+    },
+    {
+        "address": "00245c00",
+        "length": 17,
+        "value": "14CPhysicsSpring"
+    },
+    {
+        "address": "00245c11",
+        "length": 14,
+        "value": "naturalLength"
+    },
+    {
+        "address": "00245c1f",
+        "length": 16,
+        "value": "relativeDamping"
+    },
+    {
+        "address": "00245c2f",
+        "length": 14,
+        "value": "startPosition"
+    },
+    {
+        "address": "00245c3d",
+        "length": 12,
+        "value": "endPosition"
+    },
+    {
+        "address": "00245c49",
+        "length": 18,
+        "value": "useLocalPositions"
+    },
+    {
+        "address": "00245c5b",
+        "length": 12,
+        "value": "onlyStretch"
+    },
+    {
+        "address": "00245c67",
+        "length": 10,
+        "value": "pObjStart"
+    },
+    {
+        "address": "00245c71",
+        "length": 8,
+        "value": "pObjEnd"
+    },
+    {
+        "address": "00245c79",
+        "length": 13,
+        "value": "VehicleWheel"
+    },
+    {
+        "address": "00245c86",
+        "length": 26,
+        "value": "vehicle_operatingparams_t"
+    },
+    {
+        "address": "00245ca0",
+        "length": 21,
+        "value": "vehicle_bodyparams_t"
+    },
+    {
+        "address": "00245cb5",
+        "length": 22,
+        "value": "vehicle_wheelparams_t"
+    },
+    {
+        "address": "00245ccb",
+        "length": 27,
+        "value": "vehicle_suspensionparams_t"
+    },
+    {
+        "address": "00245ce6",
+        "length": 21,
+        "value": "vehicle_axleparams_t"
+    },
+    {
+        "address": "00245cfb",
+        "length": 25,
+        "value": "vehicle_steeringparams_t"
+    },
+    {
+        "address": "00245d14",
+        "length": 23,
+        "value": "vehicle_engineparams_t"
+    },
+    {
+        "address": "00245d2b",
+        "length": 16,
+        "value": "vehicleparams_t"
+    },
+    {
+        "address": "00245d3b",
+        "length": 10,
+        "value": "axleCount"
+    },
+    {
+        "address": "00245d45",
+        "length": 14,
+        "value": "wheelsPerAxle"
+    },
+    {
+        "address": "00245d5e",
+        "length": 7,
+        "value": "engine"
+    },
+    {
+        "address": "00245d65",
+        "length": 9,
+        "value": "steering"
+    },
+    {
+        "address": "00245d6e",
+        "length": 11,
+        "value": "horsepower"
+    },
+    {
+        "address": "00245d79",
+        "length": 12,
+        "value": "maxRevSpeed"
+    },
+    {
+        "address": "00245d85",
+        "length": 7,
+        "value": "maxRPM"
+    },
+    {
+        "address": "00245d8c",
+        "length": 10,
+        "value": "axleRatio"
+    },
+    {
+        "address": "00245d96",
+        "length": 13,
+        "value": "throttleTime"
+    },
+    {
+        "address": "00245da3",
+        "length": 19,
+        "value": "isAutoTransmission"
+    },
+    {
+        "address": "00245db6",
+        "length": 10,
+        "value": "gearCount"
+    },
+    {
+        "address": "00245dc0",
+        "length": 11,
+        "value": "shiftUpRPM"
+    },
+    {
+        "address": "00245dcb",
+        "length": 13,
+        "value": "shiftDownRPM"
+    },
+    {
+        "address": "00245dd8",
+        "length": 11,
+        "value": "boostForce"
+    },
+    {
+        "address": "00245de3",
+        "length": 14,
+        "value": "boostDuration"
+    },
+    {
+        "address": "00245df1",
+        "length": 11,
+        "value": "boostDelay"
+    },
+    {
+        "address": "00245dfc",
+        "length": 14,
+        "value": "boostMaxSpeed"
+    },
+    {
+        "address": "00245e0a",
+        "length": 19,
+        "value": "autobrakeSpeedGain"
+    },
+    {
+        "address": "00245e1d",
+        "length": 21,
+        "value": "autobrakeSpeedFactor"
+    },
+    {
+        "address": "00245e32",
+        "length": 12,
+        "value": "torqueBoost"
+    },
+    {
+        "address": "00245e3e",
+        "length": 12,
+        "value": "degreesSlow"
+    },
+    {
+        "address": "00245e4a",
+        "length": 12,
+        "value": "degreesFast"
+    },
+    {
+        "address": "00245e56",
+        "length": 13,
+        "value": "degreesBoost"
+    },
+    {
+        "address": "00245e63",
+        "length": 17,
+        "value": "steeringRateSlow"
+    },
+    {
+        "address": "00245e74",
+        "length": 17,
+        "value": "steeringRateFast"
+    },
+    {
+        "address": "00245e85",
+        "length": 21,
+        "value": "steeringRestRateSlow"
+    },
+    {
+        "address": "00245e9a",
+        "length": 21,
+        "value": "steeringRestRateFast"
+    },
+    {
+        "address": "00245eaf",
+        "length": 28,
+        "value": "boostSteeringRestRateFactor"
+    },
+    {
+        "address": "00245ecb",
+        "length": 24,
+        "value": "boostSteeringRateFactor"
+    },
+    {
+        "address": "00245ee3",
+        "length": 17,
+        "value": "steeringExponent"
+    },
+    {
+        "address": "00245ef4",
+        "length": 10,
+        "value": "speedSlow"
+    },
+    {
+        "address": "00245efe",
+        "length": 10,
+        "value": "speedFast"
+    },
+    {
+        "address": "00245f08",
+        "length": 23,
+        "value": "turnThrottleReduceSlow"
+    },
+    {
+        "address": "00245f1f",
+        "length": 23,
+        "value": "turnThrottleReduceFast"
+    },
+    {
+        "address": "00245f36",
+        "length": 16,
+        "value": "powerSlideAccel"
+    },
+    {
+        "address": "00245f5e",
+        "length": 14,
+        "value": "isSkidAllowed"
+    },
+    {
+        "address": "00245f6c",
+        "length": 10,
+        "value": "dustCloud"
+    },
+    {
+        "address": "00245f76",
+        "length": 12,
+        "value": "wheelOffset"
+    },
+    {
+        "address": "00245f82",
+        "length": 21,
+        "value": "raytraceCenterOffset"
+    },
+    {
+        "address": "00245f97",
+        "length": 15,
+        "value": "raytraceOffset"
+    },
+    {
+        "address": "00245fa6",
+        "length": 7,
+        "value": "wheels"
+    },
+    {
+        "address": "00245fad",
+        "length": 13,
+        "value": "torqueFactor"
+    },
+    {
+        "address": "00245fba",
+        "length": 12,
+        "value": "brakeFactor"
+    },
+    {
+        "address": "00245fc6",
+        "length": 15,
+        "value": "springConstant"
+    },
+    {
+        "address": "00245fd5",
+        "length": 14,
+        "value": "springDamping"
+    },
+    {
+        "address": "00245fe3",
+        "length": 19,
+        "value": "stabilizerConstant"
+    },
+    {
+        "address": "00245ff6",
+        "length": 25,
+        "value": "springDampingCompression"
+    },
+    {
+        "address": "0024600f",
+        "length": 13,
+        "value": "maxBodyForce"
+    },
+    {
+        "address": "0024601c",
+        "length": 7,
+        "value": "radius"
+    },
+    {
+        "address": "00246023",
+        "length": 8,
+        "value": "inertia"
+    },
+    {
+        "address": "0024602b",
+        "length": 11,
+        "value": "rotdamping"
+    },
+    {
+        "address": "00246036",
+        "length": 14,
+        "value": "frictionScale"
+    },
+    {
+        "address": "00246044",
+        "length": 19,
+        "value": "brakeMaterialIndex"
+    },
+    {
+        "address": "00246057",
+        "length": 18,
+        "value": "skidMaterialIndex"
+    },
+    {
+        "address": "00246069",
+        "length": 23,
+        "value": "springAdditionalLength"
+    },
+    {
+        "address": "00246080",
+        "length": 13,
+        "value": "massOverride"
+    },
+    {
+        "address": "0024608d",
+        "length": 11,
+        "value": "addGravity"
+    },
+    {
+        "address": "00246098",
+        "length": 19,
+        "value": "maxAngularVelocity"
+    },
+    {
+        "address": "002460ab",
+        "length": 10,
+        "value": "tiltForce"
+    },
+    {
+        "address": "002460b5",
+        "length": 16,
+        "value": "tiltForceHeight"
+    },
+    {
+        "address": "002460c5",
+        "length": 20,
+        "value": "counterTorqueFactor"
+    },
+    {
+        "address": "002460d9",
+        "length": 18,
+        "value": "keepUprightTorque"
+    },
+    {
+        "address": "002460eb",
+        "length": 10,
+        "value": "engineRPM"
+    },
+    {
+        "address": "002460fa",
+        "length": 14,
+        "value": "boostTimeLeft"
+    },
+    {
+        "address": "00246108",
+        "length": 10,
+        "value": "skidSpeed"
+    },
+    {
+        "address": "00246112",
+        "length": 13,
+        "value": "skidMaterial"
+    },
+    {
+        "address": "0024611f",
+        "length": 14,
+        "value": "steeringAngle"
+    },
+    {
+        "address": "0024612d",
+        "length": 16,
+        "value": "wheelsInContact"
+    },
+    {
+        "address": "0024613d",
+        "length": 19,
+        "value": "wheelsNotInContact"
+    },
+    {
+        "address": "00246150",
+        "length": 17,
+        "value": "isTorqueBoosting"
+    },
+    {
+        "address": "00246161",
+        "length": 11,
+        "value": "m_pCarBody"
+    },
+    {
+        "address": "00246187",
+        "length": 15,
+        "value": "m_currentState"
+    },
+    {
+        "address": "00246196",
+        "length": 11,
+        "value": "m_bodyMass"
+    },
+    {
+        "address": "002461a1",
+        "length": 17,
+        "value": "m_totalWheelMass"
+    },
+    {
+        "address": "002461b2",
+        "length": 16,
+        "value": "m_gravityLength"
+    },
+    {
+        "address": "002461c2",
+        "length": 14,
+        "value": "m_torqueScale"
+    },
+    {
+        "address": "00246200",
+        "length": 15,
+        "value": "m_vehicleFlags"
+    },
+    {
+        "address": "00246237",
+        "length": 12,
+        "value": "m_bOccupied"
+    },
+    {
+        "address": "00246254",
+        "length": 13,
+        "value": "m_flVelocity"
+    },
+    {
+        "address": "002462b0",
+        "length": 28,
+        "value": "25IPhysicsVehicleController"
+    },
+    {
+        "address": "00246337",
+        "length": 17,
+        "value": "?Virtual mesh!\n"
+    },
+    {
+        "address": "00246360",
+        "length": 33,
+        "value": "30IVP_SurfaceManager_VirtualMesh"
+    },
+    {
+        "address": "002463a0",
+        "length": 73,
+        "value": "12CDataManagerI13CMeshInstance17virtualmeshlist_tPS0_16CThreadFastMutexE"
+    },
+    {
+        "address": "002463f0",
+        "length": 26,
+        "value": "23CPhysCollideVirtualMesh"
+    },
+    {
+        "address": "00246448",
+        "length": 10,
+        "value": "trace.cpp"
+    },
+    {
+        "address": "00246486",
+        "length": 16,
+        "value": "SupportMap_Walk"
+    },
+    {
+        "address": "00246496",
+        "length": 16,
+        "value": "SolveSeparation"
+    },
+    {
+        "address": "002464a6",
+        "length": 21,
+        "value": "TraceSolver::DoSweep"
+    },
+    {
+        "address": "002464bb",
+        "length": 10,
+        "value": "**empty**"
+    },
+    {
+        "address": "00246558",
+        "length": 14,
+        "value": "11IConvexInfo"
+    },
+    {
+        "address": "00246676",
+        "length": 10,
+        "value": "xfriction"
+    },
+    {
+        "address": "002466fb",
+        "length": 14,
+        "value": "brakematerial"
+    },
+    {
+        "address": "0024675f",
+        "length": 6,
+        "value": "wheel"
+    },
+    {
+        "address": "00246765",
+        "length": 12,
+        "value": "wheeloffset"
+    },
+    {
+        "address": "00246771",
+        "length": 12,
+        "value": "brakefactor"
+    },
+    {
+        "address": "002467b6",
+        "length": 18,
+        "value": "keepuprighttorque"
+    },
+    {
+        "address": "002467c8",
+        "length": 9,
+        "value": "duration"
+    },
+    {
+        "address": "002467d1",
+        "length": 6,
+        "value": "delay"
+    },
+    {
+        "address": "002467d7",
+        "length": 9,
+        "value": "maxspeed"
+    },
+    {
+        "address": "002467e0",
+        "length": 12,
+        "value": "torqueboost"
+    },
+    {
+        "address": "00246978",
+        "length": 6,
+        "value": " game"
+    },
+    {
+        "address": "0024697e",
+        "length": 8,
+        "value": " client"
+    },
+    {
+        "address": "00246986",
+        "length": 9,
+        "value": " archive"
+    },
+    {
+        "address": "0024698f",
+        "length": 8,
+        "value": " notify"
+    },
+    {
+        "address": "00246997",
+        "length": 14,
+        "value": " singleplayer"
+    },
+    {
+        "address": "002469a5",
+        "length": 14,
+        "value": " notconnected"
+    },
+    {
+        "address": "002469b3",
+        "length": 7,
+        "value": " cheat"
+    },
+    {
+        "address": "002469ba",
+        "length": 12,
+        "value": " replicated"
+    },
+    {
+        "address": "002469c6",
+        "length": 20,
+        "value": " server_can_execute"
+    },
+    {
+        "address": "002469da",
+        "length": 23,
+        "value": " clientcmd_can_execute"
+    },
+    {
+        "address": "002469f1",
+        "length": 22,
+        "value": "FCVAR_NEVER_AS_STRING"
+    },
+    {
+        "address": "00246a07",
+        "length": 15,
+        "value": " ( def. \"%s\" )"
+    },
+    {
+        "address": "00246a1f",
+        "length": 9,
+        "value": " max. %f"
+    },
+    {
+        "address": "00246a28",
+        "length": 6,
+        "value": "\"%s\"\n"
+    },
+    {
+        "address": "00246a2e",
+        "length": 7,
+        "value": " - %s\n"
+    },
+    {
+        "address": "00246a35",
+        "length": 12,
+        "value": "\"%s\" = \"%s\""
+    },
+    {
+        "address": "00246a41",
+        "length": 7,
+        "value": "%s %f\n"
+    },
+    {
+        "address": "00246a48",
+        "length": 90,
+        "value": "CCommand::Tokenize: Encountered command which overflows the tokenizer buffer.. Skipping!\n"
+    },
+    {
+        "address": "00246aa8",
+        "length": 88,
+        "value": "CCommand::Tokenize: Encountered command which overflows the argument buffer.. Clamped!\n"
+    },
+    {
+        "address": "00246b00",
+        "length": 50,
+        "value": "ConVarRef %s doesn't point to an existing ConVar\n"
+    },
+    {
+        "address": "00246b38",
+        "length": 89,
+        "value": "** NOTE: The real value is %.3f but the server has temporarily restricted it to %.3f **\n"
+    },
+    {
+        "address": "00246b98",
+        "length": 9,
+        "value": "7IConVar"
+    },
+    {
+        "address": "00246bb0",
+        "length": 26,
+        "value": "23IConCommandBaseAccessor"
+    },
+    {
+        "address": "00246bd0",
+        "length": 17,
+        "value": "14ConCommandBase"
+    },
+    {
+        "address": "00246be8",
+        "length": 13,
+        "value": "10ConCommand"
+    },
+    {
+        "address": "00246bf8",
+        "length": 8,
+        "value": "6ConVar"
+    },
+    {
+        "address": "00246c00",
+        "length": 23,
+        "value": "20ConVar_ServerBounded"
+    },
+    {
+        "address": "00246c20",
+        "length": 19,
+        "value": "16CDefaultAccessor"
+    },
+    {
+        "address": "00246c38",
+        "length": 15,
+        "value": "12CEmptyConVar"
+    },
+    {
+        "address": "00246c4c",
+        "length": 6,
+        "value": "*this"
+    },
+    {
+        "address": "00246c52",
+        "length": 16,
+        "value": "datamanager.cpp"
+    },
+    {
+        "address": "00246c68",
+        "length": 38,
+        "value": "Data manager 'used' memory incorrect\n"
+    },
+    {
+        "address": "00246c90",
+        "length": 19,
+        "value": "16CDataManagerBase"
+    },
+    {
+        "address": "00246ca3",
+        "length": 17,
+        "value": "DLOPEN Error:%s\n"
+    },
+    {
+        "address": "00246cb8",
+        "length": 13,
+        "value": "No such file"
+    },
+    {
+        "address": "00246cc5",
+        "length": 16,
+        "value": "image not found"
+    },
+    {
+        "address": "00246cd5",
+        "length": 12,
+        "value": "bin/linux64"
+    },
+    {
+        "address": "00246ce1",
+        "length": 6,
+        "value": "%s/%s"
+    },
+    {
+        "address": "00246ce7",
+        "length": 18,
+        "value": "%s/bin/linux64/%s"
+    },
+    {
+        "address": "00246cf9",
+        "length": 16,
+        "value": "CreateInterface"
+    },
+    {
+        "address": "00246d10",
+        "length": 31,
+        "value": " failed to dlopen %s error=%s\n"
+    },
+    {
+        "address": "00246d30",
+        "length": 19,
+        "value": "16CDllDemandLoader"
+    },
+    {
+        "address": "00246d43",
+        "length": 17,
+        "value": "0123456789ABCDEF"
+    },
+    {
+        "address": "00246d5c",
+        "length": 7,
+        "value": " bytes"
+    },
+    {
+        "address": "00246d68",
+        "length": 9,
+        "value": "%%.%if%s"
+    },
+    {
+        "address": "00246d71",
+        "length": 6,
+        "value": ",%03d"
+    },
+    {
+        "address": "00246d77",
+        "length": 8,
+        "value": "UCS-2LE"
+    },
+    {
+        "address": "00246d7f",
+        "length": 8,
+        "value": "UCS-4LE"
+    },
+    {
+        "address": "00246d87",
+        "length": 9,
+        "value": "UTF-32LE"
+    },
+    {
+        "address": "00246d90",
+        "length": 6,
+        "value": "UTF-8"
+    },
+    {
+        "address": "00246da5",
+        "length": 9,
+        "value": "%A %b %d"
+    },
+    {
+        "address": "00246dae",
+        "length": 7,
+        "value": "%I:%M "
+    },
+    {
+        "address": "00246dbf",
+        "length": 6,
+        "value": "[url="
+    },
+    {
+        "address": "00246dc5",
+        "length": 17,
+        "value": "steam://openurl/"
+    },
+    {
+        "address": "00246dd6",
+        "length": 26,
+        "value": "steam://openurl_external/"
+    },
+    {
+        "address": "00246dfd",
+        "length": 13,
+        "value": "%s %s %s %s\n"
+    },
+    {
+        "address": "00246e17",
+        "length": 10,
+        "value": "</script>"
+    },
+    {
+        "address": "00246e21",
+        "length": 7,
+        "value": "script"
+    },
+    {
+        "address": "00246e80",
+        "length": 7,
+        "value": "[code]"
+    },
+    {
+        "address": "00246e87",
+        "length": 6,
+        "value": "<pre>"
+    },
+    {
+        "address": "00246e8d",
+        "length": 8,
+        "value": "[/code]"
+    },
+    {
+        "address": "00246e95",
+        "length": 7,
+        "value": "</pre>"
+    },
+    {
+        "address": "00246ea6",
+        "length": 6,
+        "value": "[/h1]"
+    },
+    {
+        "address": "00246eac",
+        "length": 6,
+        "value": "</h1>"
+    },
+    {
+        "address": "00246eb2",
+        "length": 7,
+        "value": "[list]"
+    },
+    {
+        "address": "00246ebe",
+        "length": 8,
+        "value": "[/list]"
+    },
+    {
+        "address": "00246ec6",
+        "length": 6,
+        "value": "</ul>"
+    },
+    {
+        "address": "00246ed0",
+        "length": 7,
+        "value": "[/url]"
+    },
+    {
+        "address": "00246edc",
+        "length": 6,
+        "value": "[img]"
+    },
+    {
+        "address": "00246eed",
+        "length": 7,
+        "value": "[/img]"
+    },
+    {
+        "address": "00246ef4",
+        "length": 9,
+        "value": "\"></img>"
+    },
+    {
+        "address": "00246efe",
+        "length": 6,
+        "value": "quot;"
+    },
+    {
+        "address": "00246f04",
+        "length": 7,
+        "value": "&apos;"
+    },
+    {
+        "address": "00246f1c",
+        "length": 6,
+        "value": "nbsp;"
+    },
+    {
+        "address": "00246f65",
+        "length": 9,
+        "value": "&curren;"
+    },
+    {
+        "address": "00247022",
+        "length": 9,
+        "value": "&iquest;"
+    },
+    {
+        "address": "00247033",
+        "length": 9,
+        "value": "&divide;"
+    },
+    {
+        "address": "0024703c",
+        "length": 9,
+        "value": "&Agrave;"
+    },
+    {
+        "address": "00247056",
+        "length": 9,
+        "value": "&Atilde;"
+    },
+    {
+        "address": "00247066",
+        "length": 8,
+        "value": "&Aring;"
+    },
+    {
+        "address": "0024707f",
+        "length": 9,
+        "value": "&Egrave;"
+    },
+    {
+        "address": "00247088",
+        "length": 9,
+        "value": "&Eacute;"
+    },
+    {
+        "address": "002470a9",
+        "length": 9,
+        "value": "&Iacute;"
+    },
+    {
+        "address": "002470c7",
+        "length": 9,
+        "value": "&Ntilde;"
+    },
+    {
+        "address": "002470d0",
+        "length": 9,
+        "value": "&Ograve;"
+    },
+    {
+        "address": "002470d9",
+        "length": 9,
+        "value": "&Oacute;"
+    },
+    {
+        "address": "002470ea",
+        "length": 9,
+        "value": "&Otilde;"
+    },
+    {
+        "address": "0024713d",
+        "length": 9,
+        "value": "&agrave;"
+    },
+    {
+        "address": "00247157",
+        "length": 9,
+        "value": "&atilde;"
+    },
+    {
+        "address": "00247167",
+        "length": 8,
+        "value": "&aring;"
+    },
+    {
+        "address": "00247180",
+        "length": 9,
+        "value": "&egrave;"
+    },
+    {
+        "address": "00247189",
+        "length": 9,
+        "value": "&eacute;"
+    },
+    {
+        "address": "002471aa",
+        "length": 9,
+        "value": "&iacute;"
+    },
+    {
+        "address": "002471c8",
+        "length": 9,
+        "value": "&ntilde;"
+    },
+    {
+        "address": "002471d1",
+        "length": 9,
+        "value": "&ograve;"
+    },
+    {
+        "address": "002471da",
+        "length": 9,
+        "value": "&oacute;"
+    },
+    {
+        "address": "002471eb",
+        "length": 9,
+        "value": "&otilde;"
+    },
+    {
+        "address": "00247242",
+        "length": 7,
+        "value": "&#039;"
+    },
+    {
+        "address": "00247250",
+        "length": 39,
+        "value": "V_AppendSlash: ran out of space on %s."
+    },
+    {
+        "address": "00247278",
+        "length": 49,
+        "value": "V_MakeAbsolutePath: tried to \"..\" past the root."
+    },
+    {
+        "address": "002472b0",
+        "length": 36,
+        "value": "V_MakeAbsolutePath: _getcwd failed."
+    },
+    {
+        "address": "002472d8",
+        "length": 69,
+        "value": "FmtStrVSNPrintf truncated to %d without QUIET_TRUNCATION specified!\n"
+    },
+    {
+        "address": "00247320",
+        "length": 22,
+        "value": "8CFmtStrNILi256ELb0EE"
+    },
+    {
+        "address": "00247340",
+        "length": 17,
+        "value": "0123456789abcdef"
+    },
+    {
+        "address": "00247490",
+        "length": 15,
+        "value": "VEngineCvar004"
+    },
+    {
+        "address": "0024749f",
+        "length": 17,
+        "value": "VProcessUtils001"
+    },
+    {
+        "address": "00247510",
+        "length": 21,
+        "value": "18CUtlCharConversion"
+    },
+    {
+        "address": "00247530",
+        "length": 24,
+        "value": "21CUtlCStringConversion"
+    },
+    {
+        "address": "00247550",
+        "length": 22,
+        "value": "19CUtlNoEscConversion"
+    },
+    {
+        "address": "002475a0",
+        "length": 12,
+        "value": "ball_socket"
+    },
+    {
+        "address": "002475b0",
+        "length": 28,
+        "value": "25hk_Ball_Socket_Constraint"
+    },
+    {
+        "address": "002475d8",
+        "length": 8,
+        "value": "ragdoll"
+    },
+    {
+        "address": "002475e0",
+        "length": 24,
+        "value": "21hk_Ragdoll_Constraint"
+    },
+    {
+        "address": "00247694",
+        "length": 6,
+        "value": "hinge"
+    },
+    {
+        "address": "002476a0",
+        "length": 22,
+        "value": "19hk_Hinge_Constraint"
+    },
+    {
+        "address": "002476f0",
+        "length": 26,
+        "value": "23hk_Breakable_Constraint"
+    },
+    {
+        "address": "0024770f",
+        "length": 9,
+        "value": "Ffixed"
+    },
+    {
+        "address": "00247720",
+        "length": 22,
+        "value": "19hk_Fixed_Constraint"
+    },
+    {
+        "address": "00247748",
+        "length": 10,
+        "value": "prismatic"
+    },
+    {
+        "address": "00247760",
+        "length": 26,
+        "value": "23hk_Prismatic_Constraint"
+    },
+    {
+        "address": "0024777e",
+        "length": 10,
+        "value": "L?pulley"
+    },
+    {
+        "address": "00247790",
+        "length": 23,
+        "value": "20hk_Pulley_Constraint"
+    },
+    {
+        "address": "002477ab",
+        "length": 17,
+        "value": "!stiff_spring"
+    },
+    {
+        "address": "002477c0",
+        "length": 29,
+        "value": "26hk_Stiff_Spring_Constraint"
+    },
+    {
+        "address": "002477dd",
+        "length": 15,
+        "value": "sys:constraint"
+    },
+    {
+        "address": "002477f0",
+        "length": 13,
+        "value": "10hk_Link_EF"
+    },
+    {
+        "address": "00247800",
+        "length": 29,
+        "value": "26hk_Local_Constraint_System"
+    },
+    {
+        "address": "0024784e",
+        "length": 28,
+        "value": "L?23hk_Rigid_Body_Binary_EF"
+    },
+    {
+        "address": "0024786a",
+        "length": 8,
+        "value": "unknown"
+    },
+    {
+        "address": "00247880",
+        "length": 16,
+        "value": "13hk_Constraint"
+    },
+    {
+        "address": "00247898",
+        "length": 6,
+        "value": "%2i: "
+    },
+    {
+        "address": "0024789e",
+        "length": 8,
+        "value": "%3.3f, "
+    },
+    {
+        "address": "002478e0",
+        "length": 120,
+        "value": "*** IVP_SurfaceBuilder_Halfspacesoup::convert_halfspacesoup_to_compact_surface - skipping ledge due to invalid topology"
+    },
+    {
+        "address": "00247960",
+        "length": 83,
+        "value": "warning: tried to add NULL ledge in IVP_SurfaceBuilder_Ledge_Soup::insert_ledge()\n"
+    },
+    {
+        "address": "002479b8",
+        "length": 54,
+        "value": "         left branch offset: %d (address: 0x%x / %d)\n"
+    },
+    {
+        "address": "002479f0",
+        "length": 54,
+        "value": "        right branch offset: %d (address: 0x%x / %d)\n"
+    },
+    {
+        "address": "00247a26",
+        "length": 30,
+        "value": "Node %d (address: 0x%x / %d)\n"
+    },
+    {
+        "address": "00247a44",
+        "length": 22,
+        "value": "        radius %.6f)\n"
+    },
+    {
+        "address": "00247a90",
+        "length": 16,
+        "value": "Object points:\n"
+    },
+    {
+        "address": "00247aa0",
+        "length": 15,
+        "value": "Object edges:\n"
+    },
+    {
+        "address": "00247aaf",
+        "length": 14,
+        "value": "Point [%d] : "
+    },
+    {
+        "address": "00247abd",
+        "length": 27,
+        "value": "Distance [%d] - [%d] : %f\n"
+    },
+    {
+        "address": "00247ad8",
+        "length": 55,
+        "value": "*** Qhull failed. Retrying with different parameters.\n"
+    },
+    {
+        "address": "00247b10",
+        "length": 37,
+        "value": "qhull Qs QJ%G C-0 Pp W1e-14 E1.0e-18"
+    },
+    {
+        "address": "00247b38",
+        "length": 122,
+        "value": "*** IVP_SurfaceBuilder_Pointsoup::convert_pointsoup_to_template_polygon - couldn't build convex hull! Skipping object...\n"
+    },
+    {
+        "address": "00247bb8",
+        "length": 34,
+        "value": "*** Done with convex pointsoup.\n\n"
+    },
+    {
+        "address": "00247c05",
+        "length": 11,
+        "value": "_max-width"
+    },
+    {
+        "address": "00247c10",
+        "length": 15,
+        "value": "Error-roundoff"
+    },
+    {
+        "address": "00247c1f",
+        "length": 28,
+        "value": "Angle-postmerge-with-random"
+    },
+    {
+        "address": "00247c3b",
+        "length": 29,
+        "value": "Centrum-premerge-with-random"
+    },
+    {
+        "address": "00247c58",
+        "length": 30,
+        "value": "Centrum-postmerge-with-random"
+    },
+    {
+        "address": "00247c76",
+        "length": 11,
+        "value": "_one-merge"
+    },
+    {
+        "address": "00247c81",
+        "length": 17,
+        "value": "Visible-distance"
+    },
+    {
+        "address": "00247c92",
+        "length": 20,
+        "value": "U-coplanar-distance"
+    },
+    {
+        "address": "00247ca6",
+        "length": 14,
+        "value": "Width-outside"
+    },
+    {
+        "address": "00247cb4",
+        "length": 12,
+        "value": "_wide-facet"
+    },
+    {
+        "address": "00247cc0",
+        "length": 27,
+        "value": "Angle-premerge-with-random"
+    },
+    {
+        "address": "00247cdb",
+        "length": 13,
+        "value": "_near-inside"
+    },
+    {
+        "address": "00247ce8",
+        "length": 30,
+        "value": "qh_facetarea: f%d area %2.2g\n"
+    },
+    {
+        "address": "00247d06",
+        "length": 28,
+        "value": "input has same x coordinate"
+    },
+    {
+        "address": "00247d22",
+        "length": 7,
+        "value": "%6.3g "
+    },
+    {
+        "address": "00247d29",
+        "length": 8,
+        "value": "QJoggle"
+    },
+    {
+        "address": "00247d31",
+        "length": 13,
+        "value": "_joggle-seed"
+    },
+    {
+        "address": "00247d3e",
+        "length": 7,
+        "value": " %6.2g"
+    },
+    {
+        "address": "00247d45",
+        "length": 8,
+        "value": "%6.16g "
+    },
+    {
+        "address": "00247d4d",
+        "length": 18,
+        "value": "\n     at offset: "
+    },
+    {
+        "address": "00247d5f",
+        "length": 16,
+        "value": " and distance: "
+    },
+    {
+        "address": "00247d6f",
+        "length": 18,
+        "value": "\n     halfspace: "
+    },
+    {
+        "address": "00247d81",
+        "length": 16,
+        "value": "p%d dist %.2g, "
+    },
+    {
+        "address": "00247d91",
+        "length": 8,
+        "value": "center:"
+    },
+    {
+        "address": "00247da0",
+        "length": 52,
+        "value": "qhull error: insufficient memory to copy %d points\n"
+    },
+    {
+        "address": "00247dd8",
+        "length": 76,
+        "value": "qhull internal error (qh_determinate): only implemented for dimension >= 2\n"
+    },
+    {
+        "address": "00247e28",
+        "length": 65,
+        "value": "qhull internal error (qh_detsimplex): #points %d < dimension %d\n"
+    },
+    {
+        "address": "00247e70",
+        "length": 62,
+        "value": "qh_detsimplex: det=%2.2g for point p%d, dim %d, nearzero? %d\n"
+    },
+    {
+        "address": "00247eb0",
+        "length": 67,
+        "value": "qh_distround: %2.2g maxabs %2.2g maxsumabs %2.2g maxdistsum %2.2g\n"
+    },
+    {
+        "address": "00247ef8",
+        "length": 43,
+        "value": "qh_detjoggle: joggle=%2.2g maxwidth=%2.2g\n"
+    },
+    {
+        "address": "00247f28",
+        "length": 92,
+        "value": "qhull error: the joggle for 'QJn', %.2g, is below roundoff for distance computations, %.2g\n"
+    },
+    {
+        "address": "00247f88",
+        "length": 115,
+        "value": "qhull input warning: minimum visibility V%.2g is greater than \nminimum outside W%.2g.  Flipped facets are likely.\n"
+    },
+    {
+        "address": "00248000",
+        "length": 70,
+        "value": "qhull internal error (qh_facetarea_simplex): #points %d != dim %d -1\n"
+    },
+    {
+        "address": "00248048",
+        "length": 76,
+        "value": "qh_facetarea_simplex: area=%2.2g for point p%d, toporient %d, nearzero? %d\n"
+    },
+    {
+        "address": "00248098",
+        "length": 52,
+        "value": "qh_findgooddist: p%d is %2.2g above good facet f%d\n"
+    },
+    {
+        "address": "002480d0",
+        "length": 50,
+        "value": "qh_findgooddist: no good facet for p%d above f%d\n"
+    },
+    {
+        "address": "00248108",
+        "length": 60,
+        "value": "computing area of each facet and volume of the convex hull\n"
+    },
+    {
+        "address": "00248148",
+        "length": 54,
+        "value": "qh_getarea: computing volume and area for each facet\n"
+    },
+    {
+        "address": "00248180",
+        "length": 50,
+        "value": "qh_maxmin: found the max and min points (by dim):"
+    },
+    {
+        "address": "002481b8",
+        "length": 83,
+        "value": "qh_maxouter: max distance from facet to outer plane is %2.2g max_outside is %2.2g\n"
+    },
+    {
+        "address": "00248210",
+        "length": 97,
+        "value": "qhull precision error (qh_maxsimplex for voronoi_center):\n%d points with the same x coordinate.\n"
+    },
+    {
+        "address": "00248278",
+        "length": 89,
+        "value": "qhull input error: input is less than %d-dimensional since it has the same x coordinate\n"
+    },
+    {
+        "address": "002482d8",
+        "length": 63,
+        "value": "qh_maxsimplex: searching all points for %d-th initial vertex.\n"
+    },
+    {
+        "address": "00248318",
+        "length": 89,
+        "value": "qh_maxsimplex: searching all points for %d-th initial vertex, better than p%d det %2.2g\n"
+    },
+    {
+        "address": "00248be0",
+        "length": 63,
+        "value": "qhull internal error (qh_clock): use qh_CLOCKtype 2 in user.h\n"
+    },
+    {
+        "address": "00248c20",
+        "length": 50,
+        "value": "qh_freebuffers: freeing up global memory buffers\n"
+    },
+    {
+        "address": "00248c58",
+        "length": 61,
+        "value": "qh_freebuild: free memory from qh_inithull and qh_buildhull\n"
+    },
+    {
+        "address": "00248c98",
+        "length": 34,
+        "value": "qh_freeqhull: free global memory\n"
+    },
+    {
+        "address": "00248cc0",
+        "length": 60,
+        "value": "qhull input error: more than %d characters in command line\n"
+    },
+    {
+        "address": "00248d00",
+        "length": 74,
+        "value": "qhull warning: no dimension given for Print option '%c' at: %s.  Ignored\n"
+    },
+    {
+        "address": "00248d50",
+        "length": 70,
+        "value": "qhull warning: dimension %d for Print option '%c' is >= %d.  Ignored\n"
+    },
+    {
+        "address": "00248d98",
+        "length": 74,
+        "value": "qhull warning: value %2.4g for Print option %c is > +1 or < -1.  Ignored\n"
+    },
+    {
+        "address": "00248de8",
+        "length": 65,
+        "value": "qhull warning: no dimension given for Qhull option %c.  Ignored\n"
+    },
+    {
+        "address": "00248e30",
+        "length": 68,
+        "value": "qhull warning: dimension %d for Qhull option %c is >= %d.  Ignored\n"
+    },
+    {
+        "address": "00248e78",
+        "length": 35,
+        "value": "qh_initqhull_globals: for %s | %s\n"
+    },
+    {
+        "address": "00248ea0",
+        "length": 100,
+        "value": "qhull input error: can not use Delaunay ('d') or Voronoi ('v') with halfspace intersection ('H')\n"
+    },
+    {
+        "address": "00248f08",
+        "length": 108,
+        "value": "qhull input error: use upper-Delaunay ('Qu') or infinity-point ('Qz') with Delaunay ('d') or Voronoi ('v')\n"
+    },
+    {
+        "address": "00248f78",
+        "length": 81,
+        "value": "qhull input error: can not use infinity-point ('Qz') with upper-Delaunay ('Qu')\n"
+    },
+    {
+        "address": "00248fd0",
+        "length": 92,
+        "value": "qhull input warning: option 'Qbb' (scale-last-coordinate) is normally used with 'd' or 'v'\n"
+    },
+    {
+        "address": "00249030",
+        "length": 70,
+        "value": "qhull input error: test vertex neighbors ('Qv') needs a merge option\n"
+    },
+    {
+        "address": "00249078",
+        "length": 39,
+        "value": "qhull error: dimension %d must be > 1\n"
+    },
+    {
+        "address": "002490a0",
+        "length": 103,
+        "value": "qh_initqhull_globals: initialize globals.  dim %d numpoints %d malloc? %d projected %d to hull_dim %d\n"
+    },
+    {
+        "address": "00249108",
+        "length": 96,
+        "value": "qhull configuration error (qh_RANDOMmax in user.h):\n   random integer %d > qh_RANDOMmax (%.8g)\n"
+    },
+    {
+        "address": "00249168",
+        "length": 168,
+        "value": "qhull configuration warning (qh_RANDOMmax in user.h):\n   average of 1000 random integers (%.2g) is much different than expected (%.2g).\n   Is qh_RANDOMmax (%f) wrong?\n"
+    },
+    {
+        "address": "00249210",
+        "length": 82,
+        "value": "qhull input error: not enough points (%d) to construct initial simplex (need %d)\n"
+    },
+    {
+        "address": "00249268",
+        "length": 84,
+        "value": "qhull input error: transparent Delaunay ('Gt') needs 3-d Delaunay ('d') w/o 'GDn'\n"
+    },
+    {
+        "address": "002492c0",
+        "length": 85,
+        "value": "qhull input error: option 'Fp' is only used for \nhalfspace intersection ('Hn,n,n').\n"
+    },
+    {
+        "address": "00249318",
+        "length": 96,
+        "value": "qhull input error: option 'Ft' is not available for Voronoi vertices or halfspace intersection\n"
+    },
+    {
+        "address": "00249378",
+        "length": 76,
+        "value": "qhull input error: option 'Fc' is not available for Voronoi vertices ('v')\n"
+    },
+    {
+        "address": "002493c8",
+        "length": 109,
+        "value": "qhull input warning: options 'Fc', 'FP', and 'Gp' need option 'Qc' or 'Qi' to record coplanar/inside points\n"
+    },
+    {
+        "address": "00249438",
+        "length": 114,
+        "value": "qhull input error: Mathematica output is only available for 2-d and 3-d convex hulls and Delaunay triangulations\n"
+    },
+    {
+        "address": "002494b0",
+        "length": 75,
+        "value": "qhull input error: Geomview output is only available for 2-d, 3-d and 4-d\n"
+    },
+    {
+        "address": "00249500",
+        "length": 53,
+        "value": "qhull input error: no output specified for Geomview\n"
+    },
+    {
+        "address": "00249538",
+        "length": 70,
+        "value": "qhull input error: Geomview output for Voronoi diagrams only for 2-d\n"
+    },
+    {
+        "address": "00249580",
+        "length": 129,
+        "value": "qhull input warning: coplanars, vertices, and centrums output not\navailable for 4-d output (ignored).  Could use 'GDn' instead.\n"
+    },
+    {
+        "address": "00249608",
+        "length": 83,
+        "value": "qhull input warning: drop dimension 'GD%d' is only available for 3-d/4-d Geomview\n"
+    },
+    {
+        "address": "00249660",
+        "length": 73,
+        "value": "qhull warning: no maximum cosine angle given for option 'An'.  Ignored.\n"
+    },
+    {
+        "address": "002496b0",
+        "length": 67,
+        "value": "qhull warning: no centrum radius given for option 'Cn'.  Ignored.\n"
+    },
+    {
+        "address": "002496f8",
+        "length": 75,
+        "value": "qhull warning: negative maximum roundoff given for option 'An'.  Ignored.\n"
+    },
+    {
+        "address": "00249748",
+        "length": 69,
+        "value": "qhull warning: no maximum roundoff given for option 'En'.  Ignored.\n"
+    },
+    {
+        "address": "00249790",
+        "length": 73,
+        "value": "qhull warning: origin for Halfspace intersection should be 'Hn,n,n,...'\n"
+    },
+    {
+        "address": "002497e0",
+        "length": 47,
+        "value": "qhull error: insufficient memory for 'Hn,n,n'\n"
+    },
+    {
+        "address": "00249810",
+        "length": 70,
+        "value": "qhull warning: missing random perturbation for option 'Rn'.  Ignored\n"
+    },
+    {
+        "address": "00249858",
+        "length": 67,
+        "value": "qhull warning: missing visible distance for option 'Vn'.  Ignored\n"
+    },
+    {
+        "address": "002498a0",
+        "length": 68,
+        "value": "qhull warning: missing coplanar distance for option 'Un'.  Ignored\n"
+    },
+    {
+        "address": "002498e8",
+        "length": 66,
+        "value": "qhull warning: negative outside width for option 'Wn'.  Ignored.\n"
+    },
+    {
+        "address": "00249930",
+        "length": 64,
+        "value": "qhull warning: missing outside width for option 'Wn'.  Ignored\n"
+    },
+    {
+        "address": "00249970",
+        "length": 59,
+        "value": "qhull warning: unknown 'F' output option %c, rest ignored\n"
+    },
+    {
+        "address": "002499b0",
+        "length": 55,
+        "value": "qhull input error: missing dimension for option 'GDn'\n"
+    },
+    {
+        "address": "002499e8",
+        "length": 70,
+        "value": "qhull warning: can only drop one dimension.  Previous 'GD%d' ignored\n"
+    },
+    {
+        "address": "00249a30",
+        "length": 58,
+        "value": "qhull warning: unknown 'G' print option %c, rest ignored\n"
+    },
+    {
+        "address": "00249a70",
+        "length": 67,
+        "value": "qhull input error: missing facet count for keep area option 'PAn'\n"
+    },
+    {
+        "address": "00249ab8",
+        "length": 56,
+        "value": "qhull input error: missing facet area for option 'PFn'\n"
+    },
+    {
+        "address": "00249af0",
+        "length": 57,
+        "value": "qhull input error: missing merge count for option 'PMn'\n"
+    },
+    {
+        "address": "00249b30",
+        "length": 58,
+        "value": "qhull warning: unknown 'P' print option %c, rest ignored\n"
+    },
+    {
+        "address": "00249b70",
+        "length": 36,
+        "value": "qh_initflags: project dimension %d\n"
+    },
+    {
+        "address": "00249b98",
+        "length": 77,
+        "value": "qhull warning: can not follow '1', '2', or '3' with a digit.  '%c' skipped.\n"
+    },
+    {
+        "address": "00249be8",
+        "length": 70,
+        "value": "qhull warning: good point already defined for option 'QGn'.  Ignored\n"
+    },
+    {
+        "address": "00249c30",
+        "length": 65,
+        "value": "qhull warning: missing good point id for option 'QGn'.  Ignored\n"
+    },
+    {
+        "address": "00249c78",
+        "length": 63,
+        "value": "qhull warning: missing random seed for option 'QRn'.  Ignored\n"
+    },
+    {
+        "address": "00249cb8",
+        "length": 71,
+        "value": "qhull warning: good vertex already defined for option 'QVn'.  Ignored\n"
+    },
+    {
+        "address": "00249d00",
+        "length": 66,
+        "value": "qhull warning: no good point id given for option 'QVn'.  Ignored\n"
+    },
+    {
+        "address": "00249d48",
+        "length": 58,
+        "value": "qhull warning: unknown 'Q' qhull option %c, rest ignored\n"
+    },
+    {
+        "address": "00249d88",
+        "length": 70,
+        "value": "qhull warning: output file undefined (stdout).  Option 'Tz' ignored.\n"
+    },
+    {
+        "address": "00249dd0",
+        "length": 75,
+        "value": "qhull warning: missing point id for cone for trace option 'TCn'.  Ignored\n"
+    },
+    {
+        "address": "00249e20",
+        "length": 73,
+        "value": "qhull warning: missing frequency count for trace option 'TFn'.  Ignored\n"
+    },
+    {
+        "address": "00249e70",
+        "length": 192,
+        "value": "qhull warning: option 'TO' mistyped.\nUse 'TO', one space, file name, and space or end-of-line.\nThe file name may be enclosed in single quotes.\nDo not use double quotes.  Option 'FO' ignored.\n"
+    },
+    {
+        "address": "00249f30",
+        "length": 42,
+        "value": "qhull error: filename for 'TO' too long.\n"
+    },
+    {
+        "address": "00249f60",
+        "length": 72,
+        "value": "qhull error: missing end quote for option 'TO'.  Rest of line ignored.\n"
+    },
+    {
+        "address": "00249fa8",
+        "length": 39,
+        "value": "qhull error: could not open file \"%s\"."
+    },
+    {
+        "address": "00249fd0",
+        "length": 66,
+        "value": "qhull warning: missing point id for trace option 'TPn'.  Ignored\n"
+    },
+    {
+        "address": "0024a018",
+        "length": 66,
+        "value": "qhull warning: missing merge id for trace option 'TMn'.  Ignored\n"
+    },
+    {
+        "address": "0024a060",
+        "length": 69,
+        "value": "qhull warning: missing rerun count for trace option 'TRn'.  Ignored\n"
+    },
+    {
+        "address": "0024a0a8",
+        "length": 75,
+        "value": "qhull warning: missing furthest point id for trace option 'TVn'.  Ignored\n"
+    },
+    {
+        "address": "0024a0f8",
+        "length": 67,
+        "value": "qhull warning: missing max width for trace option 'TWn'.  Ignored\n"
+    },
+    {
+        "address": "0024a140",
+        "length": 58,
+        "value": "qhull warning: unknown 'T' trace option %c, rest ignored\n"
+    },
+    {
+        "address": "0024a180",
+        "length": 37,
+        "value": "qhull warning: unknown flag %c (%x)\n"
+    },
+    {
+        "address": "0024a1a8",
+        "length": 78,
+        "value": "qhull warning: missing space after flag %c (%x); reserved for menu. Skipped.\n"
+    },
+    {
+        "address": "0024a1f8",
+        "length": 75,
+        "value": "qhull warning: additional output formats are not compatible with Geomview\n"
+    },
+    {
+        "address": "0024a243",
+        "length": 26,
+        "value": "qh_freebuffers: finished\n"
+    },
+    {
+        "address": "0024a26c",
+        "length": 7,
+        "value": " %2.2g"
+    },
+    {
+        "address": "0024a273",
+        "length": 11,
+        "value": "_pre-merge"
+    },
+    {
+        "address": "0024a27e",
+        "length": 13,
+        "value": "_merge-exact"
+    },
+    {
+        "address": "0024a28b",
+        "length": 16,
+        "value": "Qbbound-last-qj"
+    },
+    {
+        "address": "0024a29b",
+        "length": 14,
+        "value": "_zero-centrum"
+    },
+    {
+        "address": "0024a2a9",
+        "length": 6,
+        "value": "Pgood"
+    },
+    {
+        "address": "0024a2af",
+        "length": 15,
+        "value": "Qinterior-keep"
+    },
+    {
+        "address": "0024a2be",
+        "length": 30,
+        "value": "Q3-no-merge-vertices-dim-high"
+    },
+    {
+        "address": "0024a2dc",
+        "length": 13,
+        "value": "QRandom-seed"
+    },
+    {
+        "address": "0024a2e9",
+        "length": 15,
+        "value": "QRotate-random"
+    },
+    {
+        "address": "0024a2f8",
+        "length": 9,
+        "value": "Fvoronoi"
+    },
+    {
+        "address": "0024a301",
+        "length": 10,
+        "value": "Fvertices"
+    },
+    {
+        "address": "0024a30b",
+        "length": 9,
+        "value": "delaunay"
+    },
+    {
+        "address": "0024a314",
+        "length": 10,
+        "value": "incidence"
+    },
+    {
+        "address": "0024a31e",
+        "length": 12,
+        "value": "mathematica"
+    },
+    {
+        "address": "0024a32a",
+        "length": 8,
+        "value": "normals"
+    },
+    {
+        "address": "0024a332",
+        "length": 8,
+        "value": "offFile"
+    },
+    {
+        "address": "0024a33a",
+        "length": 16,
+        "value": "Angle-premerge-"
+    },
+    {
+        "address": "0024a34a",
+        "length": 16,
+        "value": "Angle-postmerge"
+    },
+    {
+        "address": "0024a35a",
+        "length": 18,
+        "value": "Centrum-premerge-"
+    },
+    {
+        "address": "0024a36c",
+        "length": 18,
+        "value": "Centrum-postmerge"
+    },
+    {
+        "address": "0024a37e",
+        "length": 18,
+        "value": "Distance-roundoff"
+    },
+    {
+        "address": "0024a390",
+        "length": 16,
+        "value": "Halfspace-about"
+    },
+    {
+        "address": "0024a3a0",
+        "length": 10,
+        "value": "Halfspace"
+    },
+    {
+        "address": "0024a3aa",
+        "length": 15,
+        "value": "Random_perturb"
+    },
+    {
+        "address": "0024a3b9",
+        "length": 8,
+        "value": "Visible"
+    },
+    {
+        "address": "0024a3c1",
+        "length": 11,
+        "value": "U-coplanar"
+    },
+    {
+        "address": "0024a3cc",
+        "length": 10,
+        "value": "W-outside"
+    },
+    {
+        "address": "0024a3d6",
+        "length": 6,
+        "value": "Farea"
+    },
+    {
+        "address": "0024a3dc",
+        "length": 12,
+        "value": "FArea-total"
+    },
+    {
+        "address": "0024a3e8",
+        "length": 11,
+        "value": "Fcoplanars"
+    },
+    {
+        "address": "0024a3f3",
+        "length": 10,
+        "value": "FCentrums"
+    },
+    {
+        "address": "0024a3fd",
+        "length": 10,
+        "value": "Fd-cdd-in"
+    },
+    {
+        "address": "0024a407",
+        "length": 11,
+        "value": "FD-cdd-out"
+    },
+    {
+        "address": "0024a412",
+        "length": 15,
+        "value": "FFacets-xridge"
+    },
+    {
+        "address": "0024a421",
+        "length": 7,
+        "value": "Finner"
+    },
+    {
+        "address": "0024a42d",
+        "length": 8,
+        "value": "Fmerges"
+    },
+    {
+        "address": "0024a435",
+        "length": 11,
+        "value": "Fneighbors"
+    },
+    {
+        "address": "0024a440",
+        "length": 18,
+        "value": "FNeighbors-vertex"
+    },
+    {
+        "address": "0024a452",
+        "length": 7,
+        "value": "Fouter"
+    },
+    {
+        "address": "0024a459",
+        "length": 9,
+        "value": "FOptions"
+    },
+    {
+        "address": "0024a462",
+        "length": 17,
+        "value": "Fpoint-intersect"
+    },
+    {
+        "address": "0024a473",
+        "length": 15,
+        "value": "FPoint-nearest"
+    },
+    {
+        "address": "0024a482",
+        "length": 7,
+        "value": "FQhull"
+    },
+    {
+        "address": "0024a489",
+        "length": 9,
+        "value": "Fsummary"
+    },
+    {
+        "address": "0024a492",
+        "length": 6,
+        "value": "FSize"
+    },
+    {
+        "address": "0024a498",
+        "length": 11,
+        "value": "Ftriangles"
+    },
+    {
+        "address": "0024a4a3",
+        "length": 16,
+        "value": "FVertex-average"
+    },
+    {
+        "address": "0024a4b3",
+        "length": 9,
+        "value": "Fxtremes"
+    },
+    {
+        "address": "0024a4bc",
+        "length": 12,
+        "value": "Gall-points"
+    },
+    {
+        "address": "0024a4c8",
+        "length": 10,
+        "value": "Gcentrums"
+    },
+    {
+        "address": "0024a4d2",
+        "length": 15,
+        "value": "Gintersections"
+    },
+    {
+        "address": "0024a4e1",
+        "length": 7,
+        "value": "Ginner"
+    },
+    {
+        "address": "0024a4e8",
+        "length": 11,
+        "value": "Gno-planes"
+    },
+    {
+        "address": "0024a4f3",
+        "length": 7,
+        "value": "Gouter"
+    },
+    {
+        "address": "0024a4fa",
+        "length": 8,
+        "value": "Gpoints"
+    },
+    {
+        "address": "0024a502",
+        "length": 8,
+        "value": "Gridges"
+    },
+    {
+        "address": "0024a50a",
+        "length": 13,
+        "value": "Gtransparent"
+    },
+    {
+        "address": "0024a517",
+        "length": 10,
+        "value": "Gvertices"
+    },
+    {
+        "address": "0024a521",
+        "length": 10,
+        "value": "GDrop-dim"
+    },
+    {
+        "address": "0024a52b",
+        "length": 22,
+        "value": "Pdrop-facets-dim-less"
+    },
+    {
+        "address": "0024a541",
+        "length": 22,
+        "value": "PDrop-facets-dim-more"
+    },
+    {
+        "address": "0024a557",
+        "length": 13,
+        "value": "Pgood-facets"
+    },
+    {
+        "address": "0024a564",
+        "length": 22,
+        "value": "PGood-facet-neighbors"
+    },
+    {
+        "address": "0024a57a",
+        "length": 15,
+        "value": "Poutput-forced"
+    },
+    {
+        "address": "0024a589",
+        "length": 18,
+        "value": "Pprecision-ignore"
+    },
+    {
+        "address": "0024a59b",
+        "length": 11,
+        "value": "PArea-keep"
+    },
+    {
+        "address": "0024a5a6",
+        "length": 17,
+        "value": "PFacet-area-keep"
+    },
+    {
+        "address": "0024a5b7",
+        "length": 12,
+        "value": "PMerge-keep"
+    },
+    {
+        "address": "0024a5c3",
+        "length": 17,
+        "value": "QbBound-unit-box"
+    },
+    {
+        "address": "0024a5d4",
+        "length": 13,
+        "value": "Qbbound-last"
+    },
+    {
+        "address": "0024a5e1",
+        "length": 15,
+        "value": "Qb-project-dim"
+    },
+    {
+        "address": "0024a5f0",
+        "length": 15,
+        "value": "Qbound-dim-low"
+    },
+    {
+        "address": "0024a5ff",
+        "length": 16,
+        "value": "QBound-dim-high"
+    },
+    {
+        "address": "0024a60f",
+        "length": 15,
+        "value": "Qcoplanar-keep"
+    },
+    {
+        "address": "0024a61e",
+        "length": 18,
+        "value": "Qfurthest-outside"
+    },
+    {
+        "address": "0024a630",
+        "length": 18,
+        "value": "Qgood-facets-only"
+    },
+    {
+        "address": "0024a642",
+        "length": 18,
+        "value": "Qmax-outside-only"
+    },
+    {
+        "address": "0024a654",
+        "length": 16,
+        "value": "Qrandom-outside"
+    },
+    {
+        "address": "0024a664",
+        "length": 24,
+        "value": "Qsearch-initial-simplex"
+    },
+    {
+        "address": "0024a67c",
+        "length": 15,
+        "value": "QupperDelaunay"
+    },
+    {
+        "address": "0024a68b",
+        "length": 25,
+        "value": "Qvertex-neighbors-convex"
+    },
+    {
+        "address": "0024a6a4",
+        "length": 12,
+        "value": "Qxact-merge"
+    },
+    {
+        "address": "0024a6b0",
+        "length": 18,
+        "value": "Qz-infinity-point"
+    },
+    {
+        "address": "0024a6c2",
+        "length": 15,
+        "value": "Q0-no-premerge"
+    },
+    {
+        "address": "0024a6d1",
+        "length": 17,
+        "value": "Q1-no-angle-sort"
+    },
+    {
+        "address": "0024a6e2",
+        "length": 24,
+        "value": "Q2-no-merge-independent"
+    },
+    {
+        "address": "0024a6fa",
+        "length": 21,
+        "value": "Q3-no-merge-vertices"
+    },
+    {
+        "address": "0024a70f",
+        "length": 22,
+        "value": "Q4-avoid-old-into-new"
+    },
+    {
+        "address": "0024a725",
+        "length": 18,
+        "value": "Q5-no-check-outer"
+    },
+    {
+        "address": "0024a737",
+        "length": 20,
+        "value": "Q6-no-concave-merge"
+    },
+    {
+        "address": "0024a74b",
+        "length": 20,
+        "value": "Q7-no-breadth-first"
+    },
+    {
+        "address": "0024a75f",
+        "length": 18,
+        "value": "Q8-no-near-inside"
+    },
+    {
+        "address": "0024a771",
+        "length": 17,
+        "value": "Q9-pick-furthest"
+    },
+    {
+        "address": "0024a782",
+        "length": 24,
+        "value": "QGood-if-dont-see-point"
+    },
+    {
+        "address": "0024a804",
+        "length": 8,
+        "value": "Tverify"
+    },
+    {
+        "address": "0024ae30",
+        "length": 48,
+        "value": "qhull error (qh_memalloc): insufficient memory\n"
+    },
+    {
+        "address": "0024ae60",
+        "length": 69,
+        "value": "qhull internal error (qh_memalloc): qhmem has not been initialized.\n"
+    },
+    {
+        "address": "0024aea8",
+        "length": 34,
+        "value": "qh_memalloc long: %d bytes at %p\n"
+    },
+    {
+        "address": "0024aed0",
+        "length": 33,
+        "value": "qh_memfree long: %d bytes at %p\n"
+    },
+    {
+        "address": "0024aef8",
+        "length": 47,
+        "value": "qhull error (qh_meminit): insufficient memory\n"
+    },
+    {
+        "address": "0024af28",
+        "length": 57,
+        "value": "qh_meminitbuffers: memory initialized with alignment %d\n"
+    },
+    {
+        "address": "0024af68",
+        "length": 95,
+        "value": "qhull error (qh_memsetup): largest mem size %d is >= buffer size %d or initial buffer size %d\n"
+    },
+    {
+        "address": "0024afc8",
+        "length": 48,
+        "value": "qhull error (qh_memsetup): insufficient memory\n"
+    },
+    {
+        "address": "0024aff8",
+        "length": 52,
+        "value": "qhull error (qh_memsize): called after qhmem_setup\n"
+    },
+    {
+        "address": "0024b030",
+        "length": 69,
+        "value": "qhull warning (memsize): free list table has room for only %d sizes\n"
+    },
+    {
+        "address": "0024b078",
+        "length": 339,
+        "value": "\nmemory statistics:\n%7d quick allocations\n%7d short allocations\n%7d long allocations\n%7d short frees\n%7d long frees\n%7d bytes of short memory in use\n%7d bytes of short memory in freelists\n%7d bytes of long memory allocated (except for input)\n%7d bytes of long memory in use (in %d pieces)\n%7d bytes per memory buffer (initially %d bytes)\n"
+    },
+    {
+        "address": "0024b1d0",
+        "length": 55,
+        "value": "%7d calls to qh_setlarger\n%7.2g     average copy size\n"
+    },
+    {
+        "address": "0024b207",
+        "length": 28,
+        "value": "  freelists (bytes->count):"
+    },
+    {
+        "address": "0024b223",
+        "length": 8,
+        "value": " %d->%d"
+    },
+    {
+        "address": "0024b230",
+        "length": 42,
+        "value": "qh_appendfacet: append f%d to facet_list\n"
+    },
+    {
+        "address": "0024b260",
+        "length": 44,
+        "value": "qh_appendvertex: append v%d to vertex_list\n"
+    },
+    {
+        "address": "0024b290",
+        "length": 44,
+        "value": "qh_attachnewfacets: delete interior ridges\n"
+    },
+    {
+        "address": "0024b2c0",
+        "length": 57,
+        "value": "qh_attachnewfacets: attach horizon facets to new facets\n"
+    },
+    {
+        "address": "0024b300",
+        "length": 104,
+        "value": "qhull internal error (qh_attachnewfacets): couldn't find visible facet for horizon f%d of newfacet f%d\n"
+    },
+    {
+        "address": "0024b368",
+        "length": 68,
+        "value": "qh_checkflipped: facet f%d is flipped, distance= %6.12g during p%d\n"
+    },
+    {
+        "address": "0024b3b0",
+        "length": 78,
+        "value": "qhull internal error (qh_facetintersect): f%d or f%d not in others neighbors\n"
+    },
+    {
+        "address": "0024b400",
+        "length": 52,
+        "value": "qh_facetintersect: f%d skip %d matches f%d skip %d\n"
+    },
+    {
+        "address": "0024b438",
+        "length": 71,
+        "value": "qh_matchvertices: matched by skip %d (v%d) and skip %d (v%d) same? %d\n"
+    },
+    {
+        "address": "0024b480",
+        "length": 61,
+        "value": "qh_matchneighbor: newfacet f%d skip %d hash %d hashcount %d\n"
+    },
+    {
+        "address": "0024b4c0",
+        "length": 34,
+        "value": "two facets with the same vertices"
+    },
+    {
+        "address": "0024b4e8",
+        "length": 89,
+        "value": "qhull precision error: Vertex sets are the same for f%d and f%d.  Can not force output.\n"
+    },
+    {
+        "address": "0024b548",
+        "length": 60,
+        "value": "qh_matchneighbor: f%d skip %d matched with new f%d skip %d\n"
+    },
+    {
+        "address": "0024b588",
+        "length": 37,
+        "value": "a ridge with more than two neighbors"
+    },
+    {
+        "address": "0024b5b0",
+        "length": 111,
+        "value": "qhull precision error: facets f%d, f%d and f%d meet at a ridge with more than 2 neighbors.  Can not continue.\n"
+    },
+    {
+        "address": "0024b620",
+        "length": 103,
+        "value": "qh_matchneighbor: new f%d skip %d duplicates ridge for f%d skip %d matching f%d ismatch %d at hash %d\n"
+    },
+    {
+        "address": "0024b688",
+        "length": 55,
+        "value": "qh_matchneighbor: no match for f%d skip %d at hash %d\n"
+    },
+    {
+        "address": "0024b6c0",
+        "length": 52,
+        "value": "qh_matchnewfacets: match neighbors for new facets.\n"
+    },
+    {
+        "address": "0024b6f8",
+        "length": 73,
+        "value": "qhull internal error (qh_matchnewfacets): %d neighbors did not match up\n"
+    },
+    {
+        "address": "0024b748",
+        "length": 73,
+        "value": "qh_matchnewfacets: %d new facets, %d unused hash entries .  hashsize %d\n"
+    },
+    {
+        "address": "0024b798",
+        "length": 32,
+        "value": "qh_newfacet: created facet f%d\n"
+    },
+    {
+        "address": "0024b7b8",
+        "length": 124,
+        "value": "qhull warning: more than %d ridges.  Id field overflows and two ridges\nmay have the same identifier.  Otherwise output ok.\n"
+    },
+    {
+        "address": "0024b838",
+        "length": 32,
+        "value": "qh_newridge: created ridge r%d\n"
+    },
+    {
+        "address": "0024b858",
+        "length": 44,
+        "value": "qh_removefacet: remove f%d from facet_list\n"
+    },
+    {
+        "address": "0024b888",
+        "length": 60,
+        "value": "qh_deletevisible: delete %d visible facets and %d vertices\n"
+    },
+    {
+        "address": "0024b8c8",
+        "length": 95,
+        "value": "qhull internal error (qh_deletevisible): qh num_visible %d is not number of visible facets %d\n"
+    },
+    {
+        "address": "0024b928",
+        "length": 46,
+        "value": "qh_removevertex: remove v%d from vertex_list\n"
+    },
+    {
+        "address": "0024b958",
+        "length": 93,
+        "value": "qhull internal error (qh_makenew_nonsimplicial): simplicial f%d sharing two ridges with f%d\n"
+    },
+    {
+        "address": "0024b9b8",
+        "length": 77,
+        "value": "qh_makenew_nonsimplicial: created facet f%d from v%d and r%d of horizon f%d\n"
+    },
+    {
+        "address": "0024ba08",
+        "length": 122,
+        "value": "qh_makenew_simplicial: create facet f%d top %d from v%d and horizon f%d skip %d top %d and visible f%d skip %d, flip? %d\n"
+    },
+    {
+        "address": "0024ba88",
+        "length": 74,
+        "value": "qh_updatevertices: delete interior vertices and update vertex->neighbors\n"
+    },
+    {
+        "address": "0024bad8",
+        "length": 51,
+        "value": "qh_updatevertices: delete vertex p%d (v%d) in f%d\n"
+    },
+    {
+        "address": "0024bb0b",
+        "length": 14,
+        "value": "flipped facet"
+    },
+    {
+        "address": "0024bb19",
+        "length": 25,
+        "value": "qh_delfacet: delete f%d\n"
+    },
+    {
+        "address": "0024bb50",
+        "length": 63,
+        "value": "qhull precision error: facet f%d is flipped, distance= %6.12g\n"
+    },
+    {
+        "address": "0024bb90",
+        "length": 116,
+        "value": "\nA flipped facet occurs when its distance to the interior point is\ngreater than %2.2g, the maximum roundoff error.\n"
+    },
+    {
+        "address": "0024bc08",
+        "length": 66,
+        "value": "qh_vertexneighbors: determing neighboring facets for each vertex\n"
+    },
+    {
+        "address": "0024dd6d",
+        "length": 6,
+        "value": "good "
+    },
+    {
+        "address": "0024f520",
+        "length": 33,
+        "value": "for ridges and their vertex sets"
+    },
+    {
+        "address": "0024f690",
+        "length": 52,
+        "value": "\n%s\n qhull invoked by: %s | %s\n%s with options:\n%s\n"
+    },
+    {
+        "address": "0024fb41",
+        "length": 12,
+        "value": "a of facets"
+    },
+    {
+        "address": "0024fc9a",
+        "length": 30,
+        "value": "distance tests for statistics"
+    },
+    {
+        "address": "0024ff2d",
+        "length": 9,
+        "value": " *0 cnt*"
+    },
+    {
+        "address": "0024ff46",
+        "length": 7,
+        "value": "%6.2e "
+    },
+    {
+        "address": "00250049",
+        "length": 6,
+        "value": "hull "
+    },
+    {
+        "address": "0025004f",
+        "length": 11,
+        "value": "%s FACET:\n"
+    },
+    {
+        "address": "0025005a",
+        "length": 17,
+        "value": "%s OTHER FACET:\n"
+    },
+    {
+        "address": "0025006b",
+        "length": 11,
+        "value": "%s RIDGE:\n"
+    },
+    {
+        "address": "00250076",
+        "length": 12,
+        "value": "%s VERTEX:\n"
+    },
+    {
+        "address": "00250082",
+        "length": 27,
+        "value": "\nWhile executing: %s | %s\n"
+    },
+    {
+        "address": "0025009d",
+        "length": 29,
+        "value": "Options selected for %s:\n%s\n"
+    },
+    {
+        "address": "002500ba",
+        "length": 22,
+        "value": "  Last merge was #%d."
+    },
+    {
+        "address": "002500d0",
+        "length": 17,
+        "value": "\nAt error exit:\n"
+    },
+    {
+        "address": "002500e1",
+        "length": 14,
+        "value": "at error exit"
+    },
+    {
+        "address": "002500f0",
+        "length": 54,
+        "value": "qh_new_qhull: start qhull_cmd argument with \"qhull \"\n"
+    },
+    {
+        "address": "00250128",
+        "length": 58,
+        "value": "qh_new_qhull: build new Qhull for %d %d-d points with %s\n"
+    },
+    {
+        "address": "00250168",
+        "length": 44,
+        "value": "ERRONEOUS and NEIGHBORING FACETS to output\n"
+    },
+    {
+        "address": "00250198",
+        "length": 61,
+        "value": "\nqhull error while processing previous error.  Exit program\n"
+    },
+    {
+        "address": "002501d8",
+        "length": 34,
+        "value": "Last point added to hull was p%d."
+    },
+    {
+        "address": "00250200",
+        "length": 43,
+        "value": "\nQhull has finished constructing the hull."
+    },
+    {
+        "address": "00250230",
+        "length": 33,
+        "value": "\nQhull has started post-merging."
+    },
+    {
+        "address": "00250258",
+        "length": 49,
+        "value": "qhull error while ending program.  Exit program\n"
+    },
+    {
+        "address": "00250290",
+        "length": 56,
+        "value": "no valid pierce index!? Probably a backside triangle..."
+    },
+    {
+        "address": "002502d0",
+        "length": 21,
+        "value": "18IVP_I_FPoint_VHash"
+    },
+    {
+        "address": "002502f0",
+        "length": 17,
+        "value": "14IVP_point_hash"
+    },
+    {
+        "address": "00250310",
+        "length": 20,
+        "value": "17IVP_I_Point_VHash"
+    },
+    {
+        "address": "00250324",
+        "length": 9,
+        "value": "num %i: "
+    },
+    {
+        "address": "0025032d",
+        "length": 7,
+        "value": "noname"
+    },
+    {
+        "address": "00250334",
+        "length": 23,
+        "value": "%s '%s'\tstart_%lX: %i\t"
+    },
+    {
+        "address": "0025034b",
+        "length": 30,
+        "value": "NULL edge in check_concavity."
+    },
+    {
+        "address": "00250369",
+        "length": 29,
+        "value": "ivp_object_polygon_tetra.cxx"
+    },
+    {
+        "address": "00250386",
+        "length": 21,
+        "value": "IVP Failed at %s %d\n"
+    },
+    {
+        "address": "0025039b",
+        "length": 15,
+        "value": "Cannot convert"
+    },
+    {
+        "address": "00250ba0",
+        "length": 30,
+        "value": "%s\tTetra_Edge: Bits %X %X %X\n"
+    },
+    {
+        "address": "00250bc1",
+        "length": 19,
+        "value": "%s\tIntrusion_Point"
+    },
+    {
+        "address": "00250bd4",
+        "length": 7,
+        "value": "equalp"
+    },
+    {
+        "address": "00250bdb",
+        "length": 10,
+        "value": "\tTriEdge:"
+    },
+    {
+        "address": "00250be5",
+        "length": 17,
+        "value": "\tIncluded Point\n"
+    },
+    {
+        "address": "00250bf6",
+        "length": 22,
+        "value": "Pairing Intersection:"
+    },
+    {
+        "address": "00250c0c",
+        "length": 21,
+        "value": "%s\tIntrusion Status\n"
+    },
+    {
+        "address": "00250c21",
+        "length": 22,
+        "value": "ivp_tetra_intrude.cxx"
+    },
+    {
+        "address": "00250c37",
+        "length": 10,
+        "value": "qd2 = %f\n"
+    },
+    {
+        "address": "00250c41",
+        "length": 8,
+        "value": "to test"
+    },
+    {
+        "address": "00250c49",
+        "length": 10,
+        "value": "triangle\n"
+    },
+    {
+        "address": "00250c58",
+        "length": 56,
+        "value": "%s\tTetra-Point: Mask %X  Coverbits %X %X %X  pntnum=%i\n"
+    },
+    {
+        "address": "00250c90",
+        "length": 31,
+        "value": "%s %s Intersection pnt %i - %i"
+    },
+    {
+        "address": "00250cb0",
+        "length": 76,
+        "value": "Warning: two straights are closer than eps, but no collision by normal test"
+    },
+    {
+        "address": "00250d16",
+        "length": 158,
+        "value": "?@\nAt %02d:%02d:%02d & %2.5g CPU secs, qhull has created %d facets and merged %d.\n The current hull contains %d facets and %d vertices.  Last point was p%d\n"
+    },
+    {
+        "address": "00250db8",
+        "length": 209,
+        "value": "\nAt %02d:%02d:%02d & %2.5g CPU secs, qhull has created %d facets and merged %d.\n The current hull contains %d facets and %d vertices.  There are %d\n outside points.  Next is point p%d (v%d), %2.2g above f%d.\n"
+    },
+    {
+        "address": "00250e90",
+        "length": 120,
+        "value": "qh_addpoint: add p%d (v%d) to hull of %d facets (%2.2g above f%d) and %d outside at %4.4g CPU secs.  Previous was p%d.\n"
+    },
+    {
+        "address": "00250f08",
+        "length": 110,
+        "value": "qhull internal error (qh_nextfurthest): num_outside %d is too low\nby at least %d, or a random real %g >= 1.0\n"
+    },
+    {
+        "address": "00250f78",
+        "length": 81,
+        "value": "qh_partitioncoplanar: ====== p%d increases max_outside to %2.2g of f%d last p%d\n"
+    },
+    {
+        "address": "00250fd0",
+        "length": 83,
+        "value": "qh_partitioncoplanar: point p%d is coplanar with facet f%d (or inside) dist %2.2g\n"
+    },
+    {
+        "address": "00251028",
+        "length": 43,
+        "value": "qh_precision: qhull restart because of %s\n"
+    },
+    {
+        "address": "00251058",
+        "length": 54,
+        "value": "qh_findhorizon: find horizon for point p%d facet f%d\n"
+    },
+    {
+        "address": "00251090",
+        "length": 90,
+        "value": "qh_findhorizon: point p%d is coplanar to horizon f%d, dist=%2.7g < qh MINvisible (%2.7g)\n"
+    },
+    {
+        "address": "002510f0",
+        "length": 87,
+        "value": "qhull precision error (qh_findhorizon): empty horizon\nPoint p%d was above all facets.\n"
+    },
+    {
+        "address": "00251148",
+        "length": 80,
+        "value": "qh_findhorizon: %d horizon facets (good %d), %d visible (good %d), %d coplanar\n"
+    },
+    {
+        "address": "00251198",
+        "length": 36,
+        "value": "nearly incident point (narrow hull)"
+    },
+    {
+        "address": "002511c0",
+        "length": 51,
+        "value": "qh_partitionpoint: point p%d is outside facet f%d\n"
+    },
+    {
+        "address": "002511f8",
+        "length": 78,
+        "value": "qh_partitionpoint: point p%d is inside all facets, closest to f%d dist %2.2g\n"
+    },
+    {
+        "address": "00251248",
+        "length": 57,
+        "value": "qh_partitionall: partition all points into outside sets\n"
+    },
+    {
+        "address": "00251288",
+        "length": 93,
+        "value": "qh_partitionvisible: partitioned %d points from outsidesets and %d points from coplanarsets\n"
+    },
+    {
+        "address": "002512e8",
+        "length": 48,
+        "value": "qh_addpoint: NULL facet.  Use qh_findbestfacet\n"
+    },
+    {
+        "address": "00251318",
+        "length": 76,
+        "value": "qh_addpoint: added p%d new facets %d new balance %2.2g point balance %2.2g\n"
+    },
+    {
+        "address": "00251368",
+        "length": 32,
+        "value": "qh_buildhull: start build hull\n"
+    },
+    {
+        "address": "00251388",
+        "length": 77,
+        "value": "qhull internal error (qh_buildhull): visible or new facet f%d in facet list\n"
+    },
+    {
+        "address": "002513d8",
+        "length": 68,
+        "value": "qhull internal error (qh_buildhull): new vertex f%d in vertex list\n"
+    },
+    {
+        "address": "00251420",
+        "length": 54,
+        "value": "qh_buildhull: stop point or cone P%d in initial hull\n"
+    },
+    {
+        "address": "00251458",
+        "length": 78,
+        "value": "qhull internal error (qh_buildhull): %d outside points were never processed.\n"
+    },
+    {
+        "address": "002514a8",
+        "length": 47,
+        "value": "qh_buildhull: completed the hull construction\n"
+    },
+    {
+        "address": "002514d8",
+        "length": 170,
+        "value": "\nqhull precision error: %d attempts to construct a convex hull\n        with joggled input.  Increase joggle above 'QJ%2.2g'\n\tor modify qh_JOGGLE... parameters in user.h\n"
+    },
+    {
+        "address": "00251588",
+        "length": 111,
+        "value": "qh_qhull: all facets are clearly convex and no coplanar points.  Post-merging and check of maxout not needed.\n"
+    },
+    {
+        "address": "002515f8",
+        "length": 31,
+        "value": "\nTesting all coplanar points.\n"
+    },
+    {
+        "address": "00251618",
+        "length": 64,
+        "value": "qhull internal error (qh_qhull): temporary sets not empty (%d)\n"
+    },
+    {
+        "address": "00251658",
+        "length": 31,
+        "value": "qh_qhull: algorithm completed\n"
+    },
+    {
+        "address": "00251678",
+        "length": 62,
+        "value": "\nAt a premature exit due to 'TVn', 'TCn', or precision error."
+    },
+    {
+        "address": "002516b8",
+        "length": 75,
+        "value": "\nFurthest-site Voronoi vertices by the convex hull of %d points in %d-d:\n\n"
+    },
+    {
+        "address": "00251708",
+        "length": 60,
+        "value": "\nVoronoi diagram by the convex hull of %d points in %d-d:\n\n"
+    },
+    {
+        "address": "00251748",
+        "length": 35,
+        "value": "  Number of Voronoi regions%s: %d\n"
+    },
+    {
+        "address": "00251770",
+        "length": 40,
+        "value": "  Number of nearly incident points: %d\n"
+    },
+    {
+        "address": "00251798",
+        "length": 46,
+        "value": "  Total number of nearly incident points: %d\n"
+    },
+    {
+        "address": "002517c8",
+        "length": 34,
+        "value": "  Number of Voronoi vertices: %d\n"
+    },
+    {
+        "address": "002517f0",
+        "length": 32,
+        "value": "  Number of facets in hull: %d\n"
+    },
+    {
+        "address": "00251810",
+        "length": 81,
+        "value": "\nFurthest-site Delaunay triangulation by the convex hull of %d points in %d-d:\n\n"
+    },
+    {
+        "address": "00251868",
+        "length": 67,
+        "value": "\nDelaunay triangulation by the convex hull of %d points in %d-d:\n\n"
+    },
+    {
+        "address": "002518b0",
+        "length": 31,
+        "value": "  Number of input sites%s: %d\n"
+    },
+    {
+        "address": "002518d0",
+        "length": 33,
+        "value": "  Number of Delaunay facets: %d\n"
+    },
+    {
+        "address": "002518f8",
+        "length": 67,
+        "value": "\nHalfspace intersection by the convex hull of %d points in %d-d:\n\n"
+    },
+    {
+        "address": "00251940",
+        "length": 41,
+        "value": "  Number of nonredundant halfspaces: %d\n"
+    },
+    {
+        "address": "00251970",
+        "length": 31,
+        "value": "  Number of %s halfspaces: %d\n"
+    },
+    {
+        "address": "00251990",
+        "length": 37,
+        "value": "  Number of intersection points: %d\n"
+    },
+    {
+        "address": "002519b8",
+        "length": 38,
+        "value": "  Number of 'good' intersections: %d\n"
+    },
+    {
+        "address": "002519e0",
+        "length": 37,
+        "value": "\nConvex hull of %d points in %d-d:\n\n"
+    },
+    {
+        "address": "00251a08",
+        "length": 31,
+        "value": "  Number of 'good' facets: %d\n"
+    },
+    {
+        "address": "00251a28",
+        "length": 34,
+        "value": "  Number of points processed: %d\n"
+    },
+    {
+        "address": "00251a50",
+        "length": 37,
+        "value": "  Number of hyperplanes created: %d\n"
+    },
+    {
+        "address": "00251a78",
+        "length": 42,
+        "value": "  Number of distance tests for qhull: %d\n"
+    },
+    {
+        "address": "00251aa8",
+        "length": 31,
+        "value": "  Number of merged facets: %d\n"
+    },
+    {
+        "address": "00251ac8",
+        "length": 44,
+        "value": "  Number of distance tests for merging: %d\n"
+    },
+    {
+        "address": "00251af8",
+        "length": 52,
+        "value": "  CPU seconds to compute hull (after input): %2.4g\n"
+    },
+    {
+        "address": "00251b30",
+        "length": 51,
+        "value": "  Percentage of runs with precision errors: %4.1f\n"
+    },
+    {
+        "address": "00251b68",
+        "length": 45,
+        "value": "  After %d retries, input joggled by: %2.2g\n"
+    },
+    {
+        "address": "00251b98",
+        "length": 49,
+        "value": "  Maximum distance of %spoint above facet: %2.2g"
+    },
+    {
+        "address": "00251bd0",
+        "length": 50,
+        "value": "  Maximum distance of %svertex below facet: %2.2g"
+    },
+    {
+        "address": "00251c02",
+        "length": 8,
+        "value": "DISTANT"
+    },
+    {
+        "address": "00251c0a",
+        "length": 17,
+        "value": "coplanar horizon"
+    },
+    {
+        "address": "00251c1b",
+        "length": 14,
+        "value": "empty horizon"
+    },
+    {
+        "address": "00251c29",
+        "length": 22,
+        "value": "nearly incident point"
+    },
+    {
+        "address": "00251c44",
+        "length": 17,
+        "value": "First post-merge"
+    },
+    {
+        "address": "00251c55",
+        "length": 17,
+        "value": "For post-merging"
+    },
+    {
+        "address": "00251c66",
+        "length": 29,
+        "value": "For testing vertex neighbors"
+    },
+    {
+        "address": "00251c83",
+        "length": 17,
+        "value": " and at-infinity"
+    },
+    {
+        "address": "00251c94",
+        "length": 22,
+        "value": "similar and redundant"
+    },
+    {
+        "address": "00251caa",
+        "length": 8,
+        "value": "similar"
+    },
+    {
+        "address": "00251cb2",
+        "length": 22,
+        "value": "coplanar and interior"
+    },
+    {
+        "address": "00251cc8",
+        "length": 12,
+        "value": "Approximate"
+    },
+    {
+        "address": "00251cd4",
+        "length": 6,
+        "value": "Total"
+    },
+    {
+        "address": "00251cda",
+        "length": 8,
+        "value": "merged "
+    },
+    {
+        "address": "00251ce2",
+        "length": 26,
+        "value": "  Number of vertices: %d\n"
+    },
+    {
+        "address": "00251cfc",
+        "length": 27,
+        "value": "  Number of %s points: %d\n"
+    },
+    {
+        "address": "00251d17",
+        "length": 24,
+        "value": "  Number of facets: %d\n"
+    },
+    {
+        "address": "00251d2f",
+        "length": 25,
+        "value": "\nStatistics for: %s | %s"
+    },
+    {
+        "address": "00251d50",
+        "length": 27,
+        "value": "  Input joggled by: %2.2g\n"
+    },
+    {
+        "address": "00251d6b",
+        "length": 26,
+        "value": "  %s facet area:   %2.8g\n"
+    },
+    {
+        "address": "00251d85",
+        "length": 26,
+        "value": "  %s volume:       %2.8g\n"
+    },
+    {
+        "address": "00251d9f",
+        "length": 10,
+        "value": " (%.1fx)\n"
+    },
+    {
+        "address": "00251dbe",
+        "length": 46,
+        "value": "Y@qh_backnormal: zero diagonal at column %d.\n"
+    },
+    {
+        "address": "00251df0",
+        "length": 35,
+        "value": "zero diagonal on back substitution"
+    },
+    {
+        "address": "00251e18",
+        "length": 70,
+        "value": "qhull internal error (qh_findbest): unknown combination of arguments\n"
+    },
+    {
+        "address": "00251e60",
+        "length": 69,
+        "value": "qh_findbest: point p%d starting at f%d bestoutside? %d newfacets %d\n"
+    },
+    {
+        "address": "00251ea8",
+        "length": 62,
+        "value": "  ischeckmax %d ispartition %d isfindfacet %d testhorizon %d\n"
+    },
+    {
+        "address": "00251ee8",
+        "length": 36,
+        "value": "  Last point added to hull was p%d."
+    },
+    {
+        "address": "00251f10",
+        "length": 77,
+        "value": "qh_findbest: neighbors of f%d, bestdist %2.2g cutoff %2.2g searchdist %2.2g\n"
+    },
+    {
+        "address": "00251f60",
+        "length": 161,
+        "value": "\nqh_findbest: all neighbors of facet %d are flipped or upper Delaunay.\nPlease report this error to qhull_bug@geom.umn.edu with the input and all of the output.\n"
+    },
+    {
+        "address": "00252008",
+        "length": 32,
+        "value": "qh_findbest: horizon facet f%d\n"
+    },
+    {
+        "address": "00252028",
+        "length": 123,
+        "value": "qhull precision error (qh_findbestnew): merging has formed and deleted an independent cycle of facets.  Can not continue.\n"
+    },
+    {
+        "address": "002520a8",
+        "length": 68,
+        "value": "qhull internal error (qh_findbestnew): no new facets for point p%d\n"
+    },
+    {
+        "address": "002520f0",
+        "length": 59,
+        "value": "qh_findbestnew: point p%d facet f%d. Stop if dist > %2.2g\n"
+    },
+    {
+        "address": "00252130",
+        "length": 53,
+        "value": "qh_gausselim: 0 pivot at column %d. (%2.2g < %2.2g)\n"
+    },
+    {
+        "address": "00252168",
+        "length": 36,
+        "value": "zero pivot for Gaussian elimination"
+    },
+    {
+        "address": "00252190",
+        "length": 64,
+        "value": "qhull internal error (qh_getcenter): not defined for %d points\n"
+    },
+    {
+        "address": "002521d0",
+        "length": 47,
+        "value": "qh_normalize: norm=%2.2g too small during p%d\n"
+    },
+    {
+        "address": "00252200",
+        "length": 49,
+        "value": "qh_getcentrum: for f%d, %d vertices dist= %2.2g\n"
+    },
+    {
+        "address": "00252238",
+        "length": 51,
+        "value": "qh_sethyperplane_det: degenerate norm during p%d.\n"
+    },
+    {
+        "address": "00252270",
+        "length": 81,
+        "value": "qh_sethyperplane_gauss: nearly singular or axis parallel hyperplane during p%d.\n"
+    },
+    {
+        "address": "002522c8",
+        "length": 91,
+        "value": "qh_sethyperplane_gauss: singular or axis parallel hyperplane at normalization during p%d.\n"
+    },
+    {
+        "address": "00252328",
+        "length": 38,
+        "value": "qh_setfacetplane: facet f%d created.\n"
+    },
+    {
+        "address": "00252350",
+        "length": 79,
+        "value": "qh_setfacetplane: flipped orientation after testing interior_point during p%d\n"
+    },
+    {
+        "address": "002523a0",
+        "length": 101,
+        "value": "qh_setfacetplane: ====== vertex p%d (v%d) increases max_outside to %2.2g for new facet f%d last p%d\n"
+    },
+    {
+        "address": "00252408",
+        "length": 44,
+        "value": "qh_setfacetplane: f%d offset %2.2g normal: "
+    },
+    {
+        "address": "00252434",
+        "length": 15,
+        "value": "qh_distplane: "
+    },
+    {
+        "address": "00252443",
+        "length": 17,
+        "value": "from p%d to f%d\n"
+    },
+    {
+        "address": "00252454",
+        "length": 23,
+        "value": "  Last merge was #%d.\n"
+    },
+    {
+        "address": "0025246b",
+        "length": 8,
+        "value": "Matrix:"
+    },
+    {
+        "address": "00252473",
+        "length": 21,
+        "value": "qh_gausselem: result"
+    },
+    {
+        "address": "00252488",
+        "length": 20,
+        "value": "qh_getangle: %2.2g\n"
+    },
+    {
+        "address": "0025249c",
+        "length": 23,
+        "value": "\n\nCurrent summary is:\n"
+    },
+    {
+        "address": "002524b3",
+        "length": 7,
+        "value": "%2.2g "
+    },
+    {
+        "address": "002524e8",
+        "length": 22,
+        "value": "VECT 1 2 1 2 1 # f%d\n"
+    },
+    {
+        "address": "002524fe",
+        "length": 23,
+        "value": "%8.4g %8.4g %8.4g 1.0\n"
+    },
+    {
+        "address": "00252515",
+        "length": 7,
+        "value": " p%d: "
+    },
+    {
+        "address": "0025251c",
+        "length": 7,
+        "value": " %8.4g"
+    },
+    {
+        "address": "00252523",
+        "length": 13,
+        "value": "- p%d (v%d):"
+    },
+    {
+        "address": "00252530",
+        "length": 7,
+        "value": " %5.2g"
+    },
+    {
+        "address": "00252537",
+        "length": 14,
+        "value": " ridgedeleted"
+    },
+    {
+        "address": "00252545",
+        "length": 13,
+        "value": "  neighbors:"
+    },
+    {
+        "address": "00252557",
+        "length": 11,
+        "value": " p%d (v%d)"
+    },
+    {
+        "address": "0025256d",
+        "length": 8,
+        "value": " tested"
+    },
+    {
+        "address": "00252575",
+        "length": 11,
+        "value": " nonconvex"
+    },
+    {
+        "address": "00252580",
+        "length": 21,
+        "value": "           vertices:"
+    },
+    {
+        "address": "00252595",
+        "length": 9,
+        "value": "%d %d %d"
+    },
+    {
+        "address": "0025259e",
+        "length": 10,
+        "value": "%d %d %d "
+    },
+    {
+        "address": "002525a8",
+        "length": 20,
+        "value": "{ OFF %d 1 1 # f%d\n"
+    },
+    {
+        "address": "002525bf",
+        "length": 7,
+        "value": "%8.4g "
+    },
+    {
+        "address": "002525e2",
+        "length": 10,
+        "value": "Polygon[{"
+    },
+    {
+        "address": "002525ef",
+        "length": 25,
+        "value": "{%16.8f, %16.8f, %16.8f}"
+    },
+    {
+        "address": "00252608",
+        "length": 13,
+        "value": " MERGEridge\n"
+    },
+    {
+        "address": "00252615",
+        "length": 17,
+        "value": " DUPLICATEridge\n"
+    },
+    {
+        "address": "00252626",
+        "length": 12,
+        "value": " NULLfacet\n"
+    },
+    {
+        "address": "00252632",
+        "length": 7,
+        "value": "- f%d\n"
+    },
+    {
+        "address": "00252639",
+        "length": 13,
+        "value": "    - flags:"
+    },
+    {
+        "address": "0025264b",
+        "length": 8,
+        "value": " bottom"
+    },
+    {
+        "address": "00252653",
+        "length": 12,
+        "value": " simplicial"
+    },
+    {
+        "address": "0025265f",
+        "length": 15,
+        "value": " upperDelaunay"
+    },
+    {
+        "address": "0025266e",
+        "length": 9,
+        "value": " visible"
+    },
+    {
+        "address": "0025267c",
+        "length": 6,
+        "value": " notG"
+    },
+    {
+        "address": "00252682",
+        "length": 6,
+        "value": " seen"
+    },
+    {
+        "address": "00252688",
+        "length": 10,
+        "value": " coplanar"
+    },
+    {
+        "address": "00252692",
+        "length": 14,
+        "value": " mergehorizon"
+    },
+    {
+        "address": "002526a0",
+        "length": 13,
+        "value": " keepcentrum"
+    },
+    {
+        "address": "002526ad",
+        "length": 10,
+        "value": " dupridge"
+    },
+    {
+        "address": "002526b7",
+        "length": 13,
+        "value": " mergeridge1"
+    },
+    {
+        "address": "002526c4",
+        "length": 13,
+        "value": " mergeridge2"
+    },
+    {
+        "address": "002526d1",
+        "length": 10,
+        "value": " newmerge"
+    },
+    {
+        "address": "002526db",
+        "length": 9,
+        "value": " flipped"
+    },
+    {
+        "address": "002526e4",
+        "length": 13,
+        "value": " notfurthest"
+    },
+    {
+        "address": "002526f1",
+        "length": 12,
+        "value": " degenerate"
+    },
+    {
+        "address": "002526fd",
+        "length": 19,
+        "value": "    - area: %2.2g\n"
+    },
+    {
+        "address": "00252710",
+        "length": 24,
+        "value": "    - replacement: f%d\n"
+    },
+    {
+        "address": "00252728",
+        "length": 26,
+        "value": "    - was horizon to f%d\n"
+    },
+    {
+        "address": "00252742",
+        "length": 18,
+        "value": "    - merges: %d\n"
+    },
+    {
+        "address": "00252754",
+        "length": 15,
+        "value": "    - normal: "
+    },
+    {
+        "address": "00252763",
+        "length": 22,
+        "value": "    - offset: %10.7g\n"
+    },
+    {
+        "address": "00252779",
+        "length": 15,
+        "value": "    - center: "
+    },
+    {
+        "address": "00252788",
+        "length": 26,
+        "value": "    - maxoutside: %10.7g\n"
+    },
+    {
+        "address": "002527a2",
+        "length": 19,
+        "value": "    - outside set:"
+    },
+    {
+        "address": "002527b5",
+        "length": 11,
+        "value": "  Furthest"
+    },
+    {
+        "address": "002527c0",
+        "length": 20,
+        "value": "    - coplanar set:"
+    },
+    {
+        "address": "002527d4",
+        "length": 16,
+        "value": "    - vertices:"
+    },
+    {
+        "address": "002527e4",
+        "length": 27,
+        "value": "    - neighboring facets: "
+    },
+    {
+        "address": "002527ff",
+        "length": 7,
+        "value": " MERGE"
+    },
+    {
+        "address": "0025280b",
+        "length": 15,
+        "value": "    - ridges:\n"
+    },
+    {
+        "address": "0025281a",
+        "length": 19,
+        "value": "     - all ridges:"
+    },
+    {
+        "address": "0025282d",
+        "length": 14,
+        "value": "  NULLvertex\n"
+    },
+    {
+        "address": "0025283b",
+        "length": 18,
+        "value": "VECT 1 %d 1 %d 1 "
+    },
+    {
+        "address": "0025284d",
+        "length": 11,
+        "value": "OFF 3 1 1 "
+    },
+    {
+        "address": "00252858",
+        "length": 21,
+        "value": "# intersect f%d f%d\n"
+    },
+    {
+        "address": "00252873",
+        "length": 21,
+        "value": "%8.4g %8.4g %8.4g # "
+    },
+    {
+        "address": "00252888",
+        "length": 23,
+        "value": "p%d (coplanar facets)\n"
+    },
+    {
+        "address": "0025289f",
+        "length": 15,
+        "value": "projected p%d\n"
+    },
+    {
+        "address": "002528ae",
+        "length": 17,
+        "value": "OFF 3 1 1 # f%d\n"
+    },
+    {
+        "address": "002528bf",
+        "length": 23,
+        "value": "# r%d between f%d f%d\n"
+    },
+    {
+        "address": "002528d6",
+        "length": 27,
+        "value": "3 0 1 2 %8.4g %8.4g %8.4g\n"
+    },
+    {
+        "address": "002528f1",
+        "length": 25,
+        "value": "# ridge between f%d f%d\n"
+    },
+    {
+        "address": "0025290a",
+        "length": 16,
+        "value": "VECT 1 2 1 2 1\n"
+    },
+    {
+        "address": "0025291a",
+        "length": 8,
+        "value": " # p%d\n"
+    },
+    {
+        "address": "00252922",
+        "length": 16,
+        "value": "VECT 1 1 1 1 1\n"
+    },
+    {
+        "address": "00252932",
+        "length": 21,
+        "value": "%8.4g %8.4g %8.4g 1\n"
+    },
+    {
+        "address": "00252963",
+        "length": 6,
+        "value": "begin"
+    },
+    {
+        "address": "00252969",
+        "length": 6,
+        "value": "BEGIN"
+    },
+    {
+        "address": "00252973",
+        "length": 30,
+        "value": "The halfspace was on line %d\n"
+    },
+    {
+        "address": "00252991",
+        "length": 29,
+        "value": ".  Continue with %d points.\n"
+    },
+    {
+        "address": "002529b8",
+        "length": 13,
+        "value": "center point"
+    },
+    {
+        "address": "002529c5",
+        "length": 18,
+        "value": " distance= %4.2g\n"
+    },
+    {
+        "address": "002529d7",
+        "length": 6,
+        "value": "1 %d\n"
+    },
+    {
+        "address": "002529dd",
+        "length": 24,
+        "value": " 0 # infinity not used\n"
+    },
+    {
+        "address": "002529f5",
+        "length": 12,
+        "value": "%d\n%d %d 1\n"
+    },
+    {
+        "address": "00252a01",
+        "length": 10,
+        "value": "# %d f%d\n"
+    },
+    {
+        "address": "00252a0b",
+        "length": 14,
+        "value": " # p%d (v%d)\n"
+    },
+    {
+        "address": "00252a19",
+        "length": 25,
+        "value": "no normal for facet f%d\n"
+    },
+    {
+        "address": "00252a32",
+        "length": 18,
+        "value": "%d %d %d %6.16g \n"
+    },
+    {
+        "address": "00252a50",
+        "length": 22,
+        "value": "Vertices and facets:\n"
+    },
+    {
+        "address": "00252a66",
+        "length": 16,
+        "value": "LIST # %s | %s\n"
+    },
+    {
+        "address": "00252a76",
+        "length": 15,
+        "value": "4VECT %d %d 1\n"
+    },
+    {
+        "address": "00252a85",
+        "length": 22,
+        "value": "# 1 point per line\n1 "
+    },
+    {
+        "address": "00252a9b",
+        "length": 19,
+        "value": "# 1 color for all\n"
+    },
+    {
+        "address": "00252aae",
+        "length": 28,
+        "value": "0 1 1 1  # color of points\n"
+    },
+    {
+        "address": "00252aca",
+        "length": 14,
+        "value": "4OFF %d %d 1\n"
+    },
+    {
+        "address": "00252ad8",
+        "length": 30,
+        "value": "%s | %s\nbegin\n    %d %d real\n"
+    },
+    {
+        "address": "00252af9",
+        "length": 13,
+        "value": "%d\n%d %d %d\n"
+    },
+    {
+        "address": "00252b06",
+        "length": 26,
+        "value": "%s | %s\nbegin\n%d %d real\n"
+    },
+    {
+        "address": "00252b25",
+        "length": 26,
+        "value": "7 %d %d %d %d %d %d %d\n2 "
+    },
+    {
+        "address": "00252b3f",
+        "length": 15,
+        "value": "%6.16g %6.16g\n"
+    },
+    {
+        "address": "00252b50",
+        "length": 37,
+        "value": "%8.4g %8.4g %8.4g\n%8.4g %8.4g %8.4g\n"
+    },
+    {
+        "address": "00252b78",
+        "length": 32,
+        "value": "           between f%d and f%d\n"
+    },
+    {
+        "address": "00252b98",
+        "length": 62,
+        "value": "qh_detvnorm: too few points (%d) to compute separating plane\n"
+    },
+    {
+        "address": "00252bd8",
+        "length": 40,
+        "value": "qh_detvnorm: Voronoi vertex or midpoint"
+    },
+    {
+        "address": "00252c00",
+        "length": 47,
+        "value": "qh_detvnorm: points %d %d midpoint dist %2.2g\n"
+    },
+    {
+        "address": "00252c30",
+        "length": 51,
+        "value": "qh_detvnorm: points %d %d angle %2.2g nearzero %d\n"
+    },
+    {
+        "address": "00252c68",
+        "length": 56,
+        "value": "qh_detvnorm: points %d %d Voronoi vertex %d dist %2.2g\n"
+    },
+    {
+        "address": "00252ca0",
+        "length": 69,
+        "value": "qh_detvridge3: neigbors of vertex p%d are not connected at facet %d\n"
+    },
+    {
+        "address": "00252ce8",
+        "length": 70,
+        "value": "qh_eachvoronoi: Voronoi ridge of %d vertices between sites %d and %d\n"
+    },
+    {
+        "address": "00252d30",
+        "length": 85,
+        "value": "qh_markkeep: only keep %d largest and/or %d most merged facets and/or min area %.2g\n"
+    },
+    {
+        "address": "00252d88",
+        "length": 58,
+        "value": "qh_order_vertexneighbors: order neighbors of v%d for 3-d\n"
+    },
+    {
+        "address": "00252dc8",
+        "length": 77,
+        "value": "qhull internal error (qh_order_vertexneighbors): no neighbor of v%d for f%d\n"
+    },
+    {
+        "address": "00252e18",
+        "length": 44,
+        "value": "Line[{{%16.8f, %16.8f}, {%16.8f, %16.8f}}]\n"
+    },
+    {
+        "address": "00252e48",
+        "length": 42,
+        "value": "    - shares same visible/horizon as f%d\n"
+    },
+    {
+        "address": "00252e78",
+        "length": 35,
+        "value": "    - outside set (furthest p%d):\n"
+    },
+    {
+        "address": "00252ea0",
+        "length": 31,
+        "value": "    - outside set:  %d points."
+    },
+    {
+        "address": "00252ec0",
+        "length": 32,
+        "value": "    - furthest distance= %2.2g\n"
+    },
+    {
+        "address": "00252ee0",
+        "length": 36,
+        "value": "    - coplanar set (furthest p%d):\n"
+    },
+    {
+        "address": "00252f08",
+        "length": 32,
+        "value": "    - coplanar set:  %d points."
+    },
+    {
+        "address": "00252f28",
+        "length": 32,
+        "value": "      furthest distance= %2.2g\n"
+    },
+    {
+        "address": "00252f48",
+        "length": 35,
+        "value": "    - ridges (ids may be garbage):"
+    },
+    {
+        "address": "00252f70",
+        "length": 157,
+        "value": "\nA Qhull error has occurred.  Qhull should have corrected the above\nprecision error.  Please send the input and all of the output to\nqhull_bug@geom.umn.edu\n"
+    },
+    {
+        "address": "00253010",
+        "length": 765,
+        "value": "\nPrecision problems were detected during construction of the convex hull.\nThis occurs because convex hull algorithms assume that calculations are\nexact, but floating-point arithmetic has roundoff errors.\n\nTo correct for precision problems, do not use 'Q0'.  By default, Qhull\nselects 'C-0' or 'Qx' and merges non-convex facets.  With option 'QJ',\nQhull joggles the input to prevent precision problems.  See \"Imprecision\nin Qhull\" (qh-impre.htm).\n\nIf you use 'Q0', the output may include\ncoplanar ridges, concave ridges, and flipped facets.  In 4-d and higher,\nQhull may produce a ridge with four neighbors or two facets with the same \nvertices.  Qhull reports these events when they occur.  It stops when a\nconcave ridge, flipped facet, or duplicate facet occurs.\n"
+    },
+    {
+        "address": "00253310",
+        "length": 144,
+        "value": "\nWhen computing the Delaunay triangulation of coordinates > 1.0,\n  - use 'Qbb' to scale the last coordinate to [0,m] (max previous coordinate)\n"
+    },
+    {
+        "address": "002533a0",
+        "length": 119,
+        "value": "When computing the Delaunay triangulation:\n  - use 'Qz' to add a point at-infinity.  This reduces precision problems.\n"
+    },
+    {
+        "address": "00253418",
+        "length": 620,
+        "value": "\nIf you need triangular output:\n  - use option 'QJ' to joggle the input points and remove precision errors\n  - or use option 'Ft' instead of 'Q0'.  It triangulates non-simplicial\n    facets with added points.\n\nIf you must use 'Q0',\ntry one or more of the following options.  They can not guarantee an output.\n  - use 'QbB' to scale the input to a cube.\n  - use 'Po' to produce output and prevent partitioning for flipped facets\n  - use 'V0' to set min. distance to visible facet as 0 instead of roundoff\n  - use 'En' to specify a maximum roundoff error less than %2.2g.\n  - options 'Qf', 'Qbb', and 'QR0' may also help\n"
+    },
+    {
+        "address": "00253688",
+        "length": 240,
+        "value": "\nTo guarantee simplicial output:\n  - use option 'QJ' to joggle the input points and remove precision errors\n  - use option 'Ft' to triangulate the output by adding points\n  - use exact arithmetic (see \"Imprecision in Qhull\", qh-impre.htm)\n"
+    },
+    {
+        "address": "00253778",
+        "length": 31,
+        "value": "3 0 1 2 %8.4g %8.4g %8.4g 1.0\n"
+    },
+    {
+        "address": "00253798",
+        "length": 35,
+        "value": "OFF 3 1 1 # ridge between f%d f%d\n"
+    },
+    {
+        "address": "002537c0",
+        "length": 703,
+        "value": "{appearance {-edge -normal normscale 0} {\nINST geom {define vsphere OFF\n18 32 48\n\n0 0 1\n1 0 0\n0 1 0\n-1 0 0\n0 -1 0\n0 0 -1\n0.707107 0 0.707107\n0 -0.707107 0.707107\n0.707107 -0.707107 0\n-0.707107 0 0.707107\n-0.707107 -0.707107 0\n0 0.707107 0.707107\n-0.707107 0.707107 0\n0.707107 0.707107 0\n0.707107 0 -0.707107\n0 0.707107 -0.707107\n-0.707107 0 -0.707107\n0 -0.707107 -0.707107\n\n3 0 6 11\n3 0 7 6\t\n3 0 9 7\t\n3 0 11 9\n3 1 6 8\t\n3 1 8 14\n3 1 13 6\n3 1 14 13\n3 2 11 13\n3 2 12 11\n3 2 13 15\n3 2 15 12\n3 3 9 12\n3 3 10 9\n3 3 12 16\n3 3 16 10\n3 4 7 10\n3 4 8 7\n3 4 10 17\n3 4 17 8\n3 5 14 17\n3 5 15 14\n3 5 16 15\n3 5 17 16\n3 6 13 11\n3 7 8 6\n3 9 10 7\n3 11 12 9\n3 14 8 17\n3 15 13 14\n3 16 12 15\n3 17 10 16\n} transforms { TLIST\n"
+    },
+    {
+        "address": "00253a80",
+        "length": 44,
+        "value": "%8.4g 0 0 0 # v%d\n 0 %8.4g 0 0\n0 0 %8.4g 0\n"
+    },
+    {
+        "address": "00253ab0",
+        "length": 41,
+        "value": "{appearance {-normal -edge normscale 0} "
+    },
+    {
+        "address": "00253ae0",
+        "length": 173,
+        "value": "{INST geom { define centrum CQUAD  # f%d\n-0.3 -0.3 0.0001     0 0 1 1\n 0.3 -0.3 0.0001     0 0 1 1\n 0.3  0.3 0.0001     0 0 1 1\n-0.3  0.3 0.0001     0 0 1 1 } transform { \n"
+    },
+    {
+        "address": "00253b90",
+        "length": 44,
+        "value": "{INST geom { : centrum } transform { # f%d\n"
+    },
+    {
+        "address": "00253bc0",
+        "length": 91,
+        "value": "qhull input error: feasible point (dim 1 coords) is only valid for halfspace intersection\n"
+    },
+    {
+        "address": "00253c20",
+        "length": 113,
+        "value": "qhull input warning: feasible point (dim 1 coords) overrides 'Hn,n,n' feasible point for halfspace intersection\n"
+    },
+    {
+        "address": "00253c98",
+        "length": 53,
+        "value": "qhull error: insufficient memory for feasible point\n"
+    },
+    {
+        "address": "00253cd0",
+        "length": 82,
+        "value": "qhull input error: coordinates for feasible point do not finish out the line: %s\n"
+    },
+    {
+        "address": "00253d28",
+        "length": 78,
+        "value": "qhull input error: only %d coordinates.  Could not read %d-d feasible point.\n"
+    },
+    {
+        "address": "00253d78",
+        "length": 135,
+        "value": "qhull input error: halfspace intersection needs a feasible point.\nEither prepend the input with 1 point or use 'Hn,n,n'.  See manual.\n"
+    },
+    {
+        "address": "00253e00",
+        "length": 67,
+        "value": "qhull input warning: more coordinates for 'H%s' than dimension %d\n"
+    },
+    {
+        "address": "00253e48",
+        "length": 83,
+        "value": "qhull input error: short input file.  Did not find dimension and number of points\n"
+    },
+    {
+        "address": "00253ea0",
+        "length": 69,
+        "value": "qhull input error: dimension %d (first number) should be at least 2\n"
+    },
+    {
+        "address": "00253ee8",
+        "length": 101,
+        "value": "qhull input error: dimension %d (first number, includes offset) should be at least 3 for halfspaces\n"
+    },
+    {
+        "address": "00253f50",
+        "length": 100,
+        "value": "qhull input error: dimension %d of feasible point is not one less than dimension %d for halfspaces\n"
+    },
+    {
+        "address": "00253fb8",
+        "length": 52,
+        "value": "qhull error: insufficient memory to read %d points\n"
+    },
+    {
+        "address": "00253ff0",
+        "length": 78,
+        "value": "qhull input warning: the input appears to be in cdd format.  If so, use 'Fd'\n"
+    },
+    {
+        "address": "00254040",
+        "length": 77,
+        "value": "qhull input error: for cdd format, point at line %d does not start with '1'\n"
+    },
+    {
+        "address": "00254090",
+        "length": 75,
+        "value": "The input appears to be in cdd format.  If so, you should use option 'Fd'\n"
+    },
+    {
+        "address": "002540e0",
+        "length": 62,
+        "value": "qhull input error: line %d contained more than %d characters\n"
+    },
+    {
+        "address": "00254120",
+        "length": 131,
+        "value": "qhull warning: instead of %d %d-dimensional points, input contains\n%d points and %d extra coordinates.  Line %d is the first\npoint"
+    },
+    {
+        "address": "002541a8",
+        "length": 31,
+        "value": ", line %d is the first comment"
+    },
+    {
+        "address": "002541c8",
+        "length": 34,
+        "value": ", line %d is the first short\nline"
+    },
+    {
+        "address": "002541f0",
+        "length": 33,
+        "value": ", line %d is the first long line"
+    },
+    {
+        "address": "00254218",
+        "length": 366,
+        "value": "\nThis is the qhull test case.  If any errors or core dumps occur,\nrecompile qhull with 'make new'.  If errors still occur, there is\nan incompatibility.  You should try a different compiler.  You can also\nchange the choices in user.h.  If you discover the source of the problem,\nplease send mail to qhull_bug@geom.umn.edu.\n\nType 'qhull' for a short list of options.\n"
+    },
+    {
+        "address": "00254388",
+        "length": 49,
+        "value": "qh_readpoints: read in %d %d-dimensional points\n"
+    },
+    {
+        "address": "002543c0",
+        "length": 59,
+        "value": "qhull input error: missing \"begin\" for cdd-formated input\n"
+    },
+    {
+        "address": "00254400",
+        "length": 65,
+        "value": "qh_printextremes_2d: loop in facet list.  facet %d nextfacet %d\n"
+    },
+    {
+        "address": "002553e0",
+        "length": 36,
+        "value": "qh_basevertices: found %d vertices\n"
+    },
+    {
+        "address": "00255408",
+        "length": 52,
+        "value": "qhull error: f%d is not attached to the new facets\n"
+    },
+    {
+        "address": "00255440",
+        "length": 42,
+        "value": "not concave, flipped, or duplicate ridged"
+    },
+    {
+        "address": "00255470",
+        "length": 58,
+        "value": "qh_checkzero: skip convexity check until first pre-merge\n"
+    },
+    {
+        "address": "002554b0",
+        "length": 41,
+        "value": "qh_checkzero: testall %d, facets are %s\n"
+    },
+    {
+        "address": "002554e0",
+        "length": 43,
+        "value": "qh_checkzero: facet f%d needs pre-merging\n"
+    },
+    {
+        "address": "00255510",
+        "length": 72,
+        "value": "qh_checkzero: facet f%d and f%d are not clearly convex.  v%d dist %.2g\n"
+    },
+    {
+        "address": "00255558",
+        "length": 56,
+        "value": "qh_copynonconvex: moved nonconvex flag from r%d to r%d\n"
+    },
+    {
+        "address": "00255590",
+        "length": 62,
+        "value": "qh_degen_redundant_facet: test facet f%d for degen/redundant\n"
+    },
+    {
+        "address": "002555d0",
+        "length": 59,
+        "value": "qh_degen_redundant_facet: f%d is contained in f%d.  merge\n"
+    },
+    {
+        "address": "00255610",
+        "length": 50,
+        "value": "qh_degen_redundant_neighbors: f%d is degenerate.\n"
+    },
+    {
+        "address": "00255648",
+        "length": 71,
+        "value": "qh_degen_redundant_neighbors: test neighbors of f%d with delfacet f%d\n"
+    },
+    {
+        "address": "00255690",
+        "length": 68,
+        "value": "qh_degen_redundant_neighbors: f%d is degenerate with %d neighbors.\n"
+    },
+    {
+        "address": "002556d8",
+        "length": 63,
+        "value": "qh_degen_redundant_neighbors: f%d is contained in f%d.  merge\n"
+    },
+    {
+        "address": "00255718",
+        "length": 86,
+        "value": "qh_degen_redundant_neighbors: f%d is degenerate with %d neighbors.  Neighbor of f%d.\n"
+    },
+    {
+        "address": "00255770",
+        "length": 68,
+        "value": "qhull internal error (qh_findbestneighbor): no neighbors for f%d\n"
+    },
+    {
+        "address": "002557b8",
+        "length": 112,
+        "value": "qh_findbestneighbor: f%d is best neighbor for f%d testcentrum? %d nonconvex? %d dist %2.2g min %2.2g max %2.2g\n"
+    },
+    {
+        "address": "00255828",
+        "length": 36,
+        "value": "qh_makeridges: make ridges for f%d\n"
+    },
+    {
+        "address": "00255850",
+        "length": 46,
+        "value": "qh_mark_dupridges: identify duplicate ridges\n"
+    },
+    {
+        "address": "00255880",
+        "length": 47,
+        "value": "qh_mark_dupridges: found %d duplicated ridges\n"
+    },
+    {
+        "address": "00256fdc",
+        "length": 26,
+        "value": "qh_getmergeset: started.\n"
+    },
+    {
+        "address": "00256ff6",
+        "length": 7,
+        "value": "MERGED"
+    },
+    {
+        "address": "00257110",
+        "length": 16,
+        "value": "13IVP_CFEP_Hash"
+    },
+    {
+        "address": "00257120",
+        "length": 46,
+        "value": "../ivp_collision/ivp_compact_ledge_solver.cxx"
+    },
+    {
+        "address": "002571af",
+        "length": 25,
+        "value": "?20IVP_Ray_Hit_Listener"
+    },
+    {
+        "address": "002571d0",
+        "length": 17,
+        "value": "14IVP_Ray_Solver"
+    },
+    {
+        "address": "002571f0",
+        "length": 26,
+        "value": "23IVP_Ray_Solver_Min_Hash"
+    },
+    {
+        "address": "00257210",
+        "length": 21,
+        "value": "18IVP_Ray_Solver_Min"
+    },
+    {
+        "address": "00257238",
+        "length": 13,
+        "value": "sys:actuator"
+    },
+    {
+        "address": "00257245",
+        "length": 19,
+        "value": "sys:force_actuator"
+    },
+    {
+        "address": "00257258",
+        "length": 10,
+        "value": "sys:motor"
+    },
+    {
+        "address": "00257262",
+        "length": 20,
+        "value": "sys:torque_actuator"
+    },
+    {
+        "address": "00257288",
+        "length": 48,
+        "value": "Rot Mot Actuation has to be fixed on one object"
+    },
+    {
+        "address": "002572b8",
+        "length": 71,
+        "value": "Both Anchors of a Torque_Actuator must be attached to just one object."
+    },
+    {
+        "address": "00257300",
+        "length": 35,
+        "value": "../ivp_controller/ivp_actuator.cxx"
+    },
+    {
+        "address": "00257328",
+        "length": 15,
+        "value": "12IVP_Actuator"
+    },
+    {
+        "address": "00257340",
+        "length": 25,
+        "value": "22IVP_Actuator_Two_Point"
+    },
+    {
+        "address": "00257360",
+        "length": 26,
+        "value": "23IVP_Actuator_Four_Point"
+    },
+    {
+        "address": "00257380",
+        "length": 21,
+        "value": "18IVP_Actuator_Force"
+    },
+    {
+        "address": "002573a0",
+        "length": 28,
+        "value": "25IVP_Actuator_Force_Active"
+    },
+    {
+        "address": "002573c0",
+        "length": 23,
+        "value": "20IVP_Actuator_Rot_Mot"
+    },
+    {
+        "address": "002573e0",
+        "length": 30,
+        "value": "27IVP_Actuator_Rot_Mot_Active"
+    },
+    {
+        "address": "00257400",
+        "length": 22,
+        "value": "19IVP_Actuator_Torque"
+    },
+    {
+        "address": "00257420",
+        "length": 29,
+        "value": "26IVP_Actuator_Torque_Active"
+    },
+    {
+        "address": "002578f7",
+        "length": 17,
+        "value": "?static_object"
+    },
+    {
+        "address": "00257bde",
+        "length": 22,
+        "value": "z>17IVP_Listener_Hull"
+    },
+    {
+        "address": "00257c90",
+        "length": 29,
+        "value": "../ivp_intern/ivp_object.cxx"
+    },
+    {
+        "address": "00257cb0",
+        "length": 13,
+        "value": "10IVP_Object"
+    },
+    {
+        "address": "00257cc0",
+        "length": 14,
+        "value": "11IVP_Cluster"
+    },
+    {
+        "address": "00257d10",
+        "length": 18,
+        "value": "15IVP_Real_Object"
+    },
+    {
+        "address": "00257d30",
+        "length": 23,
+        "value": "20IVP_Controller_VHash"
+    },
+    {
+        "address": "00257d88",
+        "length": 37,
+        "value": "../ivp_intern/ivp_physic_private.cxx"
+    },
+    {
+        "address": "00257e40",
+        "length": 14,
+        "value": "11IVP_Polygon"
+    },
+    {
+        "address": "00257e4e",
+        "length": 12,
+        "value": "sys:gravity"
+    },
+    {
+        "address": "002580b8",
+        "length": 15,
+        "value": "12IVP_Material"
+    },
+    {
+        "address": "002581a0",
+        "length": 25,
+        "value": "22IVP_PerformanceCounter"
+    },
+    {
+        "address": "002581c0",
+        "length": 32,
+        "value": "29IVP_PerformanceCounter_Simple"
+    },
+    {
+        "address": "002581f0",
+        "length": 21,
+        "value": "18IVP_SurfaceManager"
+    },
+    {
+        "address": "0025821f",
+        "length": 33,
+        "value": "?26IVP_SurfaceManager_Polygon"
+    },
+    {
+        "address": "00258243",
+        "length": 11,
+        "value": ";DoubleVal"
+    },
+    {
+        "address": "0025824e",
+        "length": 7,
+        "value": "IntVal"
+    },
+    {
+        "address": "0025825d",
+        "length": 26,
+        "value": "Square[F %g, L %g, H %g]("
+    },
+    {
+        "address": "00258277",
+        "length": 10,
+        "value": " + %g * ("
+    },
+    {
+        "address": "00258294",
+        "length": 11,
+        "value": "TestRange["
+    },
+    {
+        "address": "0025829f",
+        "length": 6,
+        "value": "Cond["
+    },
+    {
+        "address": "002582a5",
+        "length": 12,
+        "value": "double_null"
+    },
+    {
+        "address": "002582b1",
+        "length": 13,
+        "value": "current_time"
+    },
+    {
+        "address": "002582c0",
+        "length": 31,
+        "value": "Sine[F %g, A %g, N %g, ts %g]("
+    },
+    {
+        "address": "002582e0",
+        "length": 32,
+        "value": "Pulse[F %g, L %g, H %g, %d:%d]("
+    },
+    {
+        "address": "00258300",
+        "length": 68,
+        "value": "insert_active_float: tried to insert active_IVP_FLOAT without name!"
+    },
+    {
+        "address": "00258348",
+        "length": 61,
+        "value": "insert_active_float: name '%s' already exists in name_hash!\n"
+    },
+    {
+        "address": "00258388",
+        "length": 60,
+        "value": "insert_active_int: tried to insert active_int without name!"
+    },
+    {
+        "address": "002583c8",
+        "length": 59,
+        "value": "insert_active_int: name '%s' already exists in name_hash!\n"
+    },
+    {
+        "address": "00258410",
+        "length": 32,
+        "value": "26IVP_U_Active_Value_Manager"
+    },
+    {
+        "address": "00258430",
+        "length": 30,
+        "value": "27IVP_U_Active_Float_Listener"
+    },
+    {
+        "address": "00258450",
+        "length": 28,
+        "value": "25IVP_U_Active_Int_Listener"
+    },
+    {
+        "address": "00258470",
+        "length": 27,
+        "value": "24IVP_U_Active_Int_Delayed"
+    },
+    {
+        "address": "00258490",
+        "length": 29,
+        "value": "26IVP_U_Active_Float_Delayed"
+    },
+    {
+        "address": "002584b0",
+        "length": 21,
+        "value": "18IVP_U_Active_Value"
+    },
+    {
+        "address": "002584d0",
+        "length": 21,
+        "value": "18IVP_U_Active_Float"
+    },
+    {
+        "address": "002584f0",
+        "length": 19,
+        "value": "16IVP_U_Active_Int"
+    },
+    {
+        "address": "00258510",
+        "length": 31,
+        "value": "28IVP_U_Active_Terminal_Double"
+    },
+    {
+        "address": "00258530",
+        "length": 28,
+        "value": "25IVP_U_Active_Terminal_Int"
+    },
+    {
+        "address": "00258550",
+        "length": 20,
+        "value": "17IVP_U_Active_Sine"
+    },
+    {
+        "address": "00258570",
+        "length": 22,
+        "value": "19IVP_U_Active_Square"
+    },
+    {
+        "address": "00258590",
+        "length": 21,
+        "value": "18IVP_U_Active_Pulse"
+    },
+    {
+        "address": "002585b0",
+        "length": 19,
+        "value": "16IVP_U_Active_Add"
+    },
+    {
+        "address": "002585d0",
+        "length": 19,
+        "value": "16IVP_U_Active_Sub"
+    },
+    {
+        "address": "002585f0",
+        "length": 28,
+        "value": "25IVP_U_Active_Add_Multiple"
+    },
+    {
+        "address": "00258610",
+        "length": 20,
+        "value": "17IVP_U_Active_Mult"
+    },
+    {
+        "address": "00258630",
+        "length": 21,
+        "value": "18IVP_U_Active_Limit"
+    },
+    {
+        "address": "00258650",
+        "length": 26,
+        "value": "23IVP_U_Active_Test_Range"
+    },
+    {
+        "address": "00258670",
+        "length": 22,
+        "value": "19IVP_U_Active_Switch"
+    },
+    {
+        "address": "00258690",
+        "length": 24,
+        "value": "21IVP_Active_Value_Hash"
+    },
+    {
+        "address": "002586a8",
+        "length": 41,
+        "value": "/data/src/ivp/ivp_utility/ivu_linear.hxx"
+    },
+    {
+        "address": "002586d1",
+        "length": 6,
+        "value": " \t,;\n"
+    },
+    {
+        "address": "002586d7",
+        "length": 19,
+        "value": "%s Point %f %f %f\n"
+    },
+    {
+        "address": "002586f0",
+        "length": 16,
+        "value": "\t\tMATRIX_START\n"
+    },
+    {
+        "address": "00258700",
+        "length": 24,
+        "value": "\t\t\tMATRIX_POS %g %g %g\n"
+    },
+    {
+        "address": "00258718",
+        "length": 14,
+        "value": "\t\tMATRIX_END\n"
+    },
+    {
+        "address": "00258726",
+        "length": 13,
+        "value": "vv\t%g %g %g\n"
+    },
+    {
+        "address": "00258733",
+        "length": 21,
+        "value": "ERROR in read Matrix"
+    },
+    {
+        "address": "00258748",
+        "length": 13,
+        "value": "MATRIX_START"
+    },
+    {
+        "address": "00258755",
+        "length": 11,
+        "value": "MATRIX_ROT"
+    },
+    {
+        "address": "00258760",
+        "length": 11,
+        "value": "MATRIX_POS"
+    },
+    {
+        "address": "0025876b",
+        "length": 11,
+        "value": "MATRIX_END"
+    },
+    {
+        "address": "00258776",
+        "length": 30,
+        "value": "../ivp_utility/ivu_linear.cxx"
+    },
+    {
+        "address": "00258798",
+        "length": 31,
+        "value": "No valid matrix in get_angles!"
+    },
+    {
+        "address": "002587b8",
+        "length": 42,
+        "value": "very strange: no alpha vec in get_angles!"
+    },
+    {
+        "address": "002587e8",
+        "length": 42,
+        "value": "\t\t\tMATRIX_ROT %g %g %g %g %g %g %g %g %g\n"
+    },
+    {
+        "address": "00258818",
+        "length": 33,
+        "value": "mm\t%g %g %g\n\t%g %g %g\n\t%g %g %g\n"
+    },
+    {
+        "address": "00258840",
+        "length": 42,
+        "value": "Load IVP_U_Matrix: Unknown Command\n'%s'!\n"
+    },
+    {
+        "address": "00258926",
+        "length": 31,
+        "value": "q=../ivp_utility/ivu_vhash.cxx"
+    },
+    {
+        "address": "00258949",
+        "length": 12,
+        "value": " %i:%p:%X  "
+    },
+    {
+        "address": "00258955",
+        "length": 15,
+        "value": " %i:%p:%p:%X  "
+    },
+    {
+        "address": "00258968",
+        "length": 11,
+        "value": "9IVP_VHash"
+    },
+    {
+        "address": "00258978",
+        "length": 48,
+        "value": "*** ERROR *** Excessive amount of children: %d\n"
+    },
+    {
+        "address": "002589a8",
+        "length": 52,
+        "value": "*** ERROR *** Excessive sizelevel (%d) for element\n"
+    },
+    {
+        "address": "002589e0",
+        "length": 17,
+        "value": "14IVP_OV_Element"
+    },
+    {
+        "address": "00258a00",
+        "length": 19,
+        "value": "16IVP_ov_tree_hash"
+    },
+    {
+        "address": "00258a20",
+        "length": 26,
+        "value": "23IVP_Collision_Delegator"
+    },
+    {
+        "address": "00258a40",
+        "length": 31,
+        "value": "28IVP_Collision_Delegator_Root"
+    },
+    {
+        "address": "00258a60",
+        "length": 16,
+        "value": "13IVP_Collision"
+    },
+    {
+        "address": "00258a80",
+        "length": 36,
+        "value": "33IVP_Collision_Callback_Table_Hash"
+    },
+    {
+        "address": "00258aa4",
+        "length": 7,
+        "value": "(syn) "
+    },
+    {
+        "address": "00258aab",
+        "length": 7,
+        "value": "syn0: "
+    },
+    {
+        "address": "00258ab2",
+        "length": 8,
+        "value": "\nsyn1: "
+    },
+    {
+        "address": "00258aba",
+        "length": 28,
+        "value": "\n--------------------------"
+    },
+    {
+        "address": "00258ad6",
+        "length": 7,
+        "value": "exact:"
+    },
+    {
+        "address": "00258add",
+        "length": 9,
+        "value": "invalid:"
+    },
+    {
+        "address": "00258ae8",
+        "length": 33,
+        "value": "../ivp_collision/ivp_mindist.cxx"
+    },
+    {
+        "address": "00258b10",
+        "length": 14,
+        "value": "11IVP_Synapse"
+    },
+    {
+        "address": "00258b20",
+        "length": 19,
+        "value": "16IVP_Mindist_Base"
+    },
+    {
+        "address": "00258b40",
+        "length": 39,
+        "value": "36IVP_Collision_Delegator_Root_Mindist"
+    },
+    {
+        "address": "00258b70",
+        "length": 17,
+        "value": "14IVP_Synapse_OO"
+    },
+    {
+        "address": "00258b90",
+        "length": 17,
+        "value": "14IVP_OO_Watcher"
+    },
+    {
+        "address": "00258bb0",
+        "length": 19,
+        "value": "16IVP_Synapse_Real"
+    },
+    {
+        "address": "00258bc8",
+        "length": 14,
+        "value": "11IVP_Mindist"
+    },
+    {
+        "address": "00258be0",
+        "length": 24,
+        "value": "21IVP_Mindist_Recursive"
+    },
+    {
+        "address": "00258c3f",
+        "length": 41,
+        "value": "<../ivp_collision/ivp_mindist_event.cxx"
+    },
+    {
+        "address": "00258c70",
+        "length": 24,
+        "value": "21IVP_3D_Solver_PF_COLL"
+    },
+    {
+        "address": "00258ca0",
+        "length": 34,
+        "value": "31IVP_3D_Solver_VEC_PARALLEL_AREA"
+    },
+    {
+        "address": "00258ce0",
+        "length": 39,
+        "value": "36IVP_3D_Solver_DISTANCE_OF_TWO_POINTS"
+    },
+    {
+        "address": "00258d10",
+        "length": 23,
+        "value": "20IVP_3D_Solver_S_VALS"
+    },
+    {
+        "address": "00258d30",
+        "length": 22,
+        "value": "19IVP_3D_Solver_PK_KK"
+    },
+    {
+        "address": "00258d50",
+        "length": 24,
+        "value": "21IVP_3D_Solver_PK_COLL"
+    },
+    {
+        "address": "00258d70",
+        "length": 23,
+        "value": "20IVP_3D_Solver_PF_NPF"
+    },
+    {
+        "address": "00258d90",
+        "length": 24,
+        "value": "21IVP_3D_Solver_KK_COLL"
+    },
+    {
+        "address": "00258db0",
+        "length": 28,
+        "value": "25IVP_3D_Solver_KK_PARALLEL"
+    },
+    {
+        "address": "00258dd8",
+        "length": 42,
+        "value": "../ivp_collision/ivp_mindist_minimize.cxx"
+    },
+    {
+        "address": "00258e08",
+        "length": 53,
+        "value": "%s in contact with %s, crash. dist = %d, minq = %lf\n"
+    },
+    {
+        "address": "00258e3d",
+        "length": 26,
+        "value": "%s (%d) at %.1f %.1f %.1f"
+    },
+    {
+        "address": "00258e5f",
+        "length": 45,
+        "value": "?../ivp_collision/ivp_mindist_recursive.cxx"
+    },
+    {
+        "address": "00258ea0",
+        "length": 20,
+        "value": "17IVP_Range_Manager"
+    },
+    {
+        "address": "00258f40",
+        "length": 23,
+        "value": "20IVP_Constraint_Local"
+    },
+    {
+        "address": "00258f80",
+        "length": 24,
+        "value": "21IVP_Controller_Motion"
+    },
+    {
+        "address": "00258fa0",
+        "length": 23,
+        "value": "20IVP_Controller_Golem"
+    },
+    {
+        "address": "00258fde",
+        "length": 30,
+        "value": " A../ivp_intern/ivp_ball.cxx"
+    },
+    {
+        "address": "00259000",
+        "length": 10,
+        "value": "8IVP_Ball"
+    },
+    {
+        "address": "00259010",
+        "length": 26,
+        "value": "23IVP_SurfaceManager_Ball"
+    },
+    {
+        "address": "00259060",
+        "length": 33,
+        "value": "30IVP_Object_Callback_Table_Hash"
+    },
+    {
+        "address": "00259090",
+        "length": 16,
+        "value": "13IVP_3D_Solver"
+    },
+    {
+        "address": "002590b8",
+        "length": 72,
+        "value": "You are changing the fixing point of a constraint which does not exist."
+    },
+    {
+        "address": "00259100",
+        "length": 76,
+        "value": "You are changing the translation axes of a constraint which does not exist."
+    },
+    {
+        "address": "00259150",
+        "length": 72,
+        "value": "You are fixing a translation axis of a constraint which does not exist."
+    },
+    {
+        "address": "00259198",
+        "length": 76,
+        "value": "You are freeing a translation axis of a constraint which does not exist."
+    },
+    {
+        "address": "002591e8",
+        "length": 74,
+        "value": "You are limiting a translation axis of a constraint which does not exist."
+    },
+    {
+        "address": "00259238",
+        "length": 73,
+        "value": "You are changing a maxforce define of a constraint which does not exist."
+    },
+    {
+        "address": "00259288",
+        "length": 73,
+        "value": "You are changing the rotation axes of a constraint which does not exist."
+    },
+    {
+        "address": "002592d8",
+        "length": 69,
+        "value": "You are fixing a rotation axis of a constraint which does not exist."
+    },
+    {
+        "address": "00259320",
+        "length": 70,
+        "value": "You are freeing a rotation axis of a constraint which does not exist."
+    },
+    {
+        "address": "00259368",
+        "length": 71,
+        "value": "You are limiting a rotation axis of a constraint which does not exist."
+    },
+    {
+        "address": "002593b0",
+        "length": 74,
+        "value": "You are changing a maxtorque define of a constraint which does not exist."
+    },
+    {
+        "address": "00259400",
+        "length": 57,
+        "value": "You are repositioning a constraint which does not exist."
+    },
+    {
+        "address": "00259440",
+        "length": 17,
+        "value": "14IVP_Constraint"
+    },
+    {
+        "address": "002597f8",
+        "length": 14,
+        "value": "11CPolyhedron"
+    },
+    {
+        "address": "00259810",
+        "length": 25,
+        "value": "22CPolyhedron_AllocByNew"
+    },
+    {
+        "address": "00259830",
+        "length": 25,
+        "value": "22CPolyhedron_TempMemory"
+    },
+    {
+        "address": "002599de",
+        "length": 18,
+        "value": "o@10hk_Console"
+    },
+    {
+        "address": "00264cc1",
+        "length": 3,
+        "value": "zR"
+    },
+    {
+        "address": "00264d55",
+        "length": 5,
+        "value": "zPLR"
+    },
+    {
+        "address": "00264d99",
+        "length": 5,
+        "value": "zPLR"
+    },
+    {
+        "address": "002652c9",
+        "length": 5,
+        "value": "zPLR"
+    },
+    {
+        "address": "00265369",
+        "length": 5,
+        "value": "zPLR"
+    },
+    {
+        "address": "00265731",
+        "length": 5,
+        "value": "zPLR"
+    },
+    {
+        "address": "00266bd5",
+        "length": 5,
+        "value": "zPLR"
+    },
+    {
+        "address": "00266d95",
+        "length": 3,
+        "value": "zR"
+    },
+    {
+        "address": "00266fbd",
+        "length": 5,
+        "value": "zPLR"
+    },
+    {
+        "address": "0026c89d",
+        "length": 5,
+        "value": "zPLR"
+    },
+    {
+        "address": "0026e799",
+        "length": 5,
+        "value": "zPLR"
+    },
+    {
+        "address": "002748c1",
+        "length": 5,
+        "value": "zPLR"
+    },
+    {
+        "address": "00276921",
+        "length": 3,
+        "value": "zR"
+    },
+    {
+        "address": "0028fbf1",
+        "length": 3,
+        "value": "zR"
+    },
+    {
+        "address": "0028fc41",
+        "length": 3,
+        "value": "zR"
+    },
+    {
+        "address": "0028fcc1",
+        "length": 3,
+        "value": "zR"
+    },
+    {
+        "address": "0028fd4d",
+        "length": 3,
+        "value": "zR"
+    },
+    {
+        "address": "0028fe69",
+        "length": 3,
+        "value": "zR"
+    },
+    {
+        "address": "0028fedd",
+        "length": 3,
+        "value": "zR"
+    },
+    {
+        "address": "0028ff65",
+        "length": 3,
+        "value": "zR"
+    },
+    {
+        "address": "0029001d",
+        "length": 3,
+        "value": "zR"
+    },
+    {
+        "address": "002901bd",
+        "length": 3,
+        "value": "zR"
+    },
+    {
+        "address": "002904d1",
+        "length": 3,
+        "value": "zR"
+    },
+    {
+        "address": "002906a9",
+        "length": 3,
+        "value": "zR"
+    },
+    {
+        "address": "00290959",
+        "length": 3,
+        "value": "zR"
+    },
+    {
+        "address": "002a1a04",
+        "length": 7,
+        "value": "\rr\"\"\\\\"
+    },
+    {
+        "address": "002a1b98",
+        "length": 15,
+        "value": "ipion 99/07/10"
+    },
+    {
+        "address": ".comment::00000000",
+        "length": 50,
+        "value": "GCC: (SteamRT 10.3.0-3+steamrt3.1+bsrt3.1) 10.3.0"
+    },
+    {
+        "address": ".shstrtab::00000001",
+        "length": 8,
+        "value": ".symtab"
+    },
+    {
+        "address": ".shstrtab::00000009",
+        "length": 8,
+        "value": ".strtab"
+    },
+    {
+        "address": ".shstrtab::00000011",
+        "length": 10,
+        "value": ".shstrtab"
+    },
+    {
+        "address": ".shstrtab::0000001b",
+        "length": 19,
+        "value": ".note.gnu.build-id"
+    },
+    {
+        "address": ".shstrtab::0000002e",
+        "length": 10,
+        "value": ".gnu.hash"
+    },
+    {
+        "address": ".shstrtab::00000038",
+        "length": 8,
+        "value": ".dynsym"
+    },
+    {
+        "address": ".shstrtab::00000040",
+        "length": 8,
+        "value": ".dynstr"
+    },
+    {
+        "address": ".shstrtab::00000048",
+        "length": 13,
+        "value": ".gnu.version"
+    },
+    {
+        "address": ".shstrtab::00000055",
+        "length": 15,
+        "value": ".gnu.version_r"
+    },
+    {
+        "address": ".shstrtab::00000064",
+        "length": 10,
+        "value": ".rela.dyn"
+    },
+    {
+        "address": ".shstrtab::0000006e",
+        "length": 10,
+        "value": ".rela.plt"
+    },
+    {
+        "address": ".shstrtab::00000078",
+        "length": 6,
+        "value": ".init"
+    },
+    {
+        "address": ".shstrtab::0000007e",
+        "length": 9,
+        "value": ".plt.got"
+    },
+    {
+        "address": ".shstrtab::00000087",
+        "length": 6,
+        "value": ".text"
+    },
+    {
+        "address": ".shstrtab::0000008d",
+        "length": 6,
+        "value": ".fini"
+    },
+    {
+        "address": ".shstrtab::00000093",
+        "length": 8,
+        "value": ".rodata"
+    },
+    {
+        "address": ".shstrtab::0000009b",
+        "length": 14,
+        "value": ".eh_frame_hdr"
+    },
+    {
+        "address": ".shstrtab::000000a9",
+        "length": 10,
+        "value": ".eh_frame"
+    },
+    {
+        "address": ".shstrtab::000000b3",
+        "length": 18,
+        "value": ".gcc_except_table"
+    },
+    {
+        "address": ".shstrtab::000000c5",
+        "length": 12,
+        "value": ".init_array"
+    },
+    {
+        "address": ".shstrtab::000000d1",
+        "length": 12,
+        "value": ".fini_array"
+    },
+    {
+        "address": ".shstrtab::000000dd",
+        "length": 13,
+        "value": ".data.rel.ro"
+    },
+    {
+        "address": ".shstrtab::000000ea",
+        "length": 9,
+        "value": ".dynamic"
+    },
+    {
+        "address": ".shstrtab::000000f3",
+        "length": 9,
+        "value": ".got.plt"
+    },
+    {
+        "address": ".shstrtab::000000fc",
+        "length": 6,
+        "value": ".data"
+    },
+    {
+        "address": ".shstrtab::00000102",
+        "length": 5,
+        "value": ".bss"
+    },
+    {
+        "address": ".shstrtab::00000107",
+        "length": 9,
+        "value": ".comment"
+    },
+    {
+        "address": ".shstrtab::00000110",
+        "length": 15,
+        "value": ".gnu_debuglink"
+    },
+    {
+        "address": ".strtab::00000001",
+        "length": 21,
+        "value": "mbstowcs@GLIBC_2.2.5"
+    },
+    {
+        "address": ".strtab::00000016",
+        "length": 22,
+        "value": "g_VProfCurrentProfile"
+    },
+    {
+        "address": ".strtab::0000002c",
+        "length": 20,
+        "value": "isspace@GLIBC_2.2.5"
+    },
+    {
+        "address": ".strtab::00000040",
+        "length": 19,
+        "value": "stdout@GLIBC_2.2.5"
+    },
+    {
+        "address": ".strtab::00000053",
+        "length": 26,
+        "value": "_ZGVbN4vv_powf@GLIBC_2.22"
+    },
+    {
+        "address": ".strtab::0000006d",
+        "length": 18,
+        "value": "atan2@GLIBC_2.2.5"
+    },
+    {
+        "address": ".strtab::0000007f",
+        "length": 30,
+        "value": "__ctype_toupper_loc@GLIBC_2.3"
+    },
+    {
+        "address": ".strtab::0000009d",
+        "length": 37,
+        "value": "_ZN17CThreadSpinRWLock10UnlockReadEv"
+    },
+    {
+        "address": ".strtab::000000c2",
+        "length": 20,
+        "value": "strtoll@GLIBC_2.2.5"
+    },
+    {
+        "address": ".strtab::000000d6",
+        "length": 30,
+        "value": "__ctype_tolower_loc@GLIBC_2.3"
+    },
+    {
+        "address": ".strtab::000000f4",
+        "length": 5,
+        "value": "cvar"
+    },
+    {
+        "address": ".strtab::000000f9",
+        "length": 31,
+        "value": "_ZNV16CThreadFastMutex4LockEyj"
+    },
+    {
+        "address": ".strtab::00000118",
+        "length": 19,
+        "value": "strstr@GLIBC_2.2.5"
+    },
+    {
+        "address": ".strtab::0000012b",
+        "length": 24,
+        "value": "_ZGVbN2v_sin@GLIBC_2.22"
+    },
+    {
+        "address": ".strtab::00000143",
+        "length": 20,
+        "value": "wcsncpy@GLIBC_2.2.5"
+    },
+    {
+        "address": ".strtab::00000157",
+        "length": 17,
+        "value": "rand@GLIBC_2.2.5"
+    },
+    {
+        "address": ".strtab::00000168",
+        "length": 28,
+        "value": "dl_iterate_phdr@GLIBC_2.2.5"
+    },
+    {
+        "address": ".strtab::00000184",
+        "length": 24,
+        "value": "_ZN12CThreadEvent3SetEv"
+    },
+    {
+        "address": ".strtab::0000019c",
+        "length": 20,
+        "value": "strtoul@GLIBC_2.2.5"
+    },
+    {
+        "address": ".strtab::000001b0",
+        "length": 28,
+        "value": "fedisableexcept@GLIBC_2.2.5"
+    },
+    {
+        "address": ".strtab::000001cc",
+        "length": 19,
+        "value": "strchr@GLIBC_2.2.5"
+    },
+    {
+        "address": ".strtab::000001df",
+        "length": 20,
+        "value": "longjmp@GLIBC_2.2.5"
+    },
+    {
+        "address": ".strtab::000001f3",
+        "length": 20,
+        "value": "wcsncat@GLIBC_2.2.5"
+    },
+    {
+        "address": ".strtab::00000207",
+        "length": 18,
+        "value": "cbrtf@GLIBC_2.2.5"
+    },
+    {
+        "address": ".strtab::00000219",
+        "length": 27,
+        "value": "feenableexcept@GLIBC_2.2.5"
+    },
+    {
+        "address": ".strtab::00000234",
+        "length": 20,
+        "value": "sincosf@GLIBC_2.2.5"
+    },
+    {
+        "address": ".strtab::00000248",
+        "length": 27,
+        "value": "__cxa_finalize@GLIBC_2.2.5"
+    },
+    {
+        "address": ".strtab::00000263",
+        "length": 19,
+        "value": "strlen@GLIBC_2.2.5"
+    },
+    {
+        "address": ".strtab::00000276",
+        "length": 19,
+        "value": "memcmp@GLIBC_2.2.5"
+    },
+    {
+        "address": ".strtab::00000289",
+        "length": 21,
+        "value": "vsprintf@GLIBC_2.2.5"
+    },
+    {
+        "address": ".strtab::0000029e",
+        "length": 34,
+        "value": "_ZN13CThreadRWLock11WaitForReadEv"
+    },
+    {
+        "address": ".strtab::000002c0",
+        "length": 27,
+        "value": "_ZN17CThreadSyncObjectD2Ev"
+    },
+    {
+        "address": ".strtab::000002db",
+        "length": 12,
+        "value": "g_pMemAlloc"
+    },
+    {
+        "address": ".strtab::000002e7",
+        "length": 43,
+        "value": "_ZN17CThreadSpinRWLock16SpinLockForWriteEj"
+    },
+    {
+        "address": ".strtab::00000312",
+        "length": 19,
+        "value": "getcwd@GLIBC_2.2.5"
+    },
+    {
+        "address": ".strtab::00000325",
+        "length": 20,
+        "value": "strncpy@GLIBC_2.2.5"
+    },
+    {
+        "address": ".strtab::00000339",
+        "length": 19,
+        "value": "memset@GLIBC_2.2.5"
+    },
+    {
+        "address": ".strtab::0000034c",
+        "length": 18,
+        "value": "abort@GLIBC_2.2.5"
+    },
+    {
+        "address": ".strtab::0000035e",
+        "length": 20,
+        "value": "dlerror@GLIBC_2.2.5"
+    },
+    {
+        "address": ".strtab::00000372",
+        "length": 19,
+        "value": "sincos@GLIBC_2.2.5"
+    },
+    {
+        "address": ".strtab::00000385",
+        "length": 37,
+        "value": "_ZN10CVProfNode10GetSubNodeEPKciS1_i"
+    },
+    {
+        "address": ".strtab::000003aa",
+        "length": 22,
+        "value": "vsnprintf@GLIBC_2.2.5"
+    },
+    {
+        "address": ".strtab::000003c0",
+        "length": 29,
+        "value": "__cxa_guard_abort@CXXABI_1.3"
+    },
+    {
+        "address": ".strtab::000003dd",
+        "length": 31,
+        "value": "__cxa_guard_release@CXXABI_1.3"
+    },
+    {
+        "address": ".strtab::000003fc",
+        "length": 26,
+        "value": "_ZN16CThreadLocalBaseC2Ev"
+    },
+    {
+        "address": ".strtab::00000416",
+        "length": 20,
+        "value": "strncat@GLIBC_2.2.5"
+    },
+    {
+        "address": ".strtab::0000042a",
+        "length": 12,
+        "value": "HushAsserts"
+    },
+    {
+        "address": ".strtab::00000436",
+        "length": 49,
+        "value": "_ZTVN10__cxxabiv117__class_type_infoE@CXXABI_1.3"
+    },
+    {
+        "address": ".strtab::00000467",
+        "length": 22,
+        "value": "localtime@GLIBC_2.2.5"
+    },
+    {
+        "address": ".strtab::0000047d",
+        "length": 20,
+        "value": "dlclose@GLIBC_2.2.5"
+    },
+    {
+        "address": ".strtab::00000491",
+        "length": 38,
+        "value": "_ZN17CThreadSpinRWLock11LockForReadEv"
+    },
+    {
+        "address": ".strtab::000004b7",
+        "length": 33,
+        "value": "pthread_mutex_unlock@GLIBC_2.2.5"
+    },
+    {
+        "address": ".strtab::000004d8",
+        "length": 21,
+        "value": "iswspace@GLIBC_2.2.5"
+    },
+    {
+        "address": ".strtab::000004ed",
+        "length": 23,
+        "value": "iconv_open@GLIBC_2.2.5"
+    },
+    {
+        "address": ".strtab::00000504",
+        "length": 6,
+        "value": "Error"
+    },
+    {
+        "address": ".strtab::0000050a",
+        "length": 19,
+        "value": "strtod@GLIBC_2.2.5"
+    },
+    {
+        "address": ".strtab::0000051d",
+        "length": 35,
+        "value": "_ZN13CThreadRWLock12LockForWriteEv"
+    },
+    {
+        "address": ".strtab::00000540",
+        "length": 24,
+        "value": "iconv_close@GLIBC_2.2.5"
+    },
+    {
+        "address": ".strtab::00000558",
+        "length": 21,
+        "value": "strftime@GLIBC_2.2.5"
+    },
+    {
+        "address": ".strtab::0000056d",
+        "length": 18,
+        "value": "memcpy@GLIBC_2.14"
+    },
+    {
+        "address": ".strtab::0000057f",
+        "length": 17,
+        "value": "atan@GLIBC_2.2.5"
+    },
+    {
+        "address": ".strtab::00000590",
+        "length": 19,
+        "value": "wcslen@GLIBC_2.2.5"
+    },
+    {
+        "address": ".strtab::000005a3",
+        "length": 18,
+        "value": "atanf@GLIBC_2.2.5"
+    },
+    {
+        "address": ".strtab::000005b5",
+        "length": 21,
+        "value": "wcstombs@GLIBC_2.2.5"
+    },
+    {
+        "address": ".strtab::000005ca",
+        "length": 19,
+        "value": "finite@GLIBC_2.2.5"
+    },
+    {
+        "address": ".strtab::000005dd",
+        "length": 25,
+        "value": "__cxa_atexit@GLIBC_2.2.5"
+    },
+    {
+        "address": ".strtab::000005f6",
+        "length": 25,
+        "value": "_ZGVbN2vv_pow@GLIBC_2.22"
+    },
+    {
+        "address": ".strtab::0000060f",
+        "length": 21,
+        "value": "towlower@GLIBC_2.2.5"
+    },
+    {
+        "address": ".strtab::00000624",
+        "length": 8,
+        "value": "Warning"
+    },
+    {
+        "address": ".strtab::0000062c",
+        "length": 19,
+        "value": "strcpy@GLIBC_2.2.5"
+    },
+    {
+        "address": ".strtab::0000063f",
+        "length": 22,
+        "value": "freopen64@GLIBC_2.2.5"
+    },
+    {
+        "address": ".strtab::00000655",
+        "length": 17,
+        "value": "acos@GLIBC_2.2.5"
+    },
+    {
+        "address": ".strtab::00000666",
+        "length": 22,
+        "value": "vswprintf@GLIBC_2.2.5"
+    },
+    {
+        "address": ".strtab::0000067c",
+        "length": 26,
+        "value": "__isoc99_sscanf@GLIBC_2.7"
+    },
+    {
+        "address": ".strtab::00000696",
+        "length": 19,
+        "value": "fclose@GLIBC_2.2.5"
+    },
+    {
+        "address": ".strtab::000006a9",
+        "length": 18,
+        "value": "acosf@GLIBC_2.2.5"
+    },
+    {
+        "address": ".strtab::000006bb",
+        "length": 34,
+        "value": "_ZN13CThreadRWLock11UnlockWriteEv"
+    },
+    {
+        "address": ".strtab::000006dd",
+        "length": 24,
+        "value": "__ctype_b_loc@GLIBC_2.3"
+    },
+    {
+        "address": ".strtab::000006f5",
+        "length": 23,
+        "value": "strcasecmp@GLIBC_2.2.5"
+    },
+    {
+        "address": ".strtab::0000070c",
+        "length": 20,
+        "value": "strrchr@GLIBC_2.2.5"
+    },
+    {
+        "address": ".strtab::00000720",
+        "length": 18,
+        "value": "fputs@GLIBC_2.2.5"
+    },
+    {
+        "address": ".strtab::00000732",
+        "length": 30,
+        "value": "_ZN10CVProfNode10EnterScopeEv"
+    },
+    {
+        "address": ".strtab::00000750",
+        "length": 26,
+        "value": "__dynamic_cast@CXXABI_1.3"
+    },
+    {
+        "address": ".strtab::0000076a",
+        "length": 7,
+        "value": "DevMsg"
+    },
+    {
+        "address": ".strtab::00000771",
+        "length": 34,
+        "value": "pthread_mutex_destroy@GLIBC_2.2.5"
+    },
+    {
+        "address": ".strtab::00000793",
+        "length": 19,
+        "value": "fflush@GLIBC_2.2.5"
+    },
+    {
+        "address": ".strtab::000007a6",
+        "length": 17,
+        "value": "free@GLIBC_2.2.5"
+    },
+    {
+        "address": ".strtab::000007b7",
+        "length": 21,
+        "value": "towupper@GLIBC_2.2.5"
+    },
+    {
+        "address": ".strtab::000007cc",
+        "length": 19,
+        "value": "ThreadGetCurrentId"
+    },
+    {
+        "address": ".strtab::000007df",
+        "length": 18,
+        "value": "fputc@GLIBC_2.2.5"
+    },
+    {
+        "address": ".strtab::000007f1",
+        "length": 24,
+        "value": "strncasecmp@GLIBC_2.2.5"
+    },
+    {
+        "address": ".strtab::00000809",
+        "length": 16,
+        "value": "CreateInterface"
+    },
+    {
+        "address": ".strtab::00000819",
+        "length": 33,
+        "value": "__cxa_call_unexpected@CXXABI_1.3"
+    },
+    {
+        "address": ".strtab::0000083a",
+        "length": 52,
+        "value": "_ZTVN10__cxxabiv120__si_class_type_infoE@CXXABI_1.3"
+    },
+    {
+        "address": ".strtab::0000086e",
+        "length": 19,
+        "value": "malloc@GLIBC_2.2.5"
+    },
+    {
+        "address": ".strtab::00000881",
+        "length": 21,
+        "value": "vfprintf@GLIBC_2.2.5"
+    },
+    {
+        "address": ".strtab::00000896",
+        "length": 21,
+        "value": "strtoull@GLIBC_2.2.5"
+    },
+    {
+        "address": ".strtab::000008ab",
+        "length": 19,
+        "value": "stderr@GLIBC_2.2.5"
+    },
+    {
+        "address": ".strtab::000008be",
+        "length": 22,
+        "value": "Plat_IsInDebugSession"
+    },
+    {
+        "address": ".strtab::000008d4",
+        "length": 19,
+        "value": "atan2f@GLIBC_2.2.5"
+    },
+    {
+        "address": ".strtab::000008e7",
+        "length": 35,
+        "value": "pthread_mutexattr_init@GLIBC_2.2.5"
+    },
+    {
+        "address": ".strtab::0000090a",
+        "length": 20,
+        "value": "putchar@GLIBC_2.2.5"
+    },
+    {
+        "address": ".strtab::0000091e",
+        "length": 19,
+        "value": "strcmp@GLIBC_2.2.5"
+    },
+    {
+        "address": ".strtab::00000931",
+        "length": 19,
+        "value": "strtol@GLIBC_2.2.5"
+    },
+    {
+        "address": ".strtab::00000944",
+        "length": 12,
+        "value": "g_Telemetry"
+    },
+    {
+        "address": ".strtab::00000950",
+        "length": 46,
+        "value": "__cxa_throw_bad_array_new_length@CXXABI_1.3.8"
+    },
+    {
+        "address": ".strtab::0000097e",
+        "length": 20,
+        "value": "_setjmp@GLIBC_2.2.5"
+    },
+    {
+        "address": ".strtab::00000992",
+        "length": 20,
+        "value": "tolower@GLIBC_2.2.5"
+    },
+    {
+        "address": ".strtab::000009a6",
+        "length": 19,
+        "value": "dlopen@GLIBC_2.2.5"
+    },
+    {
+        "address": ".strtab::000009b9",
+        "length": 26,
+        "value": "_ZN16CThreadLocalBaseD2Ev"
+    },
+    {
+        "address": ".strtab::000009d3",
+        "length": 31,
+        "value": "pthread_mutex_lock@GLIBC_2.2.5"
+    },
+    {
+        "address": ".strtab::000009f2",
+        "length": 18,
+        "value": "chdir@GLIBC_2.2.5"
+    },
+    {
+        "address": ".strtab::00000a04",
+        "length": 29,
+        "value": "_ZN16CThreadLocalBase3SetEPv"
+    },
+    {
+        "address": ".strtab::00000a21",
+        "length": 31,
+        "value": "pthread_mutex_init@GLIBC_2.2.5"
+    },
+    {
+        "address": ".strtab::00000a40",
+        "length": 19,
+        "value": "strtok@GLIBC_2.2.5"
+    },
+    {
+        "address": ".strtab::00000a53",
+        "length": 16,
+        "value": "powf@GLIBC_2.27"
+    },
+    {
+        "address": ".strtab::00000a63",
+        "length": 18,
+        "value": "fgets@GLIBC_2.2.5"
+    },
+    {
+        "address": ".strtab::00000a75",
+        "length": 18,
+        "value": "asinf@GLIBC_2.2.5"
+    },
+    {
+        "address": ".strtab::00000a87",
+        "length": 20,
+        "value": "memmove@GLIBC_2.2.5"
+    },
+    {
+        "address": ".strtab::00000a9b",
+        "length": 25,
+        "value": "pthread_once@GLIBC_2.2.5"
+    },
+    {
+        "address": ".strtab::00000ab4",
+        "length": 32,
+        "value": "__gxx_personality_v0@CXXABI_1.3"
+    },
+    {
+        "address": ".strtab::00000ad4",
+        "length": 33,
+        "value": "__pthread_key_create@GLIBC_2.2.5"
+    },
+    {
+        "address": ".strtab::00000af5",
+        "length": 17,
+        "value": "asin@GLIBC_2.2.5"
+    },
+    {
+        "address": ".strtab::00000b06",
+        "length": 14,
+        "value": "_Z6ConMsgPKcz"
+    },
+    {
+        "address": ".strtab::00000b14",
+        "length": 17,
+        "value": "Plat_ExitProcess"
+    },
+    {
+        "address": ".strtab::00000b25",
+        "length": 15,
+        "value": "pow@GLIBC_2.29"
+    },
+    {
+        "address": ".strtab::00000b34",
+        "length": 53,
+        "value": "_ZTVN10__cxxabiv121__vmi_class_type_infoE@CXXABI_1.3"
+    },
+    {
+        "address": ".strtab::00000b69",
+        "length": 28,
+        "value": "_ITM_deregisterTMCloneTable"
+    },
+    {
+        "address": ".strtab::00000b85",
+        "length": 22,
+        "value": "_ZN12CThreadEventC1Eb"
+    },
+    {
+        "address": ".strtab::00000b9b",
+        "length": 18,
+        "value": "iconv@GLIBC_2.2.5"
+    },
+    {
+        "address": ".strtab::00000bad",
+        "length": 14,
+        "value": "_Z6DevMsgPKcz"
+    },
+    {
+        "address": ".strtab::00000bbb",
+        "length": 28,
+        "value": "_ZN10CVProfNode9ExitScopeEv"
+    },
+    {
+        "address": ".strtab::00000bd7",
+        "length": 15,
+        "value": "exp@GLIBC_2.29"
+    },
+    {
+        "address": ".strtab::00000be6",
+        "length": 38,
+        "value": "pthread_mutexattr_settype@GLIBC_2.2.5"
+    },
+    {
+        "address": ".strtab::00000c0c",
+        "length": 31,
+        "value": "__cxa_guard_acquire@CXXABI_1.3"
+    },
+    {
+        "address": ".strtab::00000c2b",
+        "length": 18,
+        "value": "dlsym@GLIBC_2.2.5"
+    },
+    {
+        "address": ".strtab::00000c3d",
+        "length": 20,
+        "value": "toupper@GLIBC_2.2.5"
+    },
+    {
+        "address": ".strtab::00000c51",
+        "length": 18,
+        "value": "GetCPUInformation"
+    },
+    {
+        "address": ".strtab::00000c63",
+        "length": 15,
+        "value": "Plat_localtime"
+    },
+    {
+        "address": ".strtab::00000c72",
+        "length": 16,
+        "value": "logf@GLIBC_2.27"
+    },
+    {
+        "address": ".strtab::00000c82",
+        "length": 15,
+        "value": "__gmon_start__"
+    },
+    {
+        "address": ".strtab::00000c91",
+        "length": 30,
+        "value": "__cxa_pure_virtual@CXXABI_1.3"
+    },
+    {
+        "address": ".strtab::00000caf",
+        "length": 18,
+        "value": "qsort@GLIBC_2.2.5"
+    },
+    {
+        "address": ".strtab::00000cc1",
+        "length": 26,
+        "value": "_ITM_registerTMCloneTable"
+    },
+    {
+        "address": ".strtab::00000cdb",
+        "length": 29,
+        "value": "_ZNK16CThreadLocalBase3GetEv"
+    },
+    {
+        "address": ".strtab::00000cf8",
+        "length": 19,
+        "value": "fwrite@GLIBC_2.2.5"
+    },
+    {
+        "address": ".strtab::00000d0b",
+        "length": 28,
+        "value": "_Z11ConColorMsgRK5ColorPKcz"
+    },
+    {
+        "address": ".strtab::00000d27",
+        "length": 38,
+        "value": "_ZN17CThreadSpinRWLock11UnlockWriteEv"
+    }
+]

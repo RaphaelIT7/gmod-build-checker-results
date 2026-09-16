@@ -1,4 +1,5 @@
 // Generated header
+// Estimated minimum size: 0x848 (2120) bytes, no debug info available
 
 class CHL2MPRules : public CTeamplayRules
 {
@@ -29,6 +30,15 @@ public:
 	virtual void CreateStandardEntities() override; // vtable[122]
 	virtual void GetChatFormat(bool param_1, CBasePlayer *param_2) override; // vtable[125]
 	virtual void GoToIntermission() override; // vtable[148]
+	virtual void caseD_0(); // vtable[165]
+	virtual void caseD_1(); // vtable[166]
+	virtual void caseD_3(); // vtable[168]
+	virtual void caseD_4(); // vtable[169]
+	virtual void caseD_5(); // vtable[170]
+	virtual void caseD_18(); // vtable[189]
+	virtual void caseD_19(); // vtable[190]
+	virtual void caseD_2(); // vtable[194]
+	virtual void caseD_1e(); // vtable[195]
 
 	void GetHL2MPViewVectors(); // size[10]
 	void IsIntermission(); // size[29]

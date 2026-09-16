@@ -1,18 +1,11 @@
 // Generated header
+// Estimated minimum size: 0x25AC (9644) bytes, no debug info available
 
 class CBaseGrenade : public CBaseAnimating, public CDefaultPlayerPickupVPhysics
 {
 public:
 	virtual ~CBaseGrenade() override; // vtable[0]
 	virtual ~CBaseGrenade() override; // vtable[1]
-	virtual void SetRefEHandle(CBaseHandle *param_1) override; // vtable[2]
-	virtual void GetRefEHandle() override; // vtable[3]
-	virtual void GetCollideable() override; // vtable[4]
-	virtual void GetNetworkable() override; // vtable[5]
-	virtual void GetBaseEntity() override; // vtable[6]
-	virtual void GetModelIndex() override; // vtable[7]
-	virtual void GetModelName() override; // vtable[8]
-	virtual void SetModelIndex(int param_1) override; // vtable[9]
 	virtual void GetServerClass() override; // vtable[10]
 	virtual void YouForgotToImplementOrDeclareServerClass() override; // vtable[11]
 	virtual void GetDataDescMap() override; // vtable[12]

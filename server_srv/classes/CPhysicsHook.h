@@ -1,4 +1,5 @@
 // Generated header
+// Estimated minimum size: 0x25C (604) bytes, no debug info available
 
 class CPhysicsHook : public CBaseGameSystemPerFrame
 {

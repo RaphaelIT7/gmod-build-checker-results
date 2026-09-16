@@ -1,10 +1,10 @@
 // Generated header
+// Estimated minimum size: 0x4 (4) bytes, no debug info available
 
 class IMaterialProxy
 {
 public:
-	virtual void __cxa_pure_virtual(); // vtable[3]
-	virtual void GMOD_CanBeQueued(); // vtable[4]
-	virtual ~IMaterialProxy(); // vtable[5]
-	virtual ~IMaterialProxy(); // vtable[6]
+	void GMOD_CanBeQueued(); // size[7]
+	~IMaterialProxy(); // size[14]
+	~IMaterialProxy(); // size[18]
 };

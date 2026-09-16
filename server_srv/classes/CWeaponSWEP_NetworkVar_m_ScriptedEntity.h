@@ -1,4 +1,5 @@
 // Generated header
+// Estimated minimum size: 0x98 (152) bytes, no debug info available
 
 class CWeaponSWEP_NetworkVar_m_ScriptedEntity : public CScriptedEntity
 {

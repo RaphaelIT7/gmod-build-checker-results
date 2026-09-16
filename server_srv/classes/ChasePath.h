@@ -1,4 +1,5 @@
 // Generated header
+// Estimated minimum size: 0x47F4 (18420) bytes, no debug info available
 
 class ChasePath : public PathFollower
 {

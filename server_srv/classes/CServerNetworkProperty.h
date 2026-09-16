@@ -1,9 +1,10 @@
 // Generated header
+// Estimated minimum size: 0x124 (292) bytes, no debug info available
 
 class CServerNetworkProperty : public IServerNetworkable, public IEventRegisterCallback
 {
 public:
-	virtual void GetEntityHandle() override; // vtable[0]
+	virtual void GetEntityHandle(); // vtable[0]
 	virtual void GetServerClass(); // vtable[1]
 	virtual void GetEdict(); // vtable[2]
 	virtual void GetClassName(); // vtable[3]
@@ -11,15 +12,15 @@ public:
 	virtual void AreaNum(); // vtable[5]
 	virtual void GetBaseNetworkable(); // vtable[6]
 	virtual void GetBaseEntity(); // vtable[7]
-	virtual void GetPVSInfo() override; // vtable[8]
-	virtual ~CServerNetworkProperty() override; // vtable[9]
-	virtual ~CServerNetworkProperty() override; // vtable[10]
+	virtual void GetPVSInfo(); // vtable[8]
+	virtual ~CServerNetworkProperty(); // vtable[9]
+	virtual ~CServerNetworkProperty(); // vtable[10]
 	virtual void GetDataDescMap(); // vtable[11]
 	virtual void FireEvent(); // vtable[12]
+	virtual void FireEvent(); // vtable[0]
 
 	void _GLOBAL__sub_I_m_DataMap(); // size[113]
 	void NetworkStateChanged(ushort param_1); // size[68]
-	void FireEvent(); // size[7]
 	void GetBaseMap(); // size[7]
 	CServerNetworkProperty(); // size[105]
 	void Init(CBaseEntity *param_1); // size[67]

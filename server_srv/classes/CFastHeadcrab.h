@@ -1,4 +1,5 @@
 // Generated header
+// Estimated minimum size: 0x260C (9740) bytes, no debug info available
 
 class CFastHeadcrab : public CBaseHeadcrab
 {
@@ -23,11 +24,21 @@ public:
 	virtual void MaxYawSpeed() override; // vtable[529]
 	virtual void SquadSlotName(int param_1) override; // vtable[581]
 	virtual void GetClassScheduleIdSpace() override; // vtable[640]
-	virtual void BiteSound() override; // vtable[654]
-	virtual void AttackSound() override; // vtable[655]
+	virtual void BiteSound(); // vtable[654]
+	virtual void AttackSound(); // vtable[655]
+	virtual void ImpactSound(); // vtable[656]
+	virtual void TelegraphSound(); // vtable[657]
+	virtual CalcYawSpeed(); // vtable[0]
+	virtual OnCalcBaseMove(AILocalMoveGoal_t *param_1, float param_2, AIMoveResult_t *param_3); // vtable[1]
+	virtual OnObstructionPreSteer(AILocalMoveGoal_t *param_1, float param_2, AIMoveResult_t *param_3); // vtable[2]
+	virtual void OnFailedSteer(AILocalMoveGoal_t *param_1, float param_2, AIMoveResult_t *param_3); // vtable[3]
+	virtual void OnFailedLocalNavigation(AILocalMoveGoal_t *param_1, float param_2, AIMoveResult_t *param_3); // vtable[4]
+	virtual void OnInsufficientStopDist(AILocalMoveGoal_t *param_1, float param_2, AIMoveResult_t *param_3); // vtable[5]
+	virtual void OnMoveBlocked(AIMoveResult_t *param_1); // vtable[6]
+	virtual void OnMoveStalled(AILocalMoveGoal_t *param_1); // vtable[7]
+	virtual void OnMoveExecuteFailed(AILocalMoveGoal_t *param_1, AIMoveTrace_t *param_2, AIMotorMoveResult_t param_3, AIMoveResult_t *param_4); // vtable[8]
 
 	void GetBaseMap(); // size[10]
 	void InitCustomSchedules(); // size[340]
 	void LoadSchedules(); // size[62]
-	CScheduleLoader(); // size[9]
 };

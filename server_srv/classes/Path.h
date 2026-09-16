@@ -1,4 +1,5 @@
 // Generated header
+// Estimated minimum size: 0x475C (18268) bytes, no debug info available
 
 class Path
 {

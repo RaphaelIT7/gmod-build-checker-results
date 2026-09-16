@@ -1,4 +1,5 @@
 // Generated header
+// Estimated minimum size: 0x60 (96) bytes, no debug info available
 
 class CFlexAnimationTrack
 {

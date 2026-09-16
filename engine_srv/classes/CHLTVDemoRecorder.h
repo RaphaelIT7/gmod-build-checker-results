@@ -1,4 +1,5 @@
 // Generated header
+// Estimated minimum size: 0x55C (1372) bytes, no debug info available
 
 class CHLTVDemoRecorder : public IDemoRecorder
 {
@@ -17,16 +18,16 @@ public:
 	virtual void RecordPacket(); // vtable[11]
 	virtual void RecordServerClasses(ServerClass *param_1); // vtable[12]
 	virtual void RecordStringTables(); // vtable[13]
-	virtual void ResetDemoInterpolation() override; // vtable[14]
+	virtual void ResetDemoInterpolation(); // vtable[14]
 	virtual ~CHLTVDemoRecorder(); // vtable[15]
 	virtual ~CHLTVDemoRecorder(); // vtable[16]
 
 	_GLOBAL__sub_I_CHLTVDemoRecorder(); // size[72]
-	void StopRecording(); // size[21]
+	void StopRecording(); // size[240]
 	CHLTVDemoRecorder(); // size[58]
 	void StartAutoRecording(); // size[195]
 	void WriteMessages(uchar param_1, bf_write *param_2); // size[389]
-	void WriteServerInfo(); // size[238]
-	void WriteSignonData(); // size[165]
-	void WriteFrame(CHLTVFrame *param_1); // size[318]
+	void WriteServerInfo(); // size[729]
+	void WriteSignonData(); // size[211]
+	void WriteFrame(CHLTVFrame *param_1); // size[587]
 };

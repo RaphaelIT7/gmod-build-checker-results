@@ -1,4 +1,5 @@
 // Generated header
+// Estimated minimum size: 0x25FC (9724) bytes, no debug info available
 
 class CAI_BaseFlyingBot : public CAI_BaseNPC
 {
@@ -12,7 +13,6 @@ public:
 	virtual void TranslateNavGoal(CBaseEntity *param_1, Vector *param_2) override; // vtable[613]
 	virtual void MinGroundDist(); // vtable[652]
 	virtual void GetHeadTurnRate(); // vtable[653]
-	virtual void __cxa_pure_virtual(); // vtable[654]
 
 	void _GLOBAL__sub_I_m_DataMap(); // size[113]
 	void GetBaseMap(); // size[10]

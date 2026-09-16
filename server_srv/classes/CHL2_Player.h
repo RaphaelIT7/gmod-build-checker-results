@@ -1,4 +1,5 @@
 // Generated header
+// Estimated minimum size: 0x10008 (65544) bytes, no debug info available
 
 class CHL2_Player : public CBaseMultiplayerPlayer
 {
@@ -82,6 +83,9 @@ public:
 	virtual void NetworkStateChanged_m_bSprintEnabled(void *param_1); // vtable[568]
 	virtual void NetworkStateChanged_m_fIsWalking(); // vtable[569]
 	virtual void NetworkStateChanged_m_fIsWalking(void *param_1); // vtable[570]
+	virtual void OnSpokeConcept(char *param_1, AI_Response *param_2); // vtable[0]
+	virtual void OnStartSpeaking(); // vtable[1]
+	virtual void UseSemaphore(); // vtable[2]
 
 	void InputDisableFlashlight(inputdata_t *param_1); // size[61]
 	void InputEnableFlashlight(inputdata_t *param_1); // size[24]
@@ -126,6 +130,4 @@ public:
 	void CommanderFindGoal(commandgoal_t *param_1); // size[191]
 	void CommanderExecute(CommanderCommand_t param_1); // size[784]
 	void CommanderUpdate(); // size[219]
-	void NetworkStateChanged(); // size[53]
-	void NetworkStateChanged(void *param_1); // size[84]
 };

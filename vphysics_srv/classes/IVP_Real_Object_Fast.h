@@ -1,4 +1,5 @@
 // Generated header
+// Estimated minimum size: 0x4C (76) bytes, no debug info available
 
 class IVP_Real_Object_Fast : public IVP_Real_Object_Fast_Static
 {

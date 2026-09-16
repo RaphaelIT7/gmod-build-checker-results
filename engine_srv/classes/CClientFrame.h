@@ -1,4 +1,5 @@
 // Generated header
+// Estimated minimum size: 0x41C (1052) bytes, no debug info available
 
 class CClientFrame
 {
@@ -8,10 +9,11 @@ public:
 	virtual void IsMemPoolAllocated(); // vtable[2]
 
 	_GLOBAL__sub_I_CClientFrame(); // size[48]
-	CClientFrame(int param_1); // size[85]
-	CClientFrame(); // size[28]
+	CClientFrame(int param_1); // size[38]
+	CClientFrame(); // size[86]
 	void Init(int param_1); // size[14]
-	void SetSnapshot(CFrameSnapshot *param_1); // size[57]
-	CClientFrame(CFrameSnapshot *param_1); // size[90]
+	void SetSnapshot(CFrameSnapshot *param_1); // size[62]
+	void Init(CFrameSnapshot *param_1); // size[21]
+	CClientFrame(CFrameSnapshot *param_1); // size[25]
 	void CopyFrame(CClientFrame *param_1); // size[30]
 };

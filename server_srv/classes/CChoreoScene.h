@@ -1,16 +1,17 @@
 // Generated header
+// Estimated minimum size: 0x218 (536) bytes, no debug info available
 
 class CChoreoScene : public ICurveDataAccessor
 {
 public:
 	virtual void GetDuration(); // vtable[0]
 	virtual void CurveHasEndTime(); // vtable[1]
-	virtual void GetDefaultCurveType() override; // vtable[2]
+	virtual void GetDefaultCurveType(); // vtable[2]
 
 	void _GLOBAL__sub_I_s_bEditingDisabled(); // size[48]
 	void EventLess(ActiveList *param_1, ActiveList *param_2); // size[398]
 	void FindStopTime(); // size[126]
-	void choreoprintf(int param_1, char *param_2); // size[197]
+	void choreoprintf(int null, char const *null, ... null); // size[197]
 	void Init(IChoreoEventCallback *param_1); // size[171]
 	void IgnorePhonemes(bool param_1); // size[35]
 	void ShouldIgnorePhonemes(); // size[20]
@@ -19,7 +20,7 @@ public:
 	void PrintChannel(int param_1, CChoreoChannel *param_2); // size[166]
 	void PrintActor(int param_1, CChoreoActor *param_2); // size[166]
 	void Print(); // size[132]
-	void SceneMsg(char *param_1); // size[121]
+	void SceneMsg(char const *null, ... null); // size[121]
 	void FindActor(char *param_1); // size[75]
 	void GetNumEvents(); // size[11]
 	void GetEvent(int param_1); // size[30]
@@ -37,7 +38,7 @@ public:
 	void ParseFacePoserModel(CChoreoActor *param_1); // size[66]
 	void InternalDetermineEventTypes(); // size[291]
 	void FindStopTime(); // size[43]
-	void FilePrintf(CUtlBuffer *param_1, int param_2, char *param_3); // size[83]
+	void FilePrintf(CUtlBuffer & null, int null, char const *null, ... null); // size[83]
 	void FileSaveHeader(CUtlBuffer *param_1); // size[35]
 	void MarkForSaveAll(bool param_1); // size[150]
 	void FileSaveRamp(CUtlBuffer *param_1, int param_2, CChoreoEvent *param_3); // size[44]

@@ -1,32 +1,11 @@
 // Generated header
+// Estimated minimum size: 0x2360 (9056) bytes, no debug info available
 
 class CAI_StandoffBehavior : public CAI_MappedActivityBehavior_Temporary
 {
 public:
 	virtual ~CAI_StandoffBehavior() override; // vtable[0]
 	virtual ~CAI_StandoffBehavior() override; // vtable[1]
-	virtual void GetName() override; // vtable[5]
-	virtual void CanSelectSchedule() override; // vtable[7]
-	virtual void BeginScheduleSelection() override; // vtable[8]
-	virtual void EndScheduleSelection() override; // vtable[9]
-	virtual void GatherConditions() override; // vtable[11]
-	virtual void OnUpdateShotRegulator() override; // vtable[13]
-	virtual void GetClassScheduleIdSpace() override; // vtable[14]
-	virtual void Spawn() override; // vtable[19]
-	virtual void PrescheduleThink() override; // vtable[23]
-	virtual void SelectSchedule() override; // vtable[26]
-	virtual void StartTask(Task_t *param_1) override; // vtable[28]
-	virtual void TranslateSchedule(int param_1) override; // vtable[31]
-	virtual void GetSchedulingErrorName() override; // vtable[33]
-	virtual void BuildScheduleTestBits() override; // vtable[34]
-	virtual void NPC_TranslateActivity(Activity param_1) override; // vtable[35]
-	virtual void IsValidCover(Vector *param_1, CAI_Hint *param_2) override; // vtable[43]
-	virtual void IsValidShootPosition(Vector *param_1, CAI_Node *param_2, CAI_Hint *param_3) override; // vtable[44]
-	virtual void IsCrouching() override; // vtable[55]
-	virtual void OnRestore() override; // vtable[67]
-	virtual void OnChangeHintGroup(string_t param_1, string_t param_2) override; // vtable[68]
-	virtual void GetDataDescMap() override; // vtable[70]
-	virtual void UpdateTranslateActivityMap() override; // vtable[71]
 
 	void GetBaseMap(); // size[10]
 	void SetActive(bool param_1); // size[99]
@@ -42,7 +21,6 @@ public:
 	void GetCoverActivity(); // size[103]
 	void InitCustomSchedules(); // size[284]
 	void LoadSchedules(); // size[56]
-	CScheduleLoader(); // size[9]
 	CAI_StandoffBehavior(CAI_BaseNPC *param_1); // size[451]
 	void UpdateBattleLines(); // size[1099]
 	void SetStandoffGoalPosition(Vector *param_1); // size[126]

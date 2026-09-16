@@ -1,4 +1,5 @@
 // Generated header
+// Estimated minimum size: 0x1C (28) bytes, no debug info available
 
 class CNetworkStringFilenameDict : public INetworkStringDict
 {
@@ -12,5 +13,5 @@ public:
 	virtual void Insert(char *param_1); // vtable[6]
 	virtual void Find(char *param_1); // vtable[7]
 	virtual void Element(int param_1); // vtable[8]
-	virtual void Element(int param_1) override; // vtable[9]
+	virtual void Element(int param_1); // vtable[9]
 };

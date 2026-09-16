@@ -1,4 +1,5 @@
 // Generated header
+// Estimated minimum size: 0x2534 (9524) bytes, no debug info available
 
 class CUserMessageManager : public CAutoGameSystemPerFrame
 {

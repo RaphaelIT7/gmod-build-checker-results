@@ -1,4 +1,5 @@
 // Generated header
+// Estimated minimum size: 0x25AC (9644) bytes, no debug info available
 
 class CPhysConstraint : public CLogicalEntity
 {
@@ -15,7 +16,6 @@ public:
 	virtual void SetPhysObject(int param_1, IPhysicsObject *param_2) override; // vtable[209]
 	virtual void Deactivate(); // vtable[246]
 	virtual void OnConstraintSetup(hl_constraint_info_t *param_1); // vtable[247]
-	virtual void __cxa_pure_virtual(); // vtable[248]
 
 	void InputTurnOff(inputdata_t *param_1); // size[17]
 	void ClearStaticFlag(IPhysicsObject *param_1); // size[51]

@@ -1,4 +1,5 @@
 // Generated header
+// Estimated minimum size: 0xD0 (208) bytes, no debug info available
 
 class CFileAsyncWriteFileJob : public CFileAsyncWriteJob
 {
@@ -6,7 +7,7 @@ public:
 	virtual ~CFileAsyncWriteFileJob() override; // vtable[2]
 	virtual ~CFileAsyncWriteFileJob() override; // vtable[3]
 	virtual void DoCleanup() override; // vtable[8]
-
-	~CFileAsyncWriteFileJob(); // size[10]
-	~CFileAsyncWriteFileJob(); // size[10]
+	virtual ~CFileAsyncWriteFileJob(); // vtable[0]
+	virtual ~CFileAsyncWriteFileJob(); // vtable[1]
+	virtual void OnFinalRelease(); // vtable[2]
 };

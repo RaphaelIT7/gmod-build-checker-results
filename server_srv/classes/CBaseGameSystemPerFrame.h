@@ -1,4 +1,5 @@
 // Generated header
+// Estimated minimum size: 0x4 (4) bytes, no debug info available
 
 class CBaseGameSystemPerFrame : public IGameSystemPerFrame
 {
@@ -9,17 +10,17 @@ public:
 	virtual void Shutdown(); // vtable[3]
 	virtual void LevelInitPreEntity(); // vtable[4]
 	virtual void LevelInitPostEntity(); // vtable[5]
-	virtual void LevelShutdownPreClearSteamAPIContext() override; // vtable[6]
+	virtual void LevelShutdownPreClearSteamAPIContext(); // vtable[6]
 	virtual void LevelShutdownPreEntity(); // vtable[7]
 	virtual void LevelShutdownPostEntity(); // vtable[8]
 	virtual void OnSave(); // vtable[9]
 	virtual void OnRestore(); // vtable[10]
 	virtual void SafeRemoveIfDesired(); // vtable[11]
-	virtual void IsPerFrame() override; // vtable[12]
-	virtual ~CBaseGameSystemPerFrame() override; // vtable[13]
-	virtual ~CBaseGameSystemPerFrame() override; // vtable[14]
+	virtual void IsPerFrame(); // vtable[12]
+	virtual ~CBaseGameSystemPerFrame(); // vtable[13]
+	virtual ~CBaseGameSystemPerFrame(); // vtable[14]
 	virtual void FrameUpdatePreEntityThink(); // vtable[15]
 	virtual void FrameUpdatePostEntityThink(); // vtable[16]
-	virtual void PreClientUpdate() override; // vtable[17]
+	virtual void PreClientUpdate(); // vtable[17]
 	virtual void IsInCallback(); // vtable[18]
 };

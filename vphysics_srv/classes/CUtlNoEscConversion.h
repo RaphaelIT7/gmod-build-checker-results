@@ -1,4 +1,5 @@
 // Generated header
+// Estimated minimum size: 0x11C (284) bytes, no debug info available
 
 class CUtlNoEscConversion : public CUtlCharConversion
 {

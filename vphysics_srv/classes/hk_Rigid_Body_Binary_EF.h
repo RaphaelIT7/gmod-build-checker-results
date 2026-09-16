@@ -1,4 +1,5 @@
 // Generated header
+// Estimated minimum size: 0x10 (16) bytes, no debug info available
 
 class hk_Rigid_Body_Binary_EF : public CAlignedNewDelete
 {

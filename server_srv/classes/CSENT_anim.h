@@ -1,18 +1,11 @@
 // Generated header
+// Estimated minimum size: 0x25AC (9644) bytes, no debug info available
 
 class CSENT_anim : public CBaseAnimatingOverlay, public IMotionEvent, public CDefaultPlayerPickupVPhysics
 {
 public:
 	virtual ~CSENT_anim() override; // vtable[0]
 	virtual ~CSENT_anim() override; // vtable[1]
-	virtual void SetRefEHandle(CBaseHandle *param_1) override; // vtable[2]
-	virtual void GetRefEHandle() override; // vtable[3]
-	virtual void GetCollideable() override; // vtable[4]
-	virtual void GetNetworkable() override; // vtable[5]
-	virtual void GetBaseEntity() override; // vtable[6]
-	virtual void GetModelIndex() override; // vtable[7]
-	virtual void GetModelName() override; // vtable[8]
-	virtual void SetModelIndex(int param_1) override; // vtable[9]
 	virtual void GetServerClass() override; // vtable[10]
 	virtual void YouForgotToImplementOrDeclareServerClass() override; // vtable[11]
 	virtual void GetDataDescMap() override; // vtable[12]
@@ -62,15 +55,13 @@ public:
 	virtual void OnPhysGunDrop(CBasePlayer *param_1, PhysGunDrop_t param_2); // vtable[286]
 	virtual void PreferredCarryAngles(); // vtable[287]
 	virtual void HasPreferredCarryAnglesForPlayer(CBasePlayer *param_1); // vtable[288]
+	virtual void Simulate(IPhysicsMotionController *param_1, IPhysicsObject *param_2, float param_3, Vector *param_4, Vector *param_5); // vtable[0]
+	virtual void OnPhysGunPickup(CBasePlayer *param_1, PhysGunPickup_t param_2) override; // vtable[2]
+	virtual void OnPhysGunDrop(CBasePlayer *param_1, PhysGunDrop_t param_2) override; // vtable[3]
+	virtual void HasPreferredCarryAnglesForPlayer(CBasePlayer *param_1) override; // vtable[4]
+	virtual void PreferredCarryAngles() override; // vtable[5]
 
 	void _GLOBAL__sub_I_GetServerClass(); // size[112]
-	void OnPhysGunPickup(CBasePlayer *param_1, PhysGunPickup_t param_2); // size[10]
-	void OnPhysGunDrop(CBasePlayer *param_1, PhysGunDrop_t param_2); // size[10]
-	void HasPreferredCarryAnglesForPlayer(CBasePlayer *param_1); // size[13]
-	void Simulate(IPhysicsMotionController *param_1, IPhysicsObject *param_2, float param_3, Vector *param_4, Vector *param_5); // size[13]
 	void GetBaseMap(); // size[10]
 	CSENT_anim(); // size[222]
-	void PreferredCarryAngles(); // size[10]
-	void NetworkStateChanged(); // size[53]
-	void NetworkStateChanged(void *param_1); // size[84]
 };

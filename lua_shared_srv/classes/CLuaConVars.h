@@ -1,4 +1,5 @@
 // Generated header
+// Estimated minimum size: 0x30 (48) bytes, no debug info available
 
 class CLuaConVars : public ILuaConVars
 {
@@ -11,7 +12,7 @@ public:
 	virtual void DestroyManaged(); // vtable[5]
 	virtual void Cache(char *param_1, char *param_2); // vtable[6]
 	virtual void ClearCache(); // vtable[7]
-	virtual void SaveManaged() override; // vtable[8]
+	virtual void SaveManaged(); // vtable[8]
 
 	void _GLOBAL__sub_I_Init(); // size[237]
 };

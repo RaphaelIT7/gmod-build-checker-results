@@ -1,4 +1,5 @@
 // Generated header
+// Estimated minimum size: 0x4 (4) bytes, no debug info available
 
 class CDummyMaterial : public IMaterial
 {
@@ -60,5 +61,5 @@ public:
 	virtual void RefreshPreservingMaterialVars(); // vtable[54]
 	virtual void WasReloadedFromWhitelist(); // vtable[55]
 	virtual void IsPrecached(); // vtable[56]
-	virtual void GMOD_Persist() override; // vtable[57]
+	virtual void GMOD_Persist(); // vtable[57]
 };

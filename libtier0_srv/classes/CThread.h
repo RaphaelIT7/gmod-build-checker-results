@@ -1,4 +1,5 @@
 // Generated header
+// Estimated minimum size: 0x5C (92) bytes, no debug info available
 
 class CThread
 {
@@ -7,11 +8,10 @@ public:
 	virtual ~CThread(); // vtable[1]
 	virtual void Start(uint param_1); // vtable[2]
 	virtual void Init(); // vtable[3]
-	virtual void __cxa_pure_virtual(); // vtable[4]
-	virtual void OnExit(); // vtable[5]
-	virtual void GetThreadProc(); // vtable[6]
-	virtual void IsThreadRunning(); // vtable[7]
 
+	void OnExit(); // size[5]
+	void GetThreadProc(); // size[10]
+	void IsThreadRunning(); // size[43]
 	void ThreadProc(void *param_1); // size[216]
 	CThread(); // size[100]
 	void GetName(); // size[89]

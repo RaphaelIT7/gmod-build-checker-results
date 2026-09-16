@@ -1,4 +1,5 @@
 // Generated header
+// Estimated minimum size: 0x4 (4) bytes, no debug info available
 
 class CEngineSoundServer : public IEngineSound
 {
@@ -25,7 +26,7 @@ public:
 	virtual void NotifyBeginMoviePlayback(); // vtable[19]
 	virtual void NotifyEndMoviePlayback(); // vtable[20]
 	virtual void RegisterSound(char *param_1, char *param_2, int param_3, float param_4, int param_5); // vtable[21]
-	virtual void IsSoundRegistered(char *param_1) override; // vtable[22]
+	virtual void IsSoundRegistered(char *param_1); // vtable[22]
 	virtual ~CEngineSoundServer(); // vtable[23]
 	virtual ~CEngineSoundServer(); // vtable[24]
 

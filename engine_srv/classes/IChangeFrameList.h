@@ -1,9 +1,9 @@
 // Generated header
+// Estimated minimum size: 0x4 (4) bytes, no debug info available
 
 class IChangeFrameList
 {
 public:
-	virtual void __cxa_pure_virtual(); // vtable[4]
-	virtual ~IChangeFrameList(); // vtable[5]
-	virtual ~IChangeFrameList(); // vtable[6]
+	~IChangeFrameList(); // size[14]
+	~IChangeFrameList(); // size[18]
 };

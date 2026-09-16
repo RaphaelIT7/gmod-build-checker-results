@@ -1,9 +1,9 @@
 // Generated header
+// Estimated minimum size: 0x4 (4) bytes, no debug info available
 
 class IGameEventListener2
 {
 public:
 	virtual ~IGameEventListener2(); // vtable[0]
 	virtual ~IGameEventListener2(); // vtable[1]
-	virtual void __cxa_pure_virtual(); // vtable[2]
 };

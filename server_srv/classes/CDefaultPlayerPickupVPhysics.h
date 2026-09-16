@@ -1,4 +1,5 @@
 // Generated header
+// Estimated minimum size: 0xC (12) bytes, no debug info available
 
 class CDefaultPlayerPickupVPhysics : public IPlayerPickupVPhysics
 {
@@ -12,5 +13,5 @@ public:
 	virtual void ForcePhysgunOpen(CBasePlayer *param_1); // vtable[6]
 	virtual void PhysGunLaunchAngularImpulse(); // vtable[7]
 	virtual void ShouldPuntUseLaunchForces(PhysGunForce_t param_1); // vtable[8]
-	virtual void PhysGunLaunchVelocity(Vector *param_1, float param_2) override; // vtable[9]
+	virtual void PhysGunLaunchVelocity(Vector *param_1, float param_2); // vtable[9]
 };

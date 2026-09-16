@@ -1,4 +1,5 @@
 // Generated header
+// Estimated minimum size: 0xC (12) bytes, no debug info available
 
 class IVP_BetterDebugmanager
 {
@@ -11,6 +12,6 @@ public:
 	void enable_debug_output(IVP_DEBUG_CLASS param_1); // size[26]
 	void disable_debug_output(IVP_DEBUG_CLASS param_1); // size[26]
 	void is_debug_enabled(IVP_DEBUG_CLASS param_1); // size[39]
-	void dprint(IVP_DEBUG_CLASS param_1, char *param_2); // size[91]
+	void dprint(IVP_DEBUG_CLASS null, char const *null, ... null); // size[91]
 	IVP_BetterDebugmanager(); // size[39]
 };

@@ -1,4 +1,5 @@
 // Generated header
+// Estimated minimum size: 0x204 (516) bytes, no debug info available
 
 class COverlayMgr : public IOverlayMgr
 {
@@ -11,7 +12,7 @@ public:
 	virtual void ClearRenderLists(int param_1); // vtable[5]
 	virtual void AddFragmentListToRenderList(int param_1, ushort param_2, bool param_3); // vtable[6]
 	virtual void RenderOverlays(IMatRenderContext *param_1, int param_2, IMaterial *param_3); // vtable[7]
-	virtual void SetOverlayBindProxy(int param_1, void *param_2) override; // vtable[8]
+	virtual void SetOverlayBindProxy(int param_1, void *param_2); // vtable[8]
 
 	void FadeOverlayFragmentGlobal(moverlayfragment_t *param_1); // size[234]
 	void FadeOverlayFragment(moverlay_t *param_1, moverlayfragment_t *param_2); // size[219]
@@ -26,20 +27,19 @@ public:
 	void DestroyTempFragment(moverlayfragment_t *param_1); // size[68]
 	void GetMaterialSortID(IMaterial *param_1, int param_2); // size[158]
 	void FindOrAddMesh(IMaterial *param_1, int param_2); // size[373]
-	void BuildStaticBuffers(); // size[2136]
-	void Surf_PreClipFragment(moverlay_t *param_1, moverlayfragment_t *param_2, msurface2_t *param_3, moverlayfragment_t *param_4); // size[233]
-	void AddFragmentToFragmentList(int param_1); // size[117]
+	void BuildStaticBuffers(); // size[1747]
+	void AddFragmentToFragmentList(int param_1); // size[275]
+	void CreateTempFragment(int param_1); // size[23]
+	void Surf_PreClipFragment(moverlay_t *param_1, moverlayfragment_t *param_2, msurface2_t *param_3, moverlayfragment_t *param_4); // size[400]
 	void AddFragmentToFragmentList(moverlayfragment_t *param_1); // size[107]
 	void CopyTempFragment(moverlayfragment_t *param_1); // size[23]
-	void CreateTempFragment(int param_1); // size[22]
-	void DoClipFragment(moverlayfragment_t *param_1, cplane_t *param_2, moverlayfragment_t * *param_3, moverlayfragment_t * *param_4); // size[1390]
-	void Disp_DoClip(CDispInfo *param_1, CUtlVector *param_2, cplane_t *param_3, float param_4, int param_5, int param_6, int param_7, int param_8); // size[478]
-	void Disp_ClipFragment(CDispInfo *param_1, CUtlVector *param_2); // size[431]
+	void DoClipFragment(moverlayfragment_t *param_1, cplane_t *param_2, moverlayfragment_t * *param_3, moverlayfragment_t * *param_4); // size[583]
+	void Disp_DoClip(CDispInfo *param_1, CUtlVector *param_2, cplane_t *param_3, float param_4, int param_5, int param_6, int param_7, int param_8); // size[70]
+	void Disp_ClipFragment(CDispInfo *param_1, CUtlVector *param_2); // size[51]
 	void BuildClipPlanes(msurface2_t *param_1, moverlayfragment_t *param_2, Vector *param_3, CUtlVector *param_4); // size[523]
-	void Surf_ClipFragment(moverlay_t *param_1, moverlayfragment_t *param_2, msurface2_t *param_3, moverlayfragment_t *param_4); // size[458]
-	void Surf_CreateFragments(moverlay_t *param_1, msurface2_t *param_2); // size[607]
-	void Disp_PreClipFragment(moverlay_t *param_1, CUtlVector *param_2, msurface2_t *param_3); // size[1058]
+	void Surf_ClipFragment(moverlay_t *param_1, moverlayfragment_t *param_2, msurface2_t *param_3, moverlayfragment_t *param_4); // size[633]
+	void Surf_CreateFragments(moverlay_t *param_1, msurface2_t *param_2); // size[744]
+	void Disp_PreClipFragment(moverlay_t *param_1, CUtlVector *param_2, msurface2_t *param_3); // size[868]
 	void Disp_CreateFragments(moverlay_t *param_1, msurface2_t *param_2); // size[200]
-	~COverlayMgr(); // size[31]
-	COverlayMgr(); // size[16]
+	~COverlayMgr(); // size[247]
 };

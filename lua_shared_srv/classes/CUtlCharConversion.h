@@ -1,4 +1,5 @@
 // Generated header
+// Estimated minimum size: 0x11C (284) bytes, no debug info available
 
 class CUtlCharConversion
 {
@@ -10,6 +11,6 @@ public:
 	void GetDelimiter(); // size[11]
 	void GetDelimiterLength(); // size[11]
 	void GetConversionString(char param_1); // size[19]
-	void GetConversionLength(char param_1); // size[11]
+	void GetConversionLength(char param_1); // size[19]
 	void MaxConversionLength(); // size[11]
 };

@@ -1,4 +1,5 @@
 // Generated header
+// Estimated minimum size: 0x262C (9772) bytes, no debug info available
 
 class CNPC_GroundTurret : public CAI_BaseNPC
 {
@@ -33,6 +34,15 @@ public:
 	virtual void GetClassScheduleIdSpace() override; // vtable[640]
 	virtual void Shoot(); // vtable[652]
 	virtual void Scan(); // vtable[653]
+	virtual CalcYawSpeed(); // vtable[0]
+	virtual OnCalcBaseMove(AILocalMoveGoal_t *param_1, float param_2, AIMoveResult_t *param_3); // vtable[1]
+	virtual OnObstructionPreSteer(AILocalMoveGoal_t *param_1, float param_2, AIMoveResult_t *param_3); // vtable[2]
+	virtual void OnFailedSteer(AILocalMoveGoal_t *param_1, float param_2, AIMoveResult_t *param_3); // vtable[3]
+	virtual void OnFailedLocalNavigation(AILocalMoveGoal_t *param_1, float param_2, AIMoveResult_t *param_3); // vtable[4]
+	virtual void OnInsufficientStopDist(AILocalMoveGoal_t *param_1, float param_2, AIMoveResult_t *param_3); // vtable[5]
+	virtual void OnMoveBlocked(AIMoveResult_t *param_1); // vtable[6]
+	virtual void OnMoveStalled(AILocalMoveGoal_t *param_1); // vtable[7]
+	virtual void OnMoveExecuteFailed(AILocalMoveGoal_t *param_1, AIMoveTrace_t *param_2, AIMotorMoveResult_t param_3, AIMoveResult_t *param_4); // vtable[8]
 
 	void InputEnable(inputdata_t *param_1); // size[38]
 	void InputDisable(inputdata_t *param_1); // size[15]
@@ -43,5 +53,4 @@ public:
 	void ProjectBeam(Vector *param_1, Vector *param_2, int param_3, int param_4, float param_5); // size[373]
 	void InitCustomSchedules(); // size[352]
 	void LoadSchedules(); // size[62]
-	CScheduleLoader(); // size[9]
 };

@@ -1,4 +1,5 @@
 // Generated header
+// Estimated minimum size: 0x8 (8) bytes, no debug info available
 
 class IVP_Friction_Sys_Energy : public IVP_Controller_Independent
 {

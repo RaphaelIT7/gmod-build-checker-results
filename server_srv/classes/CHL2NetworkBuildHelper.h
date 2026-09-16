@@ -1,9 +1,10 @@
 // Generated header
+// Estimated minimum size: 0x25AC (9644) bytes, no debug info available
 
 class CHL2NetworkBuildHelper : public CAI_NetworkBuildHelper
 {
 public:
 	virtual ~CHL2NetworkBuildHelper() override; // vtable[0]
 	virtual ~CHL2NetworkBuildHelper() override; // vtable[1]
-	virtual void PostInitNodePosition(CAI_Network *param_1, CAI_Node *param_2) override; // vtable[246]
+	virtual void PostInitNodePosition(CAI_Network *param_1, CAI_Node *param_2); // vtable[246]
 };

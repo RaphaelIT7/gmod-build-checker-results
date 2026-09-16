@@ -1,4 +1,5 @@
 // Generated header
+// Estimated minimum size: 0x2F8 (760) bytes, no debug info available
 
 class CQueuedLoader : public CTier2AppSystem
 {
@@ -22,27 +23,23 @@ public:
 	virtual void IsBatching(); // vtable[19]
 	virtual void IsDynamic(); // vtable[20]
 	virtual void GetSpewDetail(); // vtable[21]
-	virtual void PurgeAll() override; // vtable[22]
+	virtual void PurgeAll(); // vtable[22]
 	virtual ~CQueuedLoader(); // vtable[23]
 	virtual ~CQueuedLoader(); // vtable[24]
 
-	void Less(void * *param_1, void * *param_2, void *param_3); // size[222]
 	void GetFilename(void *param_1, char *param_2, int param_3); // size[52]
 	void FindFilename(char *param_1); // size[15]
-	void Less(void * *param_1, void * *param_2, void *param_3); // size[30]
-	void GetLayoutOrderForFilename(char *param_1); // size[130]
-	void Less(FileJob_t * *param_1, FileJob_t * *param_2, void *param_3); // size[265]
 	void PurgeQueue(); // size[5]
 	void SpewInfo(); // size[861]
 	void PurgeUnreferencedResources(); // size[111]
 	void BuildResources(IResourcePreload *param_1, CUtlSortVector *param_2, float *param_3); // size[344]
 	void BuildMaterialResources(IResourcePreload *param_1, CUtlSortVector *param_2, float *param_3); // size[549]
-	void GetJobRequests(); // size[446]
+	void GetJobRequests(); // size[475]
 	void CleanQueue(); // size[368]
 	void AddResourceToTable(char *param_1); // size[596]
-	void ParseResourceList(CUtlBuffer *param_1); // size[444]
+	void ParseResourceList(CUtlBuffer *param_1); // size[497]
 	CQueuedLoader(); // size[615]
-	void SubmitPendingJobs(); // size[1327]
+	void SubmitPendingJobs(); // size[1135]
 	void SubmitBatchedJobs(); // size[362]
 	void SubmitBatchedJobsAndWait(); // size[141]
 };

@@ -1,4 +1,5 @@
 // Generated header
+// Estimated minimum size: 0x44 (68) bytes, no debug info available
 
 class IDirect3DTexture9 : public IDirect3DBaseTexture9
 {

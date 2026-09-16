@@ -1,11 +1,12 @@
 // Generated header
+// Estimated minimum size: 0x194 (404) bytes, no debug info available
 
 class CModelSoundsCache : public IBaseCacheInfo
 {
 public:
 	virtual void Save(CUtlBuffer *param_1); // vtable[0]
 	virtual void Restore(CUtlBuffer *param_1); // vtable[1]
-	virtual void Rebuild(char *param_1) override; // vtable[2]
+	virtual void Rebuild(char *param_1); // vtable[2]
 
 	_GLOBAL__sub_I_CModelSoundsCache(); // size[113]
 	CModelSoundsCache(); // size[49]

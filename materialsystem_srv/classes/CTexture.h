@@ -1,4 +1,5 @@
 // Generated header
+// Estimated minimum size: 0x2163C24 (35011620) bytes, no debug info available
 
 class CTexture : public ITextureInternal
 {
@@ -16,7 +17,7 @@ public:
 	virtual void IncrementReferenceCount(); // vtable[10]
 	virtual void DecrementReferenceCount(); // vtable[11]
 	virtual void SetTextureRegenerator(ITextureRegenerator *param_1); // vtable[12]
-	virtual void _ZN8CTexture8DownloadEP6Rect_ti(); // vtable[13]
+	virtual void Download(Rect_t *param_1, int param_2); // vtable[13]
 	virtual void GetApproximateVidMemBytes(); // vtable[14]
 	virtual void IsError(); // vtable[15]
 	virtual void IsVolumeTexture(); // vtable[16]
@@ -32,7 +33,7 @@ public:
 	virtual void SwapContents(ITexture *param_1); // vtable[26]
 	virtual void GetFlags(); // vtable[27]
 	virtual void ForceLODOverride(int param_1); // vtable[28]
-	virtual void SaveToFile(char *param_1) override; // vtable[29]
+	virtual void SaveToFile(char *param_1); // vtable[29]
 	virtual void Bind(Sampler_t param_1); // vtable[30]
 	virtual void Bind(Sampler_t param_1, int param_2, Sampler_t param_3); // vtable[31]
 	virtual void GetReferenceCount(); // vtable[32]
@@ -46,8 +47,8 @@ public:
 	virtual void CopyMeToFrameBuffer(int param_1, Rect_t *param_2, Rect_t *param_3); // vtable[40]
 	virtual void GetEmbeddedTexture(int param_1); // vtable[41]
 	virtual void GetTextureHandle(int param_1, int param_2); // vtable[42]
-	virtual ~CTexture() override; // vtable[43]
-	virtual ~CTexture() override; // vtable[44]
+	virtual ~CTexture(); // vtable[43]
+	virtual ~CTexture(); // vtable[44]
 	virtual void SetRenderTarget(int param_1, ITexture *param_2); // vtable[45]
 	virtual void BindVertexTexture(VertexTextureSampler_t param_1, int param_2); // vtable[46]
 	virtual void MarkAsPreloaded(bool param_1); // vtable[47]
@@ -55,7 +56,7 @@ public:
 	virtual void MarkAsExcluded(bool param_1, int param_2); // vtable[49]
 	virtual void UpdateExcludedState(); // vtable[50]
 	virtual void IsTempRenderTarget(); // vtable[51]
-	virtual void ReloadFilesInList(IFileList *param_1) override; // vtable[52]
+	virtual void ReloadFilesInList(IFileList *param_1); // vtable[52]
 
 	void AllocateTextureHandles(bool param_1); // size[65]
 	void ReleaseTextureHandles(bool param_1); // size[37]
@@ -81,8 +82,8 @@ public:
 	void InitRenderTarget(char *param_1, int param_2, int param_3, RenderTargetSizeMode_t param_4, ImageFormat param_5, RenderTargetType_t param_6, uint param_7, uint param_8); // size[519]
 	void HasBeenAllocated(); // size[16]
 	void LoadLowResTexture(IVTFTexture *param_1); // size[222]
-	void GenerateShowMipLevelsTextures(IVTFTexture *param_1); // size[2432]
-	void CopyLowResImageToTexture(IVTFTexture *param_1); // size[1590]
+	void GenerateShowMipLevelsTextures(IVTFTexture *param_1); // size[2727]
+	void CopyLowResImageToTexture(IVTFTexture *param_1); // size[1616]
 	void SetupDebuggingTextures(IVTFTexture *param_1); // size[258]
 	void ConvertToActualFormat(IVTFTexture *param_1, bool param_2); // size[208]
 	void GetFilename(char *param_1, int param_2); // size[83]
@@ -99,7 +100,7 @@ public:
 	void NotifyUnloadedFile(); // size[193]
 	void Shutdown(); // size[137]
 	CTexture(); // size[298]
-	void LoadTextureBitsFromFile(char *param_1, char * *param_2, bool param_3); // size[596]
-	void ReconstructTexture(); // size[805]
+	void LoadTextureBitsFromFile(char *param_1, char * *param_2, bool param_3); // size[634]
+	void ReconstructTexture(); // size[834]
 	void DownloadTexture(Rect_t *param_1); // size[105]
 };

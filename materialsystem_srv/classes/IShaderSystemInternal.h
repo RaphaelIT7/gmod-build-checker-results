@@ -1,7 +1,7 @@
 // Generated header
+// Estimated minimum size: 0x4 (4) bytes, no debug info available
 
 class IShaderSystemInternal : public IShaderInit, public IShaderSystem
 {
 public:
-	virtual void __cxa_pure_virtual(); // vtable[20]
 };

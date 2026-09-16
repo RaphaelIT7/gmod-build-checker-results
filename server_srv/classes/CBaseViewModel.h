@@ -1,4 +1,5 @@
 // Generated header
+// Estimated minimum size: 0x25AC (9644) bytes, no debug info available
 
 class CBaseViewModel : public CBaseAnimating, public IHasOwner
 {
@@ -26,6 +27,7 @@ public:
 	virtual void GetOwningWeapon(); // vtable[290]
 	virtual void GetOwnerViaInterface(); // vtable[291]
 	virtual void IsSelfAnimating(); // vtable[292]
+	virtual void GetOwnerViaInterface(); // vtable[0]
 
 	_GLOBAL__sub_I_CBaseViewModel(); // size[112]
 	void _GLOBAL__sub_I_m_DataMap(); // size[113]
@@ -34,6 +36,5 @@ public:
 	void SetIndex(int param_1); // size[47]
 	void ViewModelIndex(); // size[14]
 	void UpdateViewmodelHands(); // size[105]
-	void GetOwnerViaInterface(); // size[10]
 	void GetBaseMap(); // size[10]
 };

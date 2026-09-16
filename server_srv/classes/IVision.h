@@ -1,4 +1,5 @@
 // Generated header
+// Estimated minimum size: 0x50 (80) bytes, no debug info available
 
 class IVision : public INextBotComponent
 {
@@ -6,7 +7,9 @@ public:
 	virtual ~IVision() override; // vtable[0]
 	virtual ~IVision() override; // vtable[1]
 	virtual void Reset() override; // vtable[43]
-	virtual void Update() override; // vtable[44]
+	virtual void Update(); // vtable[44]
+	virtual void Upkeep(); // vtable[45]
+	virtual void GetBot(); // vtable[46]
 	virtual void ForEachKnownEntity(IForEachKnownEntity *param_1); // vtable[47]
 	virtual void CollectKnownEntities(CUtlVector *param_1); // vtable[48]
 	virtual void GetPrimaryKnownThreat(bool param_1); // vtable[49]

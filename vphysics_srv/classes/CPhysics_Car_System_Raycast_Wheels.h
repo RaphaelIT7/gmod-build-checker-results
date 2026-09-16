@@ -1,4 +1,5 @@
 // Generated header
+// Estimated minimum size: 0x740 (1856) bytes, no debug info available
 
 class CPhysics_Car_System_Raycast_Wheels : public IVP_Controller_Raycast_Car
 {
@@ -41,13 +42,19 @@ public:
 	virtual void get_controller_priority(); // vtable[35]
 	virtual void do_raycasts(IVP_Event_Sim *param_1, int param_2, IVP_Ray_Solver_Template *param_3, IVP_Ray_Hit *param_4, float *param_5); // vtable[36]
 	virtual void get_controller_name(); // vtable[37]
+	virtual void core_is_going_to_be_deleted_event(IVP_Core *param_1); // vtable[0]
+	virtual void get_minimum_simulation_frequency(); // vtable[1]
+	virtual void get_associated_controlled_cores(); // vtable[2]
+	virtual void reset_time(IVP_Time param_1); // vtable[3]
+	virtual void do_simulation_controller(IVP_Event_Sim *param_1, IVP_U_Vector *param_2); // vtable[4]
+	virtual void get_controller_priority(); // vtable[5]
+	virtual void get_controller_name(); // vtable[6]
+	virtual ~CPhysics_Car_System_Raycast_Wheels(); // vtable[7]
+	virtual ~CPhysics_Car_System_Raycast_Wheels(); // vtable[8]
 
 	CPhysics_Car_System_Raycast_Wheels(IVP_Environment *param_1, IVP_Template_Car_System *param_2); // size[17]
 	_GLOBAL__sub_I_CPhysics_Car_System_Raycast_Wheels(); // size[1]
-	~CPhysics_Car_System_Raycast_Wheels(); // size[44]
-	~CPhysics_Car_System_Raycast_Wheels(); // size[60]
 	CPhysics_Car_System_Raycast_Wheels(IVP_Environment *param_1, IVP_Template_Car_System *param_2); // size[104]
 	void InitCarSystemWheels(IVP_Template_Car_System *param_1); // size[72]
 	void GetWheel(int param_1); // size[24]
-	void get_controller_name(); // size[6]
 };

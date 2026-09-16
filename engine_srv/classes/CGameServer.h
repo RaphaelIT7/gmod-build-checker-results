@@ -1,4 +1,5 @@
 // Generated header
+// Estimated minimum size: 0x41EDDC38 (1106107448) bytes, no debug info available
 
 class CGameServer : public CBaseServer
 {
@@ -28,25 +29,25 @@ public:
 	void FinishRestore(); // size[5]
 	void CopyTempEntities(CFrameSnapshot *param_1); // size[110]
 	void ReloadWhitelist(char *param_1); // size[490]
-	void SpawnServer(char *param_1, char *param_2); // size[2931]
+	void SpawnServer(char *param_1, char *param_2); // size[2996]
 	void CopyPureServerWhitelistToStringTable(); // size[133]
 	void CreateEngineStringTables(); // size[1165]
-	CGameServer(); // size[382]
-	void AssignClassIds(); // size[263]
+	CGameServer(); // size[279]
+	void AssignClassIds(); // size[265]
 	void GetModelPrecacheTable(); // size[14]
-	void PrecacheModel(char *param_1, int param_2, model_t *param_3); // size[521]
-	void GetModel(int param_1); // size[204]
+	void PrecacheModel(char *param_1, int param_2, model_t *param_3); // size[518]
+	void GetModel(int param_1); // size[196]
 	void LookupModelIndex(char *param_1); // size[58]
 	void GetSoundPrecacheTable(); // size[14]
-	void PrecacheSound(char *param_1, int param_2); // size[363]
-	void GetSound(int param_1); // size[78]
+	void PrecacheSound(char *param_1, int param_2); // size[357]
+	void GetSound(int param_1); // size[70]
 	void LookupSoundIndex(char *param_1); // size[53]
 	void GetGenericPrecacheTable(); // size[14]
-	void PrecacheGeneric(char *param_1, int param_2); // size[240]
-	void GetGeneric(int param_1); // size[81]
+	void PrecacheGeneric(char *param_1, int param_2); // size[234]
+	void GetGeneric(int param_1); // size[73]
 	void LookupGenericIndex(char *param_1); // size[53]
 	void GetDecalPrecacheTable(); // size[14]
-	void PrecacheDecal(char *param_1, int param_2); // size[240]
+	void PrecacheDecal(char *param_1, int param_2); // size[234]
 	void LookupDecalIndex(char *param_1); // size[58]
-	void DumpPrecacheStats(INetworkStringTable *param_1); // size[230]
+	void DumpPrecacheStats(INetworkStringTable *param_1); // size[513]
 };
