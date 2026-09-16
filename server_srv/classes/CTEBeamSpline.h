@@ -1,4 +1,5 @@
 // Generated header
+// Estimated minimum size: 0xD0 (208) bytes
 
 class CTEBeamSpline : public CBaseTempEntity
 {

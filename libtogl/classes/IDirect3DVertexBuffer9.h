@@ -1,4 +1,5 @@
 // Generated header
+// Estimated minimum size: 0x20 (32) bytes
 
 class IDirect3DVertexBuffer9 : public IDirect3DResource9
 {

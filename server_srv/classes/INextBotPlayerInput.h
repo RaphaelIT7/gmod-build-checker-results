@@ -1,7 +1,7 @@
 // Generated header
+// Estimated minimum size: 0x4 (4) bytes
 
 class INextBotPlayerInput
 {
 public:
-	virtual void __cxa_pure_virtual(); // vtable[24]
 };

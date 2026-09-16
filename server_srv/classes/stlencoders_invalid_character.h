@@ -1,4 +1,5 @@
 // Generated header
+// Estimated minimum size: 0x4 (4) bytes
 
 class stlencoders_invalid_character : public stlencoders_decode_error
 {

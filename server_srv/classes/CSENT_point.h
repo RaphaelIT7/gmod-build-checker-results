@@ -1,4 +1,5 @@
 // Generated header
+// Estimated minimum size: 0x25AC (9644) bytes
 
 class CSENT_point : public CPointEntity
 {
@@ -26,6 +27,4 @@ public:
 	void _GLOBAL__sub_I_GetServerClass(); // size[112]
 	void GetBaseMap(); // size[10]
 	CSENT_point(); // size[34]
-	void NetworkStateChanged(); // size[53]
-	void NetworkStateChanged(void *param_1); // size[69]
 };

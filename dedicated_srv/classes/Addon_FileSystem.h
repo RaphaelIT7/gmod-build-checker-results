@@ -1,4 +1,5 @@
 // Generated header
+// Estimated minimum size: 0xBC (188) bytes
 
 class Addon_FileSystem : public IAddonSystem
 {
@@ -23,7 +24,7 @@ public:
 	virtual void UnmountAddon(ulonglong param_1, char *param_2); // vtable[17]
 	virtual void UnmountServerAddons(); // vtable[18]
 	virtual void IsAddonValidPreInstall(SteamUGCDetails_t param_1); // vtable[19]
-	virtual void AllJobsFinished() override; // vtable[20]
+	virtual void AllJobsFinished(); // vtable[20]
 	virtual void Shutdown(); // vtable[21]
 	virtual void AddJob(Base *param_1); // vtable[22]
 	virtual void GetSubList(); // vtable[23]

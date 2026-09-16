@@ -1,4 +1,5 @@
 // Generated header
+// Estimated minimum size: 0x5E5B1CC8 (1583029448) bytes
 
 class CHLMachineGun : public CBaseHLCombatWeapon
 {
@@ -13,10 +14,9 @@ public:
 	virtual void ItemPostFrame() override; // vtable[318]
 	virtual void PrimaryAttack() override; // vtable[332]
 	virtual void GetBulletSpread() override; // vtable[338]
-	virtual void __cxa_pure_virtual() override; // vtable[341]
-	virtual void WeaponRangeAttack1Condition(float param_1, float param_2) override; // vtable[401]
 
 	void _GLOBAL__sub_I_GetServerClass(); // size[113]
+	void WeaponRangeAttack1Condition(float param_1, float param_2); // size[81]
 	void GetBaseMap(); // size[10]
 	CHLMachineGun(); // size[30]
 	void DoMachineGunKick(CBasePlayer *param_1, float param_2, float param_3, float param_4, float param_5); // size[438]

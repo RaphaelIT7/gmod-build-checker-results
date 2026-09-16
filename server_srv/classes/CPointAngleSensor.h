@@ -1,4 +1,5 @@
 // Generated header
+// Estimated minimum size: 0x1D74FFFC (494206972) bytes
 
 class CPointAngleSensor : public CPointEntity
 {

@@ -1,4 +1,5 @@
 // Generated header
+// Estimated minimum size: 0x14C (332) bytes
 
 class CTraceFilterWalkableEntities : public CTraceFilterNoNPCsOrPlayer
 {

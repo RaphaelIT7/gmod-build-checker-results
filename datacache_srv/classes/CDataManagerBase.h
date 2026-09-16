@@ -1,4 +1,5 @@
 // Generated header
+// Estimated minimum size: 0x148D0C48 (344788040) bytes
 
 class CDataManagerBase
 {
@@ -8,7 +9,6 @@ public:
 	virtual void Unlock(); // vtable[2]
 	virtual ~CDataManagerBase(); // vtable[3]
 	virtual ~CDataManagerBase(); // vtable[4]
-	virtual void __cxa_pure_virtual(); // vtable[6]
 
 	_GLOBAL__sub_I_CDataManagerBase(); // size[48]
 	void NotifySizeChanged(memhandle_t__ *param_1, uint param_2, uint param_3); // size[47]

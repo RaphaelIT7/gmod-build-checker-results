@@ -1,4 +1,5 @@
 // Generated header
+// Estimated minimum size: 0x64C (1612) bytes
 
 class CNetworkStringTable : public INetworkStringTable
 {
@@ -17,7 +18,7 @@ public:
 	virtual void SetStringUserData(int param_1, int param_2, void *param_3); // vtable[11]
 	virtual void GetStringUserData(int param_1, int *param_2); // vtable[12]
 	virtual void FindStringIndex(char *param_1); // vtable[13]
-	virtual void SetStringChangedCallback(void *param_1, _func_void_void_ptr_INetworkStringTable_ptr_int_char_ptr_void_ptr *param_2) override; // vtable[14]
+	virtual void SetStringChangedCallback(void *param_1, _func_void_void_ptr_INetworkStringTable_ptr_int_char_ptr_void_ptr *param_2); // vtable[14]
 	virtual void Dump(bool param_1); // vtable[15]
 	virtual void Lock(bool param_1); // vtable[16]
 

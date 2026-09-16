@@ -1,4 +1,5 @@
 // Generated header
+// Estimated minimum size: 0x4 (4) bytes
 
 class CTier0AppSystem : public CBaseAppSystem
 {
@@ -7,6 +8,5 @@ public:
 	virtual void Disconnect(); // vtable[1]
 	virtual void QueryInterface(char *param_1); // vtable[2]
 	virtual void Init(); // vtable[3]
-	virtual void Shutdown() override; // vtable[4]
-	virtual void __cxa_pure_virtual(); // vtable[123]
+	virtual void Shutdown(); // vtable[4]
 };

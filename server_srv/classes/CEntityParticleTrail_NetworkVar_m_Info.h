@@ -1,4 +1,5 @@
 // Generated header
+// Estimated minimum size: 0x14 (20) bytes
 
 class CEntityParticleTrail_NetworkVar_m_Info : public EntityParticleTrailInfo_t
 {

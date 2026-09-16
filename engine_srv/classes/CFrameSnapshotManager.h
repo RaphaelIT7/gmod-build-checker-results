@@ -1,4 +1,5 @@
 // Generated header
+// Estimated minimum size: 0x1008C (65676) bytes
 
 class CFrameSnapshotManager
 {

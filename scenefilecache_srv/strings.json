@@ -1,0 +1,5232 @@
+[
+    {
+        "address": "000106f9",
+        "length": 15,
+        "value": "__gmon_start__"
+    },
+    {
+        "address": "00010708",
+        "length": 6,
+        "value": "_init"
+    },
+    {
+        "address": "0001070e",
+        "length": 6,
+        "value": "_fini"
+    },
+    {
+        "address": "00010714",
+        "length": 28,
+        "value": "_ITM_deregisterTMCloneTable"
+    },
+    {
+        "address": "00010730",
+        "length": 26,
+        "value": "_ITM_registerTMCloneTable"
+    },
+    {
+        "address": "0001074a",
+        "length": 15,
+        "value": "__cxa_finalize"
+    },
+    {
+        "address": "00010759",
+        "length": 20,
+        "value": "_Jv_RegisterClasses"
+    },
+    {
+        "address": "0001076d",
+        "length": 17,
+        "value": "__stack_chk_fail"
+    },
+    {
+        "address": "0001077e",
+        "length": 7,
+        "value": "memcpy"
+    },
+    {
+        "address": "00010785",
+        "length": 12,
+        "value": "g_pMemAlloc"
+    },
+    {
+        "address": "00010791",
+        "length": 6,
+        "value": "Error"
+    },
+    {
+        "address": "00010797",
+        "length": 21,
+        "value": "__gxx_personality_v0"
+    },
+    {
+        "address": "000107ac",
+        "length": 13,
+        "value": "__cxa_atexit"
+    },
+    {
+        "address": "000107b9",
+        "length": 38,
+        "value": "_ZTVN10__cxxabiv117__class_type_infoE"
+    },
+    {
+        "address": "000107df",
+        "length": 41,
+        "value": "_ZTVN10__cxxabiv120__si_class_type_infoE"
+    },
+    {
+        "address": "00010808",
+        "length": 11,
+        "value": "strcasecmp"
+    },
+    {
+        "address": "00010813",
+        "length": 8,
+        "value": "dlclose"
+    },
+    {
+        "address": "0001081b",
+        "length": 7,
+        "value": "_ZdlPv"
+    },
+    {
+        "address": "00010822",
+        "length": 16,
+        "value": "CreateInterface"
+    },
+    {
+        "address": "00010832",
+        "length": 7,
+        "value": "dlopen"
+    },
+    {
+        "address": "00010839",
+        "length": 8,
+        "value": "dlerror"
+    },
+    {
+        "address": "00010841",
+        "length": 22,
+        "value": "Plat_IsInDebugSession"
+    },
+    {
+        "address": "00010857",
+        "length": 7,
+        "value": "strstr"
+    },
+    {
+        "address": "0001085e",
+        "length": 4,
+        "value": "Msg"
+    },
+    {
+        "address": "00010862",
+        "length": 7,
+        "value": "getcwd"
+    },
+    {
+        "address": "00010869",
+        "length": 6,
+        "value": "dlsym"
+    },
+    {
+        "address": "0001086f",
+        "length": 19,
+        "value": "ThreadInMainThread"
+    },
+    {
+        "address": "00010882",
+        "length": 7,
+        "value": "strtol"
+    },
+    {
+        "address": "00010889",
+        "length": 8,
+        "value": "Warning"
+    },
+    {
+        "address": "00010891",
+        "length": 6,
+        "value": "_Znwj"
+    },
+    {
+        "address": "00010897",
+        "length": 14,
+        "value": "__ctype_b_loc"
+    },
+    {
+        "address": "000108a5",
+        "length": 7,
+        "value": "strlen"
+    },
+    {
+        "address": "000108ac",
+        "length": 7,
+        "value": "memset"
+    },
+    {
+        "address": "000108b3",
+        "length": 8,
+        "value": "memmove"
+    },
+    {
+        "address": "000108bb",
+        "length": 7,
+        "value": "memcmp"
+    },
+    {
+        "address": "000108c2",
+        "length": 7,
+        "value": "strcpy"
+    },
+    {
+        "address": "000108c9",
+        "length": 7,
+        "value": "wcslen"
+    },
+    {
+        "address": "000108d0",
+        "length": 7,
+        "value": "strcmp"
+    },
+    {
+        "address": "000108d7",
+        "length": 9,
+        "value": "towupper"
+    },
+    {
+        "address": "000108e0",
+        "length": 9,
+        "value": "towlower"
+    },
+    {
+        "address": "000108e9",
+        "length": 20,
+        "value": "__ctype_toupper_loc"
+    },
+    {
+        "address": "000108fd",
+        "length": 20,
+        "value": "__ctype_tolower_loc"
+    },
+    {
+        "address": "00010911",
+        "length": 12,
+        "value": "strncasecmp"
+    },
+    {
+        "address": "0001091d",
+        "length": 4,
+        "value": "pow"
+    },
+    {
+        "address": "00010921",
+        "length": 7,
+        "value": "strchr"
+    },
+    {
+        "address": "00010928",
+        "length": 8,
+        "value": "wcsncpy"
+    },
+    {
+        "address": "00010930",
+        "length": 10,
+        "value": "vswprintf"
+    },
+    {
+        "address": "0001093a",
+        "length": 10,
+        "value": "vsnprintf"
+    },
+    {
+        "address": "00010944",
+        "length": 8,
+        "value": "strncat"
+    },
+    {
+        "address": "0001094c",
+        "length": 8,
+        "value": "wcsncat"
+    },
+    {
+        "address": "00010954",
+        "length": 9,
+        "value": "iswspace"
+    },
+    {
+        "address": "0001095d",
+        "length": 11,
+        "value": "iconv_open"
+    },
+    {
+        "address": "00010968",
+        "length": 6,
+        "value": "iconv"
+    },
+    {
+        "address": "0001096e",
+        "length": 12,
+        "value": "iconv_close"
+    },
+    {
+        "address": "0001097a",
+        "length": 6,
+        "value": "_Znaj"
+    },
+    {
+        "address": "00010980",
+        "length": 6,
+        "value": "chdir"
+    },
+    {
+        "address": "00010986",
+        "length": 9,
+        "value": "mbstowcs"
+    },
+    {
+        "address": "0001098f",
+        "length": 9,
+        "value": "wcstombs"
+    },
+    {
+        "address": "00010998",
+        "length": 15,
+        "value": "Plat_localtime"
+    },
+    {
+        "address": "000109a7",
+        "length": 9,
+        "value": "strftime"
+    },
+    {
+        "address": "000109b0",
+        "length": 8,
+        "value": "isspace"
+    },
+    {
+        "address": "000109b8",
+        "length": 8,
+        "value": "strtoul"
+    },
+    {
+        "address": "000109c0",
+        "length": 7,
+        "value": "strtod"
+    },
+    {
+        "address": "000109c7",
+        "length": 8,
+        "value": "tolower"
+    },
+    {
+        "address": "000109cf",
+        "length": 20,
+        "value": "__cxa_guard_acquire"
+    },
+    {
+        "address": "000109e3",
+        "length": 20,
+        "value": "__cxa_guard_release"
+    },
+    {
+        "address": "000109f7",
+        "length": 7,
+        "value": "_ZdaPv"
+    },
+    {
+        "address": "000109fe",
+        "length": 7,
+        "value": "floorf"
+    },
+    {
+        "address": "00010a05",
+        "length": 14,
+        "value": "_Z6ConMsgPKcz"
+    },
+    {
+        "address": "00010a13",
+        "length": 15,
+        "value": "__dynamic_cast"
+    },
+    {
+        "address": "00010a22",
+        "length": 28,
+        "value": "_Z11ConColorMsgRK5ColorPKcz"
+    },
+    {
+        "address": "00010a3e",
+        "length": 42,
+        "value": "_ZTVN10__cxxabiv121__vmi_class_type_infoE"
+    },
+    {
+        "address": "00010a68",
+        "length": 19,
+        "value": "__cxa_pure_virtual"
+    },
+    {
+        "address": "00010a7b",
+        "length": 5,
+        "value": "cvar"
+    },
+    {
+        "address": "00010a80",
+        "length": 16,
+        "value": "libtier0_srv.so"
+    },
+    {
+        "address": "00010a90",
+        "length": 10,
+        "value": "libm.so.6"
+    },
+    {
+        "address": "00010a9a",
+        "length": 11,
+        "value": "libdl.so.2"
+    },
+    {
+        "address": "00010aa5",
+        "length": 15,
+        "value": "libstdc++.so.6"
+    },
+    {
+        "address": "00010ab4",
+        "length": 6,
+        "value": "abort"
+    },
+    {
+        "address": "00010aba",
+        "length": 21,
+        "value": "__pthread_key_create"
+    },
+    {
+        "address": "00010acf",
+        "length": 13,
+        "value": "pthread_once"
+    },
+    {
+        "address": "00010adc",
+        "length": 7,
+        "value": "malloc"
+    },
+    {
+        "address": "00010ae3",
+        "length": 5,
+        "value": "free"
+    },
+    {
+        "address": "00010ae8",
+        "length": 16,
+        "value": "dl_iterate_phdr"
+    },
+    {
+        "address": "00010af8",
+        "length": 21,
+        "value": "pthread_mutex_unlock"
+    },
+    {
+        "address": "00010b0d",
+        "length": 19,
+        "value": "pthread_mutex_lock"
+    },
+    {
+        "address": "00010b20",
+        "length": 10,
+        "value": "libc.so.6"
+    },
+    {
+        "address": "00010b2a",
+        "length": 7,
+        "value": "_edata"
+    },
+    {
+        "address": "00010b31",
+        "length": 12,
+        "value": "__bss_start"
+    },
+    {
+        "address": "00010b3d",
+        "length": 5,
+        "value": "_end"
+    },
+    {
+        "address": "00010b42",
+        "length": 10,
+        "value": "GLIBC_2.1"
+    },
+    {
+        "address": "00010b4c",
+        "length": 10,
+        "value": "GLIBC_2.0"
+    },
+    {
+        "address": "00010b56",
+        "length": 12,
+        "value": "GLIBCXX_3.4"
+    },
+    {
+        "address": "00010b62",
+        "length": 11,
+        "value": "CXXABI_1.3"
+    },
+    {
+        "address": "00010b6d",
+        "length": 12,
+        "value": "GLIBC_2.2.4"
+    },
+    {
+        "address": "00010b79",
+        "length": 10,
+        "value": "GLIBC_2.2"
+    },
+    {
+        "address": "00010b83",
+        "length": 10,
+        "value": "GLIBC_2.4"
+    },
+    {
+        "address": "00010b8d",
+        "length": 10,
+        "value": "GLIBC_2.3"
+    },
+    {
+        "address": "00010b97",
+        "length": 12,
+        "value": "GLIBC_2.1.3"
+    },
+    {
+        "address": "0002b840",
+        "length": 15,
+        "value": "VFileSystem022"
+    },
+    {
+        "address": "0002b858",
+        "length": 20,
+        "value": "scenes/scenes.image"
+    },
+    {
+        "address": "0002b86c",
+        "length": 18,
+        "value": "SceneFileCache002"
+    },
+    {
+        "address": "0002b880",
+        "length": 42,
+        "value": "CSceneFileCache: Bad scene image file %s\n"
+    },
+    {
+        "address": "0002b8b4",
+        "length": 13,
+        "value": "10IAppSystem"
+    },
+    {
+        "address": "0002b8d0",
+        "length": 18,
+        "value": "15ISceneFileCache"
+    },
+    {
+        "address": "0002b900",
+        "length": 36,
+        "value": "14CBaseAppSystemI15ISceneFileCacheE"
+    },
+    {
+        "address": "0002b924",
+        "length": 18,
+        "value": "15CSceneFileCache"
+    },
+    {
+        "address": "0002c5bf",
+        "length": 18,
+        "value": "-DLOPEN Error:%s\n"
+    },
+    {
+        "address": "0002c5d1",
+        "length": 8,
+        "value": "_srv.so"
+    },
+    {
+        "address": "0002c5d9",
+        "length": 13,
+        "value": "No such file"
+    },
+    {
+        "address": "0002c5e6",
+        "length": 16,
+        "value": "image not found"
+    },
+    {
+        "address": "0002c5fb",
+        "length": 6,
+        "value": "%s/%s"
+    },
+    {
+        "address": "0002c601",
+        "length": 10,
+        "value": "%s/bin/%s"
+    },
+    {
+        "address": "0002c60b",
+        "length": 16,
+        "value": "CreateInterface"
+    },
+    {
+        "address": "0002c61c",
+        "length": 31,
+        "value": " failed to dlopen %s error=%s\n"
+    },
+    {
+        "address": "0002c63b",
+        "length": 19,
+        "value": "16CDllDemandLoader"
+    },
+    {
+        "address": "0002c668",
+        "length": 32,
+        "value": "LZMA Decompression failed (%i)\n"
+    },
+    {
+        "address": "0002c688",
+        "length": 43,
+        "value": "LZMA Decompression overflowed (%zu > %zu)\n"
+    },
+    {
+        "address": "0002c6b4",
+        "length": 84,
+        "value": "LZMA stream: Unexpected LZMA properties size: %hu, expecting %u. Version mismatch?\n"
+    },
+    {
+        "address": "0002c708",
+        "length": 69,
+        "value": "LZMA Decompression overflowed (read: %zu > %zu or write: %zu > %zu)\n"
+    },
+    {
+        "address": "0002c750",
+        "length": 213,
+        "value": "If set, attempt to keep a persistent buffer for the LZMA decoder dictionary. This avoids re-allocating a ~16-64meg buffer for each operation, at the expensive of keeping extra memory around when it is not in-use."
+    },
+    {
+        "address": "0002c825",
+        "length": 24,
+        "value": "Unrecognized LZMA data\n"
+    },
+    {
+        "address": "0002c83f",
+        "length": 23,
+        "value": "lzma_persistent_buffer"
+    },
+    {
+        "address": "0002c856",
+        "length": 17,
+        "value": "0123456789ABCDEF"
+    },
+    {
+        "address": "0002c86f",
+        "length": 7,
+        "value": " bytes"
+    },
+    {
+        "address": "0002c87b",
+        "length": 9,
+        "value": "%%.%if%s"
+    },
+    {
+        "address": "0002c886",
+        "length": 6,
+        "value": ",%03d"
+    },
+    {
+        "address": "0002c88c",
+        "length": 8,
+        "value": "UCS-2LE"
+    },
+    {
+        "address": "0002c894",
+        "length": 8,
+        "value": "UCS-4LE"
+    },
+    {
+        "address": "0002c89c",
+        "length": 9,
+        "value": "UTF-32LE"
+    },
+    {
+        "address": "0002c8a5",
+        "length": 6,
+        "value": "UTF-8"
+    },
+    {
+        "address": "0002c8ba",
+        "length": 9,
+        "value": "%A %b %d"
+    },
+    {
+        "address": "0002c8c3",
+        "length": 7,
+        "value": "%I:%M "
+    },
+    {
+        "address": "0002c8dc",
+        "length": 39,
+        "value": "V_AppendSlash: ran out of space on %s."
+    },
+    {
+        "address": "0002c904",
+        "length": 36,
+        "value": "V_MakeAbsolutePath: _getcwd failed."
+    },
+    {
+        "address": "0002c928",
+        "length": 49,
+        "value": "V_MakeAbsolutePath: tried to \"..\" past the root."
+    },
+    {
+        "address": "0002c95c",
+        "length": 71,
+        "value": "FATAL ERROR: UtlMemory_CalcNewAllocationCount got to negative values!\n"
+    },
+    {
+        "address": "0002c9a4",
+        "length": 53,
+        "value": "CUtlMemory::Grow ran out of memory? Alloc Size: %lu\n"
+    },
+    {
+        "address": "0002ca98",
+        "length": 39,
+        "value": "CUtlBuffer::PeekPut invalid offset %i\n"
+    },
+    {
+        "address": "0002cabf",
+        "length": 21,
+        "value": "18CUtlCharConversion"
+    },
+    {
+        "address": "0002cadc",
+        "length": 24,
+        "value": "21CUtlCStringConversion"
+    },
+    {
+        "address": "0002cb0c",
+        "length": 22,
+        "value": "19CUtlNoEscConversion"
+    },
+    {
+        "address": "0002cb58",
+        "length": 22,
+        "value": "FCVAR_NEVER_AS_STRING"
+    },
+    {
+        "address": "0002cb6e",
+        "length": 7,
+        "value": "{}()':"
+    },
+    {
+        "address": "0002cb75",
+        "length": 6,
+        "value": " game"
+    },
+    {
+        "address": "0002cb7b",
+        "length": 8,
+        "value": " client"
+    },
+    {
+        "address": "0002cb83",
+        "length": 9,
+        "value": " archive"
+    },
+    {
+        "address": "0002cb8c",
+        "length": 8,
+        "value": " notify"
+    },
+    {
+        "address": "0002cb94",
+        "length": 14,
+        "value": " singleplayer"
+    },
+    {
+        "address": "0002cba2",
+        "length": 14,
+        "value": " notconnected"
+    },
+    {
+        "address": "0002cbb0",
+        "length": 7,
+        "value": " cheat"
+    },
+    {
+        "address": "0002cbb7",
+        "length": 12,
+        "value": " replicated"
+    },
+    {
+        "address": "0002cbc3",
+        "length": 20,
+        "value": " server_can_execute"
+    },
+    {
+        "address": "0002cbd7",
+        "length": 23,
+        "value": " clientcmd_can_execute"
+    },
+    {
+        "address": "0002cbee",
+        "length": 12,
+        "value": " lua_client"
+    },
+    {
+        "address": "0002cbfa",
+        "length": 12,
+        "value": " lua_server"
+    },
+    {
+        "address": "0002cc12",
+        "length": 15,
+        "value": " ( def. \"%s\" )"
+    },
+    {
+        "address": "0002cc2a",
+        "length": 9,
+        "value": " max. %f"
+    },
+    {
+        "address": "0002cc33",
+        "length": 6,
+        "value": "\"%s\"\n"
+    },
+    {
+        "address": "0002cc39",
+        "length": 7,
+        "value": " - %s\n"
+    },
+    {
+        "address": "0002cc40",
+        "length": 50,
+        "value": "ConVarRef %s doesn't point to an existing ConVar\n"
+    },
+    {
+        "address": "0002cc74",
+        "length": 39,
+        "value": " ( server enforced, real value: \"%f\" )"
+    },
+    {
+        "address": "0002cc9c",
+        "length": 39,
+        "value": " ( server enforced, real value: \"%s\" )"
+    },
+    {
+        "address": "0002ccc4",
+        "length": 89,
+        "value": "** NOTE: The real value is %.3f but the server has temporarily restricted it to %.3f **\n"
+    },
+    {
+        "address": "0002cd20",
+        "length": 90,
+        "value": "CCommand::Tokenize: Encountered command which overflows the tokenizer buffer.. Skipping!\n"
+    },
+    {
+        "address": "0002cd7c",
+        "length": 88,
+        "value": "CCommand::Tokenize: Encountered command which overflows the argument buffer.. Clamped!\n"
+    },
+    {
+        "address": "0002cddc",
+        "length": 9,
+        "value": "7IConVar"
+    },
+    {
+        "address": "0002cdf0",
+        "length": 26,
+        "value": "23IConCommandBaseAccessor"
+    },
+    {
+        "address": "0002ce0a",
+        "length": 17,
+        "value": "14ConCommandBase"
+    },
+    {
+        "address": "0002ce24",
+        "length": 13,
+        "value": "10ConCommand"
+    },
+    {
+        "address": "0002ce40",
+        "length": 8,
+        "value": "6ConVar"
+    },
+    {
+        "address": "0002ce8c",
+        "length": 23,
+        "value": "20ConVar_ServerBounded"
+    },
+    {
+        "address": "0002ceb0",
+        "length": 19,
+        "value": "16CDefaultAccessor"
+    },
+    {
+        "address": "0002ced0",
+        "length": 15,
+        "value": "12CEmptyConVar"
+    },
+    {
+        "address": "0002d0ab",
+        "length": 16,
+        "value": "8VEngineCvar004"
+    },
+    {
+        "address": "0002d0bb",
+        "length": 17,
+        "value": "VProcessUtils001"
+    },
+    {
+        "address": "0002e6d1",
+        "length": 3,
+        "value": "zR"
+    },
+    {
+        "address": "0002ea31",
+        "length": 5,
+        "value": "zPLR"
+    },
+    {
+        "address": "00036054",
+        "length": 7,
+        "value": "\rr\"\"\\\\"
+    },
+    {
+        "address": ".comment::00000000",
+        "length": 59,
+        "value": "GCC: (SteamRT 4.8.4-1ubuntu15~12.04+steamrt1.2+srt2) 4.8.4"
+    },
+    {
+        "address": ".shstrtab::00000001",
+        "length": 8,
+        "value": ".symtab"
+    },
+    {
+        "address": ".shstrtab::00000009",
+        "length": 8,
+        "value": ".strtab"
+    },
+    {
+        "address": ".shstrtab::00000011",
+        "length": 10,
+        "value": ".shstrtab"
+    },
+    {
+        "address": ".shstrtab::0000001b",
+        "length": 19,
+        "value": ".note.gnu.build-id"
+    },
+    {
+        "address": ".shstrtab::0000002e",
+        "length": 10,
+        "value": ".gnu.hash"
+    },
+    {
+        "address": ".shstrtab::00000038",
+        "length": 8,
+        "value": ".dynsym"
+    },
+    {
+        "address": ".shstrtab::00000040",
+        "length": 8,
+        "value": ".dynstr"
+    },
+    {
+        "address": ".shstrtab::00000048",
+        "length": 13,
+        "value": ".gnu.version"
+    },
+    {
+        "address": ".shstrtab::00000055",
+        "length": 15,
+        "value": ".gnu.version_r"
+    },
+    {
+        "address": ".shstrtab::00000064",
+        "length": 9,
+        "value": ".rel.dyn"
+    },
+    {
+        "address": ".shstrtab::0000006d",
+        "length": 9,
+        "value": ".rel.plt"
+    },
+    {
+        "address": ".shstrtab::00000076",
+        "length": 6,
+        "value": ".init"
+    },
+    {
+        "address": ".shstrtab::0000007c",
+        "length": 6,
+        "value": ".text"
+    },
+    {
+        "address": ".shstrtab::00000082",
+        "length": 6,
+        "value": ".fini"
+    },
+    {
+        "address": ".shstrtab::00000088",
+        "length": 8,
+        "value": ".rodata"
+    },
+    {
+        "address": ".shstrtab::00000090",
+        "length": 14,
+        "value": ".eh_frame_hdr"
+    },
+    {
+        "address": ".shstrtab::0000009e",
+        "length": 10,
+        "value": ".eh_frame"
+    },
+    {
+        "address": ".shstrtab::000000a8",
+        "length": 18,
+        "value": ".gcc_except_table"
+    },
+    {
+        "address": ".shstrtab::000000ba",
+        "length": 12,
+        "value": ".init_array"
+    },
+    {
+        "address": ".shstrtab::000000c6",
+        "length": 12,
+        "value": ".fini_array"
+    },
+    {
+        "address": ".shstrtab::000000d2",
+        "length": 5,
+        "value": ".jcr"
+    },
+    {
+        "address": ".shstrtab::000000d7",
+        "length": 9,
+        "value": ".dynamic"
+    },
+    {
+        "address": ".shstrtab::000000e0",
+        "length": 5,
+        "value": ".got"
+    },
+    {
+        "address": ".shstrtab::000000e5",
+        "length": 9,
+        "value": ".got.plt"
+    },
+    {
+        "address": ".shstrtab::000000ee",
+        "length": 6,
+        "value": ".data"
+    },
+    {
+        "address": ".shstrtab::000000f4",
+        "length": 5,
+        "value": ".bss"
+    },
+    {
+        "address": ".shstrtab::000000f9",
+        "length": 9,
+        "value": ".comment"
+    },
+    {
+        "address": ".shstrtab::00000102",
+        "length": 15,
+        "value": ".gnu_debuglink"
+    },
+    {
+        "address": ".strtab::00000001",
+        "length": 55,
+        "value": "_ZL48__CreateCSceneFileCacheISceneFileCache_interfacev"
+    },
+    {
+        "address": ".strtab::00000038",
+        "length": 22,
+        "value": "_ZL16g_SceneFileCache"
+    },
+    {
+        "address": ".strtab::0000004e",
+        "length": 26,
+        "value": "_GLOBAL__sub_I_filesystem"
+    },
+    {
+        "address": ".strtab::00000068",
+        "length": 17,
+        "value": "_ZL11vec2_origin"
+    },
+    {
+        "address": ".strtab::00000079",
+        "length": 18,
+        "value": "_ZL12vec2_invalid"
+    },
+    {
+        "address": ".strtab::0000008b",
+        "length": 50,
+        "value": "_ZL44__g_CreateCSceneFileCacheISceneFileCache_reg"
+    },
+    {
+        "address": ".strtab::000000bd",
+        "length": 15,
+        "value": "_ZL6SzFreePvS_"
+    },
+    {
+        "address": ".strtab::000000cc",
+        "length": 26,
+        "value": "_ZL20g_unStaticLZMABufRef"
+    },
+    {
+        "address": ".strtab::000000e6",
+        "length": 22,
+        "value": "_ZL16g_pStaticLZMABuf"
+    },
+    {
+        "address": ".strtab::000000fc",
+        "length": 27,
+        "value": "_ZL21g_unStaticLZMABufSize"
+    },
+    {
+        "address": ".strtab::00000117",
+        "length": 15,
+        "value": "_ZL7SzAllocPvj"
+    },
+    {
+        "address": ".strtab::00000126",
+        "length": 12,
+        "value": "_ZL7g_Alloc"
+    },
+    {
+        "address": ".strtab::00000132",
+        "length": 38,
+        "value": "_GLOBAL__sub_I_lzma_persistent_buffer"
+    },
+    {
+        "address": ".strtab::00000158",
+        "length": 18,
+        "value": "_ZL11FastToLowerc"
+    },
+    {
+        "address": ".strtab::0000016a",
+        "length": 34,
+        "value": "_ZL14CopyToMaxCharsPciPKci.part.0"
+    },
+    {
+        "address": ".strtab::0000018c",
+        "length": 30,
+        "value": "_Z10V_StrSlicePKciiPci.part.6"
+    },
+    {
+        "address": ".strtab::000001aa",
+        "length": 39,
+        "value": "_Z19Q_URLEncodeInternalPciPKcib.part.8"
+    },
+    {
+        "address": ".strtab::000001d1",
+        "length": 39,
+        "value": "_Z19Q_URLDecodeInternalPciPKcib.part.9"
+    },
+    {
+        "address": ".strtab::000001f8",
+        "length": 30,
+        "value": "_ZZ12V_pretifymemfibE7current"
+    },
+    {
+        "address": ".strtab::00000216",
+        "length": 29,
+        "value": "_ZZ12V_pretifymemfibE6output"
+    },
+    {
+        "address": ".strtab::00000233",
+        "length": 28,
+        "value": "_ZZ12V_pretifynumxE7current"
+    },
+    {
+        "address": ".strtab::0000024f",
+        "length": 27,
+        "value": "_ZZ12V_pretifynumxE6output"
+    },
+    {
+        "address": ".strtab::0000026a",
+        "length": 46,
+        "value": "_ZL21StripWhitespaceWorkeriPwPbb.constprop.16"
+    },
+    {
+        "address": ".strtab::00000298",
+        "length": 20,
+        "value": "_ZL14s_BackSlashMap"
+    },
+    {
+        "address": ".strtab::000002ac",
+        "length": 36,
+        "value": "_GLOBAL__sub_I__Z9_V_memsetPKciPvii"
+    },
+    {
+        "address": ".strtab::000002d0",
+        "length": 68,
+        "value": "_ZN10CUtlMemoryIhiE23ConvertToGrowableMemoryEi.part.25.constprop.32"
+    },
+    {
+        "address": ".strtab::00000314",
+        "length": 41,
+        "value": "_ZN10CUtlBuffer12CheckPeekGetEii.part.15"
+    },
+    {
+        "address": ".strtab::0000033d",
+        "length": 44,
+        "value": "_ZN10CUtlBuffer16PeekStringLengthEv.part.19"
+    },
+    {
+        "address": ".strtab::00000369",
+        "length": 42,
+        "value": "_ZN10CUtlBuffer14PeekLineLengthEv.part.20"
+    },
+    {
+        "address": ".strtab::00000393",
+        "length": 46,
+        "value": "_ZN10CUtlBuffer18AddNullTerminationEv.part.23"
+    },
+    {
+        "address": ".strtab::000003c1",
+        "length": 38,
+        "value": "_GLOBAL__sub_I_s_StringCharConversion"
+    },
+    {
+        "address": ".strtab::000003e7",
+        "length": 46,
+        "value": "_ZL40s_pConversionArrays_StringCharConversion"
+    },
+    {
+        "address": ".strtab::00000415",
+        "length": 41,
+        "value": "_ZL35s_pConversionArrays_NoEscConversion"
+    },
+    {
+        "address": ".strtab::0000043e",
+        "length": 53,
+        "value": "_ZGVZN10CUtlString14GetEmptyStringEvE13s_emptyString"
+    },
+    {
+        "address": ".strtab::00000473",
+        "length": 51,
+        "value": "_ZZN10CUtlString14GetEmptyStringEvE13s_emptyString"
+    },
+    {
+        "address": ".strtab::000004a6",
+        "length": 46,
+        "value": "_GLOBAL__sub_I__ZN10CUtlString11AllocMemoryEj"
+    },
+    {
+        "address": ".strtab::000004d4",
+        "length": 22,
+        "value": "_ZL16s_nDLLIdentifier"
+    },
+    {
+        "address": ".strtab::000004ea",
+        "length": 19,
+        "value": "_ZL13s_bRegistered"
+    },
+    {
+        "address": ".strtab::000004fd",
+        "length": 17,
+        "value": "_ZL11s_nCVarFlag"
+    },
+    {
+        "address": ".strtab::0000050e",
+        "length": 23,
+        "value": "_ZL17s_DefaultAccessor"
+    },
+    {
+        "address": ".strtab::00000525",
+        "length": 22,
+        "value": "_ZL16s_bBuiltBreakSet"
+    },
+    {
+        "address": ".strtab::0000053b",
+        "length": 16,
+        "value": "_ZL10s_BreakSet"
+    },
+    {
+        "address": ".strtab::0000054b",
+        "length": 19,
+        "value": "_ZL13s_EmptyConVar"
+    },
+    {
+        "address": ".strtab::0000055e",
+        "length": 33,
+        "value": "_ZZN9ConVarRef4InitEPKcbE6bFirst"
+    },
+    {
+        "address": ".strtab::0000057f",
+        "length": 56,
+        "value": "_GLOBAL__sub_I__ZN14ConCommandBase18s_pConCommandBasesE"
+    },
+    {
+        "address": ".strtab::000005b7",
+        "length": 18,
+        "value": "_ZL12s_bConnected"
+    },
+    {
+        "address": ".strtab::000005c9",
+        "length": 20,
+        "value": "_GLOBAL__sub_I_cvar"
+    },
+    {
+        "address": ".strtab::000005dd",
+        "length": 13,
+        "value": "__JCR_LIST__"
+    },
+    {
+        "address": ".strtab::000005ea",
+        "length": 21,
+        "value": "deregister_tm_clones"
+    },
+    {
+        "address": ".strtab::000005ff",
+        "length": 19,
+        "value": "register_tm_clones"
+    },
+    {
+        "address": ".strtab::00000612",
+        "length": 22,
+        "value": "__do_global_dtors_aux"
+    },
+    {
+        "address": ".strtab::00000628",
+        "length": 15,
+        "value": "completed.6585"
+    },
+    {
+        "address": ".strtab::00000637",
+        "length": 39,
+        "value": "__do_global_dtors_aux_fini_array_entry"
+    },
+    {
+        "address": ".strtab::0000065e",
+        "length": 12,
+        "value": "frame_dummy"
+    },
+    {
+        "address": ".strtab::0000066a",
+        "length": 31,
+        "value": "__frame_dummy_init_array_entry"
+    },
+    {
+        "address": ".strtab::00000689",
+        "length": 17,
+        "value": "_ZL11pulCRCTable"
+    },
+    {
+        "address": ".strtab::0000069a",
+        "length": 17,
+        "value": "_ZL11pCRC64Table"
+    },
+    {
+        "address": ".strtab::000006ab",
+        "length": 31,
+        "value": "_Z18Q_UChar32ToUTF8Lenw.part.2"
+    },
+    {
+        "address": ".strtab::000006ca",
+        "length": 31,
+        "value": "_Z16Q_UChar32ToUTF16wPt.part.5"
+    },
+    {
+        "address": ".strtab::000006e9",
+        "length": 57,
+        "value": "_ZN12_GLOBAL__N_116Q_UTF32ToUChar32EPKwRwRb.constprop.15"
+    },
+    {
+        "address": ".strtab::00000722",
+        "length": 180,
+        "value": "_ZN12_GLOBAL__N_117Q_UnicodeConvertTIwwLb1ELZNS_16Q_UTF32ToUChar32EPKwRwRbELZNS_19Q_UChar32ToUTF32LenEwELZNS_16Q_UChar32ToUTF32EwPwEEEiPKT_iPT0_i25EStringConvertErrorPolicy.isra.1"
+    },
+    {
+        "address": ".strtab::000007d6",
+        "length": 33,
+        "value": "_ZL16LzmaDec_WriteRemP8CLzmaDecj"
+    },
+    {
+        "address": ".strtab::000007f7",
+        "length": 39,
+        "value": "_ZL19LzmaDec_DecodeReal2P8CLzmaDecjPKh"
+    },
+    {
+        "address": ".strtab::0000081e",
+        "length": 37,
+        "value": "_ZL16LzmaDec_TryDummyPK8CLzmaDecPKhj"
+    },
+    {
+        "address": ".strtab::00000843",
+        "length": 70,
+        "value": "_ZL22LzmaDec_AllocateProbs2P8CLzmaDecPK11_CLzmaPropsP8ISzAlloc.isra.1"
+    },
+    {
+        "address": ".strtab::00000889",
+        "length": 24,
+        "value": "LzmaProps_Decode.part.2"
+    },
+    {
+        "address": ".strtab::000008a1",
+        "length": 13,
+        "value": "read_sleb128"
+    },
+    {
+        "address": ".strtab::000008ae",
+        "length": 20,
+        "value": "execute_cfa_program"
+    },
+    {
+        "address": ".strtab::000008c2",
+        "length": 26,
+        "value": "init_dwarf_reg_size_table"
+    },
+    {
+        "address": ".strtab::000008dc",
+        "length": 21,
+        "value": "dwarf_reg_size_table"
+    },
+    {
+        "address": ".strtab::000008f1",
+        "length": 19,
+        "value": "uw_frame_state_for"
+    },
+    {
+        "address": ".strtab::00000904",
+        "length": 17,
+        "value": "execute_stack_op"
+    },
+    {
+        "address": ".strtab::00000915",
+        "length": 20,
+        "value": "uw_update_context_1"
+    },
+    {
+        "address": ".strtab::00000929",
+        "length": 18,
+        "value": "uw_init_context_1"
+    },
+    {
+        "address": ".strtab::0000093b",
+        "length": 19,
+        "value": "once_regsizes.8792"
+    },
+    {
+        "address": ".strtab::0000094e",
+        "length": 18,
+        "value": "uw_update_context"
+    },
+    {
+        "address": ".strtab::00000960",
+        "length": 30,
+        "value": "_Unwind_RaiseException_Phase2"
+    },
+    {
+        "address": ".strtab::0000097e",
+        "length": 28,
+        "value": "_Unwind_ForcedUnwind_Phase2"
+    },
+    {
+        "address": ".strtab::0000099a",
+        "length": 21,
+        "value": "uw_install_context_1"
+    },
+    {
+        "address": ".strtab::000009af",
+        "length": 18,
+        "value": "_Unwind_DebugHook"
+    },
+    {
+        "address": ".strtab::000009c1",
+        "length": 5,
+        "value": ".L19"
+    },
+    {
+        "address": ".strtab::000009c6",
+        "length": 6,
+        "value": ".L122"
+    },
+    {
+        "address": ".strtab::000009cc",
+        "length": 6,
+        "value": ".L223"
+    },
+    {
+        "address": ".strtab::000009d2",
+        "length": 6,
+        "value": ".L325"
+    },
+    {
+        "address": ".strtab::000009d8",
+        "length": 6,
+        "value": ".L523"
+    },
+    {
+        "address": ".strtab::000009de",
+        "length": 5,
+        "value": ".L21"
+    },
+    {
+        "address": ".strtab::000009e3",
+        "length": 5,
+        "value": ".L22"
+    },
+    {
+        "address": ".strtab::000009e8",
+        "length": 5,
+        "value": ".L23"
+    },
+    {
+        "address": ".strtab::000009ed",
+        "length": 5,
+        "value": ".L24"
+    },
+    {
+        "address": ".strtab::000009f2",
+        "length": 5,
+        "value": ".L25"
+    },
+    {
+        "address": ".strtab::000009f7",
+        "length": 5,
+        "value": ".L26"
+    },
+    {
+        "address": ".strtab::000009fc",
+        "length": 5,
+        "value": ".L27"
+    },
+    {
+        "address": ".strtab::00000a01",
+        "length": 5,
+        "value": ".L28"
+    },
+    {
+        "address": ".strtab::00000a06",
+        "length": 5,
+        "value": ".L29"
+    },
+    {
+        "address": ".strtab::00000a0b",
+        "length": 5,
+        "value": ".L30"
+    },
+    {
+        "address": ".strtab::00000a10",
+        "length": 5,
+        "value": ".L31"
+    },
+    {
+        "address": ".strtab::00000a15",
+        "length": 5,
+        "value": ".L32"
+    },
+    {
+        "address": ".strtab::00000a1a",
+        "length": 5,
+        "value": ".L33"
+    },
+    {
+        "address": ".strtab::00000a1f",
+        "length": 5,
+        "value": ".L34"
+    },
+    {
+        "address": ".strtab::00000a24",
+        "length": 5,
+        "value": ".L35"
+    },
+    {
+        "address": ".strtab::00000a29",
+        "length": 5,
+        "value": ".L36"
+    },
+    {
+        "address": ".strtab::00000a2e",
+        "length": 5,
+        "value": ".L37"
+    },
+    {
+        "address": ".strtab::00000a33",
+        "length": 5,
+        "value": ".L38"
+    },
+    {
+        "address": ".strtab::00000a38",
+        "length": 5,
+        "value": ".L39"
+    },
+    {
+        "address": ".strtab::00000a3d",
+        "length": 5,
+        "value": ".L40"
+    },
+    {
+        "address": ".strtab::00000a42",
+        "length": 5,
+        "value": ".L41"
+    },
+    {
+        "address": ".strtab::00000a47",
+        "length": 5,
+        "value": ".L42"
+    },
+    {
+        "address": ".strtab::00000a4c",
+        "length": 5,
+        "value": ".L43"
+    },
+    {
+        "address": ".strtab::00000a51",
+        "length": 5,
+        "value": ".L44"
+    },
+    {
+        "address": ".strtab::00000a56",
+        "length": 5,
+        "value": ".L62"
+    },
+    {
+        "address": ".strtab::00000a5b",
+        "length": 5,
+        "value": ".L56"
+    },
+    {
+        "address": ".strtab::00000a60",
+        "length": 5,
+        "value": ".L57"
+    },
+    {
+        "address": ".strtab::00000a65",
+        "length": 5,
+        "value": ".L63"
+    },
+    {
+        "address": ".strtab::00000a6a",
+        "length": 5,
+        "value": ".L60"
+    },
+    {
+        "address": ".strtab::00000a6f",
+        "length": 5,
+        "value": ".L61"
+    },
+    {
+        "address": ".strtab::00000a74",
+        "length": 6,
+        "value": ".L197"
+    },
+    {
+        "address": ".strtab::00000a7a",
+        "length": 6,
+        "value": ".L191"
+    },
+    {
+        "address": ".strtab::00000a80",
+        "length": 6,
+        "value": ".L192"
+    },
+    {
+        "address": ".strtab::00000a86",
+        "length": 6,
+        "value": ".L198"
+    },
+    {
+        "address": ".strtab::00000a8c",
+        "length": 6,
+        "value": ".L195"
+    },
+    {
+        "address": ".strtab::00000a92",
+        "length": 6,
+        "value": ".L196"
+    },
+    {
+        "address": ".strtab::00000a98",
+        "length": 6,
+        "value": ".L232"
+    },
+    {
+        "address": ".strtab::00000a9e",
+        "length": 6,
+        "value": ".L226"
+    },
+    {
+        "address": ".strtab::00000aa4",
+        "length": 6,
+        "value": ".L227"
+    },
+    {
+        "address": ".strtab::00000aaa",
+        "length": 6,
+        "value": ".L233"
+    },
+    {
+        "address": ".strtab::00000ab0",
+        "length": 6,
+        "value": ".L230"
+    },
+    {
+        "address": ".strtab::00000ab6",
+        "length": 6,
+        "value": ".L231"
+    },
+    {
+        "address": ".strtab::00000abc",
+        "length": 6,
+        "value": ".L334"
+    },
+    {
+        "address": ".strtab::00000ac2",
+        "length": 6,
+        "value": ".L328"
+    },
+    {
+        "address": ".strtab::00000ac8",
+        "length": 6,
+        "value": ".L329"
+    },
+    {
+        "address": ".strtab::00000ace",
+        "length": 6,
+        "value": ".L330"
+    },
+    {
+        "address": ".strtab::00000ad4",
+        "length": 6,
+        "value": ".L331"
+    },
+    {
+        "address": ".strtab::00000ada",
+        "length": 6,
+        "value": ".L332"
+    },
+    {
+        "address": ".strtab::00000ae0",
+        "length": 6,
+        "value": ".L336"
+    },
+    {
+        "address": ".strtab::00000ae6",
+        "length": 6,
+        "value": ".L337"
+    },
+    {
+        "address": ".strtab::00000aec",
+        "length": 6,
+        "value": ".L338"
+    },
+    {
+        "address": ".strtab::00000af2",
+        "length": 6,
+        "value": ".L339"
+    },
+    {
+        "address": ".strtab::00000af8",
+        "length": 6,
+        "value": ".L340"
+    },
+    {
+        "address": ".strtab::00000afe",
+        "length": 6,
+        "value": ".L341"
+    },
+    {
+        "address": ".strtab::00000b04",
+        "length": 6,
+        "value": ".L342"
+    },
+    {
+        "address": ".strtab::00000b0a",
+        "length": 6,
+        "value": ".L343"
+    },
+    {
+        "address": ".strtab::00000b10",
+        "length": 6,
+        "value": ".L344"
+    },
+    {
+        "address": ".strtab::00000b16",
+        "length": 6,
+        "value": ".L345"
+    },
+    {
+        "address": ".strtab::00000b1c",
+        "length": 6,
+        "value": ".L346"
+    },
+    {
+        "address": ".strtab::00000b22",
+        "length": 6,
+        "value": ".L347"
+    },
+    {
+        "address": ".strtab::00000b28",
+        "length": 6,
+        "value": ".L348"
+    },
+    {
+        "address": ".strtab::00000b2e",
+        "length": 6,
+        "value": ".L349"
+    },
+    {
+        "address": ".strtab::00000b34",
+        "length": 6,
+        "value": ".L350"
+    },
+    {
+        "address": ".strtab::00000b3a",
+        "length": 6,
+        "value": ".L351"
+    },
+    {
+        "address": ".strtab::00000b40",
+        "length": 6,
+        "value": ".L352"
+    },
+    {
+        "address": ".strtab::00000b46",
+        "length": 6,
+        "value": ".L440"
+    },
+    {
+        "address": ".strtab::00000b4c",
+        "length": 6,
+        "value": ".L354"
+    },
+    {
+        "address": ".strtab::00000b52",
+        "length": 6,
+        "value": ".L373"
+    },
+    {
+        "address": ".strtab::00000b58",
+        "length": 6,
+        "value": ".L367"
+    },
+    {
+        "address": ".strtab::00000b5e",
+        "length": 6,
+        "value": ".L368"
+    },
+    {
+        "address": ".strtab::00000b64",
+        "length": 6,
+        "value": ".L374"
+    },
+    {
+        "address": ".strtab::00000b6a",
+        "length": 6,
+        "value": ".L371"
+    },
+    {
+        "address": ".strtab::00000b70",
+        "length": 6,
+        "value": ".L372"
+    },
+    {
+        "address": ".strtab::00000b76",
+        "length": 6,
+        "value": ".L415"
+    },
+    {
+        "address": ".strtab::00000b7c",
+        "length": 6,
+        "value": ".L417"
+    },
+    {
+        "address": ".strtab::00000b82",
+        "length": 6,
+        "value": ".L418"
+    },
+    {
+        "address": ".strtab::00000b88",
+        "length": 6,
+        "value": ".L419"
+    },
+    {
+        "address": ".strtab::00000b8e",
+        "length": 6,
+        "value": ".L420"
+    },
+    {
+        "address": ".strtab::00000b94",
+        "length": 6,
+        "value": ".L421"
+    },
+    {
+        "address": ".strtab::00000b9a",
+        "length": 6,
+        "value": ".L422"
+    },
+    {
+        "address": ".strtab::00000ba0",
+        "length": 6,
+        "value": ".L423"
+    },
+    {
+        "address": ".strtab::00000ba6",
+        "length": 6,
+        "value": ".L424"
+    },
+    {
+        "address": ".strtab::00000bac",
+        "length": 6,
+        "value": ".L425"
+    },
+    {
+        "address": ".strtab::00000bb2",
+        "length": 6,
+        "value": ".L426"
+    },
+    {
+        "address": ".strtab::00000bb8",
+        "length": 6,
+        "value": ".L427"
+    },
+    {
+        "address": ".strtab::00000bbe",
+        "length": 6,
+        "value": ".L428"
+    },
+    {
+        "address": ".strtab::00000bc4",
+        "length": 6,
+        "value": ".L429"
+    },
+    {
+        "address": ".strtab::00000bca",
+        "length": 6,
+        "value": ".L430"
+    },
+    {
+        "address": ".strtab::00000bd0",
+        "length": 6,
+        "value": ".L431"
+    },
+    {
+        "address": ".strtab::00000bd6",
+        "length": 6,
+        "value": ".L432"
+    },
+    {
+        "address": ".strtab::00000bdc",
+        "length": 6,
+        "value": ".L524"
+    },
+    {
+        "address": ".strtab::00000be2",
+        "length": 6,
+        "value": ".L526"
+    },
+    {
+        "address": ".strtab::00000be8",
+        "length": 6,
+        "value": ".L527"
+    },
+    {
+        "address": ".strtab::00000bee",
+        "length": 6,
+        "value": ".L528"
+    },
+    {
+        "address": ".strtab::00000bf4",
+        "length": 6,
+        "value": ".L529"
+    },
+    {
+        "address": ".strtab::00000bfa",
+        "length": 22,
+        "value": "fde_unencoded_compare"
+    },
+    {
+        "address": ".strtab::00000c10",
+        "length": 15,
+        "value": "frame_downheap"
+    },
+    {
+        "address": ".strtab::00000c1f",
+        "length": 15,
+        "value": "frame_heapsort"
+    },
+    {
+        "address": ".strtab::00000c2e",
+        "length": 22,
+        "value": "size_of_encoded_value"
+    },
+    {
+        "address": ".strtab::00000c44",
+        "length": 29,
+        "value": "read_encoded_value_with_base"
+    },
+    {
+        "address": ".strtab::00000c61",
+        "length": 17,
+        "value": "get_cie_encoding"
+    },
+    {
+        "address": ".strtab::00000c72",
+        "length": 24,
+        "value": "base_from_object.isra.3"
+    },
+    {
+        "address": ".strtab::00000c8a",
+        "length": 28,
+        "value": "fde_single_encoding_compare"
+    },
+    {
+        "address": ".strtab::00000ca6",
+        "length": 19,
+        "value": "linear_search_fdes"
+    },
+    {
+        "address": ".strtab::00000cb9",
+        "length": 27,
+        "value": "fde_mixed_encoding_compare"
+    },
+    {
+        "address": ".strtab::00000cd4",
+        "length": 26,
+        "value": "classify_object_over_fdes"
+    },
+    {
+        "address": ".strtab::00000cee",
+        "length": 9,
+        "value": "add_fdes"
+    },
+    {
+        "address": ".strtab::00000cf7",
+        "length": 14,
+        "value": "search_object"
+    },
+    {
+        "address": ".strtab::00000d05",
+        "length": 16,
+        "value": "terminator.8438"
+    },
+    {
+        "address": ".strtab::00000d15",
+        "length": 12,
+        "value": "marker.8332"
+    },
+    {
+        "address": ".strtab::00000d21",
+        "length": 25,
+        "value": "base_from_cb_data.isra.4"
+    },
+    {
+        "address": ".strtab::00000d3a",
+        "length": 28,
+        "value": "_Unwind_IteratePhdrCallback"
+    },
+    {
+        "address": ".strtab::00000d56",
+        "length": 21,
+        "value": "frame_hdr_cache_head"
+    },
+    {
+        "address": ".strtab::00000d6b",
+        "length": 10,
+        "value": "adds.8594"
+    },
+    {
+        "address": ".strtab::00000d75",
+        "length": 10,
+        "value": "subs.8595"
+    },
+    {
+        "address": ".strtab::00000d7f",
+        "length": 16,
+        "value": "frame_hdr_cache"
+    },
+    {
+        "address": ".strtab::00000d8f",
+        "length": 13,
+        "value": "object_mutex"
+    },
+    {
+        "address": ".strtab::00000d9c",
+        "length": 15,
+        "value": "unseen_objects"
+    },
+    {
+        "address": ".strtab::00000dab",
+        "length": 13,
+        "value": "seen_objects"
+    },
+    {
+        "address": ".strtab::00000db8",
+        "length": 5,
+        "value": ".L70"
+    },
+    {
+        "address": ".strtab::00000dbd",
+        "length": 5,
+        "value": ".L64"
+    },
+    {
+        "address": ".strtab::00000dc2",
+        "length": 5,
+        "value": ".L65"
+    },
+    {
+        "address": ".strtab::00000dc7",
+        "length": 5,
+        "value": ".L71"
+    },
+    {
+        "address": ".strtab::00000dcc",
+        "length": 5,
+        "value": ".L68"
+    },
+    {
+        "address": ".strtab::00000dd1",
+        "length": 5,
+        "value": ".L69"
+    },
+    {
+        "address": ".strtab::00000dd6",
+        "length": 14,
+        "value": "__FRAME_END__"
+    },
+    {
+        "address": ".strtab::00000de4",
+        "length": 12,
+        "value": "__JCR_END__"
+    },
+    {
+        "address": ".strtab::00000df0",
+        "length": 17,
+        "value": "_ZTI10IAppSystem"
+    },
+    {
+        "address": ".strtab::00000e01",
+        "length": 18,
+        "value": "_Z11CRC64_FinalPy"
+    },
+    {
+        "address": ".strtab::00000e13",
+        "length": 31,
+        "value": "_ZN10CUtlBuffer8VaPrintfEPKcPc"
+    },
+    {
+        "address": ".strtab::00000e32",
+        "length": 27,
+        "value": "_ZN10CUtlBuffer7PeekGetEii"
+    },
+    {
+        "address": ".strtab::00000e4d",
+        "length": 29,
+        "value": "g_pUtlSortVectorQSortContext"
+    },
+    {
+        "address": ".strtab::00000e6a",
+        "length": 41,
+        "value": "_ZN6ConVarC2EPKcS1_iS1_PFvP7IConVarS1_fE"
+    },
+    {
+        "address": ".strtab::00000e93",
+        "length": 34,
+        "value": "_Z16Sys_UnloadModuleP10CSysModule"
+    },
+    {
+        "address": ".strtab::00000eb5",
+        "length": 31,
+        "value": "_Z22BGetLocalFormattedTimelPci"
+    },
+    {
+        "address": ".strtab::00000ed4",
+        "length": 34,
+        "value": "_ZNK10CUtlString13StripFilenameEv"
+    },
+    {
+        "address": ".strtab::00000ef6",
+        "length": 33,
+        "value": "_ZNK10CUtlString12GetExtensionEv"
+    },
+    {
+        "address": ".strtab::00000f17",
+        "length": 28,
+        "value": "_Z16Q_UTF16ToUChar32PKtRwRb"
+    },
+    {
+        "address": ".strtab::00000f33",
+        "length": 28,
+        "value": "_Z16_V_UnicodeToUCS2PKwiPci"
+    },
+    {
+        "address": ".strtab::00000f4f",
+        "length": 74,
+        "value": "_ZN10ConCommandC2EPKcP16ICommandCallbackS1_iP26ICommandCompletionCallback"
+    },
+    {
+        "address": ".strtab::00000f99",
+        "length": 21,
+        "value": "_Z13V_GetFileNamePKc"
+    },
+    {
+        "address": ".strtab::00000fae",
+        "length": 39,
+        "value": "_ZN15CSceneFileCache14GetSceneStringEs"
+    },
+    {
+        "address": ".strtab::00000fd5",
+        "length": 22,
+        "value": "_ZN10CUtlBufferC2Eiii"
+    },
+    {
+        "address": ".strtab::00000feb",
+        "length": 26,
+        "value": "_ZTS19CUtlNoEscConversion"
+    },
+    {
+        "address": ".strtab::00001005",
+        "length": 25,
+        "value": "_ZTS18CUtlCharConversion"
+    },
+    {
+        "address": ".strtab::0000101e",
+        "length": 30,
+        "value": "_ZN10CUtlBuffer9PutStringEPKc"
+    },
+    {
+        "address": ".strtab::0000103c",
+        "length": 24,
+        "value": "_ZNK6ConVar9IsCommandEv"
+    },
+    {
+        "address": ".strtab::00001054",
+        "length": 36,
+        "value": "_ZNK14ConCommandBase11GetHelpTextEv"
+    },
+    {
+        "address": ".strtab::00001078",
+        "length": 22,
+        "value": "__register_frame_info"
+    },
+    {
+        "address": ".strtab::0000108e",
+        "length": 36,
+        "value": "_ZNK10CUtlString15GetBaseFilenameEv"
+    },
+    {
+        "address": ".strtab::000010b2",
+        "length": 12,
+        "value": "_ZTS6ConVar"
+    },
+    {
+        "address": ".strtab::000010be",
+        "length": 23,
+        "value": "_Z9_V_strstrPKciS0_S0_"
+    },
+    {
+        "address": ".strtab::000010d5",
+        "length": 30,
+        "value": "_ZTS23IConCommandBaseAccessor"
+    },
+    {
+        "address": ".strtab::000010f3",
+        "length": 14,
+        "value": "_Z8V_struprPc"
+    },
+    {
+        "address": ".strtab::00001101",
+        "length": 50,
+        "value": "_ZN10CUtlBuffer10ParseTokenEP14characterset_tPcib"
+    },
+    {
+        "address": ".strtab::00001133",
+        "length": 17,
+        "value": "_ZTS10IAppSystem"
+    },
+    {
+        "address": ".strtab::00001144",
+        "length": 25,
+        "value": "_Z17IsBufferBinaryVCDPci"
+    },
+    {
+        "address": ".strtab::0000115d",
+        "length": 27,
+        "value": "_Z16V_StripExtensionPKcPci"
+    },
+    {
+        "address": ".strtab::00001178",
+        "length": 19,
+        "value": "__deregister_frame"
+    },
+    {
+        "address": ".strtab::0000118b",
+        "length": 39,
+        "value": "_ZN10CUtlBuffer4SwapER10CUtlMemoryIhiE"
+    },
+    {
+        "address": ".strtab::000011b2",
+        "length": 24,
+        "value": "_Z18Sys_GetFactoryThisv"
+    },
+    {
+        "address": ".strtab::000011ca",
+        "length": 22,
+        "value": "_Z14Sys_GetFactoryPKc"
+    },
+    {
+        "address": ".strtab::000011e0",
+        "length": 61,
+        "value": "_ZN10CUtlBuffer18GetDelimitedStringEP18CUtlCharConversionPci"
+    },
+    {
+        "address": ".strtab::0000121d",
+        "length": 24,
+        "value": "_Z16V_IsAbsolutePathPKc"
+    },
+    {
+        "address": ".strtab::00001235",
+        "length": 40,
+        "value": "_ZN10CUtlBuffer20ActivateByteSwappingEb"
+    },
+    {
+        "address": ".strtab::0000125d",
+        "length": 57,
+        "value": "_Z18Q_UTF16CharsToUTF8PKtiPci25EStringConvertErrorPolicy"
+    },
+    {
+        "address": ".strtab::00001296",
+        "length": 17,
+        "value": "_Z10CRC32_InitPj"
+    },
+    {
+        "address": ".strtab::000012a7",
+        "length": 23,
+        "value": "__register_frame_table"
+    },
+    {
+        "address": ".strtab::000012be",
+        "length": 38,
+        "value": "_ZN10CUtlString18StripTrailingSlashEv"
+    },
+    {
+        "address": ".strtab::000012e4",
+        "length": 52,
+        "value": "_Z14Q_UTF32ToUTF32PKwPwi25EStringConvertErrorPolicy"
+    },
+    {
+        "address": ".strtab::00001318",
+        "length": 29,
+        "value": "_Z21V_SetCurrentDirectoryPKc"
+    },
+    {
+        "address": ".strtab::00001335",
+        "length": 23,
+        "value": "_Z9_V_wcscmpPKciPKwS2_"
+    },
+    {
+        "address": ".strtab::0000134c",
+        "length": 16,
+        "value": "_Z9V_atoui64PKc"
+    },
+    {
+        "address": ".strtab::0000135c",
+        "length": 86,
+        "value": "_ZN10ConCommand19AutoCompleteSuggestEPKcR10CUtlVectorI10CUtlString10CUtlMemoryIS3_iEE"
+    },
+    {
+        "address": ".strtab::000013b2",
+        "length": 27,
+        "value": "_ZNK6ConVar11GetHelpTextEv"
+    },
+    {
+        "address": ".strtab::000013cd",
+        "length": 31,
+        "value": "_ZN10CUtlString9SetDirectEPKci"
+    },
+    {
+        "address": ".strtab::000013ec",
+        "length": 20,
+        "value": "LzmaDec_DecodeToBuf"
+    },
+    {
+        "address": ".strtab::00001400",
+        "length": 40,
+        "value": "_ZN14ConCommandBase10CreateBaseEPKcS1_i"
+    },
+    {
+        "address": ".strtab::00001428",
+        "length": 46,
+        "value": "_ZN14CBaseAppSystemI15ISceneFileCacheE4InitEv"
+    },
+    {
+        "address": ".strtab::00001456",
+        "length": 34,
+        "value": "__register_frame_info_table_bases"
+    },
+    {
+        "address": ".strtab::00001478",
+        "length": 24,
+        "value": "_Z16GMOD_IsValidPathPKc"
+    },
+    {
+        "address": ".strtab::00001490",
+        "length": 30,
+        "value": "_ZN12InterfaceRegC1EPFPvvEPKc"
+    },
+    {
+        "address": ".strtab::000014ae",
+        "length": 36,
+        "value": "_ZN16CDllDemandLoader10GetFactoryEv"
+    },
+    {
+        "address": ".strtab::000014d2",
+        "length": 33,
+        "value": "_ZN10CUtlBuffer13OnPutOverflowEi"
+    },
+    {
+        "address": ".strtab::000014f3",
+        "length": 27,
+        "value": "_ZTI20ConVar_ServerBounded"
+    },
+    {
+        "address": ".strtab::0000150e",
+        "length": 28,
+        "value": "_ZN10CUtlString6FormatEPKcz"
+    },
+    {
+        "address": ".strtab::0000152a",
+        "length": 24,
+        "value": "_ZN14ConCommandBaseD1Ev"
+    },
+    {
+        "address": ".strtab::00001542",
+        "length": 14,
+        "value": "_Unwind_GetGR"
+    },
+    {
+        "address": ".strtab::00001550",
+        "length": 28,
+        "value": "_Z17V_ExtractFilePathPKcPci"
+    },
+    {
+        "address": ".strtab::0000156c",
+        "length": 31,
+        "value": "_ZNK8CCommand10FindArgIntEPKci"
+    },
+    {
+        "address": ".strtab::0000158b",
+        "length": 23,
+        "value": "_ZTI16CDllDemandLoader"
+    },
+    {
+        "address": ".strtab::000015a2",
+        "length": 39,
+        "value": "_ZN10CUtlBuffer17GetStringInternalEPcj"
+    },
+    {
+        "address": ".strtab::000015c9",
+        "length": 19,
+        "value": "_ZTI12CEmptyConVar"
+    },
+    {
+        "address": ".strtab::000015dc",
+        "length": 24,
+        "value": "_ZN14ConCommandBaseC2Ev"
+    },
+    {
+        "address": ".strtab::000015f4",
+        "length": 23,
+        "value": "_Z15Q_UnicodeLengthPKc"
+    },
+    {
+        "address": ".strtab::0000160b",
+        "length": 26,
+        "value": "_Unwind_Resume_or_Rethrow"
+    },
+    {
+        "address": ".strtab::00001625",
+        "length": 48,
+        "value": "_ZNK18CUtlCharConversion19MaxConversionLengthEv"
+    },
+    {
+        "address": ".strtab::00001655",
+        "length": 37,
+        "value": "_ZN10ConCommand8DispatchERK8CCommand"
+    },
+    {
+        "address": ".strtab::0000167a",
+        "length": 50,
+        "value": "_ZN6ConVar6CreateEPKcS1_iS1_bfbfPFvP7IConVarS1_fE"
+    },
+    {
+        "address": ".strtab::000016ac",
+        "length": 30,
+        "value": "_Z19CRC32_ProcessBufferPjPKvi"
+    },
+    {
+        "address": ".strtab::000016ca",
+        "length": 25,
+        "value": "_ZTI18CUtlCharConversion"
+    },
+    {
+        "address": ".strtab::000016e3",
+        "length": 42,
+        "value": "_ZNK18CUtlCharConversion13GetEscapeCharEv"
+    },
+    {
+        "address": ".strtab::0000170d",
+        "length": 30,
+        "value": "_ZN10CUtlString9TrimRightEPKc"
+    },
+    {
+        "address": ".strtab::0000172b",
+        "length": 58,
+        "value": "_Z19Q_UTF16CharsToUTF32PKtiPwi25EStringConvertErrorPolicy"
+    },
+    {
+        "address": ".strtab::00001765",
+        "length": 49,
+        "value": "_Z15Q_UnicodeRepairPc25EStringConvertErrorPolicy"
+    },
+    {
+        "address": ".strtab::00001796",
+        "length": 26,
+        "value": "_Z14Q_URLEncodeRawPciPKci"
+    },
+    {
+        "address": ".strtab::000017b0",
+        "length": 23,
+        "value": "_ZNK6ConVar8GetFlagsEv"
+    },
+    {
+        "address": ".strtab::000017c7",
+        "length": 27,
+        "value": "_ZN14ConCommandBase4InitEv"
+    },
+    {
+        "address": ".strtab::000017e2",
+        "length": 26,
+        "value": "_Z14Q_URLDecodeRawPciPKci"
+    },
+    {
+        "address": ".strtab::000017fc",
+        "length": 32,
+        "value": "_ZN8CCommand15DefaultBreakSetEv"
+    },
+    {
+        "address": ".strtab::0000181c",
+        "length": 18,
+        "value": "LzmaDec_FreeProbs"
+    },
+    {
+        "address": ".strtab::0000182e",
+        "length": 17,
+        "value": "_ZN8CCommandC1Ev"
+    },
+    {
+        "address": ".strtab::0000183f",
+        "length": 30,
+        "value": "_Z24DisconnectTier1Librariesv"
+    },
+    {
+        "address": ".strtab::0000185d",
+        "length": 25,
+        "value": "_Z10_V_memmovePKciPvPKvi"
+    },
+    {
+        "address": ".strtab::00001876",
+        "length": 27,
+        "value": "_ZN10CUtlString6AppendEPKc"
+    },
+    {
+        "address": ".strtab::00001891",
+        "length": 23,
+        "value": "_Z10V_StrSlicePKciiPci"
+    },
+    {
+        "address": ".strtab::000018a8",
+        "length": 19,
+        "value": "_Z9V_wcsncpyPwPKwj"
+    },
+    {
+        "address": ".strtab::000018bb",
+        "length": 28,
+        "value": "_ZThn24_NK6ConVar7GetNameEv"
+    },
+    {
+        "address": ".strtab::000018d7",
+        "length": 32,
+        "value": "_ZN10CUtlBuffer12SetBigEndianEb"
+    },
+    {
+        "address": ".strtab::000018f7",
+        "length": 44,
+        "value": "_Z37Q_StripPrecedingAndTrailingWhitespacePc"
+    },
+    {
+        "address": ".strtab::00001923",
+        "length": 23,
+        "value": "_ZTS16CDefaultAccessor"
+    },
+    {
+        "address": ".strtab::0000193a",
+        "length": 25,
+        "value": "_ZTV18CUtlCharConversion"
+    },
+    {
+        "address": ".strtab::00001953",
+        "length": 30,
+        "value": "_ZN10CUtlBuffer7VaScanfEPKcPc"
+    },
+    {
+        "address": ".strtab::00001971",
+        "length": 13,
+        "value": "LzmaDec_Free"
+    },
+    {
+        "address": ".strtab::0000197e",
+        "length": 23,
+        "value": "_Z9_V_memcpyPKciPvPKvi"
+    },
+    {
+        "address": ".strtab::00001995",
+        "length": 21,
+        "value": "_ZN6ConVarC1EPKcS1_i"
+    },
+    {
+        "address": ".strtab::000019aa",
+        "length": 34,
+        "value": "_ZN10CUtlString14GetEmptyStringEv"
+    },
+    {
+        "address": ".strtab::000019cc",
+        "length": 21,
+        "value": "_ZN8CCommandC2EiPPKc"
+    },
+    {
+        "address": ".strtab::000019e1",
+        "length": 20,
+        "value": "_Z9_V_strlenPKciS0_"
+    },
+    {
+        "address": ".strtab::000019f5",
+        "length": 21,
+        "value": "_ZNK10CUtlStringixEi"
+    },
+    {
+        "address": ".strtab::00001a0a",
+        "length": 27,
+        "value": "_ZN10CUtlBuffer5ScanfEPKcz"
+    },
+    {
+        "address": ".strtab::00001a25",
+        "length": 44,
+        "value": "_ZNK10CUtlString21IsEqual_CaseSensitiveEPKc"
+    },
+    {
+        "address": ".strtab::00001a51",
+        "length": 35,
+        "value": "_ZN6ConVar17ChangeStringValueEPKcf"
+    },
+    {
+        "address": ".strtab::00001a74",
+        "length": 33,
+        "value": "_ZN10CUtlBuffer13OnGetOverflowEi"
+    },
+    {
+        "address": ".strtab::00001a95",
+        "length": 28,
+        "value": "_ZN16CDllDemandLoaderC1EPKc"
+    },
+    {
+        "address": ".strtab::00001ab1",
+        "length": 49,
+        "value": "_Z15Q_UnicodeRepairPt25EStringConvertErrorPolicy"
+    },
+    {
+        "address": ".strtab::00001ae2",
+        "length": 12,
+        "value": "_ZTV6ConVar"
+    },
+    {
+        "address": ".strtab::00001aee",
+        "length": 27,
+        "value": "_ZN6ConVar10SetDefaultEPKc"
+    },
+    {
+        "address": ".strtab::00001b09",
+        "length": 28,
+        "value": "_Z10V_StrSubstPKcS0_S0_Pcib"
+    },
+    {
+        "address": ".strtab::00001b25",
+        "length": 33,
+        "value": "_ZN10CUtlBuffer12CheckPeekGetEii"
+    },
+    {
+        "address": ".strtab::00001b46",
+        "length": 52,
+        "value": "_Z14Q_UTF32ToUTF16PKwPti25EStringConvertErrorPolicy"
+    },
+    {
+        "address": ".strtab::00001b7a",
+        "length": 23,
+        "value": "_Z15Q_UnicodeLengthPKt"
+    },
+    {
+        "address": ".strtab::00001b91",
+        "length": 23,
+        "value": "_Unwind_RaiseException"
+    },
+    {
+        "address": ".strtab::00001ba8",
+        "length": 30,
+        "value": "__deregister_frame_info_bases"
+    },
+    {
+        "address": ".strtab::00001bc6",
+        "length": 19,
+        "value": "_Z9V_stricmpPKcS0_"
+    },
+    {
+        "address": ".strtab::00001bd9",
+        "length": 45,
+        "value": "_Z17Sys_LoadInterfacePKcS0_PP10CSysModulePPv"
+    },
+    {
+        "address": ".strtab::00001c06",
+        "length": 30,
+        "value": "_ZN10CUtlString10FixSlashesEc"
+    },
+    {
+        "address": ".strtab::00001c24",
+        "length": 22,
+        "value": "_ZNK6ConVar6GetMaxERf"
+    },
+    {
+        "address": ".strtab::00001c3a",
+        "length": 33,
+        "value": "_ZN10CUtlBuffer13EatWhiteSpaceEv"
+    },
+    {
+        "address": ".strtab::00001c5b",
+        "length": 24,
+        "value": "_ZN9ConVarRef4InitEPKcb"
+    },
+    {
+        "address": ".strtab::00001c73",
+        "length": 36,
+        "value": "_ZN10CUtlBuffer12AssumeMemoryEPviii"
+    },
+    {
+        "address": ".strtab::00001c97",
+        "length": 25,
+        "value": "_ZN15CSceneFileCacheD2Ev"
+    },
+    {
+        "address": ".strtab::00001cb0",
+        "length": 27,
+        "value": "_Z21Sys_IsDebuggerPresentv"
+    },
+    {
+        "address": ".strtab::00001ccb",
+        "length": 28,
+        "value": "_ZN5CLZMA13GetActualSizeEPh"
+    },
+    {
+        "address": ".strtab::00001ce7",
+        "length": 19,
+        "value": "_Z13PATHSEPARATORc"
+    },
+    {
+        "address": ".strtab::00001cfa",
+        "length": 22,
+        "value": "_GLOBAL_OFFSET_TABLE_"
+    },
+    {
+        "address": ".strtab::00001d10",
+        "length": 28,
+        "value": "_ZN10CUtlMemoryIPciE4GrowEi"
+    },
+    {
+        "address": ".strtab::00001d2c",
+        "length": 10,
+        "value": "__udivdi3"
+    },
+    {
+        "address": ".strtab::00001d36",
+        "length": 74,
+        "value": "_ZN10ConCommandC1EPKcP16ICommandCallbackS1_iP26ICommandCompletionCallback"
+    },
+    {
+        "address": ".strtab::00001d80",
+        "length": 28,
+        "value": "_ZN10CUtlBuffer7GetLineEPci"
+    },
+    {
+        "address": ".strtab::00001d9c",
+        "length": 37,
+        "value": "_ZNK14ConCommandBase12IsRegisteredEv"
+    },
+    {
+        "address": ".strtab::00001dc1",
+        "length": 29,
+        "value": "_ZN12CEmptyConVar8SetValueEi"
+    },
+    {
+        "address": ".strtab::00001dde",
+        "length": 57,
+        "value": "_Z18Q_UTF8CharsToUTF32PKciPwi25EStringConvertErrorPolicy"
+    },
+    {
+        "address": ".strtab::00001e17",
+        "length": 59,
+        "value": "_ZN14CBaseAppSystemI15ISceneFileCacheE14QueryInterfaceEPKc"
+    },
+    {
+        "address": ".strtab::00001e52",
+        "length": 20,
+        "value": "LzmaDec_DecodeToDic"
+    },
+    {
+        "address": ".strtab::00001e66",
+        "length": 33,
+        "value": "_ZNK14ConCommandBase9IsCommandEv"
+    },
+    {
+        "address": ".strtab::00001e87",
+        "length": 23,
+        "value": "_ZTS16CDllDemandLoader"
+    },
+    {
+        "address": ".strtab::00001e9e",
+        "length": 20,
+        "value": "_ZN10ConCommandD0Ev"
+    },
+    {
+        "address": ".strtab::00001eb2",
+        "length": 11,
+        "value": "LzmaDecode"
+    },
+    {
+        "address": ".strtab::00001ebd",
+        "length": 26,
+        "value": "_ZTI19CUtlNoEscConversion"
+    },
+    {
+        "address": ".strtab::00001ed7",
+        "length": 22,
+        "value": "_ZN12CEmptyConVarD0Ev"
+    },
+    {
+        "address": ".strtab::00001eed",
+        "length": 29,
+        "value": "_ZN17CUtlInplaceBufferC1Eiii"
+    },
+    {
+        "address": ".strtab::00001f0a",
+        "length": 23,
+        "value": "_Z10_V_strrchrPKciS0_c"
+    },
+    {
+        "address": ".strtab::00001f21",
+        "length": 21,
+        "value": "_ZN11CLZMAStreamD2Ev"
+    },
+    {
+        "address": ".strtab::00001f36",
+        "length": 19,
+        "value": "_Z9_V_wcsuprPKciPw"
+    },
+    {
+        "address": ".strtab::00001f49",
+        "length": 33,
+        "value": "_ZN10CUtlBuffer11ConvertCRLFERS_"
+    },
+    {
+        "address": ".strtab::00001f6a",
+        "length": 25,
+        "value": "_Z17Q_UnicodeValidatePKc"
+    },
+    {
+        "address": ".strtab::00001f83",
+        "length": 64,
+        "value": "_ZN10CUtlBuffer24GetDelimitedCharInternalEP18CUtlCharConversion"
+    },
+    {
+        "address": ".strtab::00001fc3",
+        "length": 24,
+        "value": "_ZN10CUtlString3SetEPKc"
+    },
+    {
+        "address": ".strtab::00001fdb",
+        "length": 22,
+        "value": "_ZN6ConVar8AddFlagsEi"
+    },
+    {
+        "address": ".strtab::00001ff1",
+        "length": 42,
+        "value": "_Z17CharacterSetBuildP14characterset_tPKc"
+    },
+    {
+        "address": ".strtab::0000201b",
+        "length": 22,
+        "value": "_ZTI15ISceneFileCache"
+    },
+    {
+        "address": ".strtab::00002031",
+        "length": 15,
+        "value": "_ZN6ConVarD2Ev"
+    },
+    {
+        "address": ".strtab::00002040",
+        "length": 57,
+        "value": "_ZN10CUtlBuffer16PutDelimitedCharEP18CUtlCharConversionc"
+    },
+    {
+        "address": ".strtab::00002079",
+        "length": 26,
+        "value": "_ZN10CUtlString7ToUpperEv"
+    },
+    {
+        "address": ".strtab::00002093",
+        "length": 22,
+        "value": "_ZN6ConVar8SetValueEf"
+    },
+    {
+        "address": ".strtab::000020a9",
+        "length": 33,
+        "value": "_ZN6ConVar16InternalSetValueEPKc"
+    },
+    {
+        "address": ".strtab::000020ca",
+        "length": 18,
+        "value": "_Z12V_pretifynumx"
+    },
+    {
+        "address": ".strtab::000020dc",
+        "length": 15,
+        "value": "_Unwind_GetCFA"
+    },
+    {
+        "address": ".strtab::000020eb",
+        "length": 12,
+        "value": "_ZTI6ConVar"
+    },
+    {
+        "address": ".strtab::000020f7",
+        "length": 15,
+        "value": "_ZN6ConVarD0Ev"
+    },
+    {
+        "address": ".strtab::00002106",
+        "length": 13,
+        "value": "LzmaDec_Init"
+    },
+    {
+        "address": ".strtab::00002113",
+        "length": 20,
+        "value": "_ZN10ConCommandD2Ev"
+    },
+    {
+        "address": ".strtab::00002127",
+        "length": 27,
+        "value": "_ZN10CUtlString8TrimLeftEc"
+    },
+    {
+        "address": ".strtab::00002142",
+        "length": 45,
+        "value": "_ZN15CSceneFileCache18GetSceneBufferSizeEPKc"
+    },
+    {
+        "address": ".strtab::0000216f",
+        "length": 25,
+        "value": "_Z14V_SetExtensionPcPKci"
+    },
+    {
+        "address": ".strtab::00002188",
+        "length": 26,
+        "value": "_ZN16CDllDemandLoaderD2Ev"
+    },
+    {
+        "address": ".strtab::000021a2",
+        "length": 26,
+        "value": "_ZNK8CCommand7FindArgEPKc"
+    },
+    {
+        "address": ".strtab::000021bc",
+        "length": 37,
+        "value": "_ZThn24_N12CEmptyConVar8SetValueEPKc"
+    },
+    {
+        "address": ".strtab::000021e1",
+        "length": 18,
+        "value": "_Unwind_Backtrace"
+    },
+    {
+        "address": ".strtab::000021f3",
+        "length": 23,
+        "value": "_ZN10CUtlStringpLERKS_"
+    },
+    {
+        "address": ".strtab::0000220a",
+        "length": 25,
+        "value": "_Z13_V_UTF8ToUCS2PKciPti"
+    },
+    {
+        "address": ".strtab::00002223",
+        "length": 34,
+        "value": "_ZN10CUtlBuffer13SetBufferTypeEbb"
+    },
+    {
+        "address": ".strtab::00002245",
+        "length": 20,
+        "value": "_ZN10CUtlStringpLEc"
+    },
+    {
+        "address": ".strtab::00002259",
+        "length": 38,
+        "value": "_Z30V_AddBackSlashesToSpecialCharsPKc"
+    },
+    {
+        "address": ".strtab::0000227f",
+        "length": 31,
+        "value": "_ZNK14ConCommandBase7GetNameEv"
+    },
+    {
+        "address": ".strtab::0000229e",
+        "length": 22,
+        "value": "_ZNK6ConVar6GetMinERf"
+    },
+    {
+        "address": ".strtab::000022b4",
+        "length": 21,
+        "value": "_ZTV14ConCommandBase"
+    },
+    {
+        "address": ".strtab::000022c9",
+        "length": 32,
+        "value": "_Z14Sys_GetFactoryP10CSysModule"
+    },
+    {
+        "address": ".strtab::000022e9",
+        "length": 43,
+        "value": "_ZN8CCommand8TokenizeEPKcP14characterset_t"
+    },
+    {
+        "address": ".strtab::00002314",
+        "length": 24,
+        "value": "_Z11V_vsnprintfPciPKcS_"
+    },
+    {
+        "address": ".strtab::0000232c",
+        "length": 59,
+        "value": "_Z13V_SplitStringPKcS0_R10CUtlVectorIPc10CUtlMemoryIS2_iEE"
+    },
+    {
+        "address": ".strtab::00002367",
+        "length": 61,
+        "value": "_ZN10CUtlBuffer18PutDelimitedStringEP18CUtlCharConversionPKc"
+    },
+    {
+        "address": ".strtab::000023a4",
+        "length": 23,
+        "value": "_ZTV16CDefaultAccessor"
+    },
+    {
+        "address": ".strtab::000023bb",
+        "length": 53,
+        "value": "_ZN14CBaseAppSystemI15ISceneFileCacheE10DisconnectEv"
+    },
+    {
+        "address": ".strtab::000023f0",
+        "length": 24,
+        "value": "_ZN6ConVarC2EPKcS1_iS1_"
+    },
+    {
+        "address": ".strtab::00002408",
+        "length": 20,
+        "value": "_Z14cIntToHexDigiti"
+    },
+    {
+        "address": ".strtab::0000241c",
+        "length": 22,
+        "value": "_Z11_V_wcslowerPKciPw"
+    },
+    {
+        "address": ".strtab::00002432",
+        "length": 49,
+        "value": "_Z15Q_UnicodeRepairPw25EStringConvertErrorPolicy"
+    },
+    {
+        "address": ".strtab::00002463",
+        "length": 25,
+        "value": "_Z12V_vsnwprintfPwiPKwPc"
+    },
+    {
+        "address": ".strtab::0000247c",
+        "length": 22,
+        "value": "_ZN10CUtlBufferC1Eiii"
+    },
+    {
+        "address": ".strtab::00002492",
+        "length": 32,
+        "value": "_Unwind_GetLanguageSpecificData"
+    },
+    {
+        "address": ".strtab::000024b2",
+        "length": 33,
+        "value": "_ZN10CUtlBuffer13EatCPPCommentEv"
+    },
+    {
+        "address": ".strtab::000024d3",
+        "length": 20,
+        "value": "_Z14Q_IsMeanSpaceWw"
+    },
+    {
+        "address": ".strtab::000024e7",
+        "length": 37,
+        "value": "_ZThn24_NK12CEmptyConVar9IsFlagSetEi"
+    },
+    {
+        "address": ".strtab::0000250c",
+        "length": 20,
+        "value": "_ZN10CUtlStringD1Ev"
+    },
+    {
+        "address": ".strtab::00002520",
+        "length": 58,
+        "value": "_ZN14CBaseAppSystemI15ISceneFileCacheE7ConnectEPFPvPKcPiE"
+    },
+    {
+        "address": ".strtab::0000255a",
+        "length": 30,
+        "value": "_ZThn24_N6ConVar8SetValueEPKc"
+    },
+    {
+        "address": ".strtab::00002578",
+        "length": 42,
+        "value": "_ZN15CSceneFileCache12GetSceneDataEPKcPhj"
+    },
+    {
+        "address": ".strtab::000025a2",
+        "length": 34,
+        "value": "_ZN5CLZMA14SafeUncompressEPhjS0_j"
+    },
+    {
+        "address": ".strtab::000025c4",
+        "length": 15,
+        "value": "_Unwind_Resume"
+    },
+    {
+        "address": ".strtab::000025d3",
+        "length": 28,
+        "value": "_ZNK6ConVar12IsRegisteredEv"
+    },
+    {
+        "address": ".strtab::000025ef",
+        "length": 28,
+        "value": "__register_frame_info_table"
+    },
+    {
+        "address": ".strtab::0000260b",
+        "length": 13,
+        "value": "_Z8V_nibblec"
+    },
+    {
+        "address": ".strtab::00002618",
+        "length": 20,
+        "value": "_ZN9ConVarRefC2EPKc"
+    },
+    {
+        "address": ".strtab::0000262c",
+        "length": 57,
+        "value": "_Z18Q_UTF8CharsToUTF16PKciPti25EStringConvertErrorPolicy"
+    },
+    {
+        "address": ".strtab::00002665",
+        "length": 41,
+        "value": "_ZN11CLZMAStream18CreateDecoderStateEPKh"
+    },
+    {
+        "address": ".strtab::0000268e",
+        "length": 22,
+        "value": "_ZN10CUtlStringaSEPKc"
+    },
+    {
+        "address": ".strtab::000026a4",
+        "length": 39,
+        "value": "_ZN10CUtlBuffer15PeekStringMatchEiPKci"
+    },
+    {
+        "address": ".strtab::000026cb",
+        "length": 13,
+        "value": "_ZTV7IConVar"
+    },
+    {
+        "address": ".strtab::000026d8",
+        "length": 15,
+        "value": "_Z9V_StrTrimPc"
+    },
+    {
+        "address": ".strtab::000026e7",
+        "length": 47,
+        "value": "_ZN19CUtlNoEscConversion14FindConversionEPKcPi"
+    },
+    {
+        "address": ".strtab::00002716",
+        "length": 51,
+        "value": "_Z13Q_UTF16ToUTF8PKtPci25EStringConvertErrorPolicy"
+    },
+    {
+        "address": ".strtab::00002749",
+        "length": 25,
+        "value": "_ZN10CUtlString4TrimEPKc"
+    },
+    {
+        "address": ".strtab::00002762",
+        "length": 39,
+        "value": "_ZNK10CUtlString14MatchesPatternERKS_i"
+    },
+    {
+        "address": ".strtab::00002789",
+        "length": 23,
+        "value": "_Z11V_snwprintfPwiPKwz"
+    },
+    {
+        "address": ".strtab::000027a0",
+        "length": 24,
+        "value": "_Z16Q_UChar32ToUTF16wPt"
+    },
+    {
+        "address": ".strtab::000027b8",
+        "length": 25,
+        "value": "_ZN10CUtlBuffer3PutEPKvi"
+    },
+    {
+        "address": ".strtab::000027d1",
+        "length": 36,
+        "value": "_ZN10CUtlBuffer16PeekStringLengthEv"
+    },
+    {
+        "address": ".strtab::000027f5",
+        "length": 30,
+        "value": "_ZN14ConCommandBaseC1EPKcS1_i"
+    },
+    {
+        "address": ".strtab::00002813",
+        "length": 32,
+        "value": "_ZN10CUtlString12GetForModifyEv"
+    },
+    {
+        "address": ".strtab::00002833",
+        "length": 46,
+        "value": "_Z23ConVar_PrintDescriptionPK14ConCommandBase"
+    },
+    {
+        "address": ".strtab::00002861",
+        "length": 29,
+        "value": "_ZNK10CUtlString7AbsPathEPKc"
+    },
+    {
+        "address": ".strtab::0000287e",
+        "length": 56,
+        "value": "_ZN18CUtlCharConversionC1EcPKciPNS_17ConversionArray_tE"
+    },
+    {
+        "address": ".strtab::000028b6",
+        "length": 18,
+        "value": "s_NoEscConversion"
+    },
+    {
+        "address": ".strtab::000028c8",
+        "length": 28,
+        "value": "_ZN10CUtlMemoryIhiE5PurgeEv"
+    },
+    {
+        "address": ".strtab::000028e4",
+        "length": 25,
+        "value": "_Z19Q_UChar32ToUTF16Lenw"
+    },
+    {
+        "address": ".strtab::000028fd",
+        "length": 22,
+        "value": "_ZN10CUtlStringpLEPKc"
+    },
+    {
+        "address": ".strtab::00002913",
+        "length": 22,
+        "value": "_Z15V_StripFilenamePc"
+    },
+    {
+        "address": ".strtab::00002929",
+        "length": 77,
+        "value": "_ZN21CUtlCStringConversionC2EcPKciPN18CUtlCharConversion17ConversionArray_tE"
+    },
+    {
+        "address": ".strtab::00002976",
+        "length": 30,
+        "value": "_ZN12InterfaceRegC2EPFPvvEPKc"
+    },
+    {
+        "address": ".strtab::00002994",
+        "length": 48,
+        "value": "_ZNK18CUtlCharConversion19GetConversionLengthEc"
+    },
+    {
+        "address": ".strtab::000029c4",
+        "length": 41,
+        "value": "_ZN14ConCommandBase18s_pConCommandBasesE"
+    },
+    {
+        "address": ".strtab::000029ed",
+        "length": 32,
+        "value": "_Z18V_MakeRelativePathPKcS0_Pci"
+    },
+    {
+        "address": ".strtab::00002a0d",
+        "length": 31,
+        "value": "_ZN14ConCommandBase8ShutdownEv"
+    },
+    {
+        "address": ".strtab::00002a2c",
+        "length": 35,
+        "value": "_ZN11CLZMAStream4ReadEPhjS0_jRjS1_"
+    },
+    {
+        "address": ".strtab::00002a4f",
+        "length": 23,
+        "value": "_ZNK10CUtlString3GetEv"
+    },
+    {
+        "address": ".strtab::00002a66",
+        "length": 23,
+        "value": "_Z15Q_UnicodeLengthPKw"
+    },
+    {
+        "address": ".strtab::00002a7d",
+        "length": 31,
+        "value": "_ZN10CUtlBuffer11IsBigEndianEv"
+    },
+    {
+        "address": ".strtab::00002a9c",
+        "length": 22,
+        "value": "_Z14V_StripLastDirPci"
+    },
+    {
+        "address": ".strtab::00002ab2",
+        "length": 30,
+        "value": "_Unwind_FindEnclosingFunction"
+    },
+    {
+        "address": ".strtab::00002ad0",
+        "length": 22,
+        "value": "__x86.get_pc_thunk.bx"
+    },
+    {
+        "address": ".strtab::00002ae6",
+        "length": 41,
+        "value": "_Z30StringAfterPrefixCaseSensitivePKcS0_"
+    },
+    {
+        "address": ".strtab::00002b0f",
+        "length": 31,
+        "value": "_ZN12CEmptyConVar8SetValueEPKc"
+    },
+    {
+        "address": ".strtab::00002b2e",
+        "length": 45,
+        "value": "_ZN10CUtlBuffer16SetOverflowFuncsEMS_FbiES1_"
+    },
+    {
+        "address": ".strtab::00002b5b",
+        "length": 20,
+        "value": "_Z12V_pretifymemfib"
+    },
+    {
+        "address": ".strtab::00002b6f",
+        "length": 41,
+        "value": "_ZN10CUtlBuffer17SetExternalBufferEPviii"
+    },
+    {
+        "address": ".strtab::00002b98",
+        "length": 26,
+        "value": "_Z18V_GetFileExtensionPKc"
+    },
+    {
+        "address": ".strtab::00002bb2",
+        "length": 40,
+        "value": "_ZTI14CBaseAppSystemI15ISceneFileCacheE"
+    },
+    {
+        "address": ".strtab::00002bda",
+        "length": 24,
+        "value": "_ZN6ConVar8SetValueEPKc"
+    },
+    {
+        "address": ".strtab::00002bf2",
+        "length": 20,
+        "value": "_ZN9ConVarRefC1EPKc"
+    },
+    {
+        "address": ".strtab::00002c06",
+        "length": 24,
+        "value": "_ZN10CUtlString5PurgeEv"
+    },
+    {
+        "address": ".strtab::00002c1e",
+        "length": 17,
+        "value": "_ZTI10ConCommand"
+    },
+    {
+        "address": ".strtab::00002c2f",
+        "length": 24,
+        "value": "_ZN14ConCommandBaseD2Ev"
+    },
+    {
+        "address": ".strtab::00002c47",
+        "length": 12,
+        "value": "__TMC_END__"
+    },
+    {
+        "address": ".strtab::00002c53",
+        "length": 29,
+        "value": "_ZNK10ConCommand9IsCommandEv"
+    },
+    {
+        "address": ".strtab::00002c70",
+        "length": 22,
+        "value": "_Z10V_StrRightPKciPci"
+    },
+    {
+        "address": ".strtab::00002c86",
+        "length": 77,
+        "value": "_ZN21CUtlCStringConversionC1EcPKciPN18CUtlCharConversion17ConversionArray_tE"
+    },
+    {
+        "address": ".strtab::00002cd3",
+        "length": 26,
+        "value": "_Z15V_FixupPathNamePcjPKc"
+    },
+    {
+        "address": ".strtab::00002ced",
+        "length": 43,
+        "value": "_ZN10CUtlBuffer21CheckArbitraryPeekGetEiRi"
+    },
+    {
+        "address": ".strtab::00002d18",
+        "length": 28,
+        "value": "__register_frame_info_bases"
+    },
+    {
+        "address": ".strtab::00002d34",
+        "length": 59,
+        "value": "_ZN10CUtlVectorIPc10CUtlMemoryIS0_iEE12InsertBeforeEiRKS0_"
+    },
+    {
+        "address": ".strtab::00002d6f",
+        "length": 36,
+        "value": "_ZN14ConCommandBase10CopyStringEPKc"
+    },
+    {
+        "address": ".strtab::00002d93",
+        "length": 24,
+        "value": "_ZN10CUtlBufferC1EPKvii"
+    },
+    {
+        "address": ".strtab::00002dab",
+        "length": 11,
+        "value": "filesystem"
+    },
+    {
+        "address": ".strtab::00002db6",
+        "length": 13,
+        "value": "__dso_handle"
+    },
+    {
+        "address": ".strtab::00002dc3",
+        "length": 31,
+        "value": "_ZN6ConVar14SetServerValueEPKc"
+    },
+    {
+        "address": ".strtab::00002de2",
+        "length": 21,
+        "value": "_Z9_V_memsetPKciPvii"
+    },
+    {
+        "address": ".strtab::00002df7",
+        "length": 25,
+        "value": "_Z13V_binarytohexPKhiPci"
+    },
+    {
+        "address": ".strtab::00002e10",
+        "length": 29,
+        "value": "_Z21V_GetCurrentDirectoryPci"
+    },
+    {
+        "address": ".strtab::00002e2d",
+        "length": 18,
+        "value": "_Z9V_stristrPcPKc"
+    },
+    {
+        "address": ".strtab::00002e3f",
+        "length": 55,
+        "value": "_ZN10ConCommandC2EPKcPFvRK8CCommandES1_iPFiS1_PA128_cE"
+    },
+    {
+        "address": ".strtab::00002e76",
+        "length": 29,
+        "value": "_ZN12CEmptyConVar8SetValueEf"
+    },
+    {
+        "address": ".strtab::00002e93",
+        "length": 23,
+        "value": "_ZTI16CDefaultAccessor"
+    },
+    {
+        "address": ".strtab::00002eaa",
+        "length": 34,
+        "value": "_ZN6ConVar19InternalSetIntValueEi"
+    },
+    {
+        "address": ".strtab::00002ecc",
+        "length": 40,
+        "value": "_ZTS14CBaseAppSystemI15ISceneFileCacheE"
+    },
+    {
+        "address": ".strtab::00002ef4",
+        "length": 19,
+        "value": "_ZTS12CEmptyConVar"
+    },
+    {
+        "address": ".strtab::00002f07",
+        "length": 35,
+        "value": "_ZNK10CUtlString14StripExtensionEv"
+    },
+    {
+        "address": ".strtab::00002f2a",
+        "length": 31,
+        "value": "_ZN10CUtlBuffer11GetOverflowEi"
+    },
+    {
+        "address": ".strtab::00002f49",
+        "length": 62,
+        "value": "_Z14V_SplitString2PKcPS0_iR10CUtlVectorIPc10CUtlMemoryIS3_iEE"
+    },
+    {
+        "address": ".strtab::00002f87",
+        "length": 51,
+        "value": "_Z13Q_UTF8ToUTF32PKcPwi25EStringConvertErrorPolicy"
+    },
+    {
+        "address": ".strtab::00002fba",
+        "length": 31,
+        "value": "_ZN10CUtlBuffer11PutOverflowEi"
+    },
+    {
+        "address": ".strtab::00002fd9",
+        "length": 47,
+        "value": "_ZN11CLZMAStream25GetExpectedBytesRemainingERj"
+    },
+    {
+        "address": ".strtab::00003008",
+        "length": 35,
+        "value": "_ZN11CLZMAStream13InitZIPHeaderEjj"
+    },
+    {
+        "address": ".strtab::0000302b",
+        "length": 25,
+        "value": "_ZN10CUtlBuffer4SwapERS_"
+    },
+    {
+        "address": ".strtab::00003044",
+        "length": 32,
+        "value": "_ZNK10CUtlString7ReplaceEPKcS1_"
+    },
+    {
+        "address": ".strtab::00003064",
+        "length": 34,
+        "value": "_ZN14ConCommandBase11s_pAccessorE"
+    },
+    {
+        "address": ".strtab::00003086",
+        "length": 24,
+        "value": "_Unwind_DeleteException"
+    },
+    {
+        "address": ".strtab::0000309e",
+        "length": 29,
+        "value": "_Z22V_normalizeFloatStringPc"
+    },
+    {
+        "address": ".strtab::000030bb",
+        "length": 35,
+        "value": "_ZThn24_N12CEmptyConVar8SetValueEf"
+    },
+    {
+        "address": ".strtab::000030de",
+        "length": 41,
+        "value": "_ZNK18CUtlCharConversion12GetDelimiterEv"
+    },
+    {
+        "address": ".strtab::00003107",
+        "length": 33,
+        "value": "_Z23CreateInterfaceInternalPKcPi"
+    },
+    {
+        "address": ".strtab::00003128",
+        "length": 31,
+        "value": "_Z17V_ComposeFileNamePKcS0_Pci"
+    },
+    {
+        "address": ".strtab::00003147",
+        "length": 33,
+        "value": "_ZNK14ConCommandBase9IsFlagSetEi"
+    },
+    {
+        "address": ".strtab::00003168",
+        "length": 22,
+        "value": "_ZN6ConVar8SetValueEi"
+    },
+    {
+        "address": ".strtab::0000317e",
+        "length": 36,
+        "value": "_Z21DefaultCompletionFuncPKcPA128_c"
+    },
+    {
+        "address": ".strtab::000031a2",
+        "length": 25,
+        "value": "_ZNK9ConVarRef7IsValidEv"
+    },
+    {
+        "address": ".strtab::000031bb",
+        "length": 25,
+        "value": "_ZN15CSceneFileCacheD1Ev"
+    },
+    {
+        "address": ".strtab::000031d4",
+        "length": 24,
+        "value": "_ZNK10CUtlStringplERKS_"
+    },
+    {
+        "address": ".strtab::000031ec",
+        "length": 30,
+        "value": "_ZN14ConCommandBaseC2EPKcS1_i"
+    },
+    {
+        "address": ".strtab::0000320a",
+        "length": 21,
+        "value": "_ZN8CCommandC1EiPPKc"
+    },
+    {
+        "address": ".strtab::0000321f",
+        "length": 34,
+        "value": "_ZN10CUtlBuffer14PeekLineLengthEv"
+    },
+    {
+        "address": ".strtab::00003241",
+        "length": 22,
+        "value": "_Z10V_strtowcsPKciPwi"
+    },
+    {
+        "address": ".strtab::00003257",
+        "length": 28,
+        "value": "_ZThn24_N6ConVar8SetValueEf"
+    },
+    {
+        "address": ".strtab::00003273",
+        "length": 24,
+        "value": "_Z16Q_UnicodeAdvancePwi"
+    },
+    {
+        "address": ".strtab::0000328b",
+        "length": 30,
+        "value": "_ZN15CSceneFileCache6ReloadEv"
+    },
+    {
+        "address": ".strtab::000032a9",
+        "length": 27,
+        "value": "_ZTS20ConVar_ServerBounded"
+    },
+    {
+        "address": ".strtab::000032c4",
+        "length": 23,
+        "value": "_Unwind_GetTextRelBase"
+    },
+    {
+        "address": ".strtab::000032db",
+        "length": 25,
+        "value": "_Z17Q_UnicodeValidatePKw"
+    },
+    {
+        "address": ".strtab::000032f4",
+        "length": 28,
+        "value": "_ZTS21CUtlCStringConversion"
+    },
+    {
+        "address": ".strtab::00003310",
+        "length": 24,
+        "value": "_Z9_V_memcmpPKciPKvS2_i"
+    },
+    {
+        "address": ".strtab::00003328",
+        "length": 15,
+        "value": "_Z8V_atoi64PKc"
+    },
+    {
+        "address": ".strtab::00003337",
+        "length": 20,
+        "value": "_ZN10CUtlStringpLEd"
+    },
+    {
+        "address": ".strtab::0000334b",
+        "length": 34,
+        "value": "_ZN10CUtlBuffer14EnsureCapacityEi"
+    },
+    {
+        "address": ".strtab::0000336d",
+        "length": 32,
+        "value": "_Z18V_MakeAbsolutePathPciPKcS1_"
+    },
+    {
+        "address": ".strtab::0000338d",
+        "length": 13,
+        "value": "_Z6V_atofPKc"
+    },
+    {
+        "address": ".strtab::0000339a",
+        "length": 14,
+        "value": "_Unwind_SetIP"
+    },
+    {
+        "address": ".strtab::000033a8",
+        "length": 31,
+        "value": "_ZN16CDllDemandLoader6UnloadEv"
+    },
+    {
+        "address": ".strtab::000033c7",
+        "length": 56,
+        "value": "_ZN18CUtlCharConversionC2EcPKciPNS_17ConversionArray_tE"
+    },
+    {
+        "address": ".strtab::000033ff",
+        "length": 20,
+        "value": "_Z11AllocStringPKci"
+    },
+    {
+        "address": ".strtab::00003413",
+        "length": 38,
+        "value": "_ZN10CUtlBuffer10ParseTokenEPKcS1_Pci"
+    },
+    {
+        "address": ".strtab::00003439",
+        "length": 21,
+        "value": "_ZN9ConVarRefC2EPKcb"
+    },
+    {
+        "address": ".strtab::0000344e",
+        "length": 17,
+        "value": "_ZTV10ConCommand"
+    },
+    {
+        "address": ".strtab::0000345f",
+        "length": 42,
+        "value": "_ZN10CUtlBuffer7SeekGetENS_10SeekType_tEi"
+    },
+    {
+        "address": ".strtab::00003489",
+        "length": 45,
+        "value": "_Z38Q_StripPrecedingAndTrailingWhitespaceWPw"
+    },
+    {
+        "address": ".strtab::000034b6",
+        "length": 40,
+        "value": "_ZNK10CUtlString19UnqualifiedFilenameEv"
+    },
+    {
+        "address": ".strtab::000034de",
+        "length": 24,
+        "value": "_Z13_V_UCS2ToUTF8PKtPci"
+    },
+    {
+        "address": ".strtab::000034f6",
+        "length": 39,
+        "value": "_ZN11CLZMAStream14TryParseHeaderEPhjRj"
+    },
+    {
+        "address": ".strtab::0000351d",
+        "length": 32,
+        "value": "_Z19Q_URLDecodeInternalPciPKcib"
+    },
+    {
+        "address": ".strtab::0000353d",
+        "length": 22,
+        "value": "_ZN12CEmptyConVarD1Ev"
+    },
+    {
+        "address": ".strtab::00003553",
+        "length": 20,
+        "value": "_Z9V_wcsncatPwPKwji"
+    },
+    {
+        "address": ".strtab::00003567",
+        "length": 65,
+        "value": "_ZN15CSceneFileCache18GetSceneCachedDataEPKcP17SceneCachedData_t"
+    },
+    {
+        "address": ".strtab::000035a8",
+        "length": 33,
+        "value": "_Z27Sys_RunningWithDebugModulesv"
+    },
+    {
+        "address": ".strtab::000035c9",
+        "length": 43,
+        "value": "_ZN15CSceneFileCache16FindSceneInImageEPKc"
+    },
+    {
+        "address": ".strtab::000035f4",
+        "length": 22,
+        "value": "_Z16Q_IsValidUChar32w"
+    },
+    {
+        "address": ".strtab::0000360a",
+        "length": 51,
+        "value": "_Z13Q_UTF32ToUTF8PKwPci25EStringConvertErrorPolicy"
+    },
+    {
+        "address": ".strtab::0000363d",
+        "length": 23,
+        "value": "_Z15GetModuleHandlePKc"
+    },
+    {
+        "address": ".strtab::00003654",
+        "length": 31,
+        "value": "_ZN14ConCommandBase8AddFlagsEi"
+    },
+    {
+        "address": ".strtab::00003673",
+        "length": 25,
+        "value": "_Z19CRC32_GetTableEntryj"
+    },
+    {
+        "address": ".strtab::0000368c",
+        "length": 23,
+        "value": "_Z17ConVar_Unregisterv"
+    },
+    {
+        "address": ".strtab::000036a3",
+        "length": 46,
+        "value": "_ZNK10CUtlString23IsEqual_CaseInsensitiveEPKc"
+    },
+    {
+        "address": ".strtab::000036d1",
+        "length": 20,
+        "value": "_Z12V_FixSlashesPcc"
+    },
+    {
+        "address": ".strtab::000036e5",
+        "length": 24,
+        "value": "_ZN10CUtlBuffer3GetEPvi"
+    },
+    {
+        "address": ".strtab::000036fd",
+        "length": 32,
+        "value": "_Z25Q_RemoveAllEvilCharactersPc"
+    },
+    {
+        "address": ".strtab::0000371d",
+        "length": 19,
+        "value": "_ZTV12CEmptyConVar"
+    },
+    {
+        "address": ".strtab::00003730",
+        "length": 17,
+        "value": "_ZN8CCommandC2Ev"
+    },
+    {
+        "address": ".strtab::00003741",
+        "length": 26,
+        "value": "_ZTV19CUtlNoEscConversion"
+    },
+    {
+        "address": ".strtab::0000375b",
+        "length": 34,
+        "value": "_ZN10CUtlBuffer14PeekWhiteSpaceEi"
+    },
+    {
+        "address": ".strtab::0000377d",
+        "length": 56,
+        "value": "_ZN10CUtlBuffer16GetDelimitedCharEP18CUtlCharConversion"
+    },
+    {
+        "address": ".strtab::000037b5",
+        "length": 20,
+        "value": "_ZN10CUtlStringD2Ev"
+    },
+    {
+        "address": ".strtab::000037c9",
+        "length": 46,
+        "value": "_ZN18CUtlCharConversion14FindConversionEPKcPi"
+    },
+    {
+        "address": ".strtab::000037f7",
+        "length": 28,
+        "value": "_ZN6ConVarC2EPKcS1_iS1_bfbf"
+    },
+    {
+        "address": ".strtab::00003813",
+        "length": 21,
+        "value": "_ZTS14ConCommandBase"
+    },
+    {
+        "address": ".strtab::00003828",
+        "length": 30,
+        "value": "_ZN14ConCommandBase7GetNextEv"
+    },
+    {
+        "address": ".strtab::00003846",
+        "length": 26,
+        "value": "_ZN9ConVarRefC2EP7IConVar"
+    },
+    {
+        "address": ".strtab::00003860",
+        "length": 21,
+        "value": "_ZN8CCommand5ResetEv"
+    },
+    {
+        "address": ".strtab::00003875",
+        "length": 27,
+        "value": "_Z20V_StripTrailingSlashPc"
+    },
+    {
+        "address": ".strtab::00003890",
+        "length": 48,
+        "value": "_ZN17CUtlInplaceBuffer17InplaceGetLinePtrEPPcPi"
+    },
+    {
+        "address": ".strtab::000038c0",
+        "length": 37,
+        "value": "_ZN11CLZMAStream16FreeDecoderStateEv"
+    },
+    {
+        "address": ".strtab::000038e5",
+        "length": 17,
+        "value": "__register_frame"
+    },
+    {
+        "address": ".strtab::000038f6",
+        "length": 20,
+        "value": "_ZN6ConVar6RevertEv"
+    },
+    {
+        "address": ".strtab::0000390a",
+        "length": 21,
+        "value": "_ZN11CLZMAStreamC1Ev"
+    },
+    {
+        "address": ".strtab::0000391f",
+        "length": 23,
+        "value": "_Z15Q_UChar32ToUTF8wPc"
+    },
+    {
+        "address": ".strtab::00003936",
+        "length": 49,
+        "value": "_ZN21CUtlCStringConversion14FindConversionEPKcPi"
+    },
+    {
+        "address": ".strtab::00003967",
+        "length": 21,
+        "value": "_Z13V_AppendSlashPci"
+    },
+    {
+        "address": ".strtab::0000397c",
+        "length": 36,
+        "value": "_ZN6ConVar21InternalSetFloatValueEf"
+    },
+    {
+        "address": ".strtab::000039a0",
+        "length": 27,
+        "value": "_Z16_V_UCS2ToUnicodePKtPwi"
+    },
+    {
+        "address": ".strtab::000039bb",
+        "length": 22,
+        "value": "LzmaDec_AllocateProbs"
+    },
+    {
+        "address": ".strtab::000039d1",
+        "length": 31,
+        "value": "_ZN10CUtlString11AllocMemoryEj"
+    },
+    {
+        "address": ".strtab::000039f0",
+        "length": 58,
+        "value": "_Z19Q_UTF32CharsToUTF16PKwiPti25EStringConvertErrorPolicy"
+    },
+    {
+        "address": ".strtab::00003a2a",
+        "length": 26,
+        "value": "_ZN16CDllDemandLoaderD1Ev"
+    },
+    {
+        "address": ".strtab::00003a44",
+        "length": 52,
+        "value": "_Z14Q_UTF16ToUTF32PKtPwi25EStringConvertErrorPolicy"
+    },
+    {
+        "address": ".strtab::00003a78",
+        "length": 29,
+        "value": "_Z21V_UnqualifiedFileNamePKc"
+    },
+    {
+        "address": ".strtab::00003a95",
+        "length": 20,
+        "value": "_Z9V_strncatPcPKcji"
+    },
+    {
+        "address": ".strtab::00003aa9",
+        "length": 28,
+        "value": "_ZNK10CUtlString7ReplaceEcc"
+    },
+    {
+        "address": ".strtab::00003ac5",
+        "length": 27,
+        "value": "_ZN10CUtlMemoryIhiE4GrowEi"
+    },
+    {
+        "address": ".strtab::00003ae0",
+        "length": 20,
+        "value": "_Z9_V_wcslenPKciPKw"
+    },
+    {
+        "address": ".strtab::00003af4",
+        "length": 28,
+        "value": "_ZN10CUtlString6AppendEPKci"
+    },
+    {
+        "address": ".strtab::00003b10",
+        "length": 45,
+        "value": "_ZN10ConCommandC1EPKcPFvvES1_iPFiS1_PA128_cE"
+    },
+    {
+        "address": ".strtab::00003b3d",
+        "length": 32,
+        "value": "_ZN10CUtlString8PathJoinEPKcS1_"
+    },
+    {
+        "address": ".strtab::00003b5d",
+        "length": 52,
+        "value": "_ZN6ConVar21InstallChangeCallbackEPFvP7IConVarPKcfE"
+    },
+    {
+        "address": ".strtab::00003b91",
+        "length": 28,
+        "value": "_ZN5CLZMA10UncompressEPhS0_"
+    },
+    {
+        "address": ".strtab::00003bad",
+        "length": 33,
+        "value": "_Z22V_ExtractFileExtensionPKcPci"
+    },
+    {
+        "address": ".strtab::00003bce",
+        "length": 44,
+        "value": "_ZN17CUtlInplaceBuffer17InplaceGetLinePtrEv"
+    },
+    {
+        "address": ".strtab::00003bfa",
+        "length": 22,
+        "value": "_Z10V_strnistrPKcS0_i"
+    },
+    {
+        "address": ".strtab::00003c10",
+        "length": 41,
+        "value": "_Z29BGetLocalFormattedDateAndTimelPciS_i"
+    },
+    {
+        "address": ".strtab::00003c39",
+        "length": 30,
+        "value": "_ZThn24_NK6ConVar9IsFlagSetEi"
+    },
+    {
+        "address": ".strtab::00003c57",
+        "length": 45,
+        "value": "_ZN6ConVarC2EPKcS1_iS1_bfbfPFvP7IConVarS1_fE"
+    },
+    {
+        "address": ".strtab::00003c84",
+        "length": 55,
+        "value": "_ZN10ConCommandC1EPKcPFvRK8CCommandES1_iPFiS1_PA128_cE"
+    },
+    {
+        "address": ".strtab::00003cbb",
+        "length": 28,
+        "value": "_Z17StringAfterPrefixPKcS0_"
+    },
+    {
+        "address": ".strtab::00003cd7",
+        "length": 47,
+        "value": "_Z15ConVar_RegisteriP23IConCommandBaseAccessor"
+    },
+    {
+        "address": ".strtab::00003d06",
+        "length": 35,
+        "value": "_ZN10ConCommand15CanAutoCompleteEv"
+    },
+    {
+        "address": ".strtab::00003d29",
+        "length": 32,
+        "value": "_ZN15CSceneFileCache8ShutdownEv"
+    },
+    {
+        "address": ".strtab::00003d49",
+        "length": 23,
+        "value": "s_StringCharConversion"
+    },
+    {
+        "address": ".strtab::00003d60",
+        "length": 28,
+        "value": "_Z22GetNoEscCharConversionv"
+    },
+    {
+        "address": ".strtab::00003d7c",
+        "length": 18,
+        "value": "__frame_state_for"
+    },
+    {
+        "address": ".strtab::00003d8e",
+        "length": 29,
+        "value": "_ZN17CUtlInplaceBufferC2Eiii"
+    },
+    {
+        "address": ".strtab::00003dab",
+        "length": 28,
+        "value": "_ZN10CUtlString9SetLengthEi"
+    },
+    {
+        "address": ".strtab::00003dc7",
+        "length": 45,
+        "value": "_ZN6ConVarC1EPKcS1_iS1_bfbfPFvP7IConVarS1_fE"
+    },
+    {
+        "address": ".strtab::00003df4",
+        "length": 21,
+        "value": "_Unwind_ForcedUnwind"
+    },
+    {
+        "address": ".strtab::00003e09",
+        "length": 64,
+        "value": "_ZN16CDefaultAccessor22RegisterConCommandBaseEP14ConCommandBase"
+    },
+    {
+        "address": ".strtab::00003e49",
+        "length": 29,
+        "value": "_ZN10CUtlBuffer8GetTokenEPKc"
+    },
+    {
+        "address": ".strtab::00003e66",
+        "length": 18,
+        "value": "_Z9V_strnchrPKcci"
+    },
+    {
+        "address": ".strtab::00003e78",
+        "length": 22,
+        "value": "_ZTS15ISceneFileCache"
+    },
+    {
+        "address": ".strtab::00003e8e",
+        "length": 24,
+        "value": "_Z16Q_UnicodeAdvancePci"
+    },
+    {
+        "address": ".strtab::00003ea6",
+        "length": 33,
+        "value": "_Z15Sys_LoadLibraryPKc9Sys_Flags"
+    },
+    {
+        "address": ".strtab::00003ec7",
+        "length": 19,
+        "value": "_Z13iHexCharToIntc"
+    },
+    {
+        "address": ".strtab::00003eda",
+        "length": 29,
+        "value": "_ZN10CUtlString8TrimLeftEPKc"
+    },
+    {
+        "address": ".strtab::00003ef7",
+        "length": 31,
+        "value": "_Z9V_qsort_sPvjjPFiS_PKvS1_ES_"
+    },
+    {
+        "address": ".strtab::00003f16",
+        "length": 24,
+        "value": "_ZN10CUtlBufferC2EPKvii"
+    },
+    {
+        "address": ".strtab::00003f2e",
+        "length": 17,
+        "value": "_Z10CRC64_InitPy"
+    },
+    {
+        "address": ".strtab::00003f3f",
+        "length": 57,
+        "value": "_Z18Q_UTF32CharsToUTF8PKwiPci25EStringConvertErrorPolicy"
+    },
+    {
+        "address": ".strtab::00003f78",
+        "length": 13,
+        "value": "_ZTS7IConVar"
+    },
+    {
+        "address": ".strtab::00003f85",
+        "length": 55,
+        "value": "_Z48Q_AggressiveStripPrecedingAndTrailingWhitespaceWPw"
+    },
+    {
+        "address": ".strtab::00003fbc",
+        "length": 47,
+        "value": "_ZNK18CUtlCharConversion18GetDelimiterLengthEv"
+    },
+    {
+        "address": ".strtab::00003feb",
+        "length": 22,
+        "value": "_ZTV15CSceneFileCache"
+    },
+    {
+        "address": ".strtab::00004001",
+        "length": 26,
+        "value": "_ZN9ConVarRefC1EP7IConVar"
+    },
+    {
+        "address": ".strtab::0000401b",
+        "length": 24,
+        "value": "_ZNK10CUtlStringeqERKS_"
+    },
+    {
+        "address": ".strtab::00004033",
+        "length": 38,
+        "value": "_ZN10CUtlMemoryI10CUtlStringiE4GrowEi"
+    },
+    {
+        "address": ".strtab::00004059",
+        "length": 22,
+        "value": "_Z10V_strnicmpPKcS0_i"
+    },
+    {
+        "address": ".strtab::0000406f",
+        "length": 23,
+        "value": "_ZTV16CDllDemandLoader"
+    },
+    {
+        "address": ".strtab::00004086",
+        "length": 28,
+        "value": "_ZN10CUtlBuffer6PrintfEPKcz"
+    },
+    {
+        "address": ".strtab::000040a2",
+        "length": 26,
+        "value": "_Z18V_RemoveDotSlashesPcc"
+    },
+    {
+        "address": ".strtab::000040bc",
+        "length": 19,
+        "value": "_Z9V_strncpyPcPKcj"
+    },
+    {
+        "address": ".strtab::000040cf",
+        "length": 37,
+        "value": "_ZN12InterfaceReg16s_pInterfaceRegsE"
+    },
+    {
+        "address": ".strtab::000040f4",
+        "length": 23,
+        "value": "_Unwind_GetDataRelBase"
+    },
+    {
+        "address": ".strtab::0000410b",
+        "length": 26,
+        "value": "_ZN10CUtlString7ToLowerEv"
+    },
+    {
+        "address": ".strtab::00004125",
+        "length": 38,
+        "value": "_Z21ConnectTier1LibrariesPPFPvPKcPiEi"
+    },
+    {
+        "address": ".strtab::0000414b",
+        "length": 27,
+        "value": "_ZN10CUtlBuffer8CheckPutEi"
+    },
+    {
+        "address": ".strtab::00004166",
+        "length": 22,
+        "value": "_ZN12CEmptyConVarD2Ev"
+    },
+    {
+        "address": ".strtab::0000417c",
+        "length": 24,
+        "value": "_ZN6ConVarC1EPKcS1_iS1_"
+    },
+    {
+        "address": ".strtab::00004194",
+        "length": 27,
+        "value": "_ZN10CUtlBuffer8CheckGetEi"
+    },
+    {
+        "address": ".strtab::000041af",
+        "length": 20,
+        "value": "_ZN10CUtlStringpLEi"
+    },
+    {
+        "address": ".strtab::000041c3",
+        "length": 28,
+        "value": "_ZN10CUtlString9TrimRightEc"
+    },
+    {
+        "address": ".strtab::000041df",
+        "length": 28,
+        "value": "_ZThn24_N6ConVar8SetValueEi"
+    },
+    {
+        "address": ".strtab::000041fb",
+        "length": 42,
+        "value": "_ZN10CUtlBuffer7SeekPutENS_10SeekType_tEi"
+    },
+    {
+        "address": ".strtab::00004225",
+        "length": 28,
+        "value": "_ZTV21CUtlCStringConversion"
+    },
+    {
+        "address": ".strtab::00004241",
+        "length": 21,
+        "value": "_ZN11CLZMAStreamC2Ev"
+    },
+    {
+        "address": ".strtab::00004256",
+        "length": 23,
+        "value": "_Unwind_GetRegionStart"
+    },
+    {
+        "address": ".strtab::0000426d",
+        "length": 24,
+        "value": "_Z18Q_UChar32ToUTF8Lenw"
+    },
+    {
+        "address": ".strtab::00004285",
+        "length": 41,
+        "value": "_ZNK14ConCommandBase16GetDLLIdentifierEv"
+    },
+    {
+        "address": ".strtab::000042ae",
+        "length": 25,
+        "value": "_Z18V_FixDoubleSlashesPc"
+    },
+    {
+        "address": ".strtab::000042c7",
+        "length": 69,
+        "value": "_ZN10CUtlVectorI10CUtlString10CUtlMemoryIS0_iEE12InsertBeforeEiRKS0_"
+    },
+    {
+        "address": ".strtab::0000430c",
+        "length": 17,
+        "value": "LzmaProps_Decode"
+    },
+    {
+        "address": ".strtab::0000431d",
+        "length": 23,
+        "value": "_ZN10CUtlString4TrimEc"
+    },
+    {
+        "address": ".strtab::00004334",
+        "length": 45,
+        "value": "_ZN15CSceneFileCache19GetSceneCachedSoundEii"
+    },
+    {
+        "address": ".strtab::00004361",
+        "length": 45,
+        "value": "_ZN10ConCommandC2EPKcPFvvES1_iPFiS1_PA128_cE"
+    },
+    {
+        "address": ".strtab::0000438e",
+        "length": 20,
+        "value": "_Z9V_strncmpPKcS0_i"
+    },
+    {
+        "address": ".strtab::000043a2",
+        "length": 25,
+        "value": "_Z17Q_UnicodeValidatePKt"
+    },
+    {
+        "address": ".strtab::000043bb",
+        "length": 26,
+        "value": "_ZN16CDllDemandLoaderD0Ev"
+    },
+    {
+        "address": ".strtab::000043d5",
+        "length": 41,
+        "value": "_ZN6ConVarC1EPKcS1_iS1_PFvP7IConVarS1_fE"
+    },
+    {
+        "address": ".strtab::000043fe",
+        "length": 18,
+        "value": "_Z11CRC32_FinalPj"
+    },
+    {
+        "address": ".strtab::00004410",
+        "length": 31,
+        "value": "_ZNK12CEmptyConVar9IsFlagSetEi"
+    },
+    {
+        "address": ".strtab::0000442f",
+        "length": 14,
+        "value": "_Unwind_SetGR"
+    },
+    {
+        "address": ".strtab::0000443d",
+        "length": 25,
+        "value": "_ZNK10CUtlString5RightEi"
+    },
+    {
+        "address": ".strtab::00004456",
+        "length": 23,
+        "value": "_Z11Q_URLDecodePciPKci"
+    },
+    {
+        "address": ".strtab::0000446d",
+        "length": 21,
+        "value": "_Z10V_FileBasePKcPci"
+    },
+    {
+        "address": ".strtab::00004482",
+        "length": 8,
+        "value": "g_pCVar"
+    },
+    {
+        "address": ".strtab::0000448a",
+        "length": 40,
+        "value": "_Z17ConVar_PrintFlagsPK14ConCommandBase"
+    },
+    {
+        "address": ".strtab::000044b2",
+        "length": 17,
+        "value": "LzmaDec_Allocate"
+    },
+    {
+        "address": ".strtab::000044c3",
+        "length": 22,
+        "value": "_ZTI15CSceneFileCache"
+    },
+    {
+        "address": ".strtab::000044d9",
+        "length": 22,
+        "value": "_Z9_V_strcpyPKciPcS0_"
+    },
+    {
+        "address": ".strtab::000044ef",
+        "length": 31,
+        "value": "_ZNK14ConCommandBase7GetNextEv"
+    },
+    {
+        "address": ".strtab::0000450e",
+        "length": 35,
+        "value": "_ZThn24_N12CEmptyConVar8SetValueEi"
+    },
+    {
+        "address": ".strtab::00004531",
+        "length": 8,
+        "value": "qsort_s"
+    },
+    {
+        "address": ".strtab::00004539",
+        "length": 29,
+        "value": "_ZNK12CEmptyConVar7GetNameEv"
+    },
+    {
+        "address": ".strtab::00004556",
+        "length": 28,
+        "value": "_ZN15CSceneFileCache4InitEv"
+    },
+    {
+        "address": ".strtab::00004572",
+        "length": 21,
+        "value": "_ZN9ConVarRefC1EPKcb"
+    },
+    {
+        "address": ".strtab::00004587",
+        "length": 17,
+        "value": "_Unwind_Find_FDE"
+    },
+    {
+        "address": ".strtab::00004598",
+        "length": 13,
+        "value": "_Z6V_atoiPKc"
+    },
+    {
+        "address": ".strtab::000045a5",
+        "length": 22,
+        "value": "_Z10V_snprintfPciPKcz"
+    },
+    {
+        "address": ".strtab::000045bb",
+        "length": 21,
+        "value": "_ZTI14ConCommandBase"
+    },
+    {
+        "address": ".strtab::000045d0",
+        "length": 24,
+        "value": "_ZN10CUtlString5ClearEv"
+    },
+    {
+        "address": ".strtab::000045e8",
+        "length": 23,
+        "value": "_Z11Q_nexttokenPcPKccj"
+    },
+    {
+        "address": ".strtab::000045ff",
+        "length": 30,
+        "value": "_ZTI23IConCommandBaseAccessor"
+    },
+    {
+        "address": ".strtab::0000461d",
+        "length": 26,
+        "value": "_ZNK10CUtlString5SliceEii"
+    },
+    {
+        "address": ".strtab::00004637",
+        "length": 23,
+        "value": "_ZN10CUtlStringaSERKS_"
+    },
+    {
+        "address": ".strtab::0000464e",
+        "length": 20,
+        "value": "_Z9V_StrLeftPKciPci"
+    },
+    {
+        "address": ".strtab::00004662",
+        "length": 28,
+        "value": "_ZN6ConVarC1EPKcS1_iS1_bfbf"
+    },
+    {
+        "address": ".strtab::0000467e",
+        "length": 15,
+        "value": "_ZN6ConVarD1Ev"
+    },
+    {
+        "address": ".strtab::0000468d",
+        "length": 40,
+        "value": "_Z23LzmaDec_InitDicAndStateP8CLzmaDecii"
+    },
+    {
+        "address": ".strtab::000046b5",
+        "length": 53,
+        "value": "_ZN15CSceneFileCache21GetSceneDataFromImageEPKciPhPj"
+    },
+    {
+        "address": ".strtab::000046ea",
+        "length": 32,
+        "value": "_Z14Sys_LoadModulePKc9Sys_Flags"
+    },
+    {
+        "address": ".strtab::0000470a",
+        "length": 30,
+        "value": "_ZN10CUtlString7FormatVEPKcPc"
+    },
+    {
+        "address": ".strtab::00004728",
+        "length": 32,
+        "value": "_Z19Q_URLEncodeInternalPciPKcib"
+    },
+    {
+        "address": ".strtab::00004748",
+        "length": 27,
+        "value": "_ZN5CLZMA12IsCompressedEPh"
+    },
+    {
+        "address": ".strtab::00004763",
+        "length": 25,
+        "value": "_Z13V_hextobinaryPKciPhi"
+    },
+    {
+        "address": ".strtab::0000477c",
+        "length": 26,
+        "value": "_ZN6ConVar10ClampValueERf"
+    },
+    {
+        "address": ".strtab::00004796",
+        "length": 30,
+        "value": "_Z19CRC64_ProcessBufferPyPKvi"
+    },
+    {
+        "address": ".strtab::000047b4",
+        "length": 18,
+        "value": "_Unwind_GetIPInfo"
+    },
+    {
+        "address": ".strtab::000047c6",
+        "length": 28,
+        "value": "_ZN16CDllDemandLoaderC2EPKc"
+    },
+    {
+        "address": ".strtab::000047e2",
+        "length": 17,
+        "value": "_ZTS10ConCommand"
+    },
+    {
+        "address": ".strtab::000047f3",
+        "length": 22,
+        "value": "_ZNK6ConVar7GetNameEv"
+    },
+    {
+        "address": ".strtab::00004809",
+        "length": 14,
+        "value": "_Unwind_GetIP"
+    },
+    {
+        "address": ".strtab::00004817",
+        "length": 30,
+        "value": "_Z24GetCStringCharConversionv"
+    },
+    {
+        "address": ".strtab::00004835",
+        "length": 31,
+        "value": "_Z22BGetLocalFormattedDatelPci"
+    },
+    {
+        "address": ".strtab::00004854",
+        "length": 27,
+        "value": "_Z15Q_UTF8ToUChar32PKcRwRb"
+    },
+    {
+        "address": ".strtab::0000486f",
+        "length": 16,
+        "value": "_Z9V_strnlwrPcj"
+    },
+    {
+        "address": ".strtab::0000487f",
+        "length": 22,
+        "value": "__x86.get_pc_thunk.cx"
+    },
+    {
+        "address": ".strtab::00004895",
+        "length": 24,
+        "value": "_ZNK6ConVar9IsFlagSetEi"
+    },
+    {
+        "address": ".strtab::000048ad",
+        "length": 23,
+        "value": "_Z11Q_URLEncodePciPKci"
+    },
+    {
+        "address": ".strtab::000048c4",
+        "length": 28,
+        "value": "_ZTI21CUtlCStringConversion"
+    },
+    {
+        "address": ".strtab::000048e0",
+        "length": 18,
+        "value": "_ZN6ConVar4InitEv"
+    },
+    {
+        "address": ".strtab::000048f2",
+        "length": 40,
+        "value": "_ZN15CSceneFileCache7ConnectEPFPvPKcPiE"
+    },
+    {
+        "address": ".strtab::0000491a",
+        "length": 21,
+        "value": "_ZNK10CUtlStringplEi"
+    },
+    {
+        "address": ".strtab::0000492f",
+        "length": 17,
+        "value": "_Z10V_strlowerPc"
+    },
+    {
+        "address": ".strtab::00004940",
+        "length": 35,
+        "value": "_ZThn24_NK12CEmptyConVar7GetNameEv"
+    },
+    {
+        "address": ".strtab::00004963",
+        "length": 24,
+        "value": "_Z16Q_UnicodeAdvancePti"
+    },
+    {
+        "address": ".strtab::0000497b",
+        "length": 27,
+        "value": "_ZNK10CUtlString7DirNameEv"
+    },
+    {
+        "address": ".strtab::00004996",
+        "length": 13,
+        "value": "_ZTI7IConVar"
+    },
+    {
+        "address": ".strtab::000049a3",
+        "length": 35,
+        "value": "_ZN15CSceneFileCache10DisconnectEv"
+    },
+    {
+        "address": ".strtab::000049c6",
+        "length": 21,
+        "value": "_ZN11CLZMAStreamD1Ev"
+    },
+    {
+        "address": ".strtab::000049db",
+        "length": 24,
+        "value": "_ZN14ConCommandBaseD0Ev"
+    },
+    {
+        "address": ".strtab::000049f3",
+        "length": 22,
+        "value": "_ZTS15CSceneFileCache"
+    },
+    {
+        "address": ".strtab::00004a09",
+        "length": 16,
+        "value": "g_pProcessUtils"
+    },
+    {
+        "address": ".strtab::00004a19",
+        "length": 28,
+        "value": "_ZN10CUtlBuffer7GetUpToEPvi"
+    },
+    {
+        "address": ".strtab::00004a35",
+        "length": 22,
+        "value": "_Z10V_wcstostrPKwiPci"
+    },
+    {
+        "address": ".strtab::00004a4b",
+        "length": 23,
+        "value": "lzma_persistent_buffer"
+    },
+    {
+        "address": ".strtab::00004a62",
+        "length": 29,
+        "value": "_Z14V_vsnprintfRetPciPKcS_Pb"
+    },
+    {
+        "address": ".strtab::00004a7f",
+        "length": 23,
+        "value": "_Z9_V_strcmpPKciS0_S0_"
+    },
+    {
+        "address": ".strtab::00004a96",
+        "length": 20,
+        "value": "_ZN10ConCommandD1Ev"
+    },
+    {
+        "address": ".strtab::00004aaa",
+        "length": 23,
+        "value": "_ZNK10CUtlStringplEPKc"
+    },
+    {
+        "address": ".strtab::00004ac1",
+        "length": 38,
+        "value": "_ZN10CUtlBuffer18AddNullTerminationEv"
+    },
+    {
+        "address": ".strtab::00004ae7",
+        "length": 24,
+        "value": "_ZN14ConCommandBaseC1Ev"
+    },
+    {
+        "address": ".strtab::00004aff",
+        "length": 51,
+        "value": "_Z13Q_UTF8ToUTF16PKcPti25EStringConvertErrorPolicy"
+    },
+    {
+        "address": ".strtab::00004b32",
+        "length": 19,
+        "value": "_Z9V_stristrPKcS0_"
+    },
+    {
+        "address": ".strtab::00004b45",
+        "length": 26,
+        "value": "_ZNK6ConVar10GetDefaultEv"
+    },
+    {
+        "address": ".strtab::00004b5f",
+        "length": 50,
+        "value": "_ZN14CBaseAppSystemI15ISceneFileCacheE8ShutdownEv"
+    },
+    {
+        "address": ".strtab::00004b91",
+        "length": 9,
+        "value": "_DYNAMIC"
+    },
+    {
+        "address": ".strtab::00004b9a",
+        "length": 24,
+        "value": "_ZNK10CUtlString4LeftEi"
+    },
+    {
+        "address": ".strtab::00004bb2",
+        "length": 54,
+        "value": "_Z47Q_AggressiveStripPrecedingAndTrailingWhitespacePc"
+    },
+    {
+        "address": ".strtab::00004be8",
+        "length": 66,
+        "value": "_ZN10CUtlBuffer25PeekDelimitedStringLengthEP18CUtlCharConversionb"
+    },
+    {
+        "address": ".strtab::00004c2a",
+        "length": 24,
+        "value": "__deregister_frame_info"
+    },
+    {
+        "address": ".strtab::00004c42",
+        "length": 48,
+        "value": "_ZNK18CUtlCharConversion19GetConversionStringEc"
+    },
+    {
+        "address": ".strtab::00004c72",
+        "length": 29,
+        "value": "_Z18V_DefaultExtensionPcPKci"
+    },
+    {
+        "address": ".strtab::00004c8f",
+        "length": 21,
+        "value": "_ZN6ConVarC2EPKcS1_i"
+    },
+    {
+        "address": ".strtab::00004ca4",
+        "length": 17,
+        "value": "abort@@GLIBC_2.0"
+    },
+    {
+        "address": ".strtab::00004cb5",
+        "length": 15,
+        "value": "Plat_localtime"
+    },
+    {
+        "address": ".strtab::00004cc4",
+        "length": 26,
+        "value": "__cxa_atexit@@GLIBC_2.1.3"
+    },
+    {
+        "address": ".strtab::00004cde",
+        "length": 18,
+        "value": "memcmp@@GLIBC_2.0"
+    },
+    {
+        "address": ".strtab::00004cf0",
+        "length": 28,
+        "value": "_Z11ConColorMsgRK5ColorPKcz"
+    },
+    {
+        "address": ".strtab::00004d0c",
+        "length": 19,
+        "value": "wcsncat@@GLIBC_2.0"
+    },
+    {
+        "address": ".strtab::00004d1f",
+        "length": 32,
+        "value": "__cxa_guard_acquire@@CXXABI_1.3"
+    },
+    {
+        "address": ".strtab::00004d3f",
+        "length": 4,
+        "value": "Msg"
+    },
+    {
+        "address": ".strtab::00004d43",
+        "length": 15,
+        "value": "__gmon_start__"
+    },
+    {
+        "address": ".strtab::00004d52",
+        "length": 20,
+        "value": "_Jv_RegisterClasses"
+    },
+    {
+        "address": ".strtab::00004d66",
+        "length": 22,
+        "value": "iconv_open@@GLIBC_2.1"
+    },
+    {
+        "address": ".strtab::00004d7c",
+        "length": 20,
+        "value": "_ZdlPv@@GLIBCXX_3.4"
+    },
+    {
+        "address": ".strtab::00004d90",
+        "length": 19,
+        "value": "isspace@@GLIBC_2.0"
+    },
+    {
+        "address": ".strtab::00004da3",
+        "length": 18,
+        "value": "strtod@@GLIBC_2.0"
+    },
+    {
+        "address": ".strtab::00004db5",
+        "length": 18,
+        "value": "strchr@@GLIBC_2.0"
+    },
+    {
+        "address": ".strtab::00004dc7",
+        "length": 21,
+        "value": "vsnprintf@@GLIBC_2.0"
+    },
+    {
+        "address": ".strtab::00004ddc",
+        "length": 6,
+        "value": "_fini"
+    },
+    {
+        "address": ".strtab::00004de2",
+        "length": 18,
+        "value": "wcslen@@GLIBC_2.0"
+    },
+    {
+        "address": ".strtab::00004df4",
+        "length": 15,
+        "value": "pow@@GLIBC_2.0"
+    },
+    {
+        "address": ".strtab::00004e03",
+        "length": 19,
+        "value": "dlclose@@GLIBC_2.0"
+    },
+    {
+        "address": ".strtab::00004e16",
+        "length": 18,
+        "value": "memset@@GLIBC_2.0"
+    },
+    {
+        "address": ".strtab::00004e28",
+        "length": 16,
+        "value": "CreateInterface"
+    },
+    {
+        "address": ".strtab::00004e38",
+        "length": 13,
+        "value": "pthread_once"
+    },
+    {
+        "address": ".strtab::00004e45",
+        "length": 28,
+        "value": "_ITM_deregisterTMCloneTable"
+    },
+    {
+        "address": ".strtab::00004e61",
+        "length": 18,
+        "value": "strtol@@GLIBC_2.0"
+    },
+    {
+        "address": ".strtab::00004e73",
+        "length": 31,
+        "value": "__ctype_toupper_loc@@GLIBC_2.3"
+    },
+    {
+        "address": ".strtab::00004e92",
+        "length": 16,
+        "value": "free@@GLIBC_2.0"
+    },
+    {
+        "address": ".strtab::00004ea2",
+        "length": 26,
+        "value": "_ITM_registerTMCloneTable"
+    },
+    {
+        "address": ".strtab::00004ebc",
+        "length": 17,
+        "value": "dlsym@@GLIBC_2.0"
+    },
+    {
+        "address": ".strtab::00004ecd",
+        "length": 18,
+        "value": "floorf@@GLIBC_2.0"
+    },
+    {
+        "address": ".strtab::00004edf",
+        "length": 25,
+        "value": "__ctype_b_loc@@GLIBC_2.3"
+    },
+    {
+        "address": ".strtab::00004ef8",
+        "length": 32,
+        "value": "pthread_mutex_unlock@@GLIBC_2.0"
+    },
+    {
+        "address": ".strtab::00004f18",
+        "length": 50,
+        "value": "_ZTVN10__cxxabiv117__class_type_infoE@@CXXABI_1.3"
+    },
+    {
+        "address": ".strtab::00004f4a",
+        "length": 20,
+        "value": "mbstowcs@@GLIBC_2.0"
+    },
+    {
+        "address": ".strtab::00004f5e",
+        "length": 32,
+        "value": "__cxa_guard_release@@CXXABI_1.3"
+    },
+    {
+        "address": ".strtab::00004f7e",
+        "length": 12,
+        "value": "g_pMemAlloc"
+    },
+    {
+        "address": ".strtab::00004f8a",
+        "length": 18,
+        "value": "memcpy@@GLIBC_2.0"
+    },
+    {
+        "address": ".strtab::00004f9c",
+        "length": 6,
+        "value": "Error"
+    },
+    {
+        "address": ".strtab::00004fa2",
+        "length": 19,
+        "value": "strtoul@@GLIBC_2.0"
+    },
+    {
+        "address": ".strtab::00004fb5",
+        "length": 18,
+        "value": "strlen@@GLIBC_2.0"
+    },
+    {
+        "address": ".strtab::00004fc7",
+        "length": 17,
+        "value": "iconv@@GLIBC_2.1"
+    },
+    {
+        "address": ".strtab::00004fd8",
+        "length": 18,
+        "value": "strcpy@@GLIBC_2.0"
+    },
+    {
+        "address": ".strtab::00004fea",
+        "length": 27,
+        "value": "__dynamic_cast@@CXXABI_1.3"
+    },
+    {
+        "address": ".strtab::00005005",
+        "length": 18,
+        "value": "dlopen@@GLIBC_2.1"
+    },
+    {
+        "address": ".strtab::00005017",
+        "length": 18,
+        "value": "printf@@GLIBC_2.0"
+    },
+    {
+        "address": ".strtab::00005029",
+        "length": 17,
+        "value": "chdir@@GLIBC_2.0"
+    },
+    {
+        "address": ".strtab::0000503a",
+        "length": 19,
+        "value": "wcsncpy@@GLIBC_2.0"
+    },
+    {
+        "address": ".strtab::0000504d",
+        "length": 31,
+        "value": "__cxa_pure_virtual@@CXXABI_1.3"
+    },
+    {
+        "address": ".strtab::0000506c",
+        "length": 20,
+        "value": "iswspace@@GLIBC_2.0"
+    },
+    {
+        "address": ".strtab::00005080",
+        "length": 22,
+        "value": "strcasecmp@@GLIBC_2.0"
+    },
+    {
+        "address": ".strtab::00005096",
+        "length": 19,
+        "value": "_Znwj@@GLIBCXX_3.4"
+    },
+    {
+        "address": ".strtab::000050a9",
+        "length": 19,
+        "value": "_Znaj@@GLIBCXX_3.4"
+    },
+    {
+        "address": ".strtab::000050bc",
+        "length": 18,
+        "value": "strstr@@GLIBC_2.0"
+    },
+    {
+        "address": ".strtab::000050ce",
+        "length": 16,
+        "value": "time@@GLIBC_2.0"
+    },
+    {
+        "address": ".strtab::000050de",
+        "length": 19,
+        "value": "strncat@@GLIBC_2.0"
+    },
+    {
+        "address": ".strtab::000050f1",
+        "length": 12,
+        "value": "__bss_start"
+    },
+    {
+        "address": ".strtab::000050fd",
+        "length": 18,
+        "value": "malloc@@GLIBC_2.0"
+    },
+    {
+        "address": ".strtab::0000510f",
+        "length": 30,
+        "value": "pthread_mutex_lock@@GLIBC_2.0"
+    },
+    {
+        "address": ".strtab::0000512d",
+        "length": 53,
+        "value": "_ZTVN10__cxxabiv120__si_class_type_infoE@@CXXABI_1.3"
+    },
+    {
+        "address": ".strtab::00005162",
+        "length": 14,
+        "value": "_Z6ConMsgPKcz"
+    },
+    {
+        "address": ".strtab::00005170",
+        "length": 28,
+        "value": "__stack_chk_fail@@GLIBC_2.4"
+    },
+    {
+        "address": ".strtab::0000518c",
+        "length": 23,
+        "value": "iconv_close@@GLIBC_2.1"
+    },
+    {
+        "address": ".strtab::000051a3",
+        "length": 19,
+        "value": "dlerror@@GLIBC_2.0"
+    },
+    {
+        "address": ".strtab::000051b6",
+        "length": 21,
+        "value": "__pthread_key_create"
+    },
+    {
+        "address": ".strtab::000051cb",
+        "length": 21,
+        "value": "vswprintf@@GLIBC_2.2"
+    },
+    {
+        "address": ".strtab::000051e0",
+        "length": 23,
+        "value": "strncasecmp@@GLIBC_2.0"
+    },
+    {
+        "address": ".strtab::000051f7",
+        "length": 19,
+        "value": "memmove@@GLIBC_2.0"
+    },
+    {
+        "address": ".strtab::0000520a",
+        "length": 20,
+        "value": "_ZdaPv@@GLIBCXX_3.4"
+    },
+    {
+        "address": ".strtab::0000521e",
+        "length": 31,
+        "value": "__ctype_tolower_loc@@GLIBC_2.3"
+    },
+    {
+        "address": ".strtab::0000523d",
+        "length": 54,
+        "value": "_ZTVN10__cxxabiv121__vmi_class_type_infoE@@CXXABI_1.3"
+    },
+    {
+        "address": ".strtab::00005273",
+        "length": 20,
+        "value": "towlower@@GLIBC_2.0"
+    },
+    {
+        "address": ".strtab::00005287",
+        "length": 5,
+        "value": "cvar"
+    },
+    {
+        "address": ".strtab::0000528c",
+        "length": 18,
+        "value": "getcwd@@GLIBC_2.0"
+    },
+    {
+        "address": ".strtab::0000529e",
+        "length": 5,
+        "value": "_end"
+    },
+    {
+        "address": ".strtab::000052a3",
+        "length": 20,
+        "value": "wcstombs@@GLIBC_2.0"
+    },
+    {
+        "address": ".strtab::000052b7",
+        "length": 20,
+        "value": "strftime@@GLIBC_2.0"
+    },
+    {
+        "address": ".strtab::000052cb",
+        "length": 29,
+        "value": "dl_iterate_phdr@@GLIBC_2.2.4"
+    },
+    {
+        "address": ".strtab::000052e8",
+        "length": 8,
+        "value": "Warning"
+    },
+    {
+        "address": ".strtab::000052f0",
+        "length": 22,
+        "value": "Plat_IsInDebugSession"
+    },
+    {
+        "address": ".strtab::00005306",
+        "length": 7,
+        "value": "_edata"
+    },
+    {
+        "address": ".strtab::0000530d",
+        "length": 33,
+        "value": "__gxx_personality_v0@@CXXABI_1.3"
+    },
+    {
+        "address": ".strtab::0000532e",
+        "length": 19,
+        "value": "tolower@@GLIBC_2.0"
+    },
+    {
+        "address": ".strtab::00005341",
+        "length": 18,
+        "value": "strcmp@@GLIBC_2.0"
+    },
+    {
+        "address": ".strtab::00005353",
+        "length": 20,
+        "value": "towupper@@GLIBC_2.0"
+    },
+    {
+        "address": ".strtab::00005367",
+        "length": 28,
+        "value": "__cxa_finalize@@GLIBC_2.1.3"
+    },
+    {
+        "address": ".strtab::00005383",
+        "length": 19,
+        "value": "ThreadInMainThread"
+    },
+    {
+        "address": ".strtab::00005396",
+        "length": 6,
+        "value": "_init"
+    }
+]

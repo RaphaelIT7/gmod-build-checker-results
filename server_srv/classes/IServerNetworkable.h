@@ -1,9 +1,9 @@
 // Generated header
+// Estimated minimum size: 0x4 (4) bytes
 
 class IServerNetworkable
 {
 public:
-	virtual void __cxa_pure_virtual(); // vtable[8]
-	virtual ~IServerNetworkable(); // vtable[9]
-	virtual ~IServerNetworkable(); // vtable[10]
+	~IServerNetworkable(); // size[14]
+	~IServerNetworkable(); // size[3]
 };

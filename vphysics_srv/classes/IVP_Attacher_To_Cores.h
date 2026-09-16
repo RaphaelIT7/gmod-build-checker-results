@@ -1,4 +1,5 @@
 // Generated header
+// Estimated minimum size: 0x1C (28) bytes
 
 class IVP_Attacher_To_Cores : public IVP_Listener_Set_Active
 {

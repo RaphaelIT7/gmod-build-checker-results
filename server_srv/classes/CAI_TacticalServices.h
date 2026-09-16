@@ -1,4 +1,5 @@
 // Generated header
+// Estimated minimum size: 0x2360 (9056) bytes
 
 class CAI_TacticalServices : public CAI_Component
 {

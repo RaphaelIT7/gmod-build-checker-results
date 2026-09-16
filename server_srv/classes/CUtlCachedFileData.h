@@ -1,4 +1,5 @@
 // Generated header
+// Estimated minimum size: 0x38 (56) bytes
 
 class CUtlCachedFileData
 {

@@ -1,4 +1,5 @@
 // Generated header
+// Estimated minimum size: 0x2360 (9056) bytes
 
 class CAI_BehaviorAlyxInjured : public CAI_FollowBehavior
 {
@@ -29,7 +30,6 @@ public:
 	void NumKnownEnemiesInRadius(Vector *param_1, float param_2); // size[441]
 	void InitCustomSchedules(); // size[471]
 	void LoadSchedules(); // size[62]
-	CScheduleLoader(); // size[9]
 	CAI_BehaviorAlyxInjured(); // size[191]
 	void PopulateActivityMap(); // size[531]
 };

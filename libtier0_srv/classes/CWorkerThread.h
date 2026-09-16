@@ -1,4 +1,5 @@
 // Generated header
+// Estimated minimum size: 0x110 (272) bytes
 
 class CWorkerThread : public CThread
 {

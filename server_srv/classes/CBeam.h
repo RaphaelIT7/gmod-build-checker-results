@@ -1,4 +1,5 @@
 // Generated header
+// Estimated minimum size: 0x10008 (65544) bytes
 
 class CBeam : public CBaseEntity
 {

@@ -1,4 +1,5 @@
 // Generated header
+// Estimated minimum size: 0x4C (76) bytes
 
 class CEmptyConVar : public ConVar
 {
@@ -10,9 +11,9 @@ public:
 	virtual void SetValue(char *param_1) override; // vtable[11]
 	virtual void SetValue(float param_1) override; // vtable[12]
 	virtual void SetValue(int param_1) override; // vtable[13]
-
-	void SetValue(char *param_1); // size[7]
-	void SetValue(int param_1); // size[1]
-	void GetName(); // size[7]
-	void IsFlagSet(int param_1); // size[7]
+	virtual void SetValue(char *param_1); // vtable[0]
+	virtual void _ZThn24_N12CEmptyConVar8SetValueEf(); // vtable[1]
+	virtual void SetValue(int param_1); // vtable[2]
+	virtual void GetName(); // vtable[3]
+	virtual void IsFlagSet(int param_1); // vtable[4]
 };

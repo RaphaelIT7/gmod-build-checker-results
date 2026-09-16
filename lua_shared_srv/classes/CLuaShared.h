@@ -1,4 +1,5 @@
 // Generated header
+// Estimated minimum size: 0x15C (348) bytes
 
 class CLuaShared : public ILuaShared
 {
@@ -22,7 +23,7 @@ public:
 	virtual void GetStackTraces(); // vtable[16]
 	virtual void InvalidateCache(string *param_1); // vtable[17]
 	virtual void EmptyCache(); // vtable[18]
-	virtual void ScriptExists(string *param_1, string *param_2, bool param_3) override; // vtable[19]
+	virtual void ScriptExists(string *param_1, string *param_2, bool param_3); // vtable[19]
 
 	void AddSearchPath(char *param_1, char *param_2); // size[835]
 	CLuaShared(); // size[193]

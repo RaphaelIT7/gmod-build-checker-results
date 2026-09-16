@@ -1,16 +1,17 @@
 // Generated header
+// Estimated minimum size: 0x4 (4) bytes
 
 class IVModelInfo
 {
 public:
 	virtual ~IVModelInfo(); // vtable[0]
 	virtual ~IVModelInfo(); // vtable[1]
-	virtual void FindOrLoadModel(char *param_1); // vtable[40]
-	virtual void InitDynamicModels(); // vtable[41]
-	virtual void ShutdownDynamicModels(); // vtable[42]
-	virtual void AddDynamicModel(char *param_1, int param_2); // vtable[43]
-	virtual void ReferenceModel(int param_1); // vtable[44]
-	virtual void UnreferenceModel(int param_1); // vtable[45]
-	virtual void CleanupDynamicModels(bool param_1); // vtable[46]
-	virtual void __cxa_pure_virtual(); // vtable[66]
+
+	void FindOrLoadModel(char *param_1); // size[22]
+	void InitDynamicModels(); // size[16]
+	void ShutdownDynamicModels(); // size[16]
+	void AddDynamicModel(char *param_1, int param_2); // size[16]
+	void ReferenceModel(int param_1); // size[16]
+	void UnreferenceModel(int param_1); // size[16]
+	void CleanupDynamicModels(bool param_1); // size[16]
 };

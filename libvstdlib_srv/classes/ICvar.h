@@ -1,10 +1,7 @@
 // Generated header
+// Estimated minimum size: 0x4 (4) bytes
 
 class ICvar : public IAppSystem
 {
 public:
-	virtual void __cxa_pure_virtual(); // vtable[35]
-
-	~ICVarIteratorInternal(); // size[14]
-	~ICVarIteratorInternal(); // size[18]
 };

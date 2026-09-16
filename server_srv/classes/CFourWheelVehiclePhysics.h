@@ -1,4 +1,5 @@
 // Generated header
+// Estimated minimum size: 0x260 (608) bytes
 
 class CFourWheelVehiclePhysics
 {

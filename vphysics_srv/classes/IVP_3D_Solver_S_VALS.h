@@ -1,7 +1,8 @@
 // Generated header
+// Estimated minimum size: 0x44 (68) bytes
 
 class IVP_3D_Solver_S_VALS : public IVP_3D_Solver
 {
 public:
-	virtual void get_value(IVP_U_Matrix *param_1, IVP_U_Matrix *param_2) override; // vtable[0]
+	virtual void get_value(IVP_U_Matrix *param_1, IVP_U_Matrix *param_2); // vtable[0]
 };

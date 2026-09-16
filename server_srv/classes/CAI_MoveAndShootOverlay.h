@@ -1,4 +1,5 @@
 // Generated header
+// Estimated minimum size: 0x14 (20) bytes
 
 class CAI_MoveAndShootOverlay : public CAI_Component
 {

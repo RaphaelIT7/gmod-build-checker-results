@@ -1,4 +1,5 @@
 // Generated header
+// Estimated minimum size: 0x4 (4) bytes
 
 class CDedicatedExports : public CBaseAppSystem
 {
@@ -7,7 +8,7 @@ public:
 	virtual void Disconnect(); // vtable[1]
 	virtual void QueryInterface(char *param_1); // vtable[2]
 	virtual void Init(); // vtable[3]
-	virtual void Shutdown() override; // vtable[4]
+	virtual void Shutdown(); // vtable[4]
 	virtual void Sys_Printf(char *param_1); // vtable[5]
 	virtual void RunServer(); // vtable[6]
 };

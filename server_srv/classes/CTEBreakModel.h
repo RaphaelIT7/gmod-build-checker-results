@@ -1,4 +1,5 @@
 // Generated header
+// Estimated minimum size: 0x50 (80) bytes
 
 class CTEBreakModel : public CBaseTempEntity
 {

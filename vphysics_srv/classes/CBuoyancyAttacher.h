@@ -1,4 +1,5 @@
 // Generated header
+// Estimated minimum size: 0x74 (116) bytes
 
 class CBuoyancyAttacher : public IVP_Attacher_To_Cores_Buoyancy
 {

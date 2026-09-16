@@ -1,4 +1,5 @@
 // Generated header
+// Estimated minimum size: 0x220 (544) bytes
 
 class CEnvWindShared
 {

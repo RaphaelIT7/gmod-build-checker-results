@@ -1,4 +1,5 @@
 // Generated header
+// Estimated minimum size: 0x568 (1384) bytes
 
 class CPhysObjSaveRestoreOps : public CDefSaveRestoreOps
 {

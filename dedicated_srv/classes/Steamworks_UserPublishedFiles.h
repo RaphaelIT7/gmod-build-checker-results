@@ -1,4 +1,5 @@
 // Generated header
+// Estimated minimum size: 0x3C (60) bytes
 
 class Steamworks_UserPublishedFiles
 {

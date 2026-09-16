@@ -1,4 +1,5 @@
 // Generated header
+// Estimated minimum size: 0x564 (1380) bytes
 
 class CRestore : public IRestore
 {
@@ -41,9 +42,9 @@ public:
 	virtual void ReadMatrix3x4Worldspace(matrix3x4_t *param_1, int param_2, int param_3); // vtable[35]
 	virtual void GetPrecacheMode(); // vtable[36]
 	virtual void GetGameSaveRestoreInfo(); // vtable[37]
-	virtual void ReadStringLength() override; // vtable[38]
-	virtual ~CRestore() override; // vtable[39]
-	virtual ~CRestore() override; // vtable[40]
+	virtual void ReadStringLength(); // vtable[38]
+	virtual ~CRestore(); // vtable[39]
+	virtual ~CRestore(); // vtable[40]
 
 	void ReadBasicField(SaveRestoreRecordHeader_t *param_1, void *param_2, datamap_t *param_3, typedescription_t *param_4); // size[543]
 	void ShouldReadField(typedescription_t *param_1); // size[45]

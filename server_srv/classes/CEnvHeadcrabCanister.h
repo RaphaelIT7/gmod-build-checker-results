@@ -1,4 +1,5 @@
 // Generated header
+// Estimated minimum size: 0x5E5B1CC8 (1583029448) bytes
 
 class CEnvHeadcrabCanister : public CBaseAnimating
 {
@@ -37,6 +38,4 @@ public:
 	void Detonate(); // size[42]
 	void TestForCollisionsAgainstEntities(Vector *param_1); // size[1057]
 	void HeadcrabCanisterWorldThink(); // size[419]
-	void NetworkStateChanged(); // size[53]
-	void NetworkStateChanged(void *param_1); // size[54]
 };

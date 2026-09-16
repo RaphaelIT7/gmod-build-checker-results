@@ -1,4 +1,5 @@
 // Generated header
+// Estimated minimum size: 0x5C (92) bytes
 
 class CGlobalState : public CAutoGameSystem
 {

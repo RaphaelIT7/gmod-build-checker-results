@@ -1,4 +1,5 @@
 // Generated header
+// Estimated minimum size: 0x14 (20) bytes
 
 class CCvar_CCVarIteratorInternal : public ICvar_ICVarIteratorInternal
 {
@@ -8,7 +9,7 @@ public:
 	virtual void SetFirst(); // vtable[2]
 	virtual void Next(); // vtable[3]
 	virtual void IsValid(); // vtable[4]
-	virtual void Get() override; // vtable[5]
+	virtual void Get(); // vtable[5]
 
 	void _GLOBAL__sub_I_SetFirst(); // size[119]
 };

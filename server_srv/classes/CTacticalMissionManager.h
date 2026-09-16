@@ -1,11 +1,12 @@
 // Generated header
+// Estimated minimum size: 0x1C (28) bytes
 
 class CTacticalMissionManager : public CGameEventListener
 {
 public:
 	virtual ~CTacticalMissionManager() override; // vtable[0]
 	virtual ~CTacticalMissionManager() override; // vtable[1]
-	virtual void FireGameEvent(IGameEvent *param_1) override; // vtable[2]
+	virtual void FireGameEvent(IGameEvent *param_1); // vtable[2]
 	virtual void OnServerActivate(); // vtable[3]
 	virtual void OnRoundRestart(); // vtable[4]
 	virtual void Register(CTacticalMission *param_1); // vtable[5]

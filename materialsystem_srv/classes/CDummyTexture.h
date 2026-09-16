@@ -1,4 +1,5 @@
 // Generated header
+// Estimated minimum size: 0x4 (4) bytes
 
 class CDummyTexture : public ITexture
 {
@@ -32,6 +33,6 @@ public:
 	virtual void SwapContents(ITexture *param_1); // vtable[26]
 	virtual void GetFlags(); // vtable[27]
 	virtual void ForceLODOverride(int param_1); // vtable[28]
-	virtual void SaveToFile(char *param_1) override; // vtable[29]
+	virtual void SaveToFile(char *param_1); // vtable[29]
 	virtual void GetEmbeddedTexture(int param_1); // vtable[30]
 };

@@ -1,4 +1,5 @@
 // Generated header
+// Estimated minimum size: 0x40038 (262200) bytes
 
 class CGlobalEntityList : public CBaseEntityList
 {

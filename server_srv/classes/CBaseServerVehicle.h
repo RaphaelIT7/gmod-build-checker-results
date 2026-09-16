@@ -1,4 +1,5 @@
 // Generated header
+// Estimated minimum size: 0x7F0 (2032) bytes
 
 class CBaseServerVehicle : public IServerVehicle
 {
@@ -10,7 +11,7 @@ public:
 	virtual void SetupMove(CBasePlayer *param_1, CUserCmd *param_2, IMoveHelper *param_3, CMoveData *param_4); // vtable[4]
 	virtual void ProcessMovement(CBasePlayer *param_1, CMoveData *param_2); // vtable[5]
 	virtual void FinishMove(CBasePlayer *param_1, CUserCmd *param_2, CMoveData *param_3); // vtable[6]
-	virtual void ItemPostFrame(CBasePlayer *param_1) override; // vtable[7]
+	virtual void ItemPostFrame(CBasePlayer *param_1); // vtable[7]
 	virtual void GetVehicleEnt(); // vtable[8]
 	virtual void SetPassenger(int param_1, CBaseCombatCharacter *param_2); // vtable[9]
 	virtual void IsPassengerVisible(int param_1); // vtable[10]
@@ -60,7 +61,7 @@ public:
 	virtual void Weapon_SecondaryRanges(float *param_1, float *param_2); // vtable[54]
 	virtual void Weapon_PrimaryCanFireAt(); // vtable[55]
 	virtual void Weapon_SecondaryCanFireAt(); // vtable[56]
-	virtual void ReloadScript() override; // vtable[57]
+	virtual void ReloadScript(); // vtable[57]
 	virtual void Precache(); // vtable[58]
 	virtual void IsVehicleBodyInWater(); // vtable[59]
 	virtual void GetDriver(); // vtable[60]

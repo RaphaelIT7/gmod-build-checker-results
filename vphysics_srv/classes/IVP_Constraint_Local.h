@@ -1,10 +1,13 @@
 // Generated header
+// Estimated minimum size: 0x1AC (428) bytes
 
 class IVP_Constraint_Local : public IVP_Constraint
 {
 public:
 	virtual void core_is_going_to_be_deleted_event(IVP_Core *param_1) override; // vtable[0]
-	virtual void do_simulation_controller(IVP_Event_Sim *param_1, IVP_U_Vector *param_2) override; // vtable[4]
+	virtual void do_simulation_controller(IVP_Event_Sim *param_1, IVP_U_Vector *param_2); // vtable[4]
+	virtual void get_controller_priority(); // vtable[5]
+	virtual void get_controller_name(); // vtable[6]
 	virtual ~IVP_Constraint_Local(); // vtable[7]
 	virtual ~IVP_Constraint_Local(); // vtable[8]
 	virtual void change_fixing_point_Ros(IVP_U_Point *param_1); // vtable[9]

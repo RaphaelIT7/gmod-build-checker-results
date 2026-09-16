@@ -1,4 +1,5 @@
 // Generated header
+// Estimated minimum size: 0x1000010 (16777232) bytes
 
 class CStudioRenderContext : public CTier3AppSystem
 {
@@ -54,7 +55,7 @@ public:
 	virtual void GMOD_ForcedMaterialOverrideByIndex(int param_1, IMaterial *param_2, char param_3); // vtable[48]
 	virtual void GMOD_ResetMaterialOverridesByIndex(); // vtable[49]
 	virtual void GMOD_MeshOverrideCount(int param_1); // vtable[50]
-	virtual void GMOD_MeshOverride(int param_1, IMesh *param_2, IMaterial *param_3, VMatrix param_4) override; // vtable[51]
+	virtual void GMOD_MeshOverride(int param_1, IMesh *param_2, IMaterial *param_3, VMatrix param_4); // vtable[51]
 	virtual ~CStudioRenderContext(); // vtable[52]
 	virtual ~CStudioRenderContext(); // vtable[53]
 

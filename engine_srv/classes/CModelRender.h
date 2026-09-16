@@ -1,4 +1,5 @@
 // Generated header
+// Estimated minimum size: 0x248 (584) bytes
 
 class CModelRender : public IVModelRender, public CManagedDataCacheClient
 {
@@ -30,8 +31,9 @@ public:
 	virtual void SetupColorMeshes(int param_1); // vtable[24]
 	virtual void GetBrightestShadowingLightSource(Vector *param_1, Vector *param_2, Vector *param_3, bool param_4); // vtable[25]
 	virtual void GetItemName(uint param_1, void *param_2, char *param_3, uint param_4); // vtable[26]
+	virtual void HandleCacheNotification(DataCacheNotification_t *param_1); // vtable[0]
+	virtual void GetItemName(uint param_1, void *param_2, char *param_3, uint param_4); // vtable[1]
 
-	void GetItemName(uint param_1, void *param_2, char *param_3, uint param_4); // size[7]
 	void Init(); // size[98]
 	void Shutdown(); // size[71]
 	void SnapCurrentLightingState(ModelInstance_t *param_1, LightingState_t *param_2); // size[313]

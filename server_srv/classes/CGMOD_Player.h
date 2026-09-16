@@ -1,4 +1,5 @@
 // Generated header
+// Estimated minimum size: 0x7D8DFDE8 (2106457576) bytes
 
 class CGMOD_Player : public CHL2MP_Player
 {
@@ -53,6 +54,9 @@ public:
 	virtual void GetWeaponColor(); // vtable[576]
 	virtual void SetPlayerColor(Vector param_1); // vtable[577]
 	virtual void SetWeaponColor(Vector param_1); // vtable[578]
+	virtual void OnSpokeConcept(char *param_1, AI_Response *param_2); // vtable[0]
+	virtual void OnStartSpeaking(); // vtable[1]
+	virtual void UseSemaphore(); // vtable[2]
 
 	void _GLOBAL__sub_I_UpdateButtonState(); // size[113]
 	void _GLOBAL__sub_I_GetServerClass(); // size[112]

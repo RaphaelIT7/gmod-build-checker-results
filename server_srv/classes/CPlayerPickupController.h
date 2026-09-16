@@ -1,4 +1,5 @@
 // Generated header
+// Estimated minimum size: 0x483C (18492) bytes
 
 class CPlayerPickupController : public CBaseEntity
 {

@@ -1,4 +1,5 @@
 // Generated header
+// Estimated minimum size: 0x14 (20) bytes
 
 class CToolFrameworkServer : public CAutoGameSystemPerFrame, public IToolFrameworkServer
 {
@@ -14,6 +15,5 @@ public:
 	virtual void _ZN20CToolFrameworkServer26FrameUpdatePostEntityThinkEv() override; // vtable[16]
 	virtual void PreClientUpdate() override; // vtable[17]
 	virtual void PreSetupVisibility(); // vtable[19]
-
-	void PreSetupVisibility(); // size[7]
+	virtual void PreSetupVisibility(); // vtable[0]
 };

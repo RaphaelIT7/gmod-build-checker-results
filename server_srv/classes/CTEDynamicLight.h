@@ -1,4 +1,5 @@
 // Generated header
+// Estimated minimum size: 0x34 (52) bytes
 
 class CTEDynamicLight : public CBaseTempEntity
 {

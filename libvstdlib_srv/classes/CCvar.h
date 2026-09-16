@@ -1,4 +1,5 @@
 // Generated header
+// Estimated minimum size: 0x104 (260) bytes
 
 class CCvar : public ICvar
 {
@@ -7,7 +8,7 @@ public:
 	virtual void Disconnect(); // vtable[1]
 	virtual void QueryInterface(char *param_1); // vtable[2]
 	virtual void Init(); // vtable[3]
-	virtual void Shutdown() override; // vtable[4]
+	virtual void Shutdown(); // vtable[4]
 	virtual void AllocateDLLIdentifier(); // vtable[5]
 	virtual void RegisterConCommand(ConCommandBase *param_1); // vtable[6]
 	virtual void UnregisterConCommand(ConCommandBase *param_1); // vtable[7]
@@ -26,9 +27,9 @@ public:
 	virtual void CallGlobalChangeCallbacks(ConVar *param_1, char *param_2, float param_3); // vtable[20]
 	virtual void InstallConsoleDisplayFunc(IConsoleDisplayFunc *param_1); // vtable[21]
 	virtual void RemoveConsoleDisplayFunc(IConsoleDisplayFunc *param_1); // vtable[22]
-	virtual void ConsoleColorPrintf(Color *param_1, char *param_2); // vtable[23]
-	virtual void ConsolePrintf(char *param_1); // vtable[24]
-	virtual void ConsoleDPrintf(char *param_1); // vtable[25]
+	virtual void ConsoleColorPrintf(Color const & null, char const *null, ... null); // vtable[23]
+	virtual void ConsolePrintf(char const *null, ... null); // vtable[24]
+	virtual void ConsoleDPrintf(char const *null, ... null); // vtable[25]
 	virtual void RevertFlaggedConVars(int param_1); // vtable[26]
 	virtual void InstallCVarQuery(ICvarQuery *param_1); // vtable[27]
 	virtual void IsMaterialThreadSetAllowed(); // vtable[28]
@@ -38,17 +39,10 @@ public:
 	virtual void HasQueuedMaterialThreadConVarSets(); // vtable[32]
 	virtual void ProcessQueuedMaterialThreadConVarSets(); // vtable[33]
 	virtual void FactoryInternalIterator(); // vtable[34]
-	virtual void RevertServerConVars(bool param_1) override; // vtable[35]
+	virtual void RevertServerConVars(bool param_1); // vtable[35]
 
-	void _GLOBAL__sub_I_SetFirst(); // size[119]
-	void SetFirst(); // size[61]
-	void IsValid(); // size[42]
-	void Get(); // size[14]
-	void Next(); // size[89]
 	void DisplayQueuedMessages(); // size[656]
 	void Find(CCommand *param_1); // size[993]
 	CCvar(); // size[356]
-	~CCVarIteratorInternal(); // size[14]
-	~CCVarIteratorInternal(); // size[18]
 	~CCvar(); // size[203]
 };

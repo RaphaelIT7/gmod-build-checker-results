@@ -1,0 +1,2497 @@
+[
+    {
+        "address": "00010869",
+        "length": 15,
+        "value": "__gmon_start__"
+    },
+    {
+        "address": "00010878",
+        "length": 6,
+        "value": "_init"
+    },
+    {
+        "address": "0001087e",
+        "length": 6,
+        "value": "_fini"
+    },
+    {
+        "address": "00010884",
+        "length": 28,
+        "value": "_ITM_deregisterTMCloneTable"
+    },
+    {
+        "address": "000108a0",
+        "length": 26,
+        "value": "_ITM_registerTMCloneTable"
+    },
+    {
+        "address": "000108ba",
+        "length": 15,
+        "value": "__cxa_finalize"
+    },
+    {
+        "address": "000108c9",
+        "length": 20,
+        "value": "_Jv_RegisterClasses"
+    },
+    {
+        "address": "000108dd",
+        "length": 12,
+        "value": "g_pMemAlloc"
+    },
+    {
+        "address": "000108e9",
+        "length": 21,
+        "value": "__gxx_personality_v0"
+    },
+    {
+        "address": "000108fe",
+        "length": 6,
+        "value": "Error"
+    },
+    {
+        "address": "00010904",
+        "length": 8,
+        "value": "memmove"
+    },
+    {
+        "address": "0001090c",
+        "length": 13,
+        "value": "__cxa_atexit"
+    },
+    {
+        "address": "00010919",
+        "length": 41,
+        "value": "_ZTVN10__cxxabiv120__si_class_type_infoE"
+    },
+    {
+        "address": "00010942",
+        "length": 19,
+        "value": "__cxa_pure_virtual"
+    },
+    {
+        "address": "00010955",
+        "length": 22,
+        "value": "g_VProfCurrentProfile"
+    },
+    {
+        "address": "0001096b",
+        "length": 19,
+        "value": "ThreadGetCurrentId"
+    },
+    {
+        "address": "0001097e",
+        "length": 28,
+        "value": "_ZN10CVProfNode9ExitScopeEv"
+    },
+    {
+        "address": "0001099a",
+        "length": 37,
+        "value": "_ZN10CVProfNode10GetSubNodeEPKciS1_i"
+    },
+    {
+        "address": "000109bf",
+        "length": 30,
+        "value": "_ZN10CVProfNode10EnterScopeEv"
+    },
+    {
+        "address": "000109dd",
+        "length": 7,
+        "value": "strtol"
+    },
+    {
+        "address": "000109e4",
+        "length": 38,
+        "value": "_ZTVN10__cxxabiv117__class_type_infoE"
+    },
+    {
+        "address": "00010a0a",
+        "length": 6,
+        "value": "_Znwj"
+    },
+    {
+        "address": "00010a10",
+        "length": 7,
+        "value": "_ZdlPv"
+    },
+    {
+        "address": "00010a17",
+        "length": 42,
+        "value": "_ZTVN10__cxxabiv121__vmi_class_type_infoE"
+    },
+    {
+        "address": "00010a41",
+        "length": 12,
+        "value": "libtier0.so"
+    },
+    {
+        "address": "00010a4d",
+        "length": 7,
+        "value": "_ZdaPv"
+    },
+    {
+        "address": "00010a54",
+        "length": 7,
+        "value": "memcpy"
+    },
+    {
+        "address": "00010a5b",
+        "length": 6,
+        "value": "_Znaj"
+    },
+    {
+        "address": "00010a61",
+        "length": 7,
+        "value": "strcmp"
+    },
+    {
+        "address": "00010a68",
+        "length": 17,
+        "value": "__stack_chk_fail"
+    },
+    {
+        "address": "00010a79",
+        "length": 7,
+        "value": "strlen"
+    },
+    {
+        "address": "00010a80",
+        "length": 7,
+        "value": "strtod"
+    },
+    {
+        "address": "00010a87",
+        "length": 7,
+        "value": "floorf"
+    },
+    {
+        "address": "00010a8e",
+        "length": 8,
+        "value": "Warning"
+    },
+    {
+        "address": "00010a96",
+        "length": 14,
+        "value": "_Z6ConMsgPKcz"
+    },
+    {
+        "address": "00010aa4",
+        "length": 15,
+        "value": "__dynamic_cast"
+    },
+    {
+        "address": "00010ab3",
+        "length": 28,
+        "value": "_Z11ConColorMsgRK5ColorPKcz"
+    },
+    {
+        "address": "00010acf",
+        "length": 11,
+        "value": "strcasecmp"
+    },
+    {
+        "address": "00010ada",
+        "length": 8,
+        "value": "dlclose"
+    },
+    {
+        "address": "00010ae2",
+        "length": 16,
+        "value": "CreateInterface"
+    },
+    {
+        "address": "00010af2",
+        "length": 7,
+        "value": "dlopen"
+    },
+    {
+        "address": "00010af9",
+        "length": 8,
+        "value": "dlerror"
+    },
+    {
+        "address": "00010b01",
+        "length": 22,
+        "value": "Plat_IsInDebugSession"
+    },
+    {
+        "address": "00010b17",
+        "length": 7,
+        "value": "strstr"
+    },
+    {
+        "address": "00010b1e",
+        "length": 4,
+        "value": "Msg"
+    },
+    {
+        "address": "00010b22",
+        "length": 7,
+        "value": "getcwd"
+    },
+    {
+        "address": "00010b29",
+        "length": 6,
+        "value": "dlsym"
+    },
+    {
+        "address": "00010b2f",
+        "length": 14,
+        "value": "__ctype_b_loc"
+    },
+    {
+        "address": "00010b3d",
+        "length": 7,
+        "value": "memset"
+    },
+    {
+        "address": "00010b44",
+        "length": 7,
+        "value": "memcmp"
+    },
+    {
+        "address": "00010b4b",
+        "length": 7,
+        "value": "strcpy"
+    },
+    {
+        "address": "00010b52",
+        "length": 7,
+        "value": "wcslen"
+    },
+    {
+        "address": "00010b59",
+        "length": 9,
+        "value": "towupper"
+    },
+    {
+        "address": "00010b62",
+        "length": 9,
+        "value": "towlower"
+    },
+    {
+        "address": "00010b6b",
+        "length": 20,
+        "value": "__ctype_toupper_loc"
+    },
+    {
+        "address": "00010b7f",
+        "length": 20,
+        "value": "__ctype_tolower_loc"
+    },
+    {
+        "address": "00010b93",
+        "length": 12,
+        "value": "strncasecmp"
+    },
+    {
+        "address": "00010b9f",
+        "length": 4,
+        "value": "pow"
+    },
+    {
+        "address": "00010ba3",
+        "length": 7,
+        "value": "strchr"
+    },
+    {
+        "address": "00010baa",
+        "length": 8,
+        "value": "wcsncpy"
+    },
+    {
+        "address": "00010bb2",
+        "length": 10,
+        "value": "vswprintf"
+    },
+    {
+        "address": "00010bbc",
+        "length": 10,
+        "value": "vsnprintf"
+    },
+    {
+        "address": "00010bc6",
+        "length": 8,
+        "value": "strncat"
+    },
+    {
+        "address": "00010bce",
+        "length": 8,
+        "value": "wcsncat"
+    },
+    {
+        "address": "00010bd6",
+        "length": 9,
+        "value": "iswspace"
+    },
+    {
+        "address": "00010bdf",
+        "length": 11,
+        "value": "iconv_open"
+    },
+    {
+        "address": "00010bea",
+        "length": 6,
+        "value": "iconv"
+    },
+    {
+        "address": "00010bf0",
+        "length": 12,
+        "value": "iconv_close"
+    },
+    {
+        "address": "00010bfc",
+        "length": 6,
+        "value": "chdir"
+    },
+    {
+        "address": "00010c02",
+        "length": 9,
+        "value": "mbstowcs"
+    },
+    {
+        "address": "00010c0b",
+        "length": 9,
+        "value": "wcstombs"
+    },
+    {
+        "address": "00010c14",
+        "length": 15,
+        "value": "Plat_localtime"
+    },
+    {
+        "address": "00010c23",
+        "length": 9,
+        "value": "strftime"
+    },
+    {
+        "address": "00010c2c",
+        "length": 5,
+        "value": "cvar"
+    },
+    {
+        "address": "00010c31",
+        "length": 8,
+        "value": "isspace"
+    },
+    {
+        "address": "00010c39",
+        "length": 8,
+        "value": "strtoul"
+    },
+    {
+        "address": "00010c41",
+        "length": 8,
+        "value": "tolower"
+    },
+    {
+        "address": "00010c49",
+        "length": 20,
+        "value": "__cxa_guard_acquire"
+    },
+    {
+        "address": "00010c5d",
+        "length": 20,
+        "value": "__cxa_guard_release"
+    },
+    {
+        "address": "00010c71",
+        "length": 8,
+        "value": "sincosf"
+    },
+    {
+        "address": "00010c79",
+        "length": 7,
+        "value": "atan2f"
+    },
+    {
+        "address": "00010c80",
+        "length": 6,
+        "value": "atan2"
+    },
+    {
+        "address": "00010c86",
+        "length": 6,
+        "value": "floor"
+    },
+    {
+        "address": "00010c8c",
+        "length": 4,
+        "value": "log"
+    },
+    {
+        "address": "00010c90",
+        "length": 6,
+        "value": "acosf"
+    },
+    {
+        "address": "00010c96",
+        "length": 5,
+        "value": "sinf"
+    },
+    {
+        "address": "00010c9b",
+        "length": 5,
+        "value": "asin"
+    },
+    {
+        "address": "00010ca0",
+        "length": 5,
+        "value": "acos"
+    },
+    {
+        "address": "00010ca5",
+        "length": 18,
+        "value": "GetCPUInformation"
+    },
+    {
+        "address": "00010cb7",
+        "length": 6,
+        "value": "fmodf"
+    },
+    {
+        "address": "00010cbd",
+        "length": 5,
+        "value": "atan"
+    },
+    {
+        "address": "00010cc2",
+        "length": 5,
+        "value": "tanf"
+    },
+    {
+        "address": "00010cc7",
+        "length": 5,
+        "value": "rand"
+    },
+    {
+        "address": "00010ccc",
+        "length": 5,
+        "value": "powf"
+    },
+    {
+        "address": "00010cd1",
+        "length": 10,
+        "value": "libm.so.6"
+    },
+    {
+        "address": "00010cdb",
+        "length": 11,
+        "value": "libdl.so.2"
+    },
+    {
+        "address": "00010ce6",
+        "length": 15,
+        "value": "libstdc++.so.6"
+    },
+    {
+        "address": "00010cf5",
+        "length": 6,
+        "value": "abort"
+    },
+    {
+        "address": "00010cfb",
+        "length": 21,
+        "value": "__pthread_key_create"
+    },
+    {
+        "address": "00010d10",
+        "length": 13,
+        "value": "pthread_once"
+    },
+    {
+        "address": "00010d1d",
+        "length": 7,
+        "value": "malloc"
+    },
+    {
+        "address": "00010d24",
+        "length": 5,
+        "value": "free"
+    },
+    {
+        "address": "00010d29",
+        "length": 16,
+        "value": "dl_iterate_phdr"
+    },
+    {
+        "address": "00010d39",
+        "length": 21,
+        "value": "pthread_mutex_unlock"
+    },
+    {
+        "address": "00010d4e",
+        "length": 19,
+        "value": "pthread_mutex_lock"
+    },
+    {
+        "address": "00010d61",
+        "length": 10,
+        "value": "libc.so.6"
+    },
+    {
+        "address": "00010d6b",
+        "length": 7,
+        "value": "_edata"
+    },
+    {
+        "address": "00010d72",
+        "length": 12,
+        "value": "__bss_start"
+    },
+    {
+        "address": "00010d7e",
+        "length": 5,
+        "value": "_end"
+    },
+    {
+        "address": "00010d83",
+        "length": 10,
+        "value": "GLIBC_2.1"
+    },
+    {
+        "address": "00010d8d",
+        "length": 10,
+        "value": "GLIBC_2.0"
+    },
+    {
+        "address": "00010d97",
+        "length": 12,
+        "value": "GLIBCXX_3.4"
+    },
+    {
+        "address": "00010da3",
+        "length": 11,
+        "value": "CXXABI_1.3"
+    },
+    {
+        "address": "00010dae",
+        "length": 12,
+        "value": "GLIBC_2.2.4"
+    },
+    {
+        "address": "00010dba",
+        "length": 10,
+        "value": "GLIBC_2.2"
+    },
+    {
+        "address": "00010dc4",
+        "length": 10,
+        "value": "GLIBC_2.4"
+    },
+    {
+        "address": "00010dce",
+        "length": 10,
+        "value": "GLIBC_2.3"
+    },
+    {
+        "address": "00010dd8",
+        "length": 12,
+        "value": "GLIBC_2.1.3"
+    },
+    {
+        "address": "00049e40",
+        "length": 8,
+        "value": "g_bloom"
+    },
+    {
+        "address": "00049e48",
+        "length": 10,
+        "value": "Wireframe"
+    },
+    {
+        "address": "00049e52",
+        "length": 13,
+        "value": "g_bloom_vs20"
+    },
+    {
+        "address": "00049e5f",
+        "length": 13,
+        "value": "g_bloom_ps20"
+    },
+    {
+        "address": "00049e6c",
+        "length": 8,
+        "value": "$LEVELR"
+    },
+    {
+        "address": "00049e78",
+        "length": 10,
+        "value": "Red Level"
+    },
+    {
+        "address": "00049e82",
+        "length": 8,
+        "value": "$LEVELG"
+    },
+    {
+        "address": "00049e8a",
+        "length": 12,
+        "value": "Green Level"
+    },
+    {
+        "address": "00049e96",
+        "length": 8,
+        "value": "$LEVELB"
+    },
+    {
+        "address": "00049e9e",
+        "length": 11,
+        "value": "Blue Level"
+    },
+    {
+        "address": "00049ea9",
+        "length": 10,
+        "value": "$COLORMUL"
+    },
+    {
+        "address": "00049eb7",
+        "length": 17,
+        "value": "Color Multiplier"
+    },
+    {
+        "address": "00049ec8",
+        "length": 71,
+        "value": "FATAL ERROR: UtlMemory_CalcNewAllocationCount got to negative values!\n"
+    },
+    {
+        "address": "00049f10",
+        "length": 53,
+        "value": "CUtlMemory::Grow ran out of memory? Alloc Size: %lu\n"
+    },
+    {
+        "address": "00049f54",
+        "length": 16,
+        "value": "13CBaseVSShader"
+    },
+    {
+        "address": "00049f70",
+        "length": 19,
+        "value": "N7g_bloom7CShaderE"
+    },
+    {
+        "address": "0004a070",
+        "length": 8,
+        "value": "g_blurx"
+    },
+    {
+        "address": "0004a078",
+        "length": 13,
+        "value": "g_blurx_vs20"
+    },
+    {
+        "address": "0004a085",
+        "length": 13,
+        "value": "g_blurx_ps20"
+    },
+    {
+        "address": "0004a092",
+        "length": 6,
+        "value": "$SIZE"
+    },
+    {
+        "address": "0004a09c",
+        "length": 10,
+        "value": "Blur Size"
+    },
+    {
+        "address": "0004a0b4",
+        "length": 19,
+        "value": "N7g_blurx7CShaderE"
+    },
+    {
+        "address": "0004a138",
+        "length": 8,
+        "value": "g_blury"
+    },
+    {
+        "address": "0004a140",
+        "length": 13,
+        "value": "g_blury_vs20"
+    },
+    {
+        "address": "0004a14d",
+        "length": 13,
+        "value": "g_blury_ps20"
+    },
+    {
+        "address": "0004a168",
+        "length": 19,
+        "value": "N7g_blury7CShaderE"
+    },
+    {
+        "address": "0004a1d8",
+        "length": 12,
+        "value": "g_bokehblur"
+    },
+    {
+        "address": "0004a1e4",
+        "length": 17,
+        "value": "g_bokehblur_vs30"
+    },
+    {
+        "address": "0004a1f5",
+        "length": 17,
+        "value": "g_bokehblur_ps30"
+    },
+    {
+        "address": "0004a206",
+        "length": 14,
+        "value": "$DEPTHTEXTURE"
+    },
+    {
+        "address": "0004a214",
+        "length": 16,
+        "value": "_rt_FullFrameFB"
+    },
+    {
+        "address": "0004a228",
+        "length": 7,
+        "value": "$FOCUS"
+    },
+    {
+        "address": "0004a233",
+        "length": 13,
+        "value": "$FOCUSRADIUS"
+    },
+    {
+        "address": "0004a24c",
+        "length": 24,
+        "value": "N11g_bokehblur7CShaderE"
+    },
+    {
+        "address": "0004a2db",
+        "length": 16,
+        "value": "?g_colourmodify"
+    },
+    {
+        "address": "0004a2eb",
+        "length": 20,
+        "value": "g_colourmodify_vs20"
+    },
+    {
+        "address": "0004a2ff",
+        "length": 20,
+        "value": "g_colourmodify_ps20"
+    },
+    {
+        "address": "0004a313",
+        "length": 11,
+        "value": "$FBTEXTURE"
+    },
+    {
+        "address": "0004a31e",
+        "length": 16,
+        "value": "$pp_colour_addr"
+    },
+    {
+        "address": "0004a332",
+        "length": 16,
+        "value": "$pp_colour_addg"
+    },
+    {
+        "address": "0004a342",
+        "length": 16,
+        "value": "$pp_colour_addb"
+    },
+    {
+        "address": "0004a352",
+        "length": 22,
+        "value": "$pp_colour_brightness"
+    },
+    {
+        "address": "0004a368",
+        "length": 20,
+        "value": "$pp_colour_contrast"
+    },
+    {
+        "address": "0004a37c",
+        "length": 18,
+        "value": "$pp_colour_colour"
+    },
+    {
+        "address": "0004a38e",
+        "length": 16,
+        "value": "$pp_colour_mulr"
+    },
+    {
+        "address": "0004a39e",
+        "length": 16,
+        "value": "$pp_colour_mulg"
+    },
+    {
+        "address": "0004a3ae",
+        "length": 16,
+        "value": "$pp_colour_mulb"
+    },
+    {
+        "address": "0004a3be",
+        "length": 18,
+        "value": "$pp_colour_inv"
+    },
+    {
+        "address": "0004a3dc",
+        "length": 27,
+        "value": "N14g_colourmodify7CShaderE"
+    },
+    {
+        "address": "0004a458",
+        "length": 13,
+        "value": "g_downsample"
+    },
+    {
+        "address": "0004a465",
+        "length": 18,
+        "value": "g_downsample_vs20"
+    },
+    {
+        "address": "0004a477",
+        "length": 18,
+        "value": "g_downsample_ps20"
+    },
+    {
+        "address": "0004a489",
+        "length": 8,
+        "value": "$DARKEN"
+    },
+    {
+        "address": "0004a491",
+        "length": 17,
+        "value": "Amount to darken"
+    },
+    {
+        "address": "0004a4a2",
+        "length": 10,
+        "value": "$MULTIPLY"
+    },
+    {
+        "address": "0004a4ac",
+        "length": 7,
+        "value": "$SCALE"
+    },
+    {
+        "address": "0004a4b3",
+        "length": 13,
+        "value": "Sample Scale"
+    },
+    {
+        "address": "0004a4c0",
+        "length": 33,
+        "value": "Amount to multiply (to contrast)"
+    },
+    {
+        "address": "0004a4f0",
+        "length": 25,
+        "value": "N12g_downsample7CShaderE"
+    },
+    {
+        "address": "0004a578",
+        "length": 16,
+        "value": "gmodscreenspace"
+    },
+    {
+        "address": "0004a588",
+        "length": 18,
+        "value": "( iTextureAlpha )"
+    },
+    {
+        "address": "0004a59a",
+        "length": 29,
+        "value": "\n   PS stat var %s = %d (%s)"
+    },
+    {
+        "address": "0004a5b7",
+        "length": 26,
+        "value": "( fBlur != 0.0f ? 1 : 0 )"
+    },
+    {
+        "address": "0004a5d1",
+        "length": 19,
+        "value": "g_screenspace_ps20"
+    },
+    {
+        "address": "0004a5e4",
+        "length": 14,
+        "value": "iTextureAlpha"
+    },
+    {
+        "address": "0004a5f2",
+        "length": 19,
+        "value": "g_screenspace_ps11"
+    },
+    {
+        "address": "0004a605",
+        "length": 19,
+        "value": "g_screenspace_vs20"
+    },
+    {
+        "address": "0004a618",
+        "length": 19,
+        "value": "g_screenspace_vs11"
+    },
+    {
+        "address": "0004a62b",
+        "length": 14,
+        "value": "$TEXTUREALPHA"
+    },
+    {
+        "address": "0004a639",
+        "length": 18,
+        "value": "Use Texture Alpha"
+    },
+    {
+        "address": "0004a64b",
+        "length": 13,
+        "value": "$VERTEXALPHA"
+    },
+    {
+        "address": "0004a658",
+        "length": 17,
+        "value": "Use Vertex Alpha"
+    },
+    {
+        "address": "0004a669",
+        "length": 13,
+        "value": "$VERTEXCOLOR"
+    },
+    {
+        "address": "0004a676",
+        "length": 17,
+        "value": "Use Vertex Color"
+    },
+    {
+        "address": "0004a68d",
+        "length": 17,
+        "value": "Blur this buffer"
+    },
+    {
+        "address": "0004a6a0",
+        "length": 52,
+        "value": "( IS_FLAG_SET( MATERIAL_VAR_VERTEXALPHA ) ? 1 : 0 )"
+    },
+    {
+        "address": "0004a6e0",
+        "length": 28,
+        "value": "N15gmodscreenspace7CShaderE"
+    },
+    {
+        "address": "0004a770",
+        "length": 16,
+        "value": "g_premultiplied"
+    },
+    {
+        "address": "0004a780",
+        "length": 21,
+        "value": "g_premultiplied_vs20"
+    },
+    {
+        "address": "0004a795",
+        "length": 21,
+        "value": "g_premultiplied_ps20"
+    },
+    {
+        "address": "0004a7b8",
+        "length": 28,
+        "value": "N15g_premultiplied7CShaderE"
+    },
+    {
+        "address": "0004a838",
+        "length": 10,
+        "value": "g_refract"
+    },
+    {
+        "address": "0004a842",
+        "length": 15,
+        "value": "g_refract_vs20"
+    },
+    {
+        "address": "0004a851",
+        "length": 15,
+        "value": "g_refract_ps20"
+    },
+    {
+        "address": "0004a860",
+        "length": 15,
+        "value": "$REFRACTAMOUNT"
+    },
+    {
+        "address": "0004a86f",
+        "length": 15,
+        "value": "Refract Amount"
+    },
+    {
+        "address": "0004a87e",
+        "length": 11,
+        "value": "$NORMALMAP"
+    },
+    {
+        "address": "0004a889",
+        "length": 12,
+        "value": "Huh texture"
+    },
+    {
+        "address": "0004a898",
+        "length": 36,
+        "value": "shadertest/WorldDiffuseBumpMap_bump"
+    },
+    {
+        "address": "0004a8c8",
+        "length": 21,
+        "value": "N9g_refract7CShaderE"
+    },
+    {
+        "address": "0004a938",
+        "length": 10,
+        "value": "g_sharpen"
+    },
+    {
+        "address": "0004a942",
+        "length": 15,
+        "value": "g_sharpen_vs20"
+    },
+    {
+        "address": "0004a951",
+        "length": 15,
+        "value": "g_sharpen_ps20"
+    },
+    {
+        "address": "0004a960",
+        "length": 10,
+        "value": "$contrast"
+    },
+    {
+        "address": "0004a96a",
+        "length": 10,
+        "value": "$distance"
+    },
+    {
+        "address": "0004a980",
+        "length": 21,
+        "value": "N9g_sharpen7CShaderE"
+    },
+    {
+        "address": "0004a9f8",
+        "length": 6,
+        "value": "g_sky"
+    },
+    {
+        "address": "0004a9fe",
+        "length": 11,
+        "value": "SKY_LAYERS"
+    },
+    {
+        "address": "0004aa09",
+        "length": 12,
+        "value": "g_sky_ps20b"
+    },
+    {
+        "address": "0004aa15",
+        "length": 11,
+        "value": "g_sky_vs20"
+    },
+    {
+        "address": "0004aa20",
+        "length": 11,
+        "value": "g_sky_ps20"
+    },
+    {
+        "address": "0004aa2b",
+        "length": 11,
+        "value": "g_sky_ps11"
+    },
+    {
+        "address": "0004aa36",
+        "length": 11,
+        "value": "g_sky_vs11"
+    },
+    {
+        "address": "0004aa41",
+        "length": 10,
+        "value": "$TOPCOLOR"
+    },
+    {
+        "address": "0004aa4b",
+        "length": 8,
+        "value": "[0 0 1]"
+    },
+    {
+        "address": "0004aa53",
+        "length": 13,
+        "value": "$BOTTOMCOLOR"
+    },
+    {
+        "address": "0004aa60",
+        "length": 8,
+        "value": "[0 1 1]"
+    },
+    {
+        "address": "0004aa68",
+        "length": 10,
+        "value": "$FADEBIAS"
+    },
+    {
+        "address": "0004aa72",
+        "length": 10,
+        "value": "$HDRSCALE"
+    },
+    {
+        "address": "0004aa7c",
+        "length": 11,
+        "value": "$SUNNORMAL"
+    },
+    {
+        "address": "0004aa87",
+        "length": 10,
+        "value": "[0 1 0.5]"
+    },
+    {
+        "address": "0004aa91",
+        "length": 11,
+        "value": "$DUSKCOLOR"
+    },
+    {
+        "address": "0004aa9c",
+        "length": 10,
+        "value": "[1 0.4 0]"
+    },
+    {
+        "address": "0004aaa6",
+        "length": 11,
+        "value": "$DUSKSCALE"
+    },
+    {
+        "address": "0004aab1",
+        "length": 15,
+        "value": "$DUSKINTENSITY"
+    },
+    {
+        "address": "0004aac0",
+        "length": 10,
+        "value": "$SUNCOLOR"
+    },
+    {
+        "address": "0004aaca",
+        "length": 8,
+        "value": "[1 1 1]"
+    },
+    {
+        "address": "0004aad2",
+        "length": 9,
+        "value": "$SUNSIZE"
+    },
+    {
+        "address": "0004aadb",
+        "length": 13,
+        "value": "$STARTEXTURE"
+    },
+    {
+        "address": "0004aae8",
+        "length": 13,
+        "value": "skybox/stars"
+    },
+    {
+        "address": "0004aaf5",
+        "length": 10,
+        "value": "$STARFADE"
+    },
+    {
+        "address": "0004aaff",
+        "length": 11,
+        "value": "$STARSCALE"
+    },
+    {
+        "address": "0004ab0a",
+        "length": 9,
+        "value": "$STARPOS"
+    },
+    {
+        "address": "0004ab13",
+        "length": 12,
+        "value": "$STARLAYERS"
+    },
+    {
+        "address": "0004ab20",
+        "length": 34,
+        "value": "params[STARLAYERS]->GetIntValue()"
+    },
+    {
+        "address": "0004ab50",
+        "length": 17,
+        "value": "N5g_sky7CShaderE"
+    },
+    {
+        "address": "0004abd8",
+        "length": 11,
+        "value": "g_sunbeams"
+    },
+    {
+        "address": "0004abe3",
+        "length": 16,
+        "value": "g_sunbeams_vs20"
+    },
+    {
+        "address": "0004abf3",
+        "length": 16,
+        "value": "g_sunbeams_ps20"
+    },
+    {
+        "address": "0004ac03",
+        "length": 8,
+        "value": "$darken"
+    },
+    {
+        "address": "0004ac0f",
+        "length": 10,
+        "value": "$multiply"
+    },
+    {
+        "address": "0004ac1d",
+        "length": 9,
+        "value": "$sunsize"
+    },
+    {
+        "address": "0004ac48",
+        "length": 23,
+        "value": "N10g_sunbeams7CShaderE"
+    },
+    {
+        "address": "0004acb8",
+        "length": 12,
+        "value": "g_texturize"
+    },
+    {
+        "address": "0004acc4",
+        "length": 17,
+        "value": "g_texturize_vs20"
+    },
+    {
+        "address": "0004acd5",
+        "length": 17,
+        "value": "g_texturize_ps20"
+    },
+    {
+        "address": "0004ace6",
+        "length": 13,
+        "value": "$BASETEXTURE"
+    },
+    {
+        "address": "0004acf3",
+        "length": 8,
+        "value": "$scalex"
+    },
+    {
+        "address": "0004acfb",
+        "length": 9,
+        "value": "$scaley"
+    },
+    {
+        "address": "0004ad10",
+        "length": 24,
+        "value": "N11g_texturize7CShaderE"
+    },
+    {
+        "address": "0004ad98",
+        "length": 6,
+        "value": "Sobel"
+    },
+    {
+        "address": "0004ad9e",
+        "length": 13,
+        "value": "g_sobel_vs20"
+    },
+    {
+        "address": "0004adab",
+        "length": 14,
+        "value": "g_sobel_ps20b"
+    },
+    {
+        "address": "0004adb9",
+        "length": 13,
+        "value": "g_sobel_ps20"
+    },
+    {
+        "address": "0004adc6",
+        "length": 11,
+        "value": "$THRESHOLD"
+    },
+    {
+        "address": "0004ade4",
+        "length": 17,
+        "value": "N5Sobel7CShaderE"
+    },
+    {
+        "address": "0004ae58",
+        "length": 47,
+        "value": "CBaseShader::GetParamType unrecoverable error!"
+    },
+    {
+        "address": "0004ae88",
+        "length": 36,
+        "value": "Base Texture with lighting built in"
+    },
+    {
+        "address": "0004aeac",
+        "length": 32,
+        "value": "Base Texture Texcoord Transform"
+    },
+    {
+        "address": "0004aecc",
+        "length": 48,
+        "value": "center .5 .5 scale 1 1 rotate 0 translate 0 0"
+    },
+    {
+        "address": "0004aefc",
+        "length": 36,
+        "value": "flashlight spotlight shape texture"
+    },
+    {
+        "address": "0004af20",
+        "length": 32,
+        "value": "Animation Frame for $flashlight"
+    },
+    {
+        "address": "0004af40",
+        "length": 62,
+        "value": "tint value to be applied when running on new-style srgb parts"
+    },
+    {
+        "address": "0004af7e",
+        "length": 12,
+        "value": "Unaccounted"
+    },
+    {
+        "address": "0004af8a",
+        "length": 26,
+        "value": "CBaseShader::DrawElements"
+    },
+    {
+        "address": "0004afa4",
+        "length": 15,
+        "value": "mat_fullbright"
+    },
+    {
+        "address": "0004afb4",
+        "length": 6,
+        "value": "flags"
+    },
+    {
+        "address": "0004afba",
+        "length": 15,
+        "value": "$flags_defined"
+    },
+    {
+        "address": "0004afd1",
+        "length": 16,
+        "value": "$flags_defined2"
+    },
+    {
+        "address": "0004afe1",
+        "length": 15,
+        "value": "flags2_defined"
+    },
+    {
+        "address": "0004aff0",
+        "length": 7,
+        "value": "$color"
+    },
+    {
+        "address": "0004affe",
+        "length": 13,
+        "value": "$basetexture"
+    },
+    {
+        "address": "0004b00b",
+        "length": 23,
+        "value": "shadertest/BaseTexture"
+    },
+    {
+        "address": "0004b022",
+        "length": 7,
+        "value": "$frame"
+    },
+    {
+        "address": "0004b029",
+        "length": 16,
+        "value": "Animation Frame"
+    },
+    {
+        "address": "0004b039",
+        "length": 22,
+        "value": "$basetexturetransform"
+    },
+    {
+        "address": "0004b04f",
+        "length": 19,
+        "value": "$flashlighttexture"
+    },
+    {
+        "address": "0004b062",
+        "length": 22,
+        "value": "effects/flashlight001"
+    },
+    {
+        "address": "0004b078",
+        "length": 24,
+        "value": "$flashlighttextureframe"
+    },
+    {
+        "address": "0004b0ac",
+        "length": 9,
+        "value": "7IShader"
+    },
+    {
+        "address": "0004b0b5",
+        "length": 14,
+        "value": "11CBaseShader"
+    },
+    {
+        "address": "0004b2e0",
+        "length": 32,
+        "value": "MaterialSystemHardwareConfig012"
+    },
+    {
+        "address": "0004b300",
+        "length": 25,
+        "value": "VMaterialSystemConfig002"
+    },
+    {
+        "address": "0004b319",
+        "length": 16,
+        "value": "ShaderSystem002"
+    },
+    {
+        "address": "0004b329",
+        "length": 13,
+        "value": "ShaderDLL004"
+    },
+    {
+        "address": "0004b340",
+        "length": 16,
+        "value": "10IShaderDLL"
+    },
+    {
+        "address": "0004b358",
+        "length": 21,
+        "value": "18IShaderDLLInternal"
+    },
+    {
+        "address": "0004b36d",
+        "length": 15,
+        "value": "10CShaderDLL"
+    },
+    {
+        "address": "0004b418",
+        "length": 26,
+        "value": "23IConCommandBaseAccessor"
+    },
+    {
+        "address": "0004b440",
+        "length": 27,
+        "value": "24CShaderLibConVarAccessor"
+    },
+    {
+        "address": "0004b46c",
+        "length": 22,
+        "value": "FCVAR_NEVER_AS_STRING"
+    },
+    {
+        "address": "0004b482",
+        "length": 7,
+        "value": "{}()':"
+    },
+    {
+        "address": "0004b489",
+        "length": 6,
+        "value": " game"
+    },
+    {
+        "address": "0004b48f",
+        "length": 8,
+        "value": " client"
+    },
+    {
+        "address": "0004b497",
+        "length": 9,
+        "value": " archive"
+    },
+    {
+        "address": "0004b4a0",
+        "length": 8,
+        "value": " notify"
+    },
+    {
+        "address": "0004b4a8",
+        "length": 14,
+        "value": " singleplayer"
+    },
+    {
+        "address": "0004b4b6",
+        "length": 14,
+        "value": " notconnected"
+    },
+    {
+        "address": "0004b4c4",
+        "length": 7,
+        "value": " cheat"
+    },
+    {
+        "address": "0004b4cb",
+        "length": 12,
+        "value": " replicated"
+    },
+    {
+        "address": "0004b4d7",
+        "length": 20,
+        "value": " server_can_execute"
+    },
+    {
+        "address": "0004b4eb",
+        "length": 23,
+        "value": " clientcmd_can_execute"
+    },
+    {
+        "address": "0004b502",
+        "length": 12,
+        "value": " lua_client"
+    },
+    {
+        "address": "0004b50e",
+        "length": 12,
+        "value": " lua_server"
+    },
+    {
+        "address": "0004b526",
+        "length": 15,
+        "value": " ( def. \"%s\" )"
+    },
+    {
+        "address": "0004b53e",
+        "length": 9,
+        "value": " max. %f"
+    },
+    {
+        "address": "0004b547",
+        "length": 6,
+        "value": "\"%s\"\n"
+    },
+    {
+        "address": "0004b54d",
+        "length": 7,
+        "value": " - %s\n"
+    },
+    {
+        "address": "0004b554",
+        "length": 50,
+        "value": "ConVarRef %s doesn't point to an existing ConVar\n"
+    },
+    {
+        "address": "0004b588",
+        "length": 39,
+        "value": " ( server enforced, real value: \"%f\" )"
+    },
+    {
+        "address": "0004b5b0",
+        "length": 40,
+        "value": " ( server enforced, real value: \"%s\" )"
+    },
+    {
+        "address": "0004b5d8",
+        "length": 89,
+        "value": "** NOTE: The real value is %.3f but the server has temporarily restricted it to %.3f **\n"
+    },
+    {
+        "address": "0004b634",
+        "length": 90,
+        "value": "CCommand::Tokenize: Encountered command which overflows the tokenizer buffer.. Skipping!\n"
+    },
+    {
+        "address": "0004b690",
+        "length": 88,
+        "value": "CCommand::Tokenize: Encountered command which overflows the argument buffer.. Clamped!\n"
+    },
+    {
+        "address": "0004b6f0",
+        "length": 9,
+        "value": "7IConVar"
+    },
+    {
+        "address": "0004b6f9",
+        "length": 19,
+        "value": "14ConCommandBase"
+    },
+    {
+        "address": "0004b714",
+        "length": 13,
+        "value": "10ConCommand"
+    },
+    {
+        "address": "0004b730",
+        "length": 8,
+        "value": "6ConVar"
+    },
+    {
+        "address": "0004b76c",
+        "length": 23,
+        "value": "20ConVar_ServerBounded"
+    },
+    {
+        "address": "0004b790",
+        "length": 19,
+        "value": "16CDefaultAccessor"
+    },
+    {
+        "address": "0004b7b0",
+        "length": 15,
+        "value": "12CEmptyConVar"
+    },
+    {
+        "address": "0004b99b",
+        "length": 18,
+        "value": "8DLOPEN Error:%s\n"
+    },
+    {
+        "address": "0004b9b1",
+        "length": 13,
+        "value": "No such file"
+    },
+    {
+        "address": "0004b9be",
+        "length": 16,
+        "value": "image not found"
+    },
+    {
+        "address": "0004b9d3",
+        "length": 6,
+        "value": "%s/%s"
+    },
+    {
+        "address": "0004b9d9",
+        "length": 10,
+        "value": "%s/bin/%s"
+    },
+    {
+        "address": "0004b9e3",
+        "length": 16,
+        "value": "CreateInterface"
+    },
+    {
+        "address": "0004b9f4",
+        "length": 31,
+        "value": " failed to dlopen %s error=%s\n"
+    },
+    {
+        "address": "0004ba13",
+        "length": 21,
+        "value": "16CDllDemandLoader"
+    },
+    {
+        "address": "0004ba40",
+        "length": 17,
+        "value": "0123456789ABCDEF"
+    },
+    {
+        "address": "0004ba59",
+        "length": 7,
+        "value": " bytes"
+    },
+    {
+        "address": "0004ba65",
+        "length": 9,
+        "value": "%%.%if%s"
+    },
+    {
+        "address": "0004ba70",
+        "length": 6,
+        "value": ",%03d"
+    },
+    {
+        "address": "0004ba76",
+        "length": 8,
+        "value": "UCS-2LE"
+    },
+    {
+        "address": "0004ba7e",
+        "length": 8,
+        "value": "UCS-4LE"
+    },
+    {
+        "address": "0004ba86",
+        "length": 9,
+        "value": "UTF-32LE"
+    },
+    {
+        "address": "0004ba8f",
+        "length": 6,
+        "value": "UTF-8"
+    },
+    {
+        "address": "0004baa4",
+        "length": 9,
+        "value": "%A %b %d"
+    },
+    {
+        "address": "0004baad",
+        "length": 7,
+        "value": "%I:%M "
+    },
+    {
+        "address": "0004bac4",
+        "length": 39,
+        "value": "V_AppendSlash: ran out of space on %s."
+    },
+    {
+        "address": "0004baec",
+        "length": 36,
+        "value": "V_MakeAbsolutePath: _getcwd failed."
+    },
+    {
+        "address": "0004bb10",
+        "length": 49,
+        "value": "V_MakeAbsolutePath: tried to \"..\" past the root."
+    },
+    {
+        "address": "0004bb86",
+        "length": 17,
+        "value": "zDVEngineCvar004"
+    },
+    {
+        "address": "0004bb97",
+        "length": 17,
+        "value": "VProcessUtils001"
+    },
+    {
+        "address": "0004bc08",
+        "length": 39,
+        "value": "CUtlBuffer::PeekPut invalid offset %i\n"
+    },
+    {
+        "address": "0004bc2f",
+        "length": 21,
+        "value": "18CUtlCharConversion"
+    },
+    {
+        "address": "0004bc4c",
+        "length": 24,
+        "value": "21CUtlCStringConversion"
+    },
+    {
+        "address": "0004bc7c",
+        "length": 22,
+        "value": "19CUtlNoEscConversion"
+    },
+    {
+        "address": "0004bd04",
+        "length": 36,
+        "value": "GetInterpolationData got 0 values!\n"
+    },
+    {
+        "address": "0004e941",
+        "length": 3,
+        "value": "zR"
+    },
+    {
+        "address": "0004ebd5",
+        "length": 5,
+        "value": "zPLR"
+    },
+    {
+        "address": "0005b0d4",
+        "length": 7,
+        "value": "\rr\"\"\\\\"
+    },
+    {
+        "address": ".comment::00000000",
+        "length": 59,
+        "value": "GCC: (SteamRT 4.8.4-1ubuntu15~12.04+steamrt1.2+srt2) 4.8.4"
+    },
+    {
+        "address": ".shstrtab::00000001",
+        "length": 8,
+        "value": ".symtab"
+    },
+    {
+        "address": ".shstrtab::00000009",
+        "length": 8,
+        "value": ".strtab"
+    },
+    {
+        "address": ".shstrtab::00000011",
+        "length": 10,
+        "value": ".shstrtab"
+    },
+    {
+        "address": ".shstrtab::0000001b",
+        "length": 19,
+        "value": ".note.gnu.build-id"
+    },
+    {
+        "address": ".shstrtab::0000002e",
+        "length": 10,
+        "value": ".gnu.hash"
+    },
+    {
+        "address": ".shstrtab::00000038",
+        "length": 8,
+        "value": ".dynsym"
+    },
+    {
+        "address": ".shstrtab::00000040",
+        "length": 8,
+        "value": ".dynstr"
+    },
+    {
+        "address": ".shstrtab::00000048",
+        "length": 13,
+        "value": ".gnu.version"
+    },
+    {
+        "address": ".shstrtab::00000055",
+        "length": 15,
+        "value": ".gnu.version_r"
+    },
+    {
+        "address": ".shstrtab::00000064",
+        "length": 9,
+        "value": ".rel.dyn"
+    },
+    {
+        "address": ".shstrtab::0000006d",
+        "length": 9,
+        "value": ".rel.plt"
+    },
+    {
+        "address": ".shstrtab::00000076",
+        "length": 6,
+        "value": ".init"
+    },
+    {
+        "address": ".shstrtab::0000007c",
+        "length": 6,
+        "value": ".text"
+    },
+    {
+        "address": ".shstrtab::00000082",
+        "length": 6,
+        "value": ".fini"
+    },
+    {
+        "address": ".shstrtab::00000088",
+        "length": 8,
+        "value": ".rodata"
+    },
+    {
+        "address": ".shstrtab::00000090",
+        "length": 14,
+        "value": ".eh_frame_hdr"
+    },
+    {
+        "address": ".shstrtab::0000009e",
+        "length": 10,
+        "value": ".eh_frame"
+    },
+    {
+        "address": ".shstrtab::000000a8",
+        "length": 18,
+        "value": ".gcc_except_table"
+    },
+    {
+        "address": ".shstrtab::000000ba",
+        "length": 12,
+        "value": ".init_array"
+    },
+    {
+        "address": ".shstrtab::000000c6",
+        "length": 12,
+        "value": ".fini_array"
+    },
+    {
+        "address": ".shstrtab::000000d2",
+        "length": 5,
+        "value": ".jcr"
+    },
+    {
+        "address": ".shstrtab::000000d7",
+        "length": 9,
+        "value": ".dynamic"
+    },
+    {
+        "address": ".shstrtab::000000e0",
+        "length": 5,
+        "value": ".got"
+    },
+    {
+        "address": ".shstrtab::000000e5",
+        "length": 9,
+        "value": ".got.plt"
+    },
+    {
+        "address": ".shstrtab::000000ee",
+        "length": 6,
+        "value": ".data"
+    },
+    {
+        "address": ".shstrtab::000000f4",
+        "length": 5,
+        "value": ".bss"
+    },
+    {
+        "address": ".shstrtab::000000f9",
+        "length": 9,
+        "value": ".comment"
+    },
+    {
+        "address": ".shstrtab::00000102",
+        "length": 15,
+        "value": ".gnu_debuglink"
+    },
+    {
+        "address": ".strtab::00000001",
+        "length": 17,
+        "value": "abort@@GLIBC_2.0"
+    },
+    {
+        "address": ".strtab::00000012",
+        "length": 15,
+        "value": "Plat_localtime"
+    },
+    {
+        "address": ".strtab::00000021",
+        "length": 26,
+        "value": "__cxa_atexit@@GLIBC_2.1.3"
+    },
+    {
+        "address": ".strtab::0000003b",
+        "length": 16,
+        "value": "tanf@@GLIBC_2.0"
+    },
+    {
+        "address": ".strtab::0000004b",
+        "length": 18,
+        "value": "memcmp@@GLIBC_2.0"
+    },
+    {
+        "address": ".strtab::0000005d",
+        "length": 28,
+        "value": "_Z11ConColorMsgRK5ColorPKcz"
+    },
+    {
+        "address": ".strtab::00000079",
+        "length": 16,
+        "value": "asin@@GLIBC_2.0"
+    },
+    {
+        "address": ".strtab::00000089",
+        "length": 19,
+        "value": "wcsncat@@GLIBC_2.0"
+    },
+    {
+        "address": ".strtab::0000009c",
+        "length": 28,
+        "value": "_ZN10CVProfNode9ExitScopeEv"
+    },
+    {
+        "address": ".strtab::000000b8",
+        "length": 32,
+        "value": "__cxa_guard_acquire@@CXXABI_1.3"
+    },
+    {
+        "address": ".strtab::000000d8",
+        "length": 4,
+        "value": "Msg"
+    },
+    {
+        "address": ".strtab::000000dc",
+        "length": 22,
+        "value": "g_VProfCurrentProfile"
+    },
+    {
+        "address": ".strtab::000000f2",
+        "length": 15,
+        "value": "__gmon_start__"
+    },
+    {
+        "address": ".strtab::00000101",
+        "length": 20,
+        "value": "_Jv_RegisterClasses"
+    },
+    {
+        "address": ".strtab::00000115",
+        "length": 22,
+        "value": "iconv_open@@GLIBC_2.1"
+    },
+    {
+        "address": ".strtab::0000012b",
+        "length": 20,
+        "value": "_ZdlPv@@GLIBCXX_3.4"
+    },
+    {
+        "address": ".strtab::0000013f",
+        "length": 19,
+        "value": "isspace@@GLIBC_2.0"
+    },
+    {
+        "address": ".strtab::00000152",
+        "length": 18,
+        "value": "strtod@@GLIBC_2.0"
+    },
+    {
+        "address": ".strtab::00000164",
+        "length": 18,
+        "value": "strchr@@GLIBC_2.0"
+    },
+    {
+        "address": ".strtab::00000176",
+        "length": 21,
+        "value": "vsnprintf@@GLIBC_2.0"
+    },
+    {
+        "address": ".strtab::0000018b",
+        "length": 6,
+        "value": "_fini"
+    },
+    {
+        "address": ".strtab::00000191",
+        "length": 18,
+        "value": "wcslen@@GLIBC_2.0"
+    },
+    {
+        "address": ".strtab::000001a3",
+        "length": 15,
+        "value": "pow@@GLIBC_2.0"
+    },
+    {
+        "address": ".strtab::000001b2",
+        "length": 19,
+        "value": "dlclose@@GLIBC_2.0"
+    },
+    {
+        "address": ".strtab::000001c5",
+        "length": 18,
+        "value": "memset@@GLIBC_2.0"
+    },
+    {
+        "address": ".strtab::000001d7",
+        "length": 19,
+        "value": "sincosf@@GLIBC_2.1"
+    },
+    {
+        "address": ".strtab::000001ea",
+        "length": 17,
+        "value": "floor@@GLIBC_2.0"
+    },
+    {
+        "address": ".strtab::000001fb",
+        "length": 16,
+        "value": "CreateInterface"
+    },
+    {
+        "address": ".strtab::0000020b",
+        "length": 13,
+        "value": "pthread_once"
+    },
+    {
+        "address": ".strtab::00000218",
+        "length": 28,
+        "value": "_ITM_deregisterTMCloneTable"
+    },
+    {
+        "address": ".strtab::00000234",
+        "length": 18,
+        "value": "strtol@@GLIBC_2.0"
+    },
+    {
+        "address": ".strtab::00000246",
+        "length": 31,
+        "value": "__ctype_toupper_loc@@GLIBC_2.3"
+    },
+    {
+        "address": ".strtab::00000265",
+        "length": 16,
+        "value": "free@@GLIBC_2.0"
+    },
+    {
+        "address": ".strtab::00000275",
+        "length": 16,
+        "value": "atan@@GLIBC_2.0"
+    },
+    {
+        "address": ".strtab::00000285",
+        "length": 26,
+        "value": "_ITM_registerTMCloneTable"
+    },
+    {
+        "address": ".strtab::0000029f",
+        "length": 17,
+        "value": "dlsym@@GLIBC_2.0"
+    },
+    {
+        "address": ".strtab::000002b0",
+        "length": 18,
+        "value": "floorf@@GLIBC_2.0"
+    },
+    {
+        "address": ".strtab::000002c2",
+        "length": 37,
+        "value": "_ZN10CVProfNode10GetSubNodeEPKciS1_i"
+    },
+    {
+        "address": ".strtab::000002e7",
+        "length": 18,
+        "value": "GetCPUInformation"
+    },
+    {
+        "address": ".strtab::000002f9",
+        "length": 25,
+        "value": "__ctype_b_loc@@GLIBC_2.3"
+    },
+    {
+        "address": ".strtab::00000312",
+        "length": 32,
+        "value": "pthread_mutex_unlock@@GLIBC_2.0"
+    },
+    {
+        "address": ".strtab::00000332",
+        "length": 18,
+        "value": "atan2f@@GLIBC_2.0"
+    },
+    {
+        "address": ".strtab::00000344",
+        "length": 50,
+        "value": "_ZTVN10__cxxabiv117__class_type_infoE@@CXXABI_1.3"
+    },
+    {
+        "address": ".strtab::00000376",
+        "length": 20,
+        "value": "mbstowcs@@GLIBC_2.0"
+    },
+    {
+        "address": ".strtab::0000038a",
+        "length": 32,
+        "value": "__cxa_guard_release@@CXXABI_1.3"
+    },
+    {
+        "address": ".strtab::000003aa",
+        "length": 12,
+        "value": "g_pMemAlloc"
+    },
+    {
+        "address": ".strtab::000003b6",
+        "length": 16,
+        "value": "acos@@GLIBC_2.0"
+    },
+    {
+        "address": ".strtab::000003c6",
+        "length": 18,
+        "value": "memcpy@@GLIBC_2.0"
+    },
+    {
+        "address": ".strtab::000003d8",
+        "length": 6,
+        "value": "Error"
+    },
+    {
+        "address": ".strtab::000003de",
+        "length": 19,
+        "value": "strtoul@@GLIBC_2.0"
+    },
+    {
+        "address": ".strtab::000003f1",
+        "length": 18,
+        "value": "strlen@@GLIBC_2.0"
+    },
+    {
+        "address": ".strtab::00000403",
+        "length": 16,
+        "value": "cosf@@GLIBC_2.0"
+    },
+    {
+        "address": ".strtab::00000413",
+        "length": 15,
+        "value": "cos@@GLIBC_2.0"
+    },
+    {
+        "address": ".strtab::00000422",
+        "length": 17,
+        "value": "fmodf@@GLIBC_2.0"
+    },
+    {
+        "address": ".strtab::00000433",
+        "length": 17,
+        "value": "iconv@@GLIBC_2.1"
+    },
+    {
+        "address": ".strtab::00000444",
+        "length": 18,
+        "value": "strcpy@@GLIBC_2.0"
+    },
+    {
+        "address": ".strtab::00000456",
+        "length": 27,
+        "value": "__dynamic_cast@@CXXABI_1.3"
+    },
+    {
+        "address": ".strtab::00000471",
+        "length": 18,
+        "value": "dlopen@@GLIBC_2.1"
+    },
+    {
+        "address": ".strtab::00000483",
+        "length": 18,
+        "value": "printf@@GLIBC_2.0"
+    },
+    {
+        "address": ".strtab::00000495",
+        "length": 17,
+        "value": "chdir@@GLIBC_2.0"
+    },
+    {
+        "address": ".strtab::000004a6",
+        "length": 19,
+        "value": "wcsncpy@@GLIBC_2.0"
+    },
+    {
+        "address": ".strtab::000004b9",
+        "length": 31,
+        "value": "__cxa_pure_virtual@@CXXABI_1.3"
+    },
+    {
+        "address": ".strtab::000004d8",
+        "length": 20,
+        "value": "iswspace@@GLIBC_2.0"
+    },
+    {
+        "address": ".strtab::000004ec",
+        "length": 22,
+        "value": "strcasecmp@@GLIBC_2.0"
+    },
+    {
+        "address": ".strtab::00000502",
+        "length": 19,
+        "value": "_Znwj@@GLIBCXX_3.4"
+    },
+    {
+        "address": ".strtab::00000515",
+        "length": 19,
+        "value": "_Znaj@@GLIBCXX_3.4"
+    },
+    {
+        "address": ".strtab::00000528",
+        "length": 18,
+        "value": "strstr@@GLIBC_2.0"
+    },
+    {
+        "address": ".strtab::0000053a",
+        "length": 17,
+        "value": "acosf@@GLIBC_2.0"
+    },
+    {
+        "address": ".strtab::0000054b",
+        "length": 16,
+        "value": "time@@GLIBC_2.0"
+    },
+    {
+        "address": ".strtab::0000055b",
+        "length": 19,
+        "value": "strncat@@GLIBC_2.0"
+    },
+    {
+        "address": ".strtab::0000056e",
+        "length": 12,
+        "value": "__bss_start"
+    },
+    {
+        "address": ".strtab::0000057a",
+        "length": 18,
+        "value": "malloc@@GLIBC_2.0"
+    },
+    {
+        "address": ".strtab::0000058c",
+        "length": 30,
+        "value": "pthread_mutex_lock@@GLIBC_2.0"
+    },
+    {
+        "address": ".strtab::000005aa",
+        "length": 53,
+        "value": "_ZTVN10__cxxabiv120__si_class_type_infoE@@CXXABI_1.3"
+    },
+    {
+        "address": ".strtab::000005df",
+        "length": 14,
+        "value": "_Z6ConMsgPKcz"
+    },
+    {
+        "address": ".strtab::000005ed",
+        "length": 28,
+        "value": "__stack_chk_fail@@GLIBC_2.4"
+    },
+    {
+        "address": ".strtab::00000609",
+        "length": 23,
+        "value": "iconv_close@@GLIBC_2.1"
+    },
+    {
+        "address": ".strtab::00000620",
+        "length": 17,
+        "value": "atan2@@GLIBC_2.0"
+    },
+    {
+        "address": ".strtab::00000631",
+        "length": 19,
+        "value": "dlerror@@GLIBC_2.0"
+    },
+    {
+        "address": ".strtab::00000644",
+        "length": 21,
+        "value": "__pthread_key_create"
+    },
+    {
+        "address": ".strtab::00000659",
+        "length": 21,
+        "value": "vswprintf@@GLIBC_2.2"
+    },
+    {
+        "address": ".strtab::0000066e",
+        "length": 23,
+        "value": "strncasecmp@@GLIBC_2.0"
+    },
+    {
+        "address": ".strtab::00000685",
+        "length": 19,
+        "value": "memmove@@GLIBC_2.0"
+    },
+    {
+        "address": ".strtab::00000698",
+        "length": 20,
+        "value": "_ZdaPv@@GLIBCXX_3.4"
+    },
+    {
+        "address": ".strtab::000006ac",
+        "length": 31,
+        "value": "__ctype_tolower_loc@@GLIBC_2.3"
+    },
+    {
+        "address": ".strtab::000006cb",
+        "length": 54,
+        "value": "_ZTVN10__cxxabiv121__vmi_class_type_infoE@@CXXABI_1.3"
+    },
+    {
+        "address": ".strtab::00000701",
+        "length": 20,
+        "value": "towlower@@GLIBC_2.0"
+    },
+    {
+        "address": ".strtab::00000715",
+        "length": 5,
+        "value": "cvar"
+    },
+    {
+        "address": ".strtab::0000071a",
+        "length": 18,
+        "value": "getcwd@@GLIBC_2.0"
+    },
+    {
+        "address": ".strtab::0000072c",
+        "length": 5,
+        "value": "_end"
+    },
+    {
+        "address": ".strtab::00000731",
+        "length": 15,
+        "value": "log@@GLIBC_2.0"
+    },
+    {
+        "address": ".strtab::00000740",
+        "length": 16,
+        "value": "sinf@@GLIBC_2.0"
+    },
+    {
+        "address": ".strtab::00000750",
+        "length": 20,
+        "value": "wcstombs@@GLIBC_2.0"
+    },
+    {
+        "address": ".strtab::00000764",
+        "length": 16,
+        "value": "rand@@GLIBC_2.0"
+    },
+    {
+        "address": ".strtab::00000774",
+        "length": 19,
+        "value": "ThreadGetCurrentId"
+    },
+    {
+        "address": ".strtab::00000787",
+        "length": 15,
+        "value": "tan@@GLIBC_2.0"
+    },
+    {
+        "address": ".strtab::00000796",
+        "length": 20,
+        "value": "strftime@@GLIBC_2.0"
+    },
+    {
+        "address": ".strtab::000007aa",
+        "length": 29,
+        "value": "dl_iterate_phdr@@GLIBC_2.2.4"
+    },
+    {
+        "address": ".strtab::000007c7",
+        "length": 8,
+        "value": "Warning"
+    },
+    {
+        "address": ".strtab::000007cf",
+        "length": 22,
+        "value": "Plat_IsInDebugSession"
+    },
+    {
+        "address": ".strtab::000007e5",
+        "length": 7,
+        "value": "_edata"
+    },
+    {
+        "address": ".strtab::000007ec",
+        "length": 33,
+        "value": "__gxx_personality_v0@@CXXABI_1.3"
+    },
+    {
+        "address": ".strtab::0000080d",
+        "length": 15,
+        "value": "sin@@GLIBC_2.0"
+    },
+    {
+        "address": ".strtab::0000081c",
+        "length": 19,
+        "value": "tolower@@GLIBC_2.0"
+    },
+    {
+        "address": ".strtab::0000082f",
+        "length": 18,
+        "value": "strcmp@@GLIBC_2.0"
+    },
+    {
+        "address": ".strtab::00000841",
+        "length": 20,
+        "value": "towupper@@GLIBC_2.0"
+    },
+    {
+        "address": ".strtab::00000855",
+        "length": 28,
+        "value": "__cxa_finalize@@GLIBC_2.1.3"
+    },
+    {
+        "address": ".strtab::00000871",
+        "length": 16,
+        "value": "powf@@GLIBC_2.0"
+    },
+    {
+        "address": ".strtab::00000881",
+        "length": 6,
+        "value": "_init"
+    },
+    {
+        "address": ".strtab::00000887",
+        "length": 30,
+        "value": "_ZN10CVProfNode10EnterScopeEv"
+    }
+]

@@ -1,11 +1,12 @@
 // Generated header
+// Estimated minimum size: 0x68958914 (1754630420) bytes
 
 class CNavMesh : public CGameEventListener
 {
 public:
 	virtual ~CNavMesh() override; // vtable[0]
 	virtual ~CNavMesh() override; // vtable[1]
-	virtual void FireGameEvent(IGameEvent *param_1) override; // vtable[2]
+	virtual void FireGameEvent(IGameEvent *param_1); // vtable[2]
 	virtual void PreLoadAreas(int param_1); // vtable[3]
 	virtual void CreateArea(); // vtable[4]
 	virtual void DestroyArea(CNavArea *param_1); // vtable[5]

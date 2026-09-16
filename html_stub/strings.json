@@ -1,0 +1,342 @@
+[
+    {
+        "address": "00010275",
+        "length": 15,
+        "value": "__gmon_start__"
+    },
+    {
+        "address": "00010284",
+        "length": 6,
+        "value": "_init"
+    },
+    {
+        "address": "0001028a",
+        "length": 6,
+        "value": "_fini"
+    },
+    {
+        "address": "00010290",
+        "length": 28,
+        "value": "_ITM_deregisterTMCloneTable"
+    },
+    {
+        "address": "000102ac",
+        "length": 26,
+        "value": "_ITM_registerTMCloneTable"
+    },
+    {
+        "address": "000102c6",
+        "length": 15,
+        "value": "__cxa_finalize"
+    },
+    {
+        "address": "000102d5",
+        "length": 20,
+        "value": "_Jv_RegisterClasses"
+    },
+    {
+        "address": "000102e9",
+        "length": 38,
+        "value": "_ZTVN10__cxxabiv117__class_type_infoE"
+    },
+    {
+        "address": "0001030f",
+        "length": 41,
+        "value": "_ZTVN10__cxxabiv120__si_class_type_infoE"
+    },
+    {
+        "address": "00010338",
+        "length": 6,
+        "value": "_Znwj"
+    },
+    {
+        "address": "0001033e",
+        "length": 19,
+        "value": "__cxa_pure_virtual"
+    },
+    {
+        "address": "00010351",
+        "length": 14,
+        "value": "g_pHtmlSystem"
+    },
+    {
+        "address": "0001035f",
+        "length": 15,
+        "value": "libstdc++.so.6"
+    },
+    {
+        "address": "0001036e",
+        "length": 10,
+        "value": "libc.so.6"
+    },
+    {
+        "address": "00010378",
+        "length": 7,
+        "value": "_edata"
+    },
+    {
+        "address": "0001037f",
+        "length": 12,
+        "value": "__bss_start"
+    },
+    {
+        "address": "0001038b",
+        "length": 5,
+        "value": "_end"
+    },
+    {
+        "address": "00010390",
+        "length": 12,
+        "value": "GLIBC_2.1.3"
+    },
+    {
+        "address": "0001039c",
+        "length": 12,
+        "value": "GLIBCXX_3.4"
+    },
+    {
+        "address": "000103a8",
+        "length": 11,
+        "value": "CXXABI_1.3"
+    },
+    {
+        "address": "00010a48",
+        "length": 14,
+        "value": "11IHtmlClient"
+    },
+    {
+        "address": "00010a56",
+        "length": 13,
+        "value": "10StubClient"
+    },
+    {
+        "address": "00010adc",
+        "length": 14,
+        "value": "11IHtmlSystem"
+    },
+    {
+        "address": "00010aea",
+        "length": 13,
+        "value": "10StubSystem"
+    },
+    {
+        "address": "00010c99",
+        "length": 3,
+        "value": "zR"
+    },
+    {
+        "address": ".comment::00000000",
+        "length": 59,
+        "value": "GCC: (SteamRT 4.8.4-1ubuntu15~12.04+steamrt1.2+srt2) 4.8.4"
+    },
+    {
+        "address": ".shstrtab::00000001",
+        "length": 8,
+        "value": ".symtab"
+    },
+    {
+        "address": ".shstrtab::00000009",
+        "length": 8,
+        "value": ".strtab"
+    },
+    {
+        "address": ".shstrtab::00000011",
+        "length": 10,
+        "value": ".shstrtab"
+    },
+    {
+        "address": ".shstrtab::0000001b",
+        "length": 19,
+        "value": ".note.gnu.build-id"
+    },
+    {
+        "address": ".shstrtab::0000002e",
+        "length": 10,
+        "value": ".gnu.hash"
+    },
+    {
+        "address": ".shstrtab::00000038",
+        "length": 8,
+        "value": ".dynsym"
+    },
+    {
+        "address": ".shstrtab::00000040",
+        "length": 8,
+        "value": ".dynstr"
+    },
+    {
+        "address": ".shstrtab::00000048",
+        "length": 13,
+        "value": ".gnu.version"
+    },
+    {
+        "address": ".shstrtab::00000055",
+        "length": 15,
+        "value": ".gnu.version_r"
+    },
+    {
+        "address": ".shstrtab::00000064",
+        "length": 9,
+        "value": ".rel.dyn"
+    },
+    {
+        "address": ".shstrtab::0000006d",
+        "length": 9,
+        "value": ".rel.plt"
+    },
+    {
+        "address": ".shstrtab::00000076",
+        "length": 6,
+        "value": ".init"
+    },
+    {
+        "address": ".shstrtab::0000007c",
+        "length": 6,
+        "value": ".text"
+    },
+    {
+        "address": ".shstrtab::00000082",
+        "length": 6,
+        "value": ".fini"
+    },
+    {
+        "address": ".shstrtab::00000088",
+        "length": 8,
+        "value": ".rodata"
+    },
+    {
+        "address": ".shstrtab::00000090",
+        "length": 14,
+        "value": ".eh_frame_hdr"
+    },
+    {
+        "address": ".shstrtab::0000009e",
+        "length": 10,
+        "value": ".eh_frame"
+    },
+    {
+        "address": ".shstrtab::000000a8",
+        "length": 12,
+        "value": ".init_array"
+    },
+    {
+        "address": ".shstrtab::000000b4",
+        "length": 12,
+        "value": ".fini_array"
+    },
+    {
+        "address": ".shstrtab::000000c0",
+        "length": 5,
+        "value": ".jcr"
+    },
+    {
+        "address": ".shstrtab::000000c5",
+        "length": 9,
+        "value": ".dynamic"
+    },
+    {
+        "address": ".shstrtab::000000ce",
+        "length": 5,
+        "value": ".got"
+    },
+    {
+        "address": ".shstrtab::000000d3",
+        "length": 9,
+        "value": ".got.plt"
+    },
+    {
+        "address": ".shstrtab::000000dc",
+        "length": 6,
+        "value": ".data"
+    },
+    {
+        "address": ".shstrtab::000000e2",
+        "length": 5,
+        "value": ".bss"
+    },
+    {
+        "address": ".shstrtab::000000e7",
+        "length": 9,
+        "value": ".comment"
+    },
+    {
+        "address": ".shstrtab::000000f0",
+        "length": 15,
+        "value": ".gnu_debuglink"
+    },
+    {
+        "address": ".strtab::00000001",
+        "length": 15,
+        "value": "__gmon_start__"
+    },
+    {
+        "address": ".strtab::00000010",
+        "length": 20,
+        "value": "_Jv_RegisterClasses"
+    },
+    {
+        "address": ".strtab::00000024",
+        "length": 6,
+        "value": "_fini"
+    },
+    {
+        "address": ".strtab::0000002a",
+        "length": 28,
+        "value": "_ITM_deregisterTMCloneTable"
+    },
+    {
+        "address": ".strtab::00000046",
+        "length": 26,
+        "value": "_ITM_registerTMCloneTable"
+    },
+    {
+        "address": ".strtab::00000060",
+        "length": 14,
+        "value": "g_pHtmlSystem"
+    },
+    {
+        "address": ".strtab::0000006e",
+        "length": 50,
+        "value": "_ZTVN10__cxxabiv117__class_type_infoE@@CXXABI_1.3"
+    },
+    {
+        "address": ".strtab::000000a0",
+        "length": 31,
+        "value": "__cxa_pure_virtual@@CXXABI_1.3"
+    },
+    {
+        "address": ".strtab::000000bf",
+        "length": 19,
+        "value": "_Znwj@@GLIBCXX_3.4"
+    },
+    {
+        "address": ".strtab::000000d2",
+        "length": 12,
+        "value": "__bss_start"
+    },
+    {
+        "address": ".strtab::000000de",
+        "length": 53,
+        "value": "_ZTVN10__cxxabiv120__si_class_type_infoE@@CXXABI_1.3"
+    },
+    {
+        "address": ".strtab::00000113",
+        "length": 5,
+        "value": "_end"
+    },
+    {
+        "address": ".strtab::00000118",
+        "length": 7,
+        "value": "_edata"
+    },
+    {
+        "address": ".strtab::0000011f",
+        "length": 28,
+        "value": "__cxa_finalize@@GLIBC_2.1.3"
+    },
+    {
+        "address": ".strtab::0000013b",
+        "length": 6,
+        "value": "_init"
+    }
+]

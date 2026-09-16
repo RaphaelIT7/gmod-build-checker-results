@@ -1,4 +1,5 @@
 // Generated header
+// Estimated minimum size: 0x5E5B1CC8 (1583029448) bytes
 
 class CBaseHeadcrab : public CAI_BaseNPC
 {
@@ -44,10 +45,6 @@ public:
 	virtual void GetClassScheduleIdSpace() override; // vtable[640]
 	virtual void JumpAttack(bool param_1, Vector *param_2, bool param_3); // vtable[652]
 	virtual void TouchDamage(CBaseEntity *param_1); // vtable[653]
-	virtual void __cxa_pure_virtual(); // vtable[654]
-	virtual void AttackSound(); // vtable[655]
-	virtual void ImpactSound(); // vtable[656]
-	virtual void TelegraphSound(); // vtable[657]
 
 	void LeapTouch(CBaseEntity *param_1); // size[258]
 	void EliminateRollAndPitch(); // size[420]
@@ -81,5 +78,7 @@ public:
 	void CreateDust(bool param_1); // size[375]
 	void InitCustomSchedules(); // size[337]
 	void LoadSchedules(); // size[62]
-	CScheduleLoader(); // size[9]
+	void AttackSound(); // size[5]
+	void ImpactSound(); // size[5]
+	void TelegraphSound(); // size[5]
 };

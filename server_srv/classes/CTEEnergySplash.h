@@ -1,4 +1,5 @@
 // Generated header
+// Estimated minimum size: 0x28 (40) bytes
 
 class CTEEnergySplash : public CBaseTempEntity
 {

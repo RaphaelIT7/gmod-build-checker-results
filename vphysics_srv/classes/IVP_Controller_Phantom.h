@@ -1,4 +1,5 @@
 // Generated header
+// Estimated minimum size: 0x4C (76) bytes
 
 class IVP_Controller_Phantom : public IVP_Listener_Object
 {
@@ -6,7 +7,7 @@ public:
 	virtual void event_object_deleted(IVP_Event_Object *param_1); // vtable[0]
 	virtual void event_object_created(IVP_Event_Object *param_1); // vtable[1]
 	virtual void event_object_revived(IVP_Event_Object *param_1); // vtable[2]
-	virtual void event_object_frozen(IVP_Event_Object *param_1) override; // vtable[3]
+	virtual void event_object_frozen(IVP_Event_Object *param_1); // vtable[3]
 	virtual ~IVP_Controller_Phantom(); // vtable[4]
 	virtual ~IVP_Controller_Phantom(); // vtable[5]
 

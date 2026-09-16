@@ -1,4 +1,5 @@
 // Generated header
+// Estimated minimum size: 0x54 (84) bytes
 
 class CFogController_NetworkVar_m_fog : public fogparams_t
 {

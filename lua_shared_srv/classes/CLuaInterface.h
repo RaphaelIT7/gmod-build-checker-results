@@ -1,4 +1,5 @@
 // Generated header
+// Estimated minimum size: 0x140 (320) bytes
 
 class CLuaInterface : public ILuaInterface
 {
@@ -57,7 +58,7 @@ public:
 	virtual void CreateMetaTable(char *param_1); // vtable[51]
 	virtual void PushMetaTable(int param_1); // vtable[52]
 	virtual void PushUserType(void *param_1, int param_2); // vtable[53]
-	virtual void SetUserType(int param_1, void *param_2) override; // vtable[54]
+	virtual void SetUserType(int param_1, void *param_2); // vtable[54]
 	virtual void Init(ILuaCallback *param_1, bool param_2); // vtable[55]
 	virtual void Shutdown(); // vtable[56]
 	virtual void Cycle(); // vtable[57]
@@ -103,8 +104,8 @@ public:
 	virtual void FindAndRunScript(char *param_1, bool param_2, bool param_3, char *param_4, bool param_5); // vtable[97]
 	virtual void SetPathID(char *param_1); // vtable[98]
 	virtual void GetPathID(); // vtable[99]
-	virtual void ErrorNoHalt(char *param_1); // vtable[100]
-	virtual void Msg(char *param_1); // vtable[101]
+	virtual void ErrorNoHalt(char const *null, ... null); // vtable[100]
+	virtual void Msg(char const *null, ... null); // vtable[101]
 	virtual void PushPath(char *param_1); // vtable[102]
 	virtual void PopPath(); // vtable[103]
 	virtual void GetPath(); // vtable[104]
@@ -116,9 +117,9 @@ public:
 	virtual void GetUpvalue(int param_1, int param_2); // vtable[110]
 	virtual void RunStringEx(char *param_1, char *param_2, char *param_3, bool param_4, bool param_5, bool param_6, bool param_7); // vtable[111]
 	virtual void GetDataString(int param_1, void * *param_2); // vtable[112]
-	virtual void ErrorFromLua(char *param_1); // vtable[113]
+	virtual void ErrorFromLua(char const *null, ... null); // vtable[113]
 	virtual void GetCurrentLocation(); // vtable[114]
-	virtual void MsgColour(Color *param_1, char *param_2); // vtable[115]
+	virtual void MsgColour(Color const & null, char const *null, ... null); // vtable[115]
 	virtual void GetCurrentFile(string *param_1); // vtable[116]
 	virtual void CompileString(Buffer *param_1, string *param_2); // vtable[117]
 	virtual void CallFunctionProtected(int param_1, int param_2, bool param_3); // vtable[118]
@@ -133,7 +134,7 @@ public:
 	virtual void CreateConCommand(char *param_1, char *param_2, int param_3, _func_void_CCommand_ptr *param_4, int_(*)(char_const*,char *param_5); // vtable[127]
 	virtual void CheckStringOpt(int param_1, char *param_2); // vtable[128]
 	virtual void CheckNumberOpt(int param_1, double param_2); // vtable[129]
-	virtual void RegisterMetaTable(char *param_1, ILuaObject *param_2) override; // vtable[130]
+	virtual void RegisterMetaTable(char *param_1, ILuaObject *param_2); // vtable[130]
 
 	CLuaInterface(); // size[95]
 	void DoStackCheck(); // size[1350]

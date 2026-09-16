@@ -1,4 +1,5 @@
 // Generated header
+// Estimated minimum size: 0x18 (24) bytes
 
 class Gamemode_System : public IGamemodeSystem
 {
@@ -12,7 +13,7 @@ public:
 	virtual void SetActive(string *param_1); // vtable[6]
 	virtual void GetList(); // vtable[7]
 	virtual void IsServerBlacklisted(char *param_1, char *param_2, char *param_3, char *param_4, char *param_5); // vtable[8]
-	virtual void OnServerDownloadsMounted() override; // vtable[9]
+	virtual void OnServerDownloadsMounted(); // vtable[9]
 
 	~System(); // size[15]
 	void ChangeGamemode(string *param_1, bool param_2); // size[178]

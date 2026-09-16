@@ -1,4 +1,5 @@
 // Generated header
+// Estimated minimum size: 0xC8 (200) bytes
 
 class CVTFTexture : public IVTFTexture
 {
@@ -57,19 +58,16 @@ public:
 	virtual void PostProcess(bool param_1, LookDir_t param_2, bool param_3); // vtable[51]
 	virtual void MatchCubeMapBorders(int param_1, ImageFormat param_2, bool param_3); // vtable[52]
 	virtual void SetAlphaTestThreshholds(float param_1, float param_2); // vtable[53]
-	virtual void SetPostProcessingSettings(VtfProcessingOptions *param_1) override; // vtable[54]
+	virtual void SetPostProcessingSettings(VtfProcessingOptions *param_1); // vtable[54]
 	virtual void NormalizeTopMipLevel(); // vtable[55]
 
 	void ComputeMipCount(); // size[36]
 	void AllocateImageData(int param_1); // size[21]
-	void AllocateData(int param_1); // size[34]
 	void AllocateLowResImageData(int param_1); // size[21]
 	void ReleaseResources(); // size[152]
 	void Shutdown(); // size[81]
 	void LoadLowResData(CUtlBuffer *param_1); // size[117]
 	void LoadImageData(CUtlBuffer *param_1, VTFFileHeader_t *param_2, int param_3); // size[547]
-	void LoadData(CUtlBuffer *param_1, CByteswap *param_2); // size[148]
-	void WriteData(CUtlBuffer *param_1); // size[79]
 	void SetupByteSwap(CUtlBuffer *param_1); // size[42]
 	void ReadHeader(CUtlBuffer *param_1, VTFFileHeader_t *param_2); // size[424]
 	void LoadNewResources(CUtlBuffer *param_1); // size[160]

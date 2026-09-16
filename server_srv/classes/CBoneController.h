@@ -1,9 +1,10 @@
 // Generated header
+// Estimated minimum size: 0x128 (296) bytes
 
 class CBoneController : public IMotionEvent
 {
 public:
-	virtual void Simulate(IPhysicsMotionController *param_1, IPhysicsObject *param_2, float param_3, Vector *param_4, Vector *param_5) override; // vtable[0]
+	virtual void Simulate(IPhysicsMotionController *param_1, IPhysicsObject *param_2, float param_3, Vector *param_4, Vector *param_5); // vtable[0]
 
 	CBoneController(IPhysicsObject *param_1); // size[141]
 	~CBoneController(); // size[49]

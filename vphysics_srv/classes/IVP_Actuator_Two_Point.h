@@ -1,4 +1,5 @@
 // Generated header
+// Estimated minimum size: 0x94 (148) bytes
 
 class IVP_Actuator_Two_Point : public IVP_Actuator
 {

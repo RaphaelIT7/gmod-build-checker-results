@@ -1,4 +1,5 @@
 // Generated header
+// Estimated minimum size: 0x8 (8) bytes
 
 class CTier2AppSystem : public CTier1AppSystem
 {
@@ -8,5 +9,4 @@ public:
 	virtual void QueryInterface(char *param_1) override; // vtable[2]
 	virtual void Init() override; // vtable[3]
 	virtual void Shutdown() override; // vtable[4]
-	virtual void __cxa_pure_virtual(); // vtable[22]
 };

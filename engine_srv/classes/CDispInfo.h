@@ -1,4 +1,5 @@
 // Generated header
+// Estimated minimum size: 0x1214 (4628) bytes
 
 class CDispInfo : public IDispInfo, public CDispUtilsHelper
 {
@@ -6,7 +7,7 @@ public:
 	virtual ~CDispInfo() override; // vtable[0]
 	virtual ~CDispInfo() override; // vtable[1]
 	virtual void GetIntersectingSurfaces(GetIntersectingSurfaces_Struct *param_1); // vtable[2]
-	virtual void RenderWireframeInLightmapPage(int param_1) override; // vtable[3]
+	virtual void RenderWireframeInLightmapPage(int param_1); // vtable[3]
 	virtual void GetBoundingBox(Vector *param_1, Vector *param_2); // vtable[4]
 	virtual void SetParent(msurface2_t *param_1); // vtable[5]
 	virtual void GetParent(); // vtable[6]
@@ -20,11 +21,15 @@ public:
 	virtual void GetTag(); // vtable[14]
 	virtual void SetTag(); // vtable[15]
 	virtual void TestRay(Ray_t *param_1, float param_2, float param_3, float *param_4, Vector2D *param_5, Vector2D *param_6); // vtable[16]
-	virtual void ComputeLightmapAndTextureCoordinate(RayDispOutput_t *param_1, Vector2D *param_2, Vector2D *param_3) override; // vtable[17]
+	virtual void ComputeLightmapAndTextureCoordinate(RayDispOutput_t *param_1, Vector2D *param_2, Vector2D *param_3); // vtable[17]
 	virtual void GetPowerInfo(); // vtable[18]
 	virtual void GetEdgeNeighbor(int param_1); // vtable[19]
 	virtual void GetCornerNeighbors(int param_1); // vtable[20]
 	virtual void GetDispUtilsByIndex(int param_1); // vtable[21]
+	virtual void GetPowerInfo(); // vtable[0]
+	virtual void GetEdgeNeighbor(int param_1); // vtable[1]
+	virtual void GetCornerNeighbors(int param_1); // vtable[2]
+	virtual void GetDispUtilsByIndex(int param_1); // vtable[3]
 
 	void _GLOBAL__sub_I_GetIntersectingSurfaces(); // size[657]
 	void UpdateBoundingBox(); // size[446]
@@ -41,10 +46,6 @@ public:
 	void SetupDecalNodeIntersect_R(CVertIndex *param_1, int param_2, CDispDecalBase *param_3, ShadowInfo_t *param_4, int param_5, CDecalNodeSetupCache *param_6); // size[1224]
 	void SetupDecalNodeIntersect(CVertIndex *param_1, int param_2, CDispDecalBase *param_3, ShadowInfo_t *param_4); // size[132]
 	void GetFlatVert(int param_1); // size[300]
-	void GetPowerInfo(); // size[7]
-	void GetEdgeNeighbor(int param_1); // size[7]
-	void GetCornerNeighbors(int param_1); // size[7]
-	void GetDispUtilsByIndex(int param_1); // size[7]
 	void TesselateDisplacement(); // size[5801]
 	void GenerateDecalFragments_R(CVertIndex *param_1, int param_2, ushort param_3, CDispDecalBase *param_4, int param_5); // size[485]
 	void GenerateDecalFragments(CVertIndex *param_1, int param_2, ushort param_3, CDispDecalBase *param_4); // size[65]

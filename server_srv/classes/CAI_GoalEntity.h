@@ -1,11 +1,11 @@
 // Generated header
+// Estimated minimum size: 0x25AC (9644) bytes
 
 class CAI_GoalEntity : public CBaseEntity, public IEntityListener
 {
 public:
 	virtual ~CAI_GoalEntity() override; // vtable[0]
 	virtual ~CAI_GoalEntity() override; // vtable[1]
-	virtual void SetRefEHandle(CBaseHandle *param_1) override; // vtable[2]
 	virtual void GetDataDescMap() override; // vtable[12]
 	virtual void Spawn() override; // vtable[23]
 	virtual void ObjectCaps() override; // vtable[36]
@@ -19,11 +19,11 @@ public:
 	virtual void OnEntityDeleted(CBaseEntity *param_1); // vtable[250]
 	virtual void EnableGoal(CAI_BaseNPC *param_1); // vtable[251]
 	virtual void DisableGoal(CAI_BaseNPC *param_1); // vtable[252]
+	virtual void OnEntityCreated(CBaseEntity *param_1) override; // vtable[0]
+	virtual void OnEntityDeleted(CBaseEntity *param_1) override; // vtable[2]
 
 	void _GLOBAL__sub_I_m_DataMap(); // size[113]
-	void OnEntityDeleted(CBaseEntity *param_1); // size[10]
 	void DelayedRefresh(); // size[59]
-	void OnEntityCreated(CBaseEntity *param_1); // size[13]
 	void GetBaseMap(); // size[10]
 	void PruneActors(); // size[51]
 	void EnterDormant(); // size[132]

@@ -1,17 +1,15 @@
 // Generated header
+// Estimated minimum size: 0x2218 (8728) bytes
 
 class CAI_Motor : public CAI_Component, public CAI_ProxyMovementSink
 {
 public:
 	virtual ~CAI_Motor() override; // vtable[0]
 	virtual ~CAI_Motor() override; // vtable[1]
-	virtual void SetOuter(CAI_BaseNPC *param_1) override; // vtable[2]
-	virtual void TaskFail(int param_1) override; // vtable[3]
-	virtual void TaskComplete(bool param_1) override; // vtable[4]
-	virtual void MoveClimbStart(Vector *param_1, Vector *param_2, float param_3, float param_4) override; // vtable[5]
-	virtual void MoveClimbExecute(Vector *param_1, Vector *param_2, float param_3, float param_4, int param_5) override; // vtable[6]
-	virtual void MoveClimbStop() override; // vtable[7]
-	virtual void MoveJumpStart(Vector *param_1) override; // vtable[8]
+	virtual void MoveClimbStart(Vector *param_1, Vector *param_2, float param_3, float param_4); // vtable[5]
+	virtual void MoveClimbExecute(Vector *param_1, Vector *param_2, float param_3, float param_4, int param_5); // vtable[6]
+	virtual void MoveClimbStop(); // vtable[7]
+	virtual void MoveJumpStart(Vector *param_1); // vtable[8]
 	virtual void MoveJumpExecute(); // vtable[9]
 	virtual void MoveJumpStop(); // vtable[10]
 	virtual void ResetMoveCalculations(); // vtable[11]

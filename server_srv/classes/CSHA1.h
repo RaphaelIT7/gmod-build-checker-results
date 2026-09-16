@@ -1,4 +1,5 @@
 // Generated header
+// Estimated minimum size: 0xB8 (184) bytes
 
 class CSHA1
 {

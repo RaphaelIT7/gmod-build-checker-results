@@ -1,4 +1,5 @@
 // Generated header
+// Estimated minimum size: 0x2730 (10032) bytes
 
 class CNetChan : public INetChannel
 {
@@ -28,9 +29,9 @@ public:
 	virtual void GetCommandInterpolationAmount(int param_1, int param_2); // vtable[22]
 	virtual void GetPacketResponseLatency(int param_1, int param_2, int *param_3, int *param_4); // vtable[23]
 	virtual void GetRemoteFramerate(float *param_1, float *param_2); // vtable[24]
-	virtual void GetTimeoutSeconds() override; // vtable[25]
-	virtual ~CNetChan() override; // vtable[26]
-	virtual ~CNetChan() override; // vtable[27]
+	virtual void GetTimeoutSeconds(); // vtable[25]
+	virtual ~CNetChan(); // vtable[26]
+	virtual ~CNetChan(); // vtable[27]
 	virtual void SetDataRate(float param_1); // vtable[28]
 	virtual void RegisterMessage(INetMessage *param_1); // vtable[29]
 	virtual void StartStreaming(uint param_1); // vtable[30]
@@ -74,7 +75,7 @@ public:
 	virtual void SetRemoteFramerate(float param_1, float param_2); // vtable[68]
 	virtual void SetMaxRoutablePayloadSize(int param_1); // vtable[69]
 	virtual void GetMaxRoutablePayloadSize(); // vtable[70]
-	virtual void GetProtocolVersion() override; // vtable[71]
+	virtual void GetProtocolVersion(); // vtable[71]
 
 	void IsValidFileForTransfer(char *param_1); // size[963]
 	void CompressFragments(); // size[1575]

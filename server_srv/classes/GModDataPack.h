@@ -1,4 +1,5 @@
 // Generated header
+// Estimated minimum size: 0x228 (552) bytes
 
 class GModDataPack : public LuaClientDatatableHook
 {
@@ -10,7 +11,7 @@ public:
 	virtual void FindFileInDatatable(string *param_1, bool param_2, bool param_3); // vtable[4]
 	virtual void IsSingleplayer(); // vtable[5]
 	virtual void v000000000000000000000000000oo0000000000000000fff000000000000000000000000000000000o0o(); // vtable[6]
-	virtual void IsValidDirectory(string *param_1) override; // vtable[7]
+	virtual void IsValidDirectory(string *param_1); // vtable[7]
 
 	GModDataPack(); // size[96]
 	void Initialize(); // size[123]

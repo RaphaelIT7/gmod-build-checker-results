@@ -1,4 +1,5 @@
 // Generated header
+// Estimated minimum size: 0x70C (1804) bytes
 
 class CPhysics_Airboat : public IVP_Car_System, public IVP_Controller_Dependent
 {
@@ -41,15 +42,19 @@ public:
 	virtual void get_associated_controlled_cores(); // vtable[35]
 	virtual void do_simulation_controller(IVP_Event_Sim *param_1, IVP_U_Vector *param_2); // vtable[36]
 	virtual void get_controller_priority(); // vtable[37]
+	virtual void core_is_going_to_be_deleted_event(IVP_Core *param_1); // vtable[0]
+	virtual void get_minimum_simulation_frequency(); // vtable[1]
+	virtual void get_associated_controlled_cores(); // vtable[2]
+	virtual void reset_time(IVP_Time param_1); // vtable[3]
+	virtual void do_simulation_controller(IVP_Event_Sim *param_1, IVP_U_Vector *param_2); // vtable[4]
+	virtual void get_controller_priority(); // vtable[5]
+	virtual void get_controller_name(); // vtable[6]
+	virtual ~CPhysics_Airboat(); // vtable[7]
+	virtual ~CPhysics_Airboat(); // vtable[8]
 
 	CPhysics_Airboat(IVP_Environment *param_1, IVP_Template_Car_System *param_2, IPhysicsGameTrace *param_3); // size[40]
 	_GLOBAL__sub_I_CPhysics_Airboat(); // size[1]
-	void get_controller_priority(); // size[6]
-	void get_associated_controlled_cores(); // size[13]
 	void do_steering(float param_1, bool param_2); // size[201]
-	~CPhysics_Airboat(); // size[104]
-	~CPhysics_Airboat(); // size[92]
-	void core_is_going_to_be_deleted_event(IVP_Core *param_1); // size[143]
 	void InitAirboat(IVP_Template_Car_System *param_1); // size[108]
 	void GetWheel(int param_1); // size[21]
 	void SetWheelFriction(int param_1, float param_2); // size[30]
@@ -71,7 +76,6 @@ public:
 	void CountSurfaceContactPoints(IVP_Raycast_Airboat_Impact *param_1); // size[62]
 	void DoSimulationKeepUprightPitch(IVP_Raycast_Airboat_Impact *param_1, IVP_Event_Sim *param_2); // size[492]
 	void DoSimulationKeepUprightRoll(IVP_Raycast_Airboat_Impact *param_1, IVP_Event_Sim *param_2); // size[496]
-	void do_simulation_controller(IVP_Event_Sim *param_1, IVP_U_Vector *param_2); // size[10]
 	void change_friction_of_wheel(IVP_POS_WHEEL param_1, float param_2); // size[30]
 	void InitRaycastCarEnvironment(IVP_Environment *param_1, IVP_Template_Car_System *param_2); // size[263]
 	void InitRaycastCarBody(IVP_Template_Car_System *param_1); // size[198]
@@ -80,5 +84,4 @@ public:
 	void InitRaycastCarAxes(IVP_Template_Car_System *param_1); // size[113]
 	void get_axle(IVP_POS_AXIS param_1); // size[18]
 	void get_wheel(IVP_POS_WHEEL param_1); // size[20]
-	void get_controller_name(); // size[6]
 };

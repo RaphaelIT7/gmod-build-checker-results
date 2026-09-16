@@ -1,4 +1,5 @@
 // Generated header
+// Estimated minimum size: 0x159C (5532) bytes
 
 class CFourWheelServerVehicle : public CBaseServerVehicle
 {

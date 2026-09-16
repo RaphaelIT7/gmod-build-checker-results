@@ -1,4 +1,5 @@
 // Generated header
+// Estimated minimum size: 0x204 (516) bytes
 
 class CBasePlayer_NetworkVar_m_Local : public CPlayerLocalData
 {

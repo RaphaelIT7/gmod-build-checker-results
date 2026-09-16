@@ -1,8 +1,8 @@
 // Generated header
+// Estimated minimum size: 0x4 (4) bytes
 
 class ILuaCallback
 {
 public:
-	virtual void __cxa_pure_virtual(); // vtable[5]
-	virtual void InterfaceCreated(ILuaInterface *param_1); // vtable[6]
+	void InterfaceCreated(ILuaInterface *param_1); // size[5]
 };

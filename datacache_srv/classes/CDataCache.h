@@ -1,4 +1,5 @@
 // Generated header
+// Estimated minimum size: 0x90 (144) bytes
 
 class CDataCache : public CTier3AppSystem
 {
@@ -17,7 +18,7 @@ public:
 	virtual void FindSection(char *param_1); // vtable[11]
 	virtual void Purge(uint param_1); // vtable[12]
 	virtual void Flush(bool param_1, bool param_2); // vtable[13]
-	virtual void OutputReport(DataCacheReportType_t param_1, char *param_2) override; // vtable[14]
+	virtual void OutputReport(DataCacheReportType_t param_1, char *param_2); // vtable[14]
 
 	void SortMemhandlesBySizeLessFunc(memhandle_t__ * *param_1, memhandle_t__ * *param_2); // size[66]
 	CDataCache(); // size[143]

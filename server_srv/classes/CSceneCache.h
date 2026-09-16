@@ -1,11 +1,12 @@
 // Generated header
+// Estimated minimum size: 0x38 (56) bytes
 
 class CSceneCache : public IBaseCacheInfo
 {
 public:
 	virtual void Save(CUtlBuffer *param_1); // vtable[0]
 	virtual void Restore(CUtlBuffer *param_1); // vtable[1]
-	virtual void Rebuild(char *param_1) override; // vtable[2]
+	virtual void Rebuild(char *param_1); // vtable[2]
 
 	_GLOBAL__sub_I_CSceneCache(); // size[113]
 	CSceneCache(); // size[56]

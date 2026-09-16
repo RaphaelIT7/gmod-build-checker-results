@@ -1,4 +1,5 @@
 // Generated header
+// Estimated minimum size: 0x34 (52) bytes
 
 class IDirect3DIndexBuffer9 : public IDirect3DResource9
 {

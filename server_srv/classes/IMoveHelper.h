@@ -1,11 +1,10 @@
 // Generated header
+// Estimated minimum size: 0x4 (4) bytes
 
 class IMoveHelper
 {
 public:
-	virtual void __cxa_pure_virtual(); // vtable[11]
-	virtual ~IMoveHelper(); // vtable[12]
-	virtual ~IMoveHelper(); // vtable[13]
-
 	void _GLOBAL__sub_I_sm_pSingleton(); // size[113]
+	~IMoveHelper(); // size[14]
+	~IMoveHelper(); // size[18]
 };

@@ -1,4 +1,5 @@
 // Generated header
+// Estimated minimum size: 0x14 (20) bytes
 
 class CTempEntsSystem : public ITempEntsSystem
 {
@@ -45,5 +46,5 @@ public:
 	virtual void DispatchEffect(IRecipientFilter *param_1, float param_2, Vector *param_3, char *param_4, CEffectData *param_5); // vtable[39]
 	virtual void PhysicsProp(IRecipientFilter *param_1, float param_2, int param_3, int param_4, Vector *param_5, QAngle *param_6, Vector *param_7, int param_8, int param_9, color32_s param_10, float param_11); // vtable[40]
 	virtual void TriggerTempEntity(KeyValues *param_1); // vtable[41]
-	virtual void ClientProjectile(IRecipientFilter *param_1, float param_2, Vector *param_3, Vector *param_4, int param_5, int param_6, CBaseEntity *param_7) override; // vtable[42]
+	virtual void ClientProjectile(IRecipientFilter *param_1, float param_2, Vector *param_3, Vector *param_4, int param_5, int param_6, CBaseEntity *param_7); // vtable[42]
 };

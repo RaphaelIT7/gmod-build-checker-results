@@ -1,4 +1,5 @@
 // Generated header
+// Estimated minimum size: 0x2C4 (708) bytes
 
 class COcclusionSystem : public IOcclusionSystem
 {
@@ -8,7 +9,7 @@ public:
 	virtual void IsOccluded(Vector *param_1, Vector *param_2); // vtable[2]
 	virtual void SetOcclusionParameters(float param_1, float param_2); // vtable[3]
 	virtual void MinOccluderArea(); // vtable[4]
-	virtual void DrawDebugOverlays() override; // vtable[5]
+	virtual void DrawDebugOverlays(); // vtable[5]
 
 	void ClipPolygonToNearPlane(Vector * *param_1, int param_2, Vector * *param_3, bool *param_4); // size[792]
 	void ResetClipTempVerts(); // size[15]

@@ -1,4 +1,5 @@
 // Generated header
+// Estimated minimum size: 0x5E5B1CC8 (1583029448) bytes
 
 class CGrenadeHelicopter : public CBaseGrenade
 {
@@ -23,16 +24,23 @@ public:
 	virtual void OnPhysGunDrop(CBasePlayer *param_1, PhysGunDrop_t param_2); // vtable[293]
 	virtual void ShouldPuntUseLaunchForces(PhysGunForce_t param_1); // vtable[294]
 	virtual void PhysGunLaunchVelocity(Vector *param_1, float param_2); // vtable[295]
+	virtual void OnAttemptPhysGunPickup(CBasePlayer *param_1, PhysGunPickup_t param_2); // vtable[0]
+	virtual void OnFailedPhysGunPickup(Vector param_1); // vtable[1]
+	virtual void OnPhysGunPickup(CBasePlayer *param_1, PhysGunPickup_t param_2); // vtable[2]
+	virtual void OnPhysGunDrop(CBasePlayer *param_1, PhysGunDrop_t param_2); // vtable[3]
+	virtual void HasPreferredCarryAnglesForPlayer(CBasePlayer *param_1); // vtable[4]
+	virtual void PreferredCarryAngles(); // vtable[5]
+	virtual void ForcePhysgunOpen(CBasePlayer *param_1); // vtable[6]
+	virtual void PhysGunLaunchAngularImpulse(); // vtable[7]
+	virtual void ShouldPuntUseLaunchForces(PhysGunForce_t param_1); // vtable[8]
+	virtual void PhysGunLaunchVelocity(Vector *param_1, float param_2); // vtable[9]
 
 	void RampSoundThink(); // size[80]
 	void AnimateThink(); // size[84]
-	void OnPhysGunDrop(CBasePlayer *param_1, PhysGunDrop_t param_2); // size[10]
-	void PhysGunLaunchVelocity(Vector *param_1, float param_2); // size[13]
 	void WarningBlinkerThink(); // size[91]
 	void GetBaseMap(); // size[10]
 	void BecomeActive(); // size[106]
 	void InputExplodeIn(inputdata_t *param_1); // size[111]
-	void OnPhysGunPickup(CBasePlayer *param_1, PhysGunPickup_t param_2); // size[13]
 	void StopWarningBlinker(); // size[85]
 	void GetBombLifetime(); // size[27]
 	void DoExplosion(Vector *param_1, Vector *param_2); // size[1018]
@@ -40,7 +48,4 @@ public:
 	void SendMissEvent(); // size[67]
 	void ExplodeConcussion(CBaseEntity *param_1); // size[406]
 	void ExplodeThink(); // size[244]
-	void PreferredCarryAngles(); // size[10]
-	void HasPreferredCarryAnglesForPlayer(CBasePlayer *param_1); // size[10]
-	void ShouldPuntUseLaunchForces(PhysGunForce_t param_1); // size[10]
 };

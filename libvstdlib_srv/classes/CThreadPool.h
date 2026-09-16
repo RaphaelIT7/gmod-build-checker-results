@@ -1,4 +1,5 @@
 // Generated header
+// Estimated minimum size: 0x17C (380) bytes
 
 class CThreadPool : public CRefCounted1
 {
@@ -17,6 +18,7 @@ public:
 	virtual void Yield(uint param_1); // vtable[13]
 	virtual void AddJob(CJob *param_1); // vtable[14]
 	virtual void ExecuteHighPriorityFunctor(CFunctor *param_1); // vtable[15]
+	virtual void AddFunctor(CFunctor *param_1, CJob * *param_2, char *param_3, uint param_4); // vtable[16]
 	virtual void ChangePriority(CJob *param_1, JobPriority_t param_2); // vtable[17]
 	virtual void ExecuteToPriority(JobPriority_t param_1, _func_bool_CJob_ptr *param_2); // vtable[18]
 	virtual void AbortAll(); // vtable[19]
@@ -24,16 +26,12 @@ public:
 	virtual void AddFunctorInternal(CFunctor *param_1, CJob * *param_2, char *param_3, uint param_4); // vtable[21]
 	virtual void GetDummyJob(); // vtable[22]
 	virtual void Distribute(bool param_1, int *param_2); // vtable[23]
-	virtual void Start(ThreadPoolStartParams_t *param_1, char *param_2) override; // vtable[24]
+	virtual void Start(ThreadPoolStartParams_t *param_1, char *param_2); // vtable[24]
+	virtual ~CThreadPool(); // vtable[0]
+	virtual ~CThreadPool(); // vtable[1]
+	virtual void OnFinalRelease(); // vtable[2]
 
-	void DoExecute(); // size[7]
-	~CDummyJob(); // size[64]
-	~CDummyJob(); // size[7]
-	~CDummyJob(); // size[71]
-	~CDummyJob(); // size[7]
 	void WaitForIdle(bool param_1); // size[30]
 	void InsertJobInQueue(CJob *param_1); // size[1147]
 	CThreadPool(); // size[458]
-	~CThreadPool(); // size[10]
-	~CThreadPool(); // size[7]
 };

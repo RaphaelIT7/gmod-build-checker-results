@@ -1,4 +1,5 @@
 // Generated header
+// Estimated minimum size: 0x24 (36) bytes
 
 class CNetworkStringTableContainer : public INetworkStringTableContainer
 {
@@ -11,7 +12,7 @@ public:
 	virtual void GetTable(int param_1); // vtable[5]
 	virtual void GetNumTables(); // vtable[6]
 	virtual void CreateStringTableEx(char *param_1, int param_2, int param_3, int param_4, bool param_5); // vtable[7]
-	virtual void SetAllowClientSideAddString(INetworkStringTable *param_1, bool param_2) override; // vtable[8]
+	virtual void SetAllowClientSideAddString(INetworkStringTable *param_1, bool param_2); // vtable[8]
 
 	void OnStringTableRemoved(CNetworkStringTable *param_1); // size[64]
 	CNetworkStringTableContainer(); // size[68]

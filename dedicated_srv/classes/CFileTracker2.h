@@ -1,11 +1,12 @@
 // Generated header
+// Estimated minimum size: 0x1F0 (496) bytes
 
 class CFileTracker2 : public IThreadedFileMD5Processor
 {
 public:
 	virtual void SubmitThreadedMD5Request(uchar *param_1, int param_2, int param_3, int param_4, int param_5); // vtable[0]
 	virtual void BlockUntilMD5RequestComplete(int param_1, MD5Value_t *param_2); // vtable[1]
-	virtual void IsMD5RequestComplete(int param_1, MD5Value_t *param_2) override; // vtable[2]
+	virtual void IsMD5RequestComplete(int param_1, MD5Value_t *param_2); // vtable[2]
 
 	void ShutdownAsync(); // size[83]
 	void NotePackFileRead(CPackedStoreFileHandle *param_1, void *param_2, int param_3); // size[5]

@@ -1,4 +1,5 @@
 // Generated header
+// Estimated minimum size: 0x11C84 (72836) bytes
 
 class CPhysicsObject : public IPhysicsObject
 {

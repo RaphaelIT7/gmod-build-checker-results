@@ -1,11 +1,11 @@
 // Generated header
+// Estimated minimum size: 0x4C (76) bytes
 
 class CAI_SentenceBase : public CAI_Component
 {
 public:
 	virtual ~CAI_SentenceBase() override; // vtable[0]
 	virtual ~CAI_SentenceBase() override; // vtable[1]
-	virtual void __cxa_pure_virtual(); // vtable[6]
 
 	void GetBaseMap(); // size[7]
 	CAI_SentenceBase(); // size[28]

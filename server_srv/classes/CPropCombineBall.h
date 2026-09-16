@@ -1,18 +1,11 @@
 // Generated header
+// Estimated minimum size: 0x5E5B1CC8 (1583029448) bytes
 
 class CPropCombineBall : public CBaseAnimating, public CDefaultPlayerPickupVPhysics
 {
 public:
 	virtual ~CPropCombineBall() override; // vtable[0]
 	virtual ~CPropCombineBall() override; // vtable[1]
-	virtual void SetRefEHandle(CBaseHandle *param_1) override; // vtable[2]
-	virtual void GetRefEHandle() override; // vtable[3]
-	virtual void GetCollideable() override; // vtable[4]
-	virtual void GetNetworkable() override; // vtable[5]
-	virtual void GetBaseEntity() override; // vtable[6]
-	virtual void GetModelIndex() override; // vtable[7]
-	virtual void GetModelName() override; // vtable[8]
-	virtual void SetModelIndex(int param_1) override; // vtable[9]
 	virtual void GetServerClass() override; // vtable[10]
 	virtual void YouForgotToImplementOrDeclareServerClass() override; // vtable[11]
 	virtual void GetDataDescMap() override; // vtable[12]
@@ -28,6 +21,9 @@ public:
 	virtual void OverridePropdata(); // vtable[284]
 	virtual void ExplodeThink(); // vtable[285]
 	virtual void ShouldPuntUseLaunchForces(PhysGunForce_t param_1); // vtable[286]
+	virtual void OnPhysGunPickup(CBasePlayer *param_1, PhysGunPickup_t param_2) override; // vtable[2]
+	virtual void OnPhysGunDrop(CBasePlayer *param_1, PhysGunDrop_t param_2) override; // vtable[3]
+	virtual void ShouldPuntUseLaunchForces(PhysGunForce_t param_1) override; // vtable[8]
 
 	void AnimThink(); // size[84]
 	void GetBaseMap(); // size[10]
@@ -60,8 +56,6 @@ public:
 	void BounceInSpawner(float param_1, int param_2, gamevcollisionevent_t *param_3); // size[438]
 	void WhizSoundThink(); // size[1216]
 	void SetBallAsLaunched(); // size[360]
-	void OnPhysGunPickup(CBasePlayer *param_1, PhysGunPickup_t param_2); // size[13]
-	void OnPhysGunDrop(CBasePlayer *param_1, PhysGunDrop_t param_2); // size[13]
 	void DieThink(); // size[246]
 	void NotifySpawnerOfRemoval(); // size[62]
 	void InputKill(inputdata_t *param_1); // size[109]
@@ -71,5 +65,4 @@ public:
 	void InputExplode(inputdata_t *param_1); // size[9]
 	void OnHitEntity(CBaseEntity *param_1, float param_2, int param_3, gamevcollisionevent_t *param_4); // size[1281]
 	void DoImpactEffect(Vector *param_1, int param_2, gamevcollisionevent_t *param_3); // size[478]
-	void ShouldPuntUseLaunchForces(PhysGunForce_t param_1); // size[10]
 };

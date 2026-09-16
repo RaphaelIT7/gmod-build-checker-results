@@ -1,4 +1,5 @@
 // Generated header
+// Estimated minimum size: 0x140 (320) bytes
 
 class CSpatialPartition : public ISpatialPartitionInternal
 {
@@ -37,9 +38,9 @@ public:
 	virtual void RenderObjectsInSphere(Vector *param_1, float param_2, float param_3); // vtable[31]
 	virtual void RenderObjectsAlongRay(Ray_t *param_1, float param_2); // vtable[32]
 	virtual void ReportStats(char *param_1); // vtable[33]
-	virtual void InstallQueryCallback(IPartitionQueryCallback *param_1) override; // vtable[34]
+	virtual void InstallQueryCallback(IPartitionQueryCallback *param_1); // vtable[34]
 	virtual void Init(Vector *param_1, Vector *param_2); // vtable[35]
-	virtual void DrawDebugOverlays() override; // vtable[36]
+	virtual void DrawDebugOverlays(); // vtable[36]
 	virtual void InsertIntoTree(ushort param_1, Vector *param_2, Vector *param_3); // vtable[37]
 	virtual void RemoveFromTree(ushort param_1); // vtable[38]
 

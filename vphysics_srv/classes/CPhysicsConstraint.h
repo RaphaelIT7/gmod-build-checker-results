@@ -1,4 +1,5 @@
 // Generated header
+// Estimated minimum size: 0xA8 (168) bytes
 
 class CPhysicsConstraint : public IPhysicsConstraint, public IVP_Listener_Object
 {
@@ -6,7 +7,7 @@ public:
 	virtual ~CPhysicsConstraint(); // vtable[0]
 	virtual ~CPhysicsConstraint(); // vtable[1]
 	virtual void Activate(); // vtable[2]
-	virtual void Deactivate() override; // vtable[3]
+	virtual void Deactivate(); // vtable[3]
 	virtual void SetGameData(void *param_1); // vtable[4]
 	virtual void GetGameData(); // vtable[5]
 	virtual void GetReferenceObject(); // vtable[6]
@@ -21,6 +22,12 @@ public:
 	virtual void event_object_created(IVP_Event_Object *param_1); // vtable[15]
 	virtual void event_object_revived(IVP_Event_Object *param_1); // vtable[16]
 	virtual void event_object_frozen(IVP_Event_Object *param_1); // vtable[17]
+	virtual void event_object_deleted(IVP_Event_Object *param_1); // vtable[0]
+	virtual void event_object_created(IVP_Event_Object *param_1); // vtable[1]
+	virtual void event_object_revived(IVP_Event_Object *param_1); // vtable[2]
+	virtual void event_object_frozen(IVP_Event_Object *param_1); // vtable[3]
+	virtual ~CPhysicsConstraint(); // vtable[4]
+	virtual ~CPhysicsConstraint(); // vtable[5]
 
 	void InitHinge(IVP_Environment *param_1, CPhysicsConstraintGroup *param_2, constraint_limitedhingeparams_t *param_3); // size[22]
 	void InitFixed(IVP_Environment *param_1, CPhysicsConstraintGroup *param_2, constraint_fixedparams_t *param_3); // size[22]
@@ -47,11 +54,5 @@ public:
 	void WriteToTemplate(vphysics_save_cphysicsconstraint_t *param_1, vphysics_save_constraint_t *param_2); // size[168]
 	void GetConstraintParams(constraint_breakableparams_t *param_1); // size[1]
 	void DetachListener(); // size[94]
-	void event_object_deleted(IVP_Event_Object *param_1); // size[10]
-	~CPhysicsConstraint(); // size[7]
-	~CPhysicsConstraint(); // size[34]
 	void SetupRagdollAxis(int param_1, constraint_axislimit_t *param_2, hk_Limited_Ball_Socket_BP *param_3); // size[130]
-	void event_object_created(IVP_Event_Object *param_1); // size[1]
-	void event_object_revived(IVP_Event_Object *param_1); // size[1]
-	void event_object_frozen(IVP_Event_Object *param_1); // size[1]
 };

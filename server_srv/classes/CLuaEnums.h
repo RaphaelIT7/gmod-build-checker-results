@@ -1,4 +1,5 @@
 // Generated header
+// Estimated minimum size: 0x8 (8) bytes
 
 class CLuaEnums : public CLuaUser
 {

@@ -1,18 +1,19 @@
 // Generated header
+// Estimated minimum size: 0x164 (356) bytes
 
 class CCollisionEvent : public IPhysicsCollisionEvent, public IPhysicsCollisionSolver, public IPhysicsObjectEvent
 {
 public:
 	virtual void PreCollision(vcollisionevent_t *param_1); // vtable[0]
-	virtual void PostCollision(vcollisionevent_t *param_1) override; // vtable[1]
+	virtual void PostCollision(vcollisionevent_t *param_1); // vtable[1]
 	virtual void Friction(IPhysicsObject *param_1, float param_2, int param_3, int param_4, IPhysicsCollisionData *param_5); // vtable[2]
 	virtual void StartTouch(IPhysicsObject *param_1, IPhysicsObject *param_2, IPhysicsCollisionData *param_3); // vtable[3]
-	virtual void EndTouch(IPhysicsObject *param_1, IPhysicsObject *param_2, IPhysicsCollisionData *param_3) override; // vtable[4]
+	virtual void EndTouch(IPhysicsObject *param_1, IPhysicsObject *param_2, IPhysicsCollisionData *param_3); // vtable[4]
 	virtual void FluidStartTouch(IPhysicsObject *param_1, IPhysicsFluidController *param_2); // vtable[5]
 	virtual void FluidEndTouch(IPhysicsObject *param_1, IPhysicsFluidController *param_2); // vtable[6]
-	virtual void PostSimulationFrame() override; // vtable[7]
-	virtual void ObjectEnterTrigger(IPhysicsObject *param_1, IPhysicsObject *param_2) override; // vtable[8]
-	virtual void ObjectLeaveTrigger(IPhysicsObject *param_1, IPhysicsObject *param_2) override; // vtable[9]
+	virtual void PostSimulationFrame(); // vtable[7]
+	virtual void ObjectEnterTrigger(IPhysicsObject *param_1, IPhysicsObject *param_2); // vtable[8]
+	virtual void ObjectLeaveTrigger(IPhysicsObject *param_1, IPhysicsObject *param_2); // vtable[9]
 	virtual void AddDamageEvent(CBaseEntity *param_1, CTakeDamageInfo *param_2, IPhysicsObject *param_3, bool param_4, Vector *param_5, Vector *param_6); // vtable[10]
 	virtual void ShouldCollide(IPhysicsObject *param_1, IPhysicsObject *param_2, void *param_3, void *param_4); // vtable[11]
 	virtual void ShouldSolvePenetration(IPhysicsObject *param_1, IPhysicsObject *param_2, void *param_3, void *param_4, float param_5); // vtable[12]
@@ -21,11 +22,14 @@ public:
 	virtual void ShouldFreezeContacts(IPhysicsObject * *param_1, int param_2); // vtable[15]
 	virtual void ObjectWake(IPhysicsObject *param_1); // vtable[16]
 	virtual void ObjectSleep(IPhysicsObject *param_1); // vtable[17]
+	virtual void ShouldCollide(IPhysicsObject *param_1, IPhysicsObject *param_2, void *param_3, void *param_4); // vtable[0]
+	virtual void ShouldSolvePenetration(IPhysicsObject *param_1, IPhysicsObject *param_2, void *param_3, void *param_4, float param_5); // vtable[1]
+	virtual void ShouldFreezeObject(IPhysicsObject *param_1); // vtable[2]
+	virtual void AdditionalCollisionChecksThisTick(int param_1); // vtable[3]
+	virtual void ShouldFreezeContacts(IPhysicsObject * *param_1, int param_2); // vtable[4]
+	virtual void ObjectWake(IPhysicsObject *param_1); // vtable[0]
+	virtual void ObjectSleep(IPhysicsObject *param_1); // vtable[1]
 
-	void ShouldCollide(IPhysicsObject *param_1, IPhysicsObject *param_2, void *param_3, void *param_4); // size[10]
-	void ShouldFreezeContacts(IPhysicsObject * *param_1, int param_2); // size[7]
-	void ObjectWake(IPhysicsObject *param_1); // size[7]
-	void ObjectSleep(IPhysicsObject *param_1); // size[7]
 	void UpdatePenetrateEvents(); // size[698]
 	void FindFriction(CBaseEntity *param_1); // size[171]
 	void ShutdownFriction(friction_t *param_1); // size[15]
@@ -47,14 +51,11 @@ public:
 	CCollisionEvent(); // size[645]
 	void GetListOfPenetratingEntities(CBaseEntity *param_1, CUtlVector *param_2); // size[353]
 	void FindOrAddPenetrateEvent(CBaseEntity *param_1, CBaseEntity *param_2); // size[404]
-	void ShouldSolvePenetration(IPhysicsObject *param_1, IPhysicsObject *param_2, void *param_3, void *param_4, float param_5); // size[10]
 	void DeltaTimeSinceLastFluid(CBaseEntity *param_1); // size[428]
 	void AddTouchEvent(CBaseEntity *param_1, CBaseEntity *param_2, int param_3, Vector *param_4, Vector *param_5); // size[192]
 	void AddTouchEvent(CBaseEntity *param_1, CBaseEntity *param_2, int param_3, Vector *param_4, Vector *param_5); // size[55]
 	void AddRemoveObject(IServerNetworkable *param_1); // size[202]
 	void AddDamageInflictor(IPhysicsObject *param_1, float param_2, Vector *param_3, Vector *param_4, bool param_5); // size[474]
 	void AddDamageEvent(CBaseEntity *param_1, CTakeDamageInfo *param_2, IPhysicsObject *param_3, bool param_4, Vector *param_5, Vector *param_6); // size[533]
-	void ShouldFreezeObject(IPhysicsObject *param_1); // size[10]
-	void AdditionalCollisionChecksThisTick(int param_1); // size[7]
 	~CCollisionEvent(); // size[345]
 };

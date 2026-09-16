@@ -1,4 +1,5 @@
 // Generated header
+// Estimated minimum size: 0x1804 (6148) bytes
 
 class CAPCFourWheelServerVehicle : public CFourWheelServerVehicle
 {

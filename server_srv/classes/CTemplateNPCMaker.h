@@ -1,4 +1,5 @@
 // Generated header
+// Estimated minimum size: 0x25AC (9644) bytes
 
 class CTemplateNPCMaker : public CBaseNPCMaker
 {
@@ -7,11 +8,15 @@ public:
 	virtual ~CTemplateNPCMaker() override; // vtable[1]
 	virtual void GetDataDescMap() override; // vtable[12]
 	virtual void Precache() override; // vtable[24]
-	virtual void MakeNPC() override; // vtable[246]
+	virtual void MakeNPC(); // vtable[246]
+	virtual void ChildPreSpawn(CAI_BaseNPC *param_1); // vtable[247]
+	virtual void ChildPostSpawn(CAI_BaseNPC *param_1); // vtable[248]
+	virtual void Enable(); // vtable[249]
+	virtual void Disable(); // vtable[250]
+	virtual void IsDepleted(); // vtable[251]
 	virtual void FindSpawnDestination(); // vtable[252]
 	virtual void MakeMultipleNPCS(int param_1); // vtable[253]
 	virtual void PrecacheTemplateEntity(CBaseEntity *param_1); // vtable[254]
-	virtual void iconv_close(); // vtable[255]
 
 	void InputSpawnMultiple(inputdata_t *param_1); // size[41]
 	void InputChangeDestinationGroup(inputdata_t *param_1); // size[29]

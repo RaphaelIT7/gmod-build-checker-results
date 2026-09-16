@@ -1,18 +1,21 @@
 // Generated header
+// Estimated minimum size: 0x3C (60) bytes
 
 class CGarrysMod : public IGarrysMod, public CGameEventListener
 {
 public:
-	virtual void MenuThink() override; // vtable[0]
-	virtual void RunConsoleCommand(char *param_1) override; // vtable[1]
-	virtual void StartVideoScale(int param_1, int param_2) override; // vtable[2]
-	virtual void EndVideoScale(int param_1, int param_2) override; // vtable[3]
+	virtual void MenuThink(); // vtable[0]
+	virtual void RunConsoleCommand(char *param_1); // vtable[1]
+	virtual void StartVideoScale(int param_1, int param_2); // vtable[2]
+	virtual void EndVideoScale(int param_1, int param_2); // vtable[3]
 	virtual void FireGameEvent(IGameEvent *param_1); // vtable[4]
 	virtual ~CGarrysMod(); // vtable[5]
 	virtual ~CGarrysMod(); // vtable[6]
+	virtual ~CGarrysMod() override; // vtable[0]
+	virtual ~CGarrysMod() override; // vtable[1]
+	virtual void FireGameEvent(IGameEvent *param_1); // vtable[2]
 
 	void OnP2PSessionConnectFail(P2PSessionConnectFail_t *param_1); // size[61]
-	void FireGameEvent(IGameEvent *param_1); // size[7]
 	void OnP2PSessionRequest(P2PSessionRequest_t *param_1); // size[305]
 	CGarrysMod(); // size[149]
 	void InitializeMod(_func_void_ptr_char_ptr_int_ptr *param_1); // size[941]
@@ -25,6 +28,4 @@ public:
 	void EntityCreated(CBaseEntity *param_1); // size[118]
 	void EntityRemoved(CBaseEntity *param_1, bool param_2); // size[50]
 	void Think(); // size[85]
-	~CGarrysMod(); // size[10]
-	~CGarrysMod(); // size[10]
 };

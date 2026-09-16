@@ -1,0 +1,2112 @@
+[
+    {
+        "address": "00011519",
+        "length": 15,
+        "value": "__gmon_start__"
+    },
+    {
+        "address": "00011528",
+        "length": 6,
+        "value": "_fini"
+    },
+    {
+        "address": "0001152e",
+        "length": 28,
+        "value": "_ITM_deregisterTMCloneTable"
+    },
+    {
+        "address": "0001154a",
+        "length": 26,
+        "value": "_ITM_registerTMCloneTable"
+    },
+    {
+        "address": "00011564",
+        "length": 15,
+        "value": "__cxa_finalize"
+    },
+    {
+        "address": "00011573",
+        "length": 11,
+        "value": "__fxstat64"
+    },
+    {
+        "address": "0001157e",
+        "length": 7,
+        "value": "memcpy"
+    },
+    {
+        "address": "00011585",
+        "length": 7,
+        "value": "memset"
+    },
+    {
+        "address": "0001158c",
+        "length": 5,
+        "value": "free"
+    },
+    {
+        "address": "00011591",
+        "length": 7,
+        "value": "malloc"
+    },
+    {
+        "address": "00011598",
+        "length": 8,
+        "value": "realloc"
+    },
+    {
+        "address": "000115a0",
+        "length": 7,
+        "value": "calloc"
+    },
+    {
+        "address": "000115a7",
+        "length": 8,
+        "value": "memmove"
+    },
+    {
+        "address": "000115af",
+        "length": 7,
+        "value": "memcmp"
+    },
+    {
+        "address": "000115b6",
+        "length": 7,
+        "value": "memchr"
+    },
+    {
+        "address": "000115bd",
+        "length": 6,
+        "value": "qsort"
+    },
+    {
+        "address": "000115c3",
+        "length": 4,
+        "value": "pow"
+    },
+    {
+        "address": "000115c7",
+        "length": 6,
+        "value": "floor"
+    },
+    {
+        "address": "000115cd",
+        "length": 6,
+        "value": "ldexp"
+    },
+    {
+        "address": "000115d3",
+        "length": 4,
+        "value": "cos"
+    },
+    {
+        "address": "000115d7",
+        "length": 13,
+        "value": "pthread_join"
+    },
+    {
+        "address": "000115e4",
+        "length": 15,
+        "value": "pthread_detach"
+    },
+    {
+        "address": "000115f3",
+        "length": 19,
+        "value": "pthread_mutex_lock"
+    },
+    {
+        "address": "00011606",
+        "length": 21,
+        "value": "pthread_mutex_unlock"
+    },
+    {
+        "address": "0001161b",
+        "length": 8,
+        "value": "strncmp"
+    },
+    {
+        "address": "00011623",
+        "length": 8,
+        "value": "sprintf"
+    },
+    {
+        "address": "0001162b",
+        "length": 7,
+        "value": "strcpy"
+    },
+    {
+        "address": "00011632",
+        "length": 7,
+        "value": "strchr"
+    },
+    {
+        "address": "00011639",
+        "length": 7,
+        "value": "dlopen"
+    },
+    {
+        "address": "00011640",
+        "length": 6,
+        "value": "dlsym"
+    },
+    {
+        "address": "00011646",
+        "length": 7,
+        "value": "strcmp"
+    },
+    {
+        "address": "0001164d",
+        "length": 5,
+        "value": "logf"
+    },
+    {
+        "address": "00011652",
+        "length": 8,
+        "value": "strtoul"
+    },
+    {
+        "address": "0001165a",
+        "length": 5,
+        "value": "atoi"
+    },
+    {
+        "address": "0001165f",
+        "length": 7,
+        "value": "sscanf"
+    },
+    {
+        "address": "00011666",
+        "length": 7,
+        "value": "log10f"
+    },
+    {
+        "address": "0001166d",
+        "length": 8,
+        "value": "sincosf"
+    },
+    {
+        "address": "00011675",
+        "length": 6,
+        "value": "sinhf"
+    },
+    {
+        "address": "0001167b",
+        "length": 5,
+        "value": "rand"
+    },
+    {
+        "address": "00011680",
+        "length": 22,
+        "value": "pthread_mutex_destroy"
+    },
+    {
+        "address": "00011696",
+        "length": 8,
+        "value": "munlock"
+    },
+    {
+        "address": "0001169e",
+        "length": 7,
+        "value": "munmap"
+    },
+    {
+        "address": "000116a5",
+        "length": 9,
+        "value": "readlink"
+    },
+    {
+        "address": "000116ae",
+        "length": 7,
+        "value": "strdup"
+    },
+    {
+        "address": "000116b5",
+        "length": 8,
+        "value": "strrchr"
+    },
+    {
+        "address": "000116bd",
+        "length": 23,
+        "value": "pthread_rwlock_destroy"
+    },
+    {
+        "address": "000116d4",
+        "length": 20,
+        "value": "pthread_getspecific"
+    },
+    {
+        "address": "000116e8",
+        "length": 19,
+        "value": "pthread_key_delete"
+    },
+    {
+        "address": "000116fb",
+        "length": 14,
+        "value": "clock_gettime"
+    },
+    {
+        "address": "00011709",
+        "length": 19,
+        "value": "pthread_key_create"
+    },
+    {
+        "address": "0001171c",
+        "length": 20,
+        "value": "pthread_rwlock_init"
+    },
+    {
+        "address": "00011730",
+        "length": 13,
+        "value": "BASS_FXReset"
+    },
+    {
+        "address": "0001173d",
+        "length": 17,
+        "value": "BASS_FXSetBypass"
+    },
+    {
+        "address": "0001174e",
+        "length": 19,
+        "value": "BASS_FXSetPriority"
+    },
+    {
+        "address": "00011761",
+        "length": 21,
+        "value": "BASS_FXGetParameters"
+    },
+    {
+        "address": "00011776",
+        "length": 21,
+        "value": "BASS_FXSetParameters"
+    },
+    {
+        "address": "0001178b",
+        "length": 22,
+        "value": "BASS_ChannelRemoveDSP"
+    },
+    {
+        "address": "000117a1",
+        "length": 22,
+        "value": "pthread_rwlock_rdlock"
+    },
+    {
+        "address": "000117b7",
+        "length": 22,
+        "value": "pthread_rwlock_unlock"
+    },
+    {
+        "address": "000117cd",
+        "length": 12,
+        "value": "BASS_FXFree"
+    },
+    {
+        "address": "000117d9",
+        "length": 21,
+        "value": "BASS_ChannelRemoveFX"
+    },
+    {
+        "address": "000117ee",
+        "length": 21,
+        "value": "BASS_ChannelSetDSPEx"
+    },
+    {
+        "address": "00011803",
+        "length": 19,
+        "value": "BASS_ChannelSetDSP"
+    },
+    {
+        "address": "00011816",
+        "length": 23,
+        "value": "BASS_ChannelRemoveLink"
+    },
+    {
+        "address": "0001182d",
+        "length": 20,
+        "value": "BASS_ChannelSetLink"
+    },
+    {
+        "address": "00011841",
+        "length": 23,
+        "value": "BASS_ChannelRemoveSync"
+    },
+    {
+        "address": "00011858",
+        "length": 20,
+        "value": "BASS_ChannelSetSync"
+    },
+    {
+        "address": "0001186c",
+        "length": 20,
+        "value": "BASS_ChannelGetData"
+    },
+    {
+        "address": "00011880",
+        "length": 24,
+        "value": "BASS_ChannelGetPosition"
+    },
+    {
+        "address": "00011898",
+        "length": 24,
+        "value": "BASS_ChannelSetPosition"
+    },
+    {
+        "address": "000118b0",
+        "length": 18,
+        "value": "BASS_ChannelSetFX"
+    },
+    {
+        "address": "000118c2",
+        "length": 8,
+        "value": "syscall"
+    },
+    {
+        "address": "000118ca",
+        "length": 23,
+        "value": "BASS_ChannelGetLevelEx"
+    },
+    {
+        "address": "000118e1",
+        "length": 21,
+        "value": "BASS_ChannelGetLevel"
+    },
+    {
+        "address": "000118f6",
+        "length": 22,
+        "value": "BASS_ChannelGetLength"
+    },
+    {
+        "address": "0001190c",
+        "length": 26,
+        "value": "BASS_ChannelGet3DPosition"
+    },
+    {
+        "address": "00011926",
+        "length": 26,
+        "value": "BASS_ChannelSet3DPosition"
+    },
+    {
+        "address": "00011940",
+        "length": 28,
+        "value": "BASS_ChannelGet3DAttributes"
+    },
+    {
+        "address": "0001195c",
+        "length": 28,
+        "value": "BASS_ChannelSet3DAttributes"
+    },
+    {
+        "address": "00011978",
+        "length": 22,
+        "value": "BASS_ChannelIsSliding"
+    },
+    {
+        "address": "0001198e",
+        "length": 19,
+        "value": "BASS_ChannelUpdate"
+    },
+    {
+        "address": "000119a1",
+        "length": 17,
+        "value": "BASS_ChannelStop"
+    },
+    {
+        "address": "000119b2",
+        "length": 17,
+        "value": "BASS_ChannelFree"
+    },
+    {
+        "address": "000119c3",
+        "length": 16,
+        "value": "BASS_ChannelRef"
+    },
+    {
+        "address": "000119d3",
+        "length": 17,
+        "value": "BASS_ChannelLock"
+    },
+    {
+        "address": "000119e4",
+        "length": 20,
+        "value": "BASS_ChannelGetTags"
+    },
+    {
+        "address": "000119f8",
+        "length": 20,
+        "value": "BASS_ChannelGetInfo"
+    },
+    {
+        "address": "00011a0c",
+        "length": 18,
+        "value": "BASS_ChannelFlags"
+    },
+    {
+        "address": "00011a1e",
+        "length": 21,
+        "value": "BASS_ChannelIsActive"
+    },
+    {
+        "address": "00011a33",
+        "length": 17,
+        "value": "BASS_ChannelPlay"
+    },
+    {
+        "address": "00011a44",
+        "length": 18,
+        "value": "BASS_ChannelStart"
+    },
+    {
+        "address": "00011a56",
+        "length": 22,
+        "value": "BASS_ChannelSetDevice"
+    },
+    {
+        "address": "00011a6c",
+        "length": 22,
+        "value": "BASS_ChannelGetDevice"
+    },
+    {
+        "address": "00011a82",
+        "length": 26,
+        "value": "BASS_ChannelSeconds2Bytes"
+    },
+    {
+        "address": "00011a9c",
+        "length": 26,
+        "value": "BASS_ChannelBytes2Seconds"
+    },
+    {
+        "address": "00011ab6",
+        "length": 17,
+        "value": "BASS_RecordStart"
+    },
+    {
+        "address": "00011ac7",
+        "length": 20,
+        "value": "BASS_RecordGetInput"
+    },
+    {
+        "address": "00011adb",
+        "length": 20,
+        "value": "BASS_RecordSetInput"
+    },
+    {
+        "address": "00011aef",
+        "length": 24,
+        "value": "BASS_RecordGetInputName"
+    },
+    {
+        "address": "00011b07",
+        "length": 19,
+        "value": "BASS_RecordGetInfo"
+    },
+    {
+        "address": "00011b1a",
+        "length": 21,
+        "value": "BASS_RecordGetDevice"
+    },
+    {
+        "address": "00011b2f",
+        "length": 21,
+        "value": "BASS_RecordSetDevice"
+    },
+    {
+        "address": "00011b44",
+        "length": 16,
+        "value": "BASS_RecordFree"
+    },
+    {
+        "address": "00011b54",
+        "length": 16,
+        "value": "BASS_RecordInit"
+    },
+    {
+        "address": "00011b64",
+        "length": 25,
+        "value": "BASS_RecordGetDeviceInfo"
+    },
+    {
+        "address": "00011b7d",
+        "length": 15,
+        "value": "BASS_MusicFree"
+    },
+    {
+        "address": "00011b8c",
+        "length": 23,
+        "value": "BASS_StreamPutFileData"
+    },
+    {
+        "address": "00011ba3",
+        "length": 19,
+        "value": "BASS_StreamPutData"
+    },
+    {
+        "address": "00011bb6",
+        "length": 27,
+        "value": "BASS_StreamGetFilePosition"
+    },
+    {
+        "address": "00011bd1",
+        "length": 16,
+        "value": "BASS_StreamFree"
+    },
+    {
+        "address": "00011be1",
+        "length": 18,
+        "value": "BASS_StreamCancel"
+    },
+    {
+        "address": "00011bf3",
+        "length": 16,
+        "value": "BASS_SampleStop"
+    },
+    {
+        "address": "00011c03",
+        "length": 23,
+        "value": "BASS_SampleGetChannels"
+    },
+    {
+        "address": "00011c1a",
+        "length": 19,
+        "value": "BASS_SampleSetInfo"
+    },
+    {
+        "address": "00011c2d",
+        "length": 19,
+        "value": "BASS_SampleGetInfo"
+    },
+    {
+        "address": "00011c40",
+        "length": 19,
+        "value": "BASS_SampleGetData"
+    },
+    {
+        "address": "00011c53",
+        "length": 19,
+        "value": "BASS_SampleSetData"
+    },
+    {
+        "address": "00011c66",
+        "length": 16,
+        "value": "BASS_SampleFree"
+    },
+    {
+        "address": "00011c76",
+        "length": 19,
+        "value": "BASS_PluginGetInfo"
+    },
+    {
+        "address": "00011c89",
+        "length": 18,
+        "value": "BASS_PluginEnable"
+    },
+    {
+        "address": "00011c9b",
+        "length": 16,
+        "value": "BASS_PluginFree"
+    },
+    {
+        "address": "00011cab",
+        "length": 7,
+        "value": "usleep"
+    },
+    {
+        "address": "00011cb2",
+        "length": 8,
+        "value": "dlclose"
+    },
+    {
+        "address": "00011cba",
+        "length": 16,
+        "value": "BASS_PluginLoad"
+    },
+    {
+        "address": "00011cca",
+        "length": 13,
+        "value": "BASS_Apply3D"
+    },
+    {
+        "address": "00011cd7",
+        "length": 19,
+        "value": "BASS_Get3DPosition"
+    },
+    {
+        "address": "00011cea",
+        "length": 19,
+        "value": "BASS_Set3DPosition"
+    },
+    {
+        "address": "00011cfd",
+        "length": 18,
+        "value": "BASS_Get3DFactors"
+    },
+    {
+        "address": "00011d0f",
+        "length": 18,
+        "value": "BASS_Set3DFactors"
+    },
+    {
+        "address": "00011d21",
+        "length": 15,
+        "value": "BASS_GetVolume"
+    },
+    {
+        "address": "00011d30",
+        "length": 15,
+        "value": "BASS_SetVolume"
+    },
+    {
+        "address": "00011d3f",
+        "length": 12,
+        "value": "BASS_GetCPU"
+    },
+    {
+        "address": "00011d4b",
+        "length": 12,
+        "value": "BASS_Update"
+    },
+    {
+        "address": "00011d57",
+        "length": 15,
+        "value": "BASS_IsStarted"
+    },
+    {
+        "address": "00011d66",
+        "length": 10,
+        "value": "BASS_Stop"
+    },
+    {
+        "address": "00011d70",
+        "length": 11,
+        "value": "BASS_Start"
+    },
+    {
+        "address": "00011d7b",
+        "length": 13,
+        "value": "BASS_GetInfo"
+    },
+    {
+        "address": "00011d88",
+        "length": 6,
+        "value": "ceilf"
+    },
+    {
+        "address": "00011d8e",
+        "length": 15,
+        "value": "BASS_GetDevice"
+    },
+    {
+        "address": "00011d9d",
+        "length": 15,
+        "value": "BASS_SetDevice"
+    },
+    {
+        "address": "00011dac",
+        "length": 10,
+        "value": "BASS_Free"
+    },
+    {
+        "address": "00011db6",
+        "length": 19,
+        "value": "BASS_GetDeviceInfo"
+    },
+    {
+        "address": "00011dc9",
+        "length": 18,
+        "value": "BASS_ErrorGetCode"
+    },
+    {
+        "address": "00011ddb",
+        "length": 18,
+        "value": "BASS_ChannelPause"
+    },
+    {
+        "address": "00011ded",
+        "length": 12,
+        "value": "strncasecmp"
+    },
+    {
+        "address": "00011df9",
+        "length": 7,
+        "value": "strstr"
+    },
+    {
+        "address": "00011e00",
+        "length": 8,
+        "value": "strpbrk"
+    },
+    {
+        "address": "00011e08",
+        "length": 21,
+        "value": "BASS_StreamCreateURL"
+    },
+    {
+        "address": "00011e1d",
+        "length": 26,
+        "value": "BASS_StreamCreateFileUser"
+    },
+    {
+        "address": "00011e37",
+        "length": 22,
+        "value": "BASS_StreamCreateFile"
+    },
+    {
+        "address": "00011e4d",
+        "length": 16,
+        "value": "BASS_GetVersion"
+    },
+    {
+        "address": "00011e5d",
+        "length": 11,
+        "value": "BASS_Pause"
+    },
+    {
+        "address": "00011e68",
+        "length": 10,
+        "value": "BASS_Init"
+    },
+    {
+        "address": "00011e72",
+        "length": 27,
+        "value": "BASS_ChannelGetAttributeEx"
+    },
+    {
+        "address": "00011e8d",
+        "length": 27,
+        "value": "BASS_ChannelSetAttributeEx"
+    },
+    {
+        "address": "00011ea8",
+        "length": 25,
+        "value": "BASS_ChannelGetAttribute"
+    },
+    {
+        "address": "00011ec1",
+        "length": 25,
+        "value": "BASS_ChannelSetAttribute"
+    },
+    {
+        "address": "00011eda",
+        "length": 27,
+        "value": "BASS_ChannelSlideAttribute"
+    },
+    {
+        "address": "00011ef5",
+        "length": 15,
+        "value": "BASS_MusicLoad"
+    },
+    {
+        "address": "00011f04",
+        "length": 5,
+        "value": "expf"
+    },
+    {
+        "address": "00011f09",
+        "length": 18,
+        "value": "BASS_StreamCreate"
+    },
+    {
+        "address": "00011f1b",
+        "length": 18,
+        "value": "BASS_SampleCreate"
+    },
+    {
+        "address": "00011f2d",
+        "length": 16,
+        "value": "BASS_SampleLoad"
+    },
+    {
+        "address": "00011f3d",
+        "length": 22,
+        "value": "BASS_SampleGetChannel"
+    },
+    {
+        "address": "00011f53",
+        "length": 18,
+        "value": "BASS_GetConfigPtr"
+    },
+    {
+        "address": "00011f65",
+        "length": 18,
+        "value": "BASS_SetConfigPtr"
+    },
+    {
+        "address": "00011f77",
+        "length": 15,
+        "value": "BASS_GetConfig"
+    },
+    {
+        "address": "00011f86",
+        "length": 15,
+        "value": "BASS_SetConfig"
+    },
+    {
+        "address": "00011f95",
+        "length": 22,
+        "value": "pthread_mutex_trylock"
+    },
+    {
+        "address": "00011fab",
+        "length": 17,
+        "value": "__errno_location"
+    },
+    {
+        "address": "00011fbc",
+        "length": 6,
+        "value": "mlock"
+    },
+    {
+        "address": "00011fc2",
+        "length": 8,
+        "value": "lseek64"
+    },
+    {
+        "address": "00011fca",
+        "length": 5,
+        "value": "read"
+    },
+    {
+        "address": "00011fcf",
+        "length": 22,
+        "value": "pthread_rwlock_wrlock"
+    },
+    {
+        "address": "00011fe5",
+        "length": 9,
+        "value": "memalign"
+    },
+    {
+        "address": "00011fee",
+        "length": 15,
+        "value": "pthread_create"
+    },
+    {
+        "address": "00011ffd",
+        "length": 8,
+        "value": "strtoll"
+    },
+    {
+        "address": "00012005",
+        "length": 7,
+        "value": "open64"
+    },
+    {
+        "address": "0001200c",
+        "length": 7,
+        "value": "mmap64"
+    },
+    {
+        "address": "00012013",
+        "length": 13,
+        "value": "pthread_self"
+    },
+    {
+        "address": "00012020",
+        "length": 14,
+        "value": "pthread_equal"
+    },
+    {
+        "address": "0001202e",
+        "length": 6,
+        "value": "acosf"
+    },
+    {
+        "address": "00012034",
+        "length": 11,
+        "value": "setsockopt"
+    },
+    {
+        "address": "0001203f",
+        "length": 9,
+        "value": "shutdown"
+    },
+    {
+        "address": "00012048",
+        "length": 5,
+        "value": "recv"
+    },
+    {
+        "address": "0001204d",
+        "length": 5,
+        "value": "send"
+    },
+    {
+        "address": "00012052",
+        "length": 7,
+        "value": "dladdr"
+    },
+    {
+        "address": "00012059",
+        "length": 18,
+        "value": "pthread_cond_wait"
+    },
+    {
+        "address": "0001206b",
+        "length": 23,
+        "value": "pthread_cond_timedwait"
+    },
+    {
+        "address": "00012082",
+        "length": 23,
+        "value": "pthread_cond_broadcast"
+    },
+    {
+        "address": "00012099",
+        "length": 20,
+        "value": "pthread_cond_signal"
+    },
+    {
+        "address": "000120ad",
+        "length": 21,
+        "value": "pthread_cond_destroy"
+    },
+    {
+        "address": "000120c2",
+        "length": 5,
+        "value": "poll"
+    },
+    {
+        "address": "000120c7",
+        "length": 19,
+        "value": "pthread_mutex_init"
+    },
+    {
+        "address": "000120da",
+        "length": 22,
+        "value": "pthread_condattr_init"
+    },
+    {
+        "address": "000120f0",
+        "length": 26,
+        "value": "pthread_condattr_setclock"
+    },
+    {
+        "address": "0001210a",
+        "length": 18,
+        "value": "pthread_cond_init"
+    },
+    {
+        "address": "0001211c",
+        "length": 25,
+        "value": "pthread_condattr_destroy"
+    },
+    {
+        "address": "00012135",
+        "length": 22,
+        "value": "pthread_setschedparam"
+    },
+    {
+        "address": "0001214b",
+        "length": 23,
+        "value": "pthread_mutexattr_init"
+    },
+    {
+        "address": "00012162",
+        "length": 26,
+        "value": "pthread_mutexattr_settype"
+    },
+    {
+        "address": "0001217c",
+        "length": 26,
+        "value": "pthread_mutexattr_destroy"
+    },
+    {
+        "address": "00012196",
+        "length": 20,
+        "value": "pthread_setspecific"
+    },
+    {
+        "address": "000121aa",
+        "length": 11,
+        "value": "strcasecmp"
+    },
+    {
+        "address": "000121b5",
+        "length": 11,
+        "value": "strcasestr"
+    },
+    {
+        "address": "000121c0",
+        "length": 7,
+        "value": "strcat"
+    },
+    {
+        "address": "000121c7",
+        "length": 12,
+        "value": "getaddrinfo"
+    },
+    {
+        "address": "000121d3",
+        "length": 7,
+        "value": "socket"
+    },
+    {
+        "address": "000121da",
+        "length": 6,
+        "value": "fcntl"
+    },
+    {
+        "address": "000121e0",
+        "length": 8,
+        "value": "connect"
+    },
+    {
+        "address": "000121e8",
+        "length": 13,
+        "value": "freeaddrinfo"
+    },
+    {
+        "address": "000121f5",
+        "length": 9,
+        "value": "snprintf"
+    },
+    {
+        "address": "000121fe",
+        "length": 9,
+        "value": "strtoull"
+    },
+    {
+        "address": "00012207",
+        "length": 11,
+        "value": "libdl.so.2"
+    },
+    {
+        "address": "00012212",
+        "length": 16,
+        "value": "libpthread.so.0"
+    },
+    {
+        "address": "00012222",
+        "length": 11,
+        "value": "librt.so.1"
+    },
+    {
+        "address": "0001222d",
+        "length": 10,
+        "value": "libm.so.6"
+    },
+    {
+        "address": "00012237",
+        "length": 10,
+        "value": "libc.so.6"
+    },
+    {
+        "address": "00012241",
+        "length": 10,
+        "value": "GLIBC_2.2"
+    },
+    {
+        "address": "0001224b",
+        "length": 10,
+        "value": "GLIBC_2.1"
+    },
+    {
+        "address": "00012255",
+        "length": 10,
+        "value": "GLIBC_2.0"
+    },
+    {
+        "address": "0001225f",
+        "length": 12,
+        "value": "GLIBC_2.3.3"
+    },
+    {
+        "address": "0001226b",
+        "length": 12,
+        "value": "GLIBC_2.1.3"
+    },
+    {
+        "address": "00012277",
+        "length": 12,
+        "value": "GLIBC_2.3.2"
+    },
+    {
+        "address": "000484e9",
+        "length": 7,
+        "value": "dmix%s"
+    },
+    {
+        "address": "000484f0",
+        "length": 9,
+        "value": "No sound"
+    },
+    {
+        "address": "000484f9",
+        "length": 15,
+        "value": "libasound.so.2"
+    },
+    {
+        "address": "00048508",
+        "length": 14,
+        "value": "snd_card_next"
+    },
+    {
+        "address": "00048516",
+        "length": 30,
+        "value": "snd_config_update_free_global"
+    },
+    {
+        "address": "00048534",
+        "length": 18,
+        "value": "snd_ctl_card_info"
+    },
+    {
+        "address": "00048546",
+        "length": 27,
+        "value": "snd_ctl_card_info_get_name"
+    },
+    {
+        "address": "00048561",
+        "length": 25,
+        "value": "snd_ctl_card_info_sizeof"
+    },
+    {
+        "address": "0004857a",
+        "length": 14,
+        "value": "snd_ctl_close"
+    },
+    {
+        "address": "00048588",
+        "length": 13,
+        "value": "snd_ctl_open"
+    },
+    {
+        "address": "00048595",
+        "length": 17,
+        "value": "snd_ctl_pcm_info"
+    },
+    {
+        "address": "000485a6",
+        "length": 24,
+        "value": "snd_ctl_pcm_next_device"
+    },
+    {
+        "address": "000485be",
+        "length": 26,
+        "value": "snd_device_name_free_hint"
+    },
+    {
+        "address": "000485d8",
+        "length": 25,
+        "value": "snd_device_name_get_hint"
+    },
+    {
+        "address": "000485f1",
+        "length": 21,
+        "value": "snd_device_name_hint"
+    },
+    {
+        "address": "00048606",
+        "length": 17,
+        "value": "snd_mixer_attach"
+    },
+    {
+        "address": "00048617",
+        "length": 16,
+        "value": "snd_mixer_close"
+    },
+    {
+        "address": "00048627",
+        "length": 20,
+        "value": "snd_mixer_elem_next"
+    },
+    {
+        "address": "0004863b",
+        "length": 21,
+        "value": "snd_mixer_find_selem"
+    },
+    {
+        "address": "00048650",
+        "length": 21,
+        "value": "snd_mixer_first_elem"
+    },
+    {
+        "address": "00048665",
+        "length": 24,
+        "value": "snd_mixer_handle_events"
+    },
+    {
+        "address": "0004867d",
+        "length": 15,
+        "value": "snd_mixer_load"
+    },
+    {
+        "address": "0004868c",
+        "length": 15,
+        "value": "snd_mixer_open"
+    },
+    {
+        "address": "0004869b",
+        "length": 35,
+        "value": "snd_mixer_selem_get_capture_switch"
+    },
+    {
+        "address": "000486be",
+        "length": 35,
+        "value": "snd_mixer_selem_get_capture_volume"
+    },
+    {
+        "address": "000486e1",
+        "length": 41,
+        "value": "snd_mixer_selem_get_capture_volume_range"
+    },
+    {
+        "address": "0004870a",
+        "length": 30,
+        "value": "snd_mixer_selem_get_enum_item"
+    },
+    {
+        "address": "00048728",
+        "length": 35,
+        "value": "snd_mixer_selem_get_enum_item_name"
+    },
+    {
+        "address": "0004874b",
+        "length": 31,
+        "value": "snd_mixer_selem_get_enum_items"
+    },
+    {
+        "address": "0004876a",
+        "length": 25,
+        "value": "snd_mixer_selem_get_name"
+    },
+    {
+        "address": "00048783",
+        "length": 36,
+        "value": "snd_mixer_selem_get_playback_volume"
+    },
+    {
+        "address": "000487a7",
+        "length": 42,
+        "value": "snd_mixer_selem_get_playback_volume_range"
+    },
+    {
+        "address": "000487d1",
+        "length": 35,
+        "value": "snd_mixer_selem_has_capture_switch"
+    },
+    {
+        "address": "000487f4",
+        "length": 45,
+        "value": "snd_mixer_selem_has_capture_switch_exclusive"
+    },
+    {
+        "address": "00048821",
+        "length": 34,
+        "value": "snd_mixer_selem_has_common_volume"
+    },
+    {
+        "address": "00048843",
+        "length": 36,
+        "value": "snd_mixer_selem_has_playback_volume"
+    },
+    {
+        "address": "00048867",
+        "length": 28,
+        "value": "snd_mixer_selem_id_set_name"
+    },
+    {
+        "address": "00048883",
+        "length": 26,
+        "value": "snd_mixer_selem_id_sizeof"
+    },
+    {
+        "address": "0004889d",
+        "length": 26,
+        "value": "snd_mixer_selem_is_active"
+    },
+    {
+        "address": "000488b7",
+        "length": 25,
+        "value": "snd_mixer_selem_register"
+    },
+    {
+        "address": "000488d0",
+        "length": 39,
+        "value": "snd_mixer_selem_set_capture_switch_all"
+    },
+    {
+        "address": "000488f7",
+        "length": 39,
+        "value": "snd_mixer_selem_set_capture_volume_all"
+    },
+    {
+        "address": "0004891e",
+        "length": 30,
+        "value": "snd_mixer_selem_set_enum_item"
+    },
+    {
+        "address": "0004893c",
+        "length": 40,
+        "value": "snd_mixer_selem_set_playback_volume_all"
+    },
+    {
+        "address": "00048964",
+        "length": 21,
+        "value": "snd_pcm_avail_update"
+    },
+    {
+        "address": "00048979",
+        "length": 14,
+        "value": "snd_pcm_close"
+    },
+    {
+        "address": "00048987",
+        "length": 14,
+        "value": "snd_pcm_delay"
+    },
+    {
+        "address": "00048995",
+        "length": 13,
+        "value": "snd_pcm_drop"
+    },
+    {
+        "address": "000489a2",
+        "length": 18,
+        "value": "snd_pcm_hw_params"
+    },
+    {
+        "address": "000489b4",
+        "length": 22,
+        "value": "snd_pcm_hw_params_any"
+    },
+    {
+        "address": "000489ca",
+        "length": 34,
+        "value": "snd_pcm_hw_params_get_buffer_size"
+    },
+    {
+        "address": "000489ec",
+        "length": 31,
+        "value": "snd_pcm_hw_params_get_channels"
+    },
+    {
+        "address": "00048a0b",
+        "length": 35,
+        "value": "snd_pcm_hw_params_get_channels_max"
+    },
+    {
+        "address": "00048a2e",
+        "length": 34,
+        "value": "snd_pcm_hw_params_get_period_size"
+    },
+    {
+        "address": "00048a50",
+        "length": 29,
+        "value": "snd_pcm_hw_params_set_access"
+    },
+    {
+        "address": "00048a6d",
+        "length": 31,
+        "value": "snd_pcm_hw_params_set_channels"
+    },
+    {
+        "address": "00048a8c",
+        "length": 29,
+        "value": "snd_pcm_hw_params_set_format"
+    },
+    {
+        "address": "00048aa9",
+        "length": 39,
+        "value": "snd_pcm_hw_params_set_buffer_time_near"
+    },
+    {
+        "address": "00048ad0",
+        "length": 39,
+        "value": "snd_pcm_hw_params_set_period_time_near"
+    },
+    {
+        "address": "00048af7",
+        "length": 35,
+        "value": "snd_pcm_hw_params_set_periods_near"
+    },
+    {
+        "address": "00048b1a",
+        "length": 27,
+        "value": "snd_pcm_hw_params_set_rate"
+    },
+    {
+        "address": "00048b35",
+        "length": 32,
+        "value": "snd_pcm_hw_params_set_rate_near"
+    },
+    {
+        "address": "00048b55",
+        "length": 25,
+        "value": "snd_pcm_hw_params_sizeof"
+    },
+    {
+        "address": "00048b6e",
+        "length": 22,
+        "value": "snd_pcm_info_get_name"
+    },
+    {
+        "address": "00048b84",
+        "length": 24,
+        "value": "snd_pcm_info_set_device"
+    },
+    {
+        "address": "00048b9c",
+        "length": 24,
+        "value": "snd_pcm_info_set_stream"
+    },
+    {
+        "address": "00048bb4",
+        "length": 27,
+        "value": "snd_pcm_info_set_subdevice"
+    },
+    {
+        "address": "00048bcf",
+        "length": 20,
+        "value": "snd_pcm_info_sizeof"
+    },
+    {
+        "address": "00048be3",
+        "length": 19,
+        "value": "snd_pcm_mmap_begin"
+    },
+    {
+        "address": "00048bf6",
+        "length": 20,
+        "value": "snd_pcm_mmap_commit"
+    },
+    {
+        "address": "00048c0a",
+        "length": 17,
+        "value": "snd_pcm_nonblock"
+    },
+    {
+        "address": "00048c1b",
+        "length": 13,
+        "value": "snd_pcm_open"
+    },
+    {
+        "address": "00048c28",
+        "length": 16,
+        "value": "snd_pcm_prepare"
+    },
+    {
+        "address": "00048c38",
+        "length": 14,
+        "value": "snd_pcm_readi"
+    },
+    {
+        "address": "00048c46",
+        "length": 15,
+        "value": "snd_pcm_resume"
+    },
+    {
+        "address": "00048c55",
+        "length": 14,
+        "value": "snd_pcm_start"
+    },
+    {
+        "address": "00048c63",
+        "length": 14,
+        "value": "snd_pcm_state"
+    },
+    {
+        "address": "00048c71",
+        "length": 18,
+        "value": "snd_pcm_sw_params"
+    },
+    {
+        "address": "00048c83",
+        "length": 26,
+        "value": "snd_pcm_sw_params_current"
+    },
+    {
+        "address": "00048c9d",
+        "length": 38,
+        "value": "snd_pcm_sw_params_set_start_threshold"
+    },
+    {
+        "address": "00048cc3",
+        "length": 25,
+        "value": "snd_pcm_sw_params_sizeof"
+    },
+    {
+        "address": "00048cdc",
+        "length": 13,
+        "value": "snd_pcm_wait"
+    },
+    {
+        "address": "00048ce9",
+        "length": 15,
+        "value": "snd_pcm_writei"
+    },
+    {
+        "address": "00048cf8",
+        "length": 36,
+        "value": "snd_pcm_hw_params_set_rate_resample"
+    },
+    {
+        "address": "00048d1c",
+        "length": 8,
+        "value": "default"
+    },
+    {
+        "address": "00048d24",
+        "length": 8,
+        "value": "Default"
+    },
+    {
+        "address": "00048d2c",
+        "length": 6,
+        "value": "hw:%d"
+    },
+    {
+        "address": "00048d3a",
+        "length": 7,
+        "value": "%s: %s"
+    },
+    {
+        "address": "00048d55",
+        "length": 7,
+        "value": "Output"
+    },
+    {
+        "address": "00048d5c",
+        "length": 6,
+        "value": "Input"
+    },
+    {
+        "address": "00048d62",
+        "length": 7,
+        "value": "plug%s"
+    },
+    {
+        "address": "00048d6a",
+        "length": 10,
+        "value": "vorbis"
+    },
+    {
+        "address": "0004ae72",
+        "length": 6,
+        "value": "ADPCM"
+    },
+    {
+        "address": "0004ae78",
+        "length": 18,
+        "value": "Extended Module: "
+    },
+    {
+        "address": "0004ae97",
+        "length": 9,
+        "value": "%x %x %x"
+    },
+    {
+        "address": "0004b1ac",
+        "length": 17,
+        "value": "/proc/self/fd/%d"
+    },
+    {
+        "address": "0004b1bd",
+        "length": 13,
+        "value": "%.*slib%s.so"
+    },
+    {
+        "address": "0004b1ca",
+        "length": 7,
+        "value": "%.*s%s"
+    },
+    {
+        "address": "0004b1d1",
+        "length": 9,
+        "value": "BASS/2.4"
+    },
+    {
+        "address": "0004b31f",
+        "length": 9,
+        "value": "?Capture"
+    },
+    {
+        "address": "0004b328",
+        "length": 13,
+        "value": "Input Source"
+    },
+    {
+        "address": "0004b335",
+        "length": 11,
+        "value": "BASSplugin"
+    },
+    {
+        "address": "0004b359",
+        "length": 11,
+        "value": "[playlist]"
+    },
+    {
+        "address": "0004b367",
+        "length": 12,
+        "value": "DigiBooster"
+    },
+    {
+        "address": "0004b860",
+        "length": 22,
+        "value": "content-range: bytes "
+    },
+    {
+        "address": "0004b876",
+        "length": 16,
+        "value": "content-length:"
+    },
+    {
+        "address": "0004b89a",
+        "length": 10,
+        "value": "LYRICS200"
+    },
+    {
+        "address": "0004b8a4",
+        "length": 10,
+        "value": "location:"
+    },
+    {
+        "address": "0004b8ae",
+        "length": 13,
+        "value": "icy-metaint:"
+    },
+    {
+        "address": "0004b8bb",
+        "length": 15,
+        "value": "accept-ranges:"
+    },
+    {
+        "address": "0004b8ca",
+        "length": 6,
+        "value": "bytes"
+    },
+    {
+        "address": "0004b8d0",
+        "length": 6,
+        "value": "Title"
+    },
+    {
+        "address": "0004b8d6",
+        "length": 7,
+        "value": "Writer"
+    },
+    {
+        "address": "0004b8dd",
+        "length": 6,
+        "value": "Album"
+    },
+    {
+        "address": "0004b8ed",
+        "length": 8,
+        "value": "Comment"
+    },
+    {
+        "address": "0004b8f5",
+        "length": 6,
+        "value": "Genre"
+    },
+    {
+        "address": "0004b8fb",
+        "length": 6,
+        "value": "Track"
+    },
+    {
+        "address": "0004b906",
+        "length": 6,
+        "value": "Tempo"
+    },
+    {
+        "address": "0004b90c",
+        "length": 10,
+        "value": "Copyright"
+    },
+    {
+        "address": "0004b916",
+        "length": 12,
+        "value": "AlbumArtist"
+    },
+    {
+        "address": "0004b922",
+        "length": 12,
+        "value": "Description"
+    },
+    {
+        "address": "0004b92e",
+        "length": 9,
+        "value": "Keywords"
+    },
+    {
+        "address": "0004b937",
+        "length": 9,
+        "value": "Category"
+    },
+    {
+        "address": "0004b940",
+        "length": 9,
+        "value": "Grouping"
+    },
+    {
+        "address": "0004b949",
+        "length": 7,
+        "value": "Lyrics"
+    },
+    {
+        "address": "0004b950",
+        "length": 9,
+        "value": "Advisory"
+    },
+    {
+        "address": "0004b9dd",
+        "length": 10,
+        "value": "anonymous"
+    },
+    {
+        "address": "0004b9f0",
+        "length": 6,
+        "value": "https"
+    },
+    {
+        "address": "0004b9f6",
+        "length": 10,
+        "value": "libssl.so"
+    },
+    {
+        "address": "0004ba00",
+        "length": 12,
+        "value": "libssl.so.3"
+    },
+    {
+        "address": "0004ba0c",
+        "length": 14,
+        "value": "libssl.so.1.1"
+    },
+    {
+        "address": "0004ba1a",
+        "length": 13,
+        "value": "libssl.so.10"
+    },
+    {
+        "address": "0004ba27",
+        "length": 16,
+        "value": "libssl.so.1.0.0"
+    },
+    {
+        "address": "0004ba37",
+        "length": 12,
+        "value": "SSL_CTX_new"
+    },
+    {
+        "address": "0004ba43",
+        "length": 12,
+        "value": "SSL_connect"
+    },
+    {
+        "address": "0004ba4f",
+        "length": 9,
+        "value": "SSL_ctrl"
+    },
+    {
+        "address": "0004ba58",
+        "length": 9,
+        "value": "SSL_free"
+    },
+    {
+        "address": "0004ba61",
+        "length": 25,
+        "value": "SSL_set_tlsext_host_name"
+    },
+    {
+        "address": "0004ba7a",
+        "length": 14,
+        "value": "SSL_get_error"
+    },
+    {
+        "address": "0004ba88",
+        "length": 8,
+        "value": "SSL_new"
+    },
+    {
+        "address": "0004ba90",
+        "length": 9,
+        "value": "SSL_peek"
+    },
+    {
+        "address": "0004ba99",
+        "length": 9,
+        "value": "SSL_read"
+    },
+    {
+        "address": "0004baa2",
+        "length": 11,
+        "value": "SSL_set_fd"
+    },
+    {
+        "address": "0004baad",
+        "length": 13,
+        "value": "SSL_shutdown"
+    },
+    {
+        "address": "0004baba",
+        "length": 10,
+        "value": "SSL_write"
+    },
+    {
+        "address": "0004bac4",
+        "length": 18,
+        "value": "TLS_client_method"
+    },
+    {
+        "address": "0004bad6",
+        "length": 21,
+        "value": "SSLv23_client_method"
+    },
+    {
+        "address": "0004baeb",
+        "length": 17,
+        "value": "SSL_library_init"
+    },
+    {
+        "address": "0004bafc",
+        "length": 28,
+        "value": "CRYPTO_get_locking_callback"
+    },
+    {
+        "address": "0004bb18",
+        "length": 17,
+        "value": "CRYPTO_num_locks"
+    },
+    {
+        "address": "0004bb29",
+        "length": 28,
+        "value": "CRYPTO_set_locking_callback"
+    },
+    {
+        "address": "0004bb4a",
+        "length": 18,
+        "value": "GET %s HTTP/1.1\r\n"
+    },
+    {
+        "address": "0004bb5c",
+        "length": 32,
+        "value": "Proxy-Authorization: Basic %s\r\n"
+    },
+    {
+        "address": "0004bb7c",
+        "length": 20,
+        "value": "GET %s%s HTTP/1.1\r\n"
+    },
+    {
+        "address": "0004bb90",
+        "length": 6,
+        "value": "Host:"
+    },
+    {
+        "address": "0004bb96",
+        "length": 11,
+        "value": "Host: %s\r\n"
+    },
+    {
+        "address": "0004bba1",
+        "length": 12,
+        "value": "User-Agent:"
+    },
+    {
+        "address": "0004bbad",
+        "length": 17,
+        "value": "User-Agent: %s\r\n"
+    },
+    {
+        "address": "0004bbbe",
+        "length": 19,
+        "value": "Range: bytes=%d-\r\n"
+    },
+    {
+        "address": "0004bbd1",
+        "length": 28,
+        "value": "Accept-Encoding: identity\r\n"
+    },
+    {
+        "address": "0004bbed",
+        "length": 18,
+        "value": "Icy-MetaData: 1\r\n"
+    },
+    {
+        "address": "0004bbff",
+        "length": 20,
+        "value": "Connection: close\r\n"
+    },
+    {
+        "address": "0004bc13",
+        "length": 10,
+        "value": "USER %s\r\n"
+    },
+    {
+        "address": "0004bc1d",
+        "length": 10,
+        "value": "PASS %s\r\n"
+    },
+    {
+        "address": "0004bc27",
+        "length": 9,
+        "value": "TYPE I\r\n"
+    },
+    {
+        "address": "0004bc30",
+        "length": 10,
+        "value": "SIZE %s\r\n"
+    },
+    {
+        "address": "0004bc3a",
+        "length": 10,
+        "value": "REST %d\r\n"
+    },
+    {
+        "address": "0004bc44",
+        "length": 7,
+        "value": "PASV\r\n"
+    },
+    {
+        "address": "0004bc4b",
+        "length": 18,
+        "value": "%u,%u,%u,%u,%u,%u"
+    },
+    {
+        "address": "0004bc5d",
+        "length": 10,
+        "value": "RETR %s\r\n"
+    },
+    {
+        "address": "0004bc67",
+        "length": 6,
+        "value": "HTTP/"
+    },
+    {
+        "address": "0004bc6d",
+        "length": 19,
+        "value": "transfer-encoding:"
+    },
+    {
+        "address": "0004bc80",
+        "length": 8,
+        "value": "chunked"
+    },
+    {
+        "address": "0004bd35",
+        "length": 3,
+        "value": "zR"
+    },
+    {
+        "address": ".comment::00000000",
+        "length": 17,
+        "value": "GCC: (GNU) 9.5.0"
+    },
+    {
+        "address": ".shstrtab::00000001",
+        "length": 10,
+        "value": ".shstrtab"
+    },
+    {
+        "address": ".shstrtab::0000000b",
+        "length": 6,
+        "value": ".hash"
+    },
+    {
+        "address": ".shstrtab::00000011",
+        "length": 8,
+        "value": ".dynsym"
+    },
+    {
+        "address": ".shstrtab::00000019",
+        "length": 8,
+        "value": ".dynstr"
+    },
+    {
+        "address": ".shstrtab::00000021",
+        "length": 13,
+        "value": ".gnu.version"
+    },
+    {
+        "address": ".shstrtab::0000002e",
+        "length": 15,
+        "value": ".gnu.version_r"
+    },
+    {
+        "address": ".shstrtab::0000003d",
+        "length": 9,
+        "value": ".rel.dyn"
+    },
+    {
+        "address": ".shstrtab::00000046",
+        "length": 9,
+        "value": ".rel.plt"
+    },
+    {
+        "address": ".shstrtab::0000004f",
+        "length": 6,
+        "value": ".init"
+    },
+    {
+        "address": ".shstrtab::00000055",
+        "length": 9,
+        "value": ".plt.got"
+    },
+    {
+        "address": ".shstrtab::0000005e",
+        "length": 6,
+        "value": ".text"
+    },
+    {
+        "address": ".shstrtab::00000064",
+        "length": 6,
+        "value": ".fini"
+    },
+    {
+        "address": ".shstrtab::0000006a",
+        "length": 8,
+        "value": ".rodata"
+    },
+    {
+        "address": ".shstrtab::00000072",
+        "length": 14,
+        "value": ".eh_frame_hdr"
+    },
+    {
+        "address": ".shstrtab::00000080",
+        "length": 10,
+        "value": ".eh_frame"
+    },
+    {
+        "address": ".shstrtab::0000008a",
+        "length": 12,
+        "value": ".init_array"
+    },
+    {
+        "address": ".shstrtab::00000096",
+        "length": 12,
+        "value": ".fini_array"
+    },
+    {
+        "address": ".shstrtab::000000a2",
+        "length": 13,
+        "value": ".data.rel.ro"
+    },
+    {
+        "address": ".shstrtab::000000af",
+        "length": 9,
+        "value": ".dynamic"
+    },
+    {
+        "address": ".shstrtab::000000b8",
+        "length": 9,
+        "value": ".got.plt"
+    },
+    {
+        "address": ".shstrtab::000000c1",
+        "length": 6,
+        "value": ".data"
+    },
+    {
+        "address": ".shstrtab::000000c7",
+        "length": 5,
+        "value": ".bss"
+    },
+    {
+        "address": ".shstrtab::000000cc",
+        "length": 9,
+        "value": ".comment"
+    }
+]

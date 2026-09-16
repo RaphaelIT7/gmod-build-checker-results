@@ -1,4 +1,5 @@
 // Generated header
+// Estimated minimum size: 0x5E5B1CC8 (1583029448) bytes
 
 class CProtoSniper : public CAI_BaseNPC
 {
@@ -39,6 +40,15 @@ public:
 	virtual void WeaponLOSCondition(Vector *param_1, Vector *param_2, bool param_3) override; // vtable[609]
 	virtual void FCanCheckAttacks() override; // vtable[615]
 	virtual void GetClassScheduleIdSpace() override; // vtable[640]
+	virtual CalcYawSpeed(); // vtable[0]
+	virtual OnCalcBaseMove(AILocalMoveGoal_t *param_1, float param_2, AIMoveResult_t *param_3); // vtable[1]
+	virtual OnObstructionPreSteer(AILocalMoveGoal_t *param_1, float param_2, AIMoveResult_t *param_3); // vtable[2]
+	virtual void OnFailedSteer(AILocalMoveGoal_t *param_1, float param_2, AIMoveResult_t *param_3); // vtable[3]
+	virtual void OnFailedLocalNavigation(AILocalMoveGoal_t *param_1, float param_2, AIMoveResult_t *param_3); // vtable[4]
+	virtual void OnInsufficientStopDist(AILocalMoveGoal_t *param_1, float param_2, AIMoveResult_t *param_3); // vtable[5]
+	virtual void OnMoveBlocked(AIMoveResult_t *param_1); // vtable[6]
+	virtual void OnMoveStalled(AILocalMoveGoal_t *param_1); // vtable[7]
+	virtual void OnMoveExecuteFailed(AILocalMoveGoal_t *param_1, AIMoveTrace_t *param_2, AIMotorMoveResult_t param_3, AIMoveResult_t *param_4); // vtable[8]
 
 	void InputSetDecoyRadius(inputdata_t *param_1); // size[35]
 	void InputEnableSniper(inputdata_t *param_1); // size[61]
@@ -74,6 +84,5 @@ public:
 	void FireBullet(Vector *param_1, bool param_2); // size[237]
 	void InitCustomSchedules(); // size[352]
 	void LoadSchedules(); // size[62]
-	CScheduleLoader(); // size[9]
 	CProtoSniper(); // size[25]
 };

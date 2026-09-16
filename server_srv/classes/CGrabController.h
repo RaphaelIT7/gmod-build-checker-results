@@ -1,9 +1,10 @@
 // Generated header
+// Estimated minimum size: 0x3480 (13440) bytes
 
 class CGrabController : public IMotionEvent
 {
 public:
-	virtual void Simulate(IPhysicsMotionController *param_1, IPhysicsObject *param_2, float param_3, Vector *param_4, Vector *param_5) override; // vtable[0]
+	virtual void Simulate(IPhysicsMotionController *param_1, IPhysicsObject *param_2, float param_3, Vector *param_4, Vector *param_5); // vtable[0]
 
 	CGrabController(); // size[206]
 	void OnRestore(); // size[33]

@@ -1,4 +1,5 @@
 // Generated header
+// Estimated minimum size: 0x410 (1040) bytes
 
 class CReliableBroadcastRecipientFilter : public CBroadcastRecipientFilter
 {

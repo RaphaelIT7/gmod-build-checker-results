@@ -1,4 +1,5 @@
 // Generated header
+// Estimated minimum size: 0x5E5B1CC8 (1583029448) bytes
 
 class CNPC_Houndeye : public CHL1BaseNPC
 {
@@ -32,6 +33,15 @@ public:
 	virtual void InnateRange1MaxRange() override; // vtable[600]
 	virtual void FValidateHintType(CAI_Hint *param_1) override; // vtable[617]
 	virtual void GetClassScheduleIdSpace() override; // vtable[640]
+	virtual CalcYawSpeed(); // vtable[0]
+	virtual OnCalcBaseMove(AILocalMoveGoal_t *param_1, float param_2, AIMoveResult_t *param_3); // vtable[1]
+	virtual OnObstructionPreSteer(AILocalMoveGoal_t *param_1, float param_2, AIMoveResult_t *param_3); // vtable[2]
+	virtual void OnFailedSteer(AILocalMoveGoal_t *param_1, float param_2, AIMoveResult_t *param_3); // vtable[3]
+	virtual void OnFailedLocalNavigation(AILocalMoveGoal_t *param_1, float param_2, AIMoveResult_t *param_3); // vtable[4]
+	virtual void OnInsufficientStopDist(AILocalMoveGoal_t *param_1, float param_2, AIMoveResult_t *param_3); // vtable[5]
+	virtual void OnMoveBlocked(AIMoveResult_t *param_1); // vtable[6]
+	virtual void OnMoveStalled(AILocalMoveGoal_t *param_1); // vtable[7]
+	virtual void OnMoveExecuteFailed(AILocalMoveGoal_t *param_1, AIMoveTrace_t *param_2, AIMotorMoveResult_t param_3, AIMoveResult_t *param_4); // vtable[8]
 
 	void GetBaseMap(); // size[10]
 	void WarmUpSound(); // size[44]
@@ -42,5 +52,4 @@ public:
 	void SquadRecruit(int param_1, int param_2); // size[12]
 	void InitCustomSchedules(); // size[138]
 	void LoadSchedules(); // size[53]
-	CScheduleLoader(); // size[9]
 };

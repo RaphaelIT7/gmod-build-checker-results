@@ -1,14 +1,12 @@
 // Generated header
+// Estimated minimum size: 0x4 (4) bytes
 
 class IGameSystem
 {
 public:
-	virtual void LevelShutdownPreClearSteamAPIContext(); // vtable[6]
-	virtual void __cxa_pure_virtual(); // vtable[12]
-	virtual ~IGameSystem(); // vtable[13]
-	virtual ~IGameSystem(); // vtable[14]
-
 	void Remove(IGameSystem *param_1); // size[170]
+	~IGameSystem(); // size[18]
+	~IGameSystem(); // size[37]
 	void RemoveAll(); // size[25]
 	void MapName(); // size[10]
 	void RunCommandPlayer(); // size[7]
@@ -28,4 +26,5 @@ public:
 	void PreClientUpdateAllSystems(); // size[20]
 	void Add(IGameSystem *param_1); // size[163]
 	void InitAllSystems(); // size[361]
+	void LevelShutdownPreClearSteamAPIContext(); // size[5]
 };

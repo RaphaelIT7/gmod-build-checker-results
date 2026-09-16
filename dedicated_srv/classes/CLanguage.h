@@ -1,4 +1,5 @@
 // Generated header
+// Estimated minimum size: 0x80 (128) bytes
 
 class CLanguage : public IGModLanguage
 {

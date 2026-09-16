@@ -1,4 +1,5 @@
 // Generated header
+// Estimated minimum size: 0x25AC (9644) bytes
 
 class CMultiSource : public CLogicalEntity
 {

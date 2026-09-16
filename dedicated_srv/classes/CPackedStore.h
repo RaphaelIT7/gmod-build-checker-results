@@ -1,4 +1,5 @@
 // Generated header
+// Estimated minimum size: 0x2CD8 (11480) bytes
 
 class CPackedStore
 {

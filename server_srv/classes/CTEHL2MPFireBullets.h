@@ -1,4 +1,5 @@
 // Generated header
+// Estimated minimum size: 0x44 (68) bytes
 
 class CTEHL2MPFireBullets : public CBaseTempEntity
 {

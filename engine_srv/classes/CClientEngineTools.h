@@ -1,4 +1,5 @@
 // Generated header
+// Estimated minimum size: 0x4 (4) bytes
 
 class CClientEngineTools : public IClientEngineTools
 {
@@ -18,5 +19,5 @@ public:
 	virtual void VGui_PreRenderAllTools(int param_1); // vtable[12]
 	virtual void VGui_PostRenderAllTools(int param_1); // vtable[13]
 	virtual void IsThirdPersonCamera(); // vtable[14]
-	virtual void InToolMode() override; // vtable[15]
+	virtual void InToolMode(); // vtable[15]
 };

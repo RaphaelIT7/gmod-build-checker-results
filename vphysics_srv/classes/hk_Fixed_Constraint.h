@@ -1,4 +1,5 @@
 // Generated header
+// Estimated minimum size: 0x98 (152) bytes
 
 class hk_Fixed_Constraint : public hk_Constraint
 {

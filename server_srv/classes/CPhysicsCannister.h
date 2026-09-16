@@ -1,18 +1,11 @@
 // Generated header
+// Estimated minimum size: 0x5E5B1CC8 (1583029448) bytes
 
 class CPhysicsCannister : public CBaseCombatCharacter, public CDefaultPlayerPickupVPhysics
 {
 public:
 	virtual ~CPhysicsCannister() override; // vtable[0]
 	virtual ~CPhysicsCannister() override; // vtable[1]
-	virtual void SetRefEHandle(CBaseHandle *param_1) override; // vtable[2]
-	virtual void GetRefEHandle() override; // vtable[3]
-	virtual void GetCollideable() override; // vtable[4]
-	virtual void GetNetworkable() override; // vtable[5]
-	virtual void GetBaseEntity() override; // vtable[6]
-	virtual void GetModelIndex() override; // vtable[7]
-	virtual void GetModelName() override; // vtable[8]
-	virtual void SetModelIndex(int param_1) override; // vtable[9]
 	virtual void GetDataDescMap() override; // vtable[12]
 	virtual void TestCollision(Ray_t *param_1, uint param_2, CGameTrace *param_3) override; // vtable[14]
 	virtual void Spawn() override; // vtable[23]
@@ -36,9 +29,16 @@ public:
 	virtual void ShouldPuntUseLaunchForces(PhysGunForce_t param_1); // vtable[393]
 	virtual void PhysGunLaunchAngularImpulse(); // vtable[394]
 	virtual void PhysGunLaunchVelocity(Vector *param_1, float param_2); // vtable[395]
+	virtual void OnAttemptPhysGunPickup(CBasePlayer *param_1, PhysGunPickup_t param_2) override; // vtable[0]
+	virtual void OnPhysGunPickup(CBasePlayer *param_1, PhysGunPickup_t param_2) override; // vtable[2]
+	virtual void OnPhysGunDrop(CBasePlayer *param_1, PhysGunDrop_t param_2) override; // vtable[3]
+	virtual void HasPreferredCarryAnglesForPlayer(CBasePlayer *param_1) override; // vtable[4]
+	virtual void PreferredCarryAngles() override; // vtable[5]
+	virtual void PhysGunLaunchAngularImpulse() override; // vtable[7]
+	virtual void ShouldPuntUseLaunchForces(PhysGunForce_t param_1) override; // vtable[8]
+	virtual void _ZThn8240_N17CPhysicsCannister21PhysGunLaunchVelocityERK6Vectorf() override; // vtable[9]
 
 	void InputWake(inputdata_t *param_1); // size[29]
-	void OnPhysGunPickup(CBasePlayer *param_1, PhysGunPickup_t param_2); // size[10]
 	void GetBaseMap(); // size[10]
 	void CalcLocalThrust(Vector *param_1); // size[304]
 	void ShutdownJet(); // size[218]
@@ -51,10 +51,4 @@ public:
 	void CannisterActivate(CBaseEntity *param_1, Vector *param_2); // size[286]
 	void CannisterFire(CBaseEntity *param_1); // size[95]
 	void InputActivate(inputdata_t *param_1); // size[56]
-	void OnPhysGunDrop(CBasePlayer *param_1, PhysGunDrop_t param_2); // size[10]
-	void PreferredCarryAngles(); // size[10]
-	void HasPreferredCarryAnglesForPlayer(CBasePlayer *param_1); // size[10]
-	void OnAttemptPhysGunPickup(CBasePlayer *param_1, PhysGunPickup_t param_2); // size[10]
-	void ShouldPuntUseLaunchForces(PhysGunForce_t param_1); // size[10]
-	void PhysGunLaunchAngularImpulse(); // size[10]
 };
