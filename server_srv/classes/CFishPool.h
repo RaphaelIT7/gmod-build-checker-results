@@ -14,7 +14,7 @@ public:
 	void FireGameEvent(IGameEvent *param_1); // size[13]
 	void GetBaseMap(); // size[10]
 	CFishPool(); // size[34]
-	void Update(); // size[1448]
+	void Update(); // size[1436]
 	~CFishPool(); // size[13]
 	~CFishPool(); // size[13]
 };

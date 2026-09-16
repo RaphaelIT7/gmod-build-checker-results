@@ -59,6 +59,6 @@ public:
 	virtual void RunTaskRangeAttack1(Task_t *param_1) override; // vtable[688]
 
 	void _GLOBAL__sub_I_HandleInteraction(); // size[113]
-	void OnMoveBlocked(AIMoveResult_t *param_1); // size[218]
+	void OnMoveBlocked(AIMoveResult_t *param_1); // size[159]
 	void OnMoveBlocked(AIMoveResult_t *param_1); // size[13]
 };

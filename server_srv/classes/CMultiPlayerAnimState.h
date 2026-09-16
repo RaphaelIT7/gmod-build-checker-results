@@ -56,7 +56,7 @@ public:
 	void SetupPoseParameters(CStudioHdr *param_1); // size[94]
 	void DoMovementTest(CStudioHdr *param_1, float param_2, float param_3); // size[351]
 	void DoMovementTest(CStudioHdr *param_1); // size[142]
-	void GetMovementFlags(CStudioHdr *param_1); // size[212]
+	void GetMovementFlags(CStudioHdr *param_1); // size[226]
 	void ConvergeYawAngles(float param_1, float param_2, float param_3, float *param_4); // size[208]
 	void GetRenderAngles(); // size[11]
 	void GetOuterXYSpeed(); // size[78]
@@ -65,6 +65,6 @@ public:
 	void DebugGestureInfo(); // size[403]
 	void OnNewModel(); // size[48]
 	void ShutdownGestureSlots(); // size[40]
-	void InitGestureSlots(); // size[247]
+	void InitGestureSlots(); // size[239]
 	CMultiPlayerAnimState(CBasePlayer *param_1, MultiPlayerMovementData_t *param_2); // size[373]
 };

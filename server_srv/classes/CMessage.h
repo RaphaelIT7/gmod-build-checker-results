@@ -12,5 +12,5 @@ public:
 
 	void _GLOBAL__sub_I_m_DataMap(); // size[113]
 	void GetBaseMap(); // size[10]
-	void InputShowMessage(inputdata_t *param_1); // size[306]
+	void InputShowMessage(inputdata_t *param_1); // size[314]
 };

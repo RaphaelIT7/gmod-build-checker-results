@@ -11,5 +11,5 @@ public:
 	virtual void Precache() override; // vtable[6]
 
 	_GLOBAL__sub_I_CTEBreakModel(); // size[112]
-	CTEBreakModel(char *param_1); // size[133]
+	CTEBreakModel(char *param_1); // size[25]
 };

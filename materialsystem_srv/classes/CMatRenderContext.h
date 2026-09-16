@@ -197,8 +197,8 @@ public:
 	virtual void GetStandardTextureDimensions(int *param_1, int *param_2, StandardTextureId_t param_3); // vtable[236]
 
 	~CMatRenderContext(); // size[202]
-	void SetFlashlightStateEx(FlashlightState_t *param_1, VMatrix *param_2, ITexture *param_3); // size[527]
-	void Init(CMaterialSystem *param_1); // size[92]
+	void SetFlashlightStateEx(FlashlightState_t *param_1, VMatrix *param_2, ITexture *param_3); // size[502]
+	void Init(CMaterialSystem *param_1); // size[95]
 	void Shutdown(); // size[77]
 	void OnReleaseShaderObjects(); // size[15]
 	void TestMatrixSync(MaterialMatrixMode_t param_1); // size[10]

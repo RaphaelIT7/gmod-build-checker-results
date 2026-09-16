@@ -31,7 +31,7 @@ public:
 	virtual void GetClassScheduleIdSpace() override; // vtable[640]
 
 	void GetBaseMap(); // size[10]
-	void GargantuaCheckTraceHullAttack(float param_1, int param_2, int param_3); // size[256]
+	void GargantuaCheckTraceHullAttack(float param_1, int param_2, int param_3); // size[625]
 	void FlameCreate(); // size[222]
 	void FlameControls(float param_1, float param_2); // size[307]
 	void FlameDamage(Vector param_1, Vector param_2, CBaseEntity *param_3, CBaseEntity *param_4, float param_5, int param_6, int param_7); // size[915]

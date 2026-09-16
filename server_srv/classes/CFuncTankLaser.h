@@ -11,5 +11,5 @@ public:
 	virtual void Fire(int param_1, Vector *param_2, Vector *param_3, CBaseEntity *param_4, bool param_5) override; // vtable[254]
 
 	void GetBaseMap(); // size[10]
-	void GetLaser(); // size[199]
+	void GetLaser(); // size[207]
 };

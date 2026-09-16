@@ -136,5 +136,5 @@ public:
 	virtual void GMOD_IsEdictActuallyFree(int param_1); // vtable[130]
 	virtual void GetLightForPointListenServerOnly(Vector *param_1, bool param_2, Vector *param_3); // vtable[131]
 
-	void Message_CheckMessageLength(); // size[326]
+	void Message_CheckMessageLength(); // size[242]
 };

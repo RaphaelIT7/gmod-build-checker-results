@@ -11,5 +11,5 @@ public:
 	virtual void Precache() override; // vtable[6]
 
 	_GLOBAL__sub_I_CTEPhysicsProp(); // size[112]
-	CTEPhysicsProp(char *param_1); // size[187]
+	CTEPhysicsProp(char *param_1); // size[25]
 };

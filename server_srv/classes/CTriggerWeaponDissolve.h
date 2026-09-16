@@ -16,6 +16,6 @@ public:
 	void GetBaseMap(); // size[10]
 	void CreateBeam(Vector *param_1, CBaseEntity *param_2, float param_3); // size[26]
 	void GetConduitPoint(CBaseEntity *param_1); // size[429]
-	void DissolveThink(); // size[810]
+	void DissolveThink(); // size[882]
 	void AddWeapon(CBaseCombatWeapon *param_1); // size[437]
 };

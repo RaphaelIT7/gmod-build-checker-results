@@ -26,7 +26,7 @@ public:
 	void OnPhysGunPickup(CBasePlayer *param_1, PhysGunPickup_t param_2); // size[10]
 	void OnPhysGunDrop(CBasePlayer *param_1, PhysGunDrop_t param_2); // size[10]
 	void DieThink(); // size[260]
-	void BounceGibTouch(CBaseEntity *param_1); // size[829]
+	void BounceGibTouch(CBaseEntity *param_1); // size[758]
 	void StickyGibTouch(CBaseEntity *param_1); // size[140]
 	void WaitTillLand(); // size[417]
 	void GetBaseMap(); // size[10]

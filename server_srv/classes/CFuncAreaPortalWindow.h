@@ -5,7 +5,7 @@ class CFuncAreaPortalWindow : public CFuncAreaPortalBase
 public:
 	virtual ~CFuncAreaPortalWindow() override; // vtable[0]
 	virtual ~CFuncAreaPortalWindow() override; // vtable[1]
-	virtual void _ZN21CFuncAreaPortalWindow14GetServerClassEv() override; // vtable[10]
+	virtual void GetServerClass() override; // vtable[10]
 	virtual void YouForgotToImplementOrDeclareServerClass() override; // vtable[11]
 	virtual void GetDataDescMap() override; // vtable[12]
 	virtual void Spawn() override; // vtable[23]
@@ -17,4 +17,5 @@ public:
 	void InputSetFadeStartDistance(inputdata_t *param_1); // size[68]
 	void GetBaseMap(); // size[10]
 	CFuncAreaPortalWindow(); // size[112]
+	void IsWindowOpen(Vector *param_1, float param_2); // size[72]
 };

@@ -21,7 +21,7 @@ public:
 	void DoModelMaterialPrecache(DecalListEntry *param_1); // size[5]
 	void Clear(); // size[75]
 	void Shutdown(); // size[7]
-	void LoadDecalsFromScript(char *param_1); // size[260]
+	void LoadDecalsFromScript(char *param_1); // size[588]
 	void Init(); // size[7]
 	void LevelShutdownPostEntity(); // size[7]
 	CDecalEmitterSystem(char *param_1); // size[280]

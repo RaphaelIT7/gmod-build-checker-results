@@ -14,6 +14,5 @@ public:
 	void InputStopCountdown(inputdata_t *param_1); // size[99]
 	void InputEnable(inputdata_t *param_1); // size[167]
 	void InputDisable(inputdata_t *param_1); // size[193]
-	void InputStartCountdown(inputdata_t *param_1); // size[12]
 	void GetBaseMap(); // size[10]
 };

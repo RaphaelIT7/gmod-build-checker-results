@@ -49,7 +49,7 @@ public:
 	void Retire(); // size[239]
 	void SearchThink(); // size[600]
 	void SetLastSightTime(); // size[40]
-	void Deploy(); // size[222]
+	void Deploy(); // size[227]
 	void GetBaseMap(); // size[10]
 	CNPC_SecurityCamera(); // size[18]
 	void SetLastSightTime(); // size[33]

@@ -83,7 +83,7 @@ public:
 	virtual void OnFileReceived(char *param_1, uint param_2); // vtable[138]
 	virtual void IsHolidayActive(int param_1); // vtable[139]
 
-	void IsSpawnPointValid(CBaseEntity *param_1, CBasePlayer *param_2); // size[147]
+	void IsSpawnPointValid(CBaseEntity *param_1, CBasePlayer *param_2); // size[42]
 	CGameRules(); // size[95]
 	void Think(); // size[205]
 };

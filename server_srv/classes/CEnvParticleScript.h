@@ -17,5 +17,5 @@ public:
 	void InputSetSequence(inputdata_t *param_1); // size[70]
 	void GetBaseMap(); // size[10]
 	CEnvParticleScript(); // size[58]
-	void PrecacheAnimationEventMaterials(); // size[365]
+	void PrecacheAnimationEventMaterials(); // size[307]
 };

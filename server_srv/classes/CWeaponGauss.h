@@ -22,7 +22,8 @@ public:
 	void _GLOBAL__sub_I_GetServerClass(); // size[112]
 	void GetBaseMap(); // size[10]
 	CWeaponGauss(); // size[153]
-	void GetFullChargeTime(); // size[47]
+	void GetFullChargeTime(); // size[52]
+	void StopSpinSound(); // size[31]
 	void Fire(Vector param_1, Vector param_2, float param_3); // size[92]
 	void StartFire(); // size[23]
 };

@@ -22,8 +22,8 @@ public:
 	void SetConstraintGroup(IPhysicsConstraintGroup *param_1); // size[5]
 	void GetNumAttachedObjects(); // size[14]
 	void GetTotalMassAttachedObjects(); // size[27]
-	void GetAttachedObject(int param_1); // size[4]
-	void DetachAll(); // size[92]
-	void InputTurnOff(inputdata_t *param_1); // size[19]
+	void GetAttachedObject(int param_1); // size[16]
+	void DetachAll(); // size[1]
+	void InputTurnOff(inputdata_t *param_1); // size[14]
 	void InputToggle(inputdata_t *param_1); // size[37]
 };

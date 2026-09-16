@@ -12,6 +12,6 @@ public:
 	virtual void SetPhysObject(int param_1, IPhysicsObject *param_2) override; // vtable[209]
 
 	void GetBaseMap(); // size[10]
-	void InputEnableCollisions(inputdata_t *param_1); // size[247]
 	void InputDisableCollisions(inputdata_t *param_1); // size[247]
+	void InputEnableCollisions(inputdata_t *param_1); // size[247]
 };

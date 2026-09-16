@@ -32,7 +32,7 @@ public:
 	void Level(float param_1); // size[59]
 	void MyHeight(); // size[60]
 	void MyLevel(); // size[34]
-	void HeardAnything(); // size[26]
+	void HeardAnything(); // size[103]
 	void Cycle(); // size[205]
 	void InitCustomSchedules(); // size[15]
 	void LoadSchedules(); // size[62]

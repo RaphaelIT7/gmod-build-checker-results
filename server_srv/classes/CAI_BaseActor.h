@@ -455,9 +455,9 @@ public:
 
 	void UseSemaphore(); // size[10]
 	void GetBaseMap(); // size[10]
-	void IsServerSideFlexController(char *param_1); // size[35]
+	void IsServerSideFlexController(char *param_1); // size[68]
 	void RandomFaceFlex(CSceneEventInfo *param_1, CChoreoScene *param_2, CChoreoEvent *param_3); // size[621]
-	void UpdateLatchedValues(); // size[327]
+	void UpdateLatchedValues(); // size[482]
 	void ClampWithBias(PoseParameter_t param_1, float param_2, float param_3); // size[9]
 	void AccumulateIdealYaw(float param_1, float param_2); // size[95]
 	void SetAccumulatedYawAndUpdate(); // size[179]

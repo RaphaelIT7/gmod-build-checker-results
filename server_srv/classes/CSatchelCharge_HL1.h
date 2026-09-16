@@ -14,7 +14,7 @@ public:
 	void GetBaseMap(); // size[10]
 	void Deactivate(); // size[54]
 	void UpdateSlideSound(); // size[342]
-	void SatchelTouch(CBaseEntity *param_1); // size[255]
+	void SatchelTouch(CBaseEntity *param_1); // size[181]
 	void SatchelThink(); // size[227]
 	CSatchelCharge_HL1(); // size[82]
 };

@@ -13,7 +13,7 @@ public:
 	void InputEnable(inputdata_t *param_1); // size[20]
 	void TurnOff(); // size[98]
 	void InputDisable(inputdata_t *param_1); // size[23]
-	void Think(); // size[403]
+	void Think(); // size[423]
 	void GetBaseMap(); // size[10]
 	void TurnOn(); // size[23]
 	void TurnOff(); // size[23]

@@ -11,6 +11,6 @@ public:
 	virtual void EnableGoal(CAI_BaseNPC *param_1) override; // vtable[251]
 
 	void InputSetStateReady(inputdata_t *param_1); // size[18]
-	void InputSetStateFinished(inputdata_t *param_1); // size[56]
+	void InputSetStateFinished(inputdata_t *param_1); // size[58]
 	void GetBaseMap(); // size[10]
 };

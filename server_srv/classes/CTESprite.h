@@ -11,5 +11,5 @@ public:
 	virtual void Precache() override; // vtable[6]
 
 	_GLOBAL__sub_I_CTESprite(); // size[112]
-	CTESprite(char *param_1); // size[74]
+	CTESprite(char *param_1); // size[25]
 };

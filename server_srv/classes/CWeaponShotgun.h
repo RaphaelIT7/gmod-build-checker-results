@@ -31,5 +31,5 @@ public:
 	void Pump(); // size[20]
 	void DryFire(); // size[220]
 	CWeaponShotgun(); // size[95]
-	void FireNPCPrimaryAttack(CBaseCombatCharacter *param_1, bool param_2); // size[187]
+	void FireNPCPrimaryAttack(CBaseCombatCharacter *param_1, bool param_2); // size[95]
 };

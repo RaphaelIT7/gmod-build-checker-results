@@ -37,8 +37,8 @@ public:
 	void GetBaseMap(); // size[10]
 	void Eject(QAngle *param_1, float param_2, CBaseEntity *param_3); // size[75]
 	void Panic(float param_1); // size[50]
-	void JumpFlinch(Vector *param_1); // size[146]
-	void InitCustomSchedules(); // size[317]
+	void JumpFlinch(Vector *param_1); // size[403]
+	void InitCustomSchedules(); // size[312]
 	void LoadSchedules(); // size[62]
 	CScheduleLoader(); // size[9]
 };

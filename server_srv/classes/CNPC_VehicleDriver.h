@@ -38,7 +38,7 @@ public:
 	void ClearWaypoints(); // size[120]
 	void RecalculateSpeeds(); // size[134]
 	void WaypointReached(); // size[583]
-	void OverridePathMove(float param_1); // size[3337]
+	void OverridePathMove(float param_1); // size[3831]
 	void CheckForTeleport(); // size[97]
 	void InputSetDriversMaxSpeed(inputdata_t *param_1); // size[40]
 	void InputSetDriversMinSpeed(inputdata_t *param_1); // size[40]

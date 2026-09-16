@@ -10,5 +10,5 @@ public:
 	virtual void Test(Vector *param_1, QAngle *param_2) override; // vtable[4]
 
 	_GLOBAL__sub_I_CTEBeamSpline(); // size[112]
-	CTEBeamSpline(char *param_1); // size[227]
+	CTEBeamSpline(char *param_1); // size[27]
 };

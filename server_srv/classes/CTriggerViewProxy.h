@@ -18,6 +18,6 @@ public:
 	void GetPlayerOffset(); // size[114]
 	void Move(); // size[87]
 	void TranslateViewToProxy(); // size[839]
-	void Enable(); // size[1019]
+	void Enable(); // size[920]
 	void InputEnable(inputdata_t *param_1); // size[315]
 };

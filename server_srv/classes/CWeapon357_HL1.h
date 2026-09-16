@@ -27,6 +27,6 @@ public:
 	virtual void Operator_HandleAnimEvent(animevent_t *param_1, CBaseCombatCharacter *param_2) override; // vtable[406]
 
 	void _GLOBAL__sub_I_GetServerClass(); // size[112]
-	CWeapon357_HL1(); // size[15]
+	CWeapon357_HL1(); // size[81]
 	void ToggleZoom(); // size[20]
 };

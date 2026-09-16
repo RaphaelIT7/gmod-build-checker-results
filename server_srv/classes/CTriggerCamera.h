@@ -25,8 +25,8 @@ public:
 	void InputTeleportToView(inputdata_t *param_1); // size[680]
 	void MoveViewTo(QAngle param_1); // size[332]
 	void ReturnToEyes(); // size[609]
-	void Move(); // size[1143]
-	void Enable(); // size[2590]
+	void Move(); // size[1112]
+	void Enable(); // size[2409]
 	void InputEnable(inputdata_t *param_1); // size[94]
-	void FollowTarget(); // size[915]
+	void FollowTarget(); // size[817]
 };

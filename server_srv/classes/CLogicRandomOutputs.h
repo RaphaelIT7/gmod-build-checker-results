@@ -11,11 +11,12 @@ public:
 	virtual void Think() override; // vtable[48]
 
 	void _GLOBAL__sub_I_m_DataMap(); // size[113]
-	void InputDisable(inputdata_t *param_1); // size[15]
+	void InputEnable(inputdata_t *param_1); // size[15]
+	void InputDisable(inputdata_t *param_1); // size[6]
 	void InputToggle(inputdata_t *param_1); // size[6]
 	void InputEnableRefire(inputdata_t *param_1); // size[30]
-	void InputCancelPending(inputdata_t *param_1); // size[10]
-	void InputTrigger(inputdata_t *param_1); // size[175]
+	void InputCancelPending(inputdata_t *param_1); // size[39]
+	void InputTrigger(inputdata_t *param_1); // size[381]
 	void GetBaseMap(); // size[10]
 	CLogicRandomOutputs(); // size[34]
 };

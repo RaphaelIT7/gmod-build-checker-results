@@ -36,7 +36,7 @@ public:
 	void GetGroundSpeed(); // size[54]
 	void DoProbe(Vector *param_1); // size[1182]
 	void ProbeZ(Vector *param_1, Vector *param_2, float *param_3); // size[577]
-	void MoveExecute_Alive(float param_1); // size[897]
+	void MoveExecute_Alive(float param_1); // size[2530]
 	void AttackSound(); // size[44]
 	void BiteSound(); // size[44]
 	void InitCustomSchedules(); // size[352]

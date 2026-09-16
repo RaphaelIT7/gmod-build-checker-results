@@ -8,8 +8,7 @@ public:
 	virtual void Clear() override; // vtable[2]
 	virtual void EnsureCapacity(ulonglong param_1) override; // vtable[3]
 
-	~AutoBuffer(); // size[67]
-	void EnsureCapacity(ulonglong param_1); // size[227]
-	AutoBuffer(ulonglong param_1); // size[123]
-	AutoBuffer(ulonglong param_1); // size[123]
+	~AutoBuffer(); // size[16]
+	AutoBuffer(ulonglong param_1); // size[26]
+	AutoBuffer(ulonglong param_1); // size[26]
 };

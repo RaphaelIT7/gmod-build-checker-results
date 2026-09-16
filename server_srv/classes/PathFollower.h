@@ -15,12 +15,12 @@ public:
 	virtual void IsDiscontinuityAhead(INextBot *param_1, SegmentType param_2, float param_3); // vtable[34]
 
 	PathFollower(); // size[262]
-	void AdjustSpeed(INextBot *param_1); // size[226]
-	void IsAtGoal(INextBot *param_1); // size[631]
+	void AdjustSpeed(INextBot *param_1); // size[299]
+	void IsAtGoal(INextBot *param_1); // size[536]
 	void LadderUpdate(INextBot *param_1); // size[2196]
 	void CheckProgress(INextBot *param_1); // size[724]
 	void FindBlocker(INextBot *param_1); // size[247]
-	void Avoid(INextBot *param_1, Vector *param_2, Vector *param_3, Vector *param_4); // size[317]
-	void Climbing(INextBot *param_1, Segment *param_2, Vector *param_3, Vector *param_4, float param_5); // size[8366]
+	void Avoid(INextBot *param_1, Vector *param_2, Vector *param_3, Vector *param_4); // size[284]
+	void Climbing(INextBot *param_1, Segment *param_2, Vector *param_3, Vector *param_4, float param_5); // size[8304]
 	void JumpOverGaps(INextBot *param_1, Segment *param_2, Vector *param_3, Vector *param_4, float param_5); // size[312]
 };

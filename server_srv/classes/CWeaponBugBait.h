@@ -31,6 +31,6 @@ public:
 	void BugbaitStickyTouch(CBaseEntity *param_1); // size[56]
 	void GetBaseMap(); // size[10]
 	CWeaponBugBait(); // size[54]
-	void ThrowGrenade(CBasePlayer *param_1); // size[193]
+	void ThrowGrenade(CBasePlayer *param_1); // size[1148]
 	void SetSporeEmitterState(bool param_1); // size[17]
 };

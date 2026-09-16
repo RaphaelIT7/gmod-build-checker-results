@@ -17,7 +17,7 @@ public:
 	virtual void OnParentPhysGunDrop(CBasePlayer *param_1, PhysGunDrop_t param_2); // vtable[328]
 
 	void OnParentPhysGunDrop(CBasePlayer *param_1, PhysGunDrop_t param_2); // size[10]
-	void BubbleThink(); // size[265]
+	void BubbleThink(); // size[13]
 	void DangerSoundThink(); // size[50]
 	void DopplerThink(); // size[227]
 	void SeekThink(); // size[580]
@@ -29,7 +29,7 @@ public:
 	void SetupGlobalModelData(); // size[66]
 	void StickTo(CBaseEntity *param_1, CGameTrace *param_2); // size[55]
 	void FlechetteTouch(CBaseEntity *param_1); // size[925]
-	void Shoot(Vector *param_1, bool param_2); // size[156]
+	void Shoot(Vector *param_1, bool param_2); // size[110]
 	void Explode(); // size[37]
 	void OnParentCollisionInteraction(parentCollisionInteraction_t param_1, int param_2, gamevcollisionevent_t *param_3); // size[10]
 	void ExplodeThink(); // size[9]

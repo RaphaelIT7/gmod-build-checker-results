@@ -40,6 +40,6 @@ public:
 	void NPC_ShouldDropHealth(CBasePlayer *param_1); // size[123]
 	void NPC_DroppedHealth(); // size[85]
 	void NPC_DroppedGrenade(); // size[85]
-	void NPC_ShouldDropGrenade(CBasePlayer *param_1); // size[187]
+	void NPC_ShouldDropGrenade(CBasePlayer *param_1); // size[87]
 	CGMODRules(); // size[132]
 };

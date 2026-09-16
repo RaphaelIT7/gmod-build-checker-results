@@ -9,5 +9,5 @@ public:
 	virtual ~CTEFootprintDecal() override; // vtable[3]
 
 	void _GLOBAL__sub_I_GetServerClass(); // size[112]
-	CTEFootprintDecal(char *param_1); // size[84]
+	CTEFootprintDecal(char *param_1); // size[25]
 };

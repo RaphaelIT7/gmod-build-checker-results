@@ -26,7 +26,7 @@ public:
 	void SetHasBrakePedal(bool param_1); // size[14]
 	void GMOD_UpdateSomeShit(); // size[60]
 	void Teleport(matrix3x4_t *param_1); // size[188]
-	void DrawDebugGeometryOverlays(); // size[1902]
+	void DrawDebugGeometryOverlays(); // size[2240]
 	void DrawDebugTextOverlays(int param_1); // size[160]
 	void PlaceWheelDust(int param_1, bool param_2); // size[5]
 	void VPhysicsUpdate(IPhysicsObject *param_1); // size[58]

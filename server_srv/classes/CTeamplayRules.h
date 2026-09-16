@@ -17,7 +17,7 @@ public:
 	virtual void ClientSettingsChanged(CBasePlayer *param_1) override; // vtable[79]
 	virtual void IPointsForKill(CBasePlayer *param_1, CBasePlayer *param_2) override; // vtable[80]
 	virtual void PlayerKilled(CBasePlayer *param_1, CTakeDamageInfo *param_2) override; // vtable[81]
-	virtual void DeathNotice(CBasePlayer *param_1, CTakeDamageInfo *param_2) override; // vtable[82]
+	virtual void _ZN14CTeamplayRules11DeathNoticeEP11CBasePlayerRK15CTakeDamageInfo() override; // vtable[82]
 	virtual void GetTeamID(CBaseEntity *param_1) override; // vtable[107]
 	virtual void PlayerRelationship(CBaseEntity *param_1, CBaseEntity *param_2) override; // vtable[108]
 	virtual void PlayerCanHearChat(CBasePlayer *param_1, CBasePlayer *param_2) override; // vtable[109]
@@ -44,6 +44,6 @@ public:
 	virtual void PointsMayAlwaysBeBlocked(); // vtable[164]
 
 	void TeamWithFewestPlayers(); // size[191]
-	void RecountTeams(); // size[34]
-	CTeamplayRules(); // size[103]
+	void RecountTeams(); // size[42]
+	CTeamplayRules(); // size[26]
 };

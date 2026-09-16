@@ -10,5 +10,5 @@ public:
 	void GetBaseMap(); // size[10]
 	CNPCSpawnDestination(); // size[26]
 	void IsAvailable(); // size[32]
-	void OnSpawnedNPC(CAI_BaseNPC *param_1); // size[59]
+	void OnSpawnedNPC(CAI_BaseNPC *param_1); // size[102]
 };

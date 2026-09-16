@@ -16,7 +16,7 @@ public:
 	void InputEnable(inputdata_t *param_1); // size[9]
 	void TurnOff(); // size[59]
 	void InputDisable(inputdata_t *param_1); // size[9]
-	void NextScriptedTarget(); // size[287]
-	void FindEntity(); // size[233]
+	void NextScriptedTarget(); // size[722]
+	void FindEntity(); // size[171]
 	void ScriptThink(); // size[133]
 };

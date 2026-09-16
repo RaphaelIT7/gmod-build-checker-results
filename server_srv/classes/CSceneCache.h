@@ -8,9 +8,9 @@ public:
 	virtual void Rebuild(char *param_1) override; // vtable[2]
 
 	_GLOBAL__sub_I_CSceneCache(); // size[113]
-	CSceneCache(); // size[56]
+	CSceneCache(); // size[26]
 	void GetSoundCount(); // size[11]
-	void GetSoundName(int param_1); // size[28]
+	void GetSoundName(int param_1); // size[17]
 	void PrecacheSceneEvent(CChoreoEvent *param_1, CUtlVector *param_2); // size[90]
-	CSceneCache(CSceneCache *param_1); // size[179]
+	CSceneCache(CSceneCache *param_1); // size[164]
 };

@@ -50,8 +50,8 @@ public:
 
 	void SetDebrisThink(); // size[5]
 	void InputEnableMotion(inputdata_t *param_1); // size[87]
-	void InputDisableMotion(inputdata_t *param_1); // size[70]
-	void InputTurnOff(inputdata_t *param_1); // size[3]
+	void InputDisableMotion(inputdata_t *param_1); // size[76]
+	void InputTurnOff(inputdata_t *param_1); // size[16]
 	void InputStartRadgollBoogie(inputdata_t *param_1); // size[93]
 	void ClearFlagsThink(); // size[102]
 	void InputTurnOn(inputdata_t *param_1); // size[53]
@@ -66,7 +66,7 @@ public:
 	void PhysGunLaunchAngularImpulse(); // size[13]
 	void OnPhysGunPickup(CBasePlayer *param_1, PhysGunPickup_t param_2); // size[13]
 	void OnPhysGunDrop(CBasePlayer *param_1, PhysGunDrop_t param_2); // size[13]
-	void HandleFirstCollisionInteractions(int param_1, gamevcollisionevent_t *param_2); // size[935]
+	void HandleFirstCollisionInteractions(int param_1, gamevcollisionevent_t *param_2); // size[1152]
 	void SetOverlaySequence(Activity param_1); // size[95]
 	void RecheckCollisionFilter(); // size[68]
 	void UpdateNetworkDataFromVPhysics(IPhysicsObject *param_1, int param_2); // size[170]
@@ -83,4 +83,5 @@ public:
 	void ClearBoneControllers(); // size[95]
 	void GetAngleOverrideFromCurrentState(char *param_1, int param_2); // size[261]
 	void InitRagdoll(Vector *param_1, int param_2, Vector *param_3, matrix3x4_t *param_4, matrix3x4_t *param_5, float param_6, int param_7, bool param_8, bool param_9); // size[196]
+	void Teleport(Vector *param_1, QAngle *param_2, Vector *param_3); // size[789]
 };

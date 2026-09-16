@@ -11,5 +11,5 @@ public:
 	virtual void Precache() override; // vtable[6]
 
 	_GLOBAL__sub_I_CTEFizz(); // size[112]
-	CTEFizz(char *param_1); // size[65]
+	CTEFizz(char *param_1); // size[25]
 };

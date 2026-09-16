@@ -164,7 +164,7 @@ public:
 	virtual void ShouldDropOnDie(); // vtable[417]
 	virtual void ShouldDrawViewModel(); // vtable[418]
 	virtual void GetLastShootTime(); // vtable[419]
-	virtual void UpdateLastShootTime(float param_1); // vtable[420]
+	virtual void UpdateLastShootTime(double param_1); // vtable[420]
 	virtual void GetFOV(float param_1); // vtable[421]
 	virtual void ForcePlayerPickup(CBasePlayer *param_1); // vtable[422]
 	virtual void OnRangeAttack1(); // vtable[423]
@@ -174,7 +174,7 @@ public:
 	virtual void GetHolsterActivity(); // vtable[427]
 
 	_GLOBAL__sub_I_CBaseCombatWeapon(); // size[112]
-	CBaseCombatWeapon(); // size[391]
+	CBaseCombatWeapon(); // size[389]
 	void GiveDefaultAmmo(); // size[150]
 	void GetWpnData(); // size[22]
 	void IsMeleeWeapon(); // size[33]

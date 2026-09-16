@@ -32,7 +32,7 @@ public:
 	virtual void SetMoveType(CBaseEntity *param_1, int param_2, int param_3); // vtable[26]
 	virtual void ResetSequence(CBaseAnimating *param_1, int param_2); // vtable[27]
 	virtual void ResetSequenceInfo(CBaseAnimating *param_1); // vtable[28]
-	virtual void _ZN12CServerTools16ClearMultiDamageEv(); // vtable[29]
+	virtual void ClearMultiDamage(); // vtable[29]
 	virtual void ApplyMultiDamage(); // vtable[30]
 	virtual void AddMultiDamage(CTakeDamageInfo *param_1, CBaseEntity *param_2); // vtable[31]
 	virtual void _ZN12CServerTools12RadiusDamageERK15CTakeDamageInfoRK6VectorfiP11CBaseEntity(); // vtable[32]

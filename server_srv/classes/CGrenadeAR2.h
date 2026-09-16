@@ -12,7 +12,7 @@ public:
 	virtual void Detonate() override; // vtable[283]
 
 	void GrenadeAR2Touch(CBaseEntity *param_1); // size[171]
-	void GrenadeAR2Think(); // size[518]
+	void GrenadeAR2Think(); // size[505]
 	void GetBaseMap(); // size[10]
 	CGrenadeAR2(); // size[50]
 };

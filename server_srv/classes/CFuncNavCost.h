@@ -15,7 +15,7 @@ public:
 	void InputDisable(inputdata_t *param_1); // size[66]
 	void InputToggle(inputdata_t *param_1); // size[66]
 	void GetBaseMap(); // size[10]
-	void HasTag(char *param_1); // size[147]
+	void HasTag(char *param_1); // size[151]
 	void IsApplicableTo(CBaseCombatCharacter *param_1); // size[38]
 	void UpdateAllNavCostDecoration(); // size[1824]
 	void CostThink(); // size[125]

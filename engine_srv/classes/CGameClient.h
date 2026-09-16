@@ -71,7 +71,7 @@ public:
 	void IsEngineClientCommand(CCommand *param_1); // size[94]
 	void GetSendFrame(); // size[268]
 	void GetPrevPackInfo(); // size[13]
-	void FillSoundsMessage(SVC_Sounds *param_1); // size[4987]
+	void FillSoundsMessage(SVC_Sounds *param_1); // size[2344]
 	void WriteGameSounds(bf_write *param_1); // size[240]
 	~CGameClient(); // size[10]
 	~CGameClient(); // size[10]
@@ -91,5 +91,5 @@ public:
 	void Reconnect(); // size[7]
 	void Disconnect(char *param_1); // size[10]
 	void SendNetMsg(INetMessage *param_1, bool param_2); // size[7]
-	void ExecuteStringCommand(char *param_1); // size[10]
+	void ExecuteStringCommand(char *param_1); // size[1]
 };

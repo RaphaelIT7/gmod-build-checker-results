@@ -10,8 +10,8 @@ public:
 
 	void _GLOBAL__sub_I_m_DataMap(); // size[113]
 	void GetBaseMap(); // size[10]
-	void FindByDistance(); // size[205]
-	void FindByRandom(); // size[438]
+	void FindByDistance(); // size[917]
+	void FindByRandom(); // size[435]
 	void FindEntity(); // size[160]
-	void InputFindEntity(inputdata_t *param_1); // size[102]
+	void InputFindEntity(inputdata_t *param_1); // size[108]
 };

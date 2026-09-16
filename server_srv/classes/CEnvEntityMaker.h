@@ -12,10 +12,10 @@ public:
 	void _GLOBAL__sub_I_m_DataMap(); // size[113]
 	void GetBaseMap(); // size[10]
 	void FindTemplate(); // size[167]
-	void HasRoomToSpawn(); // size[421]
+	void HasRoomToSpawn(); // size[390]
 	void IsPlayerLooking(); // size[323]
-	void SpawnEntity(Vector param_1, QAngle param_2); // size[1123]
+	void SpawnEntity(Vector param_1, QAngle param_2); // size[2284]
 	void CheckSpawnThink(); // size[213]
-	void InputForceSpawn(inputdata_t *param_1); // size[175]
+	void InputForceSpawn(inputdata_t *param_1); // size[181]
 	void InputForceSpawnAtEntityOrigin(inputdata_t *param_1); // size[198]
 };

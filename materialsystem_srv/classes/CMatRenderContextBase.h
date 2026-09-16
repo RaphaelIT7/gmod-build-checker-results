@@ -80,9 +80,8 @@ public:
 	virtual void CommitRenderTargetAndViewport(); // vtable[233]
 	virtual void OnRenderDataUnreferenced(); // vtable[234]
 
-	void BindLocalCubemap(ITexture *param_1); // size[32]
 	void RecomputeViewState(); // size[279]
-	void Init(); // size[132]
+	void Init(); // size[81]
 	void Shutdown(); // size[42]
 	void CompactMemory(); // size[79]
 	void RenderDataSizeUsed(); // size[27]

@@ -15,7 +15,7 @@ public:
 	void ResetMoveCalculations(); // size[83]
 	void AddObstacle(Vector *param_1, float param_2, AI_MoveSuggType_t param_3); // size[58]
 	void HaveObstacles(); // size[22]
-	void MoveCalcDirect(AILocalMoveGoal_t *param_1, bool param_2, float *param_3, AIMoveResult_t *param_4); // size[2907]
+	void MoveCalcDirect(AILocalMoveGoal_t *param_1, bool param_2, float *param_3, AIMoveResult_t *param_4); // size[3170]
 	void MoveCalcSteer(AILocalMoveGoal_t *param_1, float param_2, AIMoveResult_t *param_3); // size[380]
 	void MoveCalcStop(AILocalMoveGoal_t *param_1, float param_2, AIMoveResult_t *param_3); // size[88]
 	void MoveCalcRaw(AILocalMoveGoal_t *param_1, bool param_2); // size[501]

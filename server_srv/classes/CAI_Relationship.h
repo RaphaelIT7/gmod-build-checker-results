@@ -16,7 +16,7 @@ public:
 
 	void _GLOBAL__sub_I_m_DataMap(); // size[113]
 	void OnEntityDeleted(CBaseEntity *param_1); // size[10]
-	void DiscloseNPCLocation(CBaseCombatCharacter *param_1, CBaseCombatCharacter *param_2); // size[84]
+	void DiscloseNPCLocation(CBaseCombatCharacter *param_1, CBaseCombatCharacter *param_2); // size[18]
 	void GetBaseMap(); // size[10]
 	void SetActive(bool param_1); // size[127]
 	void IsASubject(CBaseEntity *param_1); // size[102]

@@ -24,8 +24,8 @@ public:
 	virtual void IsLightDamage(CTakeDamageInfo *param_1) override; // vtable[632]
 
 	void BullseyeThink(); // size[54]
-	void InputTargeted(inputdata_t *param_1); // size[46]
-	void InputReleased(inputdata_t *param_1); // size[46]
+	void InputTargeted(inputdata_t *param_1); // size[48]
+	void InputReleased(inputdata_t *param_1); // size[48]
 	void GetBaseMap(); // size[10]
 	void SetPainPartner(CBaseEntity *param_1); // size[49]
 	CNPC_Bullseye(); // size[20]

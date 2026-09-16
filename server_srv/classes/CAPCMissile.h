@@ -17,7 +17,7 @@ public:
 	void GetBaseMap(); // size[10]
 	void Create(Vector *param_1, QAngle *param_2, Vector *param_3, CBaseEntity *param_4); // size[86]
 	CAPCMissile(); // size[87]
-	void Init(); // size[34]
+	void Init(); // size[18]
 	void AimAtSpecificTarget(CBaseEntity *param_1); // size[49]
 	void IgniteDelay(); // size[93]
 	void AugerDelay(float param_1); // size[81]

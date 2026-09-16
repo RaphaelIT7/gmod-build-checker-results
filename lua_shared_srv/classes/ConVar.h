@@ -20,7 +20,7 @@ public:
 	virtual void InternalSetIntValue(int param_1); // vtable[16]
 	virtual void ClampValue(float *param_1); // vtable[17]
 	virtual void ChangeStringValue(char *param_1, float param_2); // vtable[18]
-	virtual void Create(char *param_1, char *param_2, int param_3, char *param_4, bool param_5, float param_6, bool param_7, float param_8, _func_void_IConVar_ptr_char_ptr_float *param_9); // vtable[19]
+	virtual void _ZN6ConVar6CreateEPKcS1_iS1_bfbfPFvP7IConVarS1_fE(); // vtable[19]
 	virtual void SetServerValue(char *param_1); // vtable[20]
 	virtual void GetFlags(); // vtable[21]
 

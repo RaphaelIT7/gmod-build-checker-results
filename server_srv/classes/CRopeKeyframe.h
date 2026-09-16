@@ -53,6 +53,6 @@ public:
 	void EnableCollision(); // size[69]
 	void EnableWind(bool param_1); // size[78]
 	void SetMaterial(char *param_1); // size[30]
-	void Create(CBaseEntity *param_1, CBaseEntity *param_2, int param_3, int param_4, int param_5, char *param_6, int param_7); // size[146]
+	void Create(CBaseEntity *param_1, CBaseEntity *param_2, int param_3, int param_4, int param_5, char *param_6, int param_7); // size[138]
 	void CreateWithSecondPointDetached(CBaseEntity *param_1, int param_2, int param_3, int param_4, char *param_5, int param_6, bool param_7); // size[146]
 };

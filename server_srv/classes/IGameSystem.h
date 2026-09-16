@@ -8,7 +8,7 @@ public:
 	virtual ~IGameSystem(); // vtable[13]
 	virtual ~IGameSystem(); // vtable[14]
 
-	void Remove(IGameSystem *param_1); // size[170]
+	void Remove(IGameSystem *param_1); // size[150]
 	void RemoveAll(); // size[25]
 	void MapName(); // size[10]
 	void RunCommandPlayer(); // size[7]
@@ -26,6 +26,6 @@ public:
 	void FrameUpdatePreEntityThinkAllSystems(); // size[20]
 	void FrameUpdatePostEntityThinkAllSystems(); // size[32]
 	void PreClientUpdateAllSystems(); // size[20]
-	void Add(IGameSystem *param_1); // size[163]
+	void Add(IGameSystem *param_1); // size[158]
 	void InitAllSystems(); // size[361]
 };

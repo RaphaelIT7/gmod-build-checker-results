@@ -74,7 +74,7 @@ public:
 	void NPC_RemovePassenger(CAI_BaseNPC *param_1); // size[10]
 	void CanEnterVehicle(CBaseEntity *param_1); // size[10]
 	void InputTurnOn(inputdata_t *param_1); // size[51]
-	void InputLock(inputdata_t *param_1); // size[86]
+	void InputLock(inputdata_t *param_1); // size[37]
 	void InputUnlock(inputdata_t *param_1); // size[99]
 	void GetBaseMap(); // size[10]
 	void DestroyServerVehicle(); // size[47]

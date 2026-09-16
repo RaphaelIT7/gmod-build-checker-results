@@ -18,7 +18,7 @@ public:
 	void Off(); // size[212]
 	void GetBaseMap(); // size[10]
 	void MaxJuice(); // size[89]
-	void UpdateJuice(int param_1); // size[195]
+	void UpdateJuice(int param_1); // size[212]
 	void Recharge(); // size[135]
 	void InputRecharge(inputdata_t *param_1); // size[9]
 };

@@ -13,8 +13,8 @@ public:
 	virtual void NotifySystemEvent(CBaseEntity *param_1, notify_system_event_t param_2, notify_system_event_params_t *param_3) override; // vtable[112]
 	virtual void SetPhysObject(int param_1, IPhysicsObject *param_2) override; // vtable[209]
 
-	void InputSetSpringConstant(inputdata_t *param_1); // size[85]
-	void InputSetSpringDamping(inputdata_t *param_1); // size[87]
+	void InputSetSpringConstant(inputdata_t *param_1); // size[87]
+	void InputSetSpringDamping(inputdata_t *param_1); // size[12]
 	void InputSetSpringLength(inputdata_t *param_1); // size[87]
 	void GetBaseMap(); // size[10]
 	CPhysicsSpring(); // size[26]

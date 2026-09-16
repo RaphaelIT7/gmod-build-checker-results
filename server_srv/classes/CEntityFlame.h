@@ -12,7 +12,7 @@ public:
 	virtual void UpdateOnRemove() override; // vtable[108]
 
 	void _GLOBAL__sub_I_m_DataMap(); // size[112]
-	void FlameThink(); // size[1440]
+	void FlameThink(); // size[219]
 	void GetBaseMap(); // size[10]
 	CEntityFlame(); // size[28]
 	void AttachToEntity(CBaseEntity *param_1); // size[217]

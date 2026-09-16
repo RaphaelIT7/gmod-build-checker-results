@@ -12,8 +12,8 @@ public:
 	void _GLOBAL__sub_I_m_DataMap(); // size[113]
 	void InputDisable(inputdata_t *param_1); // size[15]
 	void InputEnable(inputdata_t *param_1); // size[15]
-	void UpdateMaterialThink(); // size[69]
+	void UpdateMaterialThink(); // size[73]
 	void GetBaseMap(); // size[10]
-	void PlayerSurfaceChanged(CBasePlayer *param_1, char param_2); // size[224]
+	void PlayerSurfaceChanged(CBasePlayer *param_1, char param_2); // size[231]
 	void SetPlayerSurface(CBasePlayer *param_1, char param_2); // size[111]
 };

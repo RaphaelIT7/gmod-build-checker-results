@@ -15,7 +15,7 @@ public:
 	void GetRadius(); // size[27]
 	void GetTarget(); // size[248]
 	void ShouldKnockOutTarget(Vector *param_1, bool param_2); // size[59]
-	void KnockOutTarget(CBaseEntity *param_1); // size[41]
+	void KnockOutTarget(CBaseEntity *param_1); // size[43]
 	void ShouldRemainAtPost(); // size[20]
-	void FireWarningLevelOutput(int param_1); // size[95]
+	void FireWarningLevelOutput(int param_1); // size[103]
 };

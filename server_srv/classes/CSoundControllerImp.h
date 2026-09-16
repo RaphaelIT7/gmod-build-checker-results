@@ -38,7 +38,7 @@ public:
 	virtual ~CSoundControllerImp(); // vtable[32]
 	virtual ~CSoundControllerImp(); // vtable[33]
 
-	void RemoveFromList(CSoundPatch *param_1); // size[145]
+	void RemoveFromList(CSoundPatch *param_1); // size[142]
 	void SaveSoundPatch(CSoundPatch *param_1, ISave *param_2); // size[335]
 	void ProcessCommand(SoundCommand_t *param_1); // size[266]
 	void OnRestore(); // size[7]

@@ -21,5 +21,5 @@ public:
 	void StartBuildingTemplates(); // size[305]
 	void AddTemplate(CBaseEntity *param_1, char *param_2, int param_3); // size[408]
 	void CreateInstance(Vector *param_1, QAngle *param_2, CUtlVector *param_3); // size[648]
-	void InputForceSpawn(inputdata_t *param_1); // size[177]
+	void InputForceSpawn(inputdata_t *param_1); // size[214]
 };

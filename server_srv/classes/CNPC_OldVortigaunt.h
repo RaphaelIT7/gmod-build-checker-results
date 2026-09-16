@@ -31,13 +31,13 @@ public:
 	virtual void GetClassScheduleIdSpace() override; // vtable[640]
 
 	void GetBaseMap(); // size[10]
-	void CallForHelp(char *param_1, float param_2, CBaseEntity *param_3, Vector *param_4); // size[130]
-	void ArmBeam(int param_1); // size[301]
+	void CallForHelp(char *param_1, float param_2, CBaseEntity *param_3, Vector *param_4); // size[163]
+	void ArmBeam(int param_1); // size[1258]
 	void BeamGlow(); // size[189]
-	void WackBeam(int param_1, CBaseEntity *param_2); // size[912]
-	void ZapBeam(int param_1); // size[184]
+	void WackBeam(int param_1, CBaseEntity *param_2); // size[337]
+	void ZapBeam(int param_1); // size[216]
 	void ClearBeams(); // size[143]
-	void InitCustomSchedules(); // size[312]
+	void InitCustomSchedules(); // size[347]
 	void LoadSchedules(); // size[62]
 	CScheduleLoader(); // size[9]
 };

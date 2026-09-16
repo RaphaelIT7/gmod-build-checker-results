@@ -22,7 +22,7 @@ public:
 	void InputLOSCheckOff(inputdata_t *param_1); // size[56]
 	void LauncherTurnOn(); // size[67]
 	void InputTurnOn(inputdata_t *param_1); // size[9]
-	void LaunchGrenade(CBaseEntity *param_1); // size[524]
-	void LauncherThink(); // size[261]
+	void LaunchGrenade(CBaseEntity *param_1); // size[919]
+	void LauncherThink(); // size[395]
 	void InputFireOnce(inputdata_t *param_1); // size[55]
 };

@@ -9,6 +9,6 @@ public:
 	virtual void Spawn() override; // vtable[23]
 
 	void GetBaseMap(); // size[10]
-	void ActivateMultiTrigger(CBaseEntity *param_1); // size[189]
+	void ActivateMultiTrigger(CBaseEntity *param_1); // size[269]
 	void MultiTouch(CBaseEntity *param_1); // size[57]
 };

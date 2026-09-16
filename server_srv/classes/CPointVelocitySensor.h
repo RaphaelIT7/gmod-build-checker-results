@@ -11,7 +11,7 @@ public:
 	virtual void Think() override; // vtable[48]
 
 	void InputDisable(inputdata_t *param_1); // size[15]
-	void InputEnable(inputdata_t *param_1); // size[96]
+	void InputEnable(inputdata_t *param_1); // size[116]
 	void GetBaseMap(); // size[10]
 	void SampleVelocity(); // size[435]
 };

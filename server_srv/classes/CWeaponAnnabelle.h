@@ -5,7 +5,7 @@ class CWeaponAnnabelle : public CBaseHLCombatWeapon
 public:
 	virtual ~CWeaponAnnabelle() override; // vtable[0]
 	virtual ~CWeaponAnnabelle() override; // vtable[1]
-	virtual void _ZN16CWeaponAnnabelle14GetServerClassEv() override; // vtable[10]
+	virtual void GetServerClass() override; // vtable[10]
 	virtual void YouForgotToImplementOrDeclareServerClass() override; // vtable[11]
 	virtual void GetDataDescMap() override; // vtable[12]
 	virtual void Precache() override; // vtable[24]
@@ -28,7 +28,7 @@ public:
 	void GetBaseMap(); // size[10]
 	void StartReload(); // size[20]
 	void FillClip(); // size[20]
-	void Pump(); // size[20]
+	void Pump(); // size[15]
 	void DryFire(); // size[220]
 	CWeaponAnnabelle(); // size[97]
 };

@@ -15,6 +15,6 @@ public:
 	virtual SelectDeadSchedule() override; // vtable[441]
 
 	_GLOBAL__sub_I_NoFriendlyFire(); // size[113]
-	NoFriendlyFire(); // size[466]
+	NoFriendlyFire(); // size[1444]
 	EjectShell(Vector *param_1, Vector *param_2, float param_3, int param_4); // size[285]
 };

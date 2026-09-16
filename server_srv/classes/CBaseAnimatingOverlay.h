@@ -37,7 +37,7 @@ public:
 	void GetLayerActivity(int param_1); // size[50]
 	void GetLayerSequence(int param_1); // size[50]
 	void RemoveLayer(int param_1, float param_2, float param_3); // size[107]
-	void RemoveGesture(Activity param_1); // size[4]
+	void RemoveGesture(Activity param_1); // size[64]
 	void RemoveAllGestures(); // size[78]
 	void FastRemoveLayer(int param_1); // size[169]
 	void GetAnimOverlay(int param_1); // size[89]

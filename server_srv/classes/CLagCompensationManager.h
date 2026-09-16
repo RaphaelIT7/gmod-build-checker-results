@@ -20,7 +20,7 @@ public:
 	void IsInLagCompensation(CBasePlayer *param_1); // size[7]
 	void RestoreEntityFromRecords(CBaseEntity *param_1, LagRecord *param_2, LagRecord *param_3, bool param_4); // size[1421]
 	void IsAdditionalEntity(CBaseEntity *param_1); // size[7]
-	void BacktrackEntity(CBaseEntity *param_1, float param_2, CUtlFixedLinkedList *param_3, LagRecord *param_4, LagRecord *param_5, bool param_6); // size[4462]
+	void BacktrackEntity(CBaseEntity *param_1, float param_2, CUtlFixedLinkedList *param_3, LagRecord *param_4, LagRecord *param_5, bool param_6); // size[4576]
 	void RecordDataIntoTrack(CBaseEntity *param_1, CUtlFixedLinkedList *param_2, bool param_3); // size[1597]
 	void FinishLagCompensation(CBasePlayer *param_1); // size[10]
 	void StartLagCompensation(CBasePlayer *param_1, LagCompensationType param_2, Vector *param_3, QAngle *param_4, float param_5); // size[10]

@@ -47,5 +47,5 @@ public:
 	void UpdateBattleLines(); // size[1099]
 	void SetStandoffGoalPosition(Vector *param_1); // size[126]
 	void ClearStandoffGoalPosition(); // size[181]
-	void IsBehindBattleLines(Vector *param_1); // size[734]
+	void IsBehindBattleLines(Vector *param_1); // size[757]
 };
