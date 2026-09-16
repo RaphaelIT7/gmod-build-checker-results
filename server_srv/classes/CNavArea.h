@@ -99,7 +99,7 @@ public:
 	void UpdateOnOpenList(); // size[103]
 	void RemoveFromOpenList(); // size[69]
 	void ClearSearchLists(); // size[47]
-	void SetCorner(NavCornerType param_1, Vector *param_2); // size[425]
+	void SetCorner(NavCornerType param_1, Vector *param_2); // size[510]
 	void IsHidingSpotCollision(Vector *param_1); // size[123]
 	void AddHidingSpot(HidingSpot *param_1); // size[140]
 	void RemoveHidingSpot(HidingSpot *param_1); // size[135]

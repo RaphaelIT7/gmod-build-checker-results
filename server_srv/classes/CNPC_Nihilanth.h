@@ -21,7 +21,7 @@ public:
 	void InputTurnBabyOff(inputdata_t *param_1); // size[139]
 	void GetBaseMap(); // size[10]
 	void Flight(); // size[834]
-	void MakeFriend(Vector param_1); // size[982]
+	void MakeFriend(Vector param_1); // size[971]
 	void FloatSequence(); // size[202]
 	void NextActivity(); // size[2663]
 	void EmitSphere(); // size[267]

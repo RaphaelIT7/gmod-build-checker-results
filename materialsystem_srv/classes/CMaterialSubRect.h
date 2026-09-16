@@ -109,6 +109,6 @@ public:
 	void UsesUNCFileName(); // size[17]
 	void SetupMaterialVars(); // size[183]
 	void GetDummyMaterialVar(); // size[51]
-	void ParseMaterialVars(KeyValues *param_1); // size[2070]
+	void ParseMaterialVars(KeyValues *param_1); // size[1988]
 	CMaterialSubRect(char *param_1, char *param_2, KeyValues *param_3, KeyValues *param_4, bool param_5); // size[499]
 };

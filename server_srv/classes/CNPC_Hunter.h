@@ -120,7 +120,7 @@ public:
 	void MeleeAttack1ConditionsVsEnemyInVehicle(CBaseCombatCharacter *param_1, float param_2); // size[1046]
 	void IsCorporealEnemy(CBaseEntity *param_1); // size[29]
 	void MeleeAttack(float param_1, int param_2, QAngle *param_3, Vector *param_4, int param_5); // size[679]
-	void CanShootThrough(CGameTrace *param_1, Vector *param_2); // size[351]
+	void CanShootThrough(CGameTrace *param_1, Vector *param_2); // size[51]
 	void IsInLargeOutdoorMap(); // size[15]
 	void PhysicsDamageEffect(Vector *param_1, Vector *param_2); // size[398]
 	void ConsiderFlinching(CTakeDamageInfo *param_1); // size[602]

@@ -11,7 +11,7 @@ public:
 
 	void ThinkBecomeSolid(); // size[65]
 	void GetBaseMap(); // size[10]
-	void ActivateBugbaitTargets(CBaseEntity *param_1, Vector param_2, bool param_3); // size[1404]
+	void ActivateBugbaitTargets(CBaseEntity *param_1, Vector param_2, bool param_3); // size[1009]
 	void BugBaitTouch(CBaseEntity *param_1); // size[1020]
 	void SetGracePeriod(float param_1); // size[69]
 };

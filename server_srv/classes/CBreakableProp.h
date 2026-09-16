@@ -102,7 +102,7 @@ public:
 	void InputDisablePhyscannonPickup(inputdata_t *param_1); // size[18]
 	void OnPhysGunDrop(CBasePlayer *param_1, PhysGunDrop_t param_2); // size[13]
 	void PhysGunLaunchAngularImpulse(); // size[13]
-	void BreakablePropTouch(CBaseEntity *param_1); // size[842]
+	void BreakablePropTouch(CBaseEntity *param_1); // size[570]
 	void CheckRemoveRagdolls(); // size[63]
 	void RampToDefaultFadeScale(); // size[28]
 	void OnAttemptPhysGunPickup(CBasePlayer *param_1, PhysGunPickup_t param_2); // size[13]

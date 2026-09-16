@@ -9,11 +9,11 @@ public:
 
 	void UnlinkPusherList(int *param_1); // size[87]
 	void RelinkPusherList(int *param_1); // size[92]
-	void ComputeRotationalPushDirection(CBaseEntity *param_1, RotatingPushMove_t *param_2, Vector *param_3, CBaseEntity *param_4); // size[437]
+	void ComputeRotationalPushDirection(CBaseEntity *param_1, RotatingPushMove_t *param_2, Vector *param_3, CBaseEntity *param_4); // size[301]
 	void IsPushedPositionValid(CBaseEntity *param_1); // size[54]
 	void SpeculativelyCheckPush(PhysicsPushedInfo_t *param_1, Vector *param_2, bool param_3); // size[121]
 	void FinishPushers(); // size[106]
-	void FinishPush(bool param_1, RotatingPushMove_t *param_2); // size[356]
+	void FinishPush(bool param_1, RotatingPushMove_t *param_2); // size[229]
 	void BeginPush(CBaseEntity *param_1); // size[116]
 	void StoreMovedEntities(physicspushlist_t *param_1); // size[325]
 	void RegisterBlockage(); // size[60]

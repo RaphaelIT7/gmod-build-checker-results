@@ -78,7 +78,7 @@ public:
 	void SelectSpeechResponse(char *param_1, char *param_2, CBaseEntity *param_3, AISpeechSelection_t *param_4); // size[106]
 	void SelectQuestionFriend(CBaseEntity *param_1, AISpeechSelection_t *param_2); // size[300]
 	void SelectAnswerFriend(CBaseEntity *param_1, AISpeechSelection_t *param_2, bool param_3); // size[138]
-	void AnswerQuestion(CAI_PlayerAlly *param_1, int param_2, bool param_3); // size[561]
+	void AnswerQuestion(CAI_PlayerAlly *param_1, int param_2, bool param_3); // size[489]
 	void InputAnswerQuestion(inputdata_t *param_1); // size[95]
 	void InputAnswerQuestionHello(inputdata_t *param_1); // size[95]
 	void InitCustomSchedules(); // size[352]

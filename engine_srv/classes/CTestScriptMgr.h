@@ -9,7 +9,7 @@ public:
 	void Term(); // size[52]
 	void IsInitted(); // size[16]
 	void RunCommands(); // size[447]
-	void StartTestScript(char *param_1); // size[140]
+	void StartTestScript(char *param_1); // size[186]
 	void IsTimerWaiting(); // size[36]
 	void IsCheckPointWaiting(); // size[15]
 	void SetWaitTime(float param_1); // size[41]

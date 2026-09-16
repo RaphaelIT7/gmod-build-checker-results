@@ -136,7 +136,7 @@ public:
 	virtual void RegisterMetaTable(char *param_1, ILuaObject *param_2) override; // vtable[130]
 
 	CLuaInterface(); // size[129]
-	void DoStackCheck(); // size[619]
+	void DoStackCheck(); // size[1350]
 	void ExecuteLuaFile(LuaFile *param_1, bool param_2, bool param_3, char *param_4, bool param_5); // size[152]
 	void RunMacros(string *param_1); // size[224]
 	void RunThreadedCalls(); // size[306]

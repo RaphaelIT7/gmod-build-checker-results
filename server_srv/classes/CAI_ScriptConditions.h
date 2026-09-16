@@ -14,7 +14,7 @@ public:
 	virtual void OnEntitySpawned(CBaseEntity *param_1); // vtable[246]
 
 	void EvalPlayerBlockingActor(EvalArgs_t *param_1); // size[31]
-	void EvalActorSeeTarget(EvalArgs_t *param_1); // size[134]
+	void EvalActorSeeTarget(EvalArgs_t *param_1); // size[71]
 	void EvalActorSeePlayer(EvalArgs_t *param_1); // size[58]
 	void EvalActorTargetProximity(EvalArgs_t *param_1); // size[227]
 	void EvalPlayerTargetProximity(EvalArgs_t *param_1); // size[228]
@@ -23,7 +23,7 @@ public:
 	void EvalPlayerInVehicle(EvalArgs_t *param_1); // size[71]
 	void EvalActorInVehicle(EvalArgs_t *param_1); // size[94]
 	void Disable(); // size[59]
-	void EvalState(EvalArgs_t *param_1); // size[78]
+	void EvalState(EvalArgs_t *param_1); // size[38]
 	void InputDisable(inputdata_t *param_1); // size[19]
 	void IsInFOV(CBaseEntity *param_1, CBaseEntity *param_2, float param_3, bool param_4); // size[599]
 	void EvalPlayerActorLook(EvalArgs_t *param_1); // size[30]

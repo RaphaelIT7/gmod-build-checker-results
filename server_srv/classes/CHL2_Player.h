@@ -124,7 +124,7 @@ public:
 	void MissedAR2AltFire(); // size[65]
 	void FirePlayerProxyOutput(char *param_1, variant_t param_2, CBaseEntity *param_3, CBaseEntity *param_4); // size[114]
 	void CommanderFindGoal(commandgoal_t *param_1); // size[1885]
-	void CommanderExecute(CommanderCommand_t param_1); // size[776]
+	void CommanderExecute(CommanderCommand_t param_1); // size[713]
 	void CommanderUpdate(); // size[219]
 	void NetworkStateChanged(); // size[26]
 	void NetworkStateChanged(void *param_1); // size[36]

@@ -65,7 +65,7 @@ public:
 	void AddPropToCargoHold(CPhysicsProp *param_1); // size[137]
 	void ReleasePropFromCargoHold(); // size[393]
 	void InputReleaseBusterFromCargo(inputdata_t *param_1); // size[85]
-	void InputAddBusterToCargo(inputdata_t *param_1); // size[457]
+	void InputAddBusterToCargo(inputdata_t *param_1); // size[414]
 	void OnFailedPhysGunPickup(Vector param_1); // size[13]
 	void CreateHazardLights(); // size[23]
 	void DestroyHazardLights(); // size[143]

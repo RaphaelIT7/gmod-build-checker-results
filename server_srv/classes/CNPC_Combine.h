@@ -82,7 +82,7 @@ public:
 	void AnnounceEnemyType(CBaseEntity *param_1); // size[78]
 	void AnnounceEnemyKill(CBaseEntity *param_1); // size[78]
 	void ShouldChargePlayer(); // size[12]
-	void SelectScheduleAttack(); // size[1225]
+	void SelectScheduleAttack(); // size[1166]
 	void SelectCombatSchedule(); // size[46]
 	void DeathSound(); // size[59]
 	void CheckCanThrowGrenade(Vector *param_1); // size[861]

@@ -117,7 +117,7 @@ public:
 	void TogglePlayerSquadState(); // size[182]
 	void CommanderUse(CBaseEntity *param_1, CBaseEntity *param_2, USE_TYPE param_3, float param_4); // size[611]
 	void MoveOrder(Vector *param_1, CAI_BaseNPC * *param_2, int param_3); // size[966]
-	void UpdatePlayerSquad(); // size[591]
+	void UpdatePlayerSquad(); // size[589]
 	void InitCustomSchedules(); // size[352]
 	void LoadSchedules(); // size[62]
 	CScheduleLoader(); // size[9]

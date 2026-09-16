@@ -26,5 +26,5 @@ public:
 	virtual void SetPreDelay(float param_1); // vtable[300]
 
 	void GetBaseMap(); // size[10]
-	void PassThrough(CBaseFlex *param_1); // size[198]
+	void PassThrough(CBaseFlex *param_1); // size[38]
 };

@@ -44,7 +44,7 @@ public:
 	void FOkToSpeak(); // size[58]
 	void JustSpoke(); // size[105]
 	void SpeakSentence(); // size[111]
-	void SquadRecruit(int param_1, int param_2); // size[361]
+	void SquadRecruit(int param_1, int param_2); // size[213]
 	void GetGrenadeConditions(float param_1, float param_2); // size[1758]
 	void Kick(); // size[159]
 	void Shoot(); // size[42]

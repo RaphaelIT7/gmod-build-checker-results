@@ -20,6 +20,7 @@ public:
 	virtual void SelectModel() override; // vtable[722]
 	virtual void IgnorePlayerPushing() override; // vtable[731]
 
+	void GetBaseMap(); // size[10]
 	void InitCustomSchedules(); // size[312]
 	void LoadSchedules(); // size[62]
 	CScheduleLoader(); // size[9]

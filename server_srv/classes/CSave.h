@@ -65,7 +65,7 @@ public:
 	void WriteMatrix3x4Worldspace(matrix3x4_t *param_1, int param_2); // size[151]
 	void WriteInterval(interval_t *param_1, int param_2); // size[13]
 	void BufferString(char *param_1, int param_2); // size[65]
-	void WriteHeader(char *param_1, int param_2); // size[292]
+	void WriteHeader(char *param_1, int param_2); // size[293]
 	void WriteVMatrixWorldspace(char *param_1, VMatrix *param_2, int param_3); // size[63]
 	void WriteMatrix3x4Worldspace(char *param_1, matrix3x4_t *param_2, int param_3); // size[64]
 	void WriteVMatrix(char *param_1, VMatrix *param_2, int param_3); // size[18]

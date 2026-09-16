@@ -25,7 +25,7 @@ public:
 	void ShouldFreezeContacts(IPhysicsObject * *param_1, int param_2); // size[7]
 	void ObjectWake(IPhysicsObject *param_1); // size[7]
 	void ObjectSleep(IPhysicsObject *param_1); // size[7]
-	void UpdatePenetrateEvents(); // size[698]
+	void UpdatePenetrateEvents(); // size[639]
 	void FindFriction(CBaseEntity *param_1); // size[171]
 	void ShutdownFriction(friction_t *param_1); // size[15]
 	void UpdateRemoveObjects(); // size[77]

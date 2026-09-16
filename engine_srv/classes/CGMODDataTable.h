@@ -21,7 +21,7 @@ public:
 	void IsEmpty(); // size[16]
 	void Compare(bf_read *param_1, bf_read *param_2, CGMODDataTable *param_3, int param_4); // size[1507]
 	void Skip(bf_read *param_1); // size[218]
-	void WriteProps(bf_read *param_1, bf_write *param_2, int param_3); // size[1133]
+	void WriteProps(bf_read *param_1, bf_write *param_2, int param_3); // size[1094]
 	void Encode(void *param_1, bf_write *param_2); // size[200]
 	CGMODDataTable(_func_void_void_ptr_int_CGMODVariant_ptr *param_1); // size[160]
 	void Decode(void *param_1, bf_read *param_2); // size[1521]

@@ -24,7 +24,7 @@ public:
 	void _GLOBAL__sub_I_m_DataMap(); // size[113]
 	void IsInASafePlace(); // size[137]
 	void GetBaseMap(); // size[10]
-	void EnemyDislikesMe(); // size[91]
+	void EnemyDislikesMe(); // size[48]
 	void MarkAsUnsafe(); // size[73]
 	void IsInASafePlace(); // size[32]
 	void SpoilSafePlace(); // size[15]

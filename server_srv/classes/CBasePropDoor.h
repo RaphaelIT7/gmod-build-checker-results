@@ -50,7 +50,7 @@ public:
 	void DoorActivate(); // size[123]
 	void OnUse(CBaseEntity *param_1, CBaseEntity *param_2, USE_TYPE param_3, float param_4); // size[845]
 	void DoorAutoCloseThink(); // size[157]
-	void OnStartBlocked(CBaseEntity *param_1); // size[301]
+	void OnStartBlocked(CBaseEntity *param_1); // size[114]
 	void MasterStartBlocked(CBaseEntity *param_1); // size[130]
 	void OnEndBlocked(); // size[23]
 	void NPCOpenDoor(CAI_BaseNPC *param_1); // size[64]

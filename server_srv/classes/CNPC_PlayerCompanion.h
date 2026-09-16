@@ -122,7 +122,7 @@ public:
 	void TranslateActivityReadiness(Activity param_1); // size[439]
 	void HasAimLOS(CBaseEntity *param_1); // size[394]
 	void FindNewAimTarget(); // size[415]
-	void IsSafeFromFloorTurret(Vector *param_1, CBaseEntity *param_2); // size[128]
+	void IsSafeFromFloorTurret(Vector *param_1, CBaseEntity *param_2); // size[110]
 	void CleanupCoverSearch(); // size[25]
 	void FindMortarCoverPos(CSound *param_1, Vector *param_2); // size[142]
 	void IsMortar(CBaseEntity *param_1); // size[100]

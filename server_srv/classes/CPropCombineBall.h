@@ -42,7 +42,7 @@ public:
 	void ClearLifetime(); // size[64]
 	void InputSetLifetime(inputdata_t *param_1); // size[49]
 	void SetMass(float param_1); // size[86]
-	void ShouldHitPlayer(); // size[117]
+	void ShouldHitPlayer(); // size[71]
 	void FadeOut(float param_1); // size[167]
 	void InputFadeAndRespawn(inputdata_t *param_1); // size[16]
 	void StartWhizSoundThink(); // size[73]

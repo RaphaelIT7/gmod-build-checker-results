@@ -191,7 +191,7 @@ public:
 	void GetMemRequired(int param_1, int param_2, int param_3, ImageFormat param_4, bool param_5); // size[7]
 	void ImageFormatInfo(ImageFormat param_1); // size[7]
 	void ReloadMaterials(CCommand *param_1); // size[50]
-	void ReloadTexture(CCommand *param_1); // size[50]
+	void ReloadTexture(CCommand *param_1); // size[53]
 	void InEditorMode(); // size[7]
 	void IsRenderThreadSafe(); // size[7]
 	void DebugPrintUsedMaterials(CCommand *param_1); // size[91]

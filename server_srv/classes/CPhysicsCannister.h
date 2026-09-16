@@ -54,7 +54,7 @@ public:
 	void OnPhysGunDrop(CBasePlayer *param_1, PhysGunDrop_t param_2); // size[10]
 	void PreferredCarryAngles(); // size[10]
 	void HasPreferredCarryAnglesForPlayer(CBasePlayer *param_1); // size[10]
-	void OnAttemptPhysGunPickup(CBasePlayer *param_1, PhysGunPickup_t param_2); // size[10]
 	void ShouldPuntUseLaunchForces(PhysGunForce_t param_1); // size[10]
 	void PhysGunLaunchAngularImpulse(); // size[10]
+	void PhysGunLaunchVelocity(Vector *param_1, float param_2); // size[10]
 };

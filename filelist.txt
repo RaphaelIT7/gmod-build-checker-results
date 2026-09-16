@@ -9841,6 +9841,7 @@ materials/engine/additivevertexcolorvertexalpha.vmt
 materials/engine/box.vtf
 materials/engine/camerarendertarget.vtf
 materials/engine/colorcorrection.vmt
+materials/engine/defaultcubemap.hdr.vtf
 materials/engine/defaultcubemap.vtf
 materials/engine/depthwrite.vmt
 materials/engine/dummy.vtf

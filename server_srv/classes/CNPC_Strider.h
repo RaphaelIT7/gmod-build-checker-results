@@ -213,7 +213,7 @@ public:
 	void FireCannon(); // size[821]
 	void CarriedByDropship(); // size[94]
 	void CarriedThink(); // size[174]
-	void StompHit(int param_1); // size[1108]
+	void StompHit(int param_1); // size[587]
 	void FootFX(Vector *param_1); // size[336]
 	void LeftFootHit(float param_1); // size[183]
 	void BackFootHit(float param_1); // size[174]

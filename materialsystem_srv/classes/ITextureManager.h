@@ -3,5 +3,5 @@
 class ITextureManager
 {
 public:
-	virtual void __cxa_pure_virtual(); // vtable[37]
+	virtual void __cxa_pure_virtual(); // vtable[38]
 };

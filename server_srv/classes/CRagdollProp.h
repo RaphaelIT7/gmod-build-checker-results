@@ -49,7 +49,7 @@ public:
 	virtual void SetBuildRagdollFunction(CLuaObject *param_1); // vtable[286]
 
 	void SetDebrisThink(); // size[5]
-	void InputEnableMotion(inputdata_t *param_1); // size[1]
+	void InputEnableMotion(inputdata_t *param_1); // size[87]
 	void InputDisableMotion(inputdata_t *param_1); // size[76]
 	void InputTurnOff(inputdata_t *param_1); // size[16]
 	void InputStartRadgollBoogie(inputdata_t *param_1); // size[93]

@@ -11,6 +11,6 @@ public:
 
 	void PassesNameFilter(CBaseEntity *param_1); // size[161]
 	void PassesProximityFilter(CBaseEntity *param_1, CBaseEntity *param_2); // size[305]
-	void PassesMobbedFilter(CBaseEntity *param_1, CBaseEntity *param_2); // size[223]
+	void PassesMobbedFilter(CBaseEntity *param_1, CBaseEntity *param_2); // size[23]
 	void GetBaseMap(); // size[10]
 };

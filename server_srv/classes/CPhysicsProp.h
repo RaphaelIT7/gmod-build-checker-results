@@ -42,7 +42,7 @@ public:
 	void IsGib(); // size[20]
 	void CanBePickedUpByPhyscannon(); // size[69]
 	void GetPropDataAngles(char *param_1, QAngle *param_2); // size[254]
-	void HandleAnyCollisionInteractions(int param_1, gamevcollisionevent_t *param_2); // size[1201]
+	void HandleAnyCollisionInteractions(int param_1, gamevcollisionevent_t *param_2); // size[678]
 	void GetCarryDistanceOffset(); // size[258]
 	void ComputeEnablingImpulse(int param_1, gamevcollisionevent_t *param_2); // size[540]
 	void GetMassCenter(Vector *param_1); // size[121]

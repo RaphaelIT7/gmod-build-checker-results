@@ -11,6 +11,7 @@ public:
 	~Buffer(); // size[27]
 	~Buffer(); // size[27]
 	Buffer(); // size[76]
+	Buffer(); // size[76]
 	void SetExternalBuffer(void *param_1, ulonglong param_2); // size[67]
 	void SetExternalBuffer(void *param_1, ulonglong param_2); // size[67]
 	Buffer(void *param_1, int param_2); // size[66]

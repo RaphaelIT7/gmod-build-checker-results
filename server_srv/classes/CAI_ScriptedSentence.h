@@ -13,7 +13,7 @@ public:
 	void DelayThink(); // size[118]
 	void InputBeginSentence(inputdata_t *param_1); // size[24]
 	void GetBaseMap(); // size[10]
-	void FindEntity(); // size[395]
+	void FindEntity(); // size[259]
 	void StartSentence(CAI_BaseNPC *param_1); // size[508]
 	void FindThink(); // size[294]
 };

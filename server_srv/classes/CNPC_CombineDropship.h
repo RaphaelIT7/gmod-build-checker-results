@@ -51,7 +51,7 @@ public:
 	void DoRotorWash(); // size[199]
 	void GetDropoffFinishPosition(Vector param_1, CAI_BaseNPC *param_2, Vector param_3, Vector param_4); // size[647]
 	void SpawnTroop(); // size[934]
-	void InputNPCFinishDustoff(inputdata_t *param_1); // size[248]
+	void InputNPCFinishDustoff(inputdata_t *param_1); // size[117]
 	void GetAltitude(); // size[238]
 	void DropMine(); // size[73]
 	void UpdatePickupNavigation(); // size[420]

@@ -26,7 +26,7 @@ public:
 	void StopLeading(); // size[95]
 	void SetGoal(AI_LeadArgs_t *param_1); // size[67]
 	void GetClosestPointOnRoute(Vector *param_1, Vector *param_2); // size[300]
-	void Speak(char *param_1); // size[461]
+	void Speak(char *param_1); // size[404]
 	void IsSpeaking(); // size[42]
 	void Connect(CAI_LeadBehaviorHandler *param_1); // size[92]
 	void Disconnect(CAI_LeadBehaviorHandler *param_1); // size[27]

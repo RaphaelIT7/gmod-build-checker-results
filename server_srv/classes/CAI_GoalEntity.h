@@ -28,5 +28,5 @@ public:
 	void PruneActors(); // size[51]
 	void EnterDormant(); // size[132]
 	void ExitDormant(); // size[72]
-	void ResolveNames(); // size[647]
+	void ResolveNames(); // size[535]
 };
