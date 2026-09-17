@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x11C (284) bytes, no debug info available
+// Estimated minimum size: 0x11C (284) bytes
 
 class CSendTablePrecalc
 {
@@ -8,5 +8,5 @@ public:
 	virtual ~CSendTablePrecalc(); // vtable[1]
 
 	CSendTablePrecalc(); // size[658]
-	void SetupFlatPropertyArray(); // size[577]
+	void SetupFlatPropertyArray(); // size[481]
 };

@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x150 (336) bytes, no debug info available
+// Estimated minimum size: 0x150 (336) bytes
 
 class CEngineTraceServer : public CEngineTrace
 {

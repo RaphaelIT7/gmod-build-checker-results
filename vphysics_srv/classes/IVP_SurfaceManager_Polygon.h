@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x24 (36) bytes, no debug info available
+// Estimated minimum size: 0x24 (36) bytes
 
 class IVP_SurfaceManager_Polygon : public IVP_SurfaceManager
 {

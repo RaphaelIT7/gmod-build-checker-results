@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x3C (60) bytes, no debug info available
+// Estimated minimum size: 0x3C (60) bytes
 
 class IVP_U_Active_Limit : public IVP_U_Active_Float, public IVP_U_Active_Float_Listener
 {

@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x38 (56) bytes, no debug info available
+// Estimated minimum size: 0x38 (56) bytes
 
 class IVP_U_Active_Switch : public IVP_U_Active_Float, public IVP_U_Active_Float_Listener, public IVP_U_Active_Int_Listener
 {

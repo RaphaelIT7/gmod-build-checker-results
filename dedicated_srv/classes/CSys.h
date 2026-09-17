@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x4 (4) bytes, no debug info available
+// Estimated minimum size: 0x4 (4) bytes
 
 class CSys : public ISys
 {
@@ -13,7 +13,7 @@ public:
 	virtual void WriteStatusText(char *param_1); // vtable[6]
 	virtual void UpdateStatus(int param_1); // vtable[7]
 	virtual void LoadLibrary(char *param_1); // vtable[8]
-	virtual void FreeLibrary(long param_1); // vtable[9]
+	virtual void FreeLibrary(void *param_1); // vtable[9]
 	virtual void CreateConsoleWindow(); // vtable[10]
 	virtual void DestroyConsoleWindow(); // vtable[11]
 	virtual void ConsoleOutput(char *param_1); // vtable[12]
@@ -31,5 +31,5 @@ public:
 	virtual void caseD_0(); // vtable[45]
 	virtual void caseD_1f(); // vtable[46]
 
-	void dlsym(long param_1, char *param_2); // size[5]
+	void dlsym(void *param_1, char *param_2); // size[5]
 };

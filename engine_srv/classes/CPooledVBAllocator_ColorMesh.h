@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x24 (36) bytes, no debug info available
+// Estimated minimum size: 0xD4 (212) bytes
 
 class CPooledVBAllocator_ColorMesh : public IPooledVBAllocator
 {
@@ -15,4 +15,5 @@ public:
 	virtual void Deallocate(int param_1, int param_2); // vtable[8]
 
 	CPooledVBAllocator_ColorMesh(); // size[37]
+	void CheckIsClear(); // size[60]
 };

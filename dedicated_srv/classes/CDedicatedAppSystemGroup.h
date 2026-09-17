@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x58 (88) bytes, no debug info available
+// Estimated minimum size: 0x58 (88) bytes
 
 class CDedicatedAppSystemGroup : public CTier2SteamApp
 {
@@ -13,5 +13,5 @@ public:
 	virtual void Shutdown(); // vtable[6]
 	virtual void LoadModuleDLL(char *param_1); // vtable[7]
 
-	void PreInit(); // size[263]
+	void PreInit(); // size[108]
 };

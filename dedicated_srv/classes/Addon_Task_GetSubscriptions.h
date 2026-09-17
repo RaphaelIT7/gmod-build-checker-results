@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x11C (284) bytes, no debug info available
+// Estimated minimum size: 0x12C (300) bytes
 
 class Addon_Task_GetSubscriptions : public Addon_Job_Base
 {
@@ -12,6 +12,6 @@ public:
 	virtual void Init(FileSystem *param_1); // vtable[5]
 
 	_GLOBAL__sub_I_GetSubscriptions(); // size[175]
-	GetSubscriptions(); // size[3]
+	GetSubscriptions(); // size[32]
 	void CheckForWastedSpace(); // size[35]
 };

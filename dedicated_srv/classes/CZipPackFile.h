@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0xAC (172) bytes, no debug info available
+// Estimated minimum size: 0xAC (172) bytes
 
 class CZipPackFile : public CPackFile
 {

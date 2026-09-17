@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x194 (404) bytes, no debug info available
+// Estimated minimum size: 0xC (12) bytes
 
 class CDummyMaterialSystem : public IMaterialSystemStub, public CRefCounted1
 {
@@ -372,7 +372,7 @@ public:
 	virtual void MultMatrix(matrix3x4_t *param_1); // vtable[24]
 	virtual void MultMatrixLocal(VMatrix *param_1); // vtable[25]
 	virtual void MultMatrixLocal(matrix3x4_t *param_1); // vtable[26]
-	virtual void GetMatrix(MaterialMatrixMode_t param_1, VMatrix *param_2); // vtable[27]
+	virtual void _ZThn4_N20CDummyMaterialSystem9GetMatrixE20MaterialMatrixMode_tP7VMatrix(); // vtable[27]
 	virtual void GetMatrix(MaterialMatrixMode_t param_1, matrix3x4_t *param_2); // vtable[28]
 	virtual void LoadIdentity(); // vtable[29]
 	virtual void Ortho(double param_1, double param_2, double param_3, double param_4, double param_5, double param_6); // vtable[30]
@@ -463,7 +463,7 @@ public:
 	virtual void SetStencilEnable(bool param_1); // vtable[115]
 	virtual void SetStencilFailOperation(StencilOperation_t param_1); // vtable[116]
 	virtual void SetStencilZFailOperation(StencilOperation_t param_1); // vtable[117]
-	virtual void _ZThn4_N20CDummyMaterialSystem23SetStencilPassOperationE18StencilOperation_t(); // vtable[118]
+	virtual void SetStencilPassOperation(StencilOperation_t param_1); // vtable[118]
 	virtual void SetStencilCompareFunction(StencilComparisonFunction_t param_1); // vtable[119]
 	virtual void SetStencilReferenceValue(int param_1); // vtable[120]
 	virtual void SetStencilTestMask(uint param_1); // vtable[121]
@@ -473,7 +473,7 @@ public:
 	virtual void PushCustomClipPlane(float *param_1); // vtable[125]
 	virtual void PopCustomClipPlane(); // vtable[126]
 	virtual void GetMaxToRender(IMesh *param_1, bool param_2, int *param_3, int *param_4); // vtable[127]
-	virtual void _ZThn4_N20CDummyMaterialSystem22GetMaxVerticesToRenderEP9IMaterial(); // vtable[128]
+	virtual void GetMaxVerticesToRender(IMaterial *param_1); // vtable[128]
 	virtual void GetMaxIndicesToRender(); // vtable[129]
 	virtual void DisableAllLocalLights(); // vtable[130]
 	virtual void CompareMaterialCombos(IMaterial *param_1, IMaterial *param_2, int param_3, int param_4); // vtable[131]

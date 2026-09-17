@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0xA0 (160) bytes, no debug info available
+// Estimated minimum size: 0xA0 (160) bytes
 
 class IVP_Ray_Solver_Min : public IVP_Ray_Solver
 {

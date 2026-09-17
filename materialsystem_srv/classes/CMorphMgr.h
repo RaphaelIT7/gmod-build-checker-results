@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x224 (548) bytes, no debug info available
+// Estimated minimum size: 0x224 (548) bytes
 
 class CMorphMgr : public IMorphMgr
 {
@@ -7,7 +7,7 @@ public:
 	virtual void ShouldAllocateScratchTextures(); // vtable[0]
 	virtual void AllocateScratchTextures(); // vtable[1]
 	virtual void FreeScratchTextures(); // vtable[2]
-	virtual void _ZN9CMorphMgr17AllocateMaterialsEv(); // vtable[3]
+	virtual void AllocateMaterials(); // vtable[3]
 	virtual void FreeMaterials(); // vtable[4]
 	virtual void MorphAccumulator(); // vtable[5]
 	virtual void MorphWeights(); // vtable[6]

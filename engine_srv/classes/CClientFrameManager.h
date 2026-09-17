@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x5D5B14C8 (1566250184) bytes, no debug info available
+// Estimated minimum size: 0x10 (16) bytes
 
 class CClientFrameManager
 {
@@ -9,10 +9,10 @@ public:
 
 	void GetClientFrame(int param_1, bool param_2); // size[84]
 	void CountClientFrames(); // size[11]
-	void AddClientFrame(CClientFrame *param_1); // size[50]
+	void AddClientFrame(CClientFrame *param_1); // size[54]
 	void AllocateFrame(); // size[40]
 	void FreeFrame(CClientFrame *param_1); // size[67]
-	void RemoveOldestFrame(); // size[51]
+	void RemoveOldestFrame(); // size[57]
 	void DeleteClientFrames(int param_1); // size[170]
 	CClientFrameManager(); // size[89]
 };

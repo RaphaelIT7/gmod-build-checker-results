@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0xC (12) bytes, no debug info available
+// Estimated minimum size: 0xC (12) bytes
 
 class IVP_Collision_Delegator_Root_Mindist : public IVP_Collision_Delegator_Root
 {

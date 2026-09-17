@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0xD4 (212) bytes, no debug info available
+// Estimated minimum size: 0xD4 (212) bytes
 
 class CShadowController : public IVP_Controller_Independent, public IPhysicsShadowController, public CAlignedNewDelete
 {

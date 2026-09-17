@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x3A8 (936) bytes, no debug info available
+// Estimated minimum size: 0x3A8 (936) bytes
 
 class CMatNullRenderContext : public CMatRenderContextBase
 {

@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x38 (56) bytes, no debug info available
+// Estimated minimum size: 0x38 (56) bytes
 
 class CNetworkStringDict : public INetworkStringDict
 {

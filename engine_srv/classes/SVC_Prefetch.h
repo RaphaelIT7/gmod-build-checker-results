@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x14 (20) bytes, no debug info available
+// Estimated minimum size: 0x14 (20) bytes
 
 class SVC_Prefetch : public CNetMessage
 {

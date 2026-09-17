@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x724 (1828) bytes, no debug info available
+// Estimated minimum size: 0x720 (1824) bytes
 
 class CHLTVClient : public CBaseClient
 {
@@ -44,7 +44,7 @@ public:
 	virtual void FileRequested(RequestFile_t param_1, uint param_2, uint param_3); // vtable[7]
 	virtual void FileReceived(char *param_1, uint param_2); // vtable[8]
 	virtual void FileDenied(uint param_1); // vtable[9]
-	virtual void FileSent(char *param_1, uint param_2); // vtable[10]
+	virtual void _ZThn4_N11CHLTVClient8FileSentEPKcj(); // vtable[10]
 	virtual void ShouldAcceptFile(char *param_1, uint param_2); // vtable[11]
 	virtual void Connect(char *param_1, int param_2, INetChannel *param_3, bool param_4, int param_5); // vtable[12]
 	virtual void Inactivate(); // vtable[13]

@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0xC8 (200) bytes, no debug info available
+// Estimated minimum size: 0xC8 (200) bytes
 
 class CVTFTexture : public IVTFTexture
 {

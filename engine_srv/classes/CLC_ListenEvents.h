@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x54 (84) bytes, no debug info available
+// Estimated minimum size: 0x54 (84) bytes
 
 class CLC_ListenEvents : public CNetMessage
 {

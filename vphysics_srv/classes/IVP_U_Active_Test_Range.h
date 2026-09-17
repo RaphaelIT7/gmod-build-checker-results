@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x30 (48) bytes, no debug info available
+// Estimated minimum size: 0x30 (48) bytes
 
 class IVP_U_Active_Test_Range : public IVP_U_Active_Int, public IVP_U_Active_Float_Listener
 {

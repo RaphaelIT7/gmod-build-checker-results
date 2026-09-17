@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0xE4 (228) bytes, no debug info available
+// Estimated minimum size: 0xE4 (228) bytes
 
 class CTraceSolverSweptObject : public CTraceSolver
 {

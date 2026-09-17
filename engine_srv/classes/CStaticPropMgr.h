@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x558D0C48 (1435307080) bytes, no debug info available
+// Estimated minimum size: 0xF0 (240) bytes
 
 class CStaticPropMgr : public IStaticPropMgrEngine, public IStaticPropMgrClient, public IStaticPropMgrServer
 {
@@ -59,13 +59,13 @@ public:
 	void PrecacheLighting(); // size[131]
 	void DrawStaticProps_Slow(IClientRenderable * *param_1, int param_2, bool param_3, bool param_4); // size[36]
 	void DrawStaticProps_Fast(IClientRenderable * *param_1, int param_2, bool param_3); // size[5]
-	void DrawStaticProps_FastPipeline(IClientRenderable * *param_1, int param_2, bool param_3); // size[262]
+	void DrawStaticProps_FastPipeline(IClientRenderable * *param_1, int param_2, bool param_3); // size[351]
 	void ComputeScreenFade(CStaticProp *param_1, float param_2, float param_3, float param_4); // size[188]
 	void ChangeRenderGroup(CStaticProp *param_1); // size[5]
 	void ComputePropOpacity(CStaticProp *param_1); // size[299]
 	CStaticPropMgr(); // size[194]
 	void UnserializeModelDict(CUtlBuffer *param_1); // size[896]
-	void UnserializeLeafList(CUtlBuffer *param_1); // size[370]
-	void UnserializeModels(CUtlBuffer *param_1); // size[4063]
-	void UnserializeStaticProps(); // size[237]
+	void UnserializeLeafList(CUtlBuffer *param_1); // size[368]
+	void UnserializeModels(CUtlBuffer *param_1); // size[4423]
+	void UnserializeStaticProps(); // size[264]
 };

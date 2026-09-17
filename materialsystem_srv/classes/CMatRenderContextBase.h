@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x3A8 (936) bytes, no debug info available
+// Estimated minimum size: 0x3A8 (936) bytes
 
 class CMatRenderContextBase : public IMatRenderContextInternal
 {
@@ -60,8 +60,7 @@ public:
 	void EnableClipping(bool param_1); // size[73]
 	void MarkRenderDataUnused(bool param_1); // size[103]
 	void GetToneMappingScaleLinear(); // size[102]
-	void BindLocalCubemap(ITexture *param_1); // size[32]
-	void BindLocalCubemap(ITexture *param_1); // size[21]
+	void BindLocalCubemap(ITexture *param_1); // size[66]
 	void RecomputeViewState(); // size[279]
 	void GetWorldSpaceCameraPosition(Vector *param_1); // size[69]
 	void GetWorldSpaceCameraVectors(Vector *param_1, Vector *param_2, Vector *param_3); // size[186]
@@ -73,14 +72,14 @@ public:
 	void Rotate(float param_1, float param_2, float param_3, float param_4); // size[147]
 	void Translate(float param_1, float param_2, float param_3); // size[136]
 	void TurnOnToneMapping(); // size[785]
-	void Init(); // size[157]
-	void Shutdown(); // size[7]
-	void CompactMemory(); // size[57]
+	void Init(); // size[81]
+	void Shutdown(); // size[42]
+	void CompactMemory(); // size[79]
 	void RenderDataSizeUsed(); // size[27]
-	void CurrentMatrixChanged(); // size[22]
-	void RecomputeViewState(); // size[3]
+	void CurrentMatrixChanged(); // size[38]
+	void RecomputeViewState(); // size[23]
 	void RecomputeViewProjState(); // size[143]
-	void ComputePixelDiameterOfSphere(Vector *param_1, float param_2); // size[359]
+	void ComputePixelDiameterOfSphere(Vector *param_1, float param_2); // size[67]
 	void SetRenderTargetEx(int param_1, ITexture *param_2); // size[179]
 	void Viewport(int param_1, int param_2, int param_3, int param_4); // size[142]
 	void PushRenderTargetAndViewport(ITexture *param_1); // size[93]

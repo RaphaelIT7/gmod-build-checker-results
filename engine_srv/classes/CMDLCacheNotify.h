@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x8 (8) bytes, no debug info available
+// Estimated minimum size: 0x8 (8) bytes
 
 class CMDLCacheNotify : public IMDLCacheNotify
 {
@@ -8,5 +8,5 @@ public:
 	virtual void OnDataUnloaded(MDLCacheDataType_t param_1, ushort param_2); // vtable[1]
 
 	void SetBoundsFromStudioHdr(model_t *param_1, ushort param_2); // size[188]
-	void ComputeModelFlags(model_t *param_1, ushort param_2); // size[135]
+	void ComputeModelFlags(model_t *param_1, ushort param_2); // size[193]
 };

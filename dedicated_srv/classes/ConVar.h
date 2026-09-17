@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x4C (76) bytes, no debug info available
+// Estimated minimum size: 0x4C (76) bytes
 
 class ConVar : public ConCommandBase, public IConVar
 {
@@ -24,22 +24,21 @@ public:
 	virtual void Create(char *param_1, char *param_2, int param_3, char *param_4, bool param_5, float param_6, bool param_7, float param_8, _func_void_IConVar_ptr_char_ptr_float *param_9); // vtable[19]
 	virtual void SetServerValue(char *param_1); // vtable[20]
 	virtual void GetFlags(); // vtable[21]
-	virtual void SetValue(char *param_1); // vtable[0]
+	virtual void _ZThn24_N6ConVar8SetValueEPKc(); // vtable[0]
 	virtual void SetValue(float param_1); // vtable[1]
 	virtual void SetValue(int param_1); // vtable[2]
 	virtual void GetName(); // vtable[3]
 	virtual void IsFlagSet(int param_1); // vtable[4]
 
-	void GetInt(); // size[59]
-	ConVar(char *param_1, char *param_2, int param_3); // size[11]
+	void GetInt(); // size[33]
+	ConVar(char *param_1, char *param_2, int param_3); // size[147]
 	ConVar(char *param_1, char *param_2, int param_3, char *param_4); // size[146]
-	ConVar(char *param_1, char *param_2, int param_3, char *param_4, bool param_5, float param_6, bool param_7, float param_8); // size[66]
-	ConVar(char *param_1, char *param_2, int param_3, char *param_4, _func_void_IConVar_ptr_char_ptr_float *param_5); // size[5]
-	ConVar(char *param_1, char *param_2, int param_3, char *param_4, bool param_5, float param_6, bool param_7, float param_8, _func_void_IConVar_ptr_char_ptr_float *param_9); // size[155]
-	void InstallChangeCallback(_func_void_IConVar_ptr_char_ptr_float *param_1); // size[56]
+	ConVar(char *param_1, char *param_2, int param_3, char *param_4, bool param_5, float param_6, bool param_7, float param_8); // size[46]
+	ConVar(char *param_1, char *param_2, int param_3, char *param_4, _func_void_IConVar_ptr_char_ptr_float *param_5); // size[8]
+	void InstallChangeCallback(_func_void_IConVar_ptr_char_ptr_float *param_1); // size[12]
 	void Revert(); // size[29]
 	void GetMin(float *param_1); // size[30]
 	void GetMax(float *param_1); // size[30]
-	void GetDefault(); // size[10]
+	void GetDefault(); // size[14]
 	void SetDefault(char *param_1); // size[24]
 };

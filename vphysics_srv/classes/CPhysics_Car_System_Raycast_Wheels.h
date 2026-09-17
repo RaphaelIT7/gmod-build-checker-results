@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x740 (1856) bytes, no debug info available
+// Estimated minimum size: 0x740 (1856) bytes
 
 class CPhysics_Car_System_Raycast_Wheels : public IVP_Controller_Raycast_Car
 {

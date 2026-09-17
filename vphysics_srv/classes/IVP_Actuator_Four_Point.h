@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x114 (276) bytes, no debug info available
+// Estimated minimum size: 0x114 (276) bytes
 
 class IVP_Actuator_Four_Point : public IVP_Actuator
 {

@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x94 (148) bytes, no debug info available
+// Estimated minimum size: 0x94 (148) bytes
 
 class CSoundEmitterSystemBase : public ISoundEmitterSystemBase
 {
@@ -57,12 +57,12 @@ public:
 	_GLOBAL__sub_I_CSoundEmitterSystemBase(); // size[119]
 	void AddSoundName(CSoundParametersInternal *param_1, char *param_2, gender_t param_3); // size[106]
 	void TranslateAttenuation(char *param_1); // size[234]
-	void InitSoundInternalParameters(char *param_1, KeyValues *param_2, CSoundParametersInternal *param_3); // size[1498]
+	void InitSoundInternalParameters(char *param_1, KeyValues *param_2, CSoundParametersInternal *param_3); // size[1546]
 	void TranslateSoundLevel(char *param_1); // size[15]
 	void TranslateChannel(char *param_1); // size[15]
 	CSoundEmitterSystemBase(); // size[342]
 	void EnsureAvailableSlotsForGender(SoundFile *param_1, int param_2, gender_t param_3); // size[266]
 	void FindBestSoundForGender(SoundFile *param_1, int param_2, gender_t param_3); // size[300]
 	void LoadGlobalActors(); // size[568]
-	void AddSoundsFromFile(char *param_1, bool param_2, bool param_3, bool param_4); // size[1643]
+	void AddSoundsFromFile(char *param_1, bool param_2, bool param_3, bool param_4); // size[1659]
 };

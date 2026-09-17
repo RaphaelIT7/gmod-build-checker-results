@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x5D5B14C8 (1566250184) bytes, no debug info available
+// Estimated minimum size: 0x53B4 (21428) bytes
 
 class CGameClient : public CBaseClient, public CClientFrameManager
 {
@@ -106,15 +106,15 @@ public:
 	virtual ~CGameClient(); // vtable[1]
 
 	void ProcessVoiceData(CLC_VoiceData *param_1); // size[158]
-	void DownloadCustomizations(); // size[44]
+	void DownloadCustomizations(); // size[290]
 	void SetupPackInfo(CFrameSnapshot *param_1); // size[539]
 	void SetupPrevPackInfo(); // size[167]
-	void CheckConnect(); // size[121]
+	void CheckConnect(); // size[195]
 	void WriteViewAngleUpdate(); // size[295]
-	void IsEngineClientCommand(CCommand *param_1); // size[92]
+	void IsEngineClientCommand(CCommand *param_1); // size[94]
 	void GetSendFrame(); // size[268]
 	void GetPrevPackInfo(); // size[13]
-	void FillSoundsMessage(SVC_Sounds *param_1); // size[5098]
+	void FillSoundsMessage(SVC_Sounds *param_1); // size[2344]
 	void WriteGameSounds(bf_write *param_1); // size[240]
 	void SendSound(SoundInfo_t *param_1, bool param_2); // size[522]
 	CGameClient(int param_1, CBaseServer *param_2); // size[276]

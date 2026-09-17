@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x4C (76) bytes, no debug info available
+// Estimated minimum size: 0x4C (76) bytes
 
 class CModelInfo : public IVModelInfoClient
 {
@@ -29,7 +29,7 @@ public:
 	void IsWaterSurface(int param_1); // size[41]
 	void IsSkyboxSurface(int param_1); // size[41]
 	void IsNoDrawSurface(int param_1); // size[41]
-	void GetSurfaceMaterial(int param_1); // size[115]
+	void GetSurfaceMaterial(int param_1); // size[97]
 	void RecomputeTranslucency(model_t *param_1, int param_2, int param_3, void *param_4, float param_5); // size[52]
 	void GetModelMaterialCount(model_t *param_1); // size[23]
 	void GetModelMaterials(model_t *param_1, int param_2, IMaterial * *param_3); // size[33]
@@ -42,13 +42,13 @@ public:
 	void GetModelContents(int param_1); // size[105]
 	void GetVCollide(model_t *param_1); // size[156]
 	void GetModelBounds(model_t *param_1, Vector *param_2, Vector *param_3); // size[118]
-	void GetIlluminationPoint(model_t *param_1, IClientRenderable *param_2, Vector *param_3, QAngle *param_4, float param_5, Vector *param_6); // size[216]
-	void GetModelRenderBounds(model_t *param_1, Vector *param_2, Vector *param_3); // size[352]
-	void GetModelKeyValueText(model_t *param_1); // size[65]
-	void GetModelType(model_t *param_1); // size[14]
+	void GetIlluminationPoint(model_t *param_1, IClientRenderable *param_2, Vector *param_3, QAngle *param_4, float param_5, Vector *param_6); // size[185]
+	void GetModelRenderBounds(model_t *param_1, Vector *param_2, Vector *param_3); // size[410]
+	void GetModelKeyValueText(model_t *param_1); // size[73]
+	void GetModelType(model_t *param_1); // size[374]
 	void GetBrushModelPlane(model_t *param_1, int param_2, cplane_t *param_3, Vector *param_4); // size[117]
 	void GetModelKeyValue(model_t *param_1, CUtlBuffer *param_2); // size[240]
-	void IsUsingFBTexture(model_t *param_1, int param_2, int param_3, void *param_4); // size[435]
+	void IsUsingFBTexture(model_t *param_1, int param_2, int param_3, void *param_4); // size[411]
 	void GetModelIndex(char *param_1); // size[190]
 	void GetModelClientSideIndex(char *param_1); // size[343]
 	void OnLevelChange(); // size[54]

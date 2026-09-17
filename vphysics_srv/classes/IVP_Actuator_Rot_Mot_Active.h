@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0xD0 (208) bytes, no debug info available
+// Estimated minimum size: 0xD0 (208) bytes
 
 class IVP_Actuator_Rot_Mot_Active : public IVP_Actuator_Rot_Mot, public IVP_U_Active_Float_Listener
 {

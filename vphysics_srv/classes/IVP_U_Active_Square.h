@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x44 (68) bytes, no debug info available
+// Estimated minimum size: 0x44 (68) bytes
 
 class IVP_U_Active_Square : public IVP_U_Active_Float, public IVP_U_Active_Float_Listener
 {

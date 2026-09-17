@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x604 (1540) bytes, no debug info available
+// Estimated minimum size: 0x604 (1540) bytes
 
 class CMemberFunctor3 : public CRefCounted1
 {

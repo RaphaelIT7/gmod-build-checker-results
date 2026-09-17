@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x5D5B14C8 (1566250184) bytes, no debug info available
+// Estimated minimum size: 0x1ACE4 (109796) bytes
 
 class CHLTVServer : public IGameEventListener2, public CBaseServer, public CClientFrameManager, public IHLTVServer, public IDemoPlayer
 {
@@ -116,10 +116,10 @@ public:
 	virtual void GetProtocolVersion(); // vtable[22]
 	virtual void ShouldLoopDemos(); // vtable[23]
 	virtual void OnLastDemoInLoopPlayed(); // vtable[24]
-	virtual void IsLoading(); // vtable[25]
+	virtual void _ZThn424_N11CHLTVServer9IsLoadingEv(); // vtable[25]
 
 	void FreeClientRecvTables(); // size[115]
-	void InitClientRecvTables(); // size[293]
+	void InitClientRecvTables(); // size[274]
 	void StartDemo(char *param_1); // size[5]
 	void DispatchToRelay(CHLTVClient *param_1); // size[890]
 	void StartRelay(); // size[225]
@@ -127,25 +127,25 @@ public:
 	void IsTVRelay(); // size[22]
 	void BroadcastLocalTitle(CHLTVClient *param_1); // size[557]
 	void BroadcastLocalChat(char *param_1, char *param_2); // size[515]
-	void BroadcastEventLocal(IGameEvent *param_1, bool param_2); // size[462]
-	void InstallStringTables(); // size[52]
+	void BroadcastEventLocal(IGameEvent *param_1, bool param_2); // size[408]
+	void InstallStringTables(); // size[371]
 	void RestoreTick(int param_1); // size[112]
-	void LinkInstanceBaselines(); // size[28]
-	void EntityPVSCheck(CClientFrame *param_1); // size[606]
+	void LinkInstanceBaselines(); // size[266]
+	void EntityPVSCheck(CClientFrame *param_1); // size[142]
 	void SignonComplete(); // size[74]
-	void UpdateStats(); // size[9]
+	void UpdateStats(); // size[15]
 	void SendNetMsg(INetMessage *param_1, bool param_2); // size[150]
 	void FireGameEvent(IGameEvent *param_1); // size[229]
 	void GetBuffer(int param_1); // size[30]
-	void UpdateTick(); // size[488]
+	void UpdateTick(); // size[685]
 	void ResyncDemoClock(); // size[20]
-	void ReplyInfo(netadr_s *param_1); // size[3410]
+	void ReplyInfo(netadr_s *param_1); // size[3980]
 	void GetDeltaFrame(int param_1); // size[303]
 	CHLTVServer(); // size[885]
 	void StartMaster(CGameClient *param_1); // size[1225]
-	void Changelevel(); // size[73]
+	void Changelevel(); // size[30]
 	void ConnectRelay(char *param_1); // size[101]
-	void AddNewFrame(CClientFrame *param_1); // size[269]
-	void RunFrame(); // size[229]
-	void ReadCompeleteDemoFile(); // size[873]
+	void AddNewFrame(CClientFrame *param_1); // size[373]
+	void RunFrame(); // size[154]
+	void ReadCompeleteDemoFile(); // size[928]
 };

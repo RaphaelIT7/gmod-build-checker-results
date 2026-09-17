@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0xA8 (168) bytes, no debug info available
+// Estimated minimum size: 0xA8 (168) bytes
 
 class CPhysicsConstraint : public IPhysicsConstraint, public IVP_Listener_Object
 {

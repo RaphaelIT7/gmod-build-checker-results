@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0xF8 (248) bytes, no debug info available
+// Estimated minimum size: 0xF8 (248) bytes
 
 class CFileAsyncFileSizeJob : public CFileAsyncReadJob
 {

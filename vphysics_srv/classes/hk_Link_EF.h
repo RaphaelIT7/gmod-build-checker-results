@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x28 (40) bytes, no debug info available
+// Estimated minimum size: 0x28 (40) bytes
 
 class hk_Link_EF : public IVP_Controller_Dependent
 {

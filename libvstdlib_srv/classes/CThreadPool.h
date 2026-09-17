@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x17C (380) bytes, no debug info available
+// Estimated minimum size: 0x17C (380) bytes
 
 class CThreadPool : public CRefCounted1
 {

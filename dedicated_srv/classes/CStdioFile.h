@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x10 (16) bytes, no debug info available
+// Estimated minimum size: 0x10 (16) bytes
 
 class CStdioFile : public CStdFilesystemFile
 {
@@ -20,6 +20,6 @@ public:
 	virtual void FS_fgets(char *param_1, int param_2); // vtable[13]
 	virtual void FS_GetSectorSize(); // vtable[14]
 
-	void _GLOBAL__sub_I_m_LockedFDMap(); // size[556]
-	void FS_fopen(char *param_1, char *param_2, longlong *param_3); // size[823]
+	void _GLOBAL__sub_I_m_LockedFDMap(); // size[492]
+	void FS_fopen(char *param_1, char *param_2, longlong *param_3); // size[878]
 };

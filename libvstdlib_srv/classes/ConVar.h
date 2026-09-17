@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x4C (76) bytes, no debug info available
+// Estimated minimum size: 0x4C (76) bytes
 
 class ConVar : public ConCommandBase, public IConVar
 {
@@ -30,7 +30,7 @@ public:
 	virtual void GetName(); // vtable[3]
 	virtual void IsFlagSet(int param_1); // vtable[4]
 
-	ConVar(char *param_1, char *param_2, int param_3); // size[112]
+	ConVar(char *param_1, char *param_2, int param_3); // size[147]
 	ConVar(char *param_1, char *param_2, int param_3, char *param_4); // size[146]
 	ConVar(char *param_1, char *param_2, int param_3, char *param_4, bool param_5, float param_6, bool param_7, float param_8); // size[156]
 	ConVar(char *param_1, char *param_2, int param_3, char *param_4, _func_void_IConVar_ptr_char_ptr_float *param_5); // size[145]

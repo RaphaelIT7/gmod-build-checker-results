@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x1A0 (416) bytes, no debug info available
+// Estimated minimum size: 0x1A0 (416) bytes
 
 class CMaterial : public IMaterialInternal
 {
@@ -113,14 +113,14 @@ public:
 	void DestroyRenderPassList(RenderPassList_t *param_1); // size[186]
 	void GetDummyVariable(); // size[51]
 	void CleanUpShaderParams(); // size[93]
-	void InitializeMaterialProxy(KeyValues *param_1); // size[499]
+	void InitializeMaterialProxy(KeyValues *param_1); // size[513]
 	void CleanUpMaterialProxy(); // size[148]
 	void DetermineProxyReplacements(KeyValues *param_1); // size[5]
 	void FindMaterialVarFlag(char *param_1); // size[192]
 	void PrintMaterialFlags(int param_1, int param_2); // size[98]
 	void ParseMaterialFlag(KeyValues *param_1, IMaterialVar *param_2, IMaterialVar *param_3, bool param_4, int *param_5, int *param_6); // size[309]
 	void ShouldSkipVar(KeyValues *param_1, bool *param_2); // size[924]
-	void ParseMaterialVars(IShader *param_1, KeyValues *param_2, KeyValues *param_3, bool param_4, IMaterialVar * *param_5, int param_6); // size[2445]
+	void ParseMaterialVars(IShader *param_1, KeyValues *param_2, KeyValues *param_3, bool param_4, IMaterialVar * *param_5, int param_6); // size[2599]
 	void InitializeStateSnapshots(); // size[209]
 	void CleanUpStateSnapshots(); // size[20]
 	void SetupErrorShader(); // size[364]
@@ -131,5 +131,5 @@ public:
 	void GetPreviewImageFileName(); // size[158]
 	void GetShaderParam(int param_1); // size[17]
 	CMaterial(char *param_1, char *param_2, KeyValues *param_3); // size[522]
-	void InitializeShader(KeyValues *param_1, KeyValues *param_2, int param_3); // size[2633]
+	void InitializeShader(KeyValues *param_1, KeyValues *param_2, int param_3); // size[2681]
 };

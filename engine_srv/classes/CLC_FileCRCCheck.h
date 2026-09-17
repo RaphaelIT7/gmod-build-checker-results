@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x22C (556) bytes, no debug info available
+// Estimated minimum size: 0x22C (556) bytes
 
 class CLC_FileCRCCheck : public CNetMessage
 {

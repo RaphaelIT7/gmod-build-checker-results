@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x5D5B14C8 (1566250184) bytes, no debug info available
+// Estimated minimum size: 0x182B0 (98992) bytes
 
 class CClientState : public CBaseClientState, public CClientFrameManager
 {
@@ -55,7 +55,7 @@ public:
 	virtual void ProcessStringCmd(NET_StringCmd *param_1); // vtable[3]
 	virtual void ProcessSetConVar(NET_SetConVar *param_1); // vtable[4]
 	virtual void ProcessSignonState(NET_SignonState *param_1); // vtable[5]
-	virtual void _ZThn8_NK16CBaseClientState22GetDemoProtocolVersionEv(); // vtable[6]
+	virtual void GetDemoProtocolVersion(); // vtable[6]
 	virtual void ProcessPrint(SVC_Print *param_1); // vtable[7]
 	virtual void ProcessServerInfo(SVC_ServerInfo *param_1); // vtable[8]
 	virtual void ProcessSendTable(SVC_SendTable *param_1); // vtable[9]
@@ -87,5 +87,4 @@ public:
 	void SendServerCmdKeyValues(KeyValues *param_1); // size[5]
 	void InstallEngineStringTableCallback(char *param_1); // size[7]
 	void GetTime(); // size[7]
-	CClientState(); // size[267]
 };

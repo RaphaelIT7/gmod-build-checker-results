@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x43C (1084) bytes, no debug info available
+// Estimated minimum size: 0x43C (1084) bytes
 
 class CVehicleController : public IPhysicsVehicleController, public IVP_Listener_Object
 {

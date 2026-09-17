@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x48 (72) bytes, no debug info available
+// Estimated minimum size: 0x48 (72) bytes
 
 class CObjectPairHash : public IPhysicsObjectPairHash
 {

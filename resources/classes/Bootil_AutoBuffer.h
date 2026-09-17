@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x14 (20) bytes, no debug info available
+// Estimated minimum size: 0x20 (32) bytes
 
 class Bootil_AutoBuffer : public Bootil_Buffer
 {
@@ -7,10 +7,7 @@ public:
 	virtual ~AutoBuffer() override; // vtable[0]
 	virtual ~AutoBuffer() override; // vtable[1]
 	virtual void Clear() override; // vtable[2]
-	virtual void EnsureCapacity(uint param_1) override; // vtable[3]
+	virtual void EnsureCapacity(ulonglong param_1) override; // vtable[3]
 
-	~AutoBuffer(); // size[60]
-	void EnsureCapacity(uint param_1); // size[165]
-	AutoBuffer(int param_1); // size[68]
-	AutoBuffer(int param_1); // size[68]
+	AutoBuffer(ulonglong param_1); // size[12]
 };

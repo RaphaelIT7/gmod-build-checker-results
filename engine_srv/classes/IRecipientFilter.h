@@ -1,9 +1,9 @@
 // Generated header
-// Estimated minimum size: 0x4 (4) bytes, no debug info available
+// Estimated minimum size: 0x4 (4) bytes
 
 class IRecipientFilter
 {
 public:
-	virtual ~IRecipientFilter(); // vtable[0]
+	virtual _ZN16IRecipientFilterD2Ev(); // vtable[0]
 	virtual ~IRecipientFilter(); // vtable[1]
 };

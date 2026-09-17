@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x4B0 (1200) bytes, no debug info available
+// Estimated minimum size: 0x4B0 (1200) bytes
 
 class CHLTVFrame : public CClientFrame
 {

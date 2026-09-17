@@ -765,767 +765,762 @@
         "value": "GLIBC_2.1.3"
     },
     {
-        "address": "000261e0",
+        "address": "000261a0",
         "length": 9,
         "value": "Not used"
     },
     {
-        "address": "000261ec",
+        "address": "000261ac",
         "length": 40,
         "value": "Couldn't create BASS audio stream (%s)\n"
     },
     {
-        "address": "0002621c",
+        "address": "000261dc",
         "length": 15,
         "value": "12IAudioStream"
     },
     {
-        "address": "0002622b",
+        "address": "000261eb",
         "length": 19,
         "value": "16CBassAudioStream"
     },
     {
-        "address": "000262d0",
+        "address": "00026290",
         "length": 14,
         "value": "unknown error"
     },
     {
-        "address": "000262de",
+        "address": "0002629e",
         "length": 8,
         "value": "success"
     },
     {
-        "address": "000262e6",
+        "address": "000262a6",
         "length": 14,
         "value": "out of memory"
     },
     {
-        "address": "000262f4",
+        "address": "000262b4",
         "length": 16,
         "value": "can't open file"
     },
     {
-        "address": "00026304",
+        "address": "000262c4",
         "length": 29,
         "value": "can't find free/valid driver"
     },
     {
-        "address": "00026321",
+        "address": "000262e1",
         "length": 19,
         "value": "sample buffer lost"
     },
     {
-        "address": "00026334",
+        "address": "000262f4",
         "length": 15,
         "value": "invalid handle"
     },
     {
-        "address": "00026343",
+        "address": "00026303",
         "length": 26,
         "value": "unsupported sample format"
     },
     {
-        "address": "0002635d",
+        "address": "0002631d",
         "length": 17,
         "value": "invalid position"
     },
     {
-        "address": "0002636e",
+        "address": "0002632e",
         "length": 10,
         "value": "not audio"
     },
     {
-        "address": "00026378",
+        "address": "00026338",
         "length": 27,
         "value": "no free channels available"
     },
     {
-        "address": "00026393",
+        "address": "00026353",
         "length": 23,
         "value": "illegal type specified"
     },
     {
-        "address": "000263aa",
+        "address": "0002636a",
         "length": 28,
         "value": "illegal parameter specified"
     },
     {
-        "address": "000263c6",
+        "address": "00026386",
         "length": 14,
         "value": "no 3D support"
     },
     {
-        "address": "000263d4",
+        "address": "00026394",
         "length": 15,
         "value": "no EAX support"
     },
     {
-        "address": "000263e3",
+        "address": "000263a3",
         "length": 22,
         "value": "illegal device number"
     },
     {
-        "address": "000263f9",
+        "address": "000263b9",
         "length": 12,
         "value": "not playing"
     },
     {
-        "address": "00026405",
+        "address": "000263c5",
         "length": 20,
         "value": "illegal sample rate"
     },
     {
-        "address": "00026419",
+        "address": "000263d9",
         "length": 20,
         "value": "invalid file stream"
     },
     {
-        "address": "0002642d",
+        "address": "000263ed",
         "length": 29,
         "value": "no hardware voices available"
     },
     {
-        "address": "0002644a",
+        "address": "0002640a",
         "length": 21,
         "value": "couldn't create file"
     },
     {
-        "address": "0002645f",
+        "address": "0002641f",
         "length": 26,
         "value": "effects are not available"
     },
     {
-        "address": "00026479",
+        "address": "00026439",
         "length": 21,
         "value": "connection timed out"
     },
     {
-        "address": "0002648e",
+        "address": "0002644e",
         "length": 24,
         "value": "unsupported file format"
     },
     {
-        "address": "000264a6",
+        "address": "00026466",
         "length": 20,
         "value": "unavailable speaker"
     },
     {
-        "address": "000264ba",
+        "address": "0002647a",
         "length": 21,
         "value": "invalid BASS version"
     },
     {
-        "address": "000264cf",
+        "address": "0002648f",
         "length": 30,
         "value": "codec not available/supported"
     },
     {
-        "address": "000264ed",
+        "address": "000264ad",
         "length": 15,
         "value": "device is busy"
     },
     {
-        "address": "000264fc",
+        "address": "000264bc",
         "length": 13,
         "value": "unstreamable"
     },
     {
-        "address": "0002650c",
+        "address": "000264cc",
         "length": 43,
         "value": "BASS_Init has not been successfully called"
     },
     {
-        "address": "00026538",
+        "address": "000264f8",
         "length": 44,
         "value": "BASS_Start has not been successfully called"
     },
     {
-        "address": "00026564",
+        "address": "00026524",
         "length": 32,
         "value": "SSL/HTTPS support not available"
     },
     {
-        "address": "00026584",
+        "address": "00026544",
         "length": 36,
         "value": "already initialized/paused/whatever"
     },
     {
-        "address": "000265a8",
+        "address": "00026568",
         "length": 31,
         "value": "MOD music has no sequence data"
     },
     {
-        "address": "000265c8",
+        "address": "00026588",
         "length": 39,
         "value": "no internet connection could be opened"
     },
     {
-        "address": "000265f0",
+        "address": "000265b0",
         "length": 32,
         "value": "requested data is not available"
     },
     {
-        "address": "00026610",
+        "address": "000265d0",
         "length": 31,
         "value": "this is not a decoding channel"
     },
     {
-        "address": "00026630",
+        "address": "000265f0",
         "length": 41,
         "value": "sufficient DirectX version not installed"
     },
     {
-        "address": "0002665c",
+        "address": "0002661c",
         "length": 31,
         "value": "channel/file has already ended"
     },
     {
-        "address": "00026740",
+        "address": "00026700",
         "length": 19,
         "value": "BASS_ERROR_UNKNOWN"
     },
     {
-        "address": "00026753",
+        "address": "00026713",
         "length": 25,
         "value": "Couldn't Init Bass (%s)!"
     },
     {
-        "address": "00026771",
+        "address": "00026731",
         "length": 7,
         "value": "noplay"
     },
     {
-        "address": "0002677d",
+        "address": "0002673d",
         "length": 8,
         "value": "noblock"
     },
     {
-        "address": "00026795",
+        "address": "00026755",
         "length": 14,
         "value": "IGModAudio001"
     },
     {
-        "address": "000267a3",
+        "address": "00026763",
         "length": 8,
         "value": "BASS_OK"
     },
     {
-        "address": "000267ab",
+        "address": "0002676b",
         "length": 15,
         "value": "BASS_ERROR_MEM"
     },
     {
-        "address": "000267ba",
+        "address": "0002677a",
         "length": 20,
         "value": "BASS_ERROR_FILEOPEN"
     },
     {
-        "address": "000267ce",
+        "address": "0002678e",
         "length": 18,
         "value": "BASS_ERROR_DRIVER"
     },
     {
-        "address": "000267e0",
+        "address": "000267a0",
         "length": 19,
         "value": "BASS_ERROR_BUFLOST"
     },
     {
-        "address": "000267f3",
+        "address": "000267b3",
         "length": 18,
         "value": "BASS_ERROR_HANDLE"
     },
     {
-        "address": "00026805",
+        "address": "000267c5",
         "length": 18,
         "value": "BASS_ERROR_FORMAT"
     },
     {
-        "address": "00026817",
+        "address": "000267d7",
         "length": 20,
         "value": "BASS_ERROR_POSITION"
     },
     {
-        "address": "0002682b",
+        "address": "000267eb",
         "length": 16,
         "value": "BASS_ERROR_INIT"
     },
     {
-        "address": "0002683b",
+        "address": "000267fb",
         "length": 17,
         "value": "BASS_ERROR_START"
     },
     {
-        "address": "0002684c",
+        "address": "0002680c",
         "length": 15,
         "value": "BASS_ERROR_SSL"
     },
     {
-        "address": "0002685b",
+        "address": "0002681b",
         "length": 12,
         "value": "BASS_ERROR_"
     },
     {
-        "address": "00026867",
+        "address": "00026827",
         "length": 19,
         "value": "BASS_ERROR_ALREADY"
     },
     {
-        "address": "0002687a",
+        "address": "0002683a",
         "length": 20,
         "value": "BASS_ERROR_NOTAUDIO"
     },
     {
-        "address": "0002688e",
+        "address": "0002684e",
         "length": 18,
         "value": "BASS_ERROR_NOCHAN"
     },
     {
-        "address": "000268a0",
+        "address": "00026860",
         "length": 19,
         "value": "BASS_ERROR_ILLTYPE"
     },
     {
-        "address": "000268b3",
+        "address": "00026873",
         "length": 20,
         "value": "BASS_ERROR_ILLPARAM"
     },
     {
-        "address": "000268c7",
+        "address": "00026887",
         "length": 16,
         "value": "BASS_ERROR_NO3D"
     },
     {
-        "address": "000268d7",
+        "address": "00026897",
         "length": 17,
         "value": "BASS_ERROR_NOEAX"
     },
     {
-        "address": "000268e8",
+        "address": "000268a8",
         "length": 18,
         "value": "BASS_ERROR_DEVICE"
     },
     {
-        "address": "000268fa",
+        "address": "000268ba",
         "length": 18,
         "value": "BASS_ERROR_NOPLAY"
     },
     {
-        "address": "0002690c",
+        "address": "000268cc",
         "length": 16,
         "value": "BASS_ERROR_FREQ"
     },
     {
-        "address": "0002691c",
+        "address": "000268dc",
         "length": 19,
         "value": "BASS_ERROR_NOTFILE"
     },
     {
-        "address": "0002692f",
+        "address": "000268ef",
         "length": 16,
         "value": "BASS_ERROR_NOHW"
     },
     {
-        "address": "0002693f",
+        "address": "000268ff",
         "length": 17,
         "value": "BASS_ERROR_EMPTY"
     },
     {
-        "address": "00026950",
+        "address": "00026910",
         "length": 17,
         "value": "BASS_ERROR_NONET"
     },
     {
-        "address": "00026961",
+        "address": "00026921",
         "length": 18,
         "value": "BASS_ERROR_CREATE"
     },
     {
-        "address": "00026973",
+        "address": "00026933",
         "length": 16,
         "value": "BASS_ERROR_NOFX"
     },
     {
-        "address": "00026983",
+        "address": "00026943",
         "length": 20,
         "value": "BASS_ERROR_NOTAVAIL"
     },
     {
-        "address": "00026997",
+        "address": "00026957",
         "length": 18,
         "value": "BASS_ERROR_DECODE"
     },
     {
-        "address": "000269a9",
+        "address": "00026969",
         "length": 14,
         "value": "BASS_ERROR_DX"
     },
     {
-        "address": "000269b7",
+        "address": "00026977",
         "length": 19,
         "value": "BASS_ERROR_TIMEOUT"
     },
     {
-        "address": "000269ca",
+        "address": "0002698a",
         "length": 20,
         "value": "BASS_ERROR_FILEFORM"
     },
     {
-        "address": "000269de",
+        "address": "0002699e",
         "length": 19,
         "value": "BASS_ERROR_SPEAKER"
     },
     {
-        "address": "000269f1",
+        "address": "000269b1",
         "length": 19,
         "value": "BASS_ERROR_VERSION"
     },
     {
-        "address": "00026a04",
+        "address": "000269c4",
         "length": 17,
         "value": "BASS_ERROR_CODEC"
     },
     {
-        "address": "00026a15",
+        "address": "000269d5",
         "length": 17,
         "value": "BASS_ERROR_ENDED"
     },
     {
-        "address": "00026a26",
+        "address": "000269e6",
         "length": 16,
         "value": "BASS_ERROR_BUSY"
     },
     {
-        "address": "00026a36",
+        "address": "000269f6",
         "length": 24,
         "value": "BASS_ERROR_UNSTREAMABLE"
     },
     {
-        "address": "00026a50",
+        "address": "00026a10",
         "length": 35,
         "value": "BASS_Init failed (%s)! Attempt 1.\n"
     },
     {
-        "address": "00026a74",
+        "address": "00026a34",
         "length": 35,
         "value": "BASS_Init failed (%s)! Attempt 2.\n"
     },
     {
-        "address": "00026a98",
+        "address": "00026a58",
         "length": 35,
         "value": "BASS_Init failed (%s)! Attempt 3.\n"
     },
     {
-        "address": "00026abc",
+        "address": "00026a7c",
         "length": 35,
         "value": "BASS_Init failed (%s)! Attempt 4.\n"
     },
     {
-        "address": "00026ae0",
+        "address": "00026aa0",
         "length": 35,
         "value": "BASS_Init failed (%s)! Attempt 5.\n"
     },
     {
-        "address": "00026b04",
+        "address": "00026ac4",
         "length": 35,
         "value": "BASS_Init failed (%s)! Attempt 6.\n"
     },
     {
-        "address": "00026b28",
+        "address": "00026ae8",
         "length": 34,
         "value": "BASS_StreamCreateURL failed (%s)\n"
     },
     {
-        "address": "00026b4c",
+        "address": "00026b0c",
         "length": 40,
         "value": "BASS_StreamCreateFileUser failed (%s)\n"
     },
     {
-        "address": "00026bd4",
+        "address": "00026b94",
         "length": 17,
         "value": "14IBaseInterface"
     },
     {
-        "address": "00026bf0",
+        "address": "00026bb0",
         "length": 20,
         "value": "17IGModAudioChannel"
     },
     {
-        "address": "00026c10",
+        "address": "00026bd0",
         "length": 14,
         "value": "11IGMod_Audio"
     },
     {
-        "address": "00026c1e",
+        "address": "00026bde",
         "length": 14,
         "value": "11CGMod_Audio"
     },
     {
-        "address": "00026c44",
+        "address": "00026c04",
         "length": 20,
         "value": "17CGModAudioChannel"
     },
     {
-        "address": "00026e77",
+        "address": "00026e37",
         "length": 18,
         "value": "CDLOPEN Error:%s\n"
     },
     {
-        "address": "00026e8d",
+        "address": "00026e4d",
         "length": 13,
         "value": "No such file"
     },
     {
-        "address": "00026e9a",
+        "address": "00026e5a",
         "length": 16,
         "value": "image not found"
     },
     {
-        "address": "00026eaf",
+        "address": "00026e6f",
         "length": 6,
         "value": "%s/%s"
     },
     {
-        "address": "00026eb5",
+        "address": "00026e75",
         "length": 10,
         "value": "%s/bin/%s"
     },
     {
-        "address": "00026ebf",
+        "address": "00026e7f",
         "length": 16,
         "value": "CreateInterface"
     },
     {
-        "address": "00026ed0",
+        "address": "00026e90",
         "length": 31,
         "value": " failed to dlopen %s error=%s\n"
     },
     {
-        "address": "00026eef",
+        "address": "00026eaf",
         "length": 19,
         "value": "16CDllDemandLoader"
     },
     {
-        "address": "00026f20",
+        "address": "00026ee0",
         "length": 17,
         "value": "0123456789ABCDEF"
     },
     {
-        "address": "00026f39",
+        "address": "00026ef9",
         "length": 7,
         "value": " bytes"
     },
     {
-        "address": "00026f45",
+        "address": "00026f05",
         "length": 9,
         "value": "%%.%if%s"
     },
     {
-        "address": "00026f56",
+        "address": "00026f16",
         "length": 8,
         "value": "UCS-2LE"
     },
     {
-        "address": "00026f5e",
+        "address": "00026f1e",
         "length": 8,
         "value": "UCS-4LE"
     },
     {
-        "address": "00026f66",
+        "address": "00026f26",
         "length": 9,
         "value": "UTF-32LE"
     },
     {
-        "address": "00026f6f",
+        "address": "00026f2f",
         "length": 6,
         "value": "UTF-8"
     },
     {
-        "address": "00026f81",
+        "address": "00026f41",
         "length": 9,
         "value": "%A %b %d"
     },
     {
-        "address": "00026fa0",
+        "address": "00026f60",
         "length": 39,
         "value": "V_AppendSlash: ran out of space on %s."
     },
     {
-        "address": "00026fc8",
+        "address": "00026f88",
         "length": 36,
         "value": "V_MakeAbsolutePath: _getcwd failed."
     },
     {
-        "address": "00026fec",
+        "address": "00026fac",
         "length": 49,
         "value": "V_MakeAbsolutePath: tried to \"..\" past the root."
     },
     {
-        "address": "00027020",
+        "address": "00026fe0",
         "length": 71,
         "value": "FATAL ERROR: UtlMemory_CalcNewAllocationCount got to negative values!\n"
     },
     {
-        "address": "00027068",
+        "address": "00027028",
         "length": 53,
         "value": "CUtlMemory::Grow ran out of memory? Alloc Size: %lu\n"
     },
     {
-        "address": "000270f0",
+        "address": "000270b0",
         "length": 15,
         "value": "VEngineCvar004"
     },
     {
-        "address": "000270ff",
+        "address": "000270bf",
         "length": 17,
         "value": "VProcessUtils001"
     },
     {
-        "address": "00027110",
+        "address": "000270d0",
         "length": 15,
         "value": "VFileSystem022"
     },
     {
-        "address": "0002711f",
+        "address": "000270df",
         "length": 19,
         "value": "VMaterialSystem080"
     },
     {
-        "address": "00027132",
+        "address": "000270f2",
         "length": 22,
         "value": "InputSystemVersion001"
     },
     {
-        "address": "00027148",
+        "address": "00027108",
         "length": 24,
         "value": "NetworkSystemVersion001"
     },
     {
-        "address": "00027160",
+        "address": "00027120",
         "length": 20,
         "value": "DebugTextureInfo001"
     },
     {
-        "address": "00027174",
+        "address": "00027134",
         "length": 18,
         "value": "VBAllocTracker001"
     },
     {
-        "address": "00027186",
+        "address": "00027146",
         "length": 26,
         "value": "COLORCORRECTION_VERSION_1"
     },
     {
-        "address": "000271a0",
+        "address": "00027160",
         "length": 7,
         "value": "VP4001"
     },
     {
-        "address": "000271a7",
+        "address": "00027167",
         "length": 11,
         "value": "VMDLLIB001"
     },
     {
-        "address": "000271b2",
+        "address": "00027172",
         "length": 23,
         "value": "QueuedLoaderVersion004"
     },
     {
-        "address": "000271cc",
+        "address": "0002718c",
         "length": 32,
         "value": "MaterialSystemHardwareConfig012"
     },
     {
-        "address": "00027200",
+        "address": "000271c0",
         "length": 17,
         "value": "VStudioRender025"
     },
     {
-        "address": "00027211",
+        "address": "000271d1",
         "length": 14,
         "value": "VGUI_ivgui008"
     },
     {
-        "address": "0002721f",
+        "address": "000271df",
         "length": 14,
         "value": "VGUI_Input005"
     },
     {
-        "address": "0002722d",
+        "address": "000271ed",
         "length": 14,
         "value": "VGUI_Panel009"
     },
     {
-        "address": "0002723b",
+        "address": "000271fb",
         "length": 16,
         "value": "VGUI_Surface030"
     },
     {
-        "address": "0002724b",
+        "address": "0002720b",
         "length": 15,
         "value": "VGUI_Scheme010"
     },
     {
-        "address": "0002725a",
+        "address": "0002721a",
         "length": 15,
         "value": "VGUI_System010"
     },
     {
-        "address": "00027269",
+        "address": "00027229",
         "length": 17,
         "value": "VGUI_Localize005"
     },
     {
-        "address": "0002727a",
+        "address": "0002723a",
         "length": 20,
         "value": "MatSystemSurface008"
     },
     {
-        "address": "0002728e",
+        "address": "0002724e",
         "length": 14,
         "value": "VDataCache003"
     },
     {
-        "address": "0002729c",
+        "address": "0002725c",
         "length": 12,
         "value": "MDLCache004"
     },
     {
-        "address": "000272a8",
-        "length": 18,
-        "value": "IVideoServices002"
-    },
-    {
-        "address": "000272ba",
+        "address": "00027268",
         "length": 21,
         "value": "VDmeMakeFileUtils001"
     },
     {
-        "address": "000272cf",
+        "address": "0002727d",
         "length": 21,
         "value": "VPhysicsCollision007"
     },
     {
-        "address": "000272e4",
+        "address": "00027292",
         "length": 17,
         "value": "VSoundEmitter002"
     },
     {
-        "address": "000272f5",
+        "address": "000272a3",
         "length": 9,
         "value": "VTEX_003"
     },
     {
-        "address": "000283f9",
+        "address": "000283a5",
         "length": 3,
         "value": "zR"
     },
     {
-        "address": "00028545",
+        "address": "000284f1",
         "length": 5,
         "value": "zPLR"
     },
     {
-        "address": "0002b0a1",
+        "address": "0002b04d",
         "length": 5,
         "value": "zPLR"
     },

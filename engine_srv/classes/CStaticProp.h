@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0xEC (236) bytes, no debug info available
+// Estimated minimum size: 0xEC (236) bytes
 
 class CStaticProp : public IClientUnknown, public IClientRenderable, public ICollideable
 {
@@ -149,7 +149,7 @@ public:
 	virtual void GetCollisionScale(); // vtable[20]
 
 	CStaticProp(); // size[253]
-	void Init(int param_1, StaticPropLump_t *param_2, model_t *param_3); // size[1312]
+	void Init(int param_1, StaticPropLump_t *param_2, model_t *param_3); // size[145]
 	void CleanUpRenderHandle(); // size[24]
 	void PrecacheLighting(); // size[5]
 	void RecomputeStaticLighting(); // size[5]

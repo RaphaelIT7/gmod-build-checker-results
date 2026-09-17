@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x182B0 (98992) bytes, no debug info available
+// Estimated minimum size: 0x182B0 (98992) bytes
 
 class CHLTVClientState : public CBaseClientState
 {
@@ -49,7 +49,7 @@ public:
 	virtual void ProcessStringCmd(NET_StringCmd *param_1); // vtable[3]
 	virtual void ProcessSetConVar(NET_SetConVar *param_1); // vtable[4]
 	virtual void ProcessSignonState(NET_SignonState *param_1); // vtable[5]
-	virtual void _ZThn8_NK16CBaseClientState22GetDemoProtocolVersionEv(); // vtable[6]
+	virtual void GetDemoProtocolVersion(); // vtable[6]
 	virtual void ProcessPrint(SVC_Print *param_1); // vtable[7]
 	virtual void ProcessServerInfo(SVC_ServerInfo *param_1); // vtable[8]
 	virtual void ProcessSendTable(SVC_SendTable *param_1); // vtable[9]
@@ -75,8 +75,8 @@ public:
 	virtual void ProcessCmdKeyValues(SVC_CmdKeyValues *param_1); // vtable[29]
 	virtual void ProcessGMod_ServerToClient(SVC_GMod_ServerToClient *param_1); // vtable[30]
 
-	CHLTVClientState(); // size[71]
-	void CopyNewEntity(CEntityReadInfo *param_1, int param_2, int param_3); // size[1230]
+	CHLTVClientState(); // size[91]
+	void CopyNewEntity(CEntityReadInfo *param_1, int param_2, int param_3); // size[1219]
 	void SendClientInfo(); // size[192]
 	void SendPacket(); // size[390]
 	void UpdateStats(); // size[799]

@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x118 (280) bytes, no debug info available
+// Estimated minimum size: 0x118 (280) bytes
 
 class CLC_FileMD5Check : public CNetMessage
 {

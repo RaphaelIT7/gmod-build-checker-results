@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x2C (44) bytes, no debug info available
+// Estimated minimum size: 0x2C (44) bytes
 
 class IVP_Standard_Gravity_Controller : public IVP_Controller_Independent
 {

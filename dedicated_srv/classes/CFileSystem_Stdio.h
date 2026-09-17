@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x2098 (8344) bytes, no debug info available
+// Estimated minimum size: 0x2D20 (11552) bytes
 
 class CFileSystem_Stdio : public CBaseFileSystem
 {
@@ -48,7 +48,7 @@ public:
 	virtual void AsyncAddFetcher(IAsyncFileFetch *param_1); // vtable[45]
 	virtual void AsyncRemoveFetcher(IAsyncFileFetch *param_1); // vtable[46]
 	virtual void AsyncBeginRead(char *param_1, FSAsyncFile_t__ * *param_2); // vtable[47]
-	virtual void _ZN15CBaseFileSystem12AsyncEndReadEP15FSAsyncFile_t__(); // vtable[48]
+	virtual void AsyncEndRead(FSAsyncFile_t__ *param_1); // vtable[48]
 	virtual void AsyncFinish(FSAsyncControl_t__ *param_1, bool param_2); // vtable[49]
 	virtual void AsyncGetResult(FSAsyncControl_t__ *param_1, void * *param_2, int *param_3); // vtable[50]
 	virtual void AsyncAbort(FSAsyncControl_t__ *param_1); // vtable[51]
@@ -180,5 +180,5 @@ public:
 	virtual void UnzipFile(char *param_1, char *param_2, char *param_3); // vtable[16]
 
 	~CFileSystem_Stdio(); // size[25]
-	CFileSystem_Stdio(); // size[10]
+	CFileSystem_Stdio(); // size[76]
 };

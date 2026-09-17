@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x90 (144) bytes, no debug info available
+// Estimated minimum size: 0x90 (144) bytes
 
 class CDataCache : public CTier3AppSystem
 {

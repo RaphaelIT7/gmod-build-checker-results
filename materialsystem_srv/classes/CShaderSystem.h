@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x1F4 (500) bytes, no debug info available
+// Estimated minimum size: 0x1F4 (500) bytes
 
 class CShaderSystem : public IShaderSystemInternal
 {
@@ -41,14 +41,14 @@ public:
 	virtual void IsUsingGraphics(); // vtable[5]
 	virtual void CanUseEditorMaterials(); // vtable[6]
 
-	void LoadCubeMap(IMaterialVar * *param_1, IMaterialVar *param_2, int param_3); // size[291]
+	void LoadCubeMap(IMaterialVar * *param_1, IMaterialVar *param_2, int param_3); // size[333]
 	void UnloadShaderDLL(int param_1); // size[94]
 	void LoadModShaderDLLs(int param_1); // size[516]
 	void VerifyBaseShaderDLL(CSysModule *param_1); // size[5]
 	void FindShaderDLL(char *param_1); // size[84]
 	void UnloadShaderDLL(int param_1); // size[21]
 	void CleanupShaderDictionary(int param_1); // size[5]
-	void BufferSpew(SpewType_t param_1, Color *param_2, char *param_3); // size[1091]
+	void BufferSpew(SpewType_t param_1, Color *param_2, char *param_3); // size[1602]
 	void PrintBufferedSpew(); // size[997]
 	void PrepForShaderDraw(IShader *param_1, IMaterialVar * *param_2, ShaderRenderState_t *param_3, int param_4); // size[37]
 	void DoneWithShaderDraw(); // size[23]
@@ -62,9 +62,9 @@ public:
 	void DrawMeasureFillRate(ShaderRenderState_t *param_1, int param_2, VertexCompressionType_t param_3); // size[104]
 	void DrawNormalMap(IShader *param_1, IMaterialVar * *param_2, VertexCompressionType_t param_3); // size[215]
 	void DrawEnvmapMask(IShader *param_1, IMaterialVar * *param_2, ShaderRenderState_t *param_3, VertexCompressionType_t param_4); // size[552]
-	CShaderSystem(); // size[105]
+	CShaderSystem(); // size[27]
 	void UnloadAllShaderDLLs(); // size[93]
-	void SetupShaderDictionary(int param_1); // size[390]
+	void SetupShaderDictionary(int param_1); // size[377]
 	void LoadAllShaderDLLs(); // size[361]
 	~CShaderSystem(); // size[109]
 };

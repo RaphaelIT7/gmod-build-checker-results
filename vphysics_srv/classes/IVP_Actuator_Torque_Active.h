@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0xCC (204) bytes, no debug info available
+// Estimated minimum size: 0xCC (204) bytes
 
 class IVP_Actuator_Torque_Active : public IVP_Actuator_Torque, public IVP_U_Active_Float_Listener
 {

@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0xBC (188) bytes, no debug info available
+// Estimated minimum size: 0xBC (188) bytes
 
 class ThreadPoolTest_CExecuteTestExecuteJob : public CJob
 {

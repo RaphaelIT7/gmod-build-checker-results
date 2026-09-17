@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x3C (60) bytes, no debug info available
+// Estimated minimum size: 0x3C (60) bytes
 
 class Steamworks_UserPublishedFiles
 {
@@ -7,9 +7,10 @@ public:
 	virtual void Finish(); // vtable[0]
 	virtual void GetMoreFiles(); // vtable[1]
 
-	void OnReceiveFileDetails(SteamUGCQueryCompleted_t *param_1, bool param_2); // size[274]
 	UserPublishedFiles(); // size[101]
-	void Refresh(); // size[162]
+	~UserPublishedFiles(); // size[104]
+	void Refresh(); // size[149]
+	void Ready(); // size[24]
 	void GetCurrentAmount(); // size[11]
-	void OnReceiveFileDetails(SteamUGCQueryCompleted_t *param_1, bool param_2); // size[128]
+	void OnReceiveFileDetails(SteamUGCQueryCompleted_t *param_1, bool param_2); // size[697]
 };

@@ -1,31 +1,30 @@
 // Generated header
-// Estimated minimum size: 0x50 (80) bytes, no debug info available
+// Estimated minimum size: 0x50 (80) bytes
 
 class CAppSystemGroup : public IAppSystemGroup
 {
 public:
 	_GLOBAL__sub_I_CAppSystemGroup(); // size[48]
 	void LoadModuleDLL(char *param_1); // size[22]
-	void UnloadAllModules(); // size[100]
+	void UnloadAllModules(); // size[21]
 	void GetParent(); // size[11]
-	void DisconnectSystems(); // size[65]
-	void ShutdownSystems(); // size[65]
+	void DisconnectSystems(); // size[1]
 	void GetErrorStage(); // size[11]
 	void GetFactory(); // size[10]
-	CAppSystemGroup(CAppSystemGroup *param_1); // size[212]
-	void FindSystem(char *param_1); // size[146]
+	CAppSystemGroup(CAppSystemGroup *param_1); // size[79]
+	void FindSystem(char *param_1); // size[148]
 	void ReportStartupFailure(int param_1, int param_2); // size[156]
 	void ConnectSystems(); // size[100]
 	void InitSystems(); // size[94]
-	void OnStartup(); // size[140]
+	void OnStartup(); // size[25]
 	void Startup(); // size[9]
 	void RemoveAllSystems(); // size[25]
-	void OnShutdown(); // size[186]
+	void OnShutdown(); // size[156]
 	void Run(); // size[73]
 	void Shutdown(); // size[9]
-	void LoadModule(char *param_1); // size[464]
-	void LoadModule(_func_void_ptr_char_ptr_int_ptr *param_1); // size[256]
+	void LoadModule(char *param_1); // size[438]
+	void LoadModule(_func_void_ptr_char_ptr_int_ptr *param_1); // size[239]
 	void AddSystem(int param_1, char *param_2); // size[243]
-	void AddSystems(AppSystemInfo_t *param_1); // size[139]
+	void AddSystems(AppSystemInfo_t *param_1); // size[130]
 	void AddSystem(IAppSystem *param_1, char *param_2); // size[76]
 };

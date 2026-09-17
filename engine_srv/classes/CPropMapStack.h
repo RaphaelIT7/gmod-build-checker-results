@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x124 (292) bytes, no debug info available
+// Estimated minimum size: 0x124 (292) bytes
 
 class CPropMapStack : public CDatatableStack
 {

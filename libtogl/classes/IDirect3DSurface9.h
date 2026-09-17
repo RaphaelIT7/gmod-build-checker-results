@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x44 (68) bytes, no debug info available
+// Estimated minimum size: 0x44 (68) bytes
 
 class IDirect3DSurface9 : public IDirect3DResource9
 {

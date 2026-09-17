@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x2002A68 (33565288) bytes, no debug info available
+// Estimated minimum size: 0x2002A44 (33565252) bytes
 
 class CMaterialSystem : public CTier2AppSystem, public IShaderUtil
 {
@@ -68,7 +68,7 @@ public:
 	virtual void ToggleSuppressMaterial(char *param_1); // vtable[61]
 	virtual void ToggleDebugMaterial(char *param_1); // vtable[62]
 	virtual void UsingFastClipping(); // vtable[63]
-	virtual void _ZN15CMaterialSystem17StencilBufferBitsEv(); // vtable[64]
+	virtual void StencilBufferBits(); // vtable[64]
 	virtual void UncacheAllMaterials(); // vtable[65]
 	virtual void UncacheUnusedMaterials(bool param_1); // vtable[66]
 	virtual void CacheUsedMaterials(); // vtable[67]
@@ -221,11 +221,11 @@ public:
 	void ReloadTextures(CCommand *param_1); // size[17]
 	void ThreadExecuteQueuedContext(CMatQueuedRenderContext *param_1); // size[98]
 	void ReloadMaterials(CCommand *param_1); // size[50]
-	void ReloadTexture(CCommand *param_1); // size[50]
+	void ReloadTexture(CCommand *param_1); // size[53]
 	void DebugPrintUsedMaterials(CCommand *param_1); // size[91]
 	void DebugPrintUsedMaterialsVerbose(CCommand *param_1); // size[91]
 	void ReleaseStandardTextures(); // size[314]
-	void AllocateStandardTextures(); // size[3261]
+	void AllocateStandardTextures(); // size[5876]
 	void CreateDebugMaterials(); // size[1492]
 	void CleanUpDebugMaterials(); // size[210]
 	void DestroyShaderAPI(); // size[74]
@@ -246,10 +246,8 @@ public:
 	void ForceSingleThreaded(); // size[404]
 	void ThreadAcquire(bool param_1); // size[703]
 	void OnRenderingAsyncComplete(); // size[77]
-	~CMaterialSystem(); // size[12]
-	CMaterialSystem(); // size[2022]
-	void ScanDirForReplacements(char *param_1); // size[633]
-	void PreloadReplacements(); // size[196]
-	void ReadConfigFromConVars(MaterialSystem_Config_t *param_1); // size[3868]
-	void WriteConfigIntoConVars(MaterialSystem_Config_t *param_1); // size[1017]
+	~CMaterialSystem(); // size[336]
+	CMaterialSystem(); // size[183]
+	void ReadConfigFromConVars(MaterialSystem_Config_t *param_1); // size[3798]
+	void WriteConfigIntoConVars(MaterialSystem_Config_t *param_1); // size[997]
 };

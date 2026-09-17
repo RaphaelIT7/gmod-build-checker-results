@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x3C (60) bytes, no debug info available
+// Estimated minimum size: 0x3C (60) bytes
 
 class IDirect3DCubeTexture9 : public IDirect3DBaseTexture9
 {
@@ -7,6 +7,6 @@ public:
 	virtual ~IDirect3DCubeTexture9() override; // vtable[0]
 	virtual ~IDirect3DCubeTexture9() override; // vtable[1]
 
-	void GetCubeMapSurface(_D3DCUBEMAP_FACES param_1, uint param_2, IDirect3DSurface9 * *param_3); // size[53]
+	void GetCubeMapSurface(_D3DCUBEMAP_FACES param_1, uint param_2, IDirect3DSurface9 * *param_3); // size[201]
 	void GetLevelDesc(uint param_1, _D3DSURFACE_DESC *param_2); // size[138]
 };

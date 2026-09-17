@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x10 (16) bytes, no debug info available
+// Estimated minimum size: 0x10 (16) bytes
 
 class IVP_U_Set : public IVP_VHash
 {

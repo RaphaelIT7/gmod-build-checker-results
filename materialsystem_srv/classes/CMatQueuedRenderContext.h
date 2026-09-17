@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x558B1454 (1435178068) bytes, no debug info available
+// Estimated minimum size: 0x100024C (16777804) bytes
 
 class CMatQueuedRenderContext : public CMatRenderContextBase
 {
@@ -146,7 +146,7 @@ public:
 	virtual void EndPIXEvent(); // vtable[139]
 	virtual void SetPIXMarker(ulong param_1, char *param_2); // vtable[140]
 	virtual void BeginBatch(IMesh *param_1); // vtable[141]
-	virtual void _ZN23CMatQueuedRenderContext9BindBatchEP5IMeshP9IMaterial(); // vtable[142]
+	virtual void BindBatch(IMesh *param_1, IMaterial *param_2); // vtable[142]
 	virtual void DrawBatch(int param_1, int param_2); // vtable[143]
 	virtual void EndBatch(); // vtable[144]
 	virtual void GetCallQueue(); // vtable[145]
@@ -202,7 +202,7 @@ public:
 	virtual void GMOD_FlushQueue(); // vtable[195]
 	virtual void OverrideBlend(bool param_1, bool param_2, int param_3, int param_4, int param_5); // vtable[196]
 	virtual void OverrideBlendSeparateAlpha(bool param_1, bool param_2, int param_3, int param_4, int param_5); // vtable[197]
-	virtual void _ZN23CMatQueuedRenderContext16GetFogMaxDensityEv(); // vtable[198]
+	virtual void GetFogMaxDensity(); // vtable[198]
 	virtual void GetFloatRenderingParameter(int param_1); // vtable[199]
 	virtual void GetIntRenderingParameter(int param_1); // vtable[200]
 	virtual void GetVectorRenderingParameter(int param_1); // vtable[201]
@@ -240,11 +240,10 @@ public:
 	virtual void CommitRenderTargetAndViewport(); // vtable[233]
 	virtual void OnRenderDataUnreferenced(); // vtable[234]
 
-	~CMatQueuedRenderContext(); // size[6]
+	~CMatQueuedRenderContext(); // size[138]
 	void DeferredDrawPrimList(IMesh *param_1, CPrimList *param_2, int param_3); // size[31]
-	void DeferredSetFlexMesh(IMesh *param_1, int param_2); // size[31]
-	void GMOD_QueueLock(); // size[1]
-	void GMOD_QueueUnlock(); // size[15]
+	void DeferredSetFlexMesh(IMesh *param_1, int param_2); // size[10]
+	void GMOD_QueueUnlock(); // size[180]
 	void DeferredBeginBatch(ushort *param_1, int param_2); // size[741]
 	void Init(CMaterialSystem *param_1, CMatRenderContextBase *param_2); // size[296]
 	void Shutdown(); // size[115]
@@ -253,13 +252,13 @@ public:
 	void BeginQueue(CMatRenderContextBase *param_1); // size[163]
 	void CallQueued(bool param_1); // size[354]
 	void EndQueue(bool param_1); // size[241]
-	void AllocVertices(int param_1, int param_2); // size[98]
+	void AllocVertices(int param_1, int param_2); // size[39]
 	void AllocIndices(int param_1); // size[94]
 	void ReallocVertices(uchar *param_1, int param_2, int param_3, int param_4); // size[74]
 	void ReallocIndices(ushort *param_1, int param_2, int param_3); // size[72]
 	void FreeVertices(uchar *param_1, int param_2, int param_3); // size[5]
 	void FreeIndices(ushort *param_1, int param_2); // size[5]
 	void GMOD_QueueLock(); // size[24]
-	void GMOD_QueueUnlock(); // size[39]
-	void QueueMatrixSync(); // size[443]
+	void GMOD_QueueUnlock(); // size[24]
+	void QueueMatrixSync(); // size[465]
 };

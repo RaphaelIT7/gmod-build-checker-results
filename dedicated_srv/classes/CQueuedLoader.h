@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x2F8 (760) bytes, no debug info available
+// Estimated minimum size: 0x2F8 (760) bytes
 
 class CQueuedLoader : public CTier2AppSystem
 {
@@ -27,19 +27,19 @@ public:
 	virtual ~CQueuedLoader(); // vtable[23]
 	virtual ~CQueuedLoader(); // vtable[24]
 
-	void GetFilename(void *param_1, char *param_2, int param_3); // size[52]
-	void FindFilename(char *param_1); // size[15]
+	void GetFilename(void *param_1, char *param_2, int param_3); // size[47]
+	void FindFilename(char *param_1); // size[20]
 	void PurgeQueue(); // size[5]
 	void SpewInfo(); // size[861]
 	void PurgeUnreferencedResources(); // size[111]
 	void BuildResources(IResourcePreload *param_1, CUtlSortVector *param_2, float *param_3); // size[344]
 	void BuildMaterialResources(IResourcePreload *param_1, CUtlSortVector *param_2, float *param_3); // size[549]
-	void GetJobRequests(); // size[475]
+	void GetJobRequests(); // size[446]
 	void CleanQueue(); // size[368]
 	void AddResourceToTable(char *param_1); // size[596]
-	void ParseResourceList(CUtlBuffer *param_1); // size[497]
+	void ParseResourceList(CUtlBuffer *param_1); // size[444]
 	CQueuedLoader(); // size[615]
-	void SubmitPendingJobs(); // size[1135]
+	void SubmitPendingJobs(); // size[1327]
 	void SubmitBatchedJobs(); // size[362]
 	void SubmitBatchedJobsAndWait(); // size[141]
 };

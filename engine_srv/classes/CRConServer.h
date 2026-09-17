@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x64 (100) bytes, no debug info available
+// Estimated minimum size: 0x64 (100) bytes
 
 class CRConServer : public ISocketCreatorListener
 {
@@ -18,7 +18,7 @@ public:
 	void SetRequestID(uint param_1, int param_2); // size[81]
 	void BCloseAcceptedSocket(uint param_1); // size[97]
 	void SendRCONResponse(int param_1, void *param_2, int param_3, bool param_4); // size[432]
-	void FinishRedirect(char *param_1, netadr_s *param_2); // size[927]
+	void FinishRedirect(char *param_1, netadr_s *param_2); // size[1330]
 	CRConServer(); // size[157]
 	CRConServer(char *param_1); // size[172]
 	~CRConServer(); // size[78]

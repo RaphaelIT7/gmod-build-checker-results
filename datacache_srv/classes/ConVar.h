@@ -1,11 +1,11 @@
 // Generated header
-// Estimated minimum size: 0x4C (76) bytes, no debug info available
+// Estimated minimum size: 0x4C (76) bytes
 
 class ConVar : public ConCommandBase, public IConVar
 {
 public:
 	virtual ~ConVar() override; // vtable[0]
-	virtual ~ConVar() override; // vtable[1]
+	virtual void _ZN6ConVarD0Ev() override; // vtable[1]
 	virtual void IsCommand() override; // vtable[2]
 	virtual void IsFlagSet(int param_1) override; // vtable[3]
 	virtual void AddFlags(int param_1) override; // vtable[4]
@@ -31,12 +31,12 @@ public:
 	virtual void IsFlagSet(int param_1); // vtable[4]
 
 	void GetInt(); // size[59]
-	ConVar(char *param_1, char *param_2, int param_3); // size[46]
-	ConVar(char *param_1, char *param_2, int param_3, char *param_4); // size[89]
-	ConVar(char *param_1, char *param_2, int param_3, char *param_4, bool param_5, float param_6, bool param_7, float param_8); // size[25]
-	ConVar(char *param_1, char *param_2, int param_3, char *param_4, _func_void_IConVar_ptr_char_ptr_float *param_5); // size[133]
-	ConVar(char *param_1, char *param_2, int param_3, char *param_4, bool param_5, float param_6, bool param_7, float param_8, _func_void_IConVar_ptr_char_ptr_float *param_9); // size[76]
-	void InstallChangeCallback(_func_void_IConVar_ptr_char_ptr_float *param_1); // size[56]
+	ConVar(char *param_1, char *param_2, int param_3); // size[147]
+	ConVar(char *param_1, char *param_2, int param_3, char *param_4); // size[146]
+	ConVar(char *param_1, char *param_2, int param_3, char *param_4, bool param_5, float param_6, bool param_7, float param_8); // size[156]
+	ConVar(char *param_1, char *param_2, int param_3, char *param_4, _func_void_IConVar_ptr_char_ptr_float *param_5); // size[145]
+	ConVar(char *param_1, char *param_2, int param_3, char *param_4, bool param_5, float param_6, bool param_7, float param_8, _func_void_IConVar_ptr_char_ptr_float *param_9); // size[155]
+	void InstallChangeCallback(_func_void_IConVar_ptr_char_ptr_float *param_1); // size[38]
 	void Revert(); // size[29]
 	void GetMin(float *param_1); // size[30]
 	void GetMax(float *param_1); // size[30]

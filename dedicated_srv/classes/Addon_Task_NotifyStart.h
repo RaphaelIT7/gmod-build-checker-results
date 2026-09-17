@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x8 (8) bytes, no debug info available
+// Estimated minimum size: 0x8 (8) bytes
 
 class Addon_Task_NotifyStart : public Addon_Job_Base
 {

@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x2002A04 (33565188) bytes, no debug info available
+// Estimated minimum size: 0x20029E0 (33565152) bytes
 
 class CMatRenderContext : public CMatRenderContextBase
 {
@@ -58,7 +58,7 @@ public:
 	virtual void SetNumBoneWeights(int param_1); // vtable[51]
 	virtual void CreateStaticMesh(ulonglong param_1, char *param_2, IMaterial *param_3); // vtable[52]
 	virtual void DestroyStaticMesh(IMesh *param_1); // vtable[53]
-	virtual void GetDynamicMesh(bool param_1, IMesh *param_2, IMesh *param_3, IMaterial *param_4); // vtable[54]
+	virtual void _ZN17CMatRenderContext14GetDynamicMeshEbP5IMeshS1_P9IMaterial(); // vtable[54]
 	virtual void CreateStaticVertexBuffer(ulonglong param_1, int param_2, char *param_3); // vtable[55]
 	virtual void CreateStaticIndexBuffer(MaterialIndexFormat_t param_1, int param_2, char *param_3); // vtable[56]
 	virtual void DestroyVertexBuffer(IVertexBuffer *param_1); // vtable[57]
@@ -244,7 +244,7 @@ public:
 
 	~CMatRenderContext(); // size[202]
 	void SetFlashlightStateEx(FlashlightState_t *param_1, VMatrix *param_2, ITexture *param_3); // size[527]
-	void Init(CMaterialSystem *param_1); // size[92]
+	void Init(CMaterialSystem *param_1); // size[95]
 	void Shutdown(); // size[77]
 	void OnReleaseShaderObjects(); // size[15]
 	void TestMatrixSync(MaterialMatrixMode_t param_1); // size[10]

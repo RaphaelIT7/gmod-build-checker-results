@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x104 (260) bytes, no debug info available
+// Estimated minimum size: 0x104 (260) bytes
 
 class CCvar : public ICvar
 {

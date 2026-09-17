@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0xC (12) bytes, no debug info available
+// Estimated minimum size: 0xC (12) bytes
 
 class Addon_Task_DownloadAddons : public Addon_Job_Base
 {
@@ -12,5 +12,5 @@ public:
 	virtual void Init(FileSystem *param_1); // vtable[5]
 
 	_GLOBAL__sub_I_DownloadAddons(); // size[91]
-	DownloadAddons(bool param_1); // size[3]
+	DownloadAddons(bool param_1); // size[16]
 };

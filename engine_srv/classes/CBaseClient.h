@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x688 (1672) bytes, no debug info available
+// Estimated minimum size: 0x684 (1668) bytes
 
 class CBaseClient : public IGameEventListener2, public IClient, public IClientMessageHandler
 {
@@ -91,7 +91,7 @@ public:
 	void CheckFlushNameChange(); // size[232]
 	void ClientRequestNameChange(char *param_1); // size[52]
 	void ProcessSetConVar(NET_SetConVar *param_1); // size[10]
-	void OnRequestFullUpdate(); // size[191]
+	void OnRequestFullUpdate(); // size[349]
 	void GetNetworkIDString(); // size[7]
 	void SetSteamID(CSteamID *param_1); // size[28]
 	void OnSignonStateFull(); // size[5]
@@ -101,11 +101,11 @@ public:
 	void Disconnect(char *param_1); // size[10]
 	void Clear(); // size[10]
 	void Inactivate(); // size[10]
-	void EndTrace(bf_write *param_1); // size[895]
+	void EndTrace(bf_write *param_1); // size[1073]
 	~CBaseClient(); // size[10]
 	~CBaseClient(); // size[7]
-	void TraceNetworkData(bf_write & null, char const *null, ... null); // size[269]
-	void TraceNetworkMsg(int null, char const *null, ... null); // size[239]
+	void TraceNetworkData(bf_write & null, char const *null, ... null); // size[425]
+	void TraceNetworkMsg(int null, char const *null, ... null); // size[395]
 	void SendNetMsg(INetMessage *param_1, bool param_2); // size[10]
 	void GetPlayerSlot(); // size[7]
 	void GetUserID(); // size[7]

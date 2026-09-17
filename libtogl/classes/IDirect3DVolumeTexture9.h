@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x54 (84) bytes, no debug info available
+// Estimated minimum size: 0x44 (68) bytes
 
 class IDirect3DVolumeTexture9 : public IDirect3DBaseTexture9
 {
@@ -9,5 +9,5 @@ public:
 
 	void LockBox(uint param_1, _D3DLOCKED_BOX *param_2, _D3DBOX *param_3, uint param_4); // size[136]
 	void UnlockBox(uint param_1); // size[56]
-	void GetLevelDesc(uint param_1, _D3DVOLUME_DESC *param_2); // size[193]
+	void GetLevelDesc(uint param_1, _D3DVOLUME_DESC *param_2); // size[24]
 };

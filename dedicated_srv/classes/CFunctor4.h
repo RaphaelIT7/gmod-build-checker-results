@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x24 (36) bytes, no debug info available
+// Estimated minimum size: 0x24 (36) bytes
 
 class CFunctor4 : public CRefCounted1
 {

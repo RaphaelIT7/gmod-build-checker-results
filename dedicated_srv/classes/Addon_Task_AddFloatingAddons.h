@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x8 (8) bytes, no debug info available
+// Estimated minimum size: 0x8 (8) bytes
 
 class Addon_Task_AddFloatingAddons : public Addon_Job_Base
 {
@@ -12,5 +12,5 @@ public:
 	virtual void Init(FileSystem *param_1); // vtable[5]
 
 	_GLOBAL__sub_I_AddFloatingAddons(); // size[91]
-	AddFloatingAddons(); // size[14]
+	AddFloatingAddons(); // size[21]
 };

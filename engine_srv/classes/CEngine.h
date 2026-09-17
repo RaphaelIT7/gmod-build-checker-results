@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x38 (56) bytes, no debug info available
+// Estimated minimum size: 0x34 (52) bytes
 
 class CEngine : public IEngine
 {
@@ -16,6 +16,6 @@ public:
 	virtual void GetQuitting(); // vtable[9]
 	virtual void SetQuitting(int param_1); // vtable[10]
 
-	CEngine(); // size[76]
-	void FilterTime(float param_1); // size[428]
+	CEngine(); // size[66]
+	void FilterTime(float param_1); // size[440]
 };

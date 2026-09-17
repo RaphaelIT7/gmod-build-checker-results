@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x10 (16) bytes, no debug info available
+// Estimated minimum size: 0x10 (16) bytes
 
 class Addon_Task_MountAvailable : public Addon_Job_Base
 {
@@ -12,5 +12,5 @@ public:
 	virtual void Init(FileSystem *param_1); // vtable[5]
 
 	_GLOBAL__sub_I_MountAvailable(); // size[91]
-	MountAvailable(); // size[25]
+	MountAvailable(); // size[32]
 };

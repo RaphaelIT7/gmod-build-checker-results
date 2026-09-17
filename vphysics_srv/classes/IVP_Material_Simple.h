@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x34 (52) bytes, no debug info available
+// Estimated minimum size: 0x34 (52) bytes
 
 class IVP_Material_Simple : public IVP_Material
 {

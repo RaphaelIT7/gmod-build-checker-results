@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x140 (320) bytes, no debug info available
+// Estimated minimum size: 0x140 (320) bytes
 
 class CSpatialPartition : public ISpatialPartitionInternal
 {

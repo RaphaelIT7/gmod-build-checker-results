@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x1C (28) bytes, no debug info available
+// Estimated minimum size: 0x1C (28) bytes
 
 class IVP_Anchor_Check_Dist : public IVP_Listener_Hull
 {

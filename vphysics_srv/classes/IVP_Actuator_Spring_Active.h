@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0xD4 (212) bytes, no debug info available
+// Estimated minimum size: 0xD4 (212) bytes
 
 class IVP_Actuator_Spring_Active : public IVP_Actuator_Spring, public IVP_U_Active_Float_Listener
 {

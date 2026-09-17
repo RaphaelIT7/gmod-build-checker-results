@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x41EDDC38 (1106107448) bytes, no debug info available
+// Estimated minimum size: 0x160 (352) bytes
 
 class CBaseServer : public IServer
 {
@@ -77,17 +77,17 @@ public:
 	void ValidInfoChallenge(netadr_s *param_1, char *param_2); // size[123]
 	void InactivateClients(); // size[140]
 	void ReconnectClients(); // size[150]
-	void CheckTimeouts(); // size[394]
-	void UpdateUserSettings(); // size[157]
-	void SendPendingServerInfo(); // size[277]
+	void CheckTimeouts(); // size[552]
+	void UpdateUserSettings(); // size[315]
+	void SendPendingServerInfo(); // size[435]
 	void SetMasterServerRulesDirty(); // size[15]
 	void GetFinalTickTime(); // size[53]
 	void GetInstanceBaselineTable(); // size[60]
 	void GetLightStyleTable(); // size[60]
 	void GetUserInfoTable(); // size[64]
-	void GetClassBaseline(ServerClass *param_1, void * *param_2, int *param_3); // size[127]
+	void GetClassBaseline(ServerClass *param_1, void * *param_2, int *param_3); // size[348]
 	void CompressPackedEntity(ServerClass *param_1, char *param_2, int *param_3); // size[175]
-	void UncompressPackedEntity(PackedEntity *param_1, int *param_2); // size[331]
+	void UncompressPackedEntity(PackedEntity *param_1, int *param_2); // size[548]
 	void CheckMasterServerRequestRestart(); // size[178]
 	void UpdateMasterServerRules(); // size[189]
 	void ForwardPacketsFromMasterServerUpdater(); // size[307]
@@ -95,6 +95,6 @@ public:
 	void RemoveTag(char *param_1); // size[5]
 	CBaseServer(); // size[428]
 	void RecalculateTags(); // size[134]
-	void UpdateMasterServer(); // size[333]
-	void RunFrame(); // size[259]
+	void UpdateMasterServer(); // size[697]
+	void RunFrame(); // size[156]
 };

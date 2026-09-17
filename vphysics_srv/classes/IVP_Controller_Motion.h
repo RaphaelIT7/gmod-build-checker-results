@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x8C (140) bytes, no debug info available
+// Estimated minimum size: 0x8C (140) bytes
 
 class IVP_Controller_Motion : public IVP_Controller_Independent
 {

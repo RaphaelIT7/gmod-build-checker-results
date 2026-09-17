@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x98 (152) bytes, no debug info available
+// Estimated minimum size: 0x98 (152) bytes
 
 class CBSPTreeData : public IBSPTreeData, public ISpatialLeafEnumerator
 {
@@ -31,11 +31,15 @@ public:
 	virtual void caseD_1(); // vtable[10]
 	virtual void caseD_2(); // vtable[11]
 	virtual void caseD_3(); // vtable[12]
+	virtual void caseD_4(); // vtable[13]
+	virtual void caseD_5(); // vtable[14]
+	virtual void caseD_6(); // vtable[15]
+	virtual void caseD_7(); // vtable[16]
 
 	void InsertIntoTree(ushort param_1, Vector *param_2, Vector *param_3); // size[59]
 	void CountElementsInLeaf(int param_1); // size[53]
 	CBSPTreeData(); // size[281]
 	void RemoveFromTree(ushort param_1); // size[210]
-	void AddHandleToLeaf(int param_1, ushort param_2); // size[790]
-	void NewHandle(int param_1); // size[350]
+	void AddHandleToLeaf(int param_1, ushort param_2); // size[819]
+	void NewHandle(int param_1); // size[358]
 };

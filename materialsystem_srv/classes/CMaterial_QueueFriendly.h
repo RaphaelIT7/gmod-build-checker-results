@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x1A0 (416) bytes, no debug info available
+// Estimated minimum size: 0x1A0 (416) bytes
 
 class CMaterial_QueueFriendly : public IMaterialInternal
 {
@@ -10,7 +10,7 @@ public:
 	virtual void GetPreviewImage(uchar *param_1, int param_2, int param_3, ImageFormat param_4); // vtable[3]
 	virtual void GetMappingWidth(); // vtable[4]
 	virtual void GetMappingHeight(); // vtable[5]
-	virtual void _ZN23CMaterial_QueueFriendly21GetNumAnimationFramesEv(); // vtable[6]
+	virtual void GetNumAnimationFrames(); // vtable[6]
 	virtual void InMaterialPage(); // vtable[7]
 	virtual void GetMaterialOffset(float *param_1); // vtable[8]
 	virtual void GetMaterialScale(float *param_1); // vtable[9]
@@ -27,7 +27,7 @@ public:
 	virtual void GetVertexFormat(); // vtable[20]
 	virtual void HasProxy(); // vtable[21]
 	virtual void UsesEnvCubemap(); // vtable[22]
-	virtual void _ZN23CMaterial_QueueFriendly17NeedsTangentSpaceEv(); // vtable[23]
+	virtual void NeedsTangentSpace(); // vtable[23]
 	virtual void NeedsPowerOfTwoFrameBufferTexture(bool param_1); // vtable[24]
 	virtual void NeedsFullFrameBufferTexture(bool param_1); // vtable[25]
 	virtual void NeedsSoftwareSkinning(); // vtable[26]
@@ -41,7 +41,7 @@ public:
 	virtual void SetShader(char *param_1); // vtable[34]
 	virtual void GetNumPasses(); // vtable[35]
 	virtual void GetTextureMemoryBytes(); // vtable[36]
-	virtual void _ZN23CMaterial_QueueFriendly7RefreshEv(); // vtable[37]
+	virtual void Refresh(); // vtable[37]
 	virtual void NeedsLightmapBlendAlpha(); // vtable[38]
 	virtual void NeedsSoftwareLighting(); // vtable[39]
 	virtual void ShaderParamCount(); // vtable[40]

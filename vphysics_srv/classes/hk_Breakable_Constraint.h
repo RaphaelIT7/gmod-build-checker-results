@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x30 (48) bytes, no debug info available
+// Estimated minimum size: 0x30 (48) bytes
 
 class hk_Breakable_Constraint : public hk_Constraint
 {

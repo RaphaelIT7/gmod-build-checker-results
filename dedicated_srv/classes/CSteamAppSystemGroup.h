@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x58 (88) bytes, no debug info available
+// Estimated minimum size: 0x58 (88) bytes
 
 class CSteamAppSystemGroup : public CAppSystemGroup
 {

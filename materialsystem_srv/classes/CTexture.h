@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x2163C24 (35011620) bytes, no debug info available
+// Estimated minimum size: 0x2162B24 (35007268) bytes
 
 class CTexture : public ITextureInternal
 {
@@ -82,8 +82,8 @@ public:
 	void InitRenderTarget(char *param_1, int param_2, int param_3, RenderTargetSizeMode_t param_4, ImageFormat param_5, RenderTargetType_t param_6, uint param_7, uint param_8); // size[519]
 	void HasBeenAllocated(); // size[16]
 	void LoadLowResTexture(IVTFTexture *param_1); // size[222]
-	void GenerateShowMipLevelsTextures(IVTFTexture *param_1); // size[2727]
-	void CopyLowResImageToTexture(IVTFTexture *param_1); // size[1616]
+	void GenerateShowMipLevelsTextures(IVTFTexture *param_1); // size[2432]
+	void CopyLowResImageToTexture(IVTFTexture *param_1); // size[1590]
 	void SetupDebuggingTextures(IVTFTexture *param_1); // size[258]
 	void ConvertToActualFormat(IVTFTexture *param_1, bool param_2); // size[208]
 	void GetFilename(char *param_1, int param_2); // size[83]
@@ -100,7 +100,7 @@ public:
 	void NotifyUnloadedFile(); // size[193]
 	void Shutdown(); // size[137]
 	CTexture(); // size[298]
-	void LoadTextureBitsFromFile(char *param_1, char * *param_2, bool param_3); // size[634]
+	void LoadTextureBitsFromFile(char *param_1, char * *param_2, bool param_3); // size[721]
 	void ReconstructTexture(); // size[834]
 	void DownloadTexture(Rect_t *param_1); // size[105]
 };

@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x9C (156) bytes, no debug info available
+// Estimated minimum size: 0x9C (156) bytes
 
 class CThreadAcquire : public CJob
 {

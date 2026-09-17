@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x4148 (16712) bytes, no debug info available
+// Estimated minimum size: 0x4148 (16712) bytes
 
 class CPropCullStack : public CDatatableStack
 {

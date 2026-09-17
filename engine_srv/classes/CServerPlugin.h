@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x1C (28) bytes, no debug info available
+// Estimated minimum size: 0x1C (28) bytes
 
 class CServerPlugin : public IServerPluginHelpers
 {
@@ -28,8 +28,8 @@ public:
 	void EnablePlugins(); // size[61]
 	void DisablePlugin(int param_1); // size[42]
 	void EnablePlugin(int param_1); // size[42]
-	void PrintDetails(); // size[101]
-	void UnloadPlugins(); // size[51]
+	void PrintDetails(); // size[128]
+	void UnloadPlugins(); // size[15]
 	void UnloadPlugin(int param_1); // size[78]
 	~CServerPlugin(); // size[55]
 	void LoadPlugin(char *param_1); // size[24]

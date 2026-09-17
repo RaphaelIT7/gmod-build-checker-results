@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x1A0 (416) bytes, no debug info available
+// Estimated minimum size: 0x1A0 (416) bytes
 
 class IMaterialInternal : public IMaterial
 {

@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x18 (24) bytes, no debug info available
+// Estimated minimum size: 0x18 (24) bytes
 
 class Addon_Task_OnSubscribed : public Addon_Job_Base, public Steamworks_FileDetails_Receiver
 {
@@ -14,5 +14,5 @@ public:
 	virtual void OnReceiveFileInfo(Request *param_1); // vtable[0]
 
 	_GLOBAL__sub_I_OnSubscribed(); // size[91]
-	OnSubscribed(ulonglong param_1); // size[37]
+	OnSubscribed(ulonglong param_1); // size[44]
 };

@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0xD0 (208) bytes, no debug info available
+// Estimated minimum size: 0xD0 (208) bytes
 
 class CFileAsyncWriteFileJob : public CFileAsyncWriteJob
 {

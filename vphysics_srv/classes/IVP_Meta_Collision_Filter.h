@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x14 (20) bytes, no debug info available
+// Estimated minimum size: 0x14 (20) bytes
 
 class IVP_Meta_Collision_Filter : public IVP_Collision_Filter
 {

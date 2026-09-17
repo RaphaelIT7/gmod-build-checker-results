@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x14C (332) bytes, no debug info available
+// Estimated minimum size: 0x14C (332) bytes
 
 class CCollisionSolver : public IVP_Collision_Filter, public IVP_Anomaly_Manager
 {

@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x1AC (428) bytes, no debug info available
+// Estimated minimum size: 0x1AC (428) bytes
 
 class IVP_Constraint_Local : public IVP_Constraint
 {

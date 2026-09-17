@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x94 (148) bytes, no debug info available
+// Estimated minimum size: 0x94 (148) bytes
 
 class CKeyValuesSystem : public IKeyValuesSystem
 {

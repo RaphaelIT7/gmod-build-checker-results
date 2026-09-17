@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x50 (80) bytes, no debug info available
+// Estimated minimum size: 0x50 (80) bytes
 
 class CAppSystemGroup : public IAppSystemGroup
 {
@@ -9,7 +9,7 @@ public:
 	void LoadModuleDLL(char *param_1); // size[22]
 	void UnloadAllModules(); // size[100]
 	void GetParent(); // size[11]
-	void DisconnectSystems(); // size[18]
+	void DisconnectSystems(); // size[65]
 	void ShutdownSystems(); // size[65]
 	void GetErrorStage(); // size[11]
 	void GetFactory(); // size[10]
@@ -28,5 +28,5 @@ public:
 	void LoadModule(_func_void_ptr_char_ptr_int_ptr *param_1); // size[269]
 	void AddSystem(int param_1, char *param_2); // size[243]
 	void AddSystems(AppSystemInfo_t *param_1); // size[139]
-	void AddSystem(IAppSystem *param_1, char *param_2); // size[76]
+	void AddSystem(IAppSystem *param_1, char *param_2); // size[67]
 };

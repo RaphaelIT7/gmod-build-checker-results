@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x30 (48) bytes, no debug info available
+// Estimated minimum size: 0x30 (48) bytes
 
 class IVP_OV_Element : public IVP_Listener_Hull
 {
