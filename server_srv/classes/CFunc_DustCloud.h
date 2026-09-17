@@ -1,4 +1,5 @@
 // Generated header
+// Estimated minimum size: 0x13E0 (5088) bytes
 
 class CFunc_DustCloud : public CFunc_Dust
 {

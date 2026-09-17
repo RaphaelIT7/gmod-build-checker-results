@@ -1,4 +1,5 @@
 // Generated header
+// Estimated minimum size: 0x13B8 (5048) bytes
 
 class CVehicleCargoTrigger : public CBaseEntity
 {

@@ -1,4 +1,5 @@
 // Generated header
+// Estimated minimum size: 0x1588 (5512) bytes
 
 class CEnvEffectsScript : public CBaseAnimating
 {

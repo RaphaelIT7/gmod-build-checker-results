@@ -1,4 +1,5 @@
 // Generated header
+// Estimated minimum size: 0x30 (48) bytes
 
 class CPhysCollideVirtualMesh : public CPhysCollide
 {

@@ -1,4 +1,5 @@
 // Generated header
+// Estimated minimum size: 0x78 (120) bytes
 
 class CFailableAchievement : public CBaseAchievement
 {
@@ -14,7 +15,6 @@ public:
 	virtual void GetDataDescMap() override; // vtable[36]
 	virtual void OnActivationEvent(); // vtable[37]
 	virtual void OnEvaluationEvent(); // vtable[38]
-	virtual void __cxa_pure_virtual(); // vtable[40]
 
 	void ShouldSaveWithGame(); // size[7]
 	void GetBaseMap(); // size[10]

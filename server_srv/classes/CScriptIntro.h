@@ -1,4 +1,5 @@
 // Generated header
+// Estimated minimum size: 0x143C (5180) bytes
 
 class CScriptIntro : public CBaseEntity
 {

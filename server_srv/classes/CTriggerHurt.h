@@ -1,4 +1,5 @@
 // Generated header
+// Estimated minimum size: 0x1544 (5444) bytes
 
 class CTriggerHurt : public CBaseTrigger
 {

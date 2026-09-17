@@ -1,4 +1,5 @@
 // Generated header
+// Estimated minimum size: 0x1654 (5716) bytes
 
 class CFuncTankCombineCannon : public CFuncTankGun
 {

@@ -1,4 +1,5 @@
 // Generated header
+// Estimated minimum size: 0x1688 (5768) bytes
 
 class CWeaponHL2MPBase : public CBaseCombatWeapon
 {

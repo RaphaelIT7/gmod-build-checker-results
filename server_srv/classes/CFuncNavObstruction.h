@@ -1,11 +1,11 @@
 // Generated header
+// Estimated minimum size: 0x13B8 (5048) bytes
 
 class CFuncNavObstruction : public CBaseEntity, public INavAvoidanceObstacle
 {
 public:
 	virtual ~CFuncNavObstruction() override; // vtable[0]
 	virtual ~CFuncNavObstruction() override; // vtable[1]
-	virtual void GetCollideable() override; // vtable[4]
 	virtual void GetDataDescMap() override; // vtable[12]
 	virtual void Spawn() override; // vtable[23]
 	virtual void DrawDebugTextOverlays() override; // vtable[40]
@@ -15,15 +15,15 @@ public:
 	virtual void CanObstructNavAreas(); // vtable[248]
 	virtual void GetObstructingEntity(); // vtable[249]
 	virtual void OnNavMeshLoaded(); // vtable[250]
+	virtual void IsPotentiallyAbleToObstructNavAreas(); // vtable[0]
+	virtual void GetNavObstructionHeight(); // vtable[1]
+	virtual void CanObstructNavAreas(); // vtable[2]
+	virtual void GetObstructingEntity(); // vtable[3]
+	virtual void OnNavMeshLoaded(); // vtable[4]
 
 	void GetBaseMap(); // size[10]
 	void InputDisable(inputdata_t *param_1); // size[35]
 	void operator()(CNavArea *param_1); // size[52]
 	void ObstructNavAreas(); // size[746]
 	void InputEnable(inputdata_t *param_1); // size[52]
-	void IsPotentiallyAbleToObstructNavAreas(); // size[10]
-	void GetNavObstructionHeight(); // size[10]
-	void CanObstructNavAreas(); // size[10]
-	void GetObstructingEntity(); // size[10]
-	void OnNavMeshLoaded(); // size[10]
 };

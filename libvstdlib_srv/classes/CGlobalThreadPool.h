@@ -1,4 +1,5 @@
 // Generated header
+// Estimated minimum size: 0x17C (380) bytes
 
 class CGlobalThreadPool : public CThreadPool
 {
@@ -7,8 +8,7 @@ public:
 	virtual ~CGlobalThreadPool() override; // vtable[3]
 	virtual void Start(ThreadPoolStartParams_t *param_1) override; // vtable[4]
 	virtual void OnFinalRelease(); // vtable[25]
-
-	void OnFinalRelease(); // size[7]
-	~CGlobalThreadPool(); // size[10]
-	~CGlobalThreadPool(); // size[7]
+	virtual ~CGlobalThreadPool(); // vtable[0]
+	virtual ~CGlobalThreadPool(); // vtable[1]
+	virtual void OnFinalRelease(); // vtable[2]
 };

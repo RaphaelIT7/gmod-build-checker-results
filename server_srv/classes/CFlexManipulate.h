@@ -1,4 +1,5 @@
 // Generated header
+// Estimated minimum size: 0x1534 (5428) bytes
 
 class CFlexManipulate : public CBaseEntity
 {

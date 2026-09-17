@@ -1,4 +1,5 @@
 // Generated header
+// Estimated minimum size: 0x13B4 (5044) bytes
 
 class CDecal : public CPointEntity
 {
@@ -15,5 +16,4 @@ public:
 	void TriggerDecal(CBaseEntity *param_1, CBaseEntity *param_2, USE_TYPE param_3, float param_4); // size[366]
 	void InputActivate(inputdata_t *param_1); // size[51]
 	void GetBaseMap(); // size[10]
-	void ShouldHitEntity(IHandleEntity *param_1, int param_2); // size[157]
 };

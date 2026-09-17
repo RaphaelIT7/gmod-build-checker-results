@@ -1,4 +1,5 @@
 // Generated header
+// Estimated minimum size: 0x1694 (5780) bytes
 
 class CWeaponEgon : public CBaseHL1MPCombatWeapon
 {

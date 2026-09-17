@@ -1,4 +1,5 @@
 // Generated header
+// Estimated minimum size: 0x14B0 (5296) bytes
 
 class CWallHealth : public CBaseToggle
 {

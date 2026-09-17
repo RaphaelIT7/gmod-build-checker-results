@@ -1,4 +1,5 @@
 // Generated header
+// Estimated minimum size: 0x1564 (5476) bytes
 
 class CRotDoor : public CBaseDoor
 {

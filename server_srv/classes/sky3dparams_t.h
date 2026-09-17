@@ -1,4 +1,5 @@
 // Generated header
+// Estimated minimum size: 0x4 (4) bytes
 
 class sky3dparams_t
 {
@@ -7,6 +8,4 @@ public:
 	virtual void NetworkStateChanged(void *param_1); // vtable[1]
 
 	void GetBaseMap(); // size[7]
-	void NetworkStateChanged(); // size[20]
-	void NetworkStateChanged(void *param_1); // size[21]
 };

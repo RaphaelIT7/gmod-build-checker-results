@@ -1,4 +1,5 @@
 // Generated header
+// Estimated minimum size: 0x140C (5132) bytes
 
 class CFogController : public CBaseEntity
 {
@@ -34,6 +35,4 @@ public:
 	void InputStartFogTransition(inputdata_t *param_1); // size[67]
 	void GetBaseMap(); // size[10]
 	CFogController(); // size[33]
-	void NetworkStateChanged(); // size[53]
-	void NetworkStateChanged(void *param_1); // size[84]
 };

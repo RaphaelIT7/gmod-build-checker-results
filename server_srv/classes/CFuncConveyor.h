@@ -1,4 +1,5 @@
 // Generated header
+// Estimated minimum size: 0x13C4 (5060) bytes
 
 class CFuncConveyor : public CFuncWall
 {

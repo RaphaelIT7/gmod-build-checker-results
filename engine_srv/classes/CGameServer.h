@@ -1,4 +1,5 @@
 // Generated header
+// Estimated minimum size: 0x32210 (205328) bytes
 
 class CGameServer : public CBaseServer
 {

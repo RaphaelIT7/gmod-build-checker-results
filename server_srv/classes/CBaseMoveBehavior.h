@@ -1,4 +1,5 @@
 // Generated header
+// Estimated minimum size: 0x1418 (5144) bytes
 
 class CBaseMoveBehavior : public CPathKeyFrame
 {

@@ -1,4 +1,5 @@
 // Generated header
+// Estimated minimum size: 0x13EC (5100) bytes
 
 class CPathTrack : public CPointEntity
 {

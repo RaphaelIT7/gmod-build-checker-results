@@ -1,4 +1,5 @@
 // Generated header
+// Estimated minimum size: 0x13C0 (5056) bytes
 
 class CBubbling : public CBaseEntity
 {

@@ -1,8 +1,8 @@
 // Generated header
+// Estimated minimum size: 0x4 (4) bytes
 
 class ITraceFilter
 {
 public:
-	virtual void __cxa_pure_virtual(); // vtable[1]
-	virtual void ShouldHitClientEntities(); // vtable[2]
+	void ShouldHitClientEntities(); // size[7]
 };

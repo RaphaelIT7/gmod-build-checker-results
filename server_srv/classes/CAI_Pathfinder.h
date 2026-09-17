@@ -1,4 +1,5 @@
 // Generated header
+// Estimated minimum size: 0x10008 (65544) bytes
 
 class CAI_Pathfinder : public CAI_Component
 {
@@ -34,12 +35,7 @@ public:
 	void BuildRoute(Vector *param_1, Vector *param_2, CBaseEntity *param_3, float param_4, Navigation_t param_5, bool param_6); // size[384]
 	void UnlockRouteNodes(AI_Waypoint_t *param_1); // size[115]
 	void BuildNearestNodeRoute(Vector *param_1, bool param_2, int param_3, float param_4, int *param_5); // size[131]
-	void Draw(int param_1); // size[153]
 	void DrawDebugGeometryOverlays(int param_1); // size[18]
-	void ClearTriOverlayLines(); // size[37]
-	void FadeTriOverlayLines(); // size[101]
-	void AddTriOverlayLine(Vector *param_1, Vector *param_2, int param_3, int param_4, int param_5, bool param_6); // size[209]
-	void AddTriOverlayLines(Vector *param_1, Vector *param_2, Vector *param_3, AIMoveTrace_t *param_4, AIMoveTrace_t *param_5, bool param_6); // size[644]
 	void TestTriangulationRoute(Navigation_t param_1, Vector *param_2, Vector *param_3, Vector *param_4, CBaseEntity *param_5, AIMoveTrace_t *param_6); // size[259]
 	void Triangulate(Navigation_t param_1, Vector *param_2, Vector *param_3, float param_4, CBaseEntity *param_5, Vector *param_6); // size[1779]
 	void Triangulate(Navigation_t param_1, Vector *param_2, Vector *param_3, float param_4, CBaseEntity *param_5, Vector *param_6); // size[81]

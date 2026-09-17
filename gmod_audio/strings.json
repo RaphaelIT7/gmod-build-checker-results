@@ -1,0 +1,2377 @@
+[
+    {
+        "address": "00010a69",
+        "length": 15,
+        "value": "__gmon_start__"
+    },
+    {
+        "address": "00010a78",
+        "length": 6,
+        "value": "_init"
+    },
+    {
+        "address": "00010a7e",
+        "length": 6,
+        "value": "_fini"
+    },
+    {
+        "address": "00010a84",
+        "length": 28,
+        "value": "_ITM_deregisterTMCloneTable"
+    },
+    {
+        "address": "00010aa0",
+        "length": 26,
+        "value": "_ITM_registerTMCloneTable"
+    },
+    {
+        "address": "00010aba",
+        "length": 15,
+        "value": "__cxa_finalize"
+    },
+    {
+        "address": "00010ac9",
+        "length": 20,
+        "value": "_Jv_RegisterClasses"
+    },
+    {
+        "address": "00010add",
+        "length": 7,
+        "value": "_ZdlPv"
+    },
+    {
+        "address": "00010ae4",
+        "length": 21,
+        "value": "__gxx_personality_v0"
+    },
+    {
+        "address": "00010af9",
+        "length": 16,
+        "value": "BASS_StreamFree"
+    },
+    {
+        "address": "00010b09",
+        "length": 27,
+        "value": "BASS_StreamGetFilePosition"
+    },
+    {
+        "address": "00010b24",
+        "length": 20,
+        "value": "BASS_ChannelGetData"
+    },
+    {
+        "address": "00010b38",
+        "length": 6,
+        "value": "Error"
+    },
+    {
+        "address": "00010b3e",
+        "length": 20,
+        "value": "BASS_ChannelGetInfo"
+    },
+    {
+        "address": "00010b52",
+        "length": 26,
+        "value": "BASS_StreamCreateFileUser"
+    },
+    {
+        "address": "00010b6c",
+        "length": 18,
+        "value": "BASS_ErrorGetCode"
+    },
+    {
+        "address": "00010b7e",
+        "length": 8,
+        "value": "Warning"
+    },
+    {
+        "address": "00010b86",
+        "length": 38,
+        "value": "_ZTVN10__cxxabiv117__class_type_infoE"
+    },
+    {
+        "address": "00010bac",
+        "length": 41,
+        "value": "_ZTVN10__cxxabiv120__si_class_type_infoE"
+    },
+    {
+        "address": "00010bd5",
+        "length": 19,
+        "value": "__cxa_pure_virtual"
+    },
+    {
+        "address": "00010be8",
+        "length": 15,
+        "value": "BASS_SetConfig"
+    },
+    {
+        "address": "00010bf7",
+        "length": 10,
+        "value": "BASS_Init"
+    },
+    {
+        "address": "00010c01",
+        "length": 18,
+        "value": "BASS_Set3DFactors"
+    },
+    {
+        "address": "00010c13",
+        "length": 10,
+        "value": "BASS_Free"
+    },
+    {
+        "address": "00010c1d",
+        "length": 16,
+        "value": "BASS_PluginFree"
+    },
+    {
+        "address": "00010c2d",
+        "length": 6,
+        "value": "_Znwj"
+    },
+    {
+        "address": "00010c33",
+        "length": 10,
+        "value": "BASS_Stop"
+    },
+    {
+        "address": "00010c3d",
+        "length": 11,
+        "value": "BASS_Start"
+    },
+    {
+        "address": "00010c48",
+        "length": 12,
+        "value": "BASS_Update"
+    },
+    {
+        "address": "00010c54",
+        "length": 21,
+        "value": "BASS_ChannelIsActive"
+    },
+    {
+        "address": "00010c69",
+        "length": 15,
+        "value": "BASS_MusicFree"
+    },
+    {
+        "address": "00010c78",
+        "length": 22,
+        "value": "BASS_ChannelGetLength"
+    },
+    {
+        "address": "00010c8e",
+        "length": 18,
+        "value": "BASS_ChannelFlags"
+    },
+    {
+        "address": "00010ca0",
+        "length": 17,
+        "value": "BASS_ChannelStop"
+    },
+    {
+        "address": "00010cb1",
+        "length": 18,
+        "value": "BASS_ChannelPause"
+    },
+    {
+        "address": "00010cc3",
+        "length": 17,
+        "value": "BASS_ChannelPlay"
+    },
+    {
+        "address": "00010cd4",
+        "length": 25,
+        "value": "BASS_ChannelSetAttribute"
+    },
+    {
+        "address": "00010ced",
+        "length": 25,
+        "value": "BASS_ChannelGetAttribute"
+    },
+    {
+        "address": "00010d06",
+        "length": 26,
+        "value": "BASS_ChannelSeconds2Bytes"
+    },
+    {
+        "address": "00010d20",
+        "length": 24,
+        "value": "BASS_ChannelGetPosition"
+    },
+    {
+        "address": "00010d38",
+        "length": 24,
+        "value": "BASS_ChannelSetPosition"
+    },
+    {
+        "address": "00010d50",
+        "length": 26,
+        "value": "BASS_ChannelBytes2Seconds"
+    },
+    {
+        "address": "00010d6a",
+        "length": 26,
+        "value": "BASS_ChannelGet3DPosition"
+    },
+    {
+        "address": "00010d84",
+        "length": 28,
+        "value": "BASS_ChannelSet3DAttributes"
+    },
+    {
+        "address": "00010da0",
+        "length": 13,
+        "value": "BASS_Apply3D"
+    },
+    {
+        "address": "00010dad",
+        "length": 28,
+        "value": "BASS_ChannelGet3DAttributes"
+    },
+    {
+        "address": "00010dc9",
+        "length": 21,
+        "value": "BASS_ChannelGetLevel"
+    },
+    {
+        "address": "00010dde",
+        "length": 20,
+        "value": "BASS_ChannelGetTags"
+    },
+    {
+        "address": "00010df2",
+        "length": 19,
+        "value": "BASS_Set3DPosition"
+    },
+    {
+        "address": "00010e05",
+        "length": 26,
+        "value": "BASS_ChannelSet3DPosition"
+    },
+    {
+        "address": "00010e1f",
+        "length": 19,
+        "value": "_ZNSsC1EPKcRKSaIcE"
+    },
+    {
+        "address": "00010e32",
+        "length": 34,
+        "value": "_ZNSs4_Rep20_S_empty_rep_storageE"
+    },
+    {
+        "address": "00010e54",
+        "length": 31,
+        "value": "_ZNSs4_Rep10_M_destroyERKSaIcE"
+    },
+    {
+        "address": "00010e73",
+        "length": 31,
+        "value": "_ZNSs4_Rep10_M_disposeERKSaIcE"
+    },
+    {
+        "address": "00010e92",
+        "length": 21,
+        "value": "BASS_StreamCreateURL"
+    },
+    {
+        "address": "00010ea7",
+        "length": 6,
+        "value": "_Znaj"
+    },
+    {
+        "address": "00010ead",
+        "length": 15,
+        "value": "BASS_MusicLoad"
+    },
+    {
+        "address": "00010ebc",
+        "length": 7,
+        "value": "_ZdaPv"
+    },
+    {
+        "address": "00010ec3",
+        "length": 25,
+        "value": "__cxa_allocate_exception"
+    },
+    {
+        "address": "00010edc",
+        "length": 6,
+        "value": "_ZTIi"
+    },
+    {
+        "address": "00010ee2",
+        "length": 12,
+        "value": "__cxa_throw"
+    },
+    {
+        "address": "00010eee",
+        "length": 18,
+        "value": "__cxa_begin_catch"
+    },
+    {
+        "address": "00010f00",
+        "length": 16,
+        "value": "__cxa_end_catch"
+    },
+    {
+        "address": "00010f10",
+        "length": 21,
+        "value": "__cxa_free_exception"
+    },
+    {
+        "address": "00010f25",
+        "length": 24,
+        "value": "_ZNSt8ios_base4InitC1Ev"
+    },
+    {
+        "address": "00010f3d",
+        "length": 24,
+        "value": "_ZNSt8ios_base4InitD1Ev"
+    },
+    {
+        "address": "00010f55",
+        "length": 13,
+        "value": "__cxa_atexit"
+    },
+    {
+        "address": "00010f62",
+        "length": 21,
+        "value": "__pthread_key_create"
+    },
+    {
+        "address": "00010f77",
+        "length": 11,
+        "value": "strcasecmp"
+    },
+    {
+        "address": "00010f82",
+        "length": 8,
+        "value": "dlclose"
+    },
+    {
+        "address": "00010f8a",
+        "length": 16,
+        "value": "CreateInterface"
+    },
+    {
+        "address": "00010f9a",
+        "length": 7,
+        "value": "dlopen"
+    },
+    {
+        "address": "00010fa1",
+        "length": 8,
+        "value": "dlerror"
+    },
+    {
+        "address": "00010fa9",
+        "length": 22,
+        "value": "Plat_IsInDebugSession"
+    },
+    {
+        "address": "00010fbf",
+        "length": 7,
+        "value": "strstr"
+    },
+    {
+        "address": "00010fc6",
+        "length": 4,
+        "value": "Msg"
+    },
+    {
+        "address": "00010fca",
+        "length": 17,
+        "value": "__stack_chk_fail"
+    },
+    {
+        "address": "00010fdb",
+        "length": 7,
+        "value": "getcwd"
+    },
+    {
+        "address": "00010fe2",
+        "length": 6,
+        "value": "dlsym"
+    },
+    {
+        "address": "00010fe8",
+        "length": 14,
+        "value": "__ctype_b_loc"
+    },
+    {
+        "address": "00010ff6",
+        "length": 7,
+        "value": "strlen"
+    },
+    {
+        "address": "00010ffd",
+        "length": 7,
+        "value": "memcpy"
+    },
+    {
+        "address": "00011004",
+        "length": 7,
+        "value": "memset"
+    },
+    {
+        "address": "0001100b",
+        "length": 8,
+        "value": "memmove"
+    },
+    {
+        "address": "00011013",
+        "length": 7,
+        "value": "memcmp"
+    },
+    {
+        "address": "0001101a",
+        "length": 7,
+        "value": "strcpy"
+    },
+    {
+        "address": "00011021",
+        "length": 7,
+        "value": "wcslen"
+    },
+    {
+        "address": "00011028",
+        "length": 7,
+        "value": "strcmp"
+    },
+    {
+        "address": "0001102f",
+        "length": 9,
+        "value": "towupper"
+    },
+    {
+        "address": "00011038",
+        "length": 9,
+        "value": "towlower"
+    },
+    {
+        "address": "00011041",
+        "length": 20,
+        "value": "__ctype_toupper_loc"
+    },
+    {
+        "address": "00011055",
+        "length": 20,
+        "value": "__ctype_tolower_loc"
+    },
+    {
+        "address": "00011069",
+        "length": 12,
+        "value": "strncasecmp"
+    },
+    {
+        "address": "00011075",
+        "length": 4,
+        "value": "pow"
+    },
+    {
+        "address": "00011079",
+        "length": 7,
+        "value": "strchr"
+    },
+    {
+        "address": "00011080",
+        "length": 8,
+        "value": "wcsncpy"
+    },
+    {
+        "address": "00011088",
+        "length": 10,
+        "value": "vswprintf"
+    },
+    {
+        "address": "00011092",
+        "length": 10,
+        "value": "vsnprintf"
+    },
+    {
+        "address": "0001109c",
+        "length": 8,
+        "value": "strncat"
+    },
+    {
+        "address": "000110a4",
+        "length": 8,
+        "value": "wcsncat"
+    },
+    {
+        "address": "000110ac",
+        "length": 9,
+        "value": "iswspace"
+    },
+    {
+        "address": "000110b5",
+        "length": 11,
+        "value": "iconv_open"
+    },
+    {
+        "address": "000110c0",
+        "length": 6,
+        "value": "iconv"
+    },
+    {
+        "address": "000110c6",
+        "length": 12,
+        "value": "iconv_close"
+    },
+    {
+        "address": "000110d2",
+        "length": 6,
+        "value": "chdir"
+    },
+    {
+        "address": "000110d8",
+        "length": 9,
+        "value": "mbstowcs"
+    },
+    {
+        "address": "000110e1",
+        "length": 9,
+        "value": "wcstombs"
+    },
+    {
+        "address": "000110ea",
+        "length": 15,
+        "value": "Plat_localtime"
+    },
+    {
+        "address": "000110f9",
+        "length": 9,
+        "value": "strftime"
+    },
+    {
+        "address": "00011102",
+        "length": 12,
+        "value": "g_pMemAlloc"
+    },
+    {
+        "address": "0001110e",
+        "length": 5,
+        "value": "cvar"
+    },
+    {
+        "address": "00011113",
+        "length": 22,
+        "value": "_ZNSs12_M_leak_hardEv"
+    },
+    {
+        "address": "00011129",
+        "length": 8,
+        "value": "tolower"
+    },
+    {
+        "address": "00011131",
+        "length": 8,
+        "value": "toupper"
+    },
+    {
+        "address": "00011139",
+        "length": 31,
+        "value": "_ZN6Bootil6String6RandomEibbbb"
+    },
+    {
+        "address": "00011158",
+        "length": 30,
+        "value": "_ZN6Bootil4Math6Random3IntEii"
+    },
+    {
+        "address": "00011176",
+        "length": 16,
+        "value": "_ZNSs7reserveEj"
+    },
+    {
+        "address": "00011186",
+        "length": 30,
+        "value": "_ZN6Bootil4Math6Random4BoolEv"
+    },
+    {
+        "address": "000111a4",
+        "length": 15,
+        "value": "_ZNSs4swapERSs"
+    },
+    {
+        "address": "000111b3",
+        "length": 18,
+        "value": "_ZNKSs4findEPKcjj"
+    },
+    {
+        "address": "000111c5",
+        "length": 19,
+        "value": "_ZNKSs5rfindEPKcjj"
+    },
+    {
+        "address": "000111d8",
+        "length": 13,
+        "value": "_ZNSsC1ERKSs"
+    },
+    {
+        "address": "000111e5",
+        "length": 17,
+        "value": "_Z7globberPKcS0_"
+    },
+    {
+        "address": "000111f6",
+        "length": 7,
+        "value": "strtod"
+    },
+    {
+        "address": "000111fd",
+        "length": 30,
+        "value": "_ZN6Bootil4Math6Random4SeedEj"
+    },
+    {
+        "address": "0001121b",
+        "length": 6,
+        "value": "srand"
+    },
+    {
+        "address": "00011221",
+        "length": 7,
+        "value": "seeder"
+    },
+    {
+        "address": "00011228",
+        "length": 12,
+        "value": "libtier0.so"
+    },
+    {
+        "address": "00011234",
+        "length": 11,
+        "value": "libbass.so"
+    },
+    {
+        "address": "0001123f",
+        "length": 10,
+        "value": "libm.so.6"
+    },
+    {
+        "address": "00011249",
+        "length": 11,
+        "value": "libdl.so.2"
+    },
+    {
+        "address": "00011254",
+        "length": 15,
+        "value": "libstdc++.so.6"
+    },
+    {
+        "address": "00011263",
+        "length": 16,
+        "value": "libpthread.so.0"
+    },
+    {
+        "address": "00011273",
+        "length": 6,
+        "value": "abort"
+    },
+    {
+        "address": "00011279",
+        "length": 13,
+        "value": "pthread_once"
+    },
+    {
+        "address": "00011286",
+        "length": 7,
+        "value": "malloc"
+    },
+    {
+        "address": "0001128d",
+        "length": 5,
+        "value": "free"
+    },
+    {
+        "address": "00011292",
+        "length": 16,
+        "value": "dl_iterate_phdr"
+    },
+    {
+        "address": "000112a2",
+        "length": 21,
+        "value": "pthread_mutex_unlock"
+    },
+    {
+        "address": "000112b7",
+        "length": 19,
+        "value": "pthread_mutex_lock"
+    },
+    {
+        "address": "000112ca",
+        "length": 10,
+        "value": "libc.so.6"
+    },
+    {
+        "address": "000112d4",
+        "length": 7,
+        "value": "_edata"
+    },
+    {
+        "address": "000112db",
+        "length": 12,
+        "value": "__bss_start"
+    },
+    {
+        "address": "000112e7",
+        "length": 5,
+        "value": "_end"
+    },
+    {
+        "address": "000112ec",
+        "length": 10,
+        "value": "GLIBC_2.1"
+    },
+    {
+        "address": "000112f6",
+        "length": 10,
+        "value": "GLIBC_2.0"
+    },
+    {
+        "address": "00011300",
+        "length": 11,
+        "value": "CXXABI_1.3"
+    },
+    {
+        "address": "0001130b",
+        "length": 12,
+        "value": "GLIBCXX_3.4"
+    },
+    {
+        "address": "00011317",
+        "length": 12,
+        "value": "GLIBC_2.2.4"
+    },
+    {
+        "address": "00011323",
+        "length": 10,
+        "value": "GLIBC_2.2"
+    },
+    {
+        "address": "0001132d",
+        "length": 10,
+        "value": "GLIBC_2.4"
+    },
+    {
+        "address": "00011337",
+        "length": 10,
+        "value": "GLIBC_2.3"
+    },
+    {
+        "address": "00011341",
+        "length": 12,
+        "value": "GLIBC_2.1.3"
+    },
+    {
+        "address": "000261a0",
+        "length": 9,
+        "value": "Not used"
+    },
+    {
+        "address": "000261ac",
+        "length": 40,
+        "value": "Couldn't create BASS audio stream (%s)\n"
+    },
+    {
+        "address": "000261dc",
+        "length": 15,
+        "value": "12IAudioStream"
+    },
+    {
+        "address": "000261eb",
+        "length": 19,
+        "value": "16CBassAudioStream"
+    },
+    {
+        "address": "00026290",
+        "length": 14,
+        "value": "unknown error"
+    },
+    {
+        "address": "0002629e",
+        "length": 8,
+        "value": "success"
+    },
+    {
+        "address": "000262a6",
+        "length": 14,
+        "value": "out of memory"
+    },
+    {
+        "address": "000262b4",
+        "length": 16,
+        "value": "can't open file"
+    },
+    {
+        "address": "000262c4",
+        "length": 29,
+        "value": "can't find free/valid driver"
+    },
+    {
+        "address": "000262e1",
+        "length": 19,
+        "value": "sample buffer lost"
+    },
+    {
+        "address": "000262f4",
+        "length": 15,
+        "value": "invalid handle"
+    },
+    {
+        "address": "00026303",
+        "length": 26,
+        "value": "unsupported sample format"
+    },
+    {
+        "address": "0002631d",
+        "length": 17,
+        "value": "invalid position"
+    },
+    {
+        "address": "0002632e",
+        "length": 10,
+        "value": "not audio"
+    },
+    {
+        "address": "00026338",
+        "length": 27,
+        "value": "no free channels available"
+    },
+    {
+        "address": "00026353",
+        "length": 23,
+        "value": "illegal type specified"
+    },
+    {
+        "address": "0002636a",
+        "length": 28,
+        "value": "illegal parameter specified"
+    },
+    {
+        "address": "00026386",
+        "length": 14,
+        "value": "no 3D support"
+    },
+    {
+        "address": "00026394",
+        "length": 15,
+        "value": "no EAX support"
+    },
+    {
+        "address": "000263a3",
+        "length": 22,
+        "value": "illegal device number"
+    },
+    {
+        "address": "000263b9",
+        "length": 12,
+        "value": "not playing"
+    },
+    {
+        "address": "000263c5",
+        "length": 20,
+        "value": "illegal sample rate"
+    },
+    {
+        "address": "000263d9",
+        "length": 20,
+        "value": "invalid file stream"
+    },
+    {
+        "address": "000263ed",
+        "length": 29,
+        "value": "no hardware voices available"
+    },
+    {
+        "address": "0002640a",
+        "length": 21,
+        "value": "couldn't create file"
+    },
+    {
+        "address": "0002641f",
+        "length": 26,
+        "value": "effects are not available"
+    },
+    {
+        "address": "00026439",
+        "length": 21,
+        "value": "connection timed out"
+    },
+    {
+        "address": "0002644e",
+        "length": 24,
+        "value": "unsupported file format"
+    },
+    {
+        "address": "00026466",
+        "length": 20,
+        "value": "unavailable speaker"
+    },
+    {
+        "address": "0002647a",
+        "length": 21,
+        "value": "invalid BASS version"
+    },
+    {
+        "address": "0002648f",
+        "length": 30,
+        "value": "codec not available/supported"
+    },
+    {
+        "address": "000264ad",
+        "length": 15,
+        "value": "device is busy"
+    },
+    {
+        "address": "000264bc",
+        "length": 13,
+        "value": "unstreamable"
+    },
+    {
+        "address": "000264cc",
+        "length": 43,
+        "value": "BASS_Init has not been successfully called"
+    },
+    {
+        "address": "000264f8",
+        "length": 44,
+        "value": "BASS_Start has not been successfully called"
+    },
+    {
+        "address": "00026524",
+        "length": 32,
+        "value": "SSL/HTTPS support not available"
+    },
+    {
+        "address": "00026544",
+        "length": 36,
+        "value": "already initialized/paused/whatever"
+    },
+    {
+        "address": "00026568",
+        "length": 31,
+        "value": "MOD music has no sequence data"
+    },
+    {
+        "address": "00026588",
+        "length": 39,
+        "value": "no internet connection could be opened"
+    },
+    {
+        "address": "000265b0",
+        "length": 32,
+        "value": "requested data is not available"
+    },
+    {
+        "address": "000265d0",
+        "length": 31,
+        "value": "this is not a decoding channel"
+    },
+    {
+        "address": "000265f0",
+        "length": 41,
+        "value": "sufficient DirectX version not installed"
+    },
+    {
+        "address": "0002661c",
+        "length": 31,
+        "value": "channel/file has already ended"
+    },
+    {
+        "address": "00026700",
+        "length": 19,
+        "value": "BASS_ERROR_UNKNOWN"
+    },
+    {
+        "address": "00026713",
+        "length": 25,
+        "value": "Couldn't Init Bass (%s)!"
+    },
+    {
+        "address": "00026731",
+        "length": 7,
+        "value": "noplay"
+    },
+    {
+        "address": "0002673d",
+        "length": 8,
+        "value": "noblock"
+    },
+    {
+        "address": "00026755",
+        "length": 14,
+        "value": "IGModAudio001"
+    },
+    {
+        "address": "00026763",
+        "length": 8,
+        "value": "BASS_OK"
+    },
+    {
+        "address": "0002676b",
+        "length": 15,
+        "value": "BASS_ERROR_MEM"
+    },
+    {
+        "address": "0002677a",
+        "length": 20,
+        "value": "BASS_ERROR_FILEOPEN"
+    },
+    {
+        "address": "0002678e",
+        "length": 18,
+        "value": "BASS_ERROR_DRIVER"
+    },
+    {
+        "address": "000267a0",
+        "length": 19,
+        "value": "BASS_ERROR_BUFLOST"
+    },
+    {
+        "address": "000267b3",
+        "length": 18,
+        "value": "BASS_ERROR_HANDLE"
+    },
+    {
+        "address": "000267c5",
+        "length": 18,
+        "value": "BASS_ERROR_FORMAT"
+    },
+    {
+        "address": "000267d7",
+        "length": 20,
+        "value": "BASS_ERROR_POSITION"
+    },
+    {
+        "address": "000267eb",
+        "length": 16,
+        "value": "BASS_ERROR_INIT"
+    },
+    {
+        "address": "000267fb",
+        "length": 17,
+        "value": "BASS_ERROR_START"
+    },
+    {
+        "address": "0002680c",
+        "length": 15,
+        "value": "BASS_ERROR_SSL"
+    },
+    {
+        "address": "0002681b",
+        "length": 12,
+        "value": "BASS_ERROR_"
+    },
+    {
+        "address": "00026827",
+        "length": 19,
+        "value": "BASS_ERROR_ALREADY"
+    },
+    {
+        "address": "0002683a",
+        "length": 20,
+        "value": "BASS_ERROR_NOTAUDIO"
+    },
+    {
+        "address": "0002684e",
+        "length": 18,
+        "value": "BASS_ERROR_NOCHAN"
+    },
+    {
+        "address": "00026860",
+        "length": 19,
+        "value": "BASS_ERROR_ILLTYPE"
+    },
+    {
+        "address": "00026873",
+        "length": 20,
+        "value": "BASS_ERROR_ILLPARAM"
+    },
+    {
+        "address": "00026887",
+        "length": 16,
+        "value": "BASS_ERROR_NO3D"
+    },
+    {
+        "address": "00026897",
+        "length": 17,
+        "value": "BASS_ERROR_NOEAX"
+    },
+    {
+        "address": "000268a8",
+        "length": 18,
+        "value": "BASS_ERROR_DEVICE"
+    },
+    {
+        "address": "000268ba",
+        "length": 18,
+        "value": "BASS_ERROR_NOPLAY"
+    },
+    {
+        "address": "000268cc",
+        "length": 16,
+        "value": "BASS_ERROR_FREQ"
+    },
+    {
+        "address": "000268dc",
+        "length": 19,
+        "value": "BASS_ERROR_NOTFILE"
+    },
+    {
+        "address": "000268ef",
+        "length": 16,
+        "value": "BASS_ERROR_NOHW"
+    },
+    {
+        "address": "000268ff",
+        "length": 17,
+        "value": "BASS_ERROR_EMPTY"
+    },
+    {
+        "address": "00026910",
+        "length": 17,
+        "value": "BASS_ERROR_NONET"
+    },
+    {
+        "address": "00026921",
+        "length": 18,
+        "value": "BASS_ERROR_CREATE"
+    },
+    {
+        "address": "00026933",
+        "length": 16,
+        "value": "BASS_ERROR_NOFX"
+    },
+    {
+        "address": "00026943",
+        "length": 20,
+        "value": "BASS_ERROR_NOTAVAIL"
+    },
+    {
+        "address": "00026957",
+        "length": 18,
+        "value": "BASS_ERROR_DECODE"
+    },
+    {
+        "address": "00026969",
+        "length": 14,
+        "value": "BASS_ERROR_DX"
+    },
+    {
+        "address": "00026977",
+        "length": 19,
+        "value": "BASS_ERROR_TIMEOUT"
+    },
+    {
+        "address": "0002698a",
+        "length": 20,
+        "value": "BASS_ERROR_FILEFORM"
+    },
+    {
+        "address": "0002699e",
+        "length": 19,
+        "value": "BASS_ERROR_SPEAKER"
+    },
+    {
+        "address": "000269b1",
+        "length": 19,
+        "value": "BASS_ERROR_VERSION"
+    },
+    {
+        "address": "000269c4",
+        "length": 17,
+        "value": "BASS_ERROR_CODEC"
+    },
+    {
+        "address": "000269d5",
+        "length": 17,
+        "value": "BASS_ERROR_ENDED"
+    },
+    {
+        "address": "000269e6",
+        "length": 16,
+        "value": "BASS_ERROR_BUSY"
+    },
+    {
+        "address": "000269f6",
+        "length": 24,
+        "value": "BASS_ERROR_UNSTREAMABLE"
+    },
+    {
+        "address": "00026a10",
+        "length": 35,
+        "value": "BASS_Init failed (%s)! Attempt 1.\n"
+    },
+    {
+        "address": "00026a34",
+        "length": 35,
+        "value": "BASS_Init failed (%s)! Attempt 2.\n"
+    },
+    {
+        "address": "00026a58",
+        "length": 35,
+        "value": "BASS_Init failed (%s)! Attempt 3.\n"
+    },
+    {
+        "address": "00026a7c",
+        "length": 35,
+        "value": "BASS_Init failed (%s)! Attempt 4.\n"
+    },
+    {
+        "address": "00026aa0",
+        "length": 35,
+        "value": "BASS_Init failed (%s)! Attempt 5.\n"
+    },
+    {
+        "address": "00026ac4",
+        "length": 35,
+        "value": "BASS_Init failed (%s)! Attempt 6.\n"
+    },
+    {
+        "address": "00026ae8",
+        "length": 34,
+        "value": "BASS_StreamCreateURL failed (%s)\n"
+    },
+    {
+        "address": "00026b0c",
+        "length": 40,
+        "value": "BASS_StreamCreateFileUser failed (%s)\n"
+    },
+    {
+        "address": "00026b94",
+        "length": 17,
+        "value": "14IBaseInterface"
+    },
+    {
+        "address": "00026bb0",
+        "length": 20,
+        "value": "17IGModAudioChannel"
+    },
+    {
+        "address": "00026bd0",
+        "length": 14,
+        "value": "11IGMod_Audio"
+    },
+    {
+        "address": "00026bde",
+        "length": 14,
+        "value": "11CGMod_Audio"
+    },
+    {
+        "address": "00026c04",
+        "length": 20,
+        "value": "17CGModAudioChannel"
+    },
+    {
+        "address": "00026e37",
+        "length": 18,
+        "value": "CDLOPEN Error:%s\n"
+    },
+    {
+        "address": "00026e4d",
+        "length": 13,
+        "value": "No such file"
+    },
+    {
+        "address": "00026e5a",
+        "length": 16,
+        "value": "image not found"
+    },
+    {
+        "address": "00026e6f",
+        "length": 6,
+        "value": "%s/%s"
+    },
+    {
+        "address": "00026e75",
+        "length": 10,
+        "value": "%s/bin/%s"
+    },
+    {
+        "address": "00026e7f",
+        "length": 16,
+        "value": "CreateInterface"
+    },
+    {
+        "address": "00026e90",
+        "length": 31,
+        "value": " failed to dlopen %s error=%s\n"
+    },
+    {
+        "address": "00026eaf",
+        "length": 19,
+        "value": "16CDllDemandLoader"
+    },
+    {
+        "address": "00026ee0",
+        "length": 17,
+        "value": "0123456789ABCDEF"
+    },
+    {
+        "address": "00026ef9",
+        "length": 7,
+        "value": " bytes"
+    },
+    {
+        "address": "00026f05",
+        "length": 9,
+        "value": "%%.%if%s"
+    },
+    {
+        "address": "00026f16",
+        "length": 8,
+        "value": "UCS-2LE"
+    },
+    {
+        "address": "00026f1e",
+        "length": 8,
+        "value": "UCS-4LE"
+    },
+    {
+        "address": "00026f26",
+        "length": 9,
+        "value": "UTF-32LE"
+    },
+    {
+        "address": "00026f2f",
+        "length": 6,
+        "value": "UTF-8"
+    },
+    {
+        "address": "00026f41",
+        "length": 9,
+        "value": "%A %b %d"
+    },
+    {
+        "address": "00026f60",
+        "length": 39,
+        "value": "V_AppendSlash: ran out of space on %s."
+    },
+    {
+        "address": "00026f88",
+        "length": 36,
+        "value": "V_MakeAbsolutePath: _getcwd failed."
+    },
+    {
+        "address": "00026fac",
+        "length": 49,
+        "value": "V_MakeAbsolutePath: tried to \"..\" past the root."
+    },
+    {
+        "address": "00026fe0",
+        "length": 71,
+        "value": "FATAL ERROR: UtlMemory_CalcNewAllocationCount got to negative values!\n"
+    },
+    {
+        "address": "00027028",
+        "length": 53,
+        "value": "CUtlMemory::Grow ran out of memory? Alloc Size: %lu\n"
+    },
+    {
+        "address": "000270b0",
+        "length": 15,
+        "value": "VEngineCvar004"
+    },
+    {
+        "address": "000270bf",
+        "length": 17,
+        "value": "VProcessUtils001"
+    },
+    {
+        "address": "000270d0",
+        "length": 15,
+        "value": "VFileSystem022"
+    },
+    {
+        "address": "000270df",
+        "length": 19,
+        "value": "VMaterialSystem080"
+    },
+    {
+        "address": "000270f2",
+        "length": 22,
+        "value": "InputSystemVersion001"
+    },
+    {
+        "address": "00027108",
+        "length": 24,
+        "value": "NetworkSystemVersion001"
+    },
+    {
+        "address": "00027120",
+        "length": 20,
+        "value": "DebugTextureInfo001"
+    },
+    {
+        "address": "00027134",
+        "length": 18,
+        "value": "VBAllocTracker001"
+    },
+    {
+        "address": "00027146",
+        "length": 26,
+        "value": "COLORCORRECTION_VERSION_1"
+    },
+    {
+        "address": "00027160",
+        "length": 7,
+        "value": "VP4001"
+    },
+    {
+        "address": "00027167",
+        "length": 11,
+        "value": "VMDLLIB001"
+    },
+    {
+        "address": "00027172",
+        "length": 23,
+        "value": "QueuedLoaderVersion004"
+    },
+    {
+        "address": "0002718c",
+        "length": 32,
+        "value": "MaterialSystemHardwareConfig012"
+    },
+    {
+        "address": "000271c0",
+        "length": 17,
+        "value": "VStudioRender025"
+    },
+    {
+        "address": "000271d1",
+        "length": 14,
+        "value": "VGUI_ivgui008"
+    },
+    {
+        "address": "000271df",
+        "length": 14,
+        "value": "VGUI_Input005"
+    },
+    {
+        "address": "000271ed",
+        "length": 14,
+        "value": "VGUI_Panel009"
+    },
+    {
+        "address": "000271fb",
+        "length": 16,
+        "value": "VGUI_Surface030"
+    },
+    {
+        "address": "0002720b",
+        "length": 15,
+        "value": "VGUI_Scheme010"
+    },
+    {
+        "address": "0002721a",
+        "length": 15,
+        "value": "VGUI_System010"
+    },
+    {
+        "address": "00027229",
+        "length": 17,
+        "value": "VGUI_Localize005"
+    },
+    {
+        "address": "0002723a",
+        "length": 20,
+        "value": "MatSystemSurface008"
+    },
+    {
+        "address": "0002724e",
+        "length": 14,
+        "value": "VDataCache003"
+    },
+    {
+        "address": "0002725c",
+        "length": 12,
+        "value": "MDLCache004"
+    },
+    {
+        "address": "00027268",
+        "length": 21,
+        "value": "VDmeMakeFileUtils001"
+    },
+    {
+        "address": "0002727d",
+        "length": 21,
+        "value": "VPhysicsCollision007"
+    },
+    {
+        "address": "00027292",
+        "length": 17,
+        "value": "VSoundEmitter002"
+    },
+    {
+        "address": "000272a3",
+        "length": 9,
+        "value": "VTEX_003"
+    },
+    {
+        "address": "000283a5",
+        "length": 3,
+        "value": "zR"
+    },
+    {
+        "address": "000284f1",
+        "length": 5,
+        "value": "zPLR"
+    },
+    {
+        "address": "0002b04d",
+        "length": 5,
+        "value": "zPLR"
+    },
+    {
+        "address": "0002e164",
+        "length": 7,
+        "value": "\rr\"\"\\\\"
+    },
+    {
+        "address": ".comment::00000000",
+        "length": 59,
+        "value": "GCC: (SteamRT 4.8.4-1ubuntu15~12.04+steamrt1.2+srt2) 4.8.4"
+    },
+    {
+        "address": ".shstrtab::00000001",
+        "length": 8,
+        "value": ".symtab"
+    },
+    {
+        "address": ".shstrtab::00000009",
+        "length": 8,
+        "value": ".strtab"
+    },
+    {
+        "address": ".shstrtab::00000011",
+        "length": 10,
+        "value": ".shstrtab"
+    },
+    {
+        "address": ".shstrtab::0000001b",
+        "length": 19,
+        "value": ".note.gnu.build-id"
+    },
+    {
+        "address": ".shstrtab::0000002e",
+        "length": 10,
+        "value": ".gnu.hash"
+    },
+    {
+        "address": ".shstrtab::00000038",
+        "length": 8,
+        "value": ".dynsym"
+    },
+    {
+        "address": ".shstrtab::00000040",
+        "length": 8,
+        "value": ".dynstr"
+    },
+    {
+        "address": ".shstrtab::00000048",
+        "length": 13,
+        "value": ".gnu.version"
+    },
+    {
+        "address": ".shstrtab::00000055",
+        "length": 15,
+        "value": ".gnu.version_r"
+    },
+    {
+        "address": ".shstrtab::00000064",
+        "length": 9,
+        "value": ".rel.dyn"
+    },
+    {
+        "address": ".shstrtab::0000006d",
+        "length": 9,
+        "value": ".rel.plt"
+    },
+    {
+        "address": ".shstrtab::00000076",
+        "length": 6,
+        "value": ".init"
+    },
+    {
+        "address": ".shstrtab::0000007c",
+        "length": 6,
+        "value": ".text"
+    },
+    {
+        "address": ".shstrtab::00000082",
+        "length": 6,
+        "value": ".fini"
+    },
+    {
+        "address": ".shstrtab::00000088",
+        "length": 8,
+        "value": ".rodata"
+    },
+    {
+        "address": ".shstrtab::00000090",
+        "length": 14,
+        "value": ".eh_frame_hdr"
+    },
+    {
+        "address": ".shstrtab::0000009e",
+        "length": 10,
+        "value": ".eh_frame"
+    },
+    {
+        "address": ".shstrtab::000000a8",
+        "length": 18,
+        "value": ".gcc_except_table"
+    },
+    {
+        "address": ".shstrtab::000000ba",
+        "length": 12,
+        "value": ".init_array"
+    },
+    {
+        "address": ".shstrtab::000000c6",
+        "length": 12,
+        "value": ".fini_array"
+    },
+    {
+        "address": ".shstrtab::000000d2",
+        "length": 5,
+        "value": ".jcr"
+    },
+    {
+        "address": ".shstrtab::000000d7",
+        "length": 9,
+        "value": ".dynamic"
+    },
+    {
+        "address": ".shstrtab::000000e0",
+        "length": 5,
+        "value": ".got"
+    },
+    {
+        "address": ".shstrtab::000000e5",
+        "length": 9,
+        "value": ".got.plt"
+    },
+    {
+        "address": ".shstrtab::000000ee",
+        "length": 6,
+        "value": ".data"
+    },
+    {
+        "address": ".shstrtab::000000f4",
+        "length": 5,
+        "value": ".bss"
+    },
+    {
+        "address": ".shstrtab::000000f9",
+        "length": 9,
+        "value": ".comment"
+    },
+    {
+        "address": ".shstrtab::00000102",
+        "length": 15,
+        "value": ".gnu_debuglink"
+    },
+    {
+        "address": ".strtab::00000001",
+        "length": 17,
+        "value": "abort@@GLIBC_2.0"
+    },
+    {
+        "address": ".strtab::00000012",
+        "length": 24,
+        "value": "pthread_once@@GLIBC_2.0"
+    },
+    {
+        "address": ".strtab::0000002a",
+        "length": 17,
+        "value": "srand@@GLIBC_2.0"
+    },
+    {
+        "address": ".strtab::0000003b",
+        "length": 15,
+        "value": "Plat_localtime"
+    },
+    {
+        "address": ".strtab::0000004a",
+        "length": 31,
+        "value": "_ZN6Bootil6String6RandomEibbbb"
+    },
+    {
+        "address": ".strtab::00000069",
+        "length": 30,
+        "value": "_ZN6Bootil4Math6Random4SeedEj"
+    },
+    {
+        "address": ".strtab::00000087",
+        "length": 26,
+        "value": "__cxa_atexit@@GLIBC_2.1.3"
+    },
+    {
+        "address": ".strtab::000000a1",
+        "length": 12,
+        "value": "BASS_Update"
+    },
+    {
+        "address": ".strtab::000000ad",
+        "length": 18,
+        "value": "memcmp@@GLIBC_2.0"
+    },
+    {
+        "address": ".strtab::000000bf",
+        "length": 19,
+        "value": "wcsncat@@GLIBC_2.0"
+    },
+    {
+        "address": ".strtab::000000d2",
+        "length": 17,
+        "value": "BASS_ChannelStop"
+    },
+    {
+        "address": ".strtab::000000e3",
+        "length": 10,
+        "value": "BASS_Stop"
+    },
+    {
+        "address": ".strtab::000000ed",
+        "length": 15,
+        "value": "BASS_MusicFree"
+    },
+    {
+        "address": ".strtab::000000fc",
+        "length": 4,
+        "value": "Msg"
+    },
+    {
+        "address": ".strtab::00000100",
+        "length": 15,
+        "value": "__gmon_start__"
+    },
+    {
+        "address": ".strtab::0000010f",
+        "length": 20,
+        "value": "_Jv_RegisterClasses"
+    },
+    {
+        "address": ".strtab::00000123",
+        "length": 22,
+        "value": "iconv_open@@GLIBC_2.1"
+    },
+    {
+        "address": ".strtab::00000139",
+        "length": 20,
+        "value": "_ZdlPv@@GLIBCXX_3.4"
+    },
+    {
+        "address": ".strtab::0000014d",
+        "length": 44,
+        "value": "_ZNSs4_Rep10_M_disposeERKSaIcE@@GLIBCXX_3.4"
+    },
+    {
+        "address": ".strtab::00000179",
+        "length": 18,
+        "value": "strtod@@GLIBC_2.0"
+    },
+    {
+        "address": ".strtab::0000018b",
+        "length": 18,
+        "value": "strchr@@GLIBC_2.0"
+    },
+    {
+        "address": ".strtab::0000019d",
+        "length": 21,
+        "value": "vsnprintf@@GLIBC_2.0"
+    },
+    {
+        "address": ".strtab::000001b2",
+        "length": 6,
+        "value": "_fini"
+    },
+    {
+        "address": ".strtab::000001b8",
+        "length": 21,
+        "value": "BASS_StreamCreateURL"
+    },
+    {
+        "address": ".strtab::000001cd",
+        "length": 17,
+        "value": "_Z7globberPKcS0_"
+    },
+    {
+        "address": ".strtab::000001de",
+        "length": 37,
+        "value": "_ZNSt8ios_base4InitC1Ev@@GLIBCXX_3.4"
+    },
+    {
+        "address": ".strtab::00000203",
+        "length": 18,
+        "value": "wcslen@@GLIBC_2.0"
+    },
+    {
+        "address": ".strtab::00000215",
+        "length": 15,
+        "value": "pow@@GLIBC_2.0"
+    },
+    {
+        "address": ".strtab::00000224",
+        "length": 19,
+        "value": "dlclose@@GLIBC_2.0"
+    },
+    {
+        "address": ".strtab::00000237",
+        "length": 19,
+        "value": "toupper@@GLIBC_2.0"
+    },
+    {
+        "address": ".strtab::0000024a",
+        "length": 18,
+        "value": "memset@@GLIBC_2.0"
+    },
+    {
+        "address": ".strtab::0000025c",
+        "length": 26,
+        "value": "_ZNSsC1ERKSs@@GLIBCXX_3.4"
+    },
+    {
+        "address": ".strtab::00000276",
+        "length": 15,
+        "value": "BASS_SetConfig"
+    },
+    {
+        "address": ".strtab::00000285",
+        "length": 26,
+        "value": "BASS_ChannelBytes2Seconds"
+    },
+    {
+        "address": ".strtab::0000029f",
+        "length": 16,
+        "value": "CreateInterface"
+    },
+    {
+        "address": ".strtab::000002af",
+        "length": 37,
+        "value": "_ZNSt8ios_base4InitD1Ev@@GLIBCXX_3.4"
+    },
+    {
+        "address": ".strtab::000002d4",
+        "length": 20,
+        "value": "BASS_ChannelGetTags"
+    },
+    {
+        "address": ".strtab::000002e8",
+        "length": 10,
+        "value": "BASS_Init"
+    },
+    {
+        "address": ".strtab::000002f2",
+        "length": 28,
+        "value": "_ITM_deregisterTMCloneTable"
+    },
+    {
+        "address": ".strtab::0000030e",
+        "length": 31,
+        "value": "__ctype_toupper_loc@@GLIBC_2.3"
+    },
+    {
+        "address": ".strtab::0000032d",
+        "length": 16,
+        "value": "free@@GLIBC_2.0"
+    },
+    {
+        "address": ".strtab::0000033d",
+        "length": 26,
+        "value": "_ITM_registerTMCloneTable"
+    },
+    {
+        "address": ".strtab::00000357",
+        "length": 44,
+        "value": "_ZNSs4_Rep10_M_destroyERKSaIcE@@GLIBCXX_3.4"
+    },
+    {
+        "address": ".strtab::00000383",
+        "length": 17,
+        "value": "dlsym@@GLIBC_2.0"
+    },
+    {
+        "address": ".strtab::00000394",
+        "length": 17,
+        "value": "BASS_ChannelPlay"
+    },
+    {
+        "address": ".strtab::000003a5",
+        "length": 24,
+        "value": "BASS_ChannelGetPosition"
+    },
+    {
+        "address": ".strtab::000003bd",
+        "length": 28,
+        "value": "BASS_ChannelGet3DAttributes"
+    },
+    {
+        "address": ".strtab::000003d9",
+        "length": 25,
+        "value": "__ctype_b_loc@@GLIBC_2.3"
+    },
+    {
+        "address": ".strtab::000003f2",
+        "length": 32,
+        "value": "pthread_mutex_unlock@@GLIBC_2.0"
+    },
+    {
+        "address": ".strtab::00000412",
+        "length": 31,
+        "value": "_ZNKSs4findEPKcjj@@GLIBCXX_3.4"
+    },
+    {
+        "address": ".strtab::00000431",
+        "length": 50,
+        "value": "_ZTVN10__cxxabiv117__class_type_infoE@@CXXABI_1.3"
+    },
+    {
+        "address": ".strtab::00000463",
+        "length": 20,
+        "value": "mbstowcs@@GLIBC_2.0"
+    },
+    {
+        "address": ".strtab::00000477",
+        "length": 18,
+        "value": "BASS_ChannelPause"
+    },
+    {
+        "address": ".strtab::00000489",
+        "length": 21,
+        "value": "BASS_ChannelIsActive"
+    },
+    {
+        "address": ".strtab::0000049e",
+        "length": 12,
+        "value": "g_pMemAlloc"
+    },
+    {
+        "address": ".strtab::000004aa",
+        "length": 18,
+        "value": "memcpy@@GLIBC_2.0"
+    },
+    {
+        "address": ".strtab::000004bc",
+        "length": 13,
+        "value": "BASS_Apply3D"
+    },
+    {
+        "address": ".strtab::000004c9",
+        "length": 6,
+        "value": "Error"
+    },
+    {
+        "address": ".strtab::000004cf",
+        "length": 18,
+        "value": "strlen@@GLIBC_2.0"
+    },
+    {
+        "address": ".strtab::000004e1",
+        "length": 25,
+        "value": "BASS_ChannelSetAttribute"
+    },
+    {
+        "address": ".strtab::000004fa",
+        "length": 17,
+        "value": "iconv@@GLIBC_2.1"
+    },
+    {
+        "address": ".strtab::0000050b",
+        "length": 32,
+        "value": "_ZNSsC1EPKcRKSaIcE@@GLIBCXX_3.4"
+    },
+    {
+        "address": ".strtab::0000052b",
+        "length": 10,
+        "value": "BASS_Free"
+    },
+    {
+        "address": ".strtab::00000535",
+        "length": 18,
+        "value": "BASS_Set3DFactors"
+    },
+    {
+        "address": ".strtab::00000547",
+        "length": 18,
+        "value": "strcpy@@GLIBC_2.0"
+    },
+    {
+        "address": ".strtab::00000559",
+        "length": 18,
+        "value": "dlopen@@GLIBC_2.1"
+    },
+    {
+        "address": ".strtab::0000056b",
+        "length": 30,
+        "value": "_ZN6Bootil4Math6Random4BoolEv"
+    },
+    {
+        "address": ".strtab::00000589",
+        "length": 18,
+        "value": "printf@@GLIBC_2.0"
+    },
+    {
+        "address": ".strtab::0000059b",
+        "length": 17,
+        "value": "chdir@@GLIBC_2.0"
+    },
+    {
+        "address": ".strtab::000005ac",
+        "length": 30,
+        "value": "_ZN6Bootil4Math6Random3IntEii"
+    },
+    {
+        "address": ".strtab::000005ca",
+        "length": 19,
+        "value": "wcsncpy@@GLIBC_2.0"
+    },
+    {
+        "address": ".strtab::000005dd",
+        "length": 31,
+        "value": "__cxa_pure_virtual@@CXXABI_1.3"
+    },
+    {
+        "address": ".strtab::000005fc",
+        "length": 20,
+        "value": "iswspace@@GLIBC_2.0"
+    },
+    {
+        "address": ".strtab::00000610",
+        "length": 22,
+        "value": "strcasecmp@@GLIBC_2.0"
+    },
+    {
+        "address": ".strtab::00000626",
+        "length": 19,
+        "value": "_Znwj@@GLIBCXX_3.4"
+    },
+    {
+        "address": ".strtab::00000639",
+        "length": 32,
+        "value": "_ZNKSs5rfindEPKcjj@@GLIBCXX_3.4"
+    },
+    {
+        "address": ".strtab::00000659",
+        "length": 18,
+        "value": "_ZTIi@@CXXABI_1.3"
+    },
+    {
+        "address": ".strtab::0000066b",
+        "length": 19,
+        "value": "_Znaj@@GLIBCXX_3.4"
+    },
+    {
+        "address": ".strtab::0000067e",
+        "length": 18,
+        "value": "strstr@@GLIBC_2.0"
+    },
+    {
+        "address": ".strtab::00000690",
+        "length": 16,
+        "value": "time@@GLIBC_2.0"
+    },
+    {
+        "address": ".strtab::000006a0",
+        "length": 16,
+        "value": "BASS_StreamFree"
+    },
+    {
+        "address": ".strtab::000006b0",
+        "length": 19,
+        "value": "strncat@@GLIBC_2.0"
+    },
+    {
+        "address": ".strtab::000006c3",
+        "length": 16,
+        "value": "BASS_PluginFree"
+    },
+    {
+        "address": ".strtab::000006d3",
+        "length": 20,
+        "value": "BASS_ChannelGetData"
+    },
+    {
+        "address": ".strtab::000006e7",
+        "length": 11,
+        "value": "BASS_Start"
+    },
+    {
+        "address": ".strtab::000006f2",
+        "length": 12,
+        "value": "__bss_start"
+    },
+    {
+        "address": ".strtab::000006fe",
+        "length": 18,
+        "value": "malloc@@GLIBC_2.0"
+    },
+    {
+        "address": ".strtab::00000710",
+        "length": 30,
+        "value": "pthread_mutex_lock@@GLIBC_2.0"
+    },
+    {
+        "address": ".strtab::0000072e",
+        "length": 53,
+        "value": "_ZTVN10__cxxabiv120__si_class_type_infoE@@CXXABI_1.3"
+    },
+    {
+        "address": ".strtab::00000763",
+        "length": 28,
+        "value": "__stack_chk_fail@@GLIBC_2.4"
+    },
+    {
+        "address": ".strtab::0000077f",
+        "length": 23,
+        "value": "iconv_close@@GLIBC_2.1"
+    },
+    {
+        "address": ".strtab::00000796",
+        "length": 25,
+        "value": "BASS_ChannelGetAttribute"
+    },
+    {
+        "address": ".strtab::000007af",
+        "length": 37,
+        "value": "__cxa_allocate_exception@@CXXABI_1.3"
+    },
+    {
+        "address": ".strtab::000007d4",
+        "length": 26,
+        "value": "BASS_ChannelSet3DPosition"
+    },
+    {
+        "address": ".strtab::000007ee",
+        "length": 19,
+        "value": "dlerror@@GLIBC_2.0"
+    },
+    {
+        "address": ".strtab::00000801",
+        "length": 18,
+        "value": "BASS_ErrorGetCode"
+    },
+    {
+        "address": ".strtab::00000813",
+        "length": 33,
+        "value": "__cxa_free_exception@@CXXABI_1.3"
+    },
+    {
+        "address": ".strtab::00000834",
+        "length": 24,
+        "value": "BASS_ChannelSetPosition"
+    },
+    {
+        "address": ".strtab::0000084c",
+        "length": 21,
+        "value": "vswprintf@@GLIBC_2.2"
+    },
+    {
+        "address": ".strtab::00000861",
+        "length": 23,
+        "value": "strncasecmp@@GLIBC_2.0"
+    },
+    {
+        "address": ".strtab::00000878",
+        "length": 28,
+        "value": "BASS_ChannelSet3DAttributes"
+    },
+    {
+        "address": ".strtab::00000894",
+        "length": 19,
+        "value": "memmove@@GLIBC_2.0"
+    },
+    {
+        "address": ".strtab::000008a7",
+        "length": 20,
+        "value": "BASS_ChannelGetInfo"
+    },
+    {
+        "address": ".strtab::000008bb",
+        "length": 20,
+        "value": "_ZdaPv@@GLIBCXX_3.4"
+    },
+    {
+        "address": ".strtab::000008cf",
+        "length": 31,
+        "value": "__ctype_tolower_loc@@GLIBC_2.3"
+    },
+    {
+        "address": ".strtab::000008ee",
+        "length": 20,
+        "value": "towlower@@GLIBC_2.0"
+    },
+    {
+        "address": ".strtab::00000902",
+        "length": 5,
+        "value": "cvar"
+    },
+    {
+        "address": ".strtab::00000907",
+        "length": 18,
+        "value": "getcwd@@GLIBC_2.0"
+    },
+    {
+        "address": ".strtab::00000919",
+        "length": 21,
+        "value": "BASS_ChannelGetLevel"
+    },
+    {
+        "address": ".strtab::0000092e",
+        "length": 24,
+        "value": "__cxa_throw@@CXXABI_1.3"
+    },
+    {
+        "address": ".strtab::00000946",
+        "length": 5,
+        "value": "_end"
+    },
+    {
+        "address": ".strtab::0000094b",
+        "length": 22,
+        "value": "BASS_ChannelGetLength"
+    },
+    {
+        "address": ".strtab::00000961",
+        "length": 26,
+        "value": "BASS_ChannelGet3DPosition"
+    },
+    {
+        "address": ".strtab::0000097b",
+        "length": 20,
+        "value": "wcstombs@@GLIBC_2.0"
+    },
+    {
+        "address": ".strtab::0000098f",
+        "length": 28,
+        "value": "__cxa_end_catch@@CXXABI_1.3"
+    },
+    {
+        "address": ".strtab::000009ab",
+        "length": 26,
+        "value": "BASS_ChannelSeconds2Bytes"
+    },
+    {
+        "address": ".strtab::000009c5",
+        "length": 26,
+        "value": "BASS_StreamCreateFileUser"
+    },
+    {
+        "address": ".strtab::000009df",
+        "length": 16,
+        "value": "rand@@GLIBC_2.0"
+    },
+    {
+        "address": ".strtab::000009ef",
+        "length": 47,
+        "value": "_ZNSs4_Rep20_S_empty_rep_storageE@@GLIBCXX_3.4"
+    },
+    {
+        "address": ".strtab::00000a1e",
+        "length": 7,
+        "value": "seeder"
+    },
+    {
+        "address": ".strtab::00000a25",
+        "length": 30,
+        "value": "__cxa_begin_catch@@CXXABI_1.3"
+    },
+    {
+        "address": ".strtab::00000a43",
+        "length": 32,
+        "value": "__pthread_key_create@@GLIBC_2.0"
+    },
+    {
+        "address": ".strtab::00000a63",
+        "length": 20,
+        "value": "strftime@@GLIBC_2.0"
+    },
+    {
+        "address": ".strtab::00000a77",
+        "length": 29,
+        "value": "dl_iterate_phdr@@GLIBC_2.2.4"
+    },
+    {
+        "address": ".strtab::00000a94",
+        "length": 8,
+        "value": "Warning"
+    },
+    {
+        "address": ".strtab::00000a9c",
+        "length": 22,
+        "value": "Plat_IsInDebugSession"
+    },
+    {
+        "address": ".strtab::00000ab2",
+        "length": 7,
+        "value": "_edata"
+    },
+    {
+        "address": ".strtab::00000ab9",
+        "length": 33,
+        "value": "__gxx_personality_v0@@CXXABI_1.3"
+    },
+    {
+        "address": ".strtab::00000ada",
+        "length": 19,
+        "value": "tolower@@GLIBC_2.0"
+    },
+    {
+        "address": ".strtab::00000aed",
+        "length": 15,
+        "value": "BASS_MusicLoad"
+    },
+    {
+        "address": ".strtab::00000afc",
+        "length": 18,
+        "value": "strcmp@@GLIBC_2.0"
+    },
+    {
+        "address": ".strtab::00000b0e",
+        "length": 20,
+        "value": "towupper@@GLIBC_2.0"
+    },
+    {
+        "address": ".strtab::00000b22",
+        "length": 28,
+        "value": "__cxa_finalize@@GLIBC_2.1.3"
+    },
+    {
+        "address": ".strtab::00000b3e",
+        "length": 35,
+        "value": "_ZNSs12_M_leak_hardEv@@GLIBCXX_3.4"
+    },
+    {
+        "address": ".strtab::00000b61",
+        "length": 28,
+        "value": "_ZNSs4swapERSs@@GLIBCXX_3.4"
+    },
+    {
+        "address": ".strtab::00000b7d",
+        "length": 18,
+        "value": "BASS_ChannelFlags"
+    },
+    {
+        "address": ".strtab::00000b8f",
+        "length": 29,
+        "value": "_ZNSs7reserveEj@@GLIBCXX_3.4"
+    },
+    {
+        "address": ".strtab::00000bac",
+        "length": 19,
+        "value": "BASS_Set3DPosition"
+    },
+    {
+        "address": ".strtab::00000bbf",
+        "length": 6,
+        "value": "_init"
+    },
+    {
+        "address": ".strtab::00000bc5",
+        "length": 27,
+        "value": "BASS_StreamGetFilePosition"
+    }
+]

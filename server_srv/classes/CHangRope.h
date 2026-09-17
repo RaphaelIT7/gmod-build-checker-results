@@ -1,4 +1,5 @@
 // Generated header
+// Estimated minimum size: 0x6054 (24660) bytes
 
 class CHangRope : public CRopePhysics
 {

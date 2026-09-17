@@ -1,4 +1,5 @@
 // Generated header
+// Estimated minimum size: 0x1664 (5732) bytes
 
 class CWeaponGlock : public CBaseHL1MPCombatWeapon
 {

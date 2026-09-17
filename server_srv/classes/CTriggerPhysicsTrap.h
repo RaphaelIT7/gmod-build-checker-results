@@ -1,4 +1,5 @@
 // Generated header
+// Estimated minimum size: 0x14F8 (5368) bytes
 
 class CTriggerPhysicsTrap : public CTriggerMultiple
 {

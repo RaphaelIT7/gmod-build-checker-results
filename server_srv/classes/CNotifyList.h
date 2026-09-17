@@ -1,4 +1,5 @@
 // Generated header
+// Estimated minimum size: 0x1C (28) bytes
 
 class CNotifyList : public INotify, public IEntityListener
 {
@@ -10,9 +11,10 @@ public:
 	virtual void ClearEntity(CBaseEntity *param_1); // vtable[4]
 	virtual void OnEntityCreated(CBaseEntity *param_1); // vtable[5]
 	virtual void OnEntityDeleted(CBaseEntity *param_1); // vtable[6]
+	virtual void OnEntityCreated(CBaseEntity *param_1); // vtable[0]
+	virtual void OnEntitySpawned(CBaseEntity *param_1); // vtable[1]
+	virtual void OnEntityDeleted(CBaseEntity *param_1); // vtable[2]
 
-	void OnEntityCreated(CBaseEntity *param_1); // size[7]
-	void OnEntityDeleted(CBaseEntity *param_1); // size[7]
 	void LevelShutdownPreEntity(); // size[65]
 	void LevelInitPreEntity(); // size[30]
 	~CNotifyList(); // size[62]

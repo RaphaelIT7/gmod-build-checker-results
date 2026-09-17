@@ -1,11 +1,11 @@
 // Generated header
+// Estimated minimum size: 0x1684 (5764) bytes
 
 class CSceneEntity : public CPointEntity, public IChoreoEventCallback
 {
 public:
 	virtual ~CSceneEntity() override; // vtable[0]
 	virtual ~CSceneEntity() override; // vtable[1]
-	virtual void GetRefEHandle() override; // vtable[3]
 	virtual void GetServerClass() override; // vtable[10]
 	virtual void YouForgotToImplementOrDeclareServerClass() override; // vtable[11]
 	virtual void GetDataDescMap() override; // vtable[12]
@@ -68,6 +68,10 @@ public:
 	virtual void FindNamedActor(char *param_1); // vtable[294]
 	virtual void FindNamedEntity(char *param_1, CBaseEntity *param_2, bool param_3, bool param_4); // vtable[295]
 	virtual void FindNamedEntityClosest(char *param_1, CBaseEntity *param_2, bool param_3, bool param_4, char *param_5); // vtable[296]
+	virtual void StartEvent(float param_1, CChoreoScene *param_2, CChoreoEvent *param_3); // vtable[0]
+	virtual void EndEvent(float param_1, CChoreoScene *param_2, CChoreoEvent *param_3); // vtable[1]
+	virtual void ProcessEvent(float param_1, CChoreoScene *param_2, CChoreoEvent *param_3); // vtable[2]
+	virtual void CheckEvent(float param_1, CChoreoScene *param_2, CChoreoEvent *param_3); // vtable[3]
 
 	void InputPausePlayback(inputdata_t *param_1); // size[34]
 	void InputResumePlayback(inputdata_t *param_1); // size[17]
@@ -78,11 +82,7 @@ public:
 	void InputCancelAtNextInterrupt(inputdata_t *param_1); // size[83]
 	void InputTriggerEvent(inputdata_t *param_1); // size[531]
 	void DispatchPauseScene(CChoreoScene *param_1, char *param_2); // size[295]
-	void ProcessEvent(float param_1, CChoreoScene *param_2, CChoreoEvent *param_3); // size[10]
 	void InputScriptPlayerDeath(inputdata_t *param_1); // size[4]
-	void CheckEvent(float param_1, CChoreoScene *param_2, CChoreoEvent *param_3); // size[13]
-	void StartEvent(float param_1, CChoreoScene *param_2, CChoreoEvent *param_3); // size[13]
-	void EndEvent(float param_1, CChoreoScene *param_2, CChoreoEvent *param_3); // size[13]
 	void GetBaseMap(); // size[10]
 	void SetCurrentTime(float param_1, bool param_2); // size[90]
 	void GenerateSceneForSound(CBaseFlex *param_1, char *param_2); // size[129]

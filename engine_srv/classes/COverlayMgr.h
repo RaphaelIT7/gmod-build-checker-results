@@ -1,4 +1,5 @@
 // Generated header
+// Estimated minimum size: 0x204 (516) bytes
 
 class COverlayMgr : public IOverlayMgr
 {
@@ -11,7 +12,7 @@ public:
 	virtual void ClearRenderLists(int param_1); // vtable[5]
 	virtual void AddFragmentListToRenderList(int param_1, ushort param_2, bool param_3); // vtable[6]
 	virtual void RenderOverlays(IMatRenderContext *param_1, int param_2, IMaterial *param_3); // vtable[7]
-	virtual void SetOverlayBindProxy(int param_1, void *param_2) override; // vtable[8]
+	virtual void SetOverlayBindProxy(int param_1, void *param_2); // vtable[8]
 
 	void FadeOverlayFragmentGlobal(moverlayfragment_t *param_1); // size[234]
 	void FadeOverlayFragment(moverlay_t *param_1, moverlayfragment_t *param_2); // size[219]

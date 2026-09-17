@@ -1,4 +1,5 @@
 // Generated header
+// Estimated minimum size: 0x44 (68) bytes
 
 class CAI_FreePass : public CAI_Component
 {

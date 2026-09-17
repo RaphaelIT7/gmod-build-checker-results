@@ -1,4 +1,5 @@
 // Generated header
+// Estimated minimum size: 0xC (12) bytes
 
 class CVoidPairHash : public IVP_Collision_Filter_Exclusive_Pair
 {

@@ -1,4 +1,5 @@
 // Generated header
+// Estimated minimum size: 0x15FC (5628) bytes
 
 class CColorCorrectionVolume : public CBaseTrigger
 {

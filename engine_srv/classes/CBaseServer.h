@@ -1,11 +1,12 @@
 // Generated header
+// Estimated minimum size: 0x160 (352) bytes
 
 class CBaseServer : public IServer
 {
 public:
 	virtual ~CBaseServer() override; // vtable[0]
 	virtual ~CBaseServer() override; // vtable[1]
-	virtual void ProcessConnectionlessPacket(netpacket_s *param_1) override; // vtable[2]
+	virtual void ProcessConnectionlessPacket(netpacket_s *param_1); // vtable[2]
 	virtual void GetNumClients(); // vtable[3]
 	virtual void GetNumProxies(); // vtable[4]
 	virtual void GetNumFakeClients(); // vtable[5]
@@ -37,9 +38,9 @@ public:
 	virtual void SetPassword(char *param_1); // vtable[31]
 	virtual void BroadcastMessage(INetMessage *param_1, bool param_2, bool param_3); // vtable[32]
 	virtual void BroadcastMessage(INetMessage *param_1, IRecipientFilter *param_2); // vtable[33]
-	virtual void DisconnectClient(IClient *param_1, char *param_2) override; // vtable[34]
+	virtual void DisconnectClient(IClient *param_1, char *param_2); // vtable[34]
 	virtual void GetCPUUsage(); // vtable[35]
-	virtual void BroadcastPrintf(char *param_1); // vtable[36]
+	virtual void BroadcastPrintf(char const *null, ... null); // vtable[36]
 	virtual void SetMaxClients(int param_1); // vtable[37]
 	virtual void WriteDeltaEntities(CBaseClient *param_1, CClientFrame *param_2, CClientFrame *param_3, bf_write *param_4); // vtable[38]
 	virtual void WriteTempEntities(CBaseClient *param_1, CFrameSnapshot *param_2, CFrameSnapshot *param_3, bf_write *param_4, int param_5); // vtable[39]

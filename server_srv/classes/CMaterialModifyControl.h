@@ -1,4 +1,5 @@
 // Generated header
+// Estimated minimum size: 0x16D4 (5844) bytes
 
 class CMaterialModifyControl : public CBaseEntity
 {

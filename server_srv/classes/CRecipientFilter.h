@@ -1,4 +1,5 @@
 // Generated header
+// Estimated minimum size: 0x410 (1040) bytes
 
 class CRecipientFilter : public IRecipientFilter
 {
@@ -8,7 +9,7 @@ public:
 	virtual void IsReliable(); // vtable[2]
 	virtual void IsInitMessage(); // vtable[3]
 	virtual void GetRecipientCount(); // vtable[4]
-	virtual void GetRecipientIndex(int param_1) override; // vtable[5]
+	virtual void GetRecipientIndex(int param_1); // vtable[5]
 
 	_GLOBAL__sub_I_CRecipientFilter(); // size[113]
 	CRecipientFilter(); // size[65]

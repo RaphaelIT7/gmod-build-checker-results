@@ -1,4 +1,5 @@
 // Generated header
+// Estimated minimum size: 0x34C (844) bytes
 
 class CCoreDispInfo : public CDispUtilsHelper
 {
@@ -6,7 +7,7 @@ public:
 	virtual void GetPowerInfo(); // vtable[0]
 	virtual void GetEdgeNeighbor(int param_1); // vtable[1]
 	virtual void GetCornerNeighbors(int param_1); // vtable[2]
-	virtual void GetDispUtilsByIndex(int param_1) override; // vtable[3]
+	virtual void GetDispUtilsByIndex(int param_1); // vtable[3]
 
 	CCoreDispInfo(); // size[180]
 	~CCoreDispInfo(); // size[96]

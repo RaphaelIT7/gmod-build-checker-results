@@ -1,4 +1,5 @@
 // Generated header
+// Estimated minimum size: 0x146C (5228) bytes
 
 class CFuncMoveLinear : public CBaseToggle
 {

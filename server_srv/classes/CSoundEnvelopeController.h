@@ -1,9 +1,8 @@
 // Generated header
+// Estimated minimum size: 0x4 (4) bytes
 
 class CSoundEnvelopeController
 {
 public:
-	virtual void __cxa_pure_virtual(); // vtable[28]
-
 	void GetController(); // size[10]
 };

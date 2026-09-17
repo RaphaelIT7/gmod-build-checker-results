@@ -1,4 +1,5 @@
 // Generated header
+// Estimated minimum size: 0x401C (16412) bytes
 
 class CCheckClient : public CAutoGameSystem
 {

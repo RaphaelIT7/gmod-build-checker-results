@@ -1,4 +1,5 @@
 // Generated header
+// Estimated minimum size: 0x13F4 (5108) bytes
 
 class CAssaultPoint : public CPointEntity
 {

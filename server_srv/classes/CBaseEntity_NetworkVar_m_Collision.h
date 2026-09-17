@@ -1,4 +1,5 @@
 // Generated header
+// Estimated minimum size: 0x200 (512) bytes
 
 class CBaseEntity_NetworkVar_m_Collision : public CCollisionProperty
 {

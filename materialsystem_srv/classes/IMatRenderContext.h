@@ -1,13 +1,13 @@
 // Generated header
+// Estimated minimum size: 0x4 (4) bytes
 
 class IMatRenderContext
 {
 public:
-	virtual void Unused3(); // vtable[89]
-	virtual void Unused4(); // vtable[94]
-	virtual void Unused5(); // vtable[95]
-	virtual void Unused6(); // vtable[96]
-	virtual void Unused7(); // vtable[97]
-	virtual void Unused8(); // vtable[98]
-	virtual void __cxa_pure_virtual(); // vtable[198]
+	void Unused3(); // size[5]
+	void Unused4(); // size[5]
+	void Unused5(); // size[5]
+	void Unused6(); // size[5]
+	void Unused7(); // size[5]
+	void Unused8(); // size[5]
 };

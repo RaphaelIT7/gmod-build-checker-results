@@ -1,4 +1,5 @@
 // Generated header
+// Estimated minimum size: 0x5C (92) bytes
 
 class CSave : public ISave
 {
@@ -50,9 +51,9 @@ public:
 	virtual void WriteEntityPtr(CBaseEntity * *param_1, int param_2); // vtable[44]
 	virtual void WriteEdictPtr(edict_t * *param_1, int param_2); // vtable[45]
 	virtual void WriteEHandle(CHandle *param_1, int param_2); // vtable[46]
-	virtual void GetGameSaveRestoreInfo() override; // vtable[47]
-	virtual ~CSave() override; // vtable[48]
-	virtual ~CSave() override; // vtable[49]
+	virtual void GetGameSaveRestoreInfo(); // vtable[47]
+	virtual ~CSave(); // vtable[48]
+	virtual ~CSave(); // vtable[49]
 
 	void IsLogging(); // size[16]
 	void Log(char *param_1, _fieldtypes param_2, void *param_3, int param_4); // size[93]

@@ -1,8 +1,8 @@
 // Generated header
+// Estimated minimum size: 0x4 (4) bytes
 
 class IMatRenderContextInternal : public IMatRenderContext
 {
 public:
-	virtual void __cxa_pure_virtual(); // vtable[228]
-	virtual void GMOD_IsLowOnMemory(); // vtable[229]
+	void GMOD_IsLowOnMemory(); // size[7]
 };

@@ -1,4 +1,5 @@
 // Generated header
+// Estimated minimum size: 0x10 (16) bytes
 
 class CZip : public IZip
 {
@@ -21,7 +22,7 @@ public:
 	virtual void ForceAlignment(bool param_1, bool param_2, uint param_3); // vtable[15]
 	virtual void GetAlignment(); // vtable[16]
 	virtual void SetBigEndian(bool param_1); // vtable[17]
-	virtual void ActivateByteSwapping(bool param_1) override; // vtable[18]
+	virtual void ActivateByteSwapping(bool param_1); // vtable[18]
 	virtual ~CZip(); // vtable[19]
 	virtual ~CZip(); // vtable[20]
 

@@ -1,9 +1,10 @@
 // Generated header
+// Estimated minimum size: 0x1E8 (488) bytes
 
 class CAI_Expresser : public IResponseFilter
 {
 public:
-	virtual void IsValidResponse(ResponseType_t param_1, char *param_2) override; // vtable[0]
+	virtual void IsValidResponse(ResponseType_t param_1, char *param_2); // vtable[0]
 	virtual void SpeakRawSentence(char *param_1, float param_2, float param_3, soundlevel_t param_4, CBaseEntity *param_5); // vtable[1]
 	virtual void IsSpeaking(); // vtable[2]
 	virtual void SetOuter(CBaseFlex *param_1); // vtable[3]
@@ -18,7 +19,7 @@ public:
 	void GetSemaphoreAvailableTime(CBaseEntity *param_1); // size[17]
 	void SemaphoreIsAvailable(CBaseEntity *param_1); // size[47]
 	void ForceNotSpeaking(); // size[244]
-	void SpeechMsg(CBaseEntity *param_1, char *param_2); // size[135]
+	void SpeechMsg(CBaseEntity *null, char const *null, ... null); // size[135]
 	void BlockSpeechUntil(float param_1); // size[126]
 	void NoteSpeaking(float param_1, float param_2); // size[473]
 	void SpeakRawScene(char *param_1, float param_2, AI_Response *param_3, IRecipientFilter *param_4); // size[419]

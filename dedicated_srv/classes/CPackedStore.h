@@ -1,4 +1,5 @@
 // Generated header
+// Estimated minimum size: 0x2CD8 (11480) bytes
 
 class CPackedStore
 {
@@ -10,18 +11,18 @@ public:
 	void IsEmpty(); // size[18]
 	void GetDataFileName(char *param_1, int param_2, int param_3); // size[74]
 	void OpenFile(char *param_1); // size[361]
-	void GetHandleForHashingFiles(); // size[48]
+	void GetHandleForHashingFiles(); // size[51]
 	void DiscardChunkHashes(int param_1); // size[147]
 	void ComputeDirectoryHash(MD5Value_t *param_1); // size[117]
 	void ComputeChunkHash(MD5Value_t *param_1); // size[125]
 	void BTestDirectoryHash(); // size[107]
-	void BTestMasterChunkHash(); // size[107]
+	void BTestMasterChunkHash(); // size[82]
 	void HashMetadata(); // size[52]
 	void GetPackFileName(CPackedStoreFileHandle *param_1, char *param_2, int param_3); // size[29]
-	void GetFileHandle(int param_1); // size[18]
-	void HashEntirePackFile(CPackedStoreFileHandle *param_1, longlong *param_2, int param_3, int param_4, FileHash_t *param_5); // size[559]
-	void InternalRemoveFileFromDirectory(char *param_1); // size[186]
-	void RemoveFileFromDirectory(char *param_1); // size[49]
+	void GetFileHandle(int param_1); // size[428]
+	void HashEntirePackFile(CPackedStoreFileHandle *param_1, longlong *param_2, int param_3, int param_4, FileHash_t *param_5); // size[605]
+	void InternalRemoveFileFromDirectory(char *param_1); // size[9]
+	void RemoveFileFromDirectory(char *param_1); // size[4]
 	void Init(); // size[201]
 	void FindFileHashFraction(int param_1, int param_2, ChunkHashFraction_t *param_3); // size[150]
 	void GetPackFileLoadErrorSummary(CUtlString *param_1); // size[493]

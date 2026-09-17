@@ -1,4 +1,5 @@
 // Generated header
+// Estimated minimum size: 0x1678 (5752) bytes
 
 class CWeaponSatchel : public CBaseHL1MPCombatWeapon
 {

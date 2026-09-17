@@ -1,4 +1,5 @@
 // Generated header
+// Estimated minimum size: 0x47D4 (18388) bytes
 
 class PathFollower : public Path
 {

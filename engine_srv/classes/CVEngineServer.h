@@ -1,4 +1,5 @@
 // Generated header
+// Estimated minimum size: 0xC (12) bytes
 
 class CVEngineServer : public IVEngineServer
 {
@@ -41,7 +42,7 @@ public:
 	virtual void SentenceLength(int param_1); // vtable[35]
 	virtual void ServerCommand(char *param_1); // vtable[36]
 	virtual void ServerExecute(); // vtable[37]
-	virtual void ClientCommand(edict_t *param_1, char *param_2); // vtable[38]
+	virtual void ClientCommand(edict_t *null, char const *null, ... null); // vtable[38]
 	virtual void LightStyle(int param_1, char *param_2); // vtable[39]
 	virtual void StaticDecal(Vector *param_1, int param_2, int param_3, int param_4, bool param_5); // vtable[40]
 	virtual void Message_DetermineMulticastRecipients(bool param_1, Vector *param_2, CBitVec *param_3); // vtable[41]
@@ -49,8 +50,8 @@ public:
 	virtual void UserMessageBegin(IRecipientFilter *param_1, int param_2); // vtable[43]
 	virtual void MessageEnd(); // vtable[44]
 	virtual void ClientPrintf(edict_t *param_1, char *param_2); // vtable[45]
-	virtual void Con_NPrintf(int param_1, char *param_2); // vtable[46]
-	virtual void Con_NXPrintf(con_nprint_s *param_1, char *param_2); // vtable[47]
+	virtual void Con_NPrintf(int null, char const *null, ... null); // vtable[46]
+	virtual void Con_NXPrintf(con_nprint_s const *null, char const *null, ... null); // vtable[47]
 	virtual void SetView(edict_t *param_1, edict_t *param_2); // vtable[48]
 	virtual void Time(); // vtable[49]
 	virtual void CrosshairAngle(edict_t *param_1, float param_2, float param_3); // vtable[50]

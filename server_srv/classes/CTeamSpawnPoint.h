@@ -1,4 +1,5 @@
 // Generated header
+// Estimated minimum size: 0x13CC (5068) bytes
 
 class CTeamSpawnPoint : public CPointEntity
 {

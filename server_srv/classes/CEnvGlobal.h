@@ -1,4 +1,5 @@
 // Generated header
+// Estimated minimum size: 0x13D8 (5080) bytes
 
 class CEnvGlobal : public CLogicalEntity
 {

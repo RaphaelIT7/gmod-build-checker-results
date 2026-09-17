@@ -1,18 +1,11 @@
 // Generated header
+// Estimated minimum size: 0x16DC (5852) bytes
 
 class CPropVehicle : public CBaseProp, public CDefaultPlayerPickupVPhysics
 {
 public:
 	virtual ~CPropVehicle() override; // vtable[0]
 	virtual ~CPropVehicle() override; // vtable[1]
-	virtual void SetRefEHandle(CBaseHandle *param_1) override; // vtable[2]
-	virtual void GetRefEHandle() override; // vtable[3]
-	virtual void GetCollideable() override; // vtable[4]
-	virtual void GetNetworkable() override; // vtable[5]
-	virtual void GetBaseEntity() override; // vtable[6]
-	virtual void GetModelIndex() override; // vtable[7]
-	virtual void GetModelName() override; // vtable[8]
-	virtual void SetModelIndex(int param_1) override; // vtable[9]
 	virtual void GetDataDescMap() override; // vtable[12]
 	virtual void Spawn() override; // vtable[23]
 	virtual void DrawDebugGeometryOverlays() override; // vtable[39]
@@ -29,13 +22,13 @@ public:
 	virtual void DampenEyePosition(Vector *param_1, QAngle *param_2); // vtable[284]
 	virtual void GetUprightStrength(); // vtable[285]
 	virtual void GetUprightTime(); // vtable[286]
+	virtual void OnPhysGunPickup(CBasePlayer *param_1, PhysGunPickup_t param_2) override; // vtable[2]
 
 	void InputThrottle(inputdata_t *param_1); // size[43]
 	void InputSteering(inputdata_t *param_1); // size[68]
 	void InputAction(inputdata_t *param_1); // size[43]
 	void InputHandBrakeOn(inputdata_t *param_1); // size[27]
 	void InputHandBrakeOff(inputdata_t *param_1); // size[16]
-	void OnPhysGunPickup(CBasePlayer *param_1, PhysGunPickup_t param_2); // size[10]
 	void GetBaseMap(); // size[10]
 	CPropVehicle(); // size[170]
 	void RemovePhysicsChild(CBaseEntity *param_1); // size[137]

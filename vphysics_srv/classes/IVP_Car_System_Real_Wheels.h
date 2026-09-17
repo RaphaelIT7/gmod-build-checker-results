@@ -1,4 +1,5 @@
 // Generated header
+// Estimated minimum size: 0x150 (336) bytes
 
 class IVP_Car_System_Real_Wheels : public IVP_Car_System
 {

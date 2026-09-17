@@ -1,9 +1,10 @@
 // Generated header
+// Estimated minimum size: 0x4C (76) bytes
 
 class CPhysGunControllerPoint : public IMotionEvent
 {
 public:
-	virtual void Simulate(IPhysicsMotionController *param_1, IPhysicsObject *param_2, float param_3, Vector *param_4, Vector *param_5) override; // vtable[0]
+	virtual void Simulate(IPhysicsMotionController *param_1, IPhysicsObject *param_2, float param_3, Vector *param_4, Vector *param_5); // vtable[0]
 
 	CPhysGunControllerPoint(); // size[101]
 	void SetTargetRotation(QAngle *param_1); // size[47]

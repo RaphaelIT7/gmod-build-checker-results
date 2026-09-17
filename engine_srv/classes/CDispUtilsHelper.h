@@ -1,10 +1,9 @@
 // Generated header
+// Estimated minimum size: 0x28 (40) bytes
 
 class CDispUtilsHelper
 {
 public:
-	virtual void __cxa_pure_virtual(); // vtable[3]
-
 	void GetPower(); // size[21]
 	void GetSideLength(); // size[21]
 	void GetCornerPointIndex(int param_1); // size[36]

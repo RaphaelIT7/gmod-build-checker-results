@@ -1,4 +1,5 @@
 // Generated header
+// Estimated minimum size: 0x14F4 (5364) bytes
 
 class CTriggerPush : public CBaseTrigger
 {

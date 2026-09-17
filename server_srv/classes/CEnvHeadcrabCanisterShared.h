@@ -1,4 +1,5 @@
 // Generated header
+// Estimated minimum size: 0x78 (120) bytes
 
 class CEnvHeadcrabCanisterShared
 {

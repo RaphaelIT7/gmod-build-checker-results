@@ -1,4 +1,5 @@
 // Generated header
+// Estimated minimum size: 0x20AC (8364) bytes
 
 class CWeaponAR2 : public CHL2MPMachineGun
 {

@@ -1,20 +1,22 @@
 // Generated header
+// Estimated minimum size: 0x78 (120) bytes
 
 class CMorph : public IMorphInternal, public ITextureRegenerator
 {
 public:
 	virtual void Lock(float param_1); // vtable[0]
-	virtual void AddMorph(MorphVertexInfo_t *param_1) override; // vtable[1]
-	virtual void Unlock() override; // vtable[2]
+	virtual void AddMorph(MorphVertexInfo_t *param_1); // vtable[1]
+	virtual void Unlock(); // vtable[2]
 	virtual void Init(uint param_1, char *param_2); // vtable[3]
 	virtual void Bind(IMorphMgrRenderContext *param_1); // vtable[4]
-	virtual void GetMorphFormat() override; // vtable[5]
+	virtual void GetMorphFormat(); // vtable[5]
 	virtual void RegenerateTextureBits(ITexture *param_1, IVTFTexture *param_2, Rect_t *param_3); // vtable[6]
 	virtual void Release(); // vtable[7]
+	virtual void RegenerateTextureBits(ITexture *param_1, IVTFTexture *param_2, Rect_t *param_3); // vtable[0]
+	virtual void Release(); // vtable[1]
 
 	void WriteDeltaPositionNormalToTexture(CPixelWriter *param_1, int param_2, int param_3, MorphVertexInfo_t *param_4); // size[1387]
 	void WriteSideSpeedToTexture(CPixelWriter *param_1, int param_2, int param_3, MorphVertexInfo_t *param_4); // size[486]
-	void RegenerateTextureBits(ITexture *param_1, IVTFTexture *param_2, Rect_t *param_3); // size[10]
 	void BindMorphWeight(int param_1); // size[169]
 	void ComputeMorphTextureSizeInBytes(); // size[164]
 	void CleanUp(); // size[237]
@@ -40,5 +42,4 @@ public:
 	void BuildQuadList(CUtlVector *param_1); // size[376]
 	~CMorph(); // size[147]
 	void PackMorphData(); // size[794]
-	void Release(); // size[7]
 };

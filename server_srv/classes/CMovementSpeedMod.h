@@ -1,4 +1,5 @@
 // Generated header
+// Estimated minimum size: 0x13B4 (5044) bytes
 
 class CMovementSpeedMod : public CPointEntity
 {

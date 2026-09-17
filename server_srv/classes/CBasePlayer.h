@@ -1,4 +1,5 @@
 // Generated header
+// Estimated minimum size: 0x7D8DFDE8 (2106457576) bytes
 
 class CBasePlayer : public CBaseCombatCharacter
 {
@@ -362,11 +363,5 @@ public:
 	void ReplaceContextCommands(CCommandContext *param_1, CUserCmd *param_2, int param_3); // size[94]
 	void AdjustPlayerTimeBase(int param_1); // size[494]
 	void OnTonemapTriggerStartTouch(CTonemapTrigger *param_1); // size[227]
-	~NetworkVar_pl(); // size[14]
-	~NetworkVar_pl(); // size[18]
-	void NetworkStateChanged(); // size[53]
-	void NetworkStateChanged(); // size[53]
-	void NetworkStateChanged(void *param_1); // size[84]
-	void NetworkStateChanged(void *param_1); // size[84]
 	void Kick(char *param_1); // size[122]
 };

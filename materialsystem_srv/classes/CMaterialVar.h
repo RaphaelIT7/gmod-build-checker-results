@@ -1,4 +1,5 @@
 // Generated header
+// Estimated minimum size: 0x50 (80) bytes
 
 class CMaterialVar : public IMaterialVar
 {
@@ -33,7 +34,7 @@ public:
 	virtual void GetFloatValueInternal(); // vtable[27]
 	virtual void GetVecValueInternal(); // vtable[28]
 	virtual void GetVecValueInternal(float *param_1, int param_2); // vtable[29]
-	virtual void VectorSizeInternal() override; // vtable[30]
+	virtual void VectorSizeInternal(); // vtable[30]
 	virtual ITexture * operator.cast.to.ITexture*(); // vtable[31]
 	virtual ~CMaterialVar(); // vtable[32]
 	virtual ~CMaterialVar(); // vtable[33]

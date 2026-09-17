@@ -1,4 +1,5 @@
 // Generated header
+// Estimated minimum size: 0x15C8 (5576) bytes
 
 class CNewWallHealth : public CBaseAnimating
 {

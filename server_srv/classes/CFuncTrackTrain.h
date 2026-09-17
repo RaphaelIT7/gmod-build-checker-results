@@ -1,4 +1,5 @@
 // Generated header
+// Estimated minimum size: 0x14A0 (5280) bytes
 
 class CFuncTrackTrain : public CBaseEntity
 {

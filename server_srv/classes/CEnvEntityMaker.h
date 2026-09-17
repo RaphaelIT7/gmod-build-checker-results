@@ -1,4 +1,5 @@
 // Generated header
+// Estimated minimum size: 0x1414 (5140) bytes
 
 class CEnvEntityMaker : public CPointEntity
 {

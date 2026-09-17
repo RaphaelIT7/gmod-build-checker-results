@@ -1,4 +1,5 @@
 // Generated header
+// Estimated minimum size: 0xA4 (164) bytes
 
 class CPhysicsMotionController : public IVP_Controller_Independent, public IPhysicsMotionController
 {
@@ -20,19 +21,19 @@ public:
 	virtual void ClearObjects(); // vtable[14]
 	virtual void WakeObjects(); // vtable[15]
 	virtual void SetPriority(priority_t param_1); // vtable[16]
+	virtual ~CPhysicsMotionController(); // vtable[0]
+	virtual ~CPhysicsMotionController(); // vtable[1]
+	virtual void SetEventHandler(IMotionEvent *param_1); // vtable[2]
+	virtual void AttachObject(IPhysicsObject *param_1, bool param_2); // vtable[3]
+	virtual void DetachObject(IPhysicsObject *param_1); // vtable[4]
+	virtual void CountObjects(); // vtable[5]
+	virtual void GetObjects(IPhysicsObject * *param_1); // vtable[6]
+	virtual void ClearObjects(); // vtable[7]
+	virtual void WakeObjects(); // vtable[8]
+	virtual void SetPriority(priority_t param_1); // vtable[9]
 
-	void SetEventHandler(IMotionEvent *param_1); // size[14]
-	void SetPriority(priority_t param_1); // size[43]
-	~CPhysicsMotionController(); // size[10]
-	~CPhysicsMotionController(); // size[34]
 	CPhysicsMotionController(IMotionEvent *param_1, CPhysicsEnvironment *param_2); // size[75]
 	void RemoveCore(IVP_Core *param_1); // size[123]
-	void DetachObject(IPhysicsObject *param_1); // size[28]
 	void InitFromTemplate(vphysics_save_motioncontroller_t *param_1); // size[75]
-	void AttachObject(IPhysicsObject *param_1, bool param_2); // size[10]
 	void WriteToTemplate(vphysics_save_motioncontroller_t *param_1); // size[257]
-	void CountObjects(); // size[11]
-	void GetObjects(IPhysicsObject * *param_1); // size[57]
-	void WakeObjects(); // size[56]
-	void ClearObjects(); // size[57]
 };

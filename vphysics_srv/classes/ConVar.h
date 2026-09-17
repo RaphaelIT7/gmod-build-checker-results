@@ -1,4 +1,5 @@
 // Generated header
+// Estimated minimum size: 0x5C (92) bytes
 
 class ConVar : public ConCommandBase, public IConVar
 {
@@ -22,12 +23,12 @@ public:
 	virtual void ChangeStringValue(char *param_1, float param_2); // vtable[18]
 	virtual void Create_Vtbl(char *param_1, char *param_2, int param_3, char *param_4, bool param_5, float param_6, bool param_7, float param_8, _func_void_IConVar_ptr_char_ptr_float *param_9); // vtable[19]
 	virtual void InternalSetFloatValue2(float param_1, bool param_2); // vtable[20]
+	virtual void SetValue(char *param_1); // vtable[0]
+	virtual void SetValue(float param_1); // vtable[1]
+	virtual void SetValue(int param_1); // vtable[2]
+	virtual void GetName(); // vtable[3]
+	virtual void IsFlagSet(int param_1); // vtable[4]
 
-	void GetName(); // size[14]
-	void IsFlagSet(int param_1); // size[20]
-	void SetValue(int param_1); // size[20]
-	void SetValue(char *param_1); // size[20]
-	void SetValue(float param_1); // size[28]
 	void InstallChangeCallback(_func_void_IConVar_ptr_char_ptr_float *param_1); // size[48]
 	void Create(char *param_1, char *param_2, int param_3, char *param_4, bool param_5, float param_6, bool param_7, float param_8, bool param_9, float param_10, bool param_11, float param_12, _func_void_IConVar_ptr_char_ptr_float *param_13); // size[377]
 	ConVar(char *param_1, char *param_2, int param_3); // size[94]

@@ -1,4 +1,5 @@
 // Generated header
+// Estimated minimum size: 0x18 (24) bytes
 
 class CAimTargetManager : public IEntityListener
 {

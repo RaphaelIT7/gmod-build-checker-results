@@ -1,4 +1,5 @@
 // Generated header
+// Estimated minimum size: 0x2C (44) bytes
 
 class CReferenceToHandleTexture : public ITextureInternal
 {
@@ -32,7 +33,7 @@ public:
 	virtual void SwapContents(ITexture *param_1); // vtable[26]
 	virtual void GetFlags(); // vtable[27]
 	virtual void ForceLODOverride(int param_1); // vtable[28]
-	virtual void SaveToFile(char *param_1) override; // vtable[29]
+	virtual void SaveToFile(char *param_1); // vtable[29]
 	virtual void Bind(Sampler_t param_1); // vtable[30]
 	virtual void Bind(Sampler_t param_1, int param_2, Sampler_t param_3); // vtable[31]
 	virtual void GetReferenceCount(); // vtable[32]
@@ -46,8 +47,8 @@ public:
 	virtual void CopyMeToFrameBuffer(int param_1, Rect_t *param_2, Rect_t *param_3); // vtable[40]
 	virtual void GetEmbeddedTexture(int param_1); // vtable[41]
 	virtual void GetTextureHandle(int param_1, int param_2); // vtable[42]
-	virtual ~CReferenceToHandleTexture() override; // vtable[43]
-	virtual ~CReferenceToHandleTexture() override; // vtable[44]
+	virtual ~CReferenceToHandleTexture(); // vtable[43]
+	virtual ~CReferenceToHandleTexture(); // vtable[44]
 	virtual void SetRenderTarget(int param_1, ITexture *param_2); // vtable[45]
 	virtual void BindVertexTexture(VertexTextureSampler_t param_1, int param_2); // vtable[46]
 	virtual void MarkAsPreloaded(bool param_1); // vtable[47]
@@ -55,7 +56,7 @@ public:
 	virtual void MarkAsExcluded(bool param_1, int param_2); // vtable[49]
 	virtual void UpdateExcludedState(); // vtable[50]
 	virtual void IsTempRenderTarget(); // vtable[51]
-	virtual void ReloadFilesInList(IFileList *param_1) override; // vtable[52]
+	virtual void ReloadFilesInList(IFileList *param_1); // vtable[52]
 
 	CReferenceToHandleTexture(); // size[46]
 	void SetName(char *param_1); // size[211]

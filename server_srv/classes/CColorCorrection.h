@@ -1,4 +1,5 @@
 // Generated header
+// Estimated minimum size: 0x14E4 (5348) bytes
 
 class CColorCorrection : public CBaseEntity
 {

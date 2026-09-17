@@ -1,4 +1,5 @@
 // Generated header
+// Estimated minimum size: 0x1408 (5128) bytes
 
 class CSceneListManager : public CLogicalEntity
 {

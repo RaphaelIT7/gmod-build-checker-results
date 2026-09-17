@@ -1,4 +1,5 @@
 // Generated header
+// Estimated minimum size: 0x13C4 (5060) bytes
 
 class CLaserDot_HL1 : public CBaseEntity
 {

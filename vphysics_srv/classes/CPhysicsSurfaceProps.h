@@ -1,4 +1,5 @@
 // Generated header
+// Estimated minimum size: 0x250 (592) bytes
 
 class CPhysicsSurfaceProps : public IPhysicsSurfacePropsInternal
 {

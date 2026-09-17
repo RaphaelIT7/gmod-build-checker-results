@@ -1,4 +1,5 @@
 // Generated header
+// Estimated minimum size: 0x14CC (5324) bytes
 
 class CPointWorldText : public CBaseEntity
 {

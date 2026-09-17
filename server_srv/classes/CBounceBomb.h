@@ -1,18 +1,11 @@
 // Generated header
+// Estimated minimum size: 0x15CC (5580) bytes
 
 class CBounceBomb : public CBaseAnimating, public CDefaultPlayerPickupVPhysics
 {
 public:
 	virtual ~CBounceBomb() override; // vtable[0]
 	virtual ~CBounceBomb() override; // vtable[1]
-	virtual void SetRefEHandle(CBaseHandle *param_1) override; // vtable[2]
-	virtual void GetRefEHandle() override; // vtable[3]
-	virtual void GetCollideable() override; // vtable[4]
-	virtual void GetNetworkable() override; // vtable[5]
-	virtual void GetBaseEntity() override; // vtable[6]
-	virtual void GetModelIndex() override; // vtable[7]
-	virtual void GetModelName() override; // vtable[8]
-	virtual void SetModelIndex(int param_1) override; // vtable[9]
 	virtual void GetDataDescMap() override; // vtable[12]
 	virtual void Spawn() override; // vtable[23]
 	virtual void Precache() override; // vtable[24]
@@ -28,6 +21,11 @@ public:
 	virtual void ForcePhysgunOpen(CBasePlayer *param_1); // vtable[284]
 	virtual void HasPreferredCarryAnglesForPlayer(CBasePlayer *param_1); // vtable[285]
 	virtual void PreferredCarryAngles(); // vtable[286]
+	virtual void OnPhysGunPickup(CBasePlayer *param_1, PhysGunPickup_t param_2) override; // vtable[2]
+	virtual void OnPhysGunDrop(CBasePlayer *param_1, PhysGunDrop_t param_2) override; // vtable[3]
+	virtual void HasPreferredCarryAnglesForPlayer(CBasePlayer *param_1) override; // vtable[4]
+	virtual void PreferredCarryAngles() override; // vtable[5]
+	virtual void ForcePhysgunOpen(CBasePlayer *param_1) override; // vtable[6]
 
 	void CaptiveThink(); // size[228]
 	void BounceThink(); // size[426]
@@ -44,12 +42,7 @@ public:
 	void OpenHooks(bool param_1); // size[198]
 	void SetMineState(int param_1); // size[469]
 	void SearchThink(); // size[537]
-	void OnPhysGunPickup(CBasePlayer *param_1, PhysGunPickup_t param_2); // size[13]
 	void InputDisarm(inputdata_t *param_1); // size[115]
-	void OnPhysGunDrop(CBasePlayer *param_1, PhysGunDrop_t param_2); // size[13]
 	void CloseHooks(); // size[201]
 	void SettleThink(); // size[340]
-	void ForcePhysgunOpen(CBasePlayer *param_1); // size[10]
-	void HasPreferredCarryAnglesForPlayer(CBasePlayer *param_1); // size[10]
-	void PreferredCarryAngles(); // size[10]
 };

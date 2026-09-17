@@ -1,7 +1,7 @@
 // Generated header
+// Estimated minimum size: 0x4 (4) bytes
 
 class IThreadedFileMD5Processor
 {
 public:
-	virtual void __cxa_pure_virtual(); // vtable[2]
 };

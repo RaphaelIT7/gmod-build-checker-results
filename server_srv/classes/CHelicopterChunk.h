@@ -1,4 +1,5 @@
 // Generated header
+// Estimated minimum size: 0x1584 (5508) bytes
 
 class CHelicopterChunk : public CBaseAnimating
 {

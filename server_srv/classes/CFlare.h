@@ -1,4 +1,5 @@
 // Generated header
+// Estimated minimum size: 0x2058 (8280) bytes
 
 class CFlare : public CBaseCombatCharacter
 {

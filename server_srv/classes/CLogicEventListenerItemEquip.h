@@ -1,4 +1,5 @@
 // Generated header
+// Estimated minimum size: 0x13F4 (5108) bytes
 
 class CLogicEventListenerItemEquip : public CLogicEventListener
 {
@@ -8,11 +9,11 @@ public:
 	virtual void GetDataDescMap() override; // vtable[12]
 	virtual void Spawn() override; // vtable[23]
 	virtual void FireGameEvent(IGameEvent *param_1) override; // vtable[246]
+	virtual ~CLogicEventListenerItemEquip(); // vtable[0]
+	virtual ~CLogicEventListenerItemEquip(); // vtable[1]
+	virtual void FireGameEvent(IGameEvent *param_1); // vtable[2]
 
 	void InputEnable(inputdata_t *param_1); // size[15]
 	void InputDisable(inputdata_t *param_1); // size[15]
-	void FireGameEvent(IGameEvent *param_1); // size[13]
 	void GetBaseMap(); // size[10]
-	~CLogicEventListenerItemEquip(); // size[13]
-	~CLogicEventListenerItemEquip(); // size[13]
 };

@@ -1,4 +1,5 @@
 // Generated header
+// Estimated minimum size: 0x14 (20) bytes
 
 class IDirect3DVertexDeclaration9 : public IUnknown
 {

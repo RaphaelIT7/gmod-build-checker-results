@@ -1,4 +1,5 @@
 // Generated header
+// Estimated minimum size: 0x157C (5500) bytes
 
 class CXenPLight : public CActAnimating
 {

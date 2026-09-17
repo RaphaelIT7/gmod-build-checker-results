@@ -1,4 +1,5 @@
 // Generated header
+// Estimated minimum size: 0x13C8 (5064) bytes
 
 class CPointTeleport : public CBaseEntity
 {

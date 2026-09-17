@@ -1,4 +1,5 @@
 // Generated header
+// Estimated minimum size: 0x8 (8) bytes
 
 class CRegistry : public IRegistry
 {
@@ -14,7 +15,7 @@ public:
 	virtual void ReadInt(char *param_1, char *param_2, int param_3); // vtable[8]
 	virtual void WriteInt(char *param_1, char *param_2, int param_3); // vtable[9]
 	virtual void ReadString(char *param_1, char *param_2, char *param_3); // vtable[10]
-	virtual void WriteString(char *param_1, char *param_2, char *param_3) override; // vtable[11]
+	virtual void WriteString(char *param_1, char *param_2, char *param_3); // vtable[11]
 	virtual void DirectInit(char *param_1); // vtable[12]
 
 	CRegistry(); // size[18]

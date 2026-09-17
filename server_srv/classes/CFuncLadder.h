@@ -1,4 +1,5 @@
 // Generated header
+// Estimated minimum size: 0x140C (5132) bytes
 
 class CFuncLadder : public CBaseEntity
 {

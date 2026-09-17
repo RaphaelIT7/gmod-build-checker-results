@@ -1,4 +1,5 @@
 // Generated header
+// Estimated minimum size: 0x124 (292) bytes
 
 class ILocomotion : public INextBotComponent
 {
@@ -8,7 +9,9 @@ public:
 	virtual void OnLeaveGround(CBaseEntity *param_1) override; // vtable[4]
 	virtual void OnLandOnGround(CBaseEntity *param_1) override; // vtable[5]
 	virtual void Reset() override; // vtable[43]
-	virtual void Update() override; // vtable[44]
+	virtual void Update(); // vtable[44]
+	virtual void Upkeep(); // vtable[45]
+	virtual void GetBot(); // vtable[46]
 	virtual void Approach(Vector *param_1, float param_2); // vtable[47]
 	virtual void DriveTo(Vector *param_1); // vtable[48]
 	virtual void ClimbUpToLedge(Vector *param_1, Vector *param_2, CBaseEntity *param_3); // vtable[49]

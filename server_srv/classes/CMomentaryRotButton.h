@@ -1,4 +1,5 @@
 // Generated header
+// Estimated minimum size: 0x15A8 (5544) bytes
 
 class CMomentaryRotButton : public CRotButton
 {

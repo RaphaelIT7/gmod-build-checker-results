@@ -1,4 +1,5 @@
 // Generated header
+// Estimated minimum size: 0x4B74 (19316) bytes
 
 class CWeaponPhysCannon : public CBaseHL2MPCombatWeapon
 {

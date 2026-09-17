@@ -1,4 +1,5 @@
 // Generated header
+// Estimated minimum size: 0x8E9A4 (584100) bytes
 
 class IDirect3DDevice9 : public IUnknown
 {

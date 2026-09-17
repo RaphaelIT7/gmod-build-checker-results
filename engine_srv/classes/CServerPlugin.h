@@ -1,11 +1,12 @@
 // Generated header
+// Estimated minimum size: 0x1C (28) bytes
 
 class CServerPlugin : public IServerPluginHelpers
 {
 public:
 	virtual void CreateMessage(edict_t *param_1, DIALOG_TYPE param_2, KeyValues *param_3, IServerPluginCallbacks *param_4); // vtable[0]
 	virtual void ClientCommand(edict_t *param_1, char *param_2); // vtable[1]
-	virtual void StartQueryCvarValue(edict_t *param_1, char *param_2) override; // vtable[2]
+	virtual void StartQueryCvarValue(edict_t *param_1, char *param_2); // vtable[2]
 	virtual void LevelInit(char *param_1, char *param_2, char *param_3, char *param_4, bool param_5, bool param_6); // vtable[3]
 	virtual void ServerActivate(edict_t *param_1, int param_2, int param_3); // vtable[4]
 	virtual void GameFrame(bool param_1); // vtable[5]

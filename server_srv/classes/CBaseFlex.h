@@ -1,4 +1,5 @@
 // Generated header
+// Estimated minimum size: 0x1798 (6040) bytes
 
 class CBaseFlex : public CBaseAnimatingOverlay
 {

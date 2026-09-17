@@ -1,4 +1,5 @@
 // Generated header
+// Estimated minimum size: 0x1594 (5524) bytes
 
 class CPropScalable : public CBaseAnimating
 {

@@ -1,4 +1,5 @@
 // Generated header
+// Estimated minimum size: 0x54 (84) bytes
 
 class sky3dparams_t_NetworkVar_fog : public fogparams_t
 {

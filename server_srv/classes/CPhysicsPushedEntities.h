@@ -1,4 +1,5 @@
 // Generated header
+// Estimated minimum size: 0x200 (512) bytes
 
 class CPhysicsPushedEntities
 {

@@ -1,10 +1,9 @@
 // Generated header
+// Estimated minimum size: 0x4 (4) bytes
 
 class IMaterialVar
 {
 public:
-	virtual void __cxa_pure_virtual(); // vtable[30]
-
 	void GetSymbol(char *param_1); // size[138]
 	void DeleteUnreferencedTextures(bool param_1); // size[13]
 	void Destroy(IMaterialVar *param_1); // size[23]

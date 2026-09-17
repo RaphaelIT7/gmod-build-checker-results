@@ -1,4 +1,5 @@
 // Generated header
+// Estimated minimum size: 0x14C4 (5316) bytes
 
 class CAntlionTemplateMaker : public CTemplateNPCMaker
 {

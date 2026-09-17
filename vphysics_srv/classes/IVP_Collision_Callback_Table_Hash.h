@@ -1,9 +1,10 @@
 // Generated header
+// Estimated minimum size: 0x10 (16) bytes
 
 class IVP_Collision_Callback_Table_Hash : public IVP_VHash
 {
 public:
-	virtual void compare(void *param_1, void *param_2) override; // vtable[0]
+	virtual void compare(void *param_1, void *param_2); // vtable[0]
 	virtual ~IVP_Collision_Callback_Table_Hash(); // vtable[1]
 	virtual ~IVP_Collision_Callback_Table_Hash(); // vtable[2]
 

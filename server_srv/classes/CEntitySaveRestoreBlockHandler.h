@@ -1,4 +1,5 @@
 // Generated header
+// Estimated minimum size: 0x568 (1384) bytes
 
 class CEntitySaveRestoreBlockHandler : public ISaveRestoreBlockHandler
 {
@@ -11,7 +12,7 @@ public:
 	virtual void PreRestore(); // vtable[5]
 	virtual void ReadRestoreHeaders(IRestore *param_1); // vtable[6]
 	virtual void Restore(IRestore *param_1, bool param_2); // vtable[7]
-	virtual void PostRestore() override; // vtable[8]
+	virtual void PostRestore(); // vtable[8]
 
 	void FindGlobalEntity(string_t param_1, string_t param_2); // size[243]
 	void DoRestoreEntity(CBaseEntity *param_1, IRestore *param_2); // size[224]

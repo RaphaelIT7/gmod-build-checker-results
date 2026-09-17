@@ -1,4 +1,5 @@
 // Generated header
+// Estimated minimum size: 0x16A0 (5792) bytes
 
 class CWeaponBugBait : public CBaseHL2MPCombatWeapon
 {

@@ -1,4 +1,5 @@
 // Generated header
+// Estimated minimum size: 0x1480 (5248) bytes
 
 class CFuncTrackAuto : public CFuncTrackChange
 {

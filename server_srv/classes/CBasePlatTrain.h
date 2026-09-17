@@ -1,4 +1,5 @@
 // Generated header
+// Estimated minimum size: 0x1434 (5172) bytes
 
 class CBasePlatTrain : public CBaseToggle
 {

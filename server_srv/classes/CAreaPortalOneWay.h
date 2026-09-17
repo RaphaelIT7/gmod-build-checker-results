@@ -1,4 +1,5 @@
 // Generated header
+// Estimated minimum size: 0x13DC (5084) bytes
 
 class CAreaPortalOneWay : public CAreaPortal
 {

@@ -1,4 +1,5 @@
 // Generated header
+// Estimated minimum size: 0x98 (152) bytes
 
 class CBSPTreeData : public IBSPTreeData, public ISpatialLeafEnumerator
 {
@@ -15,14 +16,30 @@ public:
 	virtual void EnumerateLeavesAtPoint(Vector *param_1, ISpatialLeafEnumerator *param_2, int param_3); // vtable[9]
 	virtual void EnumerateLeavesInBox(Vector *param_1, Vector *param_2, ISpatialLeafEnumerator *param_3, int param_4); // vtable[10]
 	virtual void EnumerateLeavesInSphere(Vector *param_1, float param_2, ISpatialLeafEnumerator *param_3, int param_4); // vtable[11]
-	virtual void EnumerateLeavesAlongRay(Ray_t *param_1, ISpatialLeafEnumerator *param_2, int param_3) override; // vtable[12]
+	virtual void EnumerateLeavesAlongRay(Ray_t *param_1, ISpatialLeafEnumerator *param_2, int param_3); // vtable[12]
 	virtual void EnumerateLeaf(int param_1, int param_2); // vtable[13]
+	virtual void EnumerateLeaf(int param_1, int param_2); // vtable[0]
+	virtual void caseD_0(); // vtable[1]
+	virtual void caseD_1(); // vtable[2]
+	virtual void caseD_2(); // vtable[3]
+	virtual void caseD_3(); // vtable[4]
+	virtual void caseD_4(); // vtable[5]
+	virtual void caseD_5(); // vtable[6]
+	virtual void caseD_6(); // vtable[7]
+	virtual void caseD_7(); // vtable[8]
+	virtual void caseD_0(); // vtable[9]
+	virtual void caseD_1(); // vtable[10]
+	virtual void caseD_2(); // vtable[11]
+	virtual void caseD_3(); // vtable[12]
+	virtual void caseD_4(); // vtable[13]
+	virtual void caseD_5(); // vtable[14]
+	virtual void caseD_6(); // vtable[15]
+	virtual void caseD_7(); // vtable[16]
 
 	void InsertIntoTree(ushort param_1, Vector *param_2, Vector *param_3); // size[59]
 	void CountElementsInLeaf(int param_1); // size[53]
 	CBSPTreeData(); // size[281]
 	void RemoveFromTree(ushort param_1); // size[210]
 	void AddHandleToLeaf(int param_1, ushort param_2); // size[819]
-	void EnumerateLeaf(int param_1, int param_2); // size[7]
 	void NewHandle(int param_1); // size[358]
 };

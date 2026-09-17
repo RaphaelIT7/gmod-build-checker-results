@@ -1,4 +1,5 @@
 // Generated header
+// Estimated minimum size: 0x163C (5692) bytes
 
 class CFuncTankMortar : public CFuncTank
 {

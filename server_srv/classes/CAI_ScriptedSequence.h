@@ -1,4 +1,5 @@
 // Generated header
+// Estimated minimum size: 0x1598 (5528) bytes
 
 class CAI_ScriptedSequence : public CBaseEntity
 {

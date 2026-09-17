@@ -1,4 +1,5 @@
 // Generated header
+// Estimated minimum size: 0x1440 (5184) bytes
 
 class CHunterMaker : public CTemplateNPCMaker
 {

@@ -1,4 +1,5 @@
 // Generated header
+// Estimated minimum size: 0x1424 (5156) bytes
 
 class CAI_PoliceGoal : public CBaseEntity
 {

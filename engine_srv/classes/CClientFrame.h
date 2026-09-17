@@ -1,4 +1,5 @@
 // Generated header
+// Estimated minimum size: 0x41C (1052) bytes
 
 class CClientFrame
 {

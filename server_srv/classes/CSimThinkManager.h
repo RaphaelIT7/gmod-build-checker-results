@@ -1,4 +1,5 @@
 // Generated header
+// Estimated minimum size: 0x8018 (32792) bytes
 
 class CSimThinkManager : public IEntityListener
 {

@@ -1,4 +1,5 @@
 // Generated header
+// Estimated minimum size: 0x324 (804) bytes
 
 class CAI_PolicingBehavior : public CAI_Behavior
 {
@@ -7,8 +8,13 @@ public:
 	virtual ~CAI_PolicingBehavior() override; // vtable[1]
 	virtual void GetName() override; // vtable[5]
 	virtual void CanSelectSchedule() override; // vtable[7]
+	virtual void BeginScheduleSelection() override; // vtable[8]
+	virtual void EndScheduleSelection() override; // vtable[9]
 	virtual void GatherConditions() override; // vtable[11]
+	virtual void OnUpdateShotRegulator() override; // vtable[13]
 	virtual void GetClassScheduleIdSpace() override; // vtable[14]
+	virtual void Spawn() override; // vtable[19]
+	virtual void PrescheduleThink() override; // vtable[23]
 	virtual void SelectSchedule() override; // vtable[26]
 	virtual void SelectFailSchedule(int param_1, int param_2, int param_3) override; // vtable[27]
 	virtual void StartTask(Task_t *param_1) override; // vtable[28]
@@ -17,6 +23,12 @@ public:
 	virtual void GetSchedulingErrorName() override; // vtable[33]
 	virtual void BuildScheduleTestBits() override; // vtable[34]
 	virtual void NPC_TranslateActivity(Activity param_1) override; // vtable[35]
+	virtual void IsValidCover(Vector *param_1, CAI_Hint *param_2) override; // vtable[43]
+	virtual void IsValidShootPosition(Vector *param_1, CAI_Node *param_2, CAI_Hint *param_3) override; // vtable[44]
+	virtual void IsCrouching() override; // vtable[55]
+	virtual void OnChangeActiveWeapon(CBaseCombatWeapon *param_1, CBaseCombatWeapon *param_2) override; // vtable[65]
+	virtual void OnRestore() override; // vtable[67]
+	virtual void OnChangeHintGroup(string_t param_1, string_t param_2) override; // vtable[68]
 	virtual void GetDataDescMap() override; // vtable[70]
 	virtual void LoadedSchedules() override; // vtable[71]
 
@@ -38,6 +50,5 @@ public:
 	void SelectHarassSchedule(); // size[169]
 	void InitCustomSchedules(); // size[290]
 	void LoadSchedules(); // size[56]
-	CScheduleLoader(); // size[9]
 	CAI_PolicingBehavior(); // size[63]
 };

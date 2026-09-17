@@ -1,0 +1,6537 @@
+[
+    {
+        "address": "00010645",
+        "length": 15,
+        "value": "__gmon_start__"
+    },
+    {
+        "address": "00010654",
+        "length": 6,
+        "value": "_init"
+    },
+    {
+        "address": "0001065a",
+        "length": 6,
+        "value": "_fini"
+    },
+    {
+        "address": "00010660",
+        "length": 28,
+        "value": "_ITM_deregisterTMCloneTable"
+    },
+    {
+        "address": "0001067c",
+        "length": 26,
+        "value": "_ITM_registerTMCloneTable"
+    },
+    {
+        "address": "00010696",
+        "length": 15,
+        "value": "__cxa_finalize"
+    },
+    {
+        "address": "000106a5",
+        "length": 20,
+        "value": "_Jv_RegisterClasses"
+    },
+    {
+        "address": "000106b9",
+        "length": 7,
+        "value": "_ZdlPv"
+    },
+    {
+        "address": "000106c0",
+        "length": 8,
+        "value": "Warning"
+    },
+    {
+        "address": "000106c8",
+        "length": 7,
+        "value": "_ZdaPv"
+    },
+    {
+        "address": "000106cf",
+        "length": 15,
+        "value": "Plat_FloatTime"
+    },
+    {
+        "address": "000106de",
+        "length": 20,
+        "value": "__cxa_guard_acquire"
+    },
+    {
+        "address": "000106f2",
+        "length": 20,
+        "value": "__cxa_guard_release"
+    },
+    {
+        "address": "00010706",
+        "length": 21,
+        "value": "__gxx_personality_v0"
+    },
+    {
+        "address": "0001071b",
+        "length": 6,
+        "value": "_Znaj"
+    },
+    {
+        "address": "00010721",
+        "length": 13,
+        "value": "__cxa_atexit"
+    },
+    {
+        "address": "0001072e",
+        "length": 38,
+        "value": "_ZTVN10__cxxabiv117__class_type_infoE"
+    },
+    {
+        "address": "00010754",
+        "length": 41,
+        "value": "_ZTVN10__cxxabiv120__si_class_type_infoE"
+    },
+    {
+        "address": "0001077d",
+        "length": 42,
+        "value": "_ZTVN10__cxxabiv121__vmi_class_type_infoE"
+    },
+    {
+        "address": "000107a7",
+        "length": 19,
+        "value": "__cxa_pure_virtual"
+    },
+    {
+        "address": "000107ba",
+        "length": 11,
+        "value": "strcasecmp"
+    },
+    {
+        "address": "000107c5",
+        "length": 8,
+        "value": "dlclose"
+    },
+    {
+        "address": "000107cd",
+        "length": 16,
+        "value": "CreateInterface"
+    },
+    {
+        "address": "000107dd",
+        "length": 7,
+        "value": "dlopen"
+    },
+    {
+        "address": "000107e4",
+        "length": 8,
+        "value": "dlerror"
+    },
+    {
+        "address": "000107ec",
+        "length": 22,
+        "value": "Plat_IsInDebugSession"
+    },
+    {
+        "address": "00010802",
+        "length": 7,
+        "value": "strstr"
+    },
+    {
+        "address": "00010809",
+        "length": 4,
+        "value": "Msg"
+    },
+    {
+        "address": "0001080d",
+        "length": 17,
+        "value": "__stack_chk_fail"
+    },
+    {
+        "address": "0001081e",
+        "length": 7,
+        "value": "getcwd"
+    },
+    {
+        "address": "00010825",
+        "length": 6,
+        "value": "dlsym"
+    },
+    {
+        "address": "0001082b",
+        "length": 14,
+        "value": "__ctype_b_loc"
+    },
+    {
+        "address": "00010839",
+        "length": 7,
+        "value": "strlen"
+    },
+    {
+        "address": "00010840",
+        "length": 7,
+        "value": "memcpy"
+    },
+    {
+        "address": "00010847",
+        "length": 7,
+        "value": "memset"
+    },
+    {
+        "address": "0001084e",
+        "length": 8,
+        "value": "memmove"
+    },
+    {
+        "address": "00010856",
+        "length": 7,
+        "value": "memcmp"
+    },
+    {
+        "address": "0001085d",
+        "length": 7,
+        "value": "strcpy"
+    },
+    {
+        "address": "00010864",
+        "length": 7,
+        "value": "wcslen"
+    },
+    {
+        "address": "0001086b",
+        "length": 7,
+        "value": "strcmp"
+    },
+    {
+        "address": "00010872",
+        "length": 9,
+        "value": "towupper"
+    },
+    {
+        "address": "0001087b",
+        "length": 9,
+        "value": "towlower"
+    },
+    {
+        "address": "00010884",
+        "length": 20,
+        "value": "__ctype_toupper_loc"
+    },
+    {
+        "address": "00010898",
+        "length": 20,
+        "value": "__ctype_tolower_loc"
+    },
+    {
+        "address": "000108ac",
+        "length": 12,
+        "value": "strncasecmp"
+    },
+    {
+        "address": "000108b8",
+        "length": 4,
+        "value": "pow"
+    },
+    {
+        "address": "000108bc",
+        "length": 7,
+        "value": "strchr"
+    },
+    {
+        "address": "000108c3",
+        "length": 8,
+        "value": "wcsncpy"
+    },
+    {
+        "address": "000108cb",
+        "length": 10,
+        "value": "vswprintf"
+    },
+    {
+        "address": "000108d5",
+        "length": 10,
+        "value": "vsnprintf"
+    },
+    {
+        "address": "000108df",
+        "length": 8,
+        "value": "strncat"
+    },
+    {
+        "address": "000108e7",
+        "length": 8,
+        "value": "wcsncat"
+    },
+    {
+        "address": "000108ef",
+        "length": 9,
+        "value": "iswspace"
+    },
+    {
+        "address": "000108f8",
+        "length": 11,
+        "value": "iconv_open"
+    },
+    {
+        "address": "00010903",
+        "length": 6,
+        "value": "iconv"
+    },
+    {
+        "address": "00010909",
+        "length": 12,
+        "value": "iconv_close"
+    },
+    {
+        "address": "00010915",
+        "length": 6,
+        "value": "Error"
+    },
+    {
+        "address": "0001091b",
+        "length": 6,
+        "value": "chdir"
+    },
+    {
+        "address": "00010921",
+        "length": 9,
+        "value": "mbstowcs"
+    },
+    {
+        "address": "0001092a",
+        "length": 9,
+        "value": "wcstombs"
+    },
+    {
+        "address": "00010933",
+        "length": 15,
+        "value": "Plat_localtime"
+    },
+    {
+        "address": "00010942",
+        "length": 9,
+        "value": "strftime"
+    },
+    {
+        "address": "0001094b",
+        "length": 12,
+        "value": "g_pMemAlloc"
+    },
+    {
+        "address": "00010957",
+        "length": 16,
+        "value": "libtier0_srv.so"
+    },
+    {
+        "address": "00010967",
+        "length": 10,
+        "value": "libm.so.6"
+    },
+    {
+        "address": "00010971",
+        "length": 11,
+        "value": "libdl.so.2"
+    },
+    {
+        "address": "0001097c",
+        "length": 15,
+        "value": "libstdc++.so.6"
+    },
+    {
+        "address": "0001098b",
+        "length": 6,
+        "value": "abort"
+    },
+    {
+        "address": "00010991",
+        "length": 21,
+        "value": "__pthread_key_create"
+    },
+    {
+        "address": "000109a6",
+        "length": 13,
+        "value": "pthread_once"
+    },
+    {
+        "address": "000109b3",
+        "length": 7,
+        "value": "malloc"
+    },
+    {
+        "address": "000109ba",
+        "length": 5,
+        "value": "free"
+    },
+    {
+        "address": "000109bf",
+        "length": 16,
+        "value": "dl_iterate_phdr"
+    },
+    {
+        "address": "000109cf",
+        "length": 21,
+        "value": "pthread_mutex_unlock"
+    },
+    {
+        "address": "000109e4",
+        "length": 19,
+        "value": "pthread_mutex_lock"
+    },
+    {
+        "address": "000109f7",
+        "length": 10,
+        "value": "libc.so.6"
+    },
+    {
+        "address": "00010a01",
+        "length": 7,
+        "value": "_edata"
+    },
+    {
+        "address": "00010a08",
+        "length": 12,
+        "value": "__bss_start"
+    },
+    {
+        "address": "00010a14",
+        "length": 5,
+        "value": "_end"
+    },
+    {
+        "address": "00010a19",
+        "length": 10,
+        "value": "GLIBC_2.1"
+    },
+    {
+        "address": "00010a23",
+        "length": 10,
+        "value": "GLIBC_2.0"
+    },
+    {
+        "address": "00010a2d",
+        "length": 12,
+        "value": "GLIBCXX_3.4"
+    },
+    {
+        "address": "00010a39",
+        "length": 11,
+        "value": "CXXABI_1.3"
+    },
+    {
+        "address": "00010a44",
+        "length": 12,
+        "value": "GLIBC_2.2.4"
+    },
+    {
+        "address": "00010a50",
+        "length": 10,
+        "value": "GLIBC_2.2"
+    },
+    {
+        "address": "00010a5a",
+        "length": 10,
+        "value": "GLIBC_2.4"
+    },
+    {
+        "address": "00010a64",
+        "length": 10,
+        "value": "GLIBC_2.3"
+    },
+    {
+        "address": "00010a6e",
+        "length": 12,
+        "value": "GLIBC_2.1.3"
+    },
+    {
+        "address": "00024fa0",
+        "length": 8,
+        "value": "UNKNOWN"
+    },
+    {
+        "address": "00024fa8",
+        "length": 15,
+        "value": "VShaderUtil001"
+    },
+    {
+        "address": "00024fb7",
+        "length": 14,
+        "value": "Empty shader\n"
+    },
+    {
+        "address": "00024fc5",
+        "length": 19,
+        "value": "ShaderDeviceMgr001"
+    },
+    {
+        "address": "00024fd8",
+        "length": 16,
+        "value": "ShaderDevice001"
+    },
+    {
+        "address": "00024fe8",
+        "length": 13,
+        "value": "ShaderApi030"
+    },
+    {
+        "address": "00024ff5",
+        "length": 16,
+        "value": "ShaderShadow010"
+    },
+    {
+        "address": "00025005",
+        "length": 20,
+        "value": "DebugTextureInfo001"
+    },
+    {
+        "address": "0002501c",
+        "length": 32,
+        "value": "MaterialSystemHardwareConfig012"
+    },
+    {
+        "address": "00025044",
+        "length": 13,
+        "value": "10IAppSystem"
+    },
+    {
+        "address": "00025060",
+        "length": 32,
+        "value": "29IMaterialSystemHardwareConfig"
+    },
+    {
+        "address": "0002508c",
+        "length": 26,
+        "value": "23IHardwareConfigInternal"
+    },
+    {
+        "address": "000250b0",
+        "length": 16,
+        "value": "13IShaderShadow"
+    },
+    {
+        "address": "000250c8",
+        "length": 20,
+        "value": "17IShaderDynamicAPI"
+    },
+    {
+        "address": "000250e8",
+        "length": 19,
+        "value": "16IShaderDeviceMgr"
+    },
+    {
+        "address": "00025104",
+        "length": 16,
+        "value": "13IShaderDevice"
+    },
+    {
+        "address": "00025120",
+        "length": 13,
+        "value": "10IShaderAPI"
+    },
+    {
+        "address": "00025138",
+        "length": 16,
+        "value": "13IVertexBuffer"
+    },
+    {
+        "address": "00025150",
+        "length": 15,
+        "value": "12IIndexBuffer"
+    },
+    {
+        "address": "00025180",
+        "length": 7,
+        "value": "5IMesh"
+    },
+    {
+        "address": "00025190",
+        "length": 20,
+        "value": "17IDebugTextureInfo"
+    },
+    {
+        "address": "000251a4",
+        "length": 13,
+        "value": "10CEmptyMesh"
+    },
+    {
+        "address": "000251c0",
+        "length": 21,
+        "value": "18CShaderShadowEmpty"
+    },
+    {
+        "address": "000251e4",
+        "length": 21,
+        "value": "18CShaderDeviceEmpty"
+    },
+    {
+        "address": "00025208",
+        "length": 24,
+        "value": "21CShaderDeviceMgrEmpty"
+    },
+    {
+        "address": "0002522c",
+        "length": 18,
+        "value": "15CShaderAPIEmpty"
+    },
+    {
+        "address": "000266a0",
+        "length": 17,
+        "value": "DLOPEN Error:%s\n"
+    },
+    {
+        "address": "000266b1",
+        "length": 8,
+        "value": "_srv.so"
+    },
+    {
+        "address": "000266b9",
+        "length": 13,
+        "value": "No such file"
+    },
+    {
+        "address": "000266c6",
+        "length": 16,
+        "value": "image not found"
+    },
+    {
+        "address": "000266db",
+        "length": 6,
+        "value": "%s/%s"
+    },
+    {
+        "address": "000266e1",
+        "length": 10,
+        "value": "%s/bin/%s"
+    },
+    {
+        "address": "000266eb",
+        "length": 16,
+        "value": "CreateInterface"
+    },
+    {
+        "address": "000266fc",
+        "length": 31,
+        "value": " failed to dlopen %s error=%s\n"
+    },
+    {
+        "address": "0002671b",
+        "length": 19,
+        "value": "16CDllDemandLoader"
+    },
+    {
+        "address": "00026748",
+        "length": 17,
+        "value": "0123456789ABCDEF"
+    },
+    {
+        "address": "00026761",
+        "length": 7,
+        "value": " bytes"
+    },
+    {
+        "address": "0002676d",
+        "length": 9,
+        "value": "%%.%if%s"
+    },
+    {
+        "address": "00026778",
+        "length": 6,
+        "value": ",%03d"
+    },
+    {
+        "address": "0002677e",
+        "length": 8,
+        "value": "UCS-2LE"
+    },
+    {
+        "address": "00026786",
+        "length": 8,
+        "value": "UCS-4LE"
+    },
+    {
+        "address": "0002678e",
+        "length": 9,
+        "value": "UTF-32LE"
+    },
+    {
+        "address": "00026797",
+        "length": 6,
+        "value": "UTF-8"
+    },
+    {
+        "address": "00028999",
+        "length": 3,
+        "value": "zR"
+    },
+    {
+        "address": "0002d089",
+        "length": 5,
+        "value": "zPLR"
+    },
+    {
+        "address": "00031044",
+        "length": 7,
+        "value": "\rr\"\"\\\\"
+    },
+    {
+        "address": ".comment::00000000",
+        "length": 59,
+        "value": "GCC: (SteamRT 4.8.4-1ubuntu15~12.04+steamrt1.2+srt2) 4.8.4"
+    },
+    {
+        "address": ".shstrtab::00000001",
+        "length": 8,
+        "value": ".symtab"
+    },
+    {
+        "address": ".shstrtab::00000009",
+        "length": 8,
+        "value": ".strtab"
+    },
+    {
+        "address": ".shstrtab::00000011",
+        "length": 10,
+        "value": ".shstrtab"
+    },
+    {
+        "address": ".shstrtab::0000001b",
+        "length": 19,
+        "value": ".note.gnu.build-id"
+    },
+    {
+        "address": ".shstrtab::0000002e",
+        "length": 10,
+        "value": ".gnu.hash"
+    },
+    {
+        "address": ".shstrtab::00000038",
+        "length": 8,
+        "value": ".dynsym"
+    },
+    {
+        "address": ".shstrtab::00000040",
+        "length": 8,
+        "value": ".dynstr"
+    },
+    {
+        "address": ".shstrtab::00000048",
+        "length": 13,
+        "value": ".gnu.version"
+    },
+    {
+        "address": ".shstrtab::00000055",
+        "length": 15,
+        "value": ".gnu.version_r"
+    },
+    {
+        "address": ".shstrtab::00000064",
+        "length": 9,
+        "value": ".rel.dyn"
+    },
+    {
+        "address": ".shstrtab::0000006d",
+        "length": 9,
+        "value": ".rel.plt"
+    },
+    {
+        "address": ".shstrtab::00000076",
+        "length": 6,
+        "value": ".init"
+    },
+    {
+        "address": ".shstrtab::0000007c",
+        "length": 6,
+        "value": ".text"
+    },
+    {
+        "address": ".shstrtab::00000082",
+        "length": 6,
+        "value": ".fini"
+    },
+    {
+        "address": ".shstrtab::00000088",
+        "length": 8,
+        "value": ".rodata"
+    },
+    {
+        "address": ".shstrtab::00000090",
+        "length": 14,
+        "value": ".eh_frame_hdr"
+    },
+    {
+        "address": ".shstrtab::0000009e",
+        "length": 10,
+        "value": ".eh_frame"
+    },
+    {
+        "address": ".shstrtab::000000a8",
+        "length": 18,
+        "value": ".gcc_except_table"
+    },
+    {
+        "address": ".shstrtab::000000ba",
+        "length": 12,
+        "value": ".init_array"
+    },
+    {
+        "address": ".shstrtab::000000c6",
+        "length": 12,
+        "value": ".fini_array"
+    },
+    {
+        "address": ".shstrtab::000000d2",
+        "length": 5,
+        "value": ".jcr"
+    },
+    {
+        "address": ".shstrtab::000000d7",
+        "length": 9,
+        "value": ".dynamic"
+    },
+    {
+        "address": ".shstrtab::000000e0",
+        "length": 5,
+        "value": ".got"
+    },
+    {
+        "address": ".shstrtab::000000e5",
+        "length": 9,
+        "value": ".got.plt"
+    },
+    {
+        "address": ".shstrtab::000000ee",
+        "length": 6,
+        "value": ".data"
+    },
+    {
+        "address": ".shstrtab::000000f4",
+        "length": 5,
+        "value": ".bss"
+    },
+    {
+        "address": ".shstrtab::000000f9",
+        "length": 9,
+        "value": ".comment"
+    },
+    {
+        "address": ".shstrtab::00000102",
+        "length": 15,
+        "value": ".gnu_debuglink"
+    },
+    {
+        "address": ".strtab::00000001",
+        "length": 56,
+        "value": "_ZL49__CreateCShaderDeviceEmptyIShaderDevice_interfacev"
+    },
+    {
+        "address": ".strtab::00000039",
+        "length": 25,
+        "value": "_ZL19s_ShaderDeviceEmpty"
+    },
+    {
+        "address": ".strtab::00000052",
+        "length": 62,
+        "value": "_ZL55__CreateCShaderDeviceMgrEmptyIShaderDeviceMgr_interfacev"
+    },
+    {
+        "address": ".strtab::00000090",
+        "length": 28,
+        "value": "_ZL22s_ShaderDeviceMgrEmpty"
+    },
+    {
+        "address": ".strtab::000000ac",
+        "length": 50,
+        "value": "_ZL43__CreateCShaderAPIEmptyIShaderAPI_interfacev"
+    },
+    {
+        "address": ".strtab::000000de",
+        "length": 22,
+        "value": "_ZL16g_ShaderAPIEmpty"
+    },
+    {
+        "address": ".strtab::000000f4",
+        "length": 56,
+        "value": "_ZL49__CreateCShaderShadowEmptyIShaderShadow_interfacev"
+    },
+    {
+        "address": ".strtab::0000012c",
+        "length": 20,
+        "value": "_ZL14g_ShaderShadow"
+    },
+    {
+        "address": ".strtab::00000140",
+        "length": 69,
+        "value": "_ZL62__CreateCShaderAPIEmptyIMaterialSystemHardwareConfig_interfacev"
+    },
+    {
+        "address": ".strtab::00000185",
+        "length": 57,
+        "value": "_ZL50__CreateCShaderAPIEmptyIDebugTextureInfo_interfacev"
+    },
+    {
+        "address": ".strtab::000001be",
+        "length": 33,
+        "value": "_ZL22ShaderInterfaceFactoryPKcPi"
+    },
+    {
+        "address": ".strtab::000001df",
+        "length": 54,
+        "value": "_ZZN10CEmptyMesh4LockEibR11IndexDesc_tE12s_BogusIndex"
+    },
+    {
+        "address": ".strtab::00000215",
+        "length": 42,
+        "value": "_ZGVZNK15CShaderAPIEmpty8GetLightEiE4blah"
+    },
+    {
+        "address": ".strtab::0000023f",
+        "length": 40,
+        "value": "_ZZNK15CShaderAPIEmpty8GetLightEiE4blah"
+    },
+    {
+        "address": ".strtab::00000267",
+        "length": 29,
+        "value": "_GLOBAL__sub_I_g_pShaderUtil"
+    },
+    {
+        "address": ".strtab::00000284",
+        "length": 17,
+        "value": "_ZL11vec4_origin"
+    },
+    {
+        "address": ".strtab::00000295",
+        "length": 17,
+        "value": "_ZL11vec2_origin"
+    },
+    {
+        "address": ".strtab::000002a6",
+        "length": 18,
+        "value": "_ZL12vec2_invalid"
+    },
+    {
+        "address": ".strtab::000002b8",
+        "length": 18,
+        "value": "_ZL12vec4_invalid"
+    },
+    {
+        "address": ".strtab::000002ca",
+        "length": 51,
+        "value": "_ZL45__g_CreateCShaderDeviceEmptyIShaderDevice_reg"
+    },
+    {
+        "address": ".strtab::000002fd",
+        "length": 57,
+        "value": "_ZL51__g_CreateCShaderDeviceMgrEmptyIShaderDeviceMgr_reg"
+    },
+    {
+        "address": ".strtab::00000336",
+        "length": 45,
+        "value": "_ZL39__g_CreateCShaderAPIEmptyIShaderAPI_reg"
+    },
+    {
+        "address": ".strtab::00000363",
+        "length": 51,
+        "value": "_ZL45__g_CreateCShaderShadowEmptyIShaderShadow_reg"
+    },
+    {
+        "address": ".strtab::00000396",
+        "length": 64,
+        "value": "_ZL58__g_CreateCShaderAPIEmptyIMaterialSystemHardwareConfig_reg"
+    },
+    {
+        "address": ".strtab::000003d6",
+        "length": 52,
+        "value": "_ZL46__g_CreateCShaderAPIEmptyIDebugTextureInfo_reg"
+    },
+    {
+        "address": ".strtab::0000040a",
+        "length": 18,
+        "value": "_ZL11FastToLowerc"
+    },
+    {
+        "address": ".strtab::0000041c",
+        "length": 34,
+        "value": "_ZL14CopyToMaxCharsPciPKci.part.0"
+    },
+    {
+        "address": ".strtab::0000043e",
+        "length": 30,
+        "value": "_Z10V_StrSlicePKciiPci.part.6"
+    },
+    {
+        "address": ".strtab::0000045c",
+        "length": 39,
+        "value": "_Z19Q_URLEncodeInternalPciPKcib.part.8"
+    },
+    {
+        "address": ".strtab::00000483",
+        "length": 39,
+        "value": "_Z19Q_URLDecodeInternalPciPKcib.part.9"
+    },
+    {
+        "address": ".strtab::000004aa",
+        "length": 30,
+        "value": "_ZZ12V_pretifymemfibE7current"
+    },
+    {
+        "address": ".strtab::000004c8",
+        "length": 29,
+        "value": "_ZZ12V_pretifymemfibE6output"
+    },
+    {
+        "address": ".strtab::000004e5",
+        "length": 28,
+        "value": "_ZZ12V_pretifynumxE7current"
+    },
+    {
+        "address": ".strtab::00000501",
+        "length": 27,
+        "value": "_ZZ12V_pretifynumxE6output"
+    },
+    {
+        "address": ".strtab::0000051c",
+        "length": 46,
+        "value": "_ZL21StripWhitespaceWorkeriPwPbb.constprop.16"
+    },
+    {
+        "address": ".strtab::0000054a",
+        "length": 20,
+        "value": "_ZL14s_BackSlashMap"
+    },
+    {
+        "address": ".strtab::0000055e",
+        "length": 36,
+        "value": "_GLOBAL__sub_I__Z9_V_memsetPKciPvii"
+    },
+    {
+        "address": ".strtab::00000582",
+        "length": 13,
+        "value": "__JCR_LIST__"
+    },
+    {
+        "address": ".strtab::0000058f",
+        "length": 21,
+        "value": "deregister_tm_clones"
+    },
+    {
+        "address": ".strtab::000005a4",
+        "length": 19,
+        "value": "register_tm_clones"
+    },
+    {
+        "address": ".strtab::000005b7",
+        "length": 22,
+        "value": "__do_global_dtors_aux"
+    },
+    {
+        "address": ".strtab::000005cd",
+        "length": 15,
+        "value": "completed.6585"
+    },
+    {
+        "address": ".strtab::000005dc",
+        "length": 39,
+        "value": "__do_global_dtors_aux_fini_array_entry"
+    },
+    {
+        "address": ".strtab::00000603",
+        "length": 12,
+        "value": "frame_dummy"
+    },
+    {
+        "address": ".strtab::0000060f",
+        "length": 31,
+        "value": "__frame_dummy_init_array_entry"
+    },
+    {
+        "address": ".strtab::0000062e",
+        "length": 31,
+        "value": "_Z18Q_UChar32ToUTF8Lenw.part.2"
+    },
+    {
+        "address": ".strtab::0000064d",
+        "length": 31,
+        "value": "_Z16Q_UChar32ToUTF16wPt.part.5"
+    },
+    {
+        "address": ".strtab::0000066c",
+        "length": 57,
+        "value": "_ZN12_GLOBAL__N_116Q_UTF32ToUChar32EPKwRwRb.constprop.15"
+    },
+    {
+        "address": ".strtab::000006a5",
+        "length": 180,
+        "value": "_ZN12_GLOBAL__N_117Q_UnicodeConvertTIwwLb1ELZNS_16Q_UTF32ToUChar32EPKwRwRbELZNS_19Q_UChar32ToUTF32LenEwELZNS_16Q_UChar32ToUTF32EwPwEEEiPKT_iPT0_i25EStringConvertErrorPolicy.isra.1"
+    },
+    {
+        "address": ".strtab::00000759",
+        "length": 13,
+        "value": "read_sleb128"
+    },
+    {
+        "address": ".strtab::00000766",
+        "length": 20,
+        "value": "execute_cfa_program"
+    },
+    {
+        "address": ".strtab::0000077a",
+        "length": 26,
+        "value": "init_dwarf_reg_size_table"
+    },
+    {
+        "address": ".strtab::00000794",
+        "length": 21,
+        "value": "dwarf_reg_size_table"
+    },
+    {
+        "address": ".strtab::000007a9",
+        "length": 19,
+        "value": "uw_frame_state_for"
+    },
+    {
+        "address": ".strtab::000007bc",
+        "length": 17,
+        "value": "execute_stack_op"
+    },
+    {
+        "address": ".strtab::000007cd",
+        "length": 20,
+        "value": "uw_update_context_1"
+    },
+    {
+        "address": ".strtab::000007e1",
+        "length": 18,
+        "value": "uw_init_context_1"
+    },
+    {
+        "address": ".strtab::000007f3",
+        "length": 19,
+        "value": "once_regsizes.8792"
+    },
+    {
+        "address": ".strtab::00000806",
+        "length": 18,
+        "value": "uw_update_context"
+    },
+    {
+        "address": ".strtab::00000818",
+        "length": 30,
+        "value": "_Unwind_RaiseException_Phase2"
+    },
+    {
+        "address": ".strtab::00000836",
+        "length": 28,
+        "value": "_Unwind_ForcedUnwind_Phase2"
+    },
+    {
+        "address": ".strtab::00000852",
+        "length": 21,
+        "value": "uw_install_context_1"
+    },
+    {
+        "address": ".strtab::00000867",
+        "length": 18,
+        "value": "_Unwind_DebugHook"
+    },
+    {
+        "address": ".strtab::00000879",
+        "length": 5,
+        "value": ".L19"
+    },
+    {
+        "address": ".strtab::0000087e",
+        "length": 6,
+        "value": ".L122"
+    },
+    {
+        "address": ".strtab::00000884",
+        "length": 6,
+        "value": ".L223"
+    },
+    {
+        "address": ".strtab::0000088a",
+        "length": 6,
+        "value": ".L325"
+    },
+    {
+        "address": ".strtab::00000890",
+        "length": 6,
+        "value": ".L523"
+    },
+    {
+        "address": ".strtab::00000896",
+        "length": 5,
+        "value": ".L21"
+    },
+    {
+        "address": ".strtab::0000089b",
+        "length": 5,
+        "value": ".L22"
+    },
+    {
+        "address": ".strtab::000008a0",
+        "length": 5,
+        "value": ".L23"
+    },
+    {
+        "address": ".strtab::000008a5",
+        "length": 5,
+        "value": ".L24"
+    },
+    {
+        "address": ".strtab::000008aa",
+        "length": 5,
+        "value": ".L25"
+    },
+    {
+        "address": ".strtab::000008af",
+        "length": 5,
+        "value": ".L26"
+    },
+    {
+        "address": ".strtab::000008b4",
+        "length": 5,
+        "value": ".L27"
+    },
+    {
+        "address": ".strtab::000008b9",
+        "length": 5,
+        "value": ".L28"
+    },
+    {
+        "address": ".strtab::000008be",
+        "length": 5,
+        "value": ".L29"
+    },
+    {
+        "address": ".strtab::000008c3",
+        "length": 5,
+        "value": ".L30"
+    },
+    {
+        "address": ".strtab::000008c8",
+        "length": 5,
+        "value": ".L31"
+    },
+    {
+        "address": ".strtab::000008cd",
+        "length": 5,
+        "value": ".L32"
+    },
+    {
+        "address": ".strtab::000008d2",
+        "length": 5,
+        "value": ".L33"
+    },
+    {
+        "address": ".strtab::000008d7",
+        "length": 5,
+        "value": ".L34"
+    },
+    {
+        "address": ".strtab::000008dc",
+        "length": 5,
+        "value": ".L35"
+    },
+    {
+        "address": ".strtab::000008e1",
+        "length": 5,
+        "value": ".L36"
+    },
+    {
+        "address": ".strtab::000008e6",
+        "length": 5,
+        "value": ".L37"
+    },
+    {
+        "address": ".strtab::000008eb",
+        "length": 5,
+        "value": ".L38"
+    },
+    {
+        "address": ".strtab::000008f0",
+        "length": 5,
+        "value": ".L39"
+    },
+    {
+        "address": ".strtab::000008f5",
+        "length": 5,
+        "value": ".L40"
+    },
+    {
+        "address": ".strtab::000008fa",
+        "length": 5,
+        "value": ".L41"
+    },
+    {
+        "address": ".strtab::000008ff",
+        "length": 5,
+        "value": ".L42"
+    },
+    {
+        "address": ".strtab::00000904",
+        "length": 5,
+        "value": ".L43"
+    },
+    {
+        "address": ".strtab::00000909",
+        "length": 5,
+        "value": ".L44"
+    },
+    {
+        "address": ".strtab::0000090e",
+        "length": 5,
+        "value": ".L62"
+    },
+    {
+        "address": ".strtab::00000913",
+        "length": 5,
+        "value": ".L56"
+    },
+    {
+        "address": ".strtab::00000918",
+        "length": 5,
+        "value": ".L57"
+    },
+    {
+        "address": ".strtab::0000091d",
+        "length": 5,
+        "value": ".L63"
+    },
+    {
+        "address": ".strtab::00000922",
+        "length": 5,
+        "value": ".L60"
+    },
+    {
+        "address": ".strtab::00000927",
+        "length": 5,
+        "value": ".L61"
+    },
+    {
+        "address": ".strtab::0000092c",
+        "length": 6,
+        "value": ".L197"
+    },
+    {
+        "address": ".strtab::00000932",
+        "length": 6,
+        "value": ".L191"
+    },
+    {
+        "address": ".strtab::00000938",
+        "length": 6,
+        "value": ".L192"
+    },
+    {
+        "address": ".strtab::0000093e",
+        "length": 6,
+        "value": ".L198"
+    },
+    {
+        "address": ".strtab::00000944",
+        "length": 6,
+        "value": ".L195"
+    },
+    {
+        "address": ".strtab::0000094a",
+        "length": 6,
+        "value": ".L196"
+    },
+    {
+        "address": ".strtab::00000950",
+        "length": 6,
+        "value": ".L232"
+    },
+    {
+        "address": ".strtab::00000956",
+        "length": 6,
+        "value": ".L226"
+    },
+    {
+        "address": ".strtab::0000095c",
+        "length": 6,
+        "value": ".L227"
+    },
+    {
+        "address": ".strtab::00000962",
+        "length": 6,
+        "value": ".L233"
+    },
+    {
+        "address": ".strtab::00000968",
+        "length": 6,
+        "value": ".L230"
+    },
+    {
+        "address": ".strtab::0000096e",
+        "length": 6,
+        "value": ".L231"
+    },
+    {
+        "address": ".strtab::00000974",
+        "length": 6,
+        "value": ".L334"
+    },
+    {
+        "address": ".strtab::0000097a",
+        "length": 6,
+        "value": ".L328"
+    },
+    {
+        "address": ".strtab::00000980",
+        "length": 6,
+        "value": ".L329"
+    },
+    {
+        "address": ".strtab::00000986",
+        "length": 6,
+        "value": ".L330"
+    },
+    {
+        "address": ".strtab::0000098c",
+        "length": 6,
+        "value": ".L331"
+    },
+    {
+        "address": ".strtab::00000992",
+        "length": 6,
+        "value": ".L332"
+    },
+    {
+        "address": ".strtab::00000998",
+        "length": 6,
+        "value": ".L336"
+    },
+    {
+        "address": ".strtab::0000099e",
+        "length": 6,
+        "value": ".L337"
+    },
+    {
+        "address": ".strtab::000009a4",
+        "length": 6,
+        "value": ".L338"
+    },
+    {
+        "address": ".strtab::000009aa",
+        "length": 6,
+        "value": ".L339"
+    },
+    {
+        "address": ".strtab::000009b0",
+        "length": 6,
+        "value": ".L340"
+    },
+    {
+        "address": ".strtab::000009b6",
+        "length": 6,
+        "value": ".L341"
+    },
+    {
+        "address": ".strtab::000009bc",
+        "length": 6,
+        "value": ".L342"
+    },
+    {
+        "address": ".strtab::000009c2",
+        "length": 6,
+        "value": ".L343"
+    },
+    {
+        "address": ".strtab::000009c8",
+        "length": 6,
+        "value": ".L344"
+    },
+    {
+        "address": ".strtab::000009ce",
+        "length": 6,
+        "value": ".L345"
+    },
+    {
+        "address": ".strtab::000009d4",
+        "length": 6,
+        "value": ".L346"
+    },
+    {
+        "address": ".strtab::000009da",
+        "length": 6,
+        "value": ".L347"
+    },
+    {
+        "address": ".strtab::000009e0",
+        "length": 6,
+        "value": ".L348"
+    },
+    {
+        "address": ".strtab::000009e6",
+        "length": 6,
+        "value": ".L349"
+    },
+    {
+        "address": ".strtab::000009ec",
+        "length": 6,
+        "value": ".L350"
+    },
+    {
+        "address": ".strtab::000009f2",
+        "length": 6,
+        "value": ".L351"
+    },
+    {
+        "address": ".strtab::000009f8",
+        "length": 6,
+        "value": ".L352"
+    },
+    {
+        "address": ".strtab::000009fe",
+        "length": 6,
+        "value": ".L440"
+    },
+    {
+        "address": ".strtab::00000a04",
+        "length": 6,
+        "value": ".L354"
+    },
+    {
+        "address": ".strtab::00000a0a",
+        "length": 6,
+        "value": ".L373"
+    },
+    {
+        "address": ".strtab::00000a10",
+        "length": 6,
+        "value": ".L367"
+    },
+    {
+        "address": ".strtab::00000a16",
+        "length": 6,
+        "value": ".L368"
+    },
+    {
+        "address": ".strtab::00000a1c",
+        "length": 6,
+        "value": ".L374"
+    },
+    {
+        "address": ".strtab::00000a22",
+        "length": 6,
+        "value": ".L371"
+    },
+    {
+        "address": ".strtab::00000a28",
+        "length": 6,
+        "value": ".L372"
+    },
+    {
+        "address": ".strtab::00000a2e",
+        "length": 6,
+        "value": ".L415"
+    },
+    {
+        "address": ".strtab::00000a34",
+        "length": 6,
+        "value": ".L417"
+    },
+    {
+        "address": ".strtab::00000a3a",
+        "length": 6,
+        "value": ".L418"
+    },
+    {
+        "address": ".strtab::00000a40",
+        "length": 6,
+        "value": ".L419"
+    },
+    {
+        "address": ".strtab::00000a46",
+        "length": 6,
+        "value": ".L420"
+    },
+    {
+        "address": ".strtab::00000a4c",
+        "length": 6,
+        "value": ".L421"
+    },
+    {
+        "address": ".strtab::00000a52",
+        "length": 6,
+        "value": ".L422"
+    },
+    {
+        "address": ".strtab::00000a58",
+        "length": 6,
+        "value": ".L423"
+    },
+    {
+        "address": ".strtab::00000a5e",
+        "length": 6,
+        "value": ".L424"
+    },
+    {
+        "address": ".strtab::00000a64",
+        "length": 6,
+        "value": ".L425"
+    },
+    {
+        "address": ".strtab::00000a6a",
+        "length": 6,
+        "value": ".L426"
+    },
+    {
+        "address": ".strtab::00000a70",
+        "length": 6,
+        "value": ".L427"
+    },
+    {
+        "address": ".strtab::00000a76",
+        "length": 6,
+        "value": ".L428"
+    },
+    {
+        "address": ".strtab::00000a7c",
+        "length": 6,
+        "value": ".L429"
+    },
+    {
+        "address": ".strtab::00000a82",
+        "length": 6,
+        "value": ".L430"
+    },
+    {
+        "address": ".strtab::00000a88",
+        "length": 6,
+        "value": ".L431"
+    },
+    {
+        "address": ".strtab::00000a8e",
+        "length": 6,
+        "value": ".L432"
+    },
+    {
+        "address": ".strtab::00000a94",
+        "length": 6,
+        "value": ".L524"
+    },
+    {
+        "address": ".strtab::00000a9a",
+        "length": 6,
+        "value": ".L526"
+    },
+    {
+        "address": ".strtab::00000aa0",
+        "length": 6,
+        "value": ".L527"
+    },
+    {
+        "address": ".strtab::00000aa6",
+        "length": 6,
+        "value": ".L528"
+    },
+    {
+        "address": ".strtab::00000aac",
+        "length": 6,
+        "value": ".L529"
+    },
+    {
+        "address": ".strtab::00000ab2",
+        "length": 22,
+        "value": "fde_unencoded_compare"
+    },
+    {
+        "address": ".strtab::00000ac8",
+        "length": 15,
+        "value": "frame_downheap"
+    },
+    {
+        "address": ".strtab::00000ad7",
+        "length": 15,
+        "value": "frame_heapsort"
+    },
+    {
+        "address": ".strtab::00000ae6",
+        "length": 22,
+        "value": "size_of_encoded_value"
+    },
+    {
+        "address": ".strtab::00000afc",
+        "length": 29,
+        "value": "read_encoded_value_with_base"
+    },
+    {
+        "address": ".strtab::00000b19",
+        "length": 17,
+        "value": "get_cie_encoding"
+    },
+    {
+        "address": ".strtab::00000b2a",
+        "length": 24,
+        "value": "base_from_object.isra.3"
+    },
+    {
+        "address": ".strtab::00000b42",
+        "length": 28,
+        "value": "fde_single_encoding_compare"
+    },
+    {
+        "address": ".strtab::00000b5e",
+        "length": 19,
+        "value": "linear_search_fdes"
+    },
+    {
+        "address": ".strtab::00000b71",
+        "length": 27,
+        "value": "fde_mixed_encoding_compare"
+    },
+    {
+        "address": ".strtab::00000b8c",
+        "length": 26,
+        "value": "classify_object_over_fdes"
+    },
+    {
+        "address": ".strtab::00000ba6",
+        "length": 9,
+        "value": "add_fdes"
+    },
+    {
+        "address": ".strtab::00000baf",
+        "length": 14,
+        "value": "search_object"
+    },
+    {
+        "address": ".strtab::00000bbd",
+        "length": 16,
+        "value": "terminator.8438"
+    },
+    {
+        "address": ".strtab::00000bcd",
+        "length": 12,
+        "value": "marker.8332"
+    },
+    {
+        "address": ".strtab::00000bd9",
+        "length": 25,
+        "value": "base_from_cb_data.isra.4"
+    },
+    {
+        "address": ".strtab::00000bf2",
+        "length": 28,
+        "value": "_Unwind_IteratePhdrCallback"
+    },
+    {
+        "address": ".strtab::00000c0e",
+        "length": 21,
+        "value": "frame_hdr_cache_head"
+    },
+    {
+        "address": ".strtab::00000c23",
+        "length": 10,
+        "value": "adds.8594"
+    },
+    {
+        "address": ".strtab::00000c2d",
+        "length": 10,
+        "value": "subs.8595"
+    },
+    {
+        "address": ".strtab::00000c37",
+        "length": 16,
+        "value": "frame_hdr_cache"
+    },
+    {
+        "address": ".strtab::00000c47",
+        "length": 13,
+        "value": "object_mutex"
+    },
+    {
+        "address": ".strtab::00000c54",
+        "length": 15,
+        "value": "unseen_objects"
+    },
+    {
+        "address": ".strtab::00000c63",
+        "length": 13,
+        "value": "seen_objects"
+    },
+    {
+        "address": ".strtab::00000c70",
+        "length": 5,
+        "value": ".L70"
+    },
+    {
+        "address": ".strtab::00000c75",
+        "length": 5,
+        "value": ".L64"
+    },
+    {
+        "address": ".strtab::00000c7a",
+        "length": 5,
+        "value": ".L65"
+    },
+    {
+        "address": ".strtab::00000c7f",
+        "length": 5,
+        "value": ".L71"
+    },
+    {
+        "address": ".strtab::00000c84",
+        "length": 5,
+        "value": ".L68"
+    },
+    {
+        "address": ".strtab::00000c89",
+        "length": 5,
+        "value": ".L69"
+    },
+    {
+        "address": ".strtab::00000c8e",
+        "length": 14,
+        "value": "__FRAME_END__"
+    },
+    {
+        "address": ".strtab::00000c9c",
+        "length": 12,
+        "value": "__JCR_END__"
+    },
+    {
+        "address": ".strtab::00000ca8",
+        "length": 17,
+        "value": "_ZTI10IAppSystem"
+    },
+    {
+        "address": ".strtab::00000cb9",
+        "length": 52,
+        "value": "_ZN15CShaderAPIEmpty27GetShadowDepthTextureFormatEv"
+    },
+    {
+        "address": ".strtab::00000ced",
+        "length": 59,
+        "value": "_ZN15CShaderAPIEmpty29SetBooleanPixelShaderConstantEiPKiib"
+    },
+    {
+        "address": ".strtab::00000d28",
+        "length": 52,
+        "value": "_ZThn4_NK15CShaderAPIEmpty21HasSetDeviceGammaRampEv"
+    },
+    {
+        "address": ".strtab::00000d5c",
+        "length": 31,
+        "value": "_ZN10CEmptyMesh11GetMaterialEv"
+    },
+    {
+        "address": ".strtab::00000d7b",
+        "length": 66,
+        "value": "_ZNK15CShaderAPIEmpty28GetNearestRenderTargetFormatE11ImageFormat"
+    },
+    {
+        "address": ".strtab::00000dbd",
+        "length": 43,
+        "value": "_ZN15CShaderAPIEmpty16SetFastClipPlaneEPKf"
+    },
+    {
+        "address": ".strtab::00000de8",
+        "length": 53,
+        "value": "_ZN15CShaderAPIEmpty27OverrideStreamOffsetSupportEbb"
+    },
+    {
+        "address": ".strtab::00000e1d",
+        "length": 49,
+        "value": "_ZNK15CShaderAPIEmpty23SupportsShaderModel_3_0Ev"
+    },
+    {
+        "address": ".strtab::00000e4e",
+        "length": 34,
+        "value": "_Z16Sys_UnloadModuleP10CSysModule"
+    },
+    {
+        "address": ".strtab::00000e70",
+        "length": 42,
+        "value": "_ZN15CShaderAPIEmpty17SetDisallowAccessEb"
+    },
+    {
+        "address": ".strtab::00000e9a",
+        "length": 31,
+        "value": "_Z22BGetLocalFormattedTimelPci"
+    },
+    {
+        "address": ".strtab::00000eb9",
+        "length": 59,
+        "value": "_ZNK15CShaderAPIEmpty33SupportsStaticPlusDynamicLightingEv"
+    },
+    {
+        "address": ".strtab::00000ef4",
+        "length": 62,
+        "value": "_ZThn4_N10CEmptyMesh15BeginCastBufferE21MaterialIndexFormat_t"
+    },
+    {
+        "address": ".strtab::00000f32",
+        "length": 28,
+        "value": "_Z16Q_UTF16ToUChar32PKtRwRb"
+    },
+    {
+        "address": ".strtab::00000f4e",
+        "length": 49,
+        "value": "_ZThn8_N15CShaderAPIEmpty19GetDebugTextureListEv"
+    },
+    {
+        "address": ".strtab::00000f7f",
+        "length": 36,
+        "value": "_ZTS29IMaterialSystemHardwareConfig"
+    },
+    {
+        "address": ".strtab::00000fa3",
+        "length": 19,
+        "value": "_ZTS12IIndexBuffer"
+    },
+    {
+        "address": ".strtab::00000fb6",
+        "length": 61,
+        "value": "_ZN18CShaderDeviceEmpty18CreateVertexShaderEP13IShaderBuffer"
+    },
+    {
+        "address": ".strtab::00000ff3",
+        "length": 28,
+        "value": "_Z16_V_UnicodeToUCS2PKwiPci"
+    },
+    {
+        "address": ".strtab::0000100f",
+        "length": 42,
+        "value": "_ZN18CShaderShadowEmpty14EnableBlendingEb"
+    },
+    {
+        "address": ".strtab::00001039",
+        "length": 35,
+        "value": "_ZN15CShaderAPIEmpty10ShaderLockEv"
+    },
+    {
+        "address": ".strtab::0000105c",
+        "length": 56,
+        "value": "_ZN18CShaderShadowEmpty24VertexShaderVertexFormatEjiPii"
+    },
+    {
+        "address": ".strtab::00001094",
+        "length": 21,
+        "value": "_Z13V_GetFileNamePKc"
+    },
+    {
+        "address": ".strtab::000010a9",
+        "length": 65,
+        "value": "_ZN15CShaderAPIEmpty16BindVertexShaderEP22VertexShaderHandle_t__"
+    },
+    {
+        "address": ".strtab::000010ea",
+        "length": 42,
+        "value": "_ZN18CShaderShadowEmpty14SetMorphFormatEj"
+    },
+    {
+        "address": ".strtab::00001114",
+        "length": 33,
+        "value": "_ZN15CShaderAPIEmpty9IsTextureEi"
+    },
+    {
+        "address": ".strtab::00001135",
+        "length": 47,
+        "value": "_ZThn4_NK15CShaderAPIEmpty16HasStencilBufferEv"
+    },
+    {
+        "address": ".strtab::00001164",
+        "length": 59,
+        "value": "_ZZNK15CShaderAPIEmpty25GetToneMappingScaleLinearEvE5dummy"
+    },
+    {
+        "address": ".strtab::0000119f",
+        "length": 38,
+        "value": "_ZThn4_N10CEmptyMesh13EndCastBufferEv"
+    },
+    {
+        "address": ".strtab::000011c5",
+        "length": 33,
+        "value": "_ZNK15CShaderAPIEmpty8GetLightEi"
+    },
+    {
+        "address": ".strtab::000011e6",
+        "length": 60,
+        "value": "_ZN18CShaderDeviceEmpty17CreatePixelShaderEP13IShaderBuffer"
+    },
+    {
+        "address": ".strtab::00001222",
+        "length": 38,
+        "value": "_ZN21CShaderDeviceMgrEmpty8ShutdownEv"
+    },
+    {
+        "address": ".strtab::00001248",
+        "length": 47,
+        "value": "_ZNK15CShaderAPIEmpty21PreferReducedFillrateEv"
+    },
+    {
+        "address": ".strtab::00001277",
+        "length": 34,
+        "value": "_ZThn4_NK10CEmptyMesh9IsDynamicEv"
+    },
+    {
+        "address": ".strtab::00001299",
+        "length": 22,
+        "value": "__register_frame_info"
+    },
+    {
+        "address": ".strtab::000012af",
+        "length": 46,
+        "value": "_ZN15CShaderAPIEmpty21DXSupportLevelChangedEv"
+    },
+    {
+        "address": ".strtab::000012dd",
+        "length": 23,
+        "value": "_Z9_V_strstrPKciS0_S0_"
+    },
+    {
+        "address": ".strtab::000012f4",
+        "length": 41,
+        "value": "_ZNK15CShaderAPIEmpty15GetSamplerCountEv"
+    },
+    {
+        "address": ".strtab::0000131d",
+        "length": 41,
+        "value": "_ZN15CShaderAPIEmpty15EnableClipPlaneEib"
+    },
+    {
+        "address": ".strtab::00001346",
+        "length": 49,
+        "value": "_ZN15CShaderAPIEmpty24EnableBuffer2FramesAheadEb"
+    },
+    {
+        "address": ".strtab::00001377",
+        "length": 64,
+        "value": "_ZN18CShaderShadowEmpty20BlendOpSeparateAlphaE15ShaderBlendOp_t"
+    },
+    {
+        "address": ".strtab::000013b7",
+        "length": 37,
+        "value": "_ZThn4_NK10CEmptyMesh11IndexFormatEv"
+    },
+    {
+        "address": ".strtab::000013dc",
+        "length": 39,
+        "value": "_ZN10CEmptyMesh4SpewEiRK12VertexDesc_t"
+    },
+    {
+        "address": ".strtab::00001403",
+        "length": 14,
+        "value": "_Z8V_struprPc"
+    },
+    {
+        "address": ".strtab::00001411",
+        "length": 31,
+        "value": "_ZN15CShaderAPIEmpty7SetFogZEf"
+    },
+    {
+        "address": ".strtab::00001430",
+        "length": 25,
+        "value": "_ZN15CShaderAPIEmptyC2Ev"
+    },
+    {
+        "address": ".strtab::00001449",
+        "length": 47,
+        "value": "_ZN10CEmptyMesh12ValidateDataEiiRK10MeshDesc_t"
+    },
+    {
+        "address": ".strtab::00001478",
+        "length": 70,
+        "value": "_ZN15CShaderAPIEmpty24SetStandardTextureHandleE19StandardTextureId_ti"
+    },
+    {
+        "address": ".strtab::000014be",
+        "length": 56,
+        "value": "_ZN15CShaderAPIEmpty27ClearStencilBufferRectangleEiiiii"
+    },
+    {
+        "address": ".strtab::000014f6",
+        "length": 63,
+        "value": "_ZN15CShaderAPIEmpty15BindPixelShaderEP21PixelShaderHandle_t__"
+    },
+    {
+        "address": ".strtab::00001535",
+        "length": 17,
+        "value": "_ZTS10IAppSystem"
+    },
+    {
+        "address": ".strtab::00001546",
+        "length": 42,
+        "value": "_ZN15CShaderAPIEmpty17IsTextureResidentEi"
+    },
+    {
+        "address": ".strtab::00001570",
+        "length": 27,
+        "value": "_Z16V_StripExtensionPKcPci"
+    },
+    {
+        "address": ".strtab::0000158b",
+        "length": 19,
+        "value": "__deregister_frame"
+    },
+    {
+        "address": ".strtab::0000159e",
+        "length": 40,
+        "value": "_ZN10CEmptyMesh6UnlockEiR12VertexDesc_t"
+    },
+    {
+        "address": ".strtab::000015c6",
+        "length": 48,
+        "value": "_ZN15CShaderAPIEmpty9BindBlackE14TextureStage_t"
+    },
+    {
+        "address": ".strtab::000015f6",
+        "length": 47,
+        "value": "_ZN15CShaderAPIEmpty22DisableAlphaToCoverageEv"
+    },
+    {
+        "address": ".strtab::00001625",
+        "length": 46,
+        "value": "_ZNK18CShaderDeviceEmpty13GetWindowSizeERiS0_"
+    },
+    {
+        "address": ".strtab::00001653",
+        "length": 40,
+        "value": "_ZNK18CShaderDeviceEmpty11IsAAEnabledEv"
+    },
+    {
+        "address": ".strtab::0000167b",
+        "length": 57,
+        "value": "_ZN15CShaderAPIEmpty32InvalidateDelayedShaderConstantsEv"
+    },
+    {
+        "address": ".strtab::000016b4",
+        "length": 43,
+        "value": "_ZThn4_NK15CShaderAPIEmpty12MaxViewportsEv"
+    },
+    {
+        "address": ".strtab::000016df",
+        "length": 47,
+        "value": "_ZN15CShaderAPIEmpty22AcquireThreadOwnershipEv"
+    },
+    {
+        "address": ".strtab::0000170e",
+        "length": 56,
+        "value": "_ZN15CShaderAPIEmpty31EnableUserClipTransformOverrideEb"
+    },
+    {
+        "address": ".strtab::00001746",
+        "length": 56,
+        "value": "_ZN21CShaderDeviceMgrEmpty21AddModeChangeCallbackEPFvvE"
+    },
+    {
+        "address": ".strtab::0000177e",
+        "length": 24,
+        "value": "_Z18Sys_GetFactoryThisv"
+    },
+    {
+        "address": ".strtab::00001796",
+        "length": 49,
+        "value": "_ZThn4_NK15CShaderAPIEmpty18HasDestAlphaBufferEv"
+    },
+    {
+        "address": ".strtab::000017c7",
+        "length": 22,
+        "value": "_Z14Sys_GetFactoryPKc"
+    },
+    {
+        "address": ".strtab::000017dd",
+        "length": 23,
+        "value": "_ZTI16IShaderDeviceMgr"
+    },
+    {
+        "address": ".strtab::000017f4",
+        "length": 30,
+        "value": "_ZTI23IHardwareConfigInternal"
+    },
+    {
+        "address": ".strtab::00001812",
+        "length": 24,
+        "value": "_Z16V_IsAbsolutePathPKc"
+    },
+    {
+        "address": ".strtab::0000182a",
+        "length": 56,
+        "value": "_ZNK15CShaderAPIEmpty30GammaToLinear_HardwareSpecificEf"
+    },
+    {
+        "address": ".strtab::00001862",
+        "length": 57,
+        "value": "_Z18Q_UTF16CharsToUTF8PKtiPci25EStringConvertErrorPolicy"
+    },
+    {
+        "address": ".strtab::0000189b",
+        "length": 60,
+        "value": "_ZN15CShaderAPIEmpty30SetBooleanVertexShaderConstantEiPKiib"
+    },
+    {
+        "address": ".strtab::000018d7",
+        "length": 23,
+        "value": "__register_frame_table"
+    },
+    {
+        "address": ".strtab::000018ee",
+        "length": 63,
+        "value": "_ZN15CShaderAPIEmpty23DisableTextureTransformE14TextureStage_t"
+    },
+    {
+        "address": ".strtab::0000192d",
+        "length": 20,
+        "value": "_ZTI13IVertexBuffer"
+    },
+    {
+        "address": ".strtab::00001941",
+        "length": 57,
+        "value": "_ZN15CShaderAPIEmpty12SetViewportsEiPK16ShaderViewport_t"
+    },
+    {
+        "address": ".strtab::0000197a",
+        "length": 51,
+        "value": "_ZNK15CShaderAPIEmpty25NeedsShaderSRGBConversionEv"
+    },
+    {
+        "address": ".strtab::000019ad",
+        "length": 52,
+        "value": "_Z14Q_UTF32ToUTF32PKwPwi25EStringConvertErrorPolicy"
+    },
+    {
+        "address": ".strtab::000019e1",
+        "length": 47,
+        "value": "_ZN18CShaderDeviceEmpty13CompileShaderEPKcjS1_"
+    },
+    {
+        "address": ".strtab::00001a10",
+        "length": 53,
+        "value": "_ZNK15CShaderAPIEmpty27SupportsColorOnSecondStreamEv"
+    },
+    {
+        "address": ".strtab::00001a45",
+        "length": 46,
+        "value": "_ZN18CShaderDeviceEmpty18ReacquireResourcesEv"
+    },
+    {
+        "address": ".strtab::00001a73",
+        "length": 29,
+        "value": "_Z21V_SetCurrentDirectoryPKc"
+    },
+    {
+        "address": ".strtab::00001a90",
+        "length": 23,
+        "value": "_Z9_V_wcscmpPKciPKwS2_"
+    },
+    {
+        "address": ".strtab::00001aa7",
+        "length": 16,
+        "value": "_Z9V_atoui64PKc"
+    },
+    {
+        "address": ".strtab::00001ab7",
+        "length": 70,
+        "value": "_ZNK21CShaderDeviceMgrEmpty14GetAdapterInfoEiR21MaterialAdapterInfo_t"
+    },
+    {
+        "address": ".strtab::00001afd",
+        "length": 51,
+        "value": "_ZN15CShaderAPIEmpty9ShadeModeE17ShaderShadeMode_t"
+    },
+    {
+        "address": ".strtab::00001b30",
+        "length": 45,
+        "value": "_ZN18CShaderDeviceEmpty17HandleThreadEventEj"
+    },
+    {
+        "address": ".strtab::00001b5d",
+        "length": 34,
+        "value": "__register_frame_info_table_bases"
+    },
+    {
+        "address": ".strtab::00001b7f",
+        "length": 24,
+        "value": "_Z16GMOD_IsValidPathPKc"
+    },
+    {
+        "address": ".strtab::00001b97",
+        "length": 30,
+        "value": "_ZN12InterfaceRegC1EPFPvvEPKc"
+    },
+    {
+        "address": ".strtab::00001bb5",
+        "length": 36,
+        "value": "_ZN16CDllDemandLoader10GetFactoryEv"
+    },
+    {
+        "address": ".strtab::00001bd9",
+        "length": 48,
+        "value": "_ZThn4_NK15CShaderAPIEmpty17GetDXSupportLevelEv"
+    },
+    {
+        "address": ".strtab::00001c09",
+        "length": 59,
+        "value": "_ZN15CShaderAPIEmpty29SetIntegerPixelShaderConstantEiPKiib"
+    },
+    {
+        "address": ".strtab::00001c44",
+        "length": 42,
+        "value": "_ZN21CShaderDeviceMgrEmpty10SetAdapterEii"
+    },
+    {
+        "address": ".strtab::00001c6e",
+        "length": 14,
+        "value": "_Unwind_GetGR"
+    },
+    {
+        "address": ".strtab::00001c7c",
+        "length": 67,
+        "value": "_ZN15CShaderAPIEmpty23SetStencilFailOperationE18StencilOperation_t"
+    },
+    {
+        "address": ".strtab::00001cbf",
+        "length": 28,
+        "value": "_Z17V_ExtractFilePathPKcPci"
+    },
+    {
+        "address": ".strtab::00001cdb",
+        "length": 35,
+        "value": "_ZN18CShaderDeviceEmpty7AddViewEPv"
+    },
+    {
+        "address": ".strtab::00001cfe",
+        "length": 23,
+        "value": "_ZN13IVertexBufferD1Ev"
+    },
+    {
+        "address": ".strtab::00001d15",
+        "length": 23,
+        "value": "_ZTI16CDllDemandLoader"
+    },
+    {
+        "address": ".strtab::00001d2c",
+        "length": 45,
+        "value": "_ZNK15CShaderAPIEmpty19IsHWMorphingEnabledEv"
+    },
+    {
+        "address": ".strtab::00001d59",
+        "length": 35,
+        "value": "_ZN15CShaderAPIEmpty10BeginFrameEv"
+    },
+    {
+        "address": ".strtab::00001d7c",
+        "length": 61,
+        "value": "_ZN15CShaderAPIEmpty14SetRasterStateERK19ShaderRasterState_t"
+    },
+    {
+        "address": ".strtab::00001db9",
+        "length": 47,
+        "value": "_ZThn4_NK15CShaderAPIEmpty16SupportsCubeMapsEv"
+    },
+    {
+        "address": ".strtab::00001de8",
+        "length": 19,
+        "value": "_ZTV12IIndexBuffer"
+    },
+    {
+        "address": ".strtab::00001dfb",
+        "length": 42,
+        "value": "_ZN15CShaderAPIEmpty16CompareSnapshotsEss"
+    },
+    {
+        "address": ".strtab::00001e25",
+        "length": 57,
+        "value": "_ZThn4_NK15CShaderAPIEmpty26GetHWSpecificShaderDLLNameEv"
+    },
+    {
+        "address": ".strtab::00001e5e",
+        "length": 59,
+        "value": "_ZN18CShaderShadowEmpty11StencilFuncE19ShaderStencilFunc_t"
+    },
+    {
+        "address": ".strtab::00001e99",
+        "length": 44,
+        "value": "_ZN18CShaderShadowEmpty16StencilReferenceEi"
+    },
+    {
+        "address": ".strtab::00001ec5",
+        "length": 23,
+        "value": "_Z15Q_UnicodeLengthPKc"
+    },
+    {
+        "address": ".strtab::00001edc",
+        "length": 26,
+        "value": "_Unwind_Resume_or_Rethrow"
+    },
+    {
+        "address": ".strtab::00001ef6",
+        "length": 44,
+        "value": "_ZN18CShaderShadowEmpty16StencilWriteMaskEi"
+    },
+    {
+        "address": ".strtab::00001f22",
+        "length": 55,
+        "value": "_ZThn4_NK15CShaderAPIEmpty24NumVertexShaderConstantsEv"
+    },
+    {
+        "address": ".strtab::00001f59",
+        "length": 28,
+        "value": "_ZN18CShaderShadowEmptyD0Ev"
+    },
+    {
+        "address": ".strtab::00001f75",
+        "length": 52,
+        "value": "_ZThn4_N10CEmptyMesh12ValidateDataEiRK11IndexDesc_t"
+    },
+    {
+        "address": ".strtab::00001fa9",
+        "length": 43,
+        "value": "_ZThn4_NK15CShaderAPIEmpty12SupportsSRGBEv"
+    },
+    {
+        "address": ".strtab::00001fd4",
+        "length": 47,
+        "value": "_ZN18CShaderShadowEmpty19CustomTextureStagesEi"
+    },
+    {
+        "address": ".strtab::00002003",
+        "length": 51,
+        "value": "_ZNK15CShaderAPIEmpty25GetToneMappingScaleLinearEv"
+    },
+    {
+        "address": ".strtab::00002036",
+        "length": 59,
+        "value": "_ZN15CShaderAPIEmpty12TexMagFilterE21ShaderTexFilterMode_t"
+    },
+    {
+        "address": ".strtab::00002071",
+        "length": 47,
+        "value": "_ZNK15CShaderAPIEmpty21GetVertexTextureCountEv"
+    },
+    {
+        "address": ".strtab::000020a0",
+        "length": 58,
+        "value": "_Z19Q_UTF16CharsToUTF32PKtiPwi25EStringConvertErrorPolicy"
+    },
+    {
+        "address": ".strtab::000020da",
+        "length": 49,
+        "value": "_Z15Q_UnicodeRepairPc25EStringConvertErrorPolicy"
+    },
+    {
+        "address": ".strtab::0000210b",
+        "length": 26,
+        "value": "_Z14Q_URLEncodeRawPciPKci"
+    },
+    {
+        "address": ".strtab::00002125",
+        "length": 46,
+        "value": "_ZThn4_NK15CShaderAPIEmpty15MaxTextureWidthEv"
+    },
+    {
+        "address": ".strtab::00002153",
+        "length": 57,
+        "value": "_ZN15CShaderAPIEmpty23GMOD_SamplerBorderClampE9Sampler_t"
+    },
+    {
+        "address": ".strtab::0000218c",
+        "length": 47,
+        "value": "_ZThn4_NK15CShaderAPIEmpty16GetShaderDLLNameEv"
+    },
+    {
+        "address": ".strtab::000021bb",
+        "length": 61,
+        "value": "_ZN15CShaderAPIEmpty36SetVertexShaderStateAmbientLightCubeEv"
+    },
+    {
+        "address": ".strtab::000021f8",
+        "length": 63,
+        "value": "_ZN18CShaderDeviceEmpty20CreateGeometryShaderEP13IShaderBuffer"
+    },
+    {
+        "address": ".strtab::00002237",
+        "length": 19,
+        "value": "_ZTI12IIndexBuffer"
+    },
+    {
+        "address": ".strtab::0000224a",
+        "length": 57,
+        "value": "_ZThn4_NK15CShaderAPIEmpty26SupportsGLMixedSizeTargetsEv"
+    },
+    {
+        "address": ".strtab::00002283",
+        "length": 26,
+        "value": "_Z14Q_URLDecodeRawPciPKci"
+    },
+    {
+        "address": ".strtab::0000229d",
+        "length": 58,
+        "value": "_ZN15CShaderAPIEmpty33EnableLinearColorSpaceFrameBufferEb"
+    },
+    {
+        "address": ".strtab::000022d7",
+        "length": 44,
+        "value": "_ZN15CShaderAPIEmpty19GetBoundMorphFormatEv"
+    },
+    {
+        "address": ".strtab::00002303",
+        "length": 38,
+        "value": "_ZNK15CShaderAPIEmpty12InEditorModeEv"
+    },
+    {
+        "address": ".strtab::00002329",
+        "length": 52,
+        "value": "_ZThn4_NK15CShaderAPIEmpty21PreferReducedFillrateEv"
+    },
+    {
+        "address": ".strtab::0000235d",
+        "length": 42,
+        "value": "_ZN15CShaderAPIEmpty16SupportsCSAAModeEii"
+    },
+    {
+        "address": ".strtab::00002387",
+        "length": 36,
+        "value": "_ZN15CShaderAPIEmpty11GetFlexMeshEv"
+    },
+    {
+        "address": ".strtab::000023ab",
+        "length": 47,
+        "value": "_ZNK15CShaderAPIEmpty21PreferDynamicTexturesEv"
+    },
+    {
+        "address": ".strtab::000023da",
+        "length": 41,
+        "value": "_ZN15CShaderAPIEmpty16SetPSNearAndFarZEi"
+    },
+    {
+        "address": ".strtab::00002403",
+        "length": 32,
+        "value": "_ZN15CShaderAPIEmpty8EndFrameEv"
+    },
+    {
+        "address": ".strtab::00002423",
+        "length": 50,
+        "value": "_ZThn4_NK15CShaderAPIEmpty19HasProjectedBumpEnvEv"
+    },
+    {
+        "address": ".strtab::00002455",
+        "length": 41,
+        "value": "_ZN21CShaderDeviceMgrEmpty10DisconnectEv"
+    },
+    {
+        "address": ".strtab::0000247e",
+        "length": 60,
+        "value": "_ZN15CShaderAPIEmpty34SetLinearToGammaConversionTexturesEii"
+    },
+    {
+        "address": ".strtab::000024ba",
+        "length": 61,
+        "value": "_ZN15CShaderAPIEmpty13TexSubImage2DEiiiiiii11ImageFormatibPv"
+    },
+    {
+        "address": ".strtab::000024f7",
+        "length": 42,
+        "value": "_ZN15CShaderAPIEmpty17LoadCameraToWorldEv"
+    },
+    {
+        "address": ".strtab::00002521",
+        "length": 40,
+        "value": "_ZN15CShaderAPIEmpty12SetClipPlaneEiPKf"
+    },
+    {
+        "address": ".strtab::00002549",
+        "length": 44,
+        "value": "_ZN15CShaderAPIEmpty19SetPixelShaderIndexEi"
+    },
+    {
+        "address": ".strtab::00002575",
+        "length": 25,
+        "value": "_Z10_V_memmovePKciPvPKvi"
+    },
+    {
+        "address": ".strtab::0000258e",
+        "length": 23,
+        "value": "_Z10V_StrSlicePKciiPci"
+    },
+    {
+        "address": ".strtab::000025a5",
+        "length": 65,
+        "value": "_ZNK15CShaderAPIEmpty20GetFlashlightStateExER7VMatrixPP8ITexture"
+    },
+    {
+        "address": ".strtab::000025e6",
+        "length": 19,
+        "value": "_Z9V_wcsncpyPwPKwj"
+    },
+    {
+        "address": ".strtab::000025f9",
+        "length": 39,
+        "value": "_ZNK15CShaderAPIEmpty13IsTranslucentEs"
+    },
+    {
+        "address": ".strtab::00002620",
+        "length": 42,
+        "value": "_ZN15CShaderAPIEmpty15SetAmbientLightEfff"
+    },
+    {
+        "address": ".strtab::0000264a",
+        "length": 44,
+        "value": "_Z37Q_StripPrecedingAndTrailingWhitespacePc"
+    },
+    {
+        "address": ".strtab::00002676",
+        "length": 14,
+        "value": "_ZN5IMeshD1Ev"
+    },
+    {
+        "address": ".strtab::00002684",
+        "length": 59,
+        "value": "_ZN18CShaderShadowEmpty13StencilPassOpE17ShaderStencilOp_t"
+    },
+    {
+        "address": ".strtab::000026bf",
+        "length": 50,
+        "value": "_ZNK15CShaderAPIEmpty15SupportsHDRModeE9HDRType_t"
+    },
+    {
+        "address": ".strtab::000026f1",
+        "length": 38,
+        "value": "_ZNK15CShaderAPIEmpty12MaxViewportsEv"
+    },
+    {
+        "address": ".strtab::00002717",
+        "length": 55,
+        "value": "_ZN18CShaderShadowEmpty27EnableBlendingSeparateAlphaEb"
+    },
+    {
+        "address": ".strtab::0000274e",
+        "length": 61,
+        "value": "_ZN15CShaderAPIEmpty10ReadPixelsEP6Rect_tS1_Ph11ImageFormati"
+    },
+    {
+        "address": ".strtab::0000278b",
+        "length": 23,
+        "value": "_Z9_V_memcpyPKciPvPKvi"
+    },
+    {
+        "address": ".strtab::000027a2",
+        "length": 73,
+        "value": "_ZN15CShaderAPIEmpty18SetFlashlightStateERK17FlashlightState_tRK7VMatrix"
+    },
+    {
+        "address": ".strtab::000027eb",
+        "length": 50,
+        "value": "_ZN10IShaderAPI26OverrideBlendSeparateAlphaEbbiii"
+    },
+    {
+        "address": ".strtab::0000281d",
+        "length": 52,
+        "value": "_ZN15CShaderAPIEmpty27SupportsShadowDepthTexturesEv"
+    },
+    {
+        "address": ".strtab::00002851",
+        "length": 45,
+        "value": "_ZN18CShaderShadowEmpty14SetPixelShaderEPKci"
+    },
+    {
+        "address": ".strtab::0000287e",
+        "length": 64,
+        "value": "_ZN15CShaderAPIEmpty27CopyRenderTargetToTextureExEiiP6Rect_tS1_"
+    },
+    {
+        "address": ".strtab::000028be",
+        "length": 51,
+        "value": "_ZN15CShaderAPIEmpty8CullModeE18MaterialCullMode_t"
+    },
+    {
+        "address": ".strtab::000028f1",
+        "length": 45,
+        "value": "_ZThn4_NK15CShaderAPIEmpty14SupportsFetch4Ev"
+    },
+    {
+        "address": ".strtab::0000291e",
+        "length": 57,
+        "value": "_ZThn4_NK15CShaderAPIEmpty26SupportsCompressedVerticesEv"
+    },
+    {
+        "address": ".strtab::00002957",
+        "length": 20,
+        "value": "_Z9_V_strlenPKciS0_"
+    },
+    {
+        "address": ".strtab::0000296b",
+        "length": 40,
+        "value": "_ZN15CShaderAPIEmpty15GetSceneFogModeEv"
+    },
+    {
+        "address": ".strtab::00002993",
+        "length": 45,
+        "value": "_ZN18CShaderShadowEmpty17EnableVertexAlphaEb"
+    },
+    {
+        "address": ".strtab::000029c0",
+        "length": 32,
+        "value": "_ZNK10CEmptyMesh11IndexFormatEv"
+    },
+    {
+        "address": ".strtab::000029e0",
+        "length": 74,
+        "value": "_ZN21CShaderDeviceMgrEmpty31GetRecommendedConfigurationInfoEiiP9KeyValues"
+    },
+    {
+        "address": ".strtab::00002a2a",
+        "length": 64,
+        "value": "_ZN15CShaderAPIEmpty27CopyTextureToRenderTargetExEiiP6Rect_tS1_"
+    },
+    {
+        "address": ".strtab::00002a6a",
+        "length": 75,
+        "value": "_ZN15CShaderAPIEmpty20SetTextureFilterModeE9Sampler_t19TextureFilterMode_t"
+    },
+    {
+        "address": ".strtab::00002ab5",
+        "length": 47,
+        "value": "_ZN10CEmptyMesh11ModifyBeginEiiiiR10MeshDesc_t"
+    },
+    {
+        "address": ".strtab::00002ae4",
+        "length": 54,
+        "value": "_ZNK15CShaderAPIEmpty28GetMaxVertexTextureDimensionEv"
+    },
+    {
+        "address": ".strtab::00002b1a",
+        "length": 69,
+        "value": "_ZN15CShaderAPIEmpty18BindGeometryShaderEP24GeometryShaderHandle_t__"
+    },
+    {
+        "address": ".strtab::00002b5f",
+        "length": 28,
+        "value": "_ZN16CDllDemandLoaderC1EPKc"
+    },
+    {
+        "address": ".strtab::00002b7b",
+        "length": 49,
+        "value": "_Z15Q_UnicodeRepairPt25EStringConvertErrorPolicy"
+    },
+    {
+        "address": ".strtab::00002bac",
+        "length": 59,
+        "value": "_ZThn4_NK15CShaderAPIEmpty28GetMaxVertexTextureDimensionEv"
+    },
+    {
+        "address": ".strtab::00002be7",
+        "length": 48,
+        "value": "_ZN10CEmptyMesh12ValidateDataEiRK12VertexDesc_t"
+    },
+    {
+        "address": ".strtab::00002c17",
+        "length": 46,
+        "value": "_ZThn4_NK15CShaderAPIEmpty15MaxTextureDepthEv"
+    },
+    {
+        "address": ".strtab::00002c45",
+        "length": 44,
+        "value": "_ZThn4_NK15CShaderAPIEmpty13GetHDREnabledEv"
+    },
+    {
+        "address": ".strtab::00002c71",
+        "length": 33,
+        "value": "_ZN10CEmptyMesh13EndCastBufferEv"
+    },
+    {
+        "address": ".strtab::00002c92",
+        "length": 28,
+        "value": "_Z10V_StrSubstPKcS0_S0_Pcib"
+    },
+    {
+        "address": ".strtab::00002cae",
+        "length": 24,
+        "value": "_ZTI17IShaderDynamicAPI"
+    },
+    {
+        "address": ".strtab::00002cc6",
+        "length": 52,
+        "value": "_Z14Q_UTF32ToUTF16PKwPti25EStringConvertErrorPolicy"
+    },
+    {
+        "address": ".strtab::00002cfa",
+        "length": 23,
+        "value": "_Z15Q_UnicodeLengthPKt"
+    },
+    {
+        "address": ".strtab::00002d11",
+        "length": 56,
+        "value": "_ZNK18CShaderDeviceEmpty23GetBackBufferDimensionsERiS0_"
+    },
+    {
+        "address": ".strtab::00002d49",
+        "length": 23,
+        "value": "_Unwind_RaiseException"
+    },
+    {
+        "address": ".strtab::00002d60",
+        "length": 59,
+        "value": "_ZThn4_NK15CShaderAPIEmpty28SupportsNormalMapCompressionEv"
+    },
+    {
+        "address": ".strtab::00002d9b",
+        "length": 41,
+        "value": "_ZNK15CShaderAPIEmpty15MaxTextureDepthEv"
+    },
+    {
+        "address": ".strtab::00002dc4",
+        "length": 36,
+        "value": "_ZNK15CShaderAPIEmpty10IsDX10CardEv"
+    },
+    {
+        "address": ".strtab::00002de8",
+        "length": 30,
+        "value": "__deregister_frame_info_bases"
+    },
+    {
+        "address": ".strtab::00002e06",
+        "length": 59,
+        "value": "_ZN15CShaderAPIEmpty12TexMinFilterE21ShaderTexFilterMode_t"
+    },
+    {
+        "address": ".strtab::00002e41",
+        "length": 20,
+        "value": "_ZTS13IVertexBuffer"
+    },
+    {
+        "address": ".strtab::00002e55",
+        "length": 58,
+        "value": "_ZN15CShaderAPIEmpty10TexImage2DEii11ImageFormatiiiS0_bPv"
+    },
+    {
+        "address": ".strtab::00002e8f",
+        "length": 56,
+        "value": "_ZN18CShaderShadowEmpty12EnableTexGenE14TextureStage_tb"
+    },
+    {
+        "address": ".strtab::00002ec7",
+        "length": 61,
+        "value": "_ZN15CShaderAPIEmpty14GetDynamicMeshEP9IMaterialibP5IMeshS3_"
+    },
+    {
+        "address": ".strtab::00002f04",
+        "length": 19,
+        "value": "_Z9V_stricmpPKcS0_"
+    },
+    {
+        "address": ".strtab::00002f17",
+        "length": 45,
+        "value": "_Z17Sys_LoadInterfacePKcS0_PP10CSysModulePPv"
+    },
+    {
+        "address": ".strtab::00002f44",
+        "length": 60,
+        "value": "_ZN10CEmptyMesh16SetPrimitiveTypeE23MaterialPrimitiveType_t"
+    },
+    {
+        "address": ".strtab::00002f80",
+        "length": 39,
+        "value": "_ZN15CShaderAPIEmpty14ClearSnapshotsEv"
+    },
+    {
+        "address": ".strtab::00002fa7",
+        "length": 44,
+        "value": "_ZNK15CShaderAPIEmpty18GetCurrentNumBonesEv"
+    },
+    {
+        "address": ".strtab::00002fd3",
+        "length": 50,
+        "value": "_ZN15CShaderAPIEmpty24SetIntRenderingParameterEii"
+    },
+    {
+        "address": ".strtab::00003005",
+        "length": 42,
+        "value": "_ZNK15CShaderAPIEmpty16InFlashlightModeEv"
+    },
+    {
+        "address": ".strtab::0000302f",
+        "length": 63,
+        "value": "_ZThn4_NK15CShaderAPIEmpty32ActuallySupportsPixelShaders_2_bEv"
+    },
+    {
+        "address": ".strtab::0000306e",
+        "length": 52,
+        "value": "_ZNK15CShaderAPIEmpty18GetFlashlightStateER7VMatrix"
+    },
+    {
+        "address": ".strtab::000030a2",
+        "length": 49,
+        "value": "_ZN18CShaderShadowEmpty20ExecuteCommandBufferEPh"
+    },
+    {
+        "address": ".strtab::000030d3",
+        "length": 51,
+        "value": "_ZNK15CShaderAPIEmpty25UsesVertexAndPixelShadersEs"
+    },
+    {
+        "address": ".strtab::00003106",
+        "length": 40,
+        "value": "_ZN10CEmptyMesh9ModifyEndER10MeshDesc_t"
+    },
+    {
+        "address": ".strtab::0000312e",
+        "length": 45,
+        "value": "_ZN18CShaderShadowEmpty17EnableAlphaWritesEb"
+    },
+    {
+        "address": ".strtab::0000315b",
+        "length": 20,
+        "value": "_ZTI13IShaderShadow"
+    },
+    {
+        "address": ".strtab::0000316f",
+        "length": 78,
+        "value": "_ZN15CShaderAPIEmpty7TexWrapE25ShaderTexCoordComponent_t19ShaderTexWrapMode_t"
+    },
+    {
+        "address": ".strtab::000031bd",
+        "length": 119,
+        "value": "_ZN18CShaderShadowEmpty22CustomTextureOperationE14TextureStage_t18ShaderTexChannel_t13ShaderTexOp_t14ShaderTexArg_tS3_"
+    },
+    {
+        "address": ".strtab::00003234",
+        "length": 41,
+        "value": "_ZN10IShaderAPI20GMOD_ForceFilterModeEbi"
+    },
+    {
+        "address": ".strtab::0000325d",
+        "length": 52,
+        "value": "_ZThn4_NK15CShaderAPIEmpty21MaxBlendMatrixIndicesEv"
+    },
+    {
+        "address": ".strtab::00003291",
+        "length": 54,
+        "value": "_ZNK15CShaderAPIEmpty28SupportsNormalMapCompressionEv"
+    },
+    {
+        "address": ".strtab::000032c7",
+        "length": 27,
+        "value": "_Z21Sys_IsDebuggerPresentv"
+    },
+    {
+        "address": ".strtab::000032e2",
+        "length": 50,
+        "value": "_ZNK15CShaderAPIEmpty24SupportsPixelShaders_2_0Ev"
+    },
+    {
+        "address": ".strtab::00003314",
+        "length": 19,
+        "value": "_Z13PATHSEPARATORc"
+    },
+    {
+        "address": ".strtab::00003327",
+        "length": 22,
+        "value": "_GLOBAL_OFFSET_TABLE_"
+    },
+    {
+        "address": ".strtab::0000333d",
+        "length": 28,
+        "value": "_ZN10CUtlMemoryIPciE4GrowEi"
+    },
+    {
+        "address": ".strtab::00003359",
+        "length": 49,
+        "value": "_ZN15CShaderAPIEmpty24SetDebugTextureRenderingEb"
+    },
+    {
+        "address": ".strtab::0000338a",
+        "length": 48,
+        "value": "_ZN15CShaderAPIEmpty23SetPixelShaderFogParamsEi"
+    },
+    {
+        "address": ".strtab::000033ba",
+        "length": 10,
+        "value": "__udivdi3"
+    },
+    {
+        "address": ".strtab::000033c4",
+        "length": 55,
+        "value": "_ZThn4_NK15CShaderAPIEmpty24SupportsPixelShaders_2_0Ev"
+    },
+    {
+        "address": ".strtab::000033fb",
+        "length": 39,
+        "value": "_ZNK15CShaderAPIEmpty13FakeSRGBWriteEv"
+    },
+    {
+        "address": ".strtab::00003422",
+        "length": 53,
+        "value": "_ZNK15CShaderAPIEmpty23GetBackBufferDimensionsERiS0_"
+    },
+    {
+        "address": ".strtab::00003457",
+        "length": 57,
+        "value": "_Z18Q_UTF8CharsToUTF32PKciPwi25EStringConvertErrorPolicy"
+    },
+    {
+        "address": ".strtab::00003490",
+        "length": 51,
+        "value": "_ZNK15CShaderAPIEmpty25SupportsStaticControlFlowEv"
+    },
+    {
+        "address": ".strtab::000034c3",
+        "length": 47,
+        "value": "_ZN15CShaderAPIEmpty22EnableDebugTextureListEb"
+    },
+    {
+        "address": ".strtab::000034f2",
+        "length": 52,
+        "value": "_ZThn4_NK15CShaderAPIEmpty21SupportsSpheremappingEv"
+    },
+    {
+        "address": ".strtab::00003526",
+        "length": 52,
+        "value": "_ZNK15CShaderAPIEmpty26GetFloatRenderingParameterEi"
+    },
+    {
+        "address": ".strtab::0000355a",
+        "length": 53,
+        "value": "_ZN18CShaderDeviceEmpty25DoStartupShaderPreloadingEv"
+    },
+    {
+        "address": ".strtab::0000358f",
+        "length": 47,
+        "value": "_ZThn4_NK15CShaderAPIEmpty16MaxBlendMatricesEv"
+    },
+    {
+        "address": ".strtab::000035be",
+        "length": 23,
+        "value": "_ZTS16CDllDemandLoader"
+    },
+    {
+        "address": ".strtab::000035d5",
+        "length": 64,
+        "value": "_ZN18CShaderShadowEmpty16EnablePolyOffsetE19PolygonOffsetMode_t"
+    },
+    {
+        "address": ".strtab::00003615",
+        "length": 41,
+        "value": "_ZN15CShaderAPIEmpty16GetPixelFogComboEv"
+    },
+    {
+        "address": ".strtab::0000363e",
+        "length": 84,
+        "value": "_ZN15CShaderAPIEmpty20GetTextureMemoryUsedEN17IDebugTextureInfo17TextureMemoryTypeE"
+    },
+    {
+        "address": ".strtab::00003692",
+        "length": 48,
+        "value": "_ZN15CShaderAPIEmpty23FlushBufferedPrimitivesEv"
+    },
+    {
+        "address": ".strtab::000036c2",
+        "length": 50,
+        "value": "_ZN15CShaderAPIEmpty25CopyRenderTargetToTextureEi"
+    },
+    {
+        "address": ".strtab::000036f4",
+        "length": 59,
+        "value": "_ZN18CShaderShadowEmpty15OverbrightValueE14TextureStage_tf"
+    },
+    {
+        "address": ".strtab::0000372f",
+        "length": 28,
+        "value": "_ZTS21CShaderDeviceMgrEmpty"
+    },
+    {
+        "address": ".strtab::0000374b",
+        "length": 23,
+        "value": "_Z10_V_strrchrPKciS0_c"
+    },
+    {
+        "address": ".strtab::00003762",
+        "length": 37,
+        "value": "_ZN10IShaderAPI13OverrideBlendEbbiii"
+    },
+    {
+        "address": ".strtab::00003787",
+        "length": 75,
+        "value": "_ZN18CShaderShadowEmpty24SetDiffuseMaterialSourceE22ShaderMaterialSource_t"
+    },
+    {
+        "address": ".strtab::000037d2",
+        "length": 61,
+        "value": "_ZN15CShaderAPIEmpty27SetVectorRenderingParameterEiRK6Vector"
+    },
+    {
+        "address": ".strtab::0000380f",
+        "length": 91,
+        "value": "_ZN18CShaderDeviceEmpty17CreateIndexBufferE18ShaderBufferType_t21MaterialIndexFormat_tiPKc"
+    },
+    {
+        "address": ".strtab::0000386a",
+        "length": 19,
+        "value": "_Z9_V_wcsuprPKciPw"
+    },
+    {
+        "address": ".strtab::0000387d",
+        "length": 74,
+        "value": "_ZN15CShaderAPIEmpty19BindStandardTextureE9Sampler_t19StandardTextureId_t"
+    },
+    {
+        "address": ".strtab::000038c7",
+        "length": 51,
+        "value": "_ZThn4_NK15CShaderAPIEmpty20GetMaxDXSupportLevelEv"
+    },
+    {
+        "address": ".strtab::000038fa",
+        "length": 39,
+        "value": "_ZN15CShaderAPIEmpty14SupportsFetch4Ev"
+    },
+    {
+        "address": ".strtab::00003921",
+        "length": 45,
+        "value": "_ZNK15CShaderAPIEmpty19IsDepthWriteEnabledEs"
+    },
+    {
+        "address": ".strtab::0000394e",
+        "length": 58,
+        "value": "_ZThn4_N15CShaderAPIEmpty27OverrideStreamOffsetSupportEbb"
+    },
+    {
+        "address": ".strtab::00003988",
+        "length": 46,
+        "value": "_ZN15CShaderAPIEmpty21DisableAllLocalLightsEv"
+    },
+    {
+        "address": ".strtab::000039b6",
+        "length": 25,
+        "value": "_Z17Q_UnicodeValidatePKc"
+    },
+    {
+        "address": ".strtab::000039cf",
+        "length": 22,
+        "value": "_ZN12IIndexBufferD0Ev"
+    },
+    {
+        "address": ".strtab::000039e5",
+        "length": 42,
+        "value": "_ZN18CShaderShadowEmpty14EnableLightingEb"
+    },
+    {
+        "address": ".strtab::00003a0f",
+        "length": 56,
+        "value": "_ZThn4_NK15CShaderAPIEmpty25SupportsVertexShaders_2_0Ev"
+    },
+    {
+        "address": ".strtab::00003a47",
+        "length": 45,
+        "value": "_ZNK15CShaderAPIEmpty19GetShadowFilterModeEv"
+    },
+    {
+        "address": ".strtab::00003a74",
+        "length": 66,
+        "value": "_ZNK21CShaderDeviceMgrEmpty11GetModeInfoEP19ShaderDisplayMode_tii"
+    },
+    {
+        "address": ".strtab::00003ab6",
+        "length": 50,
+        "value": "_ZNK15CShaderAPIEmpty24GetNumActiveDeformationsEv"
+    },
+    {
+        "address": ".strtab::00003ae8",
+        "length": 55,
+        "value": "_ZThn4_NK15CShaderAPIEmpty24SupportsHardwareLightingEv"
+    },
+    {
+        "address": ".strtab::00003b1f",
+        "length": 46,
+        "value": "_ZN18CShaderShadowEmpty15SetVertexShaderEPKci"
+    },
+    {
+        "address": ".strtab::00003b4d",
+        "length": 49,
+        "value": "_ZNK15CShaderAPIEmpty23MaximumAnisotropicLevelEv"
+    },
+    {
+        "address": ".strtab::00003b7e",
+        "length": 63,
+        "value": "_ZN15CShaderAPIEmpty37SetDepthFeatheringPixelShaderConstantEif"
+    },
+    {
+        "address": ".strtab::00003bbd",
+        "length": 51,
+        "value": "_ZN15CShaderAPIEmpty14GetMaxToRenderEP5IMeshbPiS2_"
+    },
+    {
+        "address": ".strtab::00003bf0",
+        "length": 44,
+        "value": "_ZNK21CShaderDeviceMgrEmpty12GetModeCountEi"
+    },
+    {
+        "address": ".strtab::00003c1c",
+        "length": 54,
+        "value": "_ZThn4_NK15CShaderAPIEmpty23MaximumAnisotropicLevelEv"
+    },
+    {
+        "address": ".strtab::00003c52",
+        "length": 36,
+        "value": "_ZN18CShaderShadowEmpty9DrawFlagsEj"
+    },
+    {
+        "address": ".strtab::00003c76",
+        "length": 60,
+        "value": "_ZN15CShaderAPIEmpty30SetIntegerVertexShaderConstantEiPKiib"
+    },
+    {
+        "address": ".strtab::00003cb2",
+        "length": 17,
+        "value": "_ZTV10IShaderAPI"
+    },
+    {
+        "address": ".strtab::00003cc3",
+        "length": 39,
+        "value": "_ZN10CEmptyMesh4LockEibR12VertexDesc_t"
+    },
+    {
+        "address": ".strtab::00003cea",
+        "length": 58,
+        "value": "_ZN15CShaderAPIEmpty25SetToneMappingScaleLinearERK6Vector"
+    },
+    {
+        "address": ".strtab::00003d24",
+        "length": 51,
+        "value": "_ZNK15CShaderAPIEmpty25ReadPixelsFromFrontBufferEv"
+    },
+    {
+        "address": ".strtab::00003d57",
+        "length": 41,
+        "value": "_ZN15CShaderAPIEmpty15SetRenderTargetEii"
+    },
+    {
+        "address": ".strtab::00003d80",
+        "length": 17,
+        "value": "_ZTV10CEmptyMesh"
+    },
+    {
+        "address": ".strtab::00003d91",
+        "length": 38,
+        "value": "_ZN15CShaderAPIEmpty13DeleteTextureEi"
+    },
+    {
+        "address": ".strtab::00003db7",
+        "length": 50,
+        "value": "_ZN15CShaderAPIEmpty21GetLightmapDimensionsEPiS0_"
+    },
+    {
+        "address": ".strtab::00003de9",
+        "length": 58,
+        "value": "_ZN15CShaderAPIEmpty19SetAmbientLightCubeERK11LightCube_t"
+    },
+    {
+        "address": ".strtab::00003e23",
+        "length": 52,
+        "value": "_ZThn4_NK15CShaderAPIEmpty21MaxTextureAspectRatioEv"
+    },
+    {
+        "address": ".strtab::00003e57",
+        "length": 39,
+        "value": "_ZN15CShaderAPIEmpty12RecordStringEPKc"
+    },
+    {
+        "address": ".strtab::00003e7e",
+        "length": 50,
+        "value": "_ZNK15CShaderAPIEmpty24SupportsHardwareLightingEv"
+    },
+    {
+        "address": ".strtab::00003eb0",
+        "length": 22,
+        "value": "_ZTS15CShaderAPIEmpty"
+    },
+    {
+        "address": ".strtab::00003ec6",
+        "length": 28,
+        "value": "_ZTV21CShaderDeviceMgrEmpty"
+    },
+    {
+        "address": ".strtab::00003ee2",
+        "length": 57,
+        "value": "_ZNK15CShaderAPIEmpty12GetViewportsEP16ShaderViewport_ti"
+    },
+    {
+        "address": ".strtab::00003f1b",
+        "length": 47,
+        "value": "_ZN15CShaderAPIEmpty22ReleaseThreadOwnershipEv"
+    },
+    {
+        "address": ".strtab::00003f4a",
+        "length": 64,
+        "value": "_ZN18CShaderShadowEmpty18StencilDepthFailOpE17ShaderStencilOp_t"
+    },
+    {
+        "address": ".strtab::00003f8a",
+        "length": 49,
+        "value": "_ZN15CShaderAPIEmpty7FogModeE17MaterialFogMode_t"
+    },
+    {
+        "address": ".strtab::00003fbb",
+        "length": 50,
+        "value": "_ZN10CEmptyMesh13ModifyBeginExEbiiiiR10MeshDesc_t"
+    },
+    {
+        "address": ".strtab::00003fed",
+        "length": 25,
+        "value": "_ZTV18CShaderShadowEmpty"
+    },
+    {
+        "address": ".strtab::00004006",
+        "length": 43,
+        "value": "_ZThn4_N10CEmptyMesh4LockEibR11IndexDesc_t"
+    },
+    {
+        "address": ".strtab::00004031",
+        "length": 18,
+        "value": "_Z12V_pretifynumx"
+    },
+    {
+        "address": ".strtab::00004043",
+        "length": 15,
+        "value": "_Unwind_GetCFA"
+    },
+    {
+        "address": ".strtab::00004052",
+        "length": 43,
+        "value": "_ZN15CShaderAPIEmpty18SetStencilTestMaskEj"
+    },
+    {
+        "address": ".strtab::0000407d",
+        "length": 37,
+        "value": "_ZN15CShaderAPIEmpty12TakeSnapshotEv"
+    },
+    {
+        "address": ".strtab::000040a2",
+        "length": 22,
+        "value": "_ZN12IIndexBufferD2Ev"
+    },
+    {
+        "address": ".strtab::000040b8",
+        "length": 20,
+        "value": "_ZN10CEmptyMeshC2Eb"
+    },
+    {
+        "address": ".strtab::000040cc",
+        "length": 49,
+        "value": "_ZNK15CShaderAPIEmpty23UsesSRGBCorrectBlendingEv"
+    },
+    {
+        "address": ".strtab::000040fd",
+        "length": 32,
+        "value": "_ZN15CShaderAPIEmpty8FogStartEf"
+    },
+    {
+        "address": ".strtab::0000411d",
+        "length": 52,
+        "value": "_ZN18CShaderDeviceEmpty22GetDynamicVertexBufferEiyb"
+    },
+    {
+        "address": ".strtab::00004151",
+        "length": 20,
+        "value": "_ZN10CEmptyMeshD1Ev"
+    },
+    {
+        "address": ".strtab::00004165",
+        "length": 25,
+        "value": "_ZTV18CShaderDeviceEmpty"
+    },
+    {
+        "address": ".strtab::0000417e",
+        "length": 50,
+        "value": "_ZN15CShaderAPIEmpty24OverrideAlphaWriteEnableEbb"
+    },
+    {
+        "address": ".strtab::000041b0",
+        "length": 46,
+        "value": "_ZNK15CShaderAPIEmpty20GetMaxDXSupportLevelEv"
+    },
+    {
+        "address": ".strtab::000041de",
+        "length": 47,
+        "value": "_ZNK15CShaderAPIEmpty21HasSetDeviceGammaRampEv"
+    },
+    {
+        "address": ".strtab::0000420d",
+        "length": 52,
+        "value": "_ZN15CShaderAPIEmpty22SetPixelShaderConstantEiPKfib"
+    },
+    {
+        "address": ".strtab::00004241",
+        "length": 30,
+        "value": "_ZTS23IHardwareConfigInternal"
+    },
+    {
+        "address": ".strtab::0000425f",
+        "length": 54,
+        "value": "_ZThn4_NK15CShaderAPIEmpty23NumPixelShaderConstantsEv"
+    },
+    {
+        "address": ".strtab::00004295",
+        "length": 47,
+        "value": "_ZN18CShaderShadowEmpty19EnableConstantAlphaEb"
+    },
+    {
+        "address": ".strtab::000042c4",
+        "length": 25,
+        "value": "_Z14V_SetExtensionPcPKci"
+    },
+    {
+        "address": ".strtab::000042dd",
+        "length": 26,
+        "value": "_ZN16CDllDemandLoaderD2Ev"
+    },
+    {
+        "address": ".strtab::000042f7",
+        "length": 42,
+        "value": "_ZThn4_NK15CShaderAPIEmpty11SupportsHDREv"
+    },
+    {
+        "address": ".strtab::00004321",
+        "length": 51,
+        "value": "_ZN15CShaderAPIEmpty26SetFullScreenTextureHandleEi"
+    },
+    {
+        "address": ".strtab::00004354",
+        "length": 39,
+        "value": "_ZNK15CShaderAPIEmpty13GetHDREnabledEv"
+    },
+    {
+        "address": ".strtab::0000437b",
+        "length": 18,
+        "value": "_Unwind_Backtrace"
+    },
+    {
+        "address": ".strtab::0000438d",
+        "length": 62,
+        "value": "_ZN18CShaderShadowEmpty18EnableTextureAlphaE14TextureStage_tb"
+    },
+    {
+        "address": ".strtab::000043cb",
+        "length": 53,
+        "value": "_ZNK15CShaderAPIEmpty27ShouldWriteDepthToDestAlphaEv"
+    },
+    {
+        "address": ".strtab::00004400",
+        "length": 45,
+        "value": "_ZN18CShaderShadowEmpty17EnableVertexBlendEb"
+    },
+    {
+        "address": ".strtab::0000442d",
+        "length": 44,
+        "value": "_ZN15CShaderAPIEmpty19SetStencilWriteMaskEj"
+    },
+    {
+        "address": ".strtab::00004459",
+        "length": 25,
+        "value": "_Z13_V_UTF8ToUCS2PKciPti"
+    },
+    {
+        "address": ".strtab::00004472",
+        "length": 36,
+        "value": "_ZN15CShaderAPIEmpty11EndPIXEventEv"
+    },
+    {
+        "address": ".strtab::00004496",
+        "length": 55,
+        "value": "_ZN15CShaderAPIEmpty15BindIndexBufferEP12IIndexBufferi"
+    },
+    {
+        "address": ".strtab::000044cd",
+        "length": 38,
+        "value": "_Z30V_AddBackSlashesToSpecialCharsPKc"
+    },
+    {
+        "address": ".strtab::000044f3",
+        "length": 32,
+        "value": "_Z14Sys_GetFactoryP10CSysModule"
+    },
+    {
+        "address": ".strtab::00004513",
+        "length": 24,
+        "value": "_Z11V_vsnprintfPciPKcS_"
+    },
+    {
+        "address": ".strtab::0000452b",
+        "length": 43,
+        "value": "_ZN18CShaderShadowEmpty15SetDefaultStateEv"
+    },
+    {
+        "address": ".strtab::00004556",
+        "length": 59,
+        "value": "_Z13V_SplitStringPKcS0_R10CUtlVectorIPc10CUtlMemoryIS2_iEE"
+    },
+    {
+        "address": ".strtab::00004591",
+        "length": 45,
+        "value": "_ZN18CShaderShadowEmpty17EnableDepthWritesEb"
+    },
+    {
+        "address": ".strtab::000045be",
+        "length": 20,
+        "value": "_Z14cIntToHexDigiti"
+    },
+    {
+        "address": ".strtab::000045d2",
+        "length": 90,
+        "value": "_ZN15CShaderAPIEmpty35OcclusionQuery_GetNumPixelsRenderedEP27ShaderAPIOcclusionQuery_t__b"
+    },
+    {
+        "address": ".strtab::0000462c",
+        "length": 22,
+        "value": "_Z11_V_wcslowerPKciPw"
+    },
+    {
+        "address": ".strtab::00004642",
+        "length": 54,
+        "value": "_ZNK15CShaderAPIEmpty27GetWorldSpaceCameraPositionEPf"
+    },
+    {
+        "address": ".strtab::00004678",
+        "length": 49,
+        "value": "_Z15Q_UnicodeRepairPw25EStringConvertErrorPolicy"
+    },
+    {
+        "address": ".strtab::000046a9",
+        "length": 75,
+        "value": "_ZN18CShaderDeviceEmpty21DestroyGeometryShaderEP24GeometryShaderHandle_t__"
+    },
+    {
+        "address": ".strtab::000046f4",
+        "length": 25,
+        "value": "_Z12V_vsnwprintfPwiPKwPc"
+    },
+    {
+        "address": ".strtab::0000470d",
+        "length": 45,
+        "value": "_ZNK15CShaderAPIEmpty19HasProjectedBumpEnvEv"
+    },
+    {
+        "address": ".strtab::0000473a",
+        "length": 17,
+        "value": "_ZTI10CEmptyMesh"
+    },
+    {
+        "address": ".strtab::0000474b",
+        "length": 48,
+        "value": "_ZN15CShaderAPIEmpty9BindWhiteE14TextureStage_t"
+    },
+    {
+        "address": ".strtab::0000477b",
+        "length": 48,
+        "value": "_ZN15CShaderAPIEmpty17SetLightingOriginE6Vector"
+    },
+    {
+        "address": ".strtab::000047ab",
+        "length": 44,
+        "value": "_ZNK18CShaderDeviceEmpty15IsUsingGraphicsEv"
+    },
+    {
+        "address": ".strtab::000047d7",
+        "length": 39,
+        "value": "_ZN10CEmptyMesh6UnlockEiR11IndexDesc_t"
+    },
+    {
+        "address": ".strtab::000047fe",
+        "length": 42,
+        "value": "_ZN15CShaderAPIEmpty15SelectionBufferEPji"
+    },
+    {
+        "address": ".strtab::00004828",
+        "length": 50,
+        "value": "_ZN15CShaderAPIEmpty25CommitPixelShaderLightingEi"
+    },
+    {
+        "address": ".strtab::0000485a",
+        "length": 52,
+        "value": "_ZN15CShaderAPIEmpty26SetFloatRenderingParameterEif"
+    },
+    {
+        "address": ".strtab::0000488e",
+        "length": 40,
+        "value": "_ZN15CShaderAPIEmpty12SetPIXMarkerEmPKc"
+    },
+    {
+        "address": ".strtab::000048b6",
+        "length": 59,
+        "value": "_ZZNK15CShaderAPIEmpty18GetFlashlightStateER7VMatrixE4blah"
+    },
+    {
+        "address": ".strtab::000048f1",
+        "length": 11,
+        "value": "_ZTV5IMesh"
+    },
+    {
+        "address": ".strtab::000048fc",
+        "length": 44,
+        "value": "_ZNK15CShaderAPIEmpty18SupportsOverbrightEv"
+    },
+    {
+        "address": ".strtab::00004928",
+        "length": 42,
+        "value": "_ZN15CShaderAPIEmpty17PushSelectionNameEi"
+    },
+    {
+        "address": ".strtab::00004952",
+        "length": 47,
+        "value": "_ZN15CShaderAPIEmpty15GetFogDistancesEPfS0_S0_"
+    },
+    {
+        "address": ".strtab::00004981",
+        "length": 32,
+        "value": "_Unwind_GetLanguageSpecificData"
+    },
+    {
+        "address": ".strtab::000049a1",
+        "length": 33,
+        "value": "_ZN15CShaderAPIEmpty9BeginPassEs"
+    },
+    {
+        "address": ".strtab::000049c2",
+        "length": 38,
+        "value": "_ZN15CShaderAPIEmpty10PickMatrixEiiii"
+    },
+    {
+        "address": ".strtab::000049e8",
+        "length": 41,
+        "value": "_ZN15CShaderAPIEmpty16ResetRenderStateEb"
+    },
+    {
+        "address": ".strtab::00004a11",
+        "length": 20,
+        "value": "_Z14Q_IsMeanSpaceWw"
+    },
+    {
+        "address": ".strtab::00004a25",
+        "length": 59,
+        "value": "_ZThn4_NK15CShaderAPIEmpty28MaxVertexShaderBlendMatricesEv"
+    },
+    {
+        "address": ".strtab::00004a60",
+        "length": 35,
+        "value": "_ZN15CShaderAPIEmpty9SyncTokenEPKc"
+    },
+    {
+        "address": ".strtab::00004a83",
+        "length": 46,
+        "value": "_ZN15CShaderAPIEmpty20ExecuteCommandBufferEPh"
+    },
+    {
+        "address": ".strtab::00004ab1",
+        "length": 20,
+        "value": "_ZTV13IVertexBuffer"
+    },
+    {
+        "address": ".strtab::00004ac5",
+        "length": 64,
+        "value": "_ZN15CShaderAPIEmpty24BindNormalizationCubeMapE14TextureStage_t"
+    },
+    {
+        "address": ".strtab::00004b05",
+        "length": 41,
+        "value": "_ZN15CShaderAPIEmpty15MultMatrixLocalEPf"
+    },
+    {
+        "address": ".strtab::00004b2e",
+        "length": 45,
+        "value": "_ZN15CShaderAPIEmpty20ForceDepthFuncEqualsEb"
+    },
+    {
+        "address": ".strtab::00004b5b",
+        "length": 81,
+        "value": "_ZN15CShaderAPIEmpty27DestroyOcclusionQueryObjectEP27ShaderAPIOcclusionQuery_t__"
+    },
+    {
+        "address": ".strtab::00004bac",
+        "length": 48,
+        "value": "_ZThn4_NK15CShaderAPIEmpty17TextureMemorySizeEv"
+    },
+    {
+        "address": ".strtab::00004bdc",
+        "length": 46,
+        "value": "_ZN15CShaderAPIEmpty21EvictManagedResourcesEv"
+    },
+    {
+        "address": ".strtab::00004c0a",
+        "length": 56,
+        "value": "_ZNK15CShaderAPIEmpty30LinearToGamma_HardwareSpecificEf"
+    },
+    {
+        "address": ".strtab::00004c42",
+        "length": 44,
+        "value": "_ZNK15CShaderAPIEmpty18HasDestAlphaBufferEv"
+    },
+    {
+        "address": ".strtab::00004c6e",
+        "length": 52,
+        "value": "_ZN15CShaderAPIEmpty12BindLightmapE14TextureStage_t"
+    },
+    {
+        "address": ".strtab::00004ca2",
+        "length": 15,
+        "value": "_Unwind_Resume"
+    },
+    {
+        "address": ".strtab::00004cb1",
+        "length": 43,
+        "value": "_ZNK15CShaderAPIEmpty17GetDXSupportLevelEv"
+    },
+    {
+        "address": ".strtab::00004cdc",
+        "length": 39,
+        "value": "_ZN15CShaderAPIEmpty12FogColor3ubvEPKh"
+    },
+    {
+        "address": ".strtab::00004d03",
+        "length": 28,
+        "value": "__register_frame_info_table"
+    },
+    {
+        "address": ".strtab::00004d1f",
+        "length": 13,
+        "value": "_Z8V_nibblec"
+    },
+    {
+        "address": ".strtab::00004d2c",
+        "length": 45,
+        "value": "_ZN15CShaderAPIEmpty20SetVertexShaderIndexEi"
+    },
+    {
+        "address": ".strtab::00004d59",
+        "length": 33,
+        "value": "_ZN15CShaderAPIEmpty9TexUnlockEv"
+    },
+    {
+        "address": ".strtab::00004d7a",
+        "length": 52,
+        "value": "_ZN18CShaderShadowEmpty14EnableSRGBReadE9Sampler_tb"
+    },
+    {
+        "address": ".strtab::00004dae",
+        "length": 57,
+        "value": "_Z18Q_UTF8CharsToUTF16PKciPti25EStringConvertErrorPolicy"
+    },
+    {
+        "address": ".strtab::00004de7",
+        "length": 15,
+        "value": "_Z9V_StrTrimPc"
+    },
+    {
+        "address": ".strtab::00004df6",
+        "length": 53,
+        "value": "_ZN15CShaderAPIEmpty10ReadPixelsEiiiiPh11ImageFormat"
+    },
+    {
+        "address": ".strtab::00004e2b",
+        "length": 24,
+        "value": "_ZTV17IShaderDynamicAPI"
+    },
+    {
+        "address": ".strtab::00004e43",
+        "length": 50,
+        "value": "_ZNK15CShaderAPIEmpty24GetFrameBufferColorDepthEv"
+    },
+    {
+        "address": ".strtab::00004e75",
+        "length": 51,
+        "value": "_Z13Q_UTF16ToUTF8PKtPci25EStringConvertErrorPolicy"
+    },
+    {
+        "address": ".strtab::00004ea8",
+        "length": 23,
+        "value": "_Z11V_snwprintfPwiPKwz"
+    },
+    {
+        "address": ".strtab::00004ebf",
+        "length": 19,
+        "value": "_ZThn4_N5IMeshD0Ev"
+    },
+    {
+        "address": ".strtab::00004ed2",
+        "length": 36,
+        "value": "_ZN15CShaderAPIEmpty10MultMatrixEPf"
+    },
+    {
+        "address": ".strtab::00004ef6",
+        "length": 24,
+        "value": "_Z16Q_UChar32ToUTF16wPt"
+    },
+    {
+        "address": ".strtab::00004f0e",
+        "length": 47,
+        "value": "_ZN15CShaderAPIEmpty22GetVertexModifyBuilderEv"
+    },
+    {
+        "address": ".strtab::00004f3d",
+        "length": 44,
+        "value": "_ZThn4_NK15CShaderAPIEmpty13FakeSRGBWriteEv"
+    },
+    {
+        "address": ".strtab::00004f69",
+        "length": 31,
+        "value": "_ZN10CEmptyMesh11MarkAsDrawnEv"
+    },
+    {
+        "address": ".strtab::00004f88",
+        "length": 46,
+        "value": "_ZNK18CShaderDeviceEmpty17GetCurrentAdapterEv"
+    },
+    {
+        "address": ".strtab::00004fb6",
+        "length": 49,
+        "value": "_ZN18CShaderShadowEmpty21EnableAlphaToCoverageEb"
+    },
+    {
+        "address": ".strtab::00004fe7",
+        "length": 43,
+        "value": "_ZN18CShaderShadowEmpty15EnableAlphaPipeEb"
+    },
+    {
+        "address": ".strtab::00005012",
+        "length": 49,
+        "value": "_ZThn4_NK15CShaderAPIEmpty18SupportsOverbrightEv"
+    },
+    {
+        "address": ".strtab::00005043",
+        "length": 46,
+        "value": "_ZThn4_NK15CShaderAPIEmpty15GetSamplerCountEv"
+    },
+    {
+        "address": ".strtab::00005071",
+        "length": 54,
+        "value": "_ZThn4_NK15CShaderAPIEmpty23SupportsShaderModel_3_0Ev"
+    },
+    {
+        "address": ".strtab::000050a7",
+        "length": 41,
+        "value": "_ZN15CShaderAPIEmpty16SetStencilEnableEb"
+    },
+    {
+        "address": ".strtab::000050d0",
+        "length": 44,
+        "value": "_ZN18CShaderDeviceEmpty16ReleaseResourcesEv"
+    },
+    {
+        "address": ".strtab::000050fc",
+        "length": 52,
+        "value": "_ZNK15CShaderAPIEmpty26SupportsCompressedTexturesEv"
+    },
+    {
+        "address": ".strtab::00005130",
+        "length": 35,
+        "value": "_ZN15CShaderAPIEmpty8Color4ubEhhhh"
+    },
+    {
+        "address": ".strtab::00005153",
+        "length": 38,
+        "value": "_ZN15CShaderAPIEmpty13SelectionModeEb"
+    },
+    {
+        "address": ".strtab::00005179",
+        "length": 65,
+        "value": "_ZNK15CShaderAPIEmpty24ComputeVertexDescriptionEPhyR10MeshDesc_t"
+    },
+    {
+        "address": ".strtab::000051ba",
+        "length": 11,
+        "value": "_ZTS5IMesh"
+    },
+    {
+        "address": ".strtab::000051c5",
+        "length": 25,
+        "value": "_Z19Q_UChar32ToUTF16Lenw"
+    },
+    {
+        "address": ".strtab::000051de",
+        "length": 60,
+        "value": "_ZN18CShaderShadowEmpty23SetShadowDepthFilteringE9Sampler_t"
+    },
+    {
+        "address": ".strtab::0000521a",
+        "length": 54,
+        "value": "_ZThn4_NK15CShaderAPIEmpty23SupportsNonPow2TexturesEv"
+    },
+    {
+        "address": ".strtab::00005250",
+        "length": 41,
+        "value": "_ZThn4_NK15CShaderAPIEmpty10GetHDRTypeEv"
+    },
+    {
+        "address": ".strtab::00005279",
+        "length": 24,
+        "value": "_ZN10CEmptyMesh4DrawEii"
+    },
+    {
+        "address": ".strtab::00005291",
+        "length": 22,
+        "value": "_Z15V_StripFilenamePc"
+    },
+    {
+        "address": ".strtab::000052a7",
+        "length": 30,
+        "value": "_ZN12InterfaceRegC2EPFPvvEPKc"
+    },
+    {
+        "address": ".strtab::000052c5",
+        "length": 42,
+        "value": "_ZThn4_NK10CEmptyMesh16GetRoomRemainingEv"
+    },
+    {
+        "address": ".strtab::000052ef",
+        "length": 46,
+        "value": "_ZNK15CShaderAPIEmpty20GetTextureStageCountEv"
+    },
+    {
+        "address": ".strtab::0000531d",
+        "length": 57,
+        "value": "_ZThn4_NK15CShaderAPIEmpty26SupportsCompressedTexturesEv"
+    },
+    {
+        "address": ".strtab::00005356",
+        "length": 32,
+        "value": "_Z18V_MakeRelativePathPKcS0_Pci"
+    },
+    {
+        "address": ".strtab::00005376",
+        "length": 51,
+        "value": "_ZNK15CShaderAPIEmpty25SupportsMipmappedCubemapsEv"
+    },
+    {
+        "address": ".strtab::000053a9",
+        "length": 53,
+        "value": "_ZThn8_N15CShaderAPIEmpty23IsDebugTextureListFreshEi"
+    },
+    {
+        "address": ".strtab::000053de",
+        "length": 60,
+        "value": "_ZN15CShaderAPIEmpty15PushDeformationEPK17DeformationBase_t"
+    },
+    {
+        "address": ".strtab::0000541a",
+        "length": 25,
+        "value": "_ZThn4_N10CEmptyMeshD1Ev"
+    },
+    {
+        "address": ".strtab::00005433",
+        "length": 60,
+        "value": "_ZN15CShaderAPIEmpty16SetBumpEnvMatrixE14TextureStage_tffff"
+    },
+    {
+        "address": ".strtab::0000546f",
+        "length": 42,
+        "value": "_ZN18CShaderShadowEmpty14EnableSpecularEb"
+    },
+    {
+        "address": ".strtab::00005499",
+        "length": 14,
+        "value": "_ZN5IMeshD0Ev"
+    },
+    {
+        "address": ".strtab::000054a7",
+        "length": 41,
+        "value": "_ZN15CShaderAPIEmpty13ClearColor4ubEhhhh"
+    },
+    {
+        "address": ".strtab::000054d0",
+        "length": 38,
+        "value": "_ZN15CShaderAPIEmpty4BindEP9IMaterial"
+    },
+    {
+        "address": ".strtab::000054f6",
+        "length": 23,
+        "value": "_Z15Q_UnicodeLengthPKw"
+    },
+    {
+        "address": ".strtab::0000550d",
+        "length": 48,
+        "value": "_ZNK15CShaderAPIEmpty22GetLightMapScaleFactorEv"
+    },
+    {
+        "address": ".strtab::0000553d",
+        "length": 48,
+        "value": "_ZNK18CShaderDeviceEmpty19GetBackBufferFormatEv"
+    },
+    {
+        "address": ".strtab::0000556d",
+        "length": 85,
+        "value": "_ZN15CShaderAPIEmpty20SetFlashlightStateExERK17FlashlightState_tRK7VMatrixP8ITexture"
+    },
+    {
+        "address": ".strtab::000055c2",
+        "length": 25,
+        "value": "_ZTS18CShaderShadowEmpty"
+    },
+    {
+        "address": ".strtab::000055db",
+        "length": 22,
+        "value": "_Z14V_StripLastDirPci"
+    },
+    {
+        "address": ".strtab::000055f1",
+        "length": 30,
+        "value": "_Unwind_FindEnclosingFunction"
+    },
+    {
+        "address": ".strtab::0000560f",
+        "length": 22,
+        "value": "__x86.get_pc_thunk.bx"
+    },
+    {
+        "address": ".strtab::00005625",
+        "length": 41,
+        "value": "_Z30StringAfterPrefixCaseSensitivePKcS0_"
+    },
+    {
+        "address": ".strtab::0000564e",
+        "length": 34,
+        "value": "_ZN18CShaderDeviceEmpty7PresentEv"
+    },
+    {
+        "address": ".strtab::00005670",
+        "length": 61,
+        "value": "_ZN15CShaderAPIEmpty35SetPixelShaderStateAmbientLightCubeEib"
+    },
+    {
+        "address": ".strtab::000056ad",
+        "length": 39,
+        "value": "_ZN10CEmptyMesh12SetColorMeshEP5IMeshi"
+    },
+    {
+        "address": ".strtab::000056d4",
+        "length": 24,
+        "value": "_ZTS17IShaderDynamicAPI"
+    },
+    {
+        "address": ".strtab::000056ec",
+        "length": 51,
+        "value": "_ZThn4_NK15CShaderAPIEmpty20NeedsATICentroidHackEv"
+    },
+    {
+        "address": ".strtab::0000571f",
+        "length": 51,
+        "value": "_ZThn4_NK15CShaderAPIEmpty20GetTextureStageCountEv"
+    },
+    {
+        "address": ".strtab::00005752",
+        "length": 43,
+        "value": "_ZNK15CShaderAPIEmpty17MaxUserClipPlanesEv"
+    },
+    {
+        "address": ".strtab::0000577d",
+        "length": 20,
+        "value": "_Z12V_pretifymemfib"
+    },
+    {
+        "address": ".strtab::00005791",
+        "length": 74,
+        "value": "_ZN18CShaderShadowEmpty8PolyModeE20ShaderPolyModeFace_t16ShaderPolyMode_t"
+    },
+    {
+        "address": ".strtab::000057db",
+        "length": 36,
+        "value": "_ZN15CShaderAPIEmpty11UseSnapshotEs"
+    },
+    {
+        "address": ".strtab::000057ff",
+        "length": 47,
+        "value": "_ZThn4_NK15CShaderAPIEmpty16MaxTextureHeightEv"
+    },
+    {
+        "address": ".strtab::0000582e",
+        "length": 56,
+        "value": "_ZThn4_NK15CShaderAPIEmpty25NeedsShaderSRGBConversionEv"
+    },
+    {
+        "address": ".strtab::00005866",
+        "length": 57,
+        "value": "_ZN15CShaderAPIEmpty32SetStandardVertexShaderConstantsEf"
+    },
+    {
+        "address": ".strtab::0000589f",
+        "length": 26,
+        "value": "_Z18V_GetFileExtensionPKc"
+    },
+    {
+        "address": ".strtab::000058b9",
+        "length": 37,
+        "value": "_ZN15CShaderAPIEmpty12ShaderUnlockEv"
+    },
+    {
+        "address": ".strtab::000058de",
+        "length": 78,
+        "value": "_ZN15CShaderAPIEmpty25SetStencilCompareFunctionE27StencilComparisonFunction_t"
+    },
+    {
+        "address": ".strtab::0000592c",
+        "length": 47,
+        "value": "_ZNK15CShaderAPIEmpty21HasFastVertexTexturesEv"
+    },
+    {
+        "address": ".strtab::0000595b",
+        "length": 49,
+        "value": "_ZN15CShaderAPIEmpty23ClearBuffersObeyStencilEbb"
+    },
+    {
+        "address": ".strtab::0000598c",
+        "length": 31,
+        "value": "_ZNK10CEmptyMesh10IndexCountEv"
+    },
+    {
+        "address": ".strtab::000059ab",
+        "length": 28,
+        "value": "_ZN18CShaderShadowEmptyD1Ev"
+    },
+    {
+        "address": ".strtab::000059c7",
+        "length": 40,
+        "value": "_ZN15CShaderAPIEmpty15SetDefaultStateEv"
+    },
+    {
+        "address": ".strtab::000059ef",
+        "length": 57,
+        "value": "_ZN15CShaderAPIEmpty22GetMaxVerticesToRenderEP9IMaterial"
+    },
+    {
+        "address": ".strtab::00005a28",
+        "length": 42,
+        "value": "_ZThn4_NK15CShaderAPIEmpty11IsAAEnabledEv"
+    },
+    {
+        "address": ".strtab::00005a52",
+        "length": 47,
+        "value": "_ZNK15CShaderAPIEmpty21SupportsSpheremappingEv"
+    },
+    {
+        "address": ".strtab::00005a81",
+        "length": 12,
+        "value": "__TMC_END__"
+    },
+    {
+        "address": ".strtab::00005a8d",
+        "length": 62,
+        "value": "_ZN15CShaderAPIEmpty22BindFullbrightLightmapE14TextureStage_t"
+    },
+    {
+        "address": ".strtab::00005acb",
+        "length": 20,
+        "value": "_ZTS13IShaderShadow"
+    },
+    {
+        "address": ".strtab::00005adf",
+        "length": 52,
+        "value": "_ZNK15CShaderAPIEmpty26GetVertexBufferCompressionEv"
+    },
+    {
+        "address": ".strtab::00005b13",
+        "length": 54,
+        "value": "_ZN18CShaderShadowEmpty9DepthFuncE17ShaderDepthFunc_t"
+    },
+    {
+        "address": ".strtab::00005b49",
+        "length": 22,
+        "value": "_Z10V_StrRightPKciPci"
+    },
+    {
+        "address": ".strtab::00005b5f",
+        "length": 51,
+        "value": "_ZN15CShaderAPIEmpty25SetShadowDepthBiasFactorsEff"
+    },
+    {
+        "address": ".strtab::00005b92",
+        "length": 26,
+        "value": "_Z15V_FixupPathNamePcjPKc"
+    },
+    {
+        "address": ".strtab::00005bac",
+        "length": 46,
+        "value": "_ZN15CShaderAPIEmpty21EnableAlphaToCoverageEv"
+    },
+    {
+        "address": ".strtab::00005bda",
+        "length": 66,
+        "value": "_ZN15CShaderAPIEmpty17BindVertexTextureE22VertexTextureSampler_ti"
+    },
+    {
+        "address": ".strtab::00005c1c",
+        "length": 43,
+        "value": "_ZThn4_NK15CShaderAPIEmpty12NeedsAAClampEv"
+    },
+    {
+        "address": ".strtab::00005c47",
+        "length": 28,
+        "value": "__register_frame_info_bases"
+    },
+    {
+        "address": ".strtab::00005c63",
+        "length": 37,
+        "value": "_ZN15CShaderAPIEmpty12LoadIdentityEv"
+    },
+    {
+        "address": ".strtab::00005c88",
+        "length": 36,
+        "value": "_ZN15CShaderAPIEmpty10RenderPassEii"
+    },
+    {
+        "address": ".strtab::00005cac",
+        "length": 46,
+        "value": "_ZNK15CShaderAPIEmpty20NeedsATICentroidHackEv"
+    },
+    {
+        "address": ".strtab::00005cda",
+        "length": 59,
+        "value": "_ZN10CUtlVectorIPc10CUtlMemoryIS0_iEE12InsertBeforeEiRKS0_"
+    },
+    {
+        "address": ".strtab::00005d15",
+        "length": 41,
+        "value": "_ZN15CShaderAPIEmpty16EnableHWMorphingEb"
+    },
+    {
+        "address": ".strtab::00005d3e",
+        "length": 36,
+        "value": "_ZNK10CEmptyMesh15GetVertexFormatEv"
+    },
+    {
+        "address": ".strtab::00005d62",
+        "length": 52,
+        "value": "_ZThn4_N10CEmptyMesh11ModifyBeginEbiiR11IndexDesc_t"
+    },
+    {
+        "address": ".strtab::00005d96",
+        "length": 13,
+        "value": "__dso_handle"
+    },
+    {
+        "address": ".strtab::00005da3",
+        "length": 64,
+        "value": "_ZNK15CShaderAPIEmpty38DoRenderTargetsNeedSeparateDepthBufferEv"
+    },
+    {
+        "address": ".strtab::00005de3",
+        "length": 25,
+        "value": "_ZTI18CShaderDeviceEmpty"
+    },
+    {
+        "address": ".strtab::00005dfc",
+        "length": 21,
+        "value": "_Z9_V_memsetPKciPvii"
+    },
+    {
+        "address": ".strtab::00005e11",
+        "length": 25,
+        "value": "_Z13V_binarytohexPKhiPci"
+    },
+    {
+        "address": ".strtab::00005e2a",
+        "length": 29,
+        "value": "_Z21V_GetCurrentDirectoryPci"
+    },
+    {
+        "address": ".strtab::00005e47",
+        "length": 18,
+        "value": "_Z9V_stristrPcPKc"
+    },
+    {
+        "address": ".strtab::00005e59",
+        "length": 30,
+        "value": "_ZN15CShaderAPIEmpty6FogEndEf"
+    },
+    {
+        "address": ".strtab::00005e77",
+        "length": 38,
+        "value": "_ZN10CEmptyMesh11SetFlexMeshEP5IMeshi"
+    },
+    {
+        "address": ".strtab::00005e9d",
+        "length": 37,
+        "value": "_ZN10CEmptyMesh17ComputeMemoryUsedEv"
+    },
+    {
+        "address": ".strtab::00005ec2",
+        "length": 62,
+        "value": "_Z14V_SplitString2PKcPS0_iR10CUtlVectorIPc10CUtlMemoryIS3_iEE"
+    },
+    {
+        "address": ".strtab::00005f00",
+        "length": 51,
+        "value": "_Z13Q_UTF8ToUTF32PKcPwi25EStringConvertErrorPolicy"
+    },
+    {
+        "address": ".strtab::00005f33",
+        "length": 28,
+        "value": "_ZN18CShaderDeviceEmptyD1Ev"
+    },
+    {
+        "address": ".strtab::00005f4f",
+        "length": 52,
+        "value": "_ZNK15CShaderAPIEmpty26SupportsCompressedVerticesEv"
+    },
+    {
+        "address": ".strtab::00005f83",
+        "length": 58,
+        "value": "_ZN15CShaderAPIEmpty33PerformFullScreenStencilOperationEv"
+    },
+    {
+        "address": ".strtab::00005fbd",
+        "length": 45,
+        "value": "_ZNK15CShaderAPIEmpty19SupportsBorderColorEv"
+    },
+    {
+        "address": ".strtab::00005fea",
+        "length": 56,
+        "value": "_ZNK15CShaderAPIEmpty30SpecifiesFogColorInLinearSpaceEv"
+    },
+    {
+        "address": ".strtab::00006022",
+        "length": 46,
+        "value": "_ZNK15CShaderAPIEmpty18ComputeMorphFormatEiPs"
+    },
+    {
+        "address": ".strtab::00006050",
+        "length": 24,
+        "value": "_Unwind_DeleteException"
+    },
+    {
+        "address": ".strtab::00006068",
+        "length": 29,
+        "value": "_Z22V_normalizeFloatStringPc"
+    },
+    {
+        "address": ".strtab::00006085",
+        "length": 33,
+        "value": "_Z23CreateInterfaceInternalPKcPi"
+    },
+    {
+        "address": ".strtab::000060a6",
+        "length": 47,
+        "value": "_ZN10CEmptyMesh12ValidateDataEiRK11IndexDesc_t"
+    },
+    {
+        "address": ".strtab::000060d5",
+        "length": 44,
+        "value": "_ZNK15CShaderAPIEmpty18GetHardwareHDRTypeEv"
+    },
+    {
+        "address": ".strtab::00006101",
+        "length": 47,
+        "value": "_ZN21CShaderDeviceMgrEmpty14QueryInterfaceEPKc"
+    },
+    {
+        "address": ".strtab::00006130",
+        "length": 31,
+        "value": "_Z17V_ComposeFileNamePKcS0_Pci"
+    },
+    {
+        "address": ".strtab::0000614f",
+        "length": 43,
+        "value": "_ZN15CShaderAPIEmpty14SetScissorRectEiiiib"
+    },
+    {
+        "address": ".strtab::0000617a",
+        "length": 34,
+        "value": "_ZN10CEmptyMesh4DrawEP9CPrimListi"
+    },
+    {
+        "address": ".strtab::0000619c",
+        "length": 53,
+        "value": "_ZN15CShaderAPIEmpty23SetVertexShaderConstantEiPKfib"
+    },
+    {
+        "address": ".strtab::000061d1",
+        "length": 66,
+        "value": "_ZN15CShaderAPIEmpty14CreateTexturesEPiiiii11ImageFormatiiiPKcS3_"
+    },
+    {
+        "address": ".strtab::00006213",
+        "length": 63,
+        "value": "_ZNK15CShaderAPIEmpty31GetPackedDeformationInformationEiPfiiPi"
+    },
+    {
+        "address": ".strtab::00006252",
+        "length": 43,
+        "value": "_ZNK18CShaderDeviceEmpty14SpewDriverInfoEv"
+    },
+    {
+        "address": ".strtab::0000627d",
+        "length": 22,
+        "value": "_Z10V_strtowcsPKciPwi"
+    },
+    {
+        "address": ".strtab::00006293",
+        "length": 53,
+        "value": "_ZN18CShaderShadowEmpty25DisableFogGammaCorrectionEb"
+    },
+    {
+        "address": ".strtab::000062c8",
+        "length": 24,
+        "value": "_ZTS17IDebugTextureInfo"
+    },
+    {
+        "address": ".strtab::000062e0",
+        "length": 24,
+        "value": "_Z16Q_UnicodeAdvancePwi"
+    },
+    {
+        "address": ".strtab::000062f8",
+        "length": 46,
+        "value": "_ZThn4_N10CEmptyMesh9ModifyEndER11IndexDesc_t"
+    },
+    {
+        "address": ".strtab::00006326",
+        "length": 40,
+        "value": "_ZN15CShaderAPIEmpty13ClearColor3ubEhhh"
+    },
+    {
+        "address": ".strtab::0000634e",
+        "length": 51,
+        "value": "_ZN15CShaderAPIEmpty17UserClipTransformERK7VMatrix"
+    },
+    {
+        "address": ".strtab::00006381",
+        "length": 61,
+        "value": "_ZGVZNK15CShaderAPIEmpty25GetToneMappingScaleLinearEvE5dummy"
+    },
+    {
+        "address": ".strtab::000063be",
+        "length": 23,
+        "value": "_Unwind_GetTextRelBase"
+    },
+    {
+        "address": ".strtab::000063d5",
+        "length": 25,
+        "value": "_Z17Q_UnicodeValidatePKw"
+    },
+    {
+        "address": ".strtab::000063ee",
+        "length": 46,
+        "value": "_ZNK15CShaderAPIEmpty20MaxHWMorphBatchCountEv"
+    },
+    {
+        "address": ".strtab::0000641c",
+        "length": 34,
+        "value": "_ZN15CShaderAPIEmpty7Color4fEffff"
+    },
+    {
+        "address": ".strtab::0000643e",
+        "length": 24,
+        "value": "_Z9_V_memcmpPKciPKvS2_i"
+    },
+    {
+        "address": ".strtab::00006456",
+        "length": 47,
+        "value": "_ZNK15CShaderAPIEmpty21MaxTextureAspectRatioEv"
+    },
+    {
+        "address": ".strtab::00006485",
+        "length": 15,
+        "value": "_Z8V_atoi64PKc"
+    },
+    {
+        "address": ".strtab::00006494",
+        "length": 17,
+        "value": "_ZTI10IShaderAPI"
+    },
+    {
+        "address": ".strtab::000064a5",
+        "length": 45,
+        "value": "_ZN15CShaderAPIEmpty20GetNullTextureFormatEv"
+    },
+    {
+        "address": ".strtab::000064d2",
+        "length": 33,
+        "value": "_ZN15CShaderAPIEmpty7Color3fEfff"
+    },
+    {
+        "address": ".strtab::000064f3",
+        "length": 57,
+        "value": "_ZNK15CShaderAPIEmpty31NumIntegerVertexShaderConstantsEv"
+    },
+    {
+        "address": ".strtab::0000652c",
+        "length": 49,
+        "value": "_ZNK15CShaderAPIEmpty23NumPixelShaderConstantsEv"
+    },
+    {
+        "address": ".strtab::0000655d",
+        "length": 28,
+        "value": "_ZN18CShaderShadowEmptyC1Ev"
+    },
+    {
+        "address": ".strtab::00006579",
+        "length": 39,
+        "value": "_ZNK15CShaderAPIEmpty13IsAlphaTestedEs"
+    },
+    {
+        "address": ".strtab::000065a0",
+        "length": 40,
+        "value": "_ZN15CShaderAPIEmpty12PerspectiveXEdddd"
+    },
+    {
+        "address": ".strtab::000065c8",
+        "length": 55,
+        "value": "_ZThn4_NK15CShaderAPIEmpty24SupportsPixelShaders_2_bEv"
+    },
+    {
+        "address": ".strtab::000065ff",
+        "length": 50,
+        "value": "_ZNK15CShaderAPIEmpty24SupportsPixelShaders_1_4Ev"
+    },
+    {
+        "address": ".strtab::00006631",
+        "length": 38,
+        "value": "_ZN10CEmptyMesh4SpewEiiRK10MeshDesc_t"
+    },
+    {
+        "address": ".strtab::00006657",
+        "length": 32,
+        "value": "_Z18V_MakeAbsolutePathPciPKcS1_"
+    },
+    {
+        "address": ".strtab::00006677",
+        "length": 80,
+        "value": "_ZN15CShaderAPIEmpty26BeginOcclusionQueryDrawingEP27ShaderAPIOcclusionQuery_t__"
+    },
+    {
+        "address": ".strtab::000066c7",
+        "length": 56,
+        "value": "_ZThn4_NK15CShaderAPIEmpty25ReadPixelsFromFrontBufferEv"
+    },
+    {
+        "address": ".strtab::000066ff",
+        "length": 13,
+        "value": "_Z6V_atofPKc"
+    },
+    {
+        "address": ".strtab::0000670c",
+        "length": 34,
+        "value": "_ZN15CShaderAPIEmpty5OrthoEdddddd"
+    },
+    {
+        "address": ".strtab::0000672e",
+        "length": 58,
+        "value": "_ZN18CShaderDeviceEmpty16CreateStaticMeshEyPKcP9IMaterial"
+    },
+    {
+        "address": ".strtab::00006768",
+        "length": 55,
+        "value": "_ZThn4_NK15CShaderAPIEmpty24SupportsPixelShaders_1_4Ev"
+    },
+    {
+        "address": ".strtab::0000679f",
+        "length": 110,
+        "value": "_ZN18CShaderDeviceEmpty24EnableNonInteractiveModeE28MaterialNonInteractiveMode_tP26ShaderNonInteractiveInfo_t"
+    },
+    {
+        "address": ".strtab::0000680d",
+        "length": 53,
+        "value": "_ZNK15CShaderAPIEmpty27GetVectorRenderingParameterEi"
+    },
+    {
+        "address": ".strtab::00006842",
+        "length": 60,
+        "value": "_ZThn4_NK15CShaderAPIEmpty29SupportsVertexAndPixelShadersEv"
+    },
+    {
+        "address": ".strtab::0000687e",
+        "length": 42,
+        "value": "_ZN15CShaderAPIEmpty17GetRenderTargetExEi"
+    },
+    {
+        "address": ".strtab::000068a8",
+        "length": 79,
+        "value": "_ZN15CShaderAPIEmpty25GetCurrentColorCorrectionEP27ShaderColorCorrectionInfo_t"
+    },
+    {
+        "address": ".strtab::000068f7",
+        "length": 14,
+        "value": "_Unwind_SetIP"
+    },
+    {
+        "address": ".strtab::00006905",
+        "length": 31,
+        "value": "_ZN16CDllDemandLoader6UnloadEv"
+    },
+    {
+        "address": ".strtab::00006924",
+        "length": 38,
+        "value": "_ZN15CShaderAPIEmpty11FogColor3fvEPKf"
+    },
+    {
+        "address": ".strtab::0000694a",
+        "length": 20,
+        "value": "_Z11AllocStringPKci"
+    },
+    {
+        "address": ".strtab::0000695e",
+        "length": 55,
+        "value": "_ZThn4_NK15CShaderAPIEmpty15SupportsHDRModeE9HDRType_t"
+    },
+    {
+        "address": ".strtab::00006995",
+        "length": 72,
+        "value": "_ZZNK15CShaderAPIEmpty20GetFlashlightStateExER7VMatrixPP8ITextureE4blah"
+    },
+    {
+        "address": ".strtab::000069dd",
+        "length": 45,
+        "value": "_Z38Q_StripPrecedingAndTrailingWhitespaceWPw"
+    },
+    {
+        "address": ".strtab::00006a0a",
+        "length": 24,
+        "value": "_Z13_V_UCS2ToUTF8PKtPci"
+    },
+    {
+        "address": ".strtab::00006a22",
+        "length": 41,
+        "value": "_ZN15CShaderAPIEmpty16SupportsMSAAModeEi"
+    },
+    {
+        "address": ".strtab::00006a4b",
+        "length": 32,
+        "value": "_Z19Q_URLDecodeInternalPciPKcib"
+    },
+    {
+        "address": ".strtab::00006a6b",
+        "length": 20,
+        "value": "_Z9V_wcsncatPwPKwji"
+    },
+    {
+        "address": ".strtab::00006a7f",
+        "length": 49,
+        "value": "_ZN15CShaderAPIEmpty24SetStencilReferenceValueEi"
+    },
+    {
+        "address": ".strtab::00006ab0",
+        "length": 41,
+        "value": "_ZN18CShaderShadowEmpty13EnableCullingEb"
+    },
+    {
+        "address": ".strtab::00006ad9",
+        "length": 33,
+        "value": "_Z27Sys_RunningWithDebugModulesv"
+    },
+    {
+        "address": ".strtab::00006afa",
+        "length": 19,
+        "value": "_ZThn4_N5IMeshD1Ev"
+    },
+    {
+        "address": ".strtab::00006b0d",
+        "length": 56,
+        "value": "_ZThn4_NK15CShaderAPIEmpty25SupportsStaticControlFlowEv"
+    },
+    {
+        "address": ".strtab::00006b45",
+        "length": 42,
+        "value": "_ZNK15CShaderAPIEmpty16MaxBlendMatricesEv"
+    },
+    {
+        "address": ".strtab::00006b6f",
+        "length": 22,
+        "value": "_Z16Q_IsValidUChar32w"
+    },
+    {
+        "address": ".strtab::00006b85",
+        "length": 38,
+        "value": "_ZN15CShaderAPIEmpty13SetHDREnabledEb"
+    },
+    {
+        "address": ".strtab::00006bab",
+        "length": 51,
+        "value": "_Z13Q_UTF32ToUTF8PKwPci25EStringConvertErrorPolicy"
+    },
+    {
+        "address": ".strtab::00006bde",
+        "length": 23,
+        "value": "_Z15GetModuleHandlePKc"
+    },
+    {
+        "address": ".strtab::00006bf5",
+        "length": 34,
+        "value": "_ZN15CShaderAPIEmpty8Color4fvEPKf"
+    },
+    {
+        "address": ".strtab::00006c17",
+        "length": 37,
+        "value": "_ZNK15CShaderAPIEmpty11IsAAEnabledEv"
+    },
+    {
+        "address": ".strtab::00006c3c",
+        "length": 20,
+        "value": "_Z12V_FixSlashesPcc"
+    },
+    {
+        "address": ".strtab::00006c50",
+        "length": 32,
+        "value": "_Z25Q_RemoveAllEvilCharactersPc"
+    },
+    {
+        "address": ".strtab::00006c70",
+        "length": 20,
+        "value": "_ZN10CEmptyMeshD2Ev"
+    },
+    {
+        "address": ".strtab::00006c84",
+        "length": 41,
+        "value": "_ZN15CShaderAPIEmpty13BeginPIXEventEmPKc"
+    },
+    {
+        "address": ".strtab::00006cad",
+        "length": 23,
+        "value": "_ZN13IVertexBufferD2Ev"
+    },
+    {
+        "address": ".strtab::00006cc4",
+        "length": 48,
+        "value": "_ZN15CShaderAPIEmpty23IsDebugTextureListFreshEi"
+    },
+    {
+        "address": ".strtab::00006cf4",
+        "length": 51,
+        "value": "_ZThn4_NK15CShaderAPIEmpty20CanDoSRGBReadFromRTsEv"
+    },
+    {
+        "address": ".strtab::00006d27",
+        "length": 61,
+        "value": "_ZN21CShaderDeviceMgrEmpty7SetModeEPviRK18ShaderDeviceInfo_t"
+    },
+    {
+        "address": ".strtab::00006d64",
+        "length": 50,
+        "value": "_ZNK15CShaderAPIEmpty24NumVertexShaderConstantsEv"
+    },
+    {
+        "address": ".strtab::00006d96",
+        "length": 25,
+        "value": "_ZN15CShaderAPIEmptyD0Ev"
+    },
+    {
+        "address": ".strtab::00006daf",
+        "length": 48,
+        "value": "_ZN15CShaderAPIEmpty23EnableShaderShaderMutexEb"
+    },
+    {
+        "address": ".strtab::00006ddf",
+        "length": 20,
+        "value": "_ZTV13IShaderShadow"
+    },
+    {
+        "address": ".strtab::00006df3",
+        "length": 78,
+        "value": "_ZN15CShaderAPIEmpty28GetStandardTextureDimensionsEPiS0_19StandardTextureId_t"
+    },
+    {
+        "address": ".strtab::00006e41",
+        "length": 59,
+        "value": "_ZN18CShaderShadowEmpty13StencilFailOpE17ShaderStencilOp_t"
+    },
+    {
+        "address": ".strtab::00006e7c",
+        "length": 61,
+        "value": "_ZN15CShaderAPIEmpty18CreateDepthTextureE11ImageFormatiiPKcb"
+    },
+    {
+        "address": ".strtab::00006eb9",
+        "length": 38,
+        "value": "_ZN15CShaderAPIEmpty13ModifyTextureEi"
+    },
+    {
+        "address": ".strtab::00006edf",
+        "length": 52,
+        "value": "_ZThn4_NK15CShaderAPIEmpty21GetVertexTextureCountEv"
+    },
+    {
+        "address": ".strtab::00006f13",
+        "length": 52,
+        "value": "_ZThn4_NK15CShaderAPIEmpty21PreferDynamicTexturesEv"
+    },
+    {
+        "address": ".strtab::00006f47",
+        "length": 49,
+        "value": "_ZN18CShaderShadowEmpty21EnableCustomPixelPipeEb"
+    },
+    {
+        "address": ".strtab::00006f78",
+        "length": 42,
+        "value": "_ZN15CShaderAPIEmpty17LoadSelectionNameEi"
+    },
+    {
+        "address": ".strtab::00006fa2",
+        "length": 59,
+        "value": "_ZN21CShaderDeviceMgrEmpty24RemoveModeChangeCallbackEPFvvE"
+    },
+    {
+        "address": ".strtab::00006fdd",
+        "length": 27,
+        "value": "_Z20V_StripTrailingSlashPc"
+    },
+    {
+        "address": ".strtab::00006ff8",
+        "length": 41,
+        "value": "_ZN18CShaderShadowEmpty13EnableStencilEb"
+    },
+    {
+        "address": ".strtab::00007021",
+        "length": 17,
+        "value": "__register_frame"
+    },
+    {
+        "address": ".strtab::00007032",
+        "length": 46,
+        "value": "_ZNK15CShaderAPIEmpty18ComputeVertexUsageEiPs"
+    },
+    {
+        "address": ".strtab::00007060",
+        "length": 51,
+        "value": "_ZN18CShaderDeviceEmpty17DestroyStaticMeshEP5IMesh"
+    },
+    {
+        "address": ".strtab::00007093",
+        "length": 38,
+        "value": "_ZN15CShaderAPIEmpty13FlushHardwareEv"
+    },
+    {
+        "address": ".strtab::000070b9",
+        "length": 38,
+        "value": "_ZNK15CShaderAPIEmpty12GetMaxLightsEv"
+    },
+    {
+        "address": ".strtab::000070df",
+        "length": 48,
+        "value": "_ZThn4_NK15CShaderAPIEmpty17MaxUserClipPlanesEv"
+    },
+    {
+        "address": ".strtab::0000710f",
+        "length": 47,
+        "value": "_ZNK15CShaderAPIEmpty19ComputeVertexFormatEiPs"
+    },
+    {
+        "address": ".strtab::0000713e",
+        "length": 64,
+        "value": "_ZThn4_NK15CShaderAPIEmpty33SupportsStaticPlusDynamicLightingEv"
+    },
+    {
+        "address": ".strtab::0000717e",
+        "length": 23,
+        "value": "_Z15Q_UChar32ToUTF8wPc"
+    },
+    {
+        "address": ".strtab::00007195",
+        "length": 22,
+        "value": "_ZTV15CShaderAPIEmpty"
+    },
+    {
+        "address": ".strtab::000071ab",
+        "length": 41,
+        "value": "_ZNK15CShaderAPIEmpty15UseFastClippingEv"
+    },
+    {
+        "address": ".strtab::000071d4",
+        "length": 41,
+        "value": "_ZN15CShaderAPIEmpty12ClearBuffersEbbbii"
+    },
+    {
+        "address": ".strtab::000071fd",
+        "length": 62,
+        "value": "_ZN15CShaderAPIEmpty13CreateTextureEiii11ImageFormatiiiPKcS2_"
+    },
+    {
+        "address": ".strtab::0000723b",
+        "length": 35,
+        "value": "_ZN18CShaderDeviceEmpty7SetViewEPv"
+    },
+    {
+        "address": ".strtab::0000725e",
+        "length": 21,
+        "value": "_Z13V_AppendSlashPci"
+    },
+    {
+        "address": ".strtab::00007273",
+        "length": 14,
+        "value": "g_pShaderUtil"
+    },
+    {
+        "address": ".strtab::00007281",
+        "length": 27,
+        "value": "_Z16_V_UCS2ToUnicodePKtPwi"
+    },
+    {
+        "address": ".strtab::0000729c",
+        "length": 68,
+        "value": "_ZN15CShaderAPIEmpty24SetStencilZFailOperationE18StencilOperation_t"
+    },
+    {
+        "address": ".strtab::000072e0",
+        "length": 35,
+        "value": "_ZN15CShaderAPIEmpty9Color4ubvEPKh"
+    },
+    {
+        "address": ".strtab::00007303",
+        "length": 20,
+        "value": "_ZN10CEmptyMeshD0Ev"
+    },
+    {
+        "address": ".strtab::00007317",
+        "length": 35,
+        "value": "_ZN15CShaderAPIEmpty9TranslateEfff"
+    },
+    {
+        "address": ".strtab::0000733a",
+        "length": 58,
+        "value": "_Z19Q_UTF32CharsToUTF16PKwiPti25EStringConvertErrorPolicy"
+    },
+    {
+        "address": ".strtab::00007374",
+        "length": 26,
+        "value": "_ZN16CDllDemandLoaderD1Ev"
+    },
+    {
+        "address": ".strtab::0000738e",
+        "length": 70,
+        "value": "_ZN15CShaderAPIEmpty28SetTextureTransformDimensionE14TextureStage_tib"
+    },
+    {
+        "address": ".strtab::000073d4",
+        "length": 52,
+        "value": "_Z14Q_UTF16ToUTF32PKtPwi25EStringConvertErrorPolicy"
+    },
+    {
+        "address": ".strtab::00007408",
+        "length": 60,
+        "value": "_ZN18CShaderDeviceEmpty18DestroyIndexBufferEP12IIndexBuffer"
+    },
+    {
+        "address": ".strtab::00007444",
+        "length": 50,
+        "value": "_ZN15CShaderAPIEmpty24OverrideColorWriteEnableEbb"
+    },
+    {
+        "address": ".strtab::00007476",
+        "length": 36,
+        "value": "_ZTI29IMaterialSystemHardwareConfig"
+    },
+    {
+        "address": ".strtab::0000749a",
+        "length": 42,
+        "value": "_ZNK15CShaderAPIEmpty16SupportsCubeMapsEv"
+    },
+    {
+        "address": ".strtab::000074c4",
+        "length": 29,
+        "value": "_Z21V_UnqualifiedFileNamePKc"
+    },
+    {
+        "address": ".strtab::000074e1",
+        "length": 20,
+        "value": "_Z9V_strncatPcPKcji"
+    },
+    {
+        "address": ".strtab::000074f5",
+        "length": 51,
+        "value": "_ZThn4_NK15CShaderAPIEmpty20MaxHWMorphBatchCountEv"
+    },
+    {
+        "address": ".strtab::00007528",
+        "length": 57,
+        "value": "_ZN15CShaderAPIEmpty14SetFlexWeightsEiiPK13MorphWeight_t"
+    },
+    {
+        "address": ".strtab::00007561",
+        "length": 20,
+        "value": "_Z9_V_wcslenPKciPKw"
+    },
+    {
+        "address": ".strtab::00007575",
+        "length": 39,
+        "value": "_ZN15CShaderAPIEmpty14TexSetPriorityEi"
+    },
+    {
+        "address": ".strtab::0000759c",
+        "length": 38,
+        "value": "_ZNK15CShaderAPIEmpty12SupportsSRGBEv"
+    },
+    {
+        "address": ".strtab::000075c2",
+        "length": 35,
+        "value": "_ZN15CShaderAPIEmpty9Color3ubvEPKh"
+    },
+    {
+        "address": ".strtab::000075e5",
+        "length": 33,
+        "value": "_Z22V_ExtractFileExtensionPKcPci"
+    },
+    {
+        "address": ".strtab::00007606",
+        "length": 42,
+        "value": "_ZNK15CShaderAPIEmpty16GetShaderDLLNameEv"
+    },
+    {
+        "address": ".strtab::00007630",
+        "length": 33,
+        "value": "_ZN15CShaderAPIEmpty6RotateEffff"
+    },
+    {
+        "address": ".strtab::00007651",
+        "length": 45,
+        "value": "_ZN18CShaderShadowEmpty17EnableColorWritesEb"
+    },
+    {
+        "address": ".strtab::0000767e",
+        "length": 61,
+        "value": "_ZGVZNK15CShaderAPIEmpty18GetFlashlightStateER7VMatrixE4blah"
+    },
+    {
+        "address": ".strtab::000076bb",
+        "length": 44,
+        "value": "_ZN15CShaderAPIEmpty19GetDebugTextureListEv"
+    },
+    {
+        "address": ".strtab::000076e7",
+        "length": 22,
+        "value": "_Z10V_strnistrPKcS0_i"
+    },
+    {
+        "address": ".strtab::000076fd",
+        "length": 67,
+        "value": "_ZN15CShaderAPIEmpty23SetStencilPassOperationE18StencilOperation_t"
+    },
+    {
+        "address": ".strtab::00007740",
+        "length": 25,
+        "value": "_ZTI18CShaderShadowEmpty"
+    },
+    {
+        "address": ".strtab::00007759",
+        "length": 41,
+        "value": "_Z29BGetLocalFormattedDateAndTimelPciS_i"
+    },
+    {
+        "address": ".strtab::00007782",
+        "length": 29,
+        "value": "_ZNK10CEmptyMesh9IsDynamicEv"
+    },
+    {
+        "address": ".strtab::0000779f",
+        "length": 45,
+        "value": "_ZNK15CShaderAPIEmpty19CanDownloadTexturesEv"
+    },
+    {
+        "address": ".strtab::000077cc",
+        "length": 57,
+        "value": "_ZNK15CShaderAPIEmpty31NumBooleanVertexShaderConstantsEv"
+    },
+    {
+        "address": ".strtab::00007805",
+        "length": 39,
+        "value": "_ZN15CShaderAPIEmpty14EnableFastClipEb"
+    },
+    {
+        "address": ".strtab::0000782c",
+        "length": 59,
+        "value": "_ZN18CShaderShadowEmpty9BlendFuncE19ShaderBlendFactor_tS0_"
+    },
+    {
+        "address": ".strtab::00007867",
+        "length": 36,
+        "value": "_ZThn4_NK10CEmptyMesh10IndexCountEv"
+    },
+    {
+        "address": ".strtab::0000788b",
+        "length": 54,
+        "value": "_ZNK15CShaderAPIEmpty28MaxVertexShaderBlendMatricesEv"
+    },
+    {
+        "address": ".strtab::000078c1",
+        "length": 45,
+        "value": "_ZN15CShaderAPIEmpty20DestroyVertexBuffersEb"
+    },
+    {
+        "address": ".strtab::000078ee",
+        "length": 54,
+        "value": "_ZThn8_N15CShaderAPIEmpty24SetDebugTextureRenderingEb"
+    },
+    {
+        "address": ".strtab::00007924",
+        "length": 57,
+        "value": "_ZN10CEmptyMesh15BeginCastBufferE21MaterialIndexFormat_t"
+    },
+    {
+        "address": ".strtab::0000795d",
+        "length": 55,
+        "value": "_ZN15CShaderAPIEmpty7SetModeEPviRK18ShaderDeviceInfo_t"
+    },
+    {
+        "address": ".strtab::00007994",
+        "length": 61,
+        "value": "_ZThn4_NK15CShaderAPIEmpty30SpecifiesFogColorInLinearSpaceEv"
+    },
+    {
+        "address": ".strtab::000079d1",
+        "length": 52,
+        "value": "_ZN18CShaderDeviceEmpty20SetHardwareGammaRampEffffb"
+    },
+    {
+        "address": ".strtab::00007a05",
+        "length": 28,
+        "value": "_Z17StringAfterPrefixPKcS0_"
+    },
+    {
+        "address": ".strtab::00007a21",
+        "length": 44,
+        "value": "_ZN15CShaderAPIEmpty17SetRenderTargetExEiii"
+    },
+    {
+        "address": ".strtab::00007a4d",
+        "length": 46,
+        "value": "_ZNK18CShaderDeviceEmpty17StencilBufferBitsEv"
+    },
+    {
+        "address": ".strtab::00007a7b",
+        "length": 39,
+        "value": "_ZN18CShaderDeviceEmpty10RemoveViewEPv"
+    },
+    {
+        "address": ".strtab::00007aa2",
+        "length": 44,
+        "value": "_ZN10CEmptyMesh10UnlockMeshEiiR10MeshDesc_t"
+    },
+    {
+        "address": ".strtab::00007ace",
+        "length": 62,
+        "value": "_ZN15CShaderAPIEmpty16BindVertexBufferEiP13IVertexBufferiiiyi"
+    },
+    {
+        "address": ".strtab::00007b0c",
+        "length": 50,
+        "value": "_ZThn4_NK15CShaderAPIEmpty19SupportsBorderColorEv"
+    },
+    {
+        "address": ".strtab::00007b3e",
+        "length": 24,
+        "value": "_ZTV17IDebugTextureInfo"
+    },
+    {
+        "address": ".strtab::00007b56",
+        "length": 37,
+        "value": "_ZNK15CShaderAPIEmpty11SupportsHDREv"
+    },
+    {
+        "address": ".strtab::00007b7b",
+        "length": 39,
+        "value": "_ZN15CShaderAPIEmpty14PopDeformationEv"
+    },
+    {
+        "address": ".strtab::00007ba2",
+        "length": 34,
+        "value": "_ZN21CShaderDeviceMgrEmpty4InitEv"
+    },
+    {
+        "address": ".strtab::00007bc4",
+        "length": 69,
+        "value": "_ZN18CShaderShadowEmpty6TexGenE14TextureStage_t19ShaderTexGenParam_t"
+    },
+    {
+        "address": ".strtab::00007c09",
+        "length": 18,
+        "value": "__frame_state_for"
+    },
+    {
+        "address": ".strtab::00007c1b",
+        "length": 53,
+        "value": "_ZN15CShaderAPIEmpty21PerspectiveOffCenterXEdddddddd"
+    },
+    {
+        "address": ".strtab::00007c50",
+        "length": 41,
+        "value": "_ZN15CShaderAPIEmpty16HandleDeviceLostEv"
+    },
+    {
+        "address": ".strtab::00007c79",
+        "length": 21,
+        "value": "_Unwind_ForcedUnwind"
+    },
+    {
+        "address": ".strtab::00007c8e",
+        "length": 50,
+        "value": "_ZNK15CShaderAPIEmpty24SupportsPixelShaders_2_bEv"
+    },
+    {
+        "address": ".strtab::00007cc0",
+        "length": 20,
+        "value": "_ZTS13IShaderDevice"
+    },
+    {
+        "address": ".strtab::00007cd4",
+        "length": 32,
+        "value": "_ZN15CShaderAPIEmpty7ScaleXYEff"
+    },
+    {
+        "address": ".strtab::00007cf4",
+        "length": 42,
+        "value": "_ZN15CShaderAPIEmpty16GetSceneFogColorEPh"
+    },
+    {
+        "address": ".strtab::00007d1e",
+        "length": 55,
+        "value": "_ZN18CShaderShadowEmpty9AlphaFuncE17ShaderAlphaFunc_tf"
+    },
+    {
+        "address": ".strtab::00007d55",
+        "length": 41,
+        "value": "_ZNK15CShaderAPIEmpty15MaxTextureWidthEv"
+    },
+    {
+        "address": ".strtab::00007d7e",
+        "length": 43,
+        "value": "_ZNK15CShaderAPIEmpty17TextureMemorySizeEv"
+    },
+    {
+        "address": ".strtab::00007da9",
+        "length": 28,
+        "value": "_ZN18CShaderShadowEmptyC2Ev"
+    },
+    {
+        "address": ".strtab::00007dc5",
+        "length": 18,
+        "value": "_Z9V_strnchrPKcci"
+    },
+    {
+        "address": ".strtab::00007dd7",
+        "length": 56,
+        "value": "_ZThn4_NK15CShaderAPIEmpty25SupportsMipmappedCubemapsEv"
+    },
+    {
+        "address": ".strtab::00007e0f",
+        "length": 22,
+        "value": "_ZTI15CShaderAPIEmpty"
+    },
+    {
+        "address": ".strtab::00007e25",
+        "length": 24,
+        "value": "_Z16Q_UnicodeAdvancePci"
+    },
+    {
+        "address": ".strtab::00007e3d",
+        "length": 52,
+        "value": "_ZThn8_N15CShaderAPIEmpty22EnableDebugTextureListEb"
+    },
+    {
+        "address": ".strtab::00007e71",
+        "length": 58,
+        "value": "_ZNK15CShaderAPIEmpty32ActuallySupportsPixelShaders_2_bEv"
+    },
+    {
+        "address": ".strtab::00007eab",
+        "length": 41,
+        "value": "_ZN10CEmptyMesh9ModifyEndER11IndexDesc_t"
+    },
+    {
+        "address": ".strtab::00007ed4",
+        "length": 44,
+        "value": "_ZThn4_N10CEmptyMesh6UnlockEiR11IndexDesc_t"
+    },
+    {
+        "address": ".strtab::00007f00",
+        "length": 33,
+        "value": "_Z15Sys_LoadLibraryPKc9Sys_Flags"
+    },
+    {
+        "address": ".strtab::00007f21",
+        "length": 35,
+        "value": "_ZN10CEmptyMesh15BeginCastBufferEy"
+    },
+    {
+        "address": ".strtab::00007f44",
+        "length": 43,
+        "value": "_ZNK15CShaderAPIEmpty17GetCurrentFogTypeEv"
+    },
+    {
+        "address": ".strtab::00007f6f",
+        "length": 20,
+        "value": "_ZTI13IShaderDevice"
+    },
+    {
+        "address": ".strtab::00007f83",
+        "length": 19,
+        "value": "_Z13iHexCharToIntc"
+    },
+    {
+        "address": ".strtab::00007f96",
+        "length": 56,
+        "value": "_ZNK15CShaderAPIEmpty16GetDX9LightStateEP12LightState_t"
+    },
+    {
+        "address": ".strtab::00007fce",
+        "length": 31,
+        "value": "_Z9V_qsort_sPvjjPFiS_PKvS1_ES_"
+    },
+    {
+        "address": ".strtab::00007fed",
+        "length": 73,
+        "value": "_ZN18CShaderShadowEmpty22BlendFuncSeparateAlphaE19ShaderBlendFactor_tS0_"
+    },
+    {
+        "address": ".strtab::00008036",
+        "length": 46,
+        "value": "_ZN15CShaderAPIEmpty11BindTextureE9Sampler_ti"
+    },
+    {
+        "address": ".strtab::00008064",
+        "length": 36,
+        "value": "_ZN15CShaderAPIEmpty10LoadMatrixEPf"
+    },
+    {
+        "address": ".strtab::00008088",
+        "length": 59,
+        "value": "_ZN15CShaderAPIEmpty34ClearVertexAndPixelShaderRefCountsEv"
+    },
+    {
+        "address": ".strtab::000080c3",
+        "length": 57,
+        "value": "_Z18Q_UTF32CharsToUTF8PKwiPci25EStringConvertErrorPolicy"
+    },
+    {
+        "address": ".strtab::000080fc",
+        "length": 32,
+        "value": "_ZNK10CEmptyMesh11VertexCountEv"
+    },
+    {
+        "address": ".strtab::0000811c",
+        "length": 55,
+        "value": "_Z48Q_AggressiveStripPrecedingAndTrailingWhitespaceWPw"
+    },
+    {
+        "address": ".strtab::00008153",
+        "length": 50,
+        "value": "_ZNK15CShaderAPIEmpty24GetIntRenderingParameterEi"
+    },
+    {
+        "address": ".strtab::00008185",
+        "length": 52,
+        "value": "_ZNK15CShaderAPIEmpty26GetHWSpecificShaderDLLNameEv"
+    },
+    {
+        "address": ".strtab::000081b9",
+        "length": 42,
+        "value": "_ZNK15CShaderAPIEmpty16HasStencilBufferEv"
+    },
+    {
+        "address": ".strtab::000081e3",
+        "length": 44,
+        "value": "_ZN15CShaderAPIEmpty19SetAnisotropicLevelEi"
+    },
+    {
+        "address": ".strtab::0000820f",
+        "length": 22,
+        "value": "_Z10V_strnicmpPKcS0_i"
+    },
+    {
+        "address": ".strtab::00008225",
+        "length": 23,
+        "value": "_ZTV16CDllDemandLoader"
+    },
+    {
+        "address": ".strtab::0000823c",
+        "length": 31,
+        "value": "_ZN15CShaderAPIEmpty5ScaleEfff"
+    },
+    {
+        "address": ".strtab::0000825b",
+        "length": 55,
+        "value": "_ZNK15CShaderAPIEmpty29SupportsVertexAndPixelShadersEv"
+    },
+    {
+        "address": ".strtab::00008292",
+        "length": 43,
+        "value": "_ZNK15CShaderAPIEmpty17StencilBufferBitsEv"
+    },
+    {
+        "address": ".strtab::000082bd",
+        "length": 56,
+        "value": "_ZN15CShaderAPIEmpty16BindBumpLightmapE14TextureStage_t"
+    },
+    {
+        "address": ".strtab::000082f5",
+        "length": 26,
+        "value": "_Z18V_RemoveDotSlashesPcc"
+    },
+    {
+        "address": ".strtab::0000830f",
+        "length": 19,
+        "value": "_Z9V_strncpyPcPKcj"
+    },
+    {
+        "address": ".strtab::00008322",
+        "length": 60,
+        "value": "_ZN18CShaderDeviceEmpty32RefreshFrontBufferNonInteractiveEv"
+    },
+    {
+        "address": ".strtab::0000835e",
+        "length": 51,
+        "value": "_ZN15CShaderAPIEmpty26CreateOcclusionQueryObjectEv"
+    },
+    {
+        "address": ".strtab::00008391",
+        "length": 47,
+        "value": "_ZN15CShaderAPIEmpty8SetLightEiRK11LightDesc_t"
+    },
+    {
+        "address": ".strtab::000083c0",
+        "length": 56,
+        "value": "_ZN15CShaderAPIEmpty10MatrixModeE20MaterialMatrixMode_t"
+    },
+    {
+        "address": ".strtab::000083f8",
+        "length": 42,
+        "value": "_ZN15CShaderAPIEmpty17SetNumBoneWeightsEi"
+    },
+    {
+        "address": ".strtab::00008422",
+        "length": 37,
+        "value": "_ZN12InterfaceReg16s_pInterfaceRegsE"
+    },
+    {
+        "address": ".strtab::00008447",
+        "length": 23,
+        "value": "_Unwind_GetDataRelBase"
+    },
+    {
+        "address": ".strtab::0000845e",
+        "length": 57,
+        "value": "_ZN15CShaderAPIEmpty32PurgeUnusedVertexAndPixelShadersEv"
+    },
+    {
+        "address": ".strtab::00008497",
+        "length": 28,
+        "value": "_ZN18CShaderShadowEmptyD2Ev"
+    },
+    {
+        "address": ".strtab::000084b3",
+        "length": 70,
+        "value": "_ZN18CShaderDeviceEmpty18CreateVertexBufferE18ShaderBufferType_tyiPKc"
+    },
+    {
+        "address": ".strtab::000084f9",
+        "length": 38,
+        "value": "_ZN10CEmptyMesh4LockEibR11IndexDesc_t"
+    },
+    {
+        "address": ".strtab::0000851f",
+        "length": 53,
+        "value": "_ZN15CShaderAPIEmpty28GetAmbientLightCubeLuminanceEv"
+    },
+    {
+        "address": ".strtab::00008554",
+        "length": 49,
+        "value": "_ZNK15CShaderAPIEmpty23SupportsNonPow2TexturesEv"
+    },
+    {
+        "address": ".strtab::00008585",
+        "length": 51,
+        "value": "_ZNK15CShaderAPIEmpty25SupportsVertexShaders_2_0Ev"
+    },
+    {
+        "address": ".strtab::000085b8",
+        "length": 14,
+        "value": "_ZN5IMeshD2Ev"
+    },
+    {
+        "address": ".strtab::000085c6",
+        "length": 30,
+        "value": "_ZTV23IHardwareConfigInternal"
+    },
+    {
+        "address": ".strtab::000085e4",
+        "length": 42,
+        "value": "_ZN15CShaderAPIEmpty17ForceHardwareSyncEv"
+    },
+    {
+        "address": ".strtab::0000860e",
+        "length": 23,
+        "value": "_Unwind_GetRegionStart"
+    },
+    {
+        "address": ".strtab::00008625",
+        "length": 24,
+        "value": "_Z18Q_UChar32ToUTF8Lenw"
+    },
+    {
+        "address": ".strtab::0000863d",
+        "length": 25,
+        "value": "_Z18V_FixDoubleSlashesPc"
+    },
+    {
+        "address": ".strtab::00008656",
+        "length": 32,
+        "value": "_ZN15CShaderAPIEmpty6PrintfEPcz"
+    },
+    {
+        "address": ".strtab::00008676",
+        "length": 46,
+        "value": "_ZNK15CShaderAPIEmpty20CanDoSRGBReadFromRTsEv"
+    },
+    {
+        "address": ".strtab::000086a4",
+        "length": 25,
+        "value": "_ZThn4_N10CEmptyMeshD0Ev"
+    },
+    {
+        "address": ".strtab::000086bd",
+        "length": 43,
+        "value": "_ZThn4_N10CEmptyMesh4SpewEiRK11IndexDesc_t"
+    },
+    {
+        "address": ".strtab::000086e8",
+        "length": 64,
+        "value": "_ZN15CShaderAPIEmpty16GetDynamicMeshExEP9IMaterialyibP5IMeshS3_"
+    },
+    {
+        "address": ".strtab::00008728",
+        "length": 20,
+        "value": "_Z9V_strncmpPKcS0_i"
+    },
+    {
+        "address": ".strtab::0000873c",
+        "length": 25,
+        "value": "_Z17Q_UnicodeValidatePKt"
+    },
+    {
+        "address": ".strtab::00008755",
+        "length": 26,
+        "value": "_ZN16CDllDemandLoaderD0Ev"
+    },
+    {
+        "address": ".strtab::0000876f",
+        "length": 37,
+        "value": "_ZNK15CShaderAPIEmpty11CurrentTimeEv"
+    },
+    {
+        "address": ".strtab::00008794",
+        "length": 14,
+        "value": "_Unwind_SetGR"
+    },
+    {
+        "address": ".strtab::000087a2",
+        "length": 43,
+        "value": "_ZThn4_N15CShaderAPIEmpty13SetHDREnabledEb"
+    },
+    {
+        "address": ".strtab::000087cd",
+        "length": 38,
+        "value": "_ZN15CShaderAPIEmpty13FogMaxDensityEf"
+    },
+    {
+        "address": ".strtab::000087f3",
+        "length": 47,
+        "value": "_ZN10CEmptyMesh11ModifyBeginEbiiR11IndexDesc_t"
+    },
+    {
+        "address": ".strtab::00008822",
+        "length": 42,
+        "value": "_ZN15CShaderAPIEmpty14LoadBoneMatrixEiPKf"
+    },
+    {
+        "address": ".strtab::0000884c",
+        "length": 78,
+        "value": "_ZN15CShaderAPIEmpty24EndOcclusionQueryDrawingEP27ShaderAPIOcclusionQuery_t__"
+    },
+    {
+        "address": ".strtab::0000889a",
+        "length": 23,
+        "value": "_Z11Q_URLDecodePciPKci"
+    },
+    {
+        "address": ".strtab::000088b1",
+        "length": 67,
+        "value": "_ZN15CShaderAPIEmpty17SetHeightClipModeE24MaterialHeightClipMode_t"
+    },
+    {
+        "address": ".strtab::000088f4",
+        "length": 43,
+        "value": "_ZN18CShaderShadowEmpty15EnableSRGBWriteEb"
+    },
+    {
+        "address": ".strtab::0000891f",
+        "length": 21,
+        "value": "_Z10V_FileBasePKcPci"
+    },
+    {
+        "address": ".strtab::00008934",
+        "length": 94,
+        "value": "_ZN15CShaderAPIEmpty25BindStandardVertexTextureE22VertexTextureSampler_t19StandardTextureId_t"
+    },
+    {
+        "address": ".strtab::00008992",
+        "length": 46,
+        "value": "_ZThn4_NK15CShaderAPIEmpty15UseFastClippingEv"
+    },
+    {
+        "address": ".strtab::000089c0",
+        "length": 47,
+        "value": "_ZN15CShaderAPIEmpty18GetDXLevelDefaultsERjS0_"
+    },
+    {
+        "address": ".strtab::000089ef",
+        "length": 22,
+        "value": "_Z9_V_strcpyPKciPcS0_"
+    },
+    {
+        "address": ".strtab::00008a05",
+        "length": 51,
+        "value": "_ZN18CShaderShadowEmpty13EnableTextureE9Sampler_tb"
+    },
+    {
+        "address": ".strtab::00008a38",
+        "length": 8,
+        "value": "qsort_s"
+    },
+    {
+        "address": ".strtab::00008a40",
+        "length": 36,
+        "value": "_ZTV29IMaterialSystemHardwareConfig"
+    },
+    {
+        "address": ".strtab::00008a64",
+        "length": 58,
+        "value": "_ZThn4_NK15CShaderAPIEmpty27SupportsColorOnSecondStreamEv"
+    },
+    {
+        "address": ".strtab::00008a9e",
+        "length": 38,
+        "value": "_ZN10CEmptyMesh4SpewEiRK11IndexDesc_t"
+    },
+    {
+        "address": ".strtab::00008ac4",
+        "length": 56,
+        "value": "_ZN15CShaderAPIEmpty9GetMatrixE20MaterialMatrixMode_tPf"
+    },
+    {
+        "address": ".strtab::00008afc",
+        "length": 89,
+        "value": "_ZThn8_N15CShaderAPIEmpty20GetTextureMemoryUsedEN17IDebugTextureInfo17TextureMemoryTypeE"
+    },
+    {
+        "address": ".strtab::00008b55",
+        "length": 17,
+        "value": "_Unwind_Find_FDE"
+    },
+    {
+        "address": ".strtab::00008b66",
+        "length": 25,
+        "value": "_ZTS18CShaderDeviceEmpty"
+    },
+    {
+        "address": ".strtab::00008b7f",
+        "length": 57,
+        "value": "_ZN15CShaderAPIEmpty17BindFlatNormalMapE14TextureStage_t"
+    },
+    {
+        "address": ".strtab::00008bb8",
+        "length": 13,
+        "value": "_Z6V_atoiPKc"
+    },
+    {
+        "address": ".strtab::00008bc5",
+        "length": 22,
+        "value": "_Z10V_snprintfPciPKcz"
+    },
+    {
+        "address": ".strtab::00008bdb",
+        "length": 74,
+        "value": "_ZGVZNK15CShaderAPIEmpty20GetFlashlightStateExER7VMatrixPP8ITextureE4blah"
+    },
+    {
+        "address": ".strtab::00008c25",
+        "length": 64,
+        "value": "_ZNK15CShaderAPIEmpty25GetNearestSupportedFormatE11ImageFormatb"
+    },
+    {
+        "address": ".strtab::00008c65",
+        "length": 44,
+        "value": "_ZN15CShaderAPIEmpty19SetSkinningMatricesEv"
+    },
+    {
+        "address": ".strtab::00008c91",
+        "length": 23,
+        "value": "_Z11Q_nexttokenPcPKccj"
+    },
+    {
+        "address": ".strtab::00008ca8",
+        "length": 55,
+        "value": "_ZThn4_NK15CShaderAPIEmpty24GetFrameBufferColorDepthEv"
+    },
+    {
+        "address": ".strtab::00008cdf",
+        "length": 45,
+        "value": "_ZN15CShaderAPIEmpty19OverrideDepthEnableEbb"
+    },
+    {
+        "address": ".strtab::00008d0c",
+        "length": 50,
+        "value": "_ZThn8_N15CShaderAPIEmpty20EnableGetAllTexturesEb"
+    },
+    {
+        "address": ".strtab::00008d3e",
+        "length": 35,
+        "value": "_ZN15CShaderAPIEmpty10PushMatrixEv"
+    },
+    {
+        "address": ".strtab::00008d61",
+        "length": 52,
+        "value": "_ZN15CShaderAPIEmpty25ClearBuffersObeyStencilExEbbb"
+    },
+    {
+        "address": ".strtab::00008d95",
+        "length": 46,
+        "value": "_ZN21CShaderDeviceMgrEmpty7ConnectEPFPvPKcPiE"
+    },
+    {
+        "address": ".strtab::00008dc3",
+        "length": 33,
+        "value": "_ZN15CShaderAPIEmpty9PopMatrixEv"
+    },
+    {
+        "address": ".strtab::00008de4",
+        "length": 20,
+        "value": "_Z9V_StrLeftPKciPci"
+    },
+    {
+        "address": ".strtab::00008df8",
+        "length": 43,
+        "value": "_ZN18CShaderShadowEmpty15EnableAlphaTestEb"
+    },
+    {
+        "address": ".strtab::00008e23",
+        "length": 40,
+        "value": "_ZN15CShaderAPIEmpty15OwnGPUResourcesEb"
+    },
+    {
+        "address": ".strtab::00008e4b",
+        "length": 32,
+        "value": "_Z14Sys_LoadModulePKc9Sys_Flags"
+    },
+    {
+        "address": ".strtab::00008e6b",
+        "length": 52,
+        "value": "_ZThn4_NK15CShaderAPIEmpty21HasFastVertexTexturesEv"
+    },
+    {
+        "address": ".strtab::00008e9f",
+        "length": 22,
+        "value": "_ZN12IIndexBufferD1Ev"
+    },
+    {
+        "address": ".strtab::00008eb5",
+        "length": 54,
+        "value": "_ZN15CShaderAPIEmpty15TexImageFromVTFEP11IVTFTexturei"
+    },
+    {
+        "address": ".strtab::00008eeb",
+        "length": 51,
+        "value": "_ZThn4_NK15CShaderAPIEmpty20SupportsStreamOffsetEv"
+    },
+    {
+        "address": ".strtab::00008f1e",
+        "length": 31,
+        "value": "_ZN15CShaderAPIEmpty4KnobEPcPf"
+    },
+    {
+        "address": ".strtab::00008f3d",
+        "length": 32,
+        "value": "_Z19Q_URLEncodeInternalPciPKcib"
+    },
+    {
+        "address": ".strtab::00008f5d",
+        "length": 37,
+        "value": "_ZNK10CEmptyMesh16GetRoomRemainingEv"
+    },
+    {
+        "address": ".strtab::00008f82",
+        "length": 43,
+        "value": "_ZN15CShaderAPIEmpty16SceneFogColor3ubEhhh"
+    },
+    {
+        "address": ".strtab::00008fad",
+        "length": 25,
+        "value": "_Z13V_hextobinaryPKciPhi"
+    },
+    {
+        "address": ".strtab::00008fc6",
+        "length": 54,
+        "value": "_ZThn4_NK15CShaderAPIEmpty23UsesSRGBCorrectBlendingEv"
+    },
+    {
+        "address": ".strtab::00008ffc",
+        "length": 72,
+        "value": "_ZN18CShaderDeviceEmpty21GetDynamicIndexBufferE21MaterialIndexFormat_tb"
+    },
+    {
+        "address": ".strtab::00009044",
+        "length": 18,
+        "value": "_Unwind_GetIPInfo"
+    },
+    {
+        "address": ".strtab::00009056",
+        "length": 51,
+        "value": "_ZN15CShaderAPIEmpty7TexLockEiiiiiiR12CPixelWriter"
+    },
+    {
+        "address": ".strtab::00009089",
+        "length": 41,
+        "value": "_ZN15CShaderAPIEmpty16PopSelectionNameEv"
+    },
+    {
+        "address": ".strtab::000090b2",
+        "length": 28,
+        "value": "_ZN16CDllDemandLoaderC2EPKc"
+    },
+    {
+        "address": ".strtab::000090ce",
+        "length": 41,
+        "value": "_ZN15CShaderAPIEmpty16GetFogMaxDensityEv"
+    },
+    {
+        "address": ".strtab::000090f7",
+        "length": 23,
+        "value": "_ZTS16IShaderDeviceMgr"
+    },
+    {
+        "address": ".strtab::0000910e",
+        "length": 28,
+        "value": "_ZN18CShaderDeviceEmptyD2Ev"
+    },
+    {
+        "address": ".strtab::0000912a",
+        "length": 47,
+        "value": "_ZNK15CShaderAPIEmpty21MaxBlendMatrixIndicesEv"
+    },
+    {
+        "address": ".strtab::00009159",
+        "length": 52,
+        "value": "_ZNK15CShaderAPIEmpty26SupportsGLMixedSizeTargetsEv"
+    },
+    {
+        "address": ".strtab::0000918d",
+        "length": 14,
+        "value": "_Unwind_GetIP"
+    },
+    {
+        "address": ".strtab::0000919b",
+        "length": 56,
+        "value": "_ZN10CEmptyMesh17CopyToMeshBuilderEiiiiiR12CMeshBuilder"
+    },
+    {
+        "address": ".strtab::000091d3",
+        "length": 25,
+        "value": "_ZN15CShaderAPIEmptyD1Ev"
+    },
+    {
+        "address": ".strtab::000091ec",
+        "length": 39,
+        "value": "_ZN18CShaderShadowEmpty11StencilMaskEi"
+    },
+    {
+        "address": ".strtab::00009213",
+        "length": 31,
+        "value": "_Z22BGetLocalFormattedDatelPci"
+    },
+    {
+        "address": ".strtab::00009232",
+        "length": 47,
+        "value": "_ZN18CShaderShadowEmpty19EnableConstantColorEb"
+    },
+    {
+        "address": ".strtab::00009261",
+        "length": 27,
+        "value": "_Z15Q_UTF8ToUChar32PKcRwRb"
+    },
+    {
+        "address": ".strtab::0000927c",
+        "length": 38,
+        "value": "_ZN15CShaderAPIEmpty11FogColor3ubEhhh"
+    },
+    {
+        "address": ".strtab::000092a2",
+        "length": 50,
+        "value": "_ZThn4_NK15CShaderAPIEmpty19GetShadowFilterModeEv"
+    },
+    {
+        "address": ".strtab::000092d4",
+        "length": 16,
+        "value": "_Z9V_strnlwrPcj"
+    },
+    {
+        "address": ".strtab::000092e4",
+        "length": 37,
+        "value": "_ZN15CShaderAPIEmpty10FogColor3fEfff"
+    },
+    {
+        "address": ".strtab::00009309",
+        "length": 22,
+        "value": "__x86.get_pc_thunk.cx"
+    },
+    {
+        "address": ".strtab::0000931f",
+        "length": 26,
+        "value": "_ZN10CEmptyMesh7GetMeshEv"
+    },
+    {
+        "address": ".strtab::00009339",
+        "length": 36,
+        "value": "_ZNK15CShaderAPIEmpty10GetHDRTypeEv"
+    },
+    {
+        "address": ".strtab::0000935d",
+        "length": 45,
+        "value": "_ZN15CShaderAPIEmpty20EnableGetAllTexturesEb"
+    },
+    {
+        "address": ".strtab::0000938a",
+        "length": 43,
+        "value": "_ZThn4_NK15CShaderAPIEmpty12MaxNumLightsEv"
+    },
+    {
+        "address": ".strtab::000093b5",
+        "length": 49,
+        "value": "_ZThn4_NK15CShaderAPIEmpty18GetHardwareHDRTypeEv"
+    },
+    {
+        "address": ".strtab::000093e6",
+        "length": 39,
+        "value": "_ZN15CShaderAPIEmpty14SetHeightClipZEf"
+    },
+    {
+        "address": ".strtab::0000940d",
+        "length": 23,
+        "value": "_Z11Q_URLEncodePciPKci"
+    },
+    {
+        "address": ".strtab::00009424",
+        "length": 38,
+        "value": "_ZNK15CShaderAPIEmpty12NeedsAAClampEv"
+    },
+    {
+        "address": ".strtab::0000944a",
+        "length": 25,
+        "value": "_ZN15CShaderAPIEmptyC1Ev"
+    },
+    {
+        "address": ".strtab::00009463",
+        "length": 54,
+        "value": "_ZN15CShaderAPIEmpty13BindFBTextureE14TextureStage_ti"
+    },
+    {
+        "address": ".strtab::00009499",
+        "length": 25,
+        "value": "_ZN15CShaderAPIEmptyD2Ev"
+    },
+    {
+        "address": ".strtab::000094b2",
+        "length": 47,
+        "value": "_ZNK21CShaderDeviceMgrEmpty15GetAdapterCountEv"
+    },
+    {
+        "address": ".strtab::000094e1",
+        "length": 17,
+        "value": "_Z10V_strlowerPc"
+    },
+    {
+        "address": ".strtab::000094f2",
+        "length": 24,
+        "value": "_Z16Q_UnicodeAdvancePti"
+    },
+    {
+        "address": ".strtab::0000950a",
+        "length": 46,
+        "value": "_ZN15CShaderAPIEmpty21GetMaxIndicesToRenderEv"
+    },
+    {
+        "address": ".strtab::00009538",
+        "length": 48,
+        "value": "_ZThn4_NK15CShaderAPIEmpty17StencilBufferBitsEv"
+    },
+    {
+        "address": ".strtab::00009568",
+        "length": 17,
+        "value": "_ZTS10IShaderAPI"
+    },
+    {
+        "address": ".strtab::00009579",
+        "length": 40,
+        "value": "_ZNK15CShaderAPIEmpty14SupportsFetch4Ev"
+    },
+    {
+        "address": ".strtab::000095a1",
+        "length": 47,
+        "value": "_ZN15CShaderAPIEmpty8BindGreyE14TextureStage_t"
+    },
+    {
+        "address": ".strtab::000095d0",
+        "length": 28,
+        "value": "_ZTI21CShaderDeviceMgrEmpty"
+    },
+    {
+        "address": ".strtab::000095ec",
+        "length": 50,
+        "value": "_ZN18CShaderShadowEmpty7BlendOpE15ShaderBlendOp_t"
+    },
+    {
+        "address": ".strtab::0000961e",
+        "length": 11,
+        "value": "_ZTI5IMesh"
+    },
+    {
+        "address": ".strtab::00009629",
+        "length": 34,
+        "value": "_ZN15CShaderAPIEmpty8Color3fvEPKf"
+    },
+    {
+        "address": ".strtab::0000964b",
+        "length": 20,
+        "value": "_ZN10CEmptyMeshC1Eb"
+    },
+    {
+        "address": ".strtab::0000965f",
+        "length": 71,
+        "value": "_ZN18CShaderDeviceEmpty19DestroyVertexShaderEP22VertexShaderHandle_t__"
+    },
+    {
+        "address": ".strtab::000096a6",
+        "length": 22,
+        "value": "_Z10V_wcstostrPKwiPci"
+    },
+    {
+        "address": ".strtab::000096bc",
+        "length": 43,
+        "value": "_ZN18CShaderShadowEmpty15EnableDepthTestEb"
+    },
+    {
+        "address": ".strtab::000096e7",
+        "length": 29,
+        "value": "_Z14V_vsnprintfRetPciPKcS_Pb"
+    },
+    {
+        "address": ".strtab::00009704",
+        "length": 23,
+        "value": "_Z9_V_strcmpPKciS0_S0_"
+    },
+    {
+        "address": ".strtab::0000971b",
+        "length": 55,
+        "value": "_ZN15CShaderAPIEmpty12SceneFogModeE17MaterialFogMode_t"
+    },
+    {
+        "address": ".strtab::00009752",
+        "length": 34,
+        "value": "_ZN15CShaderAPIEmpty8Color3ubEhhh"
+    },
+    {
+        "address": ".strtab::00009774",
+        "length": 61,
+        "value": "_ZN15CShaderAPIEmpty15ChangeVideoModeERK18ShaderDeviceInfo_t"
+    },
+    {
+        "address": ".strtab::000097b1",
+        "length": 62,
+        "value": "_ZN18CShaderDeviceEmpty19DestroyVertexBufferEP13IVertexBuffer"
+    },
+    {
+        "address": ".strtab::000097ef",
+        "length": 51,
+        "value": "_Z13Q_UTF8ToUTF16PKcPti25EStringConvertErrorPolicy"
+    },
+    {
+        "address": ".strtab::00009822",
+        "length": 24,
+        "value": "_ZTI17IDebugTextureInfo"
+    },
+    {
+        "address": ".strtab::0000983a",
+        "length": 48,
+        "value": "_ZN15CShaderAPIEmpty23GetCurrentDynamicVBSizeEv"
+    },
+    {
+        "address": ".strtab::0000986a",
+        "length": 44,
+        "value": "_ZN15CShaderAPIEmpty19ClearSelectionNamesEv"
+    },
+    {
+        "address": ".strtab::00009896",
+        "length": 19,
+        "value": "_Z9V_stristrPKcS0_"
+    },
+    {
+        "address": ".strtab::000098a9",
+        "length": 46,
+        "value": "_ZNK15CShaderAPIEmpty20GetCurrentLightComboEv"
+    },
+    {
+        "address": ".strtab::000098d7",
+        "length": 9,
+        "value": "_DYNAMIC"
+    },
+    {
+        "address": ".strtab::000098e0",
+        "length": 36,
+        "value": "_ZN15CShaderAPIEmpty8PrintfVAEPcS0_"
+    },
+    {
+        "address": ".strtab::00009904",
+        "length": 46,
+        "value": "_ZNK15CShaderAPIEmpty20SupportsStreamOffsetEv"
+    },
+    {
+        "address": ".strtab::00009932",
+        "length": 38,
+        "value": "_ZNK15CShaderAPIEmpty12MaxNumLightsEv"
+    },
+    {
+        "address": ".strtab::00009958",
+        "length": 54,
+        "value": "_Z47Q_AggressiveStripPrecedingAndTrailingWhitespacePc"
+    },
+    {
+        "address": ".strtab::0000998e",
+        "length": 17,
+        "value": "_ZTS10CEmptyMesh"
+    },
+    {
+        "address": ".strtab::0000999f",
+        "length": 23,
+        "value": "_ZN13IVertexBufferD0Ev"
+    },
+    {
+        "address": ".strtab::000099b6",
+        "length": 70,
+        "value": "_ZN15CShaderAPIEmpty30BindSignedNormalizationCubeMapE14TextureStage_t"
+    },
+    {
+        "address": ".strtab::000099fc",
+        "length": 72,
+        "value": "_ZNK21CShaderDeviceMgrEmpty18GetCurrentModeInfoEP19ShaderDisplayMode_ti"
+    },
+    {
+        "address": ".strtab::00009a44",
+        "length": 69,
+        "value": "_ZN18CShaderDeviceEmpty18DestroyPixelShaderEP21PixelShaderHandle_t__"
+    },
+    {
+        "address": ".strtab::00009a89",
+        "length": 42,
+        "value": "_ZNK15CShaderAPIEmpty16MaxTextureHeightEv"
+    },
+    {
+        "address": ".strtab::00009ab3",
+        "length": 36,
+        "value": "_ZN10IShaderAPI16GetFogMaxDensityEv"
+    },
+    {
+        "address": ".strtab::00009ad7",
+        "length": 50,
+        "value": "_ZN15CShaderAPIEmpty22MarkUnusedVertexFieldsEjiPb"
+    },
+    {
+        "address": ".strtab::00009b09",
+        "length": 24,
+        "value": "__deregister_frame_info"
+    },
+    {
+        "address": ".strtab::00009b21",
+        "length": 35,
+        "value": "_ZN10CEmptyMesh15DisableFlexMeshEv"
+    },
+    {
+        "address": ".strtab::00009b44",
+        "length": 29,
+        "value": "_Z18V_DefaultExtensionPcPKci"
+    },
+    {
+        "address": ".strtab::00009b61",
+        "length": 54,
+        "value": "_ZN15CShaderAPIEmpty4DrawE23MaterialPrimitiveType_tii"
+    },
+    {
+        "address": ".strtab::00009b97",
+        "length": 41,
+        "value": "_ZN10CEmptyMesh8LockMeshEiiR10MeshDesc_t"
+    },
+    {
+        "address": ".strtab::00009bc0",
+        "length": 50,
+        "value": "_ZN18CShaderShadowEmpty7FogModeE15ShaderFogMode_t"
+    },
+    {
+        "address": ".strtab::00009bf2",
+        "length": 17,
+        "value": "abort@@GLIBC_2.0"
+    },
+    {
+        "address": ".strtab::00009c03",
+        "length": 15,
+        "value": "Plat_localtime"
+    },
+    {
+        "address": ".strtab::00009c12",
+        "length": 26,
+        "value": "__cxa_atexit@@GLIBC_2.1.3"
+    },
+    {
+        "address": ".strtab::00009c2c",
+        "length": 18,
+        "value": "memcmp@@GLIBC_2.0"
+    },
+    {
+        "address": ".strtab::00009c3e",
+        "length": 19,
+        "value": "wcsncat@@GLIBC_2.0"
+    },
+    {
+        "address": ".strtab::00009c51",
+        "length": 32,
+        "value": "__cxa_guard_acquire@@CXXABI_1.3"
+    },
+    {
+        "address": ".strtab::00009c71",
+        "length": 4,
+        "value": "Msg"
+    },
+    {
+        "address": ".strtab::00009c75",
+        "length": 15,
+        "value": "__gmon_start__"
+    },
+    {
+        "address": ".strtab::00009c84",
+        "length": 20,
+        "value": "_Jv_RegisterClasses"
+    },
+    {
+        "address": ".strtab::00009c98",
+        "length": 22,
+        "value": "iconv_open@@GLIBC_2.1"
+    },
+    {
+        "address": ".strtab::00009cae",
+        "length": 20,
+        "value": "_ZdlPv@@GLIBCXX_3.4"
+    },
+    {
+        "address": ".strtab::00009cc2",
+        "length": 18,
+        "value": "strchr@@GLIBC_2.0"
+    },
+    {
+        "address": ".strtab::00009cd4",
+        "length": 21,
+        "value": "vsnprintf@@GLIBC_2.0"
+    },
+    {
+        "address": ".strtab::00009ce9",
+        "length": 6,
+        "value": "_fini"
+    },
+    {
+        "address": ".strtab::00009cef",
+        "length": 18,
+        "value": "wcslen@@GLIBC_2.0"
+    },
+    {
+        "address": ".strtab::00009d01",
+        "length": 15,
+        "value": "pow@@GLIBC_2.0"
+    },
+    {
+        "address": ".strtab::00009d10",
+        "length": 19,
+        "value": "dlclose@@GLIBC_2.0"
+    },
+    {
+        "address": ".strtab::00009d23",
+        "length": 18,
+        "value": "memset@@GLIBC_2.0"
+    },
+    {
+        "address": ".strtab::00009d35",
+        "length": 16,
+        "value": "CreateInterface"
+    },
+    {
+        "address": ".strtab::00009d45",
+        "length": 13,
+        "value": "pthread_once"
+    },
+    {
+        "address": ".strtab::00009d52",
+        "length": 28,
+        "value": "_ITM_deregisterTMCloneTable"
+    },
+    {
+        "address": ".strtab::00009d6e",
+        "length": 31,
+        "value": "__ctype_toupper_loc@@GLIBC_2.3"
+    },
+    {
+        "address": ".strtab::00009d8d",
+        "length": 16,
+        "value": "free@@GLIBC_2.0"
+    },
+    {
+        "address": ".strtab::00009d9d",
+        "length": 26,
+        "value": "_ITM_registerTMCloneTable"
+    },
+    {
+        "address": ".strtab::00009db7",
+        "length": 17,
+        "value": "dlsym@@GLIBC_2.0"
+    },
+    {
+        "address": ".strtab::00009dc8",
+        "length": 25,
+        "value": "__ctype_b_loc@@GLIBC_2.3"
+    },
+    {
+        "address": ".strtab::00009de1",
+        "length": 32,
+        "value": "pthread_mutex_unlock@@GLIBC_2.0"
+    },
+    {
+        "address": ".strtab::00009e01",
+        "length": 50,
+        "value": "_ZTVN10__cxxabiv117__class_type_infoE@@CXXABI_1.3"
+    },
+    {
+        "address": ".strtab::00009e33",
+        "length": 20,
+        "value": "mbstowcs@@GLIBC_2.0"
+    },
+    {
+        "address": ".strtab::00009e47",
+        "length": 32,
+        "value": "__cxa_guard_release@@CXXABI_1.3"
+    },
+    {
+        "address": ".strtab::00009e67",
+        "length": 12,
+        "value": "g_pMemAlloc"
+    },
+    {
+        "address": ".strtab::00009e73",
+        "length": 18,
+        "value": "memcpy@@GLIBC_2.0"
+    },
+    {
+        "address": ".strtab::00009e85",
+        "length": 6,
+        "value": "Error"
+    },
+    {
+        "address": ".strtab::00009e8b",
+        "length": 18,
+        "value": "strlen@@GLIBC_2.0"
+    },
+    {
+        "address": ".strtab::00009e9d",
+        "length": 17,
+        "value": "iconv@@GLIBC_2.1"
+    },
+    {
+        "address": ".strtab::00009eae",
+        "length": 18,
+        "value": "strcpy@@GLIBC_2.0"
+    },
+    {
+        "address": ".strtab::00009ec0",
+        "length": 18,
+        "value": "dlopen@@GLIBC_2.1"
+    },
+    {
+        "address": ".strtab::00009ed2",
+        "length": 18,
+        "value": "printf@@GLIBC_2.0"
+    },
+    {
+        "address": ".strtab::00009ee4",
+        "length": 17,
+        "value": "chdir@@GLIBC_2.0"
+    },
+    {
+        "address": ".strtab::00009ef5",
+        "length": 19,
+        "value": "wcsncpy@@GLIBC_2.0"
+    },
+    {
+        "address": ".strtab::00009f08",
+        "length": 31,
+        "value": "__cxa_pure_virtual@@CXXABI_1.3"
+    },
+    {
+        "address": ".strtab::00009f27",
+        "length": 20,
+        "value": "iswspace@@GLIBC_2.0"
+    },
+    {
+        "address": ".strtab::00009f3b",
+        "length": 22,
+        "value": "strcasecmp@@GLIBC_2.0"
+    },
+    {
+        "address": ".strtab::00009f51",
+        "length": 19,
+        "value": "_Znaj@@GLIBCXX_3.4"
+    },
+    {
+        "address": ".strtab::00009f64",
+        "length": 18,
+        "value": "strstr@@GLIBC_2.0"
+    },
+    {
+        "address": ".strtab::00009f76",
+        "length": 16,
+        "value": "time@@GLIBC_2.0"
+    },
+    {
+        "address": ".strtab::00009f86",
+        "length": 19,
+        "value": "strncat@@GLIBC_2.0"
+    },
+    {
+        "address": ".strtab::00009f99",
+        "length": 12,
+        "value": "__bss_start"
+    },
+    {
+        "address": ".strtab::00009fa5",
+        "length": 18,
+        "value": "malloc@@GLIBC_2.0"
+    },
+    {
+        "address": ".strtab::00009fb7",
+        "length": 30,
+        "value": "pthread_mutex_lock@@GLIBC_2.0"
+    },
+    {
+        "address": ".strtab::00009fd5",
+        "length": 53,
+        "value": "_ZTVN10__cxxabiv120__si_class_type_infoE@@CXXABI_1.3"
+    },
+    {
+        "address": ".strtab::0000a00a",
+        "length": 28,
+        "value": "__stack_chk_fail@@GLIBC_2.4"
+    },
+    {
+        "address": ".strtab::0000a026",
+        "length": 23,
+        "value": "iconv_close@@GLIBC_2.1"
+    },
+    {
+        "address": ".strtab::0000a03d",
+        "length": 19,
+        "value": "dlerror@@GLIBC_2.0"
+    },
+    {
+        "address": ".strtab::0000a050",
+        "length": 21,
+        "value": "__pthread_key_create"
+    },
+    {
+        "address": ".strtab::0000a065",
+        "length": 21,
+        "value": "vswprintf@@GLIBC_2.2"
+    },
+    {
+        "address": ".strtab::0000a07a",
+        "length": 23,
+        "value": "strncasecmp@@GLIBC_2.0"
+    },
+    {
+        "address": ".strtab::0000a091",
+        "length": 15,
+        "value": "Plat_FloatTime"
+    },
+    {
+        "address": ".strtab::0000a0a0",
+        "length": 19,
+        "value": "memmove@@GLIBC_2.0"
+    },
+    {
+        "address": ".strtab::0000a0b3",
+        "length": 20,
+        "value": "_ZdaPv@@GLIBCXX_3.4"
+    },
+    {
+        "address": ".strtab::0000a0c7",
+        "length": 31,
+        "value": "__ctype_tolower_loc@@GLIBC_2.3"
+    },
+    {
+        "address": ".strtab::0000a0e6",
+        "length": 54,
+        "value": "_ZTVN10__cxxabiv121__vmi_class_type_infoE@@CXXABI_1.3"
+    },
+    {
+        "address": ".strtab::0000a11c",
+        "length": 20,
+        "value": "towlower@@GLIBC_2.0"
+    },
+    {
+        "address": ".strtab::0000a130",
+        "length": 18,
+        "value": "getcwd@@GLIBC_2.0"
+    },
+    {
+        "address": ".strtab::0000a142",
+        "length": 5,
+        "value": "_end"
+    },
+    {
+        "address": ".strtab::0000a147",
+        "length": 20,
+        "value": "wcstombs@@GLIBC_2.0"
+    },
+    {
+        "address": ".strtab::0000a15b",
+        "length": 20,
+        "value": "strftime@@GLIBC_2.0"
+    },
+    {
+        "address": ".strtab::0000a16f",
+        "length": 29,
+        "value": "dl_iterate_phdr@@GLIBC_2.2.4"
+    },
+    {
+        "address": ".strtab::0000a18c",
+        "length": 8,
+        "value": "Warning"
+    },
+    {
+        "address": ".strtab::0000a194",
+        "length": 22,
+        "value": "Plat_IsInDebugSession"
+    },
+    {
+        "address": ".strtab::0000a1aa",
+        "length": 7,
+        "value": "_edata"
+    },
+    {
+        "address": ".strtab::0000a1b1",
+        "length": 33,
+        "value": "__gxx_personality_v0@@CXXABI_1.3"
+    },
+    {
+        "address": ".strtab::0000a1d2",
+        "length": 18,
+        "value": "strcmp@@GLIBC_2.0"
+    },
+    {
+        "address": ".strtab::0000a1e4",
+        "length": 20,
+        "value": "towupper@@GLIBC_2.0"
+    },
+    {
+        "address": ".strtab::0000a1f8",
+        "length": 28,
+        "value": "__cxa_finalize@@GLIBC_2.1.3"
+    },
+    {
+        "address": ".strtab::0000a214",
+        "length": 6,
+        "value": "_init"
+    }
+]

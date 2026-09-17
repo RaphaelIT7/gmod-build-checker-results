@@ -1,4 +1,5 @@
 // Generated header
+// Estimated minimum size: 0x142C (5164) bytes
 
 class CEnvMicrophone : public CPointEntity
 {

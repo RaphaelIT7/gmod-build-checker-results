@@ -1,4 +1,5 @@
 // Generated header
+// Estimated minimum size: 0x14F0 (5360) bytes
 
 class CFogVolume : public CBaseTrigger
 {

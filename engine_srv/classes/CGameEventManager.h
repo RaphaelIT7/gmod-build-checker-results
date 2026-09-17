@@ -1,4 +1,5 @@
 // Generated header
+// Estimated minimum size: 0x7C (124) bytes
 
 class CGameEventManager : public IGameEventManager2
 {
@@ -16,7 +17,7 @@ public:
 	virtual void DuplicateEvent(IGameEvent *param_1); // vtable[10]
 	virtual void FreeEvent(IGameEvent *param_1); // vtable[11]
 	virtual void SerializeEvent(IGameEvent *param_1, bf_write *param_2); // vtable[12]
-	virtual void UnserializeEvent(bf_read *param_1) override; // vtable[13]
+	virtual void UnserializeEvent(bf_read *param_1); // vtable[13]
 
 	void Init(); // size[61]
 	void Shutdown(); // size[14]

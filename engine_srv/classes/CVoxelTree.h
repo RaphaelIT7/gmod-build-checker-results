@@ -1,4 +1,5 @@
 // Generated header
+// Estimated minimum size: 0x1050 (4176) bytes
 
 class CVoxelTree
 {

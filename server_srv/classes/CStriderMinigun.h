@@ -1,4 +1,5 @@
 // Generated header
+// Estimated minimum size: 0x228 (552) bytes
 
 class CStriderMinigun
 {
@@ -6,7 +7,7 @@ public:
 	virtual void GetDataDescMap(); // vtable[0]
 
 	void GetBaseMap(); // size[7]
-	void Init(); // size[152]
+	void Init(); // size[111]
 	void ShouldFindTarget(IMinigunHost *param_1); // size[172]
 	void GetAimError(); // size[57]
 	void AimAtPoint(IStriderMinigunHost *param_1, Vector *param_2, bool param_3); // size[462]

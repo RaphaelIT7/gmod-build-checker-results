@@ -1,4 +1,5 @@
 // Generated header
+// Estimated minimum size: 0x17C (380) bytes
 
 class CTextureManager : public ITextureManager
 {
@@ -41,10 +42,10 @@ public:
 	virtual void GMOD_TextureExists(char *param_1); // vtable[35]
 	virtual void GMOD_RestoreTextures(char *param_1); // vtable[36]
 	virtual void GMOD_UpdatePostAsync(); // vtable[37]
-	virtual void GMOD_DefaultCubemapTexture() override; // vtable[38]
+	virtual void GMOD_DefaultCubemapTexture(); // vtable[38]
 
 	void RestoreTexture(ITextureInternal *param_1); // size[51]
-	void LoadTexture(char *param_1, char *param_2, int param_3); // size[206]
+	void LoadTexture(char *param_1, char *param_2, int param_3); // size[268]
 	CTextureManager(); // size[490]
 	void AddTextureAlias(char *param_1, char *param_2); // size[431]
 	void FindTexture(char *param_1); // size[452]

@@ -1,4 +1,5 @@
 // Generated header
+// Estimated minimum size: 0x15C0 (5568) bytes
 
 class CAntlionGrub : public CBaseAnimating
 {

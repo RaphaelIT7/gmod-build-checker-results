@@ -1,20 +1,21 @@
 // Generated header
+// Estimated minimum size: 0x182B0 (98992) bytes
 
 class CBaseClientState : public INetChannelHandler, public IConnectionlessPacketHandler, public IServerMessageHandler
 {
 public:
 	virtual ~CBaseClientState() override; // vtable[0]
 	virtual ~CBaseClientState() override; // vtable[1]
-	virtual void ConnectionStart(INetChannel *param_1) override; // vtable[2]
+	virtual void ConnectionStart(INetChannel *param_1); // vtable[2]
 	virtual void ConnectionClosing(char *param_1); // vtable[3]
 	virtual void ConnectionCrashed(char *param_1); // vtable[4]
-	virtual void PacketStart(int param_1, int param_2) override; // vtable[5]
+	virtual void PacketStart(int param_1, int param_2); // vtable[5]
 	virtual void PacketEnd(); // vtable[6]
 	virtual void FileRequested(RequestFile_t param_1, uint param_2, uint param_3); // vtable[7]
 	virtual void FileReceived(char *param_1, uint param_2); // vtable[8]
 	virtual void FileDenied(uint param_1); // vtable[9]
 	virtual void FileSent(char *param_1, uint param_2); // vtable[10]
-	virtual void ShouldAcceptFile(char *param_1, uint param_2) override; // vtable[11]
+	virtual void ShouldAcceptFile(char *param_1, uint param_2); // vtable[11]
 	virtual void ProcessConnectionlessPacket(netpacket_s *param_1); // vtable[12]
 	virtual void ProcessTick(NET_Tick *param_1); // vtable[13]
 	virtual void ProcessStringCmd(NET_StringCmd *param_1); // vtable[14]
@@ -33,7 +34,7 @@ public:
 	virtual void ProcessGetCvarValue(SVC_GetCvarValue *param_1); // vtable[27]
 	virtual void _ZN16CBaseClientState19ProcessCmdKeyValuesEP16SVC_CmdKeyValues(); // vtable[28]
 	virtual void _ZN16CBaseClientState26ProcessGMod_ServerToClientEP23SVC_GMod_ServerToClient(); // vtable[29]
-	virtual void GetDemoProtocolVersion() override; // vtable[30]
+	virtual void GetDemoProtocolVersion(); // vtable[30]
 	virtual void Clear(); // vtable[31]
 	virtual void FullConnect(netadr_s *param_1); // vtable[32]
 	virtual void Connect(char *param_1, char *param_2); // vtable[33]
@@ -48,7 +49,6 @@ public:
 	virtual void LinkClasses(); // vtable[42]
 	virtual void GetConnectionRetryNumber(); // vtable[43]
 	virtual void GetClientName(); // vtable[44]
-	virtual void __cxa_pure_virtual(); // vtable[49]
 
 	void ProcessGMod_ServerToClient(SVC_GMod_ServerToClient *param_1); // size[7]
 	void GetDemoProtocolVersion(); // size[7]

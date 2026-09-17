@@ -1,4 +1,5 @@
 // Generated header
+// Estimated minimum size: 0x2D20 (11552) bytes
 
 class CPackedStoreRefCount : public CPackedStore, public CRefCounted
 {

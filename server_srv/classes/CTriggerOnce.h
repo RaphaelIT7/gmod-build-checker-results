@@ -1,4 +1,5 @@
 // Generated header
+// Estimated minimum size: 0x14E0 (5344) bytes
 
 class CTriggerOnce : public CTriggerMultiple
 {

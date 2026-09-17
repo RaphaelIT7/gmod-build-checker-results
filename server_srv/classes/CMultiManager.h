@@ -1,4 +1,5 @@
 // Generated header
+// Estimated minimum size: 0x1448 (5192) bytes
 
 class CMultiManager : public CPointEntity
 {

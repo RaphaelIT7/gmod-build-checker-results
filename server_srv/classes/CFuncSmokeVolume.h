@@ -1,4 +1,5 @@
 // Generated header
+// Estimated minimum size: 0x14D4 (5332) bytes
 
 class CFuncSmokeVolume : public CBaseParticleEntity
 {

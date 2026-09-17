@@ -1,4 +1,5 @@
 // Generated header
+// Estimated minimum size: 0x2068 (8296) bytes
 
 class CAPCMissile : public CMissile
 {

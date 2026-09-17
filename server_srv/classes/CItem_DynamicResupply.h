@@ -1,4 +1,5 @@
 // Generated header
+// Estimated minimum size: 0x13E8 (5096) bytes
 
 class CItem_DynamicResupply : public CPointEntity
 {

@@ -1,4 +1,5 @@
 // Generated header
+// Estimated minimum size: 0x13D0 (5072) bytes
 
 class CCredits : public CPointEntity
 {

@@ -1,4 +1,5 @@
 // Generated header
+// Estimated minimum size: 0x1574 (5492) bytes
 
 class CGameUI : public CBaseEntity
 {

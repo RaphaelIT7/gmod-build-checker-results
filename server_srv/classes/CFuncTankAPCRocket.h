@@ -1,4 +1,5 @@
 // Generated header
+// Estimated minimum size: 0x1630 (5680) bytes
 
 class CFuncTankAPCRocket : public CFuncTank
 {

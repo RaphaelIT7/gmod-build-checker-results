@@ -1,4 +1,5 @@
 // Generated header
+// Estimated minimum size: 0xC8 (200) bytes
 
 class IVP_Actuator_Suspension : public IVP_Actuator_Spring
 {

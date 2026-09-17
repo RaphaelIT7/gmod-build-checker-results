@@ -1,4 +1,5 @@
 // Generated header
+// Estimated minimum size: 0x158C (5516) bytes
 
 class CLogicCase : public CLogicalEntity
 {

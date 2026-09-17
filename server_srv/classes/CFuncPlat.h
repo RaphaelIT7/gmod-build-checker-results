@@ -1,4 +1,5 @@
 // Generated header
+// Estimated minimum size: 0x1444 (5188) bytes
 
 class CFuncPlat : public CBasePlatTrain
 {

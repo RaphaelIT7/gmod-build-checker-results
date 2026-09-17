@@ -1,4 +1,5 @@
 // Generated header
+// Estimated minimum size: 0xF8 (248) bytes
 
 class CDispCollTree
 {

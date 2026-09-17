@@ -1,4 +1,5 @@
 // Generated header
+// Estimated minimum size: 0x8 (8) bytes
 
 class CGame : public IGame
 {
@@ -21,7 +22,7 @@ public:
 	virtual void SetWindowSize(int param_1, int param_2); // vtable[15]
 	virtual void GetWindowRect(int *param_1, int *param_2, int *param_3, int *param_4); // vtable[16]
 	virtual void IsActiveApp(); // vtable[17]
-	virtual void DispatchAllStoredGameMessages() override; // vtable[18]
+	virtual void DispatchAllStoredGameMessages(); // vtable[18]
 
 	CGame(); // size[18]
 	void SetActiveApp(bool param_1); // size[14]

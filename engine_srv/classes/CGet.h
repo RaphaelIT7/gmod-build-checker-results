@@ -1,4 +1,5 @@
 // Generated header
+// Estimated minimum size: 0x240 (576) bytes
 
 class CGet : public IGet
 {

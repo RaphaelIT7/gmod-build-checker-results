@@ -1,4 +1,5 @@
 // Generated header
+// Estimated minimum size: 0x1578 (5496) bytes
 
 class CBarnacleTongueTip : public CBaseAnimating
 {

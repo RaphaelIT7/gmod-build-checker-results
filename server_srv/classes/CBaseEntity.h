@@ -1,4 +1,5 @@
 // Generated header
+// Estimated minimum size: 0x13B4 (5044) bytes
 
 class CBaseEntity : public IServerEntity
 {
@@ -6,13 +7,13 @@ public:
 	virtual ~CBaseEntity() override; // vtable[0]
 	virtual ~CBaseEntity() override; // vtable[1]
 	virtual void SetRefEHandle(CBaseHandle *param_1); // vtable[2]
-	virtual void GetRefEHandle() override; // vtable[3]
+	virtual void GetRefEHandle(); // vtable[3]
 	virtual void GetCollideable(); // vtable[4]
 	virtual void GetNetworkable(); // vtable[5]
-	virtual void GetBaseEntity() override; // vtable[6]
+	virtual void GetBaseEntity(); // vtable[6]
 	virtual void GetModelIndex(); // vtable[7]
 	virtual void GetModelName(); // vtable[8]
-	virtual void SetModelIndex(int param_1) override; // vtable[9]
+	virtual void SetModelIndex(int param_1); // vtable[9]
 	virtual void GetServerClass(); // vtable[10]
 	virtual void YouForgotToImplementOrDeclareServerClass(); // vtable[11]
 	virtual void GetDataDescMap(); // vtable[12]
@@ -543,8 +544,6 @@ public:
 	void PrecacheModel(char *param_1, bool param_2); // size[85]
 	CBaseEntity(bool param_1); // size[3415]
 	void SUB_CallUseToggle(); // size[46]
-	void NetworkStateChanged(); // size[53]
-	void NetworkStateChanged(void *param_1); // size[84]
 	void PhysicsDispatchThink(_func_void *param_1); // size[537]
 	void PhysicsCheckSweep(Vector *param_1, Vector *param_2, CGameTrace *param_3); // size[24]
 	void PhysicsTryMove(float param_1, CGameTrace *param_2); // size[2204]

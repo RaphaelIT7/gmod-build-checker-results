@@ -1,4 +1,5 @@
 // Generated header
+// Estimated minimum size: 0x244 (580) bytes
 
 class NextBotGroundLocomotion : public ILocomotion
 {

@@ -1,11 +1,12 @@
 // Generated header
+// Estimated minimum size: 0x128 (296) bytes
 
 class CChoreoEvent : public ICurveDataAccessor
 {
 public:
 	virtual void GetDuration(); // vtable[0]
 	virtual void CurveHasEndTime(); // vtable[1]
-	virtual void GetDefaultCurveType() override; // vtable[2]
+	virtual void GetDefaultCurveType(); // vtable[2]
 
 	void _GLOBAL__sub_I_s_nGlobalID(); // size[191]
 	void GetBoundedAbsoluteTagPercentage(AbsTagType param_1, int param_2); // size[39]

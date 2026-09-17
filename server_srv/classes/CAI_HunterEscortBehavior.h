@@ -1,4 +1,5 @@
 // Generated header
+// Estimated minimum size: 0x2364 (9060) bytes
 
 class CAI_HunterEscortBehavior : public CAI_FollowBehavior
 {

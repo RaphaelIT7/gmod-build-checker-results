@@ -1,4 +1,5 @@
 // Generated header
+// Estimated minimum size: 0x1464 (5220) bytes
 
 class CPointAngularVelocitySensor : public CPointEntity
 {

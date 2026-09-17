@@ -1,9 +1,11 @@
 // Generated header
+// Estimated minimum size: 0x11C (284) bytes
 
 class CUtlCharConversion
 {
 public:
 	virtual void FindConversion(char *param_1, int *param_2); // vtable[0]
+	virtual void FUN_00676c25(); // vtable[1]
 
 	CUtlCharConversion(char param_1, char *param_2, int param_3, ConversionArray_t *param_4); // size[52]
 	void GetEscapeChar(); // size[12]

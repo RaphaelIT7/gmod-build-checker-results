@@ -1,4 +1,5 @@
 // Generated header
+// Estimated minimum size: 0x14E8 (5352) bytes
 
 class CTriggerTeleportRelative : public CBaseTrigger
 {

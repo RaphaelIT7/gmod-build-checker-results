@@ -1,4 +1,5 @@
 // Generated header
+// Estimated minimum size: 0x1000010 (16777232) bytes
 
 class CModelLoader : public IModelLoader
 {

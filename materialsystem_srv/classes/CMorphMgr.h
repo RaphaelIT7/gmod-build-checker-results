@@ -1,4 +1,5 @@
 // Generated header
+// Estimated minimum size: 0x224 (548) bytes
 
 class CMorphMgr : public IMorphMgr
 {
@@ -19,7 +20,7 @@ public:
 	virtual void AdvanceFrame(); // vtable[13]
 	virtual void GetMorphAccumulatorTexCoord(IMorphMgrRenderContext *param_1, Vector2D *param_2, IMorph *param_3, int param_4); // vtable[14]
 	virtual void AllocateRenderContext(); // vtable[15]
-	virtual void FreeRenderContext(IMorphMgrRenderContext *param_1) override; // vtable[16]
+	virtual void FreeRenderContext(IMorphMgrRenderContext *param_1); // vtable[16]
 
 	CMorphMgr(); // size[67]
 	void ComputeWeightSubrect(int *param_1, int *param_2, int *param_3, int *param_4, int param_5); // size[71]

@@ -1,11 +1,11 @@
 // Generated header
+// Estimated minimum size: 0x1410 (5136) bytes
 
 class CRopeKeyframe : public CBaseEntity, public IPositionWatcher
 {
 public:
 	virtual ~CRopeKeyframe() override; // vtable[0]
 	virtual ~CRopeKeyframe() override; // vtable[1]
-	virtual void SetRefEHandle(CBaseHandle *param_1) override; // vtable[2]
 	virtual void GetServerClass() override; // vtable[10]
 	virtual void YouForgotToImplementOrDeclareServerClass() override; // vtable[11]
 	virtual void GetDataDescMap() override; // vtable[12]
@@ -20,10 +20,11 @@ public:
 	virtual void UpdateOnRemove() override; // vtable[108]
 	virtual void SetEntity(char *param_1, CBaseEntity *param_2) override; // vtable[210]
 	virtual void NotifyPositionChanged(CBaseEntity *param_1); // vtable[246]
+	virtual ~CRopeKeyframe() override; // vtable[0]
+	virtual ~CRopeKeyframe() override; // vtable[1]
+	virtual void NotifyPositionChanged(CBaseEntity *param_1); // vtable[2]
 
 	void _GLOBAL__sub_I_GetServerClass(); // size[112]
-	~CRopeKeyframe(); // size[10]
-	~CRopeKeyframe(); // size[10]
 	void InputSetScrollSpeed(inputdata_t *param_1); // size[68]
 	void InputSetLength(inputdata_t *param_1); // size[64]
 	void GetBaseMap(); // size[10]
@@ -44,7 +45,6 @@ public:
 	void RecalculateLength(); // size[271]
 	void UpdateBBox(bool param_1); // size[835]
 	void Init(); // size[113]
-	void NotifyPositionChanged(CBaseEntity *param_1); // size[13]
 	void PropagateForce(CBaseEntity *param_1, CBaseEntity *param_2, CBaseEntity *param_3, float param_4, float param_5, float param_6); // size[166]
 	void InputSetForce(inputdata_t *param_1); // size[111]
 	void Break(); // size[53]

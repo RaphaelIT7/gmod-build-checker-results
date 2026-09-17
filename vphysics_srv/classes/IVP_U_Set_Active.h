@@ -1,4 +1,5 @@
 // Generated header
+// Estimated minimum size: 0x1C (28) bytes
 
 class IVP_U_Set_Active : public IVP_U_Set
 {

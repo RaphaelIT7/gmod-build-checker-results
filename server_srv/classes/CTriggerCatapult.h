@@ -1,4 +1,5 @@
 // Generated header
+// Estimated minimum size: 0x1744 (5956) bytes
 
 class CTriggerCatapult : public CBaseTrigger
 {

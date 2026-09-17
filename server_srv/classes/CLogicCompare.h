@@ -1,4 +1,5 @@
 // Generated header
+// Estimated minimum size: 0x1404 (5124) bytes
 
 class CLogicCompare : public CLogicalEntity
 {

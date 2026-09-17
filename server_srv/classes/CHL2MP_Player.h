@@ -1,4 +1,5 @@
 // Generated header
+// Estimated minimum size: 0x7D8DFDE8 (2106457576) bytes
 
 class CHL2MP_Player : public CHL2_Player
 {
@@ -41,6 +42,9 @@ public:
 	virtual void GiveAllItems(); // vtable[572]
 	virtual void InPlayerThink(); // vtable[573]
 	virtual void SetInPlayerThink(bool param_1); // vtable[574]
+	virtual void OnSpokeConcept(char *param_1, AI_Response *param_2); // vtable[0]
+	virtual void OnStartSpeaking(); // vtable[1]
+	virtual void UseSemaphore(); // vtable[2]
 
 	void _GLOBAL__sub_I_GetAttackSpread(); // size[113]
 	void State_PreThink_OBSERVER_MODE(); // size[5]

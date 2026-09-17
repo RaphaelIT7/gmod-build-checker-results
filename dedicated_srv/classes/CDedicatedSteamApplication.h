@@ -1,4 +1,5 @@
 // Generated header
+// Estimated minimum size: 0x58 (88) bytes
 
 class CDedicatedSteamApplication : public CSteamApplication
 {

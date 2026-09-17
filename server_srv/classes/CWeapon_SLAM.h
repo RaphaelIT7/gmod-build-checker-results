@@ -1,4 +1,5 @@
 // Generated header
+// Estimated minimum size: 0x16A4 (5796) bytes
 
 class CWeapon_SLAM : public CBaseHL2MPCombatWeapon
 {

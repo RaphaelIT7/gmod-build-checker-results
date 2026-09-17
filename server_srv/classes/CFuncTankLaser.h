@@ -1,4 +1,5 @@
 // Generated header
+// Estimated minimum size: 0x1628 (5672) bytes
 
 class CFuncTankLaser : public CFuncTank
 {

@@ -1,4 +1,5 @@
 // Generated header
+// Estimated minimum size: 0x1510 (5392) bytes
 
 class CTriggerPortalCleanser : public CBaseTrigger
 {

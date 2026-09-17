@@ -1,4 +1,5 @@
 // Generated header
+// Estimated minimum size: 0x2030 (8240) bytes
 
 class CCrossbowBolt_HL1 : public CBaseCombatCharacter
 {

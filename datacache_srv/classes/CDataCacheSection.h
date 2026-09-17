@@ -1,4 +1,5 @@
 // Generated header
+// Estimated minimum size: 0x68 (104) bytes
 
 class CDataCacheSection : public IDataCacheSection
 {
@@ -34,7 +35,7 @@ public:
 	virtual void UpdateSize(memhandle_t__ *param_1, uint param_2); // vtable[28]
 	virtual void LockMutex(); // vtable[29]
 	virtual void UnlockMutex(); // vtable[30]
-	virtual void AddEx(uint param_1, void *param_2, uint param_3, uint param_4, memhandle_t__ * *param_5) override; // vtable[31]
+	virtual void AddEx(uint param_1, void *param_2, uint param_3, uint param_4, memhandle_t__ * *param_5); // vtable[31]
 	virtual void OnAdd(uint param_1, memhandle_t__ *param_2); // vtable[32]
 	virtual void DoFind(uint param_1); // vtable[33]
 	virtual void OnRemove(uint param_1); // vtable[34]

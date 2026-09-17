@@ -1,4 +1,5 @@
 // Generated header
+// Estimated minimum size: 0x1868 (6248) bytes
 
 class CBasePropDoor : public CDynamicProp
 {
@@ -22,16 +23,13 @@ public:
 	virtual void IsDoorLocked(); // vtable[324]
 	virtual void DoorCanClose(bool param_1); // vtable[325]
 	virtual void DoorCanOpen(); // vtable[326]
-	virtual void CalcDoorSounds(); // vtable[330]
-	virtual void OnDoorClosed(); // vtable[331]
-	virtual void OnDoorOpened(); // vtable[332]
-	virtual void __cxa_pure_virtual(); // vtable[337]
-	virtual void Lock(); // vtable[338]
-	virtual void Unlock(); // vtable[339]
 
 	void InputLock(inputdata_t *param_1); // size[17]
 	void InputUnlock(inputdata_t *param_1); // size[17]
+	void CalcDoorSounds(); // size[146]
 	void OnEndBlocked(); // size[19]
+	void Lock(); // size[86]
+	void Unlock(); // size[186]
 	void GetBaseMap(); // size[10]
 	CBasePropDoor(); // size[527]
 	void RegisterPrivateActivities(); // size[18]
@@ -54,6 +52,8 @@ public:
 	void MasterStartBlocked(CBaseEntity *param_1); // size[130]
 	void OnEndBlocked(); // size[23]
 	void NPCOpenDoor(CAI_BaseNPC *param_1); // size[64]
+	void OnDoorClosed(); // size[5]
+	void OnDoorOpened(); // size[5]
 	~CBasePropDoor(); // size[13]
 	~CBasePropDoor(); // size[13]
 };

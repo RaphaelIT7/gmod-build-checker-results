@@ -1,4 +1,5 @@
 // Generated header
+// Estimated minimum size: 0x1468 (5224) bytes
 
 class CPointCombineBallLauncher : public CFuncCombineBallSpawner
 {

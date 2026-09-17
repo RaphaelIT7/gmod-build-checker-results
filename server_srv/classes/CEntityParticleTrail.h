@@ -1,4 +1,5 @@
 // Generated header
+// Estimated minimum size: 0x13D0 (5072) bytes
 
 class CEntityParticleTrail : public CBaseParticleEntity
 {
@@ -20,6 +21,4 @@ public:
 	void Destroy(CBaseEntity *param_1, EntityParticleTrailInfo_t *param_2); // size[164]
 	void AttachToEntity(CBaseEntity *param_1); // size[53]
 	void Create(CBaseEntity *param_1, EntityParticleTrailInfo_t *param_2, CBaseEntity *param_3); // size[395]
-	void NetworkStateChanged(); // size[53]
-	void NetworkStateChanged(void *param_1); // size[84]
 };

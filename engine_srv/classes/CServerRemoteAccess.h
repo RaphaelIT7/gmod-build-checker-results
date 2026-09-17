@@ -1,4 +1,5 @@
 // Generated header
+// Estimated minimum size: 0x68 (104) bytes
 
 class CServerRemoteAccess : public IGameServerData
 {
@@ -8,7 +9,7 @@ public:
 	virtual void WriteDataRequest(uint param_1, void *param_2, int param_3); // vtable[2]
 	virtual void ReadDataResponse(uint param_1, void *param_2, int param_3); // vtable[3]
 	virtual void GetNextListenerID(bool param_1, netadr_s *param_2); // vtable[4]
-	virtual void RegisterAdminUIID(uint param_1) override; // vtable[5]
+	virtual void RegisterAdminUIID(uint param_1); // vtable[5]
 
 	void UploadScreenshot(char *param_1); // size[5]
 	void LogCommand(uint param_1, char *param_2); // size[147]

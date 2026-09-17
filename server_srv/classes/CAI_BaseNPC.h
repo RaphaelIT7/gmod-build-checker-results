@@ -1,17 +1,11 @@
 // Generated header
+// Estimated minimum size: 0x25C8 (9672) bytes
 
 class CAI_BaseNPC : public CBaseCombatCharacter, public CAI_DefMovementSink
 {
 public:
 	virtual ~CAI_BaseNPC() override; // vtable[0]
 	virtual ~CAI_BaseNPC() override; // vtable[1]
-	virtual void SetRefEHandle(CBaseHandle *param_1) override; // vtable[2]
-	virtual void GetRefEHandle() override; // vtable[3]
-	virtual void GetCollideable() override; // vtable[4]
-	virtual void GetNetworkable() override; // vtable[5]
-	virtual void GetBaseEntity() override; // vtable[6]
-	virtual void GetModelIndex() override; // vtable[7]
-	virtual void GetModelName() override; // vtable[8]
 	virtual GetServerClass() override; // vtable[10]
 	virtual void YouForgotToImplementOrDeclareServerClass() override; // vtable[11]
 	virtual GetDataDescMap() override; // vtable[12]
@@ -346,6 +340,9 @@ public:
 	virtual ReportAIState(); // vtable[649]
 	virtual ReportOverThinkLimit(float param_1); // vtable[650]
 	virtual ShouldProbeCollideAgainstEntity(CBaseEntity *param_1); // vtable[651]
+	virtual CalcYawSpeed() override; // vtable[0]
+	virtual OnCalcBaseMove(AILocalMoveGoal_t *param_1, float param_2, AIMoveResult_t *param_3) override; // vtable[1]
+	virtual OnObstructionPreSteer(AILocalMoveGoal_t *param_1, float param_2, AIMoveResult_t *param_3) override; // vtable[2]
 
 	_GLOBAL__sub_I_m_pActivitySR(); // size[113]
 	_GLOBAL__sub_I_ForceSelectedGo(); // size[113]
@@ -364,10 +361,7 @@ public:
 	InputUnholsterWeapon(inputdata_t *param_1); // size[18]
 	InputBeginRappel(inputdata_t *param_1); // size[17]
 	InputIgnoreDangerSounds(inputdata_t *param_1); // size[73]
-	CalcYawSpeed(); // size[10]
 	InputSetMaxLookDistance(inputdata_t *param_1); // size[43]
-	OnCalcBaseMove(AILocalMoveGoal_t *param_1, float param_2, AIMoveResult_t *param_3); // size[13]
-	OnObstructionPreSteer(AILocalMoveGoal_t *param_1, float param_2, AIMoveResult_t *param_3); // size[13]
 	InputUpdateEnemyMemory(inputdata_t *param_1); // size[164]
 	InputSetHealth(inputdata_t *param_1); // size[173]
 	InputSetSquad(inputdata_t *param_1); // size[190]

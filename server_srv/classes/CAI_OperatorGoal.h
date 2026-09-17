@@ -1,4 +1,5 @@
 // Generated header
+// Estimated minimum size: 0x1448 (5192) bytes
 
 class CAI_OperatorGoal : public CAI_GoalEntity
 {
@@ -9,6 +10,9 @@ public:
 	virtual void InputActivate(inputdata_t *param_1) override; // vtable[246]
 	virtual void InputDeactivate(inputdata_t *param_1) override; // vtable[248]
 	virtual void EnableGoal(CAI_BaseNPC *param_1) override; // vtable[251]
+	virtual void OnEntityCreated(CBaseEntity *param_1); // vtable[0]
+	virtual void OnEntitySpawned(CBaseEntity *param_1); // vtable[1]
+	virtual void OnEntityDeleted(CBaseEntity *param_1); // vtable[2]
 
 	void InputSetStateReady(inputdata_t *param_1); // size[18]
 	void InputSetStateFinished(inputdata_t *param_1); // size[58]

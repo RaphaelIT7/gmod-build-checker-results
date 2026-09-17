@@ -1,4 +1,5 @@
 // Generated header
+// Estimated minimum size: 0x13F0 (5104) bytes
 
 class CEnvAmbientLight : public CSpatialEntity
 {

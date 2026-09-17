@@ -1,4 +1,5 @@
 // Generated header
+// Estimated minimum size: 0x540 (1344) bytes
 
 class CResponseSystem : public IResponseSystem
 {
@@ -7,21 +8,20 @@ public:
 	virtual ~CResponseSystem() override; // vtable[1]
 	virtual void FindBestResponse(AI_CriteriaSet *param_1, AI_Response *param_2, IResponseFilter *param_3); // vtable[2]
 	virtual void GetAllResponses(CUtlVector *param_1); // vtable[3]
-	virtual void PrecacheResponses(bool param_1) override; // vtable[4]
-	virtual void DumpRules(); // vtable[6]
-	virtual void Precache(); // vtable[7]
-	virtual void __cxa_pure_virtual(); // vtable[8]
+	virtual void PrecacheResponses(bool param_1); // vtable[4]
 
+	void Precache(); // size[408]
+	void DumpRules(); // size[74]
 	void GetCurrentScript(char *param_1, uint param_2); // size[82]
 	void PopScript(); // size[67]
 	void LookForCriteria(AI_CriteriaSet *param_1, int param_2); // size[145]
 	void RecursiveLookForCriteria(AI_CriteriaSet *param_1, Criteria *param_2); // size[4]
-	void DebugPrint(int param_1, char *param_2); // size[153]
+	void DebugPrint(int null, char const *null, ... null); // size[153]
 	void ResetResponseGroups(); // size[101]
 	void DescribeResponseGroup(ResponseGroup *param_1, int param_2, int param_3); // size[432]
 	void IsRootCommand(); // size[147]
 	void GetCurrentToken(); // size[34]
-	void ResponseWarning(char *param_1); // size[5]
+	void ResponseWarning(char const *null, ... null); // size[5]
 	void DumpDictionary(char *param_1); // size[345]
 	void LookupEnumeration(char *param_1, bool *param_2); // size[99]
 	void ResolveToken(Matcher *param_1, char *param_2, uint param_3, char *param_4); // size[24]

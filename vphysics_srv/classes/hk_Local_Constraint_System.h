@@ -1,4 +1,5 @@
 // Generated header
+// Estimated minimum size: 0x64 (100) bytes
 
 class hk_Local_Constraint_System : public hk_Link_EF
 {

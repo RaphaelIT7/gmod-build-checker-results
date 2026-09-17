@@ -1,9 +1,10 @@
 // Generated header
+// Estimated minimum size: 0x8A4 (2212) bytes
 
 class CAI_Network : public IPartitionEnumerator
 {
 public:
-	virtual void EnumElement(IHandleEntity *param_1) override; // vtable[0]
+	virtual void EnumElement(IHandleEntity *param_1); // vtable[0]
 
 	CAI_Network(); // size[108]
 	void FindBSSmallest(CVarBitVec *param_1, float *param_2, int param_3); // size[152]

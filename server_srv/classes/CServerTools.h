@@ -1,4 +1,5 @@
 // Generated header
+// Estimated minimum size: 0x234 (564) bytes
 
 class CServerTools : public IServerTools
 {
@@ -36,7 +37,7 @@ public:
 	virtual void ApplyMultiDamage(); // vtable[30]
 	virtual void AddMultiDamage(CTakeDamageInfo *param_1, CBaseEntity *param_2); // vtable[31]
 	virtual void _ZN12CServerTools12RadiusDamageERK15CTakeDamageInfoRK6VectorfiP11CBaseEntity(); // vtable[32]
-	virtual void GetTempEntsSystem() override; // vtable[33]
+	virtual void GetTempEntsSystem(); // vtable[33]
 
 	void _GLOBAL__sub_I_GetIServerEntity(); // size[113]
 };

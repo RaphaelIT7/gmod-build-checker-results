@@ -1,4 +1,5 @@
 // Generated header
+// Estimated minimum size: 0x1408 (5128) bytes
 
 class CAI_PassengerBehaviorCompanion : public CAI_PassengerBehavior
 {
@@ -59,6 +60,5 @@ public:
 	void FindPathToVehicleEntryPoint(); // size[611]
 	void InitCustomSchedules(); // size[256]
 	void LoadSchedules(); // size[62]
-	CScheduleLoader(); // size[9]
 	CAI_PassengerBehaviorCompanion(); // size[85]
 };

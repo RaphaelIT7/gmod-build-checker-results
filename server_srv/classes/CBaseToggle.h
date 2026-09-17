@@ -1,4 +1,5 @@
 // Generated header
+// Estimated minimum size: 0x1428 (5160) bytes
 
 class CBaseToggle : public CBaseEntity
 {

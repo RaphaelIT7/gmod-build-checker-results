@@ -1,10 +1,9 @@
 // Generated header
+// Estimated minimum size: 0x10 (16) bytes
 
 class IVP_VHash
 {
 public:
-	virtual void __cxa_pure_virtual(); // vtable[0]
-
 	_GLOBAL__sub_I_IVP_VHash(); // size[1]
 	IVP_VHash(int param_1); // size[51]
 	void activate(int param_1); // size[45]

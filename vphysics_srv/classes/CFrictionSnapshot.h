@@ -1,4 +1,5 @@
 // Generated header
+// Estimated minimum size: 0xA4 (164) bytes
 
 class CFrictionSnapshot : public IPhysicsFrictionSnapshot
 {

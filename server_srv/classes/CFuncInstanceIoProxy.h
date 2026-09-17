@@ -1,4 +1,5 @@
 // Generated header
+// Estimated minimum size: 0x166C (5740) bytes
 
 class CFuncInstanceIoProxy : public CBaseEntity
 {

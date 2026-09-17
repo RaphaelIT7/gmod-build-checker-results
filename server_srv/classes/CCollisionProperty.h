@@ -1,4 +1,5 @@
 // Generated header
+// Estimated minimum size: 0x200 (512) bytes
 
 class CCollisionProperty : public ICollideable
 {
@@ -22,10 +23,17 @@ public:
 	virtual void GetCollisionGroup(); // vtable[16]
 	virtual void WorldSpaceSurroundingBounds(Vector *param_1, Vector *param_2); // vtable[17]
 	virtual void ShouldTouchTrigger(int param_1); // vtable[18]
-	virtual void GetRootParentToWorldTransform() override; // vtable[19]
+	virtual void GetRootParentToWorldTransform(); // vtable[19]
+	virtual void GetCollisionScale(); // vtable[20]
 	virtual void NetworkStateChanged(); // vtable[21]
 	virtual void NetworkStateChanged(void *param_1); // vtable[22]
 	virtual void GetDataDescMap(); // vtable[23]
+	virtual void caseD_ffffffff(); // vtable[25]
+	virtual void caseD_1(); // vtable[27]
+	virtual void caseD_3(); // vtable[28]
+	virtual void caseD_4(); // vtable[29]
+	virtual void caseD_5(); // vtable[30]
+	virtual void caseD_6(); // vtable[31]
 
 	void GetBaseMap(); // size[7]
 	~CCollisionProperty(); // size[59]

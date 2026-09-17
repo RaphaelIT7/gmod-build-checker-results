@@ -1,4 +1,5 @@
 // Generated header
+// Estimated minimum size: 0x13FC (5116) bytes
 
 class SmokeTrail : public CBaseParticleEntity
 {

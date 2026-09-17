@@ -1,8 +1,8 @@
 // Generated header
+// Estimated minimum size: 0x4 (4) bytes
 
 class ICollideable
 {
 public:
-	virtual void __cxa_pure_virtual(); // vtable[19]
-	virtual void GetCollisionScale(); // vtable[20]
+	void GetCollisionScale(); // size[7]
 };

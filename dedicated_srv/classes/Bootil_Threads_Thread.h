@@ -1,14 +1,13 @@
 // Generated header
+// Estimated minimum size: 0x10 (16) bytes
 
 class Bootil_Threads_Thread
 {
 public:
 	virtual ~Thread(); // vtable[0]
 	virtual ~Thread(); // vtable[1]
-	virtual void __cxa_pure_virtual(); // vtable[2]
-	virtual void OnThreadFinished(); // vtable[3]
-	virtual void _M_dispose(); // vtable[4]
 
+	void OnThreadFinished(); // size[5]
 	~Thread(); // size[185]
 	~Thread(); // size[185]
 	Thread(); // size[59]

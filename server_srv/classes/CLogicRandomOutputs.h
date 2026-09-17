@@ -1,4 +1,5 @@
 // Generated header
+// Estimated minimum size: 0x14AC (5292) bytes
 
 class CLogicRandomOutputs : public CLogicalEntity
 {

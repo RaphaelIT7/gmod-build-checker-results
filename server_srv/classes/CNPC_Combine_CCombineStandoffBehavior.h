@@ -1,4 +1,5 @@
 // Generated header
+// Estimated minimum size: 0x2364 (9060) bytes
 
 class CNPC_Combine_CCombineStandoffBehavior : public CAI_ComponentWithOuter
 {

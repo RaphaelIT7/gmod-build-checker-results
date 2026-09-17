@@ -1,4 +1,5 @@
 // Generated header
+// Estimated minimum size: 0x4E277040 (1311207488) bytes
 
 class CPhysForce : public CPointEntity
 {
@@ -10,8 +11,6 @@ public:
 	virtual void Activate() override; // vtable[34]
 	virtual void OnRestore() override; // vtable[45]
 	virtual void SetPhysObject(int param_1, IPhysicsObject *param_2) override; // vtable[209]
-	virtual void __cxa_pure_virtual(); // vtable[246]
-	virtual void OnActivate(); // vtable[247]
 
 	void ForceOff(); // size[109]
 	void InputDeactivate(inputdata_t *param_1); // size[9]
@@ -22,4 +21,5 @@ public:
 	void InputActivate(inputdata_t *param_1); // size[24]
 	void ScaleForce(float param_1); // size[216]
 	void InputForceScale(inputdata_t *param_1); // size[37]
+	void OnActivate(); // size[5]
 };

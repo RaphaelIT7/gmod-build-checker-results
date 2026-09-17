@@ -1,4 +1,5 @@
 // Generated header
+// Estimated minimum size: 0x1614 (5652) bytes
 
 class CNewRecharge : public CBaseAnimating
 {

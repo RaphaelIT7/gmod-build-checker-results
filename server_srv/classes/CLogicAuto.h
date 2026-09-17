@@ -1,4 +1,5 @@
 // Generated header
+// Estimated minimum size: 0x145C (5212) bytes
 
 class CLogicAuto : public CBaseEntity
 {

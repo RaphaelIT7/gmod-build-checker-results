@@ -1,11 +1,12 @@
 // Generated header
+// Estimated minimum size: 0x64 (100) bytes
 
 class CRConServer : public ISocketCreatorListener
 {
 public:
 	virtual void ShouldAcceptSocket(int param_1, netadr_s *param_2); // vtable[0]
 	virtual void OnSocketAccepted(int param_1, netadr_s *param_2, void * *param_3); // vtable[1]
-	virtual void OnSocketClosed(int param_1, netadr_s *param_2, void *param_3) override; // vtable[2]
+	virtual void OnSocketClosed(int param_1, netadr_s *param_2, void *param_3); // vtable[2]
 
 	void ConnectToListeningClient(netadr_s *param_1, bool param_2); // size[95]
 	void IsConnected(); // size[13]
@@ -15,7 +16,6 @@ public:
 	void SetAddress(char *param_1); // size[67]
 	void CreateSocket(); // size[29]
 	void SetRequestID(uint param_1, int param_2); // size[81]
-	void operator<(FailedRCon_t *param_1); // size[76]
 	void BCloseAcceptedSocket(uint param_1); // size[97]
 	void SendRCONResponse(int param_1, void *param_2, int param_3, bool param_4); // size[432]
 	void FinishRedirect(char *param_1, netadr_s *param_2); // size[1330]

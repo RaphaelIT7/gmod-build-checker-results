@@ -1,11 +1,12 @@
 // Generated header
+// Estimated minimum size: 0x78 (120) bytes
 
 class CBaseAchievement : public CGameEventListener, public IAchievement
 {
 public:
 	virtual ~CBaseAchievement() override; // vtable[0]
 	virtual ~CBaseAchievement() override; // vtable[1]
-	virtual void FireGameEvent(IGameEvent *param_1) override; // vtable[2]
+	virtual void FireGameEvent(IGameEvent *param_1); // vtable[2]
 	virtual void Init(); // vtable[3]
 	virtual void ListenForEvents(); // vtable[4]
 	virtual void Event_EntityKilled(CBaseEntity *param_1, CBaseEntity *param_2, CBaseEntity *param_3, IGameEvent *param_4); // vtable[5]
@@ -13,7 +14,7 @@ public:
 	virtual void GetName(); // vtable[7]
 	virtual void GetFlags(); // vtable[8]
 	virtual void GetGoal(); // vtable[9]
-	virtual void GetPointValue() override; // vtable[10]
+	virtual void GetPointValue(); // vtable[10]
 	virtual void ShouldHideUntilAchieved(); // vtable[11]
 	virtual void ShouldShowProgressNotification(); // vtable[12]
 	virtual void OnPlayerStatsUpdate(); // vtable[13]
@@ -40,9 +41,18 @@ public:
 	virtual void FireGameEvent_Internal(IGameEvent *param_1); // vtable[34]
 	virtual void CalcProgressMsgIncrement(); // vtable[35]
 	virtual void GetDataDescMap(); // vtable[36]
+	virtual void GetAchievementID(); // vtable[0]
+	virtual void GetName(); // vtable[1]
+	virtual void GetFlags(); // vtable[2]
+	virtual void GetGoal(); // vtable[3]
+	virtual void GetCount(); // vtable[4]
+	virtual void IsAchieved(); // vtable[5]
+	virtual void GetPointValue(); // vtable[6]
+	virtual void ShouldSaveWithGame(); // vtable[7]
+	virtual void ShouldHideUntilAchieved(); // vtable[8]
+	virtual void ShouldShowOnHUD(); // vtable[9]
+	virtual void SetShowOnHUD(bool param_1); // vtable[10]
 
-	void SetShowOnHUD(bool param_1); // size[7]
-	void ShouldSaveWithGame(); // size[7]
 	void GetBaseMap(); // size[7]
 	CBaseAchievement(); // size[202]
 	void SetFlags(int param_1); // size[14]
@@ -60,18 +70,9 @@ public:
 	void EvaluateNewAchievement(); // size[53]
 	void ShowProgressNotification(); // size[176]
 	void HandleProgressUpdate(); // size[83]
-	void IncrementCount(int param_1); // size[349]
+	void IncrementCount(int param_1); // size[328]
 	void EnsureComponentBitSetAndEvaluate(int param_1); // size[435]
 	void OnComponentEvent(char *param_1); // size[91]
 	void SetComponentBits(ulonglong param_1); // size[58]
 	void ShouldSaveGlobal(); // size[73]
-	void GetAchievementID(); // size[7]
-	void GetName(); // size[7]
-	void GetFlags(); // size[7]
-	void GetGoal(); // size[7]
-	void GetPointValue(); // size[7]
-	void ShouldHideUntilAchieved(); // size[7]
-	void GetCount(); // size[7]
-	void IsAchieved(); // size[7]
-	void ShouldShowOnHUD(); // size[7]
 };

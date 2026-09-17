@@ -1,4 +1,5 @@
 // Generated header
+// Estimated minimum size: 0x13D8 (5080) bytes
 
 class CMoveableCamera : public CBaseEntity
 {
@@ -14,6 +15,6 @@ public:
 	CMoveableCamera(); // size[26]
 	void SetTarget(CHandle param_1); // size[8]
 	void Move(); // size[442]
-	void FollowTarget(); // size[156]
+	void FollowTarget(); // size[88]
 	void StartMovement(); // size[123]
 };

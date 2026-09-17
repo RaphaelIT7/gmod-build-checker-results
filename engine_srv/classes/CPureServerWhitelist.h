@@ -1,4 +1,5 @@
 // Generated header
+// Estimated minimum size: 0x5D5B14C8 (1566250184) bytes
 
 class CPureServerWhitelist : public IPureServerWhitelist
 {
@@ -7,11 +8,8 @@ public:
 	virtual void Release(); // vtable[1]
 	virtual void GetFileClass(char *param_1); // vtable[2]
 	virtual void GetTrustedKeyCount(); // vtable[3]
-	virtual void GetTrustedKey(int param_1, int *param_2) override; // vtable[4]
+	virtual void GetTrustedKey(int param_1, int *param_2); // vtable[4]
 
-	_GLOBAL__sub_I_CCommand(); // size[421]
-	CCommand(); // size[5]
-	~CCommand(); // size[5]
 	void PrintCommand(char *param_1, char *param_2, int param_3, CCommand *param_4); // size[441]
 	void CacheFileCRCs(); // size[5]
 	void InternalCacheFileCRCs(CUtlDict *param_1, ECacheCRCType param_2); // size[5]

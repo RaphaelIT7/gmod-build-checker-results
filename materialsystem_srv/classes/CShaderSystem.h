@@ -1,15 +1,16 @@
 // Generated header
+// Estimated minimum size: 0x1F4 (500) bytes
 
 class CShaderSystem : public IShaderSystemInternal
 {
 public:
 	virtual void LoadTexture(IMaterialVar *param_1, char *param_2, int param_3); // vtable[0]
 	virtual void LoadBumpMap(IMaterialVar *param_1, char *param_2); // vtable[1]
-	virtual void LoadCubeMap(IMaterialVar * *param_1, IMaterialVar *param_2, int param_3) override; // vtable[2]
+	virtual void LoadCubeMap(IMaterialVar * *param_1, IMaterialVar *param_2, int param_3); // vtable[2]
 	virtual void Init(); // vtable[3]
 	virtual void Shutdown(); // vtable[4]
 	virtual void ModInit(); // vtable[5]
-	virtual void ModShutdown() override; // vtable[6]
+	virtual void ModShutdown(); // vtable[6]
 	virtual void LoadShaderDLL(char *param_1); // vtable[7]
 	virtual void UnloadShaderDLL(char *param_1); // vtable[8]
 	virtual void FindShader(char *param_1); // vtable[9]
@@ -23,7 +24,7 @@ public:
 	virtual void CleanupRenderState(ShaderRenderState_t *param_1); // vtable[17]
 	virtual void DrawElements(IShader *param_1, IMaterialVar * *param_2, ShaderRenderState_t *param_3, VertexCompressionType_t param_4, uint param_5); // vtable[18]
 	virtual void ShaderCount(); // vtable[19]
-	virtual void GetShaders(int param_1, int param_2, IShader * *param_3) override; // vtable[20]
+	virtual void GetShaders(int param_1, int param_2, IShader * *param_3); // vtable[20]
 	virtual void GetShaderAPITextureBindHandle(ITexture *param_1, int param_2, int param_3); // vtable[21]
 	virtual void BindTexture(Sampler_t param_1, ITexture *param_2, int param_3); // vtable[22]
 	virtual void BindTexture(Sampler_t param_1, Sampler_t param_2, ITexture *param_3, int param_4); // vtable[23]
@@ -32,14 +33,14 @@ public:
 	virtual void IsUsingGraphics(); // vtable[26]
 	virtual void CanUseEditorMaterials(); // vtable[27]
 	virtual void LoadShaderDLL(char *param_1, char *param_2, bool param_3); // vtable[28]
+	virtual void GetShaderAPITextureBindHandle(ITexture *param_1, int param_2, int param_3); // vtable[0]
+	virtual void BindTexture(Sampler_t param_1, ITexture *param_2, int param_3); // vtable[1]
+	virtual void BindTexture(Sampler_t param_1, Sampler_t param_2, ITexture *param_3, int param_4); // vtable[2]
+	virtual void TakeSnapshot(); // vtable[3]
+	virtual void DrawSnapshot(bool param_1); // vtable[4]
+	virtual void IsUsingGraphics(); // vtable[5]
+	virtual void CanUseEditorMaterials(); // vtable[6]
 
-	void CanUseEditorMaterials(); // size[7]
-	void DrawSnapshot(bool param_1); // size[10]
-	void GetShaderAPITextureBindHandle(ITexture *param_1, int param_2, int param_3); // size[7]
-	void BindTexture(Sampler_t param_1, ITexture *param_2, int param_3); // size[7]
-	void TakeSnapshot(); // size[10]
-	void IsUsingGraphics(); // size[7]
-	void BindTexture(Sampler_t param_1, Sampler_t param_2, ITexture *param_3, int param_4); // size[7]
 	void LoadCubeMap(IMaterialVar * *param_1, IMaterialVar *param_2, int param_3); // size[333]
 	void UnloadShaderDLL(int param_1); // size[94]
 	void LoadModShaderDLLs(int param_1); // size[516]

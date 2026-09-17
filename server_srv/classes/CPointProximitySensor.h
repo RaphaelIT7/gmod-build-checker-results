@@ -1,4 +1,5 @@
 // Generated header
+// Estimated minimum size: 0x13BC (5052) bytes
 
 class CPointProximitySensor : public CPointEntity
 {

@@ -1,4 +1,5 @@
 // Generated header
+// Estimated minimum size: 0x40 (64) bytes
 
 class IVP_Friction_Sys_Static : public IVP_Controller_Independent
 {

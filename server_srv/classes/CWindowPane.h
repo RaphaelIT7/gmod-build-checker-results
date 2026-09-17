@@ -1,4 +1,5 @@
 // Generated header
+// Estimated minimum size: 0x1560 (5472) bytes
 
 class CWindowPane : public CBaseAnimating
 {

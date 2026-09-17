@@ -1,4 +1,5 @@
 // Generated header
+// Estimated minimum size: 0xC (12) bytes
 
 class CNetMessage : public INetMessage
 {
@@ -8,7 +9,8 @@ public:
 	virtual void SetNetChannel(INetChannel *param_1); // vtable[2]
 	virtual void SetReliable(bool param_1); // vtable[3]
 	virtual void Process(); // vtable[4]
-	virtual void IsReliable(); // vtable[7]
-	virtual void GetGroup(); // vtable[9]
-	virtual void GetNetChannel(); // vtable[11]
+
+	void GetGroup(); // size[7]
+	void GetNetChannel(); // size[11]
+	void IsReliable(); // size[12]
 };

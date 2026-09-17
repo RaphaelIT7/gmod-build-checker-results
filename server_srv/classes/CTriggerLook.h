@@ -1,4 +1,5 @@
 // Generated header
+// Estimated minimum size: 0x1518 (5400) bytes
 
 class CTriggerLook : public CTriggerOnce
 {

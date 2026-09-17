@@ -1,4 +1,5 @@
 // Generated header
+// Estimated minimum size: 0x1574 (5492) bytes
 
 class CEnvParticleScript : public CBaseAnimating
 {
@@ -17,5 +18,5 @@ public:
 	void InputSetSequence(inputdata_t *param_1); // size[70]
 	void GetBaseMap(); // size[10]
 	CEnvParticleScript(); // size[58]
-	void PrecacheAnimationEventMaterials(); // size[307]
+	void PrecacheAnimationEventMaterials(); // size[245]
 };

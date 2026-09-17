@@ -1,4 +1,5 @@
 // Generated header
+// Estimated minimum size: 0x13E4 (5092) bytes
 
 class CLogicBranch : public CLogicalEntity
 {

@@ -1,4 +1,5 @@
 // Generated header
+// Estimated minimum size: 0x14DC (5340) bytes
 
 class CTriggerToggleSave : public CBaseTrigger
 {

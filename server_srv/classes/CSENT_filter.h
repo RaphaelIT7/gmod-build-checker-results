@@ -1,4 +1,5 @@
 // Generated header
+// Estimated minimum size: 0x13E8 (5096) bytes
 
 class CSENT_filter : public CBaseFilter
 {
@@ -25,6 +26,4 @@ public:
 	void _GLOBAL__sub_I_m_DataMap(); // size[113]
 	void GetBaseMap(); // size[10]
 	CSENT_filter(); // size[34]
-	void NetworkStateChanged(); // size[53]
-	void NetworkStateChanged(void *param_1); // size[84]
 };

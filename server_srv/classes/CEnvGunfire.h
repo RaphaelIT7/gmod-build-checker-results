@@ -1,4 +1,5 @@
 // Generated header
+// Estimated minimum size: 0x1400 (5120) bytes
 
 class CEnvGunfire : public CPointEntity
 {
