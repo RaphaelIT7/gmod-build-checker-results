@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x25AC (9644) bytes
+// Estimated minimum size: 0x150C (5388) bytes
 
 class CSlideshowDisplay : public CBaseEntity
 {
@@ -33,6 +33,6 @@ public:
 	void GetControlPanelInfo(int param_1, char * *param_2); // size[14]
 	void GetControlPanelClassName(int param_1, char * *param_2); // size[14]
 	void SpawnControlPanels(); // size[87]
-	void RestoreControlPanels(); // size[263]
+	void RestoreControlPanels(); // size[88]
 	void BuildSlideShowImagesList(); // size[52]
 };

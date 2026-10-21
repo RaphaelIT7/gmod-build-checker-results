@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x25AC (9644) bytes
+// Estimated minimum size: 0x1448 (5192) bytes
 
 class CAI_OperatorGoal : public CAI_GoalEntity
 {
@@ -15,6 +15,6 @@ public:
 	virtual void OnEntityDeleted(CBaseEntity *param_1); // vtable[2]
 
 	void InputSetStateReady(inputdata_t *param_1); // size[18]
-	void InputSetStateFinished(inputdata_t *param_1); // size[56]
+	void InputSetStateFinished(inputdata_t *param_1); // size[58]
 	void GetBaseMap(); // size[10]
 };

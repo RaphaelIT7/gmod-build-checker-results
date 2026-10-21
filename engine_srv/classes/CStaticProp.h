@@ -149,7 +149,7 @@ public:
 	virtual void GetCollisionScale(); // vtable[20]
 
 	CStaticProp(); // size[253]
-	void Init(int param_1, StaticPropLump_t *param_2, model_t *param_3); // size[159]
+	void Init(int param_1, StaticPropLump_t *param_2, model_t *param_3); // size[713]
 	void CleanUpRenderHandle(); // size[24]
 	void PrecacheLighting(); // size[5]
 	void RecomputeStaticLighting(); // size[5]

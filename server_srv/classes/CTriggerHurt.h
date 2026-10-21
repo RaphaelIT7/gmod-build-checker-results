@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x25AC (9644) bytes
+// Estimated minimum size: 0x1548 (5448) bytes
 
 class CTriggerHurt : public CBaseTrigger
 {
@@ -13,7 +13,7 @@ public:
 	virtual void EndTouch(CBaseEntity *param_1) override; // vtable[103]
 
 	void GetBaseMap(); // size[10]
-	void HurtEntity(CBaseEntity *param_1, float param_2); // size[1286]
+	void HurtEntity(CBaseEntity *param_1, float param_2); // size[6]
 	void HurtAllTouchers(float param_1); // size[470]
 	void RadiationThink(); // size[278]
 	void HurtThink(); // size[124]

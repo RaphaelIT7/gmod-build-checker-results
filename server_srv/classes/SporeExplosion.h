@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x25AC (9644) bytes
+// Estimated minimum size: 0x13CC (5068) bytes
 
 class SporeExplosion : public CBaseParticleEntity
 {
@@ -14,6 +14,6 @@ public:
 	void InputEnable(inputdata_t *param_1); // size[167]
 	void InputDisable(inputdata_t *param_1); // size[187]
 	void GetBaseMap(); // size[10]
-	SporeExplosion(); // size[126]
+	SporeExplosion(); // size[20]
 	void CreateSporeExplosion(); // size[77]
 };

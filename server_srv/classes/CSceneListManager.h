@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x25AC (9644) bytes
+// Estimated minimum size: 0x1408 (5128) bytes
 
 class CSceneListManager : public CLogicalEntity
 {
@@ -9,10 +9,10 @@ public:
 	virtual void GetDataDescMap() override; // vtable[12]
 	virtual void Activate() override; // vtable[34]
 
-	void GetBaseMap(); // size[1]
+	void GetBaseMap(); // size[10]
 	void RemoveScene(int param_1); // size[97]
 	void ShutdownList(); // size[103]
 	void InputShutdown(inputdata_t *param_1); // size[9]
-	void SceneStarted(CBaseEntity *param_1); // size[28]
+	void SceneStarted(CBaseEntity *param_1); // size[229]
 	void AddListManager(CSceneListManager *param_1); // size[103]
 };

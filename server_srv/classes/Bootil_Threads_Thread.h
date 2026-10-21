@@ -4,26 +4,24 @@
 class Bootil_Threads_Thread
 {
 public:
-	virtual ~Thread(); // vtable[0]
+	virtual _ZN6Bootil7Threads6ThreadD1Ev(); // vtable[0]
 	virtual ~Thread(); // vtable[1]
 
 	void OnThreadFinished(); // size[1]
-	~Thread(); // size[185]
-	~Thread(); // size[185]
 	Thread(); // size[59]
-	void Running(); // size[17]
+	void Running(); // size[59]
 	void Lock(); // size[35]
 	void Lock(); // size[35]
 	void Unlock(); // size[35]
 	void Unlock(); // size[35]
 	void RunInThread(void *param_1); // size[91]
 	void TryLock(); // size[35]
-	void WantsToClose(); // size[3]
+	void WantsToClose(); // size[59]
 	void SetClosing(bool param_1); // size[58]
 	void SetClosing(bool param_1); // size[58]
 	void Join(); // size[149]
 	void Join(); // size[149]
 	void StartInThread(); // size[56]
-	void StartInThreadAndDetatch(); // size[82]
-	void StartInThreadAndDestroy(); // size[23]
+	void StartInThreadAndDetatch(); // size[49]
+	void StartInThreadAndDestroy(); // size[77]
 };

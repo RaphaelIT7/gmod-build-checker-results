@@ -15,7 +15,7 @@ public:
 	virtual ~CGarrysMod() override; // vtable[1]
 	virtual void FireGameEvent(IGameEvent *param_1); // vtable[2]
 
-	void OnP2PSessionConnectFail(P2PSessionConnectFail_t *param_1); // size[61]
+	void OnP2PSessionConnectFail(P2PSessionConnectFail_t *param_1); // size[59]
 	void OnP2PSessionRequest(P2PSessionRequest_t *param_1); // size[305]
 	CGarrysMod(); // size[149]
 	void InitializeMod(_func_void_ptr_char_ptr_int_ptr *param_1); // size[941]

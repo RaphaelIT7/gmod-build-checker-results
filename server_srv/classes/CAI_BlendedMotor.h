@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x2218 (8728) bytes
+// Estimated minimum size: 0xF4 (244) bytes
 
 class CAI_BlendedMotor : public CAI_Motor
 {

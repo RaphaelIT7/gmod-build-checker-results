@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x2D20 (11552) bytes
+// Estimated minimum size: 0x5A0 (1440) bytes
 
 class CFileSystem_Stdio : public CBaseFileSystem
 {
@@ -18,7 +18,7 @@ public:
 	virtual void RemoveFile(char *param_1, char *param_2); // vtable[15]
 	virtual void RenameFile(char *param_1, char *param_2, char *param_3); // vtable[16]
 	virtual void CreateDirHierarchy(char *param_1, char *param_2); // vtable[17]
-	virtual void IsDirectory(char *param_1, char *param_2); // vtable[18]
+	virtual void _ZN15CBaseFileSystem11IsDirectoryEPKcS1_(); // vtable[18]
 	virtual void FileTimeToString(char *param_1, int param_2, long param_3); // vtable[19]
 	virtual void SetBufferSize(void *param_1, uint param_2); // vtable[20]
 	virtual void IsOk(void *param_1); // vtable[21]
@@ -54,7 +54,7 @@ public:
 	virtual void AsyncAbort(FSAsyncControl_t__ *param_1); // vtable[51]
 	virtual void AsyncStatus(FSAsyncControl_t__ *param_1); // vtable[52]
 	virtual void AsyncSetPriority(FSAsyncControl_t__ *param_1, int param_2); // vtable[53]
-	virtual void AsyncAddRef(FSAsyncControl_t__ *param_1); // vtable[54]
+	virtual void _ZN15CBaseFileSystem11AsyncAddRefEP18FSAsyncControl_t__(); // vtable[54]
 	virtual void AsyncRelease(FSAsyncControl_t__ *param_1); // vtable[55]
 	virtual void WaitForResources(char *param_1); // vtable[56]
 	virtual void GetWaitForResourcesProgress(int param_1, float *param_2, bool *param_3); // vtable[57]

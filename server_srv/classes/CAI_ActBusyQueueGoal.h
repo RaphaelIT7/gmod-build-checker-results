@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x25AC (9644) bytes
+// Estimated minimum size: 0x1578 (5496) bytes
 
 class CAI_ActBusyQueueGoal : public CAI_ActBusyGoal
 {
@@ -21,12 +21,13 @@ public:
 
 	void GetBaseMap(); // size[10]
 	void RecalculateQueueCount(); // size[434]
-	void MoveQueueUp(); // size[10]
+	void MoveQueueUp(); // size[31]
 	void InputPlayerStoppedBlocking(inputdata_t *param_1); // size[60]
 	void RemoveNPCFromQueue(CAI_BaseNPC *param_1); // size[31]
 	void GetNPCOnNode(int param_1); // size[138]
-	void QueueThink(); // size[103]
-	void GetQueueBehaviorForNPC(CAI_BaseNPC *param_1); // size[96]
+	void InputMoveQueueUp(inputdata_t *param_1); // size[282]
+	void QueueThink(); // size[96]
+	void GetQueueBehaviorForNPC(CAI_BaseNPC *param_1); // size[1]
 	void PushNPCBackInQueue(CAI_BaseNPC *param_1, int param_2); // size[461]
 	void InputPlayerStartedBlocking(inputdata_t *param_1); // size[82]
 	void MoveQueueUpThink(); // size[404]

@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x25AC (9644) bytes
+// Estimated minimum size: 0x13F8 (5112) bytes
 
 class CAI_ScriptedSentence : public CPointEntity
 {
@@ -12,9 +12,10 @@ public:
 	virtual void ObjectCaps() override; // vtable[36]
 
 	void DelayThink(); // size[118]
-	void InputBeginSentence(inputdata_t *param_1); // size[24]
+	void InputBeginSentence(inputdata_t *param_1); // size[1]
 	void GetBaseMap(); // size[10]
+	void AcceptableSpeaker(CAI_BaseNPC *param_1); // size[131]
 	void FindEntity(); // size[395]
-	void StartSentence(CAI_BaseNPC *param_1); // size[480]
-	void FindThink(); // size[167]
+	void StartSentence(CAI_BaseNPC *param_1); // size[482]
+	void FindThink(); // size[294]
 };

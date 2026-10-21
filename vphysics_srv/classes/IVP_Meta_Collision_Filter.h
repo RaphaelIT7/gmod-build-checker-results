@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x14 (20) bytes
+// Estimated minimum size: 0x8 (8) bytes
 
 class IVP_Meta_Collision_Filter : public IVP_Collision_Filter
 {
@@ -9,7 +9,7 @@ public:
 	virtual ~IVP_Meta_Collision_Filter(); // vtable[2]
 	virtual ~IVP_Meta_Collision_Filter(); // vtable[3]
 
-	void add_collision_filter(IVP_Collision_Filter *param_1); // size[60]
-	void remove_collision_filter(IVP_Collision_Filter *param_1); // size[134]
-	IVP_Meta_Collision_Filter(IVP_BOOL param_1); // size[34]
+	void add_collision_filter(IVP_Collision_Filter *param_1); // size[56]
+	void remove_collision_filter(IVP_Collision_Filter *param_1); // size[135]
+	IVP_Meta_Collision_Filter(IVP_BOOL param_1); // size[29]
 };

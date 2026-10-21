@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x25AC (9644) bytes
+// Estimated minimum size: 0x1444 (5188) bytes
 
 class CPhysSlideConstraint : public CPhysConstraint, public IVPhysicsWatcher
 {

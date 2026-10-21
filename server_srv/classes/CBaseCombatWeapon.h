@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x5E5B1CC8 (1583029448) bytes
+// Estimated minimum size: 0x1664 (5732) bytes
 
 class CBaseCombatWeapon : public CBaseAnimating
 {
@@ -165,7 +165,7 @@ public:
 	virtual void ShouldDropOnDie(); // vtable[417]
 	virtual void ShouldDrawViewModel(); // vtable[418]
 	virtual void GetLastShootTime(); // vtable[419]
-	virtual void UpdateLastShootTime(float param_1); // vtable[420]
+	virtual void UpdateLastShootTime(double param_1); // vtable[420]
 	virtual void GetFOV(float param_1); // vtable[421]
 	virtual void ForcePlayerPickup(CBasePlayer *param_1); // vtable[422]
 	virtual void OnRangeAttack1(); // vtable[423]
@@ -175,7 +175,7 @@ public:
 	virtual void GetHolsterActivity(); // vtable[427]
 
 	_GLOBAL__sub_I_CBaseCombatWeapon(); // size[112]
-	CBaseCombatWeapon(); // size[391]
+	CBaseCombatWeapon(); // size[389]
 	void GiveDefaultAmmo(); // size[150]
 	void GetWpnData(); // size[22]
 	void IsMeleeWeapon(); // size[33]
@@ -189,10 +189,10 @@ public:
 	void GMOD_WeaponSound(WeaponSound_t param_1, double param_2); // size[257]
 	void DefaultReload(int param_1, int param_2, int param_3); // size[20]
 	void ReloadsSingly(); // size[15]
-	void MaintainIdealActivity(); // size[85]
+	void MaintainIdealActivity(); // size[68]
 	void Lock(float param_1, CBaseEntity *param_2); // size[90]
 	void IsLocked(CBaseEntity *param_1); // size[90]
-	void GetDeploySpeed(); // size[275]
+	void GetDeploySpeed(); // size[218]
 	void SetIdealActivity(Activity param_1); // size[589]
 	void SetDeploySpeed(float param_1); // size[53]
 	void GetBaseMap(); // size[10]

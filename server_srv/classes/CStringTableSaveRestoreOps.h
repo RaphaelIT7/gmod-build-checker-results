@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x28 (40) bytes
+// Estimated minimum size: 0x8 (8) bytes
 
 class CStringTableSaveRestoreOps : public CDefSaveRestoreOps
 {

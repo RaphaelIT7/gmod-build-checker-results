@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x5E5B1CC8 (1583029448) bytes
+// Estimated minimum size: 0x16B8 (5816) bytes
 
 class CWeaponRPG : public CBaseHL2MPCombatWeapon
 {
@@ -39,8 +39,8 @@ public:
 	void SetNPCLaserPosition(Vector *param_1); // size[49]
 	void GetNPCLaserPosition(); // size[13]
 	void IsGuiding(); // size[15]
-	void StopGuiding(); // size[97]
-	void UpdateLaserPosition(Vector param_1, Vector param_2); // size[277]
+	void StopGuiding(); // size[88]
+	void UpdateLaserPosition(Vector param_1, Vector param_2); // size[310]
 	void NotifyRocketDied(); // size[153]
 	void CreateLaserPointer(); // size[77]
 	void GetLaserPosition(); // size[155]

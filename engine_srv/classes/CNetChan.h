@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x2730 (10032) bytes
+// Estimated minimum size: 0x2734 (10036) bytes
 
 class CNetChan : public INetChannel
 {
@@ -77,21 +77,21 @@ public:
 	virtual void GetMaxRoutablePayloadSize(); // vtable[70]
 	virtual void GetProtocolVersion(); // vtable[71]
 
-	void IsValidFileForTransfer(char *param_1); // size[963]
+	void IsValidFileForTransfer(char *param_1); // size[1027]
 	void CompressFragments(); // size[1575]
 	void UncompressFragments(dataFragments_s *param_1); // size[167]
 	void FlowReset(); // size[65]
 	void Setup(int param_1, netadr_s *param_2, char *param_3, INetChannelHandler *param_4, int param_5); // size[767]
-	void FlowNewPacket(int param_1, int param_2, int param_3, int param_4, int param_5, int param_6); // size[193]
-	void FlowUpdate(int param_1, int param_2); // size[518]
+	void FlowNewPacket(int param_1, int param_2, int param_3, int param_4, int param_5, int param_6); // size[33]
+	void FlowUpdate(int param_1, int param_2); // size[462]
 	void IsFileInWaitingList(char *param_1); // size[126]
 	void RemoveHeadInWaitingList(int param_1); // size[211]
-	void ReadSubChannelData(bf_read *param_1, int param_2); // size[1728]
+	void ReadSubChannelData(bf_read *param_1, int param_2); // size[1691]
 	void UpdateSubChannels(); // size[454]
 	void ProcessControlMessage(int param_1, bf_read *param_2); // size[674]
 	void GetFreeSubChannel(); // size[83]
 	void CheckWaitingList(int param_1); // size[153]
-	void HandleUpload(dataFragments_s *param_1, INetChannelHandler *param_2); // size[734]
+	void HandleUpload(dataFragments_s *param_1, INetChannelHandler *param_2); // size[683]
 	void ProcessPacketHeader(netpacket_s *param_1); // size[2036]
 	void FindMessage(int param_1); // size[103]
 	void ProcessMessages(bf_read *param_1); // size[1254]
@@ -109,5 +109,5 @@ public:
 	void Shutdown(char *param_1); // size[452]
 	CNetChan(); // size[800]
 	void CreateFragmentsFromBuffer(bf_write *param_1, int param_2); // size[797]
-	void CreateFragmentsFromFile(char *param_1, int param_2, uint param_3); // size[131]
+	void CreateFragmentsFromFile(char *param_1, int param_2, uint param_3); // size[367]
 };

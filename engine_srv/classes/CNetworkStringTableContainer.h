@@ -18,6 +18,7 @@ public:
 	CNetworkStringTableContainer(); // size[68]
 	void AllowCreation(bool param_1); // size[14]
 	void Lock(bool param_1); // size[84]
+	void WriteStringTables(bf_write *param_1); // size[23]
 	void DirectUpdate(int param_1); // size[317]
 	void EnableRollback(bool param_1); // size[14]
 	void RestoreTick(int param_1); // size[72]
@@ -25,6 +26,6 @@ public:
 	void SetTick(int param_1); // size[72]
 	void Dump(char *param_1); // size[132]
 	void ReadStringTables(bf_read *param_1); // size[317]
-	void WriteUpdateMessage(CBaseClient *param_1, int param_2, bf_write *param_3); // size[641]
+	void WriteUpdateMessage(CBaseClient *param_1, int param_2, bf_write *param_3); // size[520]
 	void WriteBaselines(int param_1, bf_write *param_2, INetChannel *param_3); // size[1714]
 };

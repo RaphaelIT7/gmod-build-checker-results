@@ -45,6 +45,6 @@ public:
 	virtual void PointsMayAlwaysBeBlocked(); // vtable[164]
 
 	void TeamWithFewestPlayers(); // size[191]
-	void RecountTeams(); // size[34]
+	void RecountTeams(); // size[56]
 	CTeamplayRules(); // size[103]
 };

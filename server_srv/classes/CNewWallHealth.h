@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x5E5B1CC8 (1583029448) bytes
+// Estimated minimum size: 0x15C8 (5576) bytes
 
 class CNewWallHealth : public CBaseAnimating
 {
@@ -17,7 +17,7 @@ public:
 	virtual void CreateVPhysics() override; // vtable[157]
 	virtual void StudioFrameAdvance() override; // vtable[248]
 
-	void Recharge(); // size[50]
+	void Recharge(); // size[10]
 	void Off(); // size[322]
 	void GetBaseMap(); // size[10]
 };

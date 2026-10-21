@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x54 (84) bytes
+// Estimated minimum size: 0x4 (4) bytes
 
 class CEngineBSPTree : public IEngineSpatialQuery
 {

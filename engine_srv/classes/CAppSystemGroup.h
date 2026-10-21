@@ -13,7 +13,7 @@ public:
 	void GetErrorStage(); // size[11]
 	void GetFactory(); // size[10]
 	CAppSystemGroup(CAppSystemGroup *param_1); // size[212]
-	void FindSystem(char *param_1); // size[119]
+	void FindSystem(char *param_1); // size[126]
 	void ReportStartupFailure(int param_1, int param_2); // size[156]
 	void ConnectSystems(); // size[100]
 	void InitSystems(); // size[94]

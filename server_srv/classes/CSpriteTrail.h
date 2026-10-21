@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x25AC (9644) bytes
+// Estimated minimum size: 0x1434 (5172) bytes
 
 class CSpriteTrail : public CSprite
 {

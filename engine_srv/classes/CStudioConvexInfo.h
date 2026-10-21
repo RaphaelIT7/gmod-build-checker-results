@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0xA4 (164) bytes
+// Estimated minimum size: 0x8 (8) bytes
 
 class CStudioConvexInfo : public IConvexInfo
 {

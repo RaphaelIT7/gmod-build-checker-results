@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x5E5B1CC8 (1583029448) bytes
+// Estimated minimum size: 0x1584 (5508) bytes
 
 class CBaseAnimatingOverlay : public CBaseAnimating
 {
@@ -34,15 +34,15 @@ public:
 	void SetLayerBlendOut(int param_1, float param_2); // size[58]
 	void SetLayerAutokill(int param_1, bool param_2); // size[58]
 	void SetLayerLooping(int param_1, bool param_2); // size[50]
-	void SetLayerNoRestore(int param_1, bool param_2); // size[62]
+	void SetLayerNoRestore(int param_1, bool param_2); // size[58]
 	void GetLayerActivity(int param_1); // size[50]
 	void GetLayerSequence(int param_1); // size[50]
-	void RemoveLayer(int param_1, float param_2, float param_3); // size[107]
-	void RemoveGesture(Activity param_1); // size[4]
+	void RemoveLayer(int param_1, float param_2, float param_3); // size[98]
+	void RemoveGesture(Activity param_1); // size[64]
 	void RemoveAllGestures(); // size[78]
-	void FastRemoveLayer(int param_1); // size[169]
+	void FastRemoveLayer(int param_1); // size[185]
 	void GetAnimOverlay(int param_1); // size[89]
-	void HasActiveLayer(); // size[65]
+	void HasActiveLayer(); // size[48]
 	void AllocateLayer(int param_1); // size[518]
 	void AddLayeredSequence(int param_1, int param_2); // size[122]
 	void AddGestureSequence(int param_1, bool param_2); // size[111]

@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x5E5B1CC8 (1583029448) bytes
+// Estimated minimum size: 0x1664 (5732) bytes
 
 class CWeaponCrossbow_HL1 : public CBaseHL1MPCombatWeapon
 {
@@ -17,7 +17,7 @@ public:
 	virtual void SecondaryAttack() override; // vtable[333]
 	virtual void GetHoldType() override; // vtable[380]
 	virtual void ActivityList() override; // vtable[388]
-	virtual void ActivityListCount() override; // vtable[389]
+	virtual void _ZN19CWeaponCrossbow_HL117ActivityListCountEv() override; // vtable[389]
 
 	void GetBaseMap(); // size[10]
 	CWeaponCrossbow_HL1(); // size[51]

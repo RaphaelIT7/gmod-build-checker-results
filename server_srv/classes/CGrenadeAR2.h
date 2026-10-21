@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x5E5B1CC8 (1583029448) bytes
+// Estimated minimum size: 0x15B4 (5556) bytes
 
 class CGrenadeAR2 : public CBaseGrenade
 {
@@ -23,7 +23,7 @@ public:
 	virtual void PhysGunLaunchVelocity(Vector *param_1, float param_2); // vtable[9]
 
 	void GrenadeAR2Touch(CBaseEntity *param_1); // size[171]
-	void GrenadeAR2Think(); // size[518]
+	void GrenadeAR2Think(); // size[505]
 	void GetBaseMap(); // size[10]
 	CGrenadeAR2(); // size[50]
 };

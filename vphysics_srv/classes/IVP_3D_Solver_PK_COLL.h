@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x74 (116) bytes
+// Estimated minimum size: 0x8 (8) bytes
 
 class IVP_3D_Solver_PK_COLL : public IVP_3D_Solver
 {

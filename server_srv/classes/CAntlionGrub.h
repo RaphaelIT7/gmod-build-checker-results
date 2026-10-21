@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x5E5B1CC8 (1583029448) bytes
+// Estimated minimum size: 0x15C0 (5568) bytes
 
 class CAntlionGrub : public CBaseAnimating
 {
@@ -21,15 +21,15 @@ public:
 	void CreateGlow(); // size[749]
 	void FadeGlow(); // size[133]
 	void GetNuggetDenomination(); // size[208]
-	void CreateNugget(); // size[158]
-	void SetNextThinkByDistance(); // size[292]
-	void AttachToSurface(); // size[239]
+	void CreateNugget(); // size[163]
+	void SetNextThinkByDistance(); // size[322]
+	void AttachToSurface(); // size[593]
 	void MakeIdleSounds(); // size[155]
 	void IdleThink(); // size[611]
 	void SpawnSquashedGrub(); // size[687]
 	void MakeSquashDecals(Vector *param_1); // size[668]
 	void Squash(CBaseEntity *param_1, bool param_2, bool param_3); // size[255]
-	void GrubTouch(CBaseEntity *param_1); // size[126]
+	void GrubTouch(CBaseEntity *param_1); // size[156]
 	void InputSquash(inputdata_t *param_1); // size[33]
 	void Squash(CBaseEntity *param_1, bool param_2, bool param_3); // size[32]
 };

@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x5E5B1CC8 (1583029448) bytes
+// Estimated minimum size: 0x1694 (5780) bytes
 
 class CWeaponEgon : public CBaseHL1MPCombatWeapon
 {
@@ -23,7 +23,7 @@ public:
 	void UseAmmo(int param_1); // size[20]
 	void DestroyEffect(); // size[239]
 	void CreateEffect(); // size[20]
-	void UpdateEffect(Vector *param_1, Vector *param_2); // size[273]
+	void UpdateEffect(Vector *param_1, Vector *param_2); // size[411]
 	void Fire(Vector *param_1, Vector *param_2); // size[26]
-	void EndAttack(); // size[166]
+	void EndAttack(); // size[144]
 };

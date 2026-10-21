@@ -1,7 +1,7 @@
 // Generated header
 // Estimated minimum size: 0x4 (4) bytes
 
-class CBaseAppSystem : public IDataCache
+class CBaseAppSystem : public IMDLCache
 {
 public:
 	virtual void Connect(_func_void_ptr_char_ptr_int_ptr *param_1); // vtable[0]

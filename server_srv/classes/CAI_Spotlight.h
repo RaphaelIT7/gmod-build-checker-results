@@ -20,6 +20,6 @@ public:
 	void SetSpotlightTargetDirection(Vector *param_1); // size[202]
 	void ConstrainToCone(Vector *param_1); // size[1017]
 	void UpdateSpotlightDirection(); // size[1400]
-	void UpdateSpotlightEndpoint(); // size[491]
+	void UpdateSpotlightEndpoint(); // size[556]
 	void Update(); // size[83]
 };

@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x25AC (9644) bytes
+// Estimated minimum size: 0x14DC (5340) bytes
 
 class CTriggerPlayerMovement : public CBaseTrigger
 {

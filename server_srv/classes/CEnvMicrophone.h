@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x25AC (9644) bytes
+// Estimated minimum size: 0x1414 (5140) bytes
 
 class CEnvMicrophone : public CPointEntity
 {
@@ -18,7 +18,7 @@ public:
 	void CanHearSound(int param_1, soundlevel_t param_2, float *param_3, Vector *param_4); // size[722]
 	void SetSensitivity(float param_1); // size[21]
 	void InputDisable(inputdata_t *param_1); // size[190]
-	void ActivateSpeaker(); // size[342]
+	void ActivateSpeaker(); // size[293]
 	void InputEnable(inputdata_t *param_1); // size[85]
 	void SetSpeakerName(string_t param_1); // size[31]
 	void InputSetSpeakerName(inputdata_t *param_1); // size[45]

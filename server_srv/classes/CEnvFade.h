@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x25AC (9644) bytes
+// Estimated minimum size: 0x13BC (5052) bytes
 
 class CEnvFade : public CLogicalEntity
 {
@@ -11,6 +11,6 @@ public:
 	virtual void DrawDebugTextOverlays() override; // vtable[40]
 
 	void _GLOBAL__sub_I_m_DataMap(); // size[113]
-	void InputFade(inputdata_t *param_1); // size[160]
+	void InputFade(inputdata_t *param_1); // size[222]
 	void GetBaseMap(); // size[10]
 };

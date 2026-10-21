@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x48 (72) bytes
+// Estimated minimum size: 0x4 (4) bytes
 
 class CPushBlockerEnum : public IPartitionEnumerator
 {

@@ -19,7 +19,7 @@
 			"index": 1,
 			"name": "m_ScriptedEntity",
 			"excludeName": "NULL",
-			"offset": 10368,
+			"offset": 10372,
 			"bits": 0,
 			"type": "DPT_DataTable",
 			"flags": "Flags: PROXY_ALWAYS_YES",

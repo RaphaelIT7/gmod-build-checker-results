@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x34 (52) bytes
+// Estimated minimum size: 0x2C (44) bytes
 
 class CEngine : public IEngine
 {

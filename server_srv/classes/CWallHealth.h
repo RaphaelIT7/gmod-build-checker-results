@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x25AC (9644) bytes
+// Estimated minimum size: 0x14B0 (5296) bytes
 
 class CWallHealth : public CBaseToggle
 {
@@ -16,7 +16,7 @@ public:
 	virtual void UpdateOnRemove() override; // vtable[108]
 	virtual void CreateVPhysics() override; // vtable[157]
 
-	void Off(); // size[190]
+	void Off(); // size[212]
 	void Recharge(); // size[52]
 	void GetBaseMap(); // size[10]
 };

@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x115A0EC (18194668) bytes
+// Estimated minimum size: 0x1460 (5216) bytes
 
 class CPushable : public CBreakable
 {

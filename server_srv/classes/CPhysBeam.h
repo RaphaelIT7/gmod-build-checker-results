@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x25AC (9644) bytes
+// Estimated minimum size: 0x13B8 (5048) bytes
 
 class CPhysBeam : public CBaseEntity
 {
@@ -11,7 +11,7 @@ public:
 	virtual void ObjectCaps() override; // vtable[36]
 
 	CPhysBeam(); // size[28]
-	void Create(CBaseEntity *param_1, Vector *param_2); // size[30]
+	void Create(CBaseEntity *param_1, Vector *param_2); // size[12]
 	void ComputeEndPos(); // size[115]
 	void ReComputeCollisionBox(); // size[9]
 	void UpdateBeam(CBaseEntity *param_1, Vector *param_2, int param_3); // size[70]

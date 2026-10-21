@@ -19,7 +19,7 @@
 			"index": 1,
 			"name": "m_bJustThrown",
 			"excludeName": "NULL",
-			"offset": 5725,
+			"offset": 5729,
 			"bits": 1,
 			"type": "DPT_Int",
 			"flags": "Flags: UNSIGNED",

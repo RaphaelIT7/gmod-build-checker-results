@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x10008 (65544) bytes
+// Estimated minimum size: 0x18 (24) bytes
 
 class CAI_Pathfinder : public CAI_Component
 {
@@ -18,18 +18,17 @@ public:
 	void Init(CAI_Network *param_1); // size[14]
 	void UseStrongOptimizations(); // size[42]
 	void ComputeWaypointType(CAI_Node * *param_1, int param_2, int param_3); // size[386]
-	void MakeRouteFromParents(int *param_1, int param_2); // size[294]
-	void NearestNodeToNPC(); // size[81]
-	void NearestNodeToPoint(Vector *param_1); // size[28]
-	void CreateNodeWaypoint(Hull_t param_1, int param_2, int param_3); // size[61]
+	void MakeRouteFromParents(int *param_1, int param_2); // size[11]
+	void NearestNodeToNPC(); // size[11]
+	void NearestNodeToPoint(Vector *param_1); // size[52]
+	void CreateNodeWaypoint(Hull_t param_1, int param_2, int param_3); // size[189]
 	void RouteToNode(Vector *param_1, int param_2, int param_3, float param_4); // size[259]
-	void RouteFromNode(Vector *param_1, int param_2, int param_3, float param_4); // size[448]
-	void BuildSimpleRoute(Navigation_t param_1, Vector *param_2, Vector *param_3, CBaseEntity *param_4, int param_5, int param_6, int param_7, float param_8); // size[98]
+	void RouteFromNode(Vector *param_1, int param_2, int param_3, float param_4); // size[218]
+	void BuildSimpleRoute(Navigation_t param_1, Vector *param_2, Vector *param_3, CBaseEntity *param_4, int param_5, int param_6, int param_7, float param_8); // size[244]
 	void BuildJumpRoute(Vector *param_1, Vector *param_2, CBaseEntity *param_3, int param_4, int param_5, int param_6, float param_7); // size[81]
-	void BuildClimbRoute(Vector *param_1, Vector *param_2, CBaseEntity *param_3, int param_4, int param_5, int param_6, float param_7); // size[81]
 	void CanGiveWay(Vector *param_1, Vector *param_2, CBaseEntity *param_3); // size[64]
-	void BuildComplexRoute(Navigation_t param_1, Vector *param_2, Vector *param_3, CBaseEntity *param_4, int param_5, int param_6, int param_7, float param_8, float param_9, float param_10); // size[1117]
-	void BuildGroundRoute(Vector *param_1, Vector *param_2, CBaseEntity *param_3, int param_4, int param_5, int param_6, float param_7, float param_8); // size[1]
+	void BuildComplexRoute(Navigation_t param_1, Vector *param_2, Vector *param_3, CBaseEntity *param_4, int param_5, int param_6, int param_7, float param_8, float param_9, float param_10); // size[367]
+	void BuildGroundRoute(Vector *param_1, Vector *param_2, CBaseEntity *param_3, int param_4, int param_5, int param_6, float param_7, float param_8); // size[122]
 	void BuildFlyRoute(Vector *param_1, Vector *param_2, CBaseEntity *param_3, int param_4, int param_5, int param_6, float param_7, float param_8); // size[122]
 	void BuildRouteThroughPoints(Vector *param_1, int param_2, int param_3, int param_4, int param_5, Navigation_t param_6, CBaseEntity *param_7); // size[737]
 	void BuildRoute(Vector *param_1, Vector *param_2, CBaseEntity *param_3, float param_4, Navigation_t param_5, bool param_6); // size[384]
@@ -39,9 +38,10 @@ public:
 	void TestTriangulationRoute(Navigation_t param_1, Vector *param_2, Vector *param_3, Vector *param_4, CBaseEntity *param_5, AIMoveTrace_t *param_6); // size[259]
 	void Triangulate(Navigation_t param_1, Vector *param_2, Vector *param_3, float param_4, CBaseEntity *param_5, Vector *param_6); // size[1779]
 	void Triangulate(Navigation_t param_1, Vector *param_2, Vector *param_3, float param_4, CBaseEntity *param_5, Vector *param_6); // size[81]
-	void CheckStaleNavTypeRoute(Navigation_t param_1, Vector *param_2, Vector *param_3); // size[371]
+	void CheckStaleNavTypeRoute(Navigation_t param_1, Vector *param_2, Vector *param_3); // size[36]
+	void CheckStaleRoute(Vector *param_1, Vector *param_2, int param_3); // size[461]
 	void IsLinkStillStale(int param_1, CAI_Link *param_2); // size[372]
 	void IsLinkUsable(CAI_Link *param_1, int param_2); // size[1024]
-	void FindBestPath(int param_1, int param_2); // size[2046]
+	void FindBestPath(int param_1, int param_2); // size[2110]
 	void FindShortRandomPath(int param_1, float param_2, Vector *param_3); // size[2001]
 };

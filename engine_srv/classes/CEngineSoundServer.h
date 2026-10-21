@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x68 (104) bytes
+// Estimated minimum size: 0x4 (4) bytes
 
 class CEngineSoundServer : public IEngineSound
 {

@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x25AC (9644) bytes
+// Estimated minimum size: 0x1654 (5716) bytes
 
 class CFuncTankCombineCannon : public CFuncTankGun
 {
@@ -20,7 +20,7 @@ public:
 	void InputDisableHarrass(inputdata_t *param_1); // size[15]
 	void FuncTankPostThink(); // size[58]
 	void GetBaseMap(); // size[10]
-	void CreateBeam(); // size[534]
+	void CreateBeam(); // size[123]
 	void UpdateBeamThink(); // size[81]
 	void DestroyBeam(); // size[85]
 	void AdjustRateOfFire(); // size[18]

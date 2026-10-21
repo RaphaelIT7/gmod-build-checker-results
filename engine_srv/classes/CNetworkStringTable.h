@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x64C (1612) bytes
+// Estimated minimum size: 0x3C (60) bytes
 
 class CNetworkStringTable : public INetworkStringTable
 {
@@ -34,14 +34,14 @@ public:
 	void UpdateMirrorTable(int param_1); // size[262]
 	void GMOD_WriteUpdateSelective(bf_write *param_1, int param_2, int param_3); // size[655]
 	void CopyStringTable(CNetworkStringTable *param_1); // size[131]
-	void TriggerCallbacks(int param_1); // size[208]
+	void TriggerCallbacks(int param_1); // size[57]
 	void DataChanged(int param_1, CNetworkStringTableItem *param_2); // size[102]
-	void WriteStringTable(bf_write *param_1); // size[382]
+	void WriteStringTable(bf_write *param_1); // size[626]
 	void GMOD_ClearMirrorIfThis(CNetworkStringTable *param_1); // size[25]
-	void SetAllowClientSideAddString(bool param_1); // size[51]
+	void SetAllowClientSideAddString(bool param_1); // size[118]
 	void DeleteAllStrings(); // size[59]
-	void ReadStringTable(bf_read *param_1); // size[1101]
-	CNetworkStringTable(int param_1, char *param_2, int param_3, int param_4, int param_5, bool param_6); // size[378]
+	void ReadStringTable(bf_read *param_1); // size[928]
+	CNetworkStringTable(int param_1, char *param_2, int param_3, int param_4, int param_5, bool param_6); // size[410]
 	void WriteUpdate(CBaseClient *param_1, bf_write *param_2, int param_3, bool param_4); // size[1936]
 	void WriteBaselines(SVC_CreateStringTable *param_1, char *param_2, int param_3, bool param_4); // size[409]
 	void ParseUpdate(bf_read *param_1, int param_2); // size[1759]

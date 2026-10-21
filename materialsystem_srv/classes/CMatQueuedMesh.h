@@ -59,5 +59,5 @@ public:
 
 	void ExecuteDefferredBuild(uchar *param_1, int param_2, int param_3, ushort *param_4, int param_5); // size[851]
 	void DeferredGetDynamicMesh(ulonglong param_1, uint param_2, IMesh *param_3, IMesh *param_4, IMaterialInternal *param_5); // size[180]
-	void OnGetDynamicMesh(ulonglong param_1, uint param_2, IMesh *param_3, IMesh *param_4, IMaterialInternal *param_5, int param_6); // size[724]
+	void OnGetDynamicMesh(ulonglong param_1, uint param_2, IMesh *param_3, IMesh *param_4, IMaterialInternal *param_5, int param_6); // size[217]
 };

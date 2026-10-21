@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x4C (76) bytes
+// Estimated minimum size: 0x5C (92) bytes
 
 class CTEBeamRingPoint : public CTEBaseBeam
 {
@@ -11,5 +11,5 @@ public:
 	virtual void Test(Vector *param_1, QAngle *param_2) override; // vtable[4]
 
 	_GLOBAL__sub_I_CTEBeamRingPoint(); // size[112]
-	CTEBeamRingPoint(char *param_1); // size[28]
+	CTEBeamRingPoint(char *param_1); // size[65]
 };

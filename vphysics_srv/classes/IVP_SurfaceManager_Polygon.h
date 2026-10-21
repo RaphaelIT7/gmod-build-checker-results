@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x24 (36) bytes
+// Estimated minimum size: 0x8 (8) bytes
 
 class IVP_SurfaceManager_Polygon : public IVP_SurfaceManager
 {
@@ -16,7 +16,7 @@ public:
 	virtual ~IVP_SurfaceManager_Polygon(); // vtable[10]
 	virtual void get_type(); // vtable[11]
 
-	IVP_SurfaceManager_Polygon(); // size[14]
-	void get_compact_surface(); // size[11]
-	IVP_SurfaceManager_Polygon(IVP_Compact_Surface *param_1); // size[20]
+	IVP_SurfaceManager_Polygon(); // size[11]
+	void get_compact_surface(); // size[5]
+	IVP_SurfaceManager_Polygon(IVP_Compact_Surface *param_1); // size[15]
 };

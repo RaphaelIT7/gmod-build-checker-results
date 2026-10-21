@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x14 (20) bytes
+// Estimated minimum size: 0x10 (16) bytes
 
 class GroundLocomotionCollisionTraceFilter : public CTraceFilterSimple
 {

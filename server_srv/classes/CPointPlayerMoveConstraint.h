@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x25AC (9644) bytes
+// Estimated minimum size: 0x13D8 (5080) bytes
 
 class CPointPlayerMoveConstraint : public CBaseEntity
 {
@@ -11,8 +11,8 @@ public:
 	virtual void Activate() override; // vtable[34]
 
 	void _GLOBAL__sub_I_m_DataMap(); // size[113]
-	void ConstraintThink(); // size[413]
+	void ConstraintThink(); // size[424]
 	void GetBaseMap(); // size[10]
-	void InputTurnOff(inputdata_t *param_1); // size[140]
+	void InputTurnOff(inputdata_t *param_1); // size[160]
 	void InputTurnOn(inputdata_t *param_1); // size[781]
 };

@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x2C (44) bytes
+// Estimated minimum size: 0x4 (4) bytes
 
 class ITextureInternal : public ITexture
 {

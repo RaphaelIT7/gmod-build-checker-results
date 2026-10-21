@@ -81,7 +81,7 @@ public:
 	virtual void ProcessCmdKeyValues(SVC_CmdKeyValues *param_1); // vtable[29]
 	virtual void ProcessGMod_ServerToClient(SVC_GMod_ServerToClient *param_1); // vtable[30]
 	virtual ~CClientState(); // vtable[0]
-	virtual ~CClientState(); // vtable[1]
+	virtual void _ZThn68292_N12CClientStateD0Ev(); // vtable[1]
 
 	void SendClientInfo(); // size[5]
 	void SendServerCmdKeyValues(KeyValues *param_1); // size[5]

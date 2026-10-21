@@ -1,8 +1,8 @@
 // Generated header
-// Estimated minimum size: 0xC (12) bytes
+// Estimated minimum size: 0x0 (0) bytes
 
 class CPolyhedron
 {
 public:
-	void Center(); // size[207]
+	void Center(); // size[229]
 };

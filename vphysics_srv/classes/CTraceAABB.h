@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x24 (36) bytes
+// Estimated minimum size: 0x8 (8) bytes
 
 class CTraceAABB : public ITraceObject
 {
@@ -8,5 +8,5 @@ public:
 	virtual void GetVertByIndex(int param_1); // vtable[1]
 	virtual void Radius(); // vtable[2]
 
-	CTraceAABB(Vector *param_1, Vector *param_2, bool param_3); // size[172]
+	CTraceAABB(Vector *param_1, Vector *param_2, bool param_3); // size[142]
 };

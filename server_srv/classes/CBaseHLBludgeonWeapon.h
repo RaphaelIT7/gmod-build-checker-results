@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x5E5B1CC8 (1583029448) bytes
+// Estimated minimum size: 0x1678 (5752) bytes
 
 class CBaseHLBludgeonWeapon : public CBaseHLCombatWeapon
 {
@@ -25,7 +25,7 @@ public:
 	void _GLOBAL__sub_I_GetServerClass(); // size[112]
 	CBaseHLBludgeonWeapon(); // size[37]
 	void Hit(CGameTrace *param_1, Activity param_2, bool param_3); // size[23]
-	void ChooseIntersectionPointAndActivity(CGameTrace *param_1, Vector *param_2, Vector *param_3, CBasePlayer *param_4); // size[287]
+	void ChooseIntersectionPointAndActivity(CGameTrace *param_1, Vector *param_2, Vector *param_3, CBasePlayer *param_4); // size[271]
 	void ImpactWater(Vector *param_1, Vector *param_2); // size[189]
 	void Swing(int param_1); // size[116]
 };

@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x44 (68) bytes
+// Estimated minimum size: 0x8 (8) bytes
 
 class IVP_OO_Watcher : public IVP_Collision, public IVP_Collision_Delegator
 {
@@ -16,9 +16,9 @@ public:
 	virtual void change_spawned_mindist_count(int param_1); // vtable[3]
 	virtual void get_spawned_mindist_count(); // vtable[4]
 
-	IVP_OO_Watcher(IVP_Collision_Delegator *param_1, IVP_Real_Object *param_2, IVP_Real_Object *param_3); // size[58]
-	void get_synapse(int param_1); // size[17]
-	void hull_limit_exceeded_event(); // size[290]
-	IVP_OO_Watcher(IVP_Collision_Delegator *param_1, IVP_Real_Object *param_2, IVP_Real_Object *param_3); // size[138]
-	void hull_manager_is_going_to_be_deleted_event(); // size[61]
+	IVP_OO_Watcher(IVP_Collision_Delegator *param_1, IVP_Real_Object *param_2, IVP_Real_Object *param_3); // size[49]
+	void get_synapse(int param_1); // size[13]
+	void hull_limit_exceeded_event(); // size[319]
+	IVP_OO_Watcher(IVP_Collision_Delegator *param_1, IVP_Real_Object *param_2, IVP_Real_Object *param_3); // size[311]
+	void hull_manager_is_going_to_be_deleted_event(); // size[63]
 };

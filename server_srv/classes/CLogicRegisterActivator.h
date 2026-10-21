@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x25AC (9644) bytes
+// Estimated minimum size: 0x1418 (5144) bytes
 
 class CLogicRegisterActivator : public CLogicalEntity
 {
@@ -11,10 +11,10 @@ public:
 	void InputEnable(inputdata_t *param_1); // size[15]
 	void InputDisable(inputdata_t *param_1); // size[15]
 	void InputToggle(inputdata_t *param_1); // size[15]
-	void InputFireRegisteredAsActivator1(inputdata_t *param_1); // size[99]
-	void InputFireRegisteredAsActivator2(inputdata_t *param_1); // size[99]
-	void InputFireRegisteredAsActivator3(inputdata_t *param_1); // size[99]
-	void InputFireRegisteredAsActivator4(inputdata_t *param_1); // size[99]
+	void InputFireRegisteredAsActivator1(inputdata_t *param_1); // size[105]
+	void InputFireRegisteredAsActivator2(inputdata_t *param_1); // size[105]
+	void InputFireRegisteredAsActivator3(inputdata_t *param_1); // size[105]
+	void InputFireRegisteredAsActivator4(inputdata_t *param_1); // size[105]
 	void InputRegisterEntity(inputdata_t *param_1); // size[142]
 	void GetBaseMap(); // size[10]
 	CLogicRegisterActivator(); // size[26]

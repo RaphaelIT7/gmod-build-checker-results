@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x25AC (9644) bytes
+// Estimated minimum size: 0x1414 (5140) bytes
 
 class CTriggerCamera : public CBaseEntity
 {
@@ -18,16 +18,16 @@ public:
 	void InputSetTarget(inputdata_t *param_1); // size[350]
 	void InputSetPath(inputdata_t *param_1); // size[549]
 	void GetBaseMap(); // size[10]
-	CTriggerCamera(); // size[10]
+	CTriggerCamera(); // size[26]
 	void FindAttachment(); // size[467]
 	void InputSetTargetAttachment(inputdata_t *param_1); // size[77]
 	void Disable(); // size[824]
 	void InputDisable(inputdata_t *param_1); // size[9]
 	void InputTeleportToView(inputdata_t *param_1); // size[680]
-	void MoveViewTo(QAngle param_1); // size[332]
+	void MoveViewTo(QAngle param_1); // size[326]
 	void ReturnToEyes(); // size[609]
-	void Move(); // size[1143]
-	void Enable(); // size[2590]
+	void Move(); // size[1112]
+	void Enable(); // size[2409]
 	void InputEnable(inputdata_t *param_1); // size[94]
-	void FollowTarget(); // size[915]
+	void FollowTarget(); // size[710]
 };

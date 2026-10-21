@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x40 (64) bytes
+// Estimated minimum size: 0x8 (8) bytes
 
 class IVP_Friction_Sys_Static : public IVP_Controller_Independent
 {
@@ -14,5 +14,5 @@ public:
 	virtual ~IVP_Friction_Sys_Static(); // vtable[7]
 	virtual ~IVP_Friction_Sys_Static(); // vtable[8]
 
-	void do_simulation_single_friction(IVP_Event_Sim *param_1); // size[88]
+	void do_simulation_single_friction(IVP_Event_Sim *param_1); // size[92]
 };

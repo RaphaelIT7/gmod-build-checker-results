@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x98 (152) bytes
+// Estimated minimum size: 0x8 (8) bytes
 
 class hk_Ball_Socket_Constraint : public hk_Constraint
 {
@@ -13,9 +13,8 @@ public:
 	virtual void get_constraint_dof(); // vtable[7]
 	virtual void init_constraint(void *param_1); // vtable[8]
 
-	_GLOBAL__sub_I_hk_Ball_Socket_Constraint(); // size[1]
-	hk_Ball_Socket_Constraint(hk_Environment *param_1, hk_Ball_Socket_BP *param_2, hk_Rigid_Body *param_3, hk_Rigid_Body *param_4); // size[143]
-	hk_Ball_Socket_Constraint(hk_Local_Constraint_System *param_1, hk_Ball_Socket_BP *param_2, hk_Rigid_Body *param_3, hk_Rigid_Body *param_4); // size[134]
-	void write_to_blueprint(hk_Ball_Socket_BP *param_1); // size[90]
-	void apply_effector_PSI(hk_PSI_Info *param_1); // size[77]
+	hk_Ball_Socket_Constraint(hk_Environment *param_1, hk_Ball_Socket_BP *param_2, hk_Rigid_Body *param_3, hk_Rigid_Body *param_4); // size[103]
+	hk_Ball_Socket_Constraint(hk_Local_Constraint_System *param_1, hk_Ball_Socket_BP *param_2, hk_Rigid_Body *param_3, hk_Rigid_Body *param_4); // size[101]
+	void write_to_blueprint(hk_Ball_Socket_BP *param_1); // size[80]
+	void apply_effector_PSI(hk_PSI_Info *param_1); // size[68]
 };

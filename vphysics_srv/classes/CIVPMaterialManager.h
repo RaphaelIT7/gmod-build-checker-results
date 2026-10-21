@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x110 (272) bytes
+// Estimated minimum size: 0x8 (8) bytes
 
 class CIVPMaterialManager : public IVP_Material_Manager
 {
@@ -10,7 +10,7 @@ public:
 	virtual void get_friction_factor(IVP_Contact_Situation *param_1) override; // vtable[3]
 	virtual void get_elasticity(IVP_Contact_Situation *param_1) override; // vtable[4]
 
-	CIVPMaterialManager(); // size[124]
-	void RemapIVPMaterialIndex(int param_1); // size[21]
-	void SetPropMap(int *param_1, int param_2); // size[214]
+	CIVPMaterialManager(); // size[127]
+	void RemapIVPMaterialIndex(int param_1); // size[14]
+	void SetPropMap(int *param_1, int param_2); // size[194]
 };

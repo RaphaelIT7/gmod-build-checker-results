@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x17A8 (6056) bytes
+// Estimated minimum size: 0x10 (16) bytes
 
 class CHunterTraceFilterSkipPhysics : public CTraceFilter
 {

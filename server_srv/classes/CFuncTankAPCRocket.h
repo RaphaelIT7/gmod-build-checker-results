@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x25AC (9644) bytes
+// Estimated minimum size: 0x1630 (5680) bytes
 
 class CFuncTankAPCRocket : public CFuncTank
 {
@@ -14,7 +14,7 @@ public:
 	virtual void GetShotSpeed() override; // vtable[251]
 	virtual void Fire(int param_1, Vector *param_2, Vector *param_3, CBaseEntity *param_4, bool param_5) override; // vtable[254]
 
-	void InputDeathVolley(inputdata_t *param_1); // size[35]
+	void InputDeathVolley(inputdata_t *param_1); // size[65]
 	void GetBaseMap(); // size[10]
 	void FireDying(Vector *param_1); // size[39]
 };

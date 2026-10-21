@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x25AC (9644) bytes
+// Estimated minimum size: 0x141C (5148) bytes
 
 class CPointTemplate : public CLogicalEntity
 {
@@ -11,16 +11,16 @@ public:
 	virtual void Precache() override; // vtable[24]
 	virtual void PerformPrecache(); // vtable[246]
 
-	void GetBaseMap(); // size[1]
+	void GetBaseMap(); // size[10]
 	void AllowNameFixup(); // size[22]
 	void ShouldRemoveTemplateEntities(); // size[23]
 	void GetNumTemplates(); // size[14]
 	void GetTemplateIndexForTemplate(int param_1); // size[27]
 	void GetNumTemplateEntities(); // size[14]
 	void GetTemplateEntity(int param_1); // size[65]
-	void FinishBuildingTemplates(); // size[34]
+	void FinishBuildingTemplates(); // size[59]
 	void StartBuildingTemplates(); // size[305]
 	void AddTemplate(CBaseEntity *param_1, char *param_2, int param_3); // size[408]
-	void CreateInstance(Vector *param_1, QAngle *param_2, CUtlVector *param_3); // size[648]
-	void InputForceSpawn(inputdata_t *param_1); // size[177]
+	void CreateInstance(Vector *param_1, QAngle *param_2, CUtlVector *param_3); // size[897]
+	void InputForceSpawn(inputdata_t *param_1); // size[214]
 };

@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x30 (48) bytes
+// Estimated minimum size: 0x8 (8) bytes
 
 class CPhysCollideVirtualMesh : public CPhysCollide
 {
@@ -21,16 +21,16 @@ public:
 	virtual void ComputeOrthographicAreas(float param_1); // vtable[14]
 	virtual void GetCollideMap(); // vtable[15]
 
-	void CreateBoundingSurfaceFromRange(virtualmeshlist_t *param_1, int param_2, int param_3); // size[50]
-	void GetSphereRadiusIVP(); // size[41]
-	void Release(); // size[27]
-	void BuildLedges(); // size[790]
-	void AddRef(); // size[152]
-	void AddRef(); // size[46]
-	void CreateBoundingSurfaceFromRange(virtualmeshlist_t *param_1, int param_2, int param_3); // size[791]
-	void CreateMeshBoundingHull(virtualmeshlist_t *param_1); // size[268]
-	void CreateMeshBoundingHull(virtualmeshlist_t *param_1); // size[23]
-	void BuildBoundingLedge(); // size[74]
-	void FrameRelease(); // size[253]
-	void GetAllLedgesWithinRadius(IVP_U_Point *param_1, double param_2, IVP_U_BigVector *param_3, IVP_Compact_Ledge *param_4); // size[103]
+	void CreateBoundingSurfaceFromRange(virtualmeshlist_t *param_1, int param_2, int param_3); // size[38]
+	void GetSphereRadiusIVP(); // size[23]
+	void Release(); // size[16]
+	void BuildLedges(); // size[739]
+	void AddRef(); // size[151]
+	void AddRef(); // size[53]
+	void CreateBoundingSurfaceFromRange(virtualmeshlist_t *param_1, int param_2, int param_3); // size[856]
+	void CreateMeshBoundingHull(virtualmeshlist_t *param_1); // size[275]
+	void CreateMeshBoundingHull(virtualmeshlist_t *param_1); // size[15]
+	void BuildBoundingLedge(); // size[92]
+	void FrameRelease(); // size[306]
+	void GetAllLedgesWithinRadius(IVP_U_Point *param_1, double param_2, IVP_U_BigVector *param_3, IVP_Compact_Ledge *param_4); // size[543]
 };

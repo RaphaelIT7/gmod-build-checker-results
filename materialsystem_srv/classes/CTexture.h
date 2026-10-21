@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x2160B24 (34999076) bytes
+// Estimated minimum size: 0x68 (104) bytes
 
 class CTexture : public ITextureInternal
 {
@@ -17,7 +17,7 @@ public:
 	virtual void IncrementReferenceCount(); // vtable[10]
 	virtual void DecrementReferenceCount(); // vtable[11]
 	virtual void SetTextureRegenerator(ITextureRegenerator *param_1); // vtable[12]
-	virtual void _ZN8CTexture8DownloadEP6Rect_ti(); // vtable[13]
+	virtual void Download(Rect_t *param_1, int param_2); // vtable[13]
 	virtual void GetApproximateVidMemBytes(); // vtable[14]
 	virtual void IsError(); // vtable[15]
 	virtual void IsVolumeTexture(); // vtable[16]
@@ -100,7 +100,7 @@ public:
 	void NotifyUnloadedFile(); // size[193]
 	void Shutdown(); // size[137]
 	CTexture(); // size[298]
-	void LoadTextureBitsFromFile(char *param_1, char * *param_2, bool param_3); // size[596]
-	void ReconstructTexture(); // size[805]
+	void LoadTextureBitsFromFile(char *param_1, char * *param_2, bool param_3); // size[1741]
+	void ReconstructTexture(); // size[834]
 	void DownloadTexture(Rect_t *param_1); // size[105]
 };

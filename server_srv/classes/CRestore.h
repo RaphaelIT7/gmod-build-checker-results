@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x564 (1380) bytes
+// Estimated minimum size: 0x28 (40) bytes
 
 class CRestore : public IRestore
 {
@@ -24,7 +24,7 @@ public:
 	virtual void ReadFloat(float *param_1, int param_2, int param_3); // vtable[17]
 	virtual void ReadData(char *param_1, int param_2, int param_3); // vtable[18]
 	virtual void ReadString(char *param_1, int param_2, int param_3); // vtable[19]
-	virtual void _ZN8CRestore10ReadStringEP8string_tii(); // vtable[20]
+	virtual void ReadString(string_t *param_1, int param_2, int param_3); // vtable[20]
 	virtual void ReadVector(Vector *param_1); // vtable[21]
 	virtual void ReadVector(Vector *param_1, int param_2, int param_3); // vtable[22]
 	virtual void ReadQuaternion(Quaternion *param_1); // vtable[23]
@@ -54,10 +54,10 @@ public:
 	void BufferPointer(); // size[22]
 	void BufferReadBytes(char *param_1, int param_2); // size[107]
 	void BufferSkipBytes(int param_1); // size[34]
-	void ReadInterval(interval_t *param_1, int param_2, int param_3); // size[173]
-	void ReadGMODTable(IGMODDataTable *param_1, int param_2); // size[1617]
+	void ReadInterval(interval_t *param_1, int param_2, int param_3); // size[178]
+	void ReadGMODTable(IGMODDataTable *param_1, int param_2); // size[1640]
 	void EntityFromIndex(int param_1); // size[118]
-	void ReadTime64(double *param_1, int param_2, int param_3); // size[222]
+	void ReadTime64(double *param_1, int param_2, int param_3); // size[205]
 	void ReadGameField(SaveRestoreRecordHeader_t *param_1, void *param_2, datamap_t *param_3, typedescription_t *param_4); // size[1293]
 	void ReadField(SaveRestoreRecordHeader_t *param_1, void *param_2, datamap_t *param_3, typedescription_t *param_4); // size[56]
 	CRestore(CSaveRestoreData *param_1); // size[115]

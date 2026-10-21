@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x25AC (9644) bytes
+// Estimated minimum size: 0x13E8 (5096) bytes
 
 class CTesla : public CBaseEntity
 {
@@ -21,7 +21,7 @@ public:
 	void SetupForNextArc(); // size[56]
 	void InputTurnOff(inputdata_t *param_1); // size[19]
 	void GetSourceEntity(); // size[94]
-	void DoSpark(); // size[323]
+	void DoSpark(); // size[11]
 	void ShootArcThink(); // size[31]
 	void InputDoSpark(inputdata_t *param_1); // size[9]
 };

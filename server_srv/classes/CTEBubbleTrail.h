@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x18 (24) bytes
+// Estimated minimum size: 0x34 (52) bytes
 
 class CTEBubbleTrail : public CBaseTempEntity
 {
@@ -11,5 +11,5 @@ public:
 	virtual void Test(Vector *param_1, QAngle *param_2) override; // vtable[4]
 
 	_GLOBAL__sub_I_CTEBubbleTrail(); // size[112]
-	CTEBubbleTrail(char *param_1); // size[49]
+	CTEBubbleTrail(char *param_1); // size[94]
 };

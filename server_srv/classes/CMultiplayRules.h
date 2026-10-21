@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x5D0 (1488) bytes
+// Estimated minimum size: 0x40 (64) bytes
 
 class CMultiplayRules : public CGameRules
 {
@@ -60,7 +60,7 @@ public:
 	virtual void RadiusDamage(CTakeDamageInfo *param_1, Vector *param_2, float param_3, int param_4, CBaseEntity *param_5); // vtable[68]
 	virtual void FlPlayerFallDeathDoesScreenFade(CBasePlayer *param_1); // vtable[69]
 	virtual void AllowDamage(CBaseEntity *param_1, CTakeDamageInfo *param_2); // vtable[70]
-	virtual void _ZN15CMultiplayRules11PlayerSpawnEP11CBasePlayer(); // vtable[71]
+	virtual void PlayerSpawn(CBasePlayer *param_1); // vtable[71]
 	virtual void PlayerThink(CBasePlayer *param_1); // vtable[72]
 	virtual void FPlayerCanRespawn(CBasePlayer *param_1); // vtable[73]
 	virtual void FlPlayerSpawnTime(CBasePlayer *param_1); // vtable[74]
@@ -147,7 +147,7 @@ public:
 	void IncrementMapCycleIndex(); // size[36]
 	void IsLoadingBugBaitReport(); // size[101]
 	void HaveAllPlayersSpeakConceptIfAllowed(int param_1, int param_2, char *param_3); // size[245]
-	void LoapMapCycleFileIntoVector(char *param_1, CUtlVector *param_2); // size[669]
+	void LoapMapCycleFileIntoVector(char *param_1, CUtlVector *param_2); // size[687]
 	void DetermineMapCycleFilename(char *param_1, int param_2, bool param_3); // size[526]
 	void LoadMapCycleFile(); // size[197]
 	void LoadVoiceCommandScript(); // size[502]

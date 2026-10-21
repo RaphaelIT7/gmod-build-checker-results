@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x25AC (9644) bytes
+// Estimated minimum size: 0x13E0 (5088) bytes
 
 class CPointCamera : public CBaseEntity
 {
@@ -18,6 +18,6 @@ public:
 	void SetActive(bool param_1); // size[132]
 	void InputSetOn(inputdata_t *param_1); // size[37]
 	void InputSetOff(inputdata_t *param_1); // size[26]
-	void InputSetOnAndTurnOthersOff(inputdata_t *param_1); // size[112]
+	void InputSetOnAndTurnOthersOff(inputdata_t *param_1); // size[122]
 	void GetBaseMap(); // size[10]
 };

@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x5E5B1CC8 (1583029448) bytes
+// Estimated minimum size: 0x4B74 (19316) bytes
 
 class CWeaponPhysCannon : public CBaseHL2MPCombatWeapon
 {
@@ -35,17 +35,17 @@ public:
 	CWeaponPhysCannon(); // size[292]
 	void DryFire(); // size[64]
 	void PrimaryFireEffect(); // size[20]
-	void Physgun_OnPhysGunPickup(CBaseEntity *param_1, CBasePlayer *param_2, PhysGunPickup_t param_3); // size[1]
+	void Physgun_OnPhysGunPickup(CBaseEntity *param_1, CBasePlayer *param_2, PhysGunPickup_t param_3); // size[263]
 	void ApplyVelocityBasedForce(CBaseEntity *param_1, Vector *param_2, PhysGunForce_t param_3); // size[123]
 	void TraceLength(); // size[104]
 	void EntityAllowsPunts(CBaseEntity *param_1); // size[110]
 	void FindObjectTrace(CBasePlayer *param_1, CGameTrace *param_2); // size[70]
 	void FindObjectInCone(Vector *param_1, Vector *param_2, float param_3); // size[634]
-	void DoEffectIdle(); // size[1]
+	void DoEffectIdle(); // size[5]
 	void CanPickupObject(CBaseEntity *param_1); // size[169]
 	void GetLoadPercentage(); // size[94]
 	void GetMotorSound(); // size[62]
-	void DetachObject(bool param_1, bool param_2); // size[24]
+	void DetachObject(bool param_1, bool param_2); // size[13]
 	void DetachObject(bool param_1, bool param_2); // size[35]
 	void UpdateObject(); // size[19]
 	void StartEffects(); // size[5]
@@ -69,7 +69,7 @@ public:
 	void DoEffectNone(); // size[5]
 	void DoEffect(int param_1, Vector *param_2); // size[50]
 	void PuntNonVPhysics(CBaseEntity *param_1, Vector *param_2, CGameTrace *param_3); // size[179]
-	void PuntVPhysics(CBaseEntity *param_1, Vector *param_2, CGameTrace *param_3); // size[18]
+	void PuntVPhysics(CBaseEntity *param_1, Vector *param_2, CGameTrace *param_3); // size[26]
 	void PuntRagdoll(CBaseEntity *param_1, Vector *param_2, CGameTrace *param_3); // size[29]
 	void LaunchObject(Vector *param_1, float param_2); // size[398]
 	void BeginUpgrade(); // size[149]

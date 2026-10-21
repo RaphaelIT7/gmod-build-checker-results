@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x5E5B1CC8 (1583029448) bytes
+// Estimated minimum size: 0x1A8C (6796) bytes
 
 class CPropJeepEpisodic : public CPropJeep
 {
@@ -81,20 +81,20 @@ public:
 	void CreateHazardLights(); // size[1123]
 	void InputEnableHazardLights(inputdata_t *param_1); // size[30]
 	void GetBaseMap(); // size[10]
-	CPropJeepEpisodic(); // size[980]
+	CPropJeepEpisodic(); // size[958]
 	void PassengerInTransition(); // size[63]
 	void CreateCargoTrigger(); // size[343]
 	void UpdateWheelDust(); // size[5]
 	void UpdateCargoEntry(); // size[1097]
-	void CreateAvoidanceZone(); // size[52]
-	void AddPropToCargoHold(CPhysicsProp *param_1); // size[10]
-	void ReleasePropFromCargoHold(); // size[10]
+	void CreateAvoidanceZone(); // size[345]
+	void AddPropToCargoHold(CPhysicsProp *param_1); // size[137]
+	void ReleasePropFromCargoHold(); // size[393]
 	void InputReleaseBusterFromCargo(inputdata_t *param_1); // size[85]
-	void InputAddBusterToCargo(inputdata_t *param_1); // size[438]
+	void InputAddBusterToCargo(inputdata_t *param_1); // size[423]
 	void CreateHazardLights(); // size[23]
 	void DestroyHazardLights(); // size[143]
 	void InputDisableHazardLights(inputdata_t *param_1); // size[30]
-	void SetBusterHopperVisibility(bool param_1); // size[206]
+	void SetBusterHopperVisibility(bool param_1); // size[227]
 	void InputSetCargoVisibility(inputdata_t *param_1); // size[28]
 	void SpawnRadarPanel(); // size[120]
 	void InputEnableRadar(inputdata_t *param_1); // size[62]

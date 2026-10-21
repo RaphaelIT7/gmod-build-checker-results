@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x44 (68) bytes
+// Estimated minimum size: 0x8 (8) bytes
 
 class IVP_3D_Solver_S_VALS : public IVP_3D_Solver
 {

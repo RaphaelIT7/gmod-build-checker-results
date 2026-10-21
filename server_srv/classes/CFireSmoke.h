@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x25AC (9644) bytes
+// Estimated minimum size: 0x13C8 (5064) bytes
 
 class CFireSmoke : public CBaseFire
 {
@@ -8,9 +8,9 @@ public:
 	virtual ~CFireSmoke() override; // vtable[1]
 	virtual void GetServerClass() override; // vtable[10]
 	virtual void YouForgotToImplementOrDeclareServerClass() override; // vtable[11]
-	virtual void _ZN10CFireSmoke14GetDataDescMapEv() override; // vtable[12]
+	virtual void GetDataDescMap() override; // vtable[12]
 	virtual void Spawn() override; // vtable[23]
-	virtual void _ZN10CFireSmoke8PrecacheEv() override; // vtable[24]
+	virtual void Precache() override; // vtable[24]
 
 	void GetBaseMap(); // size[10]
 	CFireSmoke(); // size[82]

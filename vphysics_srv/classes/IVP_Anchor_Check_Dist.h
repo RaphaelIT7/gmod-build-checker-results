@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x1C (28) bytes
+// Estimated minimum size: 0x8 (8) bytes
 
 class IVP_Anchor_Check_Dist : public IVP_Listener_Hull
 {
@@ -11,6 +11,6 @@ public:
 	virtual ~IVP_Anchor_Check_Dist(); // vtable[4]
 	virtual ~IVP_Anchor_Check_Dist(); // vtable[5]
 
-	void init_anchor_check_dist(IVP_Real_Object *param_1, IVP_U_Point *param_2, IVP_Actuator_Check_Dist *param_3); // size[128]
-	IVP_Anchor_Check_Dist(); // size[14]
+	void init_anchor_check_dist(IVP_Real_Object *param_1, IVP_U_Point *param_2, IVP_Actuator_Check_Dist *param_3); // size[141]
+	IVP_Anchor_Check_Dist(); // size[11]
 };

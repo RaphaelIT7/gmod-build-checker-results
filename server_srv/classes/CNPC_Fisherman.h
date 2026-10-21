@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x5E5B1CC8 (1583029448) bytes
+// Estimated minimum size: 0x2EAC (11948) bytes
 
 class CNPC_Fisherman : public CNPC_PlayerCompanion
 {
@@ -12,15 +12,15 @@ public:
 	virtual void Activate() override; // vtable[34]
 	virtual void Classify() override; // vtable[55]
 	virtual void HandleAnimEvent(animevent_t *param_1) override; // vtable[261]
-	virtual void GetSchedulingErrorName() override; // vtable[432]
-	virtual void LoadedSchedules() override; // vtable[433]
-	virtual void DeathSound(CTakeDamageInfo *param_1) override; // vtable[507]
-	virtual void SquadSlotName(int param_1) override; // vtable[581]
-	virtual void ShouldLookForBetterWeapon() override; // vtable[606]
-	virtual void GetClassScheduleIdSpace() override; // vtable[640]
-	virtual void SelectModel() override; // vtable[722]
-	virtual void IgnorePlayerPushing() override; // vtable[731]
-	virtual CalcYawSpeed(); // vtable[0]
+	virtual void GetSchedulingErrorName() override; // vtable[433]
+	virtual void LoadedSchedules() override; // vtable[434]
+	virtual void DeathSound(CTakeDamageInfo *param_1) override; // vtable[508]
+	virtual void SquadSlotName(int param_1) override; // vtable[582]
+	virtual void ShouldLookForBetterWeapon() override; // vtable[607]
+	virtual void GetClassScheduleIdSpace() override; // vtable[641]
+	virtual void SelectModel() override; // vtable[723]
+	virtual void IgnorePlayerPushing() override; // vtable[732]
+	virtual void CalcYawSpeed(); // vtable[0]
 	virtual void OnCalcBaseMove(AILocalMoveGoal_t *param_1, float param_2, AIMoveResult_t *param_3); // vtable[1]
 	virtual void OnObstructionPreSteer(AILocalMoveGoal_t *param_1, float param_2, AIMoveResult_t *param_3); // vtable[2]
 	virtual void OnFailedSteer(AILocalMoveGoal_t *param_1, float param_2, AIMoveResult_t *param_3); // vtable[3]
@@ -62,6 +62,6 @@ public:
 	virtual void UseSemaphore(); // vtable[2]
 
 	void GetBaseMap(); // size[10]
-	void InitCustomSchedules(); // size[2219]
+	void InitCustomSchedules(); // size[312]
 	void LoadSchedules(); // size[62]
 };

@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x5E5B1CC8 (1583029448) bytes
+// Estimated minimum size: 0x1560 (5472) bytes
 
 class CWateryDeathLeech : public CBaseAnimating
 {
@@ -10,6 +10,6 @@ public:
 	virtual void Spawn() override; // vtable[23]
 	virtual void Precache() override; // vtable[24]
 
-	void LeechThink(); // size[935]
+	void LeechThink(); // size[943]
 	void GetBaseMap(); // size[10]
 };

@@ -8,7 +8,7 @@ public:
 	virtual ~DownloadAddons() override; // vtable[1]
 	virtual void Start(); // vtable[2]
 	virtual void Cycle(); // vtable[3]
-	virtual void Finished(); // vtable[4]
+	virtual void _ZN5Addon4Task14DownloadAddons8FinishedEv(); // vtable[4]
 	virtual void Init(FileSystem *param_1); // vtable[5]
 
 	_GLOBAL__sub_I_DownloadAddons(); // size[91]

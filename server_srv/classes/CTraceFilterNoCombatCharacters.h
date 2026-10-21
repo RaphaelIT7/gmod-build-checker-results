@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x16C (364) bytes
+// Estimated minimum size: 0x10 (16) bytes
 
 class CTraceFilterNoCombatCharacters : public CTraceFilterSimple
 {

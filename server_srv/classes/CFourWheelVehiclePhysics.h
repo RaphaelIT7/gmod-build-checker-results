@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x260 (608) bytes
+// Estimated minimum size: 0x138 (312) bytes
 
 class CFourWheelVehiclePhysics
 {
@@ -7,30 +7,30 @@ public:
 	virtual void GetDataDescMap(); // vtable[0]
 
 	void GetBaseMap(); // size[7]
-	CFourWheelVehiclePhysics(CBaseAnimating *param_1); // size[49]
-	~CFourWheelVehiclePhysics(); // size[33]
+	CFourWheelVehiclePhysics(CBaseAnimating *param_1); // size[172]
+	~CFourWheelVehiclePhysics(); // size[1]
 	void InitializePoseParameters(); // size[2837]
 	void CalcWheelData(vehicleparams_t *param_1); // size[5443]
 	void ParseVehicleScript(char *param_1, solid_t *param_2, vehicleparams_t *param_3); // size[369]
 	void Spawn(); // size[69]
-	void Initialize(char *param_1, uint param_2); // size[1045]
+	void Initialize(char *param_1, uint param_2); // size[1061]
 	void SetThrottle(float param_1); // size[18]
 	void SetMaxThrottle(float param_1); // size[18]
 	void SetMaxReverseThrottle(float param_1); // size[18]
-	void SetSteering(float param_1, float param_2); // size[58]
+	void SetSteering(float param_1, float param_2); // size[77]
 	void SetSteeringDegrees(float param_1); // size[43]
 	void SetAction(float param_1); // size[18]
 	void TurnOn(); // size[69]
 	void TurnOff(); // size[86]
 	void SetBoost(float param_1); // size[51]
-	void UpdateBooster(); // size[45]
+	void UpdateBooster(); // size[9]
 	void SetHasBrakePedal(bool param_1); // size[14]
 	void GMOD_UpdateSomeShit(); // size[60]
 	void Teleport(matrix3x4_t *param_1); // size[188]
-	void DrawDebugGeometryOverlays(); // size[1902]
+	void DrawDebugGeometryOverlays(); // size[319]
 	void DrawDebugTextOverlays(int param_1); // size[160]
 	void PlaceWheelDust(int param_1, bool param_2); // size[5]
-	void VPhysicsUpdate(IPhysicsObject *param_1); // size[58]
+	void VPhysicsUpdate(IPhysicsObject *param_1); // size[14]
 	void GetVehicleViewPosition(char *param_1, float param_2, Vector *param_3, QAngle *param_4); // size[755]
 	void ResetControls(); // size[36]
 	void ReleaseHandbrake(); // size[12]
@@ -44,7 +44,7 @@ public:
 	void SteeringTurn(float param_1, vehicleparams_t *param_2, bool param_3, bool param_4, bool param_5); // size[820]
 	void SteeringTurnAnalog(float param_1, vehicleparams_t *param_2, float param_3); // size[415]
 	void IsBoosting(); // size[81]
-	void UpdateDriverControls(CUserCmd *param_1, float param_2); // size[730]
+	void UpdateDriverControls(CUserCmd *param_1, float param_2); // size[3117]
 	void Think(); // size[1421]
 	void SetDisableEngine(bool param_1); // size[35]
 	void VPhysicsGetObjectList(IPhysicsObject * *param_1, int param_2); // size[149]

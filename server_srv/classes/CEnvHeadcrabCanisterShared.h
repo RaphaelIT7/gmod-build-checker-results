@@ -11,7 +11,7 @@ public:
 	void GetBaseMap(); // size[7]
 	CEnvHeadcrabCanisterShared(); // size[238]
 	void InitInWorld(double param_1, Vector *param_2, QAngle *param_3, Vector *param_4, Vector *param_5, bool param_6); // size[298]
-	void InitInSkybox(double param_1, Vector *param_2, QAngle *param_3, Vector *param_4, Vector *param_5, Vector *param_6, float param_7); // size[431]
+	void InitInSkybox(double param_1, Vector *param_2, QAngle *param_3, Vector *param_4, Vector *param_5, Vector *param_6, float param_7); // size[60]
 	void ConvertFromSkyboxToWorld(); // size[41]
 	void GetEnterWorldTime(); // size[24]
 	void DidImpact(double param_1); // size[33]

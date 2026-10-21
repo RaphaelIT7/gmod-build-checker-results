@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x25AC (9644) bytes
+// Estimated minimum size: 0x14CC (5324) bytes
 
 class CPointWorldText : public CBaseEntity
 {
@@ -21,7 +21,7 @@ public:
 	void InputDisable(inputdata_t *param_1); // size[99]
 	void InputToggle(inputdata_t *param_1); // size[96]
 	void InputSetRainbow(inputdata_t *param_1); // size[108]
-	void InputSetEnabled(inputdata_t *param_1); // size[90]
+	void InputSetEnabled(inputdata_t *param_1); // size[81]
 	void InputSetTextSize(inputdata_t *param_1); // size[68]
 	void InputSetTextSpacingY(inputdata_t *param_1); // size[68]
 	void InputSetOrientation(inputdata_t *param_1); // size[59]

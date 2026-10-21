@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x213C (8508) bytes
+// Estimated minimum size: 0x18 (24) bytes
 
 class CFogSystem : public CAutoGameSystem, public CGameEventListener
 {
@@ -13,6 +13,6 @@ public:
 	virtual ~CFogSystem() override; // vtable[1]
 	virtual void FireGameEvent(IGameEvent *param_1); // vtable[2]
 
-	void InitMasterController(); // size[130]
+	void InitMasterController(); // size[86]
 	void SetMasterController(CFogController *param_1); // size[43]
 };

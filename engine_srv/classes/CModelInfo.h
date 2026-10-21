@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x4C (76) bytes
+// Estimated minimum size: 0x34 (52) bytes
 
 class CModelInfo : public IVModelInfoClient
 {
@@ -42,9 +42,10 @@ public:
 	void GetModelContents(int param_1); // size[105]
 	void GetVCollide(model_t *param_1); // size[156]
 	void GetModelBounds(model_t *param_1, Vector *param_2, Vector *param_3); // size[118]
-	void GetIlluminationPoint(model_t *param_1, IClientRenderable *param_2, Vector *param_3, QAngle *param_4, float param_5, Vector *param_6); // size[216]
-	void GetModelRenderBounds(model_t *param_1, Vector *param_2, Vector *param_3); // size[150]
-	void GetModelKeyValueText(model_t *param_1); // size[55]
+	void GetIlluminationPoint(model_t *param_1, IClientRenderable *param_2, Vector *param_3, QAngle *param_4, float param_5, Vector *param_6); // size[185]
+	void GetModelRenderBounds(model_t *param_1, Vector *param_2, Vector *param_3); // size[410]
+	void GetModelKeyValueText(model_t *param_1); // size[73]
+	void GetModelType(model_t *param_1); // size[374]
 	void GetBrushModelPlane(model_t *param_1, int param_2, cplane_t *param_3, Vector *param_4); // size[117]
 	void GetModelKeyValue(model_t *param_1, CUtlBuffer *param_2); // size[240]
 	void IsUsingFBTexture(model_t *param_1, int param_2, int param_3, void *param_4); // size[411]

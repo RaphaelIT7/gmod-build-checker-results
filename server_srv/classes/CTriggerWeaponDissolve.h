@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x25AC (9644) bytes
+// Estimated minimum size: 0x1550 (5456) bytes
 
 class CTriggerWeaponDissolve : public CTriggerMultiple
 {
@@ -7,7 +7,7 @@ public:
 	virtual ~CTriggerWeaponDissolve() override; // vtable[0]
 	virtual ~CTriggerWeaponDissolve() override; // vtable[1]
 	virtual void GetDataDescMap() override; // vtable[12]
-	virtual void _ZN22CTriggerWeaponDissolve5SpawnEv() override; // vtable[23]
+	virtual void Spawn() override; // vtable[23]
 	virtual void Precache() override; // vtable[24]
 	virtual void Activate() override; // vtable[34]
 	virtual void StartTouch(CBaseEntity *param_1) override; // vtable[101]
@@ -17,6 +17,6 @@ public:
 	void GetBaseMap(); // size[10]
 	void CreateBeam(Vector *param_1, CBaseEntity *param_2, float param_3); // size[26]
 	void GetConduitPoint(CBaseEntity *param_1); // size[429]
-	void DissolveThink(); // size[810]
-	void AddWeapon(CBaseCombatWeapon *param_1); // size[437]
+	void DissolveThink(); // size[882]
+	void AddWeapon(CBaseCombatWeapon *param_1); // size[427]
 };

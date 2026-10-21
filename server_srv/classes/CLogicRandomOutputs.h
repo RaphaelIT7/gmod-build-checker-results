@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x25AC (9644) bytes
+// Estimated minimum size: 0x14AC (5292) bytes
 
 class CLogicRandomOutputs : public CLogicalEntity
 {
@@ -12,11 +12,12 @@ public:
 	virtual void Think() override; // vtable[48]
 
 	void _GLOBAL__sub_I_m_DataMap(); // size[113]
+	void InputEnable(inputdata_t *param_1); // size[15]
 	void InputDisable(inputdata_t *param_1); // size[15]
-	void InputToggle(inputdata_t *param_1); // size[6]
+	void InputToggle(inputdata_t *param_1); // size[15]
 	void InputEnableRefire(inputdata_t *param_1); // size[30]
-	void InputCancelPending(inputdata_t *param_1); // size[10]
-	void InputTrigger(inputdata_t *param_1); // size[175]
+	void InputCancelPending(inputdata_t *param_1); // size[39]
+	void InputTrigger(inputdata_t *param_1); // size[385]
 	void GetBaseMap(); // size[10]
 	CLogicRandomOutputs(); // size[34]
 };

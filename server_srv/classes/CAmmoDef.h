@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x4C (76) bytes
+// Estimated minimum size: 0x40 (64) bytes
 
 class CAmmoDef
 {
@@ -11,7 +11,7 @@ public:
 	void Index(char *param_1); // size[92]
 	void PlrDamage(int param_1); // size[91]
 	void NPCDamage(int param_1); // size[91]
-	void MaxCarry(int param_1); // size[246]
+	void MaxCarry(int param_1); // size[204]
 	void GMOD_MaxCarry(int param_1); // size[91]
 	void GMOD_SetConVarPlrDamage(int param_1, char *param_2); // size[121]
 	void GMOD_SetConVarNPCDamage(int param_1, char *param_2); // size[121]

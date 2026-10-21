@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x5E5B1CC8 (1583029448) bytes
+// Estimated minimum size: 0x16DC (5852) bytes
 
 class CPropVehicle : public CBaseProp, public CDefaultPlayerPickupVPhysics
 {
@@ -29,7 +29,8 @@ public:
 	void InputAction(inputdata_t *param_1); // size[43]
 	void InputHandBrakeOn(inputdata_t *param_1); // size[27]
 	void InputHandBrakeOff(inputdata_t *param_1); // size[16]
+	void GetBaseMap(); // size[10]
 	CPropVehicle(); // size[170]
-	void RemovePhysicsChild(CBaseEntity *param_1); // size[143]
+	void RemovePhysicsChild(CBaseEntity *param_1); // size[137]
 	void AddPhysicsChild(CBaseEntity *param_1); // size[192]
 };

@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x18 (24) bytes
+// Estimated minimum size: 0x8 (8) bytes
 
 class IVP_SurfaceManager_VirtualMesh : public IVP_SurfaceManager
 {
@@ -17,6 +17,6 @@ public:
 	virtual ~IVP_SurfaceManager_VirtualMesh(); // vtable[10]
 	virtual void get_type(); // vtable[11]
 
-	void insert_all_ledges_hitting_ray(IVP_Ray_Solver *param_1, IVP_Real_Object *param_2); // size[32]
-	IVP_SurfaceManager_VirtualMesh(CPhysCollideVirtualMesh *param_1); // size[20]
+	void insert_all_ledges_hitting_ray(IVP_Ray_Solver *param_1, IVP_Real_Object *param_2); // size[30]
+	IVP_SurfaceManager_VirtualMesh(CPhysCollideVirtualMesh *param_1); // size[15]
 };

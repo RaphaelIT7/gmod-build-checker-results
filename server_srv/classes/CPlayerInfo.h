@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x2538 (9528) bytes
+// Estimated minimum size: 0x40 (64) bytes
 
 class CPlayerInfo : public IBotController, public IPlayerInfo
 {

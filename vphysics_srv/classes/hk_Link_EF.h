@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x28 (40) bytes
+// Estimated minimum size: 0x8 (8) bytes
 
 class hk_Link_EF : public IVP_Controller_Dependent
 {
@@ -12,5 +12,5 @@ public:
 	virtual void get_controller_priority(); // vtable[5]
 	virtual void get_controller_name(); // vtable[6]
 
-	void anchor_will_be_deleted_event(IVP_Anchor *param_1); // size[77]
+	void anchor_will_be_deleted_event(IVP_Anchor *param_1); // size[83]
 };

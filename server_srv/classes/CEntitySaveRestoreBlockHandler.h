@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x568 (1384) bytes
+// Estimated minimum size: 0xC (12) bytes
 
 class CEntitySaveRestoreBlockHandler : public ISaveRestoreBlockHandler
 {
@@ -18,6 +18,6 @@ public:
 	void DoRestoreEntity(CBaseEntity *param_1, IRestore *param_2); // size[224]
 	void ModelSpaceLandmark(int param_1); // size[191]
 	void RestoreEntity(CBaseEntity *param_1, IRestore *param_2, entitytable_t *param_3); // size[202]
-	void RestoreGlobalEntity(CBaseEntity *param_1, CSaveRestoreData *param_2, entitytable_t *param_3); // size[462]
-	void SaveInitEntities(CSaveRestoreData *param_1); // size[38]
+	void RestoreGlobalEntity(CBaseEntity *param_1, CSaveRestoreData *param_2, entitytable_t *param_3); // size[486]
+	void SaveInitEntities(CSaveRestoreData *param_1); // size[295]
 };

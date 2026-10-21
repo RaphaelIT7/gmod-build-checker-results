@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x5B4 (1460) bytes
+// Estimated minimum size: 0x1C (28) bytes
 
 class CTraceFilterMetroPolice : public CTraceFilterEntitiesOnly
 {

@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x25AC (9644) bytes
+// Estimated minimum size: 0x1458 (5208) bytes
 
 class CFuncTrain : public CBasePlatTrain
 {
@@ -18,7 +18,7 @@ public:
 	void SetupTarget(); // size[203]
 	void Stop(); // size[72]
 	void InputStop(inputdata_t *param_1); // size[9]
-	void Next(); // size[604]
+	void Next(); // size[267]
 	void Wait(); // size[376]
 	void Start(); // size[69]
 	void InputStart(inputdata_t *param_1); // size[9]

@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x25AC (9644) bytes
+// Estimated minimum size: 0x13DC (5084) bytes
 
 class CSpatialEntity : public CBaseEntity
 {
@@ -21,7 +21,7 @@ public:
 	void GetBaseMap(); // size[10]
 	CSpatialEntity(); // size[28]
 	void FadeIn(); // size[160]
-	void InputEnable(inputdata_t *param_1); // size[111]
+	void InputEnable(inputdata_t *param_1); // size[79]
 	void FadeOut(); // size[169]
 	void InputDisable(inputdata_t *param_1); // size[139]
 };

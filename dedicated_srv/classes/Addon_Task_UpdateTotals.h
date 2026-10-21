@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x10 (16) bytes
+// Estimated minimum size: 0x5D5B14C8 (1566250184) bytes
 
 class Addon_Task_UpdateTotals : public Addon_Job_Base
 {

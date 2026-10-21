@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x25AC (9644) bytes
+// Estimated minimum size: 0x13B4 (5044) bytes
 
 class CFuncLadderEndPoint : public CBaseEntity
 {
@@ -9,5 +9,5 @@ public:
 	virtual void Activate() override; // vtable[34]
 
 	void _GLOBAL__sub_I_Activate(); // size[113]
-	void Validate(); // size[19]
+	void Validate(); // size[6]
 };

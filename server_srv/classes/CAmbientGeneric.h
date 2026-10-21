@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x25AC (9644) bytes
+// Estimated minimum size: 0x1434 (5172) bytes
 
 class CAmbientGeneric : public CPointEntity
 {
@@ -22,9 +22,9 @@ public:
 	void SendSound(SoundFlags_t param_1); // size[493]
 	void InputPitch(inputdata_t *param_1); // size[83]
 	void InputVolume(inputdata_t *param_1); // size[105]
-	void RampThink(); // size[1324]
+	void RampThink(); // size[1251]
 	void ToggleSound(); // size[283]
-	void InputPlaySound(inputdata_t *param_1); // size[55]
+	void InputPlaySound(inputdata_t *param_1); // size[10]
 	void InputStopSound(inputdata_t *param_1); // size[23]
 	void InputToggleSound(inputdata_t *param_1); // size[9]
 };

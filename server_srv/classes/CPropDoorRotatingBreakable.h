@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x5E5B1CC8 (1583029448) bytes
+// Estimated minimum size: 0x1934 (6452) bytes
 
 class CPropDoorRotatingBreakable : public CPropDoorRotating
 {
@@ -64,7 +64,7 @@ public:
 
 	void GetBaseMap(); // size[10]
 	void operator()(CNavArea *param_1); // size[49]
-	void UpdateBlocked(bool param_1); // size[584]
+	void UpdateBlocked(bool param_1); // size[1153]
 	void BlockNav(); // size[74]
 	void InputSetUnbreakable(inputdata_t *param_1); // size[31]
 	void UnblockNav(); // size[74]

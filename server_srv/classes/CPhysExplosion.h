@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x25AC (9644) bytes
+// Estimated minimum size: 0x13C4 (5060) bytes
 
 class CPhysExplosion : public CPointEntity
 {
@@ -13,6 +13,6 @@ public:
 	void GetBaseMap(); // size[10]
 	void GetRadius(); // size[51]
 	void FindEntity(CBaseEntity *param_1, CBaseEntity *param_2, CBaseEntity *param_3); // size[313]
-	void Explode(CBaseEntity *param_1, CBaseEntity *param_2); // size[2248]
+	void Explode(CBaseEntity *param_1, CBaseEntity *param_2); // size[2595]
 	void InputExplode(inputdata_t *param_1); // size[35]
 };

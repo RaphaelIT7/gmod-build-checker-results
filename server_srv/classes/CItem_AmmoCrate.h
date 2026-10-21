@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x5E5B1CC8 (1583029448) bytes
+// Estimated minimum size: 0x1580 (5504) bytes
 
 class CItem_AmmoCrate : public CBaseAnimating
 {
@@ -17,7 +17,7 @@ public:
 	virtual void HandleAnimEvent(animevent_t *param_1) override; // vtable[261]
 
 	void InputKill(inputdata_t *param_1); // size[9]
-	void CrateThink(); // size[32]
+	void CrateThink(); // size[259]
 	void GetBaseMap(); // size[10]
 	void SetupCrate(); // size[79]
 };

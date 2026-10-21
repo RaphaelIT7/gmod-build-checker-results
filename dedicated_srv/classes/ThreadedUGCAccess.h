@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x1C (28) bytes
+// Estimated minimum size: 0x3C (60) bytes
 
 class ThreadedUGCAccess : public Bootil_Threads_Thread
 {

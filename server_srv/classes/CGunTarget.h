@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x25AC (9644) bytes
+// Estimated minimum size: 0x1434 (5172) bytes
 
 class CGunTarget : public CBaseToggle
 {
@@ -17,7 +17,7 @@ public:
 
 	void _GLOBAL__sub_I_m_DataMap(); // size[113]
 	void GetBaseMap(); // size[10]
-	void Stop(); // size[85]
+	void Stop(); // size[26]
 	void Next(); // size[59]
 	void Start(); // size[196]
 	void InputStart(inputdata_t *param_1); // size[9]

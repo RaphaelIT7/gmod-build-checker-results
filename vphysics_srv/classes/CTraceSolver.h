@@ -1,14 +1,14 @@
 // Generated header
-// Estimated minimum size: 0x84 (132) bytes
+// Estimated minimum size: 0x8 (8) bytes
 
 class CTraceSolver
 {
 public:
 	virtual void DoSweep(); // vtable[0]
 
-	void SweepSingleConvex(); // size[88]
-	void SolveMeshIntersection(simplex_t *param_1); // size[13]
-	void SweepSingleConvex(); // size[6511]
-	void SolveMeshIntersection(simplex_t *param_1); // size[42]
-	void SolveMeshIntersection2D(simplex_t *param_1); // size[49]
+	void SweepSingleConvex(); // size[72]
+	void SolveMeshIntersection(simplex_t *param_1); // size[997]
+	void SweepSingleConvex(); // size[7135]
+	void SolveMeshIntersection(simplex_t *param_1); // size[16]
+	void SolveMeshIntersection2D(simplex_t *param_1); // size[41]
 };

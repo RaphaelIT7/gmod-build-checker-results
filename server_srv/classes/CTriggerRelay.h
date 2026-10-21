@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x25AC (9644) bytes
+// Estimated minimum size: 0x13CC (5068) bytes
 
 class CTriggerRelay : public CBaseEntity
 {

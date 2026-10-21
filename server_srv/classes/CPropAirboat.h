@@ -1,11 +1,11 @@
 // Generated header
-// Estimated minimum size: 0x5E5B1CC8 (1583029448) bytes
+// Estimated minimum size: 0x186C (6252) bytes
 
 class CPropAirboat : public CPropVehicleDriveable
 {
 public:
 	virtual ~CPropAirboat() override; // vtable[0]
-	virtual void _ZN12CPropAirboatD0Ev() override; // vtable[1]
+	virtual ~CPropAirboat() override; // vtable[1]
 	virtual void GetServerClass() override; // vtable[10]
 	virtual void YouForgotToImplementOrDeclareServerClass() override; // vtable[11]
 	virtual void GetDataDescMap() override; // vtable[12]
@@ -96,7 +96,7 @@ public:
 	void UpdateFanSound(CSoundEnvelopeController *param_1, float param_2); // size[487]
 	void UpdateWaterSound(CSoundEnvelopeController *param_1, float param_2); // size[910]
 	void UpdateSound(); // size[44]
-	void FireGun(); // size[2280]
+	void FireGun(); // size[538]
 	void UpdateGunState(CUserCmd *param_1); // size[202]
 	void CreateDangerSounds(); // size[524]
 	void ComputePDControllerCoefficients(float *param_1, float param_2, float param_3, float param_4); // size[106]

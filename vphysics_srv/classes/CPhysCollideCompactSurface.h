@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x30 (48) bytes
+// Estimated minimum size: 0x8 (8) bytes
 
 class CPhysCollideCompactSurface : public CPhysCollide
 {
@@ -21,11 +21,11 @@ public:
 	virtual void ComputeOrthographicAreas(float param_1); // vtable[14]
 	virtual void GetCollideMap(); // vtable[15]
 
-	void InitCollideMap(); // size[19]
-	void ComputeHullInfo_r(hullinfo_t *param_1, IVP_Compact_Ledgetree_Node *param_2); // size[71]
-	void InitCollideMap(); // size[431]
-	void Init(char *param_1, uint param_2, int param_3, bool param_4); // size[129]
-	CPhysCollideCompactSurface(IVP_Compact_Surface *param_1); // size[61]
-	CPhysCollideCompactSurface(char *param_1, uint param_2, int param_3, bool param_4); // size[135]
-	CPhysCollideCompactSurface(compactsurfaceheader_t *param_1, int param_2, bool param_3); // size[167]
+	void InitCollideMap(); // size[16]
+	void ComputeHullInfo_r(hullinfo_t *param_1, IVP_Compact_Ledgetree_Node *param_2); // size[90]
+	void InitCollideMap(); // size[429]
+	void Init(char *param_1, uint param_2, int param_3, bool param_4); // size[143]
+	CPhysCollideCompactSurface(IVP_Compact_Surface *param_1); // size[54]
+	CPhysCollideCompactSurface(char *param_1, uint param_2, int param_3, bool param_4); // size[153]
+	CPhysCollideCompactSurface(compactsurfaceheader_t *param_1, int param_2, bool param_3); // size[175]
 };

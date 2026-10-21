@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x25AC (9644) bytes
+// Estimated minimum size: 0x1418 (5144) bytes
 
 class CLogicCoopManager : public CLogicalEntity
 {
@@ -9,7 +9,7 @@ public:
 	virtual void GetDataDescMap() override; // vtable[12]
 
 	void GetBaseMap(); // size[10]
-	void CompareValues(); // size[207]
+	void CompareValues(); // size[213]
 	void InputSetStateATrue(inputdata_t *param_1); // size[45]
 	void InputSetStateAFalse(inputdata_t *param_1); // size[45]
 	void InputToggleStateA(inputdata_t *param_1); // size[47]

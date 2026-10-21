@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x5E5B1CC8 (1583029448) bytes
+// Estimated minimum size: 0x2880 (10368) bytes
 
 class CNPC_Kleiner : public CAI_BaseActor
 {
@@ -10,10 +10,10 @@ public:
 	virtual void Precache() override; // vtable[24]
 	virtual void Classify() override; // vtable[55]
 	virtual void HandleAnimEvent(animevent_t *param_1) override; // vtable[261]
-	virtual void GetSoundInterests() override; // vtable[467]
-	virtual CalcYawSpeed(); // vtable[0]
+	virtual void GetSoundInterests() override; // vtable[468]
+	virtual void CalcYawSpeed(); // vtable[0]
 	virtual void OnCalcBaseMove(AILocalMoveGoal_t *param_1, float param_2, AIMoveResult_t *param_3); // vtable[1]
-	virtual OnObstructionPreSteer(AILocalMoveGoal_t *param_1, float param_2, AIMoveResult_t *param_3); // vtable[2]
+	virtual void OnObstructionPreSteer(AILocalMoveGoal_t *param_1, float param_2, AIMoveResult_t *param_3); // vtable[2]
 	virtual void OnFailedSteer(AILocalMoveGoal_t *param_1, float param_2, AIMoveResult_t *param_3); // vtable[3]
 	virtual void OnFailedLocalNavigation(AILocalMoveGoal_t *param_1, float param_2, AIMoveResult_t *param_3); // vtable[4]
 	virtual void OnInsufficientStopDist(AILocalMoveGoal_t *param_1, float param_2, AIMoveResult_t *param_3); // vtable[5]

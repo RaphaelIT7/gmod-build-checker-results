@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x63C (1596) bytes
+// Estimated minimum size: 0x8 (8) bytes
 
 class CSolidSetDefaults : public IVPhysicsKeyHandler
 {

@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x5E5B1CC8 (1583029448) bytes
+// Estimated minimum size: 0x17C8 (6088) bytes
 
 class CItem_ItemCrate : public CPhysicsProp
 {

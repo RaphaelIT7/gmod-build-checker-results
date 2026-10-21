@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x4C (76) bytes
+// Estimated minimum size: 0x14 (20) bytes
 
 class CAI_Sentence : public CAI_SentenceBase
 {

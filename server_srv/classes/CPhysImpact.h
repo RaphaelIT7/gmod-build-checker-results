@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x25AC (9644) bytes
+// Estimated minimum size: 0x13BC (5052) bytes
 
 class CPhysImpact : public CPointEntity
 {
@@ -10,7 +10,7 @@ public:
 	virtual void Spawn() override; // vtable[23]
 	virtual void Activate() override; // vtable[34]
 
-	void PointAtEntity(); // size[39]
+	void PointAtEntity(); // size[15]
 	void InputImpact(inputdata_t *param_1); // size[218]
 	void GetBaseMap(); // size[10]
 };

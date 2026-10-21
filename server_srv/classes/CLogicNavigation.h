@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x25AC (9644) bytes
+// Estimated minimum size: 0x13BC (5052) bytes
 
 class CLogicNavigation : public CLogicalEntity, public IEntityListener
 {
@@ -20,7 +20,7 @@ public:
 	void TurnOn(); // size[20]
 	void TurnOff(); // size[49]
 	void TurnOff(); // size[20]
-	void InputTurnOn(inputdata_t *param_1); // size[23]
+	void InputTurnOn(inputdata_t *param_1); // size[1]
 	void InputToggle(inputdata_t *param_1); // size[27]
 	void InputTurnOff(inputdata_t *param_1); // size[23]
 };

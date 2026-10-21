@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x25AC (9644) bytes
+// Estimated minimum size: 0x13C4 (5060) bytes
 
 class CBlood : public CPointEntity
 {
@@ -12,6 +12,6 @@ public:
 
 	void GetBaseMap(); // size[10]
 	void Direction(); // size[72]
-	void BloodPosition(CBaseEntity *param_1); // size[25]
+	void BloodPosition(CBaseEntity *param_1); // size[331]
 	void InputEmitBlood(inputdata_t *param_1); // size[786]
 };

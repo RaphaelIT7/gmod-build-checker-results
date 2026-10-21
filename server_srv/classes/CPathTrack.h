@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x25AC (9644) bytes
+// Estimated minimum size: 0x13EC (5100) bytes
 
 class CPathTrack : public CPointEntity
 {
@@ -12,8 +12,8 @@ public:
 	virtual void DrawDebugGeometryOverlays() override; // vtable[39]
 
 	void _GLOBAL__sub_I_m_DataMap(); // size[113]
-	void InputPass(inputdata_t *param_1); // size[43]
-	void InputTeleport(inputdata_t *param_1); // size[43]
+	void InputPass(inputdata_t *param_1); // size[45]
+	void InputTeleport(inputdata_t *param_1); // size[45]
 	void InputDisablePath(inputdata_t *param_1); // size[53]
 	void InputEnablePath(inputdata_t *param_1); // size[53]
 	void GetBaseMap(); // size[10]
@@ -34,7 +34,7 @@ public:
 	void EnablePath(); // size[53]
 	void DisablePath(); // size[53]
 	void ValidPath(CPathTrack *param_1, int param_2); // size[38]
-	void Project(CPathTrack *param_1, CPathTrack *param_2, Vector *param_3, float param_4); // size[232]
+	void Project(CPathTrack *param_1, CPathTrack *param_2, Vector *param_3, float param_4); // size[193]
 	void GetNext(); // size[114]
 	void GetPrevious(); // size[118]
 	void SetPrevious(CPathTrack *param_1); // size[70]

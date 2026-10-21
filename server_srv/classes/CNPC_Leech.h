@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x5E5B1CC8 (1583029448) bytes
+// Estimated minimum size: 0x2604 (9732) bytes
 
 class CNPC_Leech : public CHL1BaseNPC
 {
@@ -16,10 +16,10 @@ public:
 	virtual void HandleAnimEvent(animevent_t *param_1) override; // vtable[261]
 	virtual void ShouldGib(CTakeDamageInfo *param_1) override; // vtable[352]
 	virtual void IRelationType(CBaseEntity *param_1) override; // vtable[364]
-	virtual void AlertSound() override; // vtable[508]
-	virtual CalcYawSpeed(); // vtable[0]
-	virtual OnCalcBaseMove(AILocalMoveGoal_t *param_1, float param_2, AIMoveResult_t *param_3); // vtable[1]
-	virtual OnObstructionPreSteer(AILocalMoveGoal_t *param_1, float param_2, AIMoveResult_t *param_3); // vtable[2]
+	virtual void AlertSound() override; // vtable[509]
+	virtual void CalcYawSpeed(); // vtable[0]
+	virtual void OnCalcBaseMove(AILocalMoveGoal_t *param_1, float param_2, AIMoveResult_t *param_3); // vtable[1]
+	virtual void OnObstructionPreSteer(AILocalMoveGoal_t *param_1, float param_2, AIMoveResult_t *param_3); // vtable[2]
 	virtual void OnFailedSteer(AILocalMoveGoal_t *param_1, float param_2, AIMoveResult_t *param_3); // vtable[3]
 	virtual void OnFailedLocalNavigation(AILocalMoveGoal_t *param_1, float param_2, AIMoveResult_t *param_3); // vtable[4]
 	virtual void OnInsufficientStopDist(AILocalMoveGoal_t *param_1, float param_2, AIMoveResult_t *param_3); // vtable[5]
@@ -30,9 +30,9 @@ public:
 	void DeadThink(); // size[679]
 	void GetBaseMap(); // size[10]
 	void AttackSound(); // size[79]
-	void SwitchLeechState(); // size[340]
-	void RecalculateWaterlevel(); // size[70]
-	void ObstacleDistance(CBaseEntity *param_1); // size[22]
+	void SwitchLeechState(); // size[350]
+	void RecalculateWaterlevel(); // size[41]
+	void ObstacleDistance(CBaseEntity *param_1); // size[280]
 	void UpdateMotion(); // size[228]
-	void SwimThink(); // size[1612]
+	void SwimThink(); // size[1626]
 };

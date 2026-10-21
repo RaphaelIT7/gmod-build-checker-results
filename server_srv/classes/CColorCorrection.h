@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x25AC (9644) bytes
+// Estimated minimum size: 0x14E4 (5348) bytes
 
 class CColorCorrection : public CBaseEntity
 {
@@ -21,8 +21,7 @@ public:
 	void FadeInThink(); // size[339]
 	void GetBaseMap(); // size[10]
 	CColorCorrection(); // size[28]
-	void FadeIn(); // size[55]
-	void InputEnable(inputdata_t *param_1); // size[126]
+	void FadeIn(); // size[185]
 	void FadeOut(); // size[194]
 	void InputDisable(inputdata_t *param_1); // size[139]
 };

@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x5DC (1500) bytes
+// Estimated minimum size: 0x50 (80) bytes
 
 class NextBotManager
 {
@@ -25,9 +25,9 @@ public:
 	void DebugFilterRemove(int param_1); // size[98]
 	void DebugFilterRemove(char *param_1); // size[72]
 	NextBotManager(); // size[146]
-	void Register(INextBot *param_1); // size[442]
+	void Register(INextBot *param_1); // size[465]
 	void DebugFilterAdd(int param_1); // size[87]
 	void DebugFilterAdd(char *param_1); // size[119]
-	void CollectAllBots(CUtlVector *param_1); // size[191]
+	void CollectAllBots(CUtlVector *param_1); // size[184]
 	void GetBotUnderCrosshair(CBasePlayer *param_1); // size[127]
 };

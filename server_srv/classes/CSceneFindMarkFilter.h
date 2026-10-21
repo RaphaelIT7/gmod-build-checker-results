@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x2AC (684) bytes
+// Estimated minimum size: 0xC (12) bytes
 
 class CSceneFindMarkFilter : public IEntityFindFilter
 {

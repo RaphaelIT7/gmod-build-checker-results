@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x2C (44) bytes
+// Estimated minimum size: 0x10 (16) bytes
 
 class GameDepot_System : public IGameDepotSystem
 {
@@ -17,6 +17,6 @@ public:
 	void MountAsSteampipe(Information *param_1, bool param_2); // size[10]
 	void Mount(Information *param_1, bool param_2); // size[48]
 	void MountAsFallback(Information *param_1); // size[79]
-	void Load(); // size[317]
+	void Load(); // size[297]
 	void Setup(); // size[87]
 };

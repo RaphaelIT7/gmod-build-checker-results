@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x25AC (9644) bytes
+// Estimated minimum size: 0x13E4 (5092) bytes
 
 class CEnvShake : public CPointEntity
 {
@@ -14,7 +14,7 @@ public:
 
 	void GetBaseMap(); // size[10]
 	void Radius(bool param_1); // size[45]
-	void ApplyShake(ShakeCommand_t param_1); // size[423]
+	void ApplyShake(ShakeCommand_t param_1); // size[381]
 	void InputStartShake(inputdata_t *param_1); // size[67]
 	void InputStopShake(inputdata_t *param_1); // size[16]
 	void InputAmplitude(inputdata_t *param_1); // size[47]

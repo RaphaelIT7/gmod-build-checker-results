@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0xA4 (164) bytes
+// Estimated minimum size: 0x8 (8) bytes
 
 class CPhysicsMotionController : public IVP_Controller_Independent, public IPhysicsMotionController
 {
@@ -32,8 +32,8 @@ public:
 	virtual void WakeObjects(); // vtable[8]
 	virtual void SetPriority(priority_t param_1); // vtable[9]
 
-	CPhysicsMotionController(IMotionEvent *param_1, CPhysicsEnvironment *param_2); // size[75]
-	void RemoveCore(IVP_Core *param_1); // size[123]
-	void InitFromTemplate(vphysics_save_motioncontroller_t *param_1); // size[75]
-	void WriteToTemplate(vphysics_save_motioncontroller_t *param_1); // size[257]
+	CPhysicsMotionController(IMotionEvent *param_1, CPhysicsEnvironment *param_2); // size[78]
+	void RemoveCore(IVP_Core *param_1); // size[125]
+	void InitFromTemplate(vphysics_save_motioncontroller_t *param_1); // size[88]
+	void WriteToTemplate(vphysics_save_motioncontroller_t *param_1); // size[289]
 };

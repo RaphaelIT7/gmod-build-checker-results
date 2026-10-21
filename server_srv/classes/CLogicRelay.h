@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x25AC (9644) bytes
+// Estimated minimum size: 0x13E4 (5092) bytes
 
 class CLogicRelay : public CLogicalEntity
 {
@@ -16,7 +16,7 @@ public:
 	void InputDisable(inputdata_t *param_1); // size[15]
 	void InputToggle(inputdata_t *param_1); // size[15]
 	void InputCancelPending(inputdata_t *param_1); // size[39]
-	void InputTrigger(inputdata_t *param_1); // size[71]
+	void InputTrigger(inputdata_t *param_1); // size[195]
 	void GetBaseMap(); // size[10]
 	CLogicRelay(); // size[26]
 };

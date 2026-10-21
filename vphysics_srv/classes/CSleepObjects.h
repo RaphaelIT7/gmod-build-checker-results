@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0xA4 (164) bytes
+// Estimated minimum size: 0x8 (8) bytes
 
 class CSleepObjects : public IVP_Listener_Object
 {
@@ -11,5 +11,5 @@ public:
 	virtual ~CSleepObjects(); // vtable[4]
 	virtual ~CSleepObjects(); // vtable[5]
 
-	void ProcessActiveObjects(IVP_Environment *param_1, IPhysicsCollisionEvent *param_2); // size[495]
+	void ProcessActiveObjects(IVP_Environment *param_1, IPhysicsCollisionEvent *param_2); // size[535]
 };

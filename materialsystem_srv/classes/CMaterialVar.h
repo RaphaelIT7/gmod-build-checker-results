@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x50 (80) bytes
+// Estimated minimum size: 0x30 (48) bytes
 
 class CMaterialVar : public IMaterialVar
 {

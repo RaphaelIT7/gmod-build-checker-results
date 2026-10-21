@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x5E5B1CC8 (1583029448) bytes
+// Estimated minimum size: 0x1678 (5752) bytes
 
 class CWeaponCitizenPackage : public CBaseHLCombatWeapon
 {
@@ -11,8 +11,8 @@ public:
 	virtual void GetDataDescMap() override; // vtable[12]
 	virtual void Drop(Vector *param_1) override; // vtable[285]
 	virtual void ItemPostFrame() override; // vtable[318]
-	virtual void _ZN21CWeaponCitizenPackage12ActivityListEv() override; // vtable[388]
-	virtual void _ZN21CWeaponCitizenPackage17ActivityListCountEv() override; // vtable[389]
+	virtual void ActivityList() override; // vtable[388]
+	virtual void ActivityListCount() override; // vtable[389]
 
 	void _GLOBAL__sub_I_GetServerClass(); // size[113]
 	void GetBaseMap(); // size[10]

@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x54 (84) bytes
+// Estimated minimum size: 0x8 (8) bytes
 
 class CDataManager : public CDataManagerBase
 {

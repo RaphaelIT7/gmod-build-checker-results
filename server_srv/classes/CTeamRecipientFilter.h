@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x410 (1040) bytes
+// Estimated minimum size: 0x20 (32) bytes
 
 class CTeamRecipientFilter : public CRecipientFilter
 {

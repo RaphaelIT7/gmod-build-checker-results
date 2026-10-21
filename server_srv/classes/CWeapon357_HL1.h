@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x5E5B1CC8 (1583029448) bytes
+// Estimated minimum size: 0x1668 (5736) bytes
 
 class CWeapon357_HL1 : public CBaseHL1MPCombatWeapon
 {
@@ -28,6 +28,6 @@ public:
 	virtual void Operator_HandleAnimEvent(animevent_t *param_1, CBaseCombatCharacter *param_2) override; // vtable[406]
 
 	void _GLOBAL__sub_I_GetServerClass(); // size[112]
-	CWeapon357_HL1(); // size[15]
+	CWeapon357_HL1(); // size[67]
 	void ToggleZoom(); // size[20]
 };

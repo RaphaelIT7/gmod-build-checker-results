@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x25AC (9644) bytes
+// Estimated minimum size: 0x13E0 (5088) bytes
 
 class CFishPool : public CBaseEntity, public CGameEventListener
 {
@@ -16,5 +16,5 @@ public:
 
 	void GetBaseMap(); // size[10]
 	CFishPool(); // size[34]
-	void Update(); // size[1448]
+	void Update(); // size[776]
 };

@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x1580 (5504) bytes
+// Estimated minimum size: 0x155C (5468) bytes
 
 class CBasePlayerAnimState : public IPlayerAnimState
 {
@@ -19,7 +19,6 @@ public:
 	void SelectWeightedSequence(Activity param_1); // size[18]
 	void SetOuterBodyYaw(float param_1); // size[203]
 	void ComputePoseParam_BodyPitch(CStudioHdr *param_1); // size[251]
-	void ClearAnimationLayers(); // size[178]
 	void Init(CBaseAnimatingOverlay *param_1, CModAnimConfig *param_2); // size[40]
 	void TimeSinceLastAnimationStateClear(); // size[42]
 	void SetOuterPoseParameter(int param_1, float param_2); // size[75]

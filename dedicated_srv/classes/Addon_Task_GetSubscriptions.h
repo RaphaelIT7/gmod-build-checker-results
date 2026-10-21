@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x12C (300) bytes
+// Estimated minimum size: 0x10 (16) bytes
 
 class Addon_Task_GetSubscriptions : public Addon_Job_Base
 {

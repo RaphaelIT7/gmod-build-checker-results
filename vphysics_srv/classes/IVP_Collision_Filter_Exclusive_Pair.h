@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0xC (12) bytes
+// Estimated minimum size: 0x8 (8) bytes
 
 class IVP_Collision_Filter_Exclusive_Pair : public IVP_Collision_Filter
 {
@@ -9,9 +9,9 @@ public:
 	virtual ~IVP_Collision_Filter_Exclusive_Pair(); // vtable[2]
 	virtual ~IVP_Collision_Filter_Exclusive_Pair(); // vtable[3]
 
-	IVP_Collision_Filter_Exclusive_Pair(); // size[17]
-	void generate_hash_entry(IVP_Real_Object *param_1, IVP_Real_Object *param_2, IVP_CFEP_Objectpair *param_3); // size[40]
-	void disable_collision_between_objects(IVP_Real_Object *param_1, IVP_Real_Object *param_2); // size[224]
-	void enable_collision_between_objects(IVP_Real_Object *param_1, IVP_Real_Object *param_2); // size[196]
-	IVP_Collision_Filter_Exclusive_Pair(); // size[58]
+	IVP_Collision_Filter_Exclusive_Pair(); // size[16]
+	void generate_hash_entry(IVP_Real_Object *param_1, IVP_Real_Object *param_2, IVP_CFEP_Objectpair *param_3); // size[32]
+	void disable_collision_between_objects(IVP_Real_Object *param_1, IVP_Real_Object *param_2); // size[233]
+	void enable_collision_between_objects(IVP_Real_Object *param_1, IVP_Real_Object *param_2); // size[208]
+	IVP_Collision_Filter_Exclusive_Pair(); // size[78]
 };

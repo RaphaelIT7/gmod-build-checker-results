@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x14 (20) bytes
+// Estimated minimum size: 0x8 (8) bytes
 
 class CCollisionQuery : public ICollisionQuery
 {
@@ -14,7 +14,7 @@ public:
 	virtual void GetTriangleMaterialIndex(int param_1, int param_2); // vtable[7]
 	virtual void SetTriangleMaterialIndex(int param_1, int param_2, int param_3); // vtable[8]
 
-	CCollisionQuery(CPhysCollide *param_1); // size[17]
-	void Triangle(IVP_Compact_Ledge *param_1, int param_2); // size[27]
+	CCollisionQuery(CPhysCollide *param_1); // size[16]
+	void Triangle(IVP_Compact_Ledge *param_1, int param_2); // size[24]
 	CCollisionQuery(CPhysCollide *param_1); // size[92]
 };

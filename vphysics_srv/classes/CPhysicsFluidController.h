@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0xC8 (200) bytes
+// Estimated minimum size: 0x8 (8) bytes
 
 class CPhysicsFluidController : public IPhysicsFluidController
 {
@@ -13,8 +13,7 @@ public:
 	virtual void WakeAllSleepingObjects(); // vtable[6]
 	virtual void GetContents(); // vtable[7]
 
-	_GLOBAL__sub_I_CPhysicsFluidController(); // size[1]
-	CPhysicsFluidController(CBuoyancyAttacher *param_1, IVP_Liquid_Surface_Descriptor *param_2, CPhysicsObject *param_3, int param_4); // size[38]
-	void GetIVPObject(); // size[14]
-	void GetIVPObject(); // size[14]
+	CPhysicsFluidController(CBuoyancyAttacher *param_1, IVP_Liquid_Surface_Descriptor *param_2, CPhysicsObject *param_3, int param_4); // size[27]
+	void GetIVPObject(); // size[9]
+	void GetIVPObject(); // size[9]
 };

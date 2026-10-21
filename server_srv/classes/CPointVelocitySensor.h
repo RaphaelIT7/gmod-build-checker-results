@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x25AC (9644) bytes
+// Estimated minimum size: 0x13CC (5068) bytes
 
 class CPointVelocitySensor : public CPointEntity
 {
@@ -12,7 +12,7 @@ public:
 	virtual void Think() override; // vtable[48]
 
 	void InputDisable(inputdata_t *param_1); // size[15]
-	void InputEnable(inputdata_t *param_1); // size[96]
+	void InputEnable(inputdata_t *param_1); // size[116]
 	void GetBaseMap(); // size[10]
 	void SampleVelocity(); // size[435]
 };

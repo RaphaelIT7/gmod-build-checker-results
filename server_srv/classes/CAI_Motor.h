@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x2218 (8728) bytes
+// Estimated minimum size: 0x60 (96) bytes
 
 class CAI_Motor : public CAI_Component, public CAI_ProxyMovementSink
 {

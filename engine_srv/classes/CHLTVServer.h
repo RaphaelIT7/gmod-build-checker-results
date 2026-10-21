@@ -116,7 +116,7 @@ public:
 	virtual void GetProtocolVersion(); // vtable[22]
 	virtual void ShouldLoopDemos(); // vtable[23]
 	virtual void OnLastDemoInLoopPlayed(); // vtable[24]
-	virtual void _ZThn424_N11CHLTVServer9IsLoadingEv(); // vtable[25]
+	virtual void IsLoading(); // vtable[25]
 
 	void FreeClientRecvTables(); // size[115]
 	void InitClientRecvTables(); // size[274]
@@ -142,10 +142,10 @@ public:
 	void ReplyInfo(netadr_s *param_1); // size[3980]
 	void GetDeltaFrame(int param_1); // size[303]
 	CHLTVServer(); // size[885]
-	void StartMaster(CGameClient *param_1); // size[1225]
-	void Changelevel(); // size[30]
+	void StartMaster(CGameClient *param_1); // size[1203]
+	void Changelevel(); // size[57]
 	void ConnectRelay(char *param_1); // size[101]
 	void AddNewFrame(CClientFrame *param_1); // size[329]
-	void RunFrame(); // size[154]
-	void ReadCompeleteDemoFile(); // size[928]
+	void RunFrame(); // size[562]
+	void ReadCompeleteDemoFile(); // size[987]
 };

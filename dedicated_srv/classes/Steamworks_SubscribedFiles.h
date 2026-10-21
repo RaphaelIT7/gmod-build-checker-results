@@ -9,9 +9,9 @@ public:
 
 	_GLOBAL__sub_I_SubscribedFiles(); // size[91]
 	SubscribedFiles(); // size[25]
-	~SubscribedFiles(); // size[119]
-	void Refresh(); // size[317]
+	~SubscribedFiles(); // size[35]
+	void Refresh(); // size[300]
 	void Ready(); // size[24]
 	void GetCurrentAmount(); // size[11]
-	void OnReceiveFileDetails(SteamUGCQueryCompleted_t *param_1, bool param_2); // size[6]
+	void OnReceiveFileDetails(SteamUGCQueryCompleted_t *param_1, bool param_2); // size[1181]
 };

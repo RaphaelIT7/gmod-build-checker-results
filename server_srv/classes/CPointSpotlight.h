@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x25AC (9644) bytes
+// Estimated minimum size: 0x1414 (5140) bytes
 
 class CPointSpotlight : public CPointEntity
 {
@@ -21,11 +21,11 @@ public:
 	void ComputeRenderInfo(); // size[661]
 	void SpotlightCreate(); // size[124]
 	void SpotlightCurrentPos(); // size[63]
-	void CreateEfficientSpotlight(); // size[237]
+	void CreateEfficientSpotlight(); // size[774]
 	void InputLightOn(inputdata_t *param_1); // size[39]
-	void SpotlightDestroy(); // size[93]
+	void SpotlightDestroy(); // size[217]
 	void InputLightOff(inputdata_t *param_1); // size[39]
-	void SpotlightUpdate(); // size[1418]
+	void SpotlightUpdate(); // size[895]
 	void SpotlightThink(); // size[158]
 	void InputForceUpdate(inputdata_t *param_1); // size[9]
 };

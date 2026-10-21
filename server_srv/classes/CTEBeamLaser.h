@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x48 (72) bytes
+// Estimated minimum size: 0x50 (80) bytes
 
 class CTEBeamLaser : public CTEBaseBeam
 {
@@ -11,5 +11,5 @@ public:
 	virtual void Test(Vector *param_1, QAngle *param_2) override; // vtable[4]
 
 	_GLOBAL__sub_I_CTEBeamLaser(); // size[112]
-	CTEBeamLaser(char *param_1); // size[10]
+	CTEBeamLaser(char *param_1); // size[51]
 };

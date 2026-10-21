@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x194 (404) bytes
+// Estimated minimum size: 0x18 (24) bytes
 
 class CModelSoundsCache : public IBaseCacheInfo
 {
@@ -14,5 +14,5 @@ public:
 	void PrecacheSoundList(); // size[71]
 	void FindOrAddScriptSound(CUtlVector *param_1, char *param_2); // size[114]
 	void BuildAnimationEventSoundList(CStudioHdr *param_1, CUtlVector *param_2); // size[461]
-	CModelSoundsCache(CModelSoundsCache *param_1); // size[173]
+	CModelSoundsCache(CModelSoundsCache *param_1); // size[15]
 };

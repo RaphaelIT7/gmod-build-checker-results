@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x25AC (9644) bytes
+// Estimated minimum size: 0x14E4 (5348) bytes
 
 class CAI_AllyManager : public CBaseEntity
 {
@@ -13,6 +13,6 @@ public:
 	void InputSetMaxMedics(inputdata_t *param_1); // size[29]
 	void GetBaseMap(); // size[10]
 	void CountAllies(int *param_1, int *param_2); // size[649]
-	void WatchCounts(); // size[256]
-	void InputReplenish(inputdata_t *param_1); // size[358]
+	void WatchCounts(); // size[269]
+	void InputReplenish(inputdata_t *param_1); // size[370]
 };

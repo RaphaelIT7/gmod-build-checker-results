@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x5E5B1CC8 (1583029448) bytes
+// Estimated minimum size: 0x2610 (9744) bytes
 
 class CNPC_CombineCamera : public CAI_BaseNPC
 {
@@ -16,12 +16,12 @@ public:
 	virtual void EyePosition() override; // vtable[133]
 	virtual void FVisible(CBaseEntity *param_1, int param_2, CBaseEntity * *param_3) override; // vtable[144]
 	virtual void HeadDirection2D() override; // vtable[302]
-	virtual void IsValidEnemy(CBaseEntity *param_1) override; // vtable[475]
-	virtual void MaxYawSpeed() override; // vtable[529]
-	virtual void EyeOffset(Activity param_1) override; // vtable[553]
-	virtual CalcYawSpeed(); // vtable[0]
-	virtual OnCalcBaseMove(AILocalMoveGoal_t *param_1, float param_2, AIMoveResult_t *param_3); // vtable[1]
-	virtual OnObstructionPreSteer(AILocalMoveGoal_t *param_1, float param_2, AIMoveResult_t *param_3); // vtable[2]
+	virtual void IsValidEnemy(CBaseEntity *param_1) override; // vtable[476]
+	virtual void MaxYawSpeed() override; // vtable[530]
+	virtual void EyeOffset(Activity param_1) override; // vtable[554]
+	virtual void CalcYawSpeed(); // vtable[0]
+	virtual void OnCalcBaseMove(AILocalMoveGoal_t *param_1, float param_2, AIMoveResult_t *param_3); // vtable[1]
+	virtual void OnObstructionPreSteer(AILocalMoveGoal_t *param_1, float param_2, AIMoveResult_t *param_3); // vtable[2]
 	virtual void OnFailedSteer(AILocalMoveGoal_t *param_1, float param_2, AIMoveResult_t *param_3); // vtable[3]
 	virtual void OnFailedLocalNavigation(AILocalMoveGoal_t *param_1, float param_2, AIMoveResult_t *param_3); // vtable[4]
 	virtual void OnInsufficientStopDist(AILocalMoveGoal_t *param_1, float param_2, AIMoveResult_t *param_3); // vtable[5]
@@ -47,7 +47,7 @@ public:
 	void InputToggle(inputdata_t *param_1); // size[9]
 	void InputDisable(inputdata_t *param_1); // size[9]
 	void SetAngry(bool param_1); // size[298]
-	void ActiveThink(); // size[390]
+	void ActiveThink(); // size[440]
 	void InputSetAngry(inputdata_t *param_1); // size[16]
 	void InputSetIdle(inputdata_t *param_1); // size[16]
 	void SetHeight(float param_1); // size[110]

@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x204 (516) bytes
+// Estimated minimum size: 0x14 (20) bytes
 
 class CTraceFilterVehicleTransition : public CTraceFilterSkipTwoEntities
 {

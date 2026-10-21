@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x25AC (9644) bytes
+// Estimated minimum size: 0x15FC (5628) bytes
 
 class CColorCorrectionVolume : public CBaseTrigger
 {
@@ -20,7 +20,7 @@ public:
 	virtual void PassesTriggerFilters(CBaseEntity *param_1) override; // vtable[255]
 
 	void _GLOBAL__sub_I_m_DataMap(); // size[112]
-	void ThinkFunc(); // size[421]
+	void ThinkFunc(); // size[376]
 	void GetBaseMap(); // size[10]
 	CColorCorrectionVolume(); // size[181]
 };

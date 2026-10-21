@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x25AC (9644) bytes
+// Estimated minimum size: 0x13F4 (5108) bytes
 
 class CTeam : public CBaseEntity
 {
@@ -16,23 +16,19 @@ public:
 	virtual void GetName(); // vtable[248]
 	virtual void UpdateClientData(CBasePlayer *param_1); // vtable[249]
 	virtual void ShouldTransmitToPlayer(CBasePlayer *param_1, CBaseEntity *param_2); // vtable[250]
-	virtual void InitializeSpawnpoints(); // vtable[251]
-	virtual void _ZN5CTeam13AddSpawnpointEP15CTeamSpawnPoint(); // vtable[252]
-	virtual void RemoveSpawnpoint(CTeamSpawnPoint *param_1); // vtable[253]
-	virtual void SpawnPlayer(CBasePlayer *param_1); // vtable[254]
-	virtual void InitializePlayers(); // vtable[255]
-	virtual void AddPlayer(CBasePlayer *param_1); // vtable[256]
-	virtual void RemovePlayer(CBasePlayer *param_1); // vtable[257]
-	virtual void GetNumPlayers(); // vtable[258]
-	virtual void GetPlayer(int param_1); // vtable[259]
-	virtual void AddScore(int param_1); // vtable[260]
-	virtual void SetScore(int param_1); // vtable[261]
-	virtual void GetScore(); // vtable[262]
-	virtual void ResetScores(); // vtable[263]
-	virtual void GetRoundsWon(); // vtable[264]
-	virtual void SetRoundsWon(int param_1); // vtable[265]
-	virtual void IncrementRoundsWon(); // vtable[266]
-	virtual void GetAliveMembers(); // vtable[267]
+	virtual void InitializePlayers(); // vtable[251]
+	virtual void AddPlayer(CBasePlayer *param_1); // vtable[252]
+	virtual void RemovePlayer(CBasePlayer *param_1); // vtable[253]
+	virtual void GetNumPlayers(); // vtable[254]
+	virtual void GetPlayer(int param_1); // vtable[255]
+	virtual void AddScore(int param_1); // vtable[256]
+	virtual void SetScore(int param_1); // vtable[257]
+	virtual void GetScore(); // vtable[258]
+	virtual void ResetScores(); // vtable[259]
+	virtual void GetRoundsWon(); // vtable[260]
+	virtual void SetRoundsWon(int param_1); // vtable[261]
+	virtual void IncrementRoundsWon(); // vtable[262]
+	virtual void GetAliveMembers(); // vtable[263]
 
 	CTeam(); // size[28]
 	void AwardAchievement(int param_1); // size[23]

@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x234 (564) bytes
+// Estimated minimum size: 0x230 (560) bytes
 
 class CPositionInterpolator_Rope : public IPositionInterpolator
 {

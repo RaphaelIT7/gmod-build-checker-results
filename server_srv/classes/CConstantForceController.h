@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x38 (56) bytes
+// Estimated minimum size: 0x2C (44) bytes
 
 class CConstantForceController : public IMotionEvent
 {
@@ -8,6 +8,6 @@ public:
 
 	void _GLOBAL__sub_I_m_DataMap(); // size[113]
 	void GetBaseMap(); // size[7]
-	void SetConstantForce(Vector *param_1, Vector *param_2); // size[130]
-	void ScaleConstantForce(float param_1); // size[93]
+	void SetConstantForce(Vector *param_1, Vector *param_2); // size[6]
+	void ScaleConstantForce(float param_1); // size[30]
 };

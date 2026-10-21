@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x25AC (9644) bytes
+// Estimated minimum size: 0x13B8 (5048) bytes
 
 class CGamePlayerTeam : public CRulePointEntity
 {
@@ -8,5 +8,5 @@ public:
 	virtual ~CGamePlayerTeam() override; // vtable[1]
 	virtual void Use(CBaseEntity *param_1, CBaseEntity *param_2, USE_TYPE param_3, float param_4) override; // vtable[100]
 
-	void TargetTeamName(char *param_1, CBaseEntity *param_2); // size[14]
+	void TargetTeamName(char *param_1, CBaseEntity *param_2); // size[127]
 };

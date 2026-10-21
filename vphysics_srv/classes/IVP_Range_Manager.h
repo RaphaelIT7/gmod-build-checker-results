@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x5C (92) bytes
+// Estimated minimum size: 0x8 (8) bytes
 
 class IVP_Range_Manager
 {
@@ -10,6 +10,5 @@ public:
 	virtual void get_coll_range_in_world(IVP_Real_Object *param_1); // vtable[3]
 	virtual void environment_will_be_deleted(IVP_Environment *param_1); // vtable[4]
 
-	_GLOBAL__sub_I_IVP_Range_Manager(); // size[1]
-	IVP_Range_Manager(IVP_Environment *param_1, IVP_BOOL param_2); // size[116]
+	IVP_Range_Manager(IVP_Environment *param_1, IVP_BOOL param_2); // size[108]
 };

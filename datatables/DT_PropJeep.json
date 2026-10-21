@@ -19,7 +19,7 @@
 			"index": 1,
 			"name": "m_bHeadlightIsOn",
 			"excludeName": "NULL",
-			"offset": 6305,
+			"offset": 6313,
 			"bits": 1,
 			"type": "DPT_Int",
 			"flags": "Flags: UNSIGNED",

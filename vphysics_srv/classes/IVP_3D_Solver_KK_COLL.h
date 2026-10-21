@@ -1,8 +1,8 @@
 // Generated header
-// Estimated minimum size: 0xA8 (168) bytes
+// Estimated minimum size: 0x8 (8) bytes
 
 class IVP_3D_Solver_KK_COLL : public IVP_3D_Solver
 {
 public:
-	virtual void get_value(IVP_U_Matrix *param_1, IVP_U_Matrix *param_2); // vtable[0]
+	virtual void _ZN21IVP_3D_Solver_KK_COLL9get_valueEP12IVP_U_MatrixS1_(); // vtable[0]
 };

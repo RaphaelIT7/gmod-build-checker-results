@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x11C (284) bytes
+// Estimated minimum size: 0x8 (8) bytes
 
 class CPhysicsEnvironment : public IPhysicsEnvironment
 {
@@ -76,15 +76,15 @@ public:
 	virtual void ShouldQuickDelete(); // vtable[69]
 	virtual void TraceBox(CGameTrace *param_1, Vector *param_2, Vector *param_3, Vector *param_4, Vector *param_5); // vtable[70]
 
-	CPhysicsEnvironment(); // size[73]
-	void Simulate(float param_1); // size[84]
-	void GetCollisionEventHandler(); // size[14]
-	void NotifyConstraintDisabled(IPhysicsConstraint *param_1); // size[34]
-	void ClearDeadObjects(); // size[326]
-	void AddPlayerController(IPhysicsPlayerController *param_1); // size[323]
-	void FindPlayerController(IPhysicsObject *param_1); // size[81]
-	void PhantomAdd(CPhysicsObject *param_1); // size[44]
-	void PhantomRemove(CPhysicsObject *param_1); // size[44]
-	CPhysicsEnvironment(); // size[169]
+	CPhysicsEnvironment(); // size[63]
+	void Simulate(float param_1); // size[100]
+	void GetCollisionEventHandler(); // size[12]
+	void NotifyConstraintDisabled(IPhysicsConstraint *param_1); // size[31]
+	void ClearDeadObjects(); // size[345]
+	void AddPlayerController(IPhysicsPlayerController *param_1); // size[389]
+	void FindPlayerController(IPhysicsObject *param_1); // size[120]
+	void PhantomAdd(CPhysicsObject *param_1); // size[40]
+	void PhantomRemove(CPhysicsObject *param_1); // size[40]
+	CPhysicsEnvironment(); // size[820]
 	void RemovePlayerController(IPhysicsPlayerController *param_1); // size[27]
 };

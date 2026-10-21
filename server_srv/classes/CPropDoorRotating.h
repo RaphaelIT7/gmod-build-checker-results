@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x5E5B1CC8 (1583029448) bytes
+// Estimated minimum size: 0x190C (6412) bytes
 
 class CPropDoorRotating : public CBasePropDoor
 {
@@ -26,7 +26,7 @@ public:
 	virtual void BeginOpening(CBaseEntity *param_1); // vtable[333]
 	virtual void BeginClosing(); // vtable[334]
 	virtual void DoorStop(); // vtable[335]
-	virtual void _ZN17CPropDoorRotating10DoorResumeEv(); // vtable[336]
+	virtual void DoorResume(); // vtable[336]
 	virtual void DoorTeleportToSpawnPosition(); // vtable[337]
 	virtual void Lock(); // vtable[338]
 	virtual void Unlock(); // vtable[339]
@@ -82,6 +82,6 @@ public:
 	void CalculateDoorVolume(QAngle param_1, QAngle param_2, Vector *param_3, Vector *param_4); // size[465]
 	void InputSetRotationDistance(inputdata_t *param_1); // size[227]
 	void InputMoveToRotationDistance(inputdata_t *param_1); // size[50]
-	void AngularMove(QAngle *param_1, float param_2); // size[329]
-	void CheckDoorClear(doorCheck_e param_1); // size[1668]
+	void AngularMove(QAngle *param_1, float param_2); // size[331]
+	void CheckDoorClear(doorCheck_e param_1); // size[1724]
 };

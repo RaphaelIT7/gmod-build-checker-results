@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x5E5B1CC8 (1583029448) bytes
+// Estimated minimum size: 0x1598 (5528) bytes
 
 class CGib : public CBaseAnimating, public CDefaultPlayerPickupVPhysics
 {
@@ -19,14 +19,14 @@ public:
 
 	void _GLOBAL__sub_I_m_DataMap(); // size[113]
 	void DieThink(); // size[260]
-	void BounceGibTouch(CBaseEntity *param_1); // size[829]
+	void BounceGibTouch(CBaseEntity *param_1); // size[29]
 	void StickyGibTouch(CBaseEntity *param_1); // size[140]
-	void WaitTillLand(); // size[417]
+	void WaitTillLand(); // size[358]
 	void GetBaseMap(); // size[10]
 	void LimitVelocity(); // size[243]
 	void SetBloodColor(int param_1); // size[17]
 	void AdjustVelocityBasedOnHealth(int param_1, Vector *param_2); // size[118]
-	void InitGib(CBaseEntity *param_1, float param_2, float param_3); // size[157]
+	void InitGib(CBaseEntity *param_1, float param_2, float param_3); // size[561]
 	void SetLifeTime(float param_1); // size[72]
 	void Spawn(char *param_1); // size[42]
 	void SpawnStickyGibs(CBaseEntity *param_1, Vector param_2, int param_3); // size[211]

@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x25AC (9644) bytes
+// Estimated minimum size: 0x13B4 (5044) bytes
 
 class CCitizenResponseSystem : public CBaseEntity
 {
@@ -10,7 +10,7 @@ public:
 	virtual void Spawn() override; // vtable[23]
 	virtual void OnRestore() override; // vtable[45]
 
-	void ResponseThink(); // size[459]
+	void ResponseThink(); // size[389]
 	void GetBaseMap(); // size[10]
 	void AddResponseTrigger(citizenresponses_t param_1); // size[73]
 	void InputResponseVitalNPC(inputdata_t *param_1); // size[16]

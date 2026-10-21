@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x5E5B1CC8 (1583029448) bytes
+// Estimated minimum size: 0x1664 (5732) bytes
 
 class CBaseHL1MPCombatWeapon : public CBaseHL1CombatWeapon
 {
@@ -9,7 +9,7 @@ public:
 	virtual void GetServerClass() override; // vtable[10]
 	virtual void YouForgotToImplementOrDeclareServerClass() override; // vtable[11]
 	virtual void IsPredicted() override; // vtable[201]
-	virtual void _ZN22CBaseHL1MPCombatWeapon11WeaponSoundE13WeaponSound_td() override; // vtable[347]
+	virtual void WeaponSound(WeaponSound_t param_1, double param_2) override; // vtable[347]
 
 	void _GLOBAL__sub_I_GetServerClass(); // size[112]
 	CBaseHL1MPCombatWeapon(); // size[79]

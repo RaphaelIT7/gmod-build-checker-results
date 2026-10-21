@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x10 (16) bytes
+// Estimated minimum size: 0x8 (8) bytes
 
 class CTraceFilterCollisionGroupDelta : public CTraceFilterEntitiesOnly
 {

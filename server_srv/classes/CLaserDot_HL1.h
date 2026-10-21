@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x25AC (9644) bytes
+// Estimated minimum size: 0x13C4 (5060) bytes
 
 class CLaserDot_HL1 : public CBaseEntity
 {
@@ -14,7 +14,7 @@ public:
 	void GetBaseMap(); // size[10]
 	CLaserDot_HL1(); // size[28]
 	void Create(Vector *param_1, CBaseEntity *param_2, bool param_3); // size[22]
-	void SetLaserPosition(Vector *param_1, Vector *param_2); // size[29]
+	void SetLaserPosition(Vector *param_1, Vector *param_2); // size[74]
 	void GetChasePosition(); // size[147]
 	void TurnOn(); // size[138]
 	void TurnOff(); // size[115]

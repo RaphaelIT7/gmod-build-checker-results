@@ -1,12 +1,12 @@
 // Generated header
-// Estimated minimum size: 0x5E5B1CC8 (1583029448) bytes
+// Estimated minimum size: 0x167C (5756) bytes
 
 class CWeaponAnnabelle : public CBaseHLCombatWeapon
 {
 public:
 	virtual ~CWeaponAnnabelle() override; // vtable[0]
 	virtual ~CWeaponAnnabelle() override; // vtable[1]
-	virtual void _ZN16CWeaponAnnabelle14GetServerClassEv() override; // vtable[10]
+	virtual void GetServerClass() override; // vtable[10]
 	virtual void YouForgotToImplementOrDeclareServerClass() override; // vtable[11]
 	virtual void GetDataDescMap() override; // vtable[12]
 	virtual void Precache() override; // vtable[24]

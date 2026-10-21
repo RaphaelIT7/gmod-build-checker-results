@@ -14,5 +14,5 @@ public:
 	virtual void Restore(IRestore *param_1, bool param_2); // vtable[7]
 	virtual void PostRestore(); // vtable[8]
 
-	void Restore(IRestore *param_1, bool param_2); // size[446]
+	void Restore(IRestore *param_1, bool param_2); // size[329]
 };

@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x5E5B1CC8 (1583029448) bytes
+// Estimated minimum size: 0x17E8 (6120) bytes
 
 class CPropGladosCore : public CPhysicsProp
 {
@@ -63,10 +63,10 @@ public:
 	void PanicThink(); // size[188]
 	void TalkingThink(); // size[290]
 	void GetBaseMap(); // size[10]
-	CPropGladosCore(); // size[45]
+	CPropGladosCore(); // size[13]
 	void StartPanic(); // size[99]
 	void InputPanic(inputdata_t *param_1); // size[9]
 	void StartTalking(float param_1); // size[124]
 	void InputStartTalking(inputdata_t *param_1); // size[16]
-	void SetupVOList(); // size[126]
+	void SetupVOList(); // size[148]
 };

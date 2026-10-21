@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x5E5B1CC8 (1583029448) bytes
+// Estimated minimum size: 0x16A4 (5796) bytes
 
 class CWeapon_SLAM : public CBaseHL2MPCombatWeapon
 {
@@ -7,7 +7,7 @@ public:
 	virtual ~CWeapon_SLAM() override; // vtable[0]
 	virtual ~CWeapon_SLAM() override; // vtable[1]
 	virtual void GetServerClass() override; // vtable[10]
-	virtual void _ZN12CWeapon_SLAM40YouForgotToImplementOrDeclareServerClassEv() override; // vtable[11]
+	virtual void YouForgotToImplementOrDeclareServerClass() override; // vtable[11]
 	virtual void GetDataDescMap() override; // vtable[12]
 	virtual void Spawn() override; // vtable[23]
 	virtual void Precache() override; // vtable[24]

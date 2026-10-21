@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x25AC (9644) bytes
+// Estimated minimum size: 0x13BC (5052) bytes
 
 class ParticleSmokeGrenade : public CBaseParticleEntity
 {
@@ -12,8 +12,8 @@ public:
 	virtual void UpdateTransmitState() override; // vtable[20]
 
 	void _GLOBAL__sub_I_GetServerClass(); // size[112]
-	void GetBaseMap(); // size[10]
-	ParticleSmokeGrenade(); // size[99]
+	void GetBaseMap(); // size[1]
+	ParticleSmokeGrenade(); // size[20]
 	void FillVolume(); // size[160]
 	void SetFadeTime(float param_1, float param_2); // size[51]
 	void SetRelativeFadeTime(float param_1, float param_2); // size[97]

@@ -68,7 +68,7 @@ public:
 	void Shutdown(); // size[81]
 	void LoadLowResData(CUtlBuffer *param_1); // size[117]
 	void LoadImageData(CUtlBuffer *param_1, VTFFileHeader_t *param_2, int param_3); // size[547]
-	void SetupByteSwap(CUtlBuffer *param_1); // size[42]
+	void SetupByteSwap(CUtlBuffer *param_1); // size[83]
 	void ReadHeader(CUtlBuffer *param_1, VTFFileHeader_t *param_2); // size[424]
 	void LoadNewResources(CUtlBuffer *param_1); // size[160]
 	void FindResourceEntryInfo(uint param_1); // size[136]

@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x25AC (9644) bytes
+// Estimated minimum size: 0x13F4 (5108) bytes
 
 class RocketTrail : public CBaseParticleEntity
 {
@@ -11,7 +11,7 @@ public:
 	virtual void GetDataDescMap() override; // vtable[12]
 
 	void GetBaseMap(); // size[10]
-	RocketTrail(); // size[255]
+	RocketTrail(); // size[23]
 	void SetEmit(bool param_1); // size[81]
 	void CreateRocketTrail(); // size[77]
 	void FollowEntity(CBaseEntity *param_1, char *param_2); // size[134]

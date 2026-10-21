@@ -8,5 +8,5 @@ public:
 	virtual ~IVP_Time_Event_PSI() override; // vtable[1]
 	virtual void simulate_time_event(IVP_Environment *param_1) override; // vtable[2]
 
-	IVP_Time_Event_PSI(); // size[14]
+	IVP_Time_Event_PSI(); // size[11]
 };

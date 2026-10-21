@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x25AC (9644) bytes
+// Estimated minimum size: 0x13BC (5052) bytes
 
 class CInfoTeleporterCountdown : public CPointEntity
 {
@@ -15,6 +15,6 @@ public:
 	void InputStopCountdown(inputdata_t *param_1); // size[99]
 	void InputEnable(inputdata_t *param_1); // size[167]
 	void InputDisable(inputdata_t *param_1); // size[193]
-	void InputStartCountdown(inputdata_t *param_1); // size[12]
+	void InputStartCountdown(inputdata_t *param_1); // size[95]
 	void GetBaseMap(); // size[10]
 };

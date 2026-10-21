@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x25AC (9644) bytes
+// Estimated minimum size: 0x1454 (5204) bytes
 
 class CFuncPlatRot : public CFuncPlat
 {
@@ -14,6 +14,6 @@ public:
 	virtual void HitBottom() override; // vtable[251]
 
 	void GetBaseMap(); // size[10]
-	void SetupRotation(); // size[267]
-	void RotMove(QAngle *param_1, float param_2); // size[138]
+	void SetupRotation(); // size[92]
+	void RotMove(QAngle *param_1, float param_2); // size[156]
 };

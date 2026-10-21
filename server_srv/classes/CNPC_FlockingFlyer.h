@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x5E5B1CC8 (1583029448) bytes
+// Estimated minimum size: 0x2604 (9732) bytes
 
 class CNPC_FlockingFlyer : public CHL1BaseNPC
 {
@@ -11,9 +11,9 @@ public:
 	virtual void Precache() override; // vtable[24]
 	virtual void Event_Killed(CTakeDamageInfo *param_1) override; // vtable[68]
 	virtual void UpdateOnRemove() override; // vtable[108]
-	virtual CalcYawSpeed(); // vtable[0]
-	virtual OnCalcBaseMove(AILocalMoveGoal_t *param_1, float param_2, AIMoveResult_t *param_3); // vtable[1]
-	virtual OnObstructionPreSteer(AILocalMoveGoal_t *param_1, float param_2, AIMoveResult_t *param_3); // vtable[2]
+	virtual void CalcYawSpeed(); // vtable[0]
+	virtual void OnCalcBaseMove(AILocalMoveGoal_t *param_1, float param_2, AIMoveResult_t *param_3); // vtable[1]
+	virtual void OnObstructionPreSteer(AILocalMoveGoal_t *param_1, float param_2, AIMoveResult_t *param_3); // vtable[2]
 	virtual void OnFailedSteer(AILocalMoveGoal_t *param_1, float param_2, AIMoveResult_t *param_3); // vtable[3]
 	virtual void OnFailedLocalNavigation(AILocalMoveGoal_t *param_1, float param_2, AIMoveResult_t *param_3); // vtable[4]
 	virtual void OnInsufficientStopDist(AILocalMoveGoal_t *param_1, float param_2, AIMoveResult_t *param_3); // vtable[5]
@@ -22,7 +22,7 @@ public:
 	virtual void OnMoveExecuteFailed(AILocalMoveGoal_t *param_1, AIMoveTrace_t *param_2, AIMotorMoveResult_t param_3, AIMoveResult_t *param_4); // vtable[8]
 
 	void IdleThink(); // size[126]
-	void FallHack(); // size[240]
+	void FallHack(); // size[32]
 	void GetBaseMap(); // size[10]
 	void SpawnCommonCode(); // size[96]
 	void SquadUnlink(); // size[28]
@@ -35,7 +35,7 @@ public:
 	void FPathBlocked(); // size[303]
 	void SpreadFlock(); // size[672]
 	void SpreadFlock2(); // size[509]
-	void FlockFollowerThink(); // size[1234]
+	void FlockFollowerThink(); // size[1218]
 	void MakeSound(); // size[91]
 	void FlockLeaderThink(); // size[280]
 };

@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x25AC (9644) bytes
+// Estimated minimum size: 0x13CC (5068) bytes
 
 class CAI_Relationship : public CBaseEntity, public IEntityListener
 {
@@ -24,7 +24,7 @@ public:
 	void IsATarget(CBaseEntity *param_1); // size[102]
 	void FindEntityForProceduralName(string_t param_1, CBaseEntity *param_2, CBaseEntity *param_3); // size[30]
 	void DiscloseNPCLocation(CBaseCombatCharacter *param_1, CBaseCombatCharacter *param_2); // size[25]
-	void ChangeRelationships(int param_1, int param_2, CBaseEntity *param_3, CBaseEntity *param_4); // size[1844]
+	void ChangeRelationships(int param_1, int param_2, CBaseEntity *param_3, CBaseEntity *param_4); // size[1833]
 	void ApplyRelationship(CBaseEntity *param_1, CBaseEntity *param_2); // size[164]
 	void InputApplyRelationship(inputdata_t *param_1); // size[35]
 	void ApplyRelationshipThink(); // size[35]

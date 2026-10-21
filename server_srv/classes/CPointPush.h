@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x25AC (9644) bytes
+// Estimated minimum size: 0x13BC (5052) bytes
 
 class CPointPush : public CPointEntity
 {
@@ -11,6 +11,6 @@ public:
 
 	void InputEnable(inputdata_t *param_1); // size[66]
 	void InputDisable(inputdata_t *param_1); // size[66]
-	void PushThink(); // size[2337]
+	void PushThink(); // size[93]
 	void GetBaseMap(); // size[10]
 };

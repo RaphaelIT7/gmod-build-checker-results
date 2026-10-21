@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x20029E0 (33565152) bytes
+// Estimated minimum size: 0x218 (536) bytes
 
 class CMatRenderContext : public CMatRenderContextBase
 {
@@ -244,7 +244,7 @@ public:
 
 	~CMatRenderContext(); // size[202]
 	void SetFlashlightStateEx(FlashlightState_t *param_1, VMatrix *param_2, ITexture *param_3); // size[527]
-	void Init(CMaterialSystem *param_1); // size[92]
+	void Init(CMaterialSystem *param_1); // size[95]
 	void Shutdown(); // size[77]
 	void OnReleaseShaderObjects(); // size[15]
 	void TestMatrixSync(MaterialMatrixMode_t param_1); // size[10]

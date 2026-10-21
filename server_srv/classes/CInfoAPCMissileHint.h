@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x25AC (9644) bytes
+// Estimated minimum size: 0x13B4 (5044) bytes
 
 class CInfoAPCMissileHint : public CBaseEntity
 {
@@ -12,5 +12,5 @@ public:
 	virtual void UpdateOnRemove() override; // vtable[108]
 
 	void GetBaseMap(); // size[10]
-	void FindAimTarget(CBaseEntity *param_1, char *param_2, Vector *param_3, Vector *param_4); // size[1037]
+	void FindAimTarget(CBaseEntity *param_1, char *param_2, Vector *param_3, Vector *param_4); // size[17]
 };

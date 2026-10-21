@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x115A0EC (18194668) bytes
+// Estimated minimum size: 0x1460 (5216) bytes
 
 class CBreakable : public CBaseEntity, public IBreakableWithPropData, public CDefaultPlayerPickupVPhysics
 {
@@ -84,7 +84,7 @@ public:
 	virtual void OnPhysGunPickup(CBasePlayer *param_1, PhysGunPickup_t param_2) override; // vtable[2]
 	virtual void OnPhysGunDrop(CBasePlayer *param_1, PhysGunDrop_t param_2) override; // vtable[3]
 
-	void InputSetMass(inputdata_t *param_1); // size[81]
+	void InputSetMass(inputdata_t *param_1); // size[9]
 	void GetBaseMap(); // size[10]
 	void ParsePropData(); // size[90]
 	void MaterialSound(Materials param_1); // size[22]
@@ -98,5 +98,5 @@ public:
 	void IsBreakable(); // size[18]
 	void MaterialSoundRandom(int param_1, Materials param_2, float param_3); // size[336]
 	void DamageSound(); // size[399]
-	void BreakTouch(CBaseEntity *param_1); // size[623]
+	void BreakTouch(CBaseEntity *param_1); // size[546]
 };

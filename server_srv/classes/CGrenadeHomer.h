@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x5E5B1CC8 (1583029448) bytes
+// Estimated minimum size: 0x15F8 (5624) bytes
 
 class CGrenadeHomer : public CBaseGrenade
 {
@@ -30,8 +30,9 @@ public:
 	void StartRocketTrail(); // size[68]
 	void UpdateRocketTrail(float param_1); // size[426]
 	void StopRocketTrail(); // size[159]
-	void GrenadeHomerTouch(CBaseEntity *param_1); // size[25]
+	void GrenadeHomerTouch(CBaseEntity *param_1); // size[372]
+	CGrenadeHomer(); // size[1]
 	void PlayFlySound(); // size[103]
-	void AimThink(); // size[2485]
-	void Launch(CBaseEntity *param_1, CBaseEntity *param_2, Vector *param_3, float param_4, float param_5, int param_6); // size[173]
+	void AimThink(); // size[2480]
+	void Launch(CBaseEntity *param_1, CBaseEntity *param_2, Vector *param_3, float param_4, float param_5, int param_6); // size[118]
 };

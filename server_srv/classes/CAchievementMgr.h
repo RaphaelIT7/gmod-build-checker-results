@@ -45,7 +45,7 @@ public:
 	virtual void RemovePanelFromNotifyAch(uint param_1); // vtable[12]
 
 	void Steam_OnAchievmentIconDownloaded(UserAchievementIconFetched_t *param_1); // size[5]
-	void GetAchievementByName(char *param_1); // size[197]
+	void GetAchievementByName(char *param_1); // size[201]
 	void UploadUserData(); // size[5]
 	void LoadGlobalState(); // size[56]
 	void CheckAchievementsEnabled(); // size[239]
@@ -57,10 +57,10 @@ public:
 	void PreRestoreSavedGame(); // size[98]
 	void PostRestoreSavedGame(); // size[90]
 	void PrintAchievementStatus(); // size[352]
-	void UpdateStateFromSteam_Internal(); // size[400]
+	void UpdateStateFromSteam_Internal(); // size[410]
 	void Steam_OnUserStatsReceived(UserStatsReceived_t *param_1); // size[140]
 	void CheckMetaAchievements(); // size[214]
 	void Steam_OnUserStatsStored(UserStatsStored_t *param_1); // size[216]
 	CAchievementMgr(SteamCloudPersisting param_1); // size[828]
-	void SetAchievementThink(CBaseAchievement *param_1, float param_2); // size[372]
+	void SetAchievementThink(CBaseAchievement *param_1, float param_2); // size[356]
 };

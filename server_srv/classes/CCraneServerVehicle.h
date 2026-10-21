@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x7F0 (2032) bytes
+// Estimated minimum size: 0x19C (412) bytes
 
 class CCraneServerVehicle : public CBaseServerVehicle
 {

@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x5E5B1CC8 (1583029448) bytes
+// Estimated minimum size: 0x15C8 (5576) bytes
 
 class CSatchelCharge : public CBaseGrenade
 {
@@ -23,9 +23,9 @@ public:
 	virtual void PhysGunLaunchVelocity(Vector *param_1, float param_2); // vtable[9]
 
 	void InputExplode(inputdata_t *param_1); // size[220]
-	void SatchelThink(); // size[806]
+	void SatchelThink(); // size[717]
 	void GetBaseMap(); // size[10]
 	void Deactivate(); // size[124]
-	void CreateEffects(); // size[363]
+	void CreateEffects(); // size[152]
 	CSatchelCharge(); // size[87]
 };

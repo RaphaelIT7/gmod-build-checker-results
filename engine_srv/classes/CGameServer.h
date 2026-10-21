@@ -29,7 +29,7 @@ public:
 	void FinishRestore(); // size[5]
 	void CopyTempEntities(CFrameSnapshot *param_1); // size[110]
 	void ReloadWhitelist(char *param_1); // size[490]
-	void SpawnServer(char *param_1, char *param_2); // size[2931]
+	void SpawnServer(char *param_1, char *param_2); // size[135]
 	void CopyPureServerWhitelistToStringTable(); // size[133]
 	void CreateEngineStringTables(); // size[1165]
 	CGameServer(); // size[382]

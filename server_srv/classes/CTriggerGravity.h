@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x25AC (9644) bytes
+// Estimated minimum size: 0x14D8 (5336) bytes
 
 class CTriggerGravity : public CBaseTrigger
 {

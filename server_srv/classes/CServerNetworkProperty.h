@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x124 (292) bytes
+// Estimated minimum size: 0x50 (80) bytes
 
 class CServerNetworkProperty : public IServerNetworkable, public IEventRegisterCallback
 {
@@ -31,6 +31,6 @@ public:
 	void IsMarkedForDeletion(); // size[20]
 	void RecomputePVSInformation(); // size[65]
 	void IsInPVS(edict_t *param_1, void *param_2, int param_3); // size[144]
-	void IsInPVS(CCheckTransmitInfo *param_1); // size[467]
+	void IsInPVS(CCheckTransmitInfo *param_1); // size[432]
 	void SetUpdateInterval(float param_1); // size[51]
 };

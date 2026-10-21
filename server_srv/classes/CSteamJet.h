@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x25AC (9644) bytes
+// Estimated minimum size: 0x13CC (5068) bytes
 
 class CSteamJet : public CBaseParticleEntity
 {
@@ -16,7 +16,7 @@ public:
 	void _GLOBAL__sub_I_GetServerClass(); // size[112]
 	void InputTurnOff(inputdata_t *param_1); // size[48]
 	void InputTurnOn(inputdata_t *param_1); // size[48]
-	void InputToggle(inputdata_t *param_1); // size[59]
+	void InputToggle(inputdata_t *param_1); // size[47]
 	void GetBaseMap(); // size[10]
-	CSteamJet(); // size[159]
+	CSteamJet(); // size[20]
 };

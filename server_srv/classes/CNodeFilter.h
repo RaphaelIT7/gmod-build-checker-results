@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x10 (16) bytes
+// Estimated minimum size: 0xC (12) bytes
 
 class CNodeFilter : public INodeListFilter
 {

@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x25AC (9644) bytes
+// Estimated minimum size: 0x13D8 (5080) bytes
 
 class CSceneManager : public CBaseEntity
 {

@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x25AC (9644) bytes
+// Estimated minimum size: 0x1428 (5160) bytes
 
 class CBaseToggle : public CBaseEntity
 {
@@ -20,9 +20,9 @@ public:
 	void GetBaseMap(); // size[10]
 	CBaseToggle(); // size[26]
 	void LinearMove(Vector *param_1, float param_2); // size[41]
-	void LinearMoveDone(); // size[74]
+	void LinearMoveDone(); // size[52]
 	void AngularMove(QAngle *param_1, float param_2); // size[89]
-	void AngularMoveDone(); // size[66]
+	void AngularMoveDone(); // size[44]
 	void AxisValue(int param_1, QAngle *param_2); // size[67]
 	void AxisDir(); // size[121]
 	void AxisDelta(int param_1, QAngle *param_2, QAngle *param_3); // size[90]

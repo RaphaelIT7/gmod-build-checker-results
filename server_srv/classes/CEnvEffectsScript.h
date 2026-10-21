@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x5E5B1CC8 (1583029448) bytes
+// Estimated minimum size: 0x1588 (5512) bytes
 
 class CEnvEffectsScript : public CBaseAnimating
 {
@@ -13,10 +13,10 @@ public:
 	virtual void Think() override; // vtable[48]
 	virtual void HandleAnimEvent(animevent_t *param_1) override; // vtable[261]
 
-	void InputSetSequence(inputdata_t *param_1); // size[62]
+	void InputSetSequence(inputdata_t *param_1); // size[22]
 	void GetBaseMap(); // size[10]
 	void TrailEffectEvent(CEffectScriptElement *param_1); // size[1585]
-	void SpriteEffectEvent(CEffectScriptElement *param_1); // size[1259]
+	void SpriteEffectEvent(CEffectScriptElement *param_1); // size[1256]
 	void GetScriptElementByName(char *param_1); // size[83]
 	void ParseNewEffect(); // size[338]
 	void LoadFromBuffer(char *param_1, char *param_2); // size[126]

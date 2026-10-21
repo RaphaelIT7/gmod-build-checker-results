@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x150 (336) bytes
+// Estimated minimum size: 0x8 (8) bytes
 
 class IVP_Car_System_Real_Wheels : public IVP_Car_System
 {
@@ -38,9 +38,8 @@ public:
 	virtual void GetCarSystemDebugData(IVP_CarSystemDebugData_t *param_1); // vtable[31]
 	virtual void environment_will_be_deleted(IVP_Environment *param_1); // vtable[32]
 
-	IVP_Car_System_Real_Wheels(IVP_Environment *param_1, IVP_Template_Car_System *param_2); // size[17]
-	void _GLOBAL__sub_I_change_spring_dampening(); // size[1]
-	void change_wheel_speed_dampening(IVP_POS_WHEEL param_1, float param_2); // size[31]
-	IVP_Car_System_Real_Wheels(IVP_Environment *param_1, IVP_Template_Car_System *param_2); // size[2876]
+	IVP_Car_System_Real_Wheels(IVP_Environment *param_1, IVP_Template_Car_System *param_2); // size[16]
+	void change_wheel_speed_dampening(IVP_POS_WHEEL param_1, float param_2); // size[21]
+	IVP_Car_System_Real_Wheels(IVP_Environment *param_1, IVP_Template_Car_System *param_2); // size[2801]
 	void event_object_deleted(IVP_Event_Object *param_1); // size[40]
 };

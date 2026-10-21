@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x1580 (5504) bytes
+// Estimated minimum size: 0x78 (120) bytes
 
 class CLagCompensationManager : public CAutoGameSystemPerFrame, public ILagCompensationManager
 {
@@ -26,6 +26,6 @@ public:
 	virtual void IsAdditionalEntity(CBaseEntity *param_1); // vtable[6]
 
 	void RestoreEntityFromRecords(CBaseEntity *param_1, LagRecord *param_2, LagRecord *param_3, bool param_4); // size[1421]
-	void BacktrackEntity(CBaseEntity *param_1, float param_2, CUtlFixedLinkedList *param_3, LagRecord *param_4, LagRecord *param_5, bool param_6); // size[4462]
+	void BacktrackEntity(CBaseEntity *param_1, float param_2, CUtlFixedLinkedList *param_3, LagRecord *param_4, LagRecord *param_5, bool param_6); // size[4545]
 	void RecordDataIntoTrack(CBaseEntity *param_1, CUtlFixedLinkedList *param_2, bool param_3); // size[1597]
 };

@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x25AC (9644) bytes
+// Estimated minimum size: 0x1400 (5120) bytes
 
 class CTriggerBrush : public CBaseEntity
 {
@@ -13,7 +13,7 @@ public:
 	virtual void EndTouch(CBaseEntity *param_1) override; // vtable[103]
 
 	void GetBaseMap(); // size[10]
-	void PassesInputFilter(CBaseEntity *param_1, int param_2); // size[137]
+	void PassesInputFilter(CBaseEntity *param_1, int param_2); // size[135]
 	void InputDisable(inputdata_t *param_1); // size[16]
 	void InputEnable(inputdata_t *param_1); // size[16]
 };

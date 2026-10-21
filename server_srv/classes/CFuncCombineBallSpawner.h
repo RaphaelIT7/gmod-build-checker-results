@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x25AC (9644) bytes
+// Estimated minimum size: 0x1468 (5224) bytes
 
 class CFuncCombineBallSpawner : public CBaseEntity
 {
@@ -15,12 +15,11 @@ public:
 	void InputEnable(inputdata_t *param_1); // size[169]
 	void InputDisable(inputdata_t *param_1); // size[158]
 	void InputDisable(inputdata_t *param_1); // size[23]
-	CFuncCombineBallSpawner(); // size[26]
 	void ChoosePointInBox(Vector *param_1); // size[963]
 	void ChoosePointInCylinder(Vector *param_1); // size[258]
-	void RegisterReflection(CPropCombineBall *param_1, bool param_2); // size[60]
+	void RegisterReflection(CPropCombineBall *param_1, bool param_2); // size[64]
 	void GetTargetEndpoint(bool param_1, Vector *param_2); // size[100]
-	void BallGrabbed(CBaseEntity *param_1); // size[44]
+	void BallGrabbed(CBaseEntity *param_1); // size[223]
 	void GetBallSpeed(); // size[52]
 	void RespawnBall(float param_1); // size[85]
 	void RespawnBallPostExplosion(); // size[155]

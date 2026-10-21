@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x25AC (9644) bytes
+// Estimated minimum size: 0x14EC (5356) bytes
 
 class CEnvProjectedTexture : public CPointEntity
 {

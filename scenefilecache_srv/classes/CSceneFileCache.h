@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x10000004 (268435460) bytes
+// Estimated minimum size: 0x24 (36) bytes
 
 class CSceneFileCache : public CBaseAppSystem
 {

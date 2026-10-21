@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x44 (68) bytes
+// Estimated minimum size: 0x24 (36) bytes
 
 class IDirect3DQuery9 : public IDirect3DResource9
 {

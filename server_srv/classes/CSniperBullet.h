@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x25AC (9644) bytes
+// Estimated minimum size: 0x13F0 (5104) bytes
 
 class CSniperBullet : public CBaseEntity
 {
@@ -10,7 +10,7 @@ public:
 	virtual void Precache() override; // vtable[24]
 
 	void GetBaseMap(); // size[10]
-	void Start(Vector *param_1, Vector *param_2, CBaseEntity *param_3, bool param_4); // size[824]
+	void Start(Vector *param_1, Vector *param_2, CBaseEntity *param_3, bool param_4); // size[786]
 	void Init(); // size[72]
 	void Stop(); // size[59]
 	void BulletThink(); // size[744]

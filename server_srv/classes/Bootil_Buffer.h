@@ -17,7 +17,6 @@ public:
 	void SetExternalBuffer(void *param_1, ulonglong param_2); // size[67]
 	Buffer(void *param_1, int param_2); // size[66]
 	void GetSize(); // size[11]
-	void GetSize(); // size[11]
 	void GetPos(); // size[11]
 	void GetPos(); // size[11]
 	void GetBase(ulonglong param_1); // size[12]

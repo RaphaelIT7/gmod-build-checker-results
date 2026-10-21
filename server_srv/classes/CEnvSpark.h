@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x25AC (9644) bytes
+// Estimated minimum size: 0x13C4 (5060) bytes
 
 class CEnvSpark : public CPointEntity
 {
@@ -10,7 +10,7 @@ public:
 	virtual void Spawn() override; // vtable[23]
 	virtual void Precache() override; // vtable[24]
 
-	void SparkThink(); // size[306]
+	void SparkThink(); // size[365]
 	void InputSparkOnce(inputdata_t *param_1); // size[54]
 	void GetBaseMap(); // size[10]
 	CEnvSpark(); // size[26]

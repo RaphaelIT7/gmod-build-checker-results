@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x5E5B1CC8 (1583029448) bytes
+// Estimated minimum size: 0x15D0 (5584) bytes
 
 class CWeaponBox : public CHL1Item
 {
@@ -7,7 +7,7 @@ public:
 	virtual ~CWeaponBox() override; // vtable[0]
 	virtual ~CWeaponBox() override; // vtable[1]
 	virtual void GetDataDescMap() override; // vtable[12]
-	virtual void Spawn() override; // vtable[23]
+	virtual void _ZN10CWeaponBox5SpawnEv() override; // vtable[23]
 	virtual void Precache() override; // vtable[24]
 	virtual void KeyValue(char *param_1, char *param_2) override; // vtable[30]
 	virtual void OnAttemptPhysGunPickup(CBasePlayer *param_1, PhysGunPickup_t param_2); // vtable[0]

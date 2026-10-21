@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x5E5B1CC8 (1583029448) bytes
+// Estimated minimum size: 0x20AC (8364) bytes
 
 class CHLSelectFireMachineGun : public CHLMachineGun
 {
@@ -19,7 +19,7 @@ public:
 	virtual void GetBurstCycleRate(); // vtable[429]
 	virtual void GetBurstSize(); // vtable[430]
 
-	void BurstThink(); // size[45]
+	void BurstThink(); // size[148]
 	void GetBaseMap(); // size[10]
 	CHLSelectFireMachineGun(); // size[88]
 };

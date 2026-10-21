@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x5E5B1CC8 (1583029448) bytes
+// Estimated minimum size: 0x1614 (5652) bytes
 
 class CNewRecharge : public CBaseAnimating
 {
@@ -22,7 +22,7 @@ public:
 	void GetBaseMap(); // size[10]
 	void SetInitialCharge(); // size[119]
 	void MaxJuice(); // size[27]
-	void UpdateJuice(int param_1); // size[177]
+	void UpdateJuice(int param_1); // size[197]
 	void Recharge(); // size[50]
 	void InputRecharge(inputdata_t *param_1); // size[9]
 };

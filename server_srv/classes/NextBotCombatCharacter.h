@@ -1,12 +1,12 @@
 // Generated header
-// Estimated minimum size: 0x5E5B1CC8 (1583029448) bytes
+// Estimated minimum size: 0x2094 (8340) bytes
 
 class NextBotCombatCharacter : public CBaseCombatCharacter, public INextBot
 {
 public:
 	virtual ~NextBotCombatCharacter() override; // vtable[0]
 	virtual ~NextBotCombatCharacter() override; // vtable[1]
-	virtual void _ZN22NextBotCombatCharacter14GetServerClassEv() override; // vtable[10]
+	virtual void GetServerClass() override; // vtable[10]
 	virtual void YouForgotToImplementOrDeclareServerClass() override; // vtable[11]
 	virtual void GetDataDescMap() override; // vtable[12]
 	virtual void Spawn() override; // vtable[23]
@@ -24,11 +24,11 @@ public:
 	virtual void BecomeRagdoll(CTakeDamageInfo *param_1, Vector *param_2, CBaseEntity * *param_3) override; // vtable[357]
 	virtual void IsAreaTraversable(CNavArea *param_1) override; // vtable[380]
 	virtual void OnNavAreaChanged(CNavArea *param_1, CNavArea *param_2) override; // vtable[383]
-	virtual void Ignite(float param_1, CBaseEntity *param_2); // vtable[388]
-	virtual void IsUseableEntity(CBaseEntity *param_1, uint param_2); // vtable[389]
-	virtual void GetLastAttacker(); // vtable[390]
-	virtual void GetEntity(); // vtable[391]
-	virtual void GetNextBotCombatCharacter(); // vtable[392]
+	virtual void Ignite(float param_1, CBaseEntity *param_2); // vtable[389]
+	virtual void IsUseableEntity(CBaseEntity *param_1, uint param_2); // vtable[390]
+	virtual void GetLastAttacker(); // vtable[391]
+	virtual void GetEntity(); // vtable[392]
+	virtual void GetNextBotCombatCharacter(); // vtable[393]
 	virtual ~NextBotCombatCharacter() override; // vtable[0]
 	virtual ~NextBotCombatCharacter() override; // vtable[1]
 	virtual void OnNavAreaChanged(CNavArea *param_1, CNavArea *param_2) override; // vtable[24]

@@ -1,23 +1,22 @@
 // Generated header
-// Estimated minimum size: 0x10 (16) bytes
+// Estimated minimum size: 0x8 (8) bytes
 
 class IVP_VHash
 {
 public:
-	_GLOBAL__sub_I_IVP_VHash(); // size[1]
-	IVP_VHash(int param_1); // size[51]
-	void activate(int param_1); // size[45]
-	void deactivate(); // size[44]
-	IVP_VHash(IVP_VHash_Elem *param_1, int param_2); // size[36]
-	~IVP_VHash(); // size[39]
-	~IVP_VHash(); // size[50]
-	void untouch_all(); // size[33]
-	void add_elem(void *param_1, int param_2); // size[279]
-	void rehash(int param_1); // size[142]
-	void garbage_collection(int param_1); // size[72]
-	void remove_elem(void *param_1, uint param_2); // size[349]
+	IVP_VHash(int param_1); // size[57]
+	void activate(int param_1); // size[47]
+	void deactivate(); // size[53]
+	IVP_VHash(IVP_VHash_Elem *param_1, int param_2); // size[28]
+	~IVP_VHash(); // size[37]
+	~IVP_VHash(); // size[56]
+	void untouch_all(); // size[42]
+	void add_elem(void *param_1, int param_2); // size[221]
+	void rehash(int param_1); // size[171]
+	void garbage_collection(int param_1); // size[44]
+	void remove_elem(void *param_1, uint param_2); // size[367]
 	void check(); // size[1]
-	void find_elem(void *param_1, uint param_2); // size[102]
-	void touch_element(void *param_1, uint param_2); // size[108]
-	void print(); // size[104]
+	void find_elem(void *param_1, uint param_2); // size[150]
+	void touch_element(void *param_1, uint param_2); // size[156]
+	void print(); // size[117]
 };

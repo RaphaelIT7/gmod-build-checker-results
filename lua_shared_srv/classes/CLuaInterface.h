@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x140 (320) bytes
+// Estimated minimum size: 0xFC (252) bytes
 
 class CLuaInterface : public ILuaInterface
 {

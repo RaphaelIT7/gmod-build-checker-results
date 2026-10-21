@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x7F0 (2032) bytes
+// Estimated minimum size: 0x19C (412) bytes
 
 class CBaseServerVehicle : public IServerVehicle
 {
@@ -25,7 +25,7 @@ public:
 	virtual void HandlePassengerExit(CBaseCombatCharacter *param_1); // vtable[18]
 	virtual void GetPassengerExitPoint(int param_1, Vector *param_2, QAngle *param_3); // vtable[19]
 	virtual void GetEntryAnimForPoint(Vector *param_1); // vtable[20]
-	virtual void _ZN18CBaseServerVehicle16GetExitAnimToUseER6VectorRb(); // vtable[21]
+	virtual void GetExitAnimToUse(Vector *param_1, bool *param_2); // vtable[21]
 	virtual void HandleEntryExitFinish(bool param_1, bool param_2); // vtable[22]
 	virtual void ClassifyPassenger(CBaseCombatCharacter *param_1, Class_T param_2); // vtable[23]
 	virtual void PassengerDamageModifier(CTakeDamageInfo *param_1); // vtable[24]
@@ -37,9 +37,9 @@ public:
 	virtual void NPC_GetPassengerSeatPosition(CBaseCombatCharacter *param_1, Vector *param_2, QAngle *param_3); // vtable[30]
 	virtual void NPC_GetPassengerSeatPositionLocal(CBaseCombatCharacter *param_1, Vector *param_2, QAngle *param_3); // vtable[31]
 	virtual void NPC_GetPassengerSeatAttachment(CBaseCombatCharacter *param_1); // vtable[32]
-	virtual void NPC_HasAvailableSeat(string_t param_1); // vtable[33]
+	virtual void _ZN18CBaseServerVehicle20NPC_HasAvailableSeatE8string_t(); // vtable[33]
 	virtual void NPC_GetPassengerSeatAnims(CBaseCombatCharacter *param_1, PassengerSeatAnimType_t param_2); // vtable[34]
-	virtual void NPC_GetPassengerInSeat(int param_1, int param_2); // vtable[35]
+	virtual void _ZN18CBaseServerVehicle22NPC_GetPassengerInSeatEii(); // vtable[35]
 	virtual void RestorePassengerInfo(); // vtable[36]
 	virtual void NPC_CanDrive(); // vtable[37]
 	virtual void NPC_SetDriver(CNPC_VehicleDriver *param_1); // vtable[38]
@@ -58,7 +58,7 @@ public:
 	virtual void NPC_AimPrimaryWeapon(Vector param_1); // vtable[51]
 	virtual void NPC_AimSecondaryWeapon(Vector param_1); // vtable[52]
 	virtual void Weapon_PrimaryRanges(float *param_1, float *param_2); // vtable[53]
-	virtual void Weapon_SecondaryRanges(float *param_1, float *param_2); // vtable[54]
+	virtual void _ZN18CBaseServerVehicle22Weapon_SecondaryRangesEPfS0_(); // vtable[54]
 	virtual void Weapon_PrimaryCanFireAt(); // vtable[55]
 	virtual void Weapon_SecondaryCanFireAt(); // vtable[56]
 	virtual void ReloadScript(); // vtable[57]
@@ -76,9 +76,9 @@ public:
 	virtual void StopSound(vehiclesound param_1); // vtable[69]
 	virtual void RecalculateSoundGear(vbs_sound_update_t *param_1); // vtable[70]
 	virtual void StartEngineRumble(); // vtable[71]
-	virtual void _ZN18CBaseServerVehicle16StopEngineRumbleEv(); // vtable[72]
+	virtual void StopEngineRumble(); // vtable[72]
 
-	void PlaySound(char *param_1); // size[82]
+	void PlaySound(char *param_1); // size[42]
 	void GetBaseMap(); // size[7]
 	void Initialize(char *param_1); // size[66]
 	void GetDrivableVehicle(); // size[29]

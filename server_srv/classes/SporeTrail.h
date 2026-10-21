@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x25AC (9644) bytes
+// Estimated minimum size: 0x13B4 (5044) bytes
 
 class SporeTrail : public CBaseParticleEntity
 {
@@ -11,6 +11,6 @@ public:
 	virtual void GetDataDescMap() override; // vtable[12]
 
 	void GetBaseMap(); // size[10]
-	SporeTrail(); // size[192]
+	SporeTrail(); // size[20]
 	void CreateSporeTrail(); // size[77]
 };

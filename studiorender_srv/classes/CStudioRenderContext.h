@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x1000010 (16777232) bytes
+// Estimated minimum size: 0x300 (768) bytes
 
 class CStudioRenderContext : public CTier3AppSystem
 {

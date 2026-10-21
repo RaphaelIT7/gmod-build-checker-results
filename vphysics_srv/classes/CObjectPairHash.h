@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x48 (72) bytes
+// Estimated minimum size: 0x8 (8) bytes
 
 class CObjectPairHash : public IPhysicsObjectPairHash
 {
@@ -14,5 +14,5 @@ public:
 	virtual void GetPairCountForObject(void *param_1); // vtable[7]
 	virtual void GetPairListForObject(void *param_1, int param_2, void * *param_3); // vtable[8]
 
-	void AddToObjectList(void *param_1, void *param_2); // size[564]
+	void AddToObjectList(void *param_1, void *param_2); // size[613]
 };

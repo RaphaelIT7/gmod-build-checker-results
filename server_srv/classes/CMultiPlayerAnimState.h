@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0xC45C704 (205899524) bytes
+// Estimated minimum size: 0xC0 (192) bytes
 
 class CMultiPlayerAnimState
 {
@@ -55,8 +55,8 @@ public:
 	void UpdateGestureLayer(CStudioHdr *param_1, GestureSlot_t *param_2); // size[55]
 	void ComputeGestureSequence(CStudioHdr *param_1); // size[96]
 	void SetupPoseParameters(CStudioHdr *param_1); // size[94]
-	void DoMovementTest(CStudioHdr *param_1, float param_2, float param_3); // size[351]
-	void DoMovementTest(CStudioHdr *param_1); // size[142]
+	void DoMovementTest(CStudioHdr *param_1, float param_2, float param_3); // size[83]
+	void DoMovementTest(CStudioHdr *param_1); // size[259]
 	void GetMovementFlags(CStudioHdr *param_1); // size[212]
 	void ConvergeYawAngles(float param_1, float param_2, float param_3, float *param_4); // size[208]
 	void GetRenderAngles(); // size[11]
@@ -66,6 +66,6 @@ public:
 	void DebugGestureInfo(); // size[403]
 	void OnNewModel(); // size[48]
 	void ShutdownGestureSlots(); // size[40]
-	void InitGestureSlots(); // size[247]
+	void InitGestureSlots(); // size[239]
 	CMultiPlayerAnimState(CBasePlayer *param_1, MultiPlayerMovementData_t *param_2); // size[373]
 };

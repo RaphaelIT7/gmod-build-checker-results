@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x25AC (9644) bytes
+// Estimated minimum size: 0x13F4 (5108) bytes
 
 class CPhysFixed : public CPhysConstraint
 {

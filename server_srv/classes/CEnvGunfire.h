@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x25AC (9644) bytes
+// Estimated minimum size: 0x1400 (5120) bytes
 
 class CEnvGunfire : public CPointEntity
 {
@@ -14,7 +14,8 @@ public:
 	void InputDisable(inputdata_t *param_1); // size[65]
 	void GetBaseMap(); // size[10]
 	void StartShooting(); // size[98]
-	void UpdateTarget(); // size[352]
+	void InputEnable(inputdata_t *param_1); // size[19]
+	void UpdateTarget(); // size[28]
 	void StopShooting(); // size[58]
-	void ShootThink(); // size[381]
+	void ShootThink(); // size[285]
 };

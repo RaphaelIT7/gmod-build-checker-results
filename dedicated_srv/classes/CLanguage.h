@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x80 (128) bytes
+// Estimated minimum size: 0x20 (32) bytes
 
 class CLanguage : public IGModLanguage
 {
@@ -11,5 +11,5 @@ public:
 	virtual void UpdateSourceEngineLanguage(); // vtable[4]
 
 	void TellLuaLanguageChanged(char *param_1); // size[374]
-	void ProcessFile(string *param_1, char *param_2); // size[262]
+	void ProcessFile(string *param_1, char *param_2); // size[222]
 };

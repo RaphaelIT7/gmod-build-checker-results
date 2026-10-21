@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x5E5B1CC8 (1583029448) bytes
+// Estimated minimum size: 0x166C (5740) bytes
 
 class CWeaponTripMine : public CBaseHL1MPCombatWeapon
 {

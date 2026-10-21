@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0xAC (172) bytes
+// Estimated minimum size: 0x8 (8) bytes
 
 class CBrushConvexInfo : public IConvexInfo
 {

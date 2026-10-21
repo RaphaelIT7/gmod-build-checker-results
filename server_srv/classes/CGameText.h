@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x25AC (9644) bytes
+// Estimated minimum size: 0x13D0 (5072) bytes
 
 class CGameText : public CRulePointEntity
 {
@@ -16,7 +16,7 @@ public:
 	void InputSetTextColor2(inputdata_t *param_1); // size[70]
 	void InputSetText(inputdata_t *param_1); // size[56]
 	void GetBaseMap(); // size[10]
-	void Display(CBaseEntity *param_1); // size[269]
+	void Display(CBaseEntity *param_1); // size[268]
 	void InputDisplay(inputdata_t *param_1); // size[17]
 	void SetText(char *param_1); // size[24]
 	void SetPosX(float param_1); // size[21]

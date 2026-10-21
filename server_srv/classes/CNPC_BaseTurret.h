@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x5E5B1CC8 (1583029448) bytes
+// Estimated minimum size: 0x2660 (9824) bytes
 
 class CNPC_BaseTurret : public CAI_BaseNPC
 {
@@ -17,16 +17,16 @@ public:
 	virtual void CanBecomeServerRagdoll() override; // vtable[337]
 	virtual void OnTakeDamage_Alive(CTakeDamageInfo *param_1) override; // vtable[338]
 	virtual void ShouldGib(CTakeDamageInfo *param_1) override; // vtable[352]
-	virtual void ShouldFadeOnDeath() override; // vtable[594]
-	virtual void SpinDownCall(); // vtable[652]
-	virtual void SpinUpCall(); // vtable[653]
-	virtual void Ping(); // vtable[654]
-	virtual void EyeOn(); // vtable[655]
-	virtual void EyeOff(); // vtable[656]
-	virtual void Shoot(Vector *param_1, Vector *param_2); // vtable[657]
-	virtual CalcYawSpeed(); // vtable[0]
-	virtual OnCalcBaseMove(AILocalMoveGoal_t *param_1, float param_2, AIMoveResult_t *param_3); // vtable[1]
-	virtual OnObstructionPreSteer(AILocalMoveGoal_t *param_1, float param_2, AIMoveResult_t *param_3); // vtable[2]
+	virtual void ShouldFadeOnDeath() override; // vtable[595]
+	virtual void SpinDownCall(); // vtable[653]
+	virtual void SpinUpCall(); // vtable[654]
+	virtual void Ping(); // vtable[655]
+	virtual void EyeOn(); // vtable[656]
+	virtual void EyeOff(); // vtable[657]
+	virtual void Shoot(Vector *param_1, Vector *param_2); // vtable[658]
+	virtual void CalcYawSpeed(); // vtable[0]
+	virtual void OnCalcBaseMove(AILocalMoveGoal_t *param_1, float param_2, AIMoveResult_t *param_3); // vtable[1]
+	virtual void OnObstructionPreSteer(AILocalMoveGoal_t *param_1, float param_2, AIMoveResult_t *param_3); // vtable[2]
 	virtual void OnFailedSteer(AILocalMoveGoal_t *param_1, float param_2, AIMoveResult_t *param_3); // vtable[3]
 	virtual void OnFailedLocalNavigation(AILocalMoveGoal_t *param_1, float param_2, AIMoveResult_t *param_3); // vtable[4]
 	virtual void OnInsufficientStopDist(AILocalMoveGoal_t *param_1, float param_2, AIMoveResult_t *param_3); // vtable[5]
@@ -44,8 +44,8 @@ public:
 	void SetTurretAnim(TURRET_ANIM param_1); // size[240]
 	void Deploy(); // size[540]
 	void MoveTurret(); // size[864]
-	void ActiveThink(); // size[834]
+	void ActiveThink(); // size[865]
 	void SearchThink(); // size[662]
-	void Retire(); // size[552]
-	void TurretDeath(); // size[642]
+	void Retire(); // size[35]
+	void TurretDeath(); // size[636]
 };

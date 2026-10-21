@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x5E5B1CC8 (1583029448) bytes
+// Estimated minimum size: 0x15A8 (5544) bytes
 
 class CHandGrenade : public CHL1BaseGrenade
 {
@@ -24,5 +24,5 @@ public:
 	void _GLOBAL__sub_I_m_DataMap(); // size[112]
 	void BounceTouch(CBaseEntity *param_1); // size[1223]
 	void GetBaseMap(); // size[10]
-	void ShootTimed(CBaseCombatCharacter *param_1, Vector param_2, float param_3); // size[158]
+	void ShootTimed(CBaseCombatCharacter *param_1, Vector param_2, float param_3); // size[30]
 };

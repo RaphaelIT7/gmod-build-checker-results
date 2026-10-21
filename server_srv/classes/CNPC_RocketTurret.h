@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x5E5B1CC8 (1583029448) bytes
+// Estimated minimum size: 0x26B0 (9904) bytes
 
 class CNPC_RocketTurret : public CAI_BaseNPC
 {
@@ -17,10 +17,10 @@ public:
 	virtual void EyePosition() override; // vtable[133]
 	virtual void FVisible(CBaseEntity *param_1, int param_2, CBaseEntity * *param_3) override; // vtable[144]
 	virtual void CreateVPhysics() override; // vtable[157]
-	virtual void EyeOffset(Activity param_1) override; // vtable[553]
-	virtual CalcYawSpeed(); // vtable[0]
-	virtual OnCalcBaseMove(AILocalMoveGoal_t *param_1, float param_2, AIMoveResult_t *param_3); // vtable[1]
-	virtual OnObstructionPreSteer(AILocalMoveGoal_t *param_1, float param_2, AIMoveResult_t *param_3); // vtable[2]
+	virtual void EyeOffset(Activity param_1) override; // vtable[554]
+	virtual void CalcYawSpeed(); // vtable[0]
+	virtual void OnCalcBaseMove(AILocalMoveGoal_t *param_1, float param_2, AIMoveResult_t *param_3); // vtable[1]
+	virtual void OnObstructionPreSteer(AILocalMoveGoal_t *param_1, float param_2, AIMoveResult_t *param_3); // vtable[2]
 	virtual void OnFailedSteer(AILocalMoveGoal_t *param_1, float param_2, AIMoveResult_t *param_3); // vtable[3]
 	virtual void OnFailedLocalNavigation(AILocalMoveGoal_t *param_1, float param_2, AIMoveResult_t *param_3); // vtable[4]
 	virtual void OnInsufficientStopDist(AILocalMoveGoal_t *param_1, float param_2, AIMoveResult_t *param_3); // vtable[5]
@@ -37,7 +37,7 @@ public:
 	void DeathThink(); // size[73]
 	void GetBaseMap(); // size[10]
 	CNPC_RocketTurret(); // size[26]
-	void UpdateAimPoint(); // size[1178]
+	void UpdateAimPoint(); // size[1186]
 	void FindAnEnemy(); // size[391]
 	void FireRocket(); // size[217]
 	void UpdateSkin(int param_1); // size[47]

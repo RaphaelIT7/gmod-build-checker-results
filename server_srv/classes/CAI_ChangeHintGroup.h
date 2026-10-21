@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x25AC (9644) bytes
+// Estimated minimum size: 0x13C4 (5060) bytes
 
 class CAI_ChangeHintGroup : public CBaseEntity
 {
@@ -10,6 +10,6 @@ public:
 	virtual void ObjectCaps() override; // vtable[36]
 
 	void GetBaseMap(); // size[10]
-	void FindQualifiedNPC(CAI_BaseNPC *param_1, CBaseEntity *param_2, CBaseEntity *param_3); // size[305]
+	void FindQualifiedNPC(CAI_BaseNPC *param_1, CBaseEntity *param_2, CBaseEntity *param_3); // size[31]
 	void InputActivate(inputdata_t *param_1); // size[87]
 };

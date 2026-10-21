@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x8 (8) bytes
+// Estimated minimum size: 0x4 (4) bytes
 
 class CPlayerLocalData_NetworkVar_m_skybox3d : public sky3dparams_t
 {

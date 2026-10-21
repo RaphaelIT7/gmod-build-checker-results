@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x25AC (9644) bytes
+// Estimated minimum size: 0x145C (5212) bytes
 
 class CPendulum : public CBaseToggle
 {
@@ -12,9 +12,9 @@ public:
 	virtual void Blocked(CBaseEntity *param_1) override; // vtable[105]
 
 	void InputActivate(inputdata_t *param_1); // size[121]
-	void PendulumUse(CBaseEntity *param_1, CBaseEntity *param_2, USE_TYPE param_3, float param_4); // size[433]
+	void PendulumUse(CBaseEntity *param_1, CBaseEntity *param_2, USE_TYPE param_3, float param_4); // size[333]
 	void Stop(); // size[90]
-	void Swing(); // size[543]
-	void RopeTouch(CBaseEntity *param_1); // size[154]
+	void Swing(); // size[314]
+	void RopeTouch(CBaseEntity *param_1); // size[130]
 	void GetBaseMap(); // size[10]
 };

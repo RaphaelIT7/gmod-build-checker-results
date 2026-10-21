@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x278 (632) bytes
+// Estimated minimum size: 0xA0 (160) bytes
 
 class CPhysSaveRestoreBlockHandler : public CDefSaveRestoreBlockHandler, public IPhysSaveRestoreManager, public IEntityListener
 {
@@ -30,6 +30,6 @@ public:
 
 	void SaveQueueFunc(QueuedItem_t *param_1, QueuedItem_t *param_2); // size[145]
 	void RestorePhysicsObjectAndModel(IRestore *param_1, PhysObjectHeader_t *param_2, QueuedItem_t *param_3, int param_4); // size[848]
-	CPhysSaveRestoreBlockHandler(); // size[376]
-	~CPhysSaveRestoreBlockHandler(); // size[14]
+	CPhysSaveRestoreBlockHandler(); // size[367]
+	~CPhysSaveRestoreBlockHandler(); // size[5]
 };

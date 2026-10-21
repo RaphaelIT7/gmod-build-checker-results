@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x5E5B1CC8 (1583029448) bytes
+// Estimated minimum size: 0x15C8 (5576) bytes
 
 class CMP5AmmoClip : public CHL1Item
 {

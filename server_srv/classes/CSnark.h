@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x5E5B1CC8 (1583029448) bytes
+// Estimated minimum size: 0x25F8 (9720) bytes
 
 class CSnark : public CHL1BaseNPC
 {
@@ -17,10 +17,10 @@ public:
 	virtual void ResolveFlyCollisionCustom(CGameTrace *param_1, Vector *param_2) override; // vtable[175]
 	virtual void ShouldGib(CTakeDamageInfo *param_1) override; // vtable[352]
 	virtual void Event_Gibbed(CTakeDamageInfo *param_1) override; // vtable[354]
-	virtual void IsValidEnemy(CBaseEntity *param_1) override; // vtable[475]
-	virtual CalcYawSpeed(); // vtable[0]
-	virtual OnCalcBaseMove(AILocalMoveGoal_t *param_1, float param_2, AIMoveResult_t *param_3); // vtable[1]
-	virtual OnObstructionPreSteer(AILocalMoveGoal_t *param_1, float param_2, AIMoveResult_t *param_3); // vtable[2]
+	virtual void IsValidEnemy(CBaseEntity *param_1) override; // vtable[476]
+	virtual void CalcYawSpeed(); // vtable[0]
+	virtual void OnCalcBaseMove(AILocalMoveGoal_t *param_1, float param_2, AIMoveResult_t *param_3); // vtable[1]
+	virtual void OnObstructionPreSteer(AILocalMoveGoal_t *param_1, float param_2, AIMoveResult_t *param_3); // vtable[2]
 	virtual void OnFailedSteer(AILocalMoveGoal_t *param_1, float param_2, AIMoveResult_t *param_3); // vtable[3]
 	virtual void OnFailedLocalNavigation(AILocalMoveGoal_t *param_1, float param_2, AIMoveResult_t *param_3); // vtable[4]
 	virtual void OnInsufficientStopDist(AILocalMoveGoal_t *param_1, float param_2, AIMoveResult_t *param_3); // vtable[5]
@@ -28,7 +28,7 @@ public:
 	virtual void OnMoveStalled(AILocalMoveGoal_t *param_1); // vtable[7]
 	virtual void OnMoveExecuteFailed(AILocalMoveGoal_t *param_1, AIMoveTrace_t *param_2, AIMotorMoveResult_t param_3, AIMoveResult_t *param_4); // vtable[8]
 
-	void HuntThink(); // size[2270]
+	void HuntThink(); // size[2234]
 	void GetBaseMap(); // size[10]
 	void SuperBounceTouch(CBaseEntity *param_1); // size[1099]
 };

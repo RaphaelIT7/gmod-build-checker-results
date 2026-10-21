@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0xC0 (192) bytes
+// Estimated minimum size: 0x8 (8) bytes
 
 class IVP_Actuator_Rot_Mot : public IVP_Actuator_Two_Point
 {
@@ -11,10 +11,10 @@ public:
 	virtual ~IVP_Actuator_Rot_Mot(); // vtable[8]
 	virtual void anchor_will_be_deleted_event(IVP_Anchor *param_1); // vtable[9]
 
-	IVP_Actuator_Rot_Mot(IVP_Environment *param_1, IVP_Template_Rot_Mot *param_2); // size[17]
-	void set_max_rotation_speed(double param_1); // size[64]
-	void set_power(double param_1); // size[64]
-	void set_max_torque(double param_1); // size[64]
-	IVP_Actuator_Rot_Mot(IVP_Environment *param_1, IVP_Template_Rot_Mot *param_2); // size[216]
-	void get_power(); // size[14]
+	IVP_Actuator_Rot_Mot(IVP_Environment *param_1, IVP_Template_Rot_Mot *param_2); // size[16]
+	void set_max_rotation_speed(double param_1); // size[51]
+	void set_power(double param_1); // size[51]
+	void set_max_torque(double param_1); // size[51]
+	IVP_Actuator_Rot_Mot(IVP_Environment *param_1, IVP_Template_Rot_Mot *param_2); // size[249]
+	void get_power(); // size[9]
 };

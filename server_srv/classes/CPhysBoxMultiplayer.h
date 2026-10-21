@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x115A0EC (18194668) bytes
+// Estimated minimum size: 0x1554 (5460) bytes
 
 class CPhysBoxMultiplayer : public CPhysBox, public IMultiplayerPhysics
 {

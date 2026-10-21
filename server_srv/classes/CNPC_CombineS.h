@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x5E5B1CC8 (1583029448) bytes
+// Estimated minimum size: 0x2BDC (11228) bytes
 
 class CNPC_CombineS : public CNPC_Combine
 {
@@ -12,20 +12,20 @@ public:
 	virtual void Event_Killed(CTakeDamageInfo *param_1) override; // vtable[68]
 	virtual void HandleAnimEvent(animevent_t *param_1) override; // vtable[261]
 	virtual void NPC_TranslateActivity(Activity param_1) override; // vtable[322]
-	virtual void PrescheduleThink() override; // vtable[403]
-	virtual void SelectSchedule() override; // vtable[407]
-	virtual void BuildScheduleTestBits() override; // vtable[434]
-	virtual void OnChangeActivity(Activity param_1) override; // vtable[460]
-	virtual void OnListened() override; // vtable[464]
-	virtual void AllowedToIgnite() override; // vtable[483]
-	virtual void DeathSound(CTakeDamageInfo *param_1) override; // vtable[507]
-	virtual void ClearAttackConditions() override; // vtable[605]
-	virtual void GetHitgroupDamageMultiplier(int param_1, CTakeDamageInfo *param_2) override; // vtable[623]
-	virtual void IsLightDamage(CTakeDamageInfo *param_1) override; // vtable[632]
-	virtual void IsHeavyDamage(CTakeDamageInfo *param_1) override; // vtable[633]
-	virtual CalcYawSpeed(); // vtable[0]
+	virtual void PrescheduleThink() override; // vtable[404]
+	virtual void SelectSchedule() override; // vtable[408]
+	virtual void BuildScheduleTestBits() override; // vtable[435]
+	virtual void OnChangeActivity(Activity param_1) override; // vtable[461]
+	virtual void OnListened() override; // vtable[465]
+	virtual void AllowedToIgnite() override; // vtable[484]
+	virtual void DeathSound(CTakeDamageInfo *param_1) override; // vtable[508]
+	virtual void ClearAttackConditions() override; // vtable[606]
+	virtual void GetHitgroupDamageMultiplier(int param_1, CTakeDamageInfo *param_2) override; // vtable[624]
+	virtual void IsLightDamage(CTakeDamageInfo *param_1) override; // vtable[633]
+	virtual void IsHeavyDamage(CTakeDamageInfo *param_1) override; // vtable[634]
+	virtual void CalcYawSpeed(); // vtable[0]
 	virtual void OnCalcBaseMove(AILocalMoveGoal_t *param_1, float param_2, AIMoveResult_t *param_3); // vtable[1]
-	virtual OnObstructionPreSteer(AILocalMoveGoal_t *param_1, float param_2, AIMoveResult_t *param_3); // vtable[2]
+	virtual void OnObstructionPreSteer(AILocalMoveGoal_t *param_1, float param_2, AIMoveResult_t *param_3); // vtable[2]
 	virtual void OnFailedSteer(AILocalMoveGoal_t *param_1, float param_2, AIMoveResult_t *param_3); // vtable[3]
 	virtual void OnFailedLocalNavigation(AILocalMoveGoal_t *param_1, float param_2, AIMoveResult_t *param_3); // vtable[4]
 	virtual void OnInsufficientStopDist(AILocalMoveGoal_t *param_1, float param_2, AIMoveResult_t *param_3); // vtable[5]

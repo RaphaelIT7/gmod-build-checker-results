@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x1214 (4628) bytes
+// Estimated minimum size: 0x268 (616) bytes
 
 class CDispInfo : public IDispInfo, public CDispUtilsHelper
 {
@@ -32,32 +32,33 @@ public:
 	virtual void GetDispUtilsByIndex(int param_1); // vtable[3]
 
 	void _GLOBAL__sub_I_GetIntersectingSurfaces(); // size[657]
-	void UpdateBoundingBox(); // size[446]
-	void TestAddDecalTri(int param_1, ushort param_2, CDispDecal *param_3); // size[780]
+	void UpdateBoundingBox(); // size[314]
+	void TestAddDecalTri(int param_1, ushort param_2, CDispDecal *param_3); // size[1117]
 	void TestAddDecalTri(int param_1, ushort param_2, CDispShadowDecal *param_3); // size[5]
 	void CullDecals(int param_1, CDispDecal * *param_2, int param_3, CDispDecal * *param_4, int *param_5); // size[145]
-	void SpecifyDynamicMesh(); // size[1640]
-	void SpecifyWalkableDynamicMesh(); // size[1150]
-	void SpecifyBuildableDynamicMesh(); // size[605]
+	void SpecifyDynamicMesh(); // size[1450]
+	void SpecifyWalkableDynamicMesh(); // size[290]
+	void SpecifyBuildableDynamicMesh(); // size[566]
 	void InitializeActiveVerts(); // size[460]
+	void ClearLOD(); // size[29]
 	void Render(CGroupMesh *param_1, bool param_2); // size[10]
-	void AddSingleDynamicLight(dlight_t *param_1); // size[5]
+	void AddSingleDynamicLightBumped(dlight_t *param_1); // size[5]
 	void AddSingleDynamicAlphaLight(dlight_t *param_1); // size[5]
-	void SetupDecalNodeIntersect_R(CVertIndex *param_1, int param_2, CDispDecalBase *param_3, ShadowInfo_t *param_4, int param_5, CDecalNodeSetupCache *param_6); // size[1224]
-	void SetupDecalNodeIntersect(CVertIndex *param_1, int param_2, CDispDecalBase *param_3, ShadowInfo_t *param_4); // size[132]
+	void SetupDecalNodeIntersect_R(CVertIndex *param_1, int param_2, CDispDecalBase *param_3, ShadowInfo_t *param_4, int param_5, CDecalNodeSetupCache *param_6); // size[1740]
+	void SetupDecalNodeIntersect(CVertIndex *param_1, int param_2, CDispDecalBase *param_3, ShadowInfo_t *param_4); // size[144]
 	void GetFlatVert(int param_1); // size[300]
-	void TesselateDisplacement(); // size[5801]
+	void TesselateDisplacement(); // size[257]
 	void GenerateDecalFragments_R(CVertIndex *param_1, int param_2, ushort param_3, CDispDecalBase *param_4, int param_5); // size[485]
 	void GenerateDecalFragments(CVertIndex *param_1, int param_2, ushort param_3, CDispDecalBase *param_4); // size[65]
-	void ClearDecalFragments(ushort param_1); // size[34]
+	void ClearDecalFragments(ushort param_1); // size[176]
 	void ClearAllDecalFragments(); // size[73]
 	void ClearShadowDecalFragments(ushort param_1); // size[179]
 	void ClearAllShadowDecalFragments(); // size[80]
-	void AllocateDispDecalFragment(ushort param_1, int param_2); // size[728]
-	void AllocateShadowDecalFragment(ushort param_1, int param_2); // size[759]
+	void AllocateDispDecalFragment(ushort param_1, int param_2); // size[744]
+	void AllocateShadowDecalFragment(ushort param_1, int param_2); // size[767]
 	void CopyCoreDispVertData(CCoreDispInfo *param_1, float param_2); // size[5]
 	void CopyCoreDispData(model_t *param_1, MaterialSystem_SortInfo_t *param_2, CCoreDispInfo *param_3, bool param_4); // size[751]
 	void NumLightMaps(); // size[30]
-	CDispInfo(); // size[456]
+	CDispInfo(); // size[62]
 	void CopyMapDispData(ddispinfo_t *param_1); // size[145]
 };

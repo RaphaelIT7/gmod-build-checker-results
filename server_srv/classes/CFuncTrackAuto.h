@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x25AC (9644) bytes
+// Estimated minimum size: 0x1480 (5248) bytes
 
 class CFuncTrackAuto : public CFuncTrackChange
 {
@@ -10,6 +10,5 @@ public:
 	virtual void Use(CBaseEntity *param_1, CBaseEntity *param_2, USE_TYPE param_3, float param_4) override; // vtable[100]
 	virtual void UpdateAutoTargets(int param_1) override; // vtable[252]
 
-	void TriggerTrackChange(inputdata_t *param_1); // size[23]
 	void GetBaseMap(); // size[10]
 };

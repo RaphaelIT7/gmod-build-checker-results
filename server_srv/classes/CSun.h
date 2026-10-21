@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x25AC (9644) bytes
+// Estimated minimum size: 0x13E0 (5088) bytes
 
 class CSun : public CBaseEntity
 {
@@ -9,7 +9,7 @@ public:
 	virtual void GetServerClass() override; // vtable[10]
 	virtual void YouForgotToImplementOrDeclareServerClass() override; // vtable[11]
 	virtual void GetDataDescMap() override; // vtable[12]
-	virtual void UpdateTransmitState() override; // vtable[20]
+	virtual void _ZN4CSun19UpdateTransmitStateEv() override; // vtable[20]
 	virtual void Activate() override; // vtable[34]
 
 	void _GLOBAL__sub_I_GetServerClass(); // size[112]

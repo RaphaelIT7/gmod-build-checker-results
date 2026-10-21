@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x2360 (9056) bytes
+// Estimated minimum size: 0x11C (284) bytes
 
 class CAI_HunterEscortBehavior : public CAI_FollowBehavior
 {
@@ -23,6 +23,6 @@ public:
 	void OnDamage(CTakeDamageInfo *param_1); // size[268]
 	void CheckBreakEscort(); // size[230]
 	void SetEscortTarget(CNPC_Strider *param_1, bool param_2); // size[322]
-	void FindFreeHunters(CUtlVector *param_1); // size[257]
+	void FindFreeHunters(CUtlVector *param_1); // size[290]
 	void DistributeFreeHunters(); // size[415]
 };

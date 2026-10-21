@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x5E5B1CC8 (1583029448) bytes
+// Estimated minimum size: 0x18C8 (6344) bytes
 
 class CGenericFlexCycler : public CFlexCycler
 {

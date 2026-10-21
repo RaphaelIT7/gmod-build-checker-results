@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0xC (12) bytes
+// Estimated minimum size: 0x2024 (8228) bytes
 
 class CTextConsoleUnix : public CTextConsole
 {
@@ -7,13 +7,13 @@ public:
 	virtual ~CTextConsoleUnix() override; // vtable[0]
 	virtual ~CTextConsoleUnix() override; // vtable[1]
 	virtual void Init() override; // vtable[2]
-	virtual void ShutDown(); // vtable[3]
-	virtual void Print(char *param_1); // vtable[4]
-	virtual void SetTitle(char *param_1); // vtable[5]
-	virtual void SetStatusLine(char *param_1); // vtable[6]
-	virtual void UpdateStatus(); // vtable[7]
-	virtual void GetLine(int param_1, char *param_2, int param_3); // vtable[8]
-	virtual void GetWidth(); // vtable[9]
-	virtual void SetVisible(bool param_1); // vtable[10]
-	virtual void IsVisible(); // vtable[11]
+	virtual void ShutDown() override; // vtable[3]
+	virtual void PrintRaw(char *param_1, int param_2); // vtable[8]
+	virtual void GetLine(); // vtable[9]
+	virtual void GetWidth(); // vtable[10]
+	virtual void SetVisible(bool param_1); // vtable[11]
+	virtual void IsVisible(); // vtable[12]
+
+	void _GLOBAL__sub_I_Init(); // size[48]
+	void kbhit(); // size[6]
 };

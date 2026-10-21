@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x5E5B1CC8 (1583029448) bytes
+// Estimated minimum size: 0x204C (8268) bytes
 
 class CMissile : public CBaseCombatCharacter
 {
@@ -16,23 +16,23 @@ public:
 	virtual void SetDamage(float param_1) override; // vtable[132]
 	virtual void PhysicsSolidMaskForEntity() override; // vtable[174]
 	virtual void OnTakeDamage_Alive(CTakeDamageInfo *param_1) override; // vtable[338]
-	virtual void DoExplosion(); // vtable[388]
-	virtual void ComputeActualDotPosition(CLaserDot *param_1, Vector *param_2, float *param_3); // vtable[389]
-	virtual void AugerHealth(); // vtable[390]
+	virtual void DoExplosion(); // vtable[389]
+	virtual void ComputeActualDotPosition(CLaserDot *param_1, Vector *param_2, float *param_3); // vtable[390]
+	virtual void AugerHealth(); // vtable[391]
 
 	void AccelerateThink(); // size[68]
 	void GetBaseMap(); // size[10]
 	CMissile(); // size[50]
-	void SetGracePeriod(float param_1); // size[71]
-	void CreateSmokeTrail(); // size[129]
+	void SetGracePeriod(float param_1); // size[12]
+	void CreateSmokeTrail(); // size[214]
 	void DumbFire(); // size[65]
 	void IgniteThink(); // size[39]
 	void Create(Vector *param_1, QAngle *param_2, edict_t *param_3); // size[273]
 	void ShotDown(); // size[564]
 	void ShotDown(); // size[23]
-	void Explode(); // size[12]
+	void Explode(); // size[468]
 	void AugerThink(); // size[287]
 	void MissileTouch(CBaseEntity *param_1); // size[62]
-	void SeekThink(); // size[1665]
+	void SeekThink(); // size[1564]
 	void GetShootPosition(CLaserDot *param_1, Vector *param_2); // size[159]
 };

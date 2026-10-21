@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x25AC (9644) bytes
+// Estimated minimum size: 0x140C (5132) bytes
 
 class CFogController : public CBaseEntity
 {
@@ -21,9 +21,9 @@ public:
 	void InputSetColorSecondaryHDR(inputdata_t *param_1); // size[78]
 	void InputSetFarZ(inputdata_t *param_1); // size[105]
 	void InputSetStartDistLerpTo(inputdata_t *param_1); // size[74]
-	void InputSetEndDistLerpTo(inputdata_t *param_1); // size[74]
-	void InputSetAngles(inputdata_t *param_1); // size[132]
-	void SetLerpValues(); // size[9]
+	void InputSetEndDistLerpTo(inputdata_t *param_1); // size[46]
+	void InputSetAngles(inputdata_t *param_1); // size[19]
+	void SetLerpValues(); // size[336]
 	void InputSetEndDist(inputdata_t *param_1); // size[67]
 	void InputSetStartDist(inputdata_t *param_1); // size[67]
 	void InputSetColorSecondary(inputdata_t *param_1); // size[78]

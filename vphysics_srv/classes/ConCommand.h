@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x24 (36) bytes
+// Estimated minimum size: 0x8 (8) bytes
 
 class ConCommand : public ConCommandBase
 {
@@ -10,8 +10,8 @@ public:
 	virtual void CanAutoComplete(); // vtable[12]
 	virtual void Dispatch(CCommand *param_1); // vtable[13]
 
-	void AutoCompleteSuggest(char *param_1, CUtlVector *param_2); // size[23]
-	ConCommand(char *param_1, _func_void *param_2, char *param_3, int param_4, int_(*)(char_const*,char *param_5); // size[136]
-	ConCommand(char *param_1, _func_void_CCommand_ptr *param_2, char *param_3, int param_4, int_(*)(char_const*,char *param_5); // size[148]
-	ConCommand(char *param_1, ICommandCallback *param_2, char *param_3, int param_4, ICommandCompletionCallback *param_5); // size[129]
+	void AutoCompleteSuggest(char *param_1, CUtlVector *param_2); // size[16]
+	ConCommand(char *param_1, _func_void *param_2, char *param_3, int param_4, int_(*)(char_const*,char *param_5); // size[125]
+	ConCommand(char *param_1, _func_void_CCommand_ptr *param_2, char *param_3, int param_4, int_(*)(char_const*,char *param_5); // size[131]
+	ConCommand(char *param_1, ICommandCallback *param_2, char *param_3, int param_4, ICommandCompletionCallback *param_5); // size[117]
 };

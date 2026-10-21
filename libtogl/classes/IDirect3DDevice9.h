@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x8E9A4 (584100) bytes
+// Estimated minimum size: 0x2A8 (680) bytes
 
 class IDirect3DDevice9 : public IUnknown
 {
@@ -9,7 +9,7 @@ public:
 
 	void CreateTexture(uint param_1, uint param_2, uint param_3, uint param_4, _D3DFORMAT param_5, _D3DPOOL param_6, IDirect3DTexture9 * *param_7, void * *param_8, char *param_9); // size[672]
 	void CreateCubeTexture(uint param_1, uint param_2, uint param_3, _D3DFORMAT param_4, _D3DPOOL param_5, IDirect3DCubeTexture9 * *param_6, void * *param_7, char *param_8); // size[601]
-	void CreateVolumeTexture(uint param_1, uint param_2, uint param_3, uint param_4, uint param_5, _D3DFORMAT param_6, _D3DPOOL param_7, IDirect3DVolumeTexture9 * *param_8, void * *param_9, char *param_10); // size[180]
+	void CreateVolumeTexture(uint param_1, uint param_2, uint param_3, uint param_4, uint param_5, _D3DFORMAT param_6, _D3DPOOL param_7, IDirect3DVolumeTexture9 * *param_8, void * *param_9, char *param_10); // size[584]
 	void CreateVertexBuffer(uint param_1, uint param_2, uint param_3, _D3DPOOL param_4, IDirect3DVertexBuffer9 * *param_5, void * *param_6); // size[151]
 	void CreateIndexBuffer(uint param_1, uint param_2, _D3DFORMAT param_3, _D3DPOOL param_4, IDirect3DIndexBuffer9 * *param_5, void * *param_6); // size[164]
 	IDirect3DDevice9(); // size[39]
@@ -76,9 +76,9 @@ public:
 	void ReleaseThreadOwnership(); // size[33]
 	void SetMaxUsedVertexShaderConstantsHintNonInline(uint param_1); // size[117]
 	void SetRenderState(_D3DRENDERSTATETYPE param_1, uint param_2); // size[3193]
-	void SetSamplerStateNonInline(uint param_1, _D3DSAMPLERSTATETYPE param_2, uint param_3); // size[632]
-	void SetSamplerStatesNonInline(uint param_1, uint param_2, uint param_3, uint param_4, uint param_5, uint param_6, uint param_7); // size[151]
-	void SetTextureNonInline(uint param_1, IDirect3DBaseTexture9 *param_2); // size[221]
+	void SetSamplerStateNonInline(uint param_1, _D3DSAMPLERSTATETYPE param_2, uint param_3); // size[637]
+	void SetSamplerStatesNonInline(uint param_1, uint param_2, uint param_3, uint param_4, uint param_5, uint param_6, uint param_7); // size[156]
+	void SetTextureNonInline(uint param_1, IDirect3DBaseTexture9 *param_2); // size[211]
 	void CreatePixelShader(uint *param_1, IDirect3DPixelShader9 * *param_2, char *param_3, char *param_4, uint *param_5); // size[1664]
 	void CreateVertexShader(uint *param_1, IDirect3DVertexShader9 * *param_2, char *param_3, char *param_4); // size[1217]
 	void ResetFBOMap(); // size[309]

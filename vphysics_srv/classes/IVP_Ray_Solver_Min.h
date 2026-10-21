@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0xA0 (160) bytes
+// Estimated minimum size: 0x8 (8) bytes
 
 class IVP_Ray_Solver_Min : public IVP_Ray_Solver
 {
@@ -8,7 +8,7 @@ public:
 	virtual ~IVP_Ray_Solver_Min(); // vtable[1]
 	virtual ~IVP_Ray_Solver_Min(); // vtable[2]
 
-	void get_ray_hit(); // size[31]
-	void get_ray_dist(); // size[11]
-	IVP_Ray_Solver_Min(IVP_Ray_Solver_Template *param_1); // size[36]
+	void get_ray_hit(); // size[25]
+	void get_ray_dist(); // size[6]
+	IVP_Ray_Solver_Min(IVP_Ray_Solver_Template *param_1); // size[28]
 };

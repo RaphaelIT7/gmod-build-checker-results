@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x14C (332) bytes
+// Estimated minimum size: 0x8 (8) bytes
 
 class IVP_Anomaly_Manager
 {
@@ -15,6 +15,6 @@ public:
 	virtual ~IVP_Anomaly_Manager(); // vtable[8]
 	virtual ~IVP_Anomaly_Manager(); // vtable[9]
 
-	IVP_Anomaly_Manager(IVP_BOOL param_1); // size[20]
-	void solve_inter_penetration_simple(IVP_Real_Object *param_1, IVP_Real_Object *param_2, double param_3); // size[577]
+	IVP_Anomaly_Manager(IVP_BOOL param_1); // size[14]
+	void solve_inter_penetration_simple(IVP_Real_Object *param_1, IVP_Real_Object *param_2, double param_3); // size[566]
 };

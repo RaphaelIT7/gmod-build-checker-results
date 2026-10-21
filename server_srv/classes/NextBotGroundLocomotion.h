@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x244 (580) bytes
+// Estimated minimum size: 0x12C (300) bytes
 
 class NextBotGroundLocomotion : public ILocomotion
 {
@@ -58,9 +58,9 @@ public:
 	NextBotGroundLocomotion(INextBot *param_1); // size[350]
 	void TraverseLadder(); // size[7]
 	void DetectCollision(CGameTrace *param_1, int *param_2, Vector *param_3, Vector *param_4, Vector *param_5, Vector *param_6); // size[197]
-	void ResolveCollision(Vector *param_1, Vector *param_2, int param_3); // size[2640]
-	void UpdatePosition(Vector *param_1); // size[284]
+	void ResolveCollision(Vector *param_1, Vector *param_2, int param_3); // size[2958]
+	void UpdatePosition(Vector *param_1); // size[582]
 	void DidJustJump(); // size[121]
-	void ApplyAccumulatedApproach(); // size[58]
+	void ApplyAccumulatedApproach(); // size[1357]
 	void UpdateGroundConstraint(); // size[439]
 };

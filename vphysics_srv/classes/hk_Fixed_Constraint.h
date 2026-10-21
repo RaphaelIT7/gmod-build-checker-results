@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x98 (152) bytes
+// Estimated minimum size: 0x8 (8) bytes
 
 class hk_Fixed_Constraint : public hk_Constraint
 {
@@ -13,9 +13,8 @@ public:
 	virtual void get_constraint_dof(); // vtable[7]
 	virtual void init_constraint(void *param_1); // vtable[8]
 
-	void _GLOBAL__sub_I_init_constraint(); // size[1]
-	void write_to_blueprint(hk_Fixed_BP *param_1); // size[132]
-	hk_Fixed_Constraint(hk_Environment *param_1, hk_Fixed_BP *param_2, hk_Rigid_Body *param_3, hk_Rigid_Body *param_4); // size[185]
-	hk_Fixed_Constraint(hk_Local_Constraint_System *param_1, hk_Fixed_BP *param_2, hk_Rigid_Body *param_3, hk_Rigid_Body *param_4); // size[176]
-	void apply_effector_PSI(hk_PSI_Info *param_1); // size[117]
+	void write_to_blueprint(hk_Fixed_BP *param_1); // size[98]
+	hk_Fixed_Constraint(hk_Environment *param_1, hk_Fixed_BP *param_2, hk_Rigid_Body *param_3, hk_Rigid_Body *param_4); // size[136]
+	hk_Fixed_Constraint(hk_Local_Constraint_System *param_1, hk_Fixed_BP *param_2, hk_Rigid_Body *param_3, hk_Rigid_Body *param_4); // size[134]
+	void apply_effector_PSI(hk_PSI_Info *param_1); // size[102]
 };

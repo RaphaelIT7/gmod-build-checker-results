@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x18 (24) bytes
+// Estimated minimum size: 0x14 (20) bytes
 
 class NextBotTraversableTraceFilter : public CTraceFilterSimple
 {

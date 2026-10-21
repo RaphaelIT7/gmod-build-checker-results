@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x5E5B1CC8 (1583029448) bytes
+// Estimated minimum size: 0x2624 (9764) bytes
 
 class CNPC_CeilingTurret : public CAI_BaseNPC
 {
@@ -15,12 +15,12 @@ public:
 	virtual void EyePosition() override; // vtable[133]
 	virtual void FVisible(CBaseEntity *param_1, int param_2, CBaseEntity * *param_3) override; // vtable[144]
 	virtual void GetAttackSpread(CBaseCombatWeapon *param_1, CBaseEntity *param_2) override; // vtable[372]
-	virtual void CanBeAnEnemyOf(CBaseEntity *param_1) override; // vtable[476]
-	virtual void MaxYawSpeed() override; // vtable[529]
-	virtual void EyeOffset(Activity param_1) override; // vtable[553]
-	virtual CalcYawSpeed(); // vtable[0]
-	virtual OnCalcBaseMove(AILocalMoveGoal_t *param_1, float param_2, AIMoveResult_t *param_3); // vtable[1]
-	virtual OnObstructionPreSteer(AILocalMoveGoal_t *param_1, float param_2, AIMoveResult_t *param_3); // vtable[2]
+	virtual void CanBeAnEnemyOf(CBaseEntity *param_1) override; // vtable[477]
+	virtual void MaxYawSpeed() override; // vtable[530]
+	virtual void EyeOffset(Activity param_1) override; // vtable[554]
+	virtual void CalcYawSpeed(); // vtable[0]
+	virtual void OnCalcBaseMove(AILocalMoveGoal_t *param_1, float param_2, AIMoveResult_t *param_3); // vtable[1]
+	virtual void OnObstructionPreSteer(AILocalMoveGoal_t *param_1, float param_2, AIMoveResult_t *param_3); // vtable[2]
 	virtual void OnFailedSteer(AILocalMoveGoal_t *param_1, float param_2, AIMoveResult_t *param_3); // vtable[3]
 	virtual void OnFailedLocalNavigation(AILocalMoveGoal_t *param_1, float param_2, AIMoveResult_t *param_3); // vtable[4]
 	virtual void OnInsufficientStopDist(AILocalMoveGoal_t *param_1, float param_2, AIMoveResult_t *param_3); // vtable[5]
@@ -35,9 +35,9 @@ public:
 	void SetLastSightTime(); // size[33]
 	void UpdateFacing(); // size[106]
 	void Shoot(Vector *param_1, Vector *param_2); // size[608]
-	void ActiveThink(); // size[139]
+	void ActiveThink(); // size[1855]
 	void PreThink(turretState_e param_1); // size[37]
-	void SetEyeState(eyeState_t param_1); // size[2397]
+	void SetEyeState(eyeState_t param_1); // size[163]
 	void Ping(); // size[73]
 	void SearchThink(); // size[631]
 	void Enable(); // size[82]

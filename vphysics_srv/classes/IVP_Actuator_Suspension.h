@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0xC8 (200) bytes
+// Estimated minimum size: 0x8 (8) bytes
 
 class IVP_Actuator_Suspension : public IVP_Actuator_Spring
 {
@@ -9,7 +9,7 @@ public:
 	virtual ~IVP_Actuator_Suspension() override; // vtable[7]
 	virtual ~IVP_Actuator_Suspension() override; // vtable[8]
 
-	IVP_Actuator_Suspension(IVP_Environment *param_1, IVP_Template_Suspension *param_2); // size[73]
-	void set_spring_damp_compression(float param_1); // size[44]
-	void set_max_body_force(float param_1); // size[36]
+	IVP_Actuator_Suspension(IVP_Environment *param_1, IVP_Template_Suspension *param_2); // size[76]
+	void set_spring_damp_compression(float param_1); // size[31]
+	void set_max_body_force(float param_1); // size[23]
 };

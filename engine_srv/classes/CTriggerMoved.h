@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x34 (52) bytes
+// Estimated minimum size: 0x4 (4) bytes
 
 class CTriggerMoved : public IPartitionEnumerator
 {

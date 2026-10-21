@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x25AC (9644) bytes
+// Estimated minimum size: 0x13D0 (5072) bytes
 
 class CTeamVehicleSpawnPoint : public CTeamSpawnPoint
 {
@@ -10,5 +10,5 @@ public:
 	virtual void Activate() override; // vtable[34]
 
 	void GetBaseMap(); // size[10]
-	void IsValid(); // size[120]
+	void IsValid(); // size[75]
 };

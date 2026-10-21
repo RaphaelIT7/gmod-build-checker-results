@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x5E5B1CC8 (1583029448) bytes
+// Estimated minimum size: 0x21B4 (8628) bytes
 
 class CLuaNextBot : public NextBotCombatCharacter
 {
@@ -38,13 +38,13 @@ public:
 	virtual void GMOD_DestroyBoneFollowers() override; // vtable[244]
 	virtual void GMOD_GetBoneFollowerMgr() override; // vtable[245]
 	virtual void HandleAnimEvent(animevent_t *param_1) override; // vtable[261]
-	virtual void IsRemovedOnReset(); // vtable[393]
-	virtual void GetIntentionInterface(); // vtable[394]
-	virtual void GetLocomotionInterface(); // vtable[395]
-	virtual void GetBodyInterface(); // vtable[396]
-	virtual void GetVisionInterface(); // vtable[397]
-	virtual void ScriptUse(CBaseEntity *param_1, CBaseEntity *param_2, USE_TYPE param_3, float param_4); // vtable[398]
-	virtual void ScriptThink(); // vtable[399]
+	virtual void IsRemovedOnReset(); // vtable[394]
+	virtual void GetIntentionInterface(); // vtable[395]
+	virtual void GetLocomotionInterface(); // vtable[396]
+	virtual void GetBodyInterface(); // vtable[397]
+	virtual void GetVisionInterface(); // vtable[398]
+	virtual void ScriptUse(CBaseEntity *param_1, CBaseEntity *param_2, USE_TYPE param_3, float param_4); // vtable[399]
+	virtual void ScriptThink(); // vtable[400]
 	virtual ~CLuaNextBot(); // vtable[0]
 	virtual ~CLuaNextBot(); // vtable[1]
 	virtual void FirstContainedResponder(); // vtable[2]

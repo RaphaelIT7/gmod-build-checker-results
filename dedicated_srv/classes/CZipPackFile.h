@@ -19,5 +19,5 @@ public:
 	void GetPreloadEntry(int param_1); // size[55]
 	void GMOD_PassesWhilteList(char *param_1); // size[37]
 	CZipPackFile(CBaseFileSystem *param_1, void *param_2); // size[270]
-	void GetOffsetAndLength(char *param_1, int *param_2, longlong *param_3, int *param_4, int *param_5, ushort *param_6); // size[347]
+	void GetOffsetAndLength(char *param_1, int *param_2, longlong *param_3, int *param_4, int *param_5, ushort *param_6); // size[339]
 };

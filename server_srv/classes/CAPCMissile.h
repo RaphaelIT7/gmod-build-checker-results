@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x5E5B1CC8 (1583029448) bytes
+// Estimated minimum size: 0x2068 (8296) bytes
 
 class CAPCMissile : public CMissile
 {
@@ -8,9 +8,9 @@ public:
 	virtual ~CAPCMissile() override; // vtable[1]
 	virtual void GetDataDescMap() override; // vtable[12]
 	virtual void Classify() override; // vtable[55]
-	virtual void DoExplosion() override; // vtable[388]
-	virtual void ComputeActualDotPosition(CLaserDot *param_1, Vector *param_2, float *param_3) override; // vtable[389]
-	virtual void AugerHealth() override; // vtable[390]
+	virtual void DoExplosion() override; // vtable[389]
+	virtual void ComputeActualDotPosition(CLaserDot *param_1, Vector *param_2, float *param_3) override; // vtable[390]
+	virtual void AugerHealth() override; // vtable[391]
 
 	void ExplodeThink(); // size[17]
 	void BeginSeekThink(); // size[87]
@@ -18,7 +18,7 @@ public:
 	void GetBaseMap(); // size[10]
 	void Create(Vector *param_1, QAngle *param_2, Vector *param_3, CBaseEntity *param_4); // size[86]
 	CAPCMissile(); // size[87]
-	void Init(); // size[34]
+	void Init(); // size[18]
 	void AimAtSpecificTarget(CBaseEntity *param_1); // size[49]
 	void IgniteDelay(); // size[93]
 	void AugerDelay(float param_1); // size[81]

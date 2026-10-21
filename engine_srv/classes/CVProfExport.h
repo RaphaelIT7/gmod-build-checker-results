@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x10A4 (4260) bytes
+// Estimated minimum size: 0x24 (36) bytes
 
 class CVProfExport : public IVProfExport
 {

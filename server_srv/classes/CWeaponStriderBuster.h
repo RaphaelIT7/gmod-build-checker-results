@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x5E5B1CC8 (1583029448) bytes
+// Estimated minimum size: 0x1848 (6216) bytes
 
 class CWeaponStriderBuster : public CPhysicsProp
 {
@@ -72,7 +72,7 @@ public:
 
 	void BusterPingThink(); // size[44]
 	void CreateConstraintToObject(CBaseEntity *param_1); // size[405]
-	void BusterFlyThink(); // size[1922]
+	void BusterFlyThink(); // size[225]
 	void BusterFlyThink(); // size[269]
 	void GetBaseMap(); // size[10]
 	CWeaponStriderBuster(); // size[564]
@@ -82,10 +82,10 @@ public:
 	void StickToEntity(CBaseEntity *param_1); // size[207]
 	void CreateDestroyedEffect(); // size[467]
 	void Launch(CBasePlayer *param_1); // size[1014]
-	void Shatter(CBaseEntity *param_1); // size[207]
+	void Shatter(CBaseEntity *param_1); // size[225]
 	void InputConstraintBroken(inputdata_t *param_1); // size[16]
-	void Detonate(CBaseEntity *param_1); // size[210]
+	void Detonate(CBaseEntity *param_1); // size[396]
 	void BusterDetachThink(); // size[382]
 	void OnAddToCargoHold(); // size[23]
-	void OnFlechetteAttach(Vector *param_1); // size[315]
+	void OnFlechetteAttach(Vector *param_1); // size[347]
 };

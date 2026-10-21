@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x25AC (9644) bytes
+// Estimated minimum size: 0x14D4 (5332) bytes
 
 class CFuncSmokeVolume : public CBaseParticleEntity
 {
@@ -14,6 +14,6 @@ public:
 
 	void _GLOBAL__sub_I_m_DataMap(); // size[112]
 	void GetBaseMap(); // size[10]
-	CFuncSmokeVolume(); // size[180]
+	CFuncSmokeVolume(); // size[20]
 	void SetDensity(float param_1); // size[51]
 };

@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x25AC (9644) bytes
+// Estimated minimum size: 0x13B4 (5044) bytes
 
 class CBoneManipulate : public CBaseEntity
 {
@@ -18,14 +18,14 @@ public:
 	void GetBaseMap(); // size[10]
 	CBoneManipulate(); // size[28]
 	void ManipulateBone(int param_1, Vector *param_2, Quaternion *param_3); // size[134]
-	void ScaleBone(int param_1, matrix3x4_t *param_2); // size[104]
-	void SetBonePosition(uchar param_1, Vector *param_2, bool param_3); // size[301]
+	void ScaleBone(int param_1, matrix3x4_t *param_2); // size[4]
+	void SetBonePosition(uchar param_1, Vector *param_2, bool param_3); // size[224]
 	void GetBonePosition(uchar param_1); // size[53]
-	void SetBoneScale(uchar param_1, Vector *param_2, bool param_3); // size[153]
+	void SetBoneScale(uchar param_1, Vector *param_2, bool param_3); // size[213]
 	void GetBoneScale(uchar param_1); // size[53]
 	void SetBoneAngle(uchar param_1, QAngle *param_2, bool param_3); // size[106]
 	void GetBoneAngle(uchar param_1); // size[53]
 	void GetJiggleInfo(uchar param_1); // size[46]
-	void SetJiggle(uchar param_1, uchar param_2); // size[103]
+	void SetJiggle(uchar param_1, uchar param_2); // size[112]
 	void GetJiggle(uchar param_1); // size[20]
 };

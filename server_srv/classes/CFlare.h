@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x5E5B1CC8 (1583029448) bytes
+// Estimated minimum size: 0x2058 (8280) bytes
 
 class CFlare : public CBaseCombatCharacter
 {
@@ -18,7 +18,6 @@ public:
 	virtual void PhysicsSolidMaskForEntity() override; // vtable[174]
 
 	void _GLOBAL__sub_I_m_DataMap(); // size[112]
-	void FlareBurnTouch(CBaseEntity *param_1); // size[214]
 	void GetBaseMap(); // size[10]
 	void GetActiveFlares(); // size[10]
 	CFlare(); // size[123]
@@ -27,11 +26,11 @@ public:
 	void Create(Vector param_1, QAngle param_2, CBaseEntity *param_3, float param_4); // size[172]
 	void InputStart(inputdata_t *param_1); // size[37]
 	void Die(float param_1); // size[78]
-	void FlareTouch(CBaseEntity *param_1); // size[1075]
+	void FlareTouch(CBaseEntity *param_1); // size[1052]
 	void InputDie(inputdata_t *param_1); // size[37]
 	void Launch(Vector *param_1, float param_2); // size[95]
-	void InputLaunch(inputdata_t *param_1); // size[53]
+	void InputLaunch(inputdata_t *param_1); // size[74]
 	void RemoveFromActiveFlares(bool param_1); // size[182]
 	void AddToActiveFlares(); // size[75]
-	void FlareThink(); // size[677]
+	void FlareThink(); // size[648]
 };

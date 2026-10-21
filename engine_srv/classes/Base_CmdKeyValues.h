@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x68 (104) bytes
+// Estimated minimum size: 0x10 (16) bytes
 
 class Base_CmdKeyValues : public CNetMessage
 {

@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x5E5B1CC8 (1583029448) bytes
+// Estimated minimum size: 0x15A8 (5544) bytes
 
 class CBaseGrenade : public CBaseAnimating, public CDefaultPlayerPickupVPhysics
 {
@@ -29,15 +29,15 @@ public:
 
 	void _GLOBAL__sub_I_m_DataMap(); // size[112]
 	void DetonateUse(CBaseEntity *param_1, CBaseEntity *param_2, USE_TYPE param_3, float param_4); // size[59]
-	void PreDetonate(); // size[134]
+	void PreDetonate(); // size[57]
 	void Smoke(); // size[275]
 	void DangerSoundThink(); // size[419]
-	void ExplodeTouch(CBaseEntity *param_1); // size[6]
-	void TumbleThink(); // size[551]
+	void ExplodeTouch(CBaseEntity *param_1); // size[632]
+	void TumbleThink(); // size[518]
 	void GetBaseMap(); // size[10]
 	void GetThrower(); // size[149]
 	void SlideTouch(CBaseEntity *param_1); // size[115]
 	void BounceTouch(CBaseEntity *param_1); // size[1109]
-	void SetThrower(CBaseCombatCharacter *param_1); // size[237]
+	void SetThrower(CBaseCombatCharacter *param_1); // size[249]
 	CBaseGrenade(); // size[139]
 };

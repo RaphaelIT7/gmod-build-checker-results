@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x64 (100) bytes
+// Estimated minimum size: 0x14 (20) bytes
 
 class CLuaDisposable : public CLuaObject
 {

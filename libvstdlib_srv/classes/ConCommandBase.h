@@ -21,6 +21,6 @@ public:
 	ConCommandBase(char *param_1, char *param_2, int param_3); // size[18]
 	void Shutdown(); // size[33]
 	void GetNext(); // size[11]
-	void GetNext(); // size[11]
+	void GetNext(); // size[7]
 	void CopyString(char *param_1); // size[85]
 };

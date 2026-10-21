@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x110 (272) bytes
+// Estimated minimum size: 0x10 (16) bytes
 
 class CPhysicsShake : public IMotionEvent
 {

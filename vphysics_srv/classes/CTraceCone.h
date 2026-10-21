@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x38 (56) bytes
+// Estimated minimum size: 0x8 (8) bytes
 
 class CTraceCone : public ITraceObject
 {

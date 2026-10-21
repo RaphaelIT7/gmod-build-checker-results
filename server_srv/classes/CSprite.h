@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x25AC (9644) bytes
+// Estimated minimum size: 0x13E8 (5096) bytes
 
 class CSprite : public CBaseEntity
 {
@@ -24,7 +24,7 @@ public:
 	void InputColorRedValue(inputdata_t *param_1); // size[382]
 	void InputColorBlueValue(inputdata_t *param_1); // size[217]
 	void InputColorGreenValue(inputdata_t *param_1); // size[297]
-	void ExpandThink(); // size[348]
+	void ExpandThink(); // size[337]
 	void GetBaseMap(); // size[10]
 	CSprite(); // size[28]
 	void EnableWorldSpaceScale(bool param_1); // size[81]
@@ -36,7 +36,7 @@ public:
 	void TurnOff(); // size[62]
 	void InputHideSprite(inputdata_t *param_1); // size[9]
 	void Animate(float param_1); // size[72]
-	void AnimateThink(); // size[132]
+	void AnimateThink(); // size[121]
 	void AnimateUntilDead(); // size[93]
 	void TurnOn(); // size[53]
 	void SpriteCreate(char *param_1, Vector *param_2, bool param_3); // size[82]

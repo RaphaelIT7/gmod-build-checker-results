@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x25AC (9644) bytes
+// Estimated minimum size: 0x13B4 (5044) bytes
 
 class CPlatTrigger : public CBaseEntity
 {
@@ -9,5 +9,5 @@ public:
 	virtual void ObjectCaps() override; // vtable[36]
 	virtual void Touch(CBaseEntity *param_1) override; // vtable[102]
 
-	void SpawnInsideTrigger(CFuncPlat *param_1); // size[6]
+	void SpawnInsideTrigger(CFuncPlat *param_1); // size[68]
 };

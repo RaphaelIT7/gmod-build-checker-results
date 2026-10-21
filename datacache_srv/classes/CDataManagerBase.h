@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x148D0C48 (344788040) bytes
+// Estimated minimum size: 0x4C (76) bytes
 
 class CDataManagerBase
 {
@@ -13,29 +13,28 @@ public:
 	_GLOBAL__sub_I_CDataManagerBase(); // size[48]
 	void NotifySizeChanged(memhandle_t__ *param_1, uint param_2, uint param_3); // size[47]
 	void SetTargetSize(uint param_1); // size[14]
-	void GetResource_NoLockNoLRUTouch(memhandle_t__ *param_1); // size[14]
-	void StoreResourceInHandle(ushort param_1, void *param_2, uint param_3); // size[44]
+	void GetResource_NoLockNoLRUTouch(memhandle_t__ *param_1); // size[101]
+	void StoreResourceInHandle(ushort param_1, void *param_2, uint param_3); // size[63]
 	void ToHandle(ushort param_1); // size[38]
 	void TargetSize(); // size[11]
-	void AvailableSize(); // size[3]
+	void AvailableSize(); // size[14]
 	void UsedSize(); // size[11]
-	void MarkAsStale(memhandle_t__ *param_1); // size[20]
 	void LockResource(memhandle_t__ *param_1); // size[250]
 	void GetForFreeByIndex(ushort param_1); // size[164]
-	void EnsureCapacity(uint param_1); // size[166]
+	void EnsureCapacity(uint param_1); // size[205]
 	void FlushToTargetSize(); // size[27]
-	void Purge(uint param_1); // size[41]
-	void UnlockResource(memhandle_t__ *param_1); // size[112]
+	void Purge(uint param_1); // size[13]
+	void UnlockResource(memhandle_t__ *param_1); // size[31]
 	void BreakLock(memhandle_t__ *param_1); // size[169]
-	void DestroyResource(memhandle_t__ *param_1); // size[264]
+	void DestroyResource(memhandle_t__ *param_1); // size[29]
 	void BreakAllLocks(); // size[169]
 	void TouchByIndex(ushort param_1); // size[106]
 	void GetResource_NoLock(memhandle_t__ *param_1); // size[125]
 	void TouchResource(memhandle_t__ *param_1); // size[107]
-	void FlushAllUnlocked(); // size[255]
-	void FlushAll(); // size[496]
-	void CreateHandle(bool param_1); // size[250]
-	void GetLRUHandleList(CUtlVector *param_1); // size[6]
+	void FlushAllUnlocked(); // size[279]
+	void FlushAll(); // size[425]
+	void CreateHandle(bool param_1); // size[6]
+	void GetLRUHandleList(CUtlVector *param_1); // size[118]
 	void GetLockHandleList(CUtlVector *param_1); // size[118]
 	CDataManagerBase(uint param_1); // size[213]
 };

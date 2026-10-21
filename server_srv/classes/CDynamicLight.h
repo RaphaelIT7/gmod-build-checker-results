@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x25AC (9644) bytes
+// Estimated minimum size: 0x13B4 (5044) bytes
 
 class CDynamicLight : public CBaseEntity
 {
@@ -13,7 +13,7 @@ public:
 	virtual void KeyValue(char *param_1, char *param_2) override; // vtable[30]
 
 	void _GLOBAL__sub_I_m_DataMap(); // size[112]
-	void DynamicLightThink(); // size[90]
+	void DynamicLightThink(); // size[246]
 	void InputTurnOff(inputdata_t *param_1); // size[93]
 	void InputTurnOn(inputdata_t *param_1); // size[92]
 	void InputToggle(inputdata_t *param_1); // size[36]

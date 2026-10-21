@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x25AC (9644) bytes
+// Estimated minimum size: 0x13B8 (5048) bytes
 
 class CInfoDarknessLightSource : public CBaseEntity
 {
@@ -11,7 +11,7 @@ public:
 	virtual void UpdateOnRemove() override; // vtable[108]
 
 	void GetBaseMap(); // size[10]
-	void DebugThink(); // size[452]
+	void DebugThink(); // size[706]
 	void InputDisable(inputdata_t *param_1); // size[39]
-	void InputEnable(inputdata_t *param_1); // size[10]
+	void InputEnable(inputdata_t *param_1); // size[53]
 };

@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x28 (40) bytes
+// Estimated minimum size: 0x8 (8) bytes
 
 class IVP_U_Active_Value_Manager
 {
@@ -21,15 +21,15 @@ public:
 	virtual void install_active_int(char *param_1, int param_2); // vtable[14]
 	virtual void create_active_int(char *param_1, int param_2); // vtable[15]
 
-	void create_active_int(char *param_1, int param_2); // size[17]
-	void install_active_int(char *param_1, int param_2); // size[17]
-	void init_active_values_generic(); // size[17]
-	void create_active_float(char *param_1, double param_2); // size[17]
-	void install_active_float(char *param_1, double param_2); // size[17]
-	IVP_U_Active_Value_Manager(IVP_BOOL param_1); // size[67]
-	void get_active_float_by_name(char *param_1); // size[17]
-	void get_active_int_by_name(char *param_1); // size[17]
-	IVP_U_Active_Value_Manager(IVP_BOOL param_1); // size[187]
-	void get_active_float_by_name(char *param_1); // size[339]
-	void get_active_int_by_name(char *param_1); // size[329]
+	void create_active_int(char *param_1, int param_2); // size[16]
+	void install_active_int(char *param_1, int param_2); // size[16]
+	void init_active_values_generic(); // size[16]
+	void create_active_float(char *param_1, double param_2); // size[16]
+	void install_active_float(char *param_1, double param_2); // size[16]
+	IVP_U_Active_Value_Manager(IVP_BOOL param_1); // size[58]
+	void get_active_float_by_name(char *param_1); // size[16]
+	void get_active_int_by_name(char *param_1); // size[16]
+	IVP_U_Active_Value_Manager(IVP_BOOL param_1); // size[210]
+	void get_active_float_by_name(char *param_1); // size[360]
+	void get_active_int_by_name(char *param_1); // size[357]
 };

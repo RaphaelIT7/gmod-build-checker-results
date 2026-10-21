@@ -11,8 +11,8 @@ public:
 	virtual void OnRoundRestart(); // vtable[4]
 	virtual void Register(CTacticalMission *param_1); // vtable[5]
 	virtual void Unregister(CTacticalMission *param_1); // vtable[6]
-	virtual void GetMission(char *param_1); // vtable[7]
+	virtual void _ZN23CTacticalMissionManager10GetMissionEPKc(); // vtable[7]
 	virtual void ForEachMission(IForEachMission *param_1); // vtable[8]
 
-	CTacticalMissionManager(); // size[29]
+	CTacticalMissionManager(); // size[1]
 };

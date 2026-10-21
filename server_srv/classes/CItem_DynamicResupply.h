@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x25AC (9644) bytes
+// Estimated minimum size: 0x13E8 (5096) bytes
 
 class CItem_DynamicResupply : public CPointEntity
 {
@@ -14,13 +14,13 @@ public:
 	void InputKill(inputdata_t *param_1); // size[9]
 	void InputBecomeMaster(inputdata_t *param_1); // size[150]
 	void GetBaseMap(); // size[10]
-	CItem_DynamicResupply(); // size[28]
-	void SpawnFullItem(CItem_DynamicResupply *param_1, CBasePlayer *param_2, int param_3); // size[550]
-	void FindPotentialItems(int param_1, DynamicResupplyItems_t *param_2, int param_3, SpawnInfo_t *param_4); // size[388]
+	CItem_DynamicResupply(); // size[20]
+	void SpawnFullItem(CItem_DynamicResupply *param_1, CBasePlayer *param_2, int param_3); // size[86]
+	void FindPotentialItems(int param_1, DynamicResupplyItems_t *param_2, int param_3, SpawnInfo_t *param_4); // size[454]
 	void ComputeHealthRatios(CItem_DynamicResupply *param_1, CBasePlayer *param_2, int param_3, SpawnInfo_t *param_4); // size[554]
-	void ComputeAmmoRatios(CItem_DynamicResupply *param_1, CBasePlayer *param_2, int param_3, SpawnInfo_t *param_4); // size[431]
-	void SpawnItemFromRatio(int param_1, DynamicResupplyItems_t *param_2, int param_3, SpawnInfo_t *param_4, Vector *param_5); // size[362]
+	void ComputeAmmoRatios(CItem_DynamicResupply *param_1, CBasePlayer *param_2, int param_3, SpawnInfo_t *param_4); // size[54]
+	void SpawnItemFromRatio(int param_1, DynamicResupplyItems_t *param_2, int param_3, SpawnInfo_t *param_4, Vector *param_5); // size[209]
 	void SpawnDynamicItem(CBasePlayer *param_1); // size[615]
-	void CheckPVSThink(); // size[83]
+	void CheckPVSThink(); // size[4]
 	void InputCalculateType(inputdata_t *param_1); // size[46]
 };

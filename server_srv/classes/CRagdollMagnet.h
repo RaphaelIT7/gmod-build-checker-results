@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x25AC (9644) bytes
+// Estimated minimum size: 0x13B4 (5044) bytes
 
 class CRagdollMagnet : public CPointEntity
 {
@@ -13,5 +13,5 @@ public:
 	void GetBaseMap(); // size[10]
 	void GetForceVector(CBaseEntity *param_1); // size[548]
 	void DistToPoint(Vector *param_1); // size[799]
-	void FindBestMagnet(CBaseEntity *param_1); // size[191]
+	void FindBestMagnet(CBaseEntity *param_1); // size[104]
 };

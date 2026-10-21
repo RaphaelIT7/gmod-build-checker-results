@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x115A0EC (18194668) bytes
+// Estimated minimum size: 0x1548 (5448) bytes
 
 class CPhysBox : public CBreakable
 {
@@ -62,13 +62,13 @@ public:
 	virtual void ShouldPuntUseLaunchForces(PhysGunForce_t param_1); // vtable[8]
 	virtual void PhysGunLaunchVelocity(Vector *param_1, float param_2); // vtable[9]
 
-	void InputWake(inputdata_t *param_1); // size[23]
+	void InputWake(inputdata_t *param_1); // size[6]
 	void InputSleep(inputdata_t *param_1); // size[23]
-	void InputDisableMotion(inputdata_t *param_1); // size[36]
+	void InputDisableMotion(inputdata_t *param_1); // size[20]
 	void InputForceDrop(inputdata_t *param_1); // size[85]
 	void InputDisableFloating(inputdata_t *param_1); // size[28]
 	void GetBaseMap(); // size[10]
 	void CanBePickedUpByPhyscannon(); // size[61]
-	void EnableMotion(); // size[95]
+	void EnableMotion(); // size[102]
 	void InputEnableMotion(inputdata_t *param_1); // size[9]
 };

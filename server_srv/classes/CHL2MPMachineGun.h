@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x5E5B1CC8 (1583029448) bytes
+// Estimated minimum size: 0x20AC (8364) bytes
 
 class CHL2MPMachineGun : public CBaseHL2MPCombatWeapon
 {
@@ -17,7 +17,7 @@ public:
 
 	void _GLOBAL__sub_I_GetServerClass(); // size[112]
 	void GetBaseMap(); // size[10]
-	CHL2MPMachineGun(); // size[7]
+	CHL2MPMachineGun(); // size[40]
 	void DoMachineGunKick(CBasePlayer *param_1, float param_2, float param_3, float param_4, float param_5); // size[362]
 	void WeaponSoundRealtime(WeaponSound_t param_1); // size[310]
 };

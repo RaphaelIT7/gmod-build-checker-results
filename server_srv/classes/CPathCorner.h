@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x25AC (9644) bytes
+// Estimated minimum size: 0x13B8 (5048) bytes
 
 class CPathCorner : public CPointEntity
 {
@@ -14,6 +14,6 @@ public:
 
 	void _GLOBAL__sub_I_m_DataMap(); // size[113]
 	void InputSetNextPathCorner(inputdata_t *param_1); // size[29]
-	void InputInPass(inputdata_t *param_1); // size[46]
+	void InputInPass(inputdata_t *param_1); // size[48]
 	void GetBaseMap(); // size[10]
 };

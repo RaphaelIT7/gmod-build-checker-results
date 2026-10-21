@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x25AC (9644) bytes
+// Estimated minimum size: 0x1444 (5188) bytes
 
 class CFuncPlat : public CBasePlatTrain
 {
@@ -7,7 +7,7 @@ public:
 	virtual ~CFuncPlat() override; // vtable[0]
 	virtual ~CFuncPlat() override; // vtable[1]
 	virtual void GetDataDescMap() override; // vtable[12]
-	virtual void Spawn() override; // vtable[23]
+	virtual void _ZN9CFuncPlat5SpawnEv() override; // vtable[23]
 	virtual void Precache() override; // vtable[24]
 	virtual void Blocked(CBaseEntity *param_1) override; // vtable[105]
 	virtual void CreateVPhysics() override; // vtable[157]

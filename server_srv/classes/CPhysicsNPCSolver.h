@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x25AC (9644) bytes
+// Estimated minimum size: 0x13D0 (5072) bytes
 
 class CPhysicsNPCSolver : public CLogicalEntity, public IMotionEvent
 {
@@ -18,7 +18,7 @@ public:
 	void GetBaseMap(); // size[10]
 	CPhysicsNPCSolver(); // size[26]
 	void Init(CAI_BaseNPC *param_1, CBaseEntity *param_2, bool param_3, float param_4); // size[124]
-	void Create(CAI_BaseNPC *param_1, CBaseEntity *param_2, bool param_3, float param_4); // size[112]
+	void Create(CAI_BaseNPC *param_1, CBaseEntity *param_2, bool param_3, float param_4); // size[94]
 	void ResetCancelTime(); // size[77]
 	void BecomePenetrationSolver(); // size[334]
 	void IsIntersecting(); // size[925]

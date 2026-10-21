@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x25AC (9644) bytes
+// Estimated minimum size: 0x14E4 (5348) bytes
 
 class CTriggerSave : public CBaseTrigger
 {

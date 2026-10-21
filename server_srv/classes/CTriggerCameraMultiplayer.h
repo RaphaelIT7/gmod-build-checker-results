@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x25AC (9644) bytes
+// Estimated minimum size: 0x1400 (5120) bytes
 
 class CTriggerCameraMultiplayer : public CMoveableCamera
 {
@@ -14,10 +14,10 @@ public:
 	virtual void MoveTime(float param_1) override; // vtable[249]
 
 	void InputDisable(inputdata_t *param_1); // size[17]
-	void InputEnable(inputdata_t *param_1); // size[21]
+	void InputEnable(inputdata_t *param_1); // size[125]
 	void InputStartMovement(inputdata_t *param_1); // size[9]
 	void GetBaseMap(); // size[10]
-	void RemovePlayer(CBasePlayer *param_1); // size[146]
+	void RemovePlayer(CBasePlayer *param_1); // size[8]
 	void InputRemovePlayer(inputdata_t *param_1); // size[137]
 	void AddPlayer(CBasePlayer *param_1); // size[392]
 	void InputAddPlayer(inputdata_t *param_1); // size[59]

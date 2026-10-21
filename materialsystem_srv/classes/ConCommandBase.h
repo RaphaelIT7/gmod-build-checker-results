@@ -17,7 +17,6 @@ public:
 	virtual void Init(); // vtable[10]
 
 	void _GLOBAL__sub_I_s_pConCommandBases(); // size[135]
-	ConCommandBase(); // size[46]
 	ConCommandBase(char *param_1, char *param_2, int param_3); // size[18]
 	void Shutdown(); // size[33]
 	void GetNext(); // size[11]

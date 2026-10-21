@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0xC (12) bytes
+// Estimated minimum size: 0x30 (48) bytes
 
 class CTEConcussiveExplosion : public CTEParticleSystem
 {
@@ -10,5 +10,5 @@ public:
 	virtual ~CTEConcussiveExplosion() override; // vtable[3]
 
 	void _GLOBAL__sub_I_GetServerClass(); // size[112]
-	CTEConcussiveExplosion(char *param_1); // size[16]
+	CTEConcussiveExplosion(char *param_1); // size[89]
 };

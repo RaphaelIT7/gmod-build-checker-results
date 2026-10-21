@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x78 (120) bytes
+// Estimated minimum size: 0x8 (8) bytes
 
 class IVP_3D_Solver_DISTANCE_OF_TWO_POINTS : public IVP_3D_Solver
 {

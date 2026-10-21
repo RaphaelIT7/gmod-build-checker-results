@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x25AC (9644) bytes
+// Estimated minimum size: 0x13EC (5100) bytes
 
 class DustTrail : public CBaseParticleEntity
 {
@@ -12,7 +12,7 @@ public:
 	virtual void KeyValue(char *param_1, char *param_2) override; // vtable[30]
 
 	void GetBaseMap(); // size[10]
-	DustTrail(); // size[228]
-	void SetEmit(bool param_1); // size[65]
+	DustTrail(); // size[23]
+	void SetEmit(bool param_1); // size[81]
 	void CreateDustTrail(); // size[77]
 };

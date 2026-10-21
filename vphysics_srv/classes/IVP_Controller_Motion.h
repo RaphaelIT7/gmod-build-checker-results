@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x8C (140) bytes
+// Estimated minimum size: 0x8 (8) bytes
 
 class IVP_Controller_Motion : public IVP_Controller_Independent
 {
@@ -14,22 +14,22 @@ public:
 	virtual ~IVP_Controller_Motion(); // vtable[7]
 	virtual ~IVP_Controller_Motion(); // vtable[8]
 
-	IVP_Controller_Motion(IVP_Real_Object *param_1, IVP_Template_Controller_Motion *param_2); // size[149]
-	void set_max_torque(IVP_U_Float_Point *param_1); // size[34]
-	void set_max_translation_force(IVP_U_Float_Point *param_1); // size[47]
-	void set_target_position_ws(IVP_U_Point *param_1); // size[144]
-	void set_target_object_position_ws(IVP_Real_Object *param_1, IVP_U_Quat *param_2, IVP_U_Point *param_3); // size[203]
-	void set_target_q_world_f_core(IVP_U_Quat *param_1); // size[166]
-	void get_max_torque(); // size[11]
-	void get_max_translation_force(); // size[11]
-	void get_force_factor(); // size[11]
-	void get_damp_factor(); // size[11]
-	void get_torque_factor(); // size[11]
-	void get_angular_damp_factor(); // size[11]
-	void get_target_position_ws(); // size[11]
-	void get_target_orientation(); // size[11]
-	void set_force_factor(float param_1); // size[18]
-	void set_damp_factor(float param_1); // size[18]
-	void set_torque_factor(float param_1); // size[18]
-	void set_angular_damp_factor(float param_1); // size[18]
+	IVP_Controller_Motion(IVP_Real_Object *param_1, IVP_Template_Controller_Motion *param_2); // size[44]
+	void set_max_torque(IVP_U_Float_Point *param_1); // size[16]
+	void set_max_translation_force(IVP_U_Float_Point *param_1); // size[25]
+	void set_target_position_ws(IVP_U_Point *param_1); // size[114]
+	void set_target_object_position_ws(IVP_Real_Object *param_1, IVP_U_Quat *param_2, IVP_U_Point *param_3); // size[226]
+	void set_target_q_world_f_core(IVP_U_Quat *param_1); // size[136]
+	void get_max_torque(); // size[5]
+	void get_max_translation_force(); // size[5]
+	void get_force_factor(); // size[6]
+	void get_damp_factor(); // size[6]
+	void get_torque_factor(); // size[6]
+	void get_angular_damp_factor(); // size[6]
+	void get_target_position_ws(); // size[5]
+	void get_target_orientation(); // size[5]
+	void set_force_factor(float param_1); // size[6]
+	void set_damp_factor(float param_1); // size[6]
+	void set_torque_factor(float param_1); // size[6]
+	void set_angular_damp_factor(float param_1); // size[6]
 };

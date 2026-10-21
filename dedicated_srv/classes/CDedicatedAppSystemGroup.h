@@ -13,5 +13,5 @@ public:
 	virtual void Shutdown(); // vtable[6]
 	virtual void LoadModuleDLL(char *param_1); // vtable[7]
 
-	void PreInit(); // size[154]
+	void PreInit(); // size[263]
 };

@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x5E5B1CC8 (1583029448) bytes
+// Estimated minimum size: 0x1678 (5752) bytes
 
 class CWeaponCitizenSuitcase : public CWeaponCitizenPackage
 {
@@ -8,7 +8,9 @@ public:
 	virtual ~CWeaponCitizenSuitcase() override; // vtable[1]
 	virtual void GetServerClass() override; // vtable[10]
 	virtual void YouForgotToImplementOrDeclareServerClass() override; // vtable[11]
-	virtual void _ZN22CWeaponCitizenSuitcase14GetDataDescMapEv() override; // vtable[12]
+	virtual void GetDataDescMap() override; // vtable[12]
+	virtual void ActivityList() override; // vtable[388]
+	virtual void ActivityListCount() override; // vtable[389]
 
 	void GetBaseMap(); // size[10]
 };

@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x25AC (9644) bytes
+// Estimated minimum size: 0x16D4 (5844) bytes
 
 class CMaterialModifyControl : public CBaseEntity
 {
@@ -15,10 +15,10 @@ public:
 	virtual void KeyValue(char *param_1, char *param_2) override; // vtable[30]
 	virtual void ObjectCaps() override; // vtable[36]
 
-	void SetMaterialVar(inputdata_t *param_1); // size[129]
+	void SetMaterialVar(inputdata_t *param_1); // size[148]
 	void SetMaterialVarToCurrentTime(inputdata_t *param_1); // size[66]
 	void InputStartFloatLerp(inputdata_t *param_1); // size[144]
-	void InputStartAnimSequence(inputdata_t *param_1); // size[154]
+	void InputStartAnimSequence(inputdata_t *param_1); // size[144]
 	void GetBaseMap(); // size[10]
 	CMaterialModifyControl(); // size[28]
 };

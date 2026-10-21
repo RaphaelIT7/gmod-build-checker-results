@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x5E5B1CC8 (1583029448) bytes
+// Estimated minimum size: 0x1574 (5492) bytes
 
 class CGrenadeBeamChaser : public CBaseAnimating
 {
@@ -12,5 +12,5 @@ public:
 	void _GLOBAL__sub_I_m_DataMap(); // size[113]
 	void GetBaseMap(); // size[10]
 	void ChaserCreate(CGrenadeBeam *param_1); // size[76]
-	void ChaserThink(); // size[664]
+	void ChaserThink(); // size[659]
 };

@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x155C (5468) bytes
+// Estimated minimum size: 0x90 (144) bytes
 
 class CAI_PassengerBehaviorZombie : public CAI_PassengerBehavior
 {
@@ -31,15 +31,15 @@ public:
 
 	void GetBaseMap(); // size[10]
 	void SuppressAttack(float param_1); // size[72]
-	void EnemyInVehicle(); // size[90]
-	void SelectOutsideSchedule(); // size[29]
-	void SelectInsideSchedule(); // size[28]
-	void CanJumpToAttachToVehicle(); // size[3]
+	void EnemyInVehicle(); // size[15]
+	void SelectOutsideSchedule(); // size[46]
+	void SelectInsideSchedule(); // size[44]
+	void CanJumpToAttachToVehicle(); // size[1]
 	void GetAttachmentPoint(Vector *param_1); // size[298]
-	void StartDismount(); // size[298]
+	void StartDismount(); // size[315]
 	void FinishDismount(); // size[19]
 	void GetEntryPointCost(Vector *param_1); // size[7]
-	void InitCustomSchedules(); // size[30]
+	void InitCustomSchedules(); // size[46]
 	void LoadSchedules(); // size[62]
 	CAI_PassengerBehaviorZombie(); // size[65]
 };

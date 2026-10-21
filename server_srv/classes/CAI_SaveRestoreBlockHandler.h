@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x7C (124) bytes
+// Estimated minimum size: 0x8 (8) bytes
 
 class CAI_SaveRestoreBlockHandler : public CDefSaveRestoreBlockHandler
 {

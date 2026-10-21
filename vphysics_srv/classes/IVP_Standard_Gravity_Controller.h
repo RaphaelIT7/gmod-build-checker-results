@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x2C (44) bytes
+// Estimated minimum size: 0x8 (8) bytes
 
 class IVP_Standard_Gravity_Controller : public IVP_Controller_Independent
 {
@@ -14,6 +14,6 @@ public:
 	virtual ~IVP_Standard_Gravity_Controller(); // vtable[7]
 	virtual ~IVP_Standard_Gravity_Controller(); // vtable[8]
 
-	void set_standard_gravity(IVP_U_Point *param_1); // size[52]
-	void set_alternate_gravity(IVP_U_Point *param_1); // size[52]
+	void set_standard_gravity(IVP_U_Point *param_1); // size[42]
+	void set_alternate_gravity(IVP_U_Point *param_1); // size[42]
 };

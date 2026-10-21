@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x264 (612) bytes
+// Estimated minimum size: 0x5C (92) bytes
 
 class INextBot : public INextBotEventResponder
 {
@@ -40,18 +40,18 @@ public:
 	void GetRangeSquaredTo(CBaseEntity *param_1); // size[158]
 	void GetRangeTo(Vector *param_1); // size[90]
 	void GetDebugIdentifier(); // size[97]
-	void DisplayDebugText(char *param_1); // size[89]
-	void SetPosition(Vector *param_1); // size[74]
+	void DisplayDebugText(char *param_1); // size[95]
+	void SetPosition(Vector *param_1); // size[86]
 	void IsDebugFilterMatch(char *param_1); // size[23]
 	void IsAbleToClimbOnto(CBaseEntity *param_1); // size[107]
 	void IsDebugging(uint param_1); // size[46]
 	void IsAbleToBreak(CBaseEntity *param_1); // size[142]
 	void ResetDebugHistory(); // size[60]
-	void BeginUpdate(); // size[60]
+	void BeginUpdate(); // size[23]
 	void EndUpdate(); // size[28]
 	void RegisterComponent(INextBotComponent *param_1); // size[20]
 	void UpdateImmobileStatus(); // size[338]
 	INextBot(); // size[176]
-	void DebugConColorMsg(NextBotDebugType null, Color const & null, char const *null, ... null); // size[692]
-	void GetDebugHistory(uint param_1, CUtlVector *param_2); // size[195]
+	void DebugConColorMsg(NextBotDebugType null, Color const & null, char const *null, ... null); // size[672]
+	void GetDebugHistory(uint param_1, CUtlVector *param_2); // size[188]
 };

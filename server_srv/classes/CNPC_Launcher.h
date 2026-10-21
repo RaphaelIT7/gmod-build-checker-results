@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x5E5B1CC8 (1583029448) bytes
+// Estimated minimum size: 0x2624 (9764) bytes
 
 class CNPC_Launcher : public CAI_BaseNPC
 {
@@ -12,10 +12,10 @@ public:
 	virtual void DrawDebugTextOverlays() override; // vtable[40]
 	virtual void Classify() override; // vtable[55]
 	virtual void FInViewCone(CBaseEntity *param_1) override; // vtable[292]
-	virtual void IsValidEnemy(CBaseEntity *param_1) override; // vtable[475]
-	virtual CalcYawSpeed(); // vtable[0]
-	virtual OnCalcBaseMove(AILocalMoveGoal_t *param_1, float param_2, AIMoveResult_t *param_3); // vtable[1]
-	virtual OnObstructionPreSteer(AILocalMoveGoal_t *param_1, float param_2, AIMoveResult_t *param_3); // vtable[2]
+	virtual void IsValidEnemy(CBaseEntity *param_1) override; // vtable[476]
+	virtual void CalcYawSpeed(); // vtable[0]
+	virtual void OnCalcBaseMove(AILocalMoveGoal_t *param_1, float param_2, AIMoveResult_t *param_3); // vtable[1]
+	virtual void OnObstructionPreSteer(AILocalMoveGoal_t *param_1, float param_2, AIMoveResult_t *param_3); // vtable[2]
 	virtual void OnFailedSteer(AILocalMoveGoal_t *param_1, float param_2, AIMoveResult_t *param_3); // vtable[3]
 	virtual void OnFailedLocalNavigation(AILocalMoveGoal_t *param_1, float param_2, AIMoveResult_t *param_3); // vtable[4]
 	virtual void OnInsufficientStopDist(AILocalMoveGoal_t *param_1, float param_2, AIMoveResult_t *param_3); // vtable[5]
@@ -33,6 +33,6 @@ public:
 	void LauncherTurnOn(); // size[67]
 	void InputTurnOn(inputdata_t *param_1); // size[9]
 	void LaunchGrenade(CBaseEntity *param_1); // size[524]
-	void LauncherThink(); // size[261]
+	void LauncherThink(); // size[395]
 	void InputFireOnce(inputdata_t *param_1); // size[55]
 };

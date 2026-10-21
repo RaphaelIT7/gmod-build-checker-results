@@ -9,7 +9,7 @@ public:
 
 	void GetClientFrame(int param_1, bool param_2); // size[84]
 	void CountClientFrames(); // size[11]
-	void AddClientFrame(CClientFrame *param_1); // size[54]
+	void AddClientFrame(CClientFrame *param_1); // size[59]
 	void AllocateFrame(); // size[40]
 	void FreeFrame(CClientFrame *param_1); // size[67]
 	void RemoveOldestFrame(); // size[57]

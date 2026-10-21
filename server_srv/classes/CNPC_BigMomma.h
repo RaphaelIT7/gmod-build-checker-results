@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x5E5B1CC8 (1583029448) bytes
+// Estimated minimum size: 0x25EC (9708) bytes
 
 class CNPC_BigMomma : public CHL1BaseNPC
 {
@@ -17,20 +17,20 @@ public:
 	virtual void OnTakeDamage(CTakeDamageInfo *param_1) override; // vtable[64]
 	virtual void HandleAnimEvent(animevent_t *param_1) override; // vtable[261]
 	virtual void CanBecomeServerRagdoll() override; // vtable[337]
-	virtual void SelectSchedule() override; // vtable[407]
-	virtual void StartTask(Task_t *param_1) override; // vtable[410]
-	virtual void RunTask(Task_t *param_1) override; // vtable[411]
-	virtual void GetSchedulingErrorName() override; // vtable[432]
-	virtual void LoadedSchedules() override; // vtable[433]
-	virtual void _ZN13CNPC_BigMomma11MaxYawSpeedEv() override; // vtable[529]
-	virtual void SquadSlotName(int param_1) override; // vtable[581]
-	virtual void RangeAttack1Conditions(float param_1, float param_2) override; // vtable[595]
-	virtual void MeleeAttack1Conditions(float param_1, float param_2) override; // vtable[597]
-	virtual void MeleeAttack2Conditions(float param_1, float param_2) override; // vtable[598]
-	virtual void GetClassScheduleIdSpace() override; // vtable[640]
-	virtual CalcYawSpeed(); // vtable[0]
-	virtual OnCalcBaseMove(AILocalMoveGoal_t *param_1, float param_2, AIMoveResult_t *param_3); // vtable[1]
-	virtual OnObstructionPreSteer(AILocalMoveGoal_t *param_1, float param_2, AIMoveResult_t *param_3); // vtable[2]
+	virtual void SelectSchedule() override; // vtable[408]
+	virtual void StartTask(Task_t *param_1) override; // vtable[411]
+	virtual void RunTask(Task_t *param_1) override; // vtable[412]
+	virtual void GetSchedulingErrorName() override; // vtable[433]
+	virtual void LoadedSchedules() override; // vtable[434]
+	virtual void _ZN13CNPC_BigMomma11MaxYawSpeedEv() override; // vtable[530]
+	virtual void SquadSlotName(int param_1) override; // vtable[582]
+	virtual void RangeAttack1Conditions(float param_1, float param_2) override; // vtable[596]
+	virtual void MeleeAttack1Conditions(float param_1, float param_2) override; // vtable[598]
+	virtual void MeleeAttack2Conditions(float param_1, float param_2) override; // vtable[599]
+	virtual void GetClassScheduleIdSpace() override; // vtable[641]
+	virtual void CalcYawSpeed(); // vtable[0]
+	virtual void OnCalcBaseMove(AILocalMoveGoal_t *param_1, float param_2, AIMoveResult_t *param_3); // vtable[1]
+	virtual void OnObstructionPreSteer(AILocalMoveGoal_t *param_1, float param_2, AIMoveResult_t *param_3); // vtable[2]
 	virtual void OnFailedSteer(AILocalMoveGoal_t *param_1, float param_2, AIMoveResult_t *param_3); // vtable[3]
 	virtual void OnFailedLocalNavigation(AILocalMoveGoal_t *param_1, float param_2, AIMoveResult_t *param_3); // vtable[4]
 	virtual void OnInsufficientStopDist(AILocalMoveGoal_t *param_1, float param_2, AIMoveResult_t *param_3); // vtable[5]

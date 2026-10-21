@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x98 (152) bytes
+// Estimated minimum size: 0x8 (8) bytes
 
 class hk_Stiff_Spring_Constraint : public hk_Constraint
 {
@@ -13,11 +13,10 @@ public:
 	virtual void get_constraint_dof(); // vtable[7]
 	virtual void init_constraint(void *param_1); // vtable[8]
 
-	void _GLOBAL__sub_I_init_constraint(); // size[1]
-	void init_stiff_spring_constraint(hk_Stiff_Spring_BP *param_1); // size[110]
-	void write_to_blueprint(hk_Stiff_Spring_BP *param_1); // size[110]
-	hk_Stiff_Spring_Constraint(hk_Environment *param_1, hk_Stiff_Spring_BP *param_2, hk_Rigid_Body *param_3, hk_Rigid_Body *param_4); // size[163]
-	hk_Stiff_Spring_Constraint(hk_Local_Constraint_System *param_1, hk_Stiff_Spring_BP *param_2, hk_Rigid_Body *param_3, hk_Rigid_Body *param_4); // size[154]
-	void set_length(float param_1); // size[18]
-	void apply_effector_PSI(hk_PSI_Info *param_1); // size[77]
+	void init_stiff_spring_constraint(hk_Stiff_Spring_BP *param_1); // size[100]
+	void write_to_blueprint(hk_Stiff_Spring_BP *param_1); // size[100]
+	hk_Stiff_Spring_Constraint(hk_Environment *param_1, hk_Stiff_Spring_BP *param_2, hk_Rigid_Body *param_3, hk_Rigid_Body *param_4); // size[127]
+	hk_Stiff_Spring_Constraint(hk_Local_Constraint_System *param_1, hk_Stiff_Spring_BP *param_2, hk_Rigid_Body *param_3, hk_Rigid_Body *param_4); // size[125]
+	void set_length(float param_1); // size[6]
+	void apply_effector_PSI(hk_PSI_Info *param_1); // size[62]
 };

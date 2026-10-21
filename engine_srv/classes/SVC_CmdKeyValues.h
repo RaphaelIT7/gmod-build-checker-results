@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x68 (104) bytes
+// Estimated minimum size: 0x14 (20) bytes
 
 class SVC_CmdKeyValues : public Base_CmdKeyValues
 {

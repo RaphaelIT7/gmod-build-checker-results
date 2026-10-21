@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x14 (20) bytes
+// Estimated minimum size: 0x8 (8) bytes
 
 class CBufferStream : public IWriteStream
 {

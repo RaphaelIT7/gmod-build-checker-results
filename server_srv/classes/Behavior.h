@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x50 (80) bytes
+// Estimated minimum size: 0x4C (76) bytes
 
 class Behavior : public INextBotEventResponder, public IContextualQuery
 {

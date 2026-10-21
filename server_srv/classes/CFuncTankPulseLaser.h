@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x25AC (9644) bytes
+// Estimated minimum size: 0x1634 (5684) bytes
 
 class CFuncTankPulseLaser : public CFuncTankGun
 {

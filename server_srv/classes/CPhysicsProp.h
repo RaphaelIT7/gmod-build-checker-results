@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x5E5B1CC8 (1583029448) bytes
+// Estimated minimum size: 0x17B0 (6064) bytes
 
 class CPhysicsProp : public CBreakableProp, public INavAvoidanceObstacle
 {
@@ -89,5 +89,5 @@ public:
 	void GetMass(); // size[31]
 	void EnableMotion(); // size[208]
 	void InputEnableMotion(inputdata_t *param_1); // size[9]
-	void NavThink(); // size[1144]
+	void NavThink(); // size[1119]
 };

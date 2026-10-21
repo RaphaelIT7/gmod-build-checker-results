@@ -40,7 +40,7 @@ public:
 	void GetFloat(); // size[35]
 	void GetInt(); // size[33]
 	void GetInt(); // size[33]
-	void GetFloat(); // size[29]
+	void GetFloat(); // size[35]
 	void GetInt(); // size[33]
 	void GetInt(); // size[33]
 	void GetInt(); // size[33]

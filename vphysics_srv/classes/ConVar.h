@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x5C (92) bytes
+// Estimated minimum size: 0x8 (8) bytes
 
 class ConVar : public ConCommandBase, public IConVar
 {
@@ -29,20 +29,20 @@ public:
 	virtual void GetName(); // vtable[3]
 	virtual void IsFlagSet(int param_1); // vtable[4]
 
-	void InstallChangeCallback(_func_void_IConVar_ptr_char_ptr_float *param_1); // size[48]
-	void Create(char *param_1, char *param_2, int param_3, char *param_4, bool param_5, float param_6, bool param_7, float param_8, bool param_9, float param_10, bool param_11, float param_12, _func_void_IConVar_ptr_char_ptr_float *param_13); // size[377]
-	ConVar(char *param_1, char *param_2, int param_3); // size[94]
-	ConVar(char *param_1, char *param_2, int param_3, char *param_4); // size[95]
-	ConVar(char *param_1, char *param_2, int param_3, char *param_4, bool param_5, float param_6, bool param_7, float param_8); // size[103]
-	ConVar(char *param_1, char *param_2, int param_3, char *param_4, _func_void_IConVar_ptr_char_ptr_float *param_5); // size[96]
-	ConVar(char *param_1, char *param_2, int param_3, char *param_4, bool param_5, float param_6, bool param_7, float param_8, _func_void_IConVar_ptr_char_ptr_float *param_9); // size[13]
-	ConVar(char *param_1, char *param_2, int param_3, char *param_4, bool param_5, float param_6, bool param_7, float param_8, bool param_9, float param_10, bool param_11, float param_12, _func_void_IConVar_ptr_char_ptr_float *param_13); // size[85]
-	void Revert(); // size[26]
-	void GetMin(float *param_1); // size[30]
-	void GetMax(float *param_1); // size[30]
-	void GetCompMin(float *param_1); // size[30]
-	void GetCompMax(float *param_1); // size[30]
+	void InstallChangeCallback(_func_void_IConVar_ptr_char_ptr_float *param_1); // size[37]
+	void Create(char *param_1, char *param_2, int param_3, char *param_4, bool param_5, float param_6, bool param_7, float param_8, bool param_9, float param_10, bool param_11, float param_12, _func_void_IConVar_ptr_char_ptr_float *param_13); // size[429]
+	ConVar(char *param_1, char *param_2, int param_3); // size[89]
+	ConVar(char *param_1, char *param_2, int param_3, char *param_4); // size[86]
+	ConVar(char *param_1, char *param_2, int param_3, char *param_4, bool param_5, float param_6, bool param_7, float param_8); // size[84]
+	ConVar(char *param_1, char *param_2, int param_3, char *param_4, _func_void_IConVar_ptr_char_ptr_float *param_5); // size[86]
+	ConVar(char *param_1, char *param_2, int param_3, char *param_4, bool param_5, float param_6, bool param_7, float param_8, _func_void_IConVar_ptr_char_ptr_float *param_9); // size[85]
+	ConVar(char *param_1, char *param_2, int param_3, char *param_4, bool param_5, float param_6, bool param_7, float param_8, bool param_9, float param_10, bool param_11, float param_12, _func_void_IConVar_ptr_char_ptr_float *param_13); // size[82]
+	void Revert(); // size[14]
+	void GetMin(float *param_1); // size[22]
+	void GetMax(float *param_1); // size[22]
+	void GetCompMin(float *param_1); // size[22]
+	void GetCompMax(float *param_1); // size[28]
 	void SetCompetitiveMode(bool param_1); // size[193]
-	void GetDefault(); // size[14]
-	void SetDefault(char *param_1); // size[24]
+	void GetDefault(); // size[9]
+	void SetDefault(char *param_1); // size[19]
 };

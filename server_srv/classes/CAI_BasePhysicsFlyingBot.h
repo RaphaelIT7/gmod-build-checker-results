@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x5E5B1CC8 (1583029448) bytes
+// Estimated minimum size: 0x2604 (9732) bytes
 
 class CAI_BasePhysicsFlyingBot : public CAI_BaseNPC, public IMotionEvent
 {
@@ -11,10 +11,10 @@ public:
 	virtual void GetVelocity(Vector *param_1, Vector *param_2) override; // vtable[143]
 	virtual void CreateVPhysics() override; // vtable[157]
 	virtual void BodyAngles() override; // vtable[299]
-	virtual void StartTask(Task_t *param_1) override; // vtable[410]
-	virtual void TranslateNavGoal(CBaseEntity *param_1, Vector *param_2) override; // vtable[613]
-	virtual void MinGroundDist(); // vtable[652]
-	virtual void TurnHeadToTarget(float param_1, Vector *param_2); // vtable[653]
+	virtual void StartTask(Task_t *param_1) override; // vtable[411]
+	virtual void TranslateNavGoal(CBaseEntity *param_1, Vector *param_2) override; // vtable[614]
+	virtual void MinGroundDist(); // vtable[653]
+	virtual void TurnHeadToTarget(float param_1, Vector *param_2); // vtable[654]
 
 	void _GLOBAL__sub_I_m_DataMap(); // size[113]
 	void Simulate(IPhysicsMotionController *param_1, IPhysicsObject *param_2, float param_3, Vector *param_4, Vector *param_5); // size[533]

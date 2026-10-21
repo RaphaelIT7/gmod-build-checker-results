@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x25AC (9644) bytes
+// Estimated minimum size: 0x14F4 (5364) bytes
 
 class CBaseButton : public CBaseToggle
 {
@@ -18,20 +18,20 @@ public:
 	virtual void Unlock(); // vtable[248]
 
 	void _GLOBAL__sub_I_m_DataMap(); // size[113]
-	void InputLock(inputdata_t *param_1); // size[17]
+	void InputLock(inputdata_t *param_1); // size[7]
 	void InputUnlock(inputdata_t *param_1); // size[17]
-	void ButtonBackHome(); // size[103]
+	void ButtonBackHome(); // size[199]
 	void ButtonSpark(); // size[59]
 	void ButtonReturn(); // size[122]
-	void TriggerAndWait(); // size[372]
+	void TriggerAndWait(); // size[379]
 	void GetBaseMap(); // size[10]
-	void OnUseLocked(CBaseEntity *param_1); // size[112]
+	void OnUseLocked(CBaseEntity *param_1); // size[151]
 	void ButtonResponseToTouch(); // size[59]
 	void ButtonActivate(); // size[330]
-	void ButtonUse(CBaseEntity *param_1, CBaseEntity *param_2, USE_TYPE param_3, float param_4); // size[351]
-	void Press(CBaseEntity *param_1, BUTTON_CODE param_2); // size[351]
+	void ButtonUse(CBaseEntity *param_1, CBaseEntity *param_2, USE_TYPE param_3, float param_4); // size[375]
+	void Press(CBaseEntity *param_1, BUTTON_CODE param_2); // size[380]
 	void InputPress(inputdata_t *param_1); // size[36]
 	void InputPressIn(inputdata_t *param_1); // size[36]
 	void InputPressOut(inputdata_t *param_1); // size[36]
-	void ButtonTouch(CBaseEntity *param_1); // size[361]
+	void ButtonTouch(CBaseEntity *param_1); // size[324]
 };

@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x5E5B1CC8 (1583029448) bytes
+// Estimated minimum size: 0x25DC (9692) bytes
 
 class CNPC_Roach : public CHL1BaseNPC
 {
@@ -12,12 +12,12 @@ public:
 	virtual void Event_Killed(CTakeDamageInfo *param_1) override; // vtable[68]
 	virtual void Touch(CBaseEntity *param_1) override; // vtable[102]
 	virtual void ShouldGib(CTakeDamageInfo *param_1) override; // vtable[352]
-	virtual void NPCThink() override; // vtable[400]
-	virtual void GetSoundInterests() override; // vtable[467]
-	virtual void MaxYawSpeed() override; // vtable[529]
-	virtual CalcYawSpeed(); // vtable[0]
-	virtual OnCalcBaseMove(AILocalMoveGoal_t *param_1, float param_2, AIMoveResult_t *param_3); // vtable[1]
-	virtual OnObstructionPreSteer(AILocalMoveGoal_t *param_1, float param_2, AIMoveResult_t *param_3); // vtable[2]
+	virtual void NPCThink() override; // vtable[401]
+	virtual void GetSoundInterests() override; // vtable[468]
+	virtual void MaxYawSpeed() override; // vtable[530]
+	virtual void CalcYawSpeed(); // vtable[0]
+	virtual void OnCalcBaseMove(AILocalMoveGoal_t *param_1, float param_2, AIMoveResult_t *param_3); // vtable[1]
+	virtual void OnObstructionPreSteer(AILocalMoveGoal_t *param_1, float param_2, AIMoveResult_t *param_3); // vtable[2]
 	virtual void OnFailedSteer(AILocalMoveGoal_t *param_1, float param_2, AIMoveResult_t *param_3); // vtable[3]
 	virtual void OnFailedLocalNavigation(AILocalMoveGoal_t *param_1, float param_2, AIMoveResult_t *param_3); // vtable[4]
 	virtual void OnInsufficientStopDist(AILocalMoveGoal_t *param_1, float param_2, AIMoveResult_t *param_3); // vtable[5]

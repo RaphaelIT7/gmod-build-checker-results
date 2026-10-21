@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x25AC (9644) bytes
+// Estimated minimum size: 0x13B4 (5044) bytes
 
 class CEnvExplosion : public CPointEntity
 {
@@ -11,6 +11,6 @@ public:
 	virtual void DrawDebugTextOverlays() override; // vtable[40]
 
 	void Smoke(); // size[23]
-	void InputExplode(inputdata_t *param_1); // size[78]
+	void InputExplode(inputdata_t *param_1); // size[22]
 	void GetBaseMap(); // size[10]
 };

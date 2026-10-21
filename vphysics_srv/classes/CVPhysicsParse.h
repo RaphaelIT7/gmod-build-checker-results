@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0xC (12) bytes
+// Estimated minimum size: 0x8 (8) bytes
 
 class CVPhysicsParse : public IVPhysicsKeyParser
 {
@@ -16,15 +16,14 @@ public:
 	virtual void ParseVehicle(vehicleparams_t *param_1, IVPhysicsKeyHandler *param_2); // vtable[9]
 	virtual void SkipBlock(); // vtable[10]
 
-	_GLOBAL__sub_I_CVPhysicsParse(); // size[1]
-	void NextBlock(); // size[100]
-	CVPhysicsParse(char *param_1); // size[24]
-	void ParseVehicleWheel(vehicle_wheelparams_t *param_1); // size[634]
-	void ParseVehicleSuspension(vehicle_suspensionparams_t *param_1); // size[418]
-	void ParseVehicleAxle(vehicle_axleparams_t *param_1); // size[613]
-	void ParseVehicleBody(vehicle_bodyparams_t *param_1); // size[660]
-	void ParseVehicleEngineBoost(vehicle_engineparams_t *param_1); // size[404]
-	void ParseVehicleEngine(vehicle_engineparams_t *param_1); // size[1007]
-	void ParseVehicleSteering(vehicle_steeringparams_t *param_1); // size[1299]
-	void ParseSurfaceTablePacked(CUtlVector *param_1); // size[350]
+	void NextBlock(); // size[119]
+	CVPhysicsParse(char *param_1); // size[19]
+	void ParseVehicleWheel(vehicle_wheelparams_t *param_1); // size[526]
+	void ParseVehicleSuspension(vehicle_suspensionparams_t *param_1); // size[341]
+	void ParseVehicleAxle(vehicle_axleparams_t *param_1); // size[576]
+	void ParseVehicleBody(vehicle_bodyparams_t *param_1); // size[532]
+	void ParseVehicleEngineBoost(vehicle_engineparams_t *param_1); // size[344]
+	void ParseVehicleEngine(vehicle_engineparams_t *param_1); // size[780]
+	void ParseVehicleSteering(vehicle_steeringparams_t *param_1); // size[961]
+	void ParseSurfaceTablePacked(CUtlVector *param_1); // size[313]
 };

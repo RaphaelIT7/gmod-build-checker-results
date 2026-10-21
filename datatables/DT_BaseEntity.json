@@ -450,7 +450,7 @@
 			"index": 34,
 			"name": "m_iGModFlags",
 			"excludeName": "NULL",
-			"offset": 4972,
+			"offset": 4944,
 			"bits": 7,
 			"type": "DPT_Int",
 			"flags": "Flags: None",

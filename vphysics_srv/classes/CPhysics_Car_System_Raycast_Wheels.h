@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x740 (1856) bytes
+// Estimated minimum size: 0x8 (8) bytes
 
 class CPhysics_Car_System_Raycast_Wheels : public IVP_Controller_Raycast_Car
 {
@@ -52,9 +52,8 @@ public:
 	virtual ~CPhysics_Car_System_Raycast_Wheels(); // vtable[7]
 	virtual ~CPhysics_Car_System_Raycast_Wheels(); // vtable[8]
 
-	CPhysics_Car_System_Raycast_Wheels(IVP_Environment *param_1, IVP_Template_Car_System *param_2); // size[17]
-	_GLOBAL__sub_I_CPhysics_Car_System_Raycast_Wheels(); // size[1]
-	CPhysics_Car_System_Raycast_Wheels(IVP_Environment *param_1, IVP_Template_Car_System *param_2); // size[104]
-	void InitCarSystemWheels(IVP_Template_Car_System *param_1); // size[72]
-	void GetWheel(int param_1); // size[24]
+	CPhysics_Car_System_Raycast_Wheels(IVP_Environment *param_1, IVP_Template_Car_System *param_2); // size[16]
+	CPhysics_Car_System_Raycast_Wheels(IVP_Environment *param_1, IVP_Template_Car_System *param_2); // size[113]
+	void InitCarSystemWheels(IVP_Template_Car_System *param_1); // size[74]
+	void GetWheel(int param_1); // size[19]
 };

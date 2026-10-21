@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x25AC (9644) bytes
+// Estimated minimum size: 0x1440 (5184) bytes
 
 class CTemplateNPCMaker : public CBaseNPCMaker
 {
@@ -22,9 +22,9 @@ public:
 	void InputChangeDestinationGroup(inputdata_t *param_1); // size[29]
 	void InputSetMinimumSpawnDistance(inputdata_t *param_1); // size[29]
 	void GetBaseMap(); // size[10]
-	void PlaceNPCInLine(CAI_BaseNPC *param_1); // size[578]
+	void PlaceNPCInLine(CAI_BaseNPC *param_1); // size[490]
 	void MakeNPCInLine(); // size[154]
-	void PlaceNPCInRadius(CAI_BaseNPC *param_1); // size[145]
+	void PlaceNPCInRadius(CAI_BaseNPC *param_1); // size[155]
 	void MakeNPCInRadius(); // size[154]
 	void InputSpawnInLine(inputdata_t *param_1); // size[9]
 	void InputSpawnInRadius(inputdata_t *param_1); // size[9]

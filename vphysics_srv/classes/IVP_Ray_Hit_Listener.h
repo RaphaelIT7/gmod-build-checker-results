@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x4 (4) bytes
+// Estimated minimum size: 0x8 (8) bytes
 
 class IVP_Ray_Hit_Listener
 {

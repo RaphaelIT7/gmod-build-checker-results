@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x5E5B1CC8 (1583029448) bytes
+// Estimated minimum size: 0x15CC (5580) bytes
 
 class CBounceBomb : public CBaseAnimating, public CDefaultPlayerPickupVPhysics
 {
@@ -40,9 +40,9 @@ public:
 	void IsFriend(CBaseEntity *param_1); // size[112]
 	void FindNearestNPC(); // size[1109]
 	void OpenHooks(bool param_1); // size[198]
-	void SetMineState(int param_1); // size[421]
-	void SearchThink(); // size[22]
+	void SetMineState(int param_1); // size[483]
+	void SearchThink(); // size[537]
 	void InputDisarm(inputdata_t *param_1); // size[115]
-	void CloseHooks(); // size[192]
-	void SettleThink(); // size[287]
+	void CloseHooks(); // size[201]
+	void SettleThink(); // size[340]
 };

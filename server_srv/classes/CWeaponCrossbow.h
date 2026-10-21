@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x5E5B1CC8 (1583029448) bytes
+// Estimated minimum size: 0x16A0 (5792) bytes
 
 class CWeaponCrossbow : public CBaseHL2MPCombatWeapon
 {
@@ -8,7 +8,7 @@ public:
 	virtual ~CWeaponCrossbow() override; // vtable[1]
 	virtual void GetServerClass() override; // vtable[10]
 	virtual void YouForgotToImplementOrDeclareServerClass() override; // vtable[11]
-	virtual void Precache() override; // vtable[24]
+	virtual void _ZN15CWeaponCrossbow8PrecacheEv() override; // vtable[24]
 	virtual void UpdateOnRemove() override; // vtable[108]
 	virtual void Drop(Vector *param_1) override; // vtable[285]
 	virtual void SendWeaponAnim(int param_1) override; // vtable[295]

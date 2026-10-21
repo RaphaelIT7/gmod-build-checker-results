@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x2534 (9524) bytes
+// Estimated minimum size: 0xA38 (2616) bytes
 
 class CUserMessageManager : public CAutoGameSystemPerFrame
 {
@@ -11,7 +11,7 @@ public:
 	virtual void PreClientUpdate() override; // vtable[17]
 
 	void Destroy(QueuedMessage_t *param_1); // size[71]
-	void SendMessage(QueuedMessage_t *param_1); // size[226]
+	void SendMessage(QueuedMessage_t *param_1); // size[240]
 	CUserMessageManager(); // size[155]
 	void AddToQueue(QueuedMessage_t *param_1); // size[263]
 };

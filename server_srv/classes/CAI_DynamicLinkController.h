@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x25AC (9644) bytes
+// Estimated minimum size: 0x13D0 (5072) bytes
 
 class CAI_DynamicLinkController : public CServerOnlyEntity
 {
@@ -14,5 +14,5 @@ public:
 	void InputTurnOff(inputdata_t *param_1); // size[264]
 	void InputSetAllowed(inputdata_t *param_1); // size[248]
 	void InputSetInvert(inputdata_t *param_1); // size[250]
-	void GenerateLinksFromVolume(); // size[995]
+	void GenerateLinksFromVolume(); // size[981]
 };

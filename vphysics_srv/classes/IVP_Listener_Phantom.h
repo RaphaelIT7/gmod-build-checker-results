@@ -1,8 +1,8 @@
 // Generated header
-// Estimated minimum size: 0x4 (4) bytes
+// Estimated minimum size: 0x8 (8) bytes
 
 class IVP_Listener_Phantom
 {
 public:
-	IVP_Listener_Phantom(); // size[14]
+	IVP_Listener_Phantom(); // size[11]
 };

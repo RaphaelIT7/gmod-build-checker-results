@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x90 (144) bytes
+// Estimated minimum size: 0x48 (72) bytes
 
 class CToolFrameworkInternal : public IToolFrameworkInternal
 {

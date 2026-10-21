@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x5E5B1CC8 (1583029448) bytes
+// Estimated minimum size: 0x2030 (8240) bytes
 
 class CCrossbowBolt_HL1 : public CBaseCombatCharacter
 {
@@ -11,10 +11,10 @@ public:
 	virtual void Classify() override; // vtable[55]
 
 	void _GLOBAL__sub_I_m_DataMap(); // size[112]
-	void BubbleThink(); // size[25]
-	void ExplodeThink(); // size[367]
-	void BoltTouch(CBaseEntity *param_1); // size[94]
+	void BubbleThink(); // size[340]
+	void ExplodeThink(); // size[60]
+	void BoltTouch(CBaseEntity *param_1); // size[46]
 	void BoltTouch(CBaseEntity *param_1); // size[38]
 	void GetBaseMap(); // size[10]
-	void BoltCreate(Vector *param_1, QAngle *param_2, CBasePlayer *param_3, CBaseEntity *param_4); // size[80]
+	void BoltCreate(Vector *param_1, QAngle *param_2, CBasePlayer *param_3, CBaseEntity *param_4); // size[26]
 };

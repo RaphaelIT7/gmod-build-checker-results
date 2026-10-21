@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x264 (612) bytes
+// Estimated minimum size: 0x54 (84) bytes
 
 class CMemoryFileHandle : public CFileHandle
 {

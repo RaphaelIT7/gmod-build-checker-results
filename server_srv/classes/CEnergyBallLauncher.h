@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x25AC (9644) bytes
+// Estimated minimum size: 0x14AC (5292) bytes
 
 class CEnergyBallLauncher : public CPointCombineBallLauncher
 {

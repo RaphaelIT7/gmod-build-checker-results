@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x40 (64) bytes
+// Estimated minimum size: 0x8 (8) bytes
 
 class CPhysicsCollision : public IPhysicsCollision
 {
@@ -58,24 +58,24 @@ public:
 	virtual void OutputDebugInfo(CPhysCollide *param_1); // vtable[51]
 	virtual void ReadStat(int param_1); // vtable[52]
 
-	void ConvexFromPlanes(float *param_1, int param_2, float param_3); // size[17]
-	void ConvexFromConvexPolyhedron(CPolyhedron *param_1); // size[20]
-	void RebuildConvexFromPlanes(CPhysConvex *param_1, float param_2); // size[20]
-	void ConvexFromVertsFast(Vector * *param_1, int param_2); // size[20]
-	void PolysoupCreate(); // size[17]
-	void ConvertConvexToCollideParams(CPhysConvex * *param_1, int param_2, convertconvexparams_t *param_3); // size[35]
+	void ConvexFromPlanes(float *param_1, int param_2, float param_3); // size[16]
+	void ConvexFromConvexPolyhedron(CPolyhedron *param_1); // size[16]
+	void RebuildConvexFromPlanes(CPhysConvex *param_1, float param_2); // size[16]
+	void ConvexFromVertsFast(Vector * *param_1, int param_2); // size[16]
+	void PolysoupCreate(); // size[16]
+	void ConvertConvexToCollideParams(CPhysConvex * *param_1, int param_2, convertconvexparams_t *param_3); // size[27]
 	void VCollideLoad(vcollide_t *param_1, int param_2, char *param_3, int param_4, bool param_5); // size[6]
-	void GetConvexesUsedInCollideable(CPhysCollide *param_1, CPhysConvex * *param_2, int param_3); // size[17]
-	void ConvertPolysoupToCollide(CPhysPolysoup *param_1, bool param_2); // size[17]
+	void GetConvexesUsedInCollideable(CPhysCollide *param_1, CPhysConvex * *param_2, int param_3); // size[16]
+	void ConvertPolysoupToCollide(CPhysPolysoup *param_1, bool param_2); // size[16]
 	void CreateDebugMesh(CPhysCollide *param_1, Vector * *param_2); // size[24]
-	void CollideVolume(CPhysCollide *param_1); // size[17]
-	void CollideSurfaceArea(CPhysCollide *param_1); // size[17]
-	void CreateQueryModel(CPhysCollide *param_1); // size[25]
-	void RebuildConvexFromPlanes(CPhysConvex *param_1, float param_2); // size[279]
-	void FastBboxCollide(CPhysCollideCompactSurface *param_1, Vector *param_2, Vector *param_3); // size[261]
-	void IsBBoxCache(CPhysCollide *param_1); // size[61]
-	void GetBBoxCache(Vector *param_1, Vector *param_2); // size[131]
-	void ConvexFromVertsFast(Vector * *param_1, int param_2); // size[274]
-	void AddBBoxCache(CPhysCollideCompactSurface *param_1, Vector *param_2, Vector *param_3); // size[202]
-	void InitBBoxCache(); // size[355]
+	void CollideVolume(CPhysCollide *param_1); // size[16]
+	void CollideSurfaceArea(CPhysCollide *param_1); // size[16]
+	void CreateQueryModel(CPhysCollide *param_1); // size[24]
+	void RebuildConvexFromPlanes(CPhysConvex *param_1, float param_2); // size[283]
+	void FastBboxCollide(CPhysCollideCompactSurface *param_1, Vector *param_2, Vector *param_3); // size[298]
+	void IsBBoxCache(CPhysCollide *param_1); // size[63]
+	void GetBBoxCache(Vector *param_1, Vector *param_2); // size[124]
+	void ConvexFromVertsFast(Vector * *param_1, int param_2); // size[297]
+	void AddBBoxCache(CPhysCollideCompactSurface *param_1, Vector *param_2, Vector *param_3); // size[232]
+	void InitBBoxCache(); // size[369]
 };

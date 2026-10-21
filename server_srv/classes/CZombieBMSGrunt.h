@@ -1,19 +1,19 @@
 // Generated header
-// Estimated minimum size: 0x5E5B1CC8 (1583029448) bytes
+// Estimated minimum size: 0x26CC (9932) bytes
 
 class CZombieBMSGrunt : public CZombie
 {
 public:
 	virtual ~CZombieBMSGrunt() override; // vtable[0]
 	virtual ~CZombieBMSGrunt() override; // vtable[1]
-	virtual void GetLegsModel() override; // vtable[710]
-	virtual void GetTorsoModel() override; // vtable[711]
-	virtual void GetZombieModel() override; // vtable[714]
-	virtual void GetTorsoClassName() override; // vtable[715]
-	virtual void IsHeadless() override; // vtable[716]
-	virtual CalcYawSpeed(); // vtable[0]
+	virtual void GetLegsModel() override; // vtable[711]
+	virtual void GetTorsoModel() override; // vtable[712]
+	virtual void GetZombieModel() override; // vtable[715]
+	virtual void GetTorsoClassName() override; // vtable[716]
+	virtual void IsHeadless() override; // vtable[717]
+	virtual void CalcYawSpeed(); // vtable[0]
 	virtual void OnCalcBaseMove(AILocalMoveGoal_t *param_1, float param_2, AIMoveResult_t *param_3); // vtable[1]
-	virtual OnObstructionPreSteer(AILocalMoveGoal_t *param_1, float param_2, AIMoveResult_t *param_3); // vtable[2]
+	virtual void OnObstructionPreSteer(AILocalMoveGoal_t *param_1, float param_2, AIMoveResult_t *param_3); // vtable[2]
 	virtual void OnFailedSteer(AILocalMoveGoal_t *param_1, float param_2, AIMoveResult_t *param_3); // vtable[3]
 	virtual void OnFailedLocalNavigation(AILocalMoveGoal_t *param_1, float param_2, AIMoveResult_t *param_3); // vtable[4]
 	virtual void OnInsufficientStopDist(AILocalMoveGoal_t *param_1, float param_2, AIMoveResult_t *param_3); // vtable[5]

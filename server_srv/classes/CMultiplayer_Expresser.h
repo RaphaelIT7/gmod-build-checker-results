@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x1E8 (488) bytes
+// Estimated minimum size: 0x4C (76) bytes
 
 class CMultiplayer_Expresser : public CAI_Expresser
 {

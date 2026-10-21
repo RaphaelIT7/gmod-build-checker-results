@@ -1,10 +1,10 @@
 // Generated header
-// Estimated minimum size: 0x25AC (9644) bytes
+// Estimated minimum size: 0x1400 (5120) bytes
 
 class CEnvSoundscape : public CPointEntity
 {
 public:
-	virtual ~CEnvSoundscape() override; // vtable[0]
+	virtual _ZN14CEnvSoundscapeD2Ev() override; // vtable[0]
 	virtual ~CEnvSoundscape() override; // vtable[1]
 	virtual void GetDataDescMap() override; // vtable[12]
 	virtual void UpdateTransmitState() override; // vtable[20]
@@ -23,5 +23,5 @@ public:
 	void Enable(); // size[15]
 	void InRangeOfPlayer(CBasePlayer *param_1); // size[417]
 	void WriteAudioParamsTo(audioparams_t *param_1); // size[169]
-	void UpdateForPlayer(ss_update_t *param_1); // size[1647]
+	void UpdateForPlayer(ss_update_t *param_1); // size[1992]
 };

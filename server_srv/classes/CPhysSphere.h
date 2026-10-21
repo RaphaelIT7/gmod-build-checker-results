@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x5E5B1CC8 (1583029448) bytes
+// Estimated minimum size: 0x17B0 (6064) bytes
 
 class CPhysSphere : public CPhysicsProp
 {

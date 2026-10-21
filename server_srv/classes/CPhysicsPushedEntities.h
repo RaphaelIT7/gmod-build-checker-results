@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x44891048 (1149833288) bytes
+// Estimated minimum size: 0x54 (84) bytes
 
 class CPhysicsPushedEntities
 {
@@ -8,9 +8,9 @@ public:
 	virtual void SpeculativelyCheckLinearPush(Vector *param_1); // vtable[1]
 	virtual void FinishRotPushedEntity(CBaseEntity *param_1, RotatingPushMove_t *param_2); // vtable[2]
 
-	void UnlinkPusherList(int *param_1); // size[43]
+	void UnlinkPusherList(int *param_1); // size[87]
 	void RelinkPusherList(int *param_1); // size[92]
-	void ComputeRotationalPushDirection(CBaseEntity *param_1, RotatingPushMove_t *param_2, Vector *param_3, CBaseEntity *param_4); // size[437]
+	void ComputeRotationalPushDirection(CBaseEntity *param_1, RotatingPushMove_t *param_2, Vector *param_3, CBaseEntity *param_4); // size[301]
 	void IsPushedPositionValid(CBaseEntity *param_1); // size[54]
 	void SpeculativelyCheckPush(PhysicsPushedInfo_t *param_1, Vector *param_2, bool param_3); // size[121]
 	void FinishPushers(); // size[106]
@@ -18,7 +18,7 @@ public:
 	void BeginPush(CBaseEntity *param_1); // size[116]
 	void StoreMovedEntities(physicspushlist_t *param_1); // size[325]
 	void RegisterBlockage(); // size[60]
-	void RestoreEntities(); // size[68]
+	void RestoreEntities(); // size[73]
 	void RotateRootEntity(CBaseEntity *param_1, float param_2, RotatingPushMove_t *param_3); // size[387]
 	void LinearlyMoveRootEntity(CBaseEntity *param_1, float param_2, Vector *param_3); // size[275]
 	CPhysicsPushedEntities(); // size[183]

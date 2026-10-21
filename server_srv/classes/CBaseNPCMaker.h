@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x25AC (9644) bytes
+// Estimated minimum size: 0x142C (5164) bytes
 
 class CBaseNPCMaker : public CBaseEntity
 {
@@ -25,8 +25,8 @@ public:
 	void Enable(); // size[86]
 	void ChildPostSpawn(CAI_BaseNPC *param_1); // size[678]
 	void GetBaseMap(); // size[10]
-	void HumanHullFits(Vector *param_1); // size[671]
-	void CanMakeNPC(bool param_1); // size[1494]
+	void HumanHullFits(Vector *param_1); // size[166]
+	void CanMakeNPC(bool param_1); // size[930]
 	void Toggle(); // size[38]
 	void InputToggle(inputdata_t *param_1); // size[9]
 };

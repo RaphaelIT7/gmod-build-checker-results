@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x25AC (9644) bytes
+// Estimated minimum size: 0x13B4 (5044) bytes
 
 class CParticlePerformanceMonitor : public CPointEntity
 {
@@ -9,10 +9,11 @@ public:
 	virtual void GetServerClass() override; // vtable[10]
 	virtual void YouForgotToImplementOrDeclareServerClass() override; // vtable[11]
 	virtual void GetDataDescMap() override; // vtable[12]
-	virtual void UpdateTransmitState() override; // vtable[20]
+	virtual void _ZN27CParticlePerformanceMonitor19UpdateTransmitStateEv() override; // vtable[20]
 	virtual void Spawn() override; // vtable[23]
 
 	void _GLOBAL__sub_I_m_DataMap(); // size[112]
+	void InputTurnOnDisplay(inputdata_t *param_1); // size[86]
 	void InputStartMeasuring(inputdata_t *param_1); // size[86]
 	void InputStopMeasuring(inputdata_t *param_1); // size[99]
 	void InputTurnOffDisplay(inputdata_t *param_1); // size[99]

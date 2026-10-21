@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x74 (116) bytes
+// Estimated minimum size: 0x7C (124) bytes
 
 class CTestScriptMgr
 {
@@ -13,13 +13,13 @@ public:
 	void StartTestScript(char *param_1); // size[186]
 	void IsTimerWaiting(); // size[36]
 	void IsCheckPointWaiting(); // size[15]
-	void SetWaitTime(float param_1); // size[11]
-	void FindLoop(char *param_1); // size[96]
+	void SetWaitTime(float param_1); // size[41]
+	void FindLoop(char *param_1); // size[33]
 	void ErrorIfNotInitted(); // size[28]
-	void SetWaitCheckPoint(char *param_1, bool param_2); // size[490]
-	void LoopCount(char *param_1, int param_2); // size[205]
+	void SetWaitCheckPoint(char *param_1, bool param_2); // size[14]
+	void LoopCount(char *param_1, int param_2); // size[50]
 	void LoopForNumSeconds(char *param_1, double param_2); // size[221]
 	void StartLoop(char *param_1); // size[84]
-	CTestScriptMgr(); // size[46]
+	CTestScriptMgr(); // size[178]
 	void CheckPoint(char *param_1); // size[276]
 };

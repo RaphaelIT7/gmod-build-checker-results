@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x25AC (9644) bytes
+// Estimated minimum size: 0x1438 (5176) bytes
 
 class CSmokeStack : public CBaseParticleEntity
 {
@@ -19,6 +19,6 @@ public:
 	void InputTurnOff(inputdata_t *param_1); // size[48]
 	void InputToggle(inputdata_t *param_1); // size[59]
 	void GetBaseMap(); // size[10]
-	CSmokeStack(); // size[253]
+	CSmokeStack(); // size[20]
 	void RecalcWindVector(); // size[152]
 };

@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x25AC (9644) bytes
+// Estimated minimum size: 0x13F0 (5104) bytes
 
 class CFuncRotating : public CBaseEntity
 {
@@ -19,11 +19,11 @@ public:
 
 	void InputGetSpeed(inputdata_t *param_1); // size[81]
 	void GetNextMoveInterval(); // size[19]
-	void HurtTouch(CBaseEntity *param_1); // size[408]
+	void HurtTouch(CBaseEntity *param_1); // size[397]
 	void GetBaseMap(); // size[10]
 	void RampPitchVol(); // size[224]
 	void GetNextMoveInterval(); // size[41]
-	void UpdateSpeed(float param_1); // size[614]
+	void UpdateSpeed(float param_1); // size[606]
 	void SpinDown(float param_1); // size[175]
 	void GetMoveSpeed(float param_1); // size[79]
 	void SetTargetSpeed(float param_1); // size[245]

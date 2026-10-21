@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x9C (156) bytes
+// Estimated minimum size: 0x8 (8) bytes
 
 class IVP_Constraint_Solver_Car : public IVP_Controller_Dependent
 {
@@ -14,9 +14,9 @@ public:
 	virtual ~IVP_Constraint_Solver_Car(); // vtable[7]
 	virtual ~IVP_Constraint_Solver_Car(); // vtable[8]
 
-	IVP_Constraint_Solver_Car(IVP_COORDINATE_INDEX param_1, IVP_COORDINATE_INDEX param_2, IVP_COORDINATE_INDEX param_3, IVP_BOOL param_4); // size[29]
-	void init_constraint_system(IVP_Environment *param_1, IVP_Real_Object *param_2, IVP_U_Vector *param_3, IVP_U_Vector *param_4); // size[17]
-	IVP_Constraint_Solver_Car(IVP_COORDINATE_INDEX param_1, IVP_COORDINATE_INDEX param_2, IVP_COORDINATE_INDEX param_3, IVP_BOOL param_4); // size[136]
-	void do_simulation_controller_rotation(IVP_Event_Sim *param_1, IVP_Core *param_2, IVP_U_Matrix *param_3); // size[737]
-	void init_constraint_system(IVP_Environment *param_1, IVP_Real_Object *param_2, IVP_U_Vector *param_3, IVP_U_Vector *param_4); // size[685]
+	IVP_Constraint_Solver_Car(IVP_COORDINATE_INDEX param_1, IVP_COORDINATE_INDEX param_2, IVP_COORDINATE_INDEX param_3, IVP_BOOL param_4); // size[27]
+	void init_constraint_system(IVP_Environment *param_1, IVP_Real_Object *param_2, IVP_U_Vector *param_3, IVP_U_Vector *param_4); // size[16]
+	IVP_Constraint_Solver_Car(IVP_COORDINATE_INDEX param_1, IVP_COORDINATE_INDEX param_2, IVP_COORDINATE_INDEX param_3, IVP_BOOL param_4); // size[168]
+	void do_simulation_controller_rotation(IVP_Event_Sim *param_1, IVP_Core *param_2, IVP_U_Matrix *param_3); // size[857]
+	void init_constraint_system(IVP_Environment *param_1, IVP_Real_Object *param_2, IVP_U_Vector *param_3, IVP_U_Vector *param_4); // size[740]
 };

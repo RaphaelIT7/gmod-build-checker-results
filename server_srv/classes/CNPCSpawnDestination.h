@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x25AC (9644) bytes
+// Estimated minimum size: 0x13C0 (5056) bytes
 
 class CNPCSpawnDestination : public CPointEntity
 {
@@ -11,5 +11,5 @@ public:
 	void GetBaseMap(); // size[10]
 	CNPCSpawnDestination(); // size[26]
 	void IsAvailable(); // size[32]
-	void OnSpawnedNPC(CAI_BaseNPC *param_1); // size[59]
+	void OnSpawnedNPC(CAI_BaseNPC *param_1); // size[102]
 };

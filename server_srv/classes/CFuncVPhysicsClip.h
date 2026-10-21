@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x25AC (9644) bytes
+// Estimated minimum size: 0x13BC (5052) bytes
 
 class CFuncVPhysicsClip : public CBaseEntity
 {
@@ -10,10 +10,10 @@ public:
 	virtual void Spawn() override; // vtable[23]
 	virtual void Activate() override; // vtable[34]
 	virtual void CreateVPhysics() override; // vtable[157]
-	virtual void ForceVPhysicsCollide(CBaseEntity *param_1) override; // vtable[158]
+	virtual void _ZN17CFuncVPhysicsClip20ForceVPhysicsCollideEP11CBaseEntity() override; // vtable[158]
 
 	void InputEnable(inputdata_t *param_1); // size[45]
 	void InputDisable(inputdata_t *param_1); // size[45]
 	void GetBaseMap(); // size[10]
-	void EntityPassesFilter(CBaseEntity *param_1); // size[124]
+	void EntityPassesFilter(CBaseEntity *param_1); // size[135]
 };

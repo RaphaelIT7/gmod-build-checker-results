@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x64 (100) bytes
+// Estimated minimum size: 0x14 (20) bytes
 
 class CLuaObject : public ILuaObject
 {
@@ -44,7 +44,7 @@ public:
 	virtual void SetMember(float param_1, char *param_2); // vtable[37]
 	virtual void SetMember(float param_1, _func_int_lua_State_ptr *param_2); // vtable[38]
 	virtual void GetMemberStr(float param_1, char *param_2); // vtable[39]
-	virtual void SetMember(ILuaObject *param_1, ILuaObject *param_2); // vtable[40]
+	virtual void _ZN10CLuaObject9SetMemberEP10ILuaObjectS1_(); // vtable[40]
 	virtual void GetBool(); // vtable[41]
 	virtual void PushMemberFast(int param_1); // vtable[42]
 	virtual void SetMemberFast(int param_1, int param_2); // vtable[43]
@@ -65,7 +65,7 @@ public:
 	virtual void SetFromGlobal(char *param_1); // vtable[58]
 	virtual void GetStringLen(uint *param_1); // vtable[59]
 	virtual void GetMemberUInt(char *param_1, uint param_2); // vtable[60]
-	virtual void SetMember(char *param_1, ulonglong param_2); // vtable[61]
+	virtual void _ZN10CLuaObject9SetMemberEPKcy(); // vtable[61]
 	virtual void SetMember(char *param_1, int param_2); // vtable[62]
 	virtual void SetReference(int param_1); // vtable[63]
 	virtual void RemoveMember(char *param_1); // vtable[64]
@@ -77,7 +77,7 @@ public:
 	virtual void SetMemberEntity(float param_1, CBaseEntity *param_2); // vtable[70]
 	virtual void SetMemberEntity(char *param_1, CBaseEntity *param_2); // vtable[71]
 	virtual void isEntity(); // vtable[72]
-	virtual void _ZN10CLuaObject9GetEntityEv(); // vtable[73]
+	virtual void GetEntity(); // vtable[73]
 	virtual void SetEntity(CBaseEntity *param_1); // vtable[74]
 	virtual void SetMemberVector(char *param_1, Vector *param_2); // vtable[75]
 	virtual void SetMemberVector(char *param_1, Vector *param_2); // vtable[76]
@@ -102,10 +102,10 @@ public:
 
 	CLuaObject(); // size[41]
 	CLuaObject(int param_1, int param_2); // size[135]
-	CLuaObject(char *param_1); // size[69]
-	CLuaObject(_func_int_lua_State_ptr *param_1); // size[121]
+	CLuaObject(char *param_1); // size[42]
+	CLuaObject(_func_int_lua_State_ptr *param_1); // size[35]
 	CLuaObject(ILuaObject *param_1); // size[120]
 	~CLuaObject(); // size[18]
-	void GetMemberTypedUserData(int param_1, int param_2, void *param_3); // size[276]
+	void GetMemberTypedUserData(int param_1, int param_2, void *param_3); // size[349]
 	void GetMemberTypedUserData(char *param_1, int param_2, void *param_3); // size[367]
 };

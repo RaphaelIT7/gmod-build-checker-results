@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x5E5B1CC8 (1583029448) bytes
+// Estimated minimum size: 0x17D4 (6100) bytes
 
 class CPropCrane : public CBaseProp, public IDrivableVehicle
 {
@@ -63,10 +63,10 @@ public:
 	void GetBaseMap(); // size[10]
 	void InitCraneSpeeds(); // size[68]
 	void ResetUseKey(CBasePlayer *param_1); // size[15]
-	void RecalculateCraneTip(); // size[201]
+	void RecalculateCraneTip(); // size[350]
 	void TurnMagnetOn(); // size[206]
 	void TurnMagnetOff(); // size[51]
-	void DriveCrane(int param_1, int param_2, float param_3); // size[1381]
+	void DriveCrane(int param_1, int param_2, float param_3); // size[643]
 	void GetCraneTipPosition(); // size[84]
 	void GetCraneTipPosition(Vector *param_1, QAngle *param_2); // size[41]
 	void SetNPCDriver(CNPC_VehicleDriver *param_1); // size[246]

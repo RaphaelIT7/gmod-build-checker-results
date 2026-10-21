@@ -11,5 +11,4 @@ public:
 	virtual void Test(Vector *param_1, QAngle *param_2) override; // vtable[4]
 
 	_GLOBAL__sub_I_CTESmoke(); // size[112]
-	CTESmoke(char *param_1); // size[4]
 };

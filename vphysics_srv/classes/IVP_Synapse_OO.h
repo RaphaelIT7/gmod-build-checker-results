@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x10 (16) bytes
+// Estimated minimum size: 0x8 (8) bytes
 
 class IVP_Synapse_OO : public IVP_Listener_Hull
 {
@@ -11,7 +11,6 @@ public:
 	virtual ~IVP_Synapse_OO(); // vtable[4]
 	virtual ~IVP_Synapse_OO(); // vtable[5]
 
-	void _GLOBAL__sub_I_hull_limit_exceeded_event(); // size[1]
-	IVP_Synapse_OO(); // size[14]
-	void init_synapse_oo(IVP_OO_Watcher *param_1, IVP_Real_Object *param_2); // size[90]
+	IVP_Synapse_OO(); // size[11]
+	void init_synapse_oo(IVP_OO_Watcher *param_1, IVP_Real_Object *param_2); // size[99]
 };

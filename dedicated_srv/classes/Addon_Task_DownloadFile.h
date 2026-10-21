@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x90 (144) bytes
+// Estimated minimum size: 0x3C890008 (1015611400) bytes
 
 class Addon_Task_DownloadFile : public Addon_Job_Base
 {
@@ -14,5 +14,5 @@ public:
 
 	_GLOBAL__sub_I_DownloadFile(); // size[91]
 	DownloadFile(Information *param_1); // size[341]
-	void OnItemDownloaded(DownloadItemResult_t *param_1); // size[69]
+	void OnItemDownloaded(DownloadItemResult_t *param_1); // size[330]
 };

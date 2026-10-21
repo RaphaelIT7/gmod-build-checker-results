@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x34 (52) bytes
+// Estimated minimum size: 0x8 (8) bytes
 
 class CPhysicsInterface : public CTier1AppSystem
 {
@@ -18,6 +18,6 @@ public:
 	virtual void FindCollisionSet(uint param_1); // vtable[11]
 	virtual void DestroyAllCollisionSets(); // vtable[12]
 
-	void FindOrCreateCollisionSet(uint param_1, int param_2); // size[17]
-	~CPhysicsInterface(); // size[101]
+	void FindOrCreateCollisionSet(uint param_1, int param_2); // size[16]
+	~CPhysicsInterface(); // size[106]
 };

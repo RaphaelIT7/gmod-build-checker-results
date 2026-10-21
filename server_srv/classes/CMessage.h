@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x25AC (9644) bytes
+// Estimated minimum size: 0x13C8 (5064) bytes
 
 class CMessage : public CPointEntity
 {
@@ -13,5 +13,5 @@ public:
 
 	void _GLOBAL__sub_I_m_DataMap(); // size[113]
 	void GetBaseMap(); // size[10]
-	void InputShowMessage(inputdata_t *param_1); // size[306]
+	void InputShowMessage(inputdata_t *param_1); // size[314]
 };

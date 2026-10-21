@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x1AC (428) bytes
+// Estimated minimum size: 0x8 (8) bytes
 
 class IVP_Constraint_Local : public IVP_Constraint
 {
@@ -27,14 +27,14 @@ public:
 	virtual void change_Aos_to_relaxe_constraint(); // vtable[23]
 	virtual void change_Ros_to_relaxe_constraint(); // vtable[24]
 
-	IVP_Constraint_Local(); // size[17]
-	IVP_Constraint_Local(IVP_Template_Constraint *param_1); // size[17]
-	IVP_Constraint_Local(); // size[87]
-	void sort_translation_mapping(); // size[276]
-	void sort_rotation_mapping(); // size[324]
-	void init(IVP_Template_Constraint *param_1); // size[1734]
-	IVP_Constraint_Local(IVP_Template_Constraint *param_1); // size[94]
-	void get_objectR(); // size[14]
-	void get_objectA(); // size[14]
+	IVP_Constraint_Local(); // size[16]
+	IVP_Constraint_Local(IVP_Template_Constraint *param_1); // size[16]
+	IVP_Constraint_Local(); // size[97]
+	void sort_translation_mapping(); // size[271]
+	void sort_rotation_mapping(); // size[346]
+	void init(IVP_Template_Constraint *param_1); // size[1843]
+	IVP_Constraint_Local(IVP_Template_Constraint *param_1); // size[105]
+	void get_objectR(); // size[8]
+	void get_objectA(); // size[8]
 	void constraint_changed(); // size[1]
 };

@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x68 (104) bytes
+// Estimated minimum size: 0x64 (100) bytes
 
 class CDataCacheSection : public IDataCacheSection
 {

@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x10008 (65544) bytes
+// Estimated minimum size: 0x20 (32) bytes
 
 class CLuaNextBotBody : public IBody
 {

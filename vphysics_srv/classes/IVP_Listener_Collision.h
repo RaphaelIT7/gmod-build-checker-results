@@ -10,7 +10,6 @@ public:
 	virtual ~IVP_Listener_Collision(); // vtable[7]
 	virtual ~IVP_Listener_Collision(); // vtable[8]
 
-	void _GLOBAL__sub_I_event_pre_collision(); // size[1]
-	void get_enabled_callbacks(); // size[11]
-	IVP_Listener_Collision(int param_1); // size[20]
+	void get_enabled_callbacks(); // size[4]
+	IVP_Listener_Collision(int param_1); // size[14]
 };

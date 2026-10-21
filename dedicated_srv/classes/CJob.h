@@ -4,6 +4,8 @@
 class CJob : public CRefCounted1
 {
 public:
+	virtual void AddRef() override; // vtable[0]
+	virtual void Release() override; // vtable[1]
 	virtual ~CJob() override; // vtable[2]
 	virtual ~CJob() override; // vtable[3]
 	virtual void Describe(); // vtable[4]

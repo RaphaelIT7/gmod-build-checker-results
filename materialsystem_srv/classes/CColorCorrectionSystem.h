@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x18010 (98320) bytes
+// Estimated minimum size: 0x28 (40) bytes
 
 class CColorCorrectionSystem : public IColorCorrectionSystem
 {

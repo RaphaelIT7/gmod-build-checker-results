@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x68 (104) bytes
+// Estimated minimum size: 0x40 (64) bytes
 
 class CSoundControllerImp : public CSoundEnvelopeController, public CAutoGameSystemPerFrame
 {
@@ -44,9 +44,9 @@ public:
 	virtual ~CSoundControllerImp() override; // vtable[14]
 	virtual void PreClientUpdate() override; // vtable[17]
 
-	void RemoveFromList(CSoundPatch *param_1); // size[145]
+	void RemoveFromList(CSoundPatch *param_1); // size[142]
 	void SaveSoundPatch(CSoundPatch *param_1, ISave *param_2); // size[335]
-	void ProcessCommand(SoundCommand_t *param_1); // size[266]
+	void ProcessCommand(SoundCommand_t *param_1); // size[303]
 	void CommandInsert(SoundCommand_t *param_1); // size[29]
 	void RestoreSoundPatch(CSoundPatch * *param_1, IRestore *param_2); // size[505]
 };

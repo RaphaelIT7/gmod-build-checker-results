@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x25AC (9644) bytes
+// Estimated minimum size: 0x13F8 (5112) bytes
 
 class CFilterEnemy : public CBaseFilter
 {

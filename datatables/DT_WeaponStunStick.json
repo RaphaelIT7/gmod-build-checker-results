@@ -19,7 +19,7 @@
 			"index": 1,
 			"name": "m_bActive",
 			"excludeName": "NULL",
-			"offset": 5776,
+			"offset": 5780,
 			"bits": 1,
 			"type": "DPT_Int",
 			"flags": "Flags: UNSIGNED",

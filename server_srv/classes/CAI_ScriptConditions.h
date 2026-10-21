@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x25AC (9644) bytes
+// Estimated minimum size: 0x14A4 (5284) bytes
 
 class CAI_ScriptConditions : public CBaseEntity, public IEntityListener
 {
@@ -15,28 +15,28 @@ public:
 	virtual void OnEntitySpawned(CBaseEntity *param_1) override; // vtable[1]
 
 	void EvalPlayerBlockingActor(EvalArgs_t *param_1); // size[31]
-	void EvalActorSeeTarget(EvalArgs_t *param_1); // size[156]
-	void EvalActorSeePlayer(EvalArgs_t *param_1); // size[74]
-	void EvalActorTargetProximity(EvalArgs_t *param_1); // size[235]
+	void EvalActorSeeTarget(EvalArgs_t *param_1); // size[44]
+	void EvalActorSeePlayer(EvalArgs_t *param_1); // size[86]
+	void EvalActorTargetProximity(EvalArgs_t *param_1); // size[113]
 	void EvalPlayerTargetProximity(EvalArgs_t *param_1); // size[228]
-	void EvalPlayerActorProximity(EvalArgs_t *param_1); // size[62]
+	void EvalPlayerActorProximity(EvalArgs_t *param_1); // size[145]
 	void GetBaseMap(); // size[10]
 	void EvalPlayerInVehicle(EvalArgs_t *param_1); // size[71]
 	void EvalActorInVehicle(EvalArgs_t *param_1); // size[94]
-	void Disable(); // size[59]
-	void EvalState(EvalArgs_t *param_1); // size[84]
+	void Disable(); // size[1]
+	void EvalState(EvalArgs_t *param_1); // size[148]
 	void InputDisable(inputdata_t *param_1); // size[19]
-	void IsInFOV(CBaseEntity *param_1, CBaseEntity *param_2, float param_3, bool param_4); // size[599]
-	void EvalPlayerActorLook(EvalArgs_t *param_1); // size[15]
+	void IsInFOV(CBaseEntity *param_1, CBaseEntity *param_2, float param_3, bool param_4); // size[520]
+	void EvalPlayerActorLook(EvalArgs_t *param_1); // size[70]
 	void EvalPlayerTargetLook(EvalArgs_t *param_1); // size[71]
-	void PlayerHasLineOfSight(CBaseEntity *param_1, CBaseEntity *param_2, bool param_3); // size[93]
+	void PlayerHasLineOfSight(CBaseEntity *param_1, CBaseEntity *param_2, bool param_3); // size[70]
 	void EvalPlayerActorLOS(EvalArgs_t *param_1); // size[78]
 	void EvalPlayerTargetLOS(EvalArgs_t *param_1); // size[79]
 	void ActorInPlayersPVS(CBaseEntity *param_1, bool param_2); // size[51]
 	void EvalActorInPVS(EvalArgs_t *param_1); // size[53]
 	void ActorInList(CBaseEntity *param_1); // size[118]
-	void EvaluationThink(); // size[1153]
-	void AddNewElement(CBaseEntity *param_1); // size[249]
-	void Enable(); // size[176]
+	void EvaluationThink(); // size[1119]
+	void AddNewElement(CBaseEntity *param_1); // size[14]
+	void Enable(); // size[31]
 	void InputEnable(inputdata_t *param_1); // size[19]
 };

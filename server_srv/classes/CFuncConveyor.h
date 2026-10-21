@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x25AC (9644) bytes
+// Estimated minimum size: 0x13C4 (5060) bytes
 
 class CFuncConveyor : public CFuncWall
 {
@@ -18,4 +18,5 @@ public:
 	void GetBaseMap(); // size[10]
 	CFuncConveyor(); // size[28]
 	void UpdateSpeed(float param_1); // size[23]
+	void ThinkPushPhysics(); // size[1197]
 };

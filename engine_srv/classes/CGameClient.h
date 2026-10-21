@@ -114,7 +114,7 @@ public:
 	void IsEngineClientCommand(CCommand *param_1); // size[94]
 	void GetSendFrame(); // size[268]
 	void GetPrevPackInfo(); // size[13]
-	void FillSoundsMessage(SVC_Sounds *param_1); // size[4987]
+	void FillSoundsMessage(SVC_Sounds *param_1); // size[5187]
 	void WriteGameSounds(bf_write *param_1); // size[240]
 	void SendSound(SoundInfo_t *param_1, bool param_2); // size[522]
 	CGameClient(int param_1, CBaseServer *param_2); // size[276]

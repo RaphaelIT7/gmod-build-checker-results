@@ -4,7 +4,7 @@
 class IGameSystem
 {
 public:
-	void Remove(IGameSystem *param_1); // size[170]
+	void Remove(IGameSystem *param_1); // size[150]
 	~IGameSystem(); // size[18]
 	~IGameSystem(); // size[37]
 	void RemoveAll(); // size[25]
@@ -24,7 +24,7 @@ public:
 	void FrameUpdatePreEntityThinkAllSystems(); // size[20]
 	void FrameUpdatePostEntityThinkAllSystems(); // size[32]
 	void PreClientUpdateAllSystems(); // size[20]
-	void Add(IGameSystem *param_1); // size[163]
-	void InitAllSystems(); // size[361]
+	void Add(IGameSystem *param_1); // size[158]
+	void InitAllSystems(); // size[379]
 	void LevelShutdownPreClearSteamAPIContext(); // size[5]
 };

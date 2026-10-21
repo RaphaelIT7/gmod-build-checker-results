@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x25AC (9644) bytes
+// Estimated minimum size: 0x13EC (5100) bytes
 
 class CPathKeyFrame : public CLogicalEntity
 {

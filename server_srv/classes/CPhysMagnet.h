@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x5E5B1CC8 (1583029448) bytes
+// Estimated minimum size: 0x15DC (5596) bytes
 
 class CPhysMagnet : public CBaseAnimating, public IPhysicsConstraintEvent
 {
@@ -18,13 +18,13 @@ public:
 
 	void InputTurnOn(inputdata_t *param_1); // size[15]
 	void GetBaseMap(); // size[10]
-	CPhysMagnet(); // size[235]
+	CPhysMagnet(); // size[127]
 	void DoMagnetSuck(CBaseEntity *param_1); // size[836]
 	void SetConstraintGroup(IPhysicsConstraintGroup *param_1); // size[5]
 	void GetNumAttachedObjects(); // size[14]
 	void GetTotalMassAttachedObjects(); // size[27]
-	void GetAttachedObject(int param_1); // size[4]
-	void DetachAll(); // size[92]
+	void GetAttachedObject(int param_1); // size[66]
+	void DetachAll(); // size[207]
 	void InputTurnOff(inputdata_t *param_1); // size[19]
 	void InputToggle(inputdata_t *param_1); // size[37]
 };

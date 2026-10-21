@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x18 (24) bytes
+// Estimated minimum size: 0x1C (28) bytes
 
 class CCopyRecipientFilter : public IRecipientFilter
 {

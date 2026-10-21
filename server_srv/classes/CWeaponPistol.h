@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x5E5B1CC8 (1583029448) bytes
+// Estimated minimum size: 0x20AC (8364) bytes
 
 class CWeaponPistol : public CHL2MPMachineGun
 {
@@ -8,7 +8,7 @@ public:
 	virtual ~CWeaponPistol() override; // vtable[1]
 	virtual void GetServerClass() override; // vtable[10]
 	virtual void YouForgotToImplementOrDeclareServerClass() override; // vtable[11]
-	virtual void Precache() override; // vtable[24]
+	virtual void _ZN13CWeaponPistol8PrecacheEv() override; // vtable[24]
 	virtual void ItemPreFrame() override; // vtable[317]
 	virtual void ItemPostFrame() override; // vtable[318]
 	virtual void ItemBusyFrame() override; // vtable[319]

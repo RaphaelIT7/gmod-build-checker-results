@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x5E5B1CC8 (1583029448) bytes
+// Estimated minimum size: 0x16B8 (5816) bytes
 
 class CBreakableProp : public CBaseProp, public IBreakableWithPropData, public CDefaultPlayerPickupVPhysics
 {
@@ -96,10 +96,10 @@ public:
 
 	void InputEnablePhyscannonPickup(inputdata_t *param_1); // size[18]
 	void InputDisablePhyscannonPickup(inputdata_t *param_1); // size[18]
-	void BreakablePropTouch(CBaseEntity *param_1); // size[977]
+	void AnimateThink(); // size[290]
+	void BreakablePropTouch(CBaseEntity *param_1); // size[842]
 	void CheckRemoveRagdolls(); // size[63]
-	void RampToDefaultFadeScale(); // size[28]
-	void AnimateThink(); // size[241]
+	void RampToDefaultFadeScale(); // size[113]
 	void CheckRemoveRagdolls(); // size[23]
 	void HandleInteractionStick(int param_1, gamevcollisionevent_t *param_2); // size[719]
 	void GetBaseMap(); // size[10]
@@ -108,7 +108,7 @@ public:
 	void CopyFadeFrom(CBreakableProp *param_1); // size[175]
 	void ForceFadeScaleToAlwaysVisible(); // size[48]
 	void CreateFlare(float param_1); // size[235]
-	void Break(CBaseEntity *param_1, CTakeDamageInfo *param_2); // size[733]
+	void Break(CBaseEntity *param_1, CTakeDamageInfo *param_2); // size[2832]
 	void InputBreak(inputdata_t *param_1); // size[76]
 	void UpdateHealth(int param_1, CBaseEntity *param_2); // size[60]
 	void UpdateHealth(int param_1, CBaseEntity *param_2); // size[33]
@@ -121,7 +121,7 @@ public:
 	void ClearEnableMotionPosition(); // size[51]
 	void SetEnableMotionPosition(Vector *param_1, QAngle *param_2); // size[92]
 	void StickAtPosition(Vector *param_1, Vector *param_2, QAngle *param_3); // size[72]
-	void HandleFirstCollisionInteractions(int param_1, gamevcollisionevent_t *param_2); // size[1260]
+	void HandleFirstCollisionInteractions(int param_1, gamevcollisionevent_t *param_2); // size[453]
 	void InputEnablePuntSound(inputdata_t *param_1); // size[15]
 	void InputDisablePuntSound(inputdata_t *param_1); // size[15]
 };

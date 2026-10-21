@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x25AC (9644) bytes
+// Estimated minimum size: 0x13D0 (5072) bytes
 
 class CBaseFilter : public CLogicalEntity
 {
@@ -12,7 +12,7 @@ public:
 	virtual void PassesDamageFilterImpl(CTakeDamageInfo *param_1); // vtable[247]
 
 	void _GLOBAL__sub_I_m_DataMap(); // size[113]
-	void InputTestActivator(inputdata_t *param_1); // size[98]
+	void InputTestActivator(inputdata_t *param_1); // size[112]
 	void GetBaseMap(); // size[10]
 	void PassesFilter(CBaseEntity *param_1, CBaseEntity *param_2); // size[56]
 };

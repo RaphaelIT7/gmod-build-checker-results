@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x5E5B1CC8 (1583029448) bytes
+// Estimated minimum size: 0x186C (6252) bytes
 
 class CWeaponSWEP : public CBaseHL2MPCombatWeapon
 {
@@ -71,6 +71,6 @@ public:
 	void _GLOBAL__sub_I_GetServerClass(); // size[112]
 	void GetBaseMap(); // size[10]
 	CWeaponSWEP(); // size[137]
-	void UpdateBurstSettings(); // size[9]
+	void UpdateBurstSettings(); // size[98]
 	void UpdateRestSettings(); // size[227]
 };

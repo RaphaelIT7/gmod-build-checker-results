@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0xA4 (164) bytes
+// Estimated minimum size: 0x8 (8) bytes
 
 class CPhysicsSpring : public IPhysicsSpring, public IVP_Listener_Object
 {
@@ -23,8 +23,8 @@ public:
 	virtual ~CPhysicsSpring(); // vtable[4]
 	virtual ~CPhysicsSpring(); // vtable[5]
 
-	CPhysicsSpring(CPhysicsObject *param_1, CPhysicsObject *param_2, IVP_Actuator_Spring *param_3); // size[106]
-	void AttachListener(); // size[83]
-	void DetachListener(); // size[101]
-	void WriteToTemplate(vphysics_save_cphysicsspring_t *param_1); // size[244]
+	CPhysicsSpring(CPhysicsObject *param_1, CPhysicsObject *param_2, IVP_Actuator_Spring *param_3); // size[124]
+	void AttachListener(); // size[79]
+	void DetachListener(); // size[92]
+	void WriteToTemplate(vphysics_save_cphysicsspring_t *param_1); // size[253]
 };

@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x25AC (9644) bytes
+// Estimated minimum size: 0x14C4 (5316) bytes
 
 class CAntlionTemplateMaker : public CTemplateNPCMaker
 {
@@ -44,23 +44,23 @@ public:
 	void DestroyProxyTarget(); // size[85]
 	void CanMakeNPC(bool param_1); // size[142]
 	void ValidateSpawnPosition(Vector *param_1, CBaseEntity *param_2); // size[322]
-	void FindPositionOnFoot(Vector *param_1, float param_2, CBaseEntity *param_3); // size[264]
-	void FindPositionOnVehicle(Vector *param_1, float param_2, CBaseEntity *param_3); // size[332]
+	void FindPositionOnFoot(Vector *param_1, float param_2, CBaseEntity *param_3); // size[9]
+	void FindPositionOnVehicle(Vector *param_1, float param_2, CBaseEntity *param_3); // size[265]
 	void FindNearTargetSpawnPosition(Vector *param_1, float param_2, CBaseEntity *param_3); // size[157]
 	void DoBlockedEffects(CBaseEntity *param_1, Vector param_2); // size[260]
-	void PoolAdd(int param_1); // size[48]
+	void PoolAdd(int param_1); // size[33]
 	void UpdateChildren(); // size[271]
 	void InputSetFightTarget(inputdata_t *param_1); // size[120]
-	void InputSetFollowTarget(inputdata_t *param_1); // size[116]
+	void InputSetFollowTarget(inputdata_t *param_1); // size[108]
 	void InputClearFightTarget(inputdata_t *param_1); // size[32]
-	void InputClearFollowTarget(inputdata_t *param_1); // size[16]
+	void InputClearFollowTarget(inputdata_t *param_1); // size[32]
 	void RemoveChild(CNPC_Antlion *param_1); // size[382]
 	void DisableAllSpores(); // size[247]
 	void BlockedCheckFunc(); // size[71]
-	void AllHintsFromClusterBlocked(CAI_Hint *param_1, bool *param_2); // size[1404]
+	void AllHintsFromClusterBlocked(CAI_Hint *param_1, bool *param_2); // size[761]
 	void ActivateAllSpores(); // size[375]
 	void FindHintSpawnPosition(Vector *param_1, float param_2, string_t param_3, CAI_Hint * *param_4, bool param_5); // size[395]
 	void AddChild(CNPC_Antlion *param_1); // size[141]
 	void FixupOrphans(); // size[90]
-	void FindNodesCloseToPlayer(); // size[138]
+	void FindNodesCloseToPlayer(); // size[99]
 };

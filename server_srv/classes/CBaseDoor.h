@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x25AC (9644) bytes
+// Estimated minimum size: 0x1564 (5476) bytes
 
 class CBaseDoor : public CBaseToggle
 {
@@ -30,7 +30,7 @@ public:
 	void InputUnlock(inputdata_t *param_1); // size[15]
 	void InputSetSpeed(inputdata_t *param_1); // size[30]
 	void GetBaseMap(); // size[10]
-	void PassesBlockTouchFilter(CBaseEntity *param_1); // size[91]
+	void PassesBlockTouchFilter(CBaseEntity *param_1); // size[98]
 	void UpdateAreaPortals(bool param_1); // size[75]
 	void CloseAreaPortalsThink(); // size[81]
 	void ChainUse(); // size[154]
@@ -38,15 +38,15 @@ public:
 	void Lock(); // size[15]
 	void Unlock(); // size[15]
 	void GetDoorMovementGroup(CBaseDoor * *param_1, int param_2); // size[151]
-	void DoorHitTop(); // size[210]
-	void DoorHitBottom(); // size[191]
+	void DoorHitTop(); // size[251]
+	void DoorHitBottom(); // size[65]
 	void MovingSoundThink(); // size[50]
 	void StartMovingSound(); // size[9]
-	void DoorGoUp(); // size[1299]
+	void DoorGoUp(); // size[1307]
 	void InputOpen(inputdata_t *param_1); // size[84]
-	void DoorGoDown(); // size[159]
+	void DoorGoDown(); // size[165]
 	void InputClose(inputdata_t *param_1); // size[23]
 	void InputToggle(inputdata_t *param_1); // size[47]
-	void DoorActivate(); // size[69]
-	void DoorTouch(CBaseEntity *param_1); // size[418]
+	void DoorActivate(); // size[202]
+	void DoorTouch(CBaseEntity *param_1); // size[420]
 };

@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x510 (1296) bytes
+// Estimated minimum size: 0x28 (40) bytes
 
 class CAI_MappedActivityBehavior_Temporary : public CAI_Behavior
 {

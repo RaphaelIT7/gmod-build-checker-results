@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x15C (348) bytes
+// Estimated minimum size: 0x6C (108) bytes
 
 class CLuaShared : public ILuaShared
 {

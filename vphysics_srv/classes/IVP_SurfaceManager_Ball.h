@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x18 (24) bytes
+// Estimated minimum size: 0x8 (8) bytes
 
 class IVP_SurfaceManager_Ball : public IVP_SurfaceManager
 {

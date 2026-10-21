@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x58 (88) bytes
+// Estimated minimum size: 0x8 (8) bytes
 
 class IVP_PerformanceCounter_Simple : public IVP_PerformanceCounter
 {
@@ -11,6 +11,5 @@ public:
 	virtual ~IVP_PerformanceCounter_Simple(); // vtable[5]
 	virtual ~IVP_PerformanceCounter_Simple(); // vtable[6]
 
-	void _GLOBAL__sub_I_reset_and_print_performance_counters(); // size[1]
-	IVP_PerformanceCounter_Simple(); // size[32]
+	IVP_PerformanceCounter_Simple(); // size[28]
 };

@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x5E5B1CC8 (1583029448) bytes
+// Estimated minimum size: 0x260C (9740) bytes
 
 class CScriptedTarget : public CAI_BaseNPC
 {
@@ -11,9 +11,9 @@ public:
 	virtual void ObjectCaps() override; // vtable[36]
 	virtual void DrawDebugGeometryOverlays() override; // vtable[39]
 	virtual void DrawDebugTextOverlays() override; // vtable[40]
-	virtual CalcYawSpeed(); // vtable[0]
-	virtual OnCalcBaseMove(AILocalMoveGoal_t *param_1, float param_2, AIMoveResult_t *param_3); // vtable[1]
-	virtual OnObstructionPreSteer(AILocalMoveGoal_t *param_1, float param_2, AIMoveResult_t *param_3); // vtable[2]
+	virtual void CalcYawSpeed(); // vtable[0]
+	virtual void OnCalcBaseMove(AILocalMoveGoal_t *param_1, float param_2, AIMoveResult_t *param_3); // vtable[1]
+	virtual void OnObstructionPreSteer(AILocalMoveGoal_t *param_1, float param_2, AIMoveResult_t *param_3); // vtable[2]
 	virtual void OnFailedSteer(AILocalMoveGoal_t *param_1, float param_2, AIMoveResult_t *param_3); // vtable[3]
 	virtual void OnFailedLocalNavigation(AILocalMoveGoal_t *param_1, float param_2, AIMoveResult_t *param_3); // vtable[4]
 	virtual void OnInsufficientStopDist(AILocalMoveGoal_t *param_1, float param_2, AIMoveResult_t *param_3); // vtable[5]
@@ -22,11 +22,11 @@ public:
 	virtual void OnMoveExecuteFailed(AILocalMoveGoal_t *param_1, AIMoveTrace_t *param_2, AIMotorMoveResult_t param_3, AIMoveResult_t *param_4); // vtable[8]
 
 	void GetBaseMap(); // size[10]
-	void TurnOn(); // size[82]
+	void TurnOn(); // size[46]
 	void InputEnable(inputdata_t *param_1); // size[9]
 	void TurnOff(); // size[59]
 	void InputDisable(inputdata_t *param_1); // size[9]
-	void NextScriptedTarget(); // size[287]
-	void FindEntity(); // size[233]
-	void ScriptThink(); // size[133]
+	void NextScriptedTarget(); // size[264]
+	void FindEntity(); // size[183]
+	void ScriptThink(); // size[103]
 };

@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x5E5B1CC8 (1583029448) bytes
+// Estimated minimum size: 0x19B8 (6584) bytes
 
 class CPropVehiclePrisonerPod : public CPhysicsProp, public IDrivableVehicle
 {
@@ -92,7 +92,7 @@ public:
 	virtual void CanEnterVehicle(CBaseEntity *param_1); // vtable[5]
 	virtual void CanExitVehicle(CBaseEntity *param_1); // vtable[6]
 	virtual void SetVehicleEntryAnim(bool param_1); // vtable[7]
-	virtual void SetVehicleExitAnim(bool param_1, Vector param_2); // vtable[8]
+	virtual void _ZThn6064_N23CPropVehiclePrisonerPod18SetVehicleExitAnimEb6Vector(); // vtable[8]
 	virtual void EnterVehicle(CBaseCombatCharacter *param_1); // vtable[9]
 	virtual void PreExitVehicle(CBaseCombatCharacter *param_1, int param_2); // vtable[10]
 	virtual void ExitVehicle(int param_1); // vtable[11]

@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x25AC (9644) bytes
+// Estimated minimum size: 0x13D4 (5076) bytes
 
 class CTankTrainAI : public CPointEntity
 {

@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x14C (332) bytes
+// Estimated minimum size: 0x1C (28) bytes
 
 class CMoveHelperServer : public IMoveHelperServer
 {

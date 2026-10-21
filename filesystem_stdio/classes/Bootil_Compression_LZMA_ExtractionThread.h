@@ -7,7 +7,7 @@ public:
 	virtual ~ExtractionThread() override; // vtable[0]
 	virtual ~ExtractionThread() override; // vtable[1]
 	virtual void Run(); // vtable[2]
-	virtual void FUN_000eea90(); // vtable[3]
+	virtual void FUN_000f0f70(); // vtable[3]
 	virtual void Finished(); // vtable[4]
 	virtual void Destroy(); // vtable[5]
 	virtual void Success(); // vtable[6]

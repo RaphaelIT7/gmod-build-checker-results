@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x25AC (9644) bytes
+// Estimated minimum size: 0x14B8 (5304) bytes
 
 class CAI_LeadGoal_Weapon : public CAI_LeadGoal
 {

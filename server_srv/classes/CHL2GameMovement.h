@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x2B0C (11020) bytes
+// Estimated minimum size: 0x185C (6236) bytes
 
 class CHL2GameMovement : public CGameMovement
 {
@@ -61,12 +61,12 @@ public:
 	void IsForceMoveActive(); // size[27]
 	void SwallowUseKey(); // size[35]
 	void StartForcedMove(bool param_1, float param_2, Vector *param_3, CFuncLadder *param_4); // size[670]
-	void ContinueForcedMove(); // size[14]
-	void Findladder(float param_1, CFuncLadder * *param_2, Vector *param_3, CFuncLadder *param_4); // size[264]
+	void ContinueForcedMove(); // size[270]
+	void Findladder(float param_1, CFuncLadder * *param_2, Vector *param_3, CFuncLadder *param_4); // size[314]
 	void CheckLadderAutoMountEndPoint(CFuncLadder *param_1, Vector *param_2); // size[588]
-	void CheckLadderAutoMountCone(CFuncLadder *param_1, Vector *param_2, float param_3, float param_4); // size[1159]
-	void LookingAtLadder(CFuncLadder *param_1); // size[542]
-	void CheckLadderAutoMount(CFuncLadder *param_1, Vector *param_2); // size[42]
+	void CheckLadderAutoMountCone(CFuncLadder *param_1, Vector *param_2, float param_3, float param_4); // size[1140]
+	void LookingAtLadder(CFuncLadder *param_1); // size[14]
+	void CheckLadderAutoMount(CFuncLadder *param_1, Vector *param_2); // size[69]
 	void GetSortedDismountNodeList(Vector *param_1, float param_2, CFuncLadder *param_3, CUtlRBTree *param_4); // size[201]
-	void ExitLadderViaDismountNode(CFuncLadder *param_1, bool param_2, bool param_3); // size[75]
+	void ExitLadderViaDismountNode(CFuncLadder *param_1, bool param_2, bool param_3); // size[1500]
 };

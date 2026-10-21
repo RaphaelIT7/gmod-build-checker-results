@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x48 (72) bytes
+// Estimated minimum size: 0x8 (8) bytes
 
 class CPhysicsConstraintGroup : public IPhysicsConstraintGroup
 {
@@ -13,6 +13,6 @@ public:
 	virtual void SetErrorParams(constraint_groupparams_t *param_1); // vtable[6]
 	virtual void SolvePenetration(IPhysicsObject *param_1, IPhysicsObject *param_2); // vtable[7]
 
-	CPhysicsConstraintGroup(IVP_Environment *param_1, constraint_groupparams_t *param_2); // size[17]
-	CPhysicsConstraintGroup(IVP_Environment *param_1, constraint_groupparams_t *param_2); // size[136]
+	CPhysicsConstraintGroup(IVP_Environment *param_1, constraint_groupparams_t *param_2); // size[16]
+	CPhysicsConstraintGroup(IVP_Environment *param_1, constraint_groupparams_t *param_2); // size[160]
 };

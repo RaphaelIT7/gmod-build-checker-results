@@ -1,16 +1,16 @@
 // Generated header
-// Estimated minimum size: 0x48 (72) bytes
+// Estimated minimum size: 0x4C (76) bytes
 
 class CPhysGunControllerPoint : public IMotionEvent
 {
 public:
 	virtual void Simulate(IPhysicsMotionController *param_1, IPhysicsObject *param_2, float param_3, Vector *param_4, Vector *param_5); // vtable[0]
 
-	CPhysGunControllerPoint(); // size[94]
+	CPhysGunControllerPoint(); // size[101]
 	void SetTargetRotation(QAngle *param_1); // size[47]
 	void ValidatePhysObj(); // size[42]
 	void SetTargetPosition(Vector *param_1, CBasePlayer *param_2); // size[271]
-	void AttachEntity(CBasePlayer *param_1, CBaseEntity *param_2, IPhysicsObject *param_3, Vector *param_4); // size[695]
-	void DetachEntity(bool param_1); // size[287]
+	void AttachEntity(CBasePlayer *param_1, CBaseEntity *param_2, IPhysicsObject *param_3, Vector *param_4); // size[730]
+	void DetachEntity(bool param_1); // size[422]
 	~CPhysGunControllerPoint(); // size[33]
 };

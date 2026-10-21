@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x25AC (9644) bytes
+// Estimated minimum size: 0x1418 (5144) bytes
 
 class CTriggerViewProxy : public CBaseEntity
 {
@@ -13,12 +13,12 @@ public:
 
 	void GetBaseMap(); // size[10]
 	CTriggerViewProxy(); // size[26]
-	void Disable(); // size[326]
+	void Disable(); // size[380]
 	void InputDisable(inputdata_t *param_1); // size[9]
-	void InputTeleportPlayerToProxy(inputdata_t *param_1); // size[67]
-	void GetPlayerOffset(); // size[114]
-	void Move(); // size[87]
+	void InputTeleportPlayerToProxy(inputdata_t *param_1); // size[680]
+	void GetPlayerOffset(); // size[727]
+	void Move(); // size[1]
 	void TranslateViewToProxy(); // size[839]
-	void Enable(); // size[1019]
+	void Enable(); // size[920]
 	void InputEnable(inputdata_t *param_1); // size[315]
 };

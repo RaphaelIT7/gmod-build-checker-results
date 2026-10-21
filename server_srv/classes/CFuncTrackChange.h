@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x25AC (9644) bytes
+// Estimated minimum size: 0x1480 (5248) bytes
 
 class CFuncTrackChange : public CFuncPlatRot
 {
@@ -20,6 +20,6 @@ public:
 
 	void Find(); // size[275]
 	void GetBaseMap(); // size[10]
-	void EvaluateTrain(CPathTrack *param_1); // size[451]
-	void UpdateTrain(QAngle *param_1); // size[256]
+	void EvaluateTrain(CPathTrack *param_1); // size[422]
+	void UpdateTrain(QAngle *param_1); // size[132]
 };

@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x5E5B1CC8 (1583029448) bytes
+// Estimated minimum size: 0x568C (22156) bytes
 
 class CNPC_Barnacle : public CAI_BaseNPC
 {
@@ -19,14 +19,14 @@ public:
 	virtual void HandleAnimEvent(animevent_t *param_1) override; // vtable[261]
 	virtual void GetPhysicsImpactDamageTable() override; // vtable[291]
 	virtual void OnTakeDamage_Alive(CTakeDamageInfo *param_1) override; // vtable[338]
-	virtual void GetSchedulingErrorName() override; // vtable[432]
-	virtual void LoadedSchedules() override; // vtable[433]
-	virtual void PlayerHasIlluminatedNPC(CBasePlayer *param_1, float param_2) override; // vtable[521]
-	virtual void SquadSlotName(int param_1) override; // vtable[581]
-	virtual void GetClassScheduleIdSpace() override; // vtable[640]
-	virtual CalcYawSpeed(); // vtable[0]
-	virtual OnCalcBaseMove(AILocalMoveGoal_t *param_1, float param_2, AIMoveResult_t *param_3); // vtable[1]
-	virtual OnObstructionPreSteer(AILocalMoveGoal_t *param_1, float param_2, AIMoveResult_t *param_3); // vtable[2]
+	virtual void GetSchedulingErrorName() override; // vtable[433]
+	virtual void LoadedSchedules() override; // vtable[434]
+	virtual void PlayerHasIlluminatedNPC(CBasePlayer *param_1, float param_2) override; // vtable[522]
+	virtual void SquadSlotName(int param_1) override; // vtable[582]
+	virtual void GetClassScheduleIdSpace() override; // vtable[641]
+	virtual void CalcYawSpeed(); // vtable[0]
+	virtual void OnCalcBaseMove(AILocalMoveGoal_t *param_1, float param_2, AIMoveResult_t *param_3); // vtable[1]
+	virtual void OnObstructionPreSteer(AILocalMoveGoal_t *param_1, float param_2, AIMoveResult_t *param_3); // vtable[2]
 	virtual void OnFailedSteer(AILocalMoveGoal_t *param_1, float param_2, AIMoveResult_t *param_3); // vtable[3]
 	virtual void OnFailedLocalNavigation(AILocalMoveGoal_t *param_1, float param_2, AIMoveResult_t *param_3); // vtable[4]
 	virtual void OnInsufficientStopDist(AILocalMoveGoal_t *param_1, float param_2, AIMoveResult_t *param_3); // vtable[5]
@@ -47,7 +47,7 @@ public:
 	void LostPrey(bool param_1); // size[82]
 	void SpitPrey(); // size[298]
 	void WaitForRagdollToSettle(float param_1); // size[941]
-	void SwallowPrey(); // size[577]
+	void SwallowPrey(); // size[513]
 	void InputLetGo(inputdata_t *param_1); // size[122]
 	void PullEnemyTorwardsMouth(bool param_1); // size[669]
 	void LiftPlayer(float param_1); // size[198]
@@ -58,7 +58,7 @@ public:
 	void OnTongueTipUpdated(); // size[202]
 	void UpdateTongue(); // size[206]
 	void AttachTongueToTarget(CBaseEntity *param_1, Vector param_2); // size[153]
-	void WaitTillDead(); // size[402]
+	void WaitTillDead(); // size[421]
 	void SpawnDeathGibs(); // size[181]
 	void IsPoisonous(CBaseEntity *param_1); // size[169]
 	void BitePrey(); // size[342]
@@ -67,7 +67,7 @@ public:
 	void DropTongue(); // size[410]
 	void InputDropTongue(inputdata_t *param_1); // size[9]
 	void BarnacleThink(); // size[1608]
-	void InitCustomSchedules(); // size[2638]
+	void InitCustomSchedules(); // size[430]
 	void LoadSchedules(); // size[62]
 	CNPC_Barnacle(); // size[20]
 };

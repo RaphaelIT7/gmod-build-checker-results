@@ -1,12 +1,12 @@
 // Generated header
-// Estimated minimum size: 0x5E5B1CC8 (1583029448) bytes
+// Estimated minimum size: 0x15B0 (5552) bytes
 
 class CGrenadeBugBait : public CBaseGrenade
 {
 public:
 	virtual ~CGrenadeBugBait() override; // vtable[0]
 	virtual ~CGrenadeBugBait() override; // vtable[1]
-	virtual void GetDataDescMap() override; // vtable[12]
+	virtual void _ZN15CGrenadeBugBait14GetDataDescMapEv() override; // vtable[12]
 	virtual void Spawn() override; // vtable[23]
 	virtual void Precache() override; // vtable[24]
 	virtual void OnAttemptPhysGunPickup(CBasePlayer *param_1, PhysGunPickup_t param_2); // vtable[0]
@@ -22,7 +22,7 @@ public:
 
 	void ThinkBecomeSolid(); // size[65]
 	void GetBaseMap(); // size[10]
-	void ActivateBugbaitTargets(CBaseEntity *param_1, Vector param_2, bool param_3); // size[855]
-	void BugBaitTouch(CBaseEntity *param_1); // size[919]
+	void ActivateBugbaitTargets(CBaseEntity *param_1, Vector param_2, bool param_3); // size[1404]
+	void BugBaitTouch(CBaseEntity *param_1); // size[1020]
 	void SetGracePeriod(float param_1); // size[69]
 };

@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x5E5B1CC8 (1583029448) bytes
+// Estimated minimum size: 0x1714 (5908) bytes
 
 class CDynamicProp : public CBreakableProp, public IPositionWatcher
 {
@@ -70,15 +70,14 @@ public:
 	void InputEnableCollision(inputdata_t *param_1); // size[34]
 	void InputFadeAndKill(inputdata_t *param_1); // size[9]
 	void InputTurnOn(inputdata_t *param_1); // size[53]
-	void InputSetPlaybackRate(inputdata_t *param_1); // size[135]
 	void GetBaseMap(); // size[10]
 	CDynamicProp(); // size[217]
 	void BoneFollowerHierarchyChanged(); // size[89]
 	void CreateBoneFollowers(); // size[386]
-	void FinishSetSequence(int param_1); // size[48]
+	void FinishSetSequence(int param_1); // size[9]
 	void PropSetSequence(int param_1); // size[166]
 	void PropSetAnim(char *param_1); // size[57]
 	void InputSetAnimation(inputdata_t *param_1); // size[75]
 	void InputSetAnimationNoReset(inputdata_t *param_1); // size[128]
-	void AnimThink(); // size[673]
+	void AnimThink(); // size[774]
 };

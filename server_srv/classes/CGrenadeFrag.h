@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x5E5B1CC8 (1583029448) bytes
+// Estimated minimum size: 0x15BC (5564) bytes
 
 class CGrenadeFrag : public CBaseGrenade
 {
@@ -30,5 +30,5 @@ public:
 	void CreateEffects(); // size[881]
 	void SetTimer(float param_1, float param_2); // size[106]
 	void InputSetTimer(inputdata_t *param_1); // size[69]
-	void SetVelocity(Vector *param_1, Vector *param_2); // size[170]
+	void SetVelocity(Vector *param_1, Vector *param_2); // size[35]
 };

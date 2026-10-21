@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x25AC (9644) bytes
+// Estimated minimum size: 0x13FC (5116) bytes
 
 class SmokeTrail : public CBaseParticleEntity
 {
@@ -13,7 +13,7 @@ public:
 
 	void _GLOBAL__sub_I_GetServerClass(); // size[113]
 	void GetBaseMap(); // size[10]
-	SmokeTrail(); // size[258]
+	SmokeTrail(); // size[23]
 	void SetEmit(bool param_1); // size[81]
 	void CreateSmokeTrail(); // size[77]
 	void FollowEntity(CBaseEntity *param_1, char *param_2); // size[134]

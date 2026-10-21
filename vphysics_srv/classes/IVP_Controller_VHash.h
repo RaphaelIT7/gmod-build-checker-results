@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x10 (16) bytes
+// Estimated minimum size: 0x8 (8) bytes
 
 class IVP_Controller_VHash : public IVP_VHash
 {
@@ -8,5 +8,5 @@ public:
 	virtual ~IVP_Controller_VHash(); // vtable[1]
 	virtual ~IVP_Controller_VHash(); // vtable[2]
 
-	void controller_to_index(IVP_Controller *param_1); // size[51]
+	void controller_to_index(IVP_Controller *param_1); // size[62]
 };

@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x2C (44) bytes
+// Estimated minimum size: 0x8 (8) bytes
 
 class CMotorController : public IMotionEvent
 {

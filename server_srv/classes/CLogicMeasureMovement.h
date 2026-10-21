@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x25AC (9644) bytes
+// Estimated minimum size: 0x13D0 (5072) bytes
 
 class CLogicMeasureMovement : public CLogicalEntity
 {
@@ -15,7 +15,7 @@ public:
 	void InputEnable(inputdata_t *param_1); // size[59]
 	void GetBaseMap(); // size[10]
 	void SetMeasureTarget(char *param_1); // size[220]
-	void MeasureThink(); // size[1209]
+	void MeasureThink(); // size[1278]
 	void SetMeasureReference(char *param_1); // size[169]
 	void InputSetMeasureReference(inputdata_t *param_1); // size[128]
 	void SetTarget(char *param_1); // size[169]

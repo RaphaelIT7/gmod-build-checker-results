@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x4 (4) bytes
+// Estimated minimum size: 0x8 (8) bytes
 
 class hk_Console
 {
@@ -10,6 +10,5 @@ public:
 	virtual void exit(int param_1); // vtable[3]
 	virtual void flush(); // vtable[4]
 
-	void _GLOBAL__sub_I_m_console(); // size[31]
-	void get_instance(); // size[26]
+	void get_instance(); // size[28]
 };

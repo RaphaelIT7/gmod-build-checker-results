@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x25AC (9644) bytes
+// Estimated minimum size: 0x13B4 (5044) bytes
 
 class CHL1Gib : public CBaseEntity
 {
@@ -10,7 +10,7 @@ public:
 	virtual void ObjectCaps() override; // vtable[36]
 
 	void WaitTillLand(); // size[253]
-	void BounceGibTouch(CBaseEntity *param_1); // size[837]
+	void BounceGibTouch(CBaseEntity *param_1); // size[720]
 	void StickyGibTouch(CBaseEntity *param_1); // size[140]
 	void Spawn(char *param_1); // size[45]
 	void GetBaseMap(); // size[10]

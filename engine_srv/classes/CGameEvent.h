@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x2C (44) bytes
+// Estimated minimum size: 0xC (12) bytes
 
 class CGameEvent : public IGameEvent
 {

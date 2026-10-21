@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x5E5B1CC8 (1583029448) bytes
+// Estimated minimum size: 0x2624 (9764) bytes
 
 class CNPCBaseInteractive : public CAI_BasePhysicsFlyingBot, public INPCInteractive
 {

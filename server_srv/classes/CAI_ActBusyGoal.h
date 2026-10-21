@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x25AC (9644) bytes
+// Estimated minimum size: 0x1468 (5224) bytes
 
 class CAI_ActBusyGoal : public CAI_GoalEntity
 {

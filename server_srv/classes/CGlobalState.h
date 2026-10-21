@@ -9,7 +9,7 @@ public:
 	virtual ~CGlobalState() override; // vtable[13]
 	virtual ~CGlobalState() override; // vtable[14]
 
-	void DumpGlobals(); // size[190]
+	void DumpGlobals(); // size[157]
 	void GetBaseMap(); // size[7]
 	void Save(ISave *param_1); // size[70]
 	void Reset(); // size[50]

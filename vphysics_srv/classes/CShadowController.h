@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0xD4 (212) bytes
+// Estimated minimum size: 0x8 (8) bytes
 
 class CShadowController : public IVP_Controller_Independent, public IPhysicsShadowController, public CAlignedNewDelete
 {
@@ -44,11 +44,11 @@ public:
 	virtual void GetTeleportDistance(); // vtable[14]
 	virtual void GetMaxSpeed(float *param_1, float *param_2); // vtable[15]
 
-	CShadowController(); // size[97]
-	void AttachObject(); // size[532]
-	CShadowController(CPhysicsObject *param_1, bool param_2, bool param_3); // size[184]
-	void DetachObject(); // size[266]
-	void SetObject(IPhysicsObject *param_1); // size[58]
-	void WriteToTemplate(vphysics_save_cshadowcontroller_t *param_1); // size[213]
-	void InitFromTemplate(vphysics_save_cshadowcontroller_t *param_1); // size[271]
+	CShadowController(); // size[91]
+	void AttachObject(); // size[519]
+	CShadowController(CPhysicsObject *param_1, bool param_2, bool param_3); // size[161]
+	void DetachObject(); // size[267]
+	void SetObject(IPhysicsObject *param_1); // size[48]
+	void WriteToTemplate(vphysics_save_cshadowcontroller_t *param_1); // size[173]
+	void InitFromTemplate(vphysics_save_cshadowcontroller_t *param_1); // size[247]
 };

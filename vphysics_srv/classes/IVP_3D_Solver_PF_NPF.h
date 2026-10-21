@@ -1,8 +1,8 @@
 // Generated header
-// Estimated minimum size: 0x44 (68) bytes
+// Estimated minimum size: 0x8 (8) bytes
 
 class IVP_3D_Solver_PF_NPF : public IVP_3D_Solver
 {
 public:
-	virtual void get_value(IVP_U_Matrix *param_1, IVP_U_Matrix *param_2); // vtable[0]
+	virtual void _ZN20IVP_3D_Solver_PF_NPF9get_valueEP12IVP_U_MatrixS1_(); // vtable[0]
 };

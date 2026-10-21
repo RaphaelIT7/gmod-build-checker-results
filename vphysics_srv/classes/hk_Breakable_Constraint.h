@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x30 (48) bytes
+// Estimated minimum size: 0x8 (8) bytes
 
 class hk_Breakable_Constraint : public hk_Constraint
 {
@@ -13,12 +13,11 @@ public:
 	virtual void get_constraint_dof(); // vtable[7]
 	virtual void init_constraint(void *param_1); // vtable[8]
 
-	void step_constraint(hk_PSI_Info *param_1, void *param_2, float param_3, float param_4); // size[34]
-	_GLOBAL__sub_I_hk_Breakable_Constraint(); // size[1]
-	hk_Breakable_Constraint(hk_Environment *param_1, hk_Breakable_Constraint_BP *param_2); // size[92]
-	hk_Breakable_Constraint(hk_Local_Constraint_System *param_1, hk_Breakable_Constraint_BP *param_2); // size[168]
-	void init_breakable_constraint(hk_Breakable_Constraint_BP *param_1); // size[60]
-	void write_to_blueprint(hk_Breakable_Constraint_BP *param_1); // size[56]
-	void FireEventIfBroken(); // size[54]
+	void step_constraint(hk_PSI_Info *param_1, void *param_2, float param_3, float param_4); // size[29]
+	hk_Breakable_Constraint(hk_Environment *param_1, hk_Breakable_Constraint_BP *param_2); // size[91]
+	hk_Breakable_Constraint(hk_Local_Constraint_System *param_1, hk_Breakable_Constraint_BP *param_2); // size[210]
+	void init_breakable_constraint(hk_Breakable_Constraint_BP *param_1); // size[52]
+	void write_to_blueprint(hk_Breakable_Constraint_BP *param_1); // size[48]
+	void FireEventIfBroken(); // size[55]
 	void apply_effector_PSI(hk_PSI_Info *param_1); // size[1]
 };

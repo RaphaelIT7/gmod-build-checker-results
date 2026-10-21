@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x4 (4) bytes
+// Estimated minimum size: 0x8 (8) bytes
 
 class CVPhysPtrSaveRestoreOps : public CDefSaveRestoreOps
 {
@@ -10,7 +10,7 @@ public:
 	virtual void MakeEmpty(SaveRestoreFieldInfo_t *param_1); // vtable[3]
 	virtual void Parse(SaveRestoreFieldInfo_t *param_1, char *param_2); // vtable[4]
 
-	CVPhysPtrSaveRestoreOps(); // size[14]
+	CVPhysPtrSaveRestoreOps(); // size[11]
 	void PreRestore(); // size[1]
-	void PostRestore(); // size[30]
+	void PostRestore(); // size[27]
 };

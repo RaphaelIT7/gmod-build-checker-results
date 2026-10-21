@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x5E5B1CC8 (1583029448) bytes
+// Estimated minimum size: 0x15A8 (5544) bytes
 
 class CBaseGrenadeConcussion : public CBaseGrenade
 {
@@ -21,7 +21,7 @@ public:
 	virtual void PhysGunLaunchVelocity(Vector *param_1, float param_2); // vtable[9]
 
 	void _GLOBAL__sub_I_m_nTrailSprite(); // size[113]
-	void ExplodeConcussion(CBaseEntity *param_1); // size[138]
-	void FallThink(); // size[139]
+	void ExplodeConcussion(CBaseEntity *param_1); // size[589]
+	void FallThink(); // size[659]
 	void GetBaseMap(); // size[10]
 };

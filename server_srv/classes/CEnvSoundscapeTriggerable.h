@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x25AC (9644) bytes
+// Estimated minimum size: 0x1400 (5120) bytes
 
 class CEnvSoundscapeTriggerable : public CEnvSoundscape
 {
@@ -9,8 +9,7 @@ public:
 	virtual void GetDataDescMap() override; // vtable[12]
 	virtual void Think() override; // vtable[48]
 
-	void GetBaseMap(); // size[10]
+	void GetBaseMap(); // size[1]
 	CEnvSoundscapeTriggerable(); // size[30]
-	void DelegateEndTouch(CBaseEntity *param_1); // size[61]
-	void DelegateStartTouch(CBaseEntity *param_1); // size[63]
+	void DelegateEndTouch(CBaseEntity *param_1); // size[53]
 };

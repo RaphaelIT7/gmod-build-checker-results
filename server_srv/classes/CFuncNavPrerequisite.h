@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x25AC (9644) bytes
+// Estimated minimum size: 0x14F4 (5364) bytes
 
 class CFuncNavPrerequisite : public CBaseTrigger, public IFuncNavPrerequisiteAutoList
 {
@@ -16,6 +16,6 @@ public:
 	void _GLOBAL__sub_I_m_DataMap(); // size[113]
 	void GetBaseMap(); // size[10]
 	void IsTask(TaskType param_1); // size[20]
-	void GetTaskEntity(); // size[115]
-	CFuncNavPrerequisite(); // size[57]
+	void GetTaskEntity(); // size[11]
+	CFuncNavPrerequisite(); // size[94]
 };

@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x5E5B1CC8 (1583029448) bytes
+// Estimated minimum size: 0x15C8 (5576) bytes
 
 class CItem : public CBaseAnimating, public CDefaultPlayerPickupVPhysics
 {
@@ -28,6 +28,6 @@ public:
 	void FallThink(); // size[145]
 	void GetBaseMap(); // size[10]
 	CItem(); // size[168]
-	void CreateItemVPhysicsObject(); // size[75]
+	void CreateItemVPhysicsObject(); // size[56]
 	void ActivateWhenAtRest(float param_1); // size[94]
 };

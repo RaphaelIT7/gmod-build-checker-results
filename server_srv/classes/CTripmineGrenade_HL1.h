@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x5E5B1CC8 (1583029448) bytes
+// Estimated minimum size: 0x15EC (5612) bytes
 
 class CTripmineGrenade_HL1 : public CHL1BaseGrenade
 {
@@ -25,8 +25,8 @@ public:
 	void GetBaseMap(); // size[10]
 	CTripmineGrenade_HL1(); // size[169]
 	void KillBeam(); // size[85]
-	void DelayDeathThink(); // size[455]
-	void MakeBeam(); // size[283]
+	void DelayDeathThink(); // size[471]
+	void MakeBeam(); // size[12]
 	void BeamBreakThink(); // size[348]
 	void PowerupThink(); // size[1277]
 };

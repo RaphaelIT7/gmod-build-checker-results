@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x25AC (9644) bytes
+// Estimated minimum size: 0x1404 (5124) bytes
 
 class CPhysForce : public CPointEntity
 {
@@ -16,9 +16,9 @@ public:
 	void InputDeactivate(inputdata_t *param_1); // size[9]
 	void GetBaseMap(); // size[10]
 	CPhysForce(); // size[26]
-	void ActivateForce(); // size[176]
+	void ActivateForce(); // size[481]
 	void ForceOn(); // size[128]
-	void ForceOn(); // size[22]
+	void ForceOn(); // size[24]
 	void InputActivate(inputdata_t *param_1); // size[24]
 	void ScaleForce(float param_1); // size[216]
 	void InputForceScale(inputdata_t *param_1); // size[37]

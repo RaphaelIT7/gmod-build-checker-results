@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x10 (16) bytes
+// Estimated minimum size: 0x8 (8) bytes
 
 class IVP_I_Point_VHash : public IVP_VHash
 {
@@ -8,12 +8,12 @@ public:
 	virtual ~IVP_I_Point_VHash(); // vtable[1]
 	virtual ~IVP_I_Point_VHash(); // vtable[2]
 
-	void point_to_index(IVP_U_Point *param_1); // size[51]
-	void add_point(IVP_U_Point *param_1); // size[77]
-	void remove_point(IVP_U_Point *param_1); // size[74]
-	void find_point(IVP_U_Point *param_1); // size[74]
-	void len(); // size[14]
-	void element_at(int param_1); // size[18]
+	void point_to_index(IVP_U_Point *param_1); // size[45]
+	void add_point(IVP_U_Point *param_1); // size[72]
+	void remove_point(IVP_U_Point *param_1); // size[72]
+	void find_point(IVP_U_Point *param_1); // size[72]
+	void len(); // size[7]
+	void element_at(int param_1); // size[16]
 	IVP_I_Point_VHash(int param_1); // size[33]
 	void print(); // size[5]
 };

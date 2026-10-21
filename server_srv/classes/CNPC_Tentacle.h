@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x5E5B1CC8 (1583029448) bytes
+// Estimated minimum size: 0x2618 (9752) bytes
 
 class CNPC_Tentacle : public CHL1BaseNPC
 {
@@ -19,16 +19,16 @@ public:
 	virtual void CanBecomeRagdoll() override; // vtable[255]
 	virtual void HandleAnimEvent(animevent_t *param_1) override; // vtable[261]
 	virtual void CanBecomeServerRagdoll() override; // vtable[337]
-	virtual void GetSchedulingErrorName() override; // vtable[432]
-	virtual void LoadedSchedules() override; // vtable[433]
-	virtual void QueryHearSound(CSound *param_1) override; // vtable[461]
-	virtual void HearingSensitivity() override; // vtable[471]
-	virtual void MaxYawSpeed() override; // vtable[529]
-	virtual void SquadSlotName(int param_1) override; // vtable[581]
-	virtual void GetClassScheduleIdSpace() override; // vtable[640]
-	virtual CalcYawSpeed(); // vtable[0]
-	virtual OnCalcBaseMove(AILocalMoveGoal_t *param_1, float param_2, AIMoveResult_t *param_3); // vtable[1]
-	virtual OnObstructionPreSteer(AILocalMoveGoal_t *param_1, float param_2, AIMoveResult_t *param_3); // vtable[2]
+	virtual void GetSchedulingErrorName() override; // vtable[433]
+	virtual void LoadedSchedules() override; // vtable[434]
+	virtual void QueryHearSound(CSound *param_1) override; // vtable[462]
+	virtual void HearingSensitivity() override; // vtable[472]
+	virtual void MaxYawSpeed() override; // vtable[530]
+	virtual void SquadSlotName(int param_1) override; // vtable[582]
+	virtual void GetClassScheduleIdSpace() override; // vtable[641]
+	virtual void CalcYawSpeed(); // vtable[0]
+	virtual void OnCalcBaseMove(AILocalMoveGoal_t *param_1, float param_2, AIMoveResult_t *param_3); // vtable[1]
+	virtual void OnObstructionPreSteer(AILocalMoveGoal_t *param_1, float param_2, AIMoveResult_t *param_3); // vtable[2]
 	virtual void OnFailedSteer(AILocalMoveGoal_t *param_1, float param_2, AIMoveResult_t *param_3); // vtable[3]
 	virtual void OnFailedLocalNavigation(AILocalMoveGoal_t *param_1, float param_2, AIMoveResult_t *param_3); // vtable[4]
 	virtual void OnInsufficientStopDist(AILocalMoveGoal_t *param_1, float param_2, AIMoveResult_t *param_3); // vtable[5]
@@ -42,7 +42,7 @@ public:
 	void Level(float param_1); // size[59]
 	void MyHeight(); // size[60]
 	void MyLevel(); // size[34]
-	void HeardAnything(); // size[26]
+	void HeardAnything(); // size[103]
 	void Cycle(); // size[205]
 	void InitCustomSchedules(); // size[15]
 	void LoadSchedules(); // size[62]

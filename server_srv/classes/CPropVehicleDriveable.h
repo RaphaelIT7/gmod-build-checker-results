@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x5E5B1CC8 (1583029448) bytes
+// Estimated minimum size: 0x17C4 (6084) bytes
 
 class CPropVehicleDriveable : public CPropVehicle, public IDrivableVehicle, public INPCPassengerCarrier
 {
@@ -86,7 +86,6 @@ public:
 
 	void InputTurnOff(inputdata_t *param_1); // size[51]
 	void InputTurnOn(inputdata_t *param_1); // size[51]
-	void InputLock(inputdata_t *param_1); // size[86]
 	void InputUnlock(inputdata_t *param_1); // size[99]
 	void GetBaseMap(); // size[10]
 	void DestroyServerVehicle(); // size[47]

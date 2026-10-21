@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x124 (292) bytes
+// Estimated minimum size: 0x10 (16) bytes
 
 class CTraceFilterSkipNPCs : public CTraceFilterSimple
 {

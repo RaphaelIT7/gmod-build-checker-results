@@ -4,6 +4,6 @@
 class IServerNetworkable
 {
 public:
-	~IServerNetworkable(); // size[14]
-	~IServerNetworkable(); // size[3]
+	~IServerNetworkable(); // size[6]
+	~IServerNetworkable(); // size[18]
 };

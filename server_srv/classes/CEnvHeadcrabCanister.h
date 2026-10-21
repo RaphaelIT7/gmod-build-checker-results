@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x5E5B1CC8 (1583029448) bytes
+// Estimated minimum size: 0x1670 (5744) bytes
 
 class CEnvHeadcrabCanister : public CBaseAnimating
 {
@@ -15,11 +15,11 @@ public:
 	virtual void UpdateOnRemove() override; // vtable[108]
 
 	void InputStopSmoke(inputdata_t *param_1); // size[85]
-	void HeadcrabCanisterSkyboxOnlyThink(); // size[12]
+	void HeadcrabCanisterSkyboxOnlyThink(); // size[60]
 	void HeadcrabCanisterSpawnHeadcrabThink(); // size[344]
 	void GetBaseMap(); // size[10]
 	CEnvHeadcrabCanister(); // size[233]
-	void SetupWorldModel(); // size[26]
+	void SetupWorldModel(); // size[48]
 	void HeadcrabCanisterSkyboxThink(); // size[307]
 	void ComputeWorldEntryPoint(Vector *param_1, QAngle *param_2, Vector *param_3); // size[818]
 	void PlaceCanisterInWorld(); // size[936]
@@ -28,14 +28,14 @@ public:
 	void InputSpawnHeadcrabs(inputdata_t *param_1); // size[48]
 	void InputFireCanister(inputdata_t *param_1); // size[112]
 	void HeadcrabCanisterSkyboxRestartThink(); // size[124]
-	void CanisterFinishedOpening(); // size[68]
+	void CanisterFinishedOpening(); // size[130]
 	void WaitForOpenSequenceThink(); // size[134]
 	void OpenCanister(); // size[82]
 	void InputOpenCanister(inputdata_t *param_1); // size[41]
 	void OpenCanister(); // size[23]
-	void SetLanded(); // size[30]
+	void SetLanded(); // size[70]
 	void Landed(); // size[52]
-	void Detonate(); // size[42]
+	void Detonate(); // size[610]
 	void TestForCollisionsAgainstEntities(Vector *param_1); // size[1057]
-	void HeadcrabCanisterWorldThink(); // size[419]
+	void HeadcrabCanisterWorldThink(); // size[602]
 };

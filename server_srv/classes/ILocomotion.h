@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x124 (292) bytes
+// Estimated minimum size: 0x54 (84) bytes
 
 class ILocomotion : public INextBotComponent
 {

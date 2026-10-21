@@ -25,5 +25,4 @@ public:
 	virtual void DispatchAllStoredGameMessages(); // vtable[18]
 
 	CGame(); // size[18]
-	void SetActiveApp(bool param_1); // size[14]
 };

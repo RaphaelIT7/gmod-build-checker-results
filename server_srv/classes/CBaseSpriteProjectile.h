@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x25AC (9644) bytes
+// Estimated minimum size: 0x140C (5132) bytes
 
 class CBaseSpriteProjectile : public CSprite
 {

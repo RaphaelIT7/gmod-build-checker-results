@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x5E5B1CC8 (1583029448) bytes
+// Estimated minimum size: 0x2988 (10632) bytes
 
 class CNPC_GMan : public CAI_PlayerAlly
 {
@@ -12,12 +12,12 @@ public:
 	virtual void Classify() override; // vtable[55]
 	virtual void HandleAnimEvent(animevent_t *param_1) override; // vtable[261]
 	virtual void IRelationType(CBaseEntity *param_1) override; // vtable[364]
-	virtual void SelectSchedule() override; // vtable[407]
-	virtual void GetSoundInterests() override; // vtable[467]
-	virtual void CreateBehaviors() override; // vtable[652]
-	virtual CalcYawSpeed(); // vtable[0]
+	virtual void SelectSchedule() override; // vtable[408]
+	virtual void GetSoundInterests() override; // vtable[468]
+	virtual void CreateBehaviors() override; // vtable[653]
+	virtual void CalcYawSpeed(); // vtable[0]
 	virtual void OnCalcBaseMove(AILocalMoveGoal_t *param_1, float param_2, AIMoveResult_t *param_3); // vtable[1]
-	virtual OnObstructionPreSteer(AILocalMoveGoal_t *param_1, float param_2, AIMoveResult_t *param_3); // vtable[2]
+	virtual void OnObstructionPreSteer(AILocalMoveGoal_t *param_1, float param_2, AIMoveResult_t *param_3); // vtable[2]
 	virtual void OnFailedSteer(AILocalMoveGoal_t *param_1, float param_2, AIMoveResult_t *param_3); // vtable[3]
 	virtual void OnFailedLocalNavigation(AILocalMoveGoal_t *param_1, float param_2, AIMoveResult_t *param_3); // vtable[4]
 	virtual void OnInsufficientStopDist(AILocalMoveGoal_t *param_1, float param_2, AIMoveResult_t *param_3); // vtable[5]

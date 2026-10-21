@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x25AC (9644) bytes
+// Estimated minimum size: 0x1628 (5672) bytes
 
 class CFuncTankLaser : public CFuncTank
 {
@@ -12,5 +12,5 @@ public:
 	virtual void Fire(int param_1, Vector *param_2, Vector *param_3, CBaseEntity *param_4, bool param_5) override; // vtable[254]
 
 	void GetBaseMap(); // size[10]
-	void GetLaser(); // size[199]
+	void GetLaser(); // size[207]
 };

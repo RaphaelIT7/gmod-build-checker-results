@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x2360 (9056) bytes
+// Estimated minimum size: 0x108 (264) bytes
 
 class CAI_AntlionFollowBehavior : public CAI_FollowBehavior
 {

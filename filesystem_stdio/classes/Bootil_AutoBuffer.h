@@ -11,4 +11,5 @@ public:
 
 	~AutoBuffer(); // size[10]
 	AutoBuffer(ulonglong param_1); // size[12]
+	AutoBuffer(ulonglong param_1); // size[12]
 };

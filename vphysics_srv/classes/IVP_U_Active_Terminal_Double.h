@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x30 (48) bytes
+// Estimated minimum size: 0x8 (8) bytes
 
 class IVP_U_Active_Terminal_Double : public IVP_U_Active_Float, public IVP_U_Active_Float_Delayed
 {
@@ -13,5 +13,5 @@ public:
 	virtual ~IVP_U_Active_Terminal_Double(); // vtable[1]
 	virtual void update_float(); // vtable[2]
 
-	IVP_U_Active_Terminal_Double(char *param_1, double param_2); // size[108]
+	IVP_U_Active_Terminal_Double(char *param_1, double param_2); // size[107]
 };

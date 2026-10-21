@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x1A0 (416) bytes
+// Estimated minimum size: 0x68 (104) bytes
 
 class CMaterialSubRect : public IMaterialInternal
 {

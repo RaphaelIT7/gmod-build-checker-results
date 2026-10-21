@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x115A0EC (18194668) bytes
+// Estimated minimum size: 0x19D0 (6608) bytes
 
 class CBreakableSurface : public CBreakable
 {
@@ -9,7 +9,7 @@ public:
 	virtual void GetServerClass() override; // vtable[10]
 	virtual void YouForgotToImplementOrDeclareServerClass() override; // vtable[11]
 	virtual void GetDataDescMap() override; // vtable[12]
-	virtual void Spawn() override; // vtable[23]
+	virtual void _ZN17CBreakableSurface5SpawnEv() override; // vtable[23]
 	virtual void Precache() override; // vtable[24]
 	virtual void TraceAttack(CTakeDamageInfo *param_1, Vector *param_2, CGameTrace *param_3, CDmgAccumulator *param_4) override; // vtable[62]
 	virtual void OnTakeDamage(CTakeDamageInfo *param_1) override; // vtable[64]
@@ -56,14 +56,14 @@ public:
 	virtual void PhysGunLaunchVelocity(Vector *param_1, float param_2); // vtable[9]
 
 	void InputRestore(inputdata_t *param_1); // size[272]
-	void Die(CBaseEntity *param_1, Vector *param_2); // size[628]
+	void Die(CBaseEntity *param_1, Vector *param_2); // size[640]
 	void GetBaseMap(); // size[10]
 	void Die(CBaseEntity *param_1, Vector *param_2); // size[29]
 	void Event_Killed(CBaseEntity *param_1, CBaseEntity *param_2, float param_3, int param_4); // size[5]
 	void IsBroken(int param_1, int param_2); // size[83]
 	void SetSupport(int param_1, int param_2, float param_3); // size[272]
 	void GetSupport(int param_1, int param_2); // size[40]
-	void RecalcSupport(int param_1, int param_2); // size[655]
+	void RecalcSupport(int param_1, int param_2); // size[79]
 	void PanePos(Vector *param_1, float *param_2, float *param_3); // size[227]
 	void BreakPane(int param_1, int param_2); // size[137]
 	void BreakAllPanes(); // size[107]

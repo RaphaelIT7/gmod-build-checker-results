@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x5E5B1CC8 (1583029448) bytes
+// Estimated minimum size: 0x2030 (8240) bytes
 
 class CBaseCombatCharacter : public CBaseFlex
 {
@@ -33,7 +33,7 @@ public:
 	virtual void ShouldShootMissTarget(CBaseCombatCharacter *param_1); // vtable[296]
 	virtual void FindMissTarget(); // vtable[297]
 	virtual void HandleInteraction(int param_1, void *param_2, CBaseCombatCharacter *param_3); // vtable[298]
-	virtual void _ZN20CBaseCombatCharacter10BodyAnglesEv(); // vtable[299]
+	virtual void BodyAngles(); // vtable[299]
 	virtual void BodyDirection2D(); // vtable[300]
 	virtual void BodyDirection3D(); // vtable[301]
 	virtual void HeadDirection2D(); // vtable[302]
@@ -122,6 +122,7 @@ public:
 	virtual void OnPursuedBy(INextBot *param_1); // vtable[385]
 	virtual void NetworkStateChanged_m_iAmmo(); // vtable[386]
 	virtual void NetworkStateChanged_m_iAmmo(void *param_1); // vtable[387]
+	virtual void RemoveClassRelationship(Class_T param_1); // vtable[388]
 
 	void _GLOBAL__sub_I_SwitchToNextBestWeapon(); // size[113]
 	void SwitchToNextBestWeapon(CBaseCombatWeapon *param_1); // size[81]
@@ -129,7 +130,7 @@ public:
 	void RemoveAllAmmo(); // size[62]
 	void SetAmmo(int param_1, int param_2); // size[153]
 	void SetAmmoCount(int param_1, int param_2); // size[76]
-	void GetAmmoCount(char *param_1); // size[57]
+	void GetAmmoCount(char *param_1); // size[40]
 	void Weapon_OwnsThisType(char *param_1, int param_2); // size[240]
 	void SetBloodColor(int param_1); // size[47]
 	void ComputeLOS(Vector *param_1, Vector *param_2); // size[119]
@@ -140,24 +141,24 @@ public:
 	void InitInteractionSystem(); // size[5]
 	void GetInteractionID(); // size[18]
 	void Weapon_SetActivity(Activity param_1, float param_2); // size[70]
-	void CalcDamageForceVector(CTakeDamageInfo *param_1); // size[77]
+	void CalcDamageForceVector(CTakeDamageInfo *param_1); // size[564]
 	void ThrowDirForWeaponStrip(CBaseCombatWeapon *param_1, Vector *param_2, Vector *param_3); // size[1033]
 	void Weapon_GetWpnForAmmo(int param_1); // size[126]
 	void Weapon_Create(char *param_1); // size[168]
-	void AllocateDefaultRelationships(); // size[17]
+	void AllocateDefaultRelationships(); // size[32]
 	void SetDefaultRelationship(Class_T param_1, Class_T param_2, Disposition_t param_3, int param_4); // size[47]
 	void GetDefaultRelationshipDisposition(Class_T param_1); // size[45]
 	void FindEntityRelationship(CBaseEntity *param_1); // size[359]
 	void FindHealthItem(Vector *param_1, Vector *param_2); // size[279]
 	void Weapon_IsOnGround(CBaseCombatWeapon *param_1); // size[98]
-	void Weapon_FindUsable(Vector *param_1); // size[450]
-	void GiveAmmo(int param_1, char *param_2, bool param_3); // size[89]
+	void Weapon_FindUsable(Vector *param_1); // size[1382]
+	void GiveAmmo(int param_1, char *param_2, bool param_3); // size[41]
 	void CalculatePhysicsStressDamage(vphysics_objectstress_t *param_1, IPhysicsObject *param_2); // size[164]
-	void ApplyStressDamage(IPhysicsObject *param_1, bool param_2); // size[246]
+	void ApplyStressDamage(IPhysicsObject *param_1, bool param_2); // size[510]
 	void SetActiveWeapon(CBaseCombatWeapon *param_1); // size[203]
 	void Weapon_Detach(CBaseCombatWeapon *param_1); // size[183]
 	void DropWeaponForWeaponStrip(CBaseCombatWeapon *param_1, Vector *param_2, QAngle *param_3, float param_4); // size[555]
-	void Weapon_DropAll(bool param_1); // size[231]
+	void Weapon_DropAll(bool param_1); // size[244]
 	CBaseCombatCharacter(); // size[1240]
-	void ResetVisibilityCache(CBaseCombatCharacter *param_1); // size[615]
+	void ResetVisibilityCache(CBaseCombatCharacter *param_1); // size[612]
 };

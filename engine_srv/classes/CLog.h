@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x4C (76) bytes
+// Estimated minimum size: 0x38 (56) bytes
 
 class CLog : public IGameEventListener2
 {

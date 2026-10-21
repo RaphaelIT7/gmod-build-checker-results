@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x5E5B1CC8 (1583029448) bytes
+// Estimated minimum size: 0x288C (10380) bytes
 
 class HL1_CNPC_GMan : public CAI_BaseActor
 {
@@ -11,14 +11,14 @@ public:
 	virtual void Classify() override; // vtable[55]
 	virtual void HandleAnimEvent(animevent_t *param_1) override; // vtable[261]
 	virtual void OnTakeDamage_Alive(CTakeDamageInfo *param_1) override; // vtable[338]
-	virtual void StartTask(Task_t *param_1) override; // vtable[410]
-	virtual void RunTask(Task_t *param_1) override; // vtable[411]
-	virtual void GetSoundInterests() override; // vtable[467]
-	virtual void PlayScriptedSentence(char *param_1, float param_2, float param_3, soundlevel_t param_4, bool param_5, CBaseEntity *param_6) override; // vtable[504]
-	virtual void MaxYawSpeed() override; // vtable[529]
-	virtual CalcYawSpeed(); // vtable[0]
+	virtual void StartTask(Task_t *param_1) override; // vtable[411]
+	virtual void RunTask(Task_t *param_1) override; // vtable[412]
+	virtual void GetSoundInterests() override; // vtable[468]
+	virtual void PlayScriptedSentence(char *param_1, float param_2, float param_3, soundlevel_t param_4, bool param_5, CBaseEntity *param_6) override; // vtable[505]
+	virtual void MaxYawSpeed() override; // vtable[530]
+	virtual void CalcYawSpeed(); // vtable[0]
 	virtual void OnCalcBaseMove(AILocalMoveGoal_t *param_1, float param_2, AIMoveResult_t *param_3); // vtable[1]
-	virtual OnObstructionPreSteer(AILocalMoveGoal_t *param_1, float param_2, AIMoveResult_t *param_3); // vtable[2]
+	virtual void OnObstructionPreSteer(AILocalMoveGoal_t *param_1, float param_2, AIMoveResult_t *param_3); // vtable[2]
 	virtual void OnFailedSteer(AILocalMoveGoal_t *param_1, float param_2, AIMoveResult_t *param_3); // vtable[3]
 	virtual void OnFailedLocalNavigation(AILocalMoveGoal_t *param_1, float param_2, AIMoveResult_t *param_3); // vtable[4]
 	virtual void OnInsufficientStopDist(AILocalMoveGoal_t *param_1, float param_2, AIMoveResult_t *param_3); // vtable[5]

@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0xA4 (164) bytes
+// Estimated minimum size: 0x8 (8) bytes
 
 class CFrictionSnapshot : public IPhysicsFrictionSnapshot
 {
@@ -20,7 +20,6 @@ public:
 	virtual void NextFrictionData(); // vtable[13]
 	virtual void GetFrictionCoefficient(); // vtable[14]
 
-	_GLOBAL__sub_I_CFrictionSnapshot(); // size[1]
-	CFrictionSnapshot(IVP_Real_Object *param_1); // size[83]
-	void SetFrictionSynapse(IVP_Synapse_Friction *param_1); // size[64]
+	CFrictionSnapshot(IVP_Real_Object *param_1); // size[80]
+	void SetFrictionSynapse(IVP_Synapse_Friction *param_1); // size[54]
 };

@@ -41,7 +41,7 @@ public:
 	virtual void FactoryInternalIterator(); // vtable[34]
 	virtual void RevertServerConVars(bool param_1); // vtable[35]
 
-	void DisplayQueuedMessages(); // size[656]
+	void DisplayQueuedMessages(); // size[845]
 	void Find(CCommand *param_1); // size[993]
 	CCvar(); // size[356]
 	~CCvar(); // size[203]

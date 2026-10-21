@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x221C (8732) bytes
+// Estimated minimum size: 0xAC (172) bytes
 
 class CAI_Navigator : public CAI_Component, public CAI_DefMovementSink
 {
@@ -45,7 +45,7 @@ public:
 
 	void ShouldAttemptSimplifyTo(Vector *param_1); // size[333]
 	void GetBaseMap(); // size[7]
-	CAI_Navigator(CAI_BaseNPC *param_1); // size[169]
+	CAI_Navigator(CAI_BaseNPC *param_1); // size[172]
 	void ActivityIsLocomotive(Activity param_1); // size[12]
 	void GetPathfinder(); // size[17]
 	void GetPathfinder(); // size[17]
@@ -91,9 +91,9 @@ public:
 	void GetNavFailCounter(); // size[14]
 	void ClearNavFailCounter(); // size[18]
 	void GetLastNavFailTime(); // size[27]
-	void ResetCalculations(); // size[177]
+	void ResetCalculations(); // size[180]
 	void SetNavType(Navigation_t param_1); // size[14]
-	void DelayNavigationFailure(AIMoveTrace_t *param_1); // size[530]
+	void DelayNavigationFailure(AIMoveTrace_t *param_1); // size[291]
 	void PreMove(); // size[188]
 	void IsMovingOutOfWay(AILocalMoveGoal_t *param_1, float param_2); // size[203]
 	void GetStepDownMultiplier(); // size[113]
@@ -103,7 +103,7 @@ public:
 	void SimplifyPathForwardScan(SimplifyForwardScanParams *param_1, AI_Waypoint_t *param_2, Vector *param_3, float param_4, bool param_5, bool param_6, int *param_7); // size[794]
 	void SimplifyPathBacktrack(); // size[957]
 	void MovementCost(int param_1, Vector *param_2, Vector *param_3); // size[143]
-	void CanFitAtPosition(Vector *param_1, uint param_2, bool param_3, bool param_4); // size[1001]
+	void CanFitAtPosition(Vector *param_1, uint param_2, bool param_3, bool param_4); // size[229]
 	void CanFitAtNode(int param_1, uint param_2); // size[336]
 	void GetPathDistToCurWaypoint(); // size[159]
 	void SimplifyPathForwardScan(SimplifyForwardScanParams *param_1); // size[140]
@@ -111,11 +111,11 @@ public:
 	void SimplifyPathForward(float param_1); // size[496]
 	void GetPathDistToGoal(); // size[62]
 	void BuildAndGetPathDistToGoal(); // size[73]
-	void MarkCurWaypointFailedLink(); // size[1341]
+	void MarkCurWaypointFailedLink(); // size[1156]
 	void GetNextPathcorner(CBaseEntity *param_1); // size[72]
 	void DoFindPathToPathcorner(CBaseEntity *param_1); // size[927]
 	void IgnoreStoppingPath(); // size[41]
-	void SaveStoppingPath(); // size[127]
+	void SaveStoppingPath(); // size[129]
 	void ClearPath(); // size[206]
 	void SetGoalFromStoppingPath(); // size[406]
 	void SetRadialGoal(Vector *param_1, Vector *param_2, float param_3, float param_4, float param_5, bool param_6, bool param_7); // size[413]
@@ -130,7 +130,7 @@ public:
 	void StopMoving(bool param_1); // size[273]
 	void OnScheduleChange(); // size[100]
 	void OnNavFailed(bool param_1); // size[182]
-	void DrawDebugRouteOverlay(); // size[526]
+	void DrawDebugRouteOverlay(); // size[1061]
 	void AdvancePath(); // size[600]
 	void TeleportAlongPath(); // size[385]
 	void OnNavFailed(int param_1, bool param_2); // size[487]
@@ -145,6 +145,6 @@ public:
 	void SetGoalPos(Vector *param_1); // size[312]
 	void UpdateGoalPos(Vector *param_1); // size[282]
 	void UpdateGoalPos(Vector *param_1); // size[86]
-	void Restore(IRestore *param_1); // size[306]
+	void Restore(IRestore *param_1); // size[298]
 	void Save(ISave *param_1); // size[484]
 };

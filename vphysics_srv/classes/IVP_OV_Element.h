@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x30 (48) bytes
+// Estimated minimum size: 0x8 (8) bytes
 
 class IVP_OV_Element : public IVP_Listener_Hull
 {
@@ -11,8 +11,8 @@ public:
 	virtual ~IVP_OV_Element(); // vtable[4]
 	virtual ~IVP_OV_Element(); // vtable[5]
 
-	IVP_OV_Element(IVP_Real_Object *param_1); // size[89]
-	void add_to_hull_manager(IVP_Hull_Manager *param_1, double param_2); // size[212]
+	IVP_OV_Element(IVP_Real_Object *param_1); // size[83]
+	void add_to_hull_manager(IVP_Hull_Manager *param_1, double param_2); // size[214]
 	void add_oo_collision(IVP_Collision *param_1); // size[88]
-	void remove_oo_collision(IVP_Collision *param_1); // size[102]
+	void remove_oo_collision(IVP_Collision *param_1); // size[99]
 };

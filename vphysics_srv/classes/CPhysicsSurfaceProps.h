@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x250 (592) bytes
+// Estimated minimum size: 0x8 (8) bytes
 
 class CPhysicsSurfaceProps : public IPhysicsSurfacePropsInternal
 {
@@ -21,13 +21,14 @@ public:
 	virtual void RemapIVPMaterialIndex(int param_1); // vtable[14]
 	virtual void GetReservedMaterialName(int param_1); // vtable[15]
 
-	CPhysicsSurfaceProps(); // size[38]
-	void ParseSurfaceData(char *param_1, char *param_2); // size[32]
-	void GetInternalSurface(int param_1); // size[64]
-	void IsReservedMaterialIndex(int param_1); // size[12]
-	void GetReservedSurfaceIndex(char *param_1); // size[37]
-	void GetReservedFallBack(int param_1); // size[27]
-	void CopyPhysicsProperties(CSurface *param_1, int param_2); // size[76]
-	CPhysicsSurfaceProps(); // size[444]
-	void AddFileToDatabase(char *param_1); // size[239]
+	CPhysicsSurfaceProps(); // size[35]
+	void ParseSurfaceData(char *param_1, char *param_2); // size[30]
+	void GetInternalSurface(int param_1); // size[59]
+	void GetInternalSurface(int param_1); // size[59]
+	void IsReservedMaterialIndex(int param_1); // size[7]
+	void GetReservedSurfaceIndex(char *param_1); // size[34]
+	void GetReservedFallBack(int param_1); // size[18]
+	void CopyPhysicsProperties(CSurface *param_1, int param_2); // size[156]
+	CPhysicsSurfaceProps(); // size[459]
+	void AddFileToDatabase(char *param_1); // size[284]
 };

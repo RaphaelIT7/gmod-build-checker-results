@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x25AC (9644) bytes
+// Estimated minimum size: 0x150C (5388) bytes
 
 class CTriggerWateryDeath : public CBaseTrigger
 {

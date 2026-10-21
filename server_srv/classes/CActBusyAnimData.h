@@ -11,5 +11,4 @@ public:
 
 	void ParseActBusyFromKV(busyanim_t *param_1, KeyValues *param_2); // size[38]
 	void FindBusyAnim(Activity param_1, char *param_2); // size[267]
-	void ParseAnimDataFile(); // size[182]
 };

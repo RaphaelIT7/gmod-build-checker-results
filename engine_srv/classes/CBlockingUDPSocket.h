@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x30 (48) bytes
+// Estimated minimum size: 0x20 (32) bytes
 
 class CBlockingUDPSocket
 {

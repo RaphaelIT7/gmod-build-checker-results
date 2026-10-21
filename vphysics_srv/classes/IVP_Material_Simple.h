@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x34 (52) bytes
+// Estimated minimum size: 0x8 (8) bytes
 
 class IVP_Material_Simple : public IVP_Material
 {
@@ -14,5 +14,5 @@ public:
 	virtual void get_name(); // vtable[7]
 
 	IVP_Material_Simple(); // size[53]
-	IVP_Material_Simple(double param_1, double param_2); // size[55]
+	IVP_Material_Simple(double param_1, double param_2); // size[44]
 };

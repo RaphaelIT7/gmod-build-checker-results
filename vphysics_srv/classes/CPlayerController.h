@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x11C (284) bytes
+// Estimated minimum size: 0x8 (8) bytes
 
 class CPlayerController : public IVP_Controller_Independent, public IPhysicsPlayerController, public IVP_Listener_Object
 {
@@ -58,9 +58,9 @@ public:
 	virtual ~CPlayerController(); // vtable[4]
 	virtual ~CPlayerController(); // vtable[5]
 
-	void SetGround(CPhysicsObject *param_1); // size[86]
-	void AttachObject(); // size[124]
-	CPlayerController(CPhysicsObject *param_1); // size[123]
-	void DetachObject(); // size[43]
-	void TryTeleportObject(); // size[252]
+	void SetGround(CPhysicsObject *param_1); // size[85]
+	void AttachObject(); // size[122]
+	CPlayerController(CPhysicsObject *param_1); // size[126]
+	void DetachObject(); // size[126]
+	void TryTeleportObject(); // size[276]
 };

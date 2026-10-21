@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x50 (80) bytes
+// Estimated minimum size: 0x10 (16) bytes
 
 class CAI_BehaviorBase : public CAI_Component
 {
@@ -72,9 +72,9 @@ public:
 	void Restore(IRestore *param_1); // size[52]
 	void DrawDebugTextOverlays(int param_1); // size[69]
 	void DrawDebugTextOverlays(int param_1); // size[33]
-	void GetSchedule(int param_1); // size[123]
+	void GetSchedule(int param_1); // size[107]
 	void GetBaseMap(); // size[7]
-	void IsCurSchedule(int param_1, bool param_2); // size[80]
+	void IsCurSchedule(int param_1, bool param_2); // size[78]
 	void NotifyChangeBehaviorStatus(bool param_1); // size[179]
 	void SaveBehaviors(ISave *param_1, CAI_BehaviorBase *param_2, CAI_BehaviorBase * *param_3, int param_4); // size[291]
 	void RestoreBehaviors(IRestore *param_1, CAI_BehaviorBase * *param_2, int param_3); // size[494]

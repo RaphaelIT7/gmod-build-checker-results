@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x25AC (9644) bytes
+// Estimated minimum size: 0x13E4 (5092) bytes
 
 class CSoundEnt : public CPointEntity
 {
@@ -14,7 +14,7 @@ public:
 	virtual void Think() override; // vtable[48]
 
 	void GetBaseMap(); // size[10]
-	void InitSoundEnt(); // size[139]
+	void InitSoundEnt(); // size[102]
 	void ShutdownSoundEnt(); // size[61]
 	CSoundEnt(); // size[34]
 	void FreeSound(int param_1, int param_2); // size[176]
@@ -22,7 +22,7 @@ public:
 	void FindOrAllocateSound(CBaseEntity *param_1, int param_2); // size[157]
 	void InsertSound(int param_1, Vector *param_2, int param_3, float param_4, CBaseEntity *param_5, int param_6, CBaseEntity *param_7); // size[610]
 	void Initialize(); // size[292]
-	void ISoundsInList(int param_1); // size[1]
+	void ISoundsInList(int param_1); // size[83]
 	void ActiveList(); // size[66]
 	void FreeList(); // size[66]
 	void SoundPointerForIndex(int param_1); // size[139]

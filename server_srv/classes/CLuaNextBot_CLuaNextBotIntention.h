@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x2AC (684) bytes
+// Estimated minimum size: 0x1C (28) bytes
 
 class CLuaNextBot_CLuaNextBotIntention : public IIntention
 {
