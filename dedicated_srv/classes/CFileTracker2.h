@@ -26,5 +26,4 @@ public:
 	void NotePackFileAccess(char *param_1, char *param_2, int param_3, CPackedStoreFileHandle *param_4); // size[912]
 	void AddFileHashForVPKFile(int param_1, int param_2, int param_3, MD5Value_t *param_4, CPackedStoreFileHandle *param_5); // size[427]
 	void NoteFileLoadedFromDisk(char *param_1, char *param_2, int param_3, _IO_FILE *param_4, longlong param_5); // size[152]
-	void RecordFileClose(_IO_FILE *param_1); // size[178]
 };

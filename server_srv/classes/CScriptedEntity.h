@@ -21,7 +21,7 @@ public:
 	void CallFunction(char *param_1, bool param_2); // size[195]
 	void CallFunction(int param_1, bool param_2); // size[235]
 	void InitializeDataTables(); // size[137]
-	void StartLua(); // size[703]
+	void StartLua(); // size[690]
 	void GetScriptName(); // size[11]
 	void OnRestore(); // size[9]
 };

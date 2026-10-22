@@ -25,7 +25,7 @@ public:
 	void RemoveFileFromDirectory(char *param_1); // size[4]
 	void Init(); // size[201]
 	void FindFileHashFraction(int param_1, int param_2, ChunkHashFraction_t *param_3); // size[150]
-	void GetPackFileLoadErrorSummary(CUtlString *param_1); // size[496]
+	void GetPackFileLoadErrorSummary(CUtlString *param_1); // size[493]
 	~CPackedStore(); // size[2403]
 	void HashChunkFile(int param_1); // size[569]
 	void HashAllChunkFiles(); // size[102]

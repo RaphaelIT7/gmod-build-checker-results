@@ -137,7 +137,7 @@ public:
 	void MergeEdit(CNavArea *param_1); // size[14]
 	CNavArea(); // size[1035]
 	void Strip(); // size[140]
-	void ComputeVisibilityDelta(CNavArea *param_1); // size[607]
+	void ComputeVisibilityDelta(CNavArea *param_1); // size[544]
 	void ComputeVisToArea(CNavArea * *param_1); // size[589]
 	void FinishSplitEdit(CNavArea *param_1, NavDirType param_2); // size[1413]
 	void SplitEdit(bool param_1, float param_2, CNavArea * *param_3, CNavArea * *param_4); // size[1062]

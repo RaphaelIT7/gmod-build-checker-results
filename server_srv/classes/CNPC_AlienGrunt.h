@@ -28,7 +28,7 @@ public:
 	virtual void SquadSlotName(int param_1) override; // vtable[582]
 	virtual void RangeAttack1Conditions(float param_1, float param_2) override; // vtable[596]
 	virtual void MeleeAttack1Conditions(float param_1, float param_2) override; // vtable[598]
-	virtual void FCanCheckAttacks() override; // vtable[616]
+	virtual void _ZN15CNPC_AlienGrunt16FCanCheckAttacksEv() override; // vtable[616]
 	virtual void GetClassScheduleIdSpace() override; // vtable[641]
 	virtual void CalcYawSpeed(); // vtable[0]
 	virtual void OnCalcBaseMove(AILocalMoveGoal_t *param_1, float param_2, AIMoveResult_t *param_3); // vtable[1]

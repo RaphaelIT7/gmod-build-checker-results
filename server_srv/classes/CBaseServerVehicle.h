@@ -84,7 +84,7 @@ public:
 	void GetDrivableVehicle(); // size[29]
 	void SetPassengerWeapon(bool param_1, CBaseCombatCharacter *param_2); // size[62]
 	void ParseNPCSeatTransition(KeyValues *param_1, CPassengerSeatTransition *param_2); // size[53]
-	void GetLocalAttachmentAtTime(int param_1, int param_2, float param_3, Vector *param_4, QAngle *param_5); // size[116]
+	void GetLocalAttachmentAtTime(int param_1, int param_2, float param_3, Vector *param_4, QAngle *param_5); // size[108]
 	void GetLocalAttachmentAtTime(char *param_1, int param_2, float param_3, Vector *param_4, QAngle *param_5); // size[127]
 	void CacheEntryExitPoints(); // size[466]
 	void PlaySound(char *param_1); // size[26]

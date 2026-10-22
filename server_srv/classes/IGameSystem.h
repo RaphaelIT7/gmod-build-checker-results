@@ -25,6 +25,6 @@ public:
 	void FrameUpdatePostEntityThinkAllSystems(); // size[32]
 	void PreClientUpdateAllSystems(); // size[20]
 	void Add(IGameSystem *param_1); // size[158]
-	void InitAllSystems(); // size[379]
+	void InitAllSystems(); // size[361]
 	void LevelShutdownPreClearSteamAPIContext(); // size[5]
 };

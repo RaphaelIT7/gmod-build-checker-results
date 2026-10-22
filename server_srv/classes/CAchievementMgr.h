@@ -57,7 +57,7 @@ public:
 	void PreRestoreSavedGame(); // size[98]
 	void PostRestoreSavedGame(); // size[90]
 	void PrintAchievementStatus(); // size[352]
-	void UpdateStateFromSteam_Internal(); // size[410]
+	void UpdateStateFromSteam_Internal(); // size[400]
 	void Steam_OnUserStatsReceived(UserStatsReceived_t *param_1); // size[140]
 	void CheckMetaAchievements(); // size[214]
 	void Steam_OnUserStatsStored(UserStatsStored_t *param_1); // size[216]

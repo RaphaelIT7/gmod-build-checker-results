@@ -17,7 +17,7 @@ public:
 	void IsAIFileCurrent(char *param_1); // size[126]
 	void FixupHints(); // size[58]
 	CAI_NetworkManager(); // size[28]
-	void LoadNetworkGraph(); // size[1843]
+	void LoadNetworkGraph(); // size[1661]
 	void SaveNetworkGraph(); // size[6]
 	void StartRebuild(); // size[82]
 	void RebuildThink(); // size[59]

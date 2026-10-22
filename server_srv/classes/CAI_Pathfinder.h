@@ -42,6 +42,6 @@ public:
 	void CheckStaleRoute(Vector *param_1, Vector *param_2, int param_3); // size[461]
 	void IsLinkStillStale(int param_1, CAI_Link *param_2); // size[372]
 	void IsLinkUsable(CAI_Link *param_1, int param_2); // size[1024]
-	void FindBestPath(int param_1, int param_2); // size[2110]
+	void FindBestPath(int param_1, int param_2); // size[2046]
 	void FindShortRandomPath(int param_1, float param_2, Vector *param_3); // size[2001]
 };

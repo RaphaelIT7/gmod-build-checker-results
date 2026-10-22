@@ -15,7 +15,7 @@ public:
 	void InternalCacheFileCRCs(CUtlDict *param_1, ECacheCRCType param_2); // size[5]
 	void CheckEntry(CUtlDict *param_1, char *param_2, CCommand *param_3); // size[92]
 	void GetBestEntry(char *param_1); // size[342]
-	void CommandDictDifferent(CUtlDict *param_1, CUtlDict *param_2); // size[244]
+	void CommandDictDifferent(CUtlDict *param_1, CUtlDict *param_2); // size[311]
 	void operator==(CPureServerWhitelist *param_1); // size[247]
 	void UpdateCommandStats(CUtlDict *param_1, int *param_2, int *param_3); // size[129]
 	void FindCommandByLoadOrder(CUtlDict *param_1, int param_2); // size[85]

@@ -179,7 +179,7 @@ public:
 	void EnterVehicle(CBaseEntity *param_1, bool param_2); // size[62]
 	void InputEnterVehicle(inputdata_t *param_1); // size[98]
 	void InputEnterVehicleImmediately(inputdata_t *param_1); // size[98]
-	void PrepareReadinessRemap(); // size[946]
+	void PrepareReadinessRemap(); // size[941]
 	void SetupCoverSearch(CBaseEntity *param_1); // size[639]
 	void InitCustomSchedules(); // size[463]
 	void LoadSchedules(); // size[62]

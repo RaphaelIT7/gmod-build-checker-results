@@ -1,27 +1,29 @@
 // Generated header
-// Estimated minimum size: 0x10 (16) bytes
+// Estimated minimum size: 0x8 (8) bytes
 
 class Bootil_Threads_Thread
 {
 public:
-	virtual _ZN6Bootil7Threads6ThreadD1Ev(); // vtable[0]
+	virtual ~Thread(); // vtable[0]
 	virtual ~Thread(); // vtable[1]
 
 	void OnThreadFinished(); // size[1]
+	~Thread(); // size[10]
+	~Thread(); // size[10]
 	Thread(); // size[59]
-	void Running(); // size[59]
-	void Lock(); // size[35]
-	void Lock(); // size[35]
-	void Unlock(); // size[35]
-	void Unlock(); // size[35]
-	void RunInThread(void *param_1); // size[91]
-	void TryLock(); // size[35]
+	void Running(); // size[21]
+	void Lock(); // size[4]
+	void Lock(); // size[4]
+	void Unlock(); // size[9]
+	void Unlock(); // size[9]
+	void RunInThread(void *param_1); // size[5]
+	void TryLock(); // size[1]
 	void WantsToClose(); // size[59]
-	void SetClosing(bool param_1); // size[58]
-	void SetClosing(bool param_1); // size[58]
-	void Join(); // size[149]
-	void Join(); // size[149]
-	void StartInThread(); // size[56]
-	void StartInThreadAndDetatch(); // size[49]
-	void StartInThreadAndDestroy(); // size[77]
+	void SetClosing(bool param_1); // size[7]
+	void SetClosing(bool param_1); // size[7]
+	void Join(); // size[67]
+	void Join(); // size[67]
+	void StartInThread(); // size[17]
+	void StartInThreadAndDetatch(); // size[41]
+	void StartInThreadAndDestroy(); // size[82]
 };

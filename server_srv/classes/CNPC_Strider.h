@@ -10,7 +10,7 @@ public:
 	virtual void YouForgotToImplementOrDeclareServerClass() override; // vtable[11]
 	virtual void GetDataDescMap() override; // vtable[12]
 	virtual void TestCollision(Ray_t *param_1, uint param_2, CGameTrace *param_3) override; // vtable[14]
-	virtual void _ZN12CNPC_Strider5SpawnEv() override; // vtable[23]
+	virtual void Spawn() override; // vtable[23]
 	virtual void Precache() override; // vtable[24]
 	virtual void Activate() override; // vtable[34]
 	virtual void DrawDebugTextOverlays() override; // vtable[40]

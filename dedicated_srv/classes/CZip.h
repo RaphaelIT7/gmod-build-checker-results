@@ -25,6 +25,7 @@ public:
 	virtual void ActivateByteSwapping(bool param_1); // vtable[18]
 	virtual ~CZip(); // vtable[19]
 	virtual ~CZip(); // vtable[20]
+	virtual void FUN_00082008(); // vtable[21]
 
 	CZip(char *param_1, bool param_2); // size[58]
 };

@@ -41,7 +41,7 @@ public:
 	void Clear(); // size[59]
 	void ParseResponse(); // size[580]
 	void CopyResponsesFrom(Rule *param_1, Rule *param_2, CResponseSystem *param_3); // size[687]
-	void ParseOneCriterion(char *param_1); // size[586]
+	void ParseOneCriterion(char *param_1); // size[581]
 	void ParseCriterion(); // size[187]
 	void CopyCriteriaFrom(Rule *param_1, Rule *param_2, CResponseSystem *param_3); // size[1472]
 	void ParseEnumeration(); // size[93]
@@ -52,5 +52,5 @@ public:
 	void LoadRuleSet(char *param_1); // size[105]
 	void CopyRuleFrom(Rule *param_1, int param_2, CResponseSystem *param_3); // size[384]
 	void ParseToken(); // size[124]
-	void TokenWaiting(); // size[151]
+	void TokenWaiting(); // size[149]
 };

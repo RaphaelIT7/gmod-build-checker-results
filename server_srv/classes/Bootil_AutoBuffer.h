@@ -11,7 +11,7 @@ public:
 
 	~AutoBuffer(); // size[67]
 	void Clear(); // size[90]
-	void EnsureCapacity(ulonglong param_1); // size[227]
+	void EnsureCapacity(ulonglong param_1); // size[22]
 	AutoBuffer(ulonglong param_1); // size[123]
 	AutoBuffer(ulonglong param_1); // size[123]
 };

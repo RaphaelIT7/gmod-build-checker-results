@@ -13,5 +13,5 @@ public:
 	virtual void ObjectCaps() override; // vtable[36]
 
 	void _GLOBAL__sub_I_GetServerClass(); // size[112]
-	void GetBaseMap(); // size[10]
+	void GetBaseMap(); // size[1]
 };

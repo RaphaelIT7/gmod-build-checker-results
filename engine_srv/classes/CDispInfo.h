@@ -45,7 +45,7 @@ public:
 	void AddSingleDynamicLightBumped(dlight_t *param_1); // size[5]
 	void AddSingleDynamicAlphaLight(dlight_t *param_1); // size[5]
 	void SetupDecalNodeIntersect_R(CVertIndex *param_1, int param_2, CDispDecalBase *param_3, ShadowInfo_t *param_4, int param_5, CDecalNodeSetupCache *param_6); // size[1740]
-	void SetupDecalNodeIntersect(CVertIndex *param_1, int param_2, CDispDecalBase *param_3, ShadowInfo_t *param_4); // size[144]
+	void SetupDecalNodeIntersect(CVertIndex *param_1, int param_2, CDispDecalBase *param_3, ShadowInfo_t *param_4); // size[194]
 	void GetFlatVert(int param_1); // size[300]
 	void TesselateDisplacement(); // size[257]
 	void GenerateDecalFragments_R(CVertIndex *param_1, int param_2, ushort param_3, CDispDecalBase *param_4, int param_5); // size[485]

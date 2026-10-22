@@ -13,5 +13,5 @@ public:
 	void GetSoundCount(); // size[11]
 	void GetSoundName(int param_1); // size[17]
 	void PrecacheSceneEvent(CChoreoEvent *param_1, CUtlVector *param_2); // size[280]
-	CSceneCache(CSceneCache *param_1); // size[186]
+	CSceneCache(CSceneCache *param_1); // size[179]
 };

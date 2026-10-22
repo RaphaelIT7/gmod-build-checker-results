@@ -144,6 +144,7 @@ public:
 	void OpenForRead(char *param_1, char *param_2, uint param_3, char *param_4, char * *param_5); // size[682]
 	void OpenForWrite(char *param_1, char *param_2, char *param_3); // size[396]
 	void OpenEx(char *param_1, char *param_2, uint param_3, char *param_4, char * *param_5); // size[644]
+	void AddPackFileFromPath(char *param_1, char *param_2, bool param_3, char *param_4); // size[82]
 	void AddPackFile(char *param_1, char *param_2); // size[73]
 	void AddLoggingFunc(_func_void_char_ptr_char_ptr *param_1); // size[8]
 	void FindOrAddPathIDInfo(CUtlSymbol *param_1, int param_2); // size[105]

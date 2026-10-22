@@ -65,7 +65,7 @@ public:
 	void InWater(); // size[24]
 	void ResetGetPointContentsCache(); // size[47]
 	void GetPointContentsCached(Vector *param_1, int param_2); // size[279]
-	void CheckWater(); // size[671]
+	void CheckWater(); // size[679]
 	void TryTouchGroundInQuadrants(Vector *param_1, Vector *param_2, uint param_3, int param_4, CGameTrace *param_5, float param_6); // size[1150]
 	void CategorizePosition(); // size[1072]
 	void SplineFraction(float param_1, float param_2); // size[57]

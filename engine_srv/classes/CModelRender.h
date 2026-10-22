@@ -51,7 +51,7 @@ public:
 	void ComputeModelVertexLighting(IHandleEntity *param_1, mstudiomodel_t *param_2, ModelLODHeader_t *param_3, matrix3x4_t *param_4, Vector4D *param_5, color24 *param_6); // size[5]
 	void StaticPropColorMeshCallback(void *param_1, void *param_2, int param_3, FSAsyncStatus_t param_4); // size[87]
 	void StaticPropColorTexelCallback(void *param_1, void *param_2, int param_3, FSAsyncStatus_t param_4); // size[243]
-	void LoadStaticPropColorData(IHandleEntity *param_1, memhandle_t__ *param_2, studiohwdata_t *param_3); // size[234]
+	void LoadStaticPropColorData(IHandleEntity *param_1, memhandle_t__ *param_2, studiohwdata_t *param_3); // size[339]
 	void UpdateStaticPropColorData(IHandleEntity *param_1, ushort param_2); // size[40]
 	void DestroyStaticPropColorData(ushort param_1); // size[5]
 	void PurgeCachedStaticPropColorData(); // size[5]

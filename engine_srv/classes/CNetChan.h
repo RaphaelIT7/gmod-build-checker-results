@@ -91,7 +91,7 @@ public:
 	void ProcessControlMessage(int param_1, bf_read *param_2); // size[674]
 	void GetFreeSubChannel(); // size[83]
 	void CheckWaitingList(int param_1); // size[153]
-	void HandleUpload(dataFragments_s *param_1, INetChannelHandler *param_2); // size[683]
+	void HandleUpload(dataFragments_s *param_1, INetChannelHandler *param_2); // size[734]
 	void ProcessPacketHeader(netpacket_s *param_1); // size[2036]
 	void FindMessage(int param_1); // size[103]
 	void ProcessMessages(bf_read *param_1); // size[1254]
@@ -109,5 +109,5 @@ public:
 	void Shutdown(char *param_1); // size[452]
 	CNetChan(); // size[800]
 	void CreateFragmentsFromBuffer(bf_write *param_1, int param_2); // size[797]
-	void CreateFragmentsFromFile(char *param_1, int param_2, uint param_3); // size[367]
+	void CreateFragmentsFromFile(char *param_1, int param_2, uint param_3); // size[423]
 };

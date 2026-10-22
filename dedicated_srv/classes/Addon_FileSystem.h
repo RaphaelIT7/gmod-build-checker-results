@@ -53,7 +53,7 @@ public:
 	void OnRemoteStoragePublishedFileUnsubscribed(RemoteStoragePublishedFileUnsubscribed_t *param_1); // size[828]
 	void GetFolder(string *param_1, bool param_2); // size[545]
 	void CreateEmptyParentFolders(string param_1, void *param_2, string *param_3, bool param_4); // size[733]
-	void FindFirst(string param_1, list *param_2, void *param_3); // size[1140]
+	void FindFirst(string param_1, list *param_2, void *param_3); // size[1112]
 	void FindInAddon(string *param_1, string *param_2, list *param_3); // size[443]
 	void IsDirectory(string param_1); // size[198]
 	void GetFile(string param_1); // size[681]
