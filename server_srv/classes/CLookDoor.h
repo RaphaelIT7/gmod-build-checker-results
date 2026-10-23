@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x1490 (5264) bytes
+// Estimated minimum size: 0x68F02840 (1760569408) bytes
 
 class CLookDoor : public CFuncMoveLinear
 {

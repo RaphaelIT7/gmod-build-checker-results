@@ -11,7 +11,7 @@ public:
 
 	void _GLOBAL__sub_I_m_DataMap(); // size[113]
 	void GetBaseMap(); // size[7]
-	void BeginMonolog(char *param_1, CBaseEntity *param_2); // size[89]
+	void BeginMonolog(char *param_1, CBaseEntity *param_2); // size[68]
 	void EndMonolog(); // size[30]
 	void SuspendMonolog(float param_1); // size[132]
 	void ResumeMonolog(); // size[130]

@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x1934 (6452) bytes
+// Estimated minimum size: 0x68F02840 (1760569408) bytes
 
 class CPropDoorRotatingBreakable : public CPropDoorRotating
 {

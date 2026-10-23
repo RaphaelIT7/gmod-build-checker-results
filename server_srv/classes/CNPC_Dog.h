@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x2A50 (10832) bytes
+// Estimated minimum size: 0x68F02840 (1760569408) bytes
 
 class CNPC_Dog : public CAI_BaseActor
 {
@@ -76,7 +76,7 @@ public:
 	void InputSetThrowArcModifier(inputdata_t *param_1); // size[33]
 	void InputTurnBoneFollowersOff(inputdata_t *param_1); // size[38]
 	void InputTurnBoneFollowersOn(inputdata_t *param_1); // size[62]
-	void MantainBoneFollowerCollisionGroups(int param_1); // size[109]
+	void MantainBoneFollowerCollisionGroups(int param_1); // size[17]
 	void InputSetThrowTarget(inputdata_t *param_1); // size[146]
 	void GetBaseMap(); // size[10]
 	void MantainBoneFollowerCollisionGroups(int param_1); // size[26]
@@ -84,10 +84,10 @@ public:
 	void ClearSprites(); // size[95]
 	void ClearBeams(); // size[103]
 	void CleanCatchAndThrow(bool param_1); // size[476]
-	void InputPlayerPickupObject(inputdata_t *param_1); // size[267]
-	void InputStartWaitAndCatch(inputdata_t *param_1); // size[26]
+	void InputPlayerPickupObject(inputdata_t *param_1); // size[201]
+	void InputStartWaitAndCatch(inputdata_t *param_1); // size[21]
 	void InputStopWaitAndCatch(inputdata_t *param_1); // size[16]
-	void InputStopCatchThrowBehavior(inputdata_t *param_1); // size[50]
+	void InputStopCatchThrowBehavior(inputdata_t *param_1); // size[55]
 	void ThrowObject(char *param_1); // size[167]
 	void CreateSprites(); // size[654]
 	void CreateBeams(); // size[1058]
@@ -97,6 +97,6 @@ public:
 	void FindPhysicsObject(char *param_1, CBaseEntity *param_2); // size[965]
 	void InputSetPickupTarget(inputdata_t *param_1); // size[89]
 	void InputStartCatchThrowBehavior(inputdata_t *param_1); // size[178]
-	void InitCustomSchedules(); // size[454]
+	void InitCustomSchedules(); // size[517]
 	void LoadSchedules(); // size[62]
 };

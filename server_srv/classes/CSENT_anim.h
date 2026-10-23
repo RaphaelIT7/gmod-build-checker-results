@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x1680 (5760) bytes
+// Estimated minimum size: 0x68F02840 (1760569408) bytes
 
 class CSENT_anim : public CBaseAnimatingOverlay, public IMotionEvent, public CDefaultPlayerPickupVPhysics
 {

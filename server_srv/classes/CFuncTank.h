@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x161C (5660) bytes
+// Estimated minimum size: 0x68F02840 (1760569408) bytes
 
 class CFuncTank : public CBaseEntity
 {
@@ -79,7 +79,7 @@ public:
 	void ComputeLeadingPosition(Vector *param_1, CBaseEntity *param_2, Vector *param_3); // size[1076]
 	void AimFuncTankAtTarget(); // size[2234]
 	void TrackTarget(); // size[570]
-	void TankTrace(Vector *param_1, Vector *param_2, Vector *param_3, CGameTrace *param_4); // size[137]
+	void TankTrace(Vector *param_1, Vector *param_2, Vector *param_3, CGameTrace *param_4); // size[530]
 	void IsEntityInViewCone(CBaseEntity *param_1); // size[723]
 	void NPC_FindController(); // size[425]
 	void InputFindNPCToManTank(inputdata_t *param_1); // size[299]

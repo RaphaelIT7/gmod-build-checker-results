@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x13E0 (5088) bytes
+// Estimated minimum size: 0x68F02840 (1760569408) bytes
 
 class CPointCamera : public CBaseEntity
 {
@@ -12,7 +12,7 @@ public:
 	virtual void UpdateTransmitState() override; // vtable[20]
 	virtual void Spawn() override; // vtable[23]
 
-	void InputChangeFOV(inputdata_t *param_1); // size[185]
+	void InputChangeFOV(inputdata_t *param_1); // size[94]
 	void ChangeFOVThink(); // size[216]
 	CPointCamera(); // size[28]
 	void SetActive(bool param_1); // size[132]

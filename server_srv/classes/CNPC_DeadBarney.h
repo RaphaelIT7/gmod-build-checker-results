@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x25C4 (9668) bytes
+// Estimated minimum size: 0x68F02840 (1760569408) bytes
 
 class CNPC_DeadBarney : public CAI_BaseNPC
 {
@@ -21,5 +21,5 @@ public:
 	virtual void OnMoveStalled(AILocalMoveGoal_t *param_1); // vtable[7]
 	virtual void OnMoveExecuteFailed(AILocalMoveGoal_t *param_1, AIMoveTrace_t *param_2, AIMotorMoveResult_t param_3, AIMoveResult_t *param_4); // vtable[8]
 
-	void GetBaseMap(); // size[1]
+	void GetBaseMap(); // size[10]
 };

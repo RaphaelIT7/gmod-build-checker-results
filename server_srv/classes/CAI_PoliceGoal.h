@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x1424 (5156) bytes
+// Estimated minimum size: 0x68F02840 (1760569408) bytes
 
 class CAI_PoliceGoal : public CBaseEntity
 {
@@ -15,7 +15,7 @@ public:
 	CAI_PoliceGoal(); // size[26]
 	void GetRadius(); // size[27]
 	void GetTarget(); // size[248]
-	void ShouldKnockOutTarget(Vector *param_1, bool param_2); // size[59]
+	void ShouldKnockOutTarget(Vector *param_1, bool param_2); // size[70]
 	void KnockOutTarget(CBaseEntity *param_1); // size[43]
 	void ShouldRemainAtPost(); // size[20]
 	void FireWarningLevelOutput(int param_1); // size[103]

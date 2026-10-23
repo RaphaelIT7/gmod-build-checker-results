@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x2B64 (11108) bytes
+// Estimated minimum size: 0x68F02840 (1760569408) bytes
 
 class CHL2_Player : public CBaseMultiplayerPlayer
 {
@@ -127,7 +127,7 @@ public:
 	void GetPlayerProxy(); // size[167]
 	void MissedAR2AltFire(); // size[65]
 	void FirePlayerProxyOutput(char *param_1, variant_t param_2, CBaseEntity *param_3, CBaseEntity *param_4); // size[114]
-	void CommanderFindGoal(commandgoal_t *param_1); // size[191]
+	void CommanderFindGoal(commandgoal_t *param_1); // size[1885]
 	void CommanderExecute(CommanderCommand_t param_1); // size[776]
 	void CommanderUpdate(); // size[219]
 };

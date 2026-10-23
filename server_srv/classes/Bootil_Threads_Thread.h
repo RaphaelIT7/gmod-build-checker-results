@@ -11,6 +11,7 @@ public:
 	~Thread(); // size[10]
 	~Thread(); // size[10]
 	Thread(); // size[59]
+	Thread(); // size[59]
 	void Running(); // size[21]
 	void Lock(); // size[4]
 	void Lock(); // size[4]
@@ -24,6 +25,7 @@ public:
 	void Join(); // size[67]
 	void Join(); // size[67]
 	void StartInThread(); // size[17]
+	void StartInThreadAndDetatch(); // size[41]
 	void StartInThreadAndDetatch(); // size[41]
 	void StartInThreadAndDestroy(); // size[82]
 };

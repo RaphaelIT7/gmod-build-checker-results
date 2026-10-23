@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x2700 (9984) bytes
+// Estimated minimum size: 0x68F02840 (1760569408) bytes
 
 class CBaseHelicopter : public CAI_TrackPather
 {
@@ -76,7 +76,7 @@ public:
 	void GetBaseMap(); // size[10]
 	CBaseHelicopter(); // size[18]
 	void DoWashPushOnAirboat(CBaseEntity *param_1, Vector *param_2, float param_3); // size[662]
-	void UpdateEnemy(); // size[429]
+	void UpdateEnemy(); // size[27]
 	void FireWeapons(); // size[142]
 	void UpdatePlayerDopplerShift(); // size[560]
 	void ComputeActualTargetPosition(float param_1, float param_2, float param_3, Vector *param_4, bool param_5); // size[756]

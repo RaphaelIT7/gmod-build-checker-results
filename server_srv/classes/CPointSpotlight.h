@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x1414 (5140) bytes
+// Estimated minimum size: 0x68F02840 (1760569408) bytes
 
 class CPointSpotlight : public CPointEntity
 {

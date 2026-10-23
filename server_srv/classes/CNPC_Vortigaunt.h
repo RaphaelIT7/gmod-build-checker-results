@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x2F58 (12120) bytes
+// Estimated minimum size: 0x68F02840 (1760569408) bytes
 
 class CNPC_Vortigaunt : public CNPC_PlayerCompanion
 {
@@ -125,22 +125,22 @@ public:
 	void PlayerBelowHealthPercentage(CBasePlayer *param_1, float param_2); // size[35]
 	void NumAntlionsInRadius(float param_1); // size[284]
 	void SetHealTarget(CBaseEntity *param_1, bool param_2); // size[115]
-	void HealBehaviorAvailable(); // size[98]
-	void ShouldHealTarget(CBaseEntity *param_1); // size[304]
+	void HealBehaviorAvailable(); // size[242]
+	void ShouldHealTarget(CBaseEntity *param_1); // size[267]
 	void FindHealTarget(); // size[84]
 	void StartHealing(); // size[63]
-	void ArmBeam(int param_1, int param_2); // size[264]
+	void ArmBeam(int param_1, int param_2); // size[1180]
 	void CreateBeamBlast(Vector *param_1); // size[629]
 	void ClearHandGlow(); // size[170]
 	void ClearBeams(); // size[23]
 	void HealGestureHasLOS(); // size[651]
-	void GatherHealConditions(); // size[676]
+	void GatherHealConditions(); // size[121]
 	void OnSquishedGrub(CBaseEntity *param_1); // size[62]
 	void StartHandGlow(int param_1, int param_2); // size[385]
 	void EndHandGlow(int param_1); // size[198]
 	void StopHealing(bool param_1); // size[279]
-	void SelectHealSchedule(); // size[390]
-	void MaintainHealSchedule(); // size[828]
+	void SelectHealSchedule(); // size[280]
+	void MaintainHealSchedule(); // size[198]
 	void MaintainGlows(); // size[90]
 	void DispelAntlions(Vector *param_1, float param_2, bool param_3); // size[848]
 	void ZapBeam(int param_1); // size[2021]

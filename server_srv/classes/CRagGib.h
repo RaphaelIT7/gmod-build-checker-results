@@ -1,10 +1,10 @@
 // Generated header
-// Estimated minimum size: 0x1560 (5472) bytes
+// Estimated minimum size: 0x68F02840 (1760569408) bytes
 
 class CRagGib : public CBaseAnimating
 {
 public:
-	virtual _ZN7CRagGibD1Ev() override; // vtable[0]
+	virtual ~CRagGib() override; // vtable[0]
 	virtual ~CRagGib() override; // vtable[1]
 
 	void Spawn(char *param_1, Vector *param_2, Vector *param_3, float param_4); // size[59]

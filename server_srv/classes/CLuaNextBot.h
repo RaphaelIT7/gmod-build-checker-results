@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x21B4 (8628) bytes
+// Estimated minimum size: 0x68F02840 (1760569408) bytes
 
 class CLuaNextBot : public NextBotCombatCharacter
 {
@@ -132,5 +132,5 @@ public:
 	void BodyMoveXY(); // size[1081]
 	void SetLuaBodySolidMask(int param_1); // size[20]
 	void GetLuaBodySolidMask(); // size[17]
-	CLuaNextBot(); // size[158]
+	CLuaNextBot(); // size[504]
 };

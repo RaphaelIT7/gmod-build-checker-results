@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x1684 (5764) bytes
+// Estimated minimum size: 0x68F02840 (1760569408) bytes
 
 class CSceneEntity : public CPointEntity, public IChoreoEventCallback
 {
@@ -85,7 +85,7 @@ public:
 	void InputScriptPlayerDeath(inputdata_t *param_1); // size[10]
 	void GetBaseMap(); // size[10]
 	void SetCurrentTime(float param_1, bool param_2); // size[90]
-	void GenerateSceneForSound(CBaseFlex *param_1, char *param_2); // size[129]
+	void GenerateSceneForSound(CBaseFlex *param_1, char *param_2); // size[526]
 	void GetSoundSystemLatency(); // size[64]
 	void GenerateSoundScene(CBaseFlex *param_1, char *param_2); // size[83]
 	void HasUnplayedSpeech(); // size[29]
@@ -93,7 +93,7 @@ public:
 	void SetBackground(bool param_1); // size[36]
 	void IsBackground(); // size[29]
 	void IsInterruptable(); // size[19]
-	void GetSoundNameForPlayer(CChoreoEvent *param_1, CBasePlayer *param_2, char *param_3, uint param_4, CBaseEntity *param_5); // size[449]
+	void GetSoundNameForPlayer(CChoreoEvent *param_1, CBasePlayer *param_2, char *param_3, uint param_4, CBaseEntity *param_5); // size[441]
 	void InvolvesActor(CBaseEntity *param_1); // size[96]
 	void CancelIfSceneInvolvesActor(CBaseEntity *param_1); // size[45]
 	void ValidScene(); // size[15]
@@ -102,10 +102,10 @@ public:
 	void ClearSceneEvents(CChoreoScene *param_1, bool param_2); // size[269]
 	void UnloadScene(); // size[154]
 	void ClearSchedules(CChoreoScene *param_1); // size[257]
-	void SetRecipientFilter(IRecipientFilter *param_1); // size[39]
+	void SetRecipientFilter(IRecipientFilter *param_1); // size[49]
 	void CheckActors(); // size[597]
 	void LoadScene(char *param_1, IChoreoEventCallback *param_2); // size[18]
-	void PrecacheScene(CChoreoScene *param_1); // size[227]
+	void PrecacheScene(CChoreoScene *param_1); // size[249]
 	void PrefetchSpeakEventSounds(CUtlSymbolTable *param_1, CUtlRBTree *param_2); // size[175]
 	void InputSetTarget1(inputdata_t *param_1); // size[217]
 	void InputSetTarget2(inputdata_t *param_1); // size[217]
@@ -117,6 +117,6 @@ public:
 	void InputInterjectResponse(inputdata_t *param_1); // size[473]
 	void RequestCompletionNotification(CSceneEntity *param_1); // size[103]
 	void AddListManager(CSceneListManager *param_1); // size[103]
-	void BuildSortedSpeakEventSoundsPrefetchList(CChoreoScene *param_1, CUtlSymbolTable *param_2, CUtlRBTree *param_3, float param_4); // size[600]
+	void BuildSortedSpeakEventSoundsPrefetchList(CChoreoScene *param_1, CUtlSymbolTable *param_2, CUtlRBTree *param_3, float param_4); // size[352]
 	void PrefetchAnimBlocks(CChoreoScene *param_1); // size[1550]
 };

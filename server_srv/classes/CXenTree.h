@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x1578 (5496) bytes
+// Estimated minimum size: 0x68F02840 (1760569408) bytes
 
 class CXenTree : public CActAnimating
 {
@@ -13,7 +13,7 @@ public:
 	virtual void Classify() override; // vtable[55]
 	virtual void OnTakeDamage(CTakeDamageInfo *param_1) override; // vtable[64]
 	virtual void Touch(CBaseEntity *param_1) override; // vtable[102]
-	virtual void HandleAnimEvent(animevent_t *param_1) override; // vtable[261]
+	virtual void _ZN8CXenTree15HandleAnimEventEP11animevent_t() override; // vtable[261]
 
 	void GetBaseMap(); // size[10]
 	void Attack(); // size[58]

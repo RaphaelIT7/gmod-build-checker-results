@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x2704 (9988) bytes
+// Estimated minimum size: 0x68F02840 (1760569408) bytes
 
 class CNPC_Manhack : public CNPCBaseInteractive, public CDefaultPlayerPickupVPhysics
 {
@@ -96,7 +96,7 @@ public:
 	void HitPhysicsObject(CBaseEntity *param_1); // size[764]
 	void TakeDamageFromPhyscannon(CBasePlayer *param_1); // size[27]
 	void TakeDamageFromVehicle(int param_1, gamevcollisionevent_t *param_2); // size[667]
-	void TakeDamageFromPhysicsImpact(int param_1, gamevcollisionevent_t *param_2); // size[714]
+	void TakeDamageFromPhysicsImpact(int param_1, gamevcollisionevent_t *param_2); // size[724]
 	void CreateSmokeTrail(); // size[145]
 	void DestroySmokeTrail(); // size[85]
 	void IsFlyingActivity(Activity param_1); // size[42]
@@ -121,12 +121,12 @@ public:
 	void ShowHostile(bool param_1); // size[82]
 	void StartBurst(Vector *param_1); // size[161]
 	void StopBurst(bool param_1); // size[154]
-	void Slice(CBaseEntity *param_1, float param_2, CGameTrace *param_3); // size[1262]
-	void CheckCollisions(float param_1); // size[507]
+	void Slice(CBaseEntity *param_1, float param_2, CGameTrace *param_3); // size[1259]
+	void CheckCollisions(float param_1); // size[576]
 	void StartEye(); // size[765]
-	void SetEyeState(int param_1); // size[2628]
+	void SetEyeState(int param_1); // size[2661]
 	void PlayFlySound(); // size[861]
-	void MoveExecute_Alive(float param_1); // size[1338]
+	void MoveExecute_Alive(float param_1); // size[1654]
 	void MoveExecute_Dead(float param_1); // size[1308]
 	void InitCustomSchedules(); // size[352]
 	void LoadSchedules(); // size[62]

@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x15D4 (5588) bytes
+// Estimated minimum size: 0x68F02840 (1760569408) bytes
 
 class CTripmineGrenade : public CBaseGrenade
 {

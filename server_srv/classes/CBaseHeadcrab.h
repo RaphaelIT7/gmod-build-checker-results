@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x2600 (9728) bytes
+// Estimated minimum size: 0x68F02840 (1760569408) bytes
 
 class CBaseHeadcrab : public CAI_BaseNPC
 {
@@ -65,14 +65,14 @@ public:
 	void HasHeadroom(); // size[239]
 	void Leap(Vector *param_1); // size[162]
 	void CalcDamageInfo(CTakeDamageInfo *param_1); // size[175]
-	void DropFromCeiling(); // size[168]
+	void DropFromCeiling(); // size[282]
 	void ClearBurrowPoint(Vector *param_1); // size[753]
 	void ValidBurrowPoint(Vector *param_1); // size[126]
 	void GrabHintNode(CAI_Hint *param_1); // size[70]
 	void BeginClimbFromCanister(); // size[127]
 	void JumpToBurrowHint(CAI_Hint *param_1); // size[43]
-	void JumpFromCanister(); // size[184]
-	void FindBurrow(Vector *param_1, float param_2, bool param_3); // size[377]
+	void JumpFromCanister(); // size[516]
+	void FindBurrow(Vector *param_1, float param_2, bool param_3); // size[397]
 	void Burrow(); // size[53]
 	void Unburrow(); // size[53]
 	void CreateDust(bool param_1); // size[375]

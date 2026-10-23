@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x1588 (5512) bytes
+// Estimated minimum size: 0x68F02840 (1760569408) bytes
 
 class CEnvEffectsScript : public CBaseAnimating
 {
@@ -18,7 +18,7 @@ public:
 	void TrailEffectEvent(CEffectScriptElement *param_1); // size[1585]
 	void SpriteEffectEvent(CEffectScriptElement *param_1); // size[1256]
 	void GetScriptElementByName(char *param_1); // size[83]
-	void ParseNewEffect(); // size[338]
+	void ParseNewEffect(); // size[244]
 	void LoadFromBuffer(char *param_1, char *param_2); // size[126]
 	void ParseScriptFile(); // size[232]
 };

@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x20AC (8364) bytes
+// Estimated minimum size: 0x68F02840 (1760569408) bytes
 
 class CWeaponAlyxGun : public CHLSelectFireMachineGun
 {
@@ -16,7 +16,7 @@ public:
 	virtual void GetFireRate() override; // vtable[341]
 	virtual void GetMinBurst() override; // vtable[342]
 	virtual void GetMaxBurst() override; // vtable[343]
-	virtual void _ZN14CWeaponAlyxGun14GetMinRestTimeEv() override; // vtable[344]
+	virtual void GetMinRestTime() override; // vtable[344]
 	virtual void GetMaxRestTime() override; // vtable[345]
 	virtual void GetHoldType() override; // vtable[380]
 	virtual void ActivityList() override; // vtable[388]

@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x13D8 (5080) bytes
+// Estimated minimum size: 0x68F02840 (1760569408) bytes
 
 class CEnvGlobal : public CLogicalEntity
 {
@@ -10,12 +10,12 @@ public:
 	virtual void Spawn() override; // vtable[23]
 	virtual void DrawDebugTextOverlays() override; // vtable[40]
 
-	void InputSetCounter(inputdata_t *param_1); // size[144]
-	void InputAddToCounter(inputdata_t *param_1); // size[144]
-	void InputGetCounter(inputdata_t *param_1); // size[154]
-	void InputToggle(inputdata_t *param_1); // size[170]
-	void InputTurnOff(inputdata_t *param_1); // size[125]
-	void InputRemove(inputdata_t *param_1); // size[125]
-	void InputTurnOn(inputdata_t *param_1); // size[125]
+	void InputSetCounter(inputdata_t *param_1); // size[39]
+	void InputAddToCounter(inputdata_t *param_1); // size[39]
+	void InputGetCounter(inputdata_t *param_1); // size[36]
+	void InputToggle(inputdata_t *param_1); // size[36]
+	void InputTurnOff(inputdata_t *param_1); // size[35]
+	void InputRemove(inputdata_t *param_1); // size[35]
+	void InputTurnOn(inputdata_t *param_1); // size[35]
 	void GetBaseMap(); // size[10]
 };

@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x14F0 (5360) bytes
+// Estimated minimum size: 0x68F02840 (1760569408) bytes
 
 class CTriggerProximity : public CBaseTrigger
 {
@@ -12,6 +12,6 @@ public:
 	virtual void StartTouch(CBaseEntity *param_1) override; // vtable[101]
 	virtual void EndTouch(CBaseEntity *param_1) override; // vtable[103]
 
-	void MeasureThink(); // size[546]
+	void MeasureThink(); // size[630]
 	void GetBaseMap(); // size[10]
 };

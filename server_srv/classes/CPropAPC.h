@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x1860 (6240) bytes
+// Estimated minimum size: 0x68F02840 (1760569408) bytes
 
 class CPropAPC : public CPropVehicleDriveable
 {
@@ -67,7 +67,7 @@ public:
 	void CreateAPCLaserDot(); // size[142]
 	void AddSmokeTrail(Vector *param_1); // size[280]
 	void ExplodeAndThrowChunk(Vector *param_1); // size[244]
-	void UpdateWaterLevel(); // size[211]
+	void UpdateWaterLevel(); // size[411]
 	void AimSecondaryWeaponAt(CBaseEntity *param_1); // size[494]
 	void AimPrimaryWeapon(Vector *param_1); // size[1318]
 	void DoMuzzleFlash(); // size[477]

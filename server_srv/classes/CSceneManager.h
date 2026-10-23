@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x13D8 (5080) bytes
+// Estimated minimum size: 0x68F02840 (1760569408) bytes
 
 class CSceneManager : public CBaseEntity
 {
@@ -27,5 +27,5 @@ public:
 	void RemoveSceneEntity(CSceneEntity *param_1); // size[98]
 	void OnClientActive(CBasePlayer *param_1); // size[209]
 	void AddSceneEntity(CSceneEntity *param_1); // size[97]
-	void QueueRestoredSound(CBaseFlex *param_1, char *param_2, soundlevel_t param_3, float param_4); // size[183]
+	void QueueRestoredSound(CBaseFlex *param_1, char *param_2, soundlevel_t param_3, float param_4); // size[121]
 };

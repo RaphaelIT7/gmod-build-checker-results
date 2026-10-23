@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x2A94 (10900) bytes
+// Estimated minimum size: 0x68F02840 (1760569408) bytes
 
 class CNPCSimpleTalker : public CAI_PlayerAlly
 {
@@ -84,7 +84,7 @@ public:
 
 	void GetBaseMap(); // size[10]
 	void ShouldSuspendMonolog(); // size[249]
-	void ShouldResumeMonolog(); // size[283]
+	void ShouldResumeMonolog(); // size[27]
 	void EnumFriends(CBaseEntity *param_1, int param_2, bool param_3); // size[589]
 	void AlertFriends(CBaseEntity *param_1); // size[306]
 	void ShutUpFriends(); // size[114]
@@ -97,7 +97,7 @@ public:
 	void FIdleSpeak(); // size[1142]
 	void SpeakQuestionFriend(CBaseEntity *param_1); // size[62]
 	void SpeakAnswerFriend(CBaseEntity *param_1); // size[62]
-	void TrySmellTalk(); // size[132]
+	void TrySmellTalk(); // size[44]
 	void ShouldSpeakRandom(int param_1, float param_2); // size[107]
 	void FIdleSpeakWhileMoving(); // size[284]
 	void InitCustomSchedules(); // size[489]

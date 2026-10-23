@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x1748 (5960) bytes
+// Estimated minimum size: 0x68F02840 (1760569408) bytes
 
 class CTriggerCatapult : public CBaseTrigger
 {
@@ -18,7 +18,7 @@ public:
 	void CalculateLaunchVectorPreserve(Vector param_1, CBaseEntity *param_2, CBaseEntity *param_3, bool param_4); // size[1430]
 	void OnLaunchedVictim(CBaseEntity *param_1); // size[175]
 	void LaunchByTarget(CBaseEntity *param_1, CBaseEntity *param_2); // size[578]
-	void LaunchByDirection(CBaseEntity *param_1); // size[73]
+	void LaunchByDirection(CBaseEntity *param_1); // size[367]
 	void InputSetPlayerSpeed(inputdata_t *param_1); // size[33]
 	void InputSetPhysicsSpeed(inputdata_t *param_1); // size[33]
 	void InputSetExactVelocityChoiceType(inputdata_t *param_1); // size[29]

@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x25E8 (9704) bytes
+// Estimated minimum size: 0x68F02840 (1760569408) bytes
 
 class CAI_BlendingHost : public CAI_BehaviorHost
 {

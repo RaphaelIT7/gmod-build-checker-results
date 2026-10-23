@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x13B4 (5044) bytes
+// Estimated minimum size: 0x68F02840 (1760569408) bytes
 
 class CWaterLODControl : public CBaseEntity
 {

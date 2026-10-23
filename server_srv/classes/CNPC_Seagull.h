@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x2620 (9760) bytes
+// Estimated minimum size: 0x68F02840 (1760569408) bytes
 
 class CNPC_Seagull : public CNPC_Crow
 {

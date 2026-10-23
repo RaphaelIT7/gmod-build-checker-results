@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x1468 (5224) bytes
+// Estimated minimum size: 0x68F02840 (1760569408) bytes
 
 class CAI_ActBusyGoal : public CAI_GoalEntity
 {
@@ -26,7 +26,7 @@ public:
 	void GetBaseMap(); // size[10]
 	void GetBusyBehaviorForNPC(CBaseEntity *param_1, char *param_2); // size[83]
 	void GetBusyBehaviorForNPC(char *param_1, CBaseEntity *param_2, CBaseEntity *param_3, char *param_4); // size[142]
-	void InputForceNPCToActBusy(inputdata_t *param_1); // size[952]
+	void InputForceNPCToActBusy(inputdata_t *param_1); // size[94]
 	void InputForceThisNPCToActBusy(inputdata_t *param_1); // size[228]
 	void InputForceThisNPCToLeave(inputdata_t *param_1); // size[176]
 };

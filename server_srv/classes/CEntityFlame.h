@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x13CC (5068) bytes
+// Estimated minimum size: 0x68F02840 (1760569408) bytes
 
 class CEntityFlame : public CBaseEntity
 {
@@ -17,7 +17,7 @@ public:
 	void GetBaseMap(); // size[10]
 	CEntityFlame(); // size[28]
 	void AttachToEntity(CBaseEntity *param_1); // size[217]
-	void Create(CBaseEntity *param_1, bool param_2); // size[288]
+	void Create(CBaseEntity *param_1, bool param_2); // size[184]
 	void InputIgnite(inputdata_t *param_1); // size[265]
 	void SetLifetime(float param_1); // size[78]
 	void SetUseHitboxes(bool param_1); // size[81]

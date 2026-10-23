@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x14EC (5356) bytes
+// Estimated minimum size: 0x68F02840 (1760569408) bytes
 
 class CEnvProjectedTexture : public CPointEntity
 {
@@ -15,7 +15,7 @@ public:
 
 	void _GLOBAL__sub_I_m_DataMap(); // size[112]
 	void InputSetPattern(inputdata_t *param_1); // size[100]
-	void InputSetSpotlightTexture(inputdata_t *param_1); // size[118]
+	void InputSetSpotlightTexture(inputdata_t *param_1); // size[111]
 	void InputTurnOn(inputdata_t *param_1); // size[86]
 	void InputToggle(inputdata_t *param_1); // size[96]
 	void InputTurnOff(inputdata_t *param_1); // size[99]

@@ -55,10 +55,10 @@ public:
 	void BufferReadBytes(char *param_1, int param_2); // size[107]
 	void BufferSkipBytes(int param_1); // size[34]
 	void ReadInterval(interval_t *param_1, int param_2, int param_3); // size[173]
-	void ReadGMODTable(IGMODDataTable *param_1, int param_2); // size[1617]
+	void ReadGMODTable(IGMODDataTable *param_1, int param_2); // size[1560]
 	void EntityFromIndex(int param_1); // size[118]
 	void ReadTime64(double *param_1, int param_2, int param_3); // size[197]
-	void ReadGameField(SaveRestoreRecordHeader_t *param_1, void *param_2, datamap_t *param_3, typedescription_t *param_4); // size[1293]
+	void ReadGameField(SaveRestoreRecordHeader_t *param_1, void *param_2, datamap_t *param_3, typedescription_t *param_4); // size[1197]
 	void ReadField(SaveRestoreRecordHeader_t *param_1, void *param_2, datamap_t *param_3, typedescription_t *param_4); // size[56]
 	CRestore(CSaveRestoreData *param_1); // size[115]
 };

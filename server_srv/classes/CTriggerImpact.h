@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x1504 (5380) bytes
+// Estimated minimum size: 0x68F02840 (1760569408) bytes
 
 class CTriggerImpact : public CTriggerMultiple
 {

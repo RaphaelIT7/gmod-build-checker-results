@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x2668 (9832) bytes
+// Estimated minimum size: 0x68F02840 (1760569408) bytes
 
 class CAI_TrackPather : public CAI_BaseNPC
 {
@@ -67,7 +67,7 @@ public:
 	void BestPointOnPath(CPathTrack *param_1, Vector *param_2, float param_3, bool param_4, bool param_5); // size[262]
 	void UpdateTargetPosition(); // size[645]
 	void SelectNewDestTarget(); // size[548]
-	void VisualizeDebugInfo(Vector *param_1, Vector *param_2); // size[1321]
+	void VisualizeDebugInfo(Vector *param_1, Vector *param_2); // size[946]
 	void MoveToTrackPoint(CPathTrack *param_1); // size[301]
 	void FlyToPathTrack(string_t param_1); // size[255]
 	void MoveToClosestTrackPoint(CPathTrack *param_1); // size[211]

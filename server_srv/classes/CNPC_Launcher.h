@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x2624 (9764) bytes
+// Estimated minimum size: 0x68F02840 (1760569408) bytes
 
 class CNPC_Launcher : public CAI_BaseNPC
 {
@@ -32,7 +32,7 @@ public:
 	void InputLOSCheckOff(inputdata_t *param_1); // size[56]
 	void LauncherTurnOn(); // size[67]
 	void InputTurnOn(inputdata_t *param_1); // size[9]
-	void LaunchGrenade(CBaseEntity *param_1); // size[524]
+	void LaunchGrenade(CBaseEntity *param_1); // size[919]
 	void LauncherThink(); // size[395]
 	void InputFireOnce(inputdata_t *param_1); // size[55]
 };

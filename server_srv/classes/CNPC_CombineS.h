@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x2BDC (11228) bytes
+// Estimated minimum size: 0x68F02840 (1760569408) bytes
 
 class CNPC_CombineS : public CNPC_Combine
 {

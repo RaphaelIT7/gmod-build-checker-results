@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x1560 (5472) bytes
+// Estimated minimum size: 0x68F02840 (1760569408) bytes
 
 class CBaseAnimating : public CBaseEntity
 {
@@ -92,7 +92,7 @@ public:
 	void SetIKGroundContactInfo(float param_1, float param_2); // size[12]
 	void InitStepHeightAdjust(); // size[89]
 	CBaseAnimating(); // size[37]
-	void UpdateStepOrigin(); // size[263]
+	void UpdateStepOrigin(); // size[610]
 	void GetAttachment(int param_1, Vector *param_2, QAngle *param_3); // size[85]
 	void GetAttachment(int param_1, Vector *param_2, Vector *param_3, Vector *param_4, Vector *param_5); // size[269]
 	void GetAttachmentLocal(int param_1, matrix3x4_t *param_2); // size[111]
@@ -179,7 +179,7 @@ public:
 	void LookupHitbox(char *param_1, int *param_2, int *param_3); // size[444]
 	void CopyAnimationDataFrom(CBaseAnimating *param_1); // size[139]
 	void GetHitboxesFrontside(int *param_1, int param_2, Vector *param_3, float param_4); // size[452]
-	void EnableServerIK(); // size[40]
+	void EnableServerIK(); // size[73]
 	void GetSequenceActivity(int param_1); // size[208]
 	void DoMuzzleFlash(); // size[84]
 	void SetModelScale(float param_1, float param_2); // size[383]

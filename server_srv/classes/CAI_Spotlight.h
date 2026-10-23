@@ -14,7 +14,7 @@ public:
 	void Init(CAI_BaseNPC *param_1, int param_2, float param_3, float param_4); // size[191]
 	void ComputeEndpoint(Vector *param_1, Vector *param_2); // size[341]
 	void SpotlightDestroy(); // size[138]
-	void CreateSpotlightEntities(); // size[299]
+	void CreateSpotlightEntities(); // size[77]
 	void SpotlightCreate(int param_1, Vector *param_2); // size[234]
 	void SetSpotlightTargetPos(Vector *param_1); // size[40]
 	void SetSpotlightTargetDirection(Vector *param_1); // size[202]

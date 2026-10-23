@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x186C (6252) bytes
+// Estimated minimum size: 0x68F02840 (1760569408) bytes
 
 class CWeaponSWEP : public CBaseHL2MPCombatWeapon
 {

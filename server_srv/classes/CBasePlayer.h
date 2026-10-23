@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x2A58 (10840) bytes
+// Estimated minimum size: 0x68F02840 (1760569408) bytes
 
 class CBasePlayer : public CBaseCombatCharacter
 {
@@ -242,11 +242,11 @@ public:
 	void SetAllowWeaponsInVehicle(bool param_1); // size[328]
 	void CacheVehicleView(); // size[103]
 	void EyeVectors(Vector *param_1, Vector *param_2, Vector *param_3); // size[118]
-	void EyePositionAndVectors(Vector *param_1, Vector *param_2, Vector *param_3, Vector *param_4); // size[173]
+	void EyePositionAndVectors(Vector *param_1, Vector *param_2, Vector *param_3, Vector *param_4); // size[223]
 	void AbortReload(); // size[54]
 	void ClearPlayerSimulationList(); // size[130]
 	void ViewPunchReset(float param_1); // size[178]
-	void SmoothViewOnStairs(Vector *param_1); // size[19]
+	void SmoothViewOnStairs(Vector *param_1); // size[403]
 	void CalcViewModelView(Vector *param_1, QAngle *param_2); // size[83]
 	void CalcPlayerView(Vector *param_1, QAngle *param_2, float *param_3); // size[53]
 	void CalcVehicleView(IServerVehicle *param_1, Vector *param_2, QAngle *param_3, float *param_4, float *param_5, float *param_6); // size[26]
@@ -300,13 +300,13 @@ public:
 	void ForceSimulation(); // size[18]
 	void IsUserCmdDataValid(CUserCmd *param_1); // size[88]
 	void DumpPerfToRecipient(CBasePlayer *param_1, int param_2); // size[450]
-	void HandleFuncTrain(); // size[92]
+	void HandleFuncTrain(); // size[627]
 	void CheckTimeBasedDamage(); // size[462]
 	void CheckSuitUpdate(); // size[296]
 	void SetSuitUpdate(char *param_1, int param_2, int param_3); // size[500]
 	void UpdatePlayerSound(); // size[356]
 	void IsRideablePhysics(IPhysicsObject *param_1); // size[78]
-	void GetGroundVPhysics(); // size[18]
+	void GetGroundVPhysics(); // size[71]
 	void ForceOrigin(Vector *param_1); // size[20]
 	void UpdateVPhysicsPosition(Vector *param_1, Vector *param_2, float param_3); // size[112]
 	void RunLastCommand(); // size[725]
@@ -330,7 +330,7 @@ public:
 	void ClearUseEntity(); // size[219]
 	void HideViewModels(); // size[103]
 	void SetVCollisionState(Vector *param_1, Vector *param_2, int param_3); // size[424]
-	void SetupVPhysicsShadow(Vector *param_1, Vector *param_2, CPhysCollide *param_3, char *param_4, CPhysCollide *param_5, char *param_6); // size[250]
+	void SetupVPhysicsShadow(Vector *param_1, Vector *param_2, CPhysCollide *param_3, char *param_4, CPhysCollide *param_5, char *param_6); // size[220]
 	void PostThinkVPhysics(); // size[1302]
 	void GetFOVDistanceAdjustFactorForNetworking(); // size[122]
 	void SetDefaultFOV(int param_1); // size[78]
@@ -343,7 +343,7 @@ public:
 	void InitColorCorrectionController(); // size[200]
 	void SetViewEntity(CBaseEntity *param_1); // size[68]
 	void HasAnyAmmoOfType(int param_1); // size[266]
-	void GetNetworkIDString(); // size[74]
+	void GetNetworkIDString(); // size[66]
 	void SetPlayerName(char *param_1); // size[43]
 	void ToggleDuck(); // size[76]
 	void GetStickDist(); // size[51]

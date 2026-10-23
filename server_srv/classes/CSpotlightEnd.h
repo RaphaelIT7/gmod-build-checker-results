@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x13B4 (5044) bytes
+// Estimated minimum size: 0x68F02840 (1760569408) bytes
 
 class CSpotlightEnd : public CBaseEntity
 {
@@ -13,5 +13,5 @@ public:
 	virtual void ObjectCaps() override; // vtable[36]
 
 	void _GLOBAL__sub_I_GetServerClass(); // size[112]
-	void GetBaseMap(); // size[1]
+	void GetBaseMap(); // size[10]
 };

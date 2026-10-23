@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x15A8 (5544) bytes
+// Estimated minimum size: 0x68F02840 (1760569408) bytes
 
 class CHandGrenade : public CHL1BaseGrenade
 {

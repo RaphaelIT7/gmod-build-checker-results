@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x1994 (6548) bytes
+// Estimated minimum size: 0x68F02840 (1760569408) bytes
 
 class CPropVehicleChoreoGeneric : public CDynamicProp, public IDrivableVehicle
 {

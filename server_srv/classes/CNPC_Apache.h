@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x26D4 (9940) bytes
+// Estimated minimum size: 0x68F02840 (1760569408) bytes
 
 class CNPC_Apache : public CBaseHelicopter_HL1
 {
@@ -31,5 +31,5 @@ public:
 	void _GLOBAL__sub_I_m_DataMap(); // size[113]
 	void GetBaseMap(); // size[10]
 	void LaunchRocket(Vector *param_1, int param_2, int param_3, Vector param_4); // size[194]
-	void FireRocket(); // size[133]
+	void FireRocket(); // size[655]
 };

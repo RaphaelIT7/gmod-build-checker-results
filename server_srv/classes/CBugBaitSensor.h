@@ -1,10 +1,10 @@
 // Generated header
-// Estimated minimum size: 0x13B8 (5048) bytes
+// Estimated minimum size: 0x68F02840 (1760569408) bytes
 
 class CBugBaitSensor : public CPointEntity
 {
 public:
-	virtual _ZN14CBugBaitSensorD2Ev() override; // vtable[0]
+	virtual ~CBugBaitSensor() override; // vtable[0]
 	virtual ~CBugBaitSensor() override; // vtable[1]
 	virtual void GetDataDescMap() override; // vtable[12]
 

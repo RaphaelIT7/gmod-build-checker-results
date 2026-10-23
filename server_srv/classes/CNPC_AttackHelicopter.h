@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x289C (10396) bytes
+// Estimated minimum size: 0x68F02840 (1760569408) bytes
 
 class CNPC_AttackHelicopter : public CBaseHelicopter
 {
@@ -96,8 +96,8 @@ public:
 	void ShootAtPlayer(Vector *param_1, Vector *param_2); // size[1490]
 	void PickDirectionToCircleOfDeath(Vector *param_1, Vector *param_2, Vector *param_3); // size[352]
 	void AimCloseToTargetButMiss(CBaseEntity *param_1, float param_2, float param_3, Vector *param_4, Vector *param_5); // size[316]
-	void ShootInsideCircleOfDeath(Vector *param_1, Vector *param_2); // size[334]
-	void ShootAtVehicle(Vector *param_1, Vector *param_2); // size[1255]
+	void ShootInsideCircleOfDeath(Vector *param_1, Vector *param_2); // size[391]
+	void ShootAtVehicle(Vector *param_1, Vector *param_2); // size[1141]
 	void PoseGunTowardTargetDirection(Vector *param_1); // size[827]
 	void ComputeFireAtPosition(Vector *param_1); // size[49]
 	void ComputeVehicleFireAtPosition(Vector *param_1); // size[123]
@@ -128,8 +128,8 @@ public:
 	void ShouldBombIdlePlayer(); // size[131]
 	void ShouldDropBombs(); // size[134]
 	void UpdatePerpPathDistance(float param_1); // size[695]
-	void UpdateFacingDirection(Vector *param_1); // size[507]
-	void InputDropBombStraightDown(inputdata_t *param_1); // size[291]
+	void UpdateFacingDirection(Vector *param_1); // size[870]
+	void InputDropBombStraightDown(inputdata_t *param_1); // size[218]
 	void InputDropBombAtTargetInternal(inputdata_t *param_1, bool param_2); // size[800]
 	void InputDropBombAtTargetAlways(inputdata_t *param_1); // size[34]
 	void InputDropBombAtTarget(inputdata_t *param_1); // size[34]
@@ -143,7 +143,7 @@ public:
 	void BullrushBombs(); // size[607]
 	void InputDropBomb(inputdata_t *param_1); // size[229]
 	void DropBombs(); // size[585]
-	void InitCustomSchedules(); // size[312]
+	void InitCustomSchedules(); // size[363]
 	void LoadSchedules(); // size[62]
 	CNPC_AttackHelicopter(); // size[517]
 };

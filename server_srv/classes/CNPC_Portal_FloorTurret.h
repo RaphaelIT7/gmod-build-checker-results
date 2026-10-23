@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x2768 (10088) bytes
+// Estimated minimum size: 0x68F02840 (1760569408) bytes
 
 class CNPC_Portal_FloorTurret : public CNPC_FloorTurret
 {

@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x2618 (9752) bytes
+// Estimated minimum size: 0x68F02840 (1760569408) bytes
 
 class CNPC_Tentacle : public CHL1BaseNPC
 {
@@ -36,15 +36,15 @@ public:
 	virtual void OnMoveStalled(AILocalMoveGoal_t *param_1); // vtable[7]
 	virtual void OnMoveExecuteFailed(AILocalMoveGoal_t *param_1, AIMoveTrace_t *param_2, AIMotorMoveResult_t param_3, AIMoveResult_t *param_4); // vtable[8]
 
-	void HitTouch(CBaseEntity *param_1); // size[477]
+	void HitTouch(CBaseEntity *param_1); // size[379]
 	void Start(); // size[73]
 	void GetBaseMap(); // size[10]
 	void Level(float param_1); // size[59]
 	void MyHeight(); // size[60]
 	void MyLevel(); // size[34]
-	void HeardAnything(); // size[103]
-	void Cycle(); // size[205]
-	void InitCustomSchedules(); // size[15]
+	void HeardAnything(); // size[26]
+	void Cycle(); // size[25]
+	void InitCustomSchedules(); // size[348]
 	void LoadSchedules(); // size[62]
 	CNPC_Tentacle(); // size[26]
 };

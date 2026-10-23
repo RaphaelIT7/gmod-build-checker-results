@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x13BC (5052) bytes
+// Estimated minimum size: 0x68F02840 (1760569408) bytes
 
 class CInfoCameraLink : public CLogicalEntity
 {
@@ -10,7 +10,7 @@ public:
 	virtual void Activate() override; // vtable[34]
 
 	void GetBaseMap(); // size[10]
-	void SetCameraByName(char *param_1); // size[58]
+	void SetCameraByName(char *param_1); // size[50]
 	void InputSetCamera(inputdata_t *param_1); // size[75]
 	CInfoCameraLink(); // size[27]
 };

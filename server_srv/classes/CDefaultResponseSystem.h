@@ -22,5 +22,5 @@ public:
 	virtual ~CDefaultResponseSystem() override; // vtable[14]
 
 	void DestroyCustomResponseSystems(); // size[82]
-	void BuildCustomResponseSystemGivenCriteria(char *param_1, char *param_2, AI_CriteriaSet *param_3, float param_4); // size[24]
+	void BuildCustomResponseSystemGivenCriteria(char *param_1, char *param_2, AI_CriteriaSet *param_3, float param_4); // size[64]
 };

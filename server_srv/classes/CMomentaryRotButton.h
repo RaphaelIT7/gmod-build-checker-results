@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x15A8 (5544) bytes
+// Estimated minimum size: 0x68F02840 (1760569408) bytes
 
 class CMomentaryRotButton : public CRotButton
 {
@@ -22,7 +22,7 @@ public:
 	void InputEnable(inputdata_t *param_1); // size[17]
 	void InputDisable(inputdata_t *param_1); // size[17]
 	void InputSetPositionImmediately(inputdata_t *param_1); // size[159]
-	void UpdateTarget(float param_1, CBaseEntity *param_2); // size[66]
+	void UpdateTarget(float param_1, CBaseEntity *param_2); // size[150]
 	void GetBaseMap(); // size[10]
 	void GetPos(QAngle *param_1); // size[175]
 	void InputSetPosition(inputdata_t *param_1); // size[275]

@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x25E8 (9704) bytes
+// Estimated minimum size: 0x68F02840 (1760569408) bytes
 
 class CAI_BaseHumanoid : public CAI_BlendingHost
 {
@@ -151,5 +151,5 @@ public:
 	virtual void BackBridge_HandleAnimEvent(animevent_t *param_1); // vtable[27]
 
 	void _GLOBAL__sub_I_HandleInteraction(); // size[113]
-	void OnMoveBlocked(AIMoveResult_t *param_1); // size[159]
+	void OnMoveBlocked(AIMoveResult_t *param_1); // size[218]
 };

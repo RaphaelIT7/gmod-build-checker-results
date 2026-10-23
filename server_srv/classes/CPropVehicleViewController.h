@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x17C4 (6084) bytes
+// Estimated minimum size: 0x68F02840 (1760569408) bytes
 
 class CPropVehicleViewController : public CPropVehicleDriveable
 {

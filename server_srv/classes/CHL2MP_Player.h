@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x2BCC (11212) bytes
+// Estimated minimum size: 0x68F02840 (1760569408) bytes
 
 class CHL2MP_Player : public CHL2_Player
 {

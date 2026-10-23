@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x98 (152) bytes
+// Estimated minimum size: 0x58 (88) bytes
 
 class CScriptedEntity
 {
@@ -10,10 +10,10 @@ public:
 	void GetBaseMap(); // size[7]
 	~CScriptedEntity(); // size[14]
 	void Init(CBaseEntity *param_1, int param_2); // size[20]
-	void SetModuleName(char *param_1); // size[37]
-	void SetSelfName(char *param_1); // size[39]
-	void SetScriptName(char *param_1); // size[102]
-	CScriptedEntity(); // size[124]
+	void SetModuleName(char *param_1); // size[35]
+	void SetSelfName(char *param_1); // size[37]
+	void SetScriptName(char *param_1); // size[49]
+	CScriptedEntity(); // size[54]
 	void Ready(); // size[58]
 	void StartFunction(char *param_1); // size[208]
 	void StartFunction(int param_1); // size[203]

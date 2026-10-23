@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x25D8 (9688) bytes
+// Estimated minimum size: 0x68F02840 (1760569408) bytes
 
 class CNPC_AlienGrunt : public CHL1BaseNPC
 {
@@ -28,7 +28,7 @@ public:
 	virtual void SquadSlotName(int param_1) override; // vtable[582]
 	virtual void RangeAttack1Conditions(float param_1, float param_2) override; // vtable[596]
 	virtual void MeleeAttack1Conditions(float param_1, float param_2) override; // vtable[598]
-	virtual void _ZN15CNPC_AlienGrunt16FCanCheckAttacksEv() override; // vtable[616]
+	virtual void FCanCheckAttacks() override; // vtable[616]
 	virtual void GetClassScheduleIdSpace() override; // vtable[641]
 	virtual void CalcYawSpeed(); // vtable[0]
 	virtual void OnCalcBaseMove(AILocalMoveGoal_t *param_1, float param_2, AIMoveResult_t *param_3); // vtable[1]
@@ -44,6 +44,6 @@ public:
 	void ShouldSpeak(); // size[86]
 	void StopTalking(); // size[105]
 	void AttackSound(); // size[52]
-	void InitCustomSchedules(); // size[324]
-	void LoadSchedules(); // size[38]
+	void InitCustomSchedules(); // size[387]
+	void LoadSchedules(); // size[62]
 };

@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x23D4 (9172) bytes
+// Estimated minimum size: 0x68F02840 (1760569408) bytes
 
 class CPlayerResource : public CBaseEntity
 {

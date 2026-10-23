@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x98 (152) bytes
+// Estimated minimum size: 0x58 (88) bytes
 
 class CSENT_point_NetworkVar_m_ScriptedEntity : public CScriptedEntity
 {

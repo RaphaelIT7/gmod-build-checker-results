@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x568C (22156) bytes
+// Estimated minimum size: 0x68F02840 (1760569408) bytes
 
 class CNPC_Barnacle : public CAI_BaseNPC
 {
@@ -44,7 +44,7 @@ public:
 	void AttachRagdollToTongue(CBaseAnimating *param_1); // size[1175]
 	void SprayBlood(); // size[74]
 	void RemoveRagdoll(bool param_1); // size[573]
-	void LostPrey(bool param_1); // size[82]
+	void LostPrey(bool param_1); // size[1280]
 	void SpitPrey(); // size[298]
 	void WaitForRagdollToSettle(float param_1); // size[941]
 	void SwallowPrey(); // size[513]
@@ -57,7 +57,7 @@ public:
 	void LiftPrey(); // size[481]
 	void OnTongueTipUpdated(); // size[202]
 	void UpdateTongue(); // size[206]
-	void AttachTongueToTarget(CBaseEntity *param_1, Vector param_2); // size[153]
+	void AttachTongueToTarget(CBaseEntity *param_1, Vector param_2); // size[354]
 	void WaitTillDead(); // size[421]
 	void SpawnDeathGibs(); // size[181]
 	void IsPoisonous(CBaseEntity *param_1); // size[169]
@@ -67,7 +67,7 @@ public:
 	void DropTongue(); // size[410]
 	void InputDropTongue(inputdata_t *param_1); // size[9]
 	void BarnacleThink(); // size[1608]
-	void InitCustomSchedules(); // size[430]
+	void InitCustomSchedules(); // size[472]
 	void LoadSchedules(); // size[62]
 	CNPC_Barnacle(); // size[20]
 };

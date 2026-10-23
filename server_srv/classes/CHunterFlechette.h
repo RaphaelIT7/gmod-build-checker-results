@@ -1,11 +1,11 @@
 // Generated header
-// Estimated minimum size: 0x17C8 (6088) bytes
+// Estimated minimum size: 0x68F02840 (1760569408) bytes
 
 class CHunterFlechette : public CPhysicsProp, public IParentPropInteraction
 {
 public:
 	virtual ~CHunterFlechette() override; // vtable[0]
-	virtual void _ZN16CHunterFlechetteD0Ev() override; // vtable[1]
+	virtual ~CHunterFlechette() override; // vtable[1]
 	virtual void GetDataDescMap() override; // vtable[12]
 	virtual void Spawn() override; // vtable[23]
 	virtual void Precache() override; // vtable[24]
@@ -64,9 +64,9 @@ public:
 	virtual void OnParentCollisionInteraction(parentCollisionInteraction_t param_1, int param_2, gamevcollisionevent_t *param_3); // vtable[0]
 	virtual void OnParentPhysGunDrop(CBasePlayer *param_1, PhysGunDrop_t param_2); // vtable[1]
 
-	void BubbleThink(); // size[13]
+	void BubbleThink(); // size[265]
 	void DangerSoundThink(); // size[50]
-	void DopplerThink(); // size[227]
+	void DopplerThink(); // size[93]
 	void SeekThink(); // size[580]
 	void GetBaseMap(); // size[10]
 	void FlechetteCreate(Vector *param_1, QAngle *param_2, CBaseEntity *param_3); // size[113]

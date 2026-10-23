@@ -10,5 +10,5 @@ public:
 	virtual void InitLibraries(ILuaInterface *param_1); // vtable[3]
 
 	CLuaUser(); // size[18]
-	void SetUsingLua(bool param_1); // size[95]
+	void SetUsingLua(bool param_1); // size[144]
 };

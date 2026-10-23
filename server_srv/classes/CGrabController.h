@@ -17,5 +17,5 @@ public:
 	void AttachEntity(CBasePlayer *param_1, CBaseEntity *param_2, IPhysicsObject *param_3, bool param_4, Vector *param_5, bool param_6); // size[1682]
 	void ComputeError(); // size[376]
 	void GetSavedMass(IPhysicsObject *param_1); // size[183]
-	void UpdateObject(CBasePlayer *param_1, float param_2); // size[120]
+	void UpdateObject(CBasePlayer *param_1, float param_2); // size[3437]
 };

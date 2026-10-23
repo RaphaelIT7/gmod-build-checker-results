@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x16B4 (5812) bytes
+// Estimated minimum size: 0x68F02840 (1760569408) bytes
 
 class CWeaponCrowbar_HL1 : public CBaseHL1MPCombatWeapon
 {

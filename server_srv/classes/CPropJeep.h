@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x18AC (6316) bytes
+// Estimated minimum size: 0x68F02840 (1760569408) bytes
 
 class CPropJeep : public CPropVehicleDriveable
 {
@@ -75,7 +75,7 @@ public:
 	CPropJeep(); // size[632]
 	void AimGunAt(Vector *param_1, float param_2); // size[1497]
 	void InitWaterData(); // size[99]
-	void CheckWaterLevel(); // size[199]
+	void CheckWaterLevel(); // size[488]
 	void CheckWater(); // size[178]
 	void CreateSplash(Vector *param_1); // size[3]
 	void CreateRipple(Vector *param_1); // size[18]
@@ -87,7 +87,7 @@ public:
 	void FireChargedCannon(); // size[91]
 	void ComputePDControllerCoefficients(float *param_1, float param_2, float param_3, float param_4); // size[106]
 	void DampenForwardMotion(Vector *param_1, QAngle *param_2, float param_3); // size[53]
-	void DampenUpMotion(Vector *param_1, QAngle *param_2, float param_3); // size[65]
+	void DampenUpMotion(Vector *param_1, QAngle *param_2, float param_3); // size[145]
 	void CreateDangerSounds(); // size[933]
 	void AddSeagullPoop(Vector *param_1); // size[775]
 	void SpawnPerchedSeagull(); // size[263]

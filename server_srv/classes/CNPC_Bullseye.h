@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x2608 (9736) bytes
+// Estimated minimum size: 0x68F02840 (1760569408) bytes
 
 class CNPC_Bullseye : public CAI_BaseNPC
 {

@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x1438 (5176) bytes
+// Estimated minimum size: 0x68F02840 (1760569408) bytes
 
 class CSmokeStack : public CBaseParticleEntity
 {

@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x1520 (5408) bytes
+// Estimated minimum size: 0x68F02840 (1760569408) bytes
 
 class CChangeLevel : public CBaseTrigger
 {
@@ -14,7 +14,7 @@ public:
 	void GetBaseMap(); // size[10]
 	void FindLandmark(char *param_1); // size[169]
 	void WarnAboutActiveLead(); // size[107]
-	void AddTransitionToList(levellist_t *param_1, int param_2, char *param_3, char *param_4, edict_t *param_5); // size[295]
+	void AddTransitionToList(levellist_t *param_1, int param_2, char *param_3, char *param_4, edict_t *param_5); // size[228]
 	void BuildChangeLevelList(levellist_t *param_1, int param_2); // size[25]
 	void ComputeEntitySaveFlags(CBaseEntity *param_1); // size[159]
 	void AddDependentEntities(int param_1, CBaseEntity * *param_2, int *param_3, int param_4); // size[673]
@@ -23,7 +23,7 @@ public:
 	void NotifyEntitiesOutOfTransition(); // size[250]
 	void BuildEntityTransitionList(CBaseEntity *param_1, char *param_2, CBaseEntity * *param_3, int *param_4, int param_5); // size[334]
 	void ChangeList(levellist_t *param_1, int param_2); // size[434]
-	void ChangeLevelNow(CBaseEntity *param_1); // size[1211]
+	void ChangeLevelNow(CBaseEntity *param_1); // size[827]
 	void InputChangeLevel(inputdata_t *param_1); // size[90]
 	void TouchChangeLevel(CBaseEntity *param_1); // size[214]
 };

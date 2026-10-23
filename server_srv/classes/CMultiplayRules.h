@@ -148,8 +148,8 @@ public:
 	void IsLoadingBugBaitReport(); // size[101]
 	void HaveAllPlayersSpeakConceptIfAllowed(int param_1, int param_2, char *param_3); // size[245]
 	void LoapMapCycleFileIntoVector(char *param_1, CUtlVector *param_2); // size[666]
-	void DetermineMapCycleFilename(char *param_1, int param_2, bool param_3); // size[526]
+	void DetermineMapCycleFilename(char *param_1, int param_2, bool param_3); // size[228]
 	void LoadMapCycleFile(); // size[197]
-	void LoadVoiceCommandScript(); // size[502]
+	void LoadVoiceCommandScript(); // size[461]
 	CMultiplayRules(); // size[448]
 };

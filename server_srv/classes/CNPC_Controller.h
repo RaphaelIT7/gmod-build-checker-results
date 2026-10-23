@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x264C (9804) bytes
+// Estimated minimum size: 0x68F02840 (1760569408) bytes
 
 class CNPC_Controller : public CAI_BaseFlyingBot
 {
@@ -52,9 +52,9 @@ public:
 
 	void GetBaseMap(); // size[10]
 	void AttackSound(); // size[44]
-	void LookupFloat(); // size[205]
+	void LookupFloat(); // size[429]
 	void Stop(); // size[36]
-	void OverridePathMove(float param_1); // size[492]
+	void OverridePathMove(float param_1); // size[125]
 	void InitCustomSchedules(); // size[5]
 	void LoadSchedules(); // size[62]
 };

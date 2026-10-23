@@ -14,7 +14,7 @@ public:
 	void NoShootWhileMove(); // size[12]
 	void HasAvailableRangeAttack(); // size[79]
 	void StartShootWhileMove(); // size[401]
-	void CanAimAtEnemy(); // size[240]
+	void CanAimAtEnemy(); // size[108]
 	void UpdateMoveShootActivity(bool param_1); // size[159]
 	void RunShootWhileMove(); // size[922]
 	void EndShootWhileMove(); // size[20]

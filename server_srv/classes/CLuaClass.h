@@ -9,8 +9,8 @@ public:
 	void Get(int param_1); // size[147]
 	void Is(int param_1); // size[41]
 	~CLuaClass(); // size[77]
-	CLuaClass(char *param_1, int param_2, _func_void *param_3, char *param_4); // size[75]
-	void Add(CLuaClassFunction *param_1); // size[125]
+	CLuaClass(char *param_1, int param_2, _func_void *param_3, char *param_4); // size[298]
+	void Add(CLuaClassFunction *param_1); // size[169]
 	void Push(void *param_1); // size[73]
 	void Shutdown(); // size[13]
 };

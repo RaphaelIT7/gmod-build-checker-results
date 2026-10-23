@@ -3421,7 +3421,7 @@
     "VProcessUtils001",
     "CUtlBuffer::EnsureCapacity funny number %i\n",
     "CUtlMemory::EnsureCapacity funny number %i\n",
-    "CUtlBuffer::SeekPut overflow on non growable memory!",
+    "CUtlBuffer::CheckPut underflow %i\n",
     "18CUtlCharConversion",
     "21CUtlCStringConversion",
     "19CUtlNoEscConversion",

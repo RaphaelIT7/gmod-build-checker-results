@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x14D8 (5336) bytes
+// Estimated minimum size: 0x68F02840 (1760569408) bytes
 
 class CTonemapTrigger : public CBaseTrigger
 {

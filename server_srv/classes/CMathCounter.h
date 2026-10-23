@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x1438 (5176) bytes
+// Estimated minimum size: 0x68F02840 (1760569408) bytes
 
 class CMathCounter : public CLogicalEntity
 {
@@ -13,12 +13,12 @@ public:
 
 	void InputEnable(inputdata_t *param_1); // size[15]
 	void InputDisable(inputdata_t *param_1); // size[15]
-	void InputSetValueNoFire(inputdata_t *param_1); // size[165]
-	void InputSetMaxValueNoFire(inputdata_t *param_1); // size[190]
-	void InputSetMinValueNoFire(inputdata_t *param_1); // size[190]
-	void InputGetValue(inputdata_t *param_1); // size[65]
+	void InputSetValueNoFire(inputdata_t *param_1); // size[167]
+	void InputSetMaxValueNoFire(inputdata_t *param_1); // size[192]
+	void InputSetMinValueNoFire(inputdata_t *param_1); // size[192]
+	void InputGetValue(inputdata_t *param_1); // size[152]
 	void GetBaseMap(); // size[10]
-	void UpdateOutValue(CBaseEntity *param_1, float param_2); // size[486]
+	void UpdateOutValue(CBaseEntity *param_1, float param_2); // size[570]
 	void InputSetHitMax(inputdata_t *param_1); // size[85]
 	void InputSetHitMin(inputdata_t *param_1); // size[81]
 	void InputAdd(inputdata_t *param_1); // size[77]

@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x186C (6252) bytes
+// Estimated minimum size: 0x68F02840 (1760569408) bytes
 
 class CPropAirboat : public CPropVehicleDriveable
 {
@@ -88,7 +88,7 @@ public:
 	void RemoveAmmo(float param_1); // size[90]
 	void RechargeAmmo(); // size[315]
 	void ComputeAimPoint(Vector *param_1); // size[984]
-	void UpdateWaterLevel(); // size[211]
+	void UpdateWaterLevel(); // size[464]
 	void UpdatePropeller(); // size[677]
 	void UpdateGauge(); // size[208]
 	void CreateSounds(); // size[20]
@@ -101,7 +101,7 @@ public:
 	void CreateDangerSounds(); // size[524]
 	void ComputePDControllerCoefficients(float *param_1, float param_2, float param_3, float param_4); // size[106]
 	void DampenForwardMotion(Vector *param_1, QAngle *param_2, float param_3); // size[53]
-	void DampenUpMotion(Vector *param_1, QAngle *param_2, float param_3); // size[65]
+	void DampenUpMotion(Vector *param_1, QAngle *param_2, float param_3); // size[145]
 	void CreateSplash(int param_1); // size[755]
 	void UpdateSplashEffects(); // size[27]
 	void CalculatePhysicsStressDamage(vphysics_objectstress_t *param_1, IPhysicsObject *param_2); // size[134]

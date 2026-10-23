@@ -8,7 +8,7 @@ public:
 	virtual ~CAI_LocalNavigator() override; // vtable[1]
 
 	void GetBaseMap(); // size[7]
-	CAI_LocalNavigator(CAI_BaseNPC *param_1); // size[90]
+	CAI_LocalNavigator(CAI_BaseNPC *param_1); // size[136]
 	void Init(IAI_MovementSink *param_1); // size[29]
 	void ResetMoveCalculations(); // size[83]
 	void AddObstacle(Vector *param_1, float param_2, AI_MoveSuggType_t param_3); // size[58]

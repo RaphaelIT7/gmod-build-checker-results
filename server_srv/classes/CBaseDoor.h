@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x1564 (5476) bytes
+// Estimated minimum size: 0x68F02840 (1760569408) bytes
 
 class CBaseDoor : public CBaseToggle
 {

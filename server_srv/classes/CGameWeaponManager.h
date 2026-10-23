@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x13D4 (5076) bytes
+// Estimated minimum size: 0x68F02840 (1760569408) bytes
 
 class CGameWeaponManager : public CBaseEntity
 {

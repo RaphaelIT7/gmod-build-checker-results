@@ -28,7 +28,7 @@ public:
 	void IsInjured(); // size[9]
 	void SpeakIfAllowed(char *param_1); // size[108]
 	void NumKnownEnemiesInRadius(Vector *param_1, float param_2); // size[430]
-	void InitCustomSchedules(); // size[262]
+	void InitCustomSchedules(); // size[310]
 	void LoadSchedules(); // size[62]
 	CAI_BehaviorAlyxInjured(); // size[191]
 	void PopulateActivityMap(); // size[531]

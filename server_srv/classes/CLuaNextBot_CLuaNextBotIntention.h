@@ -21,5 +21,5 @@ public:
 	virtual void IsPositionAllowed(INextBot *param_1, Vector *param_2); // vtable[8]
 	virtual void SelectMoreDangerousThreat(INextBot *param_1, CBaseCombatCharacter *param_2, CKnownEntity *param_3, CKnownEntity *param_4); // vtable[9]
 
-	CLuaNextBotIntention(CLuaNextBot *param_1); // size[65]
+	CLuaNextBotIntention(CLuaNextBot *param_1); // size[268]
 };

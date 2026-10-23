@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x2E9C (11932) bytes
+// Estimated minimum size: 0x68F02840 (1760569408) bytes
 
 class CNPC_PlayerCompanion : public CAI_PlayerAlly
 {
@@ -144,7 +144,7 @@ public:
 	void InputCancelEnterVehicle(inputdata_t *param_1); // size[16]
 	void GetReadinessLevel(); // size[82]
 	void GetBaseMap(); // size[10]
-	void SelectSchedulePlayerPush(); // size[109]
+	void SelectSchedulePlayerPush(); // size[26]
 	void AllowReadinessValueChange(); // size[47]
 	void SetReadinessValue(float param_1); // size[246]
 	void AddReadiness(float param_1, bool param_2); // size[66]
@@ -158,7 +158,7 @@ public:
 	void GetReadinessLevel(); // size[25]
 	void SetAimTarget(CBaseEntity *param_1); // size[133]
 	void StopAiming(char *param_1); // size[77]
-	void ShouldBeAiming(); // size[138]
+	void ShouldBeAiming(); // size[132]
 	void TranslateActivityReadiness(Activity param_1); // size[439]
 	void HasAimLOS(CBaseEntity *param_1); // size[394]
 	void FindNewAimTarget(); // size[415]

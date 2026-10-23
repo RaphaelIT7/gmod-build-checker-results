@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x25C4 (9668) bytes
+// Estimated minimum size: 0x68F02840 (1760569408) bytes
 
 class CAI_BlendedNPC : public CAI_BlendingHost
 {

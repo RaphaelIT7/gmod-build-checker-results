@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x2620 (9760) bytes
+// Estimated minimum size: 0x68F02840 (1760569408) bytes
 
 class CNPC_Crow : public CAI_BaseNPC
 {
@@ -16,7 +16,7 @@ public:
 	virtual void BodyTarget(Vector *param_1, bool param_2) override; // vtable[137]
 	virtual void BecomeRagdollOnClient(Vector *param_1) override; // vtable[253]
 	virtual void HandleAnimEvent(animevent_t *param_1) override; // vtable[261]
-	virtual void _ZN9CNPC_Crow17HandleInteractionEiPvP20CBaseCombatCharacter() override; // vtable[298]
+	virtual void HandleInteraction(int param_1, void *param_2, CBaseCombatCharacter *param_3) override; // vtable[298]
 	virtual void NPC_TranslateActivity(Activity param_1) override; // vtable[322]
 	virtual void OnTakeDamage_Alive(CTakeDamageInfo *param_1) override; // vtable[338]
 	virtual void CorpseGib(CTakeDamageInfo *param_1) override; // vtable[348]
@@ -55,9 +55,9 @@ public:
 	void GetBaseMap(); // size[10]
 	void Probe(Vector *param_1, float param_2, Vector *param_3); // size[128]
 	void MoveCrowFly(float param_1); // size[586]
-	void SetFlyingState(FlyState_t param_1); // size[212]
-	void Takeoff(Vector *param_1); // size[267]
+	void SetFlyingState(FlyState_t param_1); // size[225]
+	void Takeoff(Vector *param_1); // size[163]
 	void FlapSound(); // size[44]
-	void InitCustomSchedules(); // size[88]
+	void InitCustomSchedules(); // size[12]
 	void LoadSchedules(); // size[62]
 };

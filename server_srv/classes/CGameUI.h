@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x1574 (5492) bytes
+// Estimated minimum size: 0x68F02840 (1760569408) bytes
 
 class CGameUI : public CBaseEntity
 {
@@ -12,6 +12,6 @@ public:
 	void _GLOBAL__sub_I_m_DataMap(); // size[113]
 	void InputActivate(inputdata_t *param_1); // size[609]
 	void GetBaseMap(); // size[10]
-	void Deactivate(CBaseEntity *param_1); // size[286]
+	void Deactivate(CBaseEntity *param_1); // size[413]
 	void InputDeactivate(inputdata_t *param_1); // size[17]
 };

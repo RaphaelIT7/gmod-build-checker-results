@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x25D4 (9684) bytes
+// Estimated minimum size: 0x68F02840 (1760569408) bytes
 
 class CNPC_ControllerZapBall : public CAI_BaseNPC
 {

@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x25DC (9692) bytes
+// Estimated minimum size: 0x68F02840 (1760569408) bytes
 
 class HL1_CNPC_Barnacle : public CHL1BaseNPC
 {
@@ -28,7 +28,7 @@ public:
 	virtual void OnMoveExecuteFailed(AILocalMoveGoal_t *param_1, AIMoveTrace_t *param_2, AIMotorMoveResult_t param_3, AIMoveResult_t *param_4); // vtable[8]
 
 	void WaitTillDead(); // size[137]
-	void InitCustomSchedules(); // size[148]
+	void InitCustomSchedules(); // size[169]
 	void LoadSchedules(); // size[62]
 	void GetBaseMap(); // size[10]
 	void TongueTouchEnt(float *param_1); // size[350]

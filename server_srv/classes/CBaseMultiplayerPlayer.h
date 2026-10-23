@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x2AA4 (10916) bytes
+// Estimated minimum size: 0x68F02840 (1760569408) bytes
 
 class CBaseMultiplayerPlayer : public CAI_ExpresserHost
 {
@@ -293,14 +293,15 @@ public:
 	virtual void UseSemaphore(); // vtable[2]
 
 	_GLOBAL__sub_I_CBaseMultiplayerPlayer(); // size[113]
-	void EscortScoringThink(); // size[141]
+	void EscortScoringThink(); // size[46]
 	void SpeakConcept(int param_1); // size[63]
 	void AwardAchievement(int param_1, int param_2); // size[19]
 	void GetPerLifeCounterKV(char *param_1); // size[40]
 	void SetPerLifeCounterKV(char *param_1, int param_2); // size[21]
 	void ResetPerLifeCounters(); // size[21]
-	void StartScoringEscortPoints(float param_1); // size[86]
+	void StartScoringEscortPoints(float param_1); // size[9]
 	void StopScoringEscortPoints(); // size[58]
 	CBaseMultiplayerPlayer(); // size[232]
-	void ShouldRunRateLimitedCommand(char *param_1); // size[424]
+	void ShouldRunRateLimitedCommand(char *param_1); // size[352]
+	void ShouldRunRateLimitedCommand(CCommand *param_1); // size[11]
 };

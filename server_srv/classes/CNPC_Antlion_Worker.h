@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x27FC (10236) bytes
+// Estimated minimum size: 0x68F02840 (1760569408) bytes
 
 class CNPC_Antlion_Worker : public CNPC_Antlion
 {

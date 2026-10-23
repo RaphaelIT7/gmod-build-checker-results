@@ -11,7 +11,7 @@ public:
 
 	void GetBaseMap(); // size[7]
 	void GetVoicePitch(); // size[51]
-	void SpeakFindResponse(char *param_1, char *param_2); // size[598]
+	void SpeakFindResponse(char *param_1, char *param_2); // size[1268]
 	void GetResponseDuration(AI_Response *param_1); // size[292]
 	void CanSpeak(); // size[57]
 	void CanSpeakAfterMyself(); // size[57]
@@ -19,7 +19,7 @@ public:
 	void GetSemaphoreAvailableTime(CBaseEntity *param_1); // size[53]
 	void SemaphoreIsAvailable(CBaseEntity *param_1); // size[148]
 	void ForceNotSpeaking(); // size[244]
-	void SpeechMsg(CBaseEntity *null, char const *null, ... null); // size[206]
+	void SpeechMsg(CBaseEntity *null, char const *null, ... null); // size[127]
 	void BlockSpeechUntil(float param_1); // size[126]
 	void NoteSpeaking(float param_1, float param_2); // size[473]
 	void SpeakRawScene(char *param_1, float param_2, AI_Response *param_3, IRecipientFilter *param_4); // size[419]

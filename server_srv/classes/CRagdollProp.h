@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x1FD8 (8152) bytes
+// Estimated minimum size: 0x68F02840 (1760569408) bytes
 
 class CRagdollProp : public CBaseAnimating, public CDefaultPlayerPickupVPhysics
 {
@@ -72,7 +72,7 @@ public:
 	void RemoveInternalConstraint(int param_1); // size[114]
 	void SolveRagdollBone(int param_1); // size[284]
 	void NormalizeRagdoll(); // size[62]
-	void RagdollUpdatePhysics(); // size[161]
+	void RagdollUpdatePhysics(); // size[198]
 	void ClearBoneControllers(); // size[95]
 	void GetAngleOverrideFromCurrentState(char *param_1, int param_2); // size[261]
 	void InitRagdoll(Vector *param_1, int param_2, Vector *param_3, matrix3x4_t *param_4, matrix3x4_t *param_5, float param_6, int param_7, bool param_8, bool param_9); // size[196]

@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x2AB0 (10928) bytes
+// Estimated minimum size: 0x68F02840 (1760569408) bytes
 
 class CNPC_SittingScientist : public CNPC_Scientist
 {
@@ -52,6 +52,6 @@ public:
 	virtual void OnStartSpeaking(); // vtable[1]
 	virtual void UseSemaphore(); // vtable[2]
 
-	void SittingThink(); // size[178]
+	void SittingThink(); // size[938]
 	void GetBaseMap(); // size[10]
 };

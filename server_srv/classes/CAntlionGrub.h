@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x15C0 (5568) bytes
+// Estimated minimum size: 0x68F02840 (1760569408) bytes
 
 class CAntlionGrub : public CBaseAnimating
 {
@@ -22,8 +22,8 @@ public:
 	void FadeGlow(); // size[133]
 	void GetNuggetDenomination(); // size[208]
 	void CreateNugget(); // size[163]
-	void SetNextThinkByDistance(); // size[322]
-	void AttachToSurface(); // size[593]
+	void SetNextThinkByDistance(); // size[382]
+	void AttachToSurface(); // size[139]
 	void MakeIdleSounds(); // size[155]
 	void IdleThink(); // size[611]
 	void SpawnSquashedGrub(); // size[687]

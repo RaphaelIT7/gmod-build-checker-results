@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x2638 (9784) bytes
+// Estimated minimum size: 0x68F02840 (1760569408) bytes
 
 class CNPC_VehicleDriver : public CAI_BaseNPC
 {
@@ -47,8 +47,8 @@ public:
 	void CalculatePostPoints(); // size[236]
 	void ClearWaypoints(); // size[120]
 	void RecalculateSpeeds(); // size[134]
-	void WaypointReached(); // size[583]
-	void OverridePathMove(float param_1); // size[379]
+	void WaypointReached(); // size[1371]
+	void OverridePathMove(float param_1); // size[1752]
 	void CheckForTeleport(); // size[97]
 	void InputSetDriversMaxSpeed(inputdata_t *param_1); // size[40]
 	void InputSetDriversMinSpeed(inputdata_t *param_1); // size[40]

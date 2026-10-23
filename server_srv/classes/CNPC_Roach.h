@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x25DC (9692) bytes
+// Estimated minimum size: 0x68F02840 (1760569408) bytes
 
 class CNPC_Roach : public CHL1BaseNPC
 {
@@ -28,7 +28,7 @@ public:
 	void _GLOBAL__sub_I_Spawn(); // size[113]
 	void Eat(float param_1); // size[42]
 	void ShouldEat(); // size[32]
-	void PickNewDest(int param_1); // size[599]
+	void PickNewDest(int param_1); // size[619]
 	void Look(int param_1); // size[251]
 	void Move(float param_1); // size[630]
 };

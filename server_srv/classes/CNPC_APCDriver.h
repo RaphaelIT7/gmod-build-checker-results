@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x2654 (9812) bytes
+// Estimated minimum size: 0x68F02840 (1760569408) bytes
 
 class CNPC_APCDriver : public CNPC_VehicleDriver
 {

@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x2054 (8276) bytes
+// Estimated minimum size: 0x68F02840 (1760569408) bytes
 
 class CRocket_Turret_Projectile : public CMissile
 {

@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x26B8 (9912) bytes
+// Estimated minimum size: 0x68F02840 (1760569408) bytes
 
 class CNPC_PoisonZombie : public CAI_BlendingHost
 {
@@ -206,7 +206,7 @@ public:
 	void EnableCrab(int param_1, bool param_2); // size[28]
 	void BreatheOffShort(); // size[29]
 	void RandomThrowCrab(); // size[66]
-	void EvacuateNest(bool param_1, float param_2, CBaseEntity *param_3); // size[437]
+	void EvacuateNest(bool param_1, float param_2, CBaseEntity *param_3); // size[281]
 	void InitCustomSchedules(); // size[15]
 	void LoadSchedules(); // size[62]
 };

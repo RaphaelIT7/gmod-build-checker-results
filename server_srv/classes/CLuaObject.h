@@ -65,7 +65,7 @@ public:
 	virtual void SetFromGlobal(char *param_1); // vtable[58]
 	virtual void GetStringLen(uint *param_1); // vtable[59]
 	virtual void GetMemberUInt(char *param_1, uint param_2); // vtable[60]
-	virtual void _ZN10CLuaObject9SetMemberEPKcy(); // vtable[61]
+	virtual void SetMember(char *param_1, ulonglong param_2); // vtable[61]
 	virtual void SetMember(char *param_1, int param_2); // vtable[62]
 	virtual void SetReference(int param_1); // vtable[63]
 	virtual void RemoveMember(char *param_1); // vtable[64]

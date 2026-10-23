@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x1A8C (6796) bytes
+// Estimated minimum size: 0x68F02840 (1760569408) bytes
 
 class CPropJeepEpisodic : public CPropJeep
 {

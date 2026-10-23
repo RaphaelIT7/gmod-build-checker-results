@@ -442,7 +442,7 @@
     "V_MakeAbsolutePath: tried to \"..\" past the root.",
     "zDVProcessUtils001",
     "CUtlBuffer::EnsureCapacity funny number %i\n",
-    "CUtlBuffer::SeekPut overflow on non growable memory!",
+    "CUtlBuffer::CheckPut underflow %i\n",
     "18CUtlCharConversion",
     "21CUtlCStringConversion",
     "19CUtlNoEscConversion",

@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x2094 (8340) bytes
+// Estimated minimum size: 0x68F02840 (1760569408) bytes
 
 class NextBotCombatCharacter : public CBaseCombatCharacter, public INextBot
 {

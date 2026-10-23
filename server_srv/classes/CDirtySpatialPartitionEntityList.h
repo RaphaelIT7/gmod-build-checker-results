@@ -17,6 +17,6 @@ public:
 	virtual void OnPostQuery(int param_1); // vtable[2]
 
 	void OnPostQuery(int param_1); // size[80]
-	void AddEntity(CBaseEntity *param_1); // size[183]
+	void AddEntity(CBaseEntity *param_1); // size[194]
 	CDirtySpatialPartitionEntityList(char *param_1); // size[194]
 };

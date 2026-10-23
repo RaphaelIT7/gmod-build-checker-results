@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x14A4 (5284) bytes
+// Estimated minimum size: 0x68F02840 (1760569408) bytes
 
 class CAI_ScriptConditions : public CBaseEntity, public IEntityListener
 {
@@ -16,7 +16,7 @@ public:
 
 	void EvalPlayerBlockingActor(EvalArgs_t *param_1); // size[31]
 	void EvalActorSeeTarget(EvalArgs_t *param_1); // size[44]
-	void EvalActorSeePlayer(EvalArgs_t *param_1); // size[86]
+	void EvalActorSeePlayer(EvalArgs_t *param_1); // size[74]
 	void EvalActorTargetProximity(EvalArgs_t *param_1); // size[113]
 	void EvalPlayerTargetProximity(EvalArgs_t *param_1); // size[228]
 	void EvalPlayerActorProximity(EvalArgs_t *param_1); // size[145]

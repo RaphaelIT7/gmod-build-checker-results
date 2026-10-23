@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x15D0 (5584) bytes
+// Estimated minimum size: 0x68F02840 (1760569408) bytes
 
 class CPhysMagnet : public CBaseAnimating, public IPhysicsConstraintEvent
 {
@@ -12,7 +12,7 @@ public:
 	virtual void Spawn() override; // vtable[23]
 	virtual void Precache() override; // vtable[24]
 	virtual void Touch(CBaseEntity *param_1) override; // vtable[102]
-	virtual void _ZN11CPhysMagnet17VPhysicsCollisionEiP21gamevcollisionevent_t() override; // vtable[165]
+	virtual void VPhysicsCollision(int param_1, gamevcollisionevent_t *param_2) override; // vtable[165]
 	virtual void ConstraintBroken(IPhysicsConstraint *param_1); // vtable[282]
 	virtual void ConstraintBroken(IPhysicsConstraint *param_1); // vtable[0]
 

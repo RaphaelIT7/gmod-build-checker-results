@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x15C8 (5576) bytes
+// Estimated minimum size: 0x68F02840 (1760569408) bytes
 
 class CGlockAmmo : public CHL1Item
 {

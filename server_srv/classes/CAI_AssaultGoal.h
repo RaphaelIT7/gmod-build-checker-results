@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x13E4 (5092) bytes
+// Estimated minimum size: 0x68F02840 (1760569408) bytes
 
 class CAI_AssaultGoal : public CAI_GoalEntity
 {

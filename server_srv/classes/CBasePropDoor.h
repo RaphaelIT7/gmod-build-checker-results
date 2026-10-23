@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x1868 (6248) bytes
+// Estimated minimum size: 0x68F02840 (1760569408) bytes
 
 class CBasePropDoor : public CDynamicProp
 {
@@ -32,7 +32,7 @@ public:
 	void Unlock(); // size[186]
 	void GetBaseMap(); // size[10]
 	CBasePropDoor(); // size[527]
-	void RegisterPrivateActivities(); // size[18]
+	void RegisterPrivateActivities(); // size[42]
 	void UpdateAreaPortals(bool param_1); // size[68]
 	void DisableAreaPortalThink(); // size[27]
 	void SetDoorBlocker(CBaseEntity *param_1); // size[103]

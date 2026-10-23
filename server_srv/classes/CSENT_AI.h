@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x2C1C (11292) bytes
+// Estimated minimum size: 0x68F02840 (1760569408) bytes
 
 class CSENT_AI : public CAI_BaseActor, public CDefaultPlayerPickupVPhysics
 {

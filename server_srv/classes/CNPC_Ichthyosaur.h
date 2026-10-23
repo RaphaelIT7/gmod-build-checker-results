@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x25F8 (9720) bytes
+// Estimated minimum size: 0x68F02840 (1760569408) bytes
 
 class CNPC_Ichthyosaur : public CAI_BaseNPC
 {
@@ -40,7 +40,7 @@ public:
 	void GetBaseMap(); // size[10]
 	void InitCustomSchedules(); // size[181]
 	void LoadSchedules(); // size[62]
-	void SetPoses(Vector param_1, float param_2); // size[536]
+	void SetPoses(Vector param_1, float param_2); // size[356]
 	void AddSwimNoise(Vector *param_1); // size[215]
 	void SteerArrive(Vector *param_1, Vector *param_2); // size[232]
 	void SteerSeek(Vector *param_1, Vector *param_2); // size[253]

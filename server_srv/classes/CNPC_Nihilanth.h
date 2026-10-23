@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x283C (10300) bytes
+// Estimated minimum size: 0x68F02840 (1760569408) bytes
 
 class CNPC_Nihilanth : public CHL1BaseNPC
 {
@@ -30,14 +30,14 @@ public:
 	void NullThink(); // size[67]
 	void InputTurnBabyOff(inputdata_t *param_1); // size[139]
 	void GetBaseMap(); // size[10]
-	void Flight(); // size[191]
+	void Flight(); // size[834]
 	void MakeFriend(Vector param_1); // size[255]
 	void FloatSequence(); // size[202]
-	void NextActivity(); // size[197]
+	void NextActivity(); // size[2662]
 	void EmitSphere(); // size[416]
 	void StartupThink(); // size[400]
 	void ShootBalls(); // size[1340]
 	void AbsorbSphere(); // size[118]
 	void HuntThink(); // size[786]
-	void DyingThink(); // size[1049]
+	void DyingThink(); // size[2132]
 };

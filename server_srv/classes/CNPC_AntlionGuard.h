@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x269C (9884) bytes
+// Estimated minimum size: 0x68F02840 (1760569408) bytes
 
 class CNPC_AntlionGuard : public CAI_BlendedNPC
 {
@@ -70,7 +70,7 @@ public:
 	void SetHeavyDamageAnim(Vector *param_1); // size[409]
 	void InputSetShoveTarget(inputdata_t *param_1); // size[217]
 	void InputSummonedAntlionDied(inputdata_t *param_1); // size[85]
-	void InputSetChargeTarget(inputdata_t *param_1); // size[631]
+	void InputSetChargeTarget(inputdata_t *param_1); // size[145]
 	void InputUnburrow(inputdata_t *param_1); // size[85]
 	void GetBaseMap(); // size[10]
 	void DestroyGlows(); // size[150]
@@ -82,7 +82,7 @@ public:
 	void EnemyIsRightInFrontOfMe(CBaseEntity * *param_1); // size[872]
 	void ChargeLookAhead(); // size[318]
 	void ChargeSteer(); // size[390]
-	void SummonAntlions(); // size[168]
+	void SummonAntlions(); // size[1103]
 	void FoundEnemy(); // size[62]
 	void LostEnemy(); // size[96]
 	void ShouldWatchEnemy(); // size[123]
@@ -98,9 +98,9 @@ public:
 	void StartSounds(); // size[44]
 	void GetBleedingLevel(); // size[43]
 	void FindPhysicsObjectTarget(PhysicsObjectCriteria_t *param_1); // size[2639]
-	void SelectUnreachableSchedule(); // size[1264]
+	void SelectUnreachableSchedule(); // size[27]
 	void SelectUnreachableSchedule(); // size[28]
-	void SelectCombatSchedule(); // size[322]
+	void SelectCombatSchedule(); // size[50]
 	void UpdatePhysicsTarget(bool param_1, float param_2); // size[492]
 	void RememberFailedPhysicsTarget(CBaseEntity *param_1); // size[157]
 	void Footstep(bool param_1); // size[406]

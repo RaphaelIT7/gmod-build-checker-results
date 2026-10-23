@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x149C (5276) bytes
+// Estimated minimum size: 0x68F02840 (1760569408) bytes
 
 class CAI_LeadGoal : public CAI_GoalEntity, public CAI_LeadBehaviorHandler
 {

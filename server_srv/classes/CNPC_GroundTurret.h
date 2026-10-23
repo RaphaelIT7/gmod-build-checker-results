@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x2624 (9764) bytes
+// Estimated minimum size: 0x68F02840 (1760569408) bytes
 
 class CNPC_GroundTurret : public CAI_BaseNPC
 {

@@ -17,7 +17,7 @@ public:
 	void FindGlobalEntity(string_t param_1, string_t param_2); // size[227]
 	void DoRestoreEntity(CBaseEntity *param_1, IRestore *param_2); // size[224]
 	void ModelSpaceLandmark(int param_1); // size[191]
-	void RestoreEntity(CBaseEntity *param_1, IRestore *param_2, entitytable_t *param_3); // size[202]
-	void RestoreGlobalEntity(CBaseEntity *param_1, CSaveRestoreData *param_2, entitytable_t *param_3); // size[486]
+	void RestoreEntity(CBaseEntity *param_1, IRestore *param_2, entitytable_t *param_3); // size[67]
+	void RestoreGlobalEntity(CBaseEntity *param_1, CSaveRestoreData *param_2, entitytable_t *param_3); // size[75]
 	void SaveInitEntities(CSaveRestoreData *param_1); // size[295]
 };

@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x2F94 (12180) bytes
+// Estimated minimum size: 0x68F02840 (1760569408) bytes
 
 class CNPC_Alyx : public CNPC_PlayerCompanion
 {
@@ -135,28 +135,28 @@ public:
 	void AnalyzeGunfireSound(CSound *param_1); // size[352]
 	void EnemyIgnited(CAI_BaseNPC *param_1); // size[105]
 	void RunningPassengerBehavior(); // size[66]
-	void DoMobbedCombatAI(); // size[1851]
-	void DoCustomCombatAI(); // size[396]
+	void DoMobbedCombatAI(); // size[1655]
+	void DoCustomCombatAI(); // size[98]
 	void CanSeeEntityInDarkness(CBaseEntity *param_1); // size[81]
 	void HolsterPistol(); // size[52]
 	void DrawPistol(); // size[83]
 	void IsValidInteractTarget(CBaseEntity *param_1); // size[63]
 	void SetInteractTarget(CBaseEntity *param_1); // size[127]
-	void SearchForInteractTargets(); // size[153]
+	void SearchForInteractTargets(); // size[85]
 	void EmpZapTarget(CBaseEntity *param_1); // size[109]
-	void CanBeBlindedByFlashlight(bool param_1); // size[273]
-	void PlayerFlashlightOnMyEyes(CBasePlayer *param_1); // size[118]
+	void CanBeBlindedByFlashlight(bool param_1); // size[305]
+	void PlayerFlashlightOnMyEyes(CBasePlayer *param_1); // size[640]
 	void BlindedByFlare(); // size[612]
 	void CheckBlindedByFlare(); // size[160]
 	void EnemyIsValidCrouchTarget(CBaseEntity *param_1); // size[169]
-	void IsAllowedToInteract(); // size[111]
+	void IsAllowedToInteract(); // size[287]
 	void CanInteractWithTarget(CBaseEntity *param_1); // size[323]
 	void GetPassengerState(); // size[14]
 	void SpeakAttacking(); // size[223]
 	void ForceVehicleInteraction(char *param_1, CBaseCombatCharacter *param_2); // size[20]
 	void ComputeWeaponType(CBaseEntity *param_1); // size[229]
 	void CombineBallSocketed(int param_1); // size[181]
-	void InitCustomSchedules(); // size[110]
+	void InitCustomSchedules(); // size[337]
 	void LoadSchedules(); // size[62]
 	CNPC_Alyx(); // size[26]
 	void InputAllowInteraction(inputdata_t *param_1); // size[15]

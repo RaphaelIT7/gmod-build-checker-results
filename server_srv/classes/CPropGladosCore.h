@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x17E8 (6120) bytes
+// Estimated minimum size: 0x68F02840 (1760569408) bytes
 
 class CPropGladosCore : public CPhysicsProp
 {

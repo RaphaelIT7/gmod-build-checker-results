@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x34 (52) bytes
+// Estimated minimum size: 0x30 (48) bytes
 
 class CTEAntlionDust : public CTEParticleSystem
 {
@@ -11,5 +11,5 @@ public:
 	virtual void Test(Vector *param_1, QAngle *param_2) override; // vtable[4]
 
 	void _GLOBAL__sub_I_GetServerClass(); // size[112]
-	CTEAntlionDust(char *param_1); // size[89]
+	CTEAntlionDust(char *param_1); // size[74]
 };

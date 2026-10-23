@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x2850 (10320) bytes
+// Estimated minimum size: 0x68F02840 (1760569408) bytes
 
 class CNPC_CombineGunship : public CBaseHelicopter
 {
@@ -64,7 +64,7 @@ public:
 	void InputSetDockingBBox(inputdata_t *param_1); // size[79]
 	void GetBaseMap(); // size[10]
 	void CreateBellyBlastEnergyCore(); // size[80]
-	void Ping(); // size[196]
+	void Ping(); // size[131]
 	void GroundDistToPosition(Vector *param_1); // size[95]
 	void PlayPatrolLoop(); // size[15]
 	void PlayAngryLoop(); // size[15]
@@ -90,9 +90,9 @@ public:
 	void IsTargettingMissile(); // size[84]
 	void GetEnemyTarget(); // size[104]
 	void MoveHead(); // size[720]
-	void FireCannonRound(); // size[1733]
+	void FireCannonRound(); // size[2218]
 	void CheckGroundAttack(); // size[328]
-	void DoCombat(); // size[1415]
+	void DoCombat(); // size[1206]
 	void InputBecomeInvulnerable(inputdata_t *param_1); // size[15]
 	void InputBecomeVulnerable(inputdata_t *param_1); // size[15]
 	void InitCustomSchedules(); // size[58]

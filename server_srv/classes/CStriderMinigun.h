@@ -7,7 +7,7 @@ public:
 	virtual void GetDataDescMap(); // vtable[0]
 
 	void GetBaseMap(); // size[7]
-	void Init(); // size[111]
+	void Init(); // size[98]
 	void ShouldFindTarget(IMinigunHost *param_1); // size[172]
 	void GetAimError(); // size[57]
 	void AimAtPoint(IStriderMinigunHost *param_1, Vector *param_2, bool param_3); // size[462]
@@ -20,7 +20,7 @@ public:
 	void SetState(int param_1); // size[14]
 	void SetTarget(IStriderMinigunHost *param_1, CBaseEntity *param_2, bool param_3); // size[351]
 	void ShootAtTarget(IStriderMinigunHost *param_1, CBaseEntity *param_2, float param_3); // size[246]
-	void CanStartShooting(IStriderMinigunHost *param_1, CBaseEntity *param_2); // size[747]
+	void CanStartShooting(IStriderMinigunHost *param_1, CBaseEntity *param_2); // size[492]
 	void Enable(IMinigunHost *param_1, bool param_2); // size[46]
-	void Think(IStriderMinigunHost *param_1, float param_2); // size[70]
+	void Think(IStriderMinigunHost *param_1, float param_2); // size[80]
 };

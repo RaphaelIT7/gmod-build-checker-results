@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x2AB0 (10928) bytes
+// Estimated minimum size: 0x68F02840 (1760569408) bytes
 
 class CNPC_Hunter : public CAI_BaseActor
 {
@@ -50,7 +50,7 @@ public:
 	virtual void CheckFlinches() override; // vtable[439]
 	virtual void SelectIdealState() override; // vtable[454]
 	virtual void UpdateEfficiency(bool param_1) override; // vtable[457]
-	virtual void _ZN11CNPC_Hunter16OnChangeActivityE8Activity() override; // vtable[461]
+	virtual void OnChangeActivity(Activity param_1) override; // vtable[461]
 	virtual void QueryHearSound(CSound *param_1) override; // vtable[462]
 	virtual void OnSeeEntity(CBaseEntity *param_1) override; // vtable[466]
 	virtual void GetSoundInterests() override; // vtable[468]
@@ -138,7 +138,7 @@ public:
 	void TeslaThink(); // size[434]
 	void SetupGlobalModelData(); // size[854]
 	void BleedThink(); // size[110]
-	void JostleVehicleThink(); // size[850]
+	void JostleVehicleThink(); // size[887]
 	void InputUseSiegeTargets(inputdata_t *param_1); // size[253]
 	void GetBaseMap(); // size[10]
 	void SetupGlobalModelData(); // size[23]
@@ -148,13 +148,13 @@ public:
 	void KillCurrentSiegeTarget(); // size[156]
 	void GatherIndoorOutdoorConditions(); // size[353]
 	void ShouldCharge(Vector *param_1, Vector *param_2, bool param_3, bool param_4); // size[1563]
-	void GatherChargeConditions(); // size[435]
-	void SelectSiegeSchedule(); // size[141]
+	void GatherChargeConditions(); // size[113]
+	void SelectSiegeSchedule(); // size[57]
 	void EnemyIsRightInFrontOfMe(CBaseEntity * *param_1); // size[677]
 	void ChargeLookAhead(); // size[5]
 	void ChargeSteer(); // size[390]
 	void ChargeDamage(CBaseEntity *param_1); // size[332]
-	void HandleChargeImpact(Vector param_1, CBaseEntity *param_2); // size[548]
+	void HandleChargeImpact(Vector param_1, CBaseEntity *param_2); // size[508]
 	void Explode(); // size[83]
 	void NumHuntersInMySquad(); // size[123]
 	void CanPlantHere(Vector *param_1); // size[32]
@@ -167,9 +167,9 @@ public:
 	void ConsiderFlinching(CTakeDamageInfo *param_1); // size[602]
 	void StartBleeding(); // size[121]
 	void DoMuzzleFlash(int param_1); // size[433]
-	void CountRangedAttackers(); // size[127]
+	void CountRangedAttackers(); // size[135]
 	void DelayRangedAttackers(float param_1, float param_2, bool param_3); // size[355]
-	void SelectCombatSchedule(); // size[1096]
+	void SelectCombatSchedule(); // size[331]
 	void GetShootDir(Vector *param_1, Vector *param_2, CBaseEntity *param_3, bool param_4, int param_5, bool param_6); // size[58]
 	void ClampShootDir(Vector *param_1); // size[573]
 	void ShouldSeekTarget(CBaseEntity *param_1, bool param_2); // size[337]
@@ -181,7 +181,7 @@ public:
 	void FootFX(Vector *param_1); // size[5]
 	void GetEnemyVehicle(); // size[77]
 	void TaskFindDodgeActivity(); // size[1380]
-	void PlayerFlashlightOnMyEyes(CBasePlayer *param_1); // size[152]
+	void PlayerFlashlightOnMyEyes(CBasePlayer *param_1); // size[513]
 	void StriderBusterDetached(CBaseEntity *param_1); // size[384]
 	void SetAim(Vector *param_1, float param_2); // size[1078]
 	void RelaxAim(float param_1); // size[661]

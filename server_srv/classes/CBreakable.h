@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x1460 (5216) bytes
+// Estimated minimum size: 0x68F02840 (1760569408) bytes
 
 class CBreakable : public CBaseEntity, public IBreakableWithPropData, public CDefaultPlayerPickupVPhysics
 {
@@ -98,5 +98,5 @@ public:
 	void IsBreakable(); // size[18]
 	void MaterialSoundRandom(int param_1, Materials param_2, float param_3); // size[336]
 	void DamageSound(); // size[399]
-	void BreakTouch(CBaseEntity *param_1); // size[546]
+	void BreakTouch(CBaseEntity *param_1); // size[623]
 };

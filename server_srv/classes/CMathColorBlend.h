@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x13C4 (5060) bytes
+// Estimated minimum size: 0x68F02840 (1760569408) bytes
 
 class CMathColorBlend : public CLogicalEntity
 {
@@ -9,6 +9,6 @@ public:
 	virtual void GetDataDescMap() override; // vtable[12]
 	virtual void Spawn() override; // vtable[23]
 
-	void InputValue(inputdata_t *param_1); // size[339]
+	void InputValue(inputdata_t *param_1); // size[423]
 	void GetBaseMap(); // size[10]
 };

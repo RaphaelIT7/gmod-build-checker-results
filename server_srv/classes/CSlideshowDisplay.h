@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x150C (5388) bytes
+// Estimated minimum size: 0x68F02840 (1760569408) bytes
 
 class CSlideshowDisplay : public CBaseEntity
 {
@@ -17,7 +17,7 @@ public:
 	virtual void OnRestore() override; // vtable[45]
 
 	void _GLOBAL__sub_I_m_DataMap(); // size[112]
-	void InputSetDisplayText(inputdata_t *param_1); // size[118]
+	void InputSetDisplayText(inputdata_t *param_1); // size[111]
 	void InputRemoveAllSlides(inputdata_t *param_1); // size[122]
 	void InputSetNoListRepeats(inputdata_t *param_1); // size[108]
 	void InputSetCycleType(inputdata_t *param_1); // size[59]

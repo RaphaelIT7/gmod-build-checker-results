@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x16B8 (5816) bytes
+// Estimated minimum size: 0x68F02840 (1760569408) bytes
 
 class CBreakableProp : public CBaseProp, public IBreakableWithPropData, public CDefaultPlayerPickupVPhysics
 {
@@ -97,11 +97,11 @@ public:
 	void InputEnablePhyscannonPickup(inputdata_t *param_1); // size[18]
 	void InputDisablePhyscannonPickup(inputdata_t *param_1); // size[18]
 	void AnimateThink(); // size[290]
-	void BreakablePropTouch(CBaseEntity *param_1); // size[842]
+	void BreakablePropTouch(CBaseEntity *param_1); // size[977]
 	void CheckRemoveRagdolls(); // size[63]
 	void RampToDefaultFadeScale(); // size[113]
 	void CheckRemoveRagdolls(); // size[23]
-	void HandleInteractionStick(int param_1, gamevcollisionevent_t *param_2); // size[719]
+	void HandleInteractionStick(int param_1, gamevcollisionevent_t *param_2); // size[1111]
 	void GetBaseMap(); // size[10]
 	CBreakableProp(); // size[442]
 	void DisableAutoFade(); // size[48]

@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x143C (5180) bytes
+// Estimated minimum size: 0x68F02840 (1760569408) bytes
 
 class CScriptIntro : public CBaseEntity
 {
@@ -17,7 +17,7 @@ public:
 	void InputSetNextBlendMode(inputdata_t *param_1); // size[118]
 	void InputDeactivate(inputdata_t *param_1); // size[99]
 	void InputActivate(inputdata_t *param_1); // size[102]
-	void InputFadeTo(inputdata_t *param_1); // size[144]
+	void InputFadeTo(inputdata_t *param_1); // size[95]
 	void InputSetNextFOV(inputdata_t *param_1); // size[59]
 	void InputSetFOV(inputdata_t *param_1); // size[59]
 	void BlendComplete(); // size[50]

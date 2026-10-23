@@ -9,7 +9,7 @@ public:
 
 	void CreateTexture(uint param_1, uint param_2, uint param_3, uint param_4, _D3DFORMAT param_5, _D3DPOOL param_6, IDirect3DTexture9 * *param_7, void * *param_8, char *param_9); // size[672]
 	void CreateCubeTexture(uint param_1, uint param_2, uint param_3, _D3DFORMAT param_4, _D3DPOOL param_5, IDirect3DCubeTexture9 * *param_6, void * *param_7, char *param_8); // size[601]
-	void CreateVolumeTexture(uint param_1, uint param_2, uint param_3, uint param_4, uint param_5, _D3DFORMAT param_6, _D3DPOOL param_7, IDirect3DVolumeTexture9 * *param_8, void * *param_9, char *param_10); // size[584]
+	void CreateVolumeTexture(uint param_1, uint param_2, uint param_3, uint param_4, uint param_5, _D3DFORMAT param_6, _D3DPOOL param_7, IDirect3DVolumeTexture9 * *param_8, void * *param_9, char *param_10); // size[180]
 	void CreateVertexBuffer(uint param_1, uint param_2, uint param_3, _D3DPOOL param_4, IDirect3DVertexBuffer9 * *param_5, void * *param_6); // size[151]
 	void CreateIndexBuffer(uint param_1, uint param_2, _D3DFORMAT param_3, _D3DPOOL param_4, IDirect3DIndexBuffer9 * *param_5, void * *param_6); // size[164]
 	IDirect3DDevice9(); // size[39]

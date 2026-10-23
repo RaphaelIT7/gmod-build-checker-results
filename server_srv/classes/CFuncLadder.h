@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x140C (5132) bytes
+// Estimated minimum size: 0x68F02840 (1760569408) bytes
 
 class CFuncLadder : public CBaseEntity
 {
@@ -30,6 +30,6 @@ public:
 	void GetBaseMap(); // size[10]
 	void PlayerGotOn(CBasePlayer *param_1); // size[225]
 	CFuncLadder(); // size[28]
-	void FindNearbyDismountPoints(Vector *param_1, float param_2, CUtlVector *param_3); // size[111]
+	void FindNearbyDismountPoints(Vector *param_1, float param_2, CUtlVector *param_3); // size[143]
 	void SearchForDismountPoints(); // size[565]
 };

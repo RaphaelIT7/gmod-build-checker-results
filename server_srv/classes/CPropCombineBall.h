@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x15B4 (5556) bytes
+// Estimated minimum size: 0x68F02840 (1760569408) bytes
 
 class CPropCombineBall : public CBaseAnimating, public CDefaultPlayerPickupVPhysics
 {
@@ -60,7 +60,7 @@ public:
 	void NotifySpawnerOfRemoval(); // size[62]
 	void InputKill(inputdata_t *param_1); // size[109]
 	void InputSocketed(inputdata_t *param_1); // size[141]
-	void DoExplosion(); // size[137]
+	void DoExplosion(); // size[464]
 	void DissolveThink(); // size[9]
 	void InputExplode(inputdata_t *param_1); // size[9]
 	void OnHitEntity(CBaseEntity *param_1, float param_2, int param_3, gamevcollisionevent_t *param_4); // size[1281]
