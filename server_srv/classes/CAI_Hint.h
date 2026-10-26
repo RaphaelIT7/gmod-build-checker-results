@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x68F02840 (1760569408) bytes
+// Estimated minimum size: 0x1434 (5172) bytes
 
 class CAI_Hint : public CServerOnlyEntity
 {
@@ -34,7 +34,7 @@ public:
 	void GetNode(); // size[48]
 	void DisableForSeconds(float param_1); // size[53]
 	void FixupTargetNode(); // size[72]
-	void NPCStartedUsing(CAI_BaseNPC *param_1); // size[152]
-	void NPCStoppedUsing(CAI_BaseNPC *param_1); // size[152]
+	void NPCStartedUsing(CAI_BaseNPC *param_1); // size[68]
+	void NPCStoppedUsing(CAI_BaseNPC *param_1); // size[68]
 	void SetHintType(int param_1, bool param_2); // size[67]
 };

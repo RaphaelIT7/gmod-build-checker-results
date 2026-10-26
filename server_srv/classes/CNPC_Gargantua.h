@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x68F02840 (1760569408) bytes
+// Estimated minimum size: 0x2610 (9744) bytes
 
 class CNPC_Gargantua : public CHL1BaseNPC
 {
@@ -41,7 +41,7 @@ public:
 	virtual void OnMoveExecuteFailed(AILocalMoveGoal_t *param_1, AIMoveTrace_t *param_2, AIMotorMoveResult_t param_3, AIMoveResult_t *param_4); // vtable[8]
 
 	void GetBaseMap(); // size[10]
-	void GargantuaCheckTraceHullAttack(float param_1, int param_2, int param_3); // size[625]
+	void GargantuaCheckTraceHullAttack(float param_1, int param_2, int param_3); // size[256]
 	void FlameCreate(); // size[222]
 	void FlameControls(float param_1, float param_2); // size[307]
 	void FlameDamage(Vector param_1, Vector param_2, CBaseEntity *param_3, CBaseEntity *param_4, float param_5, int param_6, int param_7); // size[915]

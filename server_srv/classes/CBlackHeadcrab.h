@@ -1,10 +1,10 @@
 // Generated header
-// Estimated minimum size: 0x68F02840 (1760569408) bytes
+// Estimated minimum size: 0x2608 (9736) bytes
 
 class CBlackHeadcrab : public CBaseHeadcrab
 {
 public:
-	virtual ~CBlackHeadcrab() override; // vtable[0]
+	virtual _ZN14CBlackHeadcrabD2Ev() override; // vtable[0]
 	virtual ~CBlackHeadcrab() override; // vtable[1]
 	virtual void GetDataDescMap() override; // vtable[12]
 	virtual void Spawn() override; // vtable[23]
@@ -47,7 +47,7 @@ public:
 	void GetBaseMap(); // size[10]
 	void Eject(QAngle *param_1, float param_2, CBaseEntity *param_3); // size[75]
 	void Panic(float param_1); // size[50]
-	void JumpFlinch(Vector *param_1); // size[403]
-	void InitCustomSchedules(); // size[287]
+	void JumpFlinch(Vector *param_1); // size[146]
+	void InitCustomSchedules(); // size[312]
 	void LoadSchedules(); // size[62]
 };

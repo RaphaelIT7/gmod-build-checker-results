@@ -1,11 +1,11 @@
 // Generated header
-// Estimated minimum size: 0x68F02840 (1760569408) bytes
+// Estimated minimum size: 0x13F4 (5108) bytes
 
 class CPhysConstraint : public CLogicalEntity
 {
 public:
 	virtual ~CPhysConstraint() override; // vtable[0]
-	virtual void _ZN15CPhysConstraintD0Ev() override; // vtable[1]
+	virtual ~CPhysConstraint() override; // vtable[1]
 	virtual void GetDataDescMap() override; // vtable[12]
 	virtual void Spawn() override; // vtable[23]
 	virtual void Precache() override; // vtable[24]

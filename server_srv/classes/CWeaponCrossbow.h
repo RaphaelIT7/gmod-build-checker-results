@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x68F02840 (1760569408) bytes
+// Estimated minimum size: 0x16A0 (5792) bytes
 
 class CWeaponCrossbow : public CBaseHL2MPCombatWeapon
 {

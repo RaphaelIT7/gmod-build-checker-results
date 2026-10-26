@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x68F02840 (1760569408) bytes
+// Estimated minimum size: 0x2AA4 (10916) bytes
 
 class CNPC_Scientist : public CHL1NPCTalker
 {
@@ -8,10 +8,10 @@ public:
 	virtual ~CNPC_Scientist() override; // vtable[1]
 	virtual void GetDataDescMap() override; // vtable[12]
 	virtual void Spawn() override; // vtable[23]
-	virtual void _ZN14CNPC_Scientist8PrecacheEv() override; // vtable[24]
+	virtual void Precache() override; // vtable[24]
 	virtual void Activate() override; // vtable[34]
 	virtual void ObjectCaps() override; // vtable[36]
-	virtual void _ZN14CNPC_Scientist8ClassifyEv() override; // vtable[55]
+	virtual void Classify() override; // vtable[55]
 	virtual void Event_Killed(CTakeDamageInfo *param_1) override; // vtable[68]
 	virtual void ModifyOrAppendCriteria(AI_CriteriaSet *param_1) override; // vtable[121]
 	virtual void CanBecomeRagdoll() override; // vtable[255]
@@ -26,11 +26,11 @@ public:
 	virtual void GetSchedulingErrorName() override; // vtable[433]
 	virtual void LoadedSchedules() override; // vtable[434]
 	virtual void SelectIdealState() override; // vtable[454]
-	virtual void GetSoundInterests() override; // vtable[468]
+	virtual void _ZN14CNPC_Scientist17GetSoundInterestsEv() override; // vtable[468]
 	virtual void IsValidEnemy(CBaseEntity *param_1) override; // vtable[476]
 	virtual void DeathSound(CTakeDamageInfo *param_1) override; // vtable[508]
 	virtual void PainSound(CTakeDamageInfo *param_1) override; // vtable[511]
-	virtual void MaxYawSpeed() override; // vtable[530]
+	virtual void _ZN14CNPC_Scientist11MaxYawSpeedEv() override; // vtable[530]
 	virtual void SquadSlotName(int param_1) override; // vtable[582]
 	virtual void GetClassScheduleIdSpace() override; // vtable[641]
 	virtual void DeclineFollowing() override; // vtable[729]
@@ -76,13 +76,13 @@ public:
 	virtual void OnStartSpeaking(); // vtable[1]
 	virtual void UseSemaphore(); // vtable[2]
 
-	void SUB_LVFadeOut(); // size[173]
+	void SUB_LVFadeOut(); // size[193]
 	void GetBaseMap(); // size[10]
-	void TalkInit(); // size[128]
+	void TalkInit(); // size[147]
 	void SUB_StartLVFadeOut(float param_1, bool param_2); // size[74]
 	void Scream(); // size[189]
-	void GetStoppedActivity(); // size[15]
-	void CanHeal(); // size[1]
+	void GetStoppedActivity(); // size[43]
+	void CanHeal(); // size[17]
 	void Heal(); // size[337]
 	void TargetDistance(); // size[160]
 	void InitCustomSchedules(); // size[352]

@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x68F02840 (1760569408) bytes
+// Estimated minimum size: 0x26B0 (9904) bytes
 
 class CNPC_RocketTurret : public CAI_BaseNPC
 {
@@ -34,12 +34,12 @@ public:
 	void Disable(); // size[47]
 	void InputDisable(inputdata_t *param_1); // size[23]
 	void DyingThink(); // size[48]
-	void DeathThink(); // size[106]
+	void DeathThink(); // size[73]
 	void GetBaseMap(); // size[10]
 	CNPC_RocketTurret(); // size[26]
 	void UpdateAimPoint(); // size[1186]
 	void FindAnEnemy(); // size[391]
-	void FireRocket(); // size[279]
+	void FireRocket(); // size[217]
 	void UpdateSkin(int param_1); // size[47]
 	void RocketDied(); // size[48]
 	void UpdateMuzzleMatrix(); // size[65]
@@ -53,7 +53,7 @@ public:
 	void LaserOff(); // size[22]
 	void PreThink(); // size[47]
 	void SearchThink(); // size[690]
-	void FollowThink(); // size[820]
+	void FollowThink(); // size[660]
 	void LockingThink(); // size[261]
 	void FiringThink(); // size[9]
 	void Toggle(); // size[27]

@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x68F02840 (1760569408) bytes
+// Estimated minimum size: 0x17D4 (6100) bytes
 
 class CPropCrane : public CBaseProp, public IDrivableVehicle
 {

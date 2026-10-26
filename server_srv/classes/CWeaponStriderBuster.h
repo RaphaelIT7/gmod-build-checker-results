@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x68F02840 (1760569408) bytes
+// Estimated minimum size: 0x1848 (6216) bytes
 
 class CWeaponStriderBuster : public CPhysicsProp
 {

@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x68F02840 (1760569408) bytes
+// Estimated minimum size: 0x1404 (5124) bytes
 
 class CTriggerVPhysicsMotion : public CBaseVPhysicsTrigger, public IMotionEvent
 {

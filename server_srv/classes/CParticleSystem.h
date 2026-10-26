@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x68F02840 (1760569408) bytes
+// Estimated minimum size: 0x15C0 (5568) bytes
 
 class CParticleSystem : public CBaseEntity
 {
@@ -17,7 +17,7 @@ public:
 	void _GLOBAL__sub_I_GetServerClass(); // size[112]
 	void GetBaseMap(); // size[10]
 	CParticleSystem(); // size[33]
-	void StopParticleSystem(); // size[33]
+	void StopParticleSystem(); // size[79]
 	void InputStop(inputdata_t *param_1); // size[9]
 	void ReadControlPointEnts(); // size[196]
 	void StartParticleSystem(); // size[65]

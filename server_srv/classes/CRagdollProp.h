@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x68F02840 (1760569408) bytes
+// Estimated minimum size: 0x1FD8 (8152) bytes
 
 class CRagdollProp : public CBaseAnimating, public CDefaultPlayerPickupVPhysics
 {

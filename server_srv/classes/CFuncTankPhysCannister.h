@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x68F02840 (1760569408) bytes
+// Estimated minimum size: 0x1624 (5668) bytes
 
 class CFuncTankPhysCannister : public CFuncTank
 {

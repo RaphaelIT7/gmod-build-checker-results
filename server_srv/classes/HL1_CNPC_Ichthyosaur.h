@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x68F02840 (1760569408) bytes
+// Estimated minimum size: 0x260C (9740) bytes
 
 class HL1_CNPC_Ichthyosaur : public CHL1BaseNPC
 {
@@ -46,7 +46,7 @@ public:
 	void GetGroundSpeed(); // size[54]
 	void DoProbe(Vector *param_1); // size[1182]
 	void ProbeZ(Vector *param_1, Vector *param_2, float *param_3); // size[577]
-	void MoveExecute_Alive(float param_1); // size[2530]
+	void MoveExecute_Alive(float param_1); // size[897]
 	void AttackSound(); // size[44]
 	void BiteSound(); // size[44]
 	void InitCustomSchedules(); // size[352]

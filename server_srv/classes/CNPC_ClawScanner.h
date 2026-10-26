@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x68F02840 (1760569408) bytes
+// Estimated minimum size: 0x2768 (10088) bytes
 
 class CNPC_ClawScanner : public CNPC_CScanner
 {

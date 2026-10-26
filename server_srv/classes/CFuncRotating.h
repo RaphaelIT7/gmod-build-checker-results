@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x68F02840 (1760569408) bytes
+// Estimated minimum size: 0x13F0 (5104) bytes
 
 class CFuncRotating : public CBaseEntity
 {
@@ -17,7 +17,7 @@ public:
 	virtual void StopLoopingSounds() override; // vtable[109]
 	virtual void CreateVPhysics() override; // vtable[157]
 
-	void InputGetSpeed(inputdata_t *param_1); // size[168]
+	void InputGetSpeed(inputdata_t *param_1); // size[81]
 	void GetNextMoveInterval(); // size[19]
 	void HurtTouch(CBaseEntity *param_1); // size[397]
 	void GetBaseMap(); // size[10]

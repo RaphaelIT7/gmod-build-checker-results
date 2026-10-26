@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x68F02840 (1760569408) bytes
+// Estimated minimum size: 0x4B74 (19316) bytes
 
 class CWeaponPhysCannon : public CBaseHL2MPCombatWeapon
 {
@@ -39,7 +39,7 @@ public:
 	void ApplyVelocityBasedForce(CBaseEntity *param_1, Vector *param_2, PhysGunForce_t param_3); // size[123]
 	void TraceLength(); // size[104]
 	void EntityAllowsPunts(CBaseEntity *param_1); // size[110]
-	void FindObjectTrace(CBasePlayer *param_1, CGameTrace *param_2); // size[457]
+	void FindObjectTrace(CBasePlayer *param_1, CGameTrace *param_2); // size[70]
 	void FindObjectInCone(Vector *param_1, Vector *param_2, float param_3); // size[634]
 	void DoEffectIdle(); // size[5]
 	void CanPickupObject(CBaseEntity *param_1); // size[169]
@@ -61,7 +61,7 @@ public:
 	void CloseElements(); // size[73]
 	void StopEffects(bool param_1); // size[51]
 	void DestroyEffects(); // size[27]
-	void WaitForUpgradeThink(); // size[124]
+	void WaitForUpgradeThink(); // size[614]
 	void ForceDrop(); // size[63]
 	void DropIfEntityHeld(CBaseEntity *param_1); // size[103]
 	void AttachObject(CBaseEntity *param_1, Vector *param_2); // size[239]

@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x68F02840 (1760569408) bytes
+// Estimated minimum size: 0x25EC (9708) bytes
 
 class CAI_ExpresserHost : public CAI_BaseHumanoid, public CAI_ExpresserSink
 {

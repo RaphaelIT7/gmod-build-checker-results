@@ -15,7 +15,7 @@ public:
 	void GetNodePosition(CBaseCombatCharacter *param_1, int param_2); // size[93]
 	void GetNodeYaw(int param_1); // size[49]
 	void AddNode(Vector *param_1, float param_2); // size[149]
-	void CreateLink(int param_1, int param_2, CAI_DynamicLink *param_3); // size[318]
+	void CreateLink(int param_1, int param_2, CAI_DynamicLink *param_3); // size[298]
 	void IsConnected(int param_1, int param_2); // size[118]
 	~CAI_Network(); // size[303]
 	void ListNodesInBox(CNodeList *param_1, int param_2, Vector *param_3, Vector *param_4, INodeListFilter *param_5); // size[420]

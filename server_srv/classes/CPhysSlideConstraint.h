@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x68F02840 (1760569408) bytes
+// Estimated minimum size: 0x1444 (5188) bytes
 
 class CPhysSlideConstraint : public CPhysConstraint, public IVPhysicsWatcher
 {
@@ -19,5 +19,5 @@ public:
 
 	void GetBaseMap(); // size[10]
 	void SoundThink(); // size[421]
-	void InputSetVelocity(inputdata_t *param_1); // size[411]
+	void InputSetVelocity(inputdata_t *param_1); // size[427]
 };

@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x68F02840 (1760569408) bytes
+// Estimated minimum size: 0x2654 (9812) bytes
 
 class CNPC_APCDriver : public CNPC_VehicleDriver
 {
@@ -35,6 +35,6 @@ public:
 	void InputDisableFiring(inputdata_t *param_1); // size[15]
 	void GetBaseMap(); // size[10]
 	void IsBeingCarried(); // size[266]
-	void InitCustomSchedules(); // size[1414]
+	void InitCustomSchedules(); // size[344]
 	void LoadSchedules(); // size[62]
 };

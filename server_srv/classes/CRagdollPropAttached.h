@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x68F02840 (1760569408) bytes
+// Estimated minimum size: 0x2014 (8212) bytes
 
 class CRagdollPropAttached : public CRagdollProp
 {
@@ -7,7 +7,7 @@ public:
 	virtual ~CRagdollPropAttached() override; // vtable[0]
 	virtual ~CRagdollPropAttached() override; // vtable[1]
 	virtual void GetServerClass() override; // vtable[10]
-	virtual void _ZN20CRagdollPropAttached40YouForgotToImplementOrDeclareServerClassEv() override; // vtable[11]
+	virtual void YouForgotToImplementOrDeclareServerClass() override; // vtable[11]
 	virtual void GetDataDescMap() override; // vtable[12]
 	virtual void VPhysicsUpdate(IPhysicsObject *param_1) override; // vtable[161]
 	virtual void OnAttemptPhysGunPickup(CBasePlayer *param_1, PhysGunPickup_t param_2); // vtable[0]

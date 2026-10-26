@@ -15,5 +15,5 @@ public:
 	virtual void GetLifetime(); // vtable[40]
 
 	void _GLOBAL__sub_I_PredictSubjectPosition(); // size[113]
-	void RefreshPath(INextBot *param_1, CBaseEntity *param_2, IPathCost *param_3, Vector *param_4); // size[4368]
+	void RefreshPath(INextBot *param_1, CBaseEntity *param_2, IPathCost *param_3, Vector *param_4); // size[3124]
 };

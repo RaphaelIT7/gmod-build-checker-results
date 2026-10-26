@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x68F02840 (1760569408) bytes
+// Estimated minimum size: 0x2880 (10368) bytes
 
 class CAI_BaseActor : public CAI_ExpresserHost
 {
@@ -92,10 +92,10 @@ public:
 	void GetBaseMap(); // size[10]
 	void IsServerSideFlexController(char *param_1); // size[35]
 	void RandomFaceFlex(CSceneEventInfo *param_1, CChoreoScene *param_2, CChoreoEvent *param_3); // size[621]
-	void UpdateLatchedValues(); // size[327]
+	void UpdateLatchedValues(); // size[482]
 	void ClampWithBias(PoseParameter_t param_1, float param_2, float param_3); // size[9]
 	void AccumulateIdealYaw(float param_1, float param_2); // size[95]
-	void SetAccumulatedYawAndUpdate(); // size[179]
+	void SetAccumulatedYawAndUpdate(); // size[110]
 	void UpdateBodyControl(); // size[430]
 	void UpdateHeadControl(Vector *param_1, float param_2); // size[2358]
 	void ClearExpression(); // size[107]

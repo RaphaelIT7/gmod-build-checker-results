@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x68F02840 (1760569408) bytes
+// Estimated minimum size: 0x25D0 (9680) bytes
 
 class CNPC_Houndeye : public CHL1BaseNPC
 {

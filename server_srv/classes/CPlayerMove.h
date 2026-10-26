@@ -15,5 +15,5 @@ public:
 	void CheckMovingGround(CBasePlayer *param_1, double param_2); // size[427]
 	void RunPreThink(CBasePlayer *param_1); // size[418]
 	void RunThink(CBasePlayer *param_1, double param_2); // size[194]
-	void RunCommand(CBasePlayer *param_1, CUserCmd *param_2, IMoveHelper *param_3); // size[2615]
+	void RunCommand(CBasePlayer *param_1, CUserCmd *param_2, IMoveHelper *param_3); // size[2377]
 };

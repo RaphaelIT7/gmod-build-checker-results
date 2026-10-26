@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x68F02840 (1760569408) bytes
+// Estimated minimum size: 0x26BC (9916) bytes
 
 class CNPC_Zombine : public CAI_BlendingHost, public CDefaultPlayerPickupVPhysics
 {

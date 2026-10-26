@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x68F02840 (1760569408) bytes
+// Estimated minimum size: 0x2604 (9732) bytes
 
 class CNPC_FlockingFlyer : public CHL1BaseNPC
 {
@@ -32,10 +32,10 @@ public:
 	void SquadRemove(CNPC_FlockingFlyer *param_1); // size[301]
 	void BoidAdvanceFrame(); // size[204]
 	void Start(); // size[173]
-	void FPathBlocked(); // size[639]
+	void FPathBlocked(); // size[303]
 	void SpreadFlock(); // size[672]
 	void SpreadFlock2(); // size[509]
 	void FlockFollowerThink(); // size[1218]
 	void MakeSound(); // size[91]
-	void FlockLeaderThink(); // size[954]
+	void FlockLeaderThink(); // size[280]
 };

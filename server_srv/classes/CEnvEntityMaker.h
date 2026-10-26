@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x68F02840 (1760569408) bytes
+// Estimated minimum size: 0x1414 (5140) bytes
 
 class CEnvEntityMaker : public CPointEntity
 {
@@ -15,7 +15,7 @@ public:
 	void FindTemplate(); // size[167]
 	void HasRoomToSpawn(); // size[338]
 	void IsPlayerLooking(); // size[323]
-	void SpawnEntity(Vector param_1, QAngle param_2); // size[2276]
+	void SpawnEntity(Vector param_1, QAngle param_2); // size[1668]
 	void CheckSpawnThink(); // size[213]
 	void InputForceSpawn(inputdata_t *param_1); // size[181]
 	void InputForceSpawnAtEntityOrigin(inputdata_t *param_1); // size[198]

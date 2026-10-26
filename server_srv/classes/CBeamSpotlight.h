@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x68F02840 (1760569408) bytes
+// Estimated minimum size: 0x13F4 (5108) bytes
 
 class CBeamSpotlight : public CBaseEntity
 {
@@ -23,5 +23,4 @@ public:
 	void RecalcRotation(); // size[107]
 	void InputStart(inputdata_t *param_1); // size[30]
 	void InputStop(inputdata_t *param_1); // size[30]
-	void InputReverse(inputdata_t *param_1); // size[19]
 };

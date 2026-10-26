@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x68F02840 (1760569408) bytes
+// Estimated minimum size: 0x2BD0 (11216) bytes
 
 class CNPC_Combine : public CAI_BaseActor
 {
@@ -117,14 +117,14 @@ public:
 	void GetBaseMap(); // size[10]
 	void DelayAltFireAttack(float param_1); // size[52]
 	void DelaySquadAltFireAttack(float param_1); // size[151]
-	void StartTaskChaseEnemyContinuously(Task_t *param_1); // size[745]
+	void StartTaskChaseEnemyContinuously(Task_t *param_1); // size[722]
 	void RunTaskChaseEnemyContinuously(Task_t *param_1); // size[477]
 	void AnnounceAssault(); // size[302]
 	void AnnounceEnemyType(CBaseEntity *param_1); // size[78]
 	void AnnounceEnemyKill(CBaseEntity *param_1); // size[78]
-	void ShouldChargePlayer(); // size[77]
-	void SelectScheduleAttack(); // size[28]
-	void SelectCombatSchedule(); // size[28]
+	void ShouldChargePlayer(); // size[88]
+	void SelectScheduleAttack(); // size[1225]
+	void SelectCombatSchedule(); // size[1121]
 	void DeathSound(); // size[59]
 	void CheckCanThrowGrenade(Vector *param_1); // size[861]
 	void CanThrowGrenade(Vector *param_1); // size[397]
@@ -132,7 +132,7 @@ public:
 	void HasShotgun(); // size[60]
 	void ActiveWeaponIsFullyLoaded(); // size[85]
 	void IsUsingTacticalVariant(int param_1); // size[39]
-	void IsRunningApproachEnemySchedule(); // size[107]
+	void IsRunningApproachEnemySchedule(); // size[34]
 	void InitCustomSchedules(); // size[346]
 	void LoadSchedules(); // size[62]
 	CNPC_Combine(); // size[20]

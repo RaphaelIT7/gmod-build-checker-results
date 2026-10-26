@@ -10,7 +10,7 @@ public:
 	void GetBaseMap(); // size[7]
 	void CanHearSound(CSound *param_1); // size[363]
 	void Listen(); // size[161]
-	void ShouldSeeEntity(CBaseEntity *param_1); // size[189]
+	void ShouldSeeEntity(CBaseEntity *param_1); // size[188]
 	void CanSeeEntity(CBaseEntity *param_1); // size[144]
 	void NoteSeenEntity(CBaseEntity *param_1); // size[35]
 	void WaitingUntilSeen(CBaseEntity *param_1); // size[215]

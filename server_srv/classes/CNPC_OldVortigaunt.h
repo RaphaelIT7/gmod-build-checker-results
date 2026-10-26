@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x68F02840 (1760569408) bytes
+// Estimated minimum size: 0x25F8 (9720) bytes
 
 class CNPC_OldVortigaunt : public CHL1BaseNPC
 {
@@ -42,7 +42,7 @@ public:
 
 	void GetBaseMap(); // size[10]
 	void CallForHelp(char *param_1, float param_2, CBaseEntity *param_3, Vector *param_4); // size[163]
-	void ArmBeam(int param_1); // size[1258]
+	void ArmBeam(int param_1); // size[301]
 	void BeamGlow(); // size[189]
 	void WackBeam(int param_1, CBaseEntity *param_2); // size[337]
 	void ZapBeam(int param_1); // size[216]

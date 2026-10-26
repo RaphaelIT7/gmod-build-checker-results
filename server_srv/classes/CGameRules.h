@@ -19,7 +19,7 @@ public:
 	void CheckHaptics(CBasePlayer *param_1); // size[5]
 	void CanHaveAmmo(CBaseCombatCharacter *param_1, char *param_2); // size[46]
 	void GetPlayerSpawnSpot(CBasePlayer *param_1); // size[295]
-	void RefreshSkillData(bool param_1); // size[119]
+	void RefreshSkillData(bool param_1); // size[155]
 	void EndGameFrame(); // size[124]
 	void WeaponTraceEntity(CBaseEntity *param_1, Vector *param_2, Vector *param_3, uint param_4, CGameTrace *param_5); // size[49]
 	void CreateStandardEntities(); // size[56]

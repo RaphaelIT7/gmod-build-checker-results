@@ -2391,7 +2391,7 @@
     "Host_IncrementCVar_f without a varname\n",
     "Usage: multvar varName minValue maxValue factor\n",
     "Protocol version %i\nNetwork version %s (%s)\n",
-    "Exe build: 21:03:26 Oct 23 2026 (%i) (%i)\n",
+    "Exe build: 16:36:05 Oct 26 2026 (%i) (%i)\n",
     "GMod version %s, branch: %s, multicore: %i\n",
     "map load failed: %s not found or invalid\n",
     "changelevel <levelname> : continue game on a new level\n",

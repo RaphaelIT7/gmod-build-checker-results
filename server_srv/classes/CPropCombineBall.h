@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x68F02840 (1760569408) bytes
+// Estimated minimum size: 0x15B4 (5556) bytes
 
 class CPropCombineBall : public CBaseAnimating, public CDefaultPlayerPickupVPhysics
 {

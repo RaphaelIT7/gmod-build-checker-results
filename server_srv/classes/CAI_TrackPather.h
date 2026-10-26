@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x68F02840 (1760569408) bytes
+// Estimated minimum size: 0x2668 (9832) bytes
 
 class CAI_TrackPather : public CAI_BaseNPC
 {

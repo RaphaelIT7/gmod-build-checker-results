@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x68F02840 (1760569408) bytes
+// Estimated minimum size: 0x26BC (9916) bytes
 
 class CNPC_BaseScanner : public CAI_BasePhysicsFlyingBot, public CDefaultPlayerPickupVPhysics
 {
@@ -90,7 +90,7 @@ public:
 	void GetGoalDirection(Vector *param_1); // size[166]
 	void IdealGoalForMovement(Vector *param_1, Vector *param_2, float param_3, float param_4); // size[483]
 	void VelocityToEvade(CBaseCombatCharacter *param_1); // size[570]
-	void UpdateHead(float param_1); // size[162]
+	void UpdateHead(float param_1); // size[1222]
 	void ScannerEmitSound(char *param_1); // size[143]
 	void DiveBombSoundThink(); // size[609]
 	void InitCustomSchedules(); // size[352]

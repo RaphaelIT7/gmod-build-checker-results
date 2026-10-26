@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x68F02840 (1760569408) bytes
+// Estimated minimum size: 0x2610 (9744) bytes
 
 class CNPC_CombineCamera : public CAI_BaseNPC
 {
@@ -33,24 +33,24 @@ public:
 	CNPC_CombineCamera(); // size[18]
 	void GetTarget(); // size[57]
 	void UpdateFacing(); // size[103]
-	void MaintainEnemy(); // size[85]
-	void TrackTarget(CBaseEntity *param_1); // size[60]
+	void MaintainEnemy(); // size[304]
+	void TrackTarget(CBaseEntity *param_1); // size[106]
 	void MaintainEye(); // size[750]
 	void PreThink(cameraState_e param_1); // size[116]
-	void SetEyeState(eyeState_t param_1); // size[3356]
+	void SetEyeState(eyeState_t param_1); // size[3366]
 	void Ping(); // size[73]
-	void SearchThink(); // size[40]
+	void SearchThink(); // size[87]
 	void Enable(); // size[66]
 	void InputEnable(inputdata_t *param_1); // size[9]
 	void Disable(); // size[69]
-	void Toggle(); // size[21]
+	void Toggle(); // size[30]
 	void InputToggle(inputdata_t *param_1); // size[9]
 	void InputDisable(inputdata_t *param_1); // size[9]
 	void SetAngry(bool param_1); // size[298]
-	void ActiveThink(); // size[990]
+	void ActiveThink(); // size[440]
 	void InputSetAngry(inputdata_t *param_1); // size[16]
 	void InputSetIdle(inputdata_t *param_1); // size[16]
-	void SetHeight(float param_1); // size[430]
-	void Deploy(); // size[29]
+	void SetHeight(float param_1); // size[110]
+	void Deploy(); // size[74]
 	void DeathThink(); // size[328]
 };

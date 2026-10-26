@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x68F02840 (1760569408) bytes
+// Estimated minimum size: 0x1560 (5472) bytes
 
 class CBaseAnimating : public CBaseEntity
 {
@@ -192,7 +192,7 @@ public:
 	void IsSequenceLooping(CStudioHdr *param_1, int param_2); // size[29]
 	void DisableServerIK(); // size[150]
 	void UnlockStudioHdr(); // size[459]
-	void OnSpawnGib(CBaseEntity *param_1, bool param_2); // size[382]
+	void OnSpawnGib(CBaseEntity *param_1, bool param_2); // size[280]
 	void GetModelPtr(); // size[71]
 	void SetPoseParameter(int param_1, float param_2); // size[97]
 };

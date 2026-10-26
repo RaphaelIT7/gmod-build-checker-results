@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x68F02840 (1760569408) bytes
+// Estimated minimum size: 0x14A0 (5280) bytes
 
 class CEnvBeam : public CBeam
 {

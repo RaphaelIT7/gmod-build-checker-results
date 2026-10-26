@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x68F02840 (1760569408) bytes
+// Estimated minimum size: 0x15AC (5548) bytes
 
 class CMortar : public CHL1BaseGrenade
 {

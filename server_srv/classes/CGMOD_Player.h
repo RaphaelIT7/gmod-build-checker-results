@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x68F02840 (1760569408) bytes
+// Estimated minimum size: 0x2FB4 (12212) bytes
 
 class CGMOD_Player : public CHL2MP_Player
 {
@@ -65,13 +65,13 @@ public:
 	void GetBaseMap(); // size[10]
 	CGMOD_Player(); // size[615]
 	void Kill(); // size[51]
-	void KillSilent(); // size[243]
+	void KillSilent(); // size[217]
 	void ResetForceTransmitTimes(); // size[206]
 	void onDisconnect(); // size[285]
-	void GetUniqueID(); // size[478]
+	void GetUniqueID(); // size[383]
 	void StartWalking(); // size[12]
 	void StopWalking(); // size[82]
 	void GetPlayerInfo(char *param_1, char *param_2); // size[78]
 	void GetPlayerInfoFloat(char *param_1, float param_2); // size[68]
-	void PlayGesture(int param_1); // size[314]
+	void PlayGesture(int param_1); // size[262]
 };

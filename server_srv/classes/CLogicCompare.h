@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x68F02840 (1760569408) bytes
+// Estimated minimum size: 0x1404 (5124) bytes
 
 class CLogicCompare : public CLogicalEntity
 {
@@ -12,7 +12,7 @@ public:
 	void InputSetValue(inputdata_t *param_1); // size[33]
 	void InputSetCompareValue(inputdata_t *param_1); // size[33]
 	void GetBaseMap(); // size[10]
-	void DoCompare(CBaseEntity *param_1, float param_2); // size[485]
+	void DoCompare(CBaseEntity *param_1, float param_2); // size[112]
 	void InputSetValueCompare(inputdata_t *param_1); // size[56]
 	void InputCompare(inputdata_t *param_1); // size[42]
 };

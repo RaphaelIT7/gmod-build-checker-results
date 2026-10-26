@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x68F02840 (1760569408) bytes
+// Estimated minimum size: 0x1694 (5780) bytes
 
 class CBaseHL2MPBludgeonWeapon : public CBaseHL2MPCombatWeapon
 {

@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x68F02840 (1760569408) bytes
+// Estimated minimum size: 0x13C0 (5056) bytes
 
 class CAI_NetworkManager : public CPointEntity
 {
@@ -18,7 +18,7 @@ public:
 	void FixupHints(); // size[58]
 	CAI_NetworkManager(); // size[28]
 	void LoadNetworkGraph(); // size[164]
-	void SaveNetworkGraph(); // size[139]
+	void SaveNetworkGraph(); // size[6]
 	void StartRebuild(); // size[82]
 	void RebuildThink(); // size[59]
 	void BuildNetworkGraph(); // size[84]

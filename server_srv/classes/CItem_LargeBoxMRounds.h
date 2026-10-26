@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x68F02840 (1760569408) bytes
+// Estimated minimum size: 0x15C8 (5576) bytes
 
 class CItem_LargeBoxMRounds : public CItem
 {

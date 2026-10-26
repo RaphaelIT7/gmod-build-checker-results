@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x68F02840 (1760569408) bytes
+// Estimated minimum size: 0x26C0 (9920) bytes
 
 class CNPC_Stalker : public CAI_BehaviorHost
 {
@@ -163,13 +163,13 @@ public:
 	void GetBaseMap(); // size[10]
 	void LaserStartPosition(Vector param_1); // size[173]
 	void UpdateAttackBeam(); // size[868]
-	void CalcBeamPosition(); // size[916]
+	void CalcBeamPosition(); // size[78]
 	void StartAttackBeam(); // size[596]
 	void DoSmokeEffect(Vector *param_1); // size[123]
 	void DrawAttackBeam(); // size[484]
 	void KillAttackBeam(); // size[406]
 	void StalkerThink(); // size[299]
-	void AddZigZagToPath(); // size[60]
+	void AddZigZagToPath(); // size[1048]
 	void InitCustomSchedules(); // size[352]
 	void LoadSchedules(); // size[62]
 	CNPC_Stalker(); // size[19]

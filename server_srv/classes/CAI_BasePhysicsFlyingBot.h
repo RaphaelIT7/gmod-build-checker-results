@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x68F02840 (1760569408) bytes
+// Estimated minimum size: 0x2604 (9732) bytes
 
 class CAI_BasePhysicsFlyingBot : public CAI_BaseNPC, public IMotionEvent
 {

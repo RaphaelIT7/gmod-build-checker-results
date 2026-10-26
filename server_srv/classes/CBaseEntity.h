@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x68F02840 (1760569408) bytes
+// Estimated minimum size: 0x13B4 (5044) bytes
 
 class CBaseEntity : public IServerEntity
 {
@@ -288,7 +288,7 @@ public:
 	void ShouldDrawUnderwaterBulletBubbles(); // size[64]
 	void HandleShotImpactingWater(FireBulletsInfo_t *param_1, Vector *param_2, ITraceFilter *param_3, Vector *param_4); // size[1439]
 	void DispatchTraceAttack(CTakeDamageInfo *param_1, Vector *param_2, CGameTrace *param_3, CDmgAccumulator *param_4); // size[95]
-	void ComputeTracerStartPosition(Vector *param_1, Vector *param_2); // size[429]
+	void ComputeTracerStartPosition(Vector *param_1, Vector *param_2); // size[304]
 	void HealthFraction(); // size[109]
 	void TraceBleed(float param_1, Vector *param_2, CGameTrace *param_3, int param_4); // size[132]
 	void FollowEntity(CBaseEntity *param_1, bool param_2); // size[8]
@@ -426,7 +426,7 @@ public:
 	void TransformStepData_ParentToParent(CBaseEntity *param_1, CBaseEntity *param_2); // size[147]
 	void TransformStepData_WorldToParent(CBaseEntity *param_1); // size[87]
 	void FireNamedOutput(char *param_1, variant_t param_2, CBaseEntity *param_3, CBaseEntity *param_4, float param_5); // size[147]
-	void TakeDamage(CTakeDamageInfo *param_1); // size[1193]
+	void TakeDamage(CTakeDamageInfo *param_1); // size[909]
 	void SendOnKilledGameEvent(CTakeDamageInfo *param_1); // size[331]
 	void GetNextTarget(); // size[81]
 	void GetBaseMap(); // size[7]
@@ -450,9 +450,9 @@ public:
 	void GetTransmitState(); // size[21]
 	void SetTransmitState(int param_1); // size[84]
 	void DispatchUpdateTransmitState(); // size[57]
+	void InputEnableDraw(inputdata_t *param_1); // size[53]
 	void InputEnableShadow(inputdata_t *param_1); // size[53]
 	void InputEnableReceivingFlashlight(inputdata_t *param_1); // size[53]
-	void InputEnableDraw(inputdata_t *param_1); // size[53]
 	void StopFollowingEntity(); // size[100]
 	void GetEntitySkybox(); // size[129]
 	void DetectInSkybox(); // size[77]
@@ -478,7 +478,7 @@ public:
 	void ComputeAbsDirection(Vector *param_1, Vector *param_2); // size[143]
 	void CalcAbsoluteVelocity(); // size[285]
 	void IsInWorld(); // size[515]
-	void SUB_Vanish(); // size[474]
+	void SUB_Vanish(); // size[422]
 	void SetAbsOrigin(Vector *param_1); // size[248]
 	void SetAbsAngles(QAngle *param_1); // size[255]
 	void SetAbsVelocity(Vector *param_1); // size[424]
@@ -530,7 +530,7 @@ public:
 	void GetMaterialType(); // size[93]
 	void AI_GetClosestPlayer(); // size[112]
 	void VPhysicsTakeDamage(CTakeDamageInfo *param_1); // size[507]
-	void SetWaterLevel(int param_1); // size[182]
+	void SetWaterLevel(int param_1); // size[109]
 	void ClearAllOutputs(char *param_1); // size[163]
 	void InputClearAllOutputs(inputdata_t *param_1); // size[75]
 	void RemoveExpiredConcepts(); // size[109]
@@ -548,10 +548,10 @@ public:
 	void PhysicsDispatchThink(_func_void *param_1); // size[632]
 	void PhysicsCheckSweep(Vector *param_1, Vector *param_2, CGameTrace *param_3); // size[24]
 	void PhysicsTryMove(float param_1, CGameTrace *param_2); // size[2355]
-	void PhysicsAddHalfGravity(float param_1); // size[326]
+	void PhysicsAddHalfGravity(float param_1); // size[240]
 	void PhysicsPushEntity(Vector *param_1, CGameTrace *param_2); // size[782]
 	void PhysicsTestEntityPosition(CBaseEntity * *param_1); // size[246]
-	void PhysicsNone(); // size[91]
+	void PhysicsNone(); // size[80]
 	void PhysicsNoclip(); // size[277]
 	void PhysicsCustom(); // size[464]
 	void CheckStepSimulationChanged(); // size[172]

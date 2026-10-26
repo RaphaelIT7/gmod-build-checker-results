@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x68F02840 (1760569408) bytes
+// Estimated minimum size: 0x15E4 (5604) bytes
 
 class CGrenadeBeam : public CBaseGrenade
 {

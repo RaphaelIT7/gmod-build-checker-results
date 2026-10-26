@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x68F02840 (1760569408) bytes
+// Estimated minimum size: 0x17D0 (6096) bytes
 
 class CPhysicsPropMultiplayer : public CPhysicsProp, public IMultiplayerPhysics
 {

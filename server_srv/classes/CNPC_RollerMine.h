@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x68F02840 (1760569408) bytes
+// Estimated minimum size: 0x26AC (9900) bytes
 
 class CNPC_RollerMine : public CNPCBaseInteractive, public CDefaultPlayerPickupVPhysics
 {
@@ -91,7 +91,7 @@ public:
 	void WakeupMine(CAI_BaseNPC *param_1); // size[72]
 	void WakeNeighbors(); // size[461]
 	void BecomePhysical(); // size[226]
-	void GetHackedIdleSchedule(); // size[199]
+	void GetHackedIdleSchedule(); // size[349]
 	void SetRollerSkin(); // size[130]
 	void Close(); // size[102]
 	void IsPlayerVehicle(CBaseEntity *param_1); // size[109]

@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x68F02840 (1760569408) bytes
+// Estimated minimum size: 0x1798 (6040) bytes
 
 class CBaseFlex : public CBaseAnimatingOverlay
 {
@@ -39,17 +39,17 @@ public:
 	void ProcessGestureSceneEvent(CSceneEventInfo *param_1, CChoreoScene *param_2, CChoreoEvent *param_3); // size[6]
 	void PermitResponse(float param_1); // size[20]
 	void SetPermitResponse(float param_1); // size[3]
-	void EnterSceneSequence(CChoreoScene *param_1, CChoreoEvent *param_2, bool param_3); // size[941]
+	void EnterSceneSequence(CChoreoScene *param_1, CChoreoEvent *param_2, bool param_3); // size[622]
 	void HandleStartSequenceSceneEvent(CSceneEventInfo *param_1, CChoreoScene *param_2, CChoreoEvent *param_3, CChoreoActor *param_4); // size[748]
 	void ProcessSequenceSceneEvent(CSceneEventInfo *param_1, CChoreoScene *param_2, CChoreoEvent *param_3); // size[57]
 	void StartMoveToSceneEvent(CSceneEventInfo *param_1, CChoreoScene *param_2, CChoreoEvent *param_3, CChoreoActor *param_4, CBaseEntity *param_5); // size[163]
 	void ProcessFacingSceneEvent(CSceneEventInfo *param_1, CChoreoScene *param_2, CChoreoEvent *param_3); // size[698]
-	void ProcessMoveToSceneEvent(CSceneEventInfo *param_1, CChoreoScene *param_2, CChoreoEvent *param_3); // size[1768]
+	void ProcessMoveToSceneEvent(CSceneEventInfo *param_1, CChoreoScene *param_2, CChoreoEvent *param_3); // size[2924]
 	void ExitSceneSequence(); // size[10]
 	void IsSuppressedFlexAnimation(CSceneEventInfo *param_1); // size[150]
 	void DoBodyLean(); // size[1268]
-	void AddFlexAnimation(CSceneEventInfo *param_1); // size[1182]
-	void ProcessFlexAnimationSceneEvent(CSceneEventInfo *param_1, CChoreoScene *param_2, CChoreoEvent *param_3); // size[102]
+	void AddFlexAnimation(CSceneEventInfo *param_1); // size[1167]
+	void ProcessFlexAnimationSceneEvent(CSceneEventInfo *param_1, CChoreoScene *param_2, CChoreoEvent *param_3); // size[99]
 	void ClearSceneEvents(CChoreoScene *param_1, bool param_2); // size[205]
 	void RemoveSceneEvent(CChoreoScene *param_1, CChoreoEvent *param_2, bool param_3); // size[178]
 	CBaseFlex(); // size[701]

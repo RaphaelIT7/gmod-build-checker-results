@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x68F02840 (1760569408) bytes
+// Estimated minimum size: 0x2A84 (10884) bytes
 
 class CNPC_Monk : public CAI_PlayerAlly
 {
@@ -80,6 +80,6 @@ public:
 	void InputPerfectAccuracyOff(inputdata_t *param_1); // size[15]
 	void GetBaseMap(); // size[10]
 	void ShouldBackAway(); // size[266]
-	void InitCustomSchedules(); // size[387]
+	void InitCustomSchedules(); // size[324]
 	void LoadSchedules(); // size[62]
 };

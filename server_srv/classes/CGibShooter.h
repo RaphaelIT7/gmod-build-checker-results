@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x68F02840 (1760569408) bytes
+// Estimated minimum size: 0x13E8 (5096) bytes
 
 class CGibShooter : public CBaseEntity
 {
@@ -16,5 +16,5 @@ public:
 	void GetBaseMap(); // size[10]
 	void InitPointGib(CGib *param_1, Vector *param_2, float param_3); // size[132]
 	void SpawnGib(Vector *param_1, float param_2); // size[552]
-	void ShootThink(); // size[842]
+	void ShootThink(); // size[193]
 };

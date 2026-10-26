@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x68F02840 (1760569408) bytes
+// Estimated minimum size: 0x25DC (9692) bytes
 
 class CBlendingCycler : public CCycler
 {

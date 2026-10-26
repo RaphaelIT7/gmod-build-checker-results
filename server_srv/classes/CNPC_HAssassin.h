@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x68F02840 (1760569408) bytes
+// Estimated minimum size: 0x25FC (9724) bytes
 
 class CNPC_HAssassin : public CHL1BaseNPC
 {
@@ -36,7 +36,7 @@ public:
 	virtual void OnMoveExecuteFailed(AILocalMoveGoal_t *param_1, AIMoveTrace_t *param_2, AIMotorMoveResult_t param_3, AIMoveResult_t *param_4); // vtable[8]
 
 	void GetBaseMap(); // size[10]
-	void Shoot(); // size[1275]
+	void Shoot(); // size[477]
 	void InitCustomSchedules(); // size[352]
 	void LoadSchedules(); // size[62]
 };

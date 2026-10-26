@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x68F02840 (1760569408) bytes
+// Estimated minimum size: 0x25C4 (9668) bytes
 
 class CNewNPC : public CAI_BaseNPC
 {
@@ -25,6 +25,6 @@ public:
 	virtual void OnMoveExecuteFailed(AILocalMoveGoal_t *param_1, AIMoveTrace_t *param_2, AIMotorMoveResult_t param_3, AIMoveResult_t *param_4); // vtable[8]
 
 	void GetBaseMap(); // size[10]
-	void InitCustomSchedules(); // size[181]
+	void InitCustomSchedules(); // size[44]
 	void LoadSchedules(); // size[62]
 };

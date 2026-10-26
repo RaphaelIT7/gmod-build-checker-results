@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x68F02840 (1760569408) bytes
+// Estimated minimum size: 0x25F8 (9720) bytes
 
 class CSnark : public CHL1BaseNPC
 {
@@ -8,12 +8,12 @@ public:
 	virtual ~CSnark() override; // vtable[1]
 	virtual void GetDataDescMap() override; // vtable[12]
 	virtual void Spawn() override; // vtable[23]
-	virtual void _ZN6CSnark8PrecacheEv() override; // vtable[24]
-	virtual void Classify() override; // vtable[55]
+	virtual void Precache() override; // vtable[24]
+	virtual void _ZN6CSnark8ClassifyEv() override; // vtable[55]
 	virtual void Event_Killed(CTakeDamageInfo *param_1) override; // vtable[68]
 	virtual void GetDamage() override; // vtable[131]
 	virtual void SetDamage(float param_1) override; // vtable[132]
-	virtual void _ZNK6CSnark25PhysicsSolidMaskForEntityEv() override; // vtable[174]
+	virtual void PhysicsSolidMaskForEntity() override; // vtable[174]
 	virtual void ResolveFlyCollisionCustom(CGameTrace *param_1, Vector *param_2) override; // vtable[175]
 	virtual void ShouldGib(CTakeDamageInfo *param_1) override; // vtable[352]
 	virtual void Event_Gibbed(CTakeDamageInfo *param_1) override; // vtable[354]

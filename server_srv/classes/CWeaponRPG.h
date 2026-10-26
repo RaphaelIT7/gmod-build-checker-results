@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x68F02840 (1760569408) bytes
+// Estimated minimum size: 0x16B8 (5816) bytes
 
 class CWeaponRPG : public CBaseHL2MPCombatWeapon
 {

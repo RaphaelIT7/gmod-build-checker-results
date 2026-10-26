@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x68F02840 (1760569408) bytes
+// Estimated minimum size: 0x2604 (9732) bytes
 
 class CNPC_Leech : public CHL1BaseNPC
 {
@@ -32,6 +32,7 @@ public:
 	void AttackSound(); // size[79]
 	void SwitchLeechState(); // size[350]
 	void RecalculateWaterlevel(); // size[41]
+	void ObstacleDistance(CBaseEntity *param_1); // size[280]
 	void UpdateMotion(); // size[228]
-	void SwimThink(); // size[2249]
+	void SwimThink(); // size[1626]
 };

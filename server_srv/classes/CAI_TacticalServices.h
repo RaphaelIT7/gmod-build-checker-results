@@ -15,7 +15,7 @@ public:
 	void FindLateralCover(Vector *param_1, float param_2, Vector *param_3); // size[60]
 	void FindBackAwayNode(Vector *param_1); // size[903]
 	void TestLateralLos(Vector *param_1, Vector *param_2); // size[453]
-	void FindLateralLos(Vector *param_1, Vector *param_2); // size[842]
+	void FindLateralLos(Vector *param_1, Vector *param_2); // size[595]
 	void GetNodePos(int param_1); // size[82]
 	void FindBackAwayPos(Vector *param_1, Vector *param_2); // size[496]
 	void FindCoverNode(Vector *param_1, Vector *param_2, Vector *param_3, float param_4, float param_5); // size[2413]
@@ -24,5 +24,5 @@ public:
 	void FindCoverNode(Vector *param_1, Vector *param_2, float param_3, float param_4); // size[68]
 	void FindLosNode(Vector *param_1, Vector *param_2, float param_3, float param_4, float param_5, FlankType_t param_6, Vector *param_7, float param_8); // size[2171]
 	void FindLos(Vector *param_1, Vector *param_2, float param_3, float param_4, float param_5, FlankType_t param_6, Vector *param_7, float param_8, Vector *param_9); // size[180]
-	void FindLos(Vector *param_1, Vector *param_2, float param_3, float param_4, float param_5, Vector *param_6); // size[97]
+	void FindLos(Vector *param_1, Vector *param_2, float param_3, float param_4, float param_5, Vector *param_6); // size[9]
 };

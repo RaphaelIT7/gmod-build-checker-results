@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x68F02840 (1760569408) bytes
+// Estimated minimum size: 0x16A0 (5792) bytes
 
 class CWeaponBugBait : public CBaseHL2MPCombatWeapon
 {
@@ -32,6 +32,6 @@ public:
 	void BugbaitStickyTouch(CBaseEntity *param_1); // size[56]
 	void GetBaseMap(); // size[10]
 	CWeaponBugBait(); // size[54]
-	void ThrowGrenade(CBasePlayer *param_1); // size[1148]
+	void ThrowGrenade(CBasePlayer *param_1); // size[193]
 	void SetSporeEmitterState(bool param_1); // size[17]
 };

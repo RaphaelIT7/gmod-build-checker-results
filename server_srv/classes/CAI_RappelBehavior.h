@@ -76,7 +76,7 @@ public:
 
 	void _GLOBAL__sub_I_m_DataMap(); // size[113]
 	void GetBaseMap(); // size[10]
-	void SetDescentSpeed(); // size[345]
+	void SetDescentSpeed(); // size[95]
 	void BeginRappel(); // size[42]
 	void CutZipline(); // size[149]
 	void CreateZipline(); // size[420]

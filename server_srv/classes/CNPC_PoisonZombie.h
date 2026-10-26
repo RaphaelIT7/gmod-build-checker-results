@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x68F02840 (1760569408) bytes
+// Estimated minimum size: 0x26B8 (9912) bytes
 
 class CNPC_PoisonZombie : public CAI_BlendingHost
 {

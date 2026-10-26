@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x68F02840 (1760569408) bytes
+// Estimated minimum size: 0x1664 (5732) bytes
 
 class CBaseHL1MPCombatWeapon : public CBaseHL1CombatWeapon
 {
@@ -13,6 +13,6 @@ public:
 
 	void _GLOBAL__sub_I_GetServerClass(); // size[112]
 	CBaseHL1MPCombatWeapon(); // size[79]
-	void EjectShell(CBaseEntity *param_1, int param_2); // size[859]
+	void EjectShell(CBaseEntity *param_1, int param_2); // size[208]
 	void GetPlayerOwner(); // size[17]
 };

@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x68F02840 (1760569408) bytes
+// Estimated minimum size: 0x288C (10380) bytes
 
 class HL1_CNPC_GMan : public CAI_BaseActor
 {

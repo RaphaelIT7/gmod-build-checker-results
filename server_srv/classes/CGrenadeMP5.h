@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x68F02840 (1760569408) bytes
+// Estimated minimum size: 0x15A8 (5544) bytes
 
 class CGrenadeMP5 : public CHL1BaseGrenade
 {

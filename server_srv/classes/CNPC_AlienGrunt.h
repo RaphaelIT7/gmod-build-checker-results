@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x68F02840 (1760569408) bytes
+// Estimated minimum size: 0x25D8 (9688) bytes
 
 class CNPC_AlienGrunt : public CHL1BaseNPC
 {
@@ -44,6 +44,6 @@ public:
 	void ShouldSpeak(); // size[86]
 	void StopTalking(); // size[105]
 	void AttackSound(); // size[52]
-	void InitCustomSchedules(); // size[387]
-	void LoadSchedules(); // size[62]
+	void InitCustomSchedules(); // size[324]
+	void LoadSchedules(); // size[38]
 };

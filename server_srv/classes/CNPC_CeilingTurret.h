@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x68F02840 (1760569408) bytes
+// Estimated minimum size: 0x2624 (9764) bytes
 
 class CNPC_CeilingTurret : public CAI_BaseNPC
 {
@@ -35,9 +35,9 @@ public:
 	void SetLastSightTime(); // size[33]
 	void UpdateFacing(); // size[106]
 	void Shoot(Vector *param_1, Vector *param_2); // size[608]
-	void ActiveThink(); // size[366]
+	void ActiveThink(); // size[1855]
 	void PreThink(turretState_e param_1); // size[37]
-	void SetEyeState(eyeState_t param_1); // size[2261]
+	void SetEyeState(eyeState_t param_1); // size[163]
 	void Ping(); // size[73]
 	void SearchThink(); // size[631]
 	void Enable(); // size[82]
@@ -48,7 +48,7 @@ public:
 	void InputToggle(inputdata_t *param_1); // size[9]
 	void SpinUp(); // size[5]
 	void SpinDown(); // size[5]
-	void SetHeight(float param_1); // size[410]
+	void SetHeight(float param_1); // size[108]
 	void Retire(); // size[453]
 	void Deploy(); // size[380]
 	void DeathThink(); // size[289]

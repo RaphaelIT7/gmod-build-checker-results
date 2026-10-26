@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x68F02840 (1760569408) bytes
+// Estimated minimum size: 0x2884 (10372) bytes
 
 class CNPC_Furniture : public CAI_BaseActor
 {

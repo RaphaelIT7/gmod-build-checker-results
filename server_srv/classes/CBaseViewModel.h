@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x68F02840 (1760569408) bytes
+// Estimated minimum size: 0x15A0 (5536) bytes
 
 class CBaseViewModel : public CBaseAnimating, public IHasOwner
 {
@@ -36,5 +36,5 @@ public:
 	void SetIndex(int param_1); // size[47]
 	void ViewModelIndex(); // size[14]
 	void UpdateViewmodelHands(); // size[33]
-	void GetBaseMap(); // size[10]
+	void GetBaseMap(); // size[1]
 };

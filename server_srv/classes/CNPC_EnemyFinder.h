@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x68F02840 (1760569408) bytes
+// Estimated minimum size: 0x2640 (9792) bytes
 
 class CNPC_EnemyFinder : public CAI_BaseNPC
 {
@@ -40,6 +40,6 @@ public:
 	void InputTurnOff(inputdata_t *param_1); // size[58]
 	void InputTurnOn(inputdata_t *param_1); // size[59]
 	void GetBaseMap(); // size[10]
-	void InitCustomSchedules(); // size[181]
+	void InitCustomSchedules(); // size[44]
 	void LoadSchedules(); // size[62]
 };

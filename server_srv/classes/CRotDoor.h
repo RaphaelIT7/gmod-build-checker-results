@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x68F02840 (1760569408) bytes
+// Estimated minimum size: 0x1564 (5476) bytes
 
 class CRotDoor : public CBaseDoor
 {
@@ -12,5 +12,5 @@ public:
 	virtual void SetToggleState(int param_1) override; // vtable[247]
 	virtual void IsRotatingDoor() override; // vtable[248]
 
-	void GetBaseMap(); // size[10]
+	void GetBaseMap(); // size[1]
 };

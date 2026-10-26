@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x68F02840 (1760569408) bytes
+// Estimated minimum size: 0x2030 (8240) bytes
 
 class CBaseCombatCharacter : public CBaseFlex
 {
@@ -158,7 +158,7 @@ public:
 	void SetActiveWeapon(CBaseCombatWeapon *param_1); // size[203]
 	void Weapon_Detach(CBaseCombatWeapon *param_1); // size[183]
 	void DropWeaponForWeaponStrip(CBaseCombatWeapon *param_1, Vector *param_2, QAngle *param_3, float param_4); // size[555]
-	void Weapon_DropAll(bool param_1); // size[300]
+	void Weapon_DropAll(bool param_1); // size[244]
 	CBaseCombatCharacter(); // size[1240]
 	void ResetVisibilityCache(CBaseCombatCharacter *param_1); // size[612]
 };

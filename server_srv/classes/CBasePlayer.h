@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x68F02840 (1760569408) bytes
+// Estimated minimum size: 0x2A58 (10840) bytes
 
 class CBasePlayer : public CBaseCombatCharacter
 {
@@ -242,7 +242,7 @@ public:
 	void SetAllowWeaponsInVehicle(bool param_1); // size[328]
 	void CacheVehicleView(); // size[103]
 	void EyeVectors(Vector *param_1, Vector *param_2, Vector *param_3); // size[118]
-	void EyePositionAndVectors(Vector *param_1, Vector *param_2, Vector *param_3, Vector *param_4); // size[223]
+	void EyePositionAndVectors(Vector *param_1, Vector *param_2, Vector *param_3, Vector *param_4); // size[173]
 	void AbortReload(); // size[54]
 	void ClearPlayerSimulationList(); // size[130]
 	void ViewPunchReset(float param_1); // size[178]

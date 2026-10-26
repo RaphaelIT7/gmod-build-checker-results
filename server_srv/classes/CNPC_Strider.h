@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x68F02840 (1760569408) bytes
+// Estimated minimum size: 0x2758 (10072) bytes
 
 class CNPC_Strider : public CAI_BlendingHost, public IStriderMinigunHost
 {
@@ -172,9 +172,9 @@ public:
 	void InputDisableCrouch(inputdata_t *param_1); // size[15]
 	void InputDisableMoveToLOS(inputdata_t *param_1); // size[15]
 	void InputScaleGroundSpeed(inputdata_t *param_1); // size[33]
-	void InputCrouch(inputdata_t *param_1); // size[100]
-	void InputCrouchInstantly(inputdata_t *param_1); // size[107]
-	void InputStand(inputdata_t *param_1); // size[87]
+	void InputCrouch(inputdata_t *param_1); // size[34]
+	void InputCrouchInstantly(inputdata_t *param_1); // size[34]
+	void InputStand(inputdata_t *param_1); // size[34]
 	void InputClearTargetPath(inputdata_t *param_1); // size[105]
 	void InputEnableAggressiveBehavior(inputdata_t *param_1); // size[107]
 	void InputDisableMinigun(inputdata_t *param_1); // size[48]
@@ -189,8 +189,8 @@ public:
 	void CanShootThrough(CGameTrace *param_1, Vector *param_2); // size[416]
 	void CreateFocus(); // size[161]
 	void GetFocus(); // size[95]
-	void GetWeaponLosZ(Vector *param_1, float param_2, float param_3, float param_4, CBaseEntity *param_5, float *param_6); // size[1088]
-	void GatherHeightConditions(Vector *param_1, CBaseEntity *param_2); // size[31]
+	void GetWeaponLosZ(Vector *param_1, float param_2, float param_3, float param_4, CBaseEntity *param_5, float *param_6); // size[937]
+	void GatherHeightConditions(Vector *param_1, CBaseEntity *param_2); // size[2184]
 	void HuntSound(); // size[68]
 	void ShouldExplodeFromDamage(CTakeDamageInfo *param_1); // size[216]
 	void StartSmoking(); // size[215]
@@ -200,8 +200,8 @@ public:
 	void SetHeight(float param_1); // size[166]
 	void SetIdealHeight(float param_1); // size[66]
 	void SetAbsIdealHeight(float param_1); // size[106]
-	void IsStriderCrouching(); // size[35]
-	void IsStriderStanding(); // size[35]
+	void IsStriderCrouching(); // size[33]
+	void IsStriderStanding(); // size[33]
 	void HasPendingTargetPath(); // size[60]
 	void CannonPosition(); // size[131]
 	void GetCannonTarget(); // size[57]
@@ -213,12 +213,12 @@ public:
 	void CarriedThink(); // size[174]
 	void StompHit(int param_1); // size[1108]
 	void FootFX(Vector *param_1); // size[336]
-	void LeftFootHit(float param_1); // size[183]
-	void RightFootHit(float param_1); // size[79]
+	void LeftFootHit(float param_1); // size[32]
+	void RightFootHit(float param_1); // size[179]
 	void BackFootHit(float param_1); // size[179]
 	void CalculateStompHitPosition(CBaseEntity *param_1); // size[282]
 	void IsLegBoneFollower(CBoneFollower *param_1); // size[49]
-	void GetBoneFollowerByIndex(int param_1); // size[81]
+	void GetBoneFollowerByIndex(int param_1); // size[90]
 	void InputDisableCollisionWith(inputdata_t *param_1); // size[129]
 	void InputEnableCollisionWith(inputdata_t *param_1); // size[129]
 	void GetBoneFollowerIndex(CBoneFollower *param_1); // size[20]
@@ -230,6 +230,6 @@ public:
 	void LoadSchedules(); // size[62]
 	CNPC_Strider(); // size[26]
 	void SetTargetPath(); // size[843]
-	void InputSetTargetPath(inputdata_t *param_1); // size[183]
+	void InputSetTargetPath(inputdata_t *param_1); // size[115]
 	void GetAdjustedOrigin(); // size[119]
 };

@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x68F02840 (1760569408) bytes
+// Estimated minimum size: 0x25E8 (9704) bytes
 
 class CAI_BehaviorHost : public CAI_BlendedNPC, public IBehaviorBackBridge
 {

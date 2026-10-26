@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x68F02840 (1760569408) bytes
+// Estimated minimum size: 0x2974 (10612) bytes
 
 class CAI_PlayerAlly : public CAI_BaseActor
 {

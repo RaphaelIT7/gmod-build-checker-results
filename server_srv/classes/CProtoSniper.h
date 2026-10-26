@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x68F02840 (1760569408) bytes
+// Estimated minimum size: 0x269C (9884) bytes
 
 class CProtoSniper : public CAI_BaseNPC
 {
@@ -66,7 +66,7 @@ public:
 	void ClearTargetGroup(); // size[201]
 	void GetBulletOrigin(); // size[14]
 	void GetPaintAim(Vector *param_1, Vector *param_2, float param_3, Vector *param_4); // size[680]
-	void PaintTarget(Vector *param_1, float param_2); // size[1126]
+	void PaintTarget(Vector *param_1, float param_2); // size[1385]
 	void LaserOn(Vector *param_1, Vector *param_2); // size[1097]
 	void ClearOldDecoys(); // size[5]
 	void HasOldDecoy(CBaseEntity *param_1); // size[7]

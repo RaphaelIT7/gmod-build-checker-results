@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x68F02840 (1760569408) bytes
+// Estimated minimum size: 0x145C (5212) bytes
 
 class CLogicPlayerProxy : public CLogicalEntity
 {
@@ -15,7 +15,7 @@ public:
 	void InputLowerWeapon(inputdata_t *param_1); // size[88]
 	void InputEnableCappedPhysicsDamage(inputdata_t *param_1); // size[88]
 	void InputDisableCappedPhysicsDamage(inputdata_t *param_1); // size[88]
-	void InputRequestPlayerHealth(inputdata_t *param_1); // size[201]
+	void InputRequestPlayerHealth(inputdata_t *param_1); // size[114]
 	void InputRequestAmmoState(inputdata_t *param_1); // size[102]
 	void InputSetFlashlightSlowDrain(inputdata_t *param_1); // size[93]
 	void GetBaseMap(); // size[10]

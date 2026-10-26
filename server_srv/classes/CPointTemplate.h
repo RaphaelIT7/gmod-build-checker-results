@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x68F02840 (1760569408) bytes
+// Estimated minimum size: 0x141C (5148) bytes
 
 class CPointTemplate : public CLogicalEntity
 {

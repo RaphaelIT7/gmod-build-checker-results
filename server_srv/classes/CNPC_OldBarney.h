@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x68F02840 (1760569408) bytes
+// Estimated minimum size: 0x2AA4 (10916) bytes
 
 class CNPC_OldBarney : public CHL1NPCTalker
 {
@@ -16,7 +16,7 @@ public:
 	virtual void CanBecomeRagdoll() override; // vtable[255]
 	virtual void HandleAnimEvent(animevent_t *param_1) override; // vtable[261]
 	virtual void OnTakeDamage_Alive(CTakeDamageInfo *param_1) override; // vtable[338]
-	virtual void ShouldGib(CTakeDamageInfo *param_1) override; // vtable[352]
+	virtual void _ZN14CNPC_OldBarney9ShouldGibERK15CTakeDamageInfo() override; // vtable[352]
 	virtual void SelectSchedule() override; // vtable[408]
 	virtual void TranslateSchedule(int param_1) override; // vtable[410]
 	virtual void StartTask(Task_t *param_1) override; // vtable[411]
@@ -26,12 +26,12 @@ public:
 	virtual void SelectIdealState() override; // vtable[454]
 	virtual void GetSoundInterests() override; // vtable[468]
 	virtual void DeathSound(CTakeDamageInfo *param_1) override; // vtable[508]
-	virtual void AlertSound() override; // vtable[509]
+	virtual void _ZN14CNPC_OldBarney10AlertSoundEv() override; // vtable[509]
 	virtual void PainSound(CTakeDamageInfo *param_1) override; // vtable[511]
 	virtual void SquadSlotName(int param_1) override; // vtable[582]
 	virtual void RangeAttack1Conditions(float param_1, float param_2) override; // vtable[596]
 	virtual void GetClassScheduleIdSpace() override; // vtable[641]
-	virtual void DeclineFollowing() override; // vtable[729]
+	virtual void _ZN14CNPC_OldBarney16DeclineFollowingEv() override; // vtable[729]
 	virtual void CalcYawSpeed(); // vtable[0]
 	virtual void OnCalcBaseMove(AILocalMoveGoal_t *param_1, float param_2, AIMoveResult_t *param_3); // vtable[1]
 	virtual void OnObstructionPreSteer(AILocalMoveGoal_t *param_1, float param_2, AIMoveResult_t *param_3); // vtable[2]
@@ -75,10 +75,10 @@ public:
 
 	void SUB_LVFadeOut(); // size[560]
 	void GetBaseMap(); // size[10]
-	void TalkInit(); // size[13]
+	void TalkInit(); // size[42]
 	void SetYawSpeed(); // size[44]
-	void CheckRangeAttack1(float param_1, float param_2); // size[612]
-	void SUB_StartLVFadeOut(float param_1, bool param_2); // size[74]
+	void CheckRangeAttack1(float param_1, float param_2); // size[131]
+	void SUB_StartLVFadeOut(float param_1, bool param_2); // size[69]
 	void InitCustomSchedules(); // size[352]
 	void LoadSchedules(); // size[62]
 };

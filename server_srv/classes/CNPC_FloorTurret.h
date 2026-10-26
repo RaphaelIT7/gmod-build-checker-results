@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x68F02840 (1760569408) bytes
+// Estimated minimum size: 0x2724 (10020) bytes
 
 class CNPC_FloorTurret : public CNPCBaseInteractive, public CDefaultPlayerPickupVPhysics
 {
@@ -113,7 +113,7 @@ public:
 	void SpinUp(); // size[5]
 	void SpinDown(); // size[5]
 	void UpdateMuzzleMatrix(); // size[65]
-	void InitCustomSchedules(); // size[1463]
+	void InitCustomSchedules(); // size[393]
 	void LoadSchedules(); // size[62]
 	CNPC_FloorTurret(); // size[19]
 };

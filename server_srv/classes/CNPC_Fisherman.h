@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x68F02840 (1760569408) bytes
+// Estimated minimum size: 0x2EAC (11948) bytes
 
 class CNPC_Fisherman : public CNPC_PlayerCompanion
 {
@@ -62,6 +62,6 @@ public:
 	virtual void UseSemaphore(); // vtable[2]
 
 	void GetBaseMap(); // size[10]
-	void InitCustomSchedules(); // size[363]
+	void InitCustomSchedules(); // size[312]
 	void LoadSchedules(); // size[62]
 };

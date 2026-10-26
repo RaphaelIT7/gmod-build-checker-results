@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x68F02840 (1760569408) bytes
+// Estimated minimum size: 0x16A0 (5792) bytes
 
 class CWeaponFrag : public CBaseHL2MPCombatWeapon
 {
@@ -25,7 +25,7 @@ public:
 	CWeaponFrag(); // size[54]
 	void DecrementAmmo(CBaseCombatCharacter *param_1); // size[244]
 	void CheckThrowPosition(CBasePlayer *param_1, Vector *param_2, Vector *param_3); // size[427]
-	void ThrowGrenade(CBasePlayer *param_1); // size[996]
-	void LobGrenade(CBasePlayer *param_1); // size[947]
+	void ThrowGrenade(CBasePlayer *param_1); // size[111]
+	void LobGrenade(CBasePlayer *param_1); // size[111]
 	void RollGrenade(CBasePlayer *param_1); // size[581]
 };

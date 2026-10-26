@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x68F02840 (1760569408) bytes
+// Estimated minimum size: 0x2750 (10064) bytes
 
 class CFastZombie : public CNPC_BaseZombie
 {
@@ -39,7 +39,7 @@ public:
 	virtual void GetTimeToNavGoal() override; // vtable[527]
 	virtual void MovementCost(int param_1, Vector *param_2, Vector *param_3, float *param_4) override; // vtable[528]
 	virtual void MaxYawSpeed() override; // vtable[530]
-	virtual void IsJumpLegal(Vector *param_1, Vector *param_2, Vector *param_3) override; // vtable[535]
+	virtual void _ZNK11CFastZombie11IsJumpLegalERK6VectorS2_S2_() override; // vtable[535]
 	virtual void OverrideMoveFacing(AILocalMoveGoal_t *param_1, float param_2) override; // vtable[540]
 	virtual void IsCurTaskContinuousMove() override; // vtable[543]
 	virtual void OnMovementFailed() override; // vtable[545]
@@ -168,8 +168,8 @@ public:
 	virtual void BackBridge_HandleAnimEvent(animevent_t *param_1); // vtable[27]
 
 	void VehicleLeapAttackTouch(CBaseEntity *param_1); // size[68]
-	void LeapAttackTouch(CBaseEntity *param_1); // size[118]
-	void ClimbTouch(CBaseEntity *param_1); // size[175]
+	void LeapAttackTouch(CBaseEntity *param_1); // size[94]
+	void ClimbTouch(CBaseEntity *param_1); // size[162]
 	void InputAttachToVehicle(inputdata_t *param_1); // size[175]
 	void GetBaseMap(); // size[10]
 	void SetIdleSoundState(); // size[46]
@@ -185,6 +185,6 @@ public:
 	void VehicleLeapAttack(); // size[164]
 	void CanEnterVehicle(CPropJeepEpisodic *param_1); // size[43]
 	void ShouldFailNav(bool param_1); // size[273]
-	void InitCustomSchedules(); // size[369]
+	void InitCustomSchedules(); // size[318]
 	void LoadSchedules(); // size[62]
 };

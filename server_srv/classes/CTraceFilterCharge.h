@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x10 (16) bytes
+// Estimated minimum size: 0x4 (4) bytes
 
 class CTraceFilterCharge : public CTraceFilterEntitiesOnly
 {

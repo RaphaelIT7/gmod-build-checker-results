@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x68F02840 (1760569408) bytes
+// Estimated minimum size: 0x1718 (5912) bytes
 
 class CInstancedSceneEntity : public CSceneEntity
 {
@@ -31,5 +31,5 @@ public:
 	virtual void CheckEvent(float param_1, CChoreoScene *param_2, CChoreoEvent *param_3); // vtable[3]
 
 	void GetBaseMap(); // size[10]
-	void PassThrough(CBaseFlex *param_1); // size[198]
+	void PassThrough(CBaseFlex *param_1); // size[72]
 };

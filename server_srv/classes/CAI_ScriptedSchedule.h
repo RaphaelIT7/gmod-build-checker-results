@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x68F02840 (1760569408) bytes
+// Estimated minimum size: 0x13D8 (5080) bytes
 
 class CAI_ScriptedSchedule : public CBaseEntity
 {
@@ -14,6 +14,6 @@ public:
 	void FindScriptEntity(bool param_1); // size[422]
 	void StartSchedule(CAI_BaseNPC *param_1); // size[806]
 	void ScriptThink(); // size[203]
-	void StopSchedule(CAI_BaseNPC *param_1); // size[59]
+	void StopSchedule(CAI_BaseNPC *param_1); // size[39]
 	void InputStopSchedule(inputdata_t *param_1); // size[26]
 };

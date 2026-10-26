@@ -70,7 +70,7 @@ public:
 	void EvaluateNewAchievement(); // size[53]
 	void ShowProgressNotification(); // size[176]
 	void HandleProgressUpdate(); // size[83]
-	void IncrementCount(int param_1); // size[379]
+	void IncrementCount(int param_1); // size[400]
 	void IncrementCount(int param_1); // size[48]
 	void EnsureComponentBitSetAndEvaluate(int param_1); // size[435]
 	void OnComponentEvent(char *param_1); // size[91]

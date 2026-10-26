@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x68F02840 (1760569408) bytes
+// Estimated minimum size: 0x13EC (5100) bytes
 
 class CPathTrack : public CPointEntity
 {
@@ -34,7 +34,7 @@ public:
 	void EnablePath(); // size[53]
 	void DisablePath(); // size[53]
 	void ValidPath(CPathTrack *param_1, int param_2); // size[38]
-	void Project(CPathTrack *param_1, CPathTrack *param_2, Vector *param_3, float param_4); // size[180]
+	void Project(CPathTrack *param_1, CPathTrack *param_2, Vector *param_3, float param_4); // size[193]
 	void GetNext(); // size[114]
 	void GetPrevious(); // size[118]
 	void SetPrevious(CPathTrack *param_1); // size[70]

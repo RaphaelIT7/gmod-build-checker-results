@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x68F02840 (1760569408) bytes
+// Estimated minimum size: 0x14C4 (5316) bytes
 
 class CAntlionTemplateMaker : public CTemplateNPCMaker
 {
@@ -21,12 +21,13 @@ public:
 	virtual void IsDepleted() override; // vtable[251]
 	virtual void PrecacheTemplateEntity(CBaseEntity *param_1) override; // vtable[254]
 
-	void InputSetSpawnRadius(inputdata_t *param_1); // size[33]
+	void InputSetSpawnRadius(inputdata_t *param_1); // size[10]
+	void InputAddToPool(inputdata_t *param_1); // size[61]
 	void InputSetPoolRegenAmount(inputdata_t *param_1); // size[29]
 	void InputChangeDestinationGroup(inputdata_t *param_1); // size[29]
-	void InputSetMaxPool(inputdata_t *param_1); // size[83]
-	void InputSetPoolRegenTime(inputdata_t *param_1); // size[154]
-	void PoolRegenThink(); // size[215]
+	void InputSetMaxPool(inputdata_t *param_1); // size[109]
+	void InputSetPoolRegenTime(inputdata_t *param_1); // size[104]
+	void PoolRegenThink(); // size[199]
 	void GetBaseMap(); // size[10]
 	CAntlionTemplateMaker(); // size[26]
 	void ActivateSpore(char *param_1, Vector param_2); // size[98]
@@ -43,14 +44,14 @@ public:
 	void DestroyProxyTarget(); // size[85]
 	void CanMakeNPC(bool param_1); // size[142]
 	void ValidateSpawnPosition(Vector *param_1, CBaseEntity *param_2); // size[322]
-	void FindPositionOnFoot(Vector *param_1, float param_2, CBaseEntity *param_3); // size[71]
-	void FindPositionOnVehicle(Vector *param_1, float param_2, CBaseEntity *param_3); // size[125]
+	void FindPositionOnFoot(Vector *param_1, float param_2, CBaseEntity *param_3); // size[9]
+	void FindPositionOnVehicle(Vector *param_1, float param_2, CBaseEntity *param_3); // size[265]
 	void FindNearTargetSpawnPosition(Vector *param_1, float param_2, CBaseEntity *param_3); // size[157]
 	void DoBlockedEffects(CBaseEntity *param_1, Vector param_2); // size[260]
-	void PoolAdd(int param_1); // size[48]
+	void PoolAdd(int param_1); // size[33]
 	void UpdateChildren(); // size[271]
-	void InputSetFightTarget(inputdata_t *param_1); // size[51]
-	void InputSetFollowTarget(inputdata_t *param_1); // size[120]
+	void InputSetFightTarget(inputdata_t *param_1); // size[120]
+	void InputSetFollowTarget(inputdata_t *param_1); // size[108]
 	void InputClearFightTarget(inputdata_t *param_1); // size[32]
 	void InputClearFollowTarget(inputdata_t *param_1); // size[32]
 	void RemoveChild(CNPC_Antlion *param_1); // size[382]
@@ -61,5 +62,5 @@ public:
 	void FindHintSpawnPosition(Vector *param_1, float param_2, string_t param_3, CAI_Hint * *param_4, bool param_5); // size[395]
 	void AddChild(CNPC_Antlion *param_1); // size[141]
 	void FixupOrphans(); // size[90]
-	void FindNodesCloseToPlayer(); // size[6]
+	void FindNodesCloseToPlayer(); // size[99]
 };

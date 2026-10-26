@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x68F02840 (1760569408) bytes
+// Estimated minimum size: 0x13F0 (5104) bytes
 
 class CPoseController : public CBaseEntity
 {

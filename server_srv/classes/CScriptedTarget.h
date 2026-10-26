@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x68F02840 (1760569408) bytes
+// Estimated minimum size: 0x260C (9740) bytes
 
 class CScriptedTarget : public CAI_BaseNPC
 {
@@ -26,7 +26,7 @@ public:
 	void InputEnable(inputdata_t *param_1); // size[9]
 	void TurnOff(); // size[59]
 	void InputDisable(inputdata_t *param_1); // size[9]
-	void NextScriptedTarget(); // size[283]
+	void NextScriptedTarget(); // size[264]
 	void FindEntity(); // size[183]
 	void ScriptThink(); // size[103]
 };

@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x68F02840 (1760569408) bytes
+// Estimated minimum size: 0x2768 (10088) bytes
 
 class CNPC_CScanner : public CNPC_BaseScanner
 {
@@ -86,7 +86,7 @@ public:
 	void SpotlightDestroy(); // size[150]
 	void InputShouldInspect(inputdata_t *param_1); // size[179]
 	void SpotlightCreate(); // size[89]
-	void SpotlightTargetPos(); // size[637]
+	void SpotlightTargetPos(); // size[853]
 	void SpotlightCurrentPos(); // size[489]
 	void SpotlightUpdate(); // size[507]
 	void AttackPreFlash(); // size[586]
@@ -97,7 +97,7 @@ public:
 	void MoveToSpotlight(float param_1); // size[316]
 	void MoveToPhotograph(float param_1); // size[166]
 	void BestInspectTarget(); // size[1243]
-	void InitCustomSchedules(); // size[337]
+	void InitCustomSchedules(); // size[30]
 	void LoadSchedules(); // size[62]
 	CNPC_CScanner(); // size[379]
 };

@@ -113,7 +113,7 @@ public:
 	void CommandNavToggleInSelectedSet(); // size[166]
 	void CommandNavEndDragSelecting(); // size[194]
 	void CommandNavSelectHalfSpace(CCommand *param_1); // size[116]
-	void CommandNavSelectInvalidAreas(); // size[719]
+	void CommandNavSelectInvalidAreas(); // size[731]
 	void CommandNavSelectBlockedAreas(); // size[235]
 	void CommandNavSelectObstructedAreas(); // size[43]
 	void CommandNavSelectDamagingAreas(); // size[67]

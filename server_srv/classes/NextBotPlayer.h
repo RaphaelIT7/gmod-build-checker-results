@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x68F02840 (1760569408) bytes
+// Estimated minimum size: 0x308C (12428) bytes
 
 class NextBotPlayer : public CGMOD_Player, public INextBot, public INextBotPlayerInput
 {

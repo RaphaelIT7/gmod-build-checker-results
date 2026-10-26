@@ -8,7 +8,7 @@ public:
 	virtual ~CNavigator() override; // vtable[1]
 	virtual void MoveCalcBaseGoal(AILocalMoveGoal_t *param_1) override; // vtable[19]
 	virtual void MoveUpdateWaypoint(AIMoveResult_t *param_1) override; // vtable[28]
-	virtual void DoFindPathToPos() override; // vtable[29]
+	virtual void _ZN12CNPC_Strider10CNavigator15DoFindPathToPosEv() override; // vtable[29]
 	virtual void ShouldOptimizeInitialPathSegment(AI_Waypoint_t *param_1) override; // vtable[30]
 	virtual void GetStoppingPath(CAI_WaypointList *param_1) override; // vtable[31]
 	virtual void CalcYawSpeed(); // vtable[0]

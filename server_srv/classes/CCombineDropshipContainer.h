@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x68F02840 (1760569408) bytes
+// Estimated minimum size: 0x17B4 (6068) bytes
 
 class CCombineDropshipContainer : public CPhysicsProp
 {

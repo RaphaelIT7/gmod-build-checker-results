@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x68F02840 (1760569408) bytes
+// Estimated minimum size: 0x2988 (10632) bytes
 
 class CNPC_GMan : public CAI_PlayerAlly
 {
