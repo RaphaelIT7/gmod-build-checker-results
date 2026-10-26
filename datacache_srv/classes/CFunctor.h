@@ -4,6 +4,6 @@
 class CFunctor : public IRefCounted
 {
 public:
-	~CFunctor(); // size[14]
+	~CFunctor(); // size[6]
 	~CFunctor(); // size[18]
 };

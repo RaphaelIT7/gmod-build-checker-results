@@ -31,9 +31,9 @@ public:
 	virtual void IsFlagSet(int param_1); // vtable[4]
 
 	void GetInt(); // size[59]
-	ConVar(char *param_1, char *param_2, int param_3); // size[73]
-	ConVar(char *param_1, char *param_2, int param_3, char *param_4); // size[8]
-	ConVar(char *param_1, char *param_2, int param_3, char *param_4, bool param_5, float param_6, bool param_7, float param_8); // size[156]
+	ConVar(char *param_1, char *param_2, int param_3); // size[8]
+	ConVar(char *param_1, char *param_2, int param_3, char *param_4); // size[104]
+	ConVar(char *param_1, char *param_2, int param_3, char *param_4, bool param_5, float param_6, bool param_7, float param_8); // size[39]
 	ConVar(char *param_1, char *param_2, int param_3, char *param_4, _func_void_IConVar_ptr_char_ptr_float *param_5); // size[145]
 	ConVar(char *param_1, char *param_2, int param_3, char *param_4, bool param_5, float param_6, bool param_7, float param_8, _func_void_IConVar_ptr_char_ptr_float *param_9); // size[155]
 	void InstallChangeCallback(_func_void_IConVar_ptr_char_ptr_float *param_1); // size[56]
@@ -41,5 +41,5 @@ public:
 	void GetMin(float *param_1); // size[30]
 	void GetMax(float *param_1); // size[30]
 	void GetDefault(); // size[14]
-	void SetDefault(char *param_1); // size[24]
+	void SetDefault(char *param_1); // size[1]
 };

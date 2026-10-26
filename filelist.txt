@@ -1599,6 +1599,7 @@ maps/thumb/cp_gravelpit_snowy.png
 maps/thumb/cp_gullywash_final1.png
 maps/thumb/cp_hadal.png
 maps/thumb/cp_hardwood_final.png
+maps/thumb/cp_holyhell.png
 maps/thumb/cp_junction_final.png
 maps/thumb/cp_lavapit_final.png
 maps/thumb/cp_manor_event.png
@@ -1622,6 +1623,7 @@ maps/thumb/cp_sunshine.png
 maps/thumb/cp_sunshine_event.png
 maps/thumb/cp_vanguard.png
 maps/thumb/cp_well.png
+maps/thumb/cp_wildcat_event.png
 maps/thumb/cp_yukon_final.png
 maps/thumb/cppl_gavle.png
 maps/thumb/credits.png
@@ -1649,6 +1651,7 @@ maps/thumb/ctf_haarp.png
 maps/thumb/ctf_hellfire.png
 maps/thumb/ctf_helltrain_event.png
 maps/thumb/ctf_landfall.png
+maps/thumb/ctf_medi_evil.png
 maps/thumb/ctf_pelican_peak.png
 maps/thumb/ctf_penguin_peak.png
 maps/thumb/ctf_pressure.png
@@ -1949,6 +1952,7 @@ maps/thumb/koth_snowtower.png
 maps/thumb/koth_suijin.png
 maps/thumb/koth_synthetic_event.png
 maps/thumb/koth_toxic.png
+maps/thumb/koth_trainsawlaser.png
 maps/thumb/koth_undergrove_event.png
 maps/thumb/koth_viaduct.png
 maps/thumb/koth_viaduct_event.png
@@ -2122,6 +2126,7 @@ maps/thumb/pd_selbyen.png
 maps/thumb/pd_snowville_event.png
 maps/thumb/pd_watergate.png
 maps/thumb/pl_aquarius.png
+maps/thumb/pl_aridpass_event.png
 maps/thumb/pl_badwater.png
 maps/thumb/pl_barnblitz.png
 maps/thumb/pl_bloodwater.png

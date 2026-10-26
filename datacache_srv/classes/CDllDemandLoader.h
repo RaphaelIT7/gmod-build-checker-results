@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x10 (16) bytes
+// Estimated minimum size: 0xC (12) bytes
 
 class CDllDemandLoader
 {
@@ -7,7 +7,7 @@ public:
 	virtual ~CDllDemandLoader(); // vtable[0]
 	virtual ~CDllDemandLoader(); // vtable[1]
 
-	CDllDemandLoader(char *param_1); // size[31]
+	CDllDemandLoader(char *param_1); // size[15]
 	void GetFactory(); // size[87]
 	void Unload(); // size[38]
 };
