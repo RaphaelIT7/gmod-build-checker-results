@@ -131,7 +131,7 @@ public:
 	void InstallStringTables(); // size[371]
 	void RestoreTick(int param_1); // size[112]
 	void LinkInstanceBaselines(); // size[266]
-	void EntityPVSCheck(CClientFrame *param_1); // size[669]
+	void EntityPVSCheck(CClientFrame *param_1); // size[142]
 	void SignonComplete(); // size[74]
 	void UpdateStats(); // size[15]
 	void SendNetMsg(INetMessage *param_1, bool param_2); // size[150]
