@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x15DC (5596) bytes
+// Estimated minimum size: 0x15D0 (5584) bytes
 
 class CPhysMagnet : public CBaseAnimating, public IPhysicsConstraintEvent
 {

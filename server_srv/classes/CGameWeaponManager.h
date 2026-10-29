@@ -11,7 +11,6 @@ public:
 	virtual void Think() override; // vtable[48]
 
 	void _GLOBAL__sub_I_m_DataMap(); // size[113]
-	void InputSetMaxPieces(inputdata_t *param_1); // size[29]
-	void InputSetAmmoModifier(inputdata_t *param_1); // size[10]
+	void InputSetAmmoModifier(inputdata_t *param_1); // size[33]
 	void GetBaseMap(); // size[10]
 };

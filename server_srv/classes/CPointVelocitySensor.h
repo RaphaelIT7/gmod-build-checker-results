@@ -14,5 +14,5 @@ public:
 	void InputDisable(inputdata_t *param_1); // size[15]
 	void InputEnable(inputdata_t *param_1); // size[116]
 	void GetBaseMap(); // size[10]
-	void SampleVelocity(); // size[435]
+	void SampleVelocity(); // size[526]
 };

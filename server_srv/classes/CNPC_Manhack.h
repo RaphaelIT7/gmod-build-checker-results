@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x2700 (9984) bytes
+// Estimated minimum size: 0x2704 (9988) bytes
 
 class CNPC_Manhack : public CNPCBaseInteractive, public CDefaultPlayerPickupVPhysics
 {
@@ -130,5 +130,5 @@ public:
 	void MoveExecute_Dead(float param_1); // size[1308]
 	void InitCustomSchedules(); // size[352]
 	void LoadSchedules(); // size[62]
-	CNPC_Manhack(); // size[400]
+	CNPC_Manhack(); // size[454]
 };

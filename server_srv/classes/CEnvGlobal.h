@@ -12,7 +12,7 @@ public:
 
 	void InputSetCounter(inputdata_t *param_1); // size[144]
 	void InputAddToCounter(inputdata_t *param_1); // size[144]
-	void InputGetCounter(inputdata_t *param_1); // size[154]
+	void InputGetCounter(inputdata_t *param_1); // size[238]
 	void InputToggle(inputdata_t *param_1); // size[170]
 	void InputTurnOff(inputdata_t *param_1); // size[125]
 	void InputRemove(inputdata_t *param_1); // size[125]

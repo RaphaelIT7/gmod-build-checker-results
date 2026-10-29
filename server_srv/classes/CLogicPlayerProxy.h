@@ -15,7 +15,7 @@ public:
 	void InputLowerWeapon(inputdata_t *param_1); // size[88]
 	void InputEnableCappedPhysicsDamage(inputdata_t *param_1); // size[88]
 	void InputDisableCappedPhysicsDamage(inputdata_t *param_1); // size[88]
-	void InputRequestPlayerHealth(inputdata_t *param_1); // size[114]
+	void InputRequestPlayerHealth(inputdata_t *param_1); // size[201]
 	void InputRequestAmmoState(inputdata_t *param_1); // size[102]
 	void InputSetFlashlightSlowDrain(inputdata_t *param_1); // size[93]
 	void GetBaseMap(); // size[10]

@@ -11,6 +11,6 @@ public:
 
 	void InputEnable(inputdata_t *param_1); // size[15]
 	void InputDisable(inputdata_t *param_1); // size[15]
-	void InputValue(inputdata_t *param_1); // size[245]
+	void InputValue(inputdata_t *param_1); // size[329]
 	void GetBaseMap(); // size[10]
 };

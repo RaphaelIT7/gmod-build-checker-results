@@ -151,7 +151,7 @@ public:
 	void FindEntityRelationship(CBaseEntity *param_1); // size[359]
 	void FindHealthItem(Vector *param_1, Vector *param_2); // size[279]
 	void Weapon_IsOnGround(CBaseCombatWeapon *param_1); // size[98]
-	void Weapon_FindUsable(Vector *param_1); // size[1382]
+	void Weapon_FindUsable(Vector *param_1); // size[50]
 	void GiveAmmo(int param_1, char *param_2, bool param_3); // size[41]
 	void CalculatePhysicsStressDamage(vphysics_objectstress_t *param_1, IPhysicsObject *param_2); // size[164]
 	void ApplyStressDamage(IPhysicsObject *param_1, bool param_2); // size[510]

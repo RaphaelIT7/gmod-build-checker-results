@@ -154,7 +154,7 @@ public:
 	void ChargeLookAhead(); // size[5]
 	void ChargeSteer(); // size[390]
 	void ChargeDamage(CBaseEntity *param_1); // size[332]
-	void HandleChargeImpact(Vector param_1, CBaseEntity *param_2); // size[553]
+	void HandleChargeImpact(Vector param_1, CBaseEntity *param_2); // size[548]
 	void Explode(); // size[83]
 	void NumHuntersInMySquad(); // size[123]
 	void CanPlantHere(Vector *param_1); // size[32]

@@ -43,6 +43,7 @@ public:
 	void CanEnterVehicleImmediately(int *param_1, Vector *param_2, QAngle *param_3); // size[103]
 	void EnterVehicleImmediately(); // size[7]
 	void CanExitAtPosition(Vector *param_1); // size[320]
+	void GetStuckExitPos(Vector *param_1); // size[11]
 	void ExitStuckVehicle(); // size[150]
 	void UpdateVehicleEntrancePath(); // size[544]
 	void UseRadialRouteToEntryPoint(Vector *param_1); // size[285]

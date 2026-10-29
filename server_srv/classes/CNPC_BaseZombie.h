@@ -94,7 +94,7 @@ public:
 	void ShouldIgnite(CTakeDamageInfo *param_1); // size[6]
 	void CopyRenderColorTo(CBaseEntity *param_1, bool param_2); // size[502]
 	void IsSlumped(); // size[149]
-	void IsGettingUp(); // size[19]
+	void IsGettingUp(); // size[54]
 	void GetSwatActivity(); // size[69]
 	void RemoveHead(); // size[24]
 	void SetHeadcrabSpawnLocation(int param_1, CBaseAnimating *param_2); // size[401]

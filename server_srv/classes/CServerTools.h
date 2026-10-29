@@ -28,7 +28,7 @@ public:
 	virtual void _ZN12CServerTools23GetBaseEntityByEntIndexEi(); // vtable[21]
 	virtual void RemoveEntity(CBaseEntity *param_1); // vtable[22]
 	virtual void RemoveEntityImmediate(CBaseEntity *param_1); // vtable[23]
-	virtual void _ZN12CServerTools26GetEntityFactoryDictionaryEv(); // vtable[24]
+	virtual void GetEntityFactoryDictionary(); // vtable[24]
 	virtual void SetMoveType(CBaseEntity *param_1, int param_2); // vtable[25]
 	virtual void SetMoveType(CBaseEntity *param_1, int param_2, int param_3); // vtable[26]
 	virtual void ResetSequence(CBaseAnimating *param_1, int param_2); // vtable[27]

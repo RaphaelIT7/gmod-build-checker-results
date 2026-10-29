@@ -551,7 +551,7 @@ public:
 	void PhysicsAddHalfGravity(float param_1); // size[240]
 	void PhysicsPushEntity(Vector *param_1, CGameTrace *param_2); // size[782]
 	void PhysicsTestEntityPosition(CBaseEntity * *param_1); // size[246]
-	void PhysicsNone(); // size[80]
+	void PhysicsNone(); // size[91]
 	void PhysicsNoclip(); // size[277]
 	void PhysicsCustom(); // size[464]
 	void CheckStepSimulationChanged(); // size[172]

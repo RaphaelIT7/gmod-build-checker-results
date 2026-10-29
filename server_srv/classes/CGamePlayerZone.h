@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x1400 (5120) bytes
+// Estimated minimum size: 0x1410 (5136) bytes
 
 class CGamePlayerZone : public CRuleBrushEntity
 {
@@ -8,6 +8,6 @@ public:
 	virtual ~CGamePlayerZone() override; // vtable[1]
 	virtual void GetDataDescMap() override; // vtable[12]
 
-	void InputCountPlayersInZone(inputdata_t *param_1); // size[337]
+	void InputCountPlayersInZone(inputdata_t *param_1); // size[538]
 	void GetBaseMap(); // size[10]
 };

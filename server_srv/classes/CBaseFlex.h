@@ -35,7 +35,7 @@ public:
 	void CheckSceneEvent(float param_1, CChoreoScene *param_2, CChoreoEvent *param_3); // size[112]
 	void ProcessLookAtSceneEvent(CSceneEventInfo *param_1, CChoreoScene *param_2, CChoreoEvent *param_3); // size[198]
 	void IsRunningSceneMoveToEvent(); // size[91]
-	void FindNamedSetting(flexsettinghdr_t *param_1, char *param_2); // size[70]
+	void FindNamedSetting(flexsettinghdr_t *param_1, char *param_2); // size[67]
 	void ProcessGestureSceneEvent(CSceneEventInfo *param_1, CChoreoScene *param_2, CChoreoEvent *param_3); // size[6]
 	void PermitResponse(float param_1); // size[20]
 	void SetPermitResponse(float param_1); // size[3]

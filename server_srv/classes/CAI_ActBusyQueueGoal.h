@@ -20,7 +20,7 @@ public:
 	virtual void OnEntityDeleted(CBaseEntity *param_1); // vtable[2]
 
 	void GetBaseMap(); // size[10]
-	void RecalculateQueueCount(); // size[434]
+	void RecalculateQueueCount(); // size[510]
 	void MoveQueueUp(); // size[31]
 	void InputPlayerStoppedBlocking(inputdata_t *param_1); // size[60]
 	void RemoveNPCFromQueue(CAI_BaseNPC *param_1); // size[31]

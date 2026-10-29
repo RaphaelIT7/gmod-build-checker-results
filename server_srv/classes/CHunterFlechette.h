@@ -5,7 +5,7 @@ class CHunterFlechette : public CPhysicsProp, public IParentPropInteraction
 {
 public:
 	virtual ~CHunterFlechette() override; // vtable[0]
-	virtual void _ZN16CHunterFlechetteD0Ev() override; // vtable[1]
+	virtual ~CHunterFlechette() override; // vtable[1]
 	virtual void GetDataDescMap() override; // vtable[12]
 	virtual void Spawn() override; // vtable[23]
 	virtual void Precache() override; // vtable[24]

@@ -67,7 +67,7 @@ public:
 	void InputEquipMine(inputdata_t *param_1); // size[521]
 	void SpotlightCreate(); // size[1034]
 	void GetBaseMap(); // size[10]
-	void RequestInspectSupport(); // size[58]
+	void RequestInspectSupport(); // size[12]
 	void IsValidInspectTarget(CBaseEntity *param_1); // size[224]
 	void ClearInspectTarget(); // size[105]
 	void SetInspectTargetToEnt(CBaseEntity *param_1, float param_2); // size[73]

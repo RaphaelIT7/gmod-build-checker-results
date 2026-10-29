@@ -1,5 +1,5 @@
 // Generated header
-// Estimated minimum size: 0x164 (356) bytes
+// Estimated minimum size: 0x574 (1396) bytes
 
 class SVC_ServerInfo : public CNetMessage
 {

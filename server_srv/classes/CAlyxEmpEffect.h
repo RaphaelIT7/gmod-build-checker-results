@@ -16,7 +16,7 @@ public:
 	void _GLOBAL__sub_I_m_DataMap(); // size[112]
 	void GetBaseMap(); // size[10]
 	void SetTargetEntity(char *param_1); // size[164]
-	void InputSetTargetEnt(inputdata_t *param_1); // size[51]
+	void InputSetTargetEnt(inputdata_t *param_1); // size[17]
 	void SetTargetEntity(CBaseEntity *param_1); // size[49]
 	void ActivateAutomatic(CBaseEntity *param_1, CBaseEntity *param_2); // size[28]
 	void StartCharge(float param_1); // size[49]

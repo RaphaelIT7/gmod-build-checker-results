@@ -354,7 +354,7 @@ public:
 	void AddActivityToSR(char *param_1, int param_2); // size[52]
 	void GetActivityName(int param_1); // size[24]
 	void GetActivityID(char *param_1); // size[38]
-	void InitDefaultActivitySR(); // size[19366]
+	void InitDefaultActivitySR(); // size[26]
 	void NPCUse(CBaseEntity *param_1, CBaseEntity *param_2, USE_TYPE param_3, float param_4); // size[5]
 	void InputHolsterWeapon(inputdata_t *param_1); // size[18]
 	void InputHolsterAndDestroyWeapon(inputdata_t *param_1); // size[18]

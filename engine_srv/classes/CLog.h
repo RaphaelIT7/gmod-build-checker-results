@@ -26,5 +26,5 @@ public:
 	void Shutdown(); // size[49]
 	void Open(); // size[856]
 	CLog(); // size[83]
-	void AddLogAddress(netadr_s param_1); // size[138]
+	void AddLogAddress(netadr_s param_1); // size[129]
 };

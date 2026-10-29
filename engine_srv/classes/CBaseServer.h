@@ -95,6 +95,6 @@ public:
 	void RemoveTag(char *param_1); // size[5]
 	CBaseServer(); // size[428]
 	void RecalculateTags(); // size[34]
-	void UpdateMasterServer(); // size[565]
+	void UpdateMasterServer(); // size[222]
 	void RunFrame(); // size[419]
 };

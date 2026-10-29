@@ -14,7 +14,7 @@ public:
 	virtual void AddSoundscapeFile(char *param_1, char *param_2); // vtable[19]
 
 	void PrintDebugInfo(); // size[286]
-	void LoadManifestFile(char *param_1); // size[142]
+	void LoadManifestFile(char *param_1); // size[124]
 	void FlushSoundscapes(); // size[25]
 	void GetSoundscapeIndex(char *param_1); // size[18]
 	void IsValidIndex(int param_1); // size[23]

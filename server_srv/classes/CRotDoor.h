@@ -12,5 +12,5 @@ public:
 	virtual void SetToggleState(int param_1) override; // vtable[247]
 	virtual void IsRotatingDoor() override; // vtable[248]
 
-	void GetBaseMap(); // size[1]
+	void GetBaseMap(); // size[10]
 };
